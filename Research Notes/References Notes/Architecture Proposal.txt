@@ -57,7 +57,7 @@ answer doesn't just slip through.
 2. Query Agent reads the question and decides three things:
 + Is this actually about heart disease or diabetes? (if not, refuse 
 politely)
-+ Which one — heart, diabetes, or both?
++ Which one heart, diabetes, or both?
 + Rewrite the question to be clearer/more search-friendly (e.g. fix 
 vague pronouns, expand abbreviations)
 3. Retrieval searches the right knowledge base(s) for chunks of text 
