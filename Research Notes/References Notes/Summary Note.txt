@@ -1,0 +1,94 @@
+# Abstract
+- A summary note that consist of all the papers I have read as well
+as a brief overview of some papers.
+
+# 1. Papers
+- Total: 9 papers
+- Skimming:
++ Enhancing medical AI with retrieval-augmented generation: A mini 
+narrative review. (probably just skim through it all)
++ RAG in Health Care: A Novel Framework for Improving 
+Communication and Decision-Making by Addressing LLM Limitations.
+(Quick skim)
++ Benchmarking Retrieval-Augmented Generation for Medicine (skim but
+check out the results carefully)
++ GraphRAG (skim but be sure to understand how it works)
++ MedReason: Eliciting Factual Medical Reasoning Steps in LLMs via 
+Knowledge Graphs. (another approach worth noticing)
+
+- Deep read:
++ Retrieval augmented generation for large language models in 
+healthcare: A systematic review.
++ Medical Graph RAG: Towards Safe Medical Large Language 
+Model via Graph Retrieval-Augmented Generation
++ Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive 
+Review. (there are 2 version, 1 on arXiv and 1 in Journal, probably the 
+same thing so just skim through the second one)
++ Agentic Medical Knowledge Graphs Enhance Medical Question Answering.
+(It is the only agentic paper so worth diving deep into)
+
+# 2. Overview
+## 2.1. Retrieval augmented generation for large language models in 
+healthcare: A systematic review.
+- Datasets: mostly english with some chinese datasets.
+- Naive RAG, Advanced RAG and Modular RAG are included.
+- Proprietary models like GPT are the most used.
+- Provide a systematic review of RAG-based methodologies applied in 
+the medical domain.
+- Provide an overview of evaluation methods, including metrics used to 
+evaluate the performance of RAG pipelines.
+- Disscuss about the dataset such as QA/Dialogue -> Compare models and
+techniques -> Assess the proposed evaluation frameworks.
+
+## 2.2. Retrieval-Augmented Generation (RAG) in Healthcare: A 
+Comprehensive Review.
+- Synthesize the existing architectural variants.
+- Identify persistnet challenges.
+- Evaluate using both standard metrics and clinical-specific metrics
+
+## 2.3. Enhancing medical AI with retrieval-augmented generation: A 
+mini narrative review.
+- Similar to the other two papers
+
+## 2.4. RAG in Health Care: A Novel Framework for Improving 
+Communication and Decision-Making by Addressing LLM Limitations.
+- also similar
+
+## 2.5. Benchmarking Retrieval-Augmented Generation for Medicine
+- Just combining different datasets, retrievers and techniques.
+
+## 2.6. Medical Graph RAG: Towards Safe Medical Large Language 
+Model via Graph Retrieval-Augmented Generation
+- Proposing techniques and architectures to enchance the effectiveness
+of GraphRAG in medical field.
+- The approach is validated with various benchmarks and human 
+clinicians.
+- This method is build on top of GraphRAG with a new graph 
+construction method bc GraphRAG is not enough.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

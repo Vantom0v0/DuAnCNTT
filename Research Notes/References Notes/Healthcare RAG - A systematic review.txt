@@ -1,0 +1,111 @@
+# Overview
+- Datasets: mostly english with some chinese datasets.
+- Naive RAG, Advanced RAG and Modular RAG are included.
+- Proprietary models like GPT are the most used.
+- Provide a systematic review of RAG-based methodologies applied in 
+the medical domain.
+- Provide an overview of evaluation methods, including metrics used to 
+evaluate the performance of RAG pipelines.
+- Disscuss about the dataset such as QA/Dialogue -> Compare models and
+techniques -> Assess the proposed evaluation frameworks.
+
+# 1. Methods
+## 1.1. Inclusion criteria
+- Articles have to be in English.
+- Published between 2020 and 2025 about RAG and LLMs in medical domain.
+
+# 2. Results
+## 2.1. Studies
+- 70 studies were selected from 2,139 articles retrieved from Google
+scholar and PubMed
+
+## 2.3. Datasets
+- Existing datasets are divided into 2 categories: QA and information
+retrieval.
+- Most datasets are QA.
+- There are loads of datasets and benchmarks found (MIRAGE is also 
+included).
+
+# 3. RAG overview
+## 3.1. Naive RAG
+- Naive RAG is a basic implementation of RAG and one of the earliest 
+techniques employed to ground LLMs to generate text using relevant 
+information retrieved from external knowledge.
+- Follows 3 steps: indexing, retrieval and generation.
+
+## 3.2. Advanced RAG
+- Improve Naive RAG by having additional pre and post retrieval steps
+to refine information from the knowledge sources.
+- Limitations of Naive RAG: failure to retrieve all relevant 
+information, problem of integrating context from chunks retrieved and
+generating answers using irrelevant context.
+- Pre-retrieval: optimize data indexing, optimize indexing structures, 
+adding metadata, optimizing alignment and using mixed retrieval.
+- Retrieval: using embedding models -> find context by computing
+similarity between the prompt and the chunks.
+- Retrieval can be optimize by filtering the retrieved chunks using a 
+threshold on their similarity with the user query.
+- To deal with noise (document not directly relevant to the query) from 
+retrived content, post-retrieval combine the query with the relevant 
+contexts before feeing it to the LLM. An important step is to reorder 
+the retrieved information so that the most relevant content is closer 
+to the prompt (this step is applied in LangChain).
+- In generating medical dialogues, intergrating knowledge graphs (KGs)
+and dialogue systems are shown to be effective.
+- KGs alone can improve RAG alot. RAG enhanced by KG outperformed
+naive RAG with chain of thought.
+- In one study, to optimise the retrieval, they employed Facebook’s AI 
+Similarity Search (FAISS) and it did improve efficiency, and reduce 
+cost.
+- Using multiple retrievers also improve extraction.
+
+## 3.3. Modular RAG
+- Basically divide the RAF or Advanced RAG into modules along with 
+other modules with different functionali ties i guess?
+- Prompt-RAG scored better in relevance and informativeness, similarly 
+on readibility. On the downside, the response time was significantly
+slower.
+- Hypothesis Knowledge Graph Enhanced (HyKGE) framework was also 
+presented to improve the generation of responses from LLMs.
+- Ai Agents and Multi-agents systems have the potential to improve
+the capabilities of LLMs.
+
+# 4. Evaluation metrics and frameworks
+- 3 important aspects in RAG: user prompt, the retrieved context, 
+answer generation.
+- Commonly used metrics:
++ Accuracy: for LLM outputs
++ Completeness: how much relevant data did it retrieve.
++ Faithfulness: how much the LLM's output is from the provided context
+and is it consistently correct (not hallucinating).
++ Relevance: whether the answer is relevant to the query and whether
+the retrieved context is relevant to the query.
++ Fluency: does the text sound natural.
+- RAGAS (RAG Assessment) is one of the most commonly used framework.
+- There are still 2 main limitations: reliance on human evaluations and
+focus on output quality wihout considering the relevancy.
+
+# 5. Data analysis
+- Majority are in English
+- Majority use models from OpenAI
+- Open-source models have lower performance.
+- Majority use OpenAI's text-embedding-ada-002. Others inlcude BGE, 
+all-MiniLM-L6-v2.
+- Majority use dense passage retrievers as a retrieval method.
+- For pre-retrieval, strategies employed are enhancing data granularity,
+adding metadata, optimising indexing, mixed retrieval and alignment 
+optimisation. This involves methods such as chunking, knowledge graphs, 
+creating Table-of-Contents and entity masking.
+- one-shot learning, CoT, prompting and agents are also explored.
+
+# 6. Discussion
+- The language bias in datasets presents challenges in evaluating the 
+performance of RAG on non-English datasets.
+- Most studies focus on optimizing retrieval and generation. While it 
+does improve performance, it is marginal. They are also inadequate when
+dealing with complex medical queries.
+- Even with RAG, LLMs may not always answers as expected.
+- A lack of uniform evaluation metrics.
+- Retrieval quality, relevant retrieval remain a challenge.
+- The context window is limited with the current LLMs. Though, even 
+with larger context window, it is not certain to reduce hallucinations.

@@ -1,0 +1,93 @@
+# Abstract
+- Synthesizing 30 peer-reviewed studies on RAG.
+- Focusing on diagnostic support, electronic health record (EHR)
+summarization, and medical question answering.
+- Synthesize the existing architectural variants (naïve, advanced, and
+modular) and examine their deployment across these applications.
+- Challenges:
++ Retrieval noise
++ Domain shift (performance degradation when models are applied to data
+distributions different from their training set)
++ Generation latency
++ Limited explainability
+- Using both standard metrics and clinical-specific metrics for 
+evaluation.
+
+# 2. Methodology
+- A comprehensive search was performed in PubMed, IEEE Xplore, Scopus, 
+Web of Science, Google Scholar, and ACM Digital Library, covering 
+publications from 2022 to 2025.
+
+## 2.2. Data Retrieval and Screening
+- This review was conducted in accordance with the Preferred Reporting Items
+for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines.
+- 30 studies were included.
+
+# 4. Related Works
+## 4.2. RAG Chatbots for Patient Interaction
+- Kulshreshtha et al. propose a RAG-based medical chatbot using 
+standalone LLMs (LLaMa, LangChain, and BERT). It uses context-aware 
+embeddings, Faiss for retrieval. The methodology includes tokenization
+, retrieval, beam search, and post-processing. There are gaps in 
+multilingual support.
+- Sree et al. introduce a RAG-based LLM chatbot that employs agents 
+and modular tools for domain-specific retrieval and semantic 
+understanding, using indexing and embedding-based search to generate 
+real-time, relevant outputs. However, it lacks clinical validation, 
+deployment benchmarks, error analysis.
+
+## 4.5. Graph-Based and Ontology-Aware RAG Frameworks
+- Wu et al. introduce a graph-based RAG method for medical question
+answering. It improves reliability by linking user data to trusted
+medical sources using Triple Graph Construction and retrieves answers
+through a two-step U-Retrieval process. Tested on benchmarks, it 
+outperforms standard RAG, GraphRAG [56], and fine-tuned medical LLMs.
+However, challenges remain in adapting to live data, complex patient 
+queries, and maintaining explainability.
+
+# 5. Applications
+## 5.3. Medical Question Answering
+- Retrieving content from curated biomedical corpora (e.g., PubMedQA).
+- Anchoring answers in peer-reviewed literature or structured medical 
+knowledge, these systems reduce the hallucinations often
+seen in standalone LLMs. 
+- Indexing strategies like BM25 ensure relevance in long-form
+or open-ended queries, improving both reliability and transparency.
+
+# 6. Evaluation Framework: Metrics and Benchmarks
+## 6.1. Domain-Specific Metrics for Clinical Validation
+- FactScore
+- RadGraph-F1
+- MED-F1
+
+## 6.2. Generation Quality Metrics
+- Natural language generation (NLG) metrics are employed to assess
+the textual quality of model outputs:
++ BLEU (Bilingual Evaluation Understudy)
++ ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
++ F1 Score
++ BERTScore
+
+## 6.3. Retrieval Relevance Metrics
+- Evaluating the relevance and ranking of retrieved documents:
++ Recall@k
++ Mean Reciprocal Rank (MRR)
++ Normalized Discounted Cumulative Gain (nDCG@k)
+
+# 7. Challenges and Limitations
+- Include retrieval accuracy, generation latency, limited
+explainability, and data privacy concerns.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
