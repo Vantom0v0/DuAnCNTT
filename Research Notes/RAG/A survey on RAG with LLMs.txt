@@ -1,0 +1,11 @@
+# Abstract
+- A survey on RAG applications.
+
+# 2. Background
+- Find the publications on RAG.
+- Identify use case and applications
+= Classify the applications:
++ Task-based classification: the task it does (QA, summarization, etc.)
++ Disciplin-based classification: the domain it is used in (medical, 
+law, etc.).
++ Number of publications peaked in 2023.

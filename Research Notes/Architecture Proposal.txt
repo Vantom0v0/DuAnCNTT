@@ -1,0 +1,46 @@
+Single-Chain Adaptive Retrieval (self-calibrating thresholds, iterative
+ deepening)
+
+1. Bootstrap: Retrieve k documents for the original query → rerank → 
+take the single highest-scoring document → combine it with the original
+query to generate one follow-up question (1 LLM call) → retrieve k 
+documents using that question.
+
+2. Prune: Remove redundant/duplicate documents from the newly retrieved 
+batch.
+
+3. Score & filter: Score each surviving document as a weighted average 
+of global relevance (vs. original query) and local relevance 
+(vs. the query that retrieved it). Drop any document scoring below the
+acceptance threshold = the lowest score among the original k documents 
+from step 1.
+
+4. Rerank the remaining documents.
+
+5. Depth check: Take the top-scoring document from step 4. Continue 
+deeper only if all of the following hold: its score ≥ the expansion 
+threshold (t_e = average score of the original k documents), the 
+document budget isn't exhausted, and the depth limit hasn't been 
+reached.
+If yes → go to step 6.
+If no → go to step 8.
+
+6. Generate & retrieve next: Using the top-scoring document + the 
+original query + the parent query, generate the next follow-up 
+question (1 LLM call) and retrieve n < k documents with it.
+
+7. Loop: Return to step 2 with this new, smaller batch.
+
+8. Final generation: Pass all documents gathered along the chain, 
+organized layer by layer, into an LLM to produce the final answer.
+
+Key properties:
+- Only a single chain advances at each level (not a branching tree), 
+one document, one question, one LLM call per depth level.
+- Thresholds are self-calibrating, derived from the score spread of 
+the original k documents rather than fixed constants, acceptance uses 
+the lowest score, expansion uses the average.
+- Width narrows via n < k at each hop, and the chain terminates by 
+threshold, budget, or depth limit — whichever comes first.
+- Cost: roughly one LLM call per depth level for query generation, 
+plus one final-answer call (e.g. depth limit 4 → ~5 LLM calls total).

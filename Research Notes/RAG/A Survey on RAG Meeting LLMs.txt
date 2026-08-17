@@ -1,0 +1,80 @@
+# Abstract
+- Reviewing RAG LLMs studies in 3 categories:
++ Architectures
++ Training strategies
++ Applications
+- Discussing limitations and promissing directions
+
+# 2. RAG LLMs
+## 2.1. Retrieval
+- Dense and sparse retrieval
+- Sparse is straight forward, find using the words (TF-IDF or BM25).
+It can not be trained.
+- Dense uses embedding. Trainable: 
++ A common design is to use bi-encoder (one for query and one for 
+document). 
++ One typical success is Dense Passage Retriever (DPR).
++ Bi-encoders are also applied in ICL-based RAG (In context learning).
++ One-encoder retrievers (e.g. Contriver and Spider) are effective in
+many RAG LLM methods, such as In-context RALM, Atlas, and Self-RAG.
+- Retrieval granularity;
++ Early RAG retrives the whole document.
++ Chunk retrieval is the common method now.
++ There is also token revieval which is faster but it is costly for the 
+database.
++ Another major retrieval method is entity retrieval.
++ Another study propose to build the knowledge base by learning and 
+retrieving mention rather than entity
+
+## 2.2 Generation
+- Using black-box generation models are the mainstream method for
+generator. (i.e. Using close-soure models from GPT, Claude, etc.)
+- Black-box RA-LLMs, therefore, focus more on the retrieval and 
+augmentation processes, trying to enhance the generator by prompting.
+
+## 2.3 Retrieval Integration for Generation Augmentation
+- Input-layer Intergration: combine documents with query before 
+passing into an LLM or generator. In general, most black-box 
+generation-based RAG methods apply input-layer integration
+- Output-layer: combine the model's answer with the retrieved 
+information.
+- Intermediate: inject information inside the model.
+
+# 3. Training
+## 3.1. Training-free
+- Insert retrieved text into the prompt
+- 2 categories: 
++ Prompt-engineering RAG: retrieved/generated text goes into the prompt
+, no weights touched. Variants: standard concat (In-Context RALM), 
+interleave with reasoning steps instead of one-shot retrieval (IRCoT),
+skip retrieval and have the LLM generate its own context (GENREAD), let
+the model decide whether to even bother retrieving (SKR), decompose 
+ambiguous questions before retrieving by constructing a tree (TOC).
++ Retrieval-guided token generation: retrieval intervenes at 
+output/token level rather than input. kNN-LM — blends LM's next-token 
+distribution with a distribution built from similar past contexts 
+(accuracy/grounding). Rest — swaps the draft model in speculative 
+decoding for a retrieval datastore (speed, not accuracy).
+
+## 3.2. Independent Training
+- Train the LLMs and retriever seperately
+
+## 3.3. Sequential Training
+- To better enhance the synergy between LLms and retrievers.
+- Independently pretrain either the retriever or the LLMs --> keep
+the pretrained module fixed while training the other module.
+- 2 categories: retriever first or LLMs first
+- Retriever first: train retriever --> freeze --> train LLMs with the
+retrieved knowledge.
+- LLMs first: train LLMs --> tune the retriever under the supervision 
+of the LLMs.
+
+## 3.4. Joint Training
+- Train both simultaneously.
+
+# 5. Future challenges and opportunities
+- Trust-worthy RAG LLMs. Ideal trustworthiness should have robustness 
+(agaisnt malicious attackers), fairness, explainability, privacy.
+- Multi-Lingual RAG
+- Multimodal RAG
+- The quality of the external knowledge.

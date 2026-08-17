@@ -1,0 +1,121 @@
+# Notes
+## Summary
+- The **optimization** of RAG by exploring various methodologies, 
+particularly focusing on RAG methods, vector databases/stores, LLMs, 
+embedding models, and datasets.
+- RAG Methods include: Map Re-rank, Stuff, Map Reduce, Reﬁne, Query 
+Step-Down, Reciprocal.
+- Vector stores: ChromaDB, FAISS, and Pinecone.
+- Embedding models: Bge-en-small, Cohere-en-v3, and 
+Text-embedding-v3-large.
+- LLMs: Command-R, GPT-3.5-Turbo, and GPT-4o-Mini (Note: seems like
+they are only using GPT propriety model)
+- Datasets: Dokugami 10Q, LLama2, and MedQA
+- Contextual Compression filters: Similarity and Redundancy Thresholds.
+- Context quality is more important than similarity-based ranking or 
+other methods that aggregate all responses iteratively as the ﬁnal 
+output.
+-  The Reciprocal approach is effectiveand it addresses the query
+ambguity, though, it requires greater token usage and runtime.
+- Stuff method is a little lower than Reciprocal but it cuts down
+the token usage and runtime a lot.
+- Vectorstores are also important. Notably, ChromaDB shows superior
+runtime performance.
+- Inadequate context can deteriorate similarity scores.
+
+## Method
+### RAG
+- First gen RAG uses a pretrained Seq2seq BART with a non parametric
+memory.
+- Recent retrieval methods include embedding models and a preference
+for LLMs over Seq2seq. Using frameworks like Langchain & LlaAma-index.
+Embedding filters also improve RAG retrival speed (apply a threshold
+to filter the text vectors with similarity scores).
+
+### Vectorstores
+- Crucial for their fast and precise similarity searches & retrievals.
+- Unlike traditional databases, these assess similarity based on vector
+distance and embedding ﬁlters.
+- FAISS is a leading vector database. Pinecone is a notable choice.
+ChromaDB is more flexible and it is open-source.
+- Uses embedding model to embed text into vector then similarity search
+algorithms identify the vectors most similar to the query based on 
+various metrics, such as cosine similarity.
+
+### Search algorithms
+- Tree-based algorithms are widely employed in vector databases to
+measure the distance between similar top-K vectors.
+- Nearest neighbor search (NNS)
+- Exact closest neighbor search -> might not do well in big or 
+high-dimensional datasets.
+- Approximate NNS (ANNS) -> do well in big or high-dimensional 
+datasets.
+- Searching process: transmitting query embeddings to a vectorstore ->
+Identify similar vector embeddings -> retrieve top-K documents.
+
+### RAG Methods
+#### Stuff method
+- Query -> search -> retrieve -> incorperate the retrive documents 
+into the prompt which is then given to an LLM -> response.
+- Multiple context could increase the token usage. These RAG processes
+generally do not involve long documents.
+
+#### Refine method
+- Do the first pass normally, get the k-documents. Loop again k times
+with each time the LLM generating an answer for one document. Pass the
+answer and one more new document into the next loop and repeat.
+- Significantly makes more LLM calls.
+
+#### Map-reduce method
+- Similar to refine method but instead of combining the predecessor
+with the successor, RAG is applied independently for each document and 
+the final responses are mapped together. These mapped responses are 
+used as final context to generate the response.
+- Long context and document or the LLM's generated responses itself 
+might still cause high token usage.
+
+#### Map rerank method
+- This method closely resembles the Map Reduce method but incorporates 
+a ﬁltering application on each document to rank the responses. The 
+answer with the highest score is then provided as the output.
+
+### Advanced RAG
+- Previous methods focus on the final respone. However, the challenge
+during retrieve is also bc of the ambiguous queries which can result
+in irrelevant documents being included.
+- Advance methods include filtering documents, creating alternative
+question based on the original then rank them, or generate less 
+abstract queries.
+- Filtering documents by applying a similarity score threshold.
+- Apply a question "generator chain" to provide more relevant 
+questions.
+
+#### Contextual compression
+- Retrieve some documents, then filter the parts/documents that 
+aren't sufficiently relevant before giving them to the LLM.
+- Redundancy Compressor filter the retrieve documents that are similar
+to each other.
+- Need to balance the threshold score, too high and it filters 
+everything, but too low and irrelevant docs will leak in.
+
+#### Query step-down
+- Generate variant questions based on the context within the documents
+and the user query. For each generated question, retrieve top-k
+documents corresponding to each question.
+--> Reduce the context retrieved with for example Contextual 
+Compression could improve its effectiveness.
+--> Useful for domain-specific tasks where users may lack the 
+sufficient information about the content.
+
+#### Reciprocal RAG
+- Similar to Query step-down, but it employs a ranking mechanism to 
+selectively filter and retain only the most relevant answers from the 
+pool of possible responses.
+- This method potentially reduces token usage by prioritizing 
+relevance and precision in the ﬁnal output
+
+#Thoughts
+- This paper is highly relevant to my research question and proposed
+architecture. Especially Query step-down method.
+- Other information are also very useful for finetuning the 
+architecture before proposing to the lecturer.

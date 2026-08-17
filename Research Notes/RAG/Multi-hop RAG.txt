@@ -1,0 +1,11 @@
+# Notes
+## Summary
+- This is a benchmark for RAG with multi-hop queries.
+- 2 experiments: one compares the embedding models, the other is to
+examine the SOTA LLMs.
+- A multi-hop RAG dataset.
+
+## RAG with multi-hop queries
+### Multi-hop query
+- Iteratively explore new information from retrived information to
+answer a question with many components.

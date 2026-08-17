@@ -1,0 +1,99 @@
+# Notes
+## Summary
+- Review of RAG from early developments to recent SOTA implementations.
+- Key milestones and research trends.
+- Evaluating, benchmarking performance on retrieval accuracy, 
+generation fluency, latency, and computational efficiency.
+- Present persistent challenges.
+
+## Method
+## Foundation of RAG
+### Definition and key concepts
+- Chunking, embedding and reranking: A typical RAG pipeline
+
+### Techical components of RAG
+- Two primary components: retriever and generator
+- Modern RAG typically uses dense retrievers like Dense Passage
+Retrieval (DPR). A bi-encode encode both the query and the documents
+then calculate the similarity score. (e.g. FAISS).
+- Generator used seq2seq models but most RAG uses an LLM now.
+
+## Year-by-year progress in RAG
+- 2017-2019: early QA piplines and dense retrieval models
+- 2020: Introduction of RAG, DPR, REALM, FiD and MARGE
+- 2021: Fusion-in-decoder, EMDR2, KILT benchmark, REDCODER
+- 2022: RETRO, ATLAS, BlenderBOT3, Contriever
+- 2023: LLM-RAG, Self-RAG, SURGE, Adaptive retrieval.
+- 2024: SafeRAG, Multimodal RAG
+- 2025: GraphRAG, Agentic RAG, mtRAG benchmark
+
+### 2023
+- Knowledge-grounded dialogue: dialogue systems to improve consistency
+and informativeness. Kumari et al.[47] incorporate retrieved persona 
+and context snippets in long conversation modeling, showing that adding 
+relevant knowledge improves response quality. Similarly, Kang et al.
+[43] propose SURGE, which retrieves relevant subgraphs from a 
+knowledge graph and uses them to bias the response generation. SURGE 
+produces more coherent, factual responses grounded in the retrieved
+knowledge.
+- Benchmarks and evaluation: Knowledge-intensive benchmarks track RAG 
+progress. OpenQA tasks (Natural Questions, TriviaQA, HotpotQA) and the
+KILT benchmark suite (including QA, fact-checking, slot filling, etc.)
+are standard evaluation sets.
+- Evaluation tools: RAGAS, RAGTruth corpus
+
+### 2025
+- Graph with text retrieval
+- Agentic and selective retrieval: SIM-RAG, Self-Routing RAG
+
+## Evaluation of RAG systems
+### Evaluation Dimensions and Metrics
+- Retrieval accuracy: Recal@k, Mean Reciprocal Rank (MRR), Mean 
+Average Precision (MAP)
+- Generation quality: Exact Match (EM), F1 Score, BLEU, ROUGE, 
+Faithfulness/Hallucination rate.
+
+### Benchmarking and Datasets
+- Natural Questions (NQ), TriviaQA, and WebQuestions for open-domain
+QA.
+- FEVER and AveriTeC for fact-checking
+- KILT benchmark suite
+- BEIR evaluates retrieval
+
+### RAGAS system
+- A framework that evaluates factual consistency and grounding.
+
+## Challenges
+### Retrieval quality and relevance
+- Modern neural retrievers with dense embeddings improve performance 
+but still face issues like vocabulary mismatches, ambiguous queries, 
+and domain-specific terminology.
+- Determining the optimal number of retrieved passages (k) is also 
+complex.
+
+### Legal Domain
+#### Medical Domain
+- These applications commonly integrate authoritative medical 
+databases such as PubMed and UpToDate to provide reliable, 
+evidence-based responses.
+- The data must be from rigorously vetted sources.
+- Rapid Evolution of Medical Knowledge.
+- Current RAG implementations perform best on factual inquiries while
+open-ended diagnostic queries involving symptom analysis remain 
+challenging and risk inappropriate advice.
+- Bias in medical data
+- RAG systems providing medical advice may fall under regulatory 
+oversight such as FDA guidelines
+
+## Discussion and future direction
+### Future direction
+- Multi-hop retrieval
+- Multimodal and Agentic
+- Structured knowledge intergration
+- Real-time RAG
+
+
+# Thoughts
+- Provide some interesting evaluation metrics and benchmarks.
+- Some notable recent RAG models like GraphRAG, Self-RAG, Multihop
+should be reviewed.

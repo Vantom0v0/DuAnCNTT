@@ -1,0 +1,4 @@
+# Notes
+## Abstract
+- A query tree classifier to route to single-step or the tree.
+- Tree-based retrieval 

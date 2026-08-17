@@ -1,0 +1,27 @@
+# Notes
+## Summary
+- Generating multipl queries, reranking them with reciprocal scores and
+fusing the documents and scores.
+- However, this is just a chatbot for a company which did not get
+evaluated properly by RAG's benchmarks.
+
+## RAG-Fusion
+- Reciprocal rank fusion is an algorithm commonly used in search to 
+assign scores to every document and rerank them according to the
+scores.
+- Receive the original query, then use LLM to generate several new 
+search queries based on the original. Each query performs vector seach 
+for relevant documents but instead of sending those to the LLM, the 
+model performs reciprocal rank fusion. Calculate the rrf score for 
+each document before accumulating them. Documents are then fused
+together and reranked according to their scores.
+
+## Challenges
+- Slow
+- LLM can generate irrelevant queries.
+- Inability to provide definitely negative answers (this is also a
+challenge for RAG in general)
+
+# Thoughts
+- It is similar to my idea in terms of generating queries for each 
+document retrieved from the original query

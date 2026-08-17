@@ -1,0 +1,44 @@
+# Date: 15-8-26
+## Time: 4:31PM
+Report:
+- Found 6 surveys, and 8 tree-based RAG
+- Found the architecture I want to reserach (still needs further
+reviews on the previous literature)
+- The architecture can be found in architecture proposal note.
+- Read 2 surveys
+
+Next action:
+- Skim and read the remaining survey papers. (DL: tmr)
+- Ony add specific papers, no more surveys.
+
+# Date: 16-5-26
+## Time: 2:30PM
+Report:
+- Read 3 survey papers.
+- "Maxmimizing RAG efficiency" is very relevant and useful for
+my reseach question.
+- Added 2 more papers about "Query Step-down" and "Reciprocal RAG"
+mentioned in "Maximizing RAG efficiency".
+
+Action:
+- Quickly skim through other 3 survey papers. (DL: today)
+- Read the 2 newly added papers immediately after. (DL: today & tmr)
+- After that skim through the tree-baed RAG papers. (DL: tmr)
+- Skim graph RAG papers as well.
+
+## Time: 5:32PM
+Report:
+- Dropped 2 survey papers.
+- Remove Agentic, and Vietnamese from the project.
+- Done reading surveys, now onto reading model papers.
+
+## Time: 10:23PM
+Report:
+- Read the RAG-Fusion. Similar expanding style but that is it. Still
+useful and is highly relevant to my idea.
+
+Thoughts:
+- Take a step back is about a prompting techniques. Skimed through it.
+Though it is not RAG, it might still be useful for my idea. Should 
+read it after other models.
+
