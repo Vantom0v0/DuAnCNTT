@@ -1,0 +1,20 @@
+# Notes
+## Abstract
+- ReFeed generates inital outputs -> use retrieval to get relevant 
+information -> incorporate the retrieved information into the 
+in-context demonstration for output refinement.
+
+## Method
+- Prompt a model to generate an initial response to a query. Retrieve 
+documents using the query and the initial response. Refine the 
+response.
+- Introduce 2 modules:
++ Diversity the initial generation step, producing multiple output
+candidates. -> identify most reliable answer by exammining the broad
+range of retrieved documents.
+- Employs an ensemble approach that combines language model outputs 
+from both before and after the retrieval feedback process then 
+evaluate them.
+
+## Backbone LLM
+- Codex, Text-davinci-003

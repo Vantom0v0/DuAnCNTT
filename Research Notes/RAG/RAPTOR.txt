@@ -1,0 +1,13 @@
+# Notes
+## Abstract
+- Thinks that short chunks from retrieval isnt enough for 
+understanding of the overall document context.
+- Recursively embedding, clustering, and summarizing chunks of text, 
+constructing a tree with differing levels of summarization from the 
+bottom up.
+- Improve performance on the QuALITY benchmark by 20% in absolute 
+accuracy.
+- This is a summarization model.
+
+# Thoughts
+- Probably not related so I will stop 

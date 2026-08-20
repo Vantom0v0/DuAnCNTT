@@ -1,0 +1,42 @@
+# Notes
+## Abstract
+- Iterative RAG is good for multi-hop but it increases latency, cost,
+and risk of introducing distracting evidence. -> needs a stopping 
+strategy.
+- Existing methods: predetermined iterations or rely on confidence
+proxies that poorly relex whether an iteration is needed.
+
+## Related work
+- Iterative RAG
+- Adaptive RAG:
++ Prompting-based
++ Confidence-based
++ Training-involved
+
+## Stop-RAG
+- Value-based approach to decide whether further retrieval is necessary 
+in an iterative RAG pipeline
+
+### Iterative RAG as an MDP
+- The past interaction records become a state.
+- At t-th iteration, the state includes original query and answer AND
+the question, document and answer at the current iteration k.
+- Two action: stop or cont
+- If it reaches Stop then it transition into terminal state TERM.
+- Reaches the maximum iteration also turns it into TERM.
+- Rewards are assigned at terminal states and reflect the quality of
+the answer generation at that state.
+
+## Experiments
+### Setup
+- Datasets: multih-hop QA benchmarks.
+(Note: TriviaQA which is a single hop dataset is not evaluated, only
+multi-hop)
+- Evaluation metrics: exact match (EM), F1 scores, and accuracy score.
+
+## Baselines
+- CoRAG
+
+# Thoughts
+- Interesting paper
+- Relevant but not that high

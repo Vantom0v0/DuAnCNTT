@@ -1,0 +1,58 @@
+# Note
+## Abstract
+ - Retrievers struggle to capture relevance, especially for queries 
+with complex information needs. -> have LLM involves to guide retrieval
+with generation.
+- Task input -> model respond -> informative context -> retrieve more 
+relevant knowledge -> helps generate a better response in another 
+iteration.
+- Processes all retrieved knowledge as a whole and largely preserves 
+the flexibility in generation without structural constraints.
+- Evaluate on multi-hop question answering, fact verification, and 
+commonsense reasoning.
+
+## Iterative RAG
+### Overview
+- Retrieve top k doc from the vector storage then 
+- Generate an answer. 
+- Take that answer along with the original query to search for top k 
+doc again.
+- Then generate a newly improved answer. 
+- Repeat T times.
+
+### Generation-Augmented Retrieval Adaptation
+- Dense Retriever
+- Re-ranker: outputs the probability of a paragraph being relevant
+to a query.
+- Distillation: distill knowledge from a re-ranker to a retriever.
+
+## Experiments
+### Evaluation setting
+- all 125 questions from Bamboogle, the first 500 questions from the
+train set of StrategyQA, and the first 500 questions from the 
+development sets of the other datasets.
+- Evaluated under the 3-shot setting
+
+### Implementation Details
+- Text-davinci-003 version of InstructGPT and Llama-2 as the backend 
+LLM.
+- All experiments used greedy decoding.
+- Contriever-MSMARCO was used for retrieval.
+
+### Error analysis
+- 25% are false negatives.
+- 10% retrieves correctly but fails at reasoning.
+- Remaining 65% are related with retrieval. 76.9% of which, retrieval
+is misled by completely wrong reasoning from the first iteration, while 
+on the other cases, reasoning in the first iteration is partially 
+correct, but the retriever fails to retrieve the missing pieces in the 
+second iteration.
+- In the first iteration, reasoning can be negatively affected by noisy 
+and possibly distractive knowledge retrieved using only the questions
+as the queries.
+
+# Thoughts
+- This is the base of my idea, very very relevant.
+- This also confirms my hypothesis that processing all the documents
+together muddle the sementic of high quality document that was 
+retrieved. -> This is the gap.

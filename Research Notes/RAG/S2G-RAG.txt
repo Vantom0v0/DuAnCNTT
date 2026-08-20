@@ -1,0 +1,97 @@
+# Notes
+## Abstract
+- An iterative retrieval-augmented generation framework designed 
+specifically for complex, multi-hop question answering.
+- Introducing an explicit, modular controller that determines exactly 
+when the context is sufficient and, if it is not, identifies the exact
+"gap" in information that must be retrieved next
+
+## Method
+### Overview
+- The S2G-RAG system decouples retrieval control from final answer generation, dividing the loop into four 
+specialized components:
++ S2G-Judge (The Controller): A lightweight, fine-tuned model that 
+evaluates the question and current context to predict whether the 
+evidence is sufficient to answer, or if more information is missing.
++ Retriever: An off-the-shelf sparse (e.g., BM25) or dense (e.g., E5) 
+retrieval engine that uses queries generated from the judge's gap 
+items.
++ Sentence-level Evidence Extractor: An LLM-based pointer model that 
+extracts only the highly relevant, answer-bearing sentences from 
+newly retrieved documents, keeping the overall context compact.
++ Answer Reasoner: A decoupled LLM (such as Llama-3-8B-Instruct) that 
+is only called once the judge confirms the context is sufficient, 
+generating the final answer based purely on the consolidated context.
+
+### Detail Loop
+Step 1: Sufficiency & Gap Judging
+- At turn t, the S2G-Judge reads only the question q and the 
+accumulated evidence context C_t. It outputs a structured JSON schema 
+y_t=(s_t,G_t), where:
++ s_t is a binary sufficiency flag (true or false).
++ G_t is a set of structured gap items detailing what information is 
+missing.
+(Judge uses context only, ignoring its internal knowledge)
+
+Step 2: Termination Check
+- If s_t=true (or the max retrieval turn T is reached): The loop 
+terminates, and the Answer Reasoner receives the consolidated 
+context C_t to output the final answer.
+- If s_t=false: The pipeline continues to retrieve more information
+
+Step 3: Gap-Guided Query Construction
+- S2G-RAG maps the predicted structured gap items (G_t) into concrete 
+query phrases.
+- It builds a query q~t by prioritizing and concatenating the key 
+fields of the gap items and appending them to the original question.
+ 
+Step 4: Document Retrieval
+The Retriever uses the newly constructed query q~t to fetch the top-k 
+documents D_t from the corpus
+
+Step 5: Sentence-Level Evidence Extraction
+- To prevent the rapid buildup of redundant text and distracting 
+information, full documents are not directly added to the context. 
+- Instead, the Evidence Extractor splits the newly retrieved documents 
+into sentences. 
+- Prompted with the missing gaps G_t, it selects only the salient, 
+answer-bearing sentences using a pointer-based extraction constraint 
+(meaning it only outputs sentence indices without rewriting any text, 
+which eliminates the risk of hallucinated evidence).
+
+Step 6: Context Aggregation
+The compact, extracted sentences (E_t) are added to the previous 
+context then advances to turn t+1 and loops back to Step 1.
+
+### S2G-Judge Output Schema
+When the judge predicts s_t=false:
+1. category: The type of missing link, chosen from: [bridge_entity, 
+attribute, relation, evidence_span, other].
+2. target: The specific entity being queried.
+3. slot: A coarse-grained property, attribute, or relation name.
+4. description: A short natural-language description clarifying what 
+is missing.
+
+## Experiments
+### Task and Datasets
+- Three open-domain QA benchmarks spanning single-hop and multi-hop 
+reasoning.
+- For single-hop QA, use TriviaQA
+- For multi-hop QA, adopt HotpotQA and 2WikiMultiHopQA
+
+### Baselines
+- NaiveGen
+- Standard RAG
+- IR-CoT
+- FLARE
+- ReSP
+- Self-RAG
+- SIM-RAG
+- RAG-Critic
+
+## Limitation
+- Sentence-level evidence extraction introduces a compactness–recall 
+trade-off. While it limits the influence of redundant or 
+distractor-heavy text and improves auditability, it may omit 
+surrounding context that is useful for disambiguation or miss evidence
+that spans multiple sentences.

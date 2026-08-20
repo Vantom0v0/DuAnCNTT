@@ -1,0 +1,33 @@
+# Notes
+## Abstract
+- CoRAG teaches a language model to think, retrieve, and reason 
+step-by-step—mirroring an "o1-like" multi-step problem-solving 
+process before producing a final answer.
+
+## Method
+- Data Augmentation via Rejection Sampling: Because standard RAG 
+datasets only contain a query Q and a final answer A (lacking 
+intermediate steps), CoRAG automatically generates step-by-step 
+retrieval chains for training using rejection sampling. It generates 
+chains of sub-queries (Q_1…Q_L) and sub-answers (A_1…A_L). The chain 
+that achieves the highest conditional log-likelihood of producing the 
+correct final answer is selected to augment the dataset.
+- Multi-Task Training: An open-source LLM is fine-tuned (
+full-parameter) on these augmented datasets using standard next-token 
+prediction. The model is simultaneously trained on three tasks: next 
+sub-query prediction, sub-answer prediction, and final answer 
+prediction.
+- Inference-Time Scaling: At test time, CoRAG can scale its compute 
+budget by controlling the retrieval chain length (L) and deploying 
+different decoding strategies:
++ Greedy Decoding: Generates sub-queries and sub-answers sequentially.
++ Best-of-N Sampling: Samples N chains and ranks them using a penalty 
+score (calculating the conditional log-likelihood of generating "No 
+relevant information found" when retrieving), selecting the chain 
+with the lowest penalty.
++ Tree Search (BFS): Explores a tree of sub-queries, performing 
+multiple rollouts and retaining the states with the lowest average 
+penalty scores.
+- Learning to Stop: During the chain, the model is trained to predict a 
+"Yes" or "No" early-stopping token to judge whether the accumulated 
+information is sufficient to generate the final response.

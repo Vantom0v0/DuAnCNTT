@@ -1,0 +1,145 @@
+# Synthesis
+## Relevant paper
+### GoldEN (Qi. Peng)
+- Multi-hop
+- Iterative retrieval with query generation.
+- User query → generate search query → retrieve documents → use the 
+original query + retrieved context to generate a new search query → 
+retrieve again → repeat → final QA.
+- Generate search queries in a span limits the query it can generate.
+
+### S2G-RAG
+- Multi-hop
+- Iterative retrieval that determines whether the context is sufficient
+and identify the gap in information that must be retrived next.
+- Components: Judge (light-weight fine-tuned model), retriever, 
+evidence extractor.
+- S2G-Judge reads the user question and acummulated evidence -> is it
+sufficient? and a set of gap items in the information -> termination
+check: true then output final answer using accumulated context, false
+then continue -> Query construction by mapping gap items into query
+phrases and append to the original question -> Retrieve documents ->
+Split retrieved documents into sentences, along with the missing gaps,
+select the sentence that has the answer only -> add the extracted
+sentence into the global context -> Loop -> Output.
+- Limitation: Sentence extraction can skip useful information.
+
+### MAIN-RAG
+- Multi-agent training-free framework to filter and score retrieved
+documents.
+- 3 Specialize agents: Predictor, Judge, Final-Predictor
+- Initial retrieval -> agent-1 take each document and draft a candidate 
+answer -> create a series of Doc-QA triplets -> agent-2 evaluate 
+whether the document provides relevent info to answer -> output "Yes"
+or "No" with evidence -> the relevance score = logP("yes") - logP("no")
+-> filter and sort -> agent-3 receives cleaned ordered document list 
+-> generate answer
+- Self-calibrating threshold using standard deviation
+
+### DRAGIN
+- Training-free framework that can decides when and what to search
+during an LLM generation process.
+- When to retrieve: calculate real-time information need score for 
+every generated token. The score combines Uncertainty(token's prob), 
+Influence (maximum self-attention score from the last Transformer 
+layer), Semantics (0 for stopwords, 1 for otherwise; filter filler 
+words). Only retrieve when the score exceeds a threshold.
+- What to retrieve: Retrieval is triggered -> form a serch query by
+looking at LLM's last layer self-attention weights across the entire
+preceding context -> sort preceding tokens by attention scores ->
+get top-n -> arrange them in their original order for focused search
+query.
+- Continue generating: truncate the text the trigger point, use 
+off-the-shelf retriever, retrieved docs into a template, prompt the LM
+to continue generating.
+- Limitation: Rely on the self-attention mechanism of 
+Transformer-based LLMs.
+
+### AIR-RAG
+- To optimize document relevance and LLM alignment with the retriever 
+without expensive retraining.
+- An intermediate adapter to control the data flow in the retriever 
+pipeline, helps retriever accurately find useful passages and provides
+context adapted to the LLM.
+- Collect preference data from both the LLM and the retriever -> train
+the model offline -> interagte the model back into RAG pipeline, 
+work with both the retriever and LLM to optimize the retrieval process
+- 2 iteration:
++ Get top-k passages for original query -> each passage has a unique
+Sentence ID (SID). -> Adapter select the most relevant SIDs. -> 
+selected sentences are appened to the original query to form new query
++ Retriever uses the new query to do the second search -> get passages
+-> adapter filter -> the primary LLM reads the final filtered context
+and generate answer.
+
+### CoRAG
+- Train a model to think, retrieve and reason step-by-step.
+- Automatically generate step-by-step retrieval chains for training 
+using rejection sampling.
+- Generate chains of sub-queries and sub-answers. The chain that has
+the highest conditional log-likelihood of producing the correct answer
+is selected to augment to the data.
+- An open-source model is fine-tuned and train on these datasets. 
+Trained on three tasks: sub-query prediction, sub-answer prediction,
+final answer prediction.
+
+### Self-RAG
+- Retrieval and self-reflection
+- Train an LLM to retrive, generate and reflect
+- Process:
++ Retrieve: predict a token of "Yes", "No" or "Continue to use 
+evidence". If "Yes" -> call the retriever.
++ Parallel generation: process retrieved documents in parallel. Each
+document: check Relevancy (ISREL), draft continuation answer for every
+document and get back multiple drafts for the same original query.
++ Responses evaluation: generate critique tokens and grade the 
+responses: Is it supported (ISSUP) and Is it useful (ISUSE)
++ Scoring to decide the best repsonse
++ Append the highest score response along with its self-reflection
+evaluations -> repeat until the full answer is complete.
+
+### Iterative RAG / Iter-RetGen
+- Original query -> get top-k -> generate answer (*) -> take the 
+answer with the orginal query to search for top k again -> generate
+improved answer -> repeat again at (*) fot T times.
+- Limitations: false negatives, failed reasoning, retrieval is misled
+in the first iteration, retrieval fails to retrieved missing pieces in
+second iteration although the first is correct. (65% errors are from
+retrieval)
+
+### FAIR-RAG
+- Multi-hop
+- Agentic Iterative Refinement with gating mechanism called SEA.
+- SEA: turns query into a checklist to search for facts and identify 
+gaps. Gaps are given to an agent to generate sub-queries to retrieve 
+missing info.
+- Four phases:
++ Initial query and adpative routing
++ Iterative retrieval and refinement cycle: decompose query into 
+sub-queries-> hybrid retrieval -> retrieve candidate documents -> 
+rerank -> Pass candidate evidence to a filtering module -> agent 
+evaluate each document -> discard invalid documents.
++ Answer generation
++ Dynamic resource allocation
+- Limitation: majority are component-level (i.e., the retriever and 
+the generator LLM), fixed iteration, depend on LLM and prompt 
+engineering.
+
+### Stop-RAG
+- The past interactions become a state.
+- A state includes original query and answer, along with the question,
+documents and answer at the current iteration.
+- Two action: Stop or Cont
+- If Stop or reaches maximum iteration -> turns into terminal state.
+- Rewards are assigned at terminal states to relfect the answer 
+generation quality.
+
+### RAG-FUSION
+- A chatbot for some company/organization
+- Original query -> use LLM to generate multiple queries ->  each 
+query search for relevant documents -> perform reciprocal rank fusion
+-> calculate RRF score -> accumulate them -> fuse documents together
+-> rerank according to their scores.
+- Limitations: slow, llm can generate irrelevant queries, cant provide
+definitely negative answers, no proper experimentations on RAG's 
+benchmarks.

@@ -2,7 +2,7 @@
 ## Summary
 - Review of RAG from early developments to recent SOTA implementations.
 - Key milestones and research trends.
-- Evaluating, benchmarking performance on retrieval accuracy, 
+- Evaluation, benchmark performance on retrieval accuracy, 
 generation fluency, latency, and computational efficiency.
 - Present persistent challenges.
 
@@ -91,7 +91,6 @@ oversight such as FDA guidelines
 - Multimodal and Agentic
 - Structured knowledge intergration
 - Real-time RAG
-
 
 # Thoughts
 - Provide some interesting evaluation metrics and benchmarks.

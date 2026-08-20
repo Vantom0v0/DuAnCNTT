@@ -1,0 +1,86 @@
+# Notes
+## Abstract
+- Agentic framework.
+- At the core of FAIR-RAG is an Iterative Refinemane cycle with an 
+analytical gating mechanism called SEA.
+- SEA: decontruct initial query into a checklist to search for facts
+and identify gaps. Gaps are given to an Adaptive Query Refinement 
+agent to generate sub-queries to retrieve missing information.
+- Benchmark on multi-hop QA benchmarks: HotpotQA, 2WIkiMultiHopQA, 
+and MusiQue.
+
+## Method
+### Overall Architecture
+- Four main phases:  
++ Initial Query Analysis and Adaptive Routing.
++ The Iterative Retrieval and Refinement Cycle
++ Faithful Answer Generation
++ Dynamic Resource Allocation.
+
+### The Iterative Retrieval and Refinement Cycle
+- Decompose complex query into sun-queries.
+- Hybrid retrieval is used: dense vector search and keyword-based
+sparse search.
+- Retrieved documents from both retrivals are aggregated.
+- Re-ranker: Reciprocal Rank Fusion (RRF) produce top-5.
+
+#### Evidence Filtering
+- The candidate evidence is then passed to a filtering module. An LLM 
+agent evaluates each document’s utility with respect to the original 
+user query.
+- Documents that are irrelevant, off-topic, or only tangentially 
+related are discarded.
+
+#### Structured Evidence Assessment (SEA)
+- Verify evidence
+- Perform gap analysis
+- Generate a checklist
+
+## Results
+### Further analysis
+#### Component-wise Performance Analysis
+- The SEA module demonstrates strong performance on complex multi-hop 
+datasets while achieving lower accuracy on TriviaQA, as the sufficiency 
+decision for single-hop factual questions can be more ambiguous.
+
+#### Impact of Iterative Refinement
+- Diminishing Returns: A fourth iteration consistently leads to a 
+degradation in average answer quality across all complex datasets.
+- Cost-Benefit Analysis: Each iteration adds a considerable number of 
+API calls and tokens, increasing both latency and computational cost. 
+The optimal balance of 2-3 iterations provides the best balance 
+between answer quality and resource consumption.
+- Conversely, on the simpler TriviaQA datasetthe quality rank degrades
+with each additional iteration, confirming that for single-hop queries, 
+the initial retrieval is generally sufficient, and further iterations 
+are unnecessary and even detrimental.
+
+#### Failure Mode Analysis
+- a significant majority of errors (63.5%) are Component-Level (i.e., 
+the retriever and the generator LLM)
++ Retrieval Failure (32.5%): largest source of error across all 
+datasets. This was especially pronounced in TriviaQA, where nearly 
+half of all failures were retrieval-related due to the dataset’s 
+reliance on obscure facts.
++ Generation Failure (31.0%): still produce flawed answer even with
+the correct evidence.
+- The remaining 36.5% are Architectural (i.e., Query Decomposition, 
+Filtering, Refinement, and SEA)
+- a key insight: while FAIR-RAG’s iterative process is designed to 
+mitigate the weaknesses of its components, the performance of these 
+base components remains the primary limiting factor in overall system 
+accuracy.
+
+## Conclusion
+### Limitations
+- Dependency on LLM Reasoning Fidelity and Prompt Engineering.
+- Comprehensiveness vs. Efficiency Trade-off
+- Potential for Error Propagation: As a multi-stage pipeline, errors 
+in early stages can cascade.
+- Fixed Iteration Policy.
+
+# Thoughts
+- This is the most relevant so far that addresses many issue that 
+could potentially appear in my model.
+- Though my model is different, it also has components that fill in
+the gap mentioned in this paper.

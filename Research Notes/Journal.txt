@@ -11,7 +11,7 @@ Next action:
 - Skim and read the remaining survey papers. (DL: tmr)
 - Ony add specific papers, no more surveys.
 
-# Date: 16-5-26
+# Date: 16-8-26
 ## Time: 2:30PM
 Report:
 - Read 3 survey papers.
@@ -41,4 +41,25 @@ Thoughts:
 - Take a step back is about a prompting techniques. Skimed through it.
 Though it is not RAG, it might still be useful for my idea. Should 
 read it after other models.
+
+# Date: 18-8-26
+## Time: 8:14PM
+Report:
+- Read 11 papers in total. Found 4 papers that are highly relevant. 
+Among them Self-RAG is the closest, some designs in the architecture
+are the same even though with different approahes.
+- Self-RAG has already addressed my question, though it is using their
+model but it is still already answered.
+- Found out weak spots in my architecture after reading Self-RAG that 
+has to be addressed before proposing:
++ Issue with entrusting the highest rerank score document to carry
+follow-up questions. -> need to find a method other than rerank score
+to know whether the document worth diving deeper.
++ Thresholds need further refinement. -> there has to be some 
+techniques to score these.
+
+Action:
+- Let NotebookLLM read the rest to decide which papers are relevant
+since I am short on time.
+- Find solutions to my architecture holes.
 

@@ -116,6 +116,6 @@ relevance and precision in the ﬁnal output
 
 #Thoughts
 - This paper is highly relevant to my research question and proposed
-architecture. Especially Query step-down method.
+architecture. Especially Map-reduce, map-rerank methods.
 - Other information are also very useful for finetuning the 
 architecture before proposing to the lecturer.

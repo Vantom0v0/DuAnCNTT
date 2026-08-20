@@ -1,0 +1,39 @@
+# Notes
+## Abstract
+- An innovative taxonomy of hallucination.
+- Overview of halluciantion detection methods and benchmarks.
+- Limitation of RAG in combating hallucinations
+
+## Introduction
+- Two categories of hallucination in NLG tasks:
++ Instrinsic: the output contradicts the source
++ Extrinsic: the output cannot be verified from the source.
+- This survey categories hallucination into 2 types:
++ Factually hallucination: simply not true.
++ Faithfulness hallucination: is not faithful to the instruction.
+- Main contributors: data, training, and inference stages.
+- Even with the potential, RAG still suffers from hallucination.
+
+## Hallucination causes
+### From inference
+- Over-confidence: 
++ Prioritizing fluency at the expense of faithfully 
+adhering to the source context.
++ LLMs often exhibit a localized focus within their attention 
+mechanisms, giving priority to nearby words and resulting in a notable 
+deficit in context attention which is amplified in lenghty and 
+comprehensive responses.
+- Reasoning failure:
++ LLMs struggle to produce accurate answers in milti-hop QA if 
+multiple associations exist between questions, due to reasoning
+limitation
++ Can aswer "A is B" but fail when asked "B is A"
+
+## Hallucination Mitigation
+### RAG
+- One-time retrieval (normal RAG, KGs, and parametric knowledge 
+guiding, etc.)
+- Iterative retrieval: adress multi-step reasoning and long form
+answering (iterative retrieval, cot prompting, self-ask, active 
+retrieval)
+- Post hoc retrieval.

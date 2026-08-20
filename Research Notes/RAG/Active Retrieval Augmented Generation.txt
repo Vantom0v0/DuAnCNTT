@@ -1,0 +1,35 @@
+# Notes
+## Abstract
+- RAG that decide when and what to retrieve over the course of 
+generation.
+- Forward-Looking Active REtrieval augmented generation (FLARE) 
+iteratively uses a prediction of the upcoming sentence, which is then
+used as a query to retrieve relevant documents to regenerate the
+sentence if it contains low-confidence tokens.
+- Test on 4 long-form knowledge-intensive generation tasks/datasets.
+
+## RAG
+### Active RAG
+- At step t(t>=1), form a retrieval query q_t based on the user input
+and previously generated outputs.
+- At step t=1 (the beginning), previous generation is empty.
+- Retrieve documents then LLMs continually generate the answer until
+the next retrieval is triggered or reaches the end.
+- Only use the retrieved documents from the current step to condition
+the next generation.
+
+## FLARE
+- Intuition:
++ LLMs only retrieve when they don't have the necessary knowledge.
++ Retrival queries should reflect the intents of future generations.
+- Propose 2 FLARE methods to implement active RAG:
++ 1st method: LMs generate retrieval queries when needed while 
+generating an answer using retrieval-encouraging instructions.
++ 2nd method: directly use LMs generation as search queries. 
+Iteratively generates the next sentence to gain insight into the future
+topic, and if there are low-confidence tokens, retrieves relevant
+documents to generate the next sentence
+
+# Thoughts
+- Can't say it is relevant
+

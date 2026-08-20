@@ -1,0 +1,32 @@
+# Notes
+## Abstract
+- AIR-RAG is designed to optimize both document relevance and LLM 
+alignment across retrieval rounds without requiring computationally 
+expensive retraining of either the base retriever or the 
+primary generator LLM
+
+## Method
+- The Intermediate Adapter: The core of the system is a lightweight 
+intermediate adapter model (typically initialized from smaller 
+open-source models like LLaMA-3.1-8B or Qwen-2.5-1.5B with LoRA 
+fine-tuning) that controls data flow in the pipeline.
+- Two-Iteration Feedback Loop:
++ First Hop: The retriever fetches a set of top-k passages for the 
+original query q. Each passage is assigned a unique Sentence ID (SID) 
+and concatenated. The adapter processes these and selects the most 
+relevant SIDs, filtering out noisy background text.
++ Query Augmentation: The selected sentences are appended to the 
+original query to formulate a new, augmented query q′.
++ Second Hop: The retriever uses q′to execute a second search. The 
+newly fetched passages undergo another filtering step by the adapter 
+to prepare the final, clean context block.
++ Generation: The primary LLM reads the final filtered context and 
+generates the correct answer.
+- Preference Training: The adapter is trained offline by implicitly 
+collecting preferences from both the LLM and the retriever. It uses a 
+four-value labeling system (strongly preferred, weakly preferred, 
+weakly dispreferred, and strongly dispreferred) based on whether the 
+selected sentences led to correct LLM generations across both hops. 
+The adapter is optimized using Weighted Kahneman-Tversky Optimization 
+(KTO), which aligns the model directly with task success without 
+requiring expensive pair-wise annotations.

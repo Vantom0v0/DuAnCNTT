@@ -1,0 +1,67 @@
+# Notes
+## Abstract
+- MAIN-RAG (Multi-Agent Filtering Retrieval-Augmented Generation) is 
+a training-free RAG framework designed to collaboratively filter and 
+score retrieved documents.
+- It addresses a major vulnerability in standard RAG pipelines: the 
+tendency of LLMs to ingest noisy or irrelevant retrieved documents, 
+which degrades final answer quality and wastes context window space.
+- Instead of retraining or fine-tuning models, MAIN-RAG uses 
+cooperative prompting across multiple LLM agents and a dynamic, 
+statistically-driven filter to clean the document pool before 
+generating the final answer.
+
+## Method
+### The three agents
+The framework splits the retrieval, filtering, and answering process 
+among three specialized LLM agents:
+1. Agent-1 (Predictor):
+- Task: After initial retrieval, Agent-1 takes each retrieved document 
+individually and drafts a candidate answer to the user's query based 
+only on that document.
+- Output: This creates a series of Document-Query-Answer (Doc-Q-A) 
+Triplets.
+2. Agent-2 (Judge):
+- Task: Agent-2 evaluates whether the document actually provides 
+relevant information to answer the query. It treats this evaluation as 
+a True-or-False question, answering "Yes" or "No" with evidence.
+- Relevance Quantification: To convert these text judgments into 
+sortable scores, Agent-2 calculates the difference between the log 
+probabilities of generating the "Yes" and "No" tokens (log odds): 
+Score=logP("Yes")−logP("No"). This mathematical score serves as the 
+sole criterion for document sorting and filtering.
+3. Agent-3 (Final-Predictor):
+- Task: Once Agent-2 scores, filters, and sorts the remaining 
+documents, Agent-3 receives the clean, ordered document list and 
+writes the final, correct response to the user
+
+### The Adaptive Judge Bar
+- Rather than relying on a static, arbitrary similarity threshold, it 
+uses a self-calibrating bar based on score distributions:
++ The authors observed that LLMs assign confidently high, 
+tightly-grouped scores to truly related documents. Conversely, noisy 
+documents get lower, more widely scattered scores.
++ the baseline threshold starts at the average relevance score of the 
+retrieved pool, the final threshold is adjusted using standard 
+deviation (σ): τ_q−n⋅σ (n is a configurable hyperparameter)
+
+### Document Ordering
+- After filtering, the surviving documents are sorted in descending 
+order (highest scoring first) 
+
+## Experiments
+### Tasks and Datasets
+- Closed-set task: ARC-Challenge, MCQ from scientific exams.
+- Open-Domain QA tasks: TriviaQA-unfiltered, and PopQA.
+- Long-form generation tasks: ALCE-ASQA, MAUVE
+### Baselines
+- Without retrievals: Llama2_7B-13B, Llama3_8B and Mistral7B, 
+instruction-tuned models like Alpaca7B,13B.
+- Wtih retrieval:  evaluate models that incorporate retrieval, either 
+during inference or throughout the training process. Self-RAG, a 
+variant of Llama27B, Llama2-FT_7B, Ret-Llama2-chat_13B.
+### Settings
+-  Instantiate all three agents by pre-trained Mistral7B and Llama38B
+without further tuning.
+-  Employ the pre-trained Contriever-MS MARCO as the default retriever 
+model

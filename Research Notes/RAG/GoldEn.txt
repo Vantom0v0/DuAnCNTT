@@ -1,0 +1,37 @@
+# Notes
+## Abstract
+- An iterative retrieve-and-read framework designed to solve 
+open-domain multi-hop questions.
+- Dynamically generating natural language search queries to 
+incrementally step through the reasoning chain.
+
+## Method
+- The framework alternates between query generation, document 
+retrieval, and reading over multiple hops:
++ First Hop (k=1): The system takes the original user question q and 
+generates an initial search query q_1 to retrieve the first 
+supporting document d_1
+​+ Subsequent Hops (k≥2): Instead of relying only on the question, the 
+system generates a new query q_k by conditioning on both the original 
+question and the previously retrieved context (q,d_1,...,d_k−1). This 
+allows the model to utilize newly discovered facts (such as finding 
+the author's name in the first hop) to search for the next link in 
+the chain.
+- Query Generation via Span Extraction: To avoid the vast search space 
+of free-form text generation, the query generation process is framed 
+as a span-extraction question-answering task. GOLDEN adapts a DrQA 
+Document Reader model to select a continuous text span directly from 
+the accumulated retrieval context to use as the next search query.
+- Introduce a supervised training signal using oracle queries.
+- Once a natural language query is generated, it is sent to an 
+off-the-shelf search engine (Elasticsearch running BM25).
+- For the final answer extraction, the model uses an enhanced version 
+of BiDAF++. GOLDEN processes the retrieved paragraphs separately with 
+shared encoder RNN parameters. It then applies self-attention layers 
+over the concatenated question and context to output the final 
+span-based answer or yes/no response.
+
+## Limitations
+- Restricting the queries to span selection from the context limits the 
+types of queries that can be formulated and can struggle when multiple 
+entities share highly ambiguous names.

@@ -1,0 +1,31 @@
+# Notes
+## Abstract
+- DRAGIN is a plug-and-play, training-free framework that dynamically 
+decides when to search and what to search for during an LLM's active 
+text-generation process.
+
+## Method
+- When to Retrieve (RIND: Real-time Information Needs Detection): 
+Instead of using fixed interval-based trigger rules, RIND calculates a 
+real-time information need score (S_RIND(t_i)) for every generated 
+token t_i. The score combines three parameters: 
+1. Uncertainty (H_i): The entropy of the token's probability 
+distribution over the vocabulary.
+2. Influence (a_max(i)): The maximum self-attention score from the 
+last Transformer layer that the token receives from all subsequent 
+tokens, measuring how much it impacts the following context.
+3. Semantics (s_i): A binary indicator (0 for stopwords, 1 otherwise) 
+to ensure retrieval isn't wasted on non-semantic filler words.
+4. Retrieval is triggered whenever S_RIND(t_i) exceeds a predefined 
+threshold θ.
+- What to Retrieve (QFS: Query Formulation based on Self-attention): 
+Once retrieval is triggered at position i, QFS formulates a search 
+query by looking at the LLM's internal self-attention weights of the 
+last layer across the entire preceding context. It sorts the preceding 
+tokens by attention scores, grabs the top-n most-attended tokens, and 
+arranges them in their original text order to create a highly focused 
+search query.
+- Continual Generation: The system truncates the text at the trigger 
+point, queries an off-the-shelf retriever (like BM25), prepends the 
+retrieved documents into a template, and prompts the LLM to continue 
+generating safely based on the external evidence.

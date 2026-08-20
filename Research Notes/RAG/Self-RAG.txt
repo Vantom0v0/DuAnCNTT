@@ -1,0 +1,66 @@
+# Notes
+## Abstract
+- A framework that enhances an LM’s quality and factuality through 
+retrieval and self-reflection.
+- Train a single LM to retrieve on-demand, generate and reflect on
+retrieved passages and its own response using reflection tokens.
+- Self-RAG improves LLM's generation quality
+
+## Method
+### Process
+#### Step 1: Retrieve on Demand
+1. From query x, it first decides whether it is necessary to retrieve
+more documents by predicting the retrieval token.
+2. The model predicts a token called "Retrieve" which has:
++ Yes: Do retrieval.
++ No: Retrieval isnt needed.
++ Continue to use evidence: Continue writing based on previously 
+retrieved documents without triggering retriever.
+3. If the retrieve token is "Yes" (or if its above a threshold), call
+retriever to fetch k relevant documents
+
+#### Step 2: Parallel Generation
+- Process the retrieved documents in parallel rather than a single
+block of text. For each document:
+1. Relevance check (ISREL): LLM predicts a critique token of either 
+Relevant or Irrelevant.
+2. Drafting the segment: LLM drafts a continuation candidate segment
+based on user's query, previous context, and the specific document.
+Does this for each document, and we have multiple drafts for the same
+user's query.
+
+#### Step 3
+- For every draft segment, LLMs generates critique tokens to grade
+its own responses:
++ Is it supported? (ISSUP) -> Fully supported, Partially, or No 
+Support.
++ Is it useful? (ISUSE): rank from 1 to 5.
+
+#### Step 4
+- Decide which response is the best to append to the final response:
+- Scoring: runs a segmentation-level beam search to calculate:
+Score = Probability of response p(y_t|x, d, y_<t) + S(critique)
+S(critique) = w_ISREL.S_ISREL + w_ISSUP.S_ISSUP + w_ISUSE.S_ISUSE
+Relevance Score (S_ISREL): The normalized probability of the Relevant 
+token.
+Support Score (S_ISSUP): This score is specially weighted to give 
+partial credit for partial support.
+- Customizable weights so that it can prioritize different criteria 
+based on the dataset or task.
+
+#### Step 5
+1. Append the response with the highest score along with its 
+self-reflection evaluations.
+2. Repeat: moves to next sentence y_t+1, starting at Step 1. Continue
+until the full answer is complete.
+
+## Experiments
+### Tasks and datasets
+- Closed-dataset tasks: PubHealth, ARC-Challenge.
+- Short-form generation tasks: open-domain QA like PopQA, 
+TriviaQA-unfiltered.
+- Long-form generation tasks: ALCE-ASQA, FactScore, MAUVE
+
+## Ablation
+- SELF-RAG demonstrates that naively trusting one retrieved passage is 
+problematic.
