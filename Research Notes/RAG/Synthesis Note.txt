@@ -1,13 +1,5 @@
 # Synthesis
 ## Relevant paper
-### GoldEN (Qi. Peng)
-- Multi-hop
-- Iterative retrieval with query generation.
-- User query → generate search query → retrieve documents → use the 
-original query + retrieved context to generate a new search query → 
-retrieve again → repeat → final QA.
-- Generate search queries in a span limits the query it can generate.
-
 ### S2G-RAG
 - Multi-hop
 - Iterative retrieval that determines whether the context is sufficient
@@ -23,18 +15,6 @@ Split retrieved documents into sentences, along with the missing gaps,
 select the sentence that has the answer only -> add the extracted
 sentence into the global context -> Loop -> Output.
 - Limitation: Sentence extraction can skip useful information.
-
-### MAIN-RAG
-- Multi-agent training-free framework to filter and score retrieved
-documents.
-- 3 Specialize agents: Predictor, Judge, Final-Predictor
-- Initial retrieval -> agent-1 take each document and draft a candidate 
-answer -> create a series of Doc-QA triplets -> agent-2 evaluate 
-whether the document provides relevent info to answer -> output "Yes"
-or "No" with evidence -> the relevance score = logP("yes") - logP("no")
--> filter and sort -> agent-3 receives cleaned ordered document list 
--> generate answer
-- Self-calibrating threshold using standard deviation
 
 ### DRAGIN
 - Training-free framework that can decides when and what to search
