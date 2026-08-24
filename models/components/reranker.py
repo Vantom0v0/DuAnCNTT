@@ -1,4 +1,4 @@
-from config import RERANKER_MODEL_NAME, TOP_N
+from components.config import RERANKER_MODEL_NAME, TOP_N
 from sentence_transformers import CrossEncoder
 
 def rerank(query, retrieved_documents):
