@@ -1,0 +1,46 @@
+{
+    "model_name": "fur",
+    "query": "Bệnh song thị cần điều trị như thế nào?",
+    "answer": "Điều trị song thị phụ thuộc vào nguyên nhân gây bệnh, nên chưa thể đưa ra một phương pháp điều trị cụ thể chỉ dựa trên thông tin hiện có. Song thị có thể liên quan đến loạn thị, đục thủy tinh thể, lác hoặc tổn thương não; một số bệnh nếu để lâu có thể ảnh hưởng đến thị lực và cả tính mạng.\n\nBạn nên khám chuyên khoa Mắt sớm để xác định nguyên nhân và được chỉ định điều trị phù hợp. Không nên tự theo dõi kéo dài vì bệnh có thể khó điều trị hơn theo thời gian.",
+    "evidence": [
+        {
+            "text": "Câu hỏi: Mắt cháu bị song thị gần 1 tháng rồi và nó làm mắt cháu mờ hơn 1 xíu. Bác sĩ cho cháu hỏi, nếu để lâu có tự khỏi hay nguy hiểm hơn không ạ?\nTrả lời: Chào bạn, song thị là biểu hiện của rất nhiều bệnh lý tại mắt cũng như toàn thân, như: Loạn thị, đục thủy tinh thể, lác, tổn thương não,... Bệnh càng để lâu càng khó điều trị, một có bệnh lý còn có thể ảnh hưởng lớn đến thị lực và cả tính mạng. Bởi vậy bạn cần đến khám chuyên khoa mắt sớm để xác định được nguyên nhân và được điều trị kịp thời nhé.\nCảm ơn bạn đã tin tưởng AI-Doctor. Rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+            "score": 0.5457310080528259,
+            "id": 2685,
+            "rerank_score": 0.8376286625862122
+        },
+        {
+            "text": "Câu hỏi: Song thị: Để lâu có tự khỏi không?\nTrả lời: song thị là biểu hiện của rất nhiều bệnh lý tại mắt cũng như toàn thân, như: Loạn thị, đục thủy tinh thể, lác, tổn thương não, . . . Bệnh càng để lâu càng khó điều trị, một có bệnh lý còn có thể ảnh hưởng lớn đến thị lực và cả tính mạng. Bởi vậy bạn cần đến khám chuyên khoa mắt sớm để xác định được nguyên nhân và được điều trị kịp thời nhé.",
+            "score": 0.584811806678772,
+            "id": 254,
+            "rerank_score": 0.6145920753479004
+        },
+        {
+            "text": "Câu hỏi: Điều trị mắt bị loạn thị kèm lồi như thế nào?\nTrả lời: Loạn thị là một tật khúc xạ mắt thường gặp, xảy ra khi hình ảnh mà mắt quan sát khi đi vào mắt lại không thể hội tụ ở võng mạc, khiến mắt bị mờ. Loạn thị thường là kết quả của một giác mạc bị bẻ cong hoặc biến dạng. Nếu giác mạc bị méo mó về bất cứ hướng nào cũng ảnh hưởng đến thị lực. Bạn bị loạn thị và bị lồi một bên việc điều trị được hay không cần thăm khám và làm một số xét nghiệm máu, chẩn đoán hình ảnh, . . . căn cứ vào kết quả các bác sĩ sẽ cho kết luận và tư vấn điều trị. Hệ thống bệnh viện Vinmec là địa chỉ đáng tin cậy mà bạn có thể đến khám và tư vấn điều trị hiệu quả.",
+            "score": 0.48715221881866455,
+            "id": 1769,
+            "rerank_score": 0.42661145329475403
+        },
+        {
+            "text": "Câu hỏi: Phương pháp điều trị thoái hóa võng mạc ngoại vi?\nTrả lời: Những trường hợp cận loạn thị cao thường hay có vẩn đục dịch kính và thoái hóa võng mạc, võng mạc mỏng hơn người bình thường. Cháu nên thăm khám định kỳ với bác sĩ mắt để theo dõi. Nếu cần bác sĩ sẽ chỉ định siêu âm và nhỏ giãn đồng tử khám chuyên sâu. Nếu gặp nhiều chớp sáng, nhìn mờ thì nên đi khám ngay. Nên tránh các vận động mạnh, thay đổi tư thế đột ngột, tránh các chấn thương vào mắt. Nên ăn nhiều cá và rau quả tươi, những thực phẩm nhiều chất dinh dưỡng cho mắt, giàu vitamin. Tăng hoạt động ngoài trời và hạn chế các thiết bị điện tử. Học bài đủ ánh sáng, đúng tư thế.",
+            "score": 0.4907758831977844,
+            "id": 1623,
+            "rerank_score": 0.06861290335655212
+        },
+        {
+            "text": "Câu hỏi: Viêm giác mạc mãn tính điều trị như thế nào?\nTrả lời: bệnh lý giác mạc có thể ảnh hưởng đến thị lực và gây nhiều biểu hiện khó chịu. Với những bệnh lý mạn tính thì việc sử dụng thuốc cần hết sức cẩn thận để tránh những tác dụng phụ do dùng thuốc kéo dài gây ra. Bác cần đăng ký đặt hẹn khám chuyên khoa Mắt để có thể tư vấn hướng điều trị phù hợp cho bác.",
+            "score": 0.4692220389842987,
+            "id": 5203,
+            "rerank_score": 0.054908107966184616
+        },
+        {
+            "text": "Câu hỏi: Song thị: Để lâu có tự khỏi không?\nTrả lời: song thị là biểu hiện của rất nhiều bệnh lý tại mắt cũng như toàn thân, như: Loạn thị, đục thủy tinh thể, lác, tổn thương não, . . . Bệnh càng để lâu càng khó điều trị, một có bệnh lý còn có thể ảnh hưởng lớn đến thị lực và cả tính mạng. Bởi vậy bạn cần đến khám chuyên khoa mắt sớm để xác định được nguyên nhân và được điều trị kịp thời nhé.",
+            "score": 0.39603739976882935,
+            "id": 254,
+            "rerank_score": 0.8459042906761169,
+            "weighted_score": 0.6377232432365418
+        }
+    ],
+    "llm_call": 5,
+    "iteration": 2
+}

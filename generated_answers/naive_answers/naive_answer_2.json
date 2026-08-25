@@ -1,0 +1,31 @@
+{
+    "query": "Có mấy loại sỏi mật và triệu chứng nhận biết sỏi mật?",
+    "answer": "Sỏi mật gồm **2 loại**: sỏi cholesterol và sỏi sắc tố mật. Sỏi có thể nằm ở **đường mật trong gan, đường mật ngoài gan hoặc túi mật**. Triệu chứng thường gặp và dễ nhận biết nhất là **đau vùng thượng vị hoặc hạ sườn phải**; triệu chứng này có thể dễ nhầm với viêm dạ dày hoặc viêm loét dạ dày. Khi có biểu hiện trên, nên đi **siêu âm bụng** để chẩn đoán chính xác.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Tôi muốn hỏi có mấy loại sỏi mật và vị trí của sỏi nằm ở đâu? Dấu hiệu nhận biết sỏi mật như thế nào? Mong nhận được những chia sẻ hữu ích của bác sĩ. Tôi xin cảm ơn.\nTrả lời: Chào bạn. Với câu hỏi có mấy loại sỏi mật, bác sĩ xin được giải đáp như sau:\nSỏi mật gồm 2 loại: Sỏi cholesterol và sỏi sắc tố mật. Sỏi mật có nhiều vị trí khác nhau: sỏi đường mật trong gan, sỏi đường mật ngoài gan và sỏi túi mật.\nTriệu chứng thường gặp dễ nhận biết nhất là đau vùng thượng vị hoặc hạ sườn phải.",
+            "score": 0.6379440426826477,
+            "id": 2213
+        },
+        {
+            "text": "Câu hỏi: Triệu chứng thường gặp nhất của bệnh sỏi mật là gì? Phương pháp nào có thể chẩn đoán chính xác?\nTrả lời: Triệu chứng thường gặp nhất của bệnh sỏi mật là đau vùng thượng vị hoặc hạ sườn phải, rất dễ nhầm với bệnh viêm dạ dày và hoành tá tràng, đặc biệt là viêm loét dạ dày. Để chẩn đoán chính xác bệnh sỏi mật thì khi xuất hiện triệu chứng trên bệnh nhân nên đi siêu âm bụngHiện tại, điều trị bệnh lý sỏi mật được áp dụng điều trị nội khoa và điều trị ngoại khoa. Điều trị nội khoa với những trường hợp sỏi mật nhỏ, chưa có biến chứng có thể sử dụng các thuốc tan sỏi để điều trị. Sỏi lớn và có biến chứng, bệnh nhân bắt buộc phải tiến hành phẫu thuật lấy sỏi.",
+            "score": 0.48127615451812744,
+            "id": 2196
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Hiện tôi muốn tìm hiểu về bệnh sỏi mật. Cho tôi hỏi triệu chứng thường gặp nhất của bệnh sỏi mật là gì? Phương pháp nào có thể chẩn đoán chính xác bệnh sỏi mật so với các bệnh về đường tiêu hóa khác? Điều trị bệnh sỏi mật được thực hiện như thế nào? Mong bác sĩ giải đáp những thắc mắc giúp tôi.\nTrả lời: Chào bạn. Triệu chứng thường gặp nhất của bệnh sỏi mật là đau vùng thượng vị hoặc hạ sườn phải, rất dễ nhầm với bệnh viêm dạ dày và hoành tá tràng, đặc biệt là viêm loét dạ dày. Để chẩn đoán chính xác bệnh sỏi mật thì khi xuất hiện triệu chứng trên bệnh nhân nên đi siêu âm bụng\nHiện tại, điều trị bệnh lý sỏi mật được áp dụng điều trị nội khoa và điều trị ngoại khoa. Điều trị nội khoa với những trường hợp sỏi mật nhỏ, chưa có biến chứng có thể sử dụng các thuốc tan sỏi để điều trị. Sỏi lớn và có biến chứng, bệnh nhân bắt buộc phải tiến hành phẫu thuật lấy sỏi.",
+            "score": 0.44576284289360046,
+            "id": 2212
+        },
+        {
+            "text": "Câu hỏi: Sỏi túi mật 15mm nên cắt không hay có thể dùng thuốc tan sỏi?\nTrả lời: Sỏi túi mật kích thước nhỏ >1cm, hiện tại không có triệu chứng lâm sàng thì cần xét nghiệm thêm mỡ máu, theo dõi siêu âm ổ bụng 3 tháng/ lần để đánh giá tình trạng sỏi túi mật, nếu to lên, đau bụng, rối loạn tiêu hóa cần khám bác sĩ chuyên khoa Ngoại Tiêu hóa – Gan mật để điều trị và tư vấn theo dõi nhé.",
+            "score": 0.3656308650970459,
+            "id": 9682
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em có thắc mắc sau mong bác sĩ tư vấn giúp em: Các dấu hiệu của bệnh sỏi tiết niệu là gì ạ? Cũng như làm thế nào để phân biệt các bệnh sỏi tiết niệu để điều trị phù hợp? Mong bác sĩ giải đáp giúp em, xin cảm ơn!\nTrả lời: Chào em.\nĐối với câu hỏi: Các dấu hiệu của bệnh sỏi tiết niệu là gì? bác sĩ xin được trả lời như sau:\nThứ nhất, tùy thuộc vị trí của sỏi mà có các triệu chứng khác nhau:\nKhông có triệu chứng gì: bệnh nhân đi khám sức khỏe và tình cờ phát hiện bệnh.\nĐau vùng hông lưng và lan xuống vùng bẹn, bìu.\nRối loạn đường tiểu: tiểu ra máu, tiểu rắt, đau âm ỉ vùng hạ vị, bí tiểu, tiểu khó, tiểu đêm nhiều lần.\nSốt do nhiễm trùng đường tiết niệu.",
+            "score": 0.36449089646339417,
+            "id": 2160
+        }
+    ]
+}

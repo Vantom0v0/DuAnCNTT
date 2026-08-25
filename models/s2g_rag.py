@@ -1,9 +1,10 @@
 import json
 import re
-from components.config import EMBEDDING_MODEL_NAME, TOP_N, LLM_MODEL, client
+from components.config import EMBEDDING_MODEL_NAME, TOP_N, TOP_K, LLM_MODEL, client
 from components.retrieval_data import initiate
 from components.retrieval import retrieve
 from components.llm import generate_answer
+from components.reranker import rerank
 
 def parse_json_response(text):
     """Parse JSON returned by the LLM."""
@@ -19,7 +20,6 @@ def parse_json_response(text):
 def judge_evidence(query, evidence_context, max_gap_item):
     """
     Decide whether the current evidence is sufficient.
-
     If insufficient, identify structured information gaps.
     """
 
@@ -72,12 +72,12 @@ def judge_evidence(query, evidence_context, max_gap_item):
                 }}
             """
 
-    response = client.models.generate_content(
+    response = client.responses.create(
         model=LLM_MODEL,
-        contents=prompt
+        input=prompt
     )
 
-    result = parse_json_response(response.text)
+    result = parse_json_response(response.output_text)
     return result
 
 def build_query(query, gap_items, max_gap_item):
@@ -127,17 +127,12 @@ def extract_evidence(query, gap_items, retrieved_documents, max_evidence_sentenc
         sentences = split_sentences(document["text"])
 
         for sentence in sentences:
-            candidates.append({
-                "index": len(candidates),
-                "document_id": document["id"],
-                "text": sentence
-            })
+            candidates.append({"index": len(candidates), "document_id": document["id"], "text": sentence})
 
     if not candidates:
         return []
 
     candidate_text = "\n".join(f"[{candidate['index']}] {candidate['text']}" for candidate in candidates)
-
     gap_text = json.dumps(gap_items, ensure_ascii=False)
 
     prompt = f"""
@@ -168,12 +163,12 @@ def extract_evidence(query, gap_items, retrieved_documents, max_evidence_sentenc
                 {candidate_text}
             """
 
-    response = client.models.generate_content(
+    response = client.responses.create(
         model=LLM_MODEL,
-        contents=prompt
+        input=prompt
     )
 
-    selected_indices = parse_json_response(response.text)
+    selected_indices = parse_json_response(response.output_text)
 
     if not isinstance(selected_indices, list):
         return []
@@ -184,12 +179,13 @@ def extract_evidence(query, gap_items, retrieved_documents, max_evidence_sentenc
 
     return evidence
 
-def s2g_rag_model(query, evaluation_mode=False, max_turn = 4, max_gap_item = 1, max_evidence_sentences = 6):
-
+def s2g_rag_model(query, evaluation_mode=False, max_turn = 3, max_gap_item = TOP_N, max_evidence_sentences = 6):
     corpus_documents, _, index, _ = initiate(query)
 
     evidence_context = []
     retrieval_history = []
+    llm_calls = 0
+    num_iteration = 0
     for turn in range(max_turn):
         print(f"\n{'=' * 70}")
         print(f"S2G-RAG TURN {turn + 1}")
@@ -197,6 +193,7 @@ def s2g_rag_model(query, evaluation_mode=False, max_turn = 4, max_gap_item = 1, 
         judge_result = judge_evidence(query, evidence_context, max_gap_item)
         sufficient = judge_result.get("sufficient", False)
         gap_items = judge_result.get("gap_items", [])
+        llm_calls += 1
 
         print(f"Sufficient: {sufficient}")
 
@@ -213,20 +210,18 @@ def s2g_rag_model(query, evaluation_mode=False, max_turn = 4, max_gap_item = 1, 
         print(f"\nRetrieval query:")
         print(retrieval_query)
 
-        retrieved_documents = retrieve(EMBEDDING_MODEL_NAME, retrieval_query, index, TOP_N, corpus_documents)
-        retrieval_history.append(retrieved_documents)
-
-        print(f"\nRetrieved {len(retrieved_documents)} documents.")
+        retrieved_documents = retrieve(EMBEDDING_MODEL_NAME, retrieval_query, index, TOP_K, corpus_documents)
+        reranked_documents = rerank(query, retrieved_documents)
+        retrieval_history.append(reranked_documents)
 
         if not evaluation_mode:
-            for i, document in enumerate(retrieved_documents):
+            for i, document in enumerate(reranked_documents):
                 print(f"\n--- Document {i + 1} ---")
                 print(f"Similarity: " f"{document['score']:.4f}")
                 print(document["text"][:500])
 
-        new_evidence = extract_evidence(query, gap_items, retrieved_documents, max_evidence_sentences)
-        print(f"\nExtracted " f"{len(new_evidence)} evidence sentences.")
-
+        new_evidence = extract_evidence(query, gap_items, reranked_documents, max_evidence_sentences)
+        llm_calls += 1
 
         for sentence in new_evidence:
             if sentence not in evidence_context:
@@ -236,6 +231,7 @@ def s2g_rag_model(query, evaluation_mode=False, max_turn = 4, max_gap_item = 1, 
             print("\nACCUMULATED EVIDENCE:")
             for i, sentence in enumerate(evidence_context):
                 print(f"[{i + 1}] {sentence}")
+        num_iteration += 1
 
     final_context = "\n".join(f"[Evidence {i + 1}] {sentence}" for i, sentence in enumerate(evidence_context))
 
@@ -262,6 +258,7 @@ def s2g_rag_model(query, evaluation_mode=False, max_turn = 4, max_gap_item = 1, 
         client,
         instruction
     )
+    llm_calls += 1
 
     if not evaluation_mode:
         print("\n" + "=" * 70)
@@ -269,9 +266,11 @@ def s2g_rag_model(query, evaluation_mode=False, max_turn = 4, max_gap_item = 1, 
         print(answer)
 
     return {
+        "model_name": "s2g_rag",
         "query": query,
         "answer": answer,
         "evidence": evidence_context,
         "retrieval_history": retrieval_history,
+        "llm_call": llm_calls,
         "num_turns": len(retrieval_history)
     }

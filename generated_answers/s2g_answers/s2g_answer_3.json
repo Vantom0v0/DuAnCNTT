@@ -1,0 +1,94 @@
+{
+    "model_name": "s2g_rag",
+    "query": "Bệnh song thị cần điều trị như thế nào?",
+    "answer": "Bệnh song thị cần được thăm khám để đánh giá toàn diện và xác định chính xác nguyên nhân, mức độ bệnh, từ đó bác sĩ đưa ra liệu trình điều trị phù hợp. Hiện tại, người bệnh nên đeo kính đúng số và khám mắt định kỳ để theo dõi, lựa chọn phương pháp điều trị thích hợp.",
+    "evidence": [
+        "Bạn cần đưa bệnh nhân đi khám để có đánh giá toàn diện, cụ thể và chính xác các vấn đề của bệnh nhân, từ đó bác sĩ sẽ đưa ra liệu trình điều trị phù hợp.",
+        "Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé."
+    ],
+    "retrieval_history": [
+        [
+            {
+                "text": "Câu hỏi: Điều trị suy nhược thần kinh như thế nào?\nTrả lời: Qua mô tả, có thể bạn bị suy nhược thần kinh nhưng lại để kéo dài và không điều trị suy nhược thần kinh đúng bài bản nên tình trạng chưa dứt, có thể có sang chấn trong cuộc sống nên làm cho suy nghĩ chưa thấu đáo. Để điều trị suy nhược thần kinh, trước tiên bác sĩ khuyên bạn nên rèn luyện thể dục thể thao thường xuyên, nghỉ ngơi thư giãn và quan trọng là phải đi khám bác sĩ chuyên khoa để có sự tư vấn hỗ trợ cũng như được kê thuốc bổ trợ.",
+                "score": 0.5484626889228821,
+                "id": 8889
+            },
+            {
+                "text": "Câu hỏi: Bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố.",
+                "score": 0.5275918245315552,
+                "id": 2082
+            },
+            {
+                "text": "Câu hỏi: Điều trị liệt toàn thân do viêm màng não như thế nào?\nTrả lời: Xin hỏi, trường hợp cụ thể bạn đang nói đến là nam hay nữ?Bao nhiêu tuổi?Tình trạng bệnh cụ thể như thế nào?Diễn biến đã bao nhiêu năm nay?Về nguyên tắc chung, viêm màng não để lại di chứng như bạn nói thì sẽ khó điều trị, chủ yếu là chăm sóc, đảm bảo dinh dưỡng (có thể phải đặt sonde dạ dày để nuôi ăn), tập vật lý trị liệu phòng co cơ cứng khớp, phòng loét, phòng nhiễm trùng và nhiều phương thức điều trị chăm sóc hỗ trợ khác. Bạn cần đưa bệnh nhân đi khám để có đánh giá toàn diện, cụ thể và chính xác các vấn đề của bệnh nhân, từ đó bác sĩ sẽ đưa ra liệu trình điều trị phù hợp.",
+                "score": 0.5030426383018494,
+                "id": 3311
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nEm thấy mình như bị suy nhược thần kinh. Thời gian gần đây em thấy hay đau đầu, đầu óc ngu ngơ, giải quyết vấn đề dở, hay nghĩ quá vấn đề và suy nghĩ lung tung. Bác sĩ cho em hỏi điều trị suy nhược thần kinh như thế nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào bạn!\nQua mô tả, có thể bạn bị suy nhược thần kinh nhưng lại để kéo dài và không điều trị suy nhược thần kinh đúng bài bản nên tình trạng chưa dứt, có thể có sang chấn trong cuộc sống nên làm cho suy nghĩ chưa thấu đáo. Để điều trị suy nhược thần kinh, trước tiên bác sĩ khuyên bạn nên rèn luyện thể dục thể thao thường xuyên, nghỉ ngơi thư giãn và quan trọng là phải đi khám bác sĩ chuyên khoa để có sự tư vấn hỗ trợ cũng như được kê thuốc bổ trợ. Chúc bạn mau khỏe!\nĐể được tư vấn trực tiếp, Quý Khách vui lòng bấm số HOTLINE hoặc đăng ký trực tuyến TẠI ĐÂY.",
+                "score": 0.4958283305168152,
+                "id": 2068
+            },
+            {
+                "text": "Câu hỏi: Có phương pháp nào giúp cải thiện tình trạng nhược thị không?\nTrả lời: Bạn bị nhược thị nhưng do năm nay bạn đã 17 tuổi, tình trạng này có thể đã xuất hiện từ trước đó khá lâu rồi, do vậy việc điều trị nhược thị hiện tại là không khả quan, nếu bạn phẫu thuật thì cũng không giúp bạn cải thiện được thị lực mắt trái. Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé.",
+                "score": 0.48007678985595703,
+                "id": 2205
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Điều trị suy nhược thần kinh như thế nào?\nTrả lời: Qua mô tả, có thể bạn bị suy nhược thần kinh nhưng lại để kéo dài và không điều trị suy nhược thần kinh đúng bài bản nên tình trạng chưa dứt, có thể có sang chấn trong cuộc sống nên làm cho suy nghĩ chưa thấu đáo. Để điều trị suy nhược thần kinh, trước tiên bác sĩ khuyên bạn nên rèn luyện thể dục thể thao thường xuyên, nghỉ ngơi thư giãn và quan trọng là phải đi khám bác sĩ chuyên khoa để có sự tư vấn hỗ trợ cũng như được kê thuốc bổ trợ.",
+                "score": 0.5856044888496399,
+                "id": 8889
+            },
+            {
+                "text": "Câu hỏi: Điều trị liệt toàn thân do viêm màng não như thế nào?\nTrả lời: Xin hỏi, trường hợp cụ thể bạn đang nói đến là nam hay nữ?Bao nhiêu tuổi?Tình trạng bệnh cụ thể như thế nào?Diễn biến đã bao nhiêu năm nay?Về nguyên tắc chung, viêm màng não để lại di chứng như bạn nói thì sẽ khó điều trị, chủ yếu là chăm sóc, đảm bảo dinh dưỡng (có thể phải đặt sonde dạ dày để nuôi ăn), tập vật lý trị liệu phòng co cơ cứng khớp, phòng loét, phòng nhiễm trùng và nhiều phương thức điều trị chăm sóc hỗ trợ khác. Bạn cần đưa bệnh nhân đi khám để có đánh giá toàn diện, cụ thể và chính xác các vấn đề của bệnh nhân, từ đó bác sĩ sẽ đưa ra liệu trình điều trị phù hợp.",
+                "score": 0.5742002129554749,
+                "id": 3311
+            },
+            {
+                "text": "Câu hỏi: Bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố.",
+                "score": 0.5482984185218811,
+                "id": 2082
+            },
+            {
+                "text": "Câu hỏi: Có phương pháp nào giúp cải thiện tình trạng nhược thị không?\nTrả lời: Bạn bị nhược thị nhưng do năm nay bạn đã 17 tuổi, tình trạng này có thể đã xuất hiện từ trước đó khá lâu rồi, do vậy việc điều trị nhược thị hiện tại là không khả quan, nếu bạn phẫu thuật thì cũng không giúp bạn cải thiện được thị lực mắt trái. Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé.",
+                "score": 0.5398845672607422,
+                "id": 2205
+            },
+            {
+                "text": "Câu hỏi: Viêm mào tinh hoàn có nên dùng kháng sinh và kháng viêm trong điều trị?\nTrả lời: Viêm mào tinh hoàn cần được điều trị đúng kháng sinh và đủ liều, do đó với những dữ liệu em mô tả cho thấy em đang không được điều trị bệnh đúng và đủ. Em cần đi khám và tuân thủ chế độ điều trị của bác sĩ đưa ra để khỏi bệnh và tránh biến chứng về sau.",
+                "score": 0.5297995209693909,
+                "id": 3443
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Điều trị suy nhược thần kinh như thế nào?\nTrả lời: Qua mô tả, có thể bạn bị suy nhược thần kinh nhưng lại để kéo dài và không điều trị suy nhược thần kinh đúng bài bản nên tình trạng chưa dứt, có thể có sang chấn trong cuộc sống nên làm cho suy nghĩ chưa thấu đáo. Để điều trị suy nhược thần kinh, trước tiên bác sĩ khuyên bạn nên rèn luyện thể dục thể thao thường xuyên, nghỉ ngơi thư giãn và quan trọng là phải đi khám bác sĩ chuyên khoa để có sự tư vấn hỗ trợ cũng như được kê thuốc bổ trợ.",
+                "score": 0.6082941293716431,
+                "id": 8889
+            },
+            {
+                "text": "Câu hỏi: Có phương pháp nào giúp cải thiện tình trạng nhược thị không?\nTrả lời: Bạn bị nhược thị nhưng do năm nay bạn đã 17 tuổi, tình trạng này có thể đã xuất hiện từ trước đó khá lâu rồi, do vậy việc điều trị nhược thị hiện tại là không khả quan, nếu bạn phẫu thuật thì cũng không giúp bạn cải thiện được thị lực mắt trái. Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé.",
+                "score": 0.5814615488052368,
+                "id": 2205
+            },
+            {
+                "text": "Câu hỏi: Bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố.",
+                "score": 0.5617632269859314,
+                "id": 2082
+            },
+            {
+                "text": "Câu hỏi: Viêm mào tinh hoàn có nên dùng kháng sinh và kháng viêm trong điều trị?\nTrả lời: Viêm mào tinh hoàn cần được điều trị đúng kháng sinh và đủ liều, do đó với những dữ liệu em mô tả cho thấy em đang không được điều trị bệnh đúng và đủ. Em cần đi khám và tuân thủ chế độ điều trị của bác sĩ đưa ra để khỏi bệnh và tránh biến chứng về sau.",
+                "score": 0.5495966672897339,
+                "id": 3443
+            },
+            {
+                "text": "Câu hỏi: Có những phương pháp điều trị chứng tự kỷ trẻ nhỏ nào?\nTrả lời: Mấy chục năm qua rất nhiều phương pháp điều trị chứng tự kỷ trẻ nhỏ đã được thực hiện. Phương pháp được đa số công nhận là can thiệp giáo dục, bên cạnh đó là dùng thuốc, oxy cao áp, châm cứu. . . Chưa có phương pháp nào là lý tưởng để điều trị bệnh tự kỷ. Cách tốt nhất là khi trẻ có dấu hiệu của chứng tự kỷ, cha mẹ cần chủ động đưa con tới bệnh viện thăm khám và được tư vấn bởi những bác sĩ chuyên môn về hướng điều trị chứng tự kỷ ở trẻ nhỏ.",
+                "score": 0.547187328338623,
+                "id": 7367
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

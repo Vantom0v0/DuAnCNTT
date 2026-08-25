@@ -1,0 +1,34 @@
+{
+    "model_name": "naive_rag",
+    "query": "Bệnh song thị cần điều trị như thế nào?",
+    "answer": "Song thị có thể do nhiều nguyên nhân tại mắt hoặc toàn thân như loạn thị, đục thủy tinh thể, lác hoặc tổn thương não, nên không có một cách điều trị chung. Bạn cần khám chuyên khoa mắt sớm để xác định nguyên nhân và được điều trị kịp thời; vì để lâu bệnh có thể khó điều trị hơn, ảnh hưởng đến thị lực và trong một số trường hợp có thể ảnh hưởng nghiêm trọng đến sức khỏe.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Song thị: Để lâu có tự khỏi không?\nTrả lời: song thị là biểu hiện của rất nhiều bệnh lý tại mắt cũng như toàn thân, như: Loạn thị, đục thủy tinh thể, lác, tổn thương não, . . . Bệnh càng để lâu càng khó điều trị, một có bệnh lý còn có thể ảnh hưởng lớn đến thị lực và cả tính mạng. Bởi vậy bạn cần đến khám chuyên khoa mắt sớm để xác định được nguyên nhân và được điều trị kịp thời nhé.",
+            "score": 0.584811806678772,
+            "id": 254
+        },
+        {
+            "text": "Câu hỏi: Mắt cháu bị song thị gần 1 tháng rồi và nó làm mắt cháu mờ hơn 1 xíu. Bác sĩ cho cháu hỏi, nếu để lâu có tự khỏi hay nguy hiểm hơn không ạ?\nTrả lời: Chào bạn, song thị là biểu hiện của rất nhiều bệnh lý tại mắt cũng như toàn thân, như: Loạn thị, đục thủy tinh thể, lác, tổn thương não,... Bệnh càng để lâu càng khó điều trị, một có bệnh lý còn có thể ảnh hưởng lớn đến thị lực và cả tính mạng. Bởi vậy bạn cần đến khám chuyên khoa mắt sớm để xác định được nguyên nhân và được điều trị kịp thời nhé.\nCảm ơn bạn đã tin tưởng AI-Doctor. Rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+            "score": 0.5457310080528259,
+            "id": 2685
+        },
+        {
+            "text": "Câu hỏi: Trẻ bị loạn thị 2D có chữa khỏi được không?\nTrả lời: bé nhà bạn 4 tuổi với độ loạn 2D thì khả năng điều trị khỏi là rất thấp, bé cần được dùng thuốc và tránh xem các thiết bị điện tử như điện thoại máy tính để hạn chế tăng độ, người nhà cần đưa bé khám định kỳ để theo dõi và có hướng điều trị phù hợp.",
+            "score": 0.5179507732391357,
+            "id": 2758
+        },
+        {
+            "text": "Câu hỏi: Có phương pháp nào giúp cải thiện tình trạng nhược thị không?\nTrả lời: Bạn bị nhược thị nhưng do năm nay bạn đã 17 tuổi, tình trạng này có thể đã xuất hiện từ trước đó khá lâu rồi, do vậy việc điều trị nhược thị hiện tại là không khả quan, nếu bạn phẫu thuật thì cũng không giúp bạn cải thiện được thị lực mắt trái. Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé.",
+            "score": 0.5010595917701721,
+            "id": 2205
+        },
+        {
+            "text": "Câu hỏi: Phương pháp điều trị thoái hóa võng mạc ngoại vi?\nTrả lời: Những trường hợp cận loạn thị cao thường hay có vẩn đục dịch kính và thoái hóa võng mạc, võng mạc mỏng hơn người bình thường. Cháu nên thăm khám định kỳ với bác sĩ mắt để theo dõi. Nếu cần bác sĩ sẽ chỉ định siêu âm và nhỏ giãn đồng tử khám chuyên sâu. Nếu gặp nhiều chớp sáng, nhìn mờ thì nên đi khám ngay. Nên tránh các vận động mạnh, thay đổi tư thế đột ngột, tránh các chấn thương vào mắt. Nên ăn nhiều cá và rau quả tươi, những thực phẩm nhiều chất dinh dưỡng cho mắt, giàu vitamin. Tăng hoạt động ngoài trời và hạn chế các thiết bị điện tử. Học bài đủ ánh sáng, đúng tư thế.",
+            "score": 0.4907758831977844,
+            "id": 1623
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

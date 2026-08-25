@@ -1,0 +1,34 @@
+{
+    "model_name": "iter_retgen",
+    "query": "Chào bác sĩ,\nCháu ăn phải thịt lợn đã chín và có sán gạo lợn. Vậy bác sĩ cho cháu hỏi sử dụng thịt lợn nấu chín nhiễm sán gạo có sao không? Cháu cảm ơn bác sĩ.",
+    "answer": "Chào cháu, nếu thịt lợn nhiễm sán đã được nấu chín kỹ, đặc biệt đun sôi hoàn toàn, thì ấu trùng sán thường bị tiêu diệt và nguy cơ mắc bệnh là rất thấp; tuy nhiên không nên tiếp tục sử dụng thịt có nhiễm sán dù đã nấu chín vì có thể không bảo đảm an toàn vệ sinh thực phẩm. Cháu nên theo dõi sức khỏe, nếu xuất hiện đau bụng kéo dài, buồn nôn, tiêu chảy hoặc triệu chứng bất thường thì đi khám để được tư vấn; lần sau nên ăn thịt có nguồn gốc rõ ràng và nấu chín kỹ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho mình hỏi các loại ký sinh trùng và trứng như sán lợn, giun dẹp... có bị tiêu diệt ở nhiệt độ thấp hơn -15°C không ạ? Mong bác sĩ tư vấn giúp mình.\nTrả lời: Chào bạn! Thông thường, ấu trùng sán heo chết ở -2oC, nhưng nếu ở 0oC đến -2oC nó sống được gần 2 tháng và ở nhiệt độ phòng thí nghiệm cũng sống được 26 ngày. Nếu muốn dùng thịt heo sống, phải để thịt ở -10oC trong 4 ngày mới đảm bảo.\nẤu trùng bị giết chết ở 45 - 50oC. Do đó nhiệt độ -15 độ C là chưa an toàn để diệt ký sinh trùng. Để đảm bảo an toàn 1⁄2 kg thịt phải đun sôi 1 giờ. Ấu trùng sán sống sau 22 ngày ngâm trong nước muối bão hòa.\nKhông nên dùng các sản phẩm nhiễm ấu trùng sán, nếu đun chín kỹ thực phẩm thì tuy nó không gây bệnh nhưng trong thực phẩm vẫn có độc tố do ấu trùng tiết ra, không tốt cho hệ tiêu hóa, cũng như cơ thể con người.",
+            "score": 0.5033320188522339,
+            "id": 4650
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
+            "score": 0.4938376545906067,
+            "id": 7186
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, tôi bị dị ứng thức ăn khoảng gần 1 năm nay, khi ăn các loại thức ăn thịt heo, gà, cá ,tôm, mực, trứng, sữa, đậu nành, bánh mì, bánh phở, nước mắm ,  và các loại thức ăn lên men như dưa cải thì đều bị ngứa ngáy rất khó chịu, tôi đã đi khám và kiểm tra rất nhiều bệnh viện nhưng kết quả bác sĩ chỉ nói là dị ứng và cho uống kháng histamin nhưng vẫn không thuyên giảm. Tôi rất mệt mỏi và lo lắng. Mong bác sĩ tư vấn cách xử lý và điều trị ra sao\nRất mong sớm nhận được phản hồi của bác sĩ. \n( Trần Thị Mỹ Dung - Thủ Dầu Một, Bình Dương)\nTrả lời: Chào bạn\nXin cho hỏi tình trạng này của bạn mới xuất hiện 1 năm nay mà trước đây bạn ăn các thức ăn trên thì hoàn toàn bình thường? Vậy hện tượng này xảy ra có sau 1 thay đổi nào không như bạn bị 1 đợt bệnh gì hay sau sinh em bé, hay dùng thuốc gì khác...? Ngoài ngứa ra bạn có biểu hiện khác như vàng da, nổi ban không hay chỉ ngứa ở trong da mà không có ban trên da?\nNếu bạn để ý tới 1nguyeen nhân nào đó có thể việc điều trị sẽ hiệu quả hơn.\nTrong trường hợp không tìm được nguyên nhân gì thì điều trị kháng histamin kéo dài cũng không được khuyến cáo. Bạn có thẻ cung cấp thêm thông tin để các bác sĩ tư vấn đầy đủ.\nThân mến",
+            "score": 0.4395940601825714,
+            "id": 7412
+        },
+        {
+            "text": "Câu hỏi: Trào ngược dạ dày tái phát có nguy hiểm không?\nTrả lời: Bạn nên tái khám và nhờ sự tư vấn từ các bác sĩ chuyên khoa tiêu hóa để được chẩn đoán chính xác nhất. Tuy nhiên, theo như mô tả của bạn thì có thể tình trạng trào ngược dạ dày của bạn đang tái phát lại. Trào ngược dạ dày thực quản là một bệnh lý mạn tính, khó điều trị dứt điểm. Việc điều trị kết hợp giữa thuốc và điều chỉnh lối sống sẽ có hiệu quả cao hơn khi điều trị riêng lẻ. Ngoài ra, bạn không nên ăn quá no trong bữa, không nên ăn trong vòng 2-3h trước khi ngủ, nên ngủ đầu thấp, thể dục lành mạnh và hạn chế stress.",
+            "score": 0.4302915930747986,
+            "id": 1791
+        },
+        {
+            "text": "Câu hỏi: Đặt sonde dạ dày sau khi mổ ruột thừa liệu có đáng lo ngại?\nTrả lời: Thông thường, người bệnh sau phẫu thuật cắt ruột thừa sẽ ăn uống và sinh hoạt bình thường sau mổ 2-3 ngày. Nếu sau mổ 2 tuần phải đặt ống sonde dạ dày thì bạn cần trao đổi với bác sĩ điều trị để nắm rõ thông tin về bệnh tình của bố bạn.",
+            "score": 0.42740294337272644,
+            "id": 3435
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

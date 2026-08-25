@@ -8,11 +8,11 @@ def iter_retgen_model(query, iteration, evaluation_mode = False):
 
     retrieval_info = query
     output_answer = ""
+    llm_calls = 0
+    num_iteration = 0
     for iteration_idx in range(iteration):
         print(f"Iteration {iteration_idx+1}:")
-
         retrieved_documents = retrieve(EMBEDDING_MODEL_NAME, retrieval_info, vector_index, TOP_N, corpus_documents)
-        print("RETRIEVED DOCUMENTS")
 
         if evaluation_mode is False:
             for doc_idx, doc in enumerate(retrieved_documents):
@@ -35,8 +35,14 @@ def iter_retgen_model(query, iteration, evaluation_mode = False):
         retrieval_info = query + "\n" + answer
         output_answer = answer
 
+        llm_calls += 1
+        num_iteration += 1
+
     return {
+        "model_name": "iter_retgen",
         "query": query,
         "answer": output_answer,
-        "retrieved": retrieved_documents
+        "retrieved": retrieved_documents,
+        "llm_call": llm_calls,
+        "iteration": num_iteration
     }

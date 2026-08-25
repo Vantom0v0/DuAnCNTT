@@ -1,0 +1,39 @@
+{
+    "query": "Có mấy loại sỏi mật và triệu chứng nhận biết sỏi mật?",
+    "answer": "Sỏi mật gồm 2 loại: sỏi cholesterol và sỏi sắc tố mật. Triệu chứng thường gặp, dễ nhận biết nhất là đau vùng thượng vị hoặc hạ sườn phải.",
+    "evidence": [
+        "Với câu hỏi có mấy loại sỏi mật, bác sĩ xin được giải đáp như sau:\nSỏi mật gồm 2 loại: Sỏi cholesterol và sỏi sắc tố mật.",
+        "Triệu chứng thường gặp dễ nhận biết nhất là đau vùng thượng vị hoặc hạ sườn phải."
+    ],
+    "retrieval_history": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tôi muốn hỏi có mấy loại sỏi mật và vị trí của sỏi nằm ở đâu? Dấu hiệu nhận biết sỏi mật như thế nào? Mong nhận được những chia sẻ hữu ích của bác sĩ. Tôi xin cảm ơn.\nTrả lời: Chào bạn. Với câu hỏi có mấy loại sỏi mật, bác sĩ xin được giải đáp như sau:\nSỏi mật gồm 2 loại: Sỏi cholesterol và sỏi sắc tố mật. Sỏi mật có nhiều vị trí khác nhau: sỏi đường mật trong gan, sỏi đường mật ngoài gan và sỏi túi mật.\nTriệu chứng thường gặp dễ nhận biết nhất là đau vùng thượng vị hoặc hạ sườn phải.",
+                "score": 0.6920833587646484,
+                "id": 2213
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.5627700090408325,
+                "id": 1629
+            },
+            {
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.5625483989715576,
+                "id": 2290
+            },
+            {
+                "text": "Câu hỏi: Tôi muốn hỏi chi phí cho một ca thụ tinh ống nghiệm là bao nhiêu? Tôi sinh 1978, vợ 1980, chúng tôi có một bé sinh năm 2011, cho đến nay thì không có thêm bé nào nữa.\nTrả lời: Chi phí cho một lộ trình điều trị hỗ trợ sinh sản IVF không cố định, phụ thuộc vào nhiều yếu tố như phương pháp hỗ trợ sinh sản, cơ địa, thể trạng, thuốc sử dụng. . .",
+                "score": 0.5406669974327087,
+                "id": 8982
+            },
+            {
+                "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+                "score": 0.5237195491790771,
+                "id": 7879
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

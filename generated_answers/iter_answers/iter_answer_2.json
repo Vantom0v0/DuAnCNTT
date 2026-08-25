@@ -1,0 +1,33 @@
+{
+    "query": "Có mấy loại sỏi mật và triệu chứng nhận biết sỏi mật?",
+    "answer": "Sỏi mật gồm **2 loại chính**: sỏi cholesterol và sỏi sắc tố mật. Sỏi có thể nằm ở **túi mật, đường mật trong gan hoặc đường mật ngoài gan**. Triệu chứng thường gặp nhất là **đau vùng thượng vị hoặc hạ sườn phải**, dễ nhầm với viêm loét dạ dày; một số trường hợp có thể kèm **sốt, vàng da hoặc vàng mắt**. Khi xuất hiện các dấu hiệu này, nên đi khám và siêu âm bụng để chẩn đoán chính xác.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Tôi muốn hỏi có mấy loại sỏi mật và vị trí của sỏi nằm ở đâu? Dấu hiệu nhận biết sỏi mật như thế nào? Mong nhận được những chia sẻ hữu ích của bác sĩ. Tôi xin cảm ơn.\nTrả lời: Chào bạn. Với câu hỏi có mấy loại sỏi mật, bác sĩ xin được giải đáp như sau:\nSỏi mật gồm 2 loại: Sỏi cholesterol và sỏi sắc tố mật. Sỏi mật có nhiều vị trí khác nhau: sỏi đường mật trong gan, sỏi đường mật ngoài gan và sỏi túi mật.\nTriệu chứng thường gặp dễ nhận biết nhất là đau vùng thượng vị hoặc hạ sườn phải.",
+            "score": 0.6973499655723572,
+            "id": 2213
+        },
+        {
+            "text": "Câu hỏi: Triệu chứng thường gặp nhất của bệnh sỏi mật là gì? Phương pháp nào có thể chẩn đoán chính xác?\nTrả lời: Triệu chứng thường gặp nhất của bệnh sỏi mật là đau vùng thượng vị hoặc hạ sườn phải, rất dễ nhầm với bệnh viêm dạ dày và hoành tá tràng, đặc biệt là viêm loét dạ dày. Để chẩn đoán chính xác bệnh sỏi mật thì khi xuất hiện triệu chứng trên bệnh nhân nên đi siêu âm bụngHiện tại, điều trị bệnh lý sỏi mật được áp dụng điều trị nội khoa và điều trị ngoại khoa. Điều trị nội khoa với những trường hợp sỏi mật nhỏ, chưa có biến chứng có thể sử dụng các thuốc tan sỏi để điều trị. Sỏi lớn và có biến chứng, bệnh nhân bắt buộc phải tiến hành phẫu thuật lấy sỏi.",
+            "score": 0.6366552114486694,
+            "id": 2196
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Hiện tôi muốn tìm hiểu về bệnh sỏi mật. Cho tôi hỏi triệu chứng thường gặp nhất của bệnh sỏi mật là gì? Phương pháp nào có thể chẩn đoán chính xác bệnh sỏi mật so với các bệnh về đường tiêu hóa khác? Điều trị bệnh sỏi mật được thực hiện như thế nào? Mong bác sĩ giải đáp những thắc mắc giúp tôi.\nTrả lời: Chào bạn. Triệu chứng thường gặp nhất của bệnh sỏi mật là đau vùng thượng vị hoặc hạ sườn phải, rất dễ nhầm với bệnh viêm dạ dày và hoành tá tràng, đặc biệt là viêm loét dạ dày. Để chẩn đoán chính xác bệnh sỏi mật thì khi xuất hiện triệu chứng trên bệnh nhân nên đi siêu âm bụng\nHiện tại, điều trị bệnh lý sỏi mật được áp dụng điều trị nội khoa và điều trị ngoại khoa. Điều trị nội khoa với những trường hợp sỏi mật nhỏ, chưa có biến chứng có thể sử dụng các thuốc tan sỏi để điều trị. Sỏi lớn và có biến chứng, bệnh nhân bắt buộc phải tiến hành phẫu thuật lấy sỏi.",
+            "score": 0.611621618270874,
+            "id": 2212
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, tôi bị sỏi túi mật kích thước 38mm thì có nguy hiểm không ạ? Hiện tại, tôi có dùng thuốc tránh thai định kỳ có sao không ạ?\nTrả lời: Chào bạn, bạn không nói rõ sỏi túi mật nhưng đã có đau bụng, vàng da mắt, sốt hay không? Trường hợp không có triệu chứng có thể không cần điều trị và cần khám bác sĩ ngay khi có dấu chứng đau vùng túi mật, sốt, vàng da mắt...Dùng thuốc tránh thai là một trong các nguy cơ bị sỏi túi mật.",
+            "score": 0.5395056009292603,
+            "id": 4033
+        },
+        {
+            "text": "Câu hỏi: Thuốc tránh thai định kỳ có làm tăng nguy cơ sỏi túi mật?\nTrả lời: bạn không nói rõ sỏi túi mật nhưng đã có đau bụng, vàng da mắt, sốt hay không?Trường hợp không có triệu chứng có thể không cần điều trị và cần khám bác sĩ ngay khi có dấu chứng đau vùng túi mật, sốt, vàng da mắt. . . Dùng thuốc tránh thai là một trong các nguy cơ bị sỏi túi mật.",
+            "score": 0.5017144680023193,
+            "id": 8429
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

@@ -108,7 +108,7 @@ def dedupe_merge(collected: dict, new_docs: list) -> dict:
             collected[key] = doc
     return collected
 
-def ircot_model(query, max_steps=8, max_paragraphs=15, evaluation_mode=False):
+def ircot_model(query, max_steps=4, max_paragraphs=8, evaluation_mode=False):
     corpus_documents, _, vector_index, _ = initiate(query)
     demo_block = "\n\n".join(render_demo(d) for d in DEMONSTRATIONS)
     collected = {}

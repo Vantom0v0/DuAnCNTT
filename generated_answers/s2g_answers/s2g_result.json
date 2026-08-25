@@ -1,0 +1,120 @@
+{
+    "query": "Chào bác sĩ,\nCháu ăn phải thịt lợn đã chín và có sán gạo lợn. Vậy bác sĩ cho cháu hỏi sử dụng thịt lợn nấu chín nhiễm sán gạo có sao không? Cháu cảm ơn bác sĩ.",
+    "answer": "Các bằng chứng được cung cấp không đủ để xác định việc ăn thịt lợn đã nấu chín nhưng nhiễm sán gạo có gây ảnh hưởng cụ thể hay không. Tuy nhiên, đồ sống có thể chứa ký sinh trùng, sán gây bệnh; vì vậy nên ăn chín, uống sôi và bảo đảm vệ sinh an toàn thực phẩm để phòng tránh đau bụng và các vấn đề sức khỏe.",
+    "evidence": [
+        "Bên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể.",
+        "Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé."
+    ],
+    "retrieval_history": [
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
+                "score": 0.5265086889266968,
+                "id": 7186
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, ăn nhiều lòng trắng trứng thì có bị bệnh gì không ạ\nTrả lời: Chào bạn !  \nNếu sử dụng lòng trắng trứng quá mức có thể gây nên một số tác dụng phụ như dư thừa protein, gây dị ứng, nhiễm vi khuẩn...\n\nLòng trắng trứng gà thường được dùng để làm đẹp và nó cũng chứa nhiều thành phần dinh dưỡng tốt cho sức khỏe. Những lợi ích tuyệt vời của lòng trắng trứng có thể kể đến như: Rất giàu protein giúp cơ bắp săn chắc; Không chứa cholesterol; giàu choline giúp điều hòa giấc ngủ…\nTuy vậy, nếu bạn sử dụng lòng trắng trứng nhiều, vượt giới hạn cho phép có thể gây ra những tác dụng phụ không ngờ. Sau đây là những tác dụng phụ thường gặp phải khi ăn lòng trắng trứng quá \nDư thừa protein\nLòng trắng trứng rất giàu protein. Nếu bạn sử dụng quá nhiều lòng trắng trứng đồng nghĩa với việc tiêu thụ một lượng lớn protein có thể gây nguy hại cho thận. Đối với những người có mức lọc cầu thận thấp, ăn nhiều lòng trắng trứng có thể bị đau thận cấp tính vì hàm lượng protein quá cao.\nĐối với người bị suy giảm chức năng thận, 0,6 - 0,8g là lượng protein cần thiết hàng ngày. Tuy vậy, các bác sĩ khuyến cáo rằng 60% protein cơ thể hấp thụ nên bắt nguồn từ trứng, ngay cả với người có mức lọc cầu thận thấp. Chính vì vậy, nếu bạn có vấn đề về gan hoặc thận cần tham khảo ý kiến bác sĩ về việc ăn loại thực phẩm này.\nSuy giảm biotin\nBiotin hay còn gọi là vitamin H hay vitamin B7 rất cần thiết cho cơ thể của chúng ta. Nếu thiếu hụt biotin có thể gây ra các vấn đề liên quan đến da như viêm da đầu ở người lớn hay viêm da tiết bã ở trẻ em.\nBên cạnh đó, co thắt hay đau nhức cơ bắp, rụng tóc, co giật cũng là những vấn đề hay gặp nếu thiếu biotin. Lòng trắng trứng gà sống lại là nguyên nhân gây ra sự suy giảm biotin. Nếu bạn sử dụng nhiều sẽ gây ra sự thiếu hụt biotin trầm trọng.\nNhiễm vi khuẩn salmonella\nNếu có sở thích ăn trứng gà sống, nhất là lòng trắng trứng thì nên cân nhắc thật kỹ, vì có thể bạn sẽ bị nhiễm vi khuẩn salmonella. Đây là loại vi khuẩn thường gây ra bệnh tiêu chảy, lây nhiễm đến các bộ phận của cơ thể như máu, xương, khớp xương…\nLoại vi khuẩn này thường được tìm thấy ở trong ruột hay trứng của gia cầm. Để tiêu diệt vi khuẩn này, cách tốt nhất là bạn nên chế biến kỹ trứng gà, có thể luộc chín hoặc chiên, tuyệt đối không nên ăn trứng sống.\nLòng trắng trứng gà, ăn nhiều hại nhiều - ảnh 2\nNếu có sở thích ăn trứng gà sống, nhất là lòng trắng trứng thì nên cân nhắc thật kỹ\nGây dị ứng\nTrong một số trường hợp, những người dị ứng với lòng trắng trứng gà, cũng sẽ dị ứng với chất albumin (một loại protein quan trọng trong lòng trắng trứng). Triệu chứng dị ứng phổ biến thường gặp là buồn nôn, hắt hơi, tiêu chảy, da sưng phồng hay bị viêm ruột.\nBên cạnh đó, đau họng, thở khó khăn, đau miệng hay hạ huyết áp đột ngột dẫn đến hoa mắt, mất tập trung cũng là triệu chứng dị ứng thường gặp khi sử dụng lòng trắng trứng. Chính vì vậy, nếu bạn bị dị ứng với trứng thì cũng không nên ăn lòng trắng trứng.\nThân chào",
+                "score": 0.45182350277900696,
+                "id": 7194
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, em xét nghiệm và được chẩn đoán là bị giun sán chó mà điều trị từ tháng 6 tới nay sao không hết, bây giờ nổi hết mình, cổ và mặt, xin hỏi bác có cách thuốc gì uống cho lặn xuống không ạ?\nTrần Hữu Lợi (TP HCM)\nChào bác sĩ, bác sĩ cho em hỏi là bệnh sán chó có thuốc chích ngừa cho người không? Mong nhận được tư vấn của bác sĩ, cảm ơn bác sĩ\nTrả lời: Chào bạn, nhiễm sán chó là một bệnh nhiễm trùng gây ra bởi 1 loại ký sinh trùng sán dây có tên là Toxocara canis, bệnh lây truyền qua trung gian truyền bệnh là chó. Bệnh lý này có biểu hiện lâm sàng từ không có triệu chứng gì cho đến triệu chứng ngứa, mề đay, đau đầu, rối loạn tiêu hóa, bạch cầu ái toan tăng, một số trường hợp có tổn thương gan, não... Bạn đã nói điều trị từ tháng 6, tuy nhiên mình không rõ bạn đã điều trị ở đâu và đủ liệu trình chưa. Xét nghiệm ngoài nhiễm sán chó còn bội nhiễm loại giun sán nào kèm theo không. Ngoài điều trị thuốc chính để diệt giun sán còn phối hợp với thuốc hỗ trợ triệu chứng để giúp đem lại hiệu quả. Bạn nên đến khám tại chuyên khoa Y học nhiệt đới để bác sĩ tư vấn lại liệu trình điều trị và theo dõi nhé.",
+                "score": 0.44654184579849243,
+                "id": 4748
+            },
+            {
+                "text": "Câu hỏi: Chào Bác sĩ, hiện tại thì em bị trào ngược dạ dày thực quản. Mong Bác sĩ tư vấn dùng các loại thuốc trị bệnh, và cho em hỏi bệnh này có chữa dứt điểm được không? Và làm thế nào để dứt điểm ạ?\nTrả lời: Chào bạn, bạn đã đi khám ở đâu và được chẩn đoán trào ngược dạ dày thực quản vậy? Hiện bệnh này là bệnh lành tính có thể chữa khỏi nhưng hay tái phát. Do đó bệnh nhân cần điều chỉnh chế độ ăn và  chế độ sinh hoạt như ăn ngủ điều độ, hạn chế thức ăn chua cay và đồ uống có gas, hạn chế chất kích thích và đồ uống có cồn. Chúc bạn luôn mạnh khoẻ!",
+                "score": 0.4377968907356262,
+                "id": 5551
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ. Vài tuần trước ở tay phải của tôi có nổi mẩn to nhìn vào giống như bị rết cắn nhưng không có dấu vết gì cả, vài ngày sau thì mắt trái của tôi bị ngứa và sưng lên. Hiện tại bên trong miệng tôi có 1 cục bị cộm giống như vết muỗi cắn vậy. Xin hỏi bác sĩ có phải tôi bị sán chó không?\nTrả lời: Chào chị. Các triệu chứng hiện tại của chị không phải là triệu chứng điển hình của tình trạng nhiễm sán chó. Tuy nhiên, chị nên đến bệnh viện để được thăm khám, chẩn đoán tìm nguyên nhân và điều trị. Trong trường hợp vẫn còn nghi ngờ nhiễm sán chó thì bác sĩ sẽ cho chị làm các xét nghiệm đặc hiệu để xác định chắc chắn chị nhé.",
+                "score": 0.426615834236145,
+                "id": 4764
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
+                "score": 0.5328187942504883,
+                "id": 7186
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, em xét nghiệm và được chẩn đoán là bị giun sán chó mà điều trị từ tháng 6 tới nay sao không hết, bây giờ nổi hết mình, cổ và mặt, xin hỏi bác có cách thuốc gì uống cho lặn xuống không ạ?\nTrần Hữu Lợi (TP HCM)\nChào bác sĩ, bác sĩ cho em hỏi là bệnh sán chó có thuốc chích ngừa cho người không? Mong nhận được tư vấn của bác sĩ, cảm ơn bác sĩ\nTrả lời: Chào bạn, nhiễm sán chó là một bệnh nhiễm trùng gây ra bởi 1 loại ký sinh trùng sán dây có tên là Toxocara canis, bệnh lây truyền qua trung gian truyền bệnh là chó. Bệnh lý này có biểu hiện lâm sàng từ không có triệu chứng gì cho đến triệu chứng ngứa, mề đay, đau đầu, rối loạn tiêu hóa, bạch cầu ái toan tăng, một số trường hợp có tổn thương gan, não... Bạn đã nói điều trị từ tháng 6, tuy nhiên mình không rõ bạn đã điều trị ở đâu và đủ liệu trình chưa. Xét nghiệm ngoài nhiễm sán chó còn bội nhiễm loại giun sán nào kèm theo không. Ngoài điều trị thuốc chính để diệt giun sán còn phối hợp với thuốc hỗ trợ triệu chứng để giúp đem lại hiệu quả. Bạn nên đến khám tại chuyên khoa Y học nhiệt đới để bác sĩ tư vấn lại liệu trình điều trị và theo dõi nhé.",
+                "score": 0.4567769169807434,
+                "id": 4748
+            },
+            {
+                "text": "Câu hỏi: Chào Bác sĩ, hiện tại thì em bị trào ngược dạ dày thực quản. Mong Bác sĩ tư vấn dùng các loại thuốc trị bệnh, và cho em hỏi bệnh này có chữa dứt điểm được không? Và làm thế nào để dứt điểm ạ?\nTrả lời: Chào bạn, bạn đã đi khám ở đâu và được chẩn đoán trào ngược dạ dày thực quản vậy? Hiện bệnh này là bệnh lành tính có thể chữa khỏi nhưng hay tái phát. Do đó bệnh nhân cần điều chỉnh chế độ ăn và  chế độ sinh hoạt như ăn ngủ điều độ, hạn chế thức ăn chua cay và đồ uống có gas, hạn chế chất kích thích và đồ uống có cồn. Chúc bạn luôn mạnh khoẻ!",
+                "score": 0.4428308606147766,
+                "id": 5551
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, ăn nhiều lòng trắng trứng thì có bị bệnh gì không ạ\nTrả lời: Chào bạn !  \nNếu sử dụng lòng trắng trứng quá mức có thể gây nên một số tác dụng phụ như dư thừa protein, gây dị ứng, nhiễm vi khuẩn...\n\nLòng trắng trứng gà thường được dùng để làm đẹp và nó cũng chứa nhiều thành phần dinh dưỡng tốt cho sức khỏe. Những lợi ích tuyệt vời của lòng trắng trứng có thể kể đến như: Rất giàu protein giúp cơ bắp săn chắc; Không chứa cholesterol; giàu choline giúp điều hòa giấc ngủ…\nTuy vậy, nếu bạn sử dụng lòng trắng trứng nhiều, vượt giới hạn cho phép có thể gây ra những tác dụng phụ không ngờ. Sau đây là những tác dụng phụ thường gặp phải khi ăn lòng trắng trứng quá \nDư thừa protein\nLòng trắng trứng rất giàu protein. Nếu bạn sử dụng quá nhiều lòng trắng trứng đồng nghĩa với việc tiêu thụ một lượng lớn protein có thể gây nguy hại cho thận. Đối với những người có mức lọc cầu thận thấp, ăn nhiều lòng trắng trứng có thể bị đau thận cấp tính vì hàm lượng protein quá cao.\nĐối với người bị suy giảm chức năng thận, 0,6 - 0,8g là lượng protein cần thiết hàng ngày. Tuy vậy, các bác sĩ khuyến cáo rằng 60% protein cơ thể hấp thụ nên bắt nguồn từ trứng, ngay cả với người có mức lọc cầu thận thấp. Chính vì vậy, nếu bạn có vấn đề về gan hoặc thận cần tham khảo ý kiến bác sĩ về việc ăn loại thực phẩm này.\nSuy giảm biotin\nBiotin hay còn gọi là vitamin H hay vitamin B7 rất cần thiết cho cơ thể của chúng ta. Nếu thiếu hụt biotin có thể gây ra các vấn đề liên quan đến da như viêm da đầu ở người lớn hay viêm da tiết bã ở trẻ em.\nBên cạnh đó, co thắt hay đau nhức cơ bắp, rụng tóc, co giật cũng là những vấn đề hay gặp nếu thiếu biotin. Lòng trắng trứng gà sống lại là nguyên nhân gây ra sự suy giảm biotin. Nếu bạn sử dụng nhiều sẽ gây ra sự thiếu hụt biotin trầm trọng.\nNhiễm vi khuẩn salmonella\nNếu có sở thích ăn trứng gà sống, nhất là lòng trắng trứng thì nên cân nhắc thật kỹ, vì có thể bạn sẽ bị nhiễm vi khuẩn salmonella. Đây là loại vi khuẩn thường gây ra bệnh tiêu chảy, lây nhiễm đến các bộ phận của cơ thể như máu, xương, khớp xương…\nLoại vi khuẩn này thường được tìm thấy ở trong ruột hay trứng của gia cầm. Để tiêu diệt vi khuẩn này, cách tốt nhất là bạn nên chế biến kỹ trứng gà, có thể luộc chín hoặc chiên, tuyệt đối không nên ăn trứng sống.\nLòng trắng trứng gà, ăn nhiều hại nhiều - ảnh 2\nNếu có sở thích ăn trứng gà sống, nhất là lòng trắng trứng thì nên cân nhắc thật kỹ\nGây dị ứng\nTrong một số trường hợp, những người dị ứng với lòng trắng trứng gà, cũng sẽ dị ứng với chất albumin (một loại protein quan trọng trong lòng trắng trứng). Triệu chứng dị ứng phổ biến thường gặp là buồn nôn, hắt hơi, tiêu chảy, da sưng phồng hay bị viêm ruột.\nBên cạnh đó, đau họng, thở khó khăn, đau miệng hay hạ huyết áp đột ngột dẫn đến hoa mắt, mất tập trung cũng là triệu chứng dị ứng thường gặp khi sử dụng lòng trắng trứng. Chính vì vậy, nếu bạn bị dị ứng với trứng thì cũng không nên ăn lòng trắng trứng.\nThân chào",
+                "score": 0.4390117824077606,
+                "id": 7194
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ. Vài tuần trước ở tay phải của tôi có nổi mẩn to nhìn vào giống như bị rết cắn nhưng không có dấu vết gì cả, vài ngày sau thì mắt trái của tôi bị ngứa và sưng lên. Hiện tại bên trong miệng tôi có 1 cục bị cộm giống như vết muỗi cắn vậy. Xin hỏi bác sĩ có phải tôi bị sán chó không?\nTrả lời: Chào chị. Các triệu chứng hiện tại của chị không phải là triệu chứng điển hình của tình trạng nhiễm sán chó. Tuy nhiên, chị nên đến bệnh viện để được thăm khám, chẩn đoán tìm nguyên nhân và điều trị. Trong trường hợp vẫn còn nghi ngờ nhiễm sán chó thì bác sĩ sẽ cho chị làm các xét nghiệm đặc hiệu để xác định chắc chắn chị nhé.",
+                "score": 0.4314628839492798,
+                "id": 4764
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
+                "score": 0.5310987830162048,
+                "id": 7186
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, em xét nghiệm và được chẩn đoán là bị giun sán chó mà điều trị từ tháng 6 tới nay sao không hết, bây giờ nổi hết mình, cổ và mặt, xin hỏi bác có cách thuốc gì uống cho lặn xuống không ạ?\nTrần Hữu Lợi (TP HCM)\nChào bác sĩ, bác sĩ cho em hỏi là bệnh sán chó có thuốc chích ngừa cho người không? Mong nhận được tư vấn của bác sĩ, cảm ơn bác sĩ\nTrả lời: Chào bạn, nhiễm sán chó là một bệnh nhiễm trùng gây ra bởi 1 loại ký sinh trùng sán dây có tên là Toxocara canis, bệnh lây truyền qua trung gian truyền bệnh là chó. Bệnh lý này có biểu hiện lâm sàng từ không có triệu chứng gì cho đến triệu chứng ngứa, mề đay, đau đầu, rối loạn tiêu hóa, bạch cầu ái toan tăng, một số trường hợp có tổn thương gan, não... Bạn đã nói điều trị từ tháng 6, tuy nhiên mình không rõ bạn đã điều trị ở đâu và đủ liệu trình chưa. Xét nghiệm ngoài nhiễm sán chó còn bội nhiễm loại giun sán nào kèm theo không. Ngoài điều trị thuốc chính để diệt giun sán còn phối hợp với thuốc hỗ trợ triệu chứng để giúp đem lại hiệu quả. Bạn nên đến khám tại chuyên khoa Y học nhiệt đới để bác sĩ tư vấn lại liệu trình điều trị và theo dõi nhé.",
+                "score": 0.457472026348114,
+                "id": 4748
+            },
+            {
+                "text": "Câu hỏi: Chào Bác sĩ, hiện tại thì em bị trào ngược dạ dày thực quản. Mong Bác sĩ tư vấn dùng các loại thuốc trị bệnh, và cho em hỏi bệnh này có chữa dứt điểm được không? Và làm thế nào để dứt điểm ạ?\nTrả lời: Chào bạn, bạn đã đi khám ở đâu và được chẩn đoán trào ngược dạ dày thực quản vậy? Hiện bệnh này là bệnh lành tính có thể chữa khỏi nhưng hay tái phát. Do đó bệnh nhân cần điều chỉnh chế độ ăn và  chế độ sinh hoạt như ăn ngủ điều độ, hạn chế thức ăn chua cay và đồ uống có gas, hạn chế chất kích thích và đồ uống có cồn. Chúc bạn luôn mạnh khoẻ!",
+                "score": 0.447920560836792,
+                "id": 5551
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi, bị bệnh sán chó tôi có phải lọc máu không? Cảm ơn bác sĩ đã trả lời giúp tôi.\nTrả lời: Chào chị. Cảm ơn chị đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Hiện tại điều trị bệnh lý sán dải chó không có chỉ định lọc máu. Chị nên đến khám khoa truyền nhiễm để được bác sĩ khám và tư vấn phương pháp điều trị tốt nhất.",
+                "score": 0.44283920526504517,
+                "id": 2619
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ. Vài tuần trước ở tay phải của tôi có nổi mẩn to nhìn vào giống như bị rết cắn nhưng không có dấu vết gì cả, vài ngày sau thì mắt trái của tôi bị ngứa và sưng lên. Hiện tại bên trong miệng tôi có 1 cục bị cộm giống như vết muỗi cắn vậy. Xin hỏi bác sĩ có phải tôi bị sán chó không?\nTrả lời: Chào chị. Các triệu chứng hiện tại của chị không phải là triệu chứng điển hình của tình trạng nhiễm sán chó. Tuy nhiên, chị nên đến bệnh viện để được thăm khám, chẩn đoán tìm nguyên nhân và điều trị. Trong trường hợp vẫn còn nghi ngờ nhiễm sán chó thì bác sĩ sẽ cho chị làm các xét nghiệm đặc hiệu để xác định chắc chắn chị nhé.",
+                "score": 0.4264158010482788,
+                "id": 4764
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
+                "score": 0.5009727478027344,
+                "id": 7186
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi, bị bệnh sán chó tôi có phải lọc máu không? Cảm ơn bác sĩ đã trả lời giúp tôi.\nTrả lời: Chào chị. Cảm ơn chị đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Hiện tại điều trị bệnh lý sán dải chó không có chỉ định lọc máu. Chị nên đến khám khoa truyền nhiễm để được bác sĩ khám và tư vấn phương pháp điều trị tốt nhất.",
+                "score": 0.48260653018951416,
+                "id": 2619
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, em xét nghiệm và được chẩn đoán là bị giun sán chó mà điều trị từ tháng 6 tới nay sao không hết, bây giờ nổi hết mình, cổ và mặt, xin hỏi bác có cách thuốc gì uống cho lặn xuống không ạ?\nTrần Hữu Lợi (TP HCM)\nChào bác sĩ, bác sĩ cho em hỏi là bệnh sán chó có thuốc chích ngừa cho người không? Mong nhận được tư vấn của bác sĩ, cảm ơn bác sĩ\nTrả lời: Chào bạn, nhiễm sán chó là một bệnh nhiễm trùng gây ra bởi 1 loại ký sinh trùng sán dây có tên là Toxocara canis, bệnh lây truyền qua trung gian truyền bệnh là chó. Bệnh lý này có biểu hiện lâm sàng từ không có triệu chứng gì cho đến triệu chứng ngứa, mề đay, đau đầu, rối loạn tiêu hóa, bạch cầu ái toan tăng, một số trường hợp có tổn thương gan, não... Bạn đã nói điều trị từ tháng 6, tuy nhiên mình không rõ bạn đã điều trị ở đâu và đủ liệu trình chưa. Xét nghiệm ngoài nhiễm sán chó còn bội nhiễm loại giun sán nào kèm theo không. Ngoài điều trị thuốc chính để diệt giun sán còn phối hợp với thuốc hỗ trợ triệu chứng để giúp đem lại hiệu quả. Bạn nên đến khám tại chuyên khoa Y học nhiệt đới để bác sĩ tư vấn lại liệu trình điều trị và theo dõi nhé.",
+                "score": 0.4710569977760315,
+                "id": 4748
+            },
+            {
+                "text": "Câu hỏi: Chào Bác sĩ, hiện tại thì em bị trào ngược dạ dày thực quản. Mong Bác sĩ tư vấn dùng các loại thuốc trị bệnh, và cho em hỏi bệnh này có chữa dứt điểm được không? Và làm thế nào để dứt điểm ạ?\nTrả lời: Chào bạn, bạn đã đi khám ở đâu và được chẩn đoán trào ngược dạ dày thực quản vậy? Hiện bệnh này là bệnh lành tính có thể chữa khỏi nhưng hay tái phát. Do đó bệnh nhân cần điều chỉnh chế độ ăn và  chế độ sinh hoạt như ăn ngủ điều độ, hạn chế thức ăn chua cay và đồ uống có gas, hạn chế chất kích thích và đồ uống có cồn. Chúc bạn luôn mạnh khoẻ!",
+                "score": 0.4574359059333801,
+                "id": 5551
+            },
+            {
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.4572473168373108,
+                "id": 2290
+            }
+        ]
+    ],
+    "llm_call": 9,
+    "num_turns": 4
+}

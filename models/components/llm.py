@@ -19,9 +19,21 @@ def generate_answer(query, retrieved_documents, llm_model_name, client, instruct
                 Hãy đưa ra câu trả lời bằng tiếng Việt rõ ràng, liền mạch và xuyên suốt trong một đoạn văn ngắn gọn.
             """
 
-    response = client.models.generate_content(
+    response = client.responses.create(
         model=llm_model_name,
-        contents=prompt
+        input=prompt
     )
 
-    return response.text
+    return response.output_text
+
+def generate_answer_raw(llm_model_name, client, instruction):
+    prompt = f"""
+                {instruction}
+            """
+
+    response = client.responses.create(
+        model=llm_model_name,
+        input=prompt
+    )
+
+    return response.output_text

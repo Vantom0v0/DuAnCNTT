@@ -1,0 +1,33 @@
+{
+    "query": "Chào bác sĩ,\nCháu ăn phải thịt lợn đã chín và có sán gạo lợn. Vậy bác sĩ cho cháu hỏi sử dụng thịt lợn nấu chín nhiễm sán gạo có sao không? Cháu cảm ơn bác sĩ.",
+    "answer": "Chào bạn, nếu thịt lợn nhiễm ấu trùng sán đã được nấu chín kỹ thì nguy cơ lây bệnh sẽ giảm đáng kể vì ấu trùng bị tiêu diệt ở khoảng 45–50°C; theo tài liệu, khoảng 1/2 kg thịt nên được đun sôi trong 1 giờ để bảo đảm an toàn. Tuy nhiên, không nên tiếp tục sử dụng thịt đã phát hiện nhiễm sán vì dù nấu chín, các chất do ấu trùng tiết ra có thể vẫn không tốt cho cơ thể. Bạn không cần quá lo lắng nếu chỉ ăn một lần thịt đã chín kỹ, nhưng hãy theo dõi sức khỏe; nếu xuất hiện đau bụng, buồn nôn, tiêu chảy hoặc các triệu chứng bất thường, nên đi khám để được tư vấn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho mình hỏi các loại ký sinh trùng và trứng như sán lợn, giun dẹp... có bị tiêu diệt ở nhiệt độ thấp hơn -15°C không ạ? Mong bác sĩ tư vấn giúp mình.\nTrả lời: Chào bạn! Thông thường, ấu trùng sán heo chết ở -2oC, nhưng nếu ở 0oC đến -2oC nó sống được gần 2 tháng và ở nhiệt độ phòng thí nghiệm cũng sống được 26 ngày. Nếu muốn dùng thịt heo sống, phải để thịt ở -10oC trong 4 ngày mới đảm bảo.\nẤu trùng bị giết chết ở 45 - 50oC. Do đó nhiệt độ -15 độ C là chưa an toàn để diệt ký sinh trùng. Để đảm bảo an toàn 1⁄2 kg thịt phải đun sôi 1 giờ. Ấu trùng sán sống sau 22 ngày ngâm trong nước muối bão hòa.\nKhông nên dùng các sản phẩm nhiễm ấu trùng sán, nếu đun chín kỹ thực phẩm thì tuy nó không gây bệnh nhưng trong thực phẩm vẫn có độc tố do ấu trùng tiết ra, không tốt cho hệ tiêu hóa, cũng như cơ thể con người.",
+            "score": 0.6420799493789673,
+            "id": 4650
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
+            "score": 0.46573227643966675,
+            "id": 7186
+        },
+        {
+            "text": "Câu hỏi: Có phải ấu trùng sán lợn gây phát ban và ngứa ở hai bên má không?\nTrả lời: Dấu hiệu phát ban đỏ ngứa 2 bên má trán thường có nguyên nhân miễn dịch như bệnh lý Lupus, dị ứng, hoặc nhiễm ký sinh trùng. Trường hợp của bạn đã khám và loại trừ bệnh lý Lupus. Còn lại 2 bệnh lý hay gặp là dị ứng và nhiễm ký sinh trùng. Trường hợp dị ứng sẽ điều trị các thuốc antihistamine phối hợp corticoid, tuy nhiên quan trọng nhất là xác định dị nguyên. Chỉ khi ngừng tiếp xúc với dị nguyên thì bệnh mới không tái phát. Việc tìm dị nguyên thực tế rất khó, bạn phải xem lại các loại mỹ phẩm sử dụng, nguồn nước dùng có thay đổi không... và đôi khi có thể do dị ứng thời tiết.Nhiễm ký sinh trùng cũng là nguyên nhân gây ban dị ứng, ở bạn là trường hợp nhiễm ấu trùng sán lợn. Bệnh ấu trùng sán lợn (hay còn gọi là bệnh sán dây) là 1 bệnh nhiễm ký sinh trùng khá phổ biến. Người mắc bệnh ấu trùng sán lợn là do ăn phải thức ăn bị nhiễm bẩn có nhiễm trứng sán dây lợn. Bệnh nhân cần điều trị hết ấu trùng sán lợn mới đánh giá lại và xác định đó có là nguyên nhân không. Tuy nhiên các thuốc điều trị ký sinh trùng thường chống chỉ định trên phụ nữ mang thai vì nguy cơ ảnh hưởng thai nhi bạn nhé.",
+            "score": 0.4478234350681305,
+            "id": 7418
+        },
+        {
+            "text": "Câu hỏi: Đau tụy trở lại sau điều trị viêm tụy cấp kết nan giả tụy và nhiễm sán chó nên làm gì?\nTrả lời: Bệnh nhân cần được khám lại với bác sĩ chuyên khoa tiêu hóa để kiểm tra lại tiến triển của nang giả tụy bằng chụp cắt lớp bụng, có thể cần nội soi siêu âm làm sinh thiết hoặc dẫn lưu nang tụy nếu nang lớn và gây đau thường xuyên. Người bệnh có thể đến trực tiếp bệnh viện thuộc Hệ thống Y tế Vinmec để được bác sĩ thăm khám và có hướng điều trị cụ thể.",
+            "score": 0.4410248398780823,
+            "id": 1458
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho hỏi, em ăn vào bị đau vùng thượng vị, có kèm ợ hơi và nóng rát ở cổ họng. Đó có phải là trào ngược dạ dày không? Bác sĩ tư vấn giúp em với ạ. Em cảm ơn bác sĩ!\nThành (1985)\nChào bác sĩ. Cháu bị ợ hơi rất nhiều sau khi ăn bất cứ 1 thứ gì ăn nhẹ cũng như ăn 1 bữa lớn và tức ngực và cảm giác nhịp tim đập nhanh hơn và mạnh hơn kèm ngứa họng thì đó có phải là triệu chứng của trào ngược dạ dày không ạ? Mong bác sĩ tư vấn giúp cháu ạ. Cháu cảm ơn.\nTrả lời: Chào bạn, triệu chứng ăn vào đau vùng thượng vị, có kèm ợ hơi và nóng rát ở cổ họng là một trong các triệu chứng của bệnh trào ngược dạ dày thực quản. Các triệu chứng hay gặp ở bệnh lý trào ngược dạ dày thực quản thường bao gồm: Ợ hơi, ợ nóng, ợ chua, buồn nôn, nôn, đau tức thượng vị, khó nuốt, khàn giọng và ho, tiết nhiều nước bọt. Do đó ngay khi có các dấu hiệu trào ngược dạ dày thực quản, bạn hãy đến các cơ sở y tế chuyên khoa tiêu hóa để được khám, tư vấn điều trị kịp thời.\nĐiều trị trào ngược dạ dày thực quản gồm các biện pháp thay đổi lối sống, sử dụng thuốc hoặc điều trị bằng phẫu thuật. Một số phương pháp thay đổi lối sống thích hợp với anh bao gồm: ăn thành từng bữa nhỏ, lựa chọn các thực phẩm có tính kiềm (bánh mì, bột yến mạch), hạn chế thực phẩm gây tăng nhiều acid (chanh, cam, dứa. . .), giảm sử dụng các thực phẩm giàu chất béo, chua cay, không hút thuốc- uống rượu bia. Không nằm hoặc lao động ngay sau ăn. .",
+            "score": 0.42642942070961,
+            "id": 4975
+        }
+    ],
+    "llm_call": 4,
+    "iteration": 4
+}

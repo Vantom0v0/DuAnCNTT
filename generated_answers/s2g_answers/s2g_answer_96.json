@@ -1,0 +1,117 @@
+{
+    "model_name": "s2g_rag",
+    "query": "Nữ giới khó chịu, bức bối, tim đập nhanh nguyên nhân là gì?",
+    "answer": "Nữ giới cảm thấy khó chịu, bức bối và tim đập nhanh có thể do rối loạn thần kinh thực vật, mệt mỏi, thiếu ngủ, ăn uống không điều độ, lo lắng hoặc căng thẳng; đôi khi cũng liên quan đến trào ngược thực quản. Tuy nhiên, các triệu chứng này có thể gặp trong bệnh lý tim mạch hoặc hô hấp như bệnh van tim, hẹp van hai lá, sa van hai lá, viêm màng ngoài tim hay nhồi máu phổi. Vì vậy, cần đi khám bác sĩ, preferably chuyên khoa tim mạch, để được chẩn đoán và loại trừ nguyên nhân nguy hiểm.",
+    "evidence": [
+        "Trả lời: Chào cháu\nNhững triệu chứng cháu mô tả như khó thở, tức ngực, hoặc đau vùng tim có thể là triệu chứng của rối loạn thần kinh thực vật, hay xảy ra với bé gái tuổi vị thành niên (13-19 tuổi).",
+        "Nguyên nhân có thể do mệt mỏi, thiếu ngủ, ăn uống không điều độ, căng thẳng, áp lực trong học hành thi cử...",
+        "cơ thể sẽ giải phóng ra các chất gây co mạch tạm thời, từ đó gây ra các triệu chứng đau tức ngực, khó thở, tim đập nhanh...",
+        "Khó thở và tức ngực là hay triệu chứng có thể liên quan đến nhiều bệnh nguy hiểm liên quan đến hô hấp và tim mạch, do đó bạn cần đi khám bác sĩ.",
+        "Tuy nhiên tức ngực, khó thở, hồi hộp, tim đập nhanh lại là những triệu chứng của bệnh lý tim mạch, bạn cần đi khám bác sĩ chuyên khoa để loại trừ những bệnh lý tim mạch trước.",
+        "Một nguyên nhân nữa cũng hay gặp trong xã hội hiện đại là do lo lắng, căng thẳng, stress.",
+        "Trả lời: Những triệu chứng bạn kể có thể bạn mắc chứng trào ngược thực quản.",
+        "Bệnh tim: Bệnh van tim do thấp, hẹp van hai lá, sa van hai lá, viêm màng ngoài tim.",
+        "Bệnh phổi: Nhồi máu phổi hay gặp ở những bệnh nhân dùng thuốc tránh thai.",
+        "Tuy nhiên như đã nói ở trên có rất nhiều nguyên nhân gây ra đau ngực nên em cần phải đi khám để được chẩn đoán và điều trị đúng bệnh."
+    ],
+    "retrieval_history": [
+        [
+            {
+                "text": "Câu hỏi: Cháu là nữ, 14 tuổi.\nCháu gặp triệu chứng khó thở, đôi lúc căng tim. Cháu bị triệu chứng này vào ngày hôm qua và chưa có sự can thiệp ở bên ngoài. Mong Bác sĩ cho cháu lời khuyên.\nTrả lời: Chào cháu\nNhững triệu chứng cháu mô tả như khó thở, tức ngực, hoặc đau vùng tim có thể là triệu chứng của rối loạn thần kinh thực vật, hay xảy ra với bé gái tuổi vị thành niên (13-19 tuổi). Nguyên nhân có thể do mệt mỏi, thiếu ngủ, ăn uống không điều độ, căng thẳng, áp lực trong học hành thi cử... cơ thể sẽ giải phóng ra các chất gây co mạch tạm thời, từ đó gây ra các triệu chứng đau tức ngực, khó thở, tim đập nhanh... Hiện tượng này sẽ dần dần được cải thiện. \nVì vậy, nếu trước đây cháu vẫn khỏe mạnh bình thường, không có bệnh tim mạch và hiện tượng này mới xảy ra, trong một thời gian ngắn, sau đó lại trở lại bình thường thì cháu không nên quá căng thẳng, lo lắng quá mức, ăn uống điều độ và tập thể dục thường xuyên, hạn chế chất kích thích như chè, cafe... ăn đủ chất, uống đủ nước. Nếu có dư cân thì tăng cường vận động, tập thể dục để duy trì cân nặng hợp lý. \nTuy nhiên, nếu tình trạng của cháu vẫn không cải thiện nhiều, tốt nhất cháu nên sớm đến chuyên khoa tim mạch để thăm khám tìm nguyên nhân và hướng xử lý phù hợp. \nChào cháu!",
+                "score": 0.49686646461486816,
+                "id": 5608,
+                "rerank_score": 0.6899834275245667
+            },
+            {
+                "text": "Câu hỏi: Nữ giới đau nhói sườn trái, khó thở nguyên nhân là gì?\nTrả lời: Các triệu chứng của bạn liên quan đến nhiều bệnh lý khác nhau và xảy ra ở nhiều thời điểm khác nhau như đau nhói sườn trái, đau liên quan quan đến hít thở, thường liên quan đến hội chứng khớp sụn sườn, có nhiều nguyên nhân dẫn đến như nằm ngồi sai tư thế, vận động thể lực không đúng cách hay bệnh dây thần kinh liên sườn, bệnh Zona,... Đau lưng có thể do nhiều nguyên nhân, ở tuổi của bạn, đau thường do ngồi lâu kéo dài, cách khắc phục là vận động thường xuyên hơn, nếu đau nhiều thì phải dùng thuốc. Trào ngược dạ dày thực quản, xảy ra do ăn uống không điều độ, nghỉ ngơi không hợp lý, đôi khi tự khỏi. Nếu khó chịu nhiều thì bạn nên khám bác sĩ chuyên khoa Tiêu hóa. Khó thở và tức ngực là hay triệu chứng có thể liên quan đến nhiều bệnh nguy hiểm liên quan đến hô hấp và tim mạch, do đó bạn cần đi khám bác sĩ.",
+                "score": 0.4645202159881592,
+                "id": 9453,
+                "rerank_score": 0.27889642119407654
+            },
+            {
+                "text": "Câu hỏi: Tức ngực, hồi hộp, tim đập nhanh, khó thở là dấu hiệu bệnh gì?\nTrả lời: Những triệu chứng bạn kể có thể bạn mắc chứng trào ngược thực quản. Tuy nhiên tức ngực, khó thở, hồi hộp, tim đập nhanh lại là những triệu chứng của bệnh lý tim mạch, bạn cần đi khám bác sĩ chuyên khoa để loại trừ những bệnh lý tim mạch trước.",
+                "score": 0.44977980852127075,
+                "id": 1401,
+                "rerank_score": 0.20993071794509888
+            },
+            {
+                "text": "Câu hỏi: Thưa bác sĩ, em thường xuyên bị tức ngực, buồn nôn, nôn mửa. Cảm giác như em bị chèn ép, đau khó chịu ở ngực thì em mắc bệnh gì ạ? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào em,\nĐau ngực là một trong những lý do khiến bệnh nhân nữ trẻ tuổi phải đến khám bác sĩ tim mạch nhiều nhất. Và một quan điểm phổ biến của đại đa số người dân cho rằng đau ngực là do bệnh tim mạch, là do nhồi máu cơ tim. Chính điều này làm cho bệnh nhân rất lo lắng.\nEm bị tức ngực, buồn nôn, nôn mửa. Cảm giác bị chèn ép, đau khó chịu ở ngực thì nguyên nhân gây ra đau ngực hay gặp theo thứ tự có thể kể ra như sau:\nTrào ngược dạ dày thực quản: Khi viêm dạ dày trào ngược sẽ gây viêm thực quản. Khi viêm thực quản cũng có triệu chứng đau ngực kiểu nóng rát, buồn nôn, nôn.\nBệnh tim: Bệnh van tim do thấp, hẹp van hai lá, sa van hai lá, viêm màng ngoài tim.\nBệnh phổi: Nhồi máu phổi hay gặp ở những bệnh nhân dùng thuốc tránh thai. Các nguyên nhân không phải tim mạch như viêm phổi, viêm màng phổi.\nViêm sụn sườn, đau dây thần kinh liên sườn, bệnh zona.\nMột nguyên nhân nữa cũng hay gặp trong xã hội hiện đại là do lo lắng, căng thẳng, stress.\nTuy nhiên như đã nói ở trên có rất nhiều nguyên nhân gây ra đau ngực nên em cần phải đi khám để được chẩn đoán và điều trị đúng bệnh.",
+                "score": 0.4822603464126587,
+                "id": 4559,
+                "rerank_score": 0.12339364737272263
+            },
+            {
+                "text": "Câu hỏi: Nữ giới dị dạng mạch máu não, co giật nguyên nhân là gì?\nTrả lời: U não có thể gây đau đầu nếu kích thước khối u lớn, chèn ép nhu mô não lân cận, hoặc phù não nhiều. Cả khối u và dị dạng mạch máu đều có thể là nguyên nhân gây cơn co giật. Bạn không nói rõ là vợ bị dị dạng mạch máu dạng nào, cũng như không có thông tin về thuốc vợ bạn đang uống, vì vậy, bác sĩ rất khó có thể tư vấn sâu hơn. Bạn nên đưa vợ đi khám, cầm theo các đơn thuốc đang uống và các xét nghiệm đã làm để được tư vấn cụ thể hơn.",
+                "score": 0.44573497772216797,
+                "id": 6317,
+                "rerank_score": 0.11435205489397049
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nữ giới đau nhói sườn trái, khó thở nguyên nhân là gì?\nTrả lời: Các triệu chứng của bạn liên quan đến nhiều bệnh lý khác nhau và xảy ra ở nhiều thời điểm khác nhau như đau nhói sườn trái, đau liên quan quan đến hít thở, thường liên quan đến hội chứng khớp sụn sườn, có nhiều nguyên nhân dẫn đến như nằm ngồi sai tư thế, vận động thể lực không đúng cách hay bệnh dây thần kinh liên sườn, bệnh Zona,... Đau lưng có thể do nhiều nguyên nhân, ở tuổi của bạn, đau thường do ngồi lâu kéo dài, cách khắc phục là vận động thường xuyên hơn, nếu đau nhiều thì phải dùng thuốc. Trào ngược dạ dày thực quản, xảy ra do ăn uống không điều độ, nghỉ ngơi không hợp lý, đôi khi tự khỏi. Nếu khó chịu nhiều thì bạn nên khám bác sĩ chuyên khoa Tiêu hóa. Khó thở và tức ngực là hay triệu chứng có thể liên quan đến nhiều bệnh nguy hiểm liên quan đến hô hấp và tim mạch, do đó bạn cần đi khám bác sĩ.",
+                "score": 0.4460456967353821,
+                "id": 9453,
+                "rerank_score": 0.2788955867290497
+            },
+            {
+                "text": "Câu hỏi: Tức ngực, hồi hộp, tim đập nhanh, khó thở là dấu hiệu bệnh gì?\nTrả lời: Những triệu chứng bạn kể có thể bạn mắc chứng trào ngược thực quản. Tuy nhiên tức ngực, khó thở, hồi hộp, tim đập nhanh lại là những triệu chứng của bệnh lý tim mạch, bạn cần đi khám bác sĩ chuyên khoa để loại trừ những bệnh lý tim mạch trước.",
+                "score": 0.42294740676879883,
+                "id": 1401,
+                "rerank_score": 0.20993071794509888
+            },
+            {
+                "text": "Câu hỏi: Thưa bác sĩ, em thường xuyên bị tức ngực, buồn nôn, nôn mửa. Cảm giác như em bị chèn ép, đau khó chịu ở ngực thì em mắc bệnh gì ạ? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào em,\nĐau ngực là một trong những lý do khiến bệnh nhân nữ trẻ tuổi phải đến khám bác sĩ tim mạch nhiều nhất. Và một quan điểm phổ biến của đại đa số người dân cho rằng đau ngực là do bệnh tim mạch, là do nhồi máu cơ tim. Chính điều này làm cho bệnh nhân rất lo lắng.\nEm bị tức ngực, buồn nôn, nôn mửa. Cảm giác bị chèn ép, đau khó chịu ở ngực thì nguyên nhân gây ra đau ngực hay gặp theo thứ tự có thể kể ra như sau:\nTrào ngược dạ dày thực quản: Khi viêm dạ dày trào ngược sẽ gây viêm thực quản. Khi viêm thực quản cũng có triệu chứng đau ngực kiểu nóng rát, buồn nôn, nôn.\nBệnh tim: Bệnh van tim do thấp, hẹp van hai lá, sa van hai lá, viêm màng ngoài tim.\nBệnh phổi: Nhồi máu phổi hay gặp ở những bệnh nhân dùng thuốc tránh thai. Các nguyên nhân không phải tim mạch như viêm phổi, viêm màng phổi.\nViêm sụn sườn, đau dây thần kinh liên sườn, bệnh zona.\nMột nguyên nhân nữa cũng hay gặp trong xã hội hiện đại là do lo lắng, căng thẳng, stress.\nTuy nhiên như đã nói ở trên có rất nhiều nguyên nhân gây ra đau ngực nên em cần phải đi khám để được chẩn đoán và điều trị đúng bệnh.",
+                "score": 0.4962313771247864,
+                "id": 4559,
+                "rerank_score": 0.12339361757040024
+            },
+            {
+                "text": "Câu hỏi: Thi thoảng đau ngực, khó chịu là bị sao?\nTrả lời: Triệu chứng đau ngực bạn mô tả tương đối mơ hồ và khó định hướng chính xác bệnh lý liên quan. Bạn vui lòng đến khám bệnh tại phòng khám chuyên khoa tim mạch để được thực hiện các thăm dò chức năng chuyên sâu",
+                "score": 0.45209822058677673,
+                "id": 1773,
+                "rerank_score": 0.0068271225318312645
+            },
+            {
+                "text": "Câu hỏi: Nữ giới đau nửa bên đầu là dấu hiệu bệnh gì?\nTrả lời: Bạn được bác sĩ chẩn đoán bệnh Migraine - một bệnh đau nửa đầu hay gặp. Đây là bệnh lý thuộc nhóm đau đầu nguyên phát, tức là không do tổn thương nhu mô não. Nếu bạn uống thuốc chưa đỡ thì nên quay lại gặp bác sĩ để điều chỉnh đơn thuốc cho phù hợp hơn.",
+                "score": 0.4149460792541504,
+                "id": 4252,
+                "rerank_score": 0.005649743601679802
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cháu là nữ, 14 tuổi.\nCháu gặp triệu chứng khó thở, đôi lúc căng tim. Cháu bị triệu chứng này vào ngày hôm qua và chưa có sự can thiệp ở bên ngoài. Mong Bác sĩ cho cháu lời khuyên.\nTrả lời: Chào cháu\nNhững triệu chứng cháu mô tả như khó thở, tức ngực, hoặc đau vùng tim có thể là triệu chứng của rối loạn thần kinh thực vật, hay xảy ra với bé gái tuổi vị thành niên (13-19 tuổi). Nguyên nhân có thể do mệt mỏi, thiếu ngủ, ăn uống không điều độ, căng thẳng, áp lực trong học hành thi cử... cơ thể sẽ giải phóng ra các chất gây co mạch tạm thời, từ đó gây ra các triệu chứng đau tức ngực, khó thở, tim đập nhanh... Hiện tượng này sẽ dần dần được cải thiện. \nVì vậy, nếu trước đây cháu vẫn khỏe mạnh bình thường, không có bệnh tim mạch và hiện tượng này mới xảy ra, trong một thời gian ngắn, sau đó lại trở lại bình thường thì cháu không nên quá căng thẳng, lo lắng quá mức, ăn uống điều độ và tập thể dục thường xuyên, hạn chế chất kích thích như chè, cafe... ăn đủ chất, uống đủ nước. Nếu có dư cân thì tăng cường vận động, tập thể dục để duy trì cân nặng hợp lý. \nTuy nhiên, nếu tình trạng của cháu vẫn không cải thiện nhiều, tốt nhất cháu nên sớm đến chuyên khoa tim mạch để thăm khám tìm nguyên nhân và hướng xử lý phù hợp. \nChào cháu!",
+                "score": 0.3895775079727173,
+                "id": 5608,
+                "rerank_score": 0.6899833083152771
+            },
+            {
+                "text": "Câu hỏi: Nữ giới đau nhói sườn trái, khó thở nguyên nhân là gì?\nTrả lời: Các triệu chứng của bạn liên quan đến nhiều bệnh lý khác nhau và xảy ra ở nhiều thời điểm khác nhau như đau nhói sườn trái, đau liên quan quan đến hít thở, thường liên quan đến hội chứng khớp sụn sườn, có nhiều nguyên nhân dẫn đến như nằm ngồi sai tư thế, vận động thể lực không đúng cách hay bệnh dây thần kinh liên sườn, bệnh Zona,... Đau lưng có thể do nhiều nguyên nhân, ở tuổi của bạn, đau thường do ngồi lâu kéo dài, cách khắc phục là vận động thường xuyên hơn, nếu đau nhiều thì phải dùng thuốc. Trào ngược dạ dày thực quản, xảy ra do ăn uống không điều độ, nghỉ ngơi không hợp lý, đôi khi tự khỏi. Nếu khó chịu nhiều thì bạn nên khám bác sĩ chuyên khoa Tiêu hóa. Khó thở và tức ngực là hay triệu chứng có thể liên quan đến nhiều bệnh nguy hiểm liên quan đến hô hấp và tim mạch, do đó bạn cần đi khám bác sĩ.",
+                "score": 0.4402857720851898,
+                "id": 9453,
+                "rerank_score": 0.2788955867290497
+            },
+            {
+                "text": "Câu hỏi: Thưa bác sĩ, em thường xuyên bị tức ngực, buồn nôn, nôn mửa. Cảm giác như em bị chèn ép, đau khó chịu ở ngực thì em mắc bệnh gì ạ? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào em,\nĐau ngực là một trong những lý do khiến bệnh nhân nữ trẻ tuổi phải đến khám bác sĩ tim mạch nhiều nhất. Và một quan điểm phổ biến của đại đa số người dân cho rằng đau ngực là do bệnh tim mạch, là do nhồi máu cơ tim. Chính điều này làm cho bệnh nhân rất lo lắng.\nEm bị tức ngực, buồn nôn, nôn mửa. Cảm giác bị chèn ép, đau khó chịu ở ngực thì nguyên nhân gây ra đau ngực hay gặp theo thứ tự có thể kể ra như sau:\nTrào ngược dạ dày thực quản: Khi viêm dạ dày trào ngược sẽ gây viêm thực quản. Khi viêm thực quản cũng có triệu chứng đau ngực kiểu nóng rát, buồn nôn, nôn.\nBệnh tim: Bệnh van tim do thấp, hẹp van hai lá, sa van hai lá, viêm màng ngoài tim.\nBệnh phổi: Nhồi máu phổi hay gặp ở những bệnh nhân dùng thuốc tránh thai. Các nguyên nhân không phải tim mạch như viêm phổi, viêm màng phổi.\nViêm sụn sườn, đau dây thần kinh liên sườn, bệnh zona.\nMột nguyên nhân nữa cũng hay gặp trong xã hội hiện đại là do lo lắng, căng thẳng, stress.\nTuy nhiên như đã nói ở trên có rất nhiều nguyên nhân gây ra đau ngực nên em cần phải đi khám để được chẩn đoán và điều trị đúng bệnh.",
+                "score": 0.4935842752456665,
+                "id": 4559,
+                "rerank_score": 0.12339361757040024
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Em không hề có cảm giác ham muốn tình dục và có quan hệ thì cũng không có cảm giác gì?. Vậy bác sĩ cho em hỏi tại sao em không có cảm giác đó và làm sao để tăng cảm giác ham muốn tình dục ở nữ giới? Năm nay em 24 tuổi ạ, mong được bác sĩ tư vấn và giải đáp!\nTrả lời: Chào bạn! Với những dấu hiệu bạn đang gặp phải có khả năng cao bạn đang mắc chứng lãnh cảm tình dục. Nguyên nhân chính gây nên tình trạng này thường đến từ yếu tố bệnh lý và tâm lý.\nBệnh lý: Người phụ nữ có khiếm khuyết ở cơ quan sinh dục như âm đạo hẹp hay quá ngắn. Do các bệnh phụ khoa, viêm đường tiết niệu, đái tháo đường, tăng huyết áp...\nTâm lý: Mâu thuẫn trong quan hệ vợ chồng, trong gia đình, những thay đổi trong đời sống như: sinh con, thay đổi chỗ ở, gặp khó khăn trong cuộc sống, người phụ nữ chịu nhiều áp lực trong gia đình...\nDo đó, để có thể trả lời chính xác cho câu hỏi: “Làm sao để tăng cảm giác ham muốn tình dục ở nữ giới?” thì bạn nên đến gặp các bác sĩ chuyên khoa để trao đổi và tìm hiểu nguyên nhân nhằm có hướng điều trị cụ thể. Bạn có thể đến",
+                "score": 0.3955257534980774,
+                "id": 2311,
+                "rerank_score": 0.05934053659439087
+            },
+            {
+                "text": "Câu hỏi: Thi thoảng đau ngực, khó chịu là bị sao?\nTrả lời: Triệu chứng đau ngực bạn mô tả tương đối mơ hồ và khó định hướng chính xác bệnh lý liên quan. Bạn vui lòng đến khám bệnh tại phòng khám chuyên khoa tim mạch để được thực hiện các thăm dò chức năng chuyên sâu",
+                "score": 0.4350646734237671,
+                "id": 1773,
+                "rerank_score": 0.0068271225318312645
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

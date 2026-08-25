@@ -24,7 +24,8 @@ def naive_rag_model(query, evaluation_mode = False, enable_rerank = False):
         for i, doc in enumerate(chosen_docs):
             print(f"\n--- Document {i+1} ---")
             print(f"Similarity: {doc['score']:.4f}")
-            print(f"Rerank score: {doc['rerank_score']:.4f}")
+            if enable_rerank is True:
+                print(f"Rerank score: {doc['rerank_score']:.4f}")
             print(doc["text"][:500])
 
     instruction = """
@@ -42,7 +43,10 @@ def naive_rag_model(query, evaluation_mode = False, enable_rerank = False):
         print(answer) 
 
     return {
+        "model_name": "naive_rag",
         "query": query,
+        "answer": answer,
         "retrieved": chosen_docs,
-        "answer": answer
+        "llm_call": 1,
+        "iteration": 1
     }

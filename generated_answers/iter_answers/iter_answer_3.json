@@ -1,0 +1,34 @@
+{
+    "model_name": "iter_retgen",
+    "query": "Bệnh song thị cần điều trị như thế nào?",
+    "answer": "Song thị không có một cách điều trị chung mà cần tìm và điều trị nguyên nhân, có thể liên quan đến loạn thị, đục thủy tinh thể, lác hoặc bệnh lý thần kinh như tổn thương não. Bạn nên đi khám chuyên khoa Mắt sớm để được kiểm tra thị lực và đánh giá đầy đủ; nếu nghi ngờ nguyên nhân thần kinh, bác sĩ có thể hướng dẫn khám thêm chuyên khoa Thần kinh. Tùy nguyên nhân và thời gian mắc bệnh, điều trị có thể dùng thuốc, điều chỉnh tật khúc xạ hoặc phẫu thuật chỉnh lác. Không nên chờ tự khỏi hay tự dùng thuốc vì để lâu có thể khó điều trị hơn, ảnh hưởng thị lực và trong một số trường hợp có thể nguy hiểm đến tính mạng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Mắt cháu bị song thị gần 1 tháng rồi và nó làm mắt cháu mờ hơn 1 xíu. Bác sĩ cho cháu hỏi, nếu để lâu có tự khỏi hay nguy hiểm hơn không ạ?\nTrả lời: Chào bạn, song thị là biểu hiện của rất nhiều bệnh lý tại mắt cũng như toàn thân, như: Loạn thị, đục thủy tinh thể, lác, tổn thương não,... Bệnh càng để lâu càng khó điều trị, một có bệnh lý còn có thể ảnh hưởng lớn đến thị lực và cả tính mạng. Bởi vậy bạn cần đến khám chuyên khoa mắt sớm để xác định được nguyên nhân và được điều trị kịp thời nhé.\nCảm ơn bạn đã tin tưởng AI-Doctor. Rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+            "score": 0.6834075450897217,
+            "id": 2685
+        },
+        {
+            "text": "Câu hỏi: Song thị: Để lâu có tự khỏi không?\nTrả lời: song thị là biểu hiện của rất nhiều bệnh lý tại mắt cũng như toàn thân, như: Loạn thị, đục thủy tinh thể, lác, tổn thương não, . . . Bệnh càng để lâu càng khó điều trị, một có bệnh lý còn có thể ảnh hưởng lớn đến thị lực và cả tính mạng. Bởi vậy bạn cần đến khám chuyên khoa mắt sớm để xác định được nguyên nhân và được điều trị kịp thời nhé.",
+            "score": 0.6643203496932983,
+            "id": 254
+        },
+        {
+            "text": "Câu hỏi: Viêm giác mạc mãn tính điều trị như thế nào?\nTrả lời: bệnh lý giác mạc có thể ảnh hưởng đến thị lực và gây nhiều biểu hiện khó chịu. Với những bệnh lý mạn tính thì việc sử dụng thuốc cần hết sức cẩn thận để tránh những tác dụng phụ do dùng thuốc kéo dài gây ra. Bác cần đăng ký đặt hẹn khám chuyên khoa Mắt để có thể tư vấn hướng điều trị phù hợp cho bác.",
+            "score": 0.580655038356781,
+            "id": 5203
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ. \nTôi năm nay 41 tuổi, nam. Mắt tôi gần đây có hiện tượng \"ruồi bay\". Vậy có biện pháp nào chữa trị khỏi hẳn không? Xin cảm ơn.\nTrả lời: Chào anh,\nHiện tượng ruồi bay là một triệu chứng thường gặp khiến người bệnh phải đi khám mắt.Đó là hiện tượng nhìn thấy những bóng mờ hay hình những sợi chỉ ngoằn ngoèo hoặc hình các mảnh mạng nhện treo lơ lửng và di chuyển trước mắt (trong khi mắt nhìn yên một chỗ).Hiện tượng ruồi bay thường xảy ra ở người lớn tuổi nhưng cũng có thể xảy ra sớm ở người trẻ bị cận thị. \nTùy theo mức độ và nguyên nhân gây bệnh sẽ có các biện pháp điều trị khác nhau. Có 2 nguyên nhân chính gây ra hiện tượng này: có thể do thoái hóa sinh lý tự nhiên của dịch kính hoặc có thể do dịch kính bị viêm nhiễm , xuất huyết, có ký sinh trùng, bong võng mạc...( dịch kính nằm trong nhãn cầu).\nTốt nhất anh nên đi khám sớm để được chẩn đoán và điều trị thích hợp, nếu nặng có thể phải cắt bỏ dịch kính hoặc làm tiêu dịch kính bằng YAG laser.\\\nThân mến!",
+            "score": 0.5677035450935364,
+            "id": 7737
+        },
+        {
+            "text": "Câu hỏi: Lác do tai nạn có thể điều trị được không?\nTrả lời: Bạn bị tai nạn sau đó mắt bị lác, nếu mới bị lác, bạn nên đi khám chuyên khoa Thần kinh, bác sĩ sẽ khám và có hướng điều trị cho bạn. Còn nếu bạn đã bị lâu (di chứng), bạn đến cơ sở chuyên khoa Mắt khám để đánh giá chức năng nhìn (thị lực, thị trường,..). Từ đó, các bác sĩ chuyên khoa sẽ có hướng điều trị phẫu thuật chỉnh lác vừa đem lại tính thẩm mỹ, đồng thời duy trì chức năng của mắt cho bạn.",
+            "score": 0.5584859848022461,
+            "id": 5202
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

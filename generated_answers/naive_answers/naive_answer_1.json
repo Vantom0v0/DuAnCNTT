@@ -1,0 +1,34 @@
+{
+    "model_name": "naive_rag",
+    "query": "Chào bác sĩ,\nCháu ăn phải thịt lợn đã chín và có sán gạo lợn. Vậy bác sĩ cho cháu hỏi sử dụng thịt lợn nấu chín nhiễm sán gạo có sao không? Cháu cảm ơn bác sĩ.",
+    "answer": "Chào cháu, tài liệu hiện có không cung cấp đủ thông tin để khẳng định việc ăn thịt lợn đã nấu chín nhưng nhiễm “sán gạo lợn” có gây ảnh hưởng hay không. Tài liệu chỉ khuyến cáo nên ăn chín, uống sôi và bảo đảm vệ sinh an toàn thực phẩm để phòng ký sinh trùng. Nếu cháu lo lắng hoặc xuất hiện triệu chứng bất thường, nên đến cơ sở y tế để được thăm khám và tư vấn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
+            "score": 0.5198054909706116,
+            "id": 7186
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em xét nghiệm và được chẩn đoán là bị giun sán chó mà điều trị từ tháng 6 tới nay sao không hết, bây giờ nổi hết mình, cổ và mặt, xin hỏi bác có cách thuốc gì uống cho lặn xuống không ạ?\nTrần Hữu Lợi (TP HCM)\nChào bác sĩ, bác sĩ cho em hỏi là bệnh sán chó có thuốc chích ngừa cho người không? Mong nhận được tư vấn của bác sĩ, cảm ơn bác sĩ\nTrả lời: Chào bạn, nhiễm sán chó là một bệnh nhiễm trùng gây ra bởi 1 loại ký sinh trùng sán dây có tên là Toxocara canis, bệnh lây truyền qua trung gian truyền bệnh là chó. Bệnh lý này có biểu hiện lâm sàng từ không có triệu chứng gì cho đến triệu chứng ngứa, mề đay, đau đầu, rối loạn tiêu hóa, bạch cầu ái toan tăng, một số trường hợp có tổn thương gan, não... Bạn đã nói điều trị từ tháng 6, tuy nhiên mình không rõ bạn đã điều trị ở đâu và đủ liệu trình chưa. Xét nghiệm ngoài nhiễm sán chó còn bội nhiễm loại giun sán nào kèm theo không. Ngoài điều trị thuốc chính để diệt giun sán còn phối hợp với thuốc hỗ trợ triệu chứng để giúp đem lại hiệu quả. Bạn nên đến khám tại chuyên khoa Y học nhiệt đới để bác sĩ tư vấn lại liệu trình điều trị và theo dõi nhé.",
+            "score": 0.4696611762046814,
+            "id": 4748
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi, bị bệnh sán chó tôi có phải lọc máu không? Cảm ơn bác sĩ đã trả lời giúp tôi.\nTrả lời: Chào chị. Cảm ơn chị đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Hiện tại điều trị bệnh lý sán dải chó không có chỉ định lọc máu. Chị nên đến khám khoa truyền nhiễm để được bác sĩ khám và tư vấn phương pháp điều trị tốt nhất.",
+            "score": 0.45124921202659607,
+            "id": 2619
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ ạ. Vài tuần trước ở tay phải của tôi có nổi mẩn to nhìn vào giống như bị rết cắn nhưng không có dấu vết gì cả, vài ngày sau thì mắt trái của tôi bị ngứa và sưng lên. Hiện tại bên trong miệng tôi có 1 cục bị cộm giống như vết muỗi cắn vậy. Xin hỏi bác sĩ có phải tôi bị sán chó không?\nTrả lời: Chào chị. Các triệu chứng hiện tại của chị không phải là triệu chứng điển hình của tình trạng nhiễm sán chó. Tuy nhiên, chị nên đến bệnh viện để được thăm khám, chẩn đoán tìm nguyên nhân và điều trị. Trong trường hợp vẫn còn nghi ngờ nhiễm sán chó thì bác sĩ sẽ cho chị làm các xét nghiệm đặc hiệu để xác định chắc chắn chị nhé.",
+            "score": 0.4487985372543335,
+            "id": 4764
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Tôi đang đi du lịch và bị kẹt lại ở Mỹ doc dịch Covid-19. Tôi bị ngứa khắp cơ thể nên có xét nghiệm thử máu về gan. Bác sĩ có kê cho tôi uống thuốc dị ứng liều cao 180 mg và thuốc bôi đủ loại thuốc đã được 6 tháng nhưng không khỏi, thậm chí còn ngứa nhiều hơn. Tôi có tìm hiểu thì tôi nghĩ mình đang bị nhiễm sán chó mèo. Vậy mong bác sĩ tư vấn bị ngứa khắp cơ thể, uống và bôi thuốc không khỏi cần phải làm gì tạm thời trong lúc này đợi vé để về Việt Nam điều trị !Cảm ơn bác sĩ đã tư vấn!\nTrả lời: Chào cô! Cô đã khám bác sĩ da liễu và đang điều trị thuốc theo hướng triệu chứng bằng thuốc chống dị ứng. Cô có thể tái khám lại và đề nghị bác sĩ xem xét làm các xét nghiệm để tìm nguyên nhân như Panel 1, xét nghiệm sán chó mèo, soi phân tìm giun, xét nghiệm Helicobacter pylori dạ dày,... nếu có thể được. Trọng trường hợp bị ngứa khắp cơ thể kéo dài mà điều kiện không thể khám đúng tại bệnh viện khám ban đầu thì cô có thể đến cơ sở y tế gần nhất để thực hiện tầm soát nguyên nhân gây dị ứng. Nếu không thể thực hiện các xét nghiệm trên, cô vẫn nên tái khám và làm theo hướng dẫn của bác sĩ sở tại. Về việc nghi ngờ nhiễm sán chó mà chưa có xét nghiệm thì cô không nên tự ý điều trị, vì thuốc này phải sử dụng liều cao, thời gian dài khoảng 3 tuần, có thể gây ảnh hưởng rất xấu đến gan.\nTrong điều kiện thực tế, cô có thể xem xét lại môi trường sống,vệ sinh sạch sẽ nhà cửa (vì bụi mạc cũng có thể là nguyên nhân gây dị ứng), tránh tiếp xúc với lông chó mèo, phấn hoa, tránh sử dụng các hóa chất mỹ phẩm, tránh ăn thực phẩm nghi ngờ dị ứng: một số loại cá, tôm, cua, ghẹ,.. tạm ngưng thuốc hoặc các thực phẩm chức năng nếu không thật sự cần thiết, tắm rửa sử dụng xà phòng trung tính như Cetaphil, Johnson...",
+            "score": 0.4378134608268738,
+            "id": 1915
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

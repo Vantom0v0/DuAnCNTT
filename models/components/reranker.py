@@ -1,8 +1,7 @@
-from components.config import RERANKER_MODEL_NAME, TOP_N
-from sentence_transformers import CrossEncoder
+from components.config import RERANK_MODEL, TOP_N
 
-def rerank(query, retrieved_documents):
-    reranker = CrossEncoder(RERANKER_MODEL_NAME)
+def rerank(query, retrieved_documents, return_amount = TOP_N, allow_sorting = True):
+    reranker = RERANK_MODEL
 
     print("Calculating rerank score")
     pairs = [ [query, document["text"]] for document in retrieved_documents]
@@ -16,6 +15,8 @@ def rerank(query, retrieved_documents):
         reranked_document["rerank_score"] = float(score)
         reranked.append(reranked_document)
 
-    reranked.sort(key=lambda x: x["rerank_score"], reverse=True)
+    if allow_sorting is True:
+        reranked.sort(key=lambda x: x["rerank_score"], reverse=True)
 
-    return reranked[:TOP_N]
+
+    return reranked[:return_amount]
