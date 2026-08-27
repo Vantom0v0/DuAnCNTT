@@ -1,9 +1,9 @@
 from components.data_construct import embedder
 
-def retrieve(EMBEDDING_MODEL_NAME, query, vector_index, top_k, documents):
+def retrieve(query, vector_index, top_k, documents):
     """Retrieve top-k documents using cosine similarity"""
     
-    query_embedding = embedder(EMBEDDING_MODEL_NAME, [query])
+    query_embedding = embedder([query])
 
     scores, indices = vector_index.search(
         query_embedding.astype("float32"),

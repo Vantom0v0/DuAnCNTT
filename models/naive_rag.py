@@ -2,15 +2,15 @@ from components.llm import generate_answer
 from components.retrieval import retrieve
 from components.reranker import rerank
 from components.retrieval_data import initiate
-from components.config import EMBEDDING_MODEL_NAME, TOP_N, TOP_K, LLM_MODEL, client
+from components.config import TOP_N, TOP_K, LLM_MODEL, client
 
-def naive_rag_model(query, evaluation_mode = False, enable_rerank = False):
-    corpus_documents, _, index, _ = initiate(query)
+def naive_rag_model(query, groundtruth = "NA", evaluation_mode = False, enable_rerank = False):
+    corpus_documents, _, index, _ = initiate()
 
     if enable_rerank is False:
-        retrieved = retrieve(EMBEDDING_MODEL_NAME, query, index, TOP_N, corpus_documents)
+        retrieved = retrieve(query, index, TOP_N, corpus_documents)
     else:
-        retrieved = retrieve(EMBEDDING_MODEL_NAME, query, index, TOP_K, corpus_documents)
+        retrieved = retrieve(query, index, TOP_K, corpus_documents)
         
     chosen_docs = retrieved
     print("RETRIEVED DOCUMENTS")
@@ -45,6 +45,7 @@ def naive_rag_model(query, evaluation_mode = False, enable_rerank = False):
     return {
         "model_name": "naive_rag",
         "query": query,
+        "groundtruth": groundtruth,
         "answer": answer,
         "retrieved": chosen_docs,
         "llm_call": 1,

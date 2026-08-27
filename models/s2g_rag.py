@@ -1,6 +1,6 @@
 import json
 import re
-from components.config import EMBEDDING_MODEL_NAME, TOP_N, TOP_K, LLM_MODEL, client
+from components.config import TOP_N, TOP_K, LLM_MODEL, client
 from components.retrieval_data import initiate
 from components.retrieval import retrieve
 from components.llm import generate_answer
@@ -179,14 +179,14 @@ def extract_evidence(query, gap_items, retrieved_documents, max_evidence_sentenc
 
     return evidence
 
-def s2g_rag_model(query, evaluation_mode=False, max_turn = 3, max_gap_item = TOP_N, max_evidence_sentences = 6):
-    corpus_documents, _, index, _ = initiate(query)
+def s2g_rag_model(query, groundtruth = "NA", evaluation_mode=False, max_iteration = 3, max_gap_item = TOP_N, max_evidence_sentences = 6):
+    corpus_documents, _, index, _ = initiate()
 
     evidence_context = []
     retrieval_history = []
     llm_calls = 0
     num_iteration = 0
-    for turn in range(max_turn):
+    for turn in range(max_iteration):
         print(f"\n{'=' * 70}")
         print(f"S2G-RAG TURN {turn + 1}")
 
@@ -210,7 +210,7 @@ def s2g_rag_model(query, evaluation_mode=False, max_turn = 3, max_gap_item = TOP
         print(f"\nRetrieval query:")
         print(retrieval_query)
 
-        retrieved_documents = retrieve(EMBEDDING_MODEL_NAME, retrieval_query, index, TOP_K, corpus_documents)
+        retrieved_documents = retrieve(retrieval_query, index, TOP_K, corpus_documents)
         reranked_documents = rerank(query, retrieved_documents)
         retrieval_history.append(reranked_documents)
 
@@ -268,6 +268,7 @@ def s2g_rag_model(query, evaluation_mode=False, max_turn = 3, max_gap_item = TOP
     return {
         "model_name": "s2g_rag",
         "query": query,
+        "groundtruth": groundtruth,
         "answer": answer,
         "evidence": evidence_context,
         "retrieval_history": retrieval_history,

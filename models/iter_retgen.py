@@ -1,10 +1,10 @@
-from components.config import EMBEDDING_MODEL_NAME, TOP_N, LLM_MODEL, client
+from components.config import TOP_N, LLM_MODEL, client
 from components.retrieval_data import initiate
 from components.retrieval import retrieve
 from components.llm import generate_answer
 
-def iter_retgen_model(query, iteration, evaluation_mode = False):
-    corpus_documents, _, vector_index, _ = initiate(query)
+def iter_retgen_model(query, groundtruth = "NA", iteration = 3, evaluation_mode = False):
+    corpus_documents, _, vector_index, _ = initiate()
 
     retrieval_info = query
     output_answer = ""
@@ -12,7 +12,7 @@ def iter_retgen_model(query, iteration, evaluation_mode = False):
     num_iteration = 0
     for iteration_idx in range(iteration):
         print(f"Iteration {iteration_idx+1}:")
-        retrieved_documents = retrieve(EMBEDDING_MODEL_NAME, retrieval_info, vector_index, TOP_N, corpus_documents)
+        retrieved_documents = retrieve(retrieval_info, vector_index, TOP_N, corpus_documents)
 
         if evaluation_mode is False:
             for doc_idx, doc in enumerate(retrieved_documents):
@@ -41,6 +41,7 @@ def iter_retgen_model(query, iteration, evaluation_mode = False):
     return {
         "model_name": "iter_retgen",
         "query": query,
+        "groundtruth": groundtruth,
         "answer": output_answer,
         "retrieved": retrieved_documents,
         "llm_call": llm_calls,

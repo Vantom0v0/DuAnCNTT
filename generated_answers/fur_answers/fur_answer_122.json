@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "query": "Từ bé đến lúc cấp 2 mắt cháu bình thường. Lớp 6, cháu có bị ngã đập cằm vào sân bê tông và đã bị gãy răng cửa nhưng cháu đã đi cắm răng ngay sau đó và rồi 1 thời gian sau, cháu bị lác. Tháng 3, cháu có đi khám mắt bác sĩ nói là cháu phải mổ và mắt cháu thị lực vẫn 10/10 cả 2 mắt. Độ lác của cháu là 30 độ và cháu bị lác ngoài luân phiên. Vậy bác sĩ cho cháu hỏinguyên nhân mắt bị lác là gì?Có phải do bị ngã? Sau khi mổ, bệnh có tái lại không? Cháu cảm ơn bác sĩ.",
+    "groundtruth": "bác sĩ xin giải đáp như sau: Mắt bị lác có nhiều nguyên nhân như bẩm sinh, do mắc phải sau chấn thương hoặc do các nguyên nhân khác tại sọ não,.. Với tình trạng của bạn, việc tìm được nguyên nhân cần được các bác sĩ thăm khám thực tế, làm các xét nghiệm và chẩn đoán hình ảnh để có hướng điều trị cụ thể. Sau phẫu thuật có tái lại hay không còn phụ thuộc vào nguyên nhân cũng như các yếu tố khác.",
+    "answer": "Theo thông tin được cung cấp:\n\n- Lác mắt xảy ra khi **sự cân bằng giữa các cơ vận nhãn bị rối loạn**, khiến hai mắt không cùng nhìn về một hướng. Lác có nhiều loại, trong đó có lác ngoài.\n- Tài liệu có đề cập lác có thể **di truyền trong gia đình**, nhưng **không có đủ thông tin để khẳng định trường hợp của cháu là do cú ngã đập cằm hoặc do gãy răng**. Vì vậy, chưa thể kết luận chấn thương đó là nguyên nhân gây lác.\n- Phẫu thuật có thể được chỉ định khi mắt vẫn lác sau khi đã đánh giá và điều chỉnh các tật khúc xạ nếu có. Các ca mổ lác thường an toàn và có tỷ lệ thành công cao.\n- Tuy nhiên, **lác vẫn có thể tái phát hoặc mắt có thể lệch lại sau một thời gian**. Bằng chứng nêu rằng một số ít trường hợp bị lệch trục trở lại trong vài năm sau mổ; khoảng **5–10% trẻ cần phẫu thuật chỉnh lác lần thứ hai**. Không thể dự đoán chính xác nguy cơ tái phát riêng của cháu nếu chưa có thêm thông tin khám chuyên khoa.\n\nCháu nên tiếp tục khám tại cơ sở chuyên khoa Mắt để bác sĩ xác định loại lác, nguyên nhân có thể có và tư vấn cụ thể về phẫu thuật.",
+    "evidence": [
+        {
+            "text": "Câu hỏi: Năm nay, cháu 14 tuổi. Cháu đã mổ lác mắt bên trái hồi nhỏ nhưng lại bị lại. Vậy bác sĩ cho cháu hỏitrẻ tái lác mắt sau mổ có sao không?Nếu để đến nhiều năm sau thì có mổ được không? Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Lác mắtlà tình trạng hai mắt nhìn theo hai hướng khác nhau, không thể nhìn thẳng được. Bệnh nhân bị lác mắt là khi một mắt có thể nhìn về phía trước, mắt kia có thể nhìn vào trong, ra ngoài, nhìn lên hoặc nhìn xuống dưới. Lác mắt trẻ em là một bệnh lý thường gặp và có thể di truyền từ người thân trong gia đình. Về bệnh lý lác mắt có thể chia thành các loại như: lác mắt ở trẻ sơ sinh, lác mắt trong do điều tiết và lác mắt ngoài. Mắt của mỗi người được vận hành bởi các cơ vận nhãn, bao gồm 4 cơ trực và 2 cơ chéo bám xung quanh để giúp mắt có thể liếc nhìn theo các bước. Bệnh mắt lác sẽ xảy ra khi có sự mất cân bằng giữa các cơ vận nhãn. Trẻ 14 tuổi đã mổ lác mắt bên trái hồi nhỏ nhưng lại bị lại nếu để đến nhiều năm sau có mổ lại được.",
+            "score": 0.6233992576599121,
+            "id": "medical_vietnamese_qa_5082",
+            "rerank_score": 0.9969257712364197
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em năm nay 3 tuổi hơn mắt của bé mỗi lần liếc là con ngươi của bé vào trong hơn một nửa. Mỗi lần bé ngoảnh đầu ra phía sau bé phải nheo một mắt lại và bé đi hay vấp ngã, không biết có phải bé bị lác mắt không ạ?Lác mắt ở trẻ có triệu chứng như thế nào?Bác sĩ tư vấn giúp em. Đỗ Thị Hoàng Anh(1999) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Thị Bích Nhĩ -Bác sĩ Chuyên khoa Mắt - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Khi 1 mắt bị lệch, 2 hình ảnh khác nhau được 2 mắt thu nhận sẽ chuyển đến não bộ. Ở trẻ nhỏ, não bộ chọn lọc, loại bỏ hình ảnh của mắt nhìn lệch, chỉ lấy hình ảnh của mắt nhìn rõ hơn. Về sau, trẻ sẽ mất đi thị giác tinh tế. Ở người lớn, não bộ thu lại cả 2 hình ảnh, không thể loại bỏ hình ảnh từ mắt bị lệch, gây nhìn đôi. Có 2 loại lác mắt: Lác cơ năng (lác đồng hành): Thường gặp ở trẻ em, đặc trưng bởi tình trạng mắt lác luôn di chuyển cùng hướng với mắt lành; Lác liệt (lác bất đồng hành): Thường gặp ở người lớn, đặc trưng bởi tình trạng cơ vận nhãn bị liệt gây hạn chế vận động của nhãn cầu. Lác mắt ở trẻ có triệu chứng như: Hai mắt bị lệch trục thị giác kèm theo rối loạn chức năng thị giác hai mắt. Với các triệu chứng trên của bé thì có khả năng bé bị lác mắt. Tùy từng trường hợp bịlác mắt, có thể áp dụng một hoặc phối hợp nhiều cách điều trị sau: Đeo kính để giúp mắt nhìn thẳng cho các trường hợp bị lé do quy tụ điều tiết hoặc kèm tật khúc xạ; Tập luyện: Tập quy tụ, tập liếc sang hướng ngược chiều mắt bị lé để tập cho mắt lé có thể nhìn chính xác vào các vật. Tiếp theo là tập trên máy chỉnh quang để hợp thị 2 mắt; Che mắt ở mắt khỏe hơn và tập nhìn mọi vật bằng mắt lé để cải thiện thị lực; Tiêm thuốc Botulinum toxin cho các trường hợp lé thứ phát ở người lớn do liệt cơ vận nhãn trong thời gian chờ phẫu thuật. Phương pháp này giúp giải quyết tạm thời tình trạng song thị ở bệnh nhân; Phẫu thuật chỉnh lại cơ vận nhãn không cân bằng. Ở trẻ bị lác dai dẳng, phẫu thuật sớm giúp cải thiện cơ hội phục hồi hoặc tăng cường thị lực ở 2 mắt. Ở người lớn, phẫu thuật giúp khôi phục lại diện mạo bình thường, cải thiện thị lực 2 mắt, làm mất hoặc giảm nhìn đôi, cải thiện chức năng xã hội - giao tiếp. Bệnh lác mắtnên được chẩn đoán và điều trị sớm để thu được kết quả trị liệu tốt hơn. Vì vậy, nếu trẻ hoặc người lớn có biểu hiện nhìn lệch, mắt lé, mắt hiếng, ngay nghiêng hoặc quay đầu khi nhìn, song thị,... cần đến ngay các cơ sở y tế chuyên khoa mắt để khám và điều trị.",
+            "score": 0.6291293501853943,
+            "id": "medical_vietnamese_qa_6825",
+            "rerank_score": 0.9947882890701294
+        },
+        {
+            "text": "Câu hỏi: Nhược thị kèm mắt phải lác ngoài có nên mổ không?\nTrả lời: Bạn đã từng đi khám mắt chưa, đã được đo khúc xạ kiểm tra mắt chưa, nếu chưa thì bạn nên đi khám mắt để đánh giá tình trạng lác ngoài của bạn có điều chỉnh bằng kính được không, nếu điều chỉnh khúc xạ mà vẫn không hết lác thì mới đến phương án phẫu thuật chỉnh lác. Các ca mổ lác mắt thường diễn ra an toàn, tỉ lệ thành công cao, tuy nhiên một số ít trường hợp mắt vẫn có thể bị lệch trục trong một vài năm sau khi phẫu thuật. 5-10% trẻ cần phẫu thuật lần chỉnh mắt lác lần thứ 2.Tốt nhất, bạn nên đến khám chuyên khoa Mắt để được tư vấn điều trị cụ thể.",
+            "score": 0.5840917229652405,
+            "id": "vietnamese_healthcare_535",
+            "rerank_score": 0.9918883442878723
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cháu năm nay 21 tuổi. Cháu cận thị 5.0 độ và 2 mắt bị lác ngoài luân phiên 15 độ. Cháu bị lác do sốt cao từ nhỏ., năm 7 tuổi cháu đã phẫu thuật lác và tình trạng mắt của cháu hiện tại lúc lác lúc không. Cháu đã đi khám và được chẩn đoán là lác ngoài luân phiên 15 độ. Bác sĩ tư vấn giúp cháu, nên mổ lác hay mổ cận thị trước? Nếu mổ lác lần 2 liệu khả năng tái phát cao không ạ? Cháu mong nhận được lời phản hồi từ bác sĩ. Cháu xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+            "score": 0.7153938412666321,
+            "id": "vietnamese_medical_qa_1981",
+            "rerank_score": 0.9893330335617065
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Mắt cháu bên phải thì bình thường nhưng bên trái bị sẹo võng mạc, lác ngoài. Bác sĩ cho cháu hỏi có thể dùng phương pháp điều trị nào ạ? Mong bác sĩ tư vấn giúp cháu. Cháu xin cảm ơn.\nTrả lời: Cháu bị tổn thương võng mạc – lác ngoài, hiện tại bác không rõ thị lực còn mấy phần, nếu mắt kém quá có thể nghĩ đến nhược thị. Việc điều trị phẫu thuật chỉnh lác đem lại thẩm mỹ nhưng vẫn có thể lác trở lại. Cháu đi khám bác sĩ sẽ tư vấn cụ thể hơn nhé.\nCảm ơn cháu đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.6058789491653442,
+            "id": "vietnamese_medical_qa_3653",
+            "rerank_score": 0.9877519607543945
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

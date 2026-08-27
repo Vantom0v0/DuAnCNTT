@@ -1,0 +1,118 @@
+{
+    "model_name": "s2g_rag",
+    "query": "Cháu 18 tuổi, bị trật khớp vai xong đã nắn lại và đeo đai. Nhưng sau 1 tuần cháu sờ trên vai vẫn thấy cục xương lồi lên không cao lắm, nó cũng đỡ đau nhức, cho cháu hỏiphát hiện u sau khi nắn trật khớp vai có sao không?Cảm ơn bác sĩ.",
+    "groundtruth": "Chào bạn, Với câu hỏi “Phát hiện u sau khi nắn trật khớp vai có sao không?”, bác sĩ giải đáp như sau: Trật khớp vai sau khi nắn cần được chụp X quang kiểm tra và tái khám định kỳ. Tùy theo tình trạng người bệnh mà bác sĩ sẽ cho bất động khớp vai bằng đai. Trong thời gian này, bạn vẫn tập các bài tập theo chỉ dẫn của bác sĩ. Nếu có biến dạng bất thường, bạn nên đi khám lại để được kiểm tra cụ thể.",
+    "answer": "Cục lồi trên vai sau khi nắn trật khớp chưa thể xác định là xương nhô hay nang hoạt dịch khớp, dù việc giảm đau là dấu hiệu được ghi nhận. Cháu nên sớm đến cơ sở y tế khám chuyên khoa cơ xương khớp để bác sĩ kiểm tra trực tiếp và chỉ định chụp X-quang, MRI hoặc siêu âm khớp khi cần, từ đó xác định nguyên nhân và hướng điều trị phù hợp.",
+    "evidence": [
+        "Tốt nhất em nên sớm đi khám để kiểm tra lại, có 2 vấn đề cần phải chắc chắn như sau:\nMột là, khối bất thường vùng cổ của em bản chất là gì?",
+        "Là hạch phản ứng viêm thông thường hay hạch lao hay u?",
+        "Nếu là u thì là u lành hay u ác?",
+        "Hai là, xuất hiện lại khối bất thường đó có phải là do tái phát hay do nhiễm trùng vùng vết mổ cũ?",
+        "Khi em đến bệnh viện thăm khám bác sĩ có thể sẽ cho em siêu âm đánh giá lại, xét nghiệm máu, nếu nghi ngờ u thì sẽ phải sinh thiết tổ chức đó để xác định bản chất.",
+        "Bạn nên đến khám tại trung tâm Vú để được bác sĩ khám và cho chỉ định cận lâm sàng phù hợp như siêu âm vú, chụp X - quang tuyến vú,MRI vú, xét nghiệm giải phẫu bệnh nếu cần.",
+        "Bạn cần đến viện để khám chuyên khoa.",
+        "Bác sĩ sẽ khám trực tiếp và có thể chỉ định xét nghiệm, sinh thiết để có kết luận chính xác.",
+        "Hiện nay có một cục xương nhỏ lồi lên (chưa thể xác định là xương hay kén nang hoạt dịch khớp)?",
+        "Như vậy, để chẩn đoán được bệnh của bạn, bắt buộc bạn phải đến cơ sở y tế gần nhất để được các Bác sĩ chuyên khoa cơ xương khớp khám, cho chỉ định làm các xét nghiệm chụp X - quang, chụp MRI, siêu âm khớp để chẩn đoán và xác định hướng điều trị sau."
+    ],
+    "retrieval_history": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ, năm nay cháu 17 tuổi. Thời gian gần đây cháu bỗng thấy 1 bên ngực mình nổi cục u to, cứng hơn hẳn bên còn lại nhưng không có triệu chứng đau hay gì khác. Xin hỏi bác sĩ cháu có bị sao không ạ?\nTrả lời: Chào cháu !\nKhông rõ khối u cháu sờ thấy ở vị trí nào trên vú? ở núm vú? hay ở ngoài quầng núm vú? hình dáng của khối đó tròn hay thuôn dài? có di động hay không?..bình thường có thể thấy núm vú cứng, đau nhẹ khi ấn lúc tuổi dậy thì và có khi kích thước bằng quả cau nhỏ, hoặc có thể có khối cứng nhẹ của tuyến sữa trên vú nhưng không tròn có di động,...nhưng tốt hơn hết nếu cục u đó vẫn còn trên ngực thì cháu nên đến bác sỹ phụ khoa để được khám trực tiếp, siêu âm vú, sẽ được tư vấn cụ thể cháu nhé .\n Thân mến !",
+                "score": 0.5729132294654846,
+                "id": "vietnamese_medical_qa_6060",
+                "rerank_score": 0.21660052239894867
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!!\nHồi tháng 4/2019, cháu có đi khám hạch cổ, kết quả xét nghiệm là hạch lành tính. Sau đó cháu có chích mổ hạch. Dạo gần đâu, chỗ vết khâu chích hạch lần trước bị sưng hạch lên và đau, trước đây khi chích hạch cháu cũng bị sưng đau như vậy. Bây giờ cháu lại bị mọc hạch lại thì có sao không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nChào bác sĩ. Bác sĩ cho em hỏi cách đây hơn 1 năm trước em có bị nổi hạch và đã sinh thiết để lấy hạch ra. Sau đó em được chẩn đoán bệnh là lao hạch, em đã uống thuốc chữa hết theo phác đồ là 1 năm vào ngày 26/4/2020. Thì từ đó đến nay khoảng hơn 1 tháng ngay chỗ vết mổ cũ lại nổi lên 1 cục tròn giống cục hạch. Bác sĩ cho em hỏi đó có phải em bị hạch lao tái phát không ạ. Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn.\nTrả lời: Chào em!\nTốt nhất em nên sớm đi khám để kiểm tra lại, có 2 vấn đề cần phải chắc chắn như sau:\nMột là, khối bất thường vùng cổ của em bản chất là gì? Là hạch phản ứng viêm thông thường hay hạch lao hay u? Nếu là u thì là u lành hay u ác?\nHai là, xuất hiện lại khối bất thường đó có phải là do tái phát hay do nhiễm trùng vùng vết mổ cũ?\nKhi em đến bệnh viện thăm khám bác sĩ có thể sẽ cho em siêu âm đánh giá lại, xét nghiệm máu, nếu nghi ngờ u thì sẽ phải sinh thiết tổ chức đó để xác định bản chất.\nCảm ơn bạn đã tin tưởng AI-Doctor, rất mong có thể gặp bạn để được tư vấn kỹ càng hơn. Trân trọng!",
+                "score": 0.5602527856826782,
+                "id": "vietnamese_medical_qa_3404",
+                "rerank_score": 0.1532364934682846
+            },
+            {
+                "text": "Câu hỏi: Em sờ thấy phía trên vú phải có 1 khối cứng. Vậy bác sĩ cho em hỏisờ thấy khối cứng phía trên vú có sao không?Đó có phải khối u không? Em sờ vào thấy ngay và chỉ bị 1 bên còn vú kia bình thường. Em sờ thấy từ năm 2017 nhưng không có dấu hiệu gì, nay em mới thấy khi chạy hơi đau. Mong bác sĩ tư vấn giúp em, em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Khối u bạn sờ thấy có thể là khối u vú lành tính hoặc ác tính, hoặctổn thương nang tuyến vúbiến chứng,... Bạn nên đến khám tại trung tâm Vú để được bác sĩ khám và cho chỉ định cận lâm sàng phù hợp như siêu âm vú, chụp X - quang tuyến vú,MRI vú, xét nghiệm giải phẫu bệnh nếu cần. Khi đi khám tại trung tâm Vú, bạn sẽ được hướng dẫn cách tự khám vú đúng cách để có thể tự kiểm tra vú cho bạn nhằm phát hiện các triệu chứng bất thường kịp thời. Bạn nên đi khám vào tuần đầu sau khi sạch kinh.",
+                "score": 0.5671889781951904,
+                "id": "medical_vietnamese_qa_8155",
+                "rerank_score": 0.007538816891610622
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nHôm nay tôi phát hiện bên mang hàm phải phía răng hàm dưới có 1 cục u ti cỡ đầu ngón tay cai, sờ vào thấy di chuyển và hơi đau. Và sau gáy dưới chân tóc cũng có 1 cục u, cũng di chuyển và đau. Cục sau gáy của tôi cũng lâu rồi mà tôi chưa đi khám. Khoảng time trước tôi bị mọc răng khôn đâm ngang má phải rất đau, để 1 time nó hết thì tôi phát hiện có cục u ngay má. Cho tôi hỏi những cục u ung thư có những biểu hiện bên ngoài như thế nào ạ?.\nTrả lời: Chào chị, theo mô tả của chị, nếu răng khôn hàm dưới của chị vẫn chưa nhổ, và cục u nằm ở ngay răng khôn đó, có thể chẩn đoán đó là u hạt nhiễm trùng.\nNguyên nhân do răng khôn mọc lệch, vệ sinh răng miệng không làm sạch được vùng răng khôn, dẫn đến nhiễm trùng, viêm quanh thân răng, giai đoạn cấp có thể nóng sốt, sưng đau, sau một thời gian, (đôi khi phải uống thuốc) không còn đau nữa, viêm chuyển sang giai đoạn mãn tính, tạo u hạt, thành khối u như chị đang thấy hiện tại.\nChị nên đi nhổ răng sớm, vì đó là nguyên nhân gây ra tình trạng viêm, khối u sẽ tự lành.",
+                "score": 0.586645245552063,
+                "id": "vietnamese_medical_qa_9151",
+                "rerank_score": 0.0040298206731677055
+            },
+            {
+                "text": "Câu hỏi: Mẹ em sinh năm 1962 bị mờ mắt, đi khám và phát hiện bị u tuyến yên. Khi chụp MRI, u đã to bằng quả trứng gà. Mẹ em đã mổ 6 tháng rồi. Sau 1 năm mẹ em đi khám lại, u lại to bằng quả trứng chim cút, bác sĩ chỉ định mổ. Sau khi mổ xong, thị lực và sức khoẻ mẹ em không có gì thay đổi. 6 tháng sau, mẹ em đi khám và chụp lại kích thước u vẫn to bằng quả trứng chim sâu nhưng bác sĩ nói mẹ em đã mổ 2 lần nội soi, lần 3 không nội soi được nữa mà phải mổ lật sương sọ ra và chỗ u do mổ quá nhiều lần nó sơ, giờ rất khó bóc tách để cắt khối u đi. Tỷ lệ thành công rất thấp, theo bác sĩ mẹ em không nên mổ tiếp. Vướng dịch bệnh từ đó không đi khám lại được, giờ càng ngày mắt mẹ em càng không rõ, chỉ nhìn được 10%. Em rất là sợ mẹ không nhìn thấy gì nữa. Bác sĩ cho em hỏi,bị mờ mắt do u tuyến yên phải làm sao? Nguyễn Thế Anh(1962) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Phan Duy- Bác sĩ Ngoại thần kinh - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Tùy vào kích thước của u tuyến yên, mức độ chèn ép đến điểm giao thoa thị giác và thần kinh thị giác mà các triệu chứng về thị giác có thể bao gồm như: Nhìn mờ (ở một hoặc hai mắt) Mất thị lực ngoại biên Song thị Mất thị lực 1 hoặc cả 2 bên mắt Để đánh giá khốiu tuyến yên, bác sĩ cần thăm khám để đánh giá triệu chứng lâm sang và chức năng thần kinh của bệnh nhân. Cùng với đó, bác sĩ sẽ kết hợp đánh giá hình ảnh khối u trên phim, để từ đó lựa chọn phương án điều trị thích hợp. Bạn nên đưa mẹ đến thăm khám bác sĩ chuyên khoa và được tư vấn chi tiết. Ngoài ra, những thói quen sinh hoạt và phong cách sống dưới đây sẽ giúp hạn chế diễn tiến của u tuyến yên: Tái khám đúng lịch hẹn để được theo dõi diễn tiến các triệu chứng cũng như tình trạng sức khỏe. Dùng thuốc theo sự hướng dẫn của bác sĩ, không được tự ý uống thuốc không được chỉ định hoặc tự ý bỏ thuốc trong toa được kê. Báo cho bác sĩ về tất cả các bệnh lý khác. Cho bác sĩ biết về các loại thuốc đang dùng, bao gồm thuốc theo toa và thuốc không kê toa. Cho bác sĩ biết nếu đang mang thai hoặc dự định có thai. Khám bác sĩ ngay lập tức hay đi cấp cứu nếu bị sốt, cứng cổ, đau đầu đột ngột, hoặc thay đổi thị lực.",
+                "score": 0.6070734858512878,
+                "id": "medical_vietnamese_qa_12417",
+                "rerank_score": 0.0008965791785158217
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ, năm nay cháu 17 tuổi. Thời gian gần đây cháu bỗng thấy 1 bên ngực mình nổi cục u to, cứng hơn hẳn bên còn lại nhưng không có triệu chứng đau hay gì khác. Xin hỏi bác sĩ cháu có bị sao không ạ?\nTrả lời: Chào cháu !\nKhông rõ khối u cháu sờ thấy ở vị trí nào trên vú? ở núm vú? hay ở ngoài quầng núm vú? hình dáng của khối đó tròn hay thuôn dài? có di động hay không?..bình thường có thể thấy núm vú cứng, đau nhẹ khi ấn lúc tuổi dậy thì và có khi kích thước bằng quả cau nhỏ, hoặc có thể có khối cứng nhẹ của tuyến sữa trên vú nhưng không tròn có di động,...nhưng tốt hơn hết nếu cục u đó vẫn còn trên ngực thì cháu nên đến bác sỹ phụ khoa để được khám trực tiếp, siêu âm vú, sẽ được tư vấn cụ thể cháu nhé .\n Thân mến !",
+                "score": 0.5634879469871521,
+                "id": "vietnamese_medical_qa_6060",
+                "rerank_score": 0.21660052239894867
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!!\nHồi tháng 4/2019, cháu có đi khám hạch cổ, kết quả xét nghiệm là hạch lành tính. Sau đó cháu có chích mổ hạch. Dạo gần đâu, chỗ vết khâu chích hạch lần trước bị sưng hạch lên và đau, trước đây khi chích hạch cháu cũng bị sưng đau như vậy. Bây giờ cháu lại bị mọc hạch lại thì có sao không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nChào bác sĩ. Bác sĩ cho em hỏi cách đây hơn 1 năm trước em có bị nổi hạch và đã sinh thiết để lấy hạch ra. Sau đó em được chẩn đoán bệnh là lao hạch, em đã uống thuốc chữa hết theo phác đồ là 1 năm vào ngày 26/4/2020. Thì từ đó đến nay khoảng hơn 1 tháng ngay chỗ vết mổ cũ lại nổi lên 1 cục tròn giống cục hạch. Bác sĩ cho em hỏi đó có phải em bị hạch lao tái phát không ạ. Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn.\nTrả lời: Chào em!\nTốt nhất em nên sớm đi khám để kiểm tra lại, có 2 vấn đề cần phải chắc chắn như sau:\nMột là, khối bất thường vùng cổ của em bản chất là gì? Là hạch phản ứng viêm thông thường hay hạch lao hay u? Nếu là u thì là u lành hay u ác?\nHai là, xuất hiện lại khối bất thường đó có phải là do tái phát hay do nhiễm trùng vùng vết mổ cũ?\nKhi em đến bệnh viện thăm khám bác sĩ có thể sẽ cho em siêu âm đánh giá lại, xét nghiệm máu, nếu nghi ngờ u thì sẽ phải sinh thiết tổ chức đó để xác định bản chất.\nCảm ơn bạn đã tin tưởng AI-Doctor, rất mong có thể gặp bạn để được tư vấn kỹ càng hơn. Trân trọng!",
+                "score": 0.5546011924743652,
+                "id": "vietnamese_medical_qa_3404",
+                "rerank_score": 0.1532364934682846
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nTôi bị nhiệt ở má trong và sau 2 tuần nó đã lành lại, đã lành vết thương lại nhưng vết loét lành rất nham nhở, có miếng thịt lồi ra. Bác sĩ cho tôi hỏi có miếng thịt lồi ra sau nhiệt ở má có ảnh hưởng gì không? Liệu có phải là do bị ung thư miệng không ạ? Cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nỞ độ tuổi của bạn thì tỷ lệ ung thư vùng miệng là rất thấp. Bạn cần đến viện để khám chuyên khoa. Bác sĩ sẽ khám trực tiếp và có thể chỉ định xét nghiệm, sinh thiết để có kết luận chính xác.\nTrân trọng!",
+                "score": 0.5528146624565125,
+                "id": "vietnamese_medical_qa_854",
+                "rerank_score": 0.0630173608660698
+            },
+            {
+                "text": "Câu hỏi: Em sờ thấy phía trên vú phải có 1 khối cứng. Vậy bác sĩ cho em hỏisờ thấy khối cứng phía trên vú có sao không?Đó có phải khối u không? Em sờ vào thấy ngay và chỉ bị 1 bên còn vú kia bình thường. Em sờ thấy từ năm 2017 nhưng không có dấu hiệu gì, nay em mới thấy khi chạy hơi đau. Mong bác sĩ tư vấn giúp em, em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Khối u bạn sờ thấy có thể là khối u vú lành tính hoặc ác tính, hoặctổn thương nang tuyến vúbiến chứng,... Bạn nên đến khám tại trung tâm Vú để được bác sĩ khám và cho chỉ định cận lâm sàng phù hợp như siêu âm vú, chụp X - quang tuyến vú,MRI vú, xét nghiệm giải phẫu bệnh nếu cần. Khi đi khám tại trung tâm Vú, bạn sẽ được hướng dẫn cách tự khám vú đúng cách để có thể tự kiểm tra vú cho bạn nhằm phát hiện các triệu chứng bất thường kịp thời. Bạn nên đi khám vào tuần đầu sau khi sạch kinh.",
+                "score": 0.5656094551086426,
+                "id": "medical_vietnamese_qa_8155",
+                "rerank_score": 0.007538816891610622
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nHôm nay tôi phát hiện bên mang hàm phải phía răng hàm dưới có 1 cục u ti cỡ đầu ngón tay cai, sờ vào thấy di chuyển và hơi đau. Và sau gáy dưới chân tóc cũng có 1 cục u, cũng di chuyển và đau. Cục sau gáy của tôi cũng lâu rồi mà tôi chưa đi khám. Khoảng time trước tôi bị mọc răng khôn đâm ngang má phải rất đau, để 1 time nó hết thì tôi phát hiện có cục u ngay má. Cho tôi hỏi những cục u ung thư có những biểu hiện bên ngoài như thế nào ạ?.\nTrả lời: Chào chị, theo mô tả của chị, nếu răng khôn hàm dưới của chị vẫn chưa nhổ, và cục u nằm ở ngay răng khôn đó, có thể chẩn đoán đó là u hạt nhiễm trùng.\nNguyên nhân do răng khôn mọc lệch, vệ sinh răng miệng không làm sạch được vùng răng khôn, dẫn đến nhiễm trùng, viêm quanh thân răng, giai đoạn cấp có thể nóng sốt, sưng đau, sau một thời gian, (đôi khi phải uống thuốc) không còn đau nữa, viêm chuyển sang giai đoạn mãn tính, tạo u hạt, thành khối u như chị đang thấy hiện tại.\nChị nên đi nhổ răng sớm, vì đó là nguyên nhân gây ra tình trạng viêm, khối u sẽ tự lành.",
+                "score": 0.5768076181411743,
+                "id": "vietnamese_medical_qa_9151",
+                "rerank_score": 0.0040298206731677055
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị đau khớp tay mỗi khi vận động nhiều, tôi đi khám không ra bệnh. Và bây giờ có 1 cục xương nhỏ lồi lên. Bác sĩ cho tôi hỏiđau khớp tay kèm cục xương nhỏ lồi lên là bị làm sao?Tôi cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tất cả các thông tin của bạn chưa đầy đủ như bạn bao nhiêu tuổi, hiện đau ở khớp tay nào (ví dụ: Cổ tay, khuỷu tay, khớp vai)? Thời gian đau đã bao lâu? Hiện nay có một cục xương nhỏ lồi lên (chưa thể xác định là xương hay kén nang hoạt dịch khớp)? Như vậy, để chẩn đoán được bệnh của bạn, bắt buộc bạn phải đến cơ sở y tế gần nhất để được các Bác sĩ chuyên khoa cơ xương khớp khám, cho chỉ định làm các xét nghiệm chụp X - quang, chụp MRI, siêu âm khớp để chẩn đoán và xác định hướng điều trị sau.",
+                "score": 0.5681206583976746,
+                "id": "medical_vietnamese_qa_575",
+                "rerank_score": 0.42689886689186096
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, năm nay cháu 17 tuổi. Thời gian gần đây cháu bỗng thấy 1 bên ngực mình nổi cục u to, cứng hơn hẳn bên còn lại nhưng không có triệu chứng đau hay gì khác. Xin hỏi bác sĩ cháu có bị sao không ạ?\nTrả lời: Chào cháu !\nKhông rõ khối u cháu sờ thấy ở vị trí nào trên vú? ở núm vú? hay ở ngoài quầng núm vú? hình dáng của khối đó tròn hay thuôn dài? có di động hay không?..bình thường có thể thấy núm vú cứng, đau nhẹ khi ấn lúc tuổi dậy thì và có khi kích thước bằng quả cau nhỏ, hoặc có thể có khối cứng nhẹ của tuyến sữa trên vú nhưng không tròn có di động,...nhưng tốt hơn hết nếu cục u đó vẫn còn trên ngực thì cháu nên đến bác sỹ phụ khoa để được khám trực tiếp, siêu âm vú, sẽ được tư vấn cụ thể cháu nhé .\n Thân mến !",
+                "score": 0.5678162574768066,
+                "id": "vietnamese_medical_qa_6060",
+                "rerank_score": 0.21660052239894867
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nTôi bị nhiệt ở má trong và sau 2 tuần nó đã lành lại, đã lành vết thương lại nhưng vết loét lành rất nham nhở, có miếng thịt lồi ra. Bác sĩ cho tôi hỏi có miếng thịt lồi ra sau nhiệt ở má có ảnh hưởng gì không? Liệu có phải là do bị ung thư miệng không ạ? Cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nỞ độ tuổi của bạn thì tỷ lệ ung thư vùng miệng là rất thấp. Bạn cần đến viện để khám chuyên khoa. Bác sĩ sẽ khám trực tiếp và có thể chỉ định xét nghiệm, sinh thiết để có kết luận chính xác.\nTrân trọng!",
+                "score": 0.5646955966949463,
+                "id": "vietnamese_medical_qa_854",
+                "rerank_score": 0.0630173608660698
+            },
+            {
+                "text": "Câu hỏi: ạ! Thưa bác sĩ, emsinh thườngđược 1 tháng rồi ạ. Những ngày sau sinh đi đại tiện đau, khó đi thì em biết là bình thường ạ. Nhưng những ngày gần đây (khoảng 3-4 ngày) sau khi đi đại tiện, phía gần hậu môn em hay nổi 1 cục lồi có mủ và dễ vỡ, làm em khó chịu và đau. Vậy cho em hỏi,nổi cục lồi có mủ kèm dễ vỡ, đau khi đại tiện sau sinh liệu có nguy hiểm khôngạ? Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn bác sĩ! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Không biết là trong quá trình sinh thường bác sĩ sản khoa có tiến hành thủ thuậtcắt khâu tầng sinh mônhay không? Triệu chứng bạn mô tả hướng đến một ổ viêm nhiễm khu trú vùng cạnh hậu môn, chưa loại trừ mộtbúi trĩbội nhiễm. Vì vậy, với thắc mắc “nổi cục lồi có mủ kèm dễ vỡ, đau khi đại tiện sau sinh liệu có nguy hiểm không?” Bạn cần được khám bởi bác sĩ sản khoa và bác sĩ ngoại tiêu hóa để có thể đánh giá chính xác tổn thương và tư vấn cụ thể cho bạn. Bạn có thể đến tại các bệnh viện thuộcHệ thống Y tế Vinmecđể bác sĩ tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Ngọc Thắng- Bác sĩ Ngoại tiêu hóa - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+                "score": 0.5570175051689148,
+                "id": "medical_vietnamese_qa_11455",
+                "rerank_score": 0.031600382179021835
+            },
+            {
+                "text": "Câu hỏi: Em sờ thấy phía trên vú phải có 1 khối cứng. Vậy bác sĩ cho em hỏisờ thấy khối cứng phía trên vú có sao không?Đó có phải khối u không? Em sờ vào thấy ngay và chỉ bị 1 bên còn vú kia bình thường. Em sờ thấy từ năm 2017 nhưng không có dấu hiệu gì, nay em mới thấy khi chạy hơi đau. Mong bác sĩ tư vấn giúp em, em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Khối u bạn sờ thấy có thể là khối u vú lành tính hoặc ác tính, hoặctổn thương nang tuyến vúbiến chứng,... Bạn nên đến khám tại trung tâm Vú để được bác sĩ khám và cho chỉ định cận lâm sàng phù hợp như siêu âm vú, chụp X - quang tuyến vú,MRI vú, xét nghiệm giải phẫu bệnh nếu cần. Khi đi khám tại trung tâm Vú, bạn sẽ được hướng dẫn cách tự khám vú đúng cách để có thể tự kiểm tra vú cho bạn nhằm phát hiện các triệu chứng bất thường kịp thời. Bạn nên đi khám vào tuần đầu sau khi sạch kinh.",
+                "score": 0.5633964538574219,
+                "id": "medical_vietnamese_qa_8155",
+                "rerank_score": 0.007538816891610622
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,109 +1,50 @@
 {
     "model_name": "s2g_rag",
-    "query": "Chào bác sĩ,\nCháu ăn phải thịt lợn đã chín và có sán gạo lợn. Vậy bác sĩ cho cháu hỏi sử dụng thịt lợn nấu chín nhiễm sán gạo có sao không? Cháu cảm ơn bác sĩ.",
-    "answer": "Theo thông tin được cung cấp, chưa đủ căn cứ để khẳng định việc ăn thịt lợn đã nấu chín nhưng nhiễm sán gạo có gây ảnh hưởng hay không. Nhìn chung, nên ăn chín, uống sôi và bảo đảm vệ sinh an toàn thực phẩm để hạn chế nguy cơ nhiễm ký sinh trùng và đau bụng.",
+    "query": "Trẻ đi ngoài nhiều, hậu môn bị viêm loét phải làm sao?",
+    "groundtruth": "Vấn đề con chị đang gặp phải có vẻ do tình trạng trẻ đi ngoài quá nhiều dẫn đến viêm loét quanh hậu môn. Chị cần xem thêm tính chất đi ngoài của trẻ như: Ngày đi bao nhiêu lần?Phân són hay thành bãi?Có nhầy, máu không?Phân có chua không?. . . Việc điều trị chỉ đạt được hiệu quả khi trẻ được chẩn đoán và điều trị đúng. Vì vậy chị nên cho trẻ tới các cơ sở y tế chuyên khoa để được xác định chẩn đoán và có biện pháp điều trị phù hợp nhé.",
+    "answer": "Trẻ đi ngoài nhiều kèm hậu môn viêm loét cần được đưa đi khám, vì cách điều trị phụ thuộc vào độ tuổi, mức độ đi ngoài và các biểu hiện kèm theo; nguyên nhân có thể liên quan đến táo bón, phân cứng làm rách hậu môn, tiêu chảy, viêm loét đại tràng hoặc chấn thương. Trong lúc chờ khám, hãy cho trẻ uống nhiều nước hoặc bú mẹ tăng cường, thay tã thường xuyên và rửa sạch vùng hậu môn bằng nước ấm ngay sau khi đi ngoài rồi lau khô bằng khăn vải sạch, không dùng giấy chùi. Không tự ý mua thuốc bôi; bác sĩ có thể chỉ định thuốc làm mềm phân, kem bôi tại chỗ hoặc men vi sinh phù hợp.",
     "evidence": [
-        "Bên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể.",
-        "Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé."
+        "Việc bé đi ngoài nhiều lần cần được điều trị tuy nhiên còn phụ thuộc độ tuổi, mức độ đi ngoài của trẻ,trẻ có kèm theo biểu hiện bệnh lý nào không?",
+        "Thêm nữa cần cho trẻ uống nhiều nước hoặc bú mẹ tăng cường.",
+        "nguyên nhân thường do táo bón, khối phân quá lớn và cứng khiến trẻ rặn mạnh khi đi ngoài làm rách hậu môn, ngoài ra còn có thể do viêm loét đại tràng, tiêu chảy hoặc do chấn thương,...",
+        "Thường xuyên thay tã và vệ sinh sạch vùng hậu môn của bé ngay sau khi bé đi ngoài bằng nước ấm sau đó lau khô bằng khăn vải sạch, không nên dùng giấy để chùi.",
+        "Bạn cần cho trẻ đi khám để được chỉ định thuốc làm mềm phân, kem bôi tại chỗ giúp bôi trơn và giúp nhanh lành vết rách, men vi sinh....",
+        "Để đảm bảo an toàn và hạn chế tác dụng phụ, tốt nhất cha mẹ không nên tự ý mua thuốc bôi nứt kẽ hậu môn cho trẻ em để sử dụng mà phải đưa trẻ thăm khám, để bác sĩ chỉ định loại thuốc phù hợp."
     ],
     "retrieval_history": [
         [
             {
-                "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
-                "score": 0.5251964330673218,
-                "id": 7186,
-                "rerank_score": 0.6996741890907288
+                "text": "Câu hỏi: Xin chào bác sĩ,\nCon tôi đi ỉa nhiều lần, phân thấy hơi nhầy có nguy hiểm ko\nTrả lời: Chào bạn, \nBé nhà bạn được bao nhiêu tuổi rồi? Số lần đi ngoài 1 ngày là bao nhiêu? \nViệc bé đi ngoài nhiều lần cần được điều trị tuy nhiên còn phụ thuộc độ tuổi, mức độ đi ngoài của trẻ,trẻ có kèm theo biểu hiện bệnh lý nào không?\nNếu trẻ còn nhỏ và còn bú mẹ hoàn toàn thì chỉ cần điều chỉnh chế độ ăn của mẹ, giữ vệ sinh sạch sẽ cho con còn nếu trẻ ăn cả sữa công thức thì nên xem lại việc thay đổi sữa cho bé. Sau khi điều chỉnh mà không thấy cải thiện thì phải đi làm xét nghiệm phân cho trẻ.\nCòn nếu trẻ lớn hơn thì nên cho trẻ đi khám bác sỹ sẽ có chuẩn đoán và chỉ định điều trị phù hợp.\nThêm nữa cần cho trẻ uống nhiều nước hoặc bú mẹ tăng cường.\nThân mến!",
+                "score": 0.5944851040840149,
+                "id": "vietnamese_medical_qa_6536",
+                "rerank_score": 0.7342544794082642
             },
             {
-                "text": "Câu hỏi: Chào bác sĩ ạ. Vài tuần trước ở tay phải của tôi có nổi mẩn to nhìn vào giống như bị rết cắn nhưng không có dấu vết gì cả, vài ngày sau thì mắt trái của tôi bị ngứa và sưng lên. Hiện tại bên trong miệng tôi có 1 cục bị cộm giống như vết muỗi cắn vậy. Xin hỏi bác sĩ có phải tôi bị sán chó không?\nTrả lời: Chào chị. Các triệu chứng hiện tại của chị không phải là triệu chứng điển hình của tình trạng nhiễm sán chó. Tuy nhiên, chị nên đến bệnh viện để được thăm khám, chẩn đoán tìm nguyên nhân và điều trị. Trong trường hợp vẫn còn nghi ngờ nhiễm sán chó thì bác sĩ sẽ cho chị làm các xét nghiệm đặc hiệu để xác định chắc chắn chị nhé.",
-                "score": 0.4014003872871399,
-                "id": 4764,
-                "rerank_score": 0.17410282790660858
+                "text": "Câu hỏi: Trường hợp trẻ đi ngoài ra máu ở mức độ nhẹ\nTrả lời: 2. Trường hợp trẻ đi ngoài ra máu ở mức độ nhẹ\nNứt hậu môn : Hiện tượng này là do trẻ bị táo bón, phân bên trong sẽ cứng lại và khó ra ngoài. Khi trẻ cố gắng rặn để đẩy phân ra sẽ làm cho hậu môn bị tổn thương và gây ra chảy máu hậu môn. Vì vậy, trong lúc đi bé cầu sẽ thấy tình trạng đi ngoài ra máu tươi. Phương pháp điều trị đối với trường hợp này, có thể để vết thương tự lành hoặc sử dụng thêm thuốc. Viêm đại tràng : Đây là tình trạng ruột già hoặc đại tràng của bé bị viêm. Nguyên nhân có thể do di truyền, mà hệ miễn dịch ở trẻ nhỏ chưa được hoàn thiện nên nhiễm trùng rất dễ xảy ra. Đây là cơ hội để vi khuẩn xâm nhập vào ổ viêm làm tình trạng bệnh chuyển biến xấu và ta có thể thấy máu đi ra ngoài theo phân. Phương pháp điều trị là sử dụng thuốc chống viêm để kiểm soát sự phát triển của ổ viêm, hỗ trợ hệ miễn dịch của trẻ để chống lại vi khuẩn. Bệnh Crohn : Là căn bệnh gây loét thành ruột non và ruột già, máu sẽ chảy ra từ các ổ loét. Hiện tại vẫn chưa xác định được rõ nguyên nhân gây bệnh nhưng nhiều nhà nghiên cứu cho rằng yếu tố di truyền đóng vai trò khá quan trọng. Vì vậy, trong gia đình nếu có một người bị bệnh này thì tỷ lệ mắc cho các thế hệ sau là rất cao. Phương pháp điều trị là xác định vị trí và mức độ của ổ loét, từ đó bác sĩ có thể kê thuốc cho bé uống. Dị ứng : Có thể nhiều người chưa biết việc dị ứng với sữa hay thức ăn mà mẹ tiêu thụ cũng là một trong các nguyên nhân khiến trẻ đi ngoài ra máu. Điều này có thể kéo dài và ảnh hướng đến sau này. Tuy nhiên, trên thực tế đã có một số loại thuốc có tác dụng kiểm soát tình trạng này cho bé. Dị ứng sữa mẹ cũng có thể là nguyên nhân khiến trẻ đi ngoài ra máu",
+                "score": 0.5842056274414062,
+                "id": "vietnamese_healthcare_33050",
+                "rerank_score": 0.7294722199440002
             },
             {
-                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi, bị bệnh sán chó tôi có phải lọc máu không? Cảm ơn bác sĩ đã trả lời giúp tôi.\nTrả lời: Chào chị. Cảm ơn chị đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Hiện tại điều trị bệnh lý sán dải chó không có chỉ định lọc máu. Chị nên đến khám khoa truyền nhiễm để được bác sĩ khám và tư vấn phương pháp điều trị tốt nhất.",
-                "score": 0.424344927072525,
-                "id": 2619,
-                "rerank_score": 0.08175352215766907
+                "text": "Câu hỏi: ! Bé nhà em bị nứt kẽ hậu môn khi đi nặng thường ra máu. Bác sĩ cho em hỏibé bị nứt kẽ hậu môn đi nặng ra máu phải làm thế nào? Rất mong bác sĩ tư vấn, em cảm ơn! Nguyễn Thị Hạt(1989) Trả lời\nTrả lời: Chào bạn! Với câu hỏi “Bé bị nứt kẽ hậu môn đi nặng ra máu phải làm thế nào?”, bác sĩ xin giải đáp như sau: Nứt kẽ hậu môn là tình trạng rách ở niêm mạc ống hậu môn. Bệnh thường gặp ở trẻ nhỏ khoảng 6 đến 24 tháng tuổi. nguyên nhân thường do táo bón, khối phân quá lớn và cứng khiến trẻ rặn mạnh khi đi ngoài làm rách hậu môn, ngoài ra còn có thể do viêm loét đại tràng, tiêu chảy hoặc do chấn thương,... Bệnh có biểu hiện đau khi đi ngoài, có máu tươi ở phân. Khám có vết rách ở rìa hậu môn. Khi chăm sóc bé bị nứt kẽ hậu môn, bạn cần lưu ý: Cho trẻ uống nhiều nước, ăn thức ăn dễ tiêu, có rau và các chất xơ, uống men tiêu hoá. Bạn nên xoa nhẹ vùng bụng theo chiều kim đồng hồ và tập cho trẻ phản xạ đi ngoài đúng giờ hàng ngày tránh táo bón. Thường xuyên thay tã và vệ sinh sạch vùng hậu môn của bé ngay sau khi bé đi ngoài bằng nước ấm sau đó lau khô bằng khăn vải sạch, không nên dùng giấy để chùi. Tránh cho trẻ ăn thức ăn nhanh, thức ăn cay nóng, đồ hộp, nước ngọt có ga,.... Bạn cần cho trẻ đi khám để được chỉ định thuốc làm mềm phân, kem bôi tại chỗ giúp bôi trơn và giúp nhanh lành vết rách, men vi sinh.... Nếu vết rách hậu môn không lành sau 6 đến 8 tuần có thể phải can thiệp ngoại khoa  Được giải đáp bởiBác sĩ chuyên khoa II Phạm Thị Vân Hạnh -Bác sĩ Nội nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.5999139547348022,
+                "id": "medical_vietnamese_qa_7217",
+                "rerank_score": 0.6750563979148865
             },
             {
-                "text": "Câu hỏi: Chào bác sĩ, em xét nghiệm và được chẩn đoán là bị giun sán chó mà điều trị từ tháng 6 tới nay sao không hết, bây giờ nổi hết mình, cổ và mặt, xin hỏi bác có cách thuốc gì uống cho lặn xuống không ạ?\nTrần Hữu Lợi (TP HCM)\nChào bác sĩ, bác sĩ cho em hỏi là bệnh sán chó có thuốc chích ngừa cho người không? Mong nhận được tư vấn của bác sĩ, cảm ơn bác sĩ\nTrả lời: Chào bạn, nhiễm sán chó là một bệnh nhiễm trùng gây ra bởi 1 loại ký sinh trùng sán dây có tên là Toxocara canis, bệnh lây truyền qua trung gian truyền bệnh là chó. Bệnh lý này có biểu hiện lâm sàng từ không có triệu chứng gì cho đến triệu chứng ngứa, mề đay, đau đầu, rối loạn tiêu hóa, bạch cầu ái toan tăng, một số trường hợp có tổn thương gan, não... Bạn đã nói điều trị từ tháng 6, tuy nhiên mình không rõ bạn đã điều trị ở đâu và đủ liệu trình chưa. Xét nghiệm ngoài nhiễm sán chó còn bội nhiễm loại giun sán nào kèm theo không. Ngoài điều trị thuốc chính để diệt giun sán còn phối hợp với thuốc hỗ trợ triệu chứng để giúp đem lại hiệu quả. Bạn nên đến khám tại chuyên khoa Y học nhiệt đới để bác sĩ tư vấn lại liệu trình điều trị và theo dõi nhé.",
-                "score": 0.44095751643180847,
-                "id": 4748,
-                "rerank_score": 0.07051845639944077
+                "text": "Câu hỏi: Trẻ bị lòi búi thịt ở hậu môn có phải mắc bệnh trĩ không?\nTrả lời: Theo như bạn mô tả, thấy ở hậu môn bé có 1 búi lòi ra ngoài, có khả năng là búi trĩ. Cách chữa trị và khắc phục tình trạng này là tránh táo bón. Bé cần được khuyến khích uống nhiều nước, ăn rau củ quả nhuận trường, massage bụng khi đói, tập đi ngoài ngày 1 lần vào giờ cố định (kích thích hậu môn trẻ bằng tăm bông). . .",
+                "score": 0.5676791667938232,
+                "id": "vietnamese_healthcare_8",
+                "rerank_score": 0.16614460945129395
             },
             {
-                "text": "Câu hỏi: Chào bác sĩ! Tôi đang đi du lịch và bị kẹt lại ở Mỹ doc dịch Covid-19. Tôi bị ngứa khắp cơ thể nên có xét nghiệm thử máu về gan. Bác sĩ có kê cho tôi uống thuốc dị ứng liều cao 180 mg và thuốc bôi đủ loại thuốc đã được 6 tháng nhưng không khỏi, thậm chí còn ngứa nhiều hơn. Tôi có tìm hiểu thì tôi nghĩ mình đang bị nhiễm sán chó mèo. Vậy mong bác sĩ tư vấn bị ngứa khắp cơ thể, uống và bôi thuốc không khỏi cần phải làm gì tạm thời trong lúc này đợi vé để về Việt Nam điều trị !Cảm ơn bác sĩ đã tư vấn!\nTrả lời: Chào cô! Cô đã khám bác sĩ da liễu và đang điều trị thuốc theo hướng triệu chứng bằng thuốc chống dị ứng. Cô có thể tái khám lại và đề nghị bác sĩ xem xét làm các xét nghiệm để tìm nguyên nhân như Panel 1, xét nghiệm sán chó mèo, soi phân tìm giun, xét nghiệm Helicobacter pylori dạ dày,... nếu có thể được. Trọng trường hợp bị ngứa khắp cơ thể kéo dài mà điều kiện không thể khám đúng tại bệnh viện khám ban đầu thì cô có thể đến cơ sở y tế gần nhất để thực hiện tầm soát nguyên nhân gây dị ứng. Nếu không thể thực hiện các xét nghiệm trên, cô vẫn nên tái khám và làm theo hướng dẫn của bác sĩ sở tại. Về việc nghi ngờ nhiễm sán chó mà chưa có xét nghiệm thì cô không nên tự ý điều trị, vì thuốc này phải sử dụng liều cao, thời gian dài khoảng 3 tuần, có thể gây ảnh hưởng rất xấu đến gan.\nTrong điều kiện thực tế, cô có thể xem xét lại môi trường sống,vệ sinh sạch sẽ nhà cửa (vì bụi mạc cũng có thể là nguyên nhân gây dị ứng), tránh tiếp xúc với lông chó mèo, phấn hoa, tránh sử dụng các hóa chất mỹ phẩm, tránh ăn thực phẩm nghi ngờ dị ứng: một số loại cá, tôm, cua, ghẹ,.. tạm ngưng thuốc hoặc các thực phẩm chức năng nếu không thật sự cần thiết, tắm rửa sử dụng xà phòng trung tính như Cetaphil, Johnson...",
-                "score": 0.3976582884788513,
-                "id": 1915,
-                "rerank_score": 0.06691261380910873
-            }
-        ],
-        [
-            {
-                "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
-                "score": 0.5227081179618835,
-                "id": 7186,
-                "rerank_score": 0.6996741890907288
-            },
-            {
-                "text": "Câu hỏi: Chào bác sĩ ạ. Vài tuần trước ở tay phải của tôi có nổi mẩn to nhìn vào giống như bị rết cắn nhưng không có dấu vết gì cả, vài ngày sau thì mắt trái của tôi bị ngứa và sưng lên. Hiện tại bên trong miệng tôi có 1 cục bị cộm giống như vết muỗi cắn vậy. Xin hỏi bác sĩ có phải tôi bị sán chó không?\nTrả lời: Chào chị. Các triệu chứng hiện tại của chị không phải là triệu chứng điển hình của tình trạng nhiễm sán chó. Tuy nhiên, chị nên đến bệnh viện để được thăm khám, chẩn đoán tìm nguyên nhân và điều trị. Trong trường hợp vẫn còn nghi ngờ nhiễm sán chó thì bác sĩ sẽ cho chị làm các xét nghiệm đặc hiệu để xác định chắc chắn chị nhé.",
-                "score": 0.40958136320114136,
-                "id": 4764,
-                "rerank_score": 0.17410282790660858
-            },
-            {
-                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi, bị bệnh sán chó tôi có phải lọc máu không? Cảm ơn bác sĩ đã trả lời giúp tôi.\nTrả lời: Chào chị. Cảm ơn chị đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Hiện tại điều trị bệnh lý sán dải chó không có chỉ định lọc máu. Chị nên đến khám khoa truyền nhiễm để được bác sĩ khám và tư vấn phương pháp điều trị tốt nhất.",
-                "score": 0.434167742729187,
-                "id": 2619,
-                "rerank_score": 0.08175352215766907
-            },
-            {
-                "text": "Câu hỏi: Chào bác sĩ, em xét nghiệm và được chẩn đoán là bị giun sán chó mà điều trị từ tháng 6 tới nay sao không hết, bây giờ nổi hết mình, cổ và mặt, xin hỏi bác có cách thuốc gì uống cho lặn xuống không ạ?\nTrần Hữu Lợi (TP HCM)\nChào bác sĩ, bác sĩ cho em hỏi là bệnh sán chó có thuốc chích ngừa cho người không? Mong nhận được tư vấn của bác sĩ, cảm ơn bác sĩ\nTrả lời: Chào bạn, nhiễm sán chó là một bệnh nhiễm trùng gây ra bởi 1 loại ký sinh trùng sán dây có tên là Toxocara canis, bệnh lây truyền qua trung gian truyền bệnh là chó. Bệnh lý này có biểu hiện lâm sàng từ không có triệu chứng gì cho đến triệu chứng ngứa, mề đay, đau đầu, rối loạn tiêu hóa, bạch cầu ái toan tăng, một số trường hợp có tổn thương gan, não... Bạn đã nói điều trị từ tháng 6, tuy nhiên mình không rõ bạn đã điều trị ở đâu và đủ liệu trình chưa. Xét nghiệm ngoài nhiễm sán chó còn bội nhiễm loại giun sán nào kèm theo không. Ngoài điều trị thuốc chính để diệt giun sán còn phối hợp với thuốc hỗ trợ triệu chứng để giúp đem lại hiệu quả. Bạn nên đến khám tại chuyên khoa Y học nhiệt đới để bác sĩ tư vấn lại liệu trình điều trị và theo dõi nhé.",
-                "score": 0.45201921463012695,
-                "id": 4748,
-                "rerank_score": 0.07051845639944077
-            },
-            {
-                "text": "Câu hỏi: Chào bác sĩ! Tôi đang đi du lịch và bị kẹt lại ở Mỹ doc dịch Covid-19. Tôi bị ngứa khắp cơ thể nên có xét nghiệm thử máu về gan. Bác sĩ có kê cho tôi uống thuốc dị ứng liều cao 180 mg và thuốc bôi đủ loại thuốc đã được 6 tháng nhưng không khỏi, thậm chí còn ngứa nhiều hơn. Tôi có tìm hiểu thì tôi nghĩ mình đang bị nhiễm sán chó mèo. Vậy mong bác sĩ tư vấn bị ngứa khắp cơ thể, uống và bôi thuốc không khỏi cần phải làm gì tạm thời trong lúc này đợi vé để về Việt Nam điều trị !Cảm ơn bác sĩ đã tư vấn!\nTrả lời: Chào cô! Cô đã khám bác sĩ da liễu và đang điều trị thuốc theo hướng triệu chứng bằng thuốc chống dị ứng. Cô có thể tái khám lại và đề nghị bác sĩ xem xét làm các xét nghiệm để tìm nguyên nhân như Panel 1, xét nghiệm sán chó mèo, soi phân tìm giun, xét nghiệm Helicobacter pylori dạ dày,... nếu có thể được. Trọng trường hợp bị ngứa khắp cơ thể kéo dài mà điều kiện không thể khám đúng tại bệnh viện khám ban đầu thì cô có thể đến cơ sở y tế gần nhất để thực hiện tầm soát nguyên nhân gây dị ứng. Nếu không thể thực hiện các xét nghiệm trên, cô vẫn nên tái khám và làm theo hướng dẫn của bác sĩ sở tại. Về việc nghi ngờ nhiễm sán chó mà chưa có xét nghiệm thì cô không nên tự ý điều trị, vì thuốc này phải sử dụng liều cao, thời gian dài khoảng 3 tuần, có thể gây ảnh hưởng rất xấu đến gan.\nTrong điều kiện thực tế, cô có thể xem xét lại môi trường sống,vệ sinh sạch sẽ nhà cửa (vì bụi mạc cũng có thể là nguyên nhân gây dị ứng), tránh tiếp xúc với lông chó mèo, phấn hoa, tránh sử dụng các hóa chất mỹ phẩm, tránh ăn thực phẩm nghi ngờ dị ứng: một số loại cá, tôm, cua, ghẹ,.. tạm ngưng thuốc hoặc các thực phẩm chức năng nếu không thật sự cần thiết, tắm rửa sử dụng xà phòng trung tính như Cetaphil, Johnson...",
-                "score": 0.41065359115600586,
-                "id": 1915,
-                "rerank_score": 0.06691253930330276
-            }
-        ],
-        [
-            {
-                "text": "Câu hỏi: Xin chào bác sĩ,\nToi ten thanh toan.toi hay bi dau bung cau.moi khi an do song.cho toi xin hoi toi bi benh gi vay.toi nam nay 40 tuoi.\nTrả lời: Chào bạn. \nBạn đang muốn hỏi về vấn đề Hay bị đau bụng khi ăn đồ sống phải không ạ ? \nBên trong đồ sống có thể chứa nhiều loại ký sinh, sán có thể gây nhiều bệnh cho cơ thể. Bạn nên ăn chín , uống sôi, đảm bảo vệ sinh an toàn thực phẩm để tránh tình trạng bị đau bụng nhé. \nThân mến.",
-                "score": 0.531463623046875,
-                "id": 7186,
-                "rerank_score": 0.6996741890907288
-            },
-            {
-                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi, bị bệnh sán chó tôi có phải lọc máu không? Cảm ơn bác sĩ đã trả lời giúp tôi.\nTrả lời: Chào chị. Cảm ơn chị đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Hiện tại điều trị bệnh lý sán dải chó không có chỉ định lọc máu. Chị nên đến khám khoa truyền nhiễm để được bác sĩ khám và tư vấn phương pháp điều trị tốt nhất.",
-                "score": 0.4283403158187866,
-                "id": 2619,
-                "rerank_score": 0.08175352215766907
-            },
-            {
-                "text": "Câu hỏi: Chào bác sĩ, em xét nghiệm và được chẩn đoán là bị giun sán chó mà điều trị từ tháng 6 tới nay sao không hết, bây giờ nổi hết mình, cổ và mặt, xin hỏi bác có cách thuốc gì uống cho lặn xuống không ạ?\nTrần Hữu Lợi (TP HCM)\nChào bác sĩ, bác sĩ cho em hỏi là bệnh sán chó có thuốc chích ngừa cho người không? Mong nhận được tư vấn của bác sĩ, cảm ơn bác sĩ\nTrả lời: Chào bạn, nhiễm sán chó là một bệnh nhiễm trùng gây ra bởi 1 loại ký sinh trùng sán dây có tên là Toxocara canis, bệnh lây truyền qua trung gian truyền bệnh là chó. Bệnh lý này có biểu hiện lâm sàng từ không có triệu chứng gì cho đến triệu chứng ngứa, mề đay, đau đầu, rối loạn tiêu hóa, bạch cầu ái toan tăng, một số trường hợp có tổn thương gan, não... Bạn đã nói điều trị từ tháng 6, tuy nhiên mình không rõ bạn đã điều trị ở đâu và đủ liệu trình chưa. Xét nghiệm ngoài nhiễm sán chó còn bội nhiễm loại giun sán nào kèm theo không. Ngoài điều trị thuốc chính để diệt giun sán còn phối hợp với thuốc hỗ trợ triệu chứng để giúp đem lại hiệu quả. Bạn nên đến khám tại chuyên khoa Y học nhiệt đới để bác sĩ tư vấn lại liệu trình điều trị và theo dõi nhé.",
-                "score": 0.43386054039001465,
-                "id": 4748,
-                "rerank_score": 0.07051845639944077
-            },
-            {
-                "text": "Câu hỏi: Chào bác sĩ! Tôi đang đi du lịch và bị kẹt lại ở Mỹ doc dịch Covid-19. Tôi bị ngứa khắp cơ thể nên có xét nghiệm thử máu về gan. Bác sĩ có kê cho tôi uống thuốc dị ứng liều cao 180 mg và thuốc bôi đủ loại thuốc đã được 6 tháng nhưng không khỏi, thậm chí còn ngứa nhiều hơn. Tôi có tìm hiểu thì tôi nghĩ mình đang bị nhiễm sán chó mèo. Vậy mong bác sĩ tư vấn bị ngứa khắp cơ thể, uống và bôi thuốc không khỏi cần phải làm gì tạm thời trong lúc này đợi vé để về Việt Nam điều trị !Cảm ơn bác sĩ đã tư vấn!\nTrả lời: Chào cô! Cô đã khám bác sĩ da liễu và đang điều trị thuốc theo hướng triệu chứng bằng thuốc chống dị ứng. Cô có thể tái khám lại và đề nghị bác sĩ xem xét làm các xét nghiệm để tìm nguyên nhân như Panel 1, xét nghiệm sán chó mèo, soi phân tìm giun, xét nghiệm Helicobacter pylori dạ dày,... nếu có thể được. Trọng trường hợp bị ngứa khắp cơ thể kéo dài mà điều kiện không thể khám đúng tại bệnh viện khám ban đầu thì cô có thể đến cơ sở y tế gần nhất để thực hiện tầm soát nguyên nhân gây dị ứng. Nếu không thể thực hiện các xét nghiệm trên, cô vẫn nên tái khám và làm theo hướng dẫn của bác sĩ sở tại. Về việc nghi ngờ nhiễm sán chó mà chưa có xét nghiệm thì cô không nên tự ý điều trị, vì thuốc này phải sử dụng liều cao, thời gian dài khoảng 3 tuần, có thể gây ảnh hưởng rất xấu đến gan.\nTrong điều kiện thực tế, cô có thể xem xét lại môi trường sống,vệ sinh sạch sẽ nhà cửa (vì bụi mạc cũng có thể là nguyên nhân gây dị ứng), tránh tiếp xúc với lông chó mèo, phấn hoa, tránh sử dụng các hóa chất mỹ phẩm, tránh ăn thực phẩm nghi ngờ dị ứng: một số loại cá, tôm, cua, ghẹ,.. tạm ngưng thuốc hoặc các thực phẩm chức năng nếu không thật sự cần thiết, tắm rửa sử dụng xà phòng trung tính như Cetaphil, Johnson...",
-                "score": 0.39936256408691406,
-                "id": 1915,
-                "rerank_score": 0.06691261380910873
-            },
-            {
-                "text": "Câu hỏi: Chào bác sĩ,\nCháu đi lăn kim xong lúc bong da cháu có ăn trứng. Vậy bác sĩ cho cháu hỏi bong da sau lăn kim có bị lang ben không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nLang ben là tình trạng nhiễm nấm da do vi nấm sợi tơ. Biểu hiện bệnh lang ben là da có nhiều sẩn vảy trắng tròn, ở nửa trên thân mình, có thể gây ngứa khi ra nhiều mồ hôi. Lang ben có thể lây nhiễm khi dùng chung đồ dùng cá nhân với người bệnh (khăn lau, quần áo, dao cạo,...). Tuy nhiên, y học hiện nay chưa có ghi nhận về sự liên quan giữ việc ăn trứng và bị lang ben.\nTrân trọng!",
-                "score": 0.4023362398147583,
-                "id": 154,
-                "rerank_score": 0.04473206773400307
+                "text": "Câu hỏi: Bé bị nứt kẽ hậu môn bôi thuốc gì?\nTrả lời: 2. Bé bị nứt kẽ hậu môn bôi thuốc gì?\nNứt kẽ hậu môn ở trẻ nếu không điều trị có thể tiến triển thành mãn tính và lúc này việc điều trị sẽ trở nên khó khăn hơn, cũng như mất nhiều thời gian hơn. Do đó, khi thấy trẻ có biểu hiện táo bón lâu ngày, đại tiện khó khăn kèm theo chảy máu và đau rát ở hậu môn, cha mẹ nên đưa trẻ thăm khám bác sĩ để được kiểm tra. Dựa vào thăm khám lâm sàng (bằng soi đại tràng, đo áp lực hậu môn,...) cùng tiền sử bệnh (trẻ bị tiêu chảy, táo bón, đại tiện ra máu, mắc các bệnh khác về tiêu hóa,...), bác sĩ sẽ chẩn đoán trẻ có bị nứt kẽ hậu môn hay không. Tùy vào từng tình trạng, cấp tính hay mãn tính sẽ có phương pháp điều trị khác nhau. Với nứt kẽ hậu môn cấp tính, bác sĩ sẽ chỉ định điều trị táo bón - là nguyên nhân chính gây bệnh, bằng thuốc làm mềm phân , đồng thời dặn cha mẹ cho trẻ ăn nhiều chất xơ và uống nhiều nước để trẻ đại tiện dễ hơn. Để làm lành vết nứt ở hậu môn, giảm đau khi đại tiện, ngăn ngừa nhiễm khuẩn ở niêm mạc hậu môn, bác sĩ có thể chỉ định một số loại thuốc bôi và hướng dẫn sử dụng từng loại cụ thể như sau: Tetracycline: Tetracycline là một loại thuốc kháng sinh phổ biến có phổ kháng khuẩn rộng, thành phần chính là Tetracycline hydrochloride. Có thể sử dụng Tetracycline làm thuốc bôi nứt kẽ hậu môn cho trẻ em để làm giảm ngứa, viêm nhiễm ở hậu môn và ngăn không cho vết nứt sâu hơn, rộng hơn. Tuy nhiên, cần thận trọng khi bôi Tetracycline cho trẻ em, đặc biệt là những trẻ bị dị ứng với thành phần của thuốc. Chỉ nên bôi thuốc khoảng 3 - 4 lần/ ngày theo chỉ định của bác sĩ. Anusol - HC: Anusol - HC là một loại thuốc bôi nứt kẽ hậu môn cho trẻ em hiệu quả, có thành phần chính là oxit kẽm, dầu khoáng và pramoxine. Anusol - HC làm tăng lưu lượng máu đến vết nứt ở hậu môn để nhanh chóng làm lành vết thương và giúp giảm đau. Nitroglycerin: Nitroglycerin cũng là một loại thuốc bôi nứt kẽ hậu môn cho trẻ em có thành phần chính là Nitroglycerin. Nitroglycerin làm giãn các mạch máu và tăng cường lưu thông máu ở hậu môn, nới lỏng và giảm áp lực lên các vết nứt, từ đó giúp vết thương nhanh lành, giảm đau khi đại tiện. Proctolog: Proctolog là thuốc bôi nứt kẽ hậu môn cho trẻ em , có thành phần chính là Ruscogénines và Trimébutine giúp giảm đau và kháng viêm, hạn chế chảy máu khi đại tiện. Lưu ý, việc sử dụng Proctolog nên cần có ý kiến của bác sĩ, tránh tự ý mua và sử dụng thuốc vì thuốc này chỉ được dùng để điều trị trong thời gian ngắn và bôi từ 1 - 2 lần/ngày. Để đảm bảo an toàn và hạn chế tác dụng phụ, tốt nhất cha mẹ không nên tự ý mua thuốc bôi nứt kẽ hậu môn cho trẻ em để sử dụng mà phải đưa trẻ thăm khám, để bác sĩ chỉ định loại thuốc phù hợp.",
+                "score": 0.600650429725647,
+                "id": "vietnamese_healthcare_136660",
+                "rerank_score": 0.11468284577131271
             }
         ]
     ],
-    "llm_call": 7,
-    "num_turns": 3
+    "llm_call": 4,
+    "num_turns": 1
 }

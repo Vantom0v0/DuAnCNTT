@@ -1,91 +1,114 @@
 {
     "model_name": "s2g_rag",
-    "query": "Bệnh song thị cần điều trị như thế nào?",
-    "answer": "Bệnh song thị cần được thăm khám để đánh giá toàn diện và xác định chính xác nguyên nhân, mức độ bệnh, từ đó bác sĩ đưa ra liệu trình điều trị phù hợp. Hiện tại, người bệnh nên đeo kính đúng số và khám mắt định kỳ để theo dõi, lựa chọn phương pháp điều trị thích hợp.",
+    "query": "Ăn măng bị dị ứng phải làm thế nào?",
+    "groundtruth": "Về nguyên tắc, khi bạn biết cơ thể có hiện tượng dị ứng thực phẩm như vậy thì nên tránh ăn thực phẩm này. Vì măng cũng không phải thực phẩm thiết yếu.",
+    "answer": "Nếu sau khi ăn măng hoặc dùng sản phẩm từ măng xuất hiện phản ứng bất thường, hãy nhanh chóng đến cơ sở y tế để được hỗ trợ. Bạn nên ghi nhớ và cung cấp cho bác sĩ thời điểm khởi phát, mức độ nặng nhẹ của triệu chứng, điều gì làm triệu chứng giảm hoặc nặng hơn và loại thức ăn khiến triệu chứng gia tăng. Nếu có sốc phản vệ, cần được điều trị ngay tại khoa cấp cứu; bác sĩ có thể sử dụng adrenalin, dịch truyền, corticoid, kháng histamine và thở oxy nếu cần. Sau khi ổn định, người bệnh có thể được chuyển điều trị nội trú ít nhất 24 giờ để theo dõi nguy cơ tái phát.",
     "evidence": [
-        "Bạn cần đưa bệnh nhân đi khám để có đánh giá toàn diện, cụ thể và chính xác các vấn đề của bệnh nhân, từ đó bác sĩ sẽ đưa ra liệu trình điều trị phù hợp.",
-        "Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé."
+        "Thuốc tiêm sẽ được bác sĩ điều trị chỉ định dựa trên tình trạng phản ứng dị ứng của người bệnh Trường hợp bạn bị sốc phản vệ thì chắc chắn bạn phải được điều trị nhanh nhất có thể tại khoa cấp cứu và sau đó nếu ổn định có thể chuyển điều trị nội trú tại bệnh viện trong vòng ít nhất 24h để tránh nguy cơ tái phát triệu chứng.",
+        "Trong sốc phản vệ, các bác sĩ sẽ phải dùng adrenalin, dịch truyền, corticoid và kháng histamine và thở oxy nếu cần.",
+        "Trong quá trình sử dụng măng tây và các sản phẩm có nguồn gốc từ măng tây, nếu xuất hiện phản ứng bất thường hãy nhanh chóng đến cơ sở y tế để được hỗ trợ.",
+        "Bác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào?",
+        "Triệu chứng nặng / nhẹ ra sao?",
+        "Có thể làm gì để giảm triệu chứng kể trên?",
+        "Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn?",
+        "Khi làm gì thì triệu chứng nặng hơn?",
+        "Loại thức ăn nào khiến triệu chứng gia tăng?"
     ],
     "retrieval_history": [
         [
             {
-                "text": "Câu hỏi: Điều trị suy nhược thần kinh như thế nào?\nTrả lời: Qua mô tả, có thể bạn bị suy nhược thần kinh nhưng lại để kéo dài và không điều trị suy nhược thần kinh đúng bài bản nên tình trạng chưa dứt, có thể có sang chấn trong cuộc sống nên làm cho suy nghĩ chưa thấu đáo. Để điều trị suy nhược thần kinh, trước tiên bác sĩ khuyên bạn nên rèn luyện thể dục thể thao thường xuyên, nghỉ ngơi thư giãn và quan trọng là phải đi khám bác sĩ chuyên khoa để có sự tư vấn hỗ trợ cũng như được kê thuốc bổ trợ.",
-                "score": 0.5484626889228821,
-                "id": 8889
+                "text": "Câu hỏi: Bạn sẽ được làm gì nếu đi khám bác sĩ chuyên khoa?\nTrả lời: 2. Bạn sẽ được làm gì nếu đi khám bác sĩ chuyên khoa?\nNếu như bạn có tiền sử dị ứng thuốc , mà bạn cần uống thuốc; Nếu bạn đang uống thuốc mà xuất hiện những dấu hiệu nghi ngờ bị dị ứng thuốc thì bạn nên đi gặp bác sĩ chuyên khoa Dị ứng - Miễn dịch lâm sàng để được chẩn đoán, điều trị nếu cần và tư vấn dự phòng dị ứng thuốc hiệu quả. 2.1 Bác sĩ sẽ hỏi bạn về tiền sử dụng thuốc và các dấu hiệu liên quan để có định hướng chẩn đoán Bạn đã gặp phải vấn đề gì liên quan đến thuốc? Dấu hiệu bất thường xuất hiện khi nào? Sau bao lâu dùng thuốc? Triệu chứng kéo dài bao lâu? Bạn có uống thuốc gì mới không? Bạn đã dùng thuốc khi có bất thường sau dùng thuốc không? Bạn đã uống thuốc gì để điều trị chưa? Thuốc có làm giảm triệu chứng không? Trước đây đã bao giờ bạn có những biểu hiện tương tự sau khi dùng thuốc không? Bạn có tiền sử mắc bệnh dị ứng gì không? Viêm mũi dị ứng ? Hen phế quản ? Viêm da atopy? Gia đình bạn có ai bị bệnh dị ứng hay không? Nếu bạn có chụp lại ảnh tổn thương da thì có thể là một tư liệu rất hữu ích cho bác sĩ có thêm thông tin để định hướng đến chẩn đoán. Sau khi hỏi bệnh xong, bác sĩ sẽ thực hiện thăm khám để đánh giá các tổn thương do dị ứng thuốc gây ra cho bạn nếu có. Người bệnh cần thông báo với bác sĩ những triệu trứng bất thường trong quá trình sử dụng thuốc 2.2 Bác sĩ sẽ thực hiện một số xét nghiệm để chẩn đoán Việc chẩn đoán chính xác nguyên nhân là cực kỳ quan trọng. Rất nhiều trường hợp gặp phải là tình trạng chẩn đoán dị ứng thuốc quá mức làm ảnh hưởng rất lớn đến hiệu quả điều trị và gia tăng chi phí y tế. Để chẩn đoán nguyên nhân gây dị ứng thuốc, bác sĩ có thể cho bạn làm một số xét nghiệm để chẩn đoán. Kết thúc quá trình này, bác sĩ có thể kết luận cho bạn là bạn bị dị ứng thuốc hay không? Dị ứng thuốc gì? Xét nghiệm trên da: Để kiểm tra xem bạn có dị ứng với một thuốc nghi ngờ nào đó, bác sĩ chuyên khoa Dị ứng-MDLS hoặc điều dưỡng được đào tạo sẽ nhỏ lên da bạn một lượng nhỏ thuốc (đã được pha loãng theo một nồng độ nhất định) rối dùng kim nhỏ chuyên dụng lẩy trên đó (lẩy da). Mục đích để thuốc ngấm vào da. Nếu cơ thể có kháng thể chống lại thuốc thì sẽ có một phản ứng tại chỗ xảy ra, hậu quả là một sẩn phù, kèm theo ngứa, có thể bao gồm một quầng đỏ xung quanh. Kết quả này được đọc là “dương tính” và gợi ý là bạn có thể dị ứng với thuốc đó. Về mặt nguyên tắc, xét nghiệm này là tìm kháng thể IgE trong các lớp da của bạn. Nếu trường hợp lẩy da mà âm tính thì bước tiếp theo bác sĩ hoặc điều dưỡng chuyên khoa có thể tiêm một lượng rất nhỏ thuốc cần thử vào sâu hơn bên trong da của bạn. Mục đích của việc này là để thuốc có thể tiếp xúc được với kháng thể IgE ở sâu hơn trong da vì ở đây có thể có nhiều hơn trên bề mặt da. Do đó, xét nghiệm trong da này thường cho kết quả dương tính cao hơn so với xét nghiệm lẩy da tuy nhiên có thể gặp do thuốc gây kích ứng do tiêm vào sâu. Xét nghiệm trên da tại Vinmec Times City Đối với nhóm thuốc gây ra phản ứng chậm sau vài giờ, vài ngày hoặc vài tuần, thì bác sĩ có thể áp dụng test áp da . Test áp da được thực hiện bằng cách trộn thuốc với vaseline hoặc cồn rồi áp lên trên da. Bác sĩ sẽ kiểm tra xem liệu vị trí da tiếp xúc với thuốc có bị đỏ lên không, có nổi mụn nước hay không? Nếu có thì xét nghiệm cho kết quả dương tính và có thể bạn dị ứng với thuốc đã được thử. Nếu kết quả xét nghiệm trên da được bác sĩ kết luận là âm tính thì bạn có thể dùng được thuốc đã thử. Tuy nhiên xét nghiệm này không loại trừ hoàn toàn nguy cơ dị ứng của bạn vì điều này còn phụ thuộc vào bạn thử thuốc gì? Bác sĩ chuyên khoa sẽ tư vấn cụ thể và đầy đủ cho các bạn. Trước và Sau 15 phút (Dương tính với amoxicillin) Xét nghiệm máu: Xét nghiệm máu được xét nghiệm để giúp bác sĩ loại trừ các nguyên nhân khác có thể gây ra các triệu chứng tương tự như các phản ứng dị ứng thuốc như trong trường hợp ban da do virus, ban da do nhiễm vi khuẩn . Ngoài ra, xét nghiệm máu còn giúp bác sĩ tìm kháng thể IgE đặc hiệu trong máu của bạn với một số loại thuốc kháng sinh. Trong trường hợp sốc phản vệ , xét nghiệm máu còn giúp tìm các hóa chất được giải phóng ra. Đặc biệt xét nghiệm máu còn được bác sĩ cho bạn kiểm tra trong trường hợp bạn không thể làm được các xét nghiệm trên da. Test kích thích Trong vài trường hợp mà xét nghiệm trên da và xét nghiệm máu không thể kết luận được bạn có bị dị ứng hay không và nguyên nhân là gì thì bác sĩ có thể cho bạn uống lại hoặc tiêm lại thuốc nghi ngờ gây ra phản ứng. Đây là tiêu chuẩn vàng để kết luận cho bạn. Tuy nhiên, xét nghiệm này chỉ được chỉ định nếu trước đó bạn có triệu chứng không rõ ràng hoặc những biểu hiện nhẹ. Bác sĩ chuyên khoa sẽ cân nhắc giữa lợi ích và nguy cơ để quyết định có thực hiện cho bạn hay không sau khi đã giải thích đầy đủ các thông tin cho bạn và được bạn đồng ý. 2.3 Bác sĩ sẽ điều trị cho bạn như thế nào? Sau khi thăm khám kĩ càng từ hỏi bệnh, khám lâm sàng phát hiện các triệu chứng, làm các xét nghiệm để chẩn đoán cho bạn, bước tiếp theo bác sĩ có thể phải điều trị cho bạn. Ngừng thuốc: Tùy thuộc vào các biểu hiện khác nhau mà bác sĩ có thể có các điều trị khác nhau. Tuy nhiên việc ngừng ngay thuốc nghi ngờ là biện pháp có thể áp dụng cho tất cả các trường hợp. Kháng histamine : bác sĩ có thể cho bạn thuốc kháng histamine vì thuốc này có tác dụng đối kháng lại histamine là một chất hóa học được giải phóng ra trong phản ứng dị ứng, theo đó có thể làm giảm phù nề, giãn mạch và giảm ngứa. Corticosteroid : trong một số trường hợp nặng hơn, bác sĩ có thể điều trị cho bạn bằng các thuốc corticoid để giảm phản ứng dị ứng và chống viêm. Có thể dùng đường tiêm tĩnh mạch hoặc đường uống. Thuốc tiêm sẽ được bác sĩ điều trị chỉ định dựa trên tình trạng phản ứng dị ứng của người bệnh Trường hợp bạn bị sốc phản vệ thì chắc chắn bạn phải được điều trị nhanh nhất có thể tại khoa cấp cứu và sau đó nếu ổn định có thể chuyển điều trị nội trú tại bệnh viện trong vòng ít nhất 24h để tránh nguy cơ tái phát triệu chứng. Trong sốc phản vệ, các bác sĩ sẽ phải dùng adrenalin, dịch truyền, corticoid và kháng histamine và thở oxy nếu cần. Giảm mẫn cảm nhanh Trong một số trường hợp đặc biệt, mặc dù bạn được chẩn đoán rõ ràng là bị dị ứng thuốc nào đó. Nhưng do tình trạng bệnh tình của bạn bắt buộc phải điều trị duy nhất với thuốc đó thì bác sĩ chuyên khoa phải làm giảm mẫn cảm cho bạn. Giảm mẫn cảm là một liệu pháp điều trị đặc biệt và rất chuyên khoa do đó chỉ được thực hiện bởi bác sĩ có kinh nghiệm và cơ sở điều trị chuyên khoa có sự hỗ trợ tốt của cấp cứu.",
+                "score": 0.5149412155151367,
+                "id": "vietnamese_healthcare_14090",
+                "rerank_score": 0.017956124618649483
             },
             {
-                "text": "Câu hỏi: Bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố.",
-                "score": 0.5275918245315552,
-                "id": 2082
+                "text": "Câu hỏi: Những lưu ý khi ăn măng tây\nTrả lời: 4. Những lưu ý khi ăn măng tây\nMăng tây có thể đem lại một số tác dụng không khác gì thuốc lợi tiểu . Do vậy, bạn hãy chú ý khi sử dụng. Một số loại thuốc sẽ tương tác gây nên tác hại nghiêm trọng cho cơ thể. Do vậy, trước khi dùng măng tây bạn hãy tham khảo bác sĩ kê đơn để đảm bảo an toàn cho sức khỏe. Liều lượng sử dụng của thực vật này còn tùy thuộc vào rất nhiều yếu tố. Mỗi người sẽ có sự khác biệt và liều dùng khác nhau. Chính vì thế, khi sử dụng sản phẩm chiết xuất từ măng tây, bạn cần tham khảo ý kiến của chuyên gia. Tóm lại, không thể khẳng định được “ ăn măng tây có tốt không ”. Điều bạn nên làm là tham khảo thông tin về sản phẩm cũng như nắm rõ tình trạng bản thân để đảm bảo an toàn khi sử dụng. Trong quá trình sử dụng măng tây và các sản phẩm có nguồn gốc từ măng tây, nếu xuất hiện phản ứng bất thường hãy nhanh chóng đến cơ sở y tế để được hỗ trợ.",
+                "score": 0.4786909818649292,
+                "id": "vietnamese_healthcare_73118",
+                "rerank_score": 0.01673746667802334
             },
             {
-                "text": "Câu hỏi: Điều trị liệt toàn thân do viêm màng não như thế nào?\nTrả lời: Xin hỏi, trường hợp cụ thể bạn đang nói đến là nam hay nữ?Bao nhiêu tuổi?Tình trạng bệnh cụ thể như thế nào?Diễn biến đã bao nhiêu năm nay?Về nguyên tắc chung, viêm màng não để lại di chứng như bạn nói thì sẽ khó điều trị, chủ yếu là chăm sóc, đảm bảo dinh dưỡng (có thể phải đặt sonde dạ dày để nuôi ăn), tập vật lý trị liệu phòng co cơ cứng khớp, phòng loét, phòng nhiễm trùng và nhiều phương thức điều trị chăm sóc hỗ trợ khác. Bạn cần đưa bệnh nhân đi khám để có đánh giá toàn diện, cụ thể và chính xác các vấn đề của bệnh nhân, từ đó bác sĩ sẽ đưa ra liệu trình điều trị phù hợp.",
-                "score": 0.5030426383018494,
-                "id": 3311
+                "text": "Câu hỏi: Trẻ dị ứng đạm sữa bò kiêng ăn gì?\nTrả lời: 3. Trẻ dị ứng đạm sữa bò kiêng ăn gì?\nVới thắc mắc “ trẻ dị ứng đạm sữa bò kiêng ăn gì ” thì các bậc phụ huynh tránh cho bé ăn thức ăn, nước uống chứa đạm sữa bò.",
+                "score": 0.4962673783302307,
+                "id": "vietnamese_healthcare_97337",
+                "rerank_score": 0.0003521890612319112
             },
             {
-                "text": "Câu hỏi: Chào bác sĩ!\nEm thấy mình như bị suy nhược thần kinh. Thời gian gần đây em thấy hay đau đầu, đầu óc ngu ngơ, giải quyết vấn đề dở, hay nghĩ quá vấn đề và suy nghĩ lung tung. Bác sĩ cho em hỏi điều trị suy nhược thần kinh như thế nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào bạn!\nQua mô tả, có thể bạn bị suy nhược thần kinh nhưng lại để kéo dài và không điều trị suy nhược thần kinh đúng bài bản nên tình trạng chưa dứt, có thể có sang chấn trong cuộc sống nên làm cho suy nghĩ chưa thấu đáo. Để điều trị suy nhược thần kinh, trước tiên bác sĩ khuyên bạn nên rèn luyện thể dục thể thao thường xuyên, nghỉ ngơi thư giãn và quan trọng là phải đi khám bác sĩ chuyên khoa để có sự tư vấn hỗ trợ cũng như được kê thuốc bổ trợ. Chúc bạn mau khỏe!\nĐể được tư vấn trực tiếp, Quý Khách vui lòng bấm số HOTLINE hoặc đăng ký trực tuyến TẠI ĐÂY.",
-                "score": 0.4958283305168152,
-                "id": 2068
+                "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+                "score": 0.5080456733703613,
+                "id": "vietnamese_healthcare_86309",
+                "rerank_score": 0.00015915362746454775
             },
             {
-                "text": "Câu hỏi: Có phương pháp nào giúp cải thiện tình trạng nhược thị không?\nTrả lời: Bạn bị nhược thị nhưng do năm nay bạn đã 17 tuổi, tình trạng này có thể đã xuất hiện từ trước đó khá lâu rồi, do vậy việc điều trị nhược thị hiện tại là không khả quan, nếu bạn phẫu thuật thì cũng không giúp bạn cải thiện được thị lực mắt trái. Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé.",
-                "score": 0.48007678985595703,
-                "id": 2205
+                "text": "Câu hỏi: Trẻ mọc hạch dưới cằm có nguy hiểm không?\nTrả lời: Bé bao nhiêu tuổi?Hạch dưới cằm của bé kích thước lớn hay nhỏ?Có phải bé đã được khám và chẩn đoán lao hạch không?Mà mẹ lại hỏi lao hạch?Có 1 số hạch phản ứng của cơ thể là bình thường chứ không gọi là lao hạch. Thông tin mẹ cung cấp chưa rõ ràng nên bác sĩ không tư vấn cụ thể được. Trong trường hợp bé chưa khám lần nào thì mẹ nên cho bé đi khám nhé.",
+                "score": 0.5158661007881165,
+                "id": "vietnamese_healthcare_7608",
+                "rerank_score": 5.722648711525835e-05
             }
         ],
         [
             {
-                "text": "Câu hỏi: Điều trị suy nhược thần kinh như thế nào?\nTrả lời: Qua mô tả, có thể bạn bị suy nhược thần kinh nhưng lại để kéo dài và không điều trị suy nhược thần kinh đúng bài bản nên tình trạng chưa dứt, có thể có sang chấn trong cuộc sống nên làm cho suy nghĩ chưa thấu đáo. Để điều trị suy nhược thần kinh, trước tiên bác sĩ khuyên bạn nên rèn luyện thể dục thể thao thường xuyên, nghỉ ngơi thư giãn và quan trọng là phải đi khám bác sĩ chuyên khoa để có sự tư vấn hỗ trợ cũng như được kê thuốc bổ trợ.",
-                "score": 0.5856044888496399,
-                "id": 8889
+                "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+                "score": 0.6168801784515381,
+                "id": "vietnamese_healthcare_86309",
+                "rerank_score": 0.00015915332187432796
             },
             {
-                "text": "Câu hỏi: Điều trị liệt toàn thân do viêm màng não như thế nào?\nTrả lời: Xin hỏi, trường hợp cụ thể bạn đang nói đến là nam hay nữ?Bao nhiêu tuổi?Tình trạng bệnh cụ thể như thế nào?Diễn biến đã bao nhiêu năm nay?Về nguyên tắc chung, viêm màng não để lại di chứng như bạn nói thì sẽ khó điều trị, chủ yếu là chăm sóc, đảm bảo dinh dưỡng (có thể phải đặt sonde dạ dày để nuôi ăn), tập vật lý trị liệu phòng co cơ cứng khớp, phòng loét, phòng nhiễm trùng và nhiều phương thức điều trị chăm sóc hỗ trợ khác. Bạn cần đưa bệnh nhân đi khám để có đánh giá toàn diện, cụ thể và chính xác các vấn đề của bệnh nhân, từ đó bác sĩ sẽ đưa ra liệu trình điều trị phù hợp.",
-                "score": 0.5742002129554749,
-                "id": 3311
+                "text": "Câu hỏi: Liều dùng và cách dùng thuốc Stagerin\nTrả lời: 4. Liều dùng và cách dùng thuốc Stagerin\n4.2. Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn.",
+                "score": 0.6237362027168274,
+                "id": "vietnamese_healthcare_152433",
+                "rerank_score": 6.888442294439301e-05
             },
             {
-                "text": "Câu hỏi: Bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố.",
-                "score": 0.5482984185218811,
-                "id": 2082
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.6273726224899292,
+                "id": "vietnamese_healthcare_2290",
+                "rerank_score": 3.252343594795093e-05
             },
             {
-                "text": "Câu hỏi: Có phương pháp nào giúp cải thiện tình trạng nhược thị không?\nTrả lời: Bạn bị nhược thị nhưng do năm nay bạn đã 17 tuổi, tình trạng này có thể đã xuất hiện từ trước đó khá lâu rồi, do vậy việc điều trị nhược thị hiện tại là không khả quan, nếu bạn phẫu thuật thì cũng không giúp bạn cải thiện được thị lực mắt trái. Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé.",
-                "score": 0.5398845672607422,
-                "id": 2205
+                "text": "Câu hỏi: Trẻ bị tay chân miệng nên tắm lá gì?\nTrả lời: 1. Trẻ bị tay chân miệng nên tắm lá gì?\nMột số loại lá có thể sử dụng để tắm cho trẻ em bị tay chân miệng, bao gồm:",
+                "score": 0.625914454460144,
+                "id": "vietnamese_healthcare_160432",
+                "rerank_score": 2.2565513063455e-05
             },
             {
-                "text": "Câu hỏi: Viêm mào tinh hoàn có nên dùng kháng sinh và kháng viêm trong điều trị?\nTrả lời: Viêm mào tinh hoàn cần được điều trị đúng kháng sinh và đủ liều, do đó với những dữ liệu em mô tả cho thấy em đang không được điều trị bệnh đúng và đủ. Em cần đi khám và tuân thủ chế độ điều trị của bác sĩ đưa ra để khỏi bệnh và tránh biến chứng về sau.",
-                "score": 0.5297995209693909,
-                "id": 3443
+                "text": "Câu hỏi: Cách dùng và liều dùng thuốc Lodegald Levo\nTrả lời: 3. Cách dùng và liều dùng thuốc Lodegald Levo\n3.1. Cách dùng thuốc Lodegald Levo Thuốc Lodegald Levo được sử dụng bằng đường uống.",
+                "score": 0.624181866645813,
+                "id": "vietnamese_healthcare_147148",
+                "rerank_score": 2.0442414097487926e-05
             }
         ],
         [
             {
-                "text": "Câu hỏi: Điều trị suy nhược thần kinh như thế nào?\nTrả lời: Qua mô tả, có thể bạn bị suy nhược thần kinh nhưng lại để kéo dài và không điều trị suy nhược thần kinh đúng bài bản nên tình trạng chưa dứt, có thể có sang chấn trong cuộc sống nên làm cho suy nghĩ chưa thấu đáo. Để điều trị suy nhược thần kinh, trước tiên bác sĩ khuyên bạn nên rèn luyện thể dục thể thao thường xuyên, nghỉ ngơi thư giãn và quan trọng là phải đi khám bác sĩ chuyên khoa để có sự tư vấn hỗ trợ cũng như được kê thuốc bổ trợ.",
-                "score": 0.6082941293716431,
-                "id": 8889
+                "text": "Câu hỏi: Liều dùng và cách dùng thuốc Stagerin\nTrả lời: 4. Liều dùng và cách dùng thuốc Stagerin\n4.2. Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn.",
+                "score": 0.6033673286437988,
+                "id": "vietnamese_healthcare_152433",
+                "rerank_score": 6.888442294439301e-05
             },
             {
-                "text": "Câu hỏi: Có phương pháp nào giúp cải thiện tình trạng nhược thị không?\nTrả lời: Bạn bị nhược thị nhưng do năm nay bạn đã 17 tuổi, tình trạng này có thể đã xuất hiện từ trước đó khá lâu rồi, do vậy việc điều trị nhược thị hiện tại là không khả quan, nếu bạn phẫu thuật thì cũng không giúp bạn cải thiện được thị lực mắt trái. Điều cần làm hiện tại là bạn nên đeo kính đúng số, khám mắt định kỳ để xác định đúng mức độ bệnh để có cách điều trị phù hợp nhất nhé.",
-                "score": 0.5814615488052368,
-                "id": 2205
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.6192866563796997,
+                "id": "vietnamese_healthcare_2290",
+                "rerank_score": 3.252343594795093e-05
             },
             {
-                "text": "Câu hỏi: Bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố.",
-                "score": 0.5617632269859314,
-                "id": 2082
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.615291178226471,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 1.9864826754201204e-05
             },
             {
-                "text": "Câu hỏi: Viêm mào tinh hoàn có nên dùng kháng sinh và kháng viêm trong điều trị?\nTrả lời: Viêm mào tinh hoàn cần được điều trị đúng kháng sinh và đủ liều, do đó với những dữ liệu em mô tả cho thấy em đang không được điều trị bệnh đúng và đủ. Em cần đi khám và tuân thủ chế độ điều trị của bác sĩ đưa ra để khỏi bệnh và tránh biến chứng về sau.",
-                "score": 0.5495966672897339,
-                "id": 3443
+                "text": "Câu hỏi: Cách sử dụng thuốc Fluxar\nTrả lời: 3. Cách sử dụng thuốc Fluxar\n3.1. Cách sử dụng thuốc Fluxar Đối với thuốc Fluxar , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6212356090545654,
+                "id": "vietnamese_healthcare_137326",
+                "rerank_score": 1.7726577425491996e-05
             },
             {
-                "text": "Câu hỏi: Có những phương pháp điều trị chứng tự kỷ trẻ nhỏ nào?\nTrả lời: Mấy chục năm qua rất nhiều phương pháp điều trị chứng tự kỷ trẻ nhỏ đã được thực hiện. Phương pháp được đa số công nhận là can thiệp giáo dục, bên cạnh đó là dùng thuốc, oxy cao áp, châm cứu. . . Chưa có phương pháp nào là lý tưởng để điều trị bệnh tự kỷ. Cách tốt nhất là khi trẻ có dấu hiệu của chứng tự kỷ, cha mẹ cần chủ động đưa con tới bệnh viện thăm khám và được tư vấn bởi những bác sĩ chuyên môn về hướng điều trị chứng tự kỷ ở trẻ nhỏ.",
-                "score": 0.547187328338623,
-                "id": 7367
+                "text": "Câu hỏi: Cách sử dụng và liều dùng của thuốc Sinemet\nTrả lời: 3. Cách sử dụng và liều dùng của thuốc Sinemet\n3.2. Liều dùng của thuốc Sinemet: 3.",
+                "score": 0.5959784984588623,
+                "id": "vietnamese_healthcare_96907",
+                "rerank_score": 1.726733535178937e-05
             }
         ]
     ],

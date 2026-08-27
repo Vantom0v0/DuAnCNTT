@@ -2,7 +2,7 @@ from components.retrieval_data import initiate
 from components.retrieval import retrieve
 from components.reranker import rerank
 from components.llm import generate_answer_raw
-from components.config import EMBEDDING_MODEL_NAME, TOP_K, TOP_N, LLM_MODEL, client
+from components.config import TOP_K, TOP_N, LLM_MODEL, client
 from s2g_rag import parse_json_response
 import numpy as np 
 import json
@@ -200,7 +200,7 @@ def adaptive_threshold(documents, c, stopping_check = False):
         
 
 def naive_retrieval(corpus_docs, index, query, return_amount):
-    retrieved = retrieve(EMBEDDING_MODEL_NAME, query, index, TOP_K, corpus_docs)
+    retrieved = retrieve(query, index, TOP_K, corpus_docs)
     print("RETRIEVED DOCUMENTS")
 
     reranked = rerank(query, retrieved, return_amount)
@@ -208,8 +208,8 @@ def naive_retrieval(corpus_docs, index, query, return_amount):
 
     return reranked
 
-def fur(query, c = 0.95, max_iteration = 3, global_weight = 0.8, evaluation_mode = False):
-    corpus_documents, _, index, _ = initiate(query)
+def fur(query, groundtruth = "NA", c = 0.8, k = 0.9, max_iteration = 3, global_weight = 0.8, evaluation_mode = False):
+    corpus_documents, _, index, _ = initiate()
 
     evidence = []
     queries = []
@@ -273,8 +273,7 @@ def fur(query, c = 0.95, max_iteration = 3, global_weight = 0.8, evaluation_mode
         evidence.append(filtered_docs)
         filtered_docs_mean = adaptive_threshold(filtered_docs, c, True)
 
-        tolerence = 0.75
-        expansion_threshold = mean_value - tolerence*lowest_threshold
+        expansion_threshold = min(threshold + k*std, mean_value)
         if filtered_docs_mean < expansion_threshold:
             break
 
@@ -304,6 +303,7 @@ def fur(query, c = 0.95, max_iteration = 3, global_weight = 0.8, evaluation_mode
     return {
         "model_name": "fur",
         "query": query,
+        "groundtruth": groundtruth,
         "answer": answer,
         "evidence": retrieved_documents,
         "llm_call": num_llm_calls,

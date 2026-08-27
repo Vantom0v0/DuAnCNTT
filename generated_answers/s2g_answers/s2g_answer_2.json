@@ -1,39 +1,110 @@
 {
-    "query": "Có mấy loại sỏi mật và triệu chứng nhận biết sỏi mật?",
-    "answer": "Sỏi mật gồm 2 loại: sỏi cholesterol và sỏi sắc tố mật. Triệu chứng thường gặp, dễ nhận biết nhất là đau vùng thượng vị hoặc hạ sườn phải.",
+    "model_name": "s2g_rag",
+    "query": "Viện phí tại Vinmec được tính như thế nào khi tham gia chương trình thai sản trọn gói ?",
+    "groundtruth": "Sau khi sinh, 1 ngày viện phí nội trú được tính là 24 giờ kể từ lúc sản phụ bắt đầu lên khu vực theo dõi hậu sản. Sản phụ sinh thường sẽ lưu viện 1 ngày, sản phụ sinh mổ sẽ lưu viện 4 ngày. Nếu sản phụ mua gói đã bao gồm thời gian lưu viện này thì chỉ thanh toán khi phát sinh thêm thời gian lưu viện. Nếu phát sinh do bệnh lý thì bảo hiểm sẽ chi trả, còn nếu phát sinh do nhu cầu khách hàng thì tính thêm viện phí theo giá của bệnh viện bạn nhé. Thông tin được cập nhật vào tháng 5/2020. Thông tin có thể thay đổi vào từng thời điểm mà không báo trước. Mọi thông tin chi tiết về Chương trình thai sản trọn gói tại Vinmec xin liên hệ Hotline: 0899 648 761 để được tư vấn và giải đáp hoặc bạn có thể đến tại các phòng khám, bệnh viện thuộc Hệ thống Y tế Vinmec để được bác sĩ tư vấn thêm.",
+    "answer": "Không tìm thấy đủ thông tin trong tài liệu được cung cấp để xác định viện phí tại Vinmec khi tham gia chương trình thai sản trọn gói. Tuy nhiên, tài liệu chỉ cho biết Vinmec có các gói dịch vụ với chính sách giá hợp lý, nhưng không nêu cách tính phí hoặc mức phí cụ thể cho chương trình này.",
     "evidence": [
-        "Với câu hỏi có mấy loại sỏi mật, bác sĩ xin được giải đáp như sau:\nSỏi mật gồm 2 loại: Sỏi cholesterol và sỏi sắc tố mật.",
-        "Triệu chứng thường gặp dễ nhận biết nhất là đau vùng thượng vị hoặc hạ sườn phải."
+        "Câu hỏi: Chi phí, thời gian khám bệnh theo bảo hiểm tại Vinmec như thế nào?",
+        "Hiện nay, Bệnh viện Đa khoa Quốc tế Vinmec có các gói Khám sức khỏe tổng quát phù hợp với từng độ tuổi, giới tính và nhu cầu riêng của quý khách hàng với chính sách giá hợp lý."
     ],
     "retrieval_history": [
         [
             {
-                "text": "Câu hỏi: Chào bác sĩ. Tôi muốn hỏi có mấy loại sỏi mật và vị trí của sỏi nằm ở đâu? Dấu hiệu nhận biết sỏi mật như thế nào? Mong nhận được những chia sẻ hữu ích của bác sĩ. Tôi xin cảm ơn.\nTrả lời: Chào bạn. Với câu hỏi có mấy loại sỏi mật, bác sĩ xin được giải đáp như sau:\nSỏi mật gồm 2 loại: Sỏi cholesterol và sỏi sắc tố mật. Sỏi mật có nhiều vị trí khác nhau: sỏi đường mật trong gan, sỏi đường mật ngoài gan và sỏi túi mật.\nTriệu chứng thường gặp dễ nhận biết nhất là đau vùng thượng vị hoặc hạ sườn phải.",
-                "score": 0.6920833587646484,
-                "id": 2213
+                "text": "Câu hỏi: Liều lượng, cách dùng thuốc Vifloxacol\nTrả lời: 3. Liều lượng, cách dùng thuốc Vifloxacol\n3.1. Cách dùng thuốc Vifloxacol Vifloxacol được bào chế, sản xuất dưới dạng thuốc nhỏ mắt.",
+                "score": 0.6956610083580017,
+                "id": "vietnamese_healthcare_118653",
+                "rerank_score": 1.615245309949387e-05
             },
             {
-                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
-                "score": 0.5627700090408325,
-                "id": 1629
+                "text": "Câu hỏi: Nắng nóng bà bầu ăn gì cho mát?\nTrả lời: 2. Nắng nóng bà bầu ăn gì cho mát?\nDưới đây là những món ăn giải nhiệt cho bà bầu và cả các loại thức uống giải nhiệt cho bà bầu, các mẹ bầu có thể tham khảo và lên thực đơn phù hợp cho mình.",
+                "score": 0.7021491527557373,
+                "id": "vietnamese_healthcare_129848",
+                "rerank_score": 1.6118061466841027e-05
             },
             {
-                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
-                "score": 0.5625483989715576,
-                "id": 2290
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Nivalin\nTrả lời: 3. Cách dùng và liều dùng của thuốc Nivalin\n3.2. Liều dùng của thuốc Nivalin 3.",
+                "score": 0.698874831199646,
+                "id": "vietnamese_healthcare_136975",
+                "rerank_score": 1.604899443918839e-05
+            },
+            {
+                "text": "Câu hỏi: Liều dùng của thuốc Itbay\nTrả lời: 3. Liều dùng của thuốc Itbay\n3.1. Cách dùng: Thuốc Itbay được sử dụng bằng đường uống.",
+                "score": 0.685741126537323,
+                "id": "vietnamese_healthcare_40971",
+                "rerank_score": 1.6028559912228957e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Maxcefu\nTrả lời: 3. Cách dùng và liều dùng của thuốc Maxcefu\n3.2. Liều dùng thuốc Maxcefu 3.",
+                "score": 0.7131191492080688,
+                "id": "vietnamese_healthcare_28718",
+                "rerank_score": 1.6022186173358932e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chi phí, thời gian khám bệnh theo bảo hiểm tại Vinmec như thế nào?\nTrả lời: bạn hoàn toàn có thể đi khám ở Vinmec và tốt nhất nên mang theo hồ sơ cũ để bác sĩ có thể biết được tình trạng của bạn trước đây chính xác hơn và giúp định hướng cho kiểm tra được đầy đủ hơn bạn nhé.",
+                "score": 0.6385350823402405,
+                "id": "vietnamese_healthcare_3800",
+                "rerank_score": 0.009924856945872307
+            },
+            {
+                "text": "Câu hỏi: Các câu hỏi khi đi khám bác sĩ\nTrả lời: 8. Các câu hỏi khi đi khám bác sĩ\nDựa vào tình trạng chức năng thận và mức huyết áp hiện tại, bác sĩ có thể đánh giá mức độ an toàn của tôi khi mang thai như thế nào? Các loại thuốc tôi đang sử dụng có an toàn khi mang thai không? Có ảnh hưởng gì đến con tôi không? Có thể sử dụng loại thuốc khác để thay thế không? Làm thế nào để kiểm soát tốt huyết áp khi mang thai? Tôi cần thực hiện những xét nghiệm gì trong thời kỳ mang thai? Các triệu chứng cảnh báo tiền sản giật và các biến chứng khác mà tôi cần lưu ý là gì? Để mang thai an toàn, khỏe mạnh, tôi cần làm gì? Kiểm tra sức khỏe định kỳ giúp phát hiện sớm bệnh tật, từ đó có kế hoạch điều trị đạt kết quả tối ưu. Hiện nay, Bệnh viện Đa khoa Quốc tế Vinmec có các gói Khám sức khỏe tổng quát phù hợp với từng độ tuổi, giới tính và nhu cầu riêng của quý khách hàng với chính sách giá hợp lý. Kết quả khám của người bệnh sẽ được trả về tận nhà. Sau khi nhận được kết quả khám sức khỏe tổng quát, nếu phát hiện các bệnh lý cần khám và điều trị chuyên sâu, Quý khách có thể sử dụng dịch vụ từ các chuyên khoa khác ngay tại Bệnh viện với chất lượng điều trị và dịch vụ khách hàng vượt trội. Nếu có nhu cầu khám bệnh tại Hệ thống Y tế Vimec trên toàn quốc, Khách hàng vui lòng đặt lịch trên website để được phục vụ.",
+                "score": 0.6194674968719482,
+                "id": "vietnamese_healthcare_69255",
+                "rerank_score": 0.003777175210416317
+            },
+            {
+                "text": "Câu hỏi: Liều lượng, cách dùng thuốc Vifloxacol\nTrả lời: 3. Liều lượng, cách dùng thuốc Vifloxacol\n3.1. Cách dùng thuốc Vifloxacol Vifloxacol được bào chế, sản xuất dưới dạng thuốc nhỏ mắt.",
+                "score": 0.6322269439697266,
+                "id": "vietnamese_healthcare_118653",
+                "rerank_score": 1.6152436728589237e-05
+            },
+            {
+                "text": "Câu hỏi: Nắng nóng bà bầu ăn gì cho mát?\nTrả lời: 2. Nắng nóng bà bầu ăn gì cho mát?\nDưới đây là những món ăn giải nhiệt cho bà bầu và cả các loại thức uống giải nhiệt cho bà bầu, các mẹ bầu có thể tham khảo và lên thực đơn phù hợp cho mình.",
+                "score": 0.6133635640144348,
+                "id": "vietnamese_healthcare_129848",
+                "rerank_score": 1.611807783774566e-05
+            },
+            {
+                "text": "Câu hỏi: Liều dùng và cách sử dụng thuốc Vacoflon\nTrả lời: 2. Liều dùng và cách sử dụng thuốc Vacoflon\n2.2. Cách sử dụng thuốc Dù là đối tượng bệnh nào khi sử dụng thuốc Vacoflon cũng nên uống thuốc trong bữa ăn.",
+                "score": 0.6230226159095764,
+                "id": "vietnamese_healthcare_151338",
+                "rerank_score": 1.606180921953637e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chi phí, thời gian khám bệnh theo bảo hiểm tại Vinmec như thế nào?\nTrả lời: bạn hoàn toàn có thể đi khám ở Vinmec và tốt nhất nên mang theo hồ sơ cũ để bác sĩ có thể biết được tình trạng của bạn trước đây chính xác hơn và giúp định hướng cho kiểm tra được đầy đủ hơn bạn nhé.",
+                "score": 0.6662930250167847,
+                "id": "vietnamese_healthcare_3800",
+                "rerank_score": 0.009924856945872307
+            },
+            {
+                "text": "Câu hỏi: Các câu hỏi khi đi khám bác sĩ\nTrả lời: 8. Các câu hỏi khi đi khám bác sĩ\nDựa vào tình trạng chức năng thận và mức huyết áp hiện tại, bác sĩ có thể đánh giá mức độ an toàn của tôi khi mang thai như thế nào? Các loại thuốc tôi đang sử dụng có an toàn khi mang thai không? Có ảnh hưởng gì đến con tôi không? Có thể sử dụng loại thuốc khác để thay thế không? Làm thế nào để kiểm soát tốt huyết áp khi mang thai? Tôi cần thực hiện những xét nghiệm gì trong thời kỳ mang thai? Các triệu chứng cảnh báo tiền sản giật và các biến chứng khác mà tôi cần lưu ý là gì? Để mang thai an toàn, khỏe mạnh, tôi cần làm gì? Kiểm tra sức khỏe định kỳ giúp phát hiện sớm bệnh tật, từ đó có kế hoạch điều trị đạt kết quả tối ưu. Hiện nay, Bệnh viện Đa khoa Quốc tế Vinmec có các gói Khám sức khỏe tổng quát phù hợp với từng độ tuổi, giới tính và nhu cầu riêng của quý khách hàng với chính sách giá hợp lý. Kết quả khám của người bệnh sẽ được trả về tận nhà. Sau khi nhận được kết quả khám sức khỏe tổng quát, nếu phát hiện các bệnh lý cần khám và điều trị chuyên sâu, Quý khách có thể sử dụng dịch vụ từ các chuyên khoa khác ngay tại Bệnh viện với chất lượng điều trị và dịch vụ khách hàng vượt trội. Nếu có nhu cầu khám bệnh tại Hệ thống Y tế Vimec trên toàn quốc, Khách hàng vui lòng đặt lịch trên website để được phục vụ.",
+                "score": 0.658863365650177,
+                "id": "vietnamese_healthcare_69255",
+                "rerank_score": 0.003777175210416317
             },
             {
                 "text": "Câu hỏi: Tôi muốn hỏi chi phí cho một ca thụ tinh ống nghiệm là bao nhiêu? Tôi sinh 1978, vợ 1980, chúng tôi có một bé sinh năm 2011, cho đến nay thì không có thêm bé nào nữa.\nTrả lời: Chi phí cho một lộ trình điều trị hỗ trợ sinh sản IVF không cố định, phụ thuộc vào nhiều yếu tố như phương pháp hỗ trợ sinh sản, cơ địa, thể trạng, thuốc sử dụng. . .",
-                "score": 0.5406669974327087,
-                "id": 8982
+                "score": 0.596214771270752,
+                "id": "vietnamese_healthcare_8982",
+                "rerank_score": 0.0005202094907872379
             },
             {
-                "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
-                "score": 0.5237195491790771,
-                "id": 7879
+                "text": "Câu hỏi: Liều lượng, cách dùng thuốc Vifloxacol\nTrả lời: 3. Liều lượng, cách dùng thuốc Vifloxacol\n3.1. Cách dùng thuốc Vifloxacol Vifloxacol được bào chế, sản xuất dưới dạng thuốc nhỏ mắt.",
+                "score": 0.6233967542648315,
+                "id": "vietnamese_healthcare_118653",
+                "rerank_score": 1.6152436728589237e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Maxcefu\nTrả lời: 3. Cách dùng và liều dùng của thuốc Maxcefu\n3.1. Cách dùng thuốc Maxcefu Thuốc Maxcefu được bào chế dưới dạng viên nén bao phim, phù hợp sử dụng theo đường uống trực tiếp.",
+                "score": 0.6073247194290161,
+                "id": "vietnamese_healthcare_28717",
+                "rerank_score": 1.6151081581483595e-05
             }
         ]
     ],
-    "llm_call": 4,
-    "num_turns": 1
+    "llm_call": 7,
+    "num_turns": 3
 }

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "query": "ạ! Năm kia em có bịchửa trứng bán phầnvà giờ em có thai lại nhưng đã 6 tuần vẫn chưa cótim thai. Túi ối to nhưng phôi thai bé. Bác sĩ cho em hỏi là trường hợp của em có hướng điều trị được không ạ? Le Thi Ly(1994) Trả lời",
+    "groundtruth": "Chào bạn! Trước tiên bạn cần xác định chắc chắn thai còn phát triển hay không. Chỉ nên điều trị khi chắc chắn thai còn phát triển bạn nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Được giải đáp bởi Bác sĩ Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
+    "answer": "Chào bạn, ở thai khoảng 6 tuần, việc chưa thấy tim thai chưa thể khẳng định chắc chắn thai đã ngừng phát triển, vì cần xem tuổi thai chính xác và kết quả siêu âm. Tuy nhiên, tình trạng túi ối to nhưng phôi nhỏ khiến tiên lượng thai không tốt. Bạn nên đến bệnh viện hoặc trung tâm sản khoa uy tín để được siêu âm kiểm tra lại sau 1–2 tuần và có thể làm xét nghiệm beta-hCG, đánh giá sự phát triển của thai. Nếu siêu âm vẫn không có tim thai hoặc beta-hCG giảm thì nhiều khả năng thai đã ngừng phát triển; khi đã được xác định chắc chắn thì không còn cách giữ thai và bác sĩ sẽ tư vấn dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: vợ e mang thai được 8 tuần đisiêu âmthì bác sĩ nói chưa có tim thai và khuyên vợ nên bỏ. Vậy em còn hy vọng đợi thêm được hay không ạ hay là phải bỏ? Mong bác sĩ tư vấn giúp! Trần Văn Lợi (Nha Trang) Chào bác sĩ. Bác sĩ cho em hỏi thai 7 tuần 4 ngày không có tim thai túi ối méo liệu có hi vọng giữ lại được không ạ? Mong bác sĩ tư vấn. Xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, nếu siêu âm xác định thai 08 tuần chưa cótim thaithì có thể thai đã ngừng phát triển (vì với máy siêu âm tốt, bác sĩ có kinh nghiệm thì thai 06 tuần đã có thể đo được tim thai rồi), bạn nên đến bệnh viện chuyên khoa để thăm khám lại và được bác sĩ tư vấn thêm nhé. Bác sĩ CKII Trần Thị Mai Hương- Khoa sản phụ khoa - Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng",
+            "score": 0.635836660861969,
+            "id": "medical_vietnamese_qa_4330"
+        },
+        {
+            "text": "Câu hỏi: Hiện tại, em đang mang song thai nhưng 1 thai không có tim thai. Vậy bác sĩ cho em hỏimang thai đôi, một thai không có tim thai có sao không?Liệu em có giữ được thai kia không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn mang thai đôi nhưng một thai không có tim thai, tuy nhiên bạn chưa cung cấp cho bác sĩ biết thai của bạn được bao nhiêu tuần, song thai 2 bánh nhau hay 1 bánh nhau thì bác sĩ mới tư vấn chính xác cho bạn được. Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa Sản phụ khoa để được tư vấn điều trị cụ thể.",
+            "score": 0.6341844797134399,
+            "id": "medical_vietnamese_qa_1857"
+        },
+        {
+            "text": "Câu hỏi: Vợ tôi đi siêu âm có song thai 6 tuần mà một thai thấy tim thai còn một thai chưa thấy. Bác sĩ cho tôi hỏi,mang thai đôi 6 tuần, một thai không có tim thai nguyên nhân là gì?Cảm ơn bác sĩ nhiều. Nguyễn Văn Tú(1984) Trả lời Được giải đáp bởiBác sĩ Phan Diễm Đoan Ngọc- Bác sĩ Sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Khi mangsong thai, tốc độ phát triển của hai thai có thể có sự chênh lệch. Thời điểm 6 tuần cũng là thời điểm thai bắt đầu có tim thai. Do đó, để xác định xem thai còn lại có tim thai hay không, vợ bạn nên siêu âm lại 1 tuần sau đó. Nếu thai còn lại có tim thai, chứng tỏ thai đó đang phát triển, nếu không thì nhiều khả năng thai đó đã ngừng phát triển. Tỷ lệ 1 thai sống - 1 thai lưu khá thường gặp trong giai đoạn sớm của thai kỳ song thai, khoảng 1/8 - 1/5 các trường hợp. Ở giai đoạn này, thai lưu thường được hấp thu một phần hoặc toàn phần (gọi là vanishing twin) và thường không ảnh hưởng đến thai còn lại.",
+            "score": 0.616966724395752,
+            "id": "medical_vietnamese_qa_1779"
+        },
+        {
+            "text": "Câu hỏi: Em đang mang thai được 5,6 tuần. Tuy nhiên, em bị ra máu nâu, sáng hôm sau ra máu đỏ, không đau bụng. Em đã đi siêu âm đầu dò và được chẩn đoán túi thai méo, không đều, chưa có tim thai. Do đó, bác sĩ kết luận thai ngừng phát triển và chỉ định em ngậm thuốc bỏ thai vào ngày mai. Bác sĩ cho em hỏi,thai nhi 6 tuần chưa có tim thai, túi thai méo có nguy hiểm không?\nTrả lời: bác sĩ xin giải đáp như sau: Với tuổi thai 5-6 tuần, túi thai méo, không đều và chưa có tim thai, không thể kết luận chắc chắn làthai ngừng tiến triển. Bạn nên siêu âm lại sau 1-2 tuần hoặc làm thêm xét nghiệm beta HCG để đánh giá sự phát triển của thai sau 48h. Nếu kết quả siêu âm sau 1-2 tuần thai không có tim thai hoặc xét nghiệm chỉ số beta HCG giảm sau 48 giờ, chứng tỏ rằng thai của bạn đã ngưng tiến triển. Với một thai đã kết luận chắc chắn ngưng tiến triển, không còn cách nào giữ thai và bạn phải dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
+            "score": 0.6106929779052734,
+            "id": "medical_vietnamese_qa_3043"
+        },
+        {
+            "text": "Câu hỏi: Thai em được 7 tuần 4 ngày. Túi thai: 30mm, phôi thai: 5,7mm, chưa có tim thai. Bác sĩ ch em hỏi,siêu âm 7 tuần chưa có tim thai có nguy hiểm không?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Với thông tin bạn cung cấp, hiện tại bác sĩ chỉ có thể cho rằngtiên lượng cho thai không tốt. Bạn nên đến khám tại các trung tâm sản khoa uy tín, có thể làm các xét nghiệm cần thiết để được tư vấn chi tiết.",
+            "score": 0.6075565814971924,
+            "id": "medical_vietnamese_qa_2440"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

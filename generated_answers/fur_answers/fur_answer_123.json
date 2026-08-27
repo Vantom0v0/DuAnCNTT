@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "query": "Cháu 18 tuổi, bị trật khớp vai xong đã nắn lại và đeo đai. Nhưng sau 1 tuần cháu sờ trên vai vẫn thấy cục xương lồi lên không cao lắm, nó cũng đỡ đau nhức, cho cháu hỏiphát hiện u sau khi nắn trật khớp vai có sao không?Cảm ơn bác sĩ.",
+    "groundtruth": "Chào bạn, Với câu hỏi “Phát hiện u sau khi nắn trật khớp vai có sao không?”, bác sĩ giải đáp như sau: Trật khớp vai sau khi nắn cần được chụp X quang kiểm tra và tái khám định kỳ. Tùy theo tình trạng người bệnh mà bác sĩ sẽ cho bất động khớp vai bằng đai. Trong thời gian này, bạn vẫn tập các bài tập theo chỉ dẫn của bác sĩ. Nếu có biến dạng bất thường, bạn nên đi khám lại để được kiểm tra cụ thể.",
+    "answer": "Chưa thể kết luận cục lồi trên vai của cháu là gì chỉ dựa vào mô tả. Sau trật khớp vai có thể kèm tổn thương khác như vỡ xương vùng củ lớn xương cánh tay hoặc tổn thương trong khớp. Vì vậy, dù đau đã giảm, cháu vẫn nên đi khám chuyên khoa chấn thương chỉnh hình để bác sĩ khám trực tiếp và chỉ định chụp phim phù hợp, có thể cần MRI để đánh giá sụn viền, gân và các tổn thương trong khớp.\n\nKhông nên tự ý tháo đai lâu hoặc vận động mạnh/chơi thể thao khi chưa được đánh giá và hướng dẫn phục hồi chức năng. Hiện thông tin cung cấp chưa đủ để xác định cục xương lồi có nguy hiểm hay không.",
+    "evidence": [
+        {
+            "text": "Câu hỏi: Con bị trật khớp vai (lần đầu tiên) hôm nay là ngày thứ 11 con đeo băng cố định, con hay tháo ra lúc đi tắm và khi nực nhưng không thường xuyên, ở bệnh viện bác sĩ nói con phải đeo tối thiểu 3 tuần con định tuần thứ tư là nghỉ đeo. Vậy bác sĩ cho con hỏisau trật khớp vai bao lâu có thể chơi thể thao?Tuần thứ tư con tháo đeo nẹp có thể chơi thể thao và làm việc nặng được chưa? Con cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trật khớp vai đeo băng 3 tuần, sau nên chụp MRI khớp vai để đánh giá thêm tổn thương trong khớp. Khi không có tổn thương sụn viền và gân phối hợp, nên phục hồi chức năng. Chơi thể thao và làm việc nặng cần khám để đánh giá trực tiếp sau phục hồi chức năng",
+            "score": 0.5754184126853943,
+            "id": "medical_vietnamese_qa_122",
+            "rerank_score": 0.9168456792831421
+        },
+        {
+            "text": "Câu hỏi: Em năm nay 52 tuổi và sau một lần đá bóng bị trật khớp vai nhưng đã đi chữa khỏi thì giờ vai em tự nhiên bị teo lại và không giơ cao lên được. Vai em cũng không có triệu chứng bị đau, tay em giờ không tự nâng lên được. Vậy bác sĩ cho em hỏitình trạng teo cơ, không giơ vai lên được là dấu hiệu bệnh gì?Có phải em có triệu chứng bị liệt tay không bác sĩ? Em cảm ơn bác sĩ. Trần Quynh(1971) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Hữu Mạnh- Trung tâm Chấn thương chỉnh hình & Y học thể thao, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn có nói bịtrật khớp vaivà đã điều trị khỏi. Bác sĩ cần biết thêm thông tin để tư vấn bạn như: Đây là lần trật đầu tiên hay thứ mấy của bạn, bạn đã điều trị nắn trật hay đã can thiệp phẫu thuật vào vùng vai chưa và tính từ thời điểm bị trật vai gần nhất đến giờ là bao thời gian,... Tổn thương trật vai thường có kèm theo một số tổn thương khác kèm theo ví dụ như vỡ xương tại củ lớn xương cánh tay. Một số còn có biểu hiện tổn thương đám rối thần kinh chi phối cho vùng vai và cánh tay, theo ghi nhận của tác giả Olga Gutkowska biến chứng này này chiếm tỷ lệ từ 5,4 - 55% tổng số ca trật khớp. Bạn bịteo cơvà không giơ vai lên cao được, đồng thời không có biểu hiện đau vùng vai đấy có thể là biểu hiện củatổn thương thần kinh. Để xác định được chính xác vấn đề vai của bạn thì tốt nhất bạn nên đi khám cụ thể để bác sĩ xác định nguyên nhân và tư vấn hướng xử trí cụ thể.",
+            "score": 0.5853136777877808,
+            "id": "medical_vietnamese_qa_466",
+            "rerank_score": 0.8864910006523132
+        },
+        {
+            "text": "Câu hỏi: ! Hôm 10/5 em có tham gia trò chơi mạo hiểm và bị trượt chân, theo quán tính em bám vào dây an toàn dẫn đếntrật khớp vai. Sau đó em thấy vai bị lõm xuống, em đã thực hiện một vài động tác và khớp vai về đúng vị trí. Hiện tại em bị đau khớp vai râm ran, không bị sưng và nhói đau khi hoạt động mạnh. Bác sĩ cho em hỏi tình trạng của em như vậy có nặng lắm không ạ?Trật khớp vai có thể tự phục hồi không ạ? Nguyễn Minh Anh(2011) Trả lời\nTrả lời: Chào bạn! Với câu hỏi “Trật khớp vai có tự phục hồi không?”, bác sĩ xin được trả lời như sau: Trường hợp của bạn cần đi khám bác sĩ chuyên khoa chấn thương chỉnh hình đểchụp phim MRI khớp vaiđể đánh giá về sụn viền và gân dây chằng khớp vai bạn nhé. Từ đó sẽ có hướng xử trí phù hợp cho bạn nhé. Chúc bạn mau khỏe! Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp bạn trực tiếp để tư vấn kỹ càng hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởi Bác sĩ Khoa Ngoại Tổng hợp & Gây mê, Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng.",
+            "score": 0.568830668926239,
+            "id": "medical_vietnamese_qa_899",
+            "rerank_score": 0.5920018553733826
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, năm nay cháu 17 tuổi. Thời gian gần đây cháu bỗng thấy 1 bên ngực mình nổi cục u to, cứng hơn hẳn bên còn lại nhưng không có triệu chứng đau hay gì khác. Xin hỏi bác sĩ cháu có bị sao không ạ?\nTrả lời: Chào cháu !\nKhông rõ khối u cháu sờ thấy ở vị trí nào trên vú? ở núm vú? hay ở ngoài quầng núm vú? hình dáng của khối đó tròn hay thuôn dài? có di động hay không?..bình thường có thể thấy núm vú cứng, đau nhẹ khi ấn lúc tuổi dậy thì và có khi kích thước bằng quả cau nhỏ, hoặc có thể có khối cứng nhẹ của tuyến sữa trên vú nhưng không tròn có di động,...nhưng tốt hơn hết nếu cục u đó vẫn còn trên ngực thì cháu nên đến bác sỹ phụ khoa để được khám trực tiếp, siêu âm vú, sẽ được tư vấn cụ thể cháu nhé .\n Thân mến !",
+            "score": 0.5785735249519348,
+            "id": "vietnamese_medical_qa_6060",
+            "rerank_score": 0.21660058200359344
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!!\nHồi tháng 4/2019, cháu có đi khám hạch cổ, kết quả xét nghiệm là hạch lành tính. Sau đó cháu có chích mổ hạch. Dạo gần đâu, chỗ vết khâu chích hạch lần trước bị sưng hạch lên và đau, trước đây khi chích hạch cháu cũng bị sưng đau như vậy. Bây giờ cháu lại bị mọc hạch lại thì có sao không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nChào bác sĩ. Bác sĩ cho em hỏi cách đây hơn 1 năm trước em có bị nổi hạch và đã sinh thiết để lấy hạch ra. Sau đó em được chẩn đoán bệnh là lao hạch, em đã uống thuốc chữa hết theo phác đồ là 1 năm vào ngày 26/4/2020. Thì từ đó đến nay khoảng hơn 1 tháng ngay chỗ vết mổ cũ lại nổi lên 1 cục tròn giống cục hạch. Bác sĩ cho em hỏi đó có phải em bị hạch lao tái phát không ạ. Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn.\nTrả lời: Chào em!\nTốt nhất em nên sớm đi khám để kiểm tra lại, có 2 vấn đề cần phải chắc chắn như sau:\nMột là, khối bất thường vùng cổ của em bản chất là gì? Là hạch phản ứng viêm thông thường hay hạch lao hay u? Nếu là u thì là u lành hay u ác?\nHai là, xuất hiện lại khối bất thường đó có phải là do tái phát hay do nhiễm trùng vùng vết mổ cũ?\nKhi em đến bệnh viện thăm khám bác sĩ có thể sẽ cho em siêu âm đánh giá lại, xét nghiệm máu, nếu nghi ngờ u thì sẽ phải sinh thiết tổ chức đó để xác định bản chất.\nCảm ơn bạn đã tin tưởng AI-Doctor, rất mong có thể gặp bạn để được tư vấn kỹ càng hơn. Trân trọng!",
+            "score": 0.5881537795066833,
+            "id": "vietnamese_medical_qa_3404",
+            "rerank_score": 0.15323661267757416
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

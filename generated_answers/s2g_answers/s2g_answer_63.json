@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "query": "Chào bác sĩ! Hôm nay em có ra cửa hàng thuốc và đo đường huyết. Nhân viên nhà thuốc cho biết kết quả của em là 14,6. Vậy bác sĩ cho em hỏi với kết quả này có phải em đã bị tiểu đường nặng rồi phải không ạ? Em cảm ơn bác sĩ.",
+    "groundtruth": "Chào bạn! Bạn không nói rõ đơn vị của số đo này. Tuy nhiên, không thể dựa vào 1 lần đo đường huyết ở nhà thuốc để kết luận bạn có tiểu đường hay không. Bác sĩ sẽ khám trực tiếp và khai thác thông tin về tiền căn bệnh lý của gia đình và bản thân bạn. Ngoài ra, các bác sĩ sẽ cho bạn làm 1 số xét nghiệm để có thể trả lời cho bạn: Có chắc là bạn đã có tiểu đường không và hướng điều trị thế nào là hợp lý nhất.",
+    "answer": "Chỉ số đường huyết 14,6 mmol/L là cao, nhưng chưa thể kết luận bạn đã bị “tiểu đường nặng” vì chưa biết đây là kết quả lúc đói hay sau ăn và chưa có xét nghiệm xác định. Chẩn đoán đái tháo đường thường dựa vào đường huyết lúc đói từ 7 mmol/L trở lên (ít nhất hai lần) hoặc HbA1c từ 6,5–7% trở lên theo các tiêu chuẩn được cung cấp. Bạn nên sớm khám bác sĩ chuyên khoa Nội tiết để kiểm tra lại, xác định chẩn đoán, đánh giá giai đoạn bệnh và được tư vấn điều trị phù hợp.",
+    "evidence": [
+        "Trả lời: Không biết kết quả này là đường máu lúc đói hay sau ăn.",
+        "Trả lời: Chỉ số đường huyết của bạn lên tới 14 mmol/l là cao và rất có thể bạn đã bị đái tháo đường nếu có thêm các triệu chứng điển hình.",
+        "Việc cần làm ngay là bạn phải được thăm khám đánh giá bới bác sĩ chuyên khoa để chẩn đoán xác định bệnh và đưa ra phương án điều trị tốt nhất.",
+        "Đường máu ở người bình thường từ 80 – 126 mg/dL (#4.4 -7 mmol/L).",
+        "Nếu xét nghiệm đường máu lúc đói hai lần ≥ 126mg/dL hoặc HbA1C ≥ 7% thì kết luận là bệnh đái tháo đường.",
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTiêu chuẩn chẩn đoán Đái tháo đường là đường huyết sáng đói từ 7mmol/L trở lên, HbA1C (đường huyết trung bình trong vòng 3 tháng) từ 6.5% trở lên.",
+        "Bạn vẫn cần gặp bác sĩ chuyên khoa Nội tiết để đánh giá giai đoạn bệnh, các biến chứng có thể có và các bệnh lý đi kèm dể có phác đồ điều trị phù hợp.",
+        "Do đó, bạn phải đi khám bác sĩ chuyên khoa nội tiết khẳng định chẩn đoán, tư vấn hướng điều trị theo dõi tiếp."
+    ],
+    "retrieval_history": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ.\nHôm nay em có ra nhà thuốc đo tiểu đường. Máy báo em là 14,6 có nghĩa là chỉ số quá cao quá. Bác sĩ cho em hỏi vượt quá chỉ số đường là bao nhiêu và em phải ăn kiêng như nào cho hợp lí ạ. Em xin chân thành cảm ơn bác sĩ.\nTrả lời: Không biết kết quả này là đường máu lúc đói hay sau ăn. Chỉ số đường máu này rất cao chính vì vậy khả năng cao bạn bị bệnh đái tháo đường. Do đó, bạn phải đi khám bác sĩ chuyên khoa nội tiết khẳng định chẩn đoán, tư vấn hướng điều trị theo dõi tiếp. Ngoài ra, bạn phải bỏ đồ ăn chứa chất ngọt và giảm ăn chất glucid.",
+                "score": 0.6121086478233337,
+                "id": "vietnamese_medical_qa_4546",
+                "rerank_score": 0.9999656677246094
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏi là chỉ số đường huyết của em là buổi sáng chưa ăn: 116, buổi trưa sau khi ăn: 180, buổi chiều sau khi ăn: 190. Vậy cho em hỏichỉ số đường huyết cao có phải bị tiểu đường không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Chỉ số đường huyết cao có phải bị tiểu đường không?”, bác sĩ giải đáp như sau: Các chỉ số bạn cung cấp thì khả năng cao bạn bị tiền đái tháo đường. Vì vậy, bạn cần khám thêm chuyên khoa nội tiết làm thêm xét nghiệm HbA1C khẳng định chẩn đoán tư vấn hướng điều trị.",
+                "score": 0.5708385705947876,
+                "id": "medical_vietnamese_qa_8353",
+                "rerank_score": 0.9977450370788574
+            },
+            {
+                "text": "Câu hỏi: Chỉ số đường huyết là 14 thì đã mắc bệnh tiểu đường chưa?\nTrả lời: Chỉ số đường huyết của bạn lên tới 14 mmol/l là cao và rất có thể bạn đã bị đái tháo đường nếu có thêm các triệu chứng điển hình. Việc cần làm ngay là bạn phải được thăm khám đánh giá bới bác sĩ chuyên khoa để chẩn đoán xác định bệnh và đưa ra phương án điều trị tốt nhất.",
+                "score": 0.5942081809043884,
+                "id": "vietnamese_healthcare_3914",
+                "rerank_score": 0.9904522895812988
+            },
+            {
+                "text": "Câu hỏi: Chỉ số đường huyết của tôi là 14. Khoảng 3 tháng gần đây tôi sụt cân, trước đây tôi có sử dụng rượu khá nhiều. Bác sĩ cho tôi hỏichỉ số đường huyết là 14 thì đã mắc bệnh tiểu đường chưa?Bác sĩ tư vấn giúp tôi nên làm gì? Cảm ơn bác sĩ. Hoàng Tiến Mạnh(1984) Trả lời Được giải đáp bởiBác sĩ nội trú Trịnh Ngọc Anh- Bác sĩ Nội tiết - Khoa Nội tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Chỉ số đường huyết của bạn lên tới 14 mmol/l là cao và rất có thể bạn đã bị đái tháo đường nếu có thêm các triệu chứng điển hình. Việc cần làm ngay là bạn phải được thăm khám đánh giá bới bác sĩ chuyên khoa để chẩn đoán xác định bệnh và đưa ra phương án điều trị tốt nhất.",
+                "score": 0.6035991907119751,
+                "id": "medical_vietnamese_qa_8844",
+                "rerank_score": 0.9836347103118896
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tiểu đường khi đi khám là 300 thì có gọi là nặng hay không và chữa trị như thế nào ạ? Cảm ơn bác sĩ đã chia sẻ thông tin.\nTrả lời: Chào em. Đường máu ở người bình thường từ 80 – 126 mg/dL (#4.4 -7 mmol/L). Nếu xét nghiệm đường máu lúc đói hai lần ≥ 126mg/dL hoặc HbA1C ≥ 7% thì kết luận là bệnh đái tháo đường. Có rất nhiều nhóm thuốc để điều trị bệnh này. Tùy trường hợp cụ thể mà bác sĩ sẽ lựa chọn nhóm thuốc phù hợp.\nTrường hợp của em đường 300 và đơn vị là gì? Cân nặng em bao nhiêu cân? Có thừa cân béo phì gì không? Có bệnh lý phối hợp kèm theo không? Tiền sử gia đình em có ai mắc bệnh đái tháo đường không? Em cung cấp thông tin chưa rõ nên chị chưa tư vấn cụ thể được.\nCảm ơn em đã gửi câu hỏi tới AI-Doctor. Chúc em luôn có nhiều sức khỏe.",
+                "score": 0.6646617650985718,
+                "id": "vietnamese_medical_qa_3692",
+                "rerank_score": 0.9831709265708923
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ.\nHôm nay em có ra nhà thuốc đo tiểu đường. Máy báo em là 14,6 có nghĩa là chỉ số quá cao quá. Bác sĩ cho em hỏi vượt quá chỉ số đường là bao nhiêu và em phải ăn kiêng như nào cho hợp lí ạ. Em xin chân thành cảm ơn bác sĩ.\nTrả lời: Không biết kết quả này là đường máu lúc đói hay sau ăn. Chỉ số đường máu này rất cao chính vì vậy khả năng cao bạn bị bệnh đái tháo đường. Do đó, bạn phải đi khám bác sĩ chuyên khoa nội tiết khẳng định chẩn đoán, tư vấn hướng điều trị theo dõi tiếp. Ngoài ra, bạn phải bỏ đồ ăn chứa chất ngọt và giảm ăn chất glucid.",
+                "score": 0.6312363147735596,
+                "id": "vietnamese_medical_qa_4546",
+                "rerank_score": 0.9999656677246094
+            },
+            {
+                "text": "Câu hỏi: Chỉ số đường huyết là 14 thì đã mắc bệnh tiểu đường chưa?\nTrả lời: Chỉ số đường huyết của bạn lên tới 14 mmol/l là cao và rất có thể bạn đã bị đái tháo đường nếu có thêm các triệu chứng điển hình. Việc cần làm ngay là bạn phải được thăm khám đánh giá bới bác sĩ chuyên khoa để chẩn đoán xác định bệnh và đưa ra phương án điều trị tốt nhất.",
+                "score": 0.6261072158813477,
+                "id": "vietnamese_healthcare_3914",
+                "rerank_score": 0.9904522895812988
+            },
+            {
+                "text": "Câu hỏi: Chỉ số đường huyết của tôi là 14. Khoảng 3 tháng gần đây tôi sụt cân, trước đây tôi có sử dụng rượu khá nhiều. Bác sĩ cho tôi hỏichỉ số đường huyết là 14 thì đã mắc bệnh tiểu đường chưa?Bác sĩ tư vấn giúp tôi nên làm gì? Cảm ơn bác sĩ. Hoàng Tiến Mạnh(1984) Trả lời Được giải đáp bởiBác sĩ nội trú Trịnh Ngọc Anh- Bác sĩ Nội tiết - Khoa Nội tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Chỉ số đường huyết của bạn lên tới 14 mmol/l là cao và rất có thể bạn đã bị đái tháo đường nếu có thêm các triệu chứng điển hình. Việc cần làm ngay là bạn phải được thăm khám đánh giá bới bác sĩ chuyên khoa để chẩn đoán xác định bệnh và đưa ra phương án điều trị tốt nhất.",
+                "score": 0.6261985301971436,
+                "id": "medical_vietnamese_qa_8844",
+                "rerank_score": 0.9836347103118896
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tiểu đường khi đi khám là 300 thì có gọi là nặng hay không và chữa trị như thế nào ạ? Cảm ơn bác sĩ đã chia sẻ thông tin.\nTrả lời: Chào em. Đường máu ở người bình thường từ 80 – 126 mg/dL (#4.4 -7 mmol/L). Nếu xét nghiệm đường máu lúc đói hai lần ≥ 126mg/dL hoặc HbA1C ≥ 7% thì kết luận là bệnh đái tháo đường. Có rất nhiều nhóm thuốc để điều trị bệnh này. Tùy trường hợp cụ thể mà bác sĩ sẽ lựa chọn nhóm thuốc phù hợp.\nTrường hợp của em đường 300 và đơn vị là gì? Cân nặng em bao nhiêu cân? Có thừa cân béo phì gì không? Có bệnh lý phối hợp kèm theo không? Tiền sử gia đình em có ai mắc bệnh đái tháo đường không? Em cung cấp thông tin chưa rõ nên chị chưa tư vấn cụ thể được.\nCảm ơn em đã gửi câu hỏi tới AI-Doctor. Chúc em luôn có nhiều sức khỏe.",
+                "score": 0.654985785484314,
+                "id": "vietnamese_medical_qa_3692",
+                "rerank_score": 0.9831709265708923
+            },
+            {
+                "text": "Câu hỏi: Tôi xét nghiệm máu ngày 14.12.2019, chỉ số glucose 13.2 mmol/l, và ngày 27.02.2020 chỉ số glucose 15.4 mmol/l. như vậy tôi có bị bệnh tiểu đường hay không?\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTiêu chuẩn chẩn đoán Đái tháo đường là đường huyết sáng đói từ 7mmol/L trở lên, HbA1C (đường huyết trung bình trong vòng 3 tháng) từ 6.5% trở lên. Trong trường hợp của bạn các chỉ số đường huyết cao đạt ngưỡng chẩn đoán. Bạn vẫn cần gặp bác sĩ chuyên khoa Nội tiết để đánh giá giai đoạn bệnh, các biến chứng có thể có và các bệnh lý đi kèm dể có phác đồ điều trị phù hợp. Bác sĩ cũng sẽ tư vấn cho bạn về mức đường huyết mục tiêu và cách theo dõi, đánh giá đáp ứng của điều trị.\nTrân trọng!",
+                "score": 0.6254498958587646,
+                "id": "vietnamese_medical_qa_3954",
+                "rerank_score": 0.9446447491645813
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ.\nHôm nay em có ra nhà thuốc đo tiểu đường. Máy báo em là 14,6 có nghĩa là chỉ số quá cao quá. Bác sĩ cho em hỏi vượt quá chỉ số đường là bao nhiêu và em phải ăn kiêng như nào cho hợp lí ạ. Em xin chân thành cảm ơn bác sĩ.\nTrả lời: Không biết kết quả này là đường máu lúc đói hay sau ăn. Chỉ số đường máu này rất cao chính vì vậy khả năng cao bạn bị bệnh đái tháo đường. Do đó, bạn phải đi khám bác sĩ chuyên khoa nội tiết khẳng định chẩn đoán, tư vấn hướng điều trị theo dõi tiếp. Ngoài ra, bạn phải bỏ đồ ăn chứa chất ngọt và giảm ăn chất glucid.",
+                "score": 0.6174705028533936,
+                "id": "vietnamese_medical_qa_4546",
+                "rerank_score": 0.9999656677246094
+            },
+            {
+                "text": "Câu hỏi: Chỉ số đường huyết là 14 thì đã mắc bệnh tiểu đường chưa?\nTrả lời: Chỉ số đường huyết của bạn lên tới 14 mmol/l là cao và rất có thể bạn đã bị đái tháo đường nếu có thêm các triệu chứng điển hình. Việc cần làm ngay là bạn phải được thăm khám đánh giá bới bác sĩ chuyên khoa để chẩn đoán xác định bệnh và đưa ra phương án điều trị tốt nhất.",
+                "score": 0.634985625743866,
+                "id": "vietnamese_healthcare_3914",
+                "rerank_score": 0.9904522895812988
+            },
+            {
+                "text": "Câu hỏi: Chỉ số đường huyết của tôi là 14. Khoảng 3 tháng gần đây tôi sụt cân, trước đây tôi có sử dụng rượu khá nhiều. Bác sĩ cho tôi hỏichỉ số đường huyết là 14 thì đã mắc bệnh tiểu đường chưa?Bác sĩ tư vấn giúp tôi nên làm gì? Cảm ơn bác sĩ. Hoàng Tiến Mạnh(1984) Trả lời Được giải đáp bởiBác sĩ nội trú Trịnh Ngọc Anh- Bác sĩ Nội tiết - Khoa Nội tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Chỉ số đường huyết của bạn lên tới 14 mmol/l là cao và rất có thể bạn đã bị đái tháo đường nếu có thêm các triệu chứng điển hình. Việc cần làm ngay là bạn phải được thăm khám đánh giá bới bác sĩ chuyên khoa để chẩn đoán xác định bệnh và đưa ra phương án điều trị tốt nhất.",
+                "score": 0.6309593915939331,
+                "id": "medical_vietnamese_qa_8844",
+                "rerank_score": 0.9836347103118896
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tiểu đường khi đi khám là 300 thì có gọi là nặng hay không và chữa trị như thế nào ạ? Cảm ơn bác sĩ đã chia sẻ thông tin.\nTrả lời: Chào em. Đường máu ở người bình thường từ 80 – 126 mg/dL (#4.4 -7 mmol/L). Nếu xét nghiệm đường máu lúc đói hai lần ≥ 126mg/dL hoặc HbA1C ≥ 7% thì kết luận là bệnh đái tháo đường. Có rất nhiều nhóm thuốc để điều trị bệnh này. Tùy trường hợp cụ thể mà bác sĩ sẽ lựa chọn nhóm thuốc phù hợp.\nTrường hợp của em đường 300 và đơn vị là gì? Cân nặng em bao nhiêu cân? Có thừa cân béo phì gì không? Có bệnh lý phối hợp kèm theo không? Tiền sử gia đình em có ai mắc bệnh đái tháo đường không? Em cung cấp thông tin chưa rõ nên chị chưa tư vấn cụ thể được.\nCảm ơn em đã gửi câu hỏi tới AI-Doctor. Chúc em luôn có nhiều sức khỏe.",
+                "score": 0.6273045539855957,
+                "id": "vietnamese_medical_qa_3692",
+                "rerank_score": 0.9831709265708923
+            },
+            {
+                "text": "Câu hỏi: Tôi xét nghiệm máu ngày 14.12.2019, chỉ số glucose 13.2 mmol/l, và ngày 27.02.2020 chỉ số glucose 15.4 mmol/l. như vậy tôi có bị bệnh tiểu đường hay không?\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTiêu chuẩn chẩn đoán Đái tháo đường là đường huyết sáng đói từ 7mmol/L trở lên, HbA1C (đường huyết trung bình trong vòng 3 tháng) từ 6.5% trở lên. Trong trường hợp của bạn các chỉ số đường huyết cao đạt ngưỡng chẩn đoán. Bạn vẫn cần gặp bác sĩ chuyên khoa Nội tiết để đánh giá giai đoạn bệnh, các biến chứng có thể có và các bệnh lý đi kèm dể có phác đồ điều trị phù hợp. Bác sĩ cũng sẽ tư vấn cho bạn về mức đường huyết mục tiêu và cách theo dõi, đánh giá đáp ứng của điều trị.\nTrân trọng!",
+                "score": 0.6244254112243652,
+                "id": "vietnamese_medical_qa_3954",
+                "rerank_score": 0.944644570350647
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

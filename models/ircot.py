@@ -1,5 +1,5 @@
 import re
-from components.config import EMBEDDING_MODEL_NAME, TOP_N, LLM_MODEL, client
+from components.config import TOP_N, LLM_MODEL, client
 from components.retrieval_data import initiate
 from components.retrieval import retrieve
 from components.llm import generate_answer
@@ -108,8 +108,8 @@ def dedupe_merge(collected: dict, new_docs: list) -> dict:
             collected[key] = doc
     return collected
 
-def ircot_model(query, max_steps=4, max_paragraphs=8, evaluation_mode=False):
-    corpus_documents, _, vector_index, _ = initiate(query)
+def ircot_model(query, groundtruth = "NA", max_steps=4, max_paragraphs=8, evaluation_mode=False):
+    corpus_documents, _, vector_index, _ = initiate()
     demo_block = "\n\n".join(render_demo(d) for d in DEMONSTRATIONS)
     collected = {}
     cot_sentences = []
@@ -118,7 +118,7 @@ def ircot_model(query, max_steps=4, max_paragraphs=8, evaluation_mode=False):
     for step_idx in range(max_steps):
         print(f"\nIteration {step_idx + 1}:")
 
-        retrieved_docs = retrieve(EMBEDDING_MODEL_NAME, sentence, vector_index, TOP_N, corpus_documents)
+        retrieved_docs = retrieve(sentence, vector_index, TOP_N, corpus_documents)
         collected = dedupe_merge(collected, retrieved_docs)
 
         if evaluation_mode is False:
@@ -167,6 +167,7 @@ def ircot_model(query, max_steps=4, max_paragraphs=8, evaluation_mode=False):
 
     return {
         "query": query,
+        "groundtruth": groundtruth,
         "cot": cot_sentences,
         "answer": final_answer,
         "retrieved": final_paragraphs,
