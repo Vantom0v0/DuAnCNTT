@@ -1,0 +1,49 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Em vừa sinh em bé đầu lòng được 27 ngày. Em đọc trên các diễn đàn Mẹ và Bé thấy có rất nhiều chị bổ sung vitamin D3 cho trẻ. Nhưng vì con đầu lòng nên em khá lo lắng và không dám tự ý bổ sung cho trẻ. Hiện tại bé bú sữa mẹ hoàn toàn và trộm vía bé khá ngoan. Bác sĩ cho em hỏikhi nào cần bổ sung vitamin D3 cho trẻ?Em có thể bổ sung D3 cho bé hay không ạ? Có những loại vitamin nào nữa cần thiết cho sự phát triển của trẻ mà em cần phải bổ sung bằng đường uống để tốt cho con ạ? Vì bé đầu lòng nên em khá lo lắng mong bác sĩ giúp đỡ ạ. Em cảm ơn bác sĩ. Thi Thi(1992) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Nam Phong- Bác sĩ Nhi - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Việc bổ sung bao nhiêu vitamin D cho trẻ sơ sinh phụ thuộc vào chế độ cho bé bú sữa mẹ, uống sữa pha theo công thức hay uống các loại sữa khác như sữa bò, sữa dê, cụ thể như sau: Nếu người mẹ đang cho con bú hoặc chỉ cho con bú một phần, hãy bổ sung cho con 400 đơn vị vitamin D quốc tế (400 IU) mỗi ngày, bắt đầu ngay sau khi sinh. Sau đó, tiếp tục cho bé uống vitamin D cho đến giai đoạn cai sữa. Từ lúc này, nên bổ sung cho bé khoảng 1 lít sữa công thức mỗi ngày hoặc sữa bò nguyên chất (với các bé sau 12 tháng tuổi). Nếu trẻ đang uống loại sữa có tăng cường vitamin D nhưng không thể dùng đủ 1 lít mỗi ngày, phụ huynh nên bổ sung cho bé 400 IU vitamin D dạng lỏng đều đặn ngày, bắt đầu trong vài ngày đầu sau khi sinh. Sau đó tiếp tục bổ sung vitamin D cho trẻ sơ sinh đến khi trẻ có thể uống được khoảng 1 lít sữa mỗi ngày.",
+    "answer": "Với bé bú mẹ hoàn toàn như con chị, có thể bắt đầu bổ sung vitamin D3 liều 400 IU mỗi ngày từ vài ngày đầu sau sinh; vì bé mới 27 ngày tuổi nên có thể bổ sung theo hướng dẫn này. Tiếp tục dùng đến khi bé cai sữa và uống được ít nhất 1.000 ml sữa mỗi ngày. Vitamin D3 giúp tăng hấp thu canxi và gắn canxi vào hệ xương. Nếu bé suy dinh dưỡng, còi xương hoặc có bệnh lý thiếu vitamin D3, cần đưa bé đi khám để bác sĩ điều chỉnh liều, không tự ý tăng liều. Ngoài vitamin D, tài liệu có đề cập các sản phẩm hỗ trợ chứa lysine, kẽm, crom, selen và vitamin nhóm B, nhưng không cung cấp thông tin cụ thể về chỉ định hay liều dùng; vì vậy chưa đủ thông tin để khẳng định bé cần bổ sung thường quy các chất này bằng đường uống.",
+    "evidence": [
+        "Với trẻ sơ sinh bú mẹ hoàn toàn hoặc bú mẹ một phần: Bắt đầu uống 400 UI/ngày một lần trong vài ngày đầu tiên mới sinh.",
+        "Sau đó, tiếp tục bổ sung thuốc cho đến khi trẻ cai sữa để dùng lượng lớn hơn hoặc bằng 1.000 ml/ngày.",
+        "Bên cạnh việc bổ sung vitamin D, để trẻ phát triển toàn diện, cha mẹ cũng nên bổ sung cho trẻ các sản phẩm hỗ trợ có chứa lysine , các vi khoáng chất và vitamin thiết yếu như kẽm , crom, selen , vitamin nhóm B giúp đáp ứng đầy đủ nhu cầu về dưỡng chất ở trẻ.",
+        "Vitamin D3 có vai trò quan trọng trong việc tăng cường khả năng hấp thụ canxi qua thành ruột và giúp “gắn kết” canxi vào hệ xương.",
+        "Nếu bé có nhu cầu cao hơn như tình trạng suy dinh dưỡng, còi xương hay các bệnh lý thiếu vitamin D3 khác thì bạn cần tham khảo ý kiến bác sĩ để điều chỉnh liều thích hợp cho bé nhé."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏitrẻ sơ sinh nên bổ sung Vitamin D3 hay kết hợp D3K2ạ? Việc bổ sung này là phải do bác sĩ chỉ định thì bé mới được dùng hay em tự mua về dùng cho bé được ạ? Em cảm ơn bác sĩ Nguyễn Thị Thuỷ(1995) Trả lời Được giải đáp bởiBác sĩ Nguyễn Thái Ngọc Châu -Bác sĩ Nhi sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ sơ sinh có thể bổ sung vitamin D3 hay D3K2 đều được. Bạn có thể tự mua ở ngoài và cho bé uống mỗi ngày theo liều cơ bản 400 - 600 UI/ ngày. Nếu bé có nhu cầu cao hơn như tình trạng suy dinh dưỡng, còi xương hay các bệnh lý thiếu vitamin D3 khác thì bạn cần tham khảo ý kiến bác sĩ để điều chỉnh liều thích hợp cho bé nhé.",
+                "score": 0.7629868984222412,
+                "id": "medical_vietnamese_qa_6246",
+                "rerank_score": 0.9985128045082092
+            },
+            {
+                "text": "Câu hỏi: Có nên bổ sung vitamin D3 cho trẻ sơ sinh?\nTrả lời: 3. Có nên bổ sung vitamin D3 cho trẻ sơ sinh?\nVitamin D3 hay còn gọi là Cholecalciferol có tác dụng chuyển hóa các loại chất vô cơ, chủ yếu là canxi và phốt pho. Vitamin D3 có vai trò quan trọng trong việc tăng cường khả năng hấp thụ canxi qua thành ruột và giúp “gắn kết” canxi vào hệ xương. Ngoài ra, vitamin D3 còn giúp cơ thể tái hấp thụ canxi ở thận, đóng vai trò quan trọng trong tăng cường protein tạo xương giúp khả năng giữ thăng bằng của cơ thể tốt hơn, hạn chế nguy cơ bé bị té ngã sau này. Thông thường, trẻ sau sinh 3 ngày là mẹ đã có thể bắt đầu bổ sung vitamin D3 cho trẻ . Thời điểm vàng để cho bé uống vitamin D3 chính khoảng thời gian là từ 9 giờ sáng đến khoảng 11 giờ trưa. =>> Xem thêm: Nên bổ sung vitamin D cho trẻ đến khi nào thì dừng lại? Cách cho trẻ sơ sinh bổ sung vitamin D3 Với trẻ sơ sinh: Trẻ nên được bổ sung 200 UI/ngày. Trẻ sơ sinh sinh thiếu tháng: Uống 400 - 800 UI/ ngày hoặc uống 150 - 400 UI/kg/ngày. Với trẻ sơ sinh bú mẹ hoàn toàn hoặc bú mẹ một phần: Bắt đầu uống 400 UI/ngày một lần trong vài ngày đầu tiên mới sinh. Sau đó, tiếp tục bổ sung thuốc cho đến khi trẻ cai sữa để dùng lượng lớn hơn hoặc bằng 1.000 ml/ngày. Bên cạnh việc bổ sung vitamin D, để trẻ phát triển toàn diện, cha mẹ cũng nên bổ sung cho trẻ các sản phẩm hỗ trợ có chứa lysine , các vi khoáng chất và vitamin thiết yếu như kẽm , crom, selen , vitamin nhóm B giúp đáp ứng đầy đủ nhu cầu về dưỡng chất ở trẻ. Đồng thời, các vitamin thiết yếu này còn hỗ trợ tiêu hóa, tăng cường khả năng hấp thu dưỡng chất, giúp cải thiện tình trạng biếng ăn, giúp trẻ ăn ngon miệng. Cha mẹ có thể đồng thời áp dụng việc bổ sung chất qua đường ăn uống và các thực phẩm chức năng có nguồn gốc từ tự nhiên để bé dễ hấp thụ. Hãy đồng hành cùng con trong suốt quá trình phát triển và thường xuyên truy cập website vinmec.com để cập nhật những thông tin chăm sóc cho bé hữu ích nhé. Trường hợp sức khỏe của trẻ có dấu hiệu bất thường, cha mẹ cần đưa trẻ đến gặp bác sĩ ngay",
+                "score": 0.7585123777389526,
+                "id": "vietnamese_healthcare_58738",
+                "rerank_score": 0.9974604845046997
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được 1 tháng 3 ngày. Từ lúc đẻ ra chưa cho uống gì cả. Em cũng không uống gì. Bé bú sữa mẹ là chính nhưng vẫn dặm sữa công thức. Bé hay vặn người và ngủ cũng ít. Vậy bác sĩ cho em hỏitrẻ 1 tháng tuổi dùng vitamin D3 như thế nào?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ sau sinh nên được bổ sung vitamin D3 hàng ngày, khoảng 400 UI mỗi ngày, bạn có thể sử dụng các loại vitamin D3 thông dụng có bán tại các nhà thuốc. Triệu chứng vặn mình của trẻ cũng thường gặp ở trẻ sơ sinh, tuy nhiên, cần phải loại trừ các bệnh lý ở trẻ nhỏ có thể biểu hiện qua các triệu chứng này. Bạn nên đưa bé đến các bệnh viện để được các bác sĩ thăm khám, làm các xét nghiệm cần thiết, từ đó tư vấn cách thức điều trị và chăm sóc phù hợp với tình trạng của bé.",
+                "score": 0.683563232421875,
+                "id": "medical_vietnamese_qa_5084",
+                "rerank_score": 0.9942593574523926
+            },
+            {
+                "text": "Câu hỏi: Bổ sung vitamin D3 cho trẻ sơ sinh như thế nào?\nTrả lời: Bây giờ thì nên xét nghiệm máu xem cháu có bị thiếu vitamin D hay không mới bổ sung. Bổ sung vitamin D chỉ áp dụng cho trẻ từ sau sinh đến 12 tháng tuổi, liều 400- 500 IU ngày buổi sáng.",
+                "score": 0.7198982834815979,
+                "id": "vietnamese_healthcare_1717",
+                "rerank_score": 0.9922298789024353
+            },
+            {
+                "text": "Câu hỏi: Bổ sung Vitamin D3 cho trẻ sơ sinh như thế nào là an toàn và hiệu quả?\nTrả lời: Dựa vào bảng số liệu cân nặng và chiều cao của Tổ chức Y tế Thế giới cân nặng và chiều cao của bé 12 tháng tuổi sẽ đạt chuẩn ở mức: Cân nặng là 9. 5kg, Chiều cao được 75cm. Ngoài ra, Vitamin D được khuyến cáo liều bổ sung ngay sau sinh và có thể duy trì đến 2 tuổi, liều dự phòng 400-500 UI/ ngày.",
+                "score": 0.7094091773033142,
+                "id": "vietnamese_healthcare_2728",
+                "rerank_score": 0.9918546676635742
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

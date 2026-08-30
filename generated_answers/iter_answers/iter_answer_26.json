@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Quy đầu bị xước, nổi mụn và tiết dịch phải làm sao?",
+    "ground_truth": "Bác sĩ nghĩ bạn đang bị viêm bao quy đầu, nguyên nhân viêm thường do nhiễm khuẩn nước tiểu hoặc quan hệ tình dục mà người nữ có viêm nhiễm phụ khoa. Yếu tố thuận lợi gây viêm có thể do bao quy đầu dài, hẹp. Các nốt mụn mà bạn mô tả phải thăm khám trực tiếp mới có thể đánh giá được, vì vậy bạn cần đến cơ sở y tế chuyên khoa để khám.",
+    "answer": "Các triệu chứng quy đầu bị xước, nổi mụn, đau rát và tiết dịch có thể gợi ý viêm bao quy đầu do nấm hoặc vi khuẩn; nếu từng quan hệ không an toàn cũng cần loại trừ bệnh lây truyền qua đường tình dục. Bạn nên đi khám chuyên khoa Tiết niệu–Nam khoa sớm để được kiểm tra và làm xét nghiệm cần thiết, không tự nặn mụn hay dùng thuốc bôi/kháng sinh. Trong lúc chờ khám, giữ vùng kín khô sạch, rửa nhẹ bằng nước sạch hoặc dung dịch povidone-iodine pha loãng theo hướng dẫn, tránh xà phòng kích ứng và quan hệ tình dục. Nếu có sốt, sưng đau tăng, tiểu buốt nhiều, tiểu khó hoặc không tiểu được, cần đi khám ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi, quy đầu bị xước, nổi mụn và tiết dịch phải làm sao ạ? Em thường xuyên vệ sinh sạch, không quan hệ tình dục, chạm vào đau rát ạ!\nTrả lời: Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+            "score": 0.7264916896820068,
+            "id": "vietnamese_medical_qa_3113"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nVùng kín của tôi bị ngứa, rát bên ngoài và chảy dịch màu trắng, xin hỏi tôi bị bệnh gì và cách điều trị.\nCảm ơn bác sỹ!\nTrả lời: Chào bạn,\nBạn đi tiểu có buốt không? dịch trắng ra nhiều hay ít? dịch trắng có thể là mủ thì có thể bạn bị mắc bệnh lậu cũng có thể là bạn đã bị viêm bao quy đầu do nấm, bạn cần vệ sinh hàng ngày bộ phận sinh dục bằng dung dịch povidine xanh pha loãng , rửa ngày 2 -3 lần (nên vệ sinh kỹ các khe, kẽ) .\nNếu không đỡ bạn nên đi khám và làm xét nghiệm để chuẩn đoán xác định và điều trị hợp lý.\nThân mến!",
+            "score": 0.6819537281990051,
+            "id": "vietnamese_medical_qa_8431"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em bị nổi mụn quanh rãnh quy đầu màu đỏ và bao quy đầu bị nổi mụn rộp khi vỡ bị loét đau như kim chích, lúc tự khỏi sau thời gian lại bị lại, em bị bệnh gì vậy ạ?\nPhước Mạnh (Đà Nẵng)\nChào bác sĩ. Cháu bị nổi mẩn đỏ đầu dương vật đó là bệnh gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn, bạn có tiền sử quan hệ tình dục không an toàn không? Tình trạng này là tình trạng viêm nhiễm ở dương vật. Ban nên đến khám chuyên khoa Tiết niệu để được tư vấn và điều trị chính xác.",
+            "score": 0.6797608733177185,
+            "id": "vietnamese_medical_qa_4133"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em năm nay hơn 4 tuổi. Bé bảo đi tiểu hơi rát và đau, em kiểm tra thì phát hiện bao quy đầu của bé hơi sưng, có ít dịch mủ và hơi hôi. Em tiến hành vệ sinh bằng nước muối cho bé nhưng chưa đỡ. Vậy bác sĩ cho em hỏitrẻ 4 tuổi bị sưng bao quy đầu kèm dịch mủ là dấu hiệu bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bị sưng bao quy đầu, có dịch mủ kèm hôi rất có thể là tình trạngviêm bao quy đầu. Bé cần được đi khám để đánh giá tổn thương và điều trị. Nguy cơ để lâu có thể gâynhiễm trùng tiết niệu. Bạn nên đưa bé đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể. Khi đi khám, có thể bé sẽ cần làm thêm xétnghiệm nước tiểuvà xét nghiệm máu, siêu âm bụng để đánh giá nguy cơ nhiễm trùng tiết niệu.",
+            "score": 0.6630235910415649,
+            "id": "medical_vietnamese_qa_6211"
+        },
+        {
+            "text": "Câu hỏi: Dương vật chảy mủ trắng đục là bệnh gì?\nTrả lời: 2. Dương vật chảy mủ trắng đục là bệnh gì?\nNguyên nhân dương vật chảy mủ có thể là: 2.4. Viêm bao quy đầu Viêm bao quy đầu là bệnh thường gặp ở nam giới, chủ yếu do vệ sinh không sạch sẽ. Khi bị viêm bao quy đầu, nam giới có những biểu hiện như: Loét bao quy đầu, ngứa rát, sưng tấy, nổi các nốt nhỏ li ti ở bao quy đầu, mủ ở bao quy đầu có màu trắng đục và hôi,... Nếu chữa trị sớm, viêm bao quy đầu có thể dẫn đến nhiều biến chứng như hoại tử, lở loét diện rộng, thậm chí ung thư,...",
+            "score": 0.641753077507019,
+            "id": "vietnamese_healthcare_26780"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

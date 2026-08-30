@@ -1,0 +1,110 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ! Cho tôi hỏi: Nội soi đại tràng có đau không? Cảm ơn bác sĩ đã tư vấn và giải đáp!",
+    "ground_truth": "Chào bạn! Nội soi đại tràng có đau không? Là thắc mắc của rất nhiều người. Thực tế, nội soi đại tràng, trực tràng thường diễn ra trong khoảng 20 - 30 phút, tùy thuộc đại tràng dễ hay khó và có can thiệp thủ thuật như cắt polyp đại tràng hay sinh thiết không?\nCó thể nội soi đại tràng gây đau khi ống soi đi qua chỗ gập góc và gây chướng bụng. Trong trường hợp đau nhiều như bệnh nhân đã từng phẫu thuật vùng bụng, gây dính ruột đại tràng gập góc nhiều thì những trường hợp này nên thực nội soi đại tràng gây mê. Đây là thủ thuật gây mê nội soi có sử dụng thuốc mê đường tĩnh mạch, bệnh nhân sẽ được ngủ trong suốt quá trình thực hiện nội soi và không có cảm giác khó chịu.\nPhương pháp nội soi đại tràng là một kỹ thuật được thực hiện thường quy tại AI-Doctor. Tại đây đã thực hiện nhiều ca phẫu thuật nội soi đem lại kết quả chính xác, sàng lọc sớm các bệnh ung thư đường tiêu hóa hiệu quả, góp phần không nhỏ vào việc chẩn đoán bệnh và giải đoạn bệnh.",
+    "answer": "Nội soi đại tràng có thể gây **khó chịu, chướng bụng hoặc đau**, nhất là khi ống soi đi qua các đoạn gập góc của đại tràng. Mức độ khó chịu tùy từng người, tình trạng đại tràng và việc có thực hiện thêm thủ thuật như sinh thiết hoặc cắt polyp hay không. Thời gian nội soi thường khoảng **20–30 phút**.\n\nNếu từng phẫu thuật vùng bụng, có dính ruột hoặc đại tràng gập góc nhiều, cảm giác đau có thể rõ hơn. Hiện có thể thực hiện **nội soi kèm gây mê/gây ngủ tĩnh mạch**; khi đó người bệnh ngủ trong quá trình soi và thường không cảm thấy đau hay khó chịu. Việc gây mê cần được bác sĩ gây mê thăm khám, tư vấn và chuẩn bị trước để hạn chế biến chứng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cho em hỏi hở van động mạch phổi nhẹ có nguy hiểm không? Cần làm những gì và ăn kiêng những gì ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn em đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+            "score": 0.6830852627754211,
+            "id": "vietnamese_medical_qa_1887",
+            "rerank_score": 0.004056678153574467
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+            "score": 0.7485335469245911,
+            "id": "vietnamese_medical_qa_1629",
+            "rerank_score": 0.00013372645480558276
+        },
+        {
+            "text": "Câu hỏi: Nếu là nữ: bạn đã bao giờ bị chẩn đoán ĐTĐ thai kỳ chưa?\nTrả lời: 3. Nếu là nữ: bạn đã bao giờ bị chẩn đoán ĐTĐ thai kỳ chưa?\nKhông Có 0 điểm 1 điểm",
+            "score": 0.657948911190033,
+            "id": "vietnamese_healthcare_68044",
+            "rerank_score": 6.369403126882389e-05
+        },
+        {
+            "text": "Câu hỏi: Tác dụng phụ của thuốc Vixogan\nTrả lời: 4. Tác dụng phụ của thuốc Vixogan\nHiện tại, chưa có báo cáo về tác dụng phụ gặp phải khi sử dụng thuốc Vixogan. Nếu trong quá trình sử dụng thuốc Vixogan, bạn thấy xuất hiện các triệu chứng bất thường, cần báo cho bác sĩ hoặc đến ngay cơ sở y tế gần nhất để được hỗ trợ kịp thời.",
+            "score": 0.6648541688919067,
+            "id": "vietnamese_healthcare_3969",
+            "rerank_score": 6.118370220065117e-05
+        },
+        {
+            "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+            "score": 0.6829838156700134,
+            "id": "vietnamese_healthcare_125866",
+            "rerank_score": 4.308576899347827e-05
+        },
+        {
+            "text": "Câu hỏi: Nội soi đại tràng có đau không?\nTrả lời: Thực tế, nội soi đại tràng, trực tràng thường diễn ra trong khoảng 20 - 30 phút, tùy thuộc đại tràng dễ hay khó và có can thiệp thủ thuật như cắt polyp đại tràng hay sinh thiết không?Có thể nội soi đại tràng gây đau khi ống soi đi qua chỗ gập góc và gây chướng bụng. Trong trường hợp đau nhiều như bệnh nhân đã từng phẫu thuật vùng bụng, gây dính ruột đại tràng gập góc nhiều thì những trường hợp này nên thực nội soi đại tràng gây mê. Đây là thủ thuật gây mê nội soi có sử dụng thuốc mê đường tĩnh mạch, bệnh nhân sẽ được ngủ trong suốt quá trình thực hiện nội soi và không có cảm giác khó chịu.",
+            "score": 0.5294597148895264,
+            "id": "vietnamese_healthcare_9015",
+            "rerank_score": 0.9950281977653503,
+            "weighted_score": 0.9989491820335389
+        },
+        {
+            "text": "Câu hỏi: Đau âm ỉ vùng bụng ngang rốn dấu hiệu bệnh gì và nên điều trị thế nào?\nTrả lời: Với những triệu chứng bạn kể, chúng tôi tư vấn bạn nên nội soi đại tràng để biết chính xác bệnh. Chẩn đoán viêm đại tràng chỉ có chính xác nhất là qua nội soi đại tràng. Siêu âm không thấy được rõ đại tràng bị viêm và viêm ở mức độ nào. Ngoài ra, nội soi đại tràng cũng giúp ta tầm soát được ung thư đại tràng (bạn khai là có cục gì đó di chuyển, ấn vào đau nhói). Riêng vấn đề nội soi đại tràng gây đau thì giờ đây chúng ta đã có hình thức nội soi kết hợp với gây mê. Bệnh nhân nội soi sẽ được cho ngủ nhẹ, sau đó bác sĩ sẽ tiến hành nội soi cho bệnh nhân. Toàn bộ quá trình nội soi sẽ không gây khó chịu hay đau đớn gì, vì lúc đó bệnh nhân đang ngủ và không biết gì cả.",
+            "score": 0.49801260232925415,
+            "id": "vietnamese_healthcare_3241",
+            "rerank_score": 0.9898972511291504,
+            "weighted_score": 0.9958745002746583
+        },
+        {
+            "text": "Câu hỏi: . Mấy hôm nay em bị đi ngoài ra máu, nhưng em không bị đau bụng mà chỉ thấy phân lẫn máu đỏ sẫm có nhầy và máu đông. Vậy em bị bệnh gì ạ? Em xin cám ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn. Nếu bạn đang bị đi ngoài ra máu, bác sĩ khuyên bạn nên đinội soi đại tràngtại chuyên khoa Tiêu hoá - Gan mật. Mục đích của nội soi đại tràng là tầm soát xem máu này từ đâu ra, dựa vào đó bác sĩ đưa ra những điều trị thích hợp. Nó có thể từ một vết loét, một vết viêm xước, mộtbúi trĩđang chảy máu, một Polyp đang chảy máu, hay nặng nề nhất là mộtung thưđang chảy máu. Riêng vấn đề nội soi đại tràng gây đau thì giờ đây chúng ta đã có hình thức nội soi kết hợp với gây mê. Bệnh nhân nội soi sẽ được cho ngủ nhẹ, sau đó bác sĩ sẽ tiến hành nội soi cho bệnh nhân. Toàn bộ quá trình nội soi sẽ không gây khó chịu hay đau đớn cho bệnh nhân vì lúc đó bệnh nhân đang ngủ và không biết gì cả. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Thạc sĩ, Bác sĩ Vũ Tấn Phúc- Bác sĩ Nội tiêu hóa - Khoa Khám bệnh & nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.",
+            "score": 0.47800225019454956,
+            "id": "medical_vietnamese_qa_10787",
+            "rerank_score": 0.9792990684509277,
+            "weighted_score": 0.995288896560669
+        },
+        {
+            "text": "Câu hỏi: ạ. Cháu từ trước hay bị ợ chua và thỉnh thoảng có bịđau dạ dày. Nhưng dạo gần đây khi cháu ợ chua lại thường hay bị tức ngực và khó thở, kiểu như mình bị nghẹn lúc ăn cơm ấy ạ. Cháu muốn hỏi tình trạngợ chua kèm tức ngực, khó thở nên thăm khám hay sử dụng thuốclà được?Cảm ơn bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn. Bạn nên đến khám bác sĩ chuyên khoa tiêu hóa để đượcnội soi dạ dàykiểm tra. Có thể bạn đã mắc bệnh trào ngược dạ dày thực quản. Nội soi dạ dày cũng kiểm tra được thực quản của bạn xem có gì tắc nghẽn hay không mà lại có cảm giác tức ngực, khó thở, ợ chua. Riêng vấn đề nội soi dạ dày gây đau thì giờ đây chúng ta đã có hình thức nội soi kết hợp với gây mê. Bệnh nhân nội soi sẽ được cho ngủ nhẹ, sau đó bác sĩ sẽ tiến hành nội soi cho bệnh nhân. Toàn bộ quá trình nội soi sẽ không gây khó chịu hay đau đớn cho bệnh nhân vì lúc đó bệnh nhân đang ngủ và không biết gì cả. Cảm ơn bạn đã chia sẻ câu hỏi “ợ chua kèm tức ngực, khó thở nên thăm khám hay sử dụng thuốc”tới Vinmec. Thân ái. Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Tấn Phúc- Bác sĩ Nội tiêu hóa - Khoa Khám bệnh & nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc",
+            "score": 0.48650768399238586,
+            "id": "medical_vietnamese_qa_11512",
+            "rerank_score": 0.8968313336372375,
+            "weighted_score": 0.970770514011383
+        },
+        {
+            "text": "Câu hỏi: Trình bày tình huống lâm sàng\nTrả lời: 1. Trình bày tình huống lâm sàng\nMột người đàn ông 78 tuổi có tiền sử bệnh động mạch vành đến cấp cứu với biểu hiện sốt, đau bụng 5 giờ sau khi nội soi cắt polyp đại tràng ở manh tràng. Mặc dù ban đầu anh ta dung nạp tốt với thủ thuật, nhưng bệnh sử ghi nhận sự phát triển của một cơn đau bụng quặn từng cơn, lan tỏa sau khi trở về nhà, tình trạng này thuyên giảm khi hết đầy hơi. Vài giờ sau, anh ta xuất hiện cơn đau bụng dưới bên phải , dữ dội, trầm trọng hơn khi ho và cử động mà không có yếu tố thuyên giảm đáng kể. Bệnh nhân từ chối buồn nôn, nôn mửa hoặc thay đổi thói quen đi tiêu. Khi khám, nhiệt độ bệnh nhân là 38,1°C với các dấu hiệu sinh tồn còn lại trong giới hạn bình thường. Khi khám bụng, bệnh nhân có âm ruột bình thường kèm theo đau lan tỏa, đau rõ nhất ở hạ sườn phải. Không có cảm giác phúc mạc hay co cứng bụng như gỗ. Các xét nghiệm cho thấy số lượng tế bào bạch cầu là 19.000 tế bào/mcL (phạm vi tham chiếu: 4.800–10.800 tế bào/mcL). Lactate huyết thanh của bệnh nhân là 1,9 mmol/L (khoảng tham chiếu: 0,5–2,2 mmol/L). X quang bụng được cho là bình thường. CT bụng và khung chậu có cản quang, cho thấy những thay đổi viêm đáng kể trong lớp mỡ mạc treo xung quanh manh tràng và sự dày lên của thành manh tràng. Bệnh nhân được đánh giá bởi khoa tiêu hóa và phẫu thuật tổng quát, họ cho rằng các triệu chứng của anh ta là do hội chứng đốt điện sau cắt polyp, với triệu chứng đau bụng cấp sau nội soi. Anh ta được điều trị bảo tồn bằng dịch truyền tĩnh mạch, piperacillin/tazobactam 3,375 g mỗi 8 giờ và chế độ ăn lỏng trong suốt. Cơn đau bụng cấp của bệnh nhân đã hết trong 48 giờ và được xuất viện về nhà với chế độ ăn kiêng bình thường, uống amoxicillin /clavulanate 875–125mg dạng viên hai lần mỗi ngày để hoàn thành đợt kháng sinh 5 ngày. Các triệu chứng của bệnh nhân hoàn toàn được giải quyết khi tái khám. CT bụng và khung chậu có cản quang (nhìn dọc trục) cho thấy sự thay đổi viêm đáng kể ở vùng hạ sườn phải ở mạc treo tràng bao quanh manh tràng (mũi tên trắng) và dày thành manh tràng (mũi tên chấm). CT bụng và khung chậu có cản quang (nhìn sagittal) cho thấy sự thay đổi viêm đáng kể ở vùng hạ sườn phải ở mạc treo ruột bao quanh manh tràng (mũi tên trắng) và dày thành manh tràng (mũi tên chấm).",
+            "score": 0.4849953353404999,
+            "id": "vietnamese_healthcare_48900",
+            "rerank_score": 0.7895057201385498,
+            "weighted_score": 0.9376111030578613
+        },
+        {
+            "text": "Câu hỏi: Nội soi đại tràng gây mê có nguy hiểm không?\nTrả lời: Gây mê cho nội soi đại tràng để tạo cho người bệnh không có cảm giác khó chịu khi bác sĩ thực hiện kỹ thuật này. Các biến chứng gây mê có thể hạn chế nếu bệnh nhân được khám và tư vấn với bác sĩ gây mê và các bước cần chuẩn bị soi đại tràng.",
+            "score": 0.475136399269104,
+            "id": "vietnamese_healthcare_4038",
+            "rerank_score": 0.8327634930610657,
+            "weighted_score": 0.8333681225776672
+        },
+        {
+            "text": "Câu hỏi: Viêm manh tràng, trĩ cấp độ I ở nhân viên văn phòng có nguy hiểm không?\nTrả lời: Đau bụng có rất nhiều nguyên nhân như do rối loạn tiêu hóa, cơn đau quặn thận, viêm dạ dày cấp, viêm đại tràng co thắt, u nang buồng trứng xoắn, lạc nội mạc tử cung... Trường hợp của bạn tuy đã nội soi dạ dày đại tràng, nhưng vẫn cần phải làm thêm các xét nghiệm cận lâm sàng khác giúp chẩn đoán như chụp CLVT ổ bụng, khám chuyên khoa sản phụ khoa... Bạn nên đi khám bác sĩ chuyên khoa để được thăm khám, tư vấn và có các biện pháp điều trị phù hợp.",
+            "score": 0.47918951511383057,
+            "id": "vietnamese_healthcare_121",
+            "rerank_score": 0.23689132928848267,
+            "weighted_score": 0.7987103581428528
+        },
+        {
+            "text": "Câu hỏi: Nội soi buồng tử cung chẩn đoán có đau không?\nTrả lời: 4. Nội soi buồng tử cung chẩn đoán có đau không?\nBạn có thể cảm thấy tức nhẹ bụng dưới trong khi thực hiện thủ thuật Nếu bạn thấy quá khó chịu, hãy nói với bác sĩ hoặc y tá. Họ có thể dừng thủ tục bất cứ lúc nào. Bạn sẽ được trao đổi với bác sĩ gây mê về các phương pháp giảm đau và họ sẽ lựa chọn phương pháp phù hợp với bạn",
+            "score": 0.4954279661178589,
+            "id": "vietnamese_healthcare_72848",
+            "rerank_score": 0.5382848381996155,
+            "weighted_score": 0.664295208454132
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nTôi thấy khó chịu ở vùng dẻ sườn phải và vùng chếch phía trên bên phải rốn, đẫ đi siêu âm và xét nghiệm máu nhiều lần gần đây nhưng kết quả bình thường, nội soi dạ dày tá tràng chỉ bị viêm hang vị, lúc ngồi thì thấy khó chịu lúc nằm nghỉ thấy dễ chịu, xin hỏi Tôi nên khám và làm thêm các xét nghiệm gì. Cám ơn BS\nTrả lời: Chào anh,\nAnh nên đi khám, chụp XQ liên sườn tại khoa Nội của các bệnh viện lớn, uy tín, có thể anh bị viêm dây thần kinh liên sườn.\nKhi xác định được chính xác nguyên nhân gây đau sẽ có hướng điều trị cụ thể.\nThân mến!",
+            "score": 0.5264758467674255,
+            "id": "vietnamese_medical_qa_7836",
+            "rerank_score": 0.2832565903663635,
+            "weighted_score": 0.4695964455604553
+        },
+        {
+            "text": "Câu hỏi: Em bịđau dạ dày(em đi nội soi thì bị viêm xung huyết, xuất huyết nông rải rác và trào ngược). Em đã uống thuốc hơn 2 tháng rồi mà cứ hết được mấy hôm rồi lại bị lại. Bữa nay, bụng của em rất khó chịu, em không đau mấy nhưng bụng cứ nôn nao rất khó chịu, ăn vào không tiêu, buồn nôn ăn không được. Khi em nuốt vào nó cứ nghèn nghẹn ở cổ. Bữa nay dịch bệnh nên em không đi kiểm tra lại được. Vậy bác sĩ cho em hỏitình trạng nuốt nghẹn kèm buồn nôn có bất thường không?Em nên uống loại thuốc nào thưa bác sĩ? Em cảm ơn bác sĩ. Nguyễn Thị Duyên(1971) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Tạ Quế Phương -Khoa Nội tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn đã khám vànội soi dạ dàyđược chẩn đoán là viêm xung huyết, xuất huyết nông rải rác và trào ngược, đã điều trị. Đợt này, theo như bạn mô tả thì các triệu chứng buồn nôn, nuốt nghẹn có thể do bệnh lý trào ngược dạ dày thực quản gây nên và tình trạng khó tiêu chức năng. Điều trịtrào ngược dạ dày thực quảnbao gồm: Thay đổi lối sống, điều trị nội khoa, điều trị ngoại khoa và các thủ thuật khác. Lựa chọn thực phẩm có tính kiềm, có khả năng trung hòa axit: Thực phẩm từ tinh bột như bánh mì hay bột yến mạch, hay đạm dễ tiêu,... vì các thực phẩm này giúp tránh sự bào mòn lớp nhầy trong dạ dày của axit, hạn chế các nhịp cơ thắt thực quản có axit trào lên. Hạn chế thực phẩm kích thích tăng tiết axit hay kích thích cơ thắt dưới thực quản: Hoa quả hàm lượng axit cao (chanh, cam, dứa,...), nước có ga, thức ăn cay, nóng, chocolate,... Bạn cần kiêng rượu bia, cà phê, thuốc lá. Không mặc quần áo quá chật, không ăn quá no, không ăn muộn vào buổi tối, không cúi quá lâu, không nằm trong 2 giờ sau khi ăn, không uống quá nhiều nước trong khi ăn. Ngủ nằm đầu cao 15cm so với chân. Giảm cân nếu thừa cân, béo phì. Ngoài chế độ uống sinh hoạt, những nhóm thuốc chính bác sĩ thường kê đơn cho bệnh nhân trào ngược dạ dày thực quản là: PPI làm giảm axit trong dạ dày và một số thuốc chống trào ngược. Tuy nhiên, bạn cần khám và tư vấn chuyên khoa Tiêu hóa để được tư vấn điều trị và dùng thuốc phù hợp.",
+            "score": 0.4689737558364868,
+            "id": "medical_vietnamese_qa_10959",
+            "rerank_score": 0.05692310631275177,
+            "weighted_score": 0.466649666428566
+        }
+    ],
+    "llm_call": 4,
+    "iteration": 1
+}

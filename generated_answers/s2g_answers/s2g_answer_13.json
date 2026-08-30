@@ -1,0 +1,113 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Phụ nữ mang thai bị thủy đậu phải làm sao?",
+    "ground_truth": "Sốt kèm theo phát ban dạng bọng nước là biểu hiện của bệnh thủy đậu. Tuy nhiên, mỗi người sẽ có mức độ bệnh khác nhau, do đó rất khó để có thể kết luận phụ nữ mang thai bị thủy đậu phải làm sao.",
+    "answer": "Nếu phụ nữ mang thai bị thủy đậu, bằng chứng được cung cấp chưa đủ thông tin để hướng dẫn cách xử trí cụ thể. Tuy nhiên, người đã từng mắc thủy đậu trước khi mang thai hoặc đã được tiêm chủng thì được miễn dịch và không cần lo lắng về biến chứng của bệnh đối với bản thân hoặc thai nhi.",
+    "evidence": [
+        "Khi xuất hiện những dấu hiệu khí hư bất thường khi mang thai, mẹ bầu nên nhanh chóng đến gặp bác sĩ chuyên khoa để thăm khám, xác định nguyên nhân cũng như đưa ra phương pháp điều trị hiệu quả.",
+        "Ngoài ra, khi mang thai, các mẹ cần lưu ý những điều khi thấy khí hư bất thường sau: Khí hư khi mang thai có màu gì thì mẹ cũng không nên tùy tiện mua và sử dụng thuốc uống, thuốc đặt khi chưa có chỉ định từ bác sĩ chuyên khoa.",
+        "Việc sử dụng thuốc ở thời điểm thai kỳ này cần hết sức thận trọng vì nó có thể gây ảnh hưởng trực tiếp đến sự phát triển của thai nhi.",
+        "Sử dụng thuốc đúng liều lượng, tuân thủ theo chỉ định điều trị của bác sĩ.",
+        "Trả lời: Phụ nữ đã từng nhiễm bệnh thủy đậu trước khi mang thai hoặc đã được chủng ngừa bệnh thủy đậu thì được miễn dịch với bệnh này, trong cơ thể đã có kháng thể chống lại bệnh thủy đậu không cần phải lo lắng về biến chứng của bệnh đối với bản thân họ cũng như thai nhi."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Mẹ bầu ra khí hư bất thường khi mang thai nên làm gì?\nTrả lời: 3. Mẹ bầu ra khí hư bất thường khi mang thai nên làm gì?\nHầu như trong suốt quá trình thai kỳ, bác sỹ luôn khuyên mẹ bầu cần chú ý theo dõi những dấu hiệu khí hư bất thường cũng như những thay đổi khác của cơ thể để chủ động thăm khám trong thời gian sớm nhất, phòng ngừa biến chứng. Đây là cách mẹ bầu bảo vệ sức khỏe bản thân trong thời kỳ nhạy cảm cũng như chăm sóc và bảo vệ con yêu tốt nhất. Khi xuất hiện những dấu hiệu khí hư bất thường khi mang thai, mẹ bầu nên nhanh chóng đến gặp bác sĩ chuyên khoa để thăm khám, xác định nguyên nhân cũng như đưa ra phương pháp điều trị hiệu quả. Ngoài ra, khi mang thai, các mẹ cần lưu ý những điều khi thấy khí hư bất thường sau: Khí hư khi mang thai có màu gì thì mẹ cũng không nên tùy tiện mua và sử dụng thuốc uống, thuốc đặt khi chưa có chỉ định từ bác sĩ chuyên khoa. Việc sử dụng thuốc ở thời điểm thai kỳ này cần hết sức thận trọng vì nó có thể gây ảnh hưởng trực tiếp đến sự phát triển của thai nhi. Sử dụng thuốc đúng liều lượng, tuân thủ theo chỉ định điều trị của bác sĩ. Thăm khám phụ khoa tại cơ sở y tế uy tín, điều trị và khắc phục hiện tượng khí hư bất thường sớm trước khi sinh để tránh lây nhiễm sang em bé. Vệ sinh vùng kín sạch sẽ, có chế độ ăn uống và sinh hoạt điều độ, không tùy tiện áp dụng những mẹo chữa dân gian không khoa học.",
+                "score": 0.5634828209877014,
+                "id": "vietnamese_healthcare_108688",
+                "rerank_score": 0.03695834055542946
+            },
+            {
+                "text": "Câu hỏi: Cách điều trị mẹ bầu bị polyp cổ tử cung khi đang mang thai\nTrả lời: 3. Cách điều trị mẹ bầu bị polyp cổ tử cung khi đang mang thai\nVới phụ nữ, khi có các triệu chứng, dấu hiệu của bệnh liên quan đến phụ khoa thường gây hoang mang, lo lắng. Đặc biệt, với phụ nữ mang thai bị polyp cổ tử cung càng được điều trị sớm sẽ tránh được những tổn thương, ảnh hưởng đến cả mẹ bầu và thai nhi. Bác sĩ sẽ đưa ra các phương pháp điều trị hợp lý cho mẹ bầu. Điều trị polyp cổ tử cung khi đang mang thai nên sử dụng các phương pháp can thiệp ngoại khoa để cắt bỏ khối polyp. Trong trường hợp xuất hiện chân cuống sẽ tiến hành đốt điện để tránh bị mọc lại. Bác sĩ sẽ hạn chế sử dụng thuốc cho phụ nữ mang thai, do sẽ có ảnh hưởng đến sức khỏe của thai nhi. Đối với các polyp có kích thước lớn cần lựa chọn thời gian và phương pháp phù hợp để loại bỏ khối polyp mà không gây ảnh hưởng đến thai. Polyp cổ tử cung có thể gây chảy máu kéo dài trong thai kỳ và theo dõi dưỡng thai khá mất công, trong trường hợp cần thiết cần cắt polyp khi thai đủ lớn qua ngã âm đạo. Điều quan trọng, phụ nữ cần thường xuyên đi khám phụ khoa để phát hiện sớm và điều trị bệnh sớm. Các mẹ bầu càng cần phải lưu ý trước khi quyết định làm mẹ hãy đi khám sức khỏe tổng quát cũng như khám sức khỏe phụ khoa để chắc chắn rằng sức khỏe của mình hoàn toàn khỏe mạnh. Trong quá trình mang thai nên thực hiện khám thai đầy đủ để theo dõi sức khỏe cũng như tình trạng phát triển của thai nhi. Đây cũng chính là cách để bạn phát hiện mình có mắc bệnh polyp cổ tử cung hay không, từ đó có hướng can thiệp kịp thời tránh để ảnh hưởng đến cả mẹ và bé. Khám sàng lọc bệnh lý phụ khoa cơ bản tại Bệnh viện Đa khoa Quốc tế Vinmec Để giúp khách hàng phát hiện và điều trị sớm các bệnh phụ khoa khác, Bệnh viện Đa khoa Quốc tế Vinmec có Gói khám, sàng lọc bệnh lý phụ khoa cơ bản , giúp khách hàng phát hiện bệnh sớm các bệnh lý viêm nhiễm giúp điều trị dễ dàng, không tốn kém. Sàng lọc phát hiện sớm ung thư phụ khoa (Ung thư cổ tử cung) ngay cả khi chưa có triệu chứng. Gói khám, sàng lọc bệnh lý phụ khoa cơ bản dành cho khách hàng là nữ giới, không giới hạn độ tuổi và có thể có những triệu chứng như sau: Chảy máu bất thường vùng âm đạo Gặp vấn đề về kinh nguyệt: chu kỳ kéo dài bất thường, kinh nguyệt không đều Dịch âm đạo bất thường (có mùi hôi, màu sắc khác bình thường) Đau, ngứa vùng kín Khách hàng nữ có một vài yếu tố nguy cơ như vệ sinh cá nhân không tốt, quan hệ tình dục không an toàn, nạo phá thai,... Khách hàng nữ có triệu chứng khác như: Dịch âm đạo bất thường, ngứa, đau vùng kín, chảy máu âm đạo bất thường.",
+                "score": 0.5544461011886597,
+                "id": "vietnamese_healthcare_90290",
+                "rerank_score": 0.013173679821193218
+            },
+            {
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.6599448919296265,
+                "id": "vietnamese_healthcare_2290",
+                "rerank_score": 0.004597772844135761
+            },
+            {
+                "text": "Câu hỏi: Phụ nữ có thai, cho con bú, lái xe và vận hành máy móc dùng Mycocid cream như thế nào?\nTrả lời: 9. Phụ nữ có thai, cho con bú, lái xe và vận hành máy móc dùng Mycocid cream như thế nào?\nPhụ nữ có thai không nên bôi thuốc Mycocid; Đang cho con bú nên thận trọng khi bôi Mycocid cream; Lái xe và vận hành máy móc có thể bôi thuốc Mycocid; Thuốc Mycocid bảo quản trong nhiệt độ phòng. Hy vọng những thông tin về thuốc Mycocid cream trên đây giúp bạn chủ động hơn trong việc điều trị. Tuy nhiên, khi bôi thuốc Mycocid bạn cũng cần tham khảo ý kiến bác sĩ/ dược sĩ.",
+                "score": 0.5561622381210327,
+                "id": "vietnamese_healthcare_131165",
+                "rerank_score": 0.001317740068770945
+            },
+            {
+                "text": "Câu hỏi: Cách tránh rượu khi mang thai\nTrả lời: 3. Cách tránh rượu khi mang thai\nCó thể không khó như bạn nghĩ để tránh hoàn toàn rượu khi mang thai, vì nhiều phụ nữ đã bỏ rượu ngay từ khi mang thai. Hầu hết phụ nữ đều từ bỏ rượu sau khi biết mình có thai hoặc khi dự định có thai. Phụ nữ phát hiện mình có thai sau khi uống rượu trong giai đoạn đầu thai kỳ nên tránh uống thêm. Tuy nhiên, họ không nên lo lắng một cách không cần thiết, vì nguy cơ em bé của họ bị ảnh hưởng là rất thấp. Nếu bạn lo lắng, hãy nói chuyện với nữ hộ sinh hoặc bác sĩ. Rượu có hại cho thai nhi, vì vậy mẹ bầu nên tránh sử dụng",
+                "score": 0.5716094374656677,
+                "id": "vietnamese_healthcare_155928",
+                "rerank_score": 0.001155839185230434
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bị thủy đậu trước khi mang thai liệu có ảnh hưởng đến thai nhi?\nTrả lời: Phụ nữ đã từng nhiễm bệnh thủy đậu trước khi mang thai hoặc đã được chủng ngừa bệnh thủy đậu thì được miễn dịch với bệnh này, trong cơ thể đã có kháng thể chống lại bệnh thủy đậu không cần phải lo lắng về biến chứng của bệnh đối với bản thân họ cũng như thai nhi.",
+                "score": 0.5736163258552551,
+                "id": "vietnamese_healthcare_6607",
+                "rerank_score": 0.9472686052322388
+            },
+            {
+                "text": "Câu hỏi: Mẹ bầu ra khí hư bất thường khi mang thai nên làm gì?\nTrả lời: 3. Mẹ bầu ra khí hư bất thường khi mang thai nên làm gì?\nHầu như trong suốt quá trình thai kỳ, bác sỹ luôn khuyên mẹ bầu cần chú ý theo dõi những dấu hiệu khí hư bất thường cũng như những thay đổi khác của cơ thể để chủ động thăm khám trong thời gian sớm nhất, phòng ngừa biến chứng. Đây là cách mẹ bầu bảo vệ sức khỏe bản thân trong thời kỳ nhạy cảm cũng như chăm sóc và bảo vệ con yêu tốt nhất. Khi xuất hiện những dấu hiệu khí hư bất thường khi mang thai, mẹ bầu nên nhanh chóng đến gặp bác sĩ chuyên khoa để thăm khám, xác định nguyên nhân cũng như đưa ra phương pháp điều trị hiệu quả. Ngoài ra, khi mang thai, các mẹ cần lưu ý những điều khi thấy khí hư bất thường sau: Khí hư khi mang thai có màu gì thì mẹ cũng không nên tùy tiện mua và sử dụng thuốc uống, thuốc đặt khi chưa có chỉ định từ bác sĩ chuyên khoa. Việc sử dụng thuốc ở thời điểm thai kỳ này cần hết sức thận trọng vì nó có thể gây ảnh hưởng trực tiếp đến sự phát triển của thai nhi. Sử dụng thuốc đúng liều lượng, tuân thủ theo chỉ định điều trị của bác sĩ. Thăm khám phụ khoa tại cơ sở y tế uy tín, điều trị và khắc phục hiện tượng khí hư bất thường sớm trước khi sinh để tránh lây nhiễm sang em bé. Vệ sinh vùng kín sạch sẽ, có chế độ ăn uống và sinh hoạt điều độ, không tùy tiện áp dụng những mẹo chữa dân gian không khoa học.",
+                "score": 0.5773051381111145,
+                "id": "vietnamese_healthcare_108688",
+                "rerank_score": 0.03695834055542946
+            },
+            {
+                "text": "Câu hỏi: Cách điều trị mẹ bầu bị polyp cổ tử cung khi đang mang thai\nTrả lời: 3. Cách điều trị mẹ bầu bị polyp cổ tử cung khi đang mang thai\nVới phụ nữ, khi có các triệu chứng, dấu hiệu của bệnh liên quan đến phụ khoa thường gây hoang mang, lo lắng. Đặc biệt, với phụ nữ mang thai bị polyp cổ tử cung càng được điều trị sớm sẽ tránh được những tổn thương, ảnh hưởng đến cả mẹ bầu và thai nhi. Bác sĩ sẽ đưa ra các phương pháp điều trị hợp lý cho mẹ bầu. Điều trị polyp cổ tử cung khi đang mang thai nên sử dụng các phương pháp can thiệp ngoại khoa để cắt bỏ khối polyp. Trong trường hợp xuất hiện chân cuống sẽ tiến hành đốt điện để tránh bị mọc lại. Bác sĩ sẽ hạn chế sử dụng thuốc cho phụ nữ mang thai, do sẽ có ảnh hưởng đến sức khỏe của thai nhi. Đối với các polyp có kích thước lớn cần lựa chọn thời gian và phương pháp phù hợp để loại bỏ khối polyp mà không gây ảnh hưởng đến thai. Polyp cổ tử cung có thể gây chảy máu kéo dài trong thai kỳ và theo dõi dưỡng thai khá mất công, trong trường hợp cần thiết cần cắt polyp khi thai đủ lớn qua ngã âm đạo. Điều quan trọng, phụ nữ cần thường xuyên đi khám phụ khoa để phát hiện sớm và điều trị bệnh sớm. Các mẹ bầu càng cần phải lưu ý trước khi quyết định làm mẹ hãy đi khám sức khỏe tổng quát cũng như khám sức khỏe phụ khoa để chắc chắn rằng sức khỏe của mình hoàn toàn khỏe mạnh. Trong quá trình mang thai nên thực hiện khám thai đầy đủ để theo dõi sức khỏe cũng như tình trạng phát triển của thai nhi. Đây cũng chính là cách để bạn phát hiện mình có mắc bệnh polyp cổ tử cung hay không, từ đó có hướng can thiệp kịp thời tránh để ảnh hưởng đến cả mẹ và bé. Khám sàng lọc bệnh lý phụ khoa cơ bản tại Bệnh viện Đa khoa Quốc tế Vinmec Để giúp khách hàng phát hiện và điều trị sớm các bệnh phụ khoa khác, Bệnh viện Đa khoa Quốc tế Vinmec có Gói khám, sàng lọc bệnh lý phụ khoa cơ bản , giúp khách hàng phát hiện bệnh sớm các bệnh lý viêm nhiễm giúp điều trị dễ dàng, không tốn kém. Sàng lọc phát hiện sớm ung thư phụ khoa (Ung thư cổ tử cung) ngay cả khi chưa có triệu chứng. Gói khám, sàng lọc bệnh lý phụ khoa cơ bản dành cho khách hàng là nữ giới, không giới hạn độ tuổi và có thể có những triệu chứng như sau: Chảy máu bất thường vùng âm đạo Gặp vấn đề về kinh nguyệt: chu kỳ kéo dài bất thường, kinh nguyệt không đều Dịch âm đạo bất thường (có mùi hôi, màu sắc khác bình thường) Đau, ngứa vùng kín Khách hàng nữ có một vài yếu tố nguy cơ như vệ sinh cá nhân không tốt, quan hệ tình dục không an toàn, nạo phá thai,... Khách hàng nữ có triệu chứng khác như: Dịch âm đạo bất thường, ngứa, đau vùng kín, chảy máu âm đạo bất thường.",
+                "score": 0.5912714004516602,
+                "id": "vietnamese_healthcare_90290",
+                "rerank_score": 0.013173679821193218
+            },
+            {
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.663143515586853,
+                "id": "vietnamese_healthcare_2290",
+                "rerank_score": 0.004597772844135761
+            },
+            {
+                "text": "Câu hỏi: Cách tránh rượu khi mang thai\nTrả lời: 3. Cách tránh rượu khi mang thai\nCó thể không khó như bạn nghĩ để tránh hoàn toàn rượu khi mang thai, vì nhiều phụ nữ đã bỏ rượu ngay từ khi mang thai. Hầu hết phụ nữ đều từ bỏ rượu sau khi biết mình có thai hoặc khi dự định có thai. Phụ nữ phát hiện mình có thai sau khi uống rượu trong giai đoạn đầu thai kỳ nên tránh uống thêm. Tuy nhiên, họ không nên lo lắng một cách không cần thiết, vì nguy cơ em bé của họ bị ảnh hưởng là rất thấp. Nếu bạn lo lắng, hãy nói chuyện với nữ hộ sinh hoặc bác sĩ. Rượu có hại cho thai nhi, vì vậy mẹ bầu nên tránh sử dụng",
+                "score": 0.6185250282287598,
+                "id": "vietnamese_healthcare_155928",
+                "rerank_score": 0.001155839185230434
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Phụ nữ mang thai nên làm gì khi bị phát hiện nhiễm HIV?\nTrả lời: 2. Phụ nữ mang thai nên làm gì khi bị phát hiện nhiễm HIV?\nKhi nghi ngờ nhiễm HIV ở phụ nữ mang thai, tất cả thai phụ nên đến các cơ sở y tế để được khám và tư vấn xét nghiệm HIV càng sớm càng tốt (trong 3 tháng đầu). Nếu phát hiện bệnh và được uống thuốc theo phác đồ điều trị sớm, thai phụ có thể đảm bảo hiệu quả tối ưu trong việc giảm tỷ lệ lây nhiễm HIV từ mẹ sang con. Trường hợp bà mẹ mang thai bị nhiễm HIV muốn mang thai thì cần đảm bảo sức khỏe tốt trước khi mang thai. Nếu phụ nữ mang thai khi bị nhiễm HIV và chưa được điều trị bằng ARV, nên tham khảo ý kiến bác sĩ về thời điểm phù hợp để điều trị dự phòng nhằm ngăn ngừa khả năng lây nhiễm HIV sang cho con. Nếu bạn đang được điều trị ARV cho phụ nữ mang thai , bạn nên đến gặp bác sĩ sớm để trao đổi về các loại thuốc có thể uống trong thời kỳ mang thai. Tùy thuộc thời điểm xác định HIV dương tính vào giai đoạn nào của thai kỳ, các bác sĩ sẽ có chỉ định dự phòng phù hợp và việc dùng thuốc điều trị ARV sẽ được thực hiện theo phác đồ riêng. Khi chuyển dạ, cần hạn chế tối thiểu các chấn thương cho thai phụ và cho trẻ: đảm bảo vô khuẩn tuyệt đối khi đỡ đẻ, không được rạch màng ối sớm, hạn chế can thiệp gây chảy máu đường sinh dục trong thời gian khi sinh, tránh các thủ thuật can thiệp dễ gây tổn thương da cho thai nhi,... Sau khi sinh, hãy nuôi trẻ bằng sữa ngoài thay thế sữa mẹ để tránh nguy cơ lây nhiễm HIV từ sữa mẹ. Đảm bảo trẻ được xét nghiệm chẩn đoán sớm HIV khi được 4 - 6 tuần tuổi. Nếu bé được chẩn đoán mắc HIV, cả mẹ và bé đều nên dùng thuốc điều trị HIV theo chỉ định. Phụ nữ mang thai bị nhiễm HIV",
+                "score": 0.5742199420928955,
+                "id": "vietnamese_healthcare_51730",
+                "rerank_score": 0.06949544697999954
+            },
+            {
+                "text": "Câu hỏi: Mẹ bầu ra khí hư bất thường khi mang thai nên làm gì?\nTrả lời: 3. Mẹ bầu ra khí hư bất thường khi mang thai nên làm gì?\nHầu như trong suốt quá trình thai kỳ, bác sỹ luôn khuyên mẹ bầu cần chú ý theo dõi những dấu hiệu khí hư bất thường cũng như những thay đổi khác của cơ thể để chủ động thăm khám trong thời gian sớm nhất, phòng ngừa biến chứng. Đây là cách mẹ bầu bảo vệ sức khỏe bản thân trong thời kỳ nhạy cảm cũng như chăm sóc và bảo vệ con yêu tốt nhất. Khi xuất hiện những dấu hiệu khí hư bất thường khi mang thai, mẹ bầu nên nhanh chóng đến gặp bác sĩ chuyên khoa để thăm khám, xác định nguyên nhân cũng như đưa ra phương pháp điều trị hiệu quả. Ngoài ra, khi mang thai, các mẹ cần lưu ý những điều khi thấy khí hư bất thường sau: Khí hư khi mang thai có màu gì thì mẹ cũng không nên tùy tiện mua và sử dụng thuốc uống, thuốc đặt khi chưa có chỉ định từ bác sĩ chuyên khoa. Việc sử dụng thuốc ở thời điểm thai kỳ này cần hết sức thận trọng vì nó có thể gây ảnh hưởng trực tiếp đến sự phát triển của thai nhi. Sử dụng thuốc đúng liều lượng, tuân thủ theo chỉ định điều trị của bác sĩ. Thăm khám phụ khoa tại cơ sở y tế uy tín, điều trị và khắc phục hiện tượng khí hư bất thường sớm trước khi sinh để tránh lây nhiễm sang em bé. Vệ sinh vùng kín sạch sẽ, có chế độ ăn uống và sinh hoạt điều độ, không tùy tiện áp dụng những mẹo chữa dân gian không khoa học.",
+                "score": 0.5847162008285522,
+                "id": "vietnamese_healthcare_108688",
+                "rerank_score": 0.03695834055542946
+            },
+            {
+                "text": "Câu hỏi: Cách điều trị mẹ bầu bị polyp cổ tử cung khi đang mang thai\nTrả lời: 3. Cách điều trị mẹ bầu bị polyp cổ tử cung khi đang mang thai\nVới phụ nữ, khi có các triệu chứng, dấu hiệu của bệnh liên quan đến phụ khoa thường gây hoang mang, lo lắng. Đặc biệt, với phụ nữ mang thai bị polyp cổ tử cung càng được điều trị sớm sẽ tránh được những tổn thương, ảnh hưởng đến cả mẹ bầu và thai nhi. Bác sĩ sẽ đưa ra các phương pháp điều trị hợp lý cho mẹ bầu. Điều trị polyp cổ tử cung khi đang mang thai nên sử dụng các phương pháp can thiệp ngoại khoa để cắt bỏ khối polyp. Trong trường hợp xuất hiện chân cuống sẽ tiến hành đốt điện để tránh bị mọc lại. Bác sĩ sẽ hạn chế sử dụng thuốc cho phụ nữ mang thai, do sẽ có ảnh hưởng đến sức khỏe của thai nhi. Đối với các polyp có kích thước lớn cần lựa chọn thời gian và phương pháp phù hợp để loại bỏ khối polyp mà không gây ảnh hưởng đến thai. Polyp cổ tử cung có thể gây chảy máu kéo dài trong thai kỳ và theo dõi dưỡng thai khá mất công, trong trường hợp cần thiết cần cắt polyp khi thai đủ lớn qua ngã âm đạo. Điều quan trọng, phụ nữ cần thường xuyên đi khám phụ khoa để phát hiện sớm và điều trị bệnh sớm. Các mẹ bầu càng cần phải lưu ý trước khi quyết định làm mẹ hãy đi khám sức khỏe tổng quát cũng như khám sức khỏe phụ khoa để chắc chắn rằng sức khỏe của mình hoàn toàn khỏe mạnh. Trong quá trình mang thai nên thực hiện khám thai đầy đủ để theo dõi sức khỏe cũng như tình trạng phát triển của thai nhi. Đây cũng chính là cách để bạn phát hiện mình có mắc bệnh polyp cổ tử cung hay không, từ đó có hướng can thiệp kịp thời tránh để ảnh hưởng đến cả mẹ và bé. Khám sàng lọc bệnh lý phụ khoa cơ bản tại Bệnh viện Đa khoa Quốc tế Vinmec Để giúp khách hàng phát hiện và điều trị sớm các bệnh phụ khoa khác, Bệnh viện Đa khoa Quốc tế Vinmec có Gói khám, sàng lọc bệnh lý phụ khoa cơ bản , giúp khách hàng phát hiện bệnh sớm các bệnh lý viêm nhiễm giúp điều trị dễ dàng, không tốn kém. Sàng lọc phát hiện sớm ung thư phụ khoa (Ung thư cổ tử cung) ngay cả khi chưa có triệu chứng. Gói khám, sàng lọc bệnh lý phụ khoa cơ bản dành cho khách hàng là nữ giới, không giới hạn độ tuổi và có thể có những triệu chứng như sau: Chảy máu bất thường vùng âm đạo Gặp vấn đề về kinh nguyệt: chu kỳ kéo dài bất thường, kinh nguyệt không đều Dịch âm đạo bất thường (có mùi hôi, màu sắc khác bình thường) Đau, ngứa vùng kín Khách hàng nữ có một vài yếu tố nguy cơ như vệ sinh cá nhân không tốt, quan hệ tình dục không an toàn, nạo phá thai,... Khách hàng nữ có triệu chứng khác như: Dịch âm đạo bất thường, ngứa, đau vùng kín, chảy máu âm đạo bất thường.",
+                "score": 0.5899372100830078,
+                "id": "vietnamese_healthcare_90290",
+                "rerank_score": 0.013173679821193218
+            },
+            {
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.6311606168746948,
+                "id": "vietnamese_healthcare_2290",
+                "rerank_score": 0.004597772844135761
+            },
+            {
+                "text": "Câu hỏi: Biện pháp bảo vệ sức khỏe răng miệng trong thời gian mang thai\nTrả lời: 4. Biện pháp bảo vệ sức khỏe răng miệng trong thời gian mang thai\nBên cạnh câu hỏi bà bầu đau răng uống thuốc được không? thì làm sao để bảo vệ sức khỏe răng miệng trong thời gian mang thai cũng là vấn đề được nhiều mẹ bầu quan tâm. Theo đó, một số biện pháp giúp bảo vệ sức khỏe răng miệng cho mẹ bầu có thể kể đến như sau: 4.1. Kiểm tra răng miệng định kỳ trong thời gian mang thai Mẹ bầu cần khám và kiểm tra răng miệng định kỳ trong thai kỳ để bảo vệ và phát hiện sớm các bệnh lý răng miệng có thể xảy ra. Việc phát hiện sớm sẽ có phương pháp điều trị phù hợp và đem lại hiệu quả điều trị cao; Bà bầu đau răng uống thuốc gì nên thăm khám và hỏi ý kiến bác sĩ chuyên khoa",
+                "score": 0.5777794718742371,
+                "id": "vietnamese_healthcare_113582",
+                "rerank_score": 0.0015578335151076317
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

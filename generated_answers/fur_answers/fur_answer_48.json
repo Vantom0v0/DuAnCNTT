@@ -1,0 +1,117 @@
+{
+    "model_name": "fur",
+    "question": "Kết quả xét nghiệm HBV-DNA: 2.93E+IU/ml có ý nghĩa gì?",
+    "ground_truth": "Xét nghiệm HBV-DNA dùng để phát hiện và định lượng DNA của virus viêm gan B trong máu. Đây là một xét nghiệm rất hữu ích để chẩn đoán một số trường hợp nhiễm virus viêm gan B cấp ở giai đoạn sớm, phân biệt nhiễm HBV thể hoạt động và không hoạt động, là một tiêu chí trong điều trị cũng như theo dõi hiệu quả điều trị. Trường hợp của bạn, kết quả HBV-DNA ở mức 2.93 x 10 mũ 7 IU/ml, là mức cao. Bạn cần làm các xét nghiệm khác để chẩn đoán giai đoạn bệnh và xem xét điều trị.",
+    "answer": "Kết quả **“HBV-DNA: 2.93E+ IU/mL” chưa đầy đủ**, vì ký hiệu **E+ phải đi kèm một số mũ**, ví dụ:\n\n- **2.93E+02 IU/mL** = 293 IU/mL  \n- **2.93E+03 IU/mL** = 2.930 IU/mL  \n- **2.93E+04 IU/mL** = 29.300 IU/mL  \n\nVì vậy, hiện **chưa thể xác định chính xác giá trị số, quy đổi sang copies/mL hoặc phân loại tải lượng thấp/cao**. Theo thông tin cung cấp, **1 IU tương đương khoảng 5–6 copies**; tuy nhiên, việc đánh giá và quyết định điều trị không thể dựa vào riêng HBV-DNA mà cần kết hợp men gan, HBeAg, tình trạng nhiễm cấp hay mạn và mức độ xơ hóa gan.\n\nBạn nên kiểm tra lại phiếu xét nghiệm xem phần sau **“E+” là số mũ nào**, đồng thời xem đơn vị có ghi đầy đủ là **IU/mL** và ngưỡng phát hiện/ngưỡng định lượng của phòng xét nghiệm hay không.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Kết quả định lượng HBV-DNA có nghĩa là gì?\nTrả lời: Đây là nồng độ virus viêm gan B có trong 01ml máu. Tuy nhiên, 102 có theo tôi hiểu là 10 mũ 2 và chỉ với một xét nghiệm này không đủ để đánh giá vấn đề viêm gan virus B bạn nhé",
+            "score": 0.6897801756858826,
+            "id": "vietnamese_healthcare_2678",
+            "rerank_score": 0.8069215416908264
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm xét nghiệm chỉ số HBV DNA có kết quả 80,000/ml. Bác sĩ cho em hỏi chỉ số HBV DNA 80,000/ml có ý nghĩa gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nKết quả xét nghiệm chỉ số HBV DNA có kết quả 80,000/ml chưa có đơn vị rõ ràng nên bác sĩ không giải thích cụ thể trường hợp của bạn.\nThông thường chỉ số HBV DNA có 2 loại đơn vị là IU/mL và copies/mL. Tuy nhiên kết quả của bạn dù đơn vị là IU/ml hay copies/mL thì tải lượng virus của bạn cũng ở mức khá cao hay nói cách khác số lượng virus trong cơ thể bạn ở mức khá cao. Bạn nên đi khám và tham khảo tư vấn bác sĩ chuyên khoa cũng như làm thêm các xét nghiệm khác để đánh giá chính xác nhất chức năng gan.\nTrân trọng!",
+            "score": 0.5265974998474121,
+            "id": "vietnamese_medical_qa_270",
+            "rerank_score": 0.7637662291526794
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm xét nghiệm HBV - DNA và có kết quả: 4,5x10/3 copies/ml. Bác sĩ tư vấn kết quả xét nghiệm HBV - DNA. Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nXét nghiệm HBV - DNA và có kết quả: 4,5x10/3 copies/ml của bạn có nghĩa là bạn đang bị nhiễm virus Viêm gan B. Đây là xét nghiệm đo tải lượng virus, được tính bằng số copies/ ml huyết thanh. Bạn nên đi khám và làm thêm các xét nghiệm để thăm dò chức năng gan khác như siêu âm gan, xét nghiệm men gan, các marker viêm gan khác như HBeAg, HBc IgM, HBc IgG để biết chính xác tình trạng nhiễm virus hiện tại, để bác sĩ tư vấn theo dõi sức khỏe định kỳ và tư vấn điều trị.\nTrân trọng!",
+            "score": 0.5710693597793579,
+            "id": "vietnamese_medical_qa_669",
+            "rerank_score": 0.556541383266449
+        },
+        {
+            "text": "Câu hỏi: !Kết quảđịnh lượng HBV-DNA45 IU/ml (1.66 Log10) nghĩa là gìạ? Xin vui lòng giải đáp giúp, cảm ơn bác sĩ! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Kết quảđịnh lượng HBV-DNA45 IU/ml (1.66 Log10) là chỉ số đánh giá lượng bản saovirus viêm gan Blưu hành trong máu. Chỉ số này tương đương 261 bản sao virus trong 1 ml huyết tương. Trong trường hợp này, bạn có thể đến cơ sở y tế hoặc các bệnh viện thuộcHệ thống Y tế Vinmecđể bác sĩ chuyên khoa thăm khám và tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng và gửi thắc mắc: “Kết quả định lượng HBV-DNA 45 IU/ml (1.66 Log10) nghĩa là gì?” tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiTiến sĩ, Bác sĩ Trần Thị Phương Thúy- Khoa Nội tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.6080238819122314,
+            "id": "medical_vietnamese_qa_11368",
+            "rerank_score": 0.2308647632598877
+        },
+        {
+            "text": "Câu hỏi: Kết quả HBsAG có chỉ số POS 5514,26 có nghĩa là gì?\nTrả lời: Ngưỡng phản ứng xét nghiệm HBsAg là 1,0 (COI), Nghĩa là kết quả > 1,0 được cho là có phản ứng hay dương tính. Trường hợp của bạn, cho kết quả 5514,26 là dương tính, nghĩa là bạn đã bị nhiễm virus viêm gan B (HBV). HBV là virus gây viêm gan cấp và mạn. Nếu bị nhiễm ở tuổi trưởng thành khả năng tự khỏi là 80-90%. Trường hợp của bạn, cần được thăm khám, hỏi tiền sử bệnh viêm gan, đánh giá các nguy cơ, làm thêm các xét nghiệm khác để có kết luận tình trạng nhiễm HBV của bạn là đang ở giai đoạn nào (cửa sổ, cấp hay mạn), có cần điều trị không, chế độ theo dõi như thế nào?",
+            "score": 0.5650824904441833,
+            "id": "vietnamese_healthcare_2031",
+            "rerank_score": 0.08335281908512115
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm có làm xét nghiệm định lượng virus viêm gan B. Kết quả AST và ALT bình thường, HBV - DNA là 44000 IU/ml - 220000 copies/ml. Vậy bác sĩ cho em hỏi kết quả HBV - DNA là 44000 IU/ml có sao không? Mức virus ở mức nào cao hay thấp có cần điều trị không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nKết quả HBV-DNA của bạn có giá trị copies/ml và giá trị IU/ml là đơn vị quốc tế được quy đổi ra từ giá trị copies/ml. Với kết quả của bạn thì HBV-DNA ở mức cao và đáp ứng tiêu chuẩn để điều trị, tuy nhiên men gan bình thường.\nVì vậy, bạn cần đến cơ quan y tế để được tư vấn thêm về một số vấn đề liên quan (tiền sử gia đình) và chỉ định thêm siêu âm đánh giá mức độ xơ hóa gan.\nTrân trọng!",
+            "score": 0.43503257632255554,
+            "id": "vietnamese_medical_qa_1120",
+            "rerank_score": 0.8557261228561401,
+            "weighted_score": 0.783654236793518
+        },
+        {
+            "text": "Câu hỏi: Em đang bị viêm gan B mãn tính, vừa mới xét nghiệm kiểm tra thì chỉ số men gan AST 51,6 u/l, ALT 77,6 u/l, định lượng HBV 87.500.000 copies/ml. Mong bác sĩ tư vấn chocách điều trị viêm gan B mãn tính là gì? Cần chú ý những gì? Em xin cảm ơn bác sĩ. Trần Quý Nhân(1993) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Tấn Phúc- Bác sĩ Nội tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc\nTrả lời: bác sĩ xin giải đáp như sau: Xét nghiệm định lượng nồng độ HBV-DNA còn được gọi là đo tải lượng nồng độ virus viêm gan B có trong máu. Đây là kỹ thuật xét nghiệm hiện đại nhằm xác định chính xác số lượng cũng như nồng độ của virus trong một đơn vị thể tích huyết tương/huyết thanh, sử dụng đơn vị IU/ml hoặc copies/ml (1IU sẽ tương đương với 5-6 copies). Từ đó đánh giá mức độ nhân lên của virus trong các tế bào gan. Kết quả định lượng HBV của bạn là 87.500.000, vượt ngưỡng 10^7 copies/ml thì virus đang ở giai đoạn sao chép rất mạnh. Hàm lượng virus trong máu người bệnh càng cao thì nguy cơ gan tổn thương cũng như biến chứng xơ gan và ung thư gan càng lớn. Ngoài ra, tỷ lệ lây nhiễm cho người khác là rất cao. Kết hợp với men gan bạn ALT: 77,6 tăng hơn gấp đôi giá trị bình thường chuẩn (35). Do đó bác sĩ tư vấn bạn nên đến cơ sở y tế chuyên khoa khám và uống thuốc kháng virus ngay.",
+            "score": 0.40943193435668945,
+            "id": "medical_vietnamese_qa_11174",
+            "rerank_score": 0.5707377195358276,
+            "weighted_score": 0.712110447883606
+        },
+        {
+            "text": "Câu hỏi: . Cháu xét nghiệm HBV - DNA cho kết quả 210 copies/ml. Vậy có nguy hiểm không bác sĩ? Mong nhận được những chia sẻ hữu ích của bác sĩ. Vũ Văn Phương(1998) Trả lời\nTrả lời: Chào bạn. HBV - DNA là một xét nghiệm quan trọng để đánh giá lượng virus cũng như theo dõi đáp ứng điều trịviêm gan B. Thông thường, giá trị trung bình của HBV - DNA: Từ 10^3 - 10^5 copies/ml máu thì virus đang ở giai đoạn sao chép chưa mạnh Từ 10^5 - 10^7 copies/ml máu thì virus đang ở giai đoạn sao chép tương đối mạnh Từ vượt ngưỡng 10^7 copies/ml máu thì virus đang ở giai đoạn sao chép rất mạnh. Hàm lượng virus trong máu người bệnh càng cao thì nguy cơ gan tổn thương cũng như biến chứng xơ gan vàung thư gancàng lớn. Bên cạnh đó, càng dễ lây nhiễm cho người khác. Để được tư vấn kỹ và chuyên sâu hơn về xét nghiệm HBV - DNA, bạn có thể đến trực tiếp bệnh viện thuộcHệ thống Y tế Vinmec, các bác sĩ sẽ tiến hành kiểm tra và đưa ra lời khuyên phù hợp với tình trạng sức khỏe hiện tại của bạn. Cảm ơn bạn đã tin tưởng và chia sẻ những thắc mắc tới Vinmec. Chúc bạn luôn có sức khỏe tốt. Được giải đáp bởi cácBác sĩ Hồi sức cấp cứu - Khoa Hồi sức cấp cứu - Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng Các nội dung tư vấn khác Mắc viêm gan B uống Glucosamine có ảnh hưởng gì không? HbsAg dương tính là dấu hiệu của viêm gan B? Có thể phòng tránh viêm gan B mà không tiêm phòng không? Các bài viết cùng chủ đề Bệnh viêm gan siêu vi B và các đường lan truyền của bệnh Triệu chứng cảnh báo viêm gan tự miễn Đặc điểm lâm sàng của viêm gan tự miễn",
+            "score": 0.49746420979499817,
+            "id": "medical_vietnamese_qa_11535",
+            "rerank_score": 0.3453645706176758,
+            "weighted_score": 0.4618182420730591
+        },
+        {
+            "text": "Câu hỏi: Cháu có đi đo tải định lượng HBV của viêm gan B, bác sĩ bảo là virus dưới ngưỡng phát hiện. Khi cháu hỏi nồng độ HBV thì bác sĩ trả lời là không có, bác sĩ giải thích rằng có trường hợp bị viêm gan B nhưng virus chỉ ở trong gan, không ra ngoài máu, có khi tự khỏi nếu HbsAg âm tính. Tuy nhiên, lúc đo tải định lượng cháu không kiểm tra lại HBsAg. Bác sĩ cho cháu hỏi,nồng độ HBV-DNA đạt dưới ngưỡng được phát hiện có ý nghĩa gì?Nếu HBsAg của cháu âm tính thì có phải cơ thể hoàn toàn khỏi bệnh và có thể tiêm phòng vacxin viêm gan B không? Nếu HBsAg vẫn dương tính thì đo HBV trong gan như thế nào?\nTrả lời: bác sĩ xin giải đáp như sau: Kết quả đo tải lượngHBV-DNAcó 3 loại như sau: Nêu số lượng cụ thể, ví dụ như: 6.5 x10^3 bản sao/ml Dưới ngưỡng phát hiện: còn virus trong máu nhưng thấp hơn ngưỡng phát hiện của kỹ thuật. Tùy loại kỹ thuật mà phòng xét nghiệm sử dụng, ngưỡng này sẽ khác nhau. Ví dụ: nếu tải lượng virus thực của bạn là 200 bản sao/ml, nếu ngưỡng phát hiện là 300 bản sao/mL thì trả kết quả là dưới ngưỡng phát hiện. Nếu ngưỡng phát hiện là 116 bản sao/mL, thì trả kết quả là 200 bản sao/ mL Không phát hiện: nghĩa là không phát hiện virus trong máu Trường hợp của bạn kết quả là còn virus trong máu nhưng thấp hơn ngưỡng phát hiện. Bạn vẫn chưa khỏi bệnh. Trường hợp HBsAg còn dương tính nghĩa là còn mắc bệnh, không cần đo tải lượng HBV trong gan. Để đo tải lượng HBV trong gan, bệnh nhân cần làm sinh thiết gan, tức là lấy một mảnh nhỏ mô gan qua kim. Xét nghiệm này chỉ thực hiện trong các nghiên cứu. Để xác định là khỏi bệnh, cần có kết quả xét nghiệm HBsAg âm tính và HBsAb dương tính đồng thời.",
+            "score": 0.5188639760017395,
+            "id": "medical_vietnamese_qa_8909",
+            "rerank_score": 0.7623109221458435,
+            "weighted_score": 0.6881802916526795
+        },
+        {
+            "text": "Câu hỏi: Người nhà em vừa xét nghiệm với các định lượng: AST: 44 U/L, ALT: 41 U/L, HBeAg: âm tính, HBV-DNA dương tính: 2.05x10^3 copies/ml (2.050 copies/ml) (ngưỡng định lượng: 300 copies/ml). Bác sĩ cho em hỏiý nghĩa các chỉ số xét nghiệm chức năng gan?Em cảm ơn bác sĩ. Nguyễn Thanh Ngân(2001) Trả lời\nTrả lời: Chào bạn, Với câu hỏi: “Ý nghĩa các chỉ số xét nghiệm chức năng gan?”bác sĩ xin được giải đáp như sau: Người nhà bạn đang nhiễm virus viêm gan B (HBV-DNA dương tính nhưng ở dưới ngưỡng 10^4 copies/ml) và HBeAg âm tính (nghĩa là virus đang không nhân lên). Hơn nữa, AST và ALT tăng nhẹ (>35 U/L đối với nữ và >50 U/L với nam) nhưng vẫn chưa gấp 2 lần so với ngưỡng giới hạn trên. Như vậy, người nhà bạn đang nhiễm virus viêm gan B giai đoạn không hoạt động, chưa có đủ tiêu chí để điều trị. Bạn cần khám và định kỳ làm xét nghiệm để theo dõi tình trạng bệnh sau 3-6 tháng tùy loại xét nghiệm.  Được giải đáp bởiBác sĩ nội trú, Bác sĩ Nguyễn Thị Thúy Hằng -Khoa Xét nghiệm - Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+            "score": 0.4445549547672272,
+            "id": "medical_vietnamese_qa_11285",
+            "rerank_score": 0.3220578730106354,
+            "weighted_score": 0.5003903687000275
+        },
+        {
+            "text": "Câu hỏi: Người nhà em vừa xét nghiệm với các định lượng: AST: 44 U/L, ALT: 41 U/L, HBeAg: âm tính, HBV-DNA dương tính: 2.05x10^3 copies/ml (2.050 copies/ml) (ngưỡng định lượng: 300 copies/ml). Bác sĩ cho em hỏiý nghĩa các chỉ số xét nghiệm chức năng gan?Em cảm ơn bác sĩ. Nguyễn Thanh Ngân(2001) Trả lời\nTrả lời: Chào bạn, Với câu hỏi: “Ý nghĩa các chỉ số xét nghiệm chức năng gan?”bác sĩ xin được giải đáp như sau: Người nhà bạn đang nhiễm virus viêm gan B (HBV-DNA dương tính nhưng ở dưới ngưỡng 10^4 copies/ml) và HBeAg âm tính (nghĩa là virus đang không nhân lên). Hơn nữa, AST và ALT tăng nhẹ (>35 U/L đối với nữ và >50 U/L với nam) nhưng vẫn chưa gấp 2 lần so với ngưỡng giới hạn trên. Như vậy, người nhà bạn đang nhiễm virus viêm gan B giai đoạn không hoạt động, chưa có đủ tiêu chí để điều trị. Bạn cần khám và định kỳ làm xét nghiệm để theo dõi tình trạng bệnh sau 3-6 tháng tùy loại xét nghiệm.  Được giải đáp bởiBác sĩ nội trú, Bác sĩ Nguyễn Thị Thúy Hằng -Khoa Xét nghiệm - Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+            "score": 0.4445549547672272,
+            "id": "medical_vietnamese_qa_11281",
+            "rerank_score": 0.3220578730106354,
+            "weighted_score": 0.5003903687000275
+        },
+        {
+            "text": "Câu hỏi: Tôi xét nghiệm có chỉ số HBV DNA là 41 IU/mL huyết tương (ngưỡng định lượng: Lớn hơn hoặc bằng 10IU/mL. 1IU bằng 5,82 copies). Bác sĩ cho tôi hỏichỉ số HBV DNA 41 IU/mL có ý nghĩa gì?Theo chỉ số trên thì bệnh đã khỏi chưa? Trước tôi bị viêm gan siêu vi B mạn, đã điều trị gần 2 năm nay. Tôi vẫn uống thuốc và làm theo chỉ dẫn của bác sĩ. Mong bác sĩ tư vấn, tôi cảm ơn.  Chào bác, Với câu hỏi “Chỉ số HBV DNA 41 IU/mL có ý nghĩa gì?”,\nTrả lời: bác sĩ xin giải đáp như sau: Với kết quả xét nghiệm HBV DNA là 41 IU/mL huyết tương ( ngưỡng định lượng lớn hơn hoặc bằng 10IU/mL. 1IU bằng 5,82 copies) thì virus viêm gan B vẫn còn tồn tại với nồng độ khá thấp (khoảng 238virus/ ml huyết thanh). Tình trạngviêm gan B mạn tínhcủa bác khả năng khỏi hẳn khi điều trị cũng có nhưng tỷ lệ không cao. Việc dùng thuốc để hạn chế sự nhân lên của virus, ngăn chặn các biến chứng của bệnh nên vẫn cần điều trị thuốc thường xuyên và làm theo chỉ dẫn của bác sĩ. Nếu bác còn thắc mắc vềchỉ số HBV DNA 41 IU/mL, bác có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bác đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bác có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.44889751076698303,
+            "id": "medical_vietnamese_qa_10628",
+            "rerank_score": 0.5250358581542969,
+            "weighted_score": 0.7313825130462647
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm vừa làm xét nghiệm HBV-DNA PCR định lượng và có kết quả là 2733676 copies/ml. Vậy bác sĩ cho em hỏi chỉ số xét nghiệm HBV-DNA ở mức nào sẽ được chỉ định dùng thuốc? Mong bác sĩ tư vấn, em xin chân thành cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn cần đưa đầy đủ các thông tin: Tuổi, tình trạng nhiễm cấp hay mạn, men gan, mức độ xơ hóa gan và một số xét nghiệm khác mới có thể tư vấn được phương hướng điều trị cho bạn. Ví dụ: Nếu bạn nhiễm virus viêm gan B mạn tính thì phải phối hợp thêm yếu tố có tổn thương tế bào gan (men gan tăng cao gấp ít nhất 2 lần ngưỡng giới hạn bình thường trên và/hoặc xơ hóa gan F lớn hơn hoặc bằng 2),...\nTrân trọng!",
+            "score": 0.5401934385299683,
+            "id": "vietnamese_medical_qa_4103",
+            "rerank_score": 0.5095157623291016,
+            "weighted_score": 0.41130077838897705
+        },
+        {
+            "text": "Câu hỏi: . Tôi đo HBV - DNA qua xét nghiệm là 6,15 x 10^2 copies/ml. Xin hỏi bác sĩ có thể giải thích cho tôi hiểu được không ạ? Xin cảm ơn bác sĩ đã chia sẻ cùng tôi. Nguyễn Thị Hải (1970) Trả lời\nTrả lời: Chào bạn.Viêm gan Blà bệnh dovirus HBVgây ra, nếu tình trạng nhiễm trở nên mãn tính thì điều quan trọng cần làm là ngăn chặn và giảm thiểu tổn hại cho gan. Nếu được điều trị đúng cách thì tiên lượng bệnh thường rất tốt. Tuy nhiên, không phải lúc nào cũng phải điều trị ngay bằng các thuốc kháng virus mà cần theo dõi và xét nghiệm đánh giá tình trạng gan cũng như cơ thể để việc điều trị đạt được hiệu quả cao nhất. Việc cần làm của bạn là nên theo dõi và khám gan định kỳ, hạn chế làm việc gắng sức quá mức, bổ sung dinh dưỡng và giảm việc tiêu thụ các chất gây hại cho gan. HBV DNA là chỉ số dùng để đánh giá sự nhân lên của virus và là mốc dùng để quyết định điều trị thuốc kháng virus trên người bệnh viêm gan B. Các cột mốc này được lấy dựa trên các nghiên cứu lớn của thế giới và được cập nhật hằng năm theo số liệu y học có được. Do đó, việc theo dõi chỉ số này trên lâm sàng là cực kỳ hữu ích giúp bác sĩ và người bệnh cùng nhau đưa ra cách điều trị tốt nhất cho bạn. Để có những tư vấn chuyên sâu về tình trạng sức khỏe bản thân, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđăng ký khám. Các bác sĩ giàu chuyên môn sẽ kiểm tra và đưa ra hướng điều trị trong trường hợp cần thiết. Trân trọng. Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Quốc Lân- Bác sĩ Nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng Các nội dung tư vấn khác Mắc viêm gan B uống Glucosamine có ảnh hưởng gì không? Virus viêm gan chưa hoạt động có nên dùng thực phẩm chức năng? Viêm gan B cấp nên điều trị thuốc gì ? Các bài viết cùng chủ đề Bệnh viêm gan siêu vi B và các đường lan truyền của bệnh Tác dụng phụ có thể gặp sau tiêm vắc-xin Infanrix IPV Hib thế hệ mới Bệnh viêm gan tự miễn có nguy hiểm?",
+            "score": 0.4525161385536194,
+            "id": "medical_vietnamese_qa_11532",
+            "rerank_score": 0.29881730675697327,
+            "weighted_score": 0.4003879606723786
+        },
+        {
+            "text": "Câu hỏi: . Tôi đo HBV - DNA qua xét nghiệm là 6,15 x 10^2 copies/ml. Xin hỏi bác sĩ có thể giải thích cho tôi hiểu được không ạ? Xin cảm ơn bác sĩ đã chia sẻ cùng tôi. Nguyễn Thị Hải (1970) Trả lời\nTrả lời: Chào bạn.Viêm gan Blà bệnh dovirus HBVgây ra, nếu tình trạng nhiễm trở nên mãn tính thì điều quan trọng cần làm là ngăn chặn và giảm thiểu tổn hại cho gan. Nếu được điều trị đúng cách thì tiên lượng bệnh thường rất tốt. Tuy nhiên, không phải lúc nào cũng phải điều trị ngay bằng các thuốc kháng virus mà cần theo dõi và xét nghiệm đánh giá tình trạng gan cũng như cơ thể để việc điều trị đạt được hiệu quả cao nhất. Việc cần làm của bạn là nên theo dõi và khám gan định kỳ, hạn chế làm việc gắng sức quá mức, bổ sung dinh dưỡng và giảm việc tiêu thụ các chất gây hại cho gan. HBV DNA là chỉ số dùng để đánh giá sự nhân lên của virus và là mốc dùng để quyết định điều trị thuốc kháng virus trên người bệnh viêm gan B. Các cột mốc này được lấy dựa trên các nghiên cứu lớn của thế giới và được cập nhật hằng năm theo số liệu y học có được. Do đó, việc theo dõi chỉ số này trên lâm sàng là cực kỳ hữu ích giúp bác sĩ và người bệnh cùng nhau đưa ra cách điều trị tốt nhất cho bạn. Để có những tư vấn chuyên sâu về tình trạng sức khỏe bản thân, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđăng ký khám. Các bác sĩ giàu chuyên môn sẽ kiểm tra và đưa ra hướng điều trị trong trường hợp cần thiết. Trân trọng. Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Quốc Lân- Bác sĩ Nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng Các nội dung tư vấn khác Mắc viêm gan B uống Glucosamine có ảnh hưởng gì không? Virus viêm gan chưa hoạt động có nên dùng thực phẩm chức năng? Viêm gan B cấp nên điều trị thuốc gì ? Các bài viết cùng chủ đề Bệnh viêm gan siêu vi B và các đường lan truyền của bệnh Tác dụng phụ có thể gặp sau tiêm vắc-xin Infanrix IPV Hib thế hệ mới Bệnh viêm gan tự miễn có nguy hiểm?",
+            "score": 0.4525161385536194,
+            "id": "medical_vietnamese_qa_11525",
+            "rerank_score": 0.29881730675697327,
+            "weighted_score": 0.4003879606723786
+        },
+        {
+            "text": "Câu hỏi: Nồng độ virus viêm gan B trong máu 7.26 x 10^4 copies nghĩa là gì?\nTrả lời: Xét nghiệm định lượng HBV-DNA hay còn gọi là định lượng virus viêm gan B trong máu là một xét nghiệm nhằm xác định số lượng hay nồng độ của virus trong một đơn vị thể tích huyết tương/huyết thanh, sử dụng đơn vị IU/ml hoặc copy/ml (1IU tương ứng 5-6 copy), từ đó đánh giá mức độ nhân lên của virus trong các tế bào gan. Với chỉ số xét nghiệm của em có nghĩa là nồng độ virus viêm gan B trong máu của em là 7. . 26 x 10^4 copies/ml.",
+            "score": 0.49414679408073425,
+            "id": "vietnamese_healthcare_3838",
+            "rerank_score": 0.18959341943264008,
+            "weighted_score": 0.2732599228620529
+        }
+    ],
+    "llm_call": 7,
+    "iteration": 3
+}

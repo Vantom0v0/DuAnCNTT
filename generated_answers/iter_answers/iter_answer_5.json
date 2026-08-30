@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Tôi 50 tuổi bị hen suyễn từ nhỏ có tiêm vaccine Covid 19 được không? từ trước đến giờ tôi cũng chưa tiêm loại vaccine ngừa bệnh nào?",
+    "ground_truth": "Trường hợp của anh bị hen suyễn từ lúc nhỏ không nằm trong nhóm danh sách chống chỉ định tiêm vaccine theo hướng dẫn 2995 của Bộ Y tế. Do vậy, anh sẽ trao đổi cụ thể tình trạng bệnh của mình với bác sĩ khám sàng lọc, nếu tình trạng sức khỏe của anh ổn định, hen phế quản của bác đã được kiểm soát anh nên tiêm ngừa vaccine Covid-19 càng sớm càng tốt. Bởi anh là người có yếu tố bệnh lý nền nên dễ mắc Covid-19 nặng hơn các trường hợp khác. Ngoài vaccine Covid-19, anh cũng nên tiêm các vaccine khác đặc biệt là các vaccine ngừa các bệnh lý về đường hô hấp như phế cầu khuẩn hoặc cúm vì khi mắc các bệnh lý trên sẽ làm cho tình trạng hen phế quản của mình trấm trọng hơn.",
+    "answer": "Bạn 50 tuổi và bị hen suyễn từ nhỏ vẫn có thể tiêm vaccine Covid-19 nếu bệnh đang được kiểm soát ổn định, đặc biệt trong 3 tháng gần đây không lên cơn hen, không phải dùng thuốc cắt cơn khẩn cấp, nhập viện hoặc tăng liều điều trị. Nếu đang lên cơn hen hoặc bệnh chưa ổn định, nên tạm hoãn đến khi ổn định trên 3 tháng. Bạn nên tiêm tại bệnh viện hoặc cơ sở có khả năng cấp cứu, thông báo đầy đủ tiền sử hen và việc chưa từng tiêm vaccine trước đây để bác sĩ tư vấn, đồng thời theo dõi phản ứng sau tiêm theo hướng dẫn; nên có người hỗ trợ trong 3 ngày đầu.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi sinh năm 1973, tôi bị bệnh nền hen suyễn mãn tính từ lúc 3 tuổi. Tôi có dùng thuốc xịt nhưng không thường xuyên, bị cơn suyễn khi gặp thời tiết lạnh kéo dài.Bác sĩ cho hỏi tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Hiện tại, bệnh hen suyễn của anh đã được điều trị ổn định (không ở trong giai đoạn cấp) có thể được tiêm chủng vaccine Covid-19. Khi đi tiêm chủng, anh hãy thông báo các thông tin liên quan đến bệnh để bác sĩ hướng dẫn và chỉ định tiêm chủng an toàn. Đặc biệt sau khi tiêm, anh hãy tuân thủ theo đúng hướng dẫn của bác sĩ về theo dõi các phản ứng sau tiêm để kịp thời phát hiện các dấu hiệu bất thường. Anh nên luôn có người hỗ trợ bên cạnh trong 3 ngày đầu tiên nhé.",
+            "score": 0.8195482492446899,
+            "id": "vietnamese_healthcare_755"
+        },
+        {
+            "text": "Câu hỏi: Tôi bệnh hen suyễn từ nhỏ, cấp độ 4 dùng thuốc xịt mỗi đêm. Vậy tôi có tiêm vaccine ngừa Covid-19 được không?\nTrả lời: Nếu tình trạng hen phế quản của bạn ổn định, tức là trong 3 tháng không bị khởi phát cơn hen, không phải nhập viện hoặc không cần tăng liều thuốc thì bạn có thể tiêm vaccine Covid-19 tại bệnh viện.",
+            "score": 0.7936238050460815,
+            "id": "vietnamese_healthcare_6500"
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 60 tuổi, bị hen suyễn, thỉnh thoảng có sử dụng thuốc xịt. Tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, người có bệnh nền nếu đã được điều trị ổn định/đã khỏi vẫn có thể tiêm ngừa vaccine phòng Covid-19. Trường hợp bệnh suyễn của bác, nếu đã điều trị ổn định, bệnh đã được kiểm soát thì bác vẫn được tiêm chủng vaccine Covid-19.",
+            "score": 0.7680182456970215,
+            "id": "vietnamese_healthcare_9533"
+        },
+        {
+            "text": "Câu hỏi: Em bị bệnh hen phế quản và đang dùng corticoid liều thấp có tiêm được vaccine Covid-19 không ạ?\nTrả lời: Trường hợp của anh/chị nếu trong 3 tháng gần đây không xuất hiện cơn hen phải sử dụng thuốc cắt cơn khẩn cấp có thể tiêm được vaccine Covid-19 tại tuyến bệnh viện, còn nếu có phải tạm hoãn và chờ bệnh ổn định trên 3 tháng thì mới được tiêm chủng vaccine.",
+            "score": 0.7570671439170837,
+            "id": "vietnamese_healthcare_5311"
+        },
+        {
+            "text": "Câu hỏi: Tôi uống thuốc huyết áp và bị hen suyễn dùng chai xịt hàng ngày vậy có tiêm ngừa vaccine covid-19 được không bác sĩ?\nTrả lời: Về bệnh tăng huyết áp thì Anh/Chị dùng thuốc mà chỉ số HA trong giới hạn thì có thể tiêm vaccine Covid-19, còn với bệnh hen suyễn nếu trong 3 tháng không bị lên cơn hen và không phải nhập viện hay tăng liều điều trị thì mới đi tiêm. Và để đảm bảo an toàn, Anh/Chị sẽ phải tiêm tại các bệnh viện hoặc cơ sở có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.7540979981422424,
+            "id": "vietnamese_healthcare_5543"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

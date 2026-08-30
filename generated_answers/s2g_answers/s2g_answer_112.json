@@ -1,0 +1,115 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Thưa bác sĩ, em năm nay 30 tuổi em đã hiến thận được 2 năm. Hiện giờ em muốn triệt sản vì vợ em đã sinh 3 bé . Vì không muốn vợ em đẻ thêm tổn hại sức khoẻ em muốn triệt sản. Cho em hỏi, đã hiến thận triệt sản có ảnh hưởng gì không? Mong bác sĩ tư vấn giúp em ạ.",
+    "ground_truth": "Chào bạn! Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả. Cho dù bạn đã hiến thận, bạn vẫn có phẫu thuật được.\nCảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Nam giới đã hiến thận triệt sản có ảnh hưởng gì không?” Rất mong có thể sớm gặp bạn tại AI-Doctor trong thời gian sớm nhất. Trân trọng.",
+    "answer": "Triệt sản nam (phẫu thuật cắt ống dẫn tinh) được mô tả là phương pháp đơn giản, an toàn, hiệu quả và không ảnh hưởng đến sức khỏe cũng như hoạt động tình dục. Tuy nhiên, bằng chứng được cung cấp chưa nêu cụ thể ảnh hưởng riêng ở người đã hiến thận; do đó, bạn nên khám bác sĩ chuyên khoa để được đánh giá tình trạng sức khỏe và tư vấn phù hợp trước khi thực hiện.",
+    "evidence": [
+        "Trả lời: Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận.",
+        "Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bịsuy thận.",
+        "Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận.",
+        "Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phảicắt bỏ thận.",
+        "Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+        "Phương pháp không gây ảnh hưởng tới sức khỏe và hoạt động tình dục."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Nam giới đã hiến thận, triệt sản có ảnh hưởng gì không?\nTrả lời: Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả.",
+                "score": 0.6877009272575378,
+                "id": "vietnamese_healthcare_3682",
+                "rerank_score": 0.9988412261009216
+            },
+            {
+                "text": "Câu hỏi: Em muốnhiến 1 quả thận. Bác sĩ cho em hỏihiến 1 quả thận có ảnh hưởng tới sức khỏe không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bịsuy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phảicắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận. Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+                "score": 0.6198760867118835,
+                "id": "medical_vietnamese_qa_9288",
+                "rerank_score": 0.9925714135169983
+            },
+            {
+                "text": "Câu hỏi: Hiến 1 quả thận có ảnh hưởng tới sức khỏe không?\nTrả lời: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bị suy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phải cắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận.Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+                "score": 0.6392709612846375,
+                "id": "vietnamese_healthcare_3943",
+                "rerank_score": 0.9720702767372131
+            },
+            {
+                "text": "Câu hỏi: Triệt sản nữ có ảnh hưởng gì không?\nTrả lời: 3. Triệt sản nữ có ảnh hưởng gì không?\n“ Triệt sản nữ có ảnh hưởng gì không?” có lẽ là vấn đề được nhiều chị em quan tâm nhất khi đang đắn đo về phương pháp triệt sản này. Nhưng các chị em hoàn toàn yên tâm vì phương pháp triệt sản này cực kỳ an toàn và hiệu quả mà không làm ảnh hưởng đến sức khỏe, giới tính cũng như việc sinh hoạt vợ chồng hàng ngày. Tuy nhiên, có những rủi ro nhất định khi thực hiện triệt sản, tình trạng này rất hiếm gặp và sẽ được các y bác sĩ can thiệp kịp thời. Sau đây là một số tai biến và biến chứng bạn cần chú ý: Tổn thương hệ tiêu hóa Tổn thương hệ tiết niệu Tổn thương mạch máu Bỏng do điện Chảy máu trong ổ bụng Khối máu tụ Có thai lại sau triệt sản Triệt sản nữ có thể ảnh hưởng đến hệ tiêu hóa của người bệnh",
+                "score": 0.6063532829284668,
+                "id": "vietnamese_healthcare_30421",
+                "rerank_score": 0.9206764101982117
+            },
+            {
+                "text": "Câu hỏi: Tác dụng phụ của triệt sản sau sinh là gì?\nTrả lời: 5. Tác dụng phụ của triệt sản sau sinh là gì?\nCác tác dụng phụ của triệt sản sau sinh tùy thuộc vào loại thuốc gây mê được sử dụng và cách thức thực hiện phẫu thuật. Người bệnh có thể cảm thấy đau ở vùng phẫu thuật và cảm giác mệt mỏi. Một số tác dụng phụ có thể xảy ra khi thực hiện thủ thuật triệt sản bao gồm: Chóng mặt Buồn nôn Đau vai Đau quặn bụng Đầy bụng Đau họng (Do sử dụng ống thở trong trường hợp gây mê toàn thân) Trường hợp người bệnh đau bụng kéo dài trong vài ngày hoặc cơn đau dần nặng lên kèm theo sốt, người bệnh phải đến ngay cơ sở y tế để được thăm khám và xử trí.",
+                "score": 0.5608336925506592,
+                "id": "vietnamese_healthcare_97512",
+                "rerank_score": 0.6339011788368225
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nam giới đã hiến thận, triệt sản có ảnh hưởng gì không?\nTrả lời: Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả.",
+                "score": 0.7015108466148376,
+                "id": "vietnamese_healthcare_3682",
+                "rerank_score": 0.9988412261009216
+            },
+            {
+                "text": "Câu hỏi: Em muốnhiến 1 quả thận. Bác sĩ cho em hỏihiến 1 quả thận có ảnh hưởng tới sức khỏe không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bịsuy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phảicắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận. Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+                "score": 0.6301513314247131,
+                "id": "medical_vietnamese_qa_9288",
+                "rerank_score": 0.9925715327262878
+            },
+            {
+                "text": "Câu hỏi: Hiến 1 quả thận có ảnh hưởng tới sức khỏe không?\nTrả lời: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bị suy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phải cắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận.Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+                "score": 0.6526031494140625,
+                "id": "vietnamese_healthcare_3943",
+                "rerank_score": 0.9720702767372131
+            },
+            {
+                "text": "Câu hỏi: Triệt sản nữ có ảnh hưởng gì không?\nTrả lời: 3. Triệt sản nữ có ảnh hưởng gì không?\n“ Triệt sản nữ có ảnh hưởng gì không?” có lẽ là vấn đề được nhiều chị em quan tâm nhất khi đang đắn đo về phương pháp triệt sản này. Nhưng các chị em hoàn toàn yên tâm vì phương pháp triệt sản này cực kỳ an toàn và hiệu quả mà không làm ảnh hưởng đến sức khỏe, giới tính cũng như việc sinh hoạt vợ chồng hàng ngày. Tuy nhiên, có những rủi ro nhất định khi thực hiện triệt sản, tình trạng này rất hiếm gặp và sẽ được các y bác sĩ can thiệp kịp thời. Sau đây là một số tai biến và biến chứng bạn cần chú ý: Tổn thương hệ tiêu hóa Tổn thương hệ tiết niệu Tổn thương mạch máu Bỏng do điện Chảy máu trong ổ bụng Khối máu tụ Có thai lại sau triệt sản Triệt sản nữ có thể ảnh hưởng đến hệ tiêu hóa của người bệnh",
+                "score": 0.6063128709793091,
+                "id": "vietnamese_healthcare_30421",
+                "rerank_score": 0.9206766486167908
+            },
+            {
+                "text": "Câu hỏi: Tác dụng phụ của triệt sản sau sinh là gì?\nTrả lời: 5. Tác dụng phụ của triệt sản sau sinh là gì?\nCác tác dụng phụ của triệt sản sau sinh tùy thuộc vào loại thuốc gây mê được sử dụng và cách thức thực hiện phẫu thuật. Người bệnh có thể cảm thấy đau ở vùng phẫu thuật và cảm giác mệt mỏi. Một số tác dụng phụ có thể xảy ra khi thực hiện thủ thuật triệt sản bao gồm: Chóng mặt Buồn nôn Đau vai Đau quặn bụng Đầy bụng Đau họng (Do sử dụng ống thở trong trường hợp gây mê toàn thân) Trường hợp người bệnh đau bụng kéo dài trong vài ngày hoặc cơn đau dần nặng lên kèm theo sốt, người bệnh phải đến ngay cơ sở y tế để được thăm khám và xử trí.",
+                "score": 0.5659730434417725,
+                "id": "vietnamese_healthcare_97512",
+                "rerank_score": 0.6339019536972046
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nam giới đã hiến thận, triệt sản có ảnh hưởng gì không?\nTrả lời: Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả.",
+                "score": 0.7279919385910034,
+                "id": "vietnamese_healthcare_3682",
+                "rerank_score": 0.9988412261009216
+            },
+            {
+                "text": "Câu hỏi: Em muốnhiến 1 quả thận. Bác sĩ cho em hỏihiến 1 quả thận có ảnh hưởng tới sức khỏe không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bịsuy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phảicắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận. Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+                "score": 0.6374687552452087,
+                "id": "medical_vietnamese_qa_9288",
+                "rerank_score": 0.9925715327262878
+            },
+            {
+                "text": "Câu hỏi: Hiến 1 quả thận có ảnh hưởng tới sức khỏe không?\nTrả lời: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bị suy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phải cắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận.Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+                "score": 0.6566357612609863,
+                "id": "vietnamese_healthcare_3943",
+                "rerank_score": 0.9720702767372131
+            },
+            {
+                "text": "Câu hỏi: Triệt sản nữ có ảnh hưởng gì không?\nTrả lời: 3. Triệt sản nữ có ảnh hưởng gì không?\n“ Triệt sản nữ có ảnh hưởng gì không?” có lẽ là vấn đề được nhiều chị em quan tâm nhất khi đang đắn đo về phương pháp triệt sản này. Nhưng các chị em hoàn toàn yên tâm vì phương pháp triệt sản này cực kỳ an toàn và hiệu quả mà không làm ảnh hưởng đến sức khỏe, giới tính cũng như việc sinh hoạt vợ chồng hàng ngày. Tuy nhiên, có những rủi ro nhất định khi thực hiện triệt sản, tình trạng này rất hiếm gặp và sẽ được các y bác sĩ can thiệp kịp thời. Sau đây là một số tai biến và biến chứng bạn cần chú ý: Tổn thương hệ tiêu hóa Tổn thương hệ tiết niệu Tổn thương mạch máu Bỏng do điện Chảy máu trong ổ bụng Khối máu tụ Có thai lại sau triệt sản Triệt sản nữ có thể ảnh hưởng đến hệ tiêu hóa của người bệnh",
+                "score": 0.6066316962242126,
+                "id": "vietnamese_healthcare_30421",
+                "rerank_score": 0.9206766486167908
+            },
+            {
+                "text": "Câu hỏi: Phương pháp triệt sản nam có ảnh hưởng gì không\nTrả lời: 2. Phương pháp triệt sản nam có ảnh hưởng gì không\nThủ thuật thắt ống dẫn tinh được các bác sĩ sử dụng hiệu quả, đây là kỹ thuật tương đối đơn giản, thậm chí không cần dùng dao. Triệt sản nam bằng thắt ống dẫn tinh có nhiều ưu điểm như sau: Phương pháp có hiệu quả ngừa thai vĩnh viễn. Phương pháp không gây ảnh hưởng tới sức khỏe và hoạt động tình dục. Tuy nhiên, phương pháp này chỉ có tác dụng ngừa thai và không có hiệu quả phòng tránh các bệnh lây truyền qua đường tình dục . Do vậy, bạn cần kết hợp các phương pháp ngừa thai khác như sử dụng bao cao su để phòng tránh trong trường hợp có bệnh về tình dục. Phương pháp triệt sản nam có ảnh hưởng gì không? Câu trả lời là không và nó có hiệu quả ngừa thai vĩnh viễn",
+                "score": 0.6721488833427429,
+                "id": "vietnamese_healthcare_93691",
+                "rerank_score": 0.6235077381134033
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

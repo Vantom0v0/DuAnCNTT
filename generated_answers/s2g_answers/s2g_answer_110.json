@@ -1,0 +1,114 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ,\nEm bị dị ứng với thuốc hạ sốt paracetamol. Bác sĩ cho em hỏi, nên dùng thuốc gì thay thế khi bị dị ứng thuốc paracetamol? Em uống paracetamol rồi uống thuốc dị ứng Cezil được không? Em xin cảm ơn.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNếu bạn dị ứng với thuốc hạ sốt paracetamol, bạn có thể thử dòng thuốc hạ sốt khác không cùng nhóm như thuốc Ibuprofen. Bạn cần lưu ý liều dùng thuốc ibuprofen sẽ khác với liều dùng của paracetamol. Vì chưa biết tình trạng dị ứng của bạn với paracetamol nên bác sĩ không thể khuyên bạn uống paracetamol rồi uống thuốc dị ứng. Bạn nên thăm khám bác sĩ chuyên khoa để được chẩn đoán và tư vấn chi tiết.\nTrân trọng!",
+    "answer": "Với tiền sử dị ứng paracetamol, bạn không nên tự dùng lại paracetamol rồi uống thêm Cezil, vì chưa rõ mức độ dị ứng và thuốc dị ứng không bảo đảm ngăn được phản ứng. Một số thuốc NSAID như ibuprofen có thể được dùng để hạ sốt trong một số trường hợp, nhưng đa số người dị ứng paracetamol có thể dị ứng chéo với nhóm này, nên không tự ý sử dụng. Tạm thời hãy ưu tiên lau mát, uống nhiều nước và mặc quần áo thoáng; bạn nên khám bác sĩ dị ứng để được test và xác định thuốc, liều dùng an toàn. Khi đi khám, hãy cung cấp thông tin về biểu hiện dị ứng, thời điểm xảy ra và cách xử trí trước đây.",
+    "evidence": [
+        "Vì chưa biết tình trạng dị ứng của bạn với paracetamol nên bác sĩ không thể khuyên bạn uống paracetamol rồi uống thuốc dị ứng.",
+        "Bên cạnh Paracetamol, các thuốc nhóm chống viêm không steroid (NSAIDs) như ibuprofen cũng có thể được chỉ định để hạ sốt trong một số trường hợp nhất định.",
+        "Tuy nhiên đa số các bệnh nhân dị ứng Paracetamol có thể gặp dị ứng chéo với các thuốc giảm đau hạ sốt khác trong nhóm thuốc NSAIDs (bao gồm Ibuprofen) .",
+        "Để xác định được thuốc hạ sốt an toàn, người bệnh cần khám với bác sĩ dị ứng để được tư vấn và thực hiện test dị ứng phù hợp trước khi dùng thuốc.",
+        "Vì vậy, tạm thời với tiền sử dị ứng Paracetamol, các biện pháp không dùng thuốc vẫn được ưu tiên lựa chọn như lau mát, uống nhiều nước hay mặc áo quần thông thoáng cho đến khi đến khám với Bác sĩ Dị ứng.",
+        "Đồng thời, bạn cần cung cấp thêm thông tin về biểu hiện dị ứng, thời điểm ghi nhận và xử trí sau dị ứng để được tư vấn cụ thể về các thuốc hạ sốt khác (bao gồm lựa chọn thuốc, liều lượng dùng)."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nEm bị dị ứng với Paracetamol của thuốc hạ sốt. Vậy dược sĩ cho em hỏi dị ứng với Paracetamol phải làm sao? Em có thể dùng thuốc gì thay thế thuốc hạ sốt được? Em cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nBạn bị dị ứng Paracetamol, bạn có thể sử dụng nhóm thuốc chống viêm non steroid (NSAID) như Ibuprofen để hạ sốt. Tuy nhiên, trong bạn chưa đề cập đến mức độ của phản ứng dị ứng bạn gặp phải và vẫn có tỉ lệ nhỏ người bệnh dị ứng Paracetamol gặp phản ứng với nhóm NSAID.\nDo đó, bạn nên đến bệnh viện để thăm khám về tình trạng sốt, cũng như khám chuyên khoa Miễn dịch - Dị ứng để có thể lựa chọn thuốc điều trị an toàn và hiệu quả.\nTrân trọng!",
+                "score": 0.7211210131645203,
+                "id": "vietnamese_medical_qa_665",
+                "rerank_score": 0.999967098236084
+            },
+            {
+                "text": "Câu hỏi: Nên dùng thuốc gì thay thế khi bị dị ứng thuốc paracetamol?\nTrả lời: Nếu bạn dị ứng với thuốc hạ sốt paracetamol, bạn có thể thử dòng thuốc hạ sốt khác không cùng nhóm như thuốc Ibuprofen. Bạn cần lưu ý liều dùng thuốc ibuprofen sẽ khác với liều dùng của paracetamol. Vì chưa biết tình trạng dị ứng của bạn với paracetamol nên bác sĩ không thể khuyên bạn uống paracetamol rồi uống thuốc dị ứng. Bạn nên thăm khám bác sĩ chuyên khoa để được chẩn đoán và tư vấn chi tiết.",
+                "score": 0.7911720871925354,
+                "id": "vietnamese_healthcare_5360",
+                "rerank_score": 0.9999374151229858
+            },
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nChồng em bị dị ứng với paracetamol. Vậy dược sĩ cho em hỏi người dị ứng Paracetamol nên uống thuốc gì khi sốt? Em cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nParacetamol là thuốc hạ sốt phổ biến nhất hiện nay. Bên cạnh Paracetamol, các thuốc nhóm chống viêm không steroid (NSAIDs) như ibuprofen cũng có thể được chỉ định để hạ sốt trong một số trường hợp nhất định. Tuy nhiên đa số các bệnh nhân dị ứng Paracetamol có thể gặp dị ứng chéo với các thuốc giảm đau hạ sốt khác trong nhóm thuốc NSAIDs (bao gồm Ibuprofen) . Để xác định được thuốc hạ sốt an toàn, người bệnh cần khám với bác sĩ dị ứng để được tư vấn và thực hiện test dị ứng phù hợp trước khi dùng thuốc.\nVì vậy, tạm thời với tiền sử dị ứng Paracetamol, các biện pháp không dùng thuốc vẫn được ưu tiên lựa chọn như lau mát, uống nhiều nước hay mặc áo quần thông thoáng cho đến khi đến khám với Bác sĩ Dị ứng. Đồng thời, bạn cần cung cấp thêm thông tin về biểu hiện dị ứng, thời điểm ghi nhận và xử trí sau dị ứng để được tư vấn cụ thể về các thuốc hạ sốt khác (bao gồm lựa chọn thuốc, liều lượng dùng).\nTrân trọng!",
+                "score": 0.6332691311836243,
+                "id": "vietnamese_medical_qa_1156",
+                "rerank_score": 0.9998347759246826
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ.Em của em dị ứng với thuốc hạ sốt ( Hapacol ). Nên mỗi khi em sốt chỉ lau nước ấm cho em.Cho em hỏi ngoài cách lau nước ấm còn sử dụng thuốc hay có cách gì khác để hạ sốt không bác sĩ ?\nTrả lời: Chào bạn. Nếu dị ứng với paracetamol, bạn có thể cho em bạn sử dụng một trong hai loại thuốc giảm sốt khác cũng khá phổ biến ở Việt Nam là Ibuprofen và Aspirin. Tuy nhiên, nếu em bạn còn nhỏ thì nên hạn chế sử dụng aspirin vì khả năng gây ra hội chứng Reye.",
+                "score": 0.578351616859436,
+                "id": "vietnamese_medical_qa_7138",
+                "rerank_score": 0.9997976422309875
+            },
+            {
+                "text": "Câu hỏi: Con trai tôi 8 tuổi, cháu bị dị ứng với thuốc hạ sốt có thành phần paracetamol nên khi bị sốt thường chỉ hạ sốt bằng chườm nước. Tôi muốn hỏi bác sĩnghi ngờ trẻ dị ứng Paracetamol nên xét nghiệm gì?Cảm ơn bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Nghi ngờ trẻ dị ứng Paracetamol nên xét nghiệm gì?”bác sĩ giải đáp như sau: Nếu nghi ngờ dị ứng với thuốc Paracetamol thì nên đến chuyên khoa miễn dịch dị ứng để làm test lẩy da và uống thuốc tại chỗ để biết con có bị dị ứng không? Nếu dị ứng bác sĩ chuyên khoa sẽ tư vấn thuốc thay thế khi con sốt.",
+                "score": 0.571699857711792,
+                "id": "medical_vietnamese_qa_4717",
+                "rerank_score": 0.9983229041099548
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nEm bị dị ứng với Paracetamol của thuốc hạ sốt. Vậy dược sĩ cho em hỏi dị ứng với Paracetamol phải làm sao? Em có thể dùng thuốc gì thay thế thuốc hạ sốt được? Em cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nBạn bị dị ứng Paracetamol, bạn có thể sử dụng nhóm thuốc chống viêm non steroid (NSAID) như Ibuprofen để hạ sốt. Tuy nhiên, trong bạn chưa đề cập đến mức độ của phản ứng dị ứng bạn gặp phải và vẫn có tỉ lệ nhỏ người bệnh dị ứng Paracetamol gặp phản ứng với nhóm NSAID.\nDo đó, bạn nên đến bệnh viện để thăm khám về tình trạng sốt, cũng như khám chuyên khoa Miễn dịch - Dị ứng để có thể lựa chọn thuốc điều trị an toàn và hiệu quả.\nTrân trọng!",
+                "score": 0.6778318285942078,
+                "id": "vietnamese_medical_qa_665",
+                "rerank_score": 0.999967098236084
+            },
+            {
+                "text": "Câu hỏi: Nên dùng thuốc gì thay thế khi bị dị ứng thuốc paracetamol?\nTrả lời: Nếu bạn dị ứng với thuốc hạ sốt paracetamol, bạn có thể thử dòng thuốc hạ sốt khác không cùng nhóm như thuốc Ibuprofen. Bạn cần lưu ý liều dùng thuốc ibuprofen sẽ khác với liều dùng của paracetamol. Vì chưa biết tình trạng dị ứng của bạn với paracetamol nên bác sĩ không thể khuyên bạn uống paracetamol rồi uống thuốc dị ứng. Bạn nên thăm khám bác sĩ chuyên khoa để được chẩn đoán và tư vấn chi tiết.",
+                "score": 0.7377507090568542,
+                "id": "vietnamese_healthcare_5360",
+                "rerank_score": 0.9999374151229858
+            },
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nChồng em bị dị ứng với paracetamol. Vậy dược sĩ cho em hỏi người dị ứng Paracetamol nên uống thuốc gì khi sốt? Em cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nParacetamol là thuốc hạ sốt phổ biến nhất hiện nay. Bên cạnh Paracetamol, các thuốc nhóm chống viêm không steroid (NSAIDs) như ibuprofen cũng có thể được chỉ định để hạ sốt trong một số trường hợp nhất định. Tuy nhiên đa số các bệnh nhân dị ứng Paracetamol có thể gặp dị ứng chéo với các thuốc giảm đau hạ sốt khác trong nhóm thuốc NSAIDs (bao gồm Ibuprofen) . Để xác định được thuốc hạ sốt an toàn, người bệnh cần khám với bác sĩ dị ứng để được tư vấn và thực hiện test dị ứng phù hợp trước khi dùng thuốc.\nVì vậy, tạm thời với tiền sử dị ứng Paracetamol, các biện pháp không dùng thuốc vẫn được ưu tiên lựa chọn như lau mát, uống nhiều nước hay mặc áo quần thông thoáng cho đến khi đến khám với Bác sĩ Dị ứng. Đồng thời, bạn cần cung cấp thêm thông tin về biểu hiện dị ứng, thời điểm ghi nhận và xử trí sau dị ứng để được tư vấn cụ thể về các thuốc hạ sốt khác (bao gồm lựa chọn thuốc, liều lượng dùng).\nTrân trọng!",
+                "score": 0.6014021635055542,
+                "id": "vietnamese_medical_qa_1156",
+                "rerank_score": 0.9998347759246826
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ.Em của em dị ứng với thuốc hạ sốt ( Hapacol ). Nên mỗi khi em sốt chỉ lau nước ấm cho em.Cho em hỏi ngoài cách lau nước ấm còn sử dụng thuốc hay có cách gì khác để hạ sốt không bác sĩ ?\nTrả lời: Chào bạn. Nếu dị ứng với paracetamol, bạn có thể cho em bạn sử dụng một trong hai loại thuốc giảm sốt khác cũng khá phổ biến ở Việt Nam là Ibuprofen và Aspirin. Tuy nhiên, nếu em bạn còn nhỏ thì nên hạn chế sử dụng aspirin vì khả năng gây ra hội chứng Reye.",
+                "score": 0.566108226776123,
+                "id": "vietnamese_medical_qa_7138",
+                "rerank_score": 0.9997976422309875
+            },
+            {
+                "text": "Câu hỏi: Em bịdị ứng thành phần Paracetamolcó trong thuốc. Vậy bác sĩ cho em hỏingười dị ứng Paracetamol có thể tiêm ngừa Covid không?Em cảm ơn bác sĩ. Nguyễn Thị Vân(1978) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Hải Hà- Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Theo QĐ 3802/QĐ-Bộ Y tế ban hành ngày 10/08/2021 về hướng dẫn khám sàng lọc trướctiêm chủng vắc-xin phòng Covid-19thì chống chỉ định tiêm vắc-xin phòng Covid 19 khi có phản vệ rõ ràng với vắc-xin Covid-19 cùng loại lần trước; các trường hợpphản vệ độ IIItrở lên với bất kì dị nguyên nào thì cần tiêm chủng vắc-xin Covid-19 trong bệnh viện hoặc các cơ sở có đủ năng lực hồi sức cấp cứu. Bạn chỉ có tiền sử dị ứng khi sử dụng Paracetamol vẫn có thể tiêm vắc-xin phòng Covid-19 bình thường tại các cơ sở tiêm chủng, không cần thử test trước tiêm và có thể sử dụng được bất kỳ loại vắc-xin phòng Covid-19 nào bạn được tiếp cận sớm nhất. Tuy nhiên, bạn phải khai rõ tiền sử dị ứng khi tiêm vắc-xin. Bác sĩ khám sàng lọc trước tiêm vắc-xin sẽ đánh giá tình trạng sức khỏe, đánh giá tiền sử phản vệ và tư vấn trước tiêm cho bạn. Sau khi tiêm vắc-xin có thể gặp phản ứng phụ là sốt hơn 38,5 độ C; bạn có thể sử dụng thuốc hạ sốt Ibuprofen thay thế cho Paracetamol để hạ sốt. Để biết thêm thông tin cụ thể, bạn có thể đặt hẹn khám Telehealth với bác sĩ Miễn dịch dị ứng lâm sàng của bệnh viện Vinmec.",
+                "score": 0.5656163692474365,
+                "id": "medical_vietnamese_qa_13134",
+                "rerank_score": 0.9966478943824768
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nEm bị dị ứng với Paracetamol của thuốc hạ sốt. Vậy dược sĩ cho em hỏi dị ứng với Paracetamol phải làm sao? Em có thể dùng thuốc gì thay thế thuốc hạ sốt được? Em cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nBạn bị dị ứng Paracetamol, bạn có thể sử dụng nhóm thuốc chống viêm non steroid (NSAID) như Ibuprofen để hạ sốt. Tuy nhiên, trong bạn chưa đề cập đến mức độ của phản ứng dị ứng bạn gặp phải và vẫn có tỉ lệ nhỏ người bệnh dị ứng Paracetamol gặp phản ứng với nhóm NSAID.\nDo đó, bạn nên đến bệnh viện để thăm khám về tình trạng sốt, cũng như khám chuyên khoa Miễn dịch - Dị ứng để có thể lựa chọn thuốc điều trị an toàn và hiệu quả.\nTrân trọng!",
+                "score": 0.7235292196273804,
+                "id": "vietnamese_medical_qa_665",
+                "rerank_score": 0.999967098236084
+            },
+            {
+                "text": "Câu hỏi: Nên dùng thuốc gì thay thế khi bị dị ứng thuốc paracetamol?\nTrả lời: Nếu bạn dị ứng với thuốc hạ sốt paracetamol, bạn có thể thử dòng thuốc hạ sốt khác không cùng nhóm như thuốc Ibuprofen. Bạn cần lưu ý liều dùng thuốc ibuprofen sẽ khác với liều dùng của paracetamol. Vì chưa biết tình trạng dị ứng của bạn với paracetamol nên bác sĩ không thể khuyên bạn uống paracetamol rồi uống thuốc dị ứng. Bạn nên thăm khám bác sĩ chuyên khoa để được chẩn đoán và tư vấn chi tiết.",
+                "score": 0.7822877168655396,
+                "id": "vietnamese_healthcare_5360",
+                "rerank_score": 0.9999374151229858
+            },
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nChồng em bị dị ứng với paracetamol. Vậy dược sĩ cho em hỏi người dị ứng Paracetamol nên uống thuốc gì khi sốt? Em cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nParacetamol là thuốc hạ sốt phổ biến nhất hiện nay. Bên cạnh Paracetamol, các thuốc nhóm chống viêm không steroid (NSAIDs) như ibuprofen cũng có thể được chỉ định để hạ sốt trong một số trường hợp nhất định. Tuy nhiên đa số các bệnh nhân dị ứng Paracetamol có thể gặp dị ứng chéo với các thuốc giảm đau hạ sốt khác trong nhóm thuốc NSAIDs (bao gồm Ibuprofen) . Để xác định được thuốc hạ sốt an toàn, người bệnh cần khám với bác sĩ dị ứng để được tư vấn và thực hiện test dị ứng phù hợp trước khi dùng thuốc.\nVì vậy, tạm thời với tiền sử dị ứng Paracetamol, các biện pháp không dùng thuốc vẫn được ưu tiên lựa chọn như lau mát, uống nhiều nước hay mặc áo quần thông thoáng cho đến khi đến khám với Bác sĩ Dị ứng. Đồng thời, bạn cần cung cấp thêm thông tin về biểu hiện dị ứng, thời điểm ghi nhận và xử trí sau dị ứng để được tư vấn cụ thể về các thuốc hạ sốt khác (bao gồm lựa chọn thuốc, liều lượng dùng).\nTrân trọng!",
+                "score": 0.6179074048995972,
+                "id": "vietnamese_medical_qa_1156",
+                "rerank_score": 0.9998347759246826
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ.Em của em dị ứng với thuốc hạ sốt ( Hapacol ). Nên mỗi khi em sốt chỉ lau nước ấm cho em.Cho em hỏi ngoài cách lau nước ấm còn sử dụng thuốc hay có cách gì khác để hạ sốt không bác sĩ ?\nTrả lời: Chào bạn. Nếu dị ứng với paracetamol, bạn có thể cho em bạn sử dụng một trong hai loại thuốc giảm sốt khác cũng khá phổ biến ở Việt Nam là Ibuprofen và Aspirin. Tuy nhiên, nếu em bạn còn nhỏ thì nên hạn chế sử dụng aspirin vì khả năng gây ra hội chứng Reye.",
+                "score": 0.584565281867981,
+                "id": "vietnamese_medical_qa_7138",
+                "rerank_score": 0.9997976422309875
+            },
+            {
+                "text": "Câu hỏi: Con trai tôi 8 tuổi, cháu bị dị ứng với thuốc hạ sốt có thành phần paracetamol nên khi bị sốt thường chỉ hạ sốt bằng chườm nước. Tôi muốn hỏi bác sĩnghi ngờ trẻ dị ứng Paracetamol nên xét nghiệm gì?Cảm ơn bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Nghi ngờ trẻ dị ứng Paracetamol nên xét nghiệm gì?”bác sĩ giải đáp như sau: Nếu nghi ngờ dị ứng với thuốc Paracetamol thì nên đến chuyên khoa miễn dịch dị ứng để làm test lẩy da và uống thuốc tại chỗ để biết con có bị dị ứng không? Nếu dị ứng bác sĩ chuyên khoa sẽ tư vấn thuốc thay thế khi con sốt.",
+                "score": 0.5627994537353516,
+                "id": "medical_vietnamese_qa_4717",
+                "rerank_score": 0.9983229041099548
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

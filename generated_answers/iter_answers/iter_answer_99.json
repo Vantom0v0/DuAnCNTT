@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Bác sĩ cho em hỏi, em bị ngứa họng và ho nhiều, cứ bị lạnh cổ là ho nhiều không kiềm chế được, hiện tại em đang tiêm và dùng thuốc kháng sinh được 3 hôm nhưng không thấy hiệu quả, bệnh không đỡ, theo bác sĩ em nên làm như thế nào ạ?",
+    "ground_truth": "Chào em, em nên khám nội soi Tai mũi họng để định hướng chẩn đoán và điều trị thích hợp. Việc dùng kháng sinh hay kháng viêm đường tiêm truyền ngoại viện không được khuyến cáo và nguy hiểm.",
+    "answer": "Ngứa họng và ho tái phát khi gặp lạnh có thể không phải do nhiễm khuẩn, mà liên quan đến viêm mũi dị ứng/viêm xoang gây chảy dịch xuống họng, viêm họng mạn, trào ngược dạ dày hoặc hen/viêm phế quản; vì vậy kháng sinh có thể không hiệu quả nếu dùng không đúng nguyên nhân. Bạn nên liên hệ lại bác sĩ đã kê thuốc để được khám và đánh giá lại, không tự ý đổi thuốc, kéo dài hoặc dùng thêm kháng sinh/thuốc tiêm; nếu đã được kê liệu trình thì dùng đúng hướng dẫn cho đến khi bác sĩ điều chỉnh. Trong thời gian này, tránh nước lạnh, bia rượu, khói thuốc và bụi, giữ ấm vùng cổ, uống đủ nước, có thể súc họng nước muối ấm; đồng thời nên khám chuyên khoa tai mũi họng hoặc hô hấp để kiểm tra mũi xoang, trào ngược và hen nếu ho kéo dài. Nếu có khó thở, khò khè hoặc thở rít tăng, nặng ngực, tím tái, sốt cao, ho ra máu hoặc chóng mặt nhiều, cần đi cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi? Em bị ngứa họng và ho suốt 7 tháng rồi, uống bao nhiêu thuốc tây mà cứ bớt được vài hôm hay một tuần mà mình uống nước đá hay bia lạnh là bị ho lại, triệu chứng là ngứa họng, không sốt, không đau họng. Có cảm giác họng bị sưng lên, lở loét nên rát nhiều lần ho ra cục đờm hình tròn màu trắng xanh có mùi rất tanh, hôi, nhiều lúc thở ra cũng có cảm giác tanh. Mỗi lúc ho là người ra mồ hôi, thở khò khè, thở rít thành tiếng, nhiều đêm thấy hơi nặng ngực, khó thở, hơi chóng mặt. Em cũng bị viêm mũi dị ứng vào bị trào ngược dạ dày. Xin bác sĩ tư vấn giúp em về trường hợp thường tái phát ngứa họng và ho kèm theo thở khò khè, nặng ngực nên điều trị thế nào? Cảm ơn bác sĩ.\nTrả lời: Chào bạn, theo như những triệu chứng bạn ghi nhận thì có thể bạn gặp phải vấn đề loạn cảm họng. Tình trạng loạn cảm họng có thể do nhiều nguyên nhân gây ra, một trong những nguyên nhân thường gặp là trào ngược dạ dày-thực quản.\nCảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Thường tái phát ngứa họng và ho kèm theo thở khò khè, nặng ngực nên điều trị thế nào?” tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+            "score": 0.7529911398887634,
+            "id": "vietnamese_medical_qa_3677"
+        },
+        {
+            "text": "Câu hỏi: Ho nhiều, rát ngứa cổ họng nguyên nhân do đâu?\nTrả lời: em ho nhiều có thể do tình trạng viêm dạ dày gây trào ngược, em nên tiếp tục uống thuốc ho thảo dược, nếu không cải thiện em nên đi khám để bác sĩ kiểm tra lại cho em nhé.",
+            "score": 0.7276007533073425,
+            "id": "vietnamese_healthcare_7927"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nTôi ở phan thiết năm nay 46 tuổi. Tôi bị ngứa họng và gây ho.  Mặc dù đi bệnh viện khám và uống đủ loại thuốc hơn một tháng nay nhưng không khỏi. Rất mong edoctor tư vấn cho tôi là tiếp tục dùng thuốc tây hay thuốc đông y (tôi có chứng bệnh dạ dày).  nếu có thể  cho tôi toa thuốc. Cảm ơn\nTrả lời: Chào bạn!\nTình trạng ngứa họng và ho kéo dài có thể bạn bị bệnh lý viêm họng mạn tính có thể do nguyên nhân di dạng vách ngăn mũi, polyp, hoặc do các bệnh lý viêm mũi xoang, hoặc do cơ địa dị ứng, do các tác nhân môi trường như khói thuốc lá.... Hoặc các bệnh lý khác như trào ngược dạ dày thực quản  , viêm phế quản mạn. Mỗi bệnh lý có triệu chứng kèm theo khác nhau , và cách điều trị khác nhau.  Trước tiên bạn nên đến các cơ sở y tế chuyên khoa tai mũi họng khám làm thêm các khảo sát để có chẩn đoán chính xác và điều trị phù hợp. Không nên tiếp tục sử dụng thuốc tây hay đông y kéo dài mà không có  sự hướng dẫn của bác sĩ .\nThân mến.",
+            "score": 0.7268849611282349,
+            "id": "vietnamese_medical_qa_7462"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em bị ngứa họng, thi thoảng ho từ hôm 7/3 uống thuốc thì thấy đỡ đi chút, không còn rát họng nữa. Tuy nhiên 2 hôm nay em lại thấy rát họng lại, cổ có nhiều đờm, ho ít, nghẹt mũi. Sáng ăn cháo có chảy 1 ít nước mũi. Không biết em có bị sao không? Em lo quá. Xin cảm ơn bác sĩ!\nTrả lời: Chào em. Theo như em mô tả thì có thể em bị viêm mũi xoang và viêm họng. Em nên đi khám chuyên khoa để bác sĩ tư vấn và điều trị cho em nhé.",
+            "score": 0.7118136882781982,
+            "id": "vietnamese_medical_qa_3464"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nCháu bị ho ngứa họng và thỉnh thoảng hơi khò khè đã mấy tháng nay, cháu đã thử dùng kẹo ngậm ho, súc miệng nước muối và uống cả thuốc kháng sinh Ampicillin nhưng đều không đỡ. Vậy bác sĩ cho cháu hỏi ho dai dẳng kéo dài, phải làm sao? Cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nHo kèm ngứa họng, thi thoảng khò khè thời gian vài tháng nên lưu ý đến những nguyên nhân hay gặp như sau: Các bệnh lý mũi xoang mạn tính nói chung như viêm xoang mạn, viêm mũi dị ứng, viêm mũi xuất tiết,...dẫn đến hội chứng cửa mũi sau gây đổ dịch bất thường từ vùng mũi xoang xuống họng gây kích thích họng và ho. Các bệnh lý viêm họng mạn tính, bệnh lý trào ngược dạ dày, viêm phế quản mạn, hen suyễn,...\nNhìn chung để xác định một cách chính xác nguyên nhân cháu phải đi thăm khám trực tiếp. Tuy nhiên trong tình hình dịch bệnh COVID phức tạp như hiện nay, bạn có thể sử dụng các hình thức khám bệnh từ xa thích hợp với mình nhất.\nTrân trọng!",
+            "score": 0.6976883411407471,
+            "id": "vietnamese_medical_qa_4031"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

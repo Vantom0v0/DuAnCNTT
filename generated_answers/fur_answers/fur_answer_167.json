@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Tôi tiêm vắc-xin Covid ngày 28 tháng 6. Sau tiêm, đêm đầu tiên sốt 37,4°C. Hôm sau không sốt, chỉ mỏi, ngày thứ 3 ban ngày bình thường, không đau mỏi ở đâu, đêm muộn đau vùng mạng sườn trái dữ dội. Khi đến bệnh viện, tôi thấy không đau ở mạn sườn nữa mà chuyển đau âm ỉ vùng bụng. Bác sĩ cho tiêm giảm đau nhưng vì không đau nhiều nên tôi không tiêm. Sáng ngày 01 tháng 07 tôi vẫn đau âm ỉ vùng bụng, tôi đi khám sau khi siêu âm, chụp tim phổi và điện tim thì không có gì đặc biệt, chỉ có sỏi nhỏ bên phải nhưng đến ngày 2 tháng 7 tôi lại đau buốt bụng dưới và tiểu ra máu (không có khí hư và tôi đã cắt tử cung). Vậy bác sĩ cho tôi hỏiđau bụng dưới, tiểu ra máu sau tiêm vắc-xin Covid có sao không?Tôi cảm ơn bác sĩ. Lê Thị Thu Hà(1976) Trả lời Được giải đáp bởiTiến sĩ, Bác sĩ Nguyễn Hồng Sơn- Khoa Khám bệnh, Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Triệu chứng như bạn mô tả loại trừ đau bụng do sỏi tiết niệu. Bạn cần đến bệnh viện để được thăm khám lâm sàng, siêu âm, xét nghiệm máu, xét nghiệm nước tiểu để chẩn đoán và điều trị. Sau tiêm vắc-xin Covid, nhiều trường hợp có biểu hiện sốt, đau đầu, đau mỏi cơ, có trường hợp chảy nước mũi, bác sĩ chưa ghi nhận trường hợp nào sau tiêm vắc-xin Covid có tiểu máu hay xuất huyết đường tiêu hóa. Bạn nên đến bệnh viện để được thăm khám với bác sĩ chuyên khoa Thận tiết niệu để chẩn đoán nguyên nhân.",
+    "answer": "Dựa trên thông tin được cung cấp, các phản ứng thường gặp sau tiêm vắc-xin như sốt, đau đầu, mệt mỏi, đau cơ… thường kéo dài khoảng 1–2 ngày hoặc vài ngày. Chưa có đủ thông tin để kết luận đau bụng dưới và tiểu ra máu là do vắc-xin.\n\nBạn đã có đau bụng dữ dội, đau buốt bụng dưới và tiểu ra máu; vì vậy nên đến cơ sở y tế để được bác sĩ khám và làm các xét nghiệm cần thiết nhằm xác định nguyên nhân, đặc biệt khi siêu âm đã ghi nhận có sỏi nhỏ bên phải. Nếu đau tăng, tiểu máu nhiều hoặc có sốt, cần đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em bị sốt 38,2 - 38,6 từ tối thứ 4 tuần này, đến tối nay là được 2 ngày. Ngàysốt2 lần vào sáng và tối, em uống Panadol hạ sốt thì nhiệt độ về 36,8 bình thường. Emđau mỏi cơ toàn thânvà đau đầu lúc sốt. Em có tiêm vắc-xin Covid Moderna cách đây 2 tuần. Vậy bác sĩ cho em hỏisốt, đau mỏi toàn thân sau tiêm vắc-xin Covid 2 tuần có sao không?Em nên làm gì thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tác dụng phụ sau tiêm vắc-xin Covid 19như sốt, đau đầu, đau mỏi người thường kéo dài trong 1 - 2 ngày chứ không kéo dài đến 2 tuần. Vì vậy, hiện tại bạn có sốt,đau đầu, đau mỏi người thì bạn cần đến bệnh viện thăm khám bác sĩ chuyên khoa và làm xét nghiệm để được chẩn đoán nguyên nhân chính xác. Từ đó, các bác sĩ sẽ đưa ra hướng điều trị thích hợp cho bạn.",
+            "score": 0.6213923692703247,
+            "id": "medical_vietnamese_qa_13093",
+            "rerank_score": 0.9807798266410828
+        },
+        {
+            "text": "Câu hỏi: Tôi tiêm vaccine Covid-19 ngày 28/6, 23h ngày 28/6 có sốt 39 độ, sau 2h thì khỏi, hôm sau tỉnh táo. Đến ngày 5/7, tôi có sốt 38,5 độ, khoảng 1h thì khỏi. Xin hỏi bác sĩ tôi bị sốt lại do nguyên nhân gì?\nTrả lời: Sốt sau tiêm vaccine là phản ứng toàn thân thường gặp, phản ứng sốt do cơ thể đáp ứng miễn dịch với vaccine, triệu chứng này thường kéo dài khoảng vài ngày. Theo như thông tin anh cung cấp thì tình trạng sốt của anh là sốt cơn ngắn rồi giảm, anh theo dõi thêm tình trạng sốt tại nhà, nếu tình trạng vẫn còn, sốt nhiều hơn, anh nên đến cơ sở y tế để được bác sĩ khám và điều trị.",
+            "score": 0.6348258852958679,
+            "id": "vietnamese_healthcare_508",
+            "rerank_score": 0.9755542874336243
+        },
+        {
+            "text": "Câu hỏi: phản ứng phụ sau khi tiêm vaccine Covid-19. Tôi tiêm vaccine từ chiều ngày 29/6, sáng 30/6 bắt đầu sốt nhẹ, sau đó sốt tăng dần và dứt vào ngày 2/7, ăn uống sinh hoạt bình thường.\nTrả lời: Trường hợp của bạn đã tiêm vaccine Covid-19 cách đây 10 ngày, sau tiêm một ngày bắt đầu có biểu hiện sốt và kéo dài đến ngày 2/7 thì hết hẳn là phản ứng phụ thông thường sau tiêm vaccine Covid-19. Tuy nhiên đến nay sau khi cắt sốt một tuần bạn lại thấy sốt lại và sưng chỗ tiêm, chúng tôi khuyên bạn nên đến cơ sở y tế gần nhà để được bác sĩ thăm khám kiểm tra xem có vấn đề gì bất thường đi kèm không. Vì phản ứng sốt thông thường không xảy ra ở thời điểm này.",
+            "score": 0.6343294978141785,
+            "id": "vietnamese_healthcare_8311",
+            "rerank_score": 0.9515007734298706
+        },
+        {
+            "text": "Câu hỏi: Em tiêm vắc xin Vero. Sau khoảng 10 ngày, em bị đau tức ngực trái lan ra đau nhói sau lưng trái và hơi khó thở mỗi khi hoạt động. Nó diễn ra khoảng 4 ngày là hết, sau khoảng vài ngày, lại bị đau tức bên vùng ngực phải và hơi nhói sau lưng phải. Hiện tại, em tiêm mũi 1 được 20 ngày. Vậy bác sĩ cho em hỏinữ giới đau vùng ngực sau tiêm vắc xin Covid có ảnh hưởng gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Sau khi tiêm vắc xin phòng Covid 19 có thể gặp 1 số phản ứng phụ thông thường như sốt, sưng đau vị trí tiêm, mệt mỏi, đau đầu, đau khớp, đau cơ, ớn lạnh, chóng mặt, buồn nôn, tiêu chảy, có thể tự khỏi không cần can thiệp về y tế. Ngoài ra, có thể gặp rối loạn đông máu, viêm cơ tim (rất hiếm đặc biệt là đối với vắc xin Vero cell - vắc xin bất hoạt). Một số trường hợp có thể nổi hạch sau tiêm, phát ban trên da và tự hết. Với mô tả của bạn, bác sĩ không nghĩ nhiều do tác dụng phụ của vắc xin, bạn nên đến cơ sở y tế để thăm khám, loại trừ bệnh lý kèm theo sau khi tiêm vắc xin.",
+            "score": 0.6554474234580994,
+            "id": "medical_vietnamese_qa_12963",
+            "rerank_score": 0.9450953006744385
+        },
+        {
+            "text": "Câu hỏi: Chào Bác Sĩ ! anh trai em năm nay 39tuổi ở tp HCM đã tiêm vắc xin covid Astrazeneca dc 3 tháng, cách đây 4 hôm có bị đau rát họng, tê đầu luỡi ( chưa bị mất mùi vị ) và ho kèm theo hơi nóng sốt 38 độ, hôm qua đã test nhanh 2 lần đều duơng tính, có liên hệ trung tâm y tế thực hiện cách ly điều trị tại nhà uống thuốc vitamin C với thuốc hạ sốt có đỡ hạ sốt nhưng người mệt mỏi, và bị đau 2 bên lưng ( sau lưng ) bác sĩ cho e hỏi liệu a trai e bị đau 2 sau lưng có phải là đau do triệu chứng virut tấn công vào phổi không? Và có cần phải đi chụp phổi để kiểm tra sự tổn thuơng không? em rất mong được sự phản hồi của bác sĩ , em xin chân thành cảm ơn.\nTrả lời: Chào bạn, anh bạn nhiễm covid sau khi đã tiêm vacxin thì khả năng triệu chứng sẽ không nhiều và ít nặng bệnh như những người chưa tiêm. Anh bạn nên theo dõi sát SP02 và nhiệt độ hàng ngày, nếu SP02<96% thì nên thở oxy ngay nhé. Ngoài ra triệu chứng đau mỏi người hay đau lưng có thể do đau mỏi cơ (triệu chứng nhiềm virus). Còn tổn thương phổi thì cần chụp phim phổi mới đánh giá được tổn thương bạn nha. Ngoài ra, bạn ấy nên ăn uống đủ chất dinh dưỡng, nghỉ ngơi hợp lí, uống 2000-2500ml nước mỗi ngày và vệ sinh sát khuẩn tay cũng như sát khuẩn bề mặt (giường chiếu, bàn ghế, tay nắm cửa, vịn lan can...), đeo khẩu trang khi ho hắt hơi hay tiếp xúc với người khác, ở phòng riêng và mở cửa sổ nếu ở chung nhà với người khác, dùng riêng đồ dùng cá nhân như bát đũa cốc chén và tráng nước sôi sau khi dùng nhé. Nếu cần hỗ trợ, bạn có thể liên hệ chat trực tiếp với bác sĩ AI-Doctor nha. Chúc bạn nhiều sức khỏe!",
+            "score": 0.6761237978935242,
+            "id": "vietnamese_medical_qa_5214",
+            "rerank_score": 0.9396127462387085
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

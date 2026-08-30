@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ,\nBé nhà tôi được 11 tháng mà cổ bị vẹo giờ phải chữa thế nào ạ",
+    "ground_truth": "Chào bạn. \nBé nhà bạn 11 tháng mới bị vẹo cổ chứ không phải vẹo từ lúc sinh thì có nhiều khả năng do bé nằm gối đầu quá cao, thường xuyên nằm về một bên mà gia đình không để ý. Bạn cần cho bé đi khám và tập vật lý trị liệu. Những bài tập kéo căng và định vị thực hiện hàng ngày cho bé sẽ là hướng điều trị gần như là tốt nhất cho tật vẹo cổ. Bạn nên tìm hiểu, học hỏi phương pháp này để mình có thể làm cho bé tại nhà.\nNgoài ra, gia đình cũng nên tập cho bé di chuyển đầu cổ sang hướng bé ít nghiêng qua. \nNếu đến 18 tháng, cơ cổ của bé vẫn yếu và các bài tập vật lý trị liệu chưa đủ sức để giúp tật vẹo cổ ở trẻ hồi phụ hoàn toàn, các bác sỹ sẽ thường chỉ định phẫu thuật chỉnh hình cho bé\nThân mến.",
+    "answer": "Chào bạn, tài liệu chưa đủ để xác định nguyên nhân cổ bị vẹo ở bé 11 tháng nên chưa thể hướng dẫn cách chữa cụ thể. Bạn nên đưa bé đi khám trực tiếp tại chuyên khoa Chỉnh hình nhi hoặc Thần kinh và Phục hồi chức năng để bác sĩ đánh giá, từ đó tư vấn phương pháp điều trị và bài tập phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Bé nhà emsinh non31 tuần, được 2.1kg. Do mẹ mang thai bị cao huyết áp nên mổ sớm, bé sinh ra bịthiếu oxy não. Tới nay được 12 tháng mà bé chưa lật được, cổ còn yếu, 2 tay bé cứ đụng vô là lấy gân chặt. Xin hỏi bác sĩ con nhà em nên chữa như thế nào ạ? Em cảm ơn bác sĩ. Phan Phú Thiện(2019) Trả lời Được giải đáp bởiPGS, TS, BS Ninh Thị Ứng -Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Với các triệu chứng hiện tại, bạn nên đưa trẻ đến khám chuyên khoa Thần kinh và chuyên khoa Phục hồi chức năng, bác sĩ cần khám trực tiếp trẻ và tư vấn cụ thể.",
+            "score": 0.7016890048980713,
+            "id": "medical_vietnamese_qa_7906"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 14 tháng tuổi có nang bạch huyết vùng cổ. Bác sĩ cho em hỏitrẻ 14 tháng tuổi có nang bạch huyết vùng cổ điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Tùy thuộc vào vị trí, kích thước, mức độ chèn ép các vùng xung quanh mà có hướng điều trị phù hợp. Vì thông tin của bạn cung cấp chưa đầy đủ nên bác sĩ chưa thể tư vấn cho bạn phương pháp tối ưu nhất. Bạn nên đưa con đến với bác sĩ chuyên khoa Ngoại nhi để thăm khám và tư vấn cụ thể hơn.",
+            "score": 0.6839956641197205,
+            "id": "medical_vietnamese_qa_4472"
+        },
+        {
+            "text": "Câu hỏi: ! Con em được 1 tuổi. Khi sinh ra cháu bị dị tật bẩm sinh, thiếu xương quay và cong vẹo cột sống cổ. Bác sĩ cho em hỏitrẻ 1 tuổi thiếu xương quay vàcong vẹo cột sống cổ bẩm sinhcó phẫu thuật chỉnh hình được không ạ? Em rất mong được bác sĩ tư vấn. Em xin cảm ơn. Phùng Khánh Ly,1989 Trả lời\nTrả lời: Chào bạn. Theo như bạn mô tả thì trẻ bịcong vẹo dị tật cột sống bẩm sinh. Bạn nên đến khám ở chuyên khoa chỉnh hình nhi một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được bác sĩ tư vấn về điều trị cụ thể. Cảm ơn bạn đã tin tưởng và gửi câu hỏi về Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Võ Khắc Khôi Nguyên -Bác sĩ chấn thương chỉnh hình - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+            "score": 0.6474180817604065,
+            "id": "medical_vietnamese_qa_886"
+        },
+        {
+            "text": "Câu hỏi: Chào Bác sĩ,\nCon tôi lúc 11 tháng tuổi (04.2017) đã đi được chập chững, nhưng vào thời điểm này bé bị sốt cao nhiễm trùng huyết nằm điều trị tại 1 bệnh viện tuyến trung ương. Sau khi điều trị hết nhiễm trùng huyết thì bé bị di chứng về não. Đến nay bé đã 44 tháng và không thể tự ngồi lại được, điều khiển chân tay khó khăn, nói chuyện khó khăn và không rõ chữ. Tôi xin hỏi ý kiến bác sĩ về trường hợp của bé có liệu pháp, hay lộ trình nào để có thể phục hồi não trở về trạng thái ban đầu cho bé không?\nXin chân thành cảm ơn bác sĩ. Mong được phản hồi sớm.\nTrả lời: Chào bạn Thanh,\nTôi xin được tư vấn về trường hợp con của bạn như sau: Từ khi cháu có nhiễm trùng huyết và sau đó bị tổn thương não, đến bây giờ đã gần 3 năm từ khi bị. Như vậy cháu đang ở giai đoạn di chứng của tổn thương não. Để có thể phục hồi não bộ cho cháu tốt nhất, bây giờ gia đình cần đưa cháu đến khoa Vật lý trị liệu và Phục hồi chức năng để khám và lượng giá lại. Bác sĩ sau khi thăm khám để biết mức độ tổn thương não của cháu đã ở mức độ nào mới có thể đưa ra tiên lượng, lộ trình điều trị và có bài tập thích hợp nhất dành cho bé được.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng!",
+            "score": 0.6439352035522461,
+            "id": "vietnamese_medical_qa_4900"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 28 tháng tuổi. Em cho bé đi khám, bác sĩ bảo bé bị tổn thương chất trắng trên lều não. Bé nhà em giờ vẫn chưa biết đi, chưa biết nói. Bé sinh non khi em mang thai được 7 tháng thì bị tai nạn nên phải mổ non. Kết luận cuối cùng của bác sĩ là bé gái nhà em bị bại não liệt co cứng tứ chi. Bác sĩ cho em hỏi có cách nàođiều trị bại não liệt co cứng tứ chi cho trẻ được khôngạ? Em xin cảm ơn! Bùi Lâm(1989) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Duy Chinh- Phó Giám đốc Trung tâm Y học tái tạo và Trị liệu tế bào - Bệnh viện Đa khoa Quốc tế Vinmec Times City\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp con bạn đã được chẩn đoán bại não. Đối với trường hợp liệt co cứng tứ chi, bé cần được tập luyện phục hồi chức năng và uống thuốc hỗ trợ. Ngoài ra, nếu trường hợp của bé nhuyễn não chất trắng trên lều có liên quan đến nguyên nhân suy hô hấp thì có thể xem xét ghép tế bào gốc để điều trị. Bạn cần cho bé đến hệ thống bệnh viện quốc tế Vinmec để được bác sĩ chuyên khoa khám và tư vấn các bước điều trị tiếp theo nhé.",
+            "score": 0.6396650075912476,
+            "id": "medical_vietnamese_qa_6681"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

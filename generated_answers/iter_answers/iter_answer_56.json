@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Nhỏ thừa vắc-xin bại liệt liệu có ảnh hưởng đến sức khỏe của trẻ?",
+    "ground_truth": "Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành của virus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai.",
+    "answer": "Việc trẻ đã tiêm đủ vắc-xin 6 trong 1 rồi nhỏ thêm vắc-xin bại liệt đường uống nhìn chung không gây ảnh hưởng xấu đến sức khỏe; hai dạng vắc-xin có thể được phối hợp theo khuyến cáo để tăng cường miễn dịch với các tuýp virus bại liệt. Vắc-xin bại liệt dạng tiêm thường rất an toàn, đôi khi gây đau, sưng đỏ tại chỗ tiêm hoặc sốt nhẹ trong 1–2 ngày; nếu trẻ có biểu hiện bất thường như phát ban nhiều, phù mặt, khó thở, co giật hoặc sốt cao kéo dài, cần đưa trẻ đi khám ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Con em tiêmvắc-xin 6 trong 1, có tiêm và nhỏ thừa hai mũivắc-xin bại liệt. Bác sĩ cho em hỏi, tiêm đủ các mũi vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt liệu có ảnh hưởng gì đến sức khỏe của bé không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Dương Tâm(1987) Trả lời\nTrả lời: Chào bạn! Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành củavirus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp bạn trực tiếp để được tư vấn kỹ càng hơn. Trân trọng! Được giải đáp bởi Tiến sĩ, Bác sĩ Phan Nguyễn Thanh Bình- Khoa Nhi - Sơ Sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+            "score": 0.7271234393119812,
+            "id": "medical_vietnamese_qa_13517"
+        },
+        {
+            "text": "Câu hỏi: ! Bé nhà em vừa uống liều bại liệt xong. Bác sĩ cho em hỏibé vừa uống liều bại liệt có tiêm 6in1 được không? Rất mong bác sĩ tư vấn, cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Với câu hỏi “Bé vừa uống liều bại liệt có tiêm 6in1 được không?”, bác sĩ xin giải đáp như sau: Vắc-xin bại liệt dạng uống chỉ có 2 tuýp 1 và 3, còn trong vắc-xin 6in1 có chứa bại liệt đủ 3 tuýp 1, 2 và 3. Theo Tổ chức Y tế Thế giới khuyến cáo các quốc gia đang chỉ sử dụng vắc xin bại liệt uống (OPV) thì cần sử dụng thêm 1 liều tiêm bại liệt trong lịch tiêm chủng thường xuyên. Như vậy con của bạn uống vắc-xin phòng bại liệt đủ 3 liều phải tiêm thêm 1 mũi bại liệt ( có trong 6in1) nữa là đúng nhưng phải cách nhau tối thiểu 1 tháng. Việc phối hợp dùng cả 2 loại dạng uống và tiêm sẽ giúp củng cố được miễn dịch cho cả 3 tuýp vắc-xin mà vẫn đảm bảo an toàn.  Được giải đáp bởiBác sĩ chuyên khoa II Quách Nguyễn Thu Thủy -Bác sĩ Nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.7162081599235535,
+            "id": "medical_vietnamese_qa_13313"
+        },
+        {
+            "text": "Câu hỏi: Con em trên 3 tuổi rưỡi. Hiện cháu đang điều trị thuốc động kinh. Bác sĩ cho em hỏitrẻ đang điều trị động kinh có thể tiêm ngừa bại liệt không?Khi đi tiêm phòng thì bé có cần phải ngưng uống thuốc động kinh không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ trên 3,5 tuổi đang điều trị động kinh thì vẫn tiêm được vắc-xin bại liệt bình thường. Khi tiêm vắc-xin bại liệt trẻ không cần dừng uống thuốc động kinh. Vắc-xin bại liệt dạng tiêm rất an toàn. Tuy nhiên, cũng giống như các vắc-xin khác, sau khi tiêm có thể gặp các tác dụng không mong muốn như: Phản ứng thường gặp: Đau, xuất hiện quầng đỏ, sưng tại nơi tiêm, sốt nhẹ đến trung bình. Phản ứng hiếm gặp: Dị ứng, phát ban, nổi mày đay, phù mặt, sốc phản vệ với một trong các thành phần của vắc-xin, đau khớp, co giật. Các phản ứng thường kéo dài 1 - 2 ngày rồi tự hết.",
+            "score": 0.6993101835250854,
+            "id": "medical_vietnamese_qa_12782"
+        },
+        {
+            "text": "Câu hỏi: Vắc-xin bại liệt phối hợp\nTrả lời: 4. Vắc-xin bại liệt phối hợp\nĐể tích cực phòng bệnh, ngăn chặn bệnh bại liệt quay trở lại bất cứ lúc nào, ngoài việc triển khai vắc-xin bại liệt cho trẻ dưới 1 tuổi bằng vắc-xin đơn thì các vắc-xin phối hợp cũng được nhà sản xuất chú ý tích hợp thành phần ngừa bại liệt. Hiện nay, tại các điểm tiêm phòng dịch vụ, các loại vắc xin phối hợp có thành phần ngừa bại liệt bao gồm: Vắc-xin 6 in 1 Infanrix Hexa (Bỉ) và Vắc xin 6 in 1 Hexaxim (Pháp) ngừa được 6 bệnh gồm: bại liệt, bạch hầu, ho gà, uốn ván, viêm gan B và các bệnh gây do vi khuẩn Haemophilus influenzae tuýp B (Hib) gây ra. Vắc-xin 5 in 1 Pentaxim (Pháp) ngừa được 5 bệnh bao gồm: bại liệt, bạch hầu, ho gà, uốn ván và các bệnh gây do vi khuẩn Haemophilus influenzae tuýp B (Hib). Vắc-xin 4 in 1 Tetraxim (Pháp) ngừa được 4 bệnh bại liệt, bạch hầu, ho gà, uốn ván. Vắc-xin 5 in 1 Pentaxim (Pháp) ngừa được 5 bệnh bao gồm: bại liệt, bạch hầu, ho gà, uốn ván và các bệnh gây do vi khuẩn",
+            "score": 0.6906750202178955,
+            "id": "vietnamese_healthcare_126330"
+        },
+        {
+            "text": "Câu hỏi: ! Bé nhỏ em năm nay 4 tuổi, bé tiêm ngừa đầy đủ từ lúc mới sinh. Tháng rồi ở trường mầm non của bé tổ chức cho bé uống vắc-xin phòng bại liệt gồm 2 đợt uống, bé đã uống 1 đợt và đợt 2 rơi vào thời gian bé vắng lớp. Bé bị bỏ lỡ đợt uống thứ 2 này. Vậy bác sĩ cho em hỏibé 4 tuổi bỏ lỡ uống vắc-xin phòng bại liệt đợt 2 có nghiêm trọng không? Rất mong bác sĩ tư vấn, em cảm ơn! Nguyễn Phượng Cầu(1990) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin sống giảm độc lực dạng uống (OPV): chứa vi rút bại liệt sống đã làm suy yếu, có tác dụng kích thích cơ thể tạo miễn dịch. Miễn dịch này giúp cho cơ thể phòng vệ không cho virus xâm nhập vào cơ thể. Nếu bé đã tiêm phòng đầy đủ từ lúc mới sinh thì việc bỏ lỡ uống bại liệt mũi 2 này không nghiêm trọng. Tuy nhiên, bé 4 tuổi sẽ có lịch tiêm nhắc một số loại vắc-xin, bạn nên đưa bé đến trung tâm tiêm chủng để tiêm.  Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Bảo Toàn -Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.6779618263244629,
+            "id": "medical_vietnamese_qa_13388"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

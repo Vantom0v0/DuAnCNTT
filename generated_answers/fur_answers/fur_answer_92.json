@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Chào bác sĩ. Hơn một tháng nay em thường xuyên bị chảy máu mũi, đôi khi tự nhiên bị chảy cũng có khi xì mũi thì bị chảy máu. Ngoài ra thì em cũng bị hắt hơi nhiều, hắt hơi theo một tràng khoảng 10 - 20 cái, chảy cả nước mắt. Đôi khi em bị đau phía trong mũi và bị sổ mũi, dịch mũi màu vàng và trong suốt. Em đã uống thuốc cảm sổ mũi nhưng vẫn không đỡ. Dạo gần đây em có sử dụng thuốc xịt thì hết chảy máu mũi nhưng vẫn bị nghẹt mũi, sổ mũi, hắt hơi và chảy nước mũi và chảy nước mắt. Bên mũi phải của em có một cục thịt lồi ra ngoài, chạm vào thì đau. Bác sĩ cho em hỏi là em bị gì vậy ạ? Điều trị như thế nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.",
+    "ground_truth": "Chào em!\nTheo như mô tả của em thì khả năng em bị viêm mũi xoang bán cấp (vì trên 1 tháng). Để điều trị đúng và chính xác em nên khám Tai - Mũi - Họng để được nội soi, cũng như chụp phim giúp chẩn đoán chính xác em nhé. chúc em mau khỏe!",
+    "answer": "Chào em,\n\nDựa trên thông tin được cung cấp, các triệu chứng **hắt hơi thành tràng, chảy nước mũi trong, nghẹt mũi, chảy nước mắt** khá phù hợp với **viêm mũi dị ứng**. Việc xì mũi mạnh hoặc hắt hơi nhiều có thể làm tổn thương niêm mạc và các mạch máu nhỏ trong mũi, gây chảy máu. Dịch mũi vàng có thể xuất hiện khi có bội nhiễm, nhưng chưa đủ thông tin để khẳng định.\n\nTuy nhiên, em có **cục thịt lồi ở một bên mũi, chạm đau**, kèm chảy máu mũi kéo dài và nghẹt mũi. Không thể xác định cục này là gì chỉ qua mô tả; em nên khám chuyên khoa Tai Mũi Họng, nội soi mũi xoang. Bác sĩ có thể cân nhắc chụp CT xoang, đặc biệt khi triệu chứng kéo dài hoặc có khối trong mũi.\n\nTrong thời gian chờ khám:\n\n- Rửa/xịt mũi bằng nước muối sinh lý.\n- Tránh ngoáy mũi, dụi mũi, xì mũi hoặc hắt hơi quá mạnh; khi xì mũi nên bịt từng bên để giảm áp lực.\n- Giữ môi trường sống sạch, đeo khẩu trang khi ra ngoài.\n- Khi chảy máu: ngồi thẳng, không ngửa đầu; dùng hai ngón tay kẹp phần mềm hai bên cánh mũi trong khoảng 5–10 phút.\n\nĐiều trị thường cần khám để xác định nguyên nhân; nếu là viêm mũi dị ứng hoặc viêm xoang thì thường điều trị nội khoa trước, còn có cần phẫu thuật hay không tùy mức độ bệnh. Hiện chưa đủ thông tin để kết luận chính xác bệnh hoặc hướng điều trị cụ thể cho cục lồi trong mũi.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nChau năn nay 27 tuổi, dạo gần đây \n\nthường xuyên bị chảy máu mũi khi xì mạnh cùng dịch nước mũi vào buổi sáng. Bác sĩ tư vấn giúp cháu bệnh như nào với a. Cảm ơn bác sĩ\nTrả lời: Chào em!\nTrước đây em có hay bị chảy máu cam, viêm mũi hay không hoặc là có những thói quen ngoáy mũi... Nếu có thì nó rất dễ gây tổn thương tới các mao mạch của khoang mũi. Kết hợp với xì mạnh gây áp lực lớn tới mao mạch của khoang mũi nên dễ bị chảy máu.\nÊm nên vệ sinh mũi, tránh các thói quen xấu như trên, kết hợp ăn uống, thể dục thể thao điều độ và khi xì mũi phải bịt một bên giảm áp lực cho khoang mũi.\nTình trạng trên nhiều vẫn tiếp diễn và liên tục thì em nên đến tới khám chuyên khoa Tai Mũi Họng để được bác sỹ xử lý sớm.\nChúc em sớm điều trị thành công!",
+            "score": 0.6762581467628479,
+            "id": "vietnamese_medical_qa_8416",
+            "rerank_score": 0.9991683959960938
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em là nam 23 tuổi. Lỗ mũi của em rất nhạy cảm, chỉ cần 1 tác động hơi mạnh 1 xíu từ bên ngoài là bị hắt hơi liên tục, hoặc khi vào máy lạnh cũng thế. \nEm hay bị nghẹt mũi và chảy nước mũi lỏng và trong như nước. Khoảng 1 năm nay cứ mỗi lần hỉ mũi nhiều và hơi mạnh là mũi của em bị chảy máu khá nhiều, nhưng chỉ bị chảy 1 bên lỗ trái. Xin Bác sĩ tư vấn về tình trạng này của em ạ. Xin cảm ơn.\nTrả lời: Chào em\nTình trạng của em nhiều khả năng em bị viêm mũi dị ứng. Viêm mũi dị ứng là tình trạng hệ thống miễn dịch phản ứng quá mức với một dị nguyên nào đó gây ra tình trạng viêm mũi, dẫn tới các triệu chứng như hắt hơi, sổ mũi, ngứa, chảy mũi, nghẹt mũi, ngứa họng, chảy nước mắt, ngứa quanh mắt...Những người có cơ địa dị ứng khi tiếp xúc với dị nguyên sẽ khởi phát bệnh viêm mũi dị ứng. Các dị nguyên có thể gây viêm mũi dị ứng như: Phấn hoa, lông động vật, bụi bẩn, nấm mốc, thay đổi thời tiết... Trường hợp của em hỉ mũi mạnh bị chảy máu mũi do khi bị viêm niêm mạc hốc mũi thường bị phù nề kèm theo giãn mạch, nhất là vùng điểm mạch. Do vậy khi hỉ mũi nhiều  làm tổn thương niêm mạc mũi dẫn tới chảy máu mũi  Khi thấy hắt xì, hỉ mũi ra máu người bệnh giữ tư thế ngồi thẳng, không ngửa đầu ra sau tránh máu vào họng không kiểm soát được số lượng máu chảy. Sau đó dùng 2 ngón tay cái và trỏ kẹp hai bên lỗ mũi lại từ 5-10 phút.Sau khi hết chảy mũi thì rửa lại mũi với nước muối sinh lý. Để hạn ché nên đeo khẩu trang thường xuyên khi ra khỏi nhà, vệ sinh môi trường sống sạch sẽ, thường xuyên vệ sinh răng miệng, mũi họng bằng nước muối sinh lý.Tránh thói quen xì mũi và hắt xì quá mạnh, gây tổn thương niêm mạc mũi.\nThân mến chào em",
+            "score": 0.6739890575408936,
+            "id": "vietnamese_medical_qa_5540",
+            "rerank_score": 0.9962098598480225
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị hắt hơi, chảy mũi hay ra máu nhưng lượng nhỏ, nhiều nhất cũng khoảng 10 giọt kèm theo nước mũi chứ không nhiều. Em có đi nội soi vài lần thì được kết luận viêm mũi dị ứng vẹo vách ngăn gây chảy máu, máu chảy không nhiều rồi tự cầm. Em bị đến nay khoảng 5 năm rồi. Vậy bác sĩ cho em hỏi hắt hơi kèm chảy máu mũi là dấu hiệu bệnh gì? Bệnh này có nghiêm trọng không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn bị hắt hơi, chảy mũi, chảy máu mũi ít giọt, bạn đã khám nội soi Tai mũi họng nhiều lần, đây là hiện tượng chảy máu mũi do hắt hơi hoặc dụi mũi nhiều lần làm vỡ những mạch máu nhỏ phía trước mũi. Hiện tượng này không nghiêm trọng và không ảnh hưởng sức khỏe.\nBạn nên xịt rửa mũi nước muối thường xuyên nhằm làm sạch hốc mũi và dự phòng viêm mũi dị ứng. Nếu còn phân vân, bạn có thể đặt hẹn khám chuyên khoa Tai mũi họng tại bệnh viện để được thăm khám và tư vấn điều trị.\nTrân trọng!",
+            "score": 0.7783826589584351,
+            "id": "vietnamese_medical_qa_749",
+            "rerank_score": 0.9925907850265503
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ ạ. Em bị viêm xoang đã hơn chục năm rồi và vài ngày gần đây thay đổi thời tiết em hắt hơi rất nhiều. Sáng nay dậy lúc em xì mũi có ra rất nhiều máu trong đấy có cả máu đông. Bác sĩ có thể tư vấn giúp em về trường hợp mắc viêm xoang xì mũi có máu nên điều trị thế nào được không ạ? Em cám ơn ạ.\nTrả lời: Chào em. Bệnh lý viêm xoang hay có triệu chứng ngạt mũi, xì mũi kéo dài. Dịch mũi thường là dịch nhầy hoặc mủ vàng xanh. Khi em thấy xì ra mũi có nhiều máu thì rất có thể có hiện tượng chảy máu mũi kèm theo (có thể chỉ là chảy máu điểm mạch do cuốn mũi xung huyết nhiều, tổn thương vùng vách ngăn mũi nhưng cũng có thể do khối u trong mũi hoặc trong xoang) em nên cần thăm khám chi tiết bằng nội soi, kết hợp chụp CT xoang.",
+            "score": 0.7024401426315308,
+            "id": "vietnamese_medical_qa_2863",
+            "rerank_score": 0.988918125629425
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ! Em bị viêm mũi dị ứng từ nhỏ, để lâu giờ thành viêm xoang, lâu lâu mũi em bị chảy máu. Bác sĩ cho em hỏi như thế có phải là bị nặng rồi đúng không ạ?. Mổ có hết không thưa bác sĩ. Mong bác sĩ tư vấn giúp em ạ.\nTrả lời: Chào em! Nếu bệnh của em là viêm mũi dị ứng thì chỉ chảy nước mũi trong. Trong trường hợp bội nhiễm vi khuẩn mới có mủ chảy. Em nên đi khám bác sĩ chuyên khoa để điều trị nội khoa trước. Tùy vào mức độ bệnh mới phải phẫu thuật em nhé.",
+            "score": 0.6688284873962402,
+            "id": "vietnamese_medical_qa_3702",
+            "rerank_score": 0.9876875281333923
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

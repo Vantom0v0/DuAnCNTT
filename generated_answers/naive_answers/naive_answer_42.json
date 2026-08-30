@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Trẻ rụng răng cửa sau 2 tháng chưa mọc có cần đi khám không?",
+    "ground_truth": "Đối với trường hợp của cháu bạn, bạn nên theo dõi cháu sau nhổ răng 6 tháng mà vẫn chưa mọc răng lúc ấy cần cho cháu đi khám nha khoa bạn nhé.",
+    "answer": "Nếu trẻ đã 8 tuổi, rụng răng cửa 2 tháng mà chưa mọc lại, bạn nên đưa trẻ đi khám tại cơ sở y tế uy tín hoặc chuyên khoa Răng-Hàm-Mặt và chụp phim răng để kiểm tra bất thường về cấu trúc răng, khung hàm hoặc tình trạng răng bị ngầm/thiếu răng. Theo tài liệu, răng cửa thường mọc khoảng 6–7 tuổi, vì vậy nên kiểm tra để được tư vấn và can thiệp phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Con em hiện nay được 8 tuổi, bé rụng 2 răng cửa đã được mấy tháng rồi mà không thấy mọc răng mới. Bác sĩ cho em hỏibé 8 tuổi rụngrăng cửasau 2 tháng chưa mọc lạicó đáng lo không? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn bác sĩ. Nguyen Thi Phuong Yen My (1988) Trả lời\nTrả lời: Chào bạn. Các bé bắt đầuthay răng cửatừ răng sữa sang răng vĩnh viễn thường bắt đầu khi bé 5-7 tuổi. Nếu bé8 tuổi rụng răng cửa sau 2 tháng chưa mọc lại, bạn nên cho bé đi khám tại cơ sở Y tế uy tín hoặc chuyên khoa Răng-Hàm-Mặt một trong các bệnh viện thuộcHệ thống Y tế Vinmecvàchụp phim răngxem có bất thường cấu trúc răng và khung hàm của bé để được can thiệp kịp thời. Cảm ơn bạn đã tin tưởng và gửi câu hỏi về Vinmec. Trân trọng! Được giải đáp bởiNhóm bác sĩ khoa Nội trú Nhi- Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Time City",
+            "score": 0.7489868402481079,
+            "id": "medical_vietnamese_qa_7711"
+        },
+        {
+            "text": "Câu hỏi: Cháu của em đã 11 tuổi mà không biết vì sao vẫn còn một chiếc răng cửa chưa chịu mọc. Bác sĩ cho em hỏitrẻ 11 tuổi còn một răng cửa chưa mọc có sao không?Xin bác sĩ tư vấn giúp em, em cảm ơn bác sĩ. Cẩm Vân(1989) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Trung Hậu- Bác sĩ Răng Hàm Mặt - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Thông thường, răng cửa mọc lúc khoảng 6-7 tuổi, con bạn đến 11 tuổi mà còn một răng cửa chưa mọc nên có thểtrẻ bị thiếu rănghoặc có răng nhưng bị ngầm trong xương không mọc được. Bạn đưa cháu đến bệnh viện để bác sĩ khámchụp phim X-quang răngsẽ biết chính xác tình trạngthiếu răngcủa cháu bạn để có hướng tư vấn điều trị phù hợp.",
+            "score": 0.7040040493011475,
+            "id": "medical_vietnamese_qa_6883"
+        },
+        {
+            "text": "Câu hỏi: Trẻ 2 tuổi bị sún răng cửa có nhổ được không?\nTrả lời: Với tình trạng răng hiện tại của con, em nên đưa con đi khám chuyên khoa Răng-Hàm-Mặt để được Nha sĩ khám, chụp film răng và sẽ tư vấn cụ thể hơn về bệnh cũng như cách chữa trị răng của con được tốt nhất. Em không nên để lâu, bởi sẽ ảnh hưởng đến vấn đề răng miệng về sau.",
+            "score": 0.6679060459136963,
+            "id": "vietnamese_healthcare_4243"
+        },
+        {
+            "text": "Câu hỏi: Con em đã nhổ 2 cái răng cửa vào lúc 4 tuổi vì bị sâu răng đến chân lợi. Bây giờ bé đã 9 tuổi nhưng vẫn chưa mọc răng mới. Bác sĩ cho em hỏi,trẻ 9 tuổi chưa mọc răng cửa có sao không?\nTrả lời: bác sĩ xin giải đáp như sau: Nhiễm trùng là lý do chủ yếu khiến bác sĩ quyết địnhnhổ răngsớm cho trẻ. Tuy nhiên, bạn không nói con bạn đã nhổrăng cửahàm trên hay dưới. Với răng cửa hàm trên, việc mọc răng mới (răng vĩnh viễn) sau khi nhổ răng sữa sẽ muộn hơn so với răng cửa dưới. Ngoài lý do tuổi mọc răng, còn nhiều lý do khiến răng mới chưa có. Bạn nên cho con đi khám chuyên khoa Răng - Hàm - Mặt để được tư vấn cụ thể hơn về tình trạng của trẻ.",
+            "score": 0.6627374291419983,
+            "id": "medical_vietnamese_qa_6630"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em mới gần 2 tuổi nhưng đã lung lay răng sữa (răng cửa). Vậy bác sĩ cho em hỏitrẻ gần 2 tuổi lung lay răng cửa có sao không?Liệu có ảnh hưởng gì đến sức khỏe và quá trình thay răng không? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ nhà bạn có tình trạng lung lay răng cửa là dấu hiệu bất thường. Vì thế, bạn nên cho con đi khám chuyên khoa Răng Hàm Mặt để được tư vấn cụ thể.",
+            "score": 0.6505662202835083,
+            "id": "medical_vietnamese_qa_4398"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

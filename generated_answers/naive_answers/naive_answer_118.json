@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "vợ e hay bị tức ngực khó thở và cảm giác hơi nhói tim là đang gặp vấn đề gì ạh ?",
+    "ground_truth": "Chào bạn. Tình trạng đau ngực có nhiều nguyên nhân. Nguyên nhân đáng lo ngại nhất là bệnh mạch vành, thiếu máu cơ tim. Vì vậy người bệnh cần được thăm khám và làm các xét nghiệm chẩn đoán để có hướng điều trị. Chúc bạn nhiều sức khỏe.",
+    "answer": "Tình trạng tức ngực, khó thở và hơi nhói tim có thể do nhiều nguyên nhân, từ bệnh lý tim mạch như hội chứng vành cấp, bệnh mạch vành, viêm màng ngoài tim đến bệnh phổi, trào ngược dạ dày–thực quản, đau cơ hoặc thần kinh liên sườn, rối loạn thần kinh thực vật, stress; chưa thể xác định chính xác chỉ dựa vào triệu chứng. Bạn nên đưa vợ đi khám sớm, đặc biệt nếu triệu chứng tái diễn hoặc xảy ra khi gắng sức; bác sĩ có thể chỉ định điện tim, X-quang tim phổi, xét nghiệm máu, siêu âm tim và các kiểm tra khác khi cần. Trong lúc chờ khám, nên nghỉ ngơi, tránh vận động nặng và các chất kích thích như cà phê, trà, nước tăng lực.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Vợ em có triệu chứng thở mạnh tim bị nhói đau từng cơn. Vậy bác sĩ cho em hỏitim nhói đau theo từng cơn khi thở mạnh là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng này có thể là dấu hiệu bất thường của một số bệnh liên quan đến tim phổi hoặc thành ngực tại vị trí đau như: Tràn dịch màng tim, tràn dịch màng phổi, đau thần kinh liên sườn, bệnh mạch vành (cầu cơ), rối loạn thần kinh thực vật,.. Bạn nên đưa vợ đi khám sớm vì nếu là căn nguyên nguy hiểm thì cần phải phát hiện sớm và điều trị kịp thời. Khi đến bệnh viện thăm khám, bác sĩ có thể đề nghị cho làm các kiểm tra như: Đo điện tim, chụp X quang tim phổi thẳng, xét nghiệm máu, siêu âm tim, đôi khi phải chụp CT phổi, chụp DSA động mạch vành để tim nguyên nhân. Đối với các tình trạng đau ở ngực, việc thăm khám sớm là cực kỳ quan trọng. Trong thời gian chờ được thăm khám, vợ bạn cần tránh vận động nặng, vận động gắng sức, tránh dùng các chất kích thích như cà phê, trà, nước ngọt có chất tăng lực,.. ăn uống lành mạnh, nghỉ ngơi hợp lý để đảm bảo an toàn.",
+            "score": 0.7225706577301025,
+            "id": "medical_vietnamese_qa_11745"
+        },
+        {
+            "text": "Câu hỏi: Thỉnh thoảng, em bị khó thở và đau nhói tim. Vậy bác sĩ cho em hỏikhó thở kèm đau nhói tim là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khó thở kèm đau nhói ngực có thể gặp trong những bệnh cảnh nguy hiểm do bệnh lý tim mạch như hội chứng vành cấp, phình bóc tách động mạch chủ,... cũng có thể do những nguyên nhân không nguy hiểm như đau cơ, đau thần kinh liên sườn. Để biết chính xác tình trạng bệnh và phương pháp điều trị, bạn cần đi khám để bác sĩ có thể thăm khám và thực hiện những cận lâm sàng phù hợp.",
+            "score": 0.6743390560150146,
+            "id": "medical_vietnamese_qa_11675"
+        },
+        {
+            "text": "Câu hỏi: Thưa bác sĩ, em thường xuyên bị tức ngực, buồn nôn, nôn mửa. Cảm giác như em bị chèn ép, đau khó chịu ở ngực thì em mắc bệnh gì ạ? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào em,\nĐau ngực là một trong những lý do khiến bệnh nhân nữ trẻ tuổi phải đến khám bác sĩ tim mạch nhiều nhất. Và một quan điểm phổ biến của đại đa số người dân cho rằng đau ngực là do bệnh tim mạch, là do nhồi máu cơ tim. Chính điều này làm cho bệnh nhân rất lo lắng.\nEm bị tức ngực, buồn nôn, nôn mửa. Cảm giác bị chèn ép, đau khó chịu ở ngực thì nguyên nhân gây ra đau ngực hay gặp theo thứ tự có thể kể ra như sau:\nTrào ngược dạ dày thực quản: Khi viêm dạ dày trào ngược sẽ gây viêm thực quản. Khi viêm thực quản cũng có triệu chứng đau ngực kiểu nóng rát, buồn nôn, nôn.\nBệnh tim: Bệnh van tim do thấp, hẹp van hai lá, sa van hai lá, viêm màng ngoài tim.\nBệnh phổi: Nhồi máu phổi hay gặp ở những bệnh nhân dùng thuốc tránh thai. Các nguyên nhân không phải tim mạch như viêm phổi, viêm màng phổi.\nViêm sụn sườn, đau dây thần kinh liên sườn, bệnh zona.\nMột nguyên nhân nữa cũng hay gặp trong xã hội hiện đại là do lo lắng, căng thẳng, stress.\nTuy nhiên như đã nói ở trên có rất nhiều nguyên nhân gây ra đau ngực nên em cần phải đi khám để được chẩn đoán và điều trị đúng bệnh.",
+            "score": 0.6560207605361938,
+            "id": "vietnamese_medical_qa_4559"
+        },
+        {
+            "text": "Câu hỏi: Từ nhỏ, em đã hay bị khó thở và tức ngực. Em có đi khám nhưng mọi thứ đều bình thường. Nhưng khoảng vài năm gần đây, ngoài việc tức ngực và khó thở thì thỉnh thoảng em còn phía dưới ngực trái (thường thì đau khoảng 2 phút và hít thở thì rất đau). Vậy bác sĩ cho em hỏihay khó thở kèm tức ngực là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khó thở và tức ngực ở người trẻ tuổi thường do tâm lý, một số ít trường hợp là đau cơ thần kinh liên sườn, hoặc bệnh lý trào ngược dạ dày thực quản. Vì vậy, để chẩn đoán chính xác tình trạng bạn đang gặp phải, tốt nhất bạn nên đến thăm khám bác sĩ chuyên khoa Tim mạch để được tư vấn cụ thể.",
+            "score": 0.6355690360069275,
+            "id": "medical_vietnamese_qa_11743"
+        },
+        {
+            "text": "Câu hỏi: Em có triệu chứng khó thở, đau tim khi vận động mạnh. Những lúc stress mệt mỏi, em thường bị ép tim gây khó thở. Vậykhó thở kèm tức ngực là triệu chứng của bệnh gìạ? Lê Thị Thùy Linh(2000) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Trần Hồng Nhật -Bác sĩ Tim mạch can thiệp - Trung tâm Tim mạch - Bệnh viện Đa khoa Quốc tế Vinmec Central Park\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng khó thở, tức ngực có thể do nhiều nguyên nhân khác nhau gây ra. Có thể do những nguyên nhân thực thể từ bệnh lý tim, phổi,... và cũng có thể do rối loạn chức năng như rối loạn thần kinh thực vật, stress, căng thẳng... Theo như bạn mô tả, tình trạng của bạn liên quan đến stress. Nhưng để làm rõ nguyên nhân, bạn nên thăm khám tại bệnh viện Vinmec để được các bác sĩ chuyên khoa kiểm tra và có chẩn đoán chính xác nhất, từ đó có hướng điều trị phù hợp, hiệu quả nhất cho bạn.",
+            "score": 0.6289410591125488,
+            "id": "medical_vietnamese_qa_11944"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

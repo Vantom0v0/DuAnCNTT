@@ -1,0 +1,114 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ,\nEm bị viêm tai thanh dịch. Vậy bác sĩ cho em hỏi viêm tai thanh dịch có thể điều trị được không? Bệnh này có tự hết không hay bắt buộc phải uống thuốc mỗi lần bị viêm? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViêm tai thanh dịch là bệnh lý liên quan đến chức năng thông thoáng của vòi tai (là ống nối thông từ mũi tới tai). Đây là bệnh lý lành tính tuy nhiên việc điều trị cần phải theo dõi sát trong thời gian 1 - 3 tháng vì dịch ở trong tai tiêu chậm, đặc biệt ở người hút thuốc lá hoặc có tiền sử bệnh mũi.\nVì vậy, bạn nên đến thăm khám để nhân được kế hoạch điều trị và theo dõi cho dứt điểm tình trạng ứ dịch trong tai.\nTrân trọng!",
+    "answer": "Viêm tai giữa nói chung có thể tự khỏi và không phải trường hợp nào cũng bắt buộc dùng kháng sinh; một số nghiên cứu cho thấy khoảng 2/3 trẻ cải thiện mà không cần kháng sinh, đặc biệt có thể theo dõi ở trẻ từ 2 tuổi trở lên nếu bệnh không nặng. Tuy nhiên, viêm tai giữa có nhiều thể bệnh và mỗi thể, mỗi giai đoạn có cách điều trị khác nhau. Vì bằng chứng được cung cấp chưa nói cụ thể về viêm tai thanh dịch, chưa đủ thông tin để khẳng định bệnh của bạn có tự hết hay cần dùng thuốc; bạn nên được bác sĩ thăm khám và theo dõi cẩn trọng.",
+    "evidence": [
+        "Hầu hết thời gian, viêm tai giữa có thể tự khỏi, nhưng phải được theo dõi cẩn trọng.",
+        "Nhưng bệnh cũng tự khỏi nếu không điều trị.",
+        "Trên thực tế, 2/3 số trẻ em, theo nghiên cứu trên tạp chí Nhi khoa, cải thiện mà không cần dùng kháng sinh.",
+        "Năm ngoái, họ đã công bố hướng dẫn điều trị cho phép các bác sĩ tùy chọn theo dõi và chờ đợi các trường hợp viêm tai giữa không nặng - chỉ đau tai nhẹ và không ghi nhận sốt cao – cho trẻ từ 2 tuổi trở lên.",
+        "Viêm tai giữa có rất nhiều thể bệnh bạn nhé.",
+        "Với mỗi thể bệnh, mỗi giai đoạn điều trị khác nhau, sẽ có phương pháp chữa trị không giống nhau."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bệnh viêm màng não điều trị bao lâu thì khỏi?\nTrả lời: em nên vào Bệnh viện tái khám bác sĩ chuyên khoa Nội tổng hợp thần kinh. Bệnh của em có thể điều trị khỏi nếu có phác đồ điều trị đúng em nhé.",
+                "score": 0.6444745659828186,
+                "id": "vietnamese_healthcare_8269",
+                "rerank_score": 0.12250064313411713
+            },
+            {
+                "text": "Câu hỏi: Bệnh lupus ban đỏ có chữa được không?\nTrả lời: 2. Bệnh lupus ban đỏ có chữa được không?\nBệnh lupus ban đỏ có chữa được không? Không có cách điều trị hoàn toàn bệnh lupus ban đỏ nhưng vẫn có các phương pháp điều trị để giúp người bệnh cảm thấy tốt hơn, cải thiện triệu chứng và các biến chứng bệnh.Việc điều trị này có thể phụ thuộc vào một số yếu tố, bao gồm: Các triệu chứng và biến chứng của mỗi bệnh nhân. Mức độ nghiêm trọng của bệnh. Tuổi tác. Loại thuốc đang sử dụng. Sức khỏe toàn thể của người bệnh. Tiền sử bệnh. Lupus ban đỏ là một tình trạng lâu dài cần được kiểm soát thường xuyên. Mục tiêu của việc điều trị là làm cho các triệu chứng thuyên giảm và hạn chế mức độ tổn thương mà bệnh gây ra cho các cơ qua. Tuy nhiên, tác động của bệnh có thể thay đổi và khác nhau theo thời gian. Vì vậy, người bệnh có thể sẽ cần thường xuyên đến gặp bác sĩ và điều chỉnh kế hoạch chăm sóc để phù hợp với các triệu chứng của mình.Một số người mắc bệnh lupus nhẹ có thể cần điều trị hạn chế, theo dõi và giám sát triệu chứng để đảm bảo rằng chúng không tồi tệ hơn. Còn những người có xu hướng bị các biến chứng nghiêm trọng hơn (như biến chứng tim, phổi hoặc thận) có thể cần một kế hoạch điều trị tích cực.",
+                "score": 0.6346629858016968,
+                "id": "vietnamese_healthcare_67655",
+                "rerank_score": 0.07570938020944595
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+                "score": 0.634332537651062,
+                "id": "vietnamese_medical_qa_2402",
+                "rerank_score": 0.05015923082828522
+            },
+            {
+                "text": "Câu hỏi: Làm thế nào để chữa được chứng ù tai?\nTrả lời: Ù tai hiện có nhiều nguyên nhân gây nên.",
+                "score": 0.6512896418571472,
+                "id": "vietnamese_healthcare_7567",
+                "rerank_score": 0.021440422162413597
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.6354989409446716,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.011686778627336025
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tôi năm nay 31 tuổi, bị viêm tai giữa từ lúc còn nhỏ nhưng không được chữa trị cho đến nay. Càng ngày tôi càng thấy nặng tai hơn. Bác sĩ cho tôi hỏi bị viêm tai giữa lâu ngày có thể chữa khỏi được không? Sau này có để lại di chứng gì nữa không? Mong được nhận sự tư vấn và hồi âm của bác sĩ. Tôi xin cảm ơn\nTrả lời: Chào bạn. Bác sĩ xin trả lời thắc mắc: “Bị viêm tai giữa lâu ngày có thể chữa khỏi được không?” của bạn như sau:\nViêm tai giữa hay nhiễm trùng tai giữa là bệnh khá phổ biến xảy ra ở trẻ em. Trẻ từ 1-2 tuổi có nguy cơ nhiễm bệnh nhiều nhất. Bệnh hay xuất hiện nhiều vào mùa mưa, thời tiết thay đổi.\nNếu như không có phương pháp điều trị viêm tai giữa kịp thời có thể ảnh tới thính lực. Đã có không ít trường hợp bị viêm tai giữa lâu ngày nhưng chủ quan gây điếc, có trường hợp tử vong bởi biến chứng viêm màng não hay xuất huyết não...\nCảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+                "score": 0.5960006713867188,
+                "id": "vietnamese_medical_qa_3313",
+                "rerank_score": 0.9987640380859375
+            },
+            {
+                "text": "Câu hỏi: Liệu viêm tai giữa có thể tự khỏi không?\nTrả lời: 2. Liệu viêm tai giữa có thể tự khỏi không?\nHầu hết thời gian, viêm tai giữa có thể tự khỏi, nhưng phải được theo dõi cẩn trọng. Đó là vì viêm tai giữa là do sự tụ dịch trong tai giữa của trẻ, tạo điều kiện tốt cho các tác nhân gây bệnh – như vi khuẩn – phát triển trong khu vực trọng yếu của cơ thể. Phương pháp điều trị viêm tai giữa thường được áp dụng tại Hoa Kỳ là cho trẻ uống kháng sinh ngay. Phương pháp này hầu như luôn luôn có tác dụng, vì tai của trẻ được làm sạch. Nhưng bệnh cũng tự khỏi nếu không điều trị. Trên thực tế, 2/3 số trẻ em, theo nghiên cứu trên tạp chí Nhi khoa, cải thiện mà không cần dùng kháng sinh. Các bác sĩ và bố mẹ thường lo lắng rằng nhiễm trùng nghiêm trọng có thể khởi nguồn từ những cơn đau tai đơn giản, đó là lý do rất nhiều trong số họ muốn điều trị sớm. Tuy nhiên, có một nhược điểm. Sáu mươi phần trăm đơn thuốc kháng sinh cho trẻ em là dùng để kê đơn cho bệnh viêm tai giữa. Việc sử dụng kháng sinh ồ ạt như vậy đang dẫn đến một cuộc phản công của vi khuẩn. Các loại vi khuẩn xấu đang trở nên kháng thuốc kháng sinh. Điều này có nghĩa là trong tương lai, việc điều trị hiệu quả sẽ khó khăn và tốn kém hơn. Bác sĩ thực sự có thể cắt giảm kháng sinh điều trị viêm tai giữa không? Học viện Nhi khoa Hoa Kỳ và Học viện Bác sĩ Gia đình Hoa Kỳ đã thực hiện bước đầu tiên. Năm ngoái, họ đã công bố hướng dẫn điều trị cho phép các bác sĩ tùy chọn theo dõi và chờ đợi các trường hợp viêm tai giữa không nặng - chỉ đau tai nhẹ và không ghi nhận sốt cao – cho trẻ từ 2 tuổi trở lên. Nhưng câu hỏi vẫn còn đây, là liệu theo dõi và chờ đợi có tác dụng thực sự hay không? Và thậm chí nếu phương pháp này có tác dụng, liệu bố mẹ và bác sĩ có thật sự chấp nhận kế hoạch theo dõi và chờ đợi để xem liệu nhiễm trùng tai có thể tự khỏi? Phương pháp điều trị viêm tai giữa bằng kháng sinh cần được cân nhắc",
+                "score": 0.5924508571624756,
+                "id": "vietnamese_healthcare_136093",
+                "rerank_score": 0.994783341884613
+            },
+            {
+                "text": "Câu hỏi: Bệnh viêm màng não điều trị bao lâu thì khỏi?\nTrả lời: em nên vào Bệnh viện tái khám bác sĩ chuyên khoa Nội tổng hợp thần kinh. Bệnh của em có thể điều trị khỏi nếu có phác đồ điều trị đúng em nhé.",
+                "score": 0.6168636083602905,
+                "id": "vietnamese_healthcare_8269",
+                "rerank_score": 0.12250064313411713
+            },
+            {
+                "text": "Câu hỏi: Bệnh lupus ban đỏ có chữa được không?\nTrả lời: 2. Bệnh lupus ban đỏ có chữa được không?\nBệnh lupus ban đỏ có chữa được không? Không có cách điều trị hoàn toàn bệnh lupus ban đỏ nhưng vẫn có các phương pháp điều trị để giúp người bệnh cảm thấy tốt hơn, cải thiện triệu chứng và các biến chứng bệnh.Việc điều trị này có thể phụ thuộc vào một số yếu tố, bao gồm: Các triệu chứng và biến chứng của mỗi bệnh nhân. Mức độ nghiêm trọng của bệnh. Tuổi tác. Loại thuốc đang sử dụng. Sức khỏe toàn thể của người bệnh. Tiền sử bệnh. Lupus ban đỏ là một tình trạng lâu dài cần được kiểm soát thường xuyên. Mục tiêu của việc điều trị là làm cho các triệu chứng thuyên giảm và hạn chế mức độ tổn thương mà bệnh gây ra cho các cơ qua. Tuy nhiên, tác động của bệnh có thể thay đổi và khác nhau theo thời gian. Vì vậy, người bệnh có thể sẽ cần thường xuyên đến gặp bác sĩ và điều chỉnh kế hoạch chăm sóc để phù hợp với các triệu chứng của mình.Một số người mắc bệnh lupus nhẹ có thể cần điều trị hạn chế, theo dõi và giám sát triệu chứng để đảm bảo rằng chúng không tồi tệ hơn. Còn những người có xu hướng bị các biến chứng nghiêm trọng hơn (như biến chứng tim, phổi hoặc thận) có thể cần một kế hoạch điều trị tích cực.",
+                "score": 0.6071286201477051,
+                "id": "vietnamese_healthcare_67655",
+                "rerank_score": 0.07570929080247879
+            },
+            {
+                "text": "Câu hỏi: Dạ thưa các bác sĩ. Em muốn hỏi gần đây da em mới xuất hiện các nốt bạch biến. Em muốn hỏi, xuất hiện nốt bạch biến có trị được không? Em xin cảm ơn bác sĩ.\nTrả lời: Chào bạn! Do nguyên nhân gây bệnh bạch biến vẫn chưa được hiểu rõ nên vẫn chưa có phương pháp điều trị bạch biến đặc hiệu. Hiện việc điều trị bệnh còn nhiều khó khăn, chỉ mới dừng lại ở việc giải quyết triệu chứng.\nCảm ơn bạn đã tin tưởng và chia sẻ lo lắng cùng câu hỏi “Xuất hiện nốt bạch biến có trị được không?” tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+                "score": 0.5918450951576233,
+                "id": "vietnamese_medical_qa_2980",
+                "rerank_score": 0.0574682243168354
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tôi năm nay 31 tuổi, bị viêm tai giữa từ lúc còn nhỏ nhưng không được chữa trị cho đến nay. Càng ngày tôi càng thấy nặng tai hơn. Bác sĩ cho tôi hỏi bị viêm tai giữa lâu ngày có thể chữa khỏi được không? Sau này có để lại di chứng gì nữa không? Mong được nhận sự tư vấn và hồi âm của bác sĩ. Tôi xin cảm ơn\nTrả lời: Chào bạn. Bác sĩ xin trả lời thắc mắc: “Bị viêm tai giữa lâu ngày có thể chữa khỏi được không?” của bạn như sau:\nViêm tai giữa hay nhiễm trùng tai giữa là bệnh khá phổ biến xảy ra ở trẻ em. Trẻ từ 1-2 tuổi có nguy cơ nhiễm bệnh nhiều nhất. Bệnh hay xuất hiện nhiều vào mùa mưa, thời tiết thay đổi.\nNếu như không có phương pháp điều trị viêm tai giữa kịp thời có thể ảnh tới thính lực. Đã có không ít trường hợp bị viêm tai giữa lâu ngày nhưng chủ quan gây điếc, có trường hợp tử vong bởi biến chứng viêm màng não hay xuất huyết não...\nCảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+                "score": 0.6478805541992188,
+                "id": "vietnamese_medical_qa_3313",
+                "rerank_score": 0.9987640380859375
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Em đã bị viêm tai giữa nhiều năm và đã thử qua nhiều phương pháp, nhưng vẫn không thể trị khỏi bệnh. Vậy có cách nào điều trị dứt điểm viêm tai giữa không?\nCảm ơn bác sĩ.\nChào bác sĩ. Em bị viêm tai giữa cho em cách chữa trị tại nhà. Cảm ơn bác sĩ.\nNguyen Cong Thanh (1987)\nChào bác sĩ. Em bị bệnh viêm tai giữa có mưng mủ lâu ngày mà đi bệnh viện cam ranh đây uống thuốc hoài mà không hết được nên em xin lời tư vấn từ bác sĩ ạ ( mong bác sĩ gửi câu trả lời qua gmail ạ ). Em cảm ơn bác sĩ.\nTrả lời: Chào bạn. Viêm tai giữa có rất nhiều thể bệnh bạn nhé. Với mỗi thể bệnh, mỗi giai đoạn điều trị khác nhau, sẽ có phương pháp chữa trị không giống nhau.\nThông thường, phương pháp điều trị nội khoa được áp dụng nhiều nhất. Kháng sinh uống là thuốc được lựa chọn điều trị, nhưng việc chọn lựa kháng sinh cần dựa trên kiến thức về vi khuẩn thường gặp trong viêm tai giữa. Còn nếu như trị kháng sinh không hiệu quả sẽ phải chích rạch màng nhĩ để đặt ống thông nhĩ Diablo, cũng như còn nhiều phương pháp chữa trị khác tuỳ thuộc tình trạng bệnh nhân.",
+                "score": 0.6459262371063232,
+                "id": "vietnamese_medical_qa_4152",
+                "rerank_score": 0.9966850876808167
+            },
+            {
+                "text": "Câu hỏi: Liệu viêm tai giữa có thể tự khỏi không?\nTrả lời: 2. Liệu viêm tai giữa có thể tự khỏi không?\nHầu hết thời gian, viêm tai giữa có thể tự khỏi, nhưng phải được theo dõi cẩn trọng. Đó là vì viêm tai giữa là do sự tụ dịch trong tai giữa của trẻ, tạo điều kiện tốt cho các tác nhân gây bệnh – như vi khuẩn – phát triển trong khu vực trọng yếu của cơ thể. Phương pháp điều trị viêm tai giữa thường được áp dụng tại Hoa Kỳ là cho trẻ uống kháng sinh ngay. Phương pháp này hầu như luôn luôn có tác dụng, vì tai của trẻ được làm sạch. Nhưng bệnh cũng tự khỏi nếu không điều trị. Trên thực tế, 2/3 số trẻ em, theo nghiên cứu trên tạp chí Nhi khoa, cải thiện mà không cần dùng kháng sinh. Các bác sĩ và bố mẹ thường lo lắng rằng nhiễm trùng nghiêm trọng có thể khởi nguồn từ những cơn đau tai đơn giản, đó là lý do rất nhiều trong số họ muốn điều trị sớm. Tuy nhiên, có một nhược điểm. Sáu mươi phần trăm đơn thuốc kháng sinh cho trẻ em là dùng để kê đơn cho bệnh viêm tai giữa. Việc sử dụng kháng sinh ồ ạt như vậy đang dẫn đến một cuộc phản công của vi khuẩn. Các loại vi khuẩn xấu đang trở nên kháng thuốc kháng sinh. Điều này có nghĩa là trong tương lai, việc điều trị hiệu quả sẽ khó khăn và tốn kém hơn. Bác sĩ thực sự có thể cắt giảm kháng sinh điều trị viêm tai giữa không? Học viện Nhi khoa Hoa Kỳ và Học viện Bác sĩ Gia đình Hoa Kỳ đã thực hiện bước đầu tiên. Năm ngoái, họ đã công bố hướng dẫn điều trị cho phép các bác sĩ tùy chọn theo dõi và chờ đợi các trường hợp viêm tai giữa không nặng - chỉ đau tai nhẹ và không ghi nhận sốt cao – cho trẻ từ 2 tuổi trở lên. Nhưng câu hỏi vẫn còn đây, là liệu theo dõi và chờ đợi có tác dụng thực sự hay không? Và thậm chí nếu phương pháp này có tác dụng, liệu bố mẹ và bác sĩ có thật sự chấp nhận kế hoạch theo dõi và chờ đợi để xem liệu nhiễm trùng tai có thể tự khỏi? Phương pháp điều trị viêm tai giữa bằng kháng sinh cần được cân nhắc",
+                "score": 0.687025785446167,
+                "id": "vietnamese_healthcare_136093",
+                "rerank_score": 0.994783341884613
+            },
+            {
+                "text": "Câu hỏi: Có thể chữa dứt điểm viêm tai giữa cho trẻ không?\nTrả lời: 3. Có thể chữa dứt điểm viêm tai giữa cho trẻ không?\nTrước khi quyết định phương pháp chữa viêm tai cấp ở trẻ em thì bác sĩ sẽ tiến hành thăm khám để có thể chẩn đoán chính xác bệnh và mức độ mà trẻ đang gặp phải. Ngoài thử nghiệm đo màng nhĩ thì bác sĩ sẽ dùng một ống soi tai để phát hiện xem tai trẻ có bị sưng, tấy, đỏ, có máu hay chảy dịch trong tai , thủng màng nhĩ hay không. Viêm tai giữa ở trẻ: Trẻ có bị sưng, tấy, đỏ, có máu hay chảy dịch trong tai Sau khi đã chẩn đoán xong, bác sĩ sẽ đưa ra phác đồ để có thể chữa viêm tai cấp ở trẻ.Hầu hết các bệnh nhân bị viêm tai giữa cấp tính có thể điều trị mà không cần dùng kháng sinh, có thể điều trị tại nhà với một số loại thuốc giảm đau trước khi dùng kháng sinh để hạn chế tác dụng phụ.",
+                "score": 0.6091850996017456,
+                "id": "vietnamese_healthcare_50623",
+                "rerank_score": 0.8551613092422485
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nCháu bị ù tai lâu lắm rồi, có đi thăm khám nhiều nơi, nội soi nhiều lần vẫn bình thường, có chỗ chẩn đoán là rối loạn tiền đình tai trong, có chỗ bảo là cháu phải làm quen và sống với nó. Cháu có uống thuốc nhiều nơi nhưng vẫn không khỏi, tiếng ù có lúc bên phải lúc bên trái và chỉ khi không gian yên tĩnh thì nghe rất rõ. Cháu có đo thính lực thì bên đó bảo vẫn nghe tốt. Vậy bác sĩ cho cháu hỏi ù tai kéo dài nguyên nhân do đâu? Có thể điều trị khỏi được không thưa bác sĩ? Cháu cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nÙ tai là một tình trạng khá thường gặp. Đa số các trường hợp ù tai không tìm được nguyên nhân, và được gọi là ù tai vô căn (idiopathic tinnitus). Tuy vậy để chẩn đoán ù tai vô căn thì cần phải loại trừ các nguyên nhân gây ù tai có thể gặp như: Các bệnh lý tai ngoài, tai giữa, tai trong, thần kinh, bệnh lý viêm mạch máu, tăng huyết áp, đái tháo đường, bệnh tự miễn, ù tai do thuốc,...\nTrong trường hợp bạn chỉ ù tai đơn thuần (không kèm nghe kém), triệu chứng ù tai kéo dài trên 06 tháng và các xét nghiệm cận lâm sàng như: Nội soi Tai mũi họng, đo thính lực đồ, nhĩ lượng đồ, phản xạ cơ bàn đạp, CT scan/ MRI tai không ghi nhận bất thường, không có các bệnh lý tăng huyết áp, đái tháo đường, bệnh tự miễn,... đi kèm thì có thể được chẩn đoán ù tai mạn tính vô căn.\nMột số phương pháp điều trị ù tai mạn tính vô căn như: Liệu pháp âm thanh (đeo máy trợ thính), liệu pháp nhận thức – hành vi (Cognitive behavioral therapy) giúp thích nghi với tình trạng ù tai, sử dụng thuốc hỗ trợ. Mục đích của các phương pháp điều trị nhằm giảm thiểu ảnh hưởng của tình trạng ù tai đến chất lượng cuộc sống, công việc của bạn và trong một số trường hợp có thể khỏi hẳn.\nBạn có thể đến phòng khám Tai mũi họng để được kiểm tra, tư vấn điều trị cụ thể hơn.\nTrân trọng!",
+                "score": 0.6026421785354614,
+                "id": "vietnamese_medical_qa_626",
+                "rerank_score": 0.7150869965553284
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

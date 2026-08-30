@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ,\nĐau bug kjnh thj phaj lam nhu the nao ạ .va nen lam nhung gj khong bj đau nua ạ",
+    "ground_truth": "Chào cháu, \nĐau bụng kinh là hiện tượng thường xảy ra trong thời kỳ kinh nguyêt, Tùy thuộc vào cơ địa của từng người, mà có người đau ít, có người đau nhiều. Khi bị đau bụng kinh, cháu có thể áp dụng một vài cách sau để giảm chứng đau bụng : \n- Chườm nóng \n- Sắc ngải cứu lên uống hoặc nấu canh\n- Sử dụng một số thuốc giảm đau như Paracetamon\n- Uống nước gừng nóng \nThân mến",
+    "answer": "Chào bạn, tài liệu hiện có không cung cấp đủ thông tin để hướng dẫn xử trí đau bụng kinh hoặc cách giảm đau. Bạn nên cho biết thêm tình trạng đau xuất hiện khi nào, mức độ và kéo dài bao lâu; nếu đau nhiều hoặc kéo dài, hãy đi khám để được bác sĩ thăm khám và tư vấn cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi em bị răng hơi khấp khểnh thì nên làm thế nào ạ? Mong nhận được những chia sẻ của bác sĩ!\nTrả lời: Rất mong có thể sớm gặp bạn tại AI-Doctor. Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “ Răng hơi khấp khểnh thì nên làm thế nào?” Chúc bạn luôn tự tin trong cuộc sống. Trân trọng!",
+            "score": 0.6628966331481934,
+            "id": "vietnamese_medical_qa_2257"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+            "score": 0.6392956972122192,
+            "id": "vietnamese_medical_qa_1629"
+        },
+        {
+            "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+            "score": 0.6237533092498779,
+            "id": "vietnamese_healthcare_125866"
+        },
+        {
+            "text": "Câu hỏi: Xin có một thắc mắc như sau mong được bác sĩ tư vấn: Giãn não thất nên điều trị thế nào hiệu quả ạ? Mong bác sĩ tư vấn giúp tôi. Tôi xin chân thành cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nThông qua câu hỏi của bạn, bác sĩ cũng chưa nắm được thông tin cụ thể về việc bạn mắc bệnh giãn não thất đã lâu chưa, nguyên nhân gây bệnh là gì, bạn đã thăm khám ở những cơ sở nào và kết quả ra sao, nếu đã điều trị giãn não thất thì dùng những thuốc gì rồi...",
+            "score": 0.60442054271698,
+            "id": "vietnamese_medical_qa_4410"
+        },
+        {
+            "text": "Câu hỏi: Đau nhói ngực, tim đập mạnh là dấu hiệu bệnh lý gì?\nTrả lời: Xin hỏi bạn đau ngực trái hay phải? Cơn đau xuất hiện khi nào và kéo dài bao lâu? Bạn nên gặp bác sĩ Tim mạch để được thăm khám và tư vấn cụ thể.",
+            "score": 0.6043480038642883,
+            "id": "vietnamese_healthcare_6786"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,110 @@
+{
+    "model_name": "fur",
+    "question": "Bé gái 7 tuổi đau 2 vú có phải dậy thì? Nên làm thế nào trong trường hợp trẻ dậy thì sớm?",
+    "ground_truth": "Trường hợp bé gái có tuyến vú lúc 7 tuổi là sớm so với tuổi. Bé cần được khám chuyên khoa nội tiết nhi để làm xét nghiệm: định lượng nồng độ nội tiết LH, FSH và E2 trong máu, ngoài ra xét nghiệm siêu âm tử cung, buồng trứng và chụp tuổi xương. Em đã khám rồi với chẩn đoán như vậy sau khi đã làm xét nghiệm. Nếu chưa em có thể cho cháu đến khám PGS. Huỳnh Thoại Loan thuộc bệnh viện Hệ thống Y tế Vinmec để có những đánh giá chính xác cũng như tư vấn thêm về trường hợp bé gái 7 tuổi đau 2 vú có phải dậy thì? Nên làm thế nào trong trường hợp trẻ dậy thì sớm?",
+    "answer": "Đau và căng hai vú ở bé gái 7 tuổi **có thể là dấu hiệu bắt đầu dậy thì**, nhưng chỉ dựa vào triệu chứng này thì **chưa thể khẳng định**. Ở bé gái, các dấu hiệu dậy thì sớm có thể gồm: phát triển tuyến vú, mọc lông mu/lông nách, mùi cơ thể, thay đổi cơ quan sinh dục, tăng nhanh chiều cao cân nặng hoặc có kinh nguyệt. Dấu hiệu dậy thì xuất hiện **trước 8 tuổi** nên được đánh giá y tế.\n\nBạn nên:\n\n- Đưa bé đến cơ sở y tế uy tín, ưu tiên **Nội tiết nhi khoa**, để khám và xác định có dậy thì sớm hay không.\n- Theo dõi xem bé có thêm các dấu hiệu như mọc lông mu/lông nách, mùi cơ thể, tăng chiều cao nhanh hoặc ra máu âm đạo không.\n- Bác sĩ sẽ đánh giá nguyên nhân, trong đó có thể phân biệt dậy thì sớm thể trung ương hay ngoại vi, và tư vấn điều trị nếu cần.\n\nDậy thì sớm có thể ảnh hưởng đến chiều cao và tâm sinh lý, vì vậy không nên tự điều trị tại nhà.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Những việc nên làm vào ngày thứ bảy (Ngày 1)\nTrả lời: 2. Những việc nên làm vào ngày thứ bảy (Ngày 1)\n2.1. Nên thức dậy lúc nào? Thức sớm là một điều tốt, nhưng nếu muốn bắt đầu hồi phục hàng rào độ ẩm của da thì chúng ta cần phải ngủ.",
+            "score": 0.5251412391662598,
+            "id": "vietnamese_healthcare_75351",
+            "rerank_score": 0.0004954311298206449
+        },
+        {
+            "text": "Câu hỏi: bs cho tôi hỏi tôi bị đau khớp đầu gối \ngiờ trữa như nào và ở đâu\nTrả lời: chào bạn: bạn đau đầu gối từ bao giờ , gối bạn buổi sáng có đau không sau đó đỡ dần, ngủ có đau không bạn, đau đầu gối có nhiều nguyên nhân như chấn thương điều trị sẽ khác, thoái hoá điều trị sẽ khác bạn nhé! bạn nên đi khám tìm nguyên nhân để điều trị mấy có thể giúp điều trị được bạn nhé!",
+            "score": 0.5298790335655212,
+            "id": "vietnamese_medical_qa_6326",
+            "rerank_score": 2.4507460693712346e-05
+        },
+        {
+            "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+            "score": 0.5255576372146606,
+            "id": "vietnamese_healthcare_86309",
+            "rerank_score": 2.1535061023314483e-05
+        },
+        {
+            "text": "Câu hỏi: Em hiện có con 7 tháng tuổi và đang cho con bú sữa mẹ. Em có thắc mắc là khi tiêm vaccine thì em có thể vắt sữa cho con bú không? Nếu không thì sau bao lâu kể từ ngày tiêm vaccine em có thể cho con bú lại?\nTrả lời: Theo quyết định 2995/QĐ-BYT, phụ nữ đang mang thai hay đang cho con bú sẽ tạm hoãn tiêm chủng. Do vậy, chị chưa tiêm được vaccine đợt này, chờ hướng dẫn tiếp theo của Bộ Y tế.",
+            "score": 0.5353322625160217,
+            "id": "vietnamese_healthcare_1896",
+            "rerank_score": 1.934015381266363e-05
+        },
+        {
+            "text": "Câu hỏi: Bao lâu sau khi tập thể dục thì nên ăn?\nTrả lời: 4. Bao lâu sau khi tập thể dục thì nên ăn?\nMột số nghiên cứu đã được tiến hành để so sánh kết quả giữa việc ăn ngay sau khi tập và sau khi tập luyện vài giờ. Kết quả không cho thấy sự khác biệt giữa hai nhóm thử nghiệm và các nhà khoa học đã thống nhất đưa ra khuyến nghị rằng nên ăn sớm ngay sau khi tập luyện. Việc này đặc biệt quan trọng hơn nếu như trước khi tập luyện bạn chưa ăn bất kỳ loại thực phẩm nào.",
+            "score": 0.5230637788772583,
+            "id": "vietnamese_healthcare_117546",
+            "rerank_score": 1.756844540068414e-05
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em năm nay 7 tuổi. Em phát hiệnbé bị ra kinh nguyệt. Vậy bác sĩ cho em hỏibé 7 tuổi ra kinh nguyệt cần làm gì?Dịch bệnh nên em không đi khám cho bé được. Mong bác sĩ tư vấn, em cảm ơn bác sĩ. Nguyễn Thị Thanh Vân(1988) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Thu Hoài- Trung tâm Sức khỏe phụ nữ, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bé gái hành kinh trước 10 tuổi làdậy thì sớm. Tuy nhiên, bác sĩ cần đánh giá chính xác xem có đúng là bé ra máu kinh không? Bên cạnh kinh nguyệt, bé sẽ có một số triệu chứng sinh dục phụ dễ thấy hơn: Mọc lông nách, lông mu, nhú ngực,... Dậy thì sớm sẽ ảnh hưởng đến sự phát triển chiều cao, tâm sinh lý của bé. Trường hợp của bé, bác sĩ khuyên bạn đăng ký khám sớm với bác sĩ Sản khoa hoặc Nội tiết nhi khoa để được chăm sóc và điều trị thích hợp. Trong trường hợp dịch, bạn có thể đăng ký dịch vụ khám từ xa Telehealth của hệ thống y tế Vinmec.",
+            "score": 0.5596753358840942,
+            "id": "medical_vietnamese_qa_6359",
+            "rerank_score": 0.9377353191375732,
+            "weighted_score": 0.9739160537719727
+        },
+        {
+            "text": "Câu hỏi: Bé gái nhà tôi 6 tuổi. Tôi thấy bệnh viện có ghi đối tượng khám dậy thì sớm đối với nữ là dưới 8 tuổi. Vậy bác sĩ cho tôi hỏitrẻ 6 tuổi khám dậy thì sớm có ảnh hưởng gì?Tôi cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khi bé xuất hiện bất kỳ dấu hiệu dậy thì nào (vú to lên và đau, nổi mụn, mùi cơ thể, mọc lông vùng kín) trước 8 tuổi thì nên cho bé đến khám đánh giá và tầm soát dậy thì sớm.",
+            "score": 0.557875394821167,
+            "id": "medical_vietnamese_qa_5649",
+            "rerank_score": 0.8470638394355774,
+            "weighted_score": 0.8816500782966614
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ ạ. Bé gái nhà mình 8 tuổi 11 tháng có dấu hiệu mọc lông mu có phải là dậy thì sớm không ạ? Biện pháp như thế nào ạ? Cảm ơn bác sĩ đã tư vấn giúp mình?\nHuỳnh Thị Mi Sa (1994)\nEm có bé gái năm nay 8 tuổi. 1 tuần trở lại đây em thấy ngực bé to lên chạm vào thấy cứng và đau, nách và bộ phận sinh dục bé xuất hiện những lông tơ. Cho em hỏi có phải như vậy là con em bị dậy thì sớm đúng không ạ?\nChào bác sĩ. Bé nhà em sinh năm 2012 xuất hiện lông mu có phải dậy thì sớm không? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn. Đối với nữ giới, dậy thì trước 9 tuổi là dậy thì sớm với đặc trưng là bắt đầu xuất hiện chu kinh nguyệt, ngực phát triển, mọc lông mu hoặc lông nách, thay đổi hình dáng cơ quan sinh dục ngoài. Chiều cao, cân nặng của trẻ tăng nhanh trong giai đoạn này.\nTrong trường hợp bé gái nhà bạn hơn 8 tuổi , có dấu hiệu mọc lông mu thì chưa thể khẳng định chính xác là trẻ có bị dậy thì sớm hay không.",
+            "score": 0.5075150728225708,
+            "id": "vietnamese_medical_qa_3882",
+            "rerank_score": 0.5378649234771729,
+            "weighted_score": 0.7303443908691406
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi,bé gái 8 tuổi phát triển ngực có phải dấu hiệu của dậy thì sớm không? Nguyễn Phương Hạ Trả lời Được giải đáp bởiPhó Giáo sư, Tiến sĩ, Bác sĩ Nguyễn Thị Hoàn- Trưởng khoa Ngoại trú nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bé gái 8 tuổi có dấu hiệu tuyến vú to cần được thăm khám để xác địnhdậy thì sớmthể trung ương hay ngoại vi. Dậy thì sớm ở bé gái có biểu hiện đặc trưng là ngực phát triển, mọc lông mu hoặc lông nách, thay đổi hình dáng cơ quan sinh dục ngoài, bắt đầu có kinh nguyệt. Chiều cao, cân nặng tăng nhanh là biểu hiện dậy thì sớm ở trẻ được ghi nhận ở cả hai giới. Bạn nên đưa bé đến cơ sở y tế uy tín để được chẩn đoán và tư vấn chi tiết.",
+            "score": 0.5097575187683105,
+            "id": "medical_vietnamese_qa_6411",
+            "rerank_score": 0.5490745306015015,
+            "weighted_score": 0.7117672681808472
+        },
+        {
+            "text": "Câu hỏi: Bé gái nhà em năm nay 8 tuổi. Tuy nhiên, bé đã dậy thì sớm và có kinh nguyệt. Em muốn hỏi là cháu bé có sao không ạ?Có thể điều trị dậy thì sớm cho bé gái được khôngthưa bác sĩ?\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bị kinh nguyệt lúc 8 tuổi được coi là dậy thì sớm. Cần xác định nguyên nhân gây dậy thì sớm ở bé nhà bạn là do u nang buồng trứng hay dậy thì sớm thể trung ương. Bạn nên đưa bé đến bệnh viện uy tín để được bác sĩ chuyên khoa thăm khám trực tiếp, chẩn đoán nguyên nhân và tư vấn điều trị phù hợp cho bé.",
+            "score": 0.5171277523040771,
+            "id": "medical_vietnamese_qa_6233",
+            "rerank_score": 0.18933431804180145,
+            "weighted_score": 0.6246540874242783
+        },
+        {
+            "text": "Câu hỏi: Con gái em 9,5 tuổi. Cháu vừa thấy kinh nguyệt hôm qua. Bác sĩ cho em hỏitrẻ gái 9,5 tuổi có kinh nguyệt có phải dậy thì sớm không?Có cần theo dõi và can thiệp gì không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con gái bạn có dấu hiệu ra máu hành kinh báo hiệu tuổi dậy thì đến. Tuy nhiên 9,5 tuổi không phải là dậy thì sớm. Trước 8 tuổi mới được coi là dậy thì sớm. Đối với bé gái khi bước vào tuổi dậy thì sẽ có nhiều thay đổi về tâm sinh lý. Bạn nên gần gũi và theo dõi tình hình sức khỏe của bé thường xuyên hơn, hướng dẫn và tư vấn cho bé những thay đổi về cơ thể cũng như tâm lý của bé. Bạn chú ý đảm bảo dinh dưỡng tốt để giúp bé phát triển thể chất một cách toàn diện.",
+            "score": 0.5097240209579468,
+            "id": "medical_vietnamese_qa_4987",
+            "rerank_score": 0.23620770871639252,
+            "weighted_score": 0.561002966761589
+        },
+        {
+            "text": "Câu hỏi: . Bé nhà cháu năm nay 11 tuổi, đã cókinh nguyệt.Bác sĩ cho cháu hỏi như vậy có phải bé dậy thì sớm quá không ạ?Dậy thì sớmnhư vậy có ảnh hưởng đếnchiều caokhông ạ? Mong bác sĩ tư vấn giúp cháu. Cháu xin cảm ơn. Đàm Thị Quyến(1988) Thưa bác sĩ cháu lúc 11 tuổi bắt đầu có kinh nguyệt thế là bình thường đúng không ạ? Mong bác sĩ tư vấn. Xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Dậy thì được đánh dấu bằng kỳ kinh nguyệt đầu tiên. Dậy thì sớm được định nghĩa là bé gái có biểu hiện dậy thì (có kinh nguyệt) trước 8 tuổi. Bạn nhà chị có kinh nguyệt lúc 11 tuổi thì hoàn toàn bình thường, không phải là dậy thì sớm nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng! ThS.BS Nội trú Đặng Thị Ngoan- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
+            "score": 0.5143699645996094,
+            "id": "medical_vietnamese_qa_7977",
+            "rerank_score": 0.33977246284484863,
+            "weighted_score": 0.48461136817932127
+        },
+        {
+            "text": "Câu hỏi: Khám sức khỏe cho trẻ 7 tuổi, bác sĩ hỏi những gì?\nTrả lời: 2. Khám sức khỏe cho trẻ 7 tuổi, bác sĩ hỏi những gì?\nBác sĩ hỏi chế độ ăn uống của trẻ để đưa ra lời khuyên giúp tiết chế bữa ăn khi trẻ có nguy cơ béo phì Bên cạnh các bài kiểm tra thể chất, trẻ còn được các bác sĩ khám trực tiếp để đánh giá chính xác hơn về tình trạng sức khỏe hiện tại. Khi đi khám, các bậc phụ huynh có thể được hỏi các thông tin sau về trẻ: Chế độ ăn uống: Khi trẻ được 7 tuổi, việc kiểm soát chế độ ăn uống trở nên khó khăn hơn vì lúc này trẻ đã tự tìm đồ ăn vặt nơi bạn đã cố giấu. Bác sĩ sẽ đưa ra lời khuyên giúp tiết chế bữa ăn của trẻ để giảm nguy cơ béo phì . Thời gian ngủ: Trẻ có ngủ đủ 10 giờ/đêm? Tinh thần thế nào vào buổi sáng khi thức dậy? Bạn nên cho trẻ đi ngủ lúc 8 - 9 giờ, tránh để trẻ thức muộn. Phương tiện đến trường: Khi được 7 tuổi, trẻ đã có khả năng tự đi bộ hoặc đạp xe đến trường. Do đó, vấn đề an toàn cho trẻ cần được quan tâm nhiều hơn. Cảm giác khi đi học: Có lo lắng khi đến trường? Trẻ xử lý bài tập về nhà và áp lực ở trường bằng cách nào? Địa chỉ và số điện thoại nhà: Trẻ có biết địa chỉ nhà và số điện thoại của bố mẹ? Đây là thông tin quan trọng giúp có ích cho trẻ trong nghịch cảnh. Thoát hiểm khi có hỏa hoạn: Ở độ tuổi này, trẻ cần biết các quy định an toàn cháy nổ và thực hành ra khỏi nhà an toàn trong trường hợp hỏa hoạn.",
+            "score": 0.5469546318054199,
+            "id": "vietnamese_healthcare_108835",
+            "rerank_score": 0.038196735084056854,
+            "weighted_score": 0.01724835932254791
+        },
+        {
+            "text": "Câu hỏi: Sự phát triển của trẻ 7 tháng tuổi\nTrả lời: 1. Sự phát triển của trẻ 7 tháng tuổi\nSự phát triển của trẻ em 7 tháng tuổi cho thấy trẻ vô cùng năng động, dễ dàng lật người qua lại, nằm sấp sang nằm ngửa và ngược lại, cũng như từ thế nằm sấp trẻ dễ dàng ngồi dậy, và thậm chí có thể đứng lên nếu trẻ có thể vịn vào ai hoặc vật gì đó. Giờ đây trẻ có thể bò đi khám phá thế giới xung quanh (dù một số trẻ có thể biết bò muộn hơn, và điều này hoàn toàn bình thường, cha mẹ không có gì cần lo lắng). Mỗi trẻ sẽ bò theo một cách khác nhau, không có cách bò chung giữa các trẻ. Để khuyến khích sự vận động ở trẻ, cha mẹ nên cho trẻ chơi những món đồ chơi có thể di chuyển cùng trẻ, như những chiếc xe ô tô, những quả bóng,...",
+            "score": 0.5000333786010742,
+            "id": "vietnamese_healthcare_7786",
+            "rerank_score": 0.009678000584244728,
+            "weighted_score": 0.00516527071595192
+        },
+        {
+            "text": "Câu hỏi: Khi nào cần đánh giá sự phát triển của trẻ mới biết đi?\nTrả lời: 2. Khi nào cần đánh giá sự phát triển của trẻ mới biết đi?\nHọc viện Nhi khoa Hoa Kỳ khuyến cáo rằng tất cả trẻ em nên được đánh giá phát triển định kỳ ở các lần khám sức khỏe cho trẻ 9 , 18 và 24 hoặc 30 tháng tuổi, ngay cả khi không có vấn đề gì trong quá trình phát triển. Ngoài ra, bác sĩ sẽ theo dõi sự phát triển của trẻ tại mỗi lần khám sức khỏe cho trẻ. Nếu bác sĩ nhận thấy một kỹ năng nào đó mà trẻ có vẻ chậm đáng kể so với các bạn cùng lứa tuổi, họ có thể giới thiệu bạn đến một chuyên gia phát triển để được đánh giá chính xác hơn. Là người làm cha, làm mẹ, bạn cũng có thể chủ động đề nghị đánh giá sự phát triển của con bạn. Bởi vì hơn ai hết, bạn chính là người hiểu rõ con mình nhất và có thể là người đầu tiên nhận thấy sự chậm phát triển của trẻ. Trong khi bác sĩ chỉ dành vài phút cho con bạn trong mỗi lần khám, vì vậy họ rất dễ bỏ sót những vấn đề tế nhị. Chính vì vậy nếu bạn lo lắng về một vấn đề cụ thể nào đó trong sự phát triển của con bạn: chẳng hạn như khả năng nói hoặc khả năng lấy đồ vật của con bạn và bác sĩ không đề cập đến bất cứ điều gì liên quan đến chúng, bạn hãy đưa ra vấn đề đó và yêu cầu giới thiệu đến bác sĩ chuyên khoa. Nếu trẻ đang ở trường mầm non hoặc trung tâm giữ trẻ có nhân viên được đào tạo về phát triển mầm non, giáo viên hoặc người chăm sóc có thể phát hiện ra vấn đề ở trẻ. Nếu bạn lo lắng về một vấn đề cụ thể nào đó trong sự phát triển của con bạn hãy đề cập vấn đề với bác sĩ chuyên khoa",
+            "score": 0.5237739086151123,
+            "id": "vietnamese_healthcare_35876",
+            "rerank_score": 0.010036531835794449,
+            "weighted_score": 0.002330225799232721
+        }
+    ],
+    "llm_call": 4,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không?",
+    "ground_truth": "Theo như mô tả của chị thì mẹ chị mới phẫu thuật Phaco thay thể thủy tinh, trong 2 tuần triệu chứng cộm mắt ở góc ngoài (vết mổ) là bình thường. Nếu lo lắng thì chị cần đưa mẹ đến bác sĩ để kiểm tra, không tự ý dùng thuốc gì khác ngoài thuốc chỉ định của bác sĩ.",
+    "answer": "Sau 2 tuần phẫu thuật Phaco, nếu chỉ còn cảm giác cộm ở góc ngoài mắt tại vết mổ thì có thể là bình thường và vẫn có thể di chuyển bằng máy bay. Tuy nhiên, không tự ý dùng thêm thuốc ngoài đơn bác sĩ; nếu lo lắng hoặc xuất hiện mất thị lực, đau mắt không giảm, đỏ mắt nặng, thấy tia sáng lóe hoặc đám mây trôi thì cần liên lạc và đi khám bác sĩ ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Mẹ em mới mổ cườm Phaco được gần 2 tuần, nhưng vẫn còn cộm. Vậy cho em hỏi, sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không? Ngoài thuốc bác sĩ kê đơn, có thể mua thuốc kháng sinh bên ngoài uống được không ạ? Em cảm ơn bác sĩ nhiều.\nTrả lời: Chào chị. Theo như mô tả của chị thì mẹ chị mới phẫu thuật Phaco thay thể thủy tinh, trong 2 tuần triệu chứng cộm mắt ở góc ngoài (vết mổ) là bình thường. Nếu lo lắng thì chị cần đưa mẹ đến bác sĩ để kiểm tra, không tự ý dùng thuốc gì khác ngoài thuốc chỉ định của bác sĩ. Vì vậy, với thắc mắc “Sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không?” Thì có thể di chuyển bằng máy bay được chị nhé.",
+            "score": 0.8853985071182251,
+            "id": "vietnamese_medical_qa_1975"
+        },
+        {
+            "text": "Câu hỏi: KHI NÀO CẦN GẶP BÁC SĨ\nTrả lời: 5. KHI NÀO CẦN GẶP BÁC SĨ\nBạn cần đến gặp bác sĩ nếu có những dấu hiệu nặng dưới đây: Sốt sau ngày phẫu thuật cao hơn 101 ° F Chảy nước trong suốt liên tục sau tuần đầu tiên phẫu thuật Thay đổi thị giác đột ngột hoặc sưng mắt Đau đầu dữ dội hoặc cứng cổ Tiêu chảy nặng Chảy máu mũi nhanh, liên tục và không thuyên giảm sau khi sử dụng các thuốc đã được kê. Không có cách nào để loại bỏ hoàn toàn khả năng xảy ra các vấn đề sau phẫu thuật xoang, nhưng có thể tránh được nhiều vấn đề sau phẫu thuật với những thông tin về chăm sóc bệnh nhân sau mổ xoang đã nêu trên . Quy trình phẫu thuật được thiết kế để giúp loại bỏ các vấn đề của xoang cạnh mũi và giúp bạn thở tốt hơn bằng mũi. Có thể mất từ sáu đến tám tuần để có đầy đủ sự hồi phục. Hãy kiên nhẫn.",
+            "score": 0.5613912343978882,
+            "id": "vietnamese_healthcare_115094"
+        },
+        {
+            "text": "Câu hỏi: Khó thở sau khi đặt dẫn lưu tràn khí màng phổi 1 tháng có sao không?\nTrả lời: Bạn bị tràn khí màng phổi đã phẫu thuật được 1 tháng, bạn cần tái khám theo hẹn hoặc khi có khó thở. Bác sĩ sẽ kiểm tra bạn có tràn khí tái phát hay di chứng của đợt tràn khí trước, cần thời gian để cải thiện.",
+            "score": 0.559215784072876,
+            "id": "vietnamese_healthcare_9038"
+        },
+        {
+            "text": "Câu hỏi: Sau phẫu thuật đục thủy tinh thể, khi nào cần liên lạc với bác sĩ?\nTrả lời: 6. Sau phẫu thuật đục thủy tinh thể, khi nào cần liên lạc với bác sĩ?\nSau phẫu thuật, mắt có thể hơi nhạy cảm, cộm và chảy lệ trong vài ngày, điều này hoàn toàn là bình thường. Mắt cũng có thể nhạy cảm hơn với ánh sáng hoặc người bệnh thấy mọi thứ có màu đỏ, hồng. Tuy nhiên, đây không phải là vấn đề nghiêm trọng và cũng không phổ biến. Tuy nhiên, nếu có bất kỳ dấu hiệu nào dưới đây sau khi phẫu thuật đục thủy tinh thể, bạn hãy liên lạc với bác sĩ: Mất thị lực; Cơn đau ở mắt không giảm dù đã dùng thuốc giảm đau ; Đỏ mắt nặng; Nhìn thấy những tia sáng lóe lên hoặc những đám mây trôi. =>>Lời khuyên từ Thạc sĩ, Bác sĩ Hoàng Thanh Nga - Khoa khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long : Khi có biểu hiện bất thường sau phẫu thuật cần đi khám ngay để điều trị, tránh biến chứng ảnh hưởng đến thị lực và chức năng của mắt. Xem thêm: Hướng dẫn chẩn đoán đục thủy tinh thể",
+            "score": 0.5508176684379578,
+            "id": "vietnamese_healthcare_80798"
+        },
+        {
+            "text": "Câu hỏi: Sau phẫu thuật đưa tinh hoàn ẩn xuống bìu bị sưng tím và đau, vì sao?\nTrả lời: tụ máu vùng bìu là biến chứng thường gặp sau phẫu thuật đưa tinh hoàn ẩn xuống bìu. Khi bìu bị ứ máu nhiều làm giảm tưới máu ở tinh hoàn thì cần phải phẫu thuật để cầm máu, lấy máu tụ và dẫn lưu. Thông thường vùng mổ sẽ còn phù nề trong vài ngày đầu, sau đó sẽ giảm dần.",
+            "score": 0.5470258593559265,
+            "id": "vietnamese_healthcare_6214"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,109 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ,\nĐau bug kjnh thj phaj lam nhu the nao ạ .va nen lam nhung gj khong bj đau nua ạ",
+    "ground_truth": "Chào cháu, \nĐau bụng kinh là hiện tượng thường xảy ra trong thời kỳ kinh nguyêt, Tùy thuộc vào cơ địa của từng người, mà có người đau ít, có người đau nhiều. Khi bị đau bụng kinh, cháu có thể áp dụng một vài cách sau để giảm chứng đau bụng : \n- Chườm nóng \n- Sắc ngải cứu lên uống hoặc nấu canh\n- Sử dụng một số thuốc giảm đau như Paracetamon\n- Uống nước gừng nóng \nThân mến",
+    "answer": "Chào bạn, bằng chứng được cung cấp chỉ cho biết ngoài việc dùng thực phẩm hỗ trợ giảm đau bụng kinh, nên tránh hoặc hạn chế một số loại thực phẩm để giảm nguy cơ ảnh hưởng xấu trong những ngày hành kinh; tuy nhiên, tài liệu không nêu cụ thể nên tránh thực phẩm nào hay cách điều trị đau bụng kinh. Vì vậy, chưa đủ thông tin để hướng dẫn chi tiết cách hết đau.",
+    "evidence": [
+        "Ngoài việc sử dụng các loại thực phẩm hỗ trợ giảm đau bụng khi hành kinh, phụ nữ cũng cần tránh hay hạn chế sử dụng các loại thực phẩm dưới đây để tránh nguy cơ ảnh hưởng xấu lên những ngày “đèn đỏ” 2."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Người mắc viêm đại tràng uống thuốc không hết đau nên làm gì?\nTrả lời: Bác sĩ khuyên chị nên tái khám lại để tìm kiếm nguyên nhân đau bụng khác hoặc đổi thuốc điều trị viêm đại tràng cho phù hợp.",
+                "score": 0.5065529942512512,
+                "id": "vietnamese_healthcare_4023",
+                "rerank_score": 0.005418225657194853
+            },
+            {
+                "text": "Câu hỏi: Xin có một thắc mắc như sau mong được bác sĩ tư vấn: Giãn não thất nên điều trị thế nào hiệu quả ạ? Mong bác sĩ tư vấn giúp tôi. Tôi xin chân thành cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nThông qua câu hỏi của bạn, bác sĩ cũng chưa nắm được thông tin cụ thể về việc bạn mắc bệnh giãn não thất đã lâu chưa, nguyên nhân gây bệnh là gì, bạn đã thăm khám ở những cơ sở nào và kết quả ra sao, nếu đã điều trị giãn não thất thì dùng những thuốc gì rồi...",
+                "score": 0.508825957775116,
+                "id": "vietnamese_medical_qa_4410",
+                "rerank_score": 0.0033994431141763926
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.5033525228500366,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0013973122695460916
+            },
+            {
+                "text": "Câu hỏi: Đau nhói ngực, tim đập mạnh là dấu hiệu bệnh lý gì?\nTrả lời: Xin hỏi bạn đau ngực trái hay phải? Cơn đau xuất hiện khi nào và kéo dài bao lâu? Bạn nên gặp bác sĩ Tim mạch để được thăm khám và tư vấn cụ thể.",
+                "score": 0.5117212533950806,
+                "id": "vietnamese_healthcare_6786",
+                "rerank_score": 0.0009549945825710893
+            },
+            {
+                "text": "Câu hỏi: Chỉ số xét nghiệm GGT tăng nên uống thuốc gì?\nTrả lời: Em cho chồng em đi khám bệnh ngay nhé. Mục đích là tìm nguyên nhân gây tăng GGT. Tùy từng nguyên nhân cụ thể bác sĩ sẽ quyết định dùng thuốc hay không nhé.",
+                "score": 0.5203849077224731,
+                "id": "vietnamese_healthcare_3147",
+                "rerank_score": 0.0006698051001876593
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin có một thắc mắc như sau mong được bác sĩ tư vấn: Giãn não thất nên điều trị thế nào hiệu quả ạ? Mong bác sĩ tư vấn giúp tôi. Tôi xin chân thành cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nThông qua câu hỏi của bạn, bác sĩ cũng chưa nắm được thông tin cụ thể về việc bạn mắc bệnh giãn não thất đã lâu chưa, nguyên nhân gây bệnh là gì, bạn đã thăm khám ở những cơ sở nào và kết quả ra sao, nếu đã điều trị giãn não thất thì dùng những thuốc gì rồi...",
+                "score": 0.5618632435798645,
+                "id": "vietnamese_medical_qa_4410",
+                "rerank_score": 0.0033994398545473814
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.5628055930137634,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0013973122695460916
+            },
+            {
+                "text": "Câu hỏi: Đau nhói ngực, tim đập mạnh là dấu hiệu bệnh lý gì?\nTrả lời: Xin hỏi bạn đau ngực trái hay phải? Cơn đau xuất hiện khi nào và kéo dài bao lâu? Bạn nên gặp bác sĩ Tim mạch để được thăm khám và tư vấn cụ thể.",
+                "score": 0.5349984765052795,
+                "id": "vietnamese_healthcare_6786",
+                "rerank_score": 0.0009549945825710893
+            },
+            {
+                "text": "Câu hỏi: Chỉ số xét nghiệm GGT tăng nên uống thuốc gì?\nTrả lời: Em cho chồng em đi khám bệnh ngay nhé. Mục đích là tìm nguyên nhân gây tăng GGT. Tùy từng nguyên nhân cụ thể bác sĩ sẽ quyết định dùng thuốc hay không nhé.",
+                "score": 0.5560311675071716,
+                "id": "vietnamese_healthcare_3147",
+                "rerank_score": 0.0006698051001876593
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.6016009449958801,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.00047662900760769844
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Người mắc viêm đại tràng uống thuốc không hết đau nên làm gì?\nTrả lời: Bác sĩ khuyên chị nên tái khám lại để tìm kiếm nguyên nhân đau bụng khác hoặc đổi thuốc điều trị viêm đại tràng cho phù hợp.",
+                "score": 0.5132855176925659,
+                "id": "vietnamese_healthcare_4023",
+                "rerank_score": 0.005418225657194853
+            },
+            {
+                "text": "Câu hỏi: Đau nhói ngực, tim đập mạnh là dấu hiệu bệnh lý gì?\nTrả lời: Xin hỏi bạn đau ngực trái hay phải? Cơn đau xuất hiện khi nào và kéo dài bao lâu? Bạn nên gặp bác sĩ Tim mạch để được thăm khám và tư vấn cụ thể.",
+                "score": 0.516415536403656,
+                "id": "vietnamese_healthcare_6786",
+                "rerank_score": 0.0009549937094561756
+            },
+            {
+                "text": "Câu hỏi: Các biện pháp chẩn đoán đau đầu kéo dài liên tục\nTrả lời: 5. Các biện pháp chẩn đoán đau đầu kéo dài liên tục\nBạn nên đến khám bác sĩ chuyên khoa để trao đổi về những cơn đau đầu kéo dài liên tục của mình. Ngoài ra, bạn cũng có thể tìm đến một bác sĩ thần kinh, chuyên về các tình trạng có ảnh hưởng đến hệ thần kinh để được tư vấn kỹ lưỡng. Để chẩn đoán đau đầu kéo dài liên tục, trước tiên bác sĩ sẽ lấy tiền sử bệnh của bạn thông qua một số câu hỏi sau: Bạn bị đau đầu như thế nào? Cơn đau đầu của bạn nằm ở đâu và có cảm giác như thế nào? Cơn đau đầu của bạn kéo dài trong thời gian bao lâu? Cơn đau đầu xảy ra vào một thời điểm nhất định hay sau một hoạt động cụ thể? Cơn đau đầu có đi kèm với các triệu chứng nào khác không? Bạn có tiền sử gia đình mắc một số loại đau đầu, ví dụ như chứng đau nửa đầu không? Hiện tại bạn đang sử dụng những loại thuốc điều trị bệnh nào? Sau đó, bác sĩ sẽ tiến hành khám sức khỏe. Các xét nghiệm trong phòng thí nghiệm thường không cần thiết trong chẩn đoán đau đầu kéo dài liên tục, trừ khi người bệnh có các triệu chứng của bệnh toàn thân hoặc nhiễm trùng . Trong quá trình kiểm tra, bác sĩ sẽ thực hiện các bước loại trừ nguyên nhân thứ phát gây ra cơn đau đầu, bao gồm lạm dụng thuốc, tác dụng phụ của thuốc, khó thở khi ngủ, nhiễm trùng (như viêm màng não và nhiễm trùng xoang ), chấn thương sọ não hoặc đau dây thần kinh. Bên cạnh đó, bác sĩ cũng có thể sử dụng một số xét nghiệm hình ảnh, chẳng hạn như chụp MRI hoặc CT nhằm giúp chẩn đoán nguyên nhân gây đau đầu kéo dài liên tục của người bệnh.",
+                "score": 0.5525680184364319,
+                "id": "vietnamese_healthcare_33675",
+                "rerank_score": 0.0007360275485552847
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.5248000621795654,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.0004766281053889543
+            },
+            {
+                "text": "Câu hỏi: Chế độ ăn cho người đau bụng kinh\nTrả lời: 2. Chế độ ăn cho người đau bụng kinh\n2.2. Bị đau bụng kinh không nên ăn và uống gì? Ngoài việc sử dụng các loại thực phẩm hỗ trợ giảm đau bụng khi hành kinh, phụ nữ cũng cần tránh hay hạn chế sử dụng các loại thực phẩm dưới đây để tránh nguy cơ ảnh hưởng xấu lên những ngày “đèn đỏ” 2.",
+                "score": 0.514679491519928,
+                "id": "vietnamese_healthcare_161980",
+                "rerank_score": 0.0004101117083337158
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

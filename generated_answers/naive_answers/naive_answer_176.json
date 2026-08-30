@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Bé nhà em bị tinh hoàn ẩn hiện giờ bé được 13 tháng và nặng 10kg. Bác sĩ cho em hỏitrẻ 13 tháng tuổi bị tinh hoàn ẩn có thể phẫu thuật được không?Em cảm ơn bác sĩ. Luyến (1992) Trả lời Được giải đáp bởiPhó giáo sư, Thạc sĩ Bùi Đức Hậu- Bác sĩ Nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Trẻ nhà bạn bị tinh hoàn ẩn, tuổi phẫu thuật để hạ tinh hoàn xuống bìu hiện nay đã được nhiều tác giả đồng thuận là phẫu thuật ở tuổi từ 12 tháng đến 24 tháng. Vậy con bạn đã được 13 tháng thì nên chủ động cho con đi điều trị được rồi, còn cân năng 10kg cũng phù hợp với tuổi của bé.  Các nội dung tư vấn khác Tinh hoàn ẩn có cần điều trị không? Nhân tuyến giáp hai thùy có nguy hiểm không? Bệnh cường giáp có chữa được không? Các bài viết cùng chủ đề Nguy cơ vô sinh với người trưởng thành mắc tinh hoàn ẩn Tinh hoàn ẩn ở trẻ: Nên phẫu thuật sớm trước 1-2 tuổi Các phương pháp điều trị tinh hoàn ẩn",
+    "answer": "Trẻ 13 tháng bị tinh hoàn ẩn có thể phẫu thuật được. Theo tài liệu, độ tuổi thường được đồng thuận để phẫu thuật là khoảng 12–24 tháng; phẫu thuật thường thực hiện khi trẻ khoảng 12 tháng, và nếu sau 6 tháng tinh hoàn vẫn chưa xuống bìu thì cần điều trị, không nên trì hoãn quá 6 tuổi. Bạn nên đưa bé khám chuyên khoa ngoại nhi để xác định chính xác vị trí tinh hoàn và được tư vấn phương pháp điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: . Bác sĩ cho em hỏi, cháu được hơn 3 tháng tuổi bịtinh hoàn ẩnbên trái thì đã đủ tuổi để mổ được chưa ạ? Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ! Lại Thị Nhung(1992) Trả lời\nTrả lời: Chào bạn. Thông thường trong vòng 6 tháng sau sinh,tinh hoàncó thể di chuyển thêm. Nếu sau 6 tháng vẫn bị tinh hoàn ẩn thì lúc này cần phẫu thuật. Nhưng vì đây không phải là phẫu thuật cấp cứu nên có thể trì hoãn sau 1 tuổi nhưng cần trước 6 tuổi bạn nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Thạc sĩ, Bác sĩ Lê Phúc Liên- Bác sĩ Ngoại tiết niệu - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.7034628391265869,
+            "id": "medical_vietnamese_qa_7928"
+        },
+        {
+            "text": "Câu hỏi: Bé trai nhà em 14 tháng. Trước đây khi đi khám thai định kỳ bé nhà e được bác sĩ siêu âm tinh hoàn đã xuống đúng vị trí nhưng hiện nay bé lại bị ẩn tinh hoàn 2 bên, hiện tinh hoàn đang ở ống bẹn. Vậy bác sĩ cho em hỏitrẻ 14 tháng tuổi bị ẩn tinh hoàn điều trị thế nào?Em có nên cho bé mổ không? Sau khi phẫu thuật xong bé có di chứng gì không? Khả năng sinh sản của bé thế nào? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn hiện được 14 tháng tuổi, đi khám bác sĩ nói là bé bị ẩn tinh hoàn cả 2 bên hiện tinh hoàn đang ở trong ống bẹn, mà trước đây khi đi khám thai định kì bác sĩ siêu âm nói tinh hoàn đã xuống đúng vị trí. Kết quả siêu âm khi bé còn trong bụng mẹ so với kết quả siêu âm trực tiếp cho bé không phải trường hợp nào cũng chính xác như nhau, tuy nhiên thì kết quả siêu âm trực tiếp thường sẽ có độ chính xác cao hơn là kết quả siêu âm gián tiếp khi bé còn trong bào thai. Về vấn đề khả năng sinh sản còn phụ thuộc nhiều yếu tố như: Bị ẩn mấy bên, ân còn cao hay thấp so với vị trí bìu, tuổi mổ khi nào, kỹ thuật mổ thế nào,... Vì vậy theo bác sĩ, bạn nên cho bé đi khám để có chẩn đoán chính xác và sẽ có tư vấn cụ thể và được điều trị kịp thời. Theo sự đồng thuận cao về lứa tuổi mổ bây giờ là trong khoảng từ 12 tháng đến 24 tháng tuổi.",
+            "score": 0.6755132675170898,
+            "id": "medical_vietnamese_qa_4983"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em hiện giờ được 20 tháng tuổi. Trong lúc mang bầu bé được 34 tuần, em có đi siêu âm, bác sĩ nói tinh hoàn bé đã xuống đúng vị trí cả 2 bên. Bé sinh ra vài tháng sau vẫn nhìn thấy rõ ràng 2 bên tinh hoàn. Tuy nhiên, cách đây khoảng vài tháng, tức là lúc bé tầm 15 tháng tuổi, em không còn nhìn thấy 2 bên tinh hoàn của bé bằng mắt thường nữa mà phần da bìu của bé lúc nào cũng co nhỏ lại, sờ vẫn thấy tinh hoàn nhưng hơi khó 1 chút. Như vậy liệu con em có phải bị tinh hoàn ẩn không ạ?Chẩn đoán tinh hoàn ẩn bằng phương pháp nàoạ?\nTrả lời: bác sĩ xin giải đáp như sau: Theo bác sĩ, bạn nên cho con đến khám vì hiện nay có nhiều phương pháp thăm dò chẩn đoán cho kết quả chính xác. Nếu chỉ nhìn và sờ cũng mới chỉ là bước thăm khám ban đầu thôi mà tinh hoàn chưa xuống bìu có thể ở những vị trí khác nhau, không phải ở vị trí nào cũng có thể sờ thấy được. Vì vậy, bạn nên cho con đi khám sớm để phát hiện và điều trị kịp thời nếu đúng là bé bị tinh hoàn chưa xuống bìu. Hiện nay, có nhiều phương pháp thăm dò chẩn đoán cho kết quả chính xác như siêu âm, chụp cộng hưởng từ (MRI), chụp mạch v.v... thậm trí là áp dụng nội soi để chẩn đoán. Tuy nhiên, với tinh hoàn chưa xuống bìu, hiện nay thường chỉ cần khám lâm sàng kết hợp với siêu âm là đủ và có thể kết hợp với nội soi để vừa chẩn đoán vừa phẫu thuật điều trị luôn.",
+            "score": 0.6748435497283936,
+            "id": "medical_vietnamese_qa_6722"
+        },
+        {
+            "text": "Câu hỏi: Ở tuần thứ 36 em đi siêu âm 5D, bác sĩ bảo tinh hoàn bên trái chưa xuống, tuần 38 đến 39 đi siêu âm cũng vậy và bé được sinh mổ vào hôm 2/6/2021, nhìn mắt thường và sờ cũng chưa thấy xuống, lép hơn bên phải. Được 1 tháng tuổi, em có đưa đi siêu âm tiếp thì được kết luật là tinh hoàn đang trong ống bẹn. Bác sĩ cho em hỏi,điều trị tinh hoàn ẩn ở bé trai như thế nào?Có phải tiếp tục theo dõi đến 6 tháng, từ tháng thứ 7 đi vẫn không xuống thì đi khám và tiểu phẫu?\nTrả lời: bác sĩ xin giải đáp như sau: Tinh hoàn ẩnở trẻ sơ sinh là quá trình tinh hoàn không di chuyển được từ bụng xuống bìu khi có sự rối loạn của một yếu tố nào đó. Một số triệu chứng tinh hoàn ẩn ở bé trai thường thấy: Trong bìu không có tinh hoàn hoặc sờ thấy ở ống bẹn có khối u nổi lên. Bìu kém phát triển, tinh hoàn ẩn càng cao thì bìu càng kém phát triển. Trẻ chỉ sờ thấy một bên tinh hoàn. Thường tinh hoàn ẩn sẽ được điều trị bằng phẫu thuật, thuốc thường không có tác dụng. Phẫu thuật thường thực hiện lúc bé 12 tháng tuổi. Bạn nên cho bé đi khám định kỳ theo hướng dẫn của bác sĩ ngoại nhi.",
+            "score": 0.6713311672210693,
+            "id": "medical_vietnamese_qa_6393"
+        },
+        {
+            "text": "Câu hỏi: Bé 3 tháng có thể mổ tinh hoàn ẩn không?\nTrả lời: Thông thường trong vòng 6 tháng sau sinh, tinh hoàn có thể di chuyển thêm. Nếu sau 6 tháng vẫn bị tinh hoàn ẩn thì lúc này cần phẫu thuật. Nhưng vì đây không phải là phẫu thuật cấp cứu nên có thể trì hoãn sau 1 tuổi nhưng cần trước 6 tuổi bạn nhé.",
+            "score": 0.6681113243103027,
+            "id": "vietnamese_healthcare_5137"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

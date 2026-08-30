@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Chào bác sĩ,\nVinmec có trẻ hóa da bằng sóng RF hoặc hồng ngoại không? Em năm nay 28 tuổi có làm được không? Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nVinmec hiện có dịch vụ trẻ hóa da bằng sóng RF cho hiệu quả tốt. Tuy nhiên, không có dịch vụ trẻ hóa da bằng hồng ngoại do hiệu quả thấp. Thay vào đó Vinmec có trẻ hóa da bằng laser Nd YAG, Er: YAG kết hợp với PRP và EV.\nSóng RF giúp làm căng da tức thì và kích thích các tế bào da tăng cường sản xuất collagen và elastin, giúp da được săn chắc và đàn hồi tốt hơn. Ngoài 20 tuổi, da bắt đầu xuất hiện các dấu hiệu lão hóa. Tại Vinmec hiện đang sử dụng các phương pháp trẻ hóa da không xâm lấn, giúp da đẹp tự nhiên nên phù hợp với các độ tuổi và các loại da. Vì vậy, bạn có thể đến Trung tâm Thẩm mỹ Vinmec-View để được tư vấn và phục hồi da hiệu quả nhất.\nTrân trọng!",
+    "answer": "Chào bạn, tài liệu hiện có không cung cấp thông tin cụ thể về dịch vụ trẻ hóa da bằng sóng RF hoặc tia hồng ngoại tại Vinmec, cũng như độ tuổi phù hợp. Bạn nên liên hệ trực tiếp Khoa Da liễu – Thẩm mỹ của Vinmec hoặc đến cơ sở gần nhất để được bác sĩ thăm khám, đánh giá tình trạng da và tư vấn phương pháp cũng như chỉ định phù hợp; bác sĩ sẽ xác định bạn 28 tuổi có nên thực hiện hay không dựa trên nhu cầu, tình trạng da và sức khỏe.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Để con bạn gặp bác sĩ da liễu một mình\nTrả lời: 5. Để con bạn gặp bác sĩ da liễu một mình\nNếu con bạn đến gặp bác sĩ da liễu, ba mẹ nên dành thời gian cho trẻ ở một mình với họ. Điều này cho phép bác sĩ da liễu tìm ra mong muốn của trẻ và giúp trẻ loại bỏ những nguy cơ cũng như tư vấn cho trẻ cách điều trị mụn hiệu quả nhất, tránh ảnh hưởng đến tâm lý và sức khỏe. Tuy nhiên, để đảm bảo an toàn thì cha mẹ cũng nên chọn các cơ sở y tế uy tín để thực hiện thăm khám da liễu cho trẻ. Bệnh viện Đa khoa Quốc tế Vinmec là địa chỉ thăm khám, điều trị và phòng ngừa các bệnh lý, trong đó có chuyên khoa Da liễu - Thẩm mỹ. Khi thực hiện quy trình thăm khám tại Vinmec, Quý khách hàng sẽ được đón tiếp và sử dụng cơ sở vật chất, hệ thống máy móc hiện đại đi kèm với các dịch vụ y tế hoàn hảo dưới sự chỉ dẫn, tư vấn của các bác sĩ giỏi, được đào tạo bài bản ở cả trong và ngoài nước.",
+            "score": 0.6379030346870422,
+            "id": "vietnamese_healthcare_144905"
+        },
+        {
+            "text": "Câu hỏi: bé trai nhà tôi6 tuổi, cháu đã tiêm đầy đủ các mũi tiêm chủng trong chương trình tiêm của nhà nước. Giờ tôi có nhu cầu cho con tiêm phòng các mũitiêm phòng mở rộng. Bác sĩ cho tôi hỏi tôi cần tiêm thêm những mũi nào? Mong bác sĩ tư vấn, tôi xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, Bạn rất quan tâm đến tiêm chủng cho bé là điều rất đáng khen ngợi. Tuy nhiên, các mũi bé đã tiêm và thời điểm tiêm của bé bạn chưa cung cấp chi tiết nên không thể tư vấn cụ thể cho bé được. Vậy bạn nên đưa bé và mang theo sổ tiêm chủng đến cơ sở tiêm chủng gần nhất để được tư vấn các mũi tiêm và thời điểm tiêm phù hợp cho bé nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Bác sĩ chuyên khoa II Lê Thanh Cẩm -Bác sĩ Nhi khoa - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+            "score": 0.6351302862167358,
+            "id": "medical_vietnamese_qa_13541"
+        },
+        {
+            "text": "Câu hỏi: Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nTrả lời: 9. Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nCác triệu chứng trở nên tồi tệ hơn Có dấu hiệu nhiễm trùng da như sưng đỏ vùng viêm da kèm tiết dịch, đau nhiều khi chạm vào, sốt... Triệu chứng viêm da xuất hiện ở các vị trí mới. Khoa nhi tại hệ thống Bệnh viện Đa khoa Quốc tế Vinmec là địa chỉ tiếp nhận và thăm khám các bệnh lý mà trẻ sơ sinh cũng như trẻ nhỏ dễ mắc phải: Sốt virus, sốt vi khuẩn, viêm tai giữa, viêm phổi ở trẻ,....Với trang thiết bị hiện đại, không gian vô trùng, giảm thiểu tối đa tác động cũng như nguy cơ lây lan bệnh. Cùng với đó là sự tận tâm từ các bác sĩ giàu kinh nghiệm chuyên môn với các bệnh nhi, giúp việc thăm khám không còn là nỗi trăn trở của các bậc cha mẹ. Khách hàng có thể trực tiếp đến hệ thống Y tế Vinmec trên toàn quốc để thăm khám hoặc liên hệ hotline tại đây để được hỗ trợ.",
+            "score": 0.6280732154846191,
+            "id": "vietnamese_healthcare_48320"
+        },
+        {
+            "text": "Câu hỏi: Lưu ý khi thực hiện phương pháp da kề da\nTrả lời: 3. Lưu ý khi thực hiện phương pháp da kề da\nTrong trường hợp mẹ không thể thực hiện da kề da cho bé, một thành viên trong gia đình có thể thực việc này thay mẹ Hỗ trợ bé để bé tìm ti mẹ, không được can thiệp “ép buộc” bé, đỡ bé để bé không bị ngã sang 2 bên, chú ý mũi bé để bé không bị ngạt, nhất là những bé chịu ảnh hưởng bởi các thuốc mẹ dùng trong cuyển dạ, còn lừ đừ, không đủ khỏe không nhấc đầu lên nổi Nếu mẹ đang chịu tác dụng của thuốc hạn chế vận động, và chưa đủ tỉnh táo để giữ em bé, cần thiết phải có người hỗ trợ mẹ thực hiện phương pháp này. Bệnh viện Đa khoa Quốc tế Vinmec mang đến Chương trình chăm sóc thai sản trọn gói cho các sản phụ ngay từ khi bắt đầu mang thai từ những tháng đầu tiên với đầy đủ các lần khám thai, siêu âm 3D, 4D định kỳ cùng các xét nghiệm thường quy để đảm bảo người mẹ luôn khỏe mạnh và thai nhi phát triển toàn diện. Sản phụ sẽ không còn cô đơn khi bước vào cuộc chuyển dạ vì có người thân đồng hành giúp quá trình sinh con luôn mang đến sự an tâm và hạnh phúc.",
+            "score": 0.6223220825195312,
+            "id": "vietnamese_healthcare_47464"
+        },
+        {
+            "text": "Câu hỏi: ! Em năm nay 25 tuổi, mang thai lần đầu. Em đi siêu âm thì bác sĩ kết luận em bị bong màng đệmvàkích thước thai nhinhỏ hơn so với tuổi thai. Em bé được 9 tuần 1 ngày, chiều dài 24,8mm, kích thước túi ối là 31,3mm. Xin hỏi bác sĩ bây giờ em nên làm gì ạ? Mong bác sĩ tư vấn giúp em. Em cảm ơn bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Với tình trạng của bạn như vậy thì khó đoán định đượcsự phát triển của túi thai. Với quan điểm điều trị trước đây thì dùng thêm thuốc nội tiết để dưỡng thai. Tuy nhiên, với quan điểm hiện nay thì không cần điều trị gì, chỉ theo dõi và tái khám mỗi tuần. Tùy theo sự phát triển của túi thai mà có hướng xử lý phù hợp bạn nhé. Cảm ơn bạn đã tin tưởng và gửi câu hỏi vềHệ thống Y tế Vinmec. Trân trọng! Được giải đáp bởiBác sĩ chuyên khoa I Trương Nghĩa Bình -Bác sĩ Chuyên khoa sản - Khoa Sản Phụ Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+            "score": 0.5797750949859619,
+            "id": "medical_vietnamese_qa_4045"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

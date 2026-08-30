@@ -1,0 +1,49 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không?",
+    "ground_truth": "Theo như mô tả của chị thì mẹ chị mới phẫu thuật Phaco thay thể thủy tinh, trong 2 tuần triệu chứng cộm mắt ở góc ngoài (vết mổ) là bình thường. Nếu lo lắng thì chị cần đưa mẹ đến bác sĩ để kiểm tra, không tự ý dùng thuốc gì khác ngoài thuốc chỉ định của bác sĩ.",
+    "answer": "Sau 2 tuần phẫu thuật Phaco, nếu chỉ còn cảm giác cộm mắt ở góc ngoài tại vết mổ thì có thể đi máy bay. Tuy nhiên, nếu có mất thị lực, đau mắt không giảm dù đã dùng thuốc giảm đau, đỏ mắt nặng, thấy tia sáng lóe lên hoặc các đám mây trôi, cần liên lạc với bác sĩ và đi khám ngay. Không tự ý dùng thuốc ngoài thuốc đã được chỉ định.",
+    "evidence": [
+        "Theo như mô tả của chị thì mẹ chị mới phẫu thuật Phaco thay thể thủy tinh, trong 2 tuần triệu chứng cộm mắt ở góc ngoài (vết mổ) là bình thường.",
+        "Nếu lo lắng thì chị cần đưa mẹ đến bác sĩ để kiểm tra, không tự ý dùng thuốc gì khác ngoài thuốc chỉ định của bác sĩ.",
+        "Vì vậy, với thắc mắc “Sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không?” Thì có thể di chuyển bằng máy bay được chị nhé.",
+        "Tuy nhiên, nếu có bất kỳ dấu hiệu nào dưới đây sau khi phẫu thuật đục thủy tinh thể, bạn hãy liên lạc với bác sĩ: Mất thị lực; Cơn đau ở mắt không giảm dù đã dùng thuốc giảm đau ; Đỏ mắt nặng; Nhìn thấy những tia sáng lóe lên hoặc những đám mây trôi.",
+        "=>>Lời khuyên từ Thạc sĩ, Bác sĩ Hoàng Thanh Nga - Khoa khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long : Khi có biểu hiện bất thường sau phẫu thuật cần đi khám ngay để điều trị, tránh biến chứng ảnh hưởng đến thị lực và chức năng của mắt."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Mẹ em mới mổ cườm Phaco được gần 2 tuần, nhưng vẫn còn cộm. Vậy cho em hỏi, sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không? Ngoài thuốc bác sĩ kê đơn, có thể mua thuốc kháng sinh bên ngoài uống được không ạ? Em cảm ơn bác sĩ nhiều.\nTrả lời: Chào chị. Theo như mô tả của chị thì mẹ chị mới phẫu thuật Phaco thay thể thủy tinh, trong 2 tuần triệu chứng cộm mắt ở góc ngoài (vết mổ) là bình thường. Nếu lo lắng thì chị cần đưa mẹ đến bác sĩ để kiểm tra, không tự ý dùng thuốc gì khác ngoài thuốc chỉ định của bác sĩ. Vì vậy, với thắc mắc “Sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không?” Thì có thể di chuyển bằng máy bay được chị nhé.",
+                "score": 0.8760441541671753,
+                "id": "vietnamese_medical_qa_1975",
+                "rerank_score": 0.9999740123748779
+            },
+            {
+                "text": "Câu hỏi: Mắt không nhìn rõ, đồng tử bị nhòe sau phẫu thuật khâu giác mạc và Phaco 2 tháng là bị làm sao?\nTrả lời: Theo như em chia sẻ thì mắt mờ sau mổ Phaco, bác sĩ nghĩ mắt em đục thủy tinh thể do chấn thương nên mới khâu giác mạc.",
+                "score": 0.5351486802101135,
+                "id": "vietnamese_healthcare_8974",
+                "rerank_score": 0.21588337421417236
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nCon tiểu phẫu chắp mắt về được 4 ngày mà mí mắt của con vẫn còn sưng chưa xẹp xuống như mắt còn lại (mắt nhỏ mắt to) và con có sờ lên và cảm nhận được còn một cục nữa. Vậy bác sĩ cho con hỏi mí mắt còn sưng sau tiểu phẫu chắp mắt có sao không? Nếu con đi tiểu phẫu để triệt để luôn thì mắt con có lành như ban đầu không? Có bị mắt to mắt nhỏ không? Cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nKhi bị chắp thì chỉ cần rạch và nạo sạch thì sẽ hết và mắt sẽ khôi phục như ban đầu. Nếu bạn sờ vẫn còn cộm cục thì có khả năng nạo bị xót. Vì vậy, bạn nên tái khám với bác sĩ và kiểm tra lại.\nCác phòng tránh bệnh tái phát là vệ sinh mắt sạch sẽ. vệ sinh mi mắt, chườm ấm mắt. Lưu ý về các dấu hiệu bất thường như cộm xốn, ngứa mi mắt , đau mi mắt thì đi khám để bác sĩ có chỉ định điều trị.\nTrân trọng!",
+                "score": 0.5402870774269104,
+                "id": "vietnamese_medical_qa_526",
+                "rerank_score": 0.052952975034713745
+            },
+            {
+                "text": "Câu hỏi: Sau phẫu thuật đục thủy tinh thể, khi nào cần liên lạc với bác sĩ?\nTrả lời: 6. Sau phẫu thuật đục thủy tinh thể, khi nào cần liên lạc với bác sĩ?\nSau phẫu thuật, mắt có thể hơi nhạy cảm, cộm và chảy lệ trong vài ngày, điều này hoàn toàn là bình thường. Mắt cũng có thể nhạy cảm hơn với ánh sáng hoặc người bệnh thấy mọi thứ có màu đỏ, hồng. Tuy nhiên, đây không phải là vấn đề nghiêm trọng và cũng không phổ biến. Tuy nhiên, nếu có bất kỳ dấu hiệu nào dưới đây sau khi phẫu thuật đục thủy tinh thể, bạn hãy liên lạc với bác sĩ: Mất thị lực; Cơn đau ở mắt không giảm dù đã dùng thuốc giảm đau ; Đỏ mắt nặng; Nhìn thấy những tia sáng lóe lên hoặc những đám mây trôi. =>>Lời khuyên từ Thạc sĩ, Bác sĩ Hoàng Thanh Nga - Khoa khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long : Khi có biểu hiện bất thường sau phẫu thuật cần đi khám ngay để điều trị, tránh biến chứng ảnh hưởng đến thị lực và chức năng của mắt. Xem thêm: Hướng dẫn chẩn đoán đục thủy tinh thể",
+                "score": 0.5857160687446594,
+                "id": "vietnamese_healthcare_80798",
+                "rerank_score": 0.028662027791142464
+            },
+            {
+                "text": "Câu hỏi: Cách chăm sóc mắt sau mổ cận thị\nTrả lời: 1. Cách chăm sóc mắt sau mổ cận thị\nDưới đây là một số lưu ý chăm sóc mắt sau khi thực hiện mổ mắt cận thị để tránh tái cận và thị lực hồi phục nhanh chóng hơn. Sau khi thực hiện xong ca mổ, nên để người thân đưa về, không tự ý lái xe về nhà. Cảm giác cộm và đau mắt sẽ xuất hiện trong vòng 4-6 giờ sau khi mổ, nếu tình trạng đau mắt không có dấu hiệu thuyên giảm mà ngày càng nghiêm trọng thì nên đến gặp bác sĩ phẫu thuật cho mình để kiểm tra ngay. Sau khi mổ mắt, đôi mắt thường rất nhạy cảm với ánh sáng, cộm và chảy nước mắt nên bạn cần có thời gian thư giãn, nghỉ ngơi, không dụi mắt hay chạm vào mắt. Sau 1 - 2 ngày mổ cận, không nên xem tivi, máy tính hay điện thoại, đi tắm không xịt vòi hoa sen vào mắt, hạn chế nhìn tập trung quá lâu. Sau 1 tuần nếu phải làm việc với máy tính nên cách 30 phút cho mắt nghỉ ngơi 1 lần. Nên đeo kính bảo hộ mắt trong vòng 1 tuần sau mổ, đeo cả khi đi ngủ để tránh thói quen dụi vào mắt. Bác sĩ sẽ kê cho bạn một số loại thuốc nhỏ mắt để mắt tránh bị khô. Bạn hãy sử dụng thuốc theo chỉ dẫn của bác sĩ để có hiệu quả tốt nhất. Trong khoảng 1 – 3 tháng sau mổ mắt, bạn không nên đi bơi hay ngâm bình trong bồn tắm quá lâu, không nên dùng mascare, kem dưỡng mắt, kẻ vẽ mắt,.. Chế độ ăn uống nên bổ sung nhiều thức ăn giàu vitamin A, B1, B2, Canxi, Crom, Selen, kẽm, cá hồi, trứng gà, bơ, hạnh nhân, rau chân vịt... Trong tháng đầu tiên sau khi mổ mắt, bạn nên hạn chế tối đa việc sử dụng các chất kích thích như rượu, bia, cafe, đồ nóng, tỏi, ớt, tiêu... Lời khuyên cuối cùng là dù bạn mới mổ mắt hay mổ đã lâu thì vẫn nên duy trì thói quen điều chỉnh ánh sáng phù hợp, chớp mắt liên tục, không thức khuya, sử dụng máy tính nên 30 phút nghỉ 1 lần,....Bạn cũng có thể dùng kính áp tròng khi mắt đã hồi phục hoàn toàn, tuy nhiên nên tham khảo ý kiến bác sĩ.",
+                "score": 0.5582607984542847,
+                "id": "vietnamese_healthcare_105175",
+                "rerank_score": 0.027720250189304352
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

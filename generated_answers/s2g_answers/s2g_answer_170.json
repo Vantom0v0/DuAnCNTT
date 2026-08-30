@@ -1,0 +1,86 @@
+{
+    "model_name": "s2g_rag",
+    "question": ". Em bịđứt dây chằng chéo trướcvà được chỉ định phẫu thuật tái tạo. Bác sĩ cho em hỏi, nếu em làm phẫu thuật thì bao lâu sau đi lại được ạ? Em cần phải nghỉ dưỡng bao lâu ạ? Mong bác sĩ tư vấn giúp em, em xin cảm ơn. Trần Xuân Vui(1990) Trả lời",
+    "ground_truth": "Chào bạn! Khả năng hồi phục sauphẫu thuật tái tạo dây chằng chéo trướctùy thuộc và mỗi cá nhân, tuy nhiên thời gian trung bình để bạn có thể đi lại như bình thường thì mất tầm 2-3 tháng. Về chi phí phẫu thuật thì rất khác nhau tùy vào bệnh viện và kỹ thuật mổ do đó bạn nên hỏi trực tiếp bác sĩ ở Bệnh viện bạn muốn phẫu thuật để có thông tin chính xác hơn. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng! ThS.BS Lê Quang Minh- Bác sĩ Chấn thương chỉnh hình - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+    "answer": "Sau phẫu thuật tái tạo dây chằng chéo trước, bạn có thể bắt đầu tập phục hồi chức năng từ ngày đầu và đi lại với sự hỗ trợ của 2 nạng nách; thời gian để đi lại bình thường trung bình khoảng 2–3 tháng, tùy từng người. Bạn cần theo liệu trình phục hồi chức năng kéo dài từ ngày đầu sau mổ đến hết tháng thứ 6 để phục hồi vận động, sức cơ và bảo vệ mảnh ghép. Bằng chứng chưa cung cấp thời gian nghỉ dưỡng cụ thể; do mảnh ghép chỉ trở nên chắc chắn hơn vào khoảng 6–8 tháng sau phẫu thuật, bạn nên tuân thủ hướng dẫn của bác sĩ và chuyên viên phục hồi chức năng về mức độ vận động.",
+    "evidence": [
+        "Sau khiphẫu thuật sụn chêm,tái tạo dây chằng chéo trướcthì bạn cần liệu trình tập luyện lâu dài từ ngày đầu tiên sau phẫu thuật cho đến hết tháng thứ 6 với các bài tập cụ thể cho từng giai đoạn.",
+        "Phục hồi chức năng sau tái tạo dây chằng chéo trước\nBên cạnh tập phục hồi chức năng trước phẫu thuật để giảm sưng, đau, tạo điều kiện thuận lợi cho cuộc phẫu thuật thì phục hồi chức năng sau tái tạo dây chằng chéo trước cũng đóng vai trò hết sức quan trọng trong quá trình cải thiện chức năng của dây chằng chéo trước cũng như mức độ vận động của khớp gối.",
+        "Đây là phương pháp được áp dụng sớm trên bệnh nhân sau phẫu thuật tái tạo dây chằng chéo trước nhằm giúp bệnh nhân có thể vận động trong biên độ bình thường, sức cơ được hồi phục và ngăn chặn những thương tật thứ phát như teo cơ, trong đó phổ biến nhất là teo cơ tứ đầu đùi gây cản trở rất nhiều cho sự vận động của chi dưới.",
+        "Phục hồi chức năng sau tái tạo dây chằng chéo trước giúp bảo vệ những mảnh ghép trong quá trình phục hồi và biến đổi sinh học trước khi tạo thành dây chừng thực thụ.",
+        "Ngày 3 sau phẫu thuật Tiếp tục tập các bài tập như ngày 1, 2 với cường độ tăng dần.",
+        "Bệnh nhân đi lại, sử dụng 2 nạng nách trợ giúp.",
+        "Trả lời: Khả năng hồi phục sau phẫu thuật tái tạo dây chằng chéo trước tùy thuộc và mỗi cá nhân, tuy nhiên thời gian trung bình để bạn có thể đi lại như bình thường thì mất tầm 2-3 tháng.",
+        "Tuy nhiên, mổ nội soi sẽ giúp cho quá trình phục hồi dây chằng chéo trước đạt hiệu quả cao hơn cũng như nhanh hơn so với phương pháp mổ hở.",
+        "Tái tạo dây chằng chéo trước bằng mổ nội soi giúp biên độ vận động khớp gối quay về bình thường trong thời gian ngắn, giúp bệnh nhân vận động và đi lại được bình thường rất nhanh.",
+        "Trong quá trình lành mảnh ghép, các sợi Collagen hình tế bào xương bắt đầu được hình thành trong những đường hầm xương trong khoảng 4 – 6 tuần sau khi phẫu thuật, trở nên chắc chắn trong khoảng 6 – 8 tháng sau phẫu thuật."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Em bị đứt dây chằng chéo trước. Bác sĩ cho em hỏisau 2 tháng đứt dây chằng chéo trước có mổ được không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Đứt dây chằng chéo trước đơn thuần (không có tổn thương sụn chêm) có thể mổ sau vài tháng được nhưng bạn nên đi lại nhẹ nhàng. Để kết quả phẫu thuật tốt bạn nên đi khám để bác sĩ đánh giá chính xác tổn thương cũng như hướng dẫn các động tác, các vận động cần tránh để tránh tổn thương thêm. Ngoài ra bạn nên duy trì luyện tập để tránh teo cơ và tăng cường sức mạnh cơ bắp trước mổ, tạo điều kiện cho việc phục hồi sau mổ.",
+                "score": 0.6327027678489685,
+                "id": "medical_vietnamese_qa_33",
+                "rerank_score": 0.9995360374450684
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ cho cháu hỏi là trường hợpđứt dây chằng chéo trước thay thế bằng dây chằng khác ở bộ phận nào?Sau khi thay thế thì hiệu năng vận động có còn được như trước chấn thương không? Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Chấn thương dây chằng chéo trước là vết rách hoặc bong gân của dây chằng chéo trước, một trong những dây chằng chính ở đầu gối. Chấn thương dây chằng chéo trước thường xảy ra nhất trong các môn thể thao liên quan đến việc dừng đột ngột hoặc thay đổi hướng đột ngột khi nhảy lên và tiếp đất như bóng rổ, bóng đá và trượt tuyết. Nếuđứt dây chằng chéo trướccó thể sử dụnggân cơ bán gânvàcơ thon( hiện tại thế giới đều dùng). Sau thay rất cần phục hồi chức năng vì thành công sau phẫu thuật 50% nhờ phục hồi chức năng. Tuân thủ phục hồi chức năng thì phục hồi khoảng 95% trước chấn thương dây chằng chéo trước.",
+                "score": 0.6176581978797913,
+                "id": "medical_vietnamese_qa_674",
+                "rerank_score": 0.9959012866020203
+            },
+            {
+                "text": "Câu hỏi: Em bị đứt một phần dây chằng chéo trước vàgiãn dây chằng chéo sau. Bác sĩ cho em hỏiđứt một phần dây chằng chéo trước và giãn dây chằng chéo sau nên tập luyện thế nào?Em nên sử dụng thuốc gì để phục hồi thưa bác sĩ? Em cảm ơn. Nguyễn Văn Hậu(1993) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Diễn biến tự nhiên sautổn thương dây chằng chéo khớp gốinếu không phẫu thuật tùy thuộc vào mức độ tổn thương, tuổi tác người bệnh, mức độ hoạt động của người bệnh. Đứt một phần dây chằng chéo trước và sau khớp gối (căng dãn, đứt không hoàn toàn) phần lớn kết quả tốt nếu được tậpphục hồi chức năngđúng, đủ thời gian (thường ít nhất 3 tháng). Tuy nhiên, có nhiều bệnh nhân mặc dù tổn thương dây chằng chéo khớp gối không hoàn toàn nhưng khớp gối vẫn mất vững cần chỉ định phẫu thuật. Trong trường hợp điều trị bảo tồn, bạn cần đeo nẹp gối, điều trị vật lý trị liệu và tập luyện theo hướng dẫn, hạn chế các cử động đột ngột và mạnh trên chân đau.  Được giải đáp bởiThạc sĩ, Bác sĩ chuyên khoa I Nguyễn Thị Thanh Bình -Bác sĩ Phục hồi chức năng - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+                "score": 0.6868433356285095,
+                "id": "medical_vietnamese_qa_742",
+                "rerank_score": 0.9941832423210144
+            },
+            {
+                "text": "Câu hỏi: ! Cho tôi hỏi:“Sau khi phẫu thuật sụn chêm và tái tạo dây chằng chéo trước cần hồi phục như thế nào để có kết quả tốt nhất?”. Cảm ơn bác sĩ đã tư vấn và giải đáp! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Sau khiphẫu thuật sụn chêm,tái tạo dây chằng chéo trướcthì bạn cần liệu trình tập luyện lâu dài từ ngày đầu tiên sau phẫu thuật cho đến hết tháng thứ 6 với các bài tập cụ thể cho từng giai đoạn. Bạn có thể đến cơ sở y tế hoặc bệnh viện thuộcHệ thống Y tế Vinmeccó Khoa Phục hồi chức năng để được hướng dẫn bài tập cụ thể tùy thuộc vào thời gian sau phẫu thuật của bạn là bao lâu. Cảm ơn bạn đã tin tưởng và gửi câu hỏi:“Sau khi phẫu thuật sụn chêm và tái tạo dây chằng chéo trước cần hồi phục như thế nào để có kết quả tốt nhất?”đến Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ chuyên khoa I Nguyễn Thị Thanh Bình -Bác sĩ Phục hồi chức năng - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+                "score": 0.6161576509475708,
+                "id": "medical_vietnamese_qa_875",
+                "rerank_score": 0.9865433573722839
+            },
+            {
+                "text": "Câu hỏi: Phục hồi chức năng sau tái tạo dây chằng chéo trước\nTrả lời: 3. Phục hồi chức năng sau tái tạo dây chằng chéo trước\nBên cạnh tập phục hồi chức năng trước phẫu thuật để giảm sưng, đau, tạo điều kiện thuận lợi cho cuộc phẫu thuật thì phục hồi chức năng sau tái tạo dây chằng chéo trước cũng đóng vai trò hết sức quan trọng trong quá trình cải thiện chức năng của dây chằng chéo trước cũng như mức độ vận động của khớp gối. Đây là phương pháp được áp dụng sớm trên bệnh nhân sau phẫu thuật tái tạo dây chằng chéo trước nhằm giúp bệnh nhân có thể vận động trong biên độ bình thường, sức cơ được hồi phục và ngăn chặn những thương tật thứ phát như teo cơ, trong đó phổ biến nhất là teo cơ tứ đầu đùi gây cản trở rất nhiều cho sự vận động của chi dưới. Phục hồi chức năng sau tái tạo dây chằng chéo trước giúp bảo vệ những mảnh ghép trong quá trình phục hồi và biến đổi sinh học trước khi tạo thành dây chừng thực thụ. 2.3. Ngày 3 sau phẫu thuật Tiếp tục tập các bài tập như ngày 1, 2 với cường độ tăng dần. Tập vận động chủ động có kháng trở các khớp tự do tại chân phẫu thuật. Bệnh nhân đi lại, sử dụng 2 nạng nách trợ giúp. 3.",
+                "score": 0.6160125732421875,
+                "id": "vietnamese_healthcare_35697",
+                "rerank_score": 0.9138187766075134
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Phẫu thuật tái tạo dây chằng sau bao lâu có thể đi lại được?\nTrả lời: Khả năng hồi phục sau phẫu thuật tái tạo dây chằng chéo trước tùy thuộc và mỗi cá nhân, tuy nhiên thời gian trung bình để bạn có thể đi lại như bình thường thì mất tầm 2-3 tháng. Về chi phí phẫu thuật thì rất khác nhau tùy vào bệnh viện và kỹ thuật mổ do đó bạn nên hỏi trực tiếp bác sĩ ở Bệnh viện bạn muốn phẫu thuật để có thông tin chính xác hơn.",
+                "score": 0.6175496578216553,
+                "id": "vietnamese_healthcare_3589",
+                "rerank_score": 0.9995433688163757
+            },
+            {
+                "text": "Câu hỏi: Em bị đứt dây chằng chéo trước. Bác sĩ cho em hỏisau 2 tháng đứt dây chằng chéo trước có mổ được không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Đứt dây chằng chéo trước đơn thuần (không có tổn thương sụn chêm) có thể mổ sau vài tháng được nhưng bạn nên đi lại nhẹ nhàng. Để kết quả phẫu thuật tốt bạn nên đi khám để bác sĩ đánh giá chính xác tổn thương cũng như hướng dẫn các động tác, các vận động cần tránh để tránh tổn thương thêm. Ngoài ra bạn nên duy trì luyện tập để tránh teo cơ và tăng cường sức mạnh cơ bắp trước mổ, tạo điều kiện cho việc phục hồi sau mổ.",
+                "score": 0.6270385384559631,
+                "id": "medical_vietnamese_qa_33",
+                "rerank_score": 0.9995360374450684
+            },
+            {
+                "text": "Câu hỏi: Em bị đứt dây chằng chéo trước. Bác sĩ cho em hỏiđứt dây chằng chéo trước sau 2 tháng có mổ được không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Thời gian điều trị đứt dây chằng chéo trước thường được tiến hành trong khoảng 3 - 6 tuần đầu sau khi chấn thương, lúc mà khớp gối đã lấy lại được tầm vận động và hết đau cũng như hết sưng nề. Điều này giúp cho việc tập phục hồi chức năng sau phẫu thuật được thuận tiện và có kết quả. Do đó, trường hợp của bạn có thể tiến hành phẫu thuật nếu có chỉ định. Bạn nên đi khám để bác sĩ có thể đánh giá chính xác tình hình hiện tại và đưa ra phương án điều trị phù hợp cho bạn.",
+                "score": 0.6151105165481567,
+                "id": "medical_vietnamese_qa_27",
+                "rerank_score": 0.9988790154457092
+            },
+            {
+                "text": "Câu hỏi: Tái tạo dây chằng chéo trước\nTrả lời: 2. Tái tạo dây chằng chéo trước\nNhững bệnh nhân có dấu hiệu đứt dây chằng chéo trước thì sẽ được thăm khám lâm sàng và có chỉ định chụp cộng hưởng từ khớp gối để đánh giá tổn thương dây chằng. Trong trường hợp tổn thương dây chằng chéo trước không toàn hoàn thì bệnh nhân sẽ được tư vấn tập phục hồi chức năng trong thời gian khoảng 1 tháng với những bài tập giúp khớp gối được vận động, tăng cơ lực, tập phối hợp với dụng cụ và sau đó đánh giá lại. Mặt khác, nếu bệnh nhân đứt dây chằng chéo trước toàn phần thể hiện trên phim MRI thì sẽ có chỉ định phẫu thuật tái tạo dây chằng chéo trước . Đây là một phương pháp phẫu thuật giúp dây chằng được phục hồi lại để khớp gối được giữ vững, bệnh nhân có thể vận động với biên độ bình thường, không bị lỏng khớp. Tái tạo dây chằng chéo trước có thể được thực hiện theo cách mổ hở mở khớp truyền thống hoặc mổ nội soi. Tuy nhiên, mổ nội soi sẽ giúp cho quá trình phục hồi dây chằng chéo trước đạt hiệu quả cao hơn cũng như nhanh hơn so với phương pháp mổ hở. Tái tạo dây chằng chéo trước bằng mổ nội soi giúp biên độ vận động khớp gối quay về bình thường trong thời gian ngắn, giúp bệnh nhân vận động và đi lại được bình thường rất nhanh. Chất liệu được dùng trong tái tạo dây chằng chéo trước phổ biến nhất hiện nay là chất liệu tự thân gồm mảnh ghép từ 1/3 giữa gân bánh chè và mảnh ghép gân cơ bán gân hoặc có khi được lấy cùng với gân cơ thon. Hiện nay thì mảnh ghép được lấy từ gân cơ bán gân cũng như gân cơ thon được sử dụng nhiều hơn so với mảnh ghép từ gân bánh chè vì nó cho hiệu quả vững chắc dây chằng chéo trước nhiều hơn, không gây ra tình trạng vỡ xương bánh chè hoặc yếu hệ thống duỗi gối. Tái tạo dây chằng chéo trước có thể được thực hiện theo cách mổ hở mở khớp truyền thống hoặc mổ nội soi Sau khi ghép mảnh ghép tự thân để tiến hành tái tạo dây chằng chéo trước thì dây chằng mới sẽ được hình thành sau khi trải qua quá trình lành mảnh ghép và biến đổi từ những mảnh ghép sang dây chằng thực thụ. Trong quá trình lành mảnh ghép, các sợi Collagen hình tế bào xương bắt đầu được hình thành trong những đường hầm xương trong khoảng 4 – 6 tuần sau khi phẫu thuật, trở nên chắc chắn trong khoảng 6 – 8 tháng sau phẫu thuật. Sau đó, những mảnh ghép này sẽ biến đổi sinh học thành những tổ chức có tính chất giống như dây chằng chéo trước tự nhiên, và tiếp theo đó là những giai đoạn hoại tử vô mạch, sản sinh mạch máu tân tạo, tái cấu trúc và biệt hóa cấu trúc để trở thành dây chằng chéo trước thật sự với những tính chất như đàn hồi, giữ vững cho khớp gối... Toàn bộ quá trình hình thành dây chằng chéo trước sau phẫu thuật diễn ra một cách từ từ, mất khoảng 1 – 3 năm để có thể tạo thành tổ chức dây chằng chéo trước giống với tự nhiên.",
+                "score": 0.6298925876617432,
+                "id": "vietnamese_healthcare_35692",
+                "rerank_score": 0.9944208264350891
+            },
+            {
+                "text": "Câu hỏi: Em bị đứt một phần dây chằng chéo trước vàgiãn dây chằng chéo sau. Bác sĩ cho em hỏiđứt một phần dây chằng chéo trước và giãn dây chằng chéo sau nên tập luyện thế nào?Em nên sử dụng thuốc gì để phục hồi thưa bác sĩ? Em cảm ơn. Nguyễn Văn Hậu(1993) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Diễn biến tự nhiên sautổn thương dây chằng chéo khớp gốinếu không phẫu thuật tùy thuộc vào mức độ tổn thương, tuổi tác người bệnh, mức độ hoạt động của người bệnh. Đứt một phần dây chằng chéo trước và sau khớp gối (căng dãn, đứt không hoàn toàn) phần lớn kết quả tốt nếu được tậpphục hồi chức năngđúng, đủ thời gian (thường ít nhất 3 tháng). Tuy nhiên, có nhiều bệnh nhân mặc dù tổn thương dây chằng chéo khớp gối không hoàn toàn nhưng khớp gối vẫn mất vững cần chỉ định phẫu thuật. Trong trường hợp điều trị bảo tồn, bạn cần đeo nẹp gối, điều trị vật lý trị liệu và tập luyện theo hướng dẫn, hạn chế các cử động đột ngột và mạnh trên chân đau.  Được giải đáp bởiThạc sĩ, Bác sĩ chuyên khoa I Nguyễn Thị Thanh Bình -Bác sĩ Phục hồi chức năng - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+                "score": 0.6795215606689453,
+                "id": "medical_vietnamese_qa_742",
+                "rerank_score": 0.9941832423210144
+            }
+        ]
+    ],
+    "llm_call": 6,
+    "num_turns": 2
+}

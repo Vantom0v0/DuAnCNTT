@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Em mấy nay hay ợ hơi, ợ chua buồn nôn, khó thở, người mệt mỏi, chướng bụng, rát khó chịu ở vùng trên rốn và xung quanh bụng. Em đi phân đen và mỗi lần đi cũng khó khăn. Vậy bác sĩ cho em hỏiợ hơi, ợ chua kèm đi ngoài phân đen là bệnh gì?Có phải xuất huyết dạ dày không thưa bác sĩ? Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Những triệu chứng ban kể có thể chia làm hai vấn đề: Nóng rát khó chịu vùng trên rốn, ợ hơi, ợ chua, cảm giác khó thở, đầy chướng bụng: Đó là những biểu hiện tương đối điển hình của bệnh lý dạ dày, trào ngược thực quản. Còn mệt và đại tiện phân đen: Là dấu hiệu cảnh báo của xuất huyết đường tiêu hóa trên, tuy nhiên cũng có nhiều vấn đề có thể làm cho phân có màu đen như ăn tiết canh, một số thuốc có sắt,... Phân đen do xuất huyết tiêu hóa thường nát, dễ đi, phân có mùi khẳn đặc trưng Vì vậy bạn cần đi khám sớm, bác sĩ cần làm một số xét nghiệm về máu xem có bị mất máu không, xét nghiệm phân xem có hồng cầu trong phân không,... và đặc biệt là nội soi tiêu hóa trên cho bạn để xác định bệnh, nguyên nhân và mức độ bệnh. Trường hợp nếu có chảy máu tiêu hóa thật thì qua nội soi bác sĩ cũng có thể can thiệp để cầm máu. Bạn nên đi khám càng sớm càng tốt.",
+    "answer": "Ợ hơi, ợ chua, buồn nôn, chướng bụng và nóng rát vùng trên rốn có thể gặp trong trào ngược dạ dày–thực quản hoặc viêm loét dạ dày. Tuy nhiên, **đi ngoài phân đen là dấu hiệu thường gặp của xuất huyết tiêu hóa trên, đặc biệt ở dạ dày**, dù chưa thể khẳng định chỉ dựa vào triệu chứng.\n\nBạn cần **đến cơ sở y tế có chuyên khoa tiêu hóa càng sớm càng tốt** để được thăm khám, xét nghiệm và có thể nội soi nhằm xác định có chảy máu hay không và tìm nguyên nhân. Nếu phân đen kèm mệt mỏi, đau bụng, chóng mặt, khó thở hoặc thở dốc, cần đi khám ngay và không tự điều trị tại nhà, vì xuất huyết không xử trí kịp thời có thể gây mất máu và trụy mạch.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em mấy nay hay ợ hơi, ợ chua, buồn nôn, khó thở, người mệt mỏi, chướng bụng, rát, khó chịu ở vùng trên rốn và xung quanh bụng. Em đi phân đen và mỗi lần đi cũng khó khăn. Vậy bác sĩ cho em hỏiợ hơi, ợ chua kèm chướng bụng có sao không?Có phải em bị xuất huyết dạ dày không? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Xuất huyết dạ dày là tình trạng tổn thương mạch máu tại dạ dày như viêm loét, gây chảy máu trong dạ dày. Tùy mức độ chảy máu mà có các biểu hiện triệu chứng khác nhau như ói máu, đi cầu phân đen. Bệnh có thể chảy máu rỉ ra gây thiếu máu mạn, cũng có thể chảy máu cấp gây mất máu cấp. Để xác định bạn có bị chảy máu đường tiêu hóa cần phải được thăm khám và làm 1 số xét nghiệm, cũng như xã định nguyên nhân gây ra đau bụng, tiêu phân đen của bạn. Bạn có thể đến bệnh viện Vinmec để được thăm khám và tư vấn thêm.",
+            "score": 0.7242342233657837,
+            "id": "medical_vietnamese_qa_10459",
+            "rerank_score": 0.9999514818191528
+        },
+        {
+            "text": "Câu hỏi: Em bị ợ chua, hay bị đầy hơi, chướng bụng làm khó thở, mệt mỏi. Cũng được 1 - 2 năm, tuy nhiên dạo gần đây bị liên tục rất nhiều ngày, mỗi ngày có khi 10 - 12 tiếng. Đặc biệt, em có cảm giác mệt, khó thở, tức ở bụng và lồng ngực rất khó chịu. Vậy bác sĩ cho em hỏihay ợ chua kèm tức bụng là bệnh gì?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bạn có thể là bị hội chứng trào ngược dạ dày - thực quản, để giải quyết triệt để tình trạng này bạn nên đến viện khám bác sĩ chuyên khoa tiêu hóa và nội soi dạ dày chẩn đoán chính xác.",
+            "score": 0.6533668041229248,
+            "id": "medical_vietnamese_qa_10447",
+            "rerank_score": 0.99910968542099
+        },
+        {
+            "text": "Câu hỏi: Em bị viêm dạ dày có đi ra ngoài phân đen mà không nôn ra máu. Xin hỏi bác sĩngười bị viêm dạ dày đi ngoài phân đen có sao không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Người bị viêm dạ dày đi ngoài phân đen có sao không?”, bác sĩ giải đáp như sau: Đi cầu ra phân đen là 1 trong những triệu chứng phổ biến của xuất huyết đường tiêu hóa trên đặc biệt hay xảy ra ở dạ dày, tuy nhiên bác sĩ cũng sẽ phân biệt và xác định tính chất phân cũng như kết hợp với các triệu chứng lâm sàng và cận lâm sàng khác trước khi kết luận có xuất huyết tiêu hóa. Nếu xuất huyết mà không được xử trí kịp thời và đúng lúc có thể đưa đến mất máu, trụy mạch và tử vong. Do đó, nếu bạn thấy đi cầu phân đen, mệt mỏi, đau bụng, chóng mặt thì cần phải đến gặp bác sĩ ngay, không nên tự điều trị tại nhà.",
+            "score": 0.6476376056671143,
+            "id": "medical_vietnamese_qa_10560",
+            "rerank_score": 0.9950829744338989
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ! Em năm nay 21 tuổi, giới tính nữ.\nDạo gần đầy em có xuất hiện các triệu chứng như: chướng bụng, đầy hơi, buồn nôn nóng rát dạ dày sau khi ăn, đau vùng bụng ngay rốn và trên rốn. Không cảm giác thấy đói, kèm đi ngoài màu đen. Cảm giác khó thở, thở dốc. Xin bác sĩ tư vấn giúp em và hướng điều trị với ạ. Em cảm ơn bác sĩ!\nTrả lời: Chào em, theo như mô tả của em, hiện tại mình đang có vấn đề ở đường tiêu hóa, mà cụ thể là dạ dày. Thường hay gặp nhất là tình huống viêm loét dạ dày. Tuy nhiên, mình có đi tiêu phân đen, không loại trừ được tình trạng đang có xuất huyết rỉ rả tại dạ dày hoặc ngoài dạ dày. \n  Bác sĩ đề nghị mình mau chóng đến các bệnh viện có chuyên khoa tiêu hóa để được thăm khám và làm các cận lâm sàng cần thiết, nhằm chẩn đoán và điều trị chính xác.\n  Hiện tại việc đi lại, khám chữa bệnh đã thuận tiện hơn nhiều. Em thu xếp sớm nhé.",
+            "score": 0.6615108847618103,
+            "id": "vietnamese_medical_qa_5310",
+            "rerank_score": 0.9946910738945007
+        },
+        {
+            "text": "Câu hỏi: ! Em bị ợ hơi, bụng đói hay no gì cũng thường ợ, có khi ra thức ăn, thường bị sôi bụng ăn uống chậm tiêu và có khi cảm giác đồ ăn nằm ở cuốn cổ, bên trái vùng gần bẹ sườn thường đau. Thỉnh thoảng đi cầu phân lỏng nhiều lần trong ngày. Bác sĩ cho em hỏi, emthường ợ hơi và đi cầu phân lỏng nhiều lần là dấu hiệu bệnh gì và cách điều trịạ? Rất mong bác sĩ tư vấn, em cảm ơn! Nguyễn Thị Diệu Nga(1970) Trả lời\nTrả lời: Chào bạn! Bác sĩ xin được giải đáp câu hỏi: “Thường ợ hơi và đi cầu phân lỏng nhiều lần là dấu hiệu bệnh gì và cách điều trị?” như sau: Triệu chứng ợ hơi, sôi bụng, ăn uống chậm tiêu là những triệu chứng mà khá nhiều người gặp phải. Trong nhiều trường hợp không gây nguy hiểm nhưng gây ra cảm giác khó chịu sau mỗi bữa ăn. Bên cạnh đó, đầy hơi ăn uống khó tiêu, đau bụng, đi ngoài phân lỏng có thể là dấu hiệu của một số bệnh lý. Tùy từng nguyên nhân gây ra có biện pháp điều trị thích hợp. Một số nguyên nhân gây nên tình trạng này như ăn uống không cân đối, thói quen ăn uống không khoa học, rối loạn tiêu hóa, căng thẳng và stress, bệnh lý viêm loét dạ dày, đại tràng, hội chứng ruột kích thích,....Tuy nhiên bạn cần khám và tư vấn chuyên khoa tiêu hóa để được chẩn đoán và điều trị cụ thể. Nếu bạn còn thắc mắc vấn đề này, bạn có thể đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Cảm ơn bạn đã gửi câu hỏi đến Vinmec, chúc bạn thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Tạ Quế Phương -Bác sĩ Tiêu hóa - Nội soi - Khoa Nội tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.6246854066848755,
+            "id": "medical_vietnamese_qa_11296",
+            "rerank_score": 0.9903708100318909
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

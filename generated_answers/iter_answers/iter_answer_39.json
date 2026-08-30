@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Tôi bị huyết áp cao nhiều năm nay. Mỗi ngày uống thuốc huyết áp thì thấy ổn định nếu quên uống thì có khi huyết áp lên tới 176/105 nhịp tim 70/phút..Tôi có nên tiêm vaccine Covid-19 không và nên tiêm loại nào là phù hợp?",
+    "ground_truth": "Thông tin chị cung cấp cho thấy bệnh huyết áp đã ổn định và hoàn toàn có thể tiêm chủng vaccine Covid-19, nếu không có chống chỉ định nào khác, chị cần uống thuốc thường xuyên để duy trì tình trạng ổn định của bệnh. Chị nên được tiêm chủng vaccine Covid-19 và có thể tiêm bất cứ loại nào hiện có ở địa phương.",
+    "answer": "Bạn vẫn có thể tiêm vaccine Covid-19 vì tăng huyết áp không phải là chống chỉ định, nhưng với mức huyết áp có thể lên đến 176/105 mmHg khi quên thuốc, bạn nên khám để kiểm soát huyết áp ổn định và tiêm tại bệnh viện hoặc cơ sở có khả năng hồi sức cấp cứu, sau khi được bác sĩ khám sàng lọc trực tiếp. Hãy tiếp tục uống thuốc huyết áp hằng ngày theo chỉ định, không tự ý ngừng thuốc; khi đi tiêm cần thông báo đầy đủ bệnh nền, thuốc đang dùng và tiền sử dị ứng. Nếu huyết áp được kiểm soát tốt và đủ điều kiện tiêm, bạn có thể tiêm bất kỳ loại vaccine Covid-19 nào được triển khai phù hợp tại Việt Nam; không có loại vaccine riêng bắt buộc cho người tăng huyết áp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Năm nay em 42 tuổi, huyết áp diao động trên dưới 140 thì có tiêm được vaccine Covid-19 và có an toàn không?\nTrả lời: Đối với tình trạng huyết áp tâm thu trên 140mmHg có thể chẩn đoán và điều trị huyết áp cao. Anh/chị nên đi khám chuyên khoa để được khám và điều trị. Vaccine Covid-19 sẽ được chỉ định khi huyết áp của anh/chị đã được điều trị ổn định. Trong trường hợp huyết áp tâm thu của anh/chị luôn ở mức >140mmHg, anh/chị thuộc nhóm cần cẩn trọng khi tiêm chủng, cần tiêm chủng ở bệnh viện hoặc cơ sở y tế đủ năng lực hồi sức cấp cứu ban đầu. Bác sĩ sẽ khám trực tiếp để đánh giá tình trạng sức khỏe của thông qua các chỉ số sinh hiệu như huyết áp, mạch. . . và các bộ phận khác, nếu sức khỏe của anh/chị tốt, đạt các tiêu chuẩn mà Bộ Y tế đã đặt ra, bác sĩ sẽ chỉ định và tư vấn tiêm chủng. Sau tiêm anh/chị cần tuân thủ theo hướng dẫn của bác sĩ về theo dõi sau tiêm chủng, hạn chế thể dục với cường độ mạnh như đá bóng, cử tạ, chạy bộ, boxing, ăn uống điều độ, uống đủ nước, .",
+            "score": 0.7763561010360718,
+            "id": "vietnamese_healthcare_6518"
+        },
+        {
+            "text": "Câu hỏi: Tôi cao huyết áp, thường ở mức 150/100, khi tiêm vaccine Covid-19 cần lưu ý điều kiện gì thưa bác sĩ?\nTrả lời: Nếu chỉ số huyết áp của anh thường xuyên ở mức 150/100 mmHg nên tiêm vaccine Covid-19 và theo dõi tại bệnh viện.",
+            "score": 0.7627648711204529,
+            "id": "vietnamese_healthcare_4075"
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 68 tuổi, bị huyết áp cao đã 20 năm nay. Hàng ngày, tôi đều uống thuốc để duy trì ổn định ở mức dưới 140/75. Xin bác sĩ cho biết, tôi có thể tiêm vaccine ngừa Covid-19 không, nên tiêm loại nào là phù hợp nhất?\nTrả lời: Hiện nay sức huyết áp của bác đã ổn định dưới 140/75, bác hoàn toàn có thể tiêm chủng vaccine Covid-19, bác có thể tiêm bất cứ loại vaccine Covid-19 nào hiện có ở Việt Nam. Hiện nay, Việt Nam đang tiến hành tiêm vaccine Covid-19 của AstraZeneca cho các đối tượng ưu tiên lực lượng tuyến đầu chống dịch là các bác sĩ, nhân viên y tế, người dân đang sống trong vùng dịch.",
+            "score": 0.7552987933158875,
+            "id": "vietnamese_healthcare_8697"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị huyết áp nhưng không cao quá thường khoảng 13/90, ngày nào cũng phải uống một viên thuốc nhưng không uống vài ngày cũng không sao. Tôi bị dị ứng khi uống thuốc một loại thuốc kháng sinh nhưng vẫn có thể uống một số loại kháng sinh khác. Tôi có được vaccine Covid-19 không và nên chích ngừa loại của hãng nào thưa bác sĩ? Nhờ bác sĩ tư vấn giúp tôi.\nTrả lời: Việc anh, chị uống thuốc huyết áp duy trì hàng ngày là rất cần thiết với bệnh lý hiện tại. Trường hợp của anh/chị cũng có thể tiêm vaccine Covid-19 với sự thăm khám tư vấn trực tiếp của bác sĩ khám sàng lọc. Tuy nhiên anh, chị có dị ứng thuốc kháng sinh nhưng không rõ triệu chứng, có dùng thuốc điều trị hay không. Nếu mức độ dị ứng nhẹ, tự khỏi và không phải dùng thuốc điều trị thì có thể tiêm chủng vaccine tại cơ sở tuyến bệnh viện. Nên khi đi tiêm anh, chị cần thông báo cụ thể cho bác sĩ về tình trạng dị ứng của mình để bác sĩ và điều dưỡng khi khám, tiêm sẽ có những dặn dò hướng dẫn cụ thể.",
+            "score": 0.7541790008544922,
+            "id": "vietnamese_healthcare_8458"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị huyết áp cao, huyết áp bình thường hơn 140, lúc cao nhất 186, giờ hiện từ 140 đến 165. Tôi có thể tiêm vaccine Covid-19 được không va cần làm gì trước khi tiêm?\nTrả lời: Bệnh lý tăng huyết áp không thuộc trường hợp chống chỉ định hay hoãn tiêm vaccine Covid-19 của Bộ Y tế, tuy nhiên bạn cần thận trọng tiêm chủng và tiêm tại bệnh viện để kịp thời xử trí các phản ứng sau tiêm xảy ra.",
+            "score": 0.7493008375167847,
+            "id": "vietnamese_healthcare_8998"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

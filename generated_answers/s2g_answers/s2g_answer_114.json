@@ -1,0 +1,111 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Con nuốt nước bọt bình thường, ăn uống cũng không bị cản trở gì. Nhưng cổ họng bên trái dưới hàm của con cảm thấy đau khi gập cổ, xoay cổ, nằm nghiêng người về bên trái, nhưng lại không có nổi hạch. Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì thưa bác sĩ?",
+    "ground_truth": "Chào bạn! Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+    "answer": "Triệu chứng của bạn có thể liên quan đến đau cơ hoặc mô mềm vùng cổ, nhưng chưa đủ thông tin để xác định chính xác nguyên nhân. Đau họng còn có thể do nhiều nguyên nhân khác ở vùng hầu họng, vì vậy bạn nên đi khám bác sĩ, đặc biệt tại chuyên khoa Tai Mũi Họng và Tiêu hóa, để được thăm khám, xét nghiệm và có hướng điều trị phù hợp.",
+    "evidence": [
+        "Trả lời: Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ.",
+        "Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+        "Vấn đề đau họng ngoài nguyên nhân do trào ngược dạ dày thực quản thì còn do nhiều nguyên khác tại vùng hầu họng, do vậy bạn cần khám thêm chuyên khoa Tai Mũi họng, chuyên khoa Tiêu hóa để xác định rõ nguyên nhân rồi từ đó có hướng điều trị phù hợp."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì?\nTrả lời: Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+                "score": 0.793672502040863,
+                "id": "vietnamese_healthcare_7086",
+                "rerank_score": 0.9998527765274048
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau 1 bên họng, nuốt nước bọt đau đã 3 - 4 ngày nay. Lúc đầu cảm giác là đau 1 lưỡi nghĩ bị nhiệt vì em bị clo vào sát răng nhưng hôm sau lan xuống họng gây khó nuốt. Hôm nay, em soi đèn thì thấy cổ họng có những u nổi trên bề mặt, đau nhiều hơn. Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm nổi u trên bề mặt vùng họng là bệnh gì? Có phải ung thư không thưa bác sĩ? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVới những triệu chứng như bạn mô tả như: Đau một bên lưỡi lan xuống họng, khó nuốt, có những khối u bề mặt vùng họng, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.\nTrân trọng!",
+                "score": 0.5727821588516235,
+                "id": "vietnamese_medical_qa_1205",
+                "rerank_score": 0.9653871655464172
+            },
+            {
+                "text": "Câu hỏi: Một tuần nay, em thấy khi nuốt hay nghẹn, có khi buồn nôn và kèm đau tức ngực. Ba ngày nay, em nổi hạch bên cổ trái cứng, đau ít. Lúc nằm nghỉ hay đau tức ngực, giống có vật gì nó dính ở cổ họng làm em không thể nào nằm được. Vậy bác sĩ cho em hỏinuốt nghẹn, đau tức ngực kèm nổi hạch cổ là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Nuốt nghẹnlà biểu hiện của một số bệnh như:Trào ngược dạ dày - thực quản, u vùng họng,u thực quản, hoặc u hay hạch trung thất chèn vào thực quản, hoặc bệnh lý tim mạch. Bạn có thêm triệu chứng nổi hạch cổ đi kèm dấu hiệu nuốt nghẹn. Vì thế, bạn nên đến bệnh viện để được khám và có thể làm xét nghiệm tìm nguyên nhân càng sớm càng tốt.",
+                "score": 0.5547490119934082,
+                "id": "medical_vietnamese_qa_12457",
+                "rerank_score": 0.943445086479187
+            },
+            {
+                "text": "Câu hỏi: Cổ họng khó nuốt kèm tức ngực bên trái là biểu hiện bệnh gì?\nTrả lời: Các triệu chứng bạn kể nghĩ nhiều đến bệnh trào ngược dạ dày thực quản. Do đó, bạn hãy tới gặp bác sĩ chuyên khoa tiêu hóa để được khám, nội soi dạ dày nếu cần để chẩn đoán xác định và lựa chọn phương pháp điều trị hiệu quả.",
+                "score": 0.5930875539779663,
+                "id": "vietnamese_healthcare_6933",
+                "rerank_score": 0.8350396752357483
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ ơi cho em hỏi: Em có cảm giác như bị nghẹn thức ăn hoặc khi uống 1 hớp nước to bị nghẹn không khí ở cổ, cảm giác rất tức tức khó chịu. Trước em cũng có cảm giác như hiện giờ nhưng dạo gần đây có vẻ nó nặng hơn, hầu như em bị 24/24. Bác sĩ cho em hỏi: Em thường xuyên bị nghẹn cổ là dấu hiệu bệnh gì?\nChào bác sĩ. Gần đây tôi thấy bị nghẹn khi nuốt nước bọt và bị trào ngược lại đó là bị sao vậy bác sĩ . Bác sĩ tư vấn giúp tôi. Tôi cảm ơn.\nTrả lời: Chào bạn! Với triệu chứng thường xuyên bị nghẹn cổ mà bạn mô tả thì có thể bạn đang bị trào ngược dạ dày thực quản. Tuy nhiên hiện tượng khó nuốt, nuốt nghẹn, tức ngực khi nuốt cũng xuất hiện ở nhiều bệnh lý khác. Tốt nhất bạn nên đến các bệnh viện uy tín để thăm khám. Sau khi đã chẩn đoán chính xác tình trạng bệnh và nguyên nhân gây bệnh là gì, các bác sĩ chuyên khoa mới có thể đưa ra phác đồ điều trị phù hợp và triệt để cho bạn.",
+                "score": 0.5533863306045532,
+                "id": "vietnamese_medical_qa_3128",
+                "rerank_score": 0.5505446195602417
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì?\nTrả lời: Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+                "score": 0.7965828776359558,
+                "id": "vietnamese_healthcare_7086",
+                "rerank_score": 0.9998527765274048
+            },
+            {
+                "text": "Câu hỏi: Đau bên trái họng là bị làm sao?\nTrả lời: Bác sĩ không rõ bạn có dấu chứng trào ngược dạ dày thực quản mà bạn đã được điều trị hay chưa? Vấn đề đau họng ngoài nguyên nhân do trào ngược dạ dày thực quản thì còn do nhiều nguyên khác tại vùng hầu họng, do vậy bạn cần khám thêm chuyên khoa Tai Mũi họng, chuyên khoa Tiêu hóa để xác định rõ nguyên nhân rồi từ đó có hướng điều trị phù hợp.",
+                "score": 0.5550463199615479,
+                "id": "vietnamese_healthcare_3776",
+                "rerank_score": 0.9198259711265564
+            },
+            {
+                "text": "Câu hỏi: . Con em tự nhiên 3 ngày nay bị vẹo cổ khó vận động, vẹo về bên trái mặt nghiêng bên phải. Nhờ bác sĩ chẩn đoán tình trạngtrẻ vẹo cổvề bên trái, mặt nghiêng bên phải nên làm gì?Cảm ơn bác sĩ. Đô Thị Nguyet(1988) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Phạm Khắc Tiệp -Bác sĩ Nhi - Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: Chào bạn! Với câu hỏi\"Trẻ vẹo cổ về bên trái, mặt nghiêng bên phải nên làm gì?\", bác sĩ xin giải đáp như sau: Theo thông tin bạn mô tả, có lẽ trẻ bị vẹo cổ cấp tính. Nguyên nhân có thể xuất phát từ các bệnh lý về thần kinh, từ tổn thương cơ vùng cổ... Để có thể chẩn đoán chính xác tình trạng của trẻ, bạn cần đưa trẻ đến khám tại cơ sở y tế để được tư vấn cụ thể nhé.",
+                "score": 0.5664780139923096,
+                "id": "medical_vietnamese_qa_7700",
+                "rerank_score": 0.8770986199378967
+            },
+            {
+                "text": "Câu hỏi: Cổ họng khó nuốt kèm tức ngực bên trái là biểu hiện bệnh gì?\nTrả lời: Các triệu chứng bạn kể nghĩ nhiều đến bệnh trào ngược dạ dày thực quản. Do đó, bạn hãy tới gặp bác sĩ chuyên khoa tiêu hóa để được khám, nội soi dạ dày nếu cần để chẩn đoán xác định và lựa chọn phương pháp điều trị hiệu quả.",
+                "score": 0.559393048286438,
+                "id": "vietnamese_healthcare_6933",
+                "rerank_score": 0.8350398540496826
+            },
+            {
+                "text": "Câu hỏi: ! Bé nhà em được gần 6 tháng tuổi, nặng 9kg, sức khỏe bình thường. Tuy nhiên khi bế bé ngồi thì bé có biểu hiện hay nghiêng đầu sang bên trái, chưa thẳng được. Vậy bác sĩ cho em hỏitrẻ 6 tháng tuổi, sức khỏe bình thường nhưng khi ngồi hay nghiêng đầu sang trái có làm sao khôngạ? Mong các bác sĩ tư vấn và giải đáp. Em xin chân thành cảm ơn! Trần Văn Khánh(1988) Trả lời\nTrả lời: Chào bạn!Trẻ 6 tháng tuổi, nhiều trẻ chưa ngồi vững, vẫn nghiêng sang bên hoặc cần được hỗ trợ. Tuy nhiên, nếu đầu trẻ lúc nào cũng nghiêng sang trái thì bạn nên đưa bé đến cơ sở y tế hoặc bệnh viện thuộcHệ thống Y tế Vinmecđể khám chuyên khoa chỉnh hình, loại trừ hoặc can thiệp tật vẹo cổ nếu có. Cảm ơn bạn đã tin tưởng và gửi câu hỏi “trẻ 6 tháng tuổi, sức khỏe bình thường nhưng khi ngồi hay nghiêng đầu sang trái có làm sao không?”đến Vinmec. Chúc bé luôn khỏe mạnh. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ Đỗ Thị Linh Phương -Bác sĩ Nhi - Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.5472438335418701,
+                "id": "medical_vietnamese_qa_7546",
+                "rerank_score": 0.2840510308742523
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì?\nTrả lời: Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+                "score": 0.8226719498634338,
+                "id": "vietnamese_healthcare_7086",
+                "rerank_score": 0.9998527765274048
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau 1 bên họng, nuốt nước bọt đau đã 3 - 4 ngày nay. Lúc đầu cảm giác là đau 1 lưỡi nghĩ bị nhiệt vì em bị clo vào sát răng nhưng hôm sau lan xuống họng gây khó nuốt. Hôm nay, em soi đèn thì thấy cổ họng có những u nổi trên bề mặt, đau nhiều hơn. Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm nổi u trên bề mặt vùng họng là bệnh gì? Có phải ung thư không thưa bác sĩ? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVới những triệu chứng như bạn mô tả như: Đau một bên lưỡi lan xuống họng, khó nuốt, có những khối u bề mặt vùng họng, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.\nTrân trọng!",
+                "score": 0.5734689235687256,
+                "id": "vietnamese_medical_qa_1205",
+                "rerank_score": 0.9653870463371277
+            },
+            {
+                "text": "Câu hỏi: Đau bên trái họng là bị làm sao?\nTrả lời: Bác sĩ không rõ bạn có dấu chứng trào ngược dạ dày thực quản mà bạn đã được điều trị hay chưa? Vấn đề đau họng ngoài nguyên nhân do trào ngược dạ dày thực quản thì còn do nhiều nguyên khác tại vùng hầu họng, do vậy bạn cần khám thêm chuyên khoa Tai Mũi họng, chuyên khoa Tiêu hóa để xác định rõ nguyên nhân rồi từ đó có hướng điều trị phù hợp.",
+                "score": 0.5732481479644775,
+                "id": "vietnamese_healthcare_3776",
+                "rerank_score": 0.9198259711265564
+            },
+            {
+                "text": "Câu hỏi: Mấy tháng nay, em bị trào ngược dạ dày, khiến cổ họng của em bị vướng, nhưng em vẫn nuốt trôi, vẫn ăn uống bình thường được, vẫn ăn ngon. Ngày hôm qua, em nuốt có hơi đau 1 bên trái. Xin hỏi bác sĩ,đau bên trái họng là bị làm sao?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ. Huỳnh Tuấn Minh(2000) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ chuyên khoa II Phan Thị Minh Hương- Bác sĩ Nội tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bác sĩ không rõ bạn có dấu chứng trào ngược dạ dày thực quản mà bạn đã được điều trị hay chưa? Vấn đề đau họng ngoài nguyên nhân do trào ngược dạ dày thực quản thì còn do nhiều nguyên khác tại vùng hầu họng, do vậy bạn cần khám thêm chuyên khoa Tai Mũi họng, chuyên khoa Tiêu hóa để xác định rõ nguyên nhân rồi từ đó có hướng điều trị phù hợp.",
+                "score": 0.5514208078384399,
+                "id": "medical_vietnamese_qa_8956",
+                "rerank_score": 0.8871709704399109
+            },
+            {
+                "text": "Câu hỏi: Cổ họng khó nuốt kèm tức ngực bên trái là biểu hiện bệnh gì?\nTrả lời: Các triệu chứng bạn kể nghĩ nhiều đến bệnh trào ngược dạ dày thực quản. Do đó, bạn hãy tới gặp bác sĩ chuyên khoa tiêu hóa để được khám, nội soi dạ dày nếu cần để chẩn đoán xác định và lựa chọn phương pháp điều trị hiệu quả.",
+                "score": 0.5829815864562988,
+                "id": "vietnamese_healthcare_6933",
+                "rerank_score": 0.8350398540496826
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

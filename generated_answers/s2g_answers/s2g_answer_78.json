@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ! 2 ngày gần đây tôi bị đau bụng và kèm theo đó là cảm giác tức ngực. Bác sĩ cho tôi hỏi đó là bệnh gì ạ? Cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn! Có rất nguyên nhân gây đau ngực và đau bụng cấp. Trong đó, có các nguyên nhân nguy hiểm như:\nNguyên nhân ngoại khoa: tắc ruột, viêm ruột, viêm ruột thừa, thủng ruột... .\nNguyên nhân nguy hiểm như: nhồi máu cơ tim, thuyên tắc phổi, tràn khí màng phổi...\nBác sĩ chuyên môn sẽ để bạn làm xét nghiệm, siêu âm bụng, x- quang để tìm nguyên nhân, từ đó tư vấn cho bạn cách điều trị thích hợp.",
+    "answer": "Chào bạn, đau bụng kèm tức ngực có thể do nhiều nguyên nhân, từ lo âu, bệnh thần kinh liên sườn đến bệnh tim mạch, phổi màng phổi hoặc các bệnh ngoại khoa như tắc ruột, viêm ruột thừa, thủng ruột; một số nguyên nhân nguy hiểm gồm nhồi máu cơ tim, thuyên tắc phổi và tràn khí màng phổi. Vì đau tức ngực là triệu chứng báo động, bạn nên đến cơ sở y tế gần nhất khám sớm để được đánh giá toàn diện và làm các xét nghiệm phù hợp như điện tim, siêu âm tim, khám tim phổi và chụp X-quang khi cần. Hiện chưa đủ thông tin để xác định bạn mắc bệnh gì.",
+    "evidence": [
+        "Trả lời: Có rất nguyên nhân gây đau ngực và đau bụng cấp.",
+        "Trong đó, có các nguyên nhân nguy hiểm như: Nguyên nhân ngoại khoa: tắc ruột, viêm ruột, viêm ruột thừa, thủng ruột.",
+        "Nguyên nhân nguy hiểm như: nhồi máu cơ tim, thuyên tắc phổi, tràn khí màng phổi.",
+        "Trả lời: Chào bạn, Với câu hỏi “Đột nhiên đau tức ngực có sao không?”, bác sĩ giải đáp như sau: Đau vùng ngực có nhiều nguyên nhân: lo âu, bệnh thần kinh liên sườn, bệnh tim mạch, bệnh phổi màng phổi...",
+        "Trả lời: bác sĩ xin giải đáp như sau: Đau tức ngực là 1 triệu chứng báo động và cần được đánh giá sớm, toàn diện và đầy đủ.",
+        "Bạn nên đến khám sớm tại các cơ sở y tế gần nhất để được thăm khám và thực hiện các xét nghiệm phù hợp.",
+        "Trả lời: Chào em, những biểu hiện em mô tả là hay gặp ở những bạn nữ độ tuổi như em, tuy nhiên e cần tới gặp bác sĩ chuyên khoa để được thăm khám và chẩn đoán chính xác bệnh gì vì để có được kết luận chính xác thì cần phải tiến hành một số xét nghiệm cơ bản.",
+        "Để tìm nguyên nhân chính xác tốt nhất bạn nên đi tái khám tại bệnh viện trung ương chuyên khoa tim mạch, làm điện tim , siêu âm tim, nghe tim phổi và chụp Xquang tim phổi kiểm tra xem có tổn thương nào về tim phổi không để điều trị kịp thời."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Đau bụng kèm cảm giác tức ngực cảnh báo bệnh lý gì?\nTrả lời: Có rất nguyên nhân gây đau ngực và đau bụng cấp. Trong đó, có các nguyên nhân nguy hiểm như: Nguyên nhân ngoại khoa: tắc ruột, viêm ruột, viêm ruột thừa, thủng ruột. . . . Nguyên nhân nguy hiểm như: nhồi máu cơ tim, thuyên tắc phổi, tràn khí màng phổi. . .",
+                "score": 0.6990116238594055,
+                "id": "vietnamese_healthcare_5141",
+                "rerank_score": 0.9992237091064453
+            },
+            {
+                "text": "Câu hỏi: Em thấy tự nhiên đau tức vùng ngực hơn 1 ngày nay, trước em có đi khám tim thì không bị sao. Nay thấy đau vậy em hơi lo lắng, mong các bác sĩ tư vấn giúp emđột nhiên đau tức ngực có sao không?Xin cảm ơn Bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Đột nhiên đau tức ngực có sao không?”, bác sĩ giải đáp như sau: Đau vùng ngực có nhiều nguyên nhân: lo âu, bệnh thần kinh liên sườn, bệnh tim mạch, bệnh phổi màng phổi... Vì vậy, bạn nên đến bệnh viện khám chuyên khoa Nội tim mạch sớm.",
+                "score": 0.6580605506896973,
+                "id": "medical_vietnamese_qa_11741",
+                "rerank_score": 0.9974526762962341
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho em hỏi là dạo gần đây em hay đau bụng dưới và tức ngực là bị làm sao ạ?\nTrả lời: Chào em, những biểu hiện em mô tả là hay gặp ở những bạn nữ độ tuổi như em, tuy nhiên e cần tới gặp bác sĩ chuyên khoa để được thăm khám và chẩn đoán chính xác bệnh gì vì để có được kết luận chính xác thì cần phải tiến hành một số xét nghiệm cơ bản.",
+                "score": 0.6533666849136353,
+                "id": "vietnamese_medical_qa_4363",
+                "rerank_score": 0.9962430000305176
+            },
+            {
+                "text": "Câu hỏi: Gần đây, tôi hay có triệu chứng đau tức ngực. Cách đây 3 ngày khi uống nước thì có cơn đau bất ngờ khoảng tầm 15 phút. Những ngày sau có bị đau nhưng thời gian ít hơn. Bác sĩ tư vấn giúp tôiđau tức ngực là biểu hiện của bệnh gì?Tôi xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Đau tức ngực là 1 triệu chứng báo động và cần được đánh giá sớm, toàn diện và đầy đủ. Bạn nên đến khám sớm tại các cơ sở y tế gần nhất để được thăm khám và thực hiện các xét nghiệm phù hợp.",
+                "score": 0.755556583404541,
+                "id": "medical_vietnamese_qa_11813",
+                "rerank_score": 0.995690643787384
+            },
+            {
+                "text": "Câu hỏi: Thưa bác sĩ, em muốn hỏi về vấn đề đau tức ngực. Em có dấu hiệu đau ngực, chỉ hơi đau và cơn đau cũng có lúc kéo dài cả ngày, lúc thì đau ngực trái lúc thì đau ngực phải và xiên qua sau lưng, cũng có lúc đau cả ngực. Em thường đau khi mệt mỏi hoặc khi hít thở sâu, có cảm giác khó thở. Có một thời gian, em thấy vàng mắt, chán ăn, ăn không tiêu, tuần chỉ đi vệ sinh 2 lần vì những cơn đau dữ dội. Bác sĩ cho hỏi em như vậy là bị làm sao ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn trước sự nhiệt tình của bác sĩ.\nTrả lời: Chào em, biểu hiện tức ngực ở độ tuổi của em thì không nghĩ đến bệnh lý mạch vành, tuy nhiên em cần đến cơ sở y tế để kiểm tra các bệnh lý về tim mạch và tiêu hóa nhé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.682446300983429,
+                "id": "vietnamese_medical_qa_4292",
+                "rerank_score": 0.9946129322052002
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Đau bụng kèm cảm giác tức ngực cảnh báo bệnh lý gì?\nTrả lời: Có rất nguyên nhân gây đau ngực và đau bụng cấp. Trong đó, có các nguyên nhân nguy hiểm như: Nguyên nhân ngoại khoa: tắc ruột, viêm ruột, viêm ruột thừa, thủng ruột. . . . Nguyên nhân nguy hiểm như: nhồi máu cơ tim, thuyên tắc phổi, tràn khí màng phổi. . .",
+                "score": 0.7644240260124207,
+                "id": "vietnamese_healthcare_5141",
+                "rerank_score": 0.9992237091064453
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho em hỏi là dạo gần đây em hay đau bụng dưới và tức ngực là bị làm sao ạ?\nTrả lời: Chào em, những biểu hiện em mô tả là hay gặp ở những bạn nữ độ tuổi như em, tuy nhiên e cần tới gặp bác sĩ chuyên khoa để được thăm khám và chẩn đoán chính xác bệnh gì vì để có được kết luận chính xác thì cần phải tiến hành một số xét nghiệm cơ bản.",
+                "score": 0.713111400604248,
+                "id": "vietnamese_medical_qa_4363",
+                "rerank_score": 0.9962430000305176
+            },
+            {
+                "text": "Câu hỏi: Gần đây, tôi hay có triệu chứng đau tức ngực. Cách đây 3 ngày khi uống nước thì có cơn đau bất ngờ khoảng tầm 15 phút. Những ngày sau có bị đau nhưng thời gian ít hơn. Bác sĩ tư vấn giúp tôiđau tức ngực là biểu hiện của bệnh gì?Tôi xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Đau tức ngực là 1 triệu chứng báo động và cần được đánh giá sớm, toàn diện và đầy đủ. Bạn nên đến khám sớm tại các cơ sở y tế gần nhất để được thăm khám và thực hiện các xét nghiệm phù hợp.",
+                "score": 0.738394021987915,
+                "id": "medical_vietnamese_qa_11813",
+                "rerank_score": 0.995690643787384
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, e 26 tuổi. E bị tức ngực.E đi khám tuyến tỉnh  thì đc các bác sĩ trả lời là k sao. E thực sự k tin vì 4 bệnh viện trả lời kết quả khác nhau. T1: tràn dịch phổi. T2: viêm phế quản. T3: đậm rốn phổi. T4: giãn dây chằng ngực. E k thể hiểu nổi. E hút thuốc 12 năm. Và bỏ đc 2 năm rồi. Bây giờ e mới bị tức ngực. Thi thoảng tức nhói như kiểu kim đâm sâu vào thịt ạ. Rất mong bác sĩ chỉ điểm giúp e ạ. E xin cảm ơn\nTrả lời: Chào bạn,\nHiện tượng đau tức ngực có thể là do bệnh lý về tim hoặc bệnh lý về phổi. Để tìm nguyên nhân chính xác tốt nhất bạn nên đi tái khám tại bệnh viện trung ương chuyên khoa tim mạch, làm điện tim , siêu âm tim, nghe tim phổi và chụp Xquang tim phổi kiểm tra xem có tổn thương nào về tim phổi không để điều trị kịp thời. Không rõ ngoài tức ngực bạn có kèm những triệu chứng như sốt, ho , hoặc các triệu chứng bất thường nào khác hay không ?\nLưu ý nên tránh lao động nặng, bạn nên ăn uống bồi dưỡng, nghỉ ngơi hợp lý, tập thể dục , vận động nhẹ nhàng để cải thiện.\nThân mến!",
+                "score": 0.7087813019752502,
+                "id": "vietnamese_medical_qa_6463",
+                "rerank_score": 0.993559718132019
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, tôi thường hay bị tức ngực, từ vùng ngực trái sau lan lên hàm dưới và vai trái rất khó chịu, mỗi lần bị trong vòng 5 đến 7 phút, xin hỏi bác sĩ đó là bệnh gì có nguy hiểm không ạ?\nTrả lời: Chào chị, triệu chứng chị mô tả kèm với độ tuổi của chị, có thể là dấu hiệu cơn đau thắt ngực, có thể nguy hiểm, chị cần đến khám với bác sĩ chuyên khoa Tim mạch để có chẩn đoán chính xác chị nhé,",
+                "score": 0.711726188659668,
+                "id": "vietnamese_medical_qa_4331",
+                "rerank_score": 0.9791845083236694
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Đau bụng kèm cảm giác tức ngực cảnh báo bệnh lý gì?\nTrả lời: Có rất nguyên nhân gây đau ngực và đau bụng cấp. Trong đó, có các nguyên nhân nguy hiểm như: Nguyên nhân ngoại khoa: tắc ruột, viêm ruột, viêm ruột thừa, thủng ruột. . . . Nguyên nhân nguy hiểm như: nhồi máu cơ tim, thuyên tắc phổi, tràn khí màng phổi. . .",
+                "score": 0.7820321321487427,
+                "id": "vietnamese_healthcare_5141",
+                "rerank_score": 0.9992237091064453
+            },
+            {
+                "text": "Câu hỏi: Thường xuyên đau tức ngực là dấu hiệu của bệnh gì?\nTrả lời: Qua triệu chứng bạn mô tả, bác sĩ bước đầu chẩn đoán có thể đây là dấu hiệu của bệnh co thắt thực quản.",
+                "score": 0.697115957736969,
+                "id": "vietnamese_healthcare_8099",
+                "rerank_score": 0.996302604675293
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho em hỏi là dạo gần đây em hay đau bụng dưới và tức ngực là bị làm sao ạ?\nTrả lời: Chào em, những biểu hiện em mô tả là hay gặp ở những bạn nữ độ tuổi như em, tuy nhiên e cần tới gặp bác sĩ chuyên khoa để được thăm khám và chẩn đoán chính xác bệnh gì vì để có được kết luận chính xác thì cần phải tiến hành một số xét nghiệm cơ bản.",
+                "score": 0.7069718837738037,
+                "id": "vietnamese_medical_qa_4363",
+                "rerank_score": 0.9962430000305176
+            },
+            {
+                "text": "Câu hỏi: Gần đây, tôi hay có triệu chứng đau tức ngực. Cách đây 3 ngày khi uống nước thì có cơn đau bất ngờ khoảng tầm 15 phút. Những ngày sau có bị đau nhưng thời gian ít hơn. Bác sĩ tư vấn giúp tôiđau tức ngực là biểu hiện của bệnh gì?Tôi xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Đau tức ngực là 1 triệu chứng báo động và cần được đánh giá sớm, toàn diện và đầy đủ. Bạn nên đến khám sớm tại các cơ sở y tế gần nhất để được thăm khám và thực hiện các xét nghiệm phù hợp.",
+                "score": 0.7679470777511597,
+                "id": "medical_vietnamese_qa_11813",
+                "rerank_score": 0.995690643787384
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, e 26 tuổi. E bị tức ngực.E đi khám tuyến tỉnh  thì đc các bác sĩ trả lời là k sao. E thực sự k tin vì 4 bệnh viện trả lời kết quả khác nhau. T1: tràn dịch phổi. T2: viêm phế quản. T3: đậm rốn phổi. T4: giãn dây chằng ngực. E k thể hiểu nổi. E hút thuốc 12 năm. Và bỏ đc 2 năm rồi. Bây giờ e mới bị tức ngực. Thi thoảng tức nhói như kiểu kim đâm sâu vào thịt ạ. Rất mong bác sĩ chỉ điểm giúp e ạ. E xin cảm ơn\nTrả lời: Chào bạn,\nHiện tượng đau tức ngực có thể là do bệnh lý về tim hoặc bệnh lý về phổi. Để tìm nguyên nhân chính xác tốt nhất bạn nên đi tái khám tại bệnh viện trung ương chuyên khoa tim mạch, làm điện tim , siêu âm tim, nghe tim phổi và chụp Xquang tim phổi kiểm tra xem có tổn thương nào về tim phổi không để điều trị kịp thời. Không rõ ngoài tức ngực bạn có kèm những triệu chứng như sốt, ho , hoặc các triệu chứng bất thường nào khác hay không ?\nLưu ý nên tránh lao động nặng, bạn nên ăn uống bồi dưỡng, nghỉ ngơi hợp lý, tập thể dục , vận động nhẹ nhàng để cải thiện.\nThân mến!",
+                "score": 0.6995610594749451,
+                "id": "vietnamese_medical_qa_6463",
+                "rerank_score": 0.993559718132019
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

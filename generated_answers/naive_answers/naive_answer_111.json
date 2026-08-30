@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Chào bác sĩ,\nEm bị viêm tai thanh dịch. Vậy bác sĩ cho em hỏi viêm tai thanh dịch có thể điều trị được không? Bệnh này có tự hết không hay bắt buộc phải uống thuốc mỗi lần bị viêm? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViêm tai thanh dịch là bệnh lý liên quan đến chức năng thông thoáng của vòi tai (là ống nối thông từ mũi tới tai). Đây là bệnh lý lành tính tuy nhiên việc điều trị cần phải theo dõi sát trong thời gian 1 - 3 tháng vì dịch ở trong tai tiêu chậm, đặc biệt ở người hút thuốc lá hoặc có tiền sử bệnh mũi.\nVì vậy, bạn nên đến thăm khám để nhân được kế hoạch điều trị và theo dõi cho dứt điểm tình trạng ứ dịch trong tai.\nTrân trọng!",
+    "answer": "Tài liệu được cung cấp không có đủ thông tin về viêm tai thanh dịch, nên chưa thể xác định bệnh có tự khỏi hay cần dùng thuốc mỗi lần tái phát. Bạn nên đi khám bác sĩ chuyên khoa để được đánh giá và tư vấn phác đồ điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Viêm đại tràng mãn tính có thể điều trị dứt điểm bằng thuốc không?\nTrả lời: Không biết mẹ bạn cháu được chẩn đoán viêm đại tràng mãn tính là như thế nào?Tổn thương trên nội soi đại tràng ra sao?Thường viêm đại tràng sẽ được điều trị bằng thuốc, không phải mổ, tùy tổn thương mới biết điều trị bao lâu cháu nhé.",
+            "score": 0.6630738377571106,
+            "id": "vietnamese_healthcare_481"
+        },
+        {
+            "text": "Câu hỏi: Bệnh viêm màng não điều trị bao lâu thì khỏi?\nTrả lời: em nên vào Bệnh viện tái khám bác sĩ chuyên khoa Nội tổng hợp thần kinh. Bệnh của em có thể điều trị khỏi nếu có phác đồ điều trị đúng em nhé.",
+            "score": 0.6574481725692749,
+            "id": "vietnamese_healthcare_8269"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+            "score": 0.6488561630249023,
+            "id": "vietnamese_medical_qa_1629"
+        },
+        {
+            "text": "Câu hỏi: Làm thế nào để chữa được chứng ù tai?\nTrả lời: Ù tai hiện có nhiều nguyên nhân gây nên.",
+            "score": 0.6431405544281006,
+            "id": "vietnamese_healthcare_7567"
+        },
+        {
+            "text": "Câu hỏi: ! Em trai tôi năm nay 35 tuổi, vừa rồi bị tai biến nên giờ bị liệt nửa người. Tôi muốn hỏiliệt nửa người sau tai biến có thể chữa khỏi được không và trong bao lâu?Cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Liệt nửa người sau tai biến có thể chữa khỏi được không và trong bao lâu?” như sau: Tình trạngliệt nửa người sau tai biếncó hồi phục hay không và hồi phục mức độ nào sẽ phụ thuộc vào nhiều yếu tố như: Tổn thương não lànhồi máu nãohayxuất huyết não, nguyên nhân gây ra tình trạngtai biến, vị trí, mức độ, thời gian từ khi xảy ra tai biến đến lúc được xác định chẩn đoán và điều trị, phương pháp điều trị, bệnh nhân đã được khám và điều trị vật lý trị liệu - phục hồi chức năng hay chưa, bệnh nhân có bệnh lý khác kèm theo hay không? Quá trình điều trị có được sự hợp tác từ phía người bệnh và người nhà...Vì vậy bác sĩ rất mong bạn sẽ sớm đưa em trai đến để được thăm khám trực tiếp với các bác sĩ chuyên khoa để có thể xác định vấn đề của người bệnh được toàn diện và từ đó sẽ có tư vấn cụ thể phương pháp điều trị cho người bệnh bạn nhé. Bạn có thể đưa em trai đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởi Bác sĩ Khoa Ngoại Tổng hợp & Gây mê, Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng.",
+            "score": 0.6375084519386292,
+            "id": "medical_vietnamese_qa_10019"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

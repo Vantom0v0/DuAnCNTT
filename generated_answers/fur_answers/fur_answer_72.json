@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Khi thở cháu phải ngắc lên, hít hơi dài mới thấy thoải mái. Cháu đã bị từ lâu (khoảng 6-7 năm). Cho hỏi cháu bị làm sao, có nguy hiểm không ạ?",
+    "ground_truth": "Chào cháu. Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.\nCảm ơn cháu đã tin tưởng AI-Doctor. Rất mong có thể gặp cháu để được tư vấn cụ thể hơn.",
+    "answer": "Dựa trên thông tin được cung cấp, kiểu phải hít hơi dài hoặc “ngắc lên” mới thấy dễ chịu có thể liên quan đến căng thẳng tâm lý, nhưng cũng có thể gặp trong nhiều bệnh lý đường hô hấp khác. Chưa có đủ thông tin để xác định cháu mắc bệnh gì hoặc mức độ nguy hiểm.\n\nVì tình trạng đã kéo dài 6–7 năm, cháu nên đi khám chuyên khoa nội để được đánh giá cụ thể, đặc biệt nếu triệu chứng thường xuyên hoặc không cải thiện. Trong thời gian chờ khám, có thể thử hít vào sâu, thở ra chậm, tập thể dục nhẹ và thư giãn. Nếu xuất hiện khó thở tăng lên hoặc triệu chứng nặng hơn, cần đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Thở hít hơi dài mới thấy thoải mái là bị làm sao? Có nguy hiểm không?\nTrả lời: Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.",
+            "score": 0.6079198122024536,
+            "id": "vietnamese_healthcare_8695",
+            "rerank_score": 0.9998893737792969
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Hai, ba hôm nay em thấy cổ họng mình như bị gì chặn lại, đôi lúc phải hít thật sâu mới thở được. Bác sĩ cho hỏi em bị bệnh gì vậy ạ? Mong nhận được sự tư vấn từ bác sĩ. Em xin cảm ơn.\nTrả lời: Chào em. Triệu chứng em kể có trong nhiều loại bệnh lý khác nhau. Trước mắt, em nên hít vào sâu, thở ra chậm và mạnh em nhé. Nếu tình trạng này xảy ra thường xuyên và kéo dài, em nên đi khám bác sĩ để được tư vấn cụ thể và có hướng điều trị phù hợp và kịp thời em nhé.",
+            "score": 0.5307291150093079,
+            "id": "vietnamese_medical_qa_3775",
+            "rerank_score": 0.8880999684333801
+        },
+        {
+            "text": "Câu hỏi: Bé 3 tuổi có hiện tượng lấy hơi khi thở và thở hắt là bị làm sao?\nTrả lời: Em bé có hiện tượng như vậy có thể là có bệnh lý đường hô hấp.",
+            "score": 0.534893274307251,
+            "id": "vietnamese_healthcare_6593",
+            "rerank_score": 0.7865854501724243
+        },
+        {
+            "text": "Câu hỏi: Con em được 2 tháng 23 ngày, gần đây em nghe thấy con thở khò khè như có đờm trong cổ, hắt xì hơi, xuất hiện tình trạng nghẹt mũi nhất là vào buổi sáng và chập tối. Vậy bác sĩ cho em hỏitrẻ gần 3 tháng tuổi thở khò khè kèm nghẹt mũi có sao không?Liệu con em có bị viêm xoang hay liên quan tới phổi không? Bé nghẹt mũi hắt hơi cùng khi em bị cảm cúm. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé có các triệu chứng hắt hơi, nghẹt mũi, thở khò khè cùng khi với lúc mẹ bị cảm cúm, rất có thể bé đã lây virus từ mẹ. Khi nhiễm Virus đường hô hấp bé có thể bị tổn thương toàn bộ đường hô hấp từ mũi, miệng, đến phế quản, phổi. Do bé còn nhỏ, sức đề kháng còn yếu, để điều trị bệnh bạn cần đi khám bác sĩ chuyên khoa Nhi tránh tình trạng nặng lên nhanh của bé.",
+            "score": 0.4970863461494446,
+            "id": "medical_vietnamese_qa_4817",
+            "rerank_score": 0.41745924949645996
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nCon E được 40 ngày tuổi, đêm qua cháu khịt mũi liên tục, hay trớ sặc, ngủ ko ngon, quấy khóc nhiều, lúc ngủ , thức, hay lúc ăn cháu cũng khịt. Tiếng khịt rất nặng. Sáng nay E cho cháu khám tai mũi họng thì bác sĩ bảo họng, phổi ko vấn đề j. Chiều nay thì E thấy cháu hắt hơi nhiều và kèm theo có ít mũi trong. Vậy cháu làm sao vậy bác sĩ, cháu khó chịu ko ngủ được. Mong Bác sĩ cho E lời khuyên ạ\nTrả lời: Chào bạn\nTình trạng của bé có thể là 1 viêm mũi dị ứng, do đường thở của bé rất hẹp nên chỉ cần 1 chút dịch hoặc sữa sặc lên là có thể khiến bé khó chịu, ngạ thở.\nBạn cần nhr nước muối đầy từng bên mũi, rửa mũi nhẹ nhàng cho bé hằng ngày.\nKhi ngủ bạn để bé nằm nghiêng 1 bên bằng cách chèn chăn, đệm...đề phòng bé trớ thì không bị sặc sữa vào đường thở.\nNếu thấy bé có các triệu chứng nặng hơn như khó thở, thở rút lõm, chảy mũi nhiều, sốt thì cần đưa bé đi khám ngay.\nThân mến",
+            "score": 0.5170724391937256,
+            "id": "vietnamese_medical_qa_8120",
+            "rerank_score": 0.27651774883270264
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

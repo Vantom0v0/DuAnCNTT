@@ -1,0 +1,54 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ,\nBé nhà tôi được 11 tháng mà cổ bị vẹo giờ phải chữa thế nào ạ",
+    "ground_truth": "Chào bạn. \nBé nhà bạn 11 tháng mới bị vẹo cổ chứ không phải vẹo từ lúc sinh thì có nhiều khả năng do bé nằm gối đầu quá cao, thường xuyên nằm về một bên mà gia đình không để ý. Bạn cần cho bé đi khám và tập vật lý trị liệu. Những bài tập kéo căng và định vị thực hiện hàng ngày cho bé sẽ là hướng điều trị gần như là tốt nhất cho tật vẹo cổ. Bạn nên tìm hiểu, học hỏi phương pháp này để mình có thể làm cho bé tại nhà.\nNgoài ra, gia đình cũng nên tập cho bé di chuyển đầu cổ sang hướng bé ít nghiêng qua. \nNếu đến 18 tháng, cơ cổ của bé vẫn yếu và các bài tập vật lý trị liệu chưa đủ sức để giúp tật vẹo cổ ở trẻ hồi phụ hoàn toàn, các bác sỹ sẽ thường chỉ định phẫu thuật chỉnh hình cho bé\nThân mến.",
+    "answer": "Dựa trên thông tin được cung cấp, cổ vẹo ở trẻ có thể thuộc hai nhóm nguyên nhân:\n\n- **Vẹo cổ bẩm sinh:** trẻ đã bị vẹo từ khi sinh hoặc phát triển tình trạng này trong 3 tháng đầu. Các nguyên nhân có thể gồm:\n  - Thai ngôi mông, khiến cổ bị kéo căng hoặc mắc kẹt khi sinh.\n  - Sinh khó làm tổn thương, rách, chảy máu hoặc bầm tím cơ ức đòn chũm (SCM).\n  - Cơ ức đòn chũm bị ngắn hoặc xơ hóa.\n  - Bất thường hình thành đốt sống cổ, chẳng hạn hội chứng dính bẩm sinh các đốt sống cổ.\n  - Chấn thương khi sinh do can thiệp bằng forceps hoặc giác hút.\n\n- **Vẹo cổ do bệnh lý hoặc tư thế:** thông tin cung cấp có đề cập đến việc nằm nghiêng lâu, tư thế nằm không đúng và các bệnh lý nhóm cơ vùng cổ, đặc biệt là xơ hóa cơ ức đòn chũm, nhưng chưa nêu đầy đủ các bệnh lý cụ thể khác.\n\nBiểu hiện thường gặp là **đầu nghiêng sang một bên, cằm quay sang bên đối diện và hạn chế xoay cổ**. Tuy nhiên, chưa thể xác định nguyên nhân hay chẩn đoán chính xác cho bé 11 tháng chỉ dựa trên mô tả. Cần đưa bé khám trực tiếp tại chuyên khoa Nhi, Thần kinh hoặc Phục hồi chức năng/chỉnh hình nhi để được đánh giá.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bé nhà em bị vẹo cổ do nằm nghiêng lâu ngày. Vì tình hình dịch bệnh nên bé không đến bệnh viện thăm khám được. Bác sĩ cho em hỏi,trẻ bị vẹo cổ do nằm nghiêng phải làm sao?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ sơ sinh thường ngủ nghiêng đầu trong thời gian dài, trẻ có thể nghiêng đầu về một bên liên tục từ vài giờ cho đến vài ngày. Nếu điều này diễn ra khi trẻ buồn ngủ, mất phương hướng sẽ dẫn đếnvẹo cổ nghiêng đầu. Nguyên nhân này chủ yếu gặp ở trẻ dưới 1 tuổi và biến mất khi trẻ được 5 tuổi. Vẹo cổ ở trẻ sẽ không gây đau đớn nhưng nó ảnh hưởng đến thẩm mỹ và làm thay đổi gương mặt của trẻ. Ngoài ra, trẻ cũng sẽ gặp khó khăn trong việc xoay đầu. Trước tiên, bạn nên cho trẻ bú ngược, chỉnh tư thế nằm, tập chơi với trẻ xoay ngược với bên bị nghiêng để kích thích trẻ tự xoay đầu. Ngoài ra, bạn nên đưa bé đi khám tại khoa Phục hồi chức năng để bé được các y bác sĩ hỗ trợ tối đa cho trẻ, càng sớm càng tốt.",
+            "score": 0.6182907223701477,
+            "id": "medical_vietnamese_qa_6020",
+            "rerank_score": 0.9965307116508484
+        },
+        {
+            "text": "Câu hỏi: Sẽ mất bao lâu để đạt được hiệu quả điều trị?\nTrả lời: 5. Sẽ mất bao lâu để đạt được hiệu quả điều trị?\nChứng vẹo cổ bẩm sinh của trẻ có thể được cải thiện trong vài tuần miễn là được phát hiện đủ sớm, lý tưởng nhất là khi trẻ được 2 hoặc 3 tháng tuổi, đồng thời bạn cũng thực hiện các bài tập điều trị theo đúng sự chỉ dẫn của bác sĩ. Tốt nhất, tình trạng vẹo cổ bẩm sinh nên được khắc phục hoàn toàn trước khi trẻ được một tuổi. Tuy nhiên, nếu các cơ không thể trở lại chiều dài như bình thường và các phạm vi chuyển động của trẻ vẫn bị hạn chế khi được 18 tháng tuổi, lúc này bạn nên đưa bé đi gặp bác sĩ phẫu thuật chỉnh hình. Bác sĩ có thể yêu cầu bé thực hiện phẫu thuật để kéo dài các cơ. Theo thống kê, sẽ có khoảng 15% trường hợp bị vẹo cổ bẩm sinh phải thực hiện cuộc phẫu thuật này. Đối với trẻ bị vẹo cổ, việc phát hiện sớm những bất thường và đưa trẻ đến khám tại các cơ sở y tế có chuyên khoa Nhi là một trong những biện pháp phòng ngừa bệnh lý vẹo cổ ở trẻ.",
+            "score": 0.6224386692047119,
+            "id": "vietnamese_healthcare_7928",
+            "rerank_score": 0.9466567039489746
+        },
+        {
+            "text": "Câu hỏi: ! Con em được 1 tuổi. Khi sinh ra cháu bị dị tật bẩm sinh, thiếu xương quay và cong vẹo cột sống cổ. Bác sĩ cho em hỏitrẻ 1 tuổi thiếu xương quay vàcong vẹo cột sống cổ bẩm sinhcó phẫu thuật chỉnh hình được không ạ? Em rất mong được bác sĩ tư vấn. Em xin cảm ơn. Phùng Khánh Ly,1989 Trả lời\nTrả lời: Chào bạn. Theo như bạn mô tả thì trẻ bịcong vẹo dị tật cột sống bẩm sinh. Bạn nên đến khám ở chuyên khoa chỉnh hình nhi một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được bác sĩ tư vấn về điều trị cụ thể. Cảm ơn bạn đã tin tưởng và gửi câu hỏi về Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Võ Khắc Khôi Nguyên -Bác sĩ chấn thương chỉnh hình - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+            "score": 0.6474180817604065,
+            "id": "medical_vietnamese_qa_886",
+            "rerank_score": 0.9126552939414978
+        },
+        {
+            "text": "Câu hỏi: Chào Bác sĩ,\nCon tôi lúc 11 tháng tuổi (04.2017) đã đi được chập chững, nhưng vào thời điểm này bé bị sốt cao nhiễm trùng huyết nằm điều trị tại 1 bệnh viện tuyến trung ương. Sau khi điều trị hết nhiễm trùng huyết thì bé bị di chứng về não. Đến nay bé đã 44 tháng và không thể tự ngồi lại được, điều khiển chân tay khó khăn, nói chuyện khó khăn và không rõ chữ. Tôi xin hỏi ý kiến bác sĩ về trường hợp của bé có liệu pháp, hay lộ trình nào để có thể phục hồi não trở về trạng thái ban đầu cho bé không?\nXin chân thành cảm ơn bác sĩ. Mong được phản hồi sớm.\nTrả lời: Chào bạn Thanh,\nTôi xin được tư vấn về trường hợp con của bạn như sau: Từ khi cháu có nhiễm trùng huyết và sau đó bị tổn thương não, đến bây giờ đã gần 3 năm từ khi bị. Như vậy cháu đang ở giai đoạn di chứng của tổn thương não. Để có thể phục hồi não bộ cho cháu tốt nhất, bây giờ gia đình cần đưa cháu đến khoa Vật lý trị liệu và Phục hồi chức năng để khám và lượng giá lại. Bác sĩ sau khi thăm khám để biết mức độ tổn thương não của cháu đã ở mức độ nào mới có thể đưa ra tiên lượng, lộ trình điều trị và có bài tập thích hợp nhất dành cho bé được.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng!",
+            "score": 0.6439352035522461,
+            "id": "vietnamese_medical_qa_4900",
+            "rerank_score": 0.8843327760696411
+        },
+        {
+            "text": "Câu hỏi: ! Bé nhà emsinh non31 tuần, được 2.1kg. Do mẹ mang thai bị cao huyết áp nên mổ sớm, bé sinh ra bịthiếu oxy não. Tới nay được 12 tháng mà bé chưa lật được, cổ còn yếu, 2 tay bé cứ đụng vô là lấy gân chặt. Xin hỏi bác sĩ con nhà em nên chữa như thế nào ạ? Em cảm ơn bác sĩ. Phan Phú Thiện(2019) Trả lời Được giải đáp bởiPGS, TS, BS Ninh Thị Ứng -Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Với các triệu chứng hiện tại, bạn nên đưa trẻ đến khám chuyên khoa Thần kinh và chuyên khoa Phục hồi chức năng, bác sĩ cần khám trực tiếp trẻ và tư vấn cụ thể.",
+            "score": 0.7016890048980713,
+            "id": "medical_vietnamese_qa_7906",
+            "rerank_score": 0.7414922118186951
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây vẹo cổ ở trẻ nhỏ\nTrả lời: 2. Nguyên nhân gây vẹo cổ ở trẻ nhỏ\nNguyên nhân gây vẹo cổ ở trẻ nhỏ được chia làm hai loại là vẹo cổ bẩm sinh hoặc vẹo cổ do bệnh lý. 2.1. Vẹo cổ bẩm sinh Vẹo cổ bẩm sinh là tình trạng trẻ sinh ra đã bị vẹo và cứ phát triển như vậy trong 3 tháng đầu. Có rất nhiều nguyên nhân gây vẹo cổ bẩm sinh như: Thai ngôi mông: Mông của bé được sinh ra đầu tiên. Do đó, cổ có thể bị kéo căng và mắc kẹt ở ống sinh. Quá trình sinh khó khiến cơ SCM rách, chảy máu và bầm tím bên trong Các vấn đề phát triển của thai nhi: Quá trình phát triển của thai nhi ở trong bụng mẹ có thể khiến cơ SCM bị rút ngắn dẫn đến trẻ bị vẹo cổ. Ví dụ: các vấn đề bất thường trong hình thành đốt sống cổ hay còn gọi là hội chứng dính bẩm sinh các đốt sống cổ hoặc do các tác động vật lý lên tử cung đã ảnh hưởng đến bào thai, khiến thai nhi bị thương, cơ cổ của thai nhi suy yếu nên trong quá trình sinh cổ của bé bị nghiêng sang một bên. Chấn thương trong quá trình sinh: Trong quá trình sinh, nếu trẻ bị mắc kẹt trong ống sinh thì cá bác sĩ sẽ phải can thiệp để giúp trẻ không bị ngạt cũng như giảm đau đớn cho người mẹ. Các bác sĩ sẽ dùng kẹp forcep hoặc giác hút để hỗ trợ đưa trẻ ra ngoài. Việc can thiệp bằng lực có thể khiến cơ SCM của trẻ bị chấn thương gây vẹo cổ.",
+            "score": 0.6063913106918335,
+            "id": "vietnamese_healthcare_126986",
+            "rerank_score": 0.9459151029586792,
+            "weighted_score": 0.91924307346344
+        },
+        {
+            "text": "Câu hỏi: Tật vẹo cổ ở trẻ nhỏ là gì?\nTrả lời: 1. Tật vẹo cổ ở trẻ nhỏ là gì?\nTật vẹo cổ ở trẻ nhỏ có biểu hiện đầu nghiêng sang bên, cằm quay sang bên đối diện so với đầu. Bệnh có thể để lại biến chứng nguy hiểm cho trẻ nhỏ nên các bậc phụ huynh cần chú ý quan sát để phát hiện sớm. Việc phát hiện và điều trị bệnh ở giai đoạn sớm sẽ đem lại hiệu quả điều trị cao, thời gian cũng được rút ngắn hơn. Nguyên nhân chính gây ra vẹo cổ ở trẻ em là do bệnh lý về các nhóm cơ ở vùng cổ, đặc biệt là xơ hóa cơ ức đòn chũm. Đây là hiện tượng xơ hóa một phần cơ ức đòn chũm do tư thế nằm không đúng trong bào thai của trẻ hoặc một số tai biến trong sản khoa khi sinh dẫn đến hạn chế tầm vận động của cột sống cổ. Vẹo cổ ở trẻ nhỏ có thể gây nhiều biến chứng nguy hiểm nếu không được điều trị sớm",
+            "score": 0.5817041397094727,
+            "id": "vietnamese_healthcare_40557",
+            "rerank_score": 0.9184942245483398,
+            "weighted_score": 0.8456124782562255
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

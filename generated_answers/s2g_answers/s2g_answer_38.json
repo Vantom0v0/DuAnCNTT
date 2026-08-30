@@ -1,0 +1,120 @@
+{
+    "model_name": "s2g_rag",
+    "question": "em bị viêm gan B đang điều trị và bệnh thận mạn giai đoạn 2, độ lọc cầu thận là eGFR = 70ml/ph. Vậy tiêm vaccine này có sao không ạ? Nếu muốn tiêm được thì cần đáp ứng yêu cầu gì?",
+    "ground_truth": "Do Covid-19 dễ gây tổn thương ở những bệnh nhân có bệnh thận mạn tính (CKD), các Hiệp hội thận học lớn trên thế giới như Hiệp hội Thận học Vương quốc Anh và Tổ chức Thận Mỹ đã đưa ra khuyến cáo ưu tiên tiêm chủng cho những bệnh nhân này. Nghiên cứu cho thấy, vaccine Covid-19 an toàn khi sử dụng. Tại Việt Nam, nếu anh/chị đã điều trị viêm gan B và bệnh thận mạn tính ổn định, anh/chị có thể được tiêm chủng vaccine Covid-19. Bác sĩ sẽ khám trực tiếp để đánh giá tình trạng sức khỏe của anh/chị trước khi tiêm chủng. Đồng thời, người được tiêm chủng cần tuân thủ các hướng dẫn của các Bộ Y tế về việc theo dõi sau tiêm chủng tại cơ sở tiêm chủng và tại nhà để đảm bảo phát hiện sớm các biểu hiện bất thường sau tiêm chủng và kịp thời xử trí tại cơ sở y tế.",
+    "answer": "Với viêm gan B mạn đang điều trị và bệnh thận mạn giai đoạn 2, eGFR 70 mL/phút/1,73 m² (trên 60) cho thấy chức năng thận bình thường hoặc gần bình thường; do đó, bạn có thể được tiêm vaccine COVID-19 nếu bệnh viêm gan B đã ổn định tối thiểu 3 tháng, tải lượng virus thấp/dưới ngưỡng phát hiện, men gan và các chỉ số chức năng gan ổn định, không phải nhập viện hoặc thay đổi đáng kể điều trị. Không cần tự ý ngưng thuốc điều trị viêm gan B; bác sĩ sẽ đánh giá thêm các chống chỉ định hoặc lý do hoãn tiêm khác. Bạn nên mang đầy đủ hồ sơ, xét nghiệm và đơn thuốc đến khám sàng lọc, đồng thời nên tiêm tại bệnh viện hoặc cơ sở có khả năng hồi sức cấp cứu ban đầu.",
+    "evidence": [
+        "Trả lời: Bệnh viêm gan B mạn tính của bạn đang điều trị bằng thuốc Tenofovir không phải là trường hợp chống chỉ định của vaccine Covid-19, nếu tình trạng bệnh của bạn ổn định trên 3 tháng (tải lượng virus thấp, men gan không tăng, lâm sàng không phù, không vàng da) thì bạn vẫn tiêm được vaccine Covid-19.",
+        "Vì vậy, nếu tình trạng viêm gan B của anh trong thời gian qua ổn định (không phải nhập viện điều trị, nồng độ virus siêu vi B không tăng cao, không tăng liều liệu trình điều trị), tình trạng chức năng gan, thận tốt vẫn được chỉ định tiêm ngừa vaccine Covid-19.",
+        "Trả lời: Theo quyết định 2995/QĐ-BYT, Bộ Y tế đã quy định rõ những người mắc bệnh mạn tính nếu như đã điều trị ổn định, không dùng thuốc ức chế miễn dịch, hóa xạ trị vẫn có thể tiêm chủng vaccine phòng Covid-19 và bạn nên tiêm chủng tại các cơ sở tiêm chủng trong bệnh viện.",
+        "Trả lời: Trường hợp chị đang nhiễm viêm gan siêu vi B mạn tính đang dùng thuốc điều trị, tải lượng virus dưới ngưỡng phát hiện, các chỉ số chức năng gan của chị bình thường thì vẫn có thể tiêm vaccine Covid-19 được mà không cần phải ngưng thuốc điều trị.",
+        "Nếu bác sĩ đánh giá tình trạng sức khỏe hiện tại tốt và không có tiêu chuẩn chống chỉ định hay hoãn tiêm khác thì chị sẽ được chỉ định tiêm vaccine Covid-19.",
+        "Đợi sau khi bệnh lý đã ổn định trong vòng 3 tháng trước khi tiêm chủng (có nghĩa là bệnh không cần thay đổi điều trị đáng kể hoặc nhập viện vì bệnh lý nặng hơn), các chỉ số xét nghiệm duy trì ở mức độ ổn thì anh/chị hoàn toàn có thể tiêm được vaccine phòng Covid-19.",
+        "Trả lời: Theo hướng dẫn của Bộ Y tế về khám sàng lọc trước tiêm vaccine Covid-19, những người có bệnh mạn tính ổn định trong thời gian qua vẫn được tiêm vaccine Covid-19.",
+        "Anh nên cung cấp đầy đủ thông tin và hồ sơ cũng như đơn thuốc đang điều trị (nếu có) cho bác sĩ khám sàng lọc biết về tiền sử bệnh của anh.",
+        "Trả lời: Theo quyết định 2995/QĐ-BYT hướng dẫn về khám sàng lọc trước tiêm chủng vacicne Covid-19 trường hợp viêm gan B mạn tính của bạn cần được điều trị ổn định tối thiểu 3 tháng đủ điều kiện tiêm phòng vaccine Covid-19.",
+        "Để bạn bảo an toàn, bạn nên tiến hành tiêm chủng tại khối bệnh viện hoặc cơ sở năng lực hồi sức cấp cứu ban đầu.",
+        "Khi khám sàng lọc chị cần cung cấp đầy đủ thông tin về tiền sử bệnh lý và thuốc đang điều trị cho bác sĩ.",
+        "Nếu kết quả trên 60mL/phút/1,73m2, chức năng thận bình thường hoặc gần mức bình thường."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B mạn tính và đang uống thuốc mỗi ngày. Vậy tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Bệnh viêm gan B mạn tính của bạn đang điều trị bằng thuốc Tenofovir không phải là trường hợp chống chỉ định của vaccine Covid-19, nếu tình trạng bệnh của bạn ổn định trên 3 tháng (tải lượng virus thấp, men gan không tăng, lâm sàng không phù, không vàng da) thì bạn vẫn tiêm được vaccine Covid-19. Khi khám, bạn cần cung cấp các hồ sơ liên quan đến bệnh, bác sĩ sẽ khám trực tiếp và đánh giá tình trạng sức khỏe hiện tại của bạn trước khi chỉ định tiêm chủng.",
+                "score": 0.5364437103271484,
+                "id": "vietnamese_healthcare_7394",
+                "rerank_score": 0.9984184503555298
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 37 tuổi đang điều trị viêm gan B mạn có tiêm vaccine Covid-19 được không? Nếu có thì cần lưu ý điều gì?\nTrả lời: Theo hướng dẫn của Bộ Y tế về khám sàng lọc trước tiêm vaccine Covid-19, những người có bệnh mạn tính ổn định trong thời gian qua vẫn được tiêm vaccine Covid-19. Vì vậy, nếu tình trạng viêm gan B của anh trong thời gian qua ổn định (không phải nhập viện điều trị, nồng độ virus siêu vi B không tăng cao, không tăng liều liệu trình điều trị), tình trạng chức năng gan, thận tốt vẫn được chỉ định tiêm ngừa vaccine Covid-19. Anh nên cung cấp đầy đủ thông tin và hồ sơ cũng như đơn thuốc đang điều trị (nếu có) cho bác sĩ khám sàng lọc biết về tiền sử bệnh của anh. Cũng như những đối tượng tiêm ngừa vaccine Covid-19 khác, anh cần theo dõi kỹ các dấu hiệu của phản vệ sau tiêm cũng như các phản ứng thông thường gặp phải khi tiêm vaccine Covid-19.",
+                "score": 0.5654507875442505,
+                "id": "vietnamese_healthcare_1363",
+                "rerank_score": 0.9983142614364624
+            },
+            {
+                "text": "Câu hỏi: Em bị viêm gan B đã điều trị ổn định và đang còn uống thuốc. Cho em hỏi trường hợp của em tiêm vaccine Covid-19 có nguy hiểm không?\nTrả lời: Theo quyết định 2995/QĐ-BYT, Bộ Y tế đã quy định rõ những người mắc bệnh mạn tính nếu như đã điều trị ổn định, không dùng thuốc ức chế miễn dịch, hóa xạ trị vẫn có thể tiêm chủng vaccine phòng Covid-19 và bạn nên tiêm chủng tại các cơ sở tiêm chủng trong bệnh viện.",
+                "score": 0.5341858267784119,
+                "id": "vietnamese_healthcare_3225",
+                "rerank_score": 0.9954860806465149
+            },
+            {
+                "text": "Câu hỏi: Tôi hiện vẫn đang uống thuốc điều trị viêm gan B dạng mãn tính; đang duy trì uống thuốc tháng thứ 33. Hiện các chỉ số về hàm lượng virus dưới ngưỡng phát hiện, chỉ số men gan bình thường. Xin hỏi bác sĩ tôi có tiêm vaccine Covid-19 được không? Khi tiêm  có cần phải tạm dừng uống thuốc không? Nếu phải tạm dừng thì dừng trước tiêm bao nhiêu thời gian?\nTrả lời: Trường hợp chị đang nhiễm viêm gan siêu vi B mạn tính đang dùng thuốc điều trị, tải lượng virus dưới ngưỡng phát hiện, các chỉ số chức năng gan của chị bình thường thì vẫn có thể tiêm vaccine Covid-19 được mà không cần phải ngưng thuốc điều trị. Khi khám sàng lọc chị cần cung cấp đầy đủ thông tin về tiền sử bệnh lý và thuốc đang điều trị cho bác sĩ. Nếu bác sĩ đánh giá tình trạng sức khỏe hiện tại tốt và không có tiêu chuẩn chống chỉ định hay hoãn tiêm khác thì chị sẽ được chỉ định tiêm vaccine Covid-19.",
+                "score": 0.5306155681610107,
+                "id": "vietnamese_healthcare_7509",
+                "rerank_score": 0.9945165514945984
+            },
+            {
+                "text": "Câu hỏi: Tôi điều trị viêm gan B đã lâu. Hiện tại, tôi vẫn đang dùng thuốc kháng virus, độ xơ hóa F4, tiểu cầu thấp. Tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Trường hợp bệnh lý viêm gan B mãn tính của anh, chị chưa điều trị ổn định nên cần hoãn tiêm vaccine Covid-19. Đợi sau khi bệnh lý đã ổn định trong vòng 3 tháng trước khi tiêm chủng (có nghĩa là bệnh không cần thay đổi điều trị đáng kể hoặc nhập viện vì bệnh lý nặng hơn), các chỉ số xét nghiệm duy trì ở mức độ ổn thì anh/chị hoàn toàn có thể tiêm được vaccine phòng Covid-19.",
+                "score": 0.5294170379638672,
+                "id": "vietnamese_healthcare_5159",
+                "rerank_score": 0.9927171468734741
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi năm nay 37 tuổi đang điều trị viêm gan B mạn có tiêm vaccine Covid-19 được không? Nếu có thì cần lưu ý điều gì?\nTrả lời: Theo hướng dẫn của Bộ Y tế về khám sàng lọc trước tiêm vaccine Covid-19, những người có bệnh mạn tính ổn định trong thời gian qua vẫn được tiêm vaccine Covid-19. Vì vậy, nếu tình trạng viêm gan B của anh trong thời gian qua ổn định (không phải nhập viện điều trị, nồng độ virus siêu vi B không tăng cao, không tăng liều liệu trình điều trị), tình trạng chức năng gan, thận tốt vẫn được chỉ định tiêm ngừa vaccine Covid-19. Anh nên cung cấp đầy đủ thông tin và hồ sơ cũng như đơn thuốc đang điều trị (nếu có) cho bác sĩ khám sàng lọc biết về tiền sử bệnh của anh. Cũng như những đối tượng tiêm ngừa vaccine Covid-19 khác, anh cần theo dõi kỹ các dấu hiệu của phản vệ sau tiêm cũng như các phản ứng thông thường gặp phải khi tiêm vaccine Covid-19.",
+                "score": 0.5840651988983154,
+                "id": "vietnamese_healthcare_1363",
+                "rerank_score": 0.9983142614364624
+            },
+            {
+                "text": "Câu hỏi: Em năm nay 34 tuổi, bị viêm gan B mạn tính đã hơn 10 năm và dùng thuốc đặc trị nhưng bác sĩ chỉ định phải dùng thuốc liên tục do vẫn chưa có kháng thể dù nồng độ virus xuống dưới ngưỡng 1000. Thời gian vừa qua do muốn có thêm con nên em đã dừng thuốc đặc trị được 3 tháng và nồng độ virus lại tăng cao (men gan và tất cả các chỉ số về máu đều bình thường). Nay em muốn dừng kế hoạch có con để tiêm vaccine covid nhưng nghe nói những người bị viêm gan mạn như em chưa có chỉ định được tiêm. Vậy điều kiện để người có bệnh nền viêm gan B thể mạn nhưng dùng thuốc ổn định, sức khoẻ ổn định có thể tiêm vaccine Covid-19 là gì ạ?\nTrả lời: Chị có tình trạng viêm gan B chưa được kiếm soát ổn định (lượng VR đang tăng cao) tuy nhiên men gan và các chỉ số xét nghiệm khác đều bình thường thì có thể tiêm ngừa vaccine Covid- 19 tại các điểm tiêm khối bệnh viện. Tuy nhiên trước khi đi tiêm, chị cần kiểm tra lại tình trang virus viêm gan B, chia sẻ thông tin về tình hình sử khỏe, tiền sử dị ứng với bác sĩ tại điểm tiêm chủng để được bác sĩ tư vấn cụ thể.",
+                "score": 0.5305491089820862,
+                "id": "vietnamese_healthcare_5611",
+                "rerank_score": 0.9962860345840454
+            },
+            {
+                "text": "Câu hỏi: Em bị viêm gan B đã điều trị ổn định và đang còn uống thuốc. Cho em hỏi trường hợp của em tiêm vaccine Covid-19 có nguy hiểm không?\nTrả lời: Theo quyết định 2995/QĐ-BYT, Bộ Y tế đã quy định rõ những người mắc bệnh mạn tính nếu như đã điều trị ổn định, không dùng thuốc ức chế miễn dịch, hóa xạ trị vẫn có thể tiêm chủng vaccine phòng Covid-19 và bạn nên tiêm chủng tại các cơ sở tiêm chủng trong bệnh viện.",
+                "score": 0.5254422426223755,
+                "id": "vietnamese_healthcare_3225",
+                "rerank_score": 0.9954860806465149
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B mãn tính, xét nghiệm định kỳ 6 tháng một lần men gan bình thường, lượng virurs hơi cao, có tiêm được vaccine không. Nếu được tiêm thì tiêm ở Viện pasteur TP HCM có an toàn để cấp cứu ban đầu không?\nTrả lời: Theo quyết định 2995/QĐ-BYT hướng dẫn về khám sàng lọc trước tiêm chủng vacicne Covid-19 trường hợp viêm gan B mạn tính của bạn cần được điều trị ổn định tối thiểu 3 tháng đủ điều kiện tiêm phòng vaccine Covid-19. Để bạn bảo an toàn, bạn nên tiến hành tiêm chủng tại khối bệnh viện hoặc cơ sở năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.5432652831077576,
+                "id": "vietnamese_healthcare_1096",
+                "rerank_score": 0.9944753050804138
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B virus mạn tính đang điều trị thuốc 5 năm nay, men gan ổn định siêu âm gan bình thường có nên tiêm vaccine Covid-19 được không ạ?\nTrả lời: Theo thông tin cung cấp, anh/chị đã điều trị bệnh viêm gan B 5 năm, hiện đã ổn định. Theo hướng dẫn của Bộ Y tế về khám sàng lọc trước tiêm chủng vaccine Covid-19 thì những người có bệnh mạn tính điều trị ổn định/đã khỏi vẫn được tiêm ngừa vaccine Covid-19. Khi khám sàng lọc anh/chị cần cung cấp đầy đủ hồ sơ tiền sử bệnh và đơn thuốc điều trị cho bác sĩ để được bác sĩ tư vấn khám sàng lọc và dặn dò kỹ hơn.",
+                "score": 0.5313719511032104,
+                "id": "vietnamese_healthcare_4526",
+                "rerank_score": 0.9929941296577454
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi năm nay 37 tuổi đang điều trị viêm gan B mạn có tiêm vaccine Covid-19 được không? Nếu có thì cần lưu ý điều gì?\nTrả lời: Theo hướng dẫn của Bộ Y tế về khám sàng lọc trước tiêm vaccine Covid-19, những người có bệnh mạn tính ổn định trong thời gian qua vẫn được tiêm vaccine Covid-19. Vì vậy, nếu tình trạng viêm gan B của anh trong thời gian qua ổn định (không phải nhập viện điều trị, nồng độ virus siêu vi B không tăng cao, không tăng liều liệu trình điều trị), tình trạng chức năng gan, thận tốt vẫn được chỉ định tiêm ngừa vaccine Covid-19. Anh nên cung cấp đầy đủ thông tin và hồ sơ cũng như đơn thuốc đang điều trị (nếu có) cho bác sĩ khám sàng lọc biết về tiền sử bệnh của anh. Cũng như những đối tượng tiêm ngừa vaccine Covid-19 khác, anh cần theo dõi kỹ các dấu hiệu của phản vệ sau tiêm cũng như các phản ứng thông thường gặp phải khi tiêm vaccine Covid-19.",
+                "score": 0.5399980545043945,
+                "id": "vietnamese_healthcare_1363",
+                "rerank_score": 0.9983142614364624
+            },
+            {
+                "text": "Câu hỏi: Tôi hiện vẫn đang uống thuốc điều trị viêm gan B dạng mãn tính; đang duy trì uống thuốc tháng thứ 33. Hiện các chỉ số về hàm lượng virus dưới ngưỡng phát hiện, chỉ số men gan bình thường. Xin hỏi bác sĩ tôi có tiêm vaccine Covid-19 được không? Khi tiêm  có cần phải tạm dừng uống thuốc không? Nếu phải tạm dừng thì dừng trước tiêm bao nhiêu thời gian?\nTrả lời: Trường hợp chị đang nhiễm viêm gan siêu vi B mạn tính đang dùng thuốc điều trị, tải lượng virus dưới ngưỡng phát hiện, các chỉ số chức năng gan của chị bình thường thì vẫn có thể tiêm vaccine Covid-19 được mà không cần phải ngưng thuốc điều trị. Khi khám sàng lọc chị cần cung cấp đầy đủ thông tin về tiền sử bệnh lý và thuốc đang điều trị cho bác sĩ. Nếu bác sĩ đánh giá tình trạng sức khỏe hiện tại tốt và không có tiêu chuẩn chống chỉ định hay hoãn tiêm khác thì chị sẽ được chỉ định tiêm vaccine Covid-19.",
+                "score": 0.513595461845398,
+                "id": "vietnamese_healthcare_7509",
+                "rerank_score": 0.9945165514945984
+            },
+            {
+                "text": "Câu hỏi: Em bị viêm gan B mạn tính, không điều trị vì chỉ số ngưỡng cửa phát hiện, em bị dị ứng thuốc giảm đau, hay bị sưng mắt khi uống thuốc cảm, bị viêm xoang và viêm mũi dị ứng nhưng không nặng lắm. Trường hợp của em có được chích vaccine không và có an toàn không?\nTrả lời: Bệnh lý viêm gan B mạn tính của Anh/Chị hiện tại ổn định, không phải điều trị gì, không có biểu hiện nào khác thì có thể tiêm chủng bình thường. Riêng vấn đề dị ứng nếu anh/chị không phải dùng thuốc, không phải nhập viện xử trí cấp cứu thì có thể tiêm vaccine Covid-19 tại tuyến bệnh viện.",
+                "score": 0.5217607021331787,
+                "id": "vietnamese_healthcare_9461",
+                "rerank_score": 0.976450502872467
+            },
+            {
+                "text": "Câu hỏi: ! Em đang điều trị Lupus ban đỏ hệ thống. Bác sĩ cho em hỏi,đang điều trị Lupus ban đỏ có tiêm vắc-xin viêm gan B mũi 4 được khôngạ? Rất mong bác sĩ tư vấn, cảm ơn bác sĩ! Đinh Công Dậu(1993) Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Đang điều trị Lupus ban đỏ có tiêm vắc-xin viêm gan B mũi 4 được không?” như sau: Bác sĩ vẫn còn chưa biết tình trạng, giai đoạn bệnh Lupus của bạn, đã ảnh hưởng đến các cơ quan nào. Điều đó rất quan trọng để đánh giá khả năng đáp ứng miễn dịch của bạn khi tiêm vắc-xin. Mũi 4 là mũi nhắc bổ sung miễn dịch. Vì vậy, rất cần biết hiệu lực kháng thể của bạn đạt đến mức nào? Có còn hiệu lực hay không? Vì vậy, rất cần thiết đến khám trước tiêm chủng để xác định các vấn đề này, thêm nữa là khám trực tiếp, sau đó sẽ có câu trả lời chính xác và quyết định ngay việc có tiêm nhắc lại mũi 4 hay không.  Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Thị Minh Tâm -Trưởng phòng khám Vinmec Royal City - Phòng khám Quốc tế Vinmec Royal City.",
+                "score": 0.5358712673187256,
+                "id": "medical_vietnamese_qa_13397",
+                "rerank_score": 0.8543699979782104
+            },
+            {
+                "text": "Câu hỏi: Xét nghiệm máu có chỉ số eGFR là 85,13mL/phút/L có sao không?\nTrả lời: Độ lọc cầu thận ước tính (eGFR) là giá trị cho biết mức độ thận lọc chất thải ra khỏi máu như thế nào cũng như giúp xác định tổn thương thận hiện có. eGFR cũng là phép đo chức năng thận tốt nhất. Độ lọc cầu thận càng cao, thận làm việc càng tốt. Độ lọc thông thường là khoảng 90-100ml/phút/1,73m2. Nếu kết quả trên 60mL/phút/1,73m2, chức năng thận bình thường hoặc gần mức bình thường. Tuy nhiên, vẫn có thể có một số tổn thương thận hoặc có nguy cơ mắc bệnh thận và cần tiếp tục theo dõi, đặc biệt là nếu người bệnh có một hoặc nhiều yếu tố nguy cơ cao. Do đó, bạn cần đi khám bác sĩ chuyên khoa và làm thêm các xét nghiệm cần thiết để được tư vấn cụ thể.",
+                "score": 0.5213413834571838,
+                "id": "vietnamese_healthcare_9388",
+                "rerank_score": 0.8048668503761292
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

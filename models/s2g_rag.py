@@ -207,8 +207,9 @@ def s2g_rag_model(query, groundtruth = "NA", evaluation_mode=False, max_iteratio
 
         retrieval_query = build_query(query, gap_items, max_gap_item)
 
-        print(f"\nRetrieval query:")
-        print(retrieval_query)
+        if not evaluation_mode:
+            print(f"\nRetrieval query:")
+            print(retrieval_query)
 
         retrieved_documents = retrieve(retrieval_query, index, TOP_K, corpus_documents)
         reranked_documents = rerank(query, retrieved_documents)
@@ -267,11 +268,11 @@ def s2g_rag_model(query, groundtruth = "NA", evaluation_mode=False, max_iteratio
 
     return {
         "model_name": "s2g_rag",
-        "query": query,
-        "groundtruth": groundtruth,
+        "question": query,
+        "ground_truth": groundtruth,
         "answer": answer,
         "evidence": evidence_context,
-        "retrieval_history": retrieval_history,
+        "retrieved": retrieval_history,
         "llm_call": llm_calls,
         "num_turns": len(retrieval_history)
     }

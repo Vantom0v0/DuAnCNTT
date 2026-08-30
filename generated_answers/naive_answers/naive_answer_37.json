@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Người hút thuốc lá lâu năm có nên tiêm vaccine Covid-19 không? Hôm qua, trước khi tiêm, y tá nói tôi về kiểm tra vì phổi thở không tốt.",
+    "ground_truth": "Với trường hợp của anh, thăm khám lâm sàng trực tiếp, các bác sĩ mới có thể nhận định phù hợp được. Hút thuốc lá lâu năm không phải là yếu tố khiến anh không được tiêm phòng vaccine Covid-19.",
+    "answer": "Tài liệu không có đủ thông tin để kết luận người hút thuốc lá lâu năm hoặc có tình trạng phổi thở không tốt có nên tiêm vaccine Covid-19 hay không. Vì y tá đã khuyên anh/chị về kiểm tra trước khi tiêm, anh/chị nên đi khám sàng lọc để bác sĩ đánh giá và đưa ra chỉ định tiêm chủng phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Người nhà tôi 40 tuổi, bị viêm gan B mãn tính đã điều trị ổn định nhiều năm nay thì có tiêm vaccine ngừa Covid-19 được không?\nTrả lời: Người nhà anh bị viêm gan B mãn tính hiện không điều trị thuốc và bệnh ổn định nhiều năm nay vẫn có thể tiêm ngừa vaccine Covid-19 được bình thường.",
+            "score": 0.6378780603408813,
+            "id": "vietnamese_healthcare_9847"
+        },
+        {
+            "text": "Câu hỏi: Ba tôi là bệnh nhân ghép tạng (cụ thể là ghép gan), vậy có được tiêm vaccine Covid-19 không?\nTrả lời: Do anh/chị không nói rõ người nhà đã ghép tạng được bao lâu và còn dùng thuốc gì không?Trường hợp này anh/chị nên cho người nhà khám sàng lọc để bác sĩ khám và đưa ra chỉ định tiêm chủng phù hợp.",
+            "score": 0.6209195256233215,
+            "id": "vietnamese_healthcare_2880"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị bệnh trào ngược dạ dày và đang uống thuốc. Trường hợp của tôi tiêm vaccine Covid-19 có được không?\nTrả lời: Với tình trạng bệnh lý trào ngược dạ dày, anh/chị vẫn tiêm vaccine Covid-19.",
+            "score": 0.5982117652893066,
+            "id": "vietnamese_healthcare_8094"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm gan B, xơ gan có tiêm được vaccine Covid-19 không, nếu tiêm có ảnh hưởng hay tác dụng phụ thế nào?\nTrả lời: Rất tiếc, theo quy định hiện nay, viêm gan B, xơ gan như của anh/chị sẽ phải tạm hoãn tiêm chủng, chờ các thông tin hướng dẫn tiếp theo của Bộ Y tế.",
+            "score": 0.5944020748138428,
+            "id": "vietnamese_healthcare_568"
+        },
+        {
+            "text": "Câu hỏi: Em bị viêm mũi dị ứng lâu năm vậy có được tiêm vaccine không?\nTrả lời: Bệnh lý viêm mũi dị ứng, theo quy định của QĐ-2995 của Bộ Y Anh/Chị vẫn tiêm được vaccine Covid-19 bình thường.",
+            "score": 0.5897372961044312,
+            "id": "vietnamese_healthcare_3721"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

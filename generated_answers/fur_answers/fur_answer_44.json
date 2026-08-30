@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Tôi 48 tuổi hiện tại đang bị cao huyết áp 140/90mmHg và bị rối loạn tuần hoàn máu não đã 3 năm. Tôi sử dụng thuốc mỗi ngày. Ngoài ra, tôi không có bệnh lý gì khác. Bác sĩ tư vấn giúp tôi có thể tiêm vaccine ngừa Covid-19 được không?",
+    "ground_truth": "Anh bị cao huyết áp với 140/90mmHg và bị rối loạn tuần hoàn đa 3 năm vẫn đang sử dụng thuốc mỗi ngày, trong vòng 3 tháng gần đây tình trạng bệnh của anh không có tiến triển thêm thì anh vẫn tiêm được vaccine Covid-19.",
+    "answer": "Dựa trên thông tin được cung cấp:\n\n- Nếu tình trạng tăng huyết áp và rối loạn tuần hoàn máu não của anh/chị đã **ổn định**, trong khoảng 3 tháng qua **không phải nhập viện cấp cứu hoặc thay đổi phác đồ điều trị do bệnh nặng lên**, thì có thể tiêm vaccine Covid-19.\n- Nếu bệnh chưa ổn định hoặc đang tiến triển, cần **hoãn tiêm**.\n- Với bệnh lý nền, nên tiêm tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.\n\nThông tin hiện có chưa đủ để xác định bệnh của anh/chị đã ổn định theo các tiêu chí trên, vì vậy cần được khám sàng lọc trực tiếp trước khi tiêm. Tôi không tìm thấy đủ thông tin trong bằng chứng để khẳng định có nên tự ngừng thuốc hằng ngày sau tiêm hay không.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị rối loạn tiền đình (hay chóng mặt), cao huyết áp. Hiện tôi đang uống thuốc theo toa của bác sĩ chỉ định. Tình trạng bệnh ổn định khi uống thuốc đầy đủ. Vậy xin hỏi trường hợp của tôi có tiêm vaccine Covid-19 được không? Sau khi tiêm vaccine xong, thì có tạm ngưng uống thuốc không?\nTrả lời: Trường hợp của anh/chị với bệnh lý nền đã ổn định hơn 3 tháng, không phải thay đổi phác đồ điều trị hoặc không phải nhập viện thì có thể tiêm được vaccine Covid-19 bình thường.",
+            "score": 0.5992993116378784,
+            "id": "vietnamese_healthcare_5707",
+            "rerank_score": 0.9985702037811279
+        },
+        {
+            "text": "Câu hỏi: Tôi bị huyết áo cao nhưng uống thuốc đều đặn hàng ngày. Xin hỏi bác sĩ có được tiêm vaccine Covid-19 không?\nTrả lời: Với tiền sử bệnh lý và tình trạng bệnh lý của anh/chị hiện tại thì vẫn tiêm phòng vaccine Covid-19.",
+            "score": 0.600719690322876,
+            "id": "vietnamese_healthcare_8861",
+            "rerank_score": 0.9980250597000122
+        },
+        {
+            "text": "Câu hỏi: Tôi năm 42 tuổi, cách đây vài tháng có phát hiện bị huyết áp cao (khoảng 150); đi khám, xét nghiệm, chụp MSCT... bác sĩ nói tôi máu nhiễm mỡ LDL hơi cao, mạch vành hẹp 30%. Hiện nay, tôi đang dùng thuốc hàng ngày, cảm thấy sức khỏe bình thường. Tôi nặng 70 kg, thường xuyên chạy bộ. Xin hỏi bác sĩ, tôi có thể tiêm vaccine AstraZeneca hay không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, để đủ điều kiện tiêm chủng vaccine Covid-19, các bệnh lý của bạn cần phải được điều trị ổn định/kiểm soát tốt trong thời gian qua (được hiểu là trong vòng 3 tháng qua không phải nhập viện cấp cứu hay thay đổi thuốc điều trị do bệnh lý nặng lên). Theo thông tin mà bạn cung cấp, bác sĩ không rõ tình trạng huyết áp của bạn đã được kiểm soát chưa, thuốc mà bạn đang sử dụng, nếu các bệnh đã được bác sĩ điều trị chẩn đoán ổn định thì bạn có thể tiêm chủng vaccine Covid-19.",
+            "score": 0.5972777605056763,
+            "id": "vietnamese_healthcare_5245",
+            "rerank_score": 0.9978779554367065
+        },
+        {
+            "text": "Câu hỏi: Tôi hiện đang điều trị bệnh tiền đình, thần kinh rối loạn giấc ngủ, âu lo, huyết áp cao. Vậy tôi có tiêm vaccine phòng Covid-19 được không?\nTrả lời: Nếu bệnh tiền định, huyết áp cao… của anh/chị chưa ổn định, còn đang tiến triển thì cần hoãn tiêm chủng.",
+            "score": 0.6019683480262756,
+            "id": "vietnamese_healthcare_8727",
+            "rerank_score": 0.9792440533638
+        },
+        {
+            "text": "Câu hỏi: Ttôi năm nay 47 tuổi, bị rối loạn tiền đình, thiếu máu não, xin cho hỏi tôi có nên tiêm vaccine không?\nTrả lời: Theo như thông tin hướng dẫn của Bộ Y tế, bệnh lý mạn tính đã điều trị ổn định vẫn có thể tiêm vaccine Covid-19. Nếu như tình trạng rối loạn tiền đình, thiếu máu não, ù não của chị được điều trị ổn định, các chỉ số về mạch, huyết áp trong giới hạn bình thường vẫn có thể được tiêm vaccine Covid-19 tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.6159626245498657,
+            "id": "vietnamese_healthcare_3569",
+            "rerank_score": 0.9620576500892639
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

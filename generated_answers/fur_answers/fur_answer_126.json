@@ -1,0 +1,68 @@
+{
+    "model_name": "fur",
+    "question": "Em trễ kinh 15 ngày. Em thử que 2 lần, mỗi lần cách nhau 1 tuần vẫn lên 2 vạch mờ giống nhau. Em đi xét nghiệm máu kết quả không có thai nhưng mãi giờ em vẫn chưa có kinh. Trước đó, em cóuống thuốc ngừa thaivỉ 28 viên dành cho phụ nữ cho con bú. Vậy bác sĩ cho em hỏitrễ kinh sau uống thuốc tránh thai dành cho con bú có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Thường khi cho con bú có thểkinh nguyệt không đềuhoặc trễ kinh, nếu bạn đi khám, siêu âm vàxét nghiệm beta HCGmà không có thai thì có nghĩa là bạn không có thai tại thời điểm xét nghiệm. Còn việc bạn chậm kinh trên 15 ngày kèm uống thuốc tránh thai thì bạn nên đi khám tại cơ sở có uy tín để được khám siêu âm xét nghiệm để tìm nguyên nhân trễ kinh, từ đó có biện pháp điều trị cụ thể.",
+    "answer": "Thuốc tránh thai 28 viên dành cho phụ nữ đang cho con bú thường là loại chỉ chứa progestin và cần uống liên tục mỗi ngày, đúng giờ. Theo thông tin được cung cấp:\n\n- Việc dùng thuốc có thể làm chu kỳ kinh thay đổi, đến sớm hoặc muộn.\n- Nếu ngưng thuốc hoặc uống gián đoạn, chẳng hạn ngưng 10 ngày, nguy cơ có thai tăng lên.\n- Sau khi ngừng thuốc, có thể xảy ra rối loạn phóng noãn và ảnh hưởng chu kỳ kinh.\n- Tuy nhiên, bằng chứng hiện có chưa đủ để xác định cụ thể mức độ trễ kinh khi vẫn uống thuốc đúng hướng dẫn.\n\nTrong trường hợp trễ kinh và que thử hiện hai vạch mờ nhưng xét nghiệm máu âm tính, chưa thể kết luận chỉ do thuốc hay có thai. Kết quả còn phụ thuộc thời điểm quan hệ và thời điểm xét nghiệm; nên làm lại xét nghiệm beta-hCG hoặc khám chuyên khoa sản để được xác định.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em sinh em bé được 5 tháng thì bắt đầu dùng thuốc tránh thai cho con bú. Em uống hết vỉ thuốc và sang vỉ khác đến nay trễ kinh hơn 10 ngày. Vậy bác sĩtrễ kinh 10 ngày khi dùng thuốc tránh thai cho con bú có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Có 2 loại thuốc tránh thai hàng ngày: 1 loại chỉ chứa progestin (thường dùng cho con bú) và 1 loại là thuốc tránh thai phối hợp (gồm estrogen và progestin, không dùng cho con bú). Nếu bạn đang cho con bú thì thường dùng là loại chỉ có progestin, loại này phải uống liên tục mỗi ngày 1 viên vào 1 giờ nhất định, nếu bạn ngưng 10 ngày thì sẽ có khả năng có thai. Vì vậy, bạn nên đi kiểm tra lại xem có thai không, nếu không thì có thể uống tiếp tục vào chu kỳ kinh tiếp theo.",
+            "score": 0.7327597737312317,
+            "id": "medical_vietnamese_qa_1562",
+            "rerank_score": 0.9971780776977539
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Em thử hết 4 que vào 2 buổi sáng đều 2 vạch nhưng mờ ạ. Hôm nay lại ra máu. Xin hỏi bác sĩ, que thử thai hiện 2 vạch mờ kèm ra máu có phải mang thai không? Em xin cảm ơn bác sĩ.\nChào bác sĩ ạ! Em có quan hệ với chồng cách đây 15 ngày. Có dùng thuốc tránh thai khẩn cấp. Ngày 25 em vẫn có kinh nguyệt đúng ngày, tuy nhiên lượng máu rất ít, có màu nâu, chỉ 2 ngày là hết. Em có mua que thử thai về thử, kết quả là 1 vạch đậm 1 vạch mờ. Vậy bác sĩ cho em hỏi có khả năng cao em mang thai rồi không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ ạ, em trễ kinh 5 ngày thử que thử thai lên 2 vạch không rõ ràng nhưng tại sao lại ra dịch màu nâu giống như sắp hành kinh vậy ạ, em chỉ đau ngực thôi nhưng bụng thì không đau. Liệu như vậy em có thai hay không, muốn nghe lời khuyên của bác sĩ ạ. Em cảm ơn\nTrịnh Long (1992)\nChào bác sĩ. Em bị sảy thai tự nhiên được hơn 3 tháng. Hôm nay em thấy trễ kinh thử que thử thì có 1 vạch đậm, 1 vạch nhạt. Em có đi khám bác sĩ có nói chưa thấy túi thai. Em hoang mang quá. Sáng nay em đi tiểu có ra 1 xíu máu màu hồng. Em hơi đau của mình và khó thở. Bác sĩ cho em hỏi như vậy em có bị gì không ạ. Liệu có thai không ạ? Em cảm ơn bác sĩ\nTrả lời: Chào bạn. Không biết ngoài hiện tượng ra máu, bạn còn có xuất hiện triệu chứng nào khác không, chẳng hạn như: chậm kinh, người mệt mỏi, chướng bụng, thân nhiệt tăng... Nếu bạn đã thử 4 que thử thai vào 2 buổi sáng đều xuất hiện 2 vạch mờ thì khả năng bạn có thai là rất cao.\nTuy nhiên, để có kết quả chính xác hơn bạn có thể làm siêu âm, xét nghiệm beta HCG, xét nghiệm nước tiểu.\nBên cạnh đó việc xuất hiện máu cũng có thể là một dấu hiệu mang thai thường gặp, bởi đây là thời điểm trứng đang làm tổ và cơ thể bạn có sự thay đổi nội tiết tố.\nCảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Que thử thai hiện 2 vạch mờ kèm ra máu có phải mang thai không?” tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+            "score": 0.6665655374526978,
+            "id": "vietnamese_medical_qa_3019",
+            "rerank_score": 0.9940568208694458
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nBác sĩ cho cháu hỏi, cháu có chồng và thời gian trước cháu có sử dụng thuốc và những lần sau cháu đã ngưng sử dụng . Tính đến hôm nay cháu đã bị chậm kinh hơn 1 tháng mấy , cháu có thử que thì chỉ 1 vạch, sau vài ngày và 1 tuần cháu thử tiếp thì vẫn 1 vạch . Như vậy cho cháu hỏi liệu cháu có mang thai không ạ?\nTrả lời: Chào cháu,\nThông thường , sau khi chậm kinh 7-10 ngày nếu có thai thử que sẽ lên 2 vạch ( Que đảm bảo chất lượng ) . Ở đây, cháu mới thử que sau 1 tuần khi quan hệ thì cũng chưa chính xác. Vì vậy cháu nên thử lại. Nếu kết quả 1 vạch thì cháu không có thai. \nViệc chậm kinh có thể do rối loạn kinh nguyệt gây nên. Cháu cần theo dõi thêm\nThân mến",
+            "score": 0.7080358862876892,
+            "id": "vietnamese_medical_qa_7603",
+            "rerank_score": 0.989945113658905
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Em quan hệ có dùng bao và sau đó có uống thuốc tránh thai 24h và hiện tại em bị trễ kinh khoảng 2 tuần rồi. Em muốn hỏi là sau quan hệ uống thuốc tránh thai 24 giờ nhưng vẫn trễ kinh 2 tuần liệu có thai không?\nChào bác sĩ. Mình có uống thuốc tránh thai khẩn cấp sau quan hệ, 3 tháng trước sau khi cai sữa cho bé mình đều có kinh 2 lần 1 tháng. Tháng này chậm đã 10 ngày liệu mình có phải bị rối loạn kinh nguyệt, hay bệnh gì không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn! Tác dụng phụ của thuốc thường gặp là chậm kinh do rối loạn nội tiết tố nên chu kỳ kinh nguyệt có thể đến sớm hoặc muộn hơn, số lượng và màu sắc máu kinh cũng có thể thay đổi. Trường hợp rối loạn kinh nguyệt kéo dài kèm theo những hiện tượng bất thường như máu kinh vón cục, máu kinh có màu đen, mùi hôi khó chịu...thì hãy cẩn trọng bởi đây có thể là dấu hiệu cảnh báo một bệnh lý phụ khoa nguy hiểm.\nCảm ơn bạn đã gửi câu hỏi “sau quan hệ uống thuốc tránh thai 24 giờ nhưng vẫn trễ kinh 2 tuần liệu có thai không?” đến AI-Doctor. Trân trọng!",
+            "score": 0.6582501530647278,
+            "id": "vietnamese_medical_qa_2988",
+            "rerank_score": 0.9871339201927185
+        },
+        {
+            "text": "Câu hỏi: Bạn cháu hiện tại đang bịtrễ kinhđến giờ là 2 tuần (14 ngày) rồi, vào ngày trễ thứ 7 (vừa tròn 1 tuần) thì cháu có mua que thử cho bạn ý, thì kết quả chỉ có 1 vạch (đã làm đúng theo hướng dẫn và cháu đã kiểm tra hạn sử dụng của que). Hôm đó, bạn cháu thử vào buổi sáng, sau khi đã đi ăn sáng. Ngoài ra thì bạn cháu có các dấu hiệu mang thai khác nhưđau ngực. Vậy bác sĩ cho cháu hỏitrễ kinh, đau ngực nhưng thử que 1 vạch có thai không?Bạn cháu có nên thử lại bằng que 1 lần nữa cho chính xác hơn không? Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trễ kinh (hay còn gọi là chậm kinh) thường xảy ra khi có thai, tuy nhiên cũng có những nguyên nhân khác gây trễ kinh.Que thử thailà phương pháp phát hiện có thai sớm, tuy nhiên cũng có những trường hợp âm tính giả hoặc dương tính giả. Bạn của bạn nên thử lại 1 que nữa hoặc đi khám bác sĩ chuyên khoa Phụ sản để xác định chắc chắn xem có thai không, hoặc nguyên nhân khác gây trễ kinh, từ đó có biện pháp điều trị cụ thể.",
+            "score": 0.6770488619804382,
+            "id": "medical_vietnamese_qa_2859",
+            "rerank_score": 0.9689924120903015
+        },
+        {
+            "text": "Câu hỏi: Em bịchậm kinh4 ngày so với chu kỳ kinh trước và có thửque thử thailên 2 vạch mờ. Đến ngày thứ 5 em bị ra máu kéo dài khoảng 5 ngày. Em đi khám bác sĩ bảo không có thai mà chỉ thấy nang noãn nước bên buồng trứng niêm mạc tử cung dày. Vậy bác sĩ cho em hỏithử que 2 vạch mờ nhưng siêu âm không có thai là sao?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Que thử thai là dụng cụ hỗ trợ nhận biết có thai nhanh chóng được sử dụng rộng rãi trên toàn thế giới. Chúng là một dụng cụ xét nghiệm định tính, giúp xác định nồng độ hormone hCG - loại hormone chỉ tiết ra khi mang thai có trong nước tiểu của phụ nữ. Tuy nhiên, mặc dù độ chính xác 99%, nhưng không nên chỉ dựa vào kết quả tích cực thể hiện qua việc kiểm tra với que thử thai mà nên xác nhận chính xác bởi một bác sĩ chuyên khoa. Bạn dùng que thử thai xuất hiện 2 vạch mờ nhưng siêu âm lại không có thai có thể do khi test thử thai thì que thử dương tính giả, cũng có thể bạn có thai vàsảy thai sớm. Quan trọng nhất là tình hình của bạn sau đó ổn là tốt. Nếu có các dấu hiệu bất thường thì bạn cần đến thăm khám bác sĩ chuyên khoa Sản phụ khoa để được tư vấn cụ thể.",
+            "score": 0.7245551943778992,
+            "id": "medical_vietnamese_qa_2559",
+            "rerank_score": 0.991701066493988,
+            "weighted_score": 0.9950633406639099
+        },
+        {
+            "text": "Câu hỏi: Em bị chậm kinh 7 ngày, thử que có hai vạch, một vạch đậm, một vạch mờ. Em đi khám bác sĩ bảo niêm mạc tử cung 18mm nhưng chưa thấy túi ối trong buồng tử cung. Vậy bác sĩ cho em hỏique thử thai 1 vạch đậm, 1 vạch mờ, chậm kinh có phải mang thai không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn muốn chắc chắn mình có mang thai hay không, bạn nên làm xét nghiệm Beta HCG. Thử que 1 vạch đậm, 1 vạch mờ chưa chắc có thai vì có thể dương tính giả. Nếu 1 tuần sau chưa có kinh bạn nên đi khám lại.",
+            "score": 0.625794529914856,
+            "id": "medical_vietnamese_qa_2737",
+            "rerank_score": 0.975482165813446,
+            "weighted_score": 0.9892124533653259
+        },
+        {
+            "text": "Câu hỏi: Em có dấu hiệu bị chậm kinh và hôm nay có thử que thử thai nhưng kết quả lại ra 2 vạch mờ. Khoảng 2 tuần trước đó em có thử nhưng chỉ thấy 1 vạch. Vậy bác sĩ cho em hỏithử que thử thai 2 vạch mờ kèm chậm kinh có phải mang thai?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Đối với những trường hợp kinh nguyệt đều, thì một số dấu hiệu theo dõi có thai là chậm kinh, cảm giác nghén, thử thai dương tính. Để đánh giá chính xác bạn nên đi khám chuyên khoa Sản. Bác sĩ sẽ cho bạn siêu âm phụ khoa và xét nghiệm beta hCG. Từ đó mới có đủ dữ kiện để đánh giá bạn có thai hay không và vị trí làm tổ của thai như thế nào.",
+            "score": 0.6853237152099609,
+            "id": "medical_vietnamese_qa_1512",
+            "rerank_score": 0.9637296199798584,
+            "weighted_score": 0.9843165874481201
+        },
+        {
+            "text": "Câu hỏi: Tôi đã sử dụng thuốc tránh thai hàng ngày loại 28 viên được 3 năm. Tuy nhiên, tôi đã ngưng sử dụng được 6 tháng tính tới thời điểm hiện tại. Trong 6 tháng này, tôi có quan hệ 3 lần duy nhất và 3 lần điều không sử dụng biện pháp tránh thai nào cả. Hiện tại, tôi đã mất kinh nguyệt tháng 6-7-8, nhưng vì dịch bệnh nên tôi không thể đi khám được. Tôi có sử dụng rất nhiều que thử thai nhưng không có dấu hiệu có thai. Xin hỏi bác sĩ,nguyên nhân bị chậm kinh là do đâuđược không ạ? Tôi xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bác sĩ cần biết thêm các thông tin như độ tuổi bạn và các tiền sử bệnh lý, thuốc bạn sử dụng trước đó để có thể tư vấn cụ thể cho bạn được. Nguyên nhân thường gặp nhất ở phụ nữ chậm kinh trong độ tuổi sinh đẻ là việc mang thai. Ngoài ra, do bạn sử dụng thuốc ngừa thai trong thời gian dài, khi ngừng thuốc có thể có rối loạn phóng noãn và ảnh hưởng đến chu kỳ kinh nguyệt. Vì vậy, bạn nên đặt lịch hẹn và đến bệnh viện kiểm tra tình trạng tử cung và buồng trứng của mình nhé.",
+            "score": 0.584547221660614,
+            "id": "medical_vietnamese_qa_2429",
+            "rerank_score": 0.9971311092376709,
+            "weighted_score": 0.9971383571624756
+        }
+    ],
+    "llm_call": 7,
+    "iteration": 3
+}

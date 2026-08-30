@@ -1,0 +1,103 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ, xin cho tôi hỏi triệu chứng bệnh viêm tiền liệt tuyến và cách điều trị. Xin cám ơn.",
+    "ground_truth": "Chào bạn . \nViêm tuyến tiền liệt chia thành 2 dạng : Viêm cấp và Viêm mạn.\n - Viêm tuyến tiền liệt cấp tính: bệnh nhân có triệu chứng tiểu nhiều lần, tiểu gấp, tiểu đau, tiểu rớt giọt hay đái dắt và có các triệu chứng bế tắc là tiểu khó, tiểu phải rặn, tiểu buốt, rát, tiểu chậm - đi tiểu nhưng không tiểu được ngay, nặng nhất là bí tiểu, kèm theo sốt. Nếu không được điều trị hoặc điều trị không dứt điểm bệnh sẽ chuyển sang giai đoạn mãn tính. \n- Viêm tuyến tiền liệt mãn tính: chủ yếu người bệnh có cảm giác khó chịu vùng bụng dưới, tinh hoàn, đau vùng dưới thắt lưng, tiểu nhiều lần, nước tiểu đục. Bệnh tiến triển chậm hơn và ít nguy hiểm hơn.\nTùy thuộc vào tình trạng bệnh sẽ có hướng điều trị khác nhau. Bạn nên đến bệnh viện để thăm khám, chuẩn đoán xác định. Từ đó sẽ có hướng điều trị phù hợp nhé. \nThân mến.",
+    "answer": "Chào bạn. Dựa trên thông tin được cung cấp:\n\n### Triệu chứng viêm tuyến tiền liệt\n\nViêm tuyến tiền liệt được chia thành **viêm cấp tính** và **viêm mạn tính**.\n\n- **Viêm cấp tính:**  \n  Tiểu nhiều lần, tiểu gấp, tiểu đau/buốt/rát, tiểu nhỏ giọt hoặc đái dắt, tiểu khó, phải rặn, dòng tiểu chậm, có thể bí tiểu và kèm sốt. Người bệnh cũng có thể đau vùng tầng sinh môn, đau lưng, mệt mỏi; tuyến tiền liệt có thể sưng và đau khi ấn.\n\n- **Viêm mạn tính:**  \n  Thường tiến triển chậm hơn, với cảm giác khó chịu hoặc đau vùng bụng dưới, vùng tinh hoàn, dưới thắt lưng; tiểu nhiều lần và nước tiểu đục.\n\nChỉ có triệu chứng tiểu buốt, tiểu rát thì cũng có thể liên quan đến **viêm đường tiết niệu**, chưa đủ để khẳng định là viêm tuyến tiền liệt.\n\n### Nguyên nhân\n\nNguyên nhân có thể do **nhiễm khuẩn hoặc không do nhiễm khuẩn**. Viêm tuyến tiền liệt do nhiễm khuẩn có thể lan từ các tình trạng viêm nhiễm ở đường tiết niệu, trực tràng, ống dẫn tinh, mào tinh hoàn hoặc tinh hoàn. Một số yếu tố được đề cập gồm hút thuốc, uống rượu bia và quan hệ tình dục không điều độ.\n\n### Điều trị\n\n- Trường hợp do nhiễm khuẩn thường điều trị bằng **kháng sinh theo chỉ định của bác sĩ**, đủ liều và thường kéo dài khoảng **2 tuần đến 1 tháng**. Thời gian cụ thể tùy mức độ bệnh và thể trạng.\n- Có thể cần nghỉ ngơi, ngâm nước ấm; nếu bị bí tiểu thì cần được dẫn lưu nước tiểu.\n- Không nên tự mua kháng sinh, dùng đơn thuốc của người khác hoặc tự điều trị tại nhà. Bạn nên khám để bác sĩ đánh giá và kê thuốc phù hợp.\n\nNếu có **sốt kèm tiểu buốt, tiểu khó nhiều hoặc bí tiểu**, bạn nên đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cho em hỏi viêm tuyến tiền liệt do bị nhiễm khuẩn thì có những phương pháp nào điều trị nào ạ? Cảm ơn bác sĩ đã chia sẻ thông tin giúp em.\nTrả lời: Rất mong có thể gặp bạn để trao đổi thêm về vấn đề sức khỏe hiện tại. Cảm ơn bạn đã tin tưởng gửi câu hỏi tới AI-Doctor.",
+            "score": 0.632839024066925,
+            "id": "vietnamese_medical_qa_3830",
+            "rerank_score": 0.9569838047027588
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nTôi được chuẩn đoánphì đại tiền liệt tuyến  khảng 2 năm nay,bác sĩ khuyên uống thuốc hay phẫu thuật\nTrả lời: Chào bác.\nBác cần căn cứ xem tuyến tiền liệt đã bị phình bao nhiêu ? Và đã chèn ép đường tiểu như thế nào ? Bác có hay bị bí tiểu không ? \nBác cung cấp thêm một số thông tin để bác sỹ tư vấn được cụ thể hơn nhé.\nThân mến.",
+            "score": 0.5563982129096985,
+            "id": "vietnamese_medical_qa_6805",
+            "rerank_score": 0.620570957660675
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ! Em bị bệnh lý tuyến giáp từ nhỏ, cổ bị sưng phồng và đã đi khám nhiều nơi, cũng như được bác sĩ chẩn đoán bị viêm tuyến giáp/sưng tuyến giáp. Vậy điều trị bằng thuốc có giảm sưng do viêm tuyến giáp không? cũng như cần điều trị là bao lâu? Mong bác sĩ giải đáp giúp, xin cảm ơn!\nTrả lời: Chào bạn, đối với câu hỏi: Điều trị bằng thuốc có giảm sưng do viêm tuyến giáp không? bác sĩ xin được trả lời như sau:",
+            "score": 0.597186803817749,
+            "id": "vietnamese_medical_qa_2589",
+            "rerank_score": 0.4990027844905853
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+            "score": 0.6097644567489624,
+            "id": "vietnamese_medical_qa_2402",
+            "rerank_score": 0.010309852659702301
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ.\nBác sĩ cho em hỏi về người bị viêm đường tiết niệu thì nên uống thuốc gì để khỏi ạ? Bác sĩ tư vấn giúp em về vấn đề này với.\nEm xin chân thành cảm ơn bác sĩ!\nTrả lời: Chào bạn. Nếu nhiễm khuẩn tiết niệu có nhiều nguyên nhân (như do vi khuẩn, lao, nấm vv..). Do đó, bạn cần đi khám để bác sĩ chuyên khoa có thể làm xét nghiệm và đưa ra phương thuốc cũng như lộ trình điều trị đến bạn.",
+            "score": 0.5382004976272583,
+            "id": "vietnamese_medical_qa_4054",
+            "rerank_score": 0.007327320519834757
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nChau hay bi tieu rat tieu buot vao mua he.Xin bs cho biet bieu hien cua benh viem tuyen tien liet\nTrả lời: Chào bạn . \nViêm tuyến tiền liệt chia thành 2 dạng : Viêm cấp và Viêm mạn. \n- Viêm tuyến tiền liệt cấp tính: bệnh nhân có triệu chứng tiểu nhiều lần, tiểu gấp, tiểu đau, tiểu rớt giọt hay đái dắt và có các triệu chứng bế tắc là tiểu khó, tiểu phải rặn, tiểu buốt, rát, tiểu chậm - đi tiểu nhưng không tiểu được ngay, nặng nhất là bí tiểu, kèm theo sốt. Nếu không được điều trị hoặc điều trị không dứt điểm bệnh sẽ chuyển sang giai đoạn mãn tính.\n- Viêm tuyến tiền liệt mãn tính: chủ yếu người bệnh có cảm giác khó chịu vùng bụng dưới, tinh hoàn, đau vùng dưới thắt lưng, tiểu nhiều lần, nước tiểu đục. Bệnh tiến triển chậm hơn và ít nguy hiểm hơn.\nNếu bạn chỉ tiểu rát, tiểu buốt thì có thể chỉ bị viêm đường tiết niệu. Bạn cần uống nhiều nước, uống thuốc kháng sinh để điều trị. \nThân mến.",
+            "score": 0.5389795303344727,
+            "id": "vietnamese_medical_qa_8627",
+            "rerank_score": 0.825631856918335,
+            "weighted_score": 0.9635210514068603
+        },
+        {
+            "text": "Câu hỏi: Một số bệnh lý tiền liệt tuyến thường gặp\nTrả lời: 3. Một số bệnh lý tiền liệt tuyến thường gặp\n3.3. Viêm tiền liệt tuyến Nguyên nhân gây viêm tiền liệt tuyến là do vi khuẩn hoặc không vi khuẩn. Có 2 dạng viêm tiền liệt tuyến là viêm tiền liệt tuyến cấp tính và viêm tiền liệt tuyến mãn tính. Triệu chứng của viêm tiền liệt tuyến gồm: sốt, đau nhức vùng tầng sinh môn, đau lưng, người mệt mỏi, tiền liệt tuyến bị sưng , khi ấn vào sẽ có cảm giác đau. Hình ảnh siêu âm viêm tiền liệt tuyến cấp cho thấy xuất hiện những vùng giảm âm ở phần mô bao bọc quanh niệu đạo, nhu mô tuyến giảm âm, tăng hiện tượng tăng cường âm qua mô tuyến. Viêm tiền liệt tuyến có thể phát triển thành áp xe tiền liệt tuyến . Khi đó, hình ảnh siêu âm sẽ thấy dịch trống âm hoặc giảm âm, ổ áp xe lớn sẽ làm biến đổi cấu trúc giải phẫu của tiền liệt tuyến.",
+            "score": 0.47888654470443726,
+            "id": "vietnamese_healthcare_27200",
+            "rerank_score": 0.9025620222091675,
+            "weighted_score": 0.9398627519607544
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, hiện tôi ở khu vực Bình Thạnh gần bến xe miền đông. Xin hỏi bs chi phí khám và chữa bệnh viêm tuyến tiền liệt ( nếu có ) thì khoảng bao nhiêu và thời gian điều trị có lâu không ạ? Xin cảm ơn bs\nTrả lời: Chào bạn. \nTuyến tiền liệt ( TTL ) là một tuyến sinh dục , vị trí nằm bao quanh cổ bàng quang, có đường đổ vào niệu đạo. Tuyến này bị viêm thường do nhiễm khuẩn , ngược dòng từ ngoài vào. Do đó viêm TTL có thể đi kèm với nhiễm khuẩn tiết niệu, viêm túi tinh, ống dẫn tinh... Do đó bạn cần điều trị triệt để . Không rõ bạn đã đi khám ở dâu chưa ? Nhưng trước tiên điều trị bệnh này sẽ dùng nội khoa ( Uống kháng sinh ) Chi phí và thời gian tùy thuộc vào việc bác sỹ lựa chọn kháng sinh phù hợp với bệnh, giá cả thị trường, tuân thủ điều trị của bạn. Bạn không nên tự ý uống thuốc ở nhà mà phải đi khám uống thuốc theo đơn của bác sỹ. \nThân mến.",
+            "score": 0.47562843561172485,
+            "id": "vietnamese_medical_qa_6794",
+            "rerank_score": 0.06270170211791992,
+            "weighted_score": 0.796733570098877
+        },
+        {
+            "text": "Câu hỏi: Điều trị viêm tuyến tiền liệt cấp tính do nhiễm khuẩn\nTrả lời: 4. Điều trị viêm tuyến tiền liệt cấp tính do nhiễm khuẩn\nĐối với bệnh nhân bị viêm tuyến tiền liệt cấp tính , phương pháp điều trị thông thường là dùng thuốc kháng sinh . Bác sĩ sẽ chỉ định các loại thuốc phù hợp cho từng người bệnh, tùy thuộc vào mức độ của bệnh và thể trạng sức khỏe của người bệnh. Chính vì vậy, bệnh nhân tuyệt đối không được tự ý mua thuốc hoặc sử dụng đơn thuốc của người khác để tự điều trị bởi điều này có thể khiến bạn phải gánh chịu những hậu quả nặng nề. Bên cạnh đó, người bệnh cần nằm nghỉ ngơi trên giường, ngồi ngâm trong nước ấm, phải dẫn lưu nước tiểu nếu bí tiểu. Để phòng tránh viêm tuyến tiền liệt cấp tính do nhiễm khuẩn, bạn nên: Thường xuyên vệ sinh cơ thể sạch sẽ mỗi ngày, nhất là bộ phận sinh dục Tránh ảnh hưởng đến quá trình lưu thông máu đến tuyến tiền liệt, không nên ngồi quá lâu trong nhiều giờ liền Quan hệ tình dục hợp lý, điều độ Tránh làm việc quá sức, không phù hợp với sức lực Tránh sử dụng các chất kích thích như: bia, rượu, thuốc lá,... Thực hiện chế độ ăn uống hợp lý Thường xuyên luyện tập thể dục thể thao Mọi thắc mắc cần được bác sĩ chuyên khoa giải đáp cũng như quý khách hàng có nhu cầu khám và điều trị tại Bệnh viện Đa khoa Quốc tế Vinmec, Quý khách có thể liên hệ Hệ thống Y tế Vinmec trên toàn quốc hoặc đăng ký trực tuyến TẠI ĐÂY .",
+            "score": 0.4928482472896576,
+            "id": "vietnamese_healthcare_97334",
+            "rerank_score": 0.049692727625370026,
+            "weighted_score": 0.6789660647511483
+        },
+        {
+            "text": "Câu hỏi: Viêm tuyến tiền liệt do nhiễm khuẩn nên điều trị thế nào?\nTrả lời: Viêm tuyến tiền liệt do bị nhiễm khuẩn thì cần điều trị kháng sinh đủ liều, do tuyến tiền liệt nằm sâu trong cơ thể nên thời gian điều trị phải kéo dài hơn thông thường là 2 tuần - 1 tháng.",
+            "score": 0.4880443811416626,
+            "id": "vietnamese_healthcare_9438",
+            "rerank_score": 0.03825969249010086,
+            "weighted_score": 0.5351975336670876
+        },
+        {
+            "text": "Câu hỏi: Phương pháp điều trị bệnh vôi hóa tuyến tiền liệt\nTrả lời: 5. Phương pháp điều trị bệnh vôi hóa tuyến tiền liệt\nNhững nốt vôi hóa trong tuyến tiền liệt là nơi trú ẩn của nhiều loại vi khuẩn, các vi sinh vật, rất khó tiêu diệt hoàn toàn. Các nốt này cũng khó lấy hết hẳn. Nếu những điểm vôi hóa không quá to hoặc quá nhiều thì chúng hầu như không gây trở ngại gì nên đôi khi không cần can thiệp. Trường hợp khác, bác sĩ có thể chỉ định bệnh nhân điều trị theo các phương pháp sau: Sử dụng kháng sinh: Là phương pháp điều trị phổ thông cho các trường hợp bị nốt vôi hóa tiền liệt tuyến. Các trường hợp viêm tiền liệt tuyến cấp có thể được chữa lành dễ dàng khi sử dụng kháng sinh . Tuy nhiên, thuốc không có nhiều tác dụng đối với viêm tiền liệt tuyến mãn tính. Ở người bệnh mãn tính, khi dùng thuốc kháng sinh, triệu chứng của bệnh sẽ thuyên giảm nhưng khi ngưng điều trị thì bệnh lại tái phát lại. Các kháng sinh liều cao cũng có thể được chỉ định cho bệnh nhân nhưng khả năng lành bệnh không cao và đi kèm với nguy cơ gây độc gan và thận; Tiêm thuốc vào tuyến tiền liệt: Là phương pháp điều trị bổ trợ cho dùng kháng sinh đường uống. Việc tiêm thuốc tại tuyến tiền liệt giúp nâng cao nồng độ thuốc điều trị. Tuy nhiên, nhiều trường hợp lâm sàng cho thấy tiêm thuốc không hoàn toàn điều trị triệt để bệnh vôi hóa tuyến tiền liệt ; Sử dụng thảo dược: Theo y học cổ truyền, vôi hóa hoặc viêm tuyến tiền liệt đều do nguyên nhân tắc nghẽn nhiệt và tích tụ hàn khí ở phần bụng dưới, bị ứ đọng khí và máu huyết. Việc điều trị bằng các loại thảo dược để triệt hàn, tiêu nhiệt có thể giúp cải thiện bệnh. Với trường hợp bị viêm nhiễm kéo dài, thảo dược lợi tiểu cũng là lựa chọn cần thiết. Tuy nhiên, phương pháp điều trị này còn chưa được kiểm chứng; Trị liệu vật lý: Các bác sĩ sử dụng máy siêu âm làm tăng tưới máu tuyến tiền liệt hoặc massage làm giảm tắc nghẽn, thông các ống tuyến, giúp kháng sinh thâm nhập sâu hơn vào các mô tuyến. Tuy nhiên, phương pháp này có thể làm gia tăng phản ứng viêm, không thể tiêu diệt các vi sinh vật gây bệnh nên đây chỉ là một phương pháp điều trị bổ trợ, không phải là liệu pháp chính; Phương pháp khác: Phẫu thuật thông ống tuyến tiền liệt bị tắc hoặc vôi hóa để tránh những biến chứng nguy hiểm của bệnh.",
+            "score": 0.4708287715911865,
+            "id": "vietnamese_healthcare_983",
+            "rerank_score": 0.05034373700618744,
+            "weighted_score": 0.46155833899974824
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây viêm tuyến tiền liệt cấp tính do nhiễm khuẩn\nTrả lời: 1. Nguyên nhân gây viêm tuyến tiền liệt cấp tính do nhiễm khuẩn\nTuyến tiền liệt là một tuyến đặc biệt, nó chỉ có ở nam giới. Tuyến tiền liệt nằm ở trước trực tràng , ngay phía dưới bàng quang và bao quanh ống niệu đạo, phía trước xương mu. Viêm ở tuyến tiền liệt là một bệnh lý xảy ra phổ biến ở nam giới, có thể gặp ở nhiều độ tuổi khác nhau nhưng phần lớn là ở độ tuổi 40 trở lên, hoặc có thể trẻ hơn. Nguyên nhân hàng đầu gây viêm tuyến tiền liệt cấp tính là do nhiễm khuẩn. Do một số cơ quan lâm sàng như: Viêm trực tràng , viêm ống dẫn tinh , viêm mào tinh hoàn , viêm tinh hoàn , viêm đường tiết niệu ....bị viêm nhiễm, sau đó lan sang tuyến tiền liệt, gây ra tình trạng nhiễm khuẩn ở cơ quan này. Ngoài nhiễm khuẩn, nguyên nhân gây viêm tuyến tiền liệt cấp tính cũng có thể do thói quen hút thuốc lá, uống rượu bia hoặc quan hệ tình dục không điều độ.... Lạm dụng rượu bia là nguyên nhân gây viêm tuyến tiền liệt cấp tính",
+            "score": 0.5560550689697266,
+            "id": "vietnamese_healthcare_97331",
+            "rerank_score": 0.7540848851203918,
+            "weighted_score": 0.4263258337974548
+        },
+        {
+            "text": "Câu hỏi: Phân loại viêm tuyến giáp\nTrả lời: 2. Phân loại viêm tuyến giáp\nTheo các chuyên gia, dựa vào nguyên nhân, triệu chứng và thời gian kéo dài của bệnh mà viêm tuyến giáp sẽ được phân chia thành các thể như sau: Viêm tuyến giáp cấp tính: Tình trạng viêm cấp tính tại tuyến giáp thường do các loại vi khuẩn sinh mủ gây ra. Viêm giáp cấp tính tương đối hiếm gặp, ngoài nguyên nhân do vi khuẩn còn có thể do các loại vi sinh vật truyền nhiễm gây ra; Viêm tuyến giáp bán cấp: Bao gồm 2 thể bệnh là viêm giáp u hạt bán cấp và viêm giáp Lympho bào bán cấp: Viêm tuyến giáp u hạt bán cấp tính: Thể viêm tuyến bán cấp này còn được gọi là viêm giáp de Quervain. Thể bệnh này thường gây đau, nguyên nhân cao là do virus và thường thứ phát sau khi quai bị, sởi hoặc cúm; Viêm giáp Lympho bào bán cấp: Thể viêm giáp bán cấp này không gây đau, do đó còn được gọi là viêm tuyến giáp yên lặng. Thể bệnh này có thể xảy ra ở cả 2 giới nhưng phổ biến hơn ở nữ. Đặc biệt, khi tuyến giáp viêm mà không gây đau ở phụ nữ sau sinh thì được gọi là viêm giáp sau sinh; Với thể viêm giáp bán cấp, chức năng giáp của bệnh nhân thường có xu hướng ổn định trở lại sau 12-18 tháng kể từ khi xuất hiện triệu chứng đầu tiên. Tuy nhiên, các báo cáo vẫn ghi nhận một vài trường hợp bệnh diễn tiến sang suy giáp và khiến bệnh nhân phải điều trị kéo dài; Viêm giáp mạn tính: Bao gồm 2 thể là bệnh viêm giáp Hashimoto và viêm giáp Riedel: Viêm giáp Hashimoto là bệnh lý tự miễn , liên quan đến tình trạng rối loạn hoạt động của hệ miễn dịch. Với thể bệnh viêm giáp này, hệ miễn dịch của bệnh nhân sản sinh ra các kháng thể và tự tấn công vào các tế bào tuyến giáp của bản thân. Lưu ý quá trình phá hủy tế bào giáp do bệnh Hashimoto thường diễn ra trong âm thầm, do đó đa số trường hợp không phát hiện bệnh ở giai đoạn sớm. Viêm giáp mạn tính Hashimoto là thể phổ biến nhất, với tỷ lệ mắc bệnh ở nữ cao 7-8 lần so với nam giới và độ tuổi thường gặp là 30-50; Viêm tuyến giáp Riedel: Thể viêm mạn tính này còn được gọi là viêm giáp mạn xơ hóa xâm lấn. Đây là thể viêm giáp cực kỳ hiếm gặp, đa phần xảy ra ở nữ giới tuổi trung niên hoặc cao tuổi. Viêm giáp Riedel khiến các tổ chức xơ phát triển dày đặc, từ đó gây xơ cứng và mất dần chức năng tuyến giáp. Viêm giáp mạn xơ hóa xâm lấn có thể đi kèm tình trạng xơ hóa ở các cơ quan/khu vực khác trong cơ thể như xơ hóa trung thất, xơ hóa sau màng bụng hoặc xơ hóa sau nhãn cầu.",
+            "score": 0.5024436712265015,
+            "id": "vietnamese_healthcare_140749",
+            "rerank_score": 0.7410848736763,
+            "weighted_score": 0.17197458297014231
+        },
+        {
+            "text": "Câu hỏi: Phì đại lành tính tiền liệt tuyến là gì?\nTrả lời: 1. Phì đại lành tính tiền liệt tuyến là gì?\nPhì đại lành tính tuyến tiền liệt (hay u xơ tiền liệt tuyến ) là sự phì đại lành tính của tuyến tiền liệt, nguyên nhân gây ra bệnh là do sự tăng sản tế bào thành phần cấu trúc của tiền liệt tuyến, gây nên các triệu chứng rối loạn tiểu tiện, việc phát hiện và điều trị sớm sẽ tránh được những biến chứng. Phì đại tiền liệt tuyến lành tính có thể phát triển từ từ trong một thời gian dài mà không gây nên bất kỳ sự nguy hiểm nào. Tuy nhiên, vì tuyến bao quanh niệu đạo nên nếu bị phì đại tiền liệt tuyến sẽ gây nên một số biến chứng như: Bí tiểu hoàn toàn hoặc không: Triệu chứng bí tiểu có thể xảy ra sau một thời gian dài khi người bệnh bị tình trạng rối loạn đi tiểu, cũng có khi triệu chứng này khởi phát đột ngột sau một thời gian tiềm ẩn lâu dài. Người bệnh có triệu chứng cảm thấy sự tắc nghẽn ở đường tiểu, khó có thể đi tiểu cho đến khi bị bí tiểu hoàn toàn. Ở giai đoạn biến chứng, người bệnh có thể rơi vào tình trạng tiểu không tự chủ , nước tiểu tràn thường xuyên. Nhiễm khuẩn đường tiết niệu: Sự ứ đọng nước tiểu trong bàng quang tạo điều kiện cho vi khuẩn phát triển gây ra nhiều bệnh lý như: viêm bàng quang , viêm tinh hoàn , viêm tuyến tiền liệt , ... Bên cạnh đó, sự trào ngược nước tiểu lên thận có thể gây viêm thận, viêm bể thận ngược dòng, nặng hơn là việc có thể dẫn đến tình trạng nhiễm khuẩn huyết , làm nguy hiểm đến tính mạng. Tổn thương bàng quang: Do rối loạn về tiểu tiện nên bàng quang phải chịu đựng tình trạng chứa đầy nước tiểu trong một thời gian dài dẫn đến việc suy yếu cơ bàng quang. Phì đại lành tính tiền liệt tuyến Tổn thương thận: Sự ứ đọng nước tiểu lâu ngày sẽ ảnh hưởng đến chức năng thận, làm suy giảm chức năng thận và sẽ dần diễn tiến đến suy thận . Đi tiểu có máu: Tình trạng đi tiểu có máu ít gặp hơn, thường ở đầu bãi, nhưng cũng có trường hợp đi tiểu nhiều máu và có cả cục máu đông. Phì đại tiền liệt tuyến lành tính cũng ảnh hưởng nặng nề tới tâm lý và suy giảm sức khỏe tình dục của do gặp những triệu chứng đau buốt khi quan hệ tình dục hay tăng nguy cơ vô sinh . Ngoài ra bệnh phì đại lành tính tuyến tiền liệt còn gây nên một số bệnh lý toàn thân kèm theo như: bệnh lý tim mạch , tăng huyết áp , chấn thương,...",
+            "score": 0.48942291736602783,
+            "id": "vietnamese_healthcare_39998",
+            "rerank_score": 0.1393260359764099,
+            "weighted_score": 0.14188770055770875
+        }
+    ],
+    "llm_call": 4,
+    "iteration": 1
+}

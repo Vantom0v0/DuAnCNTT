@@ -1,0 +1,118 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Em có bầu 8 tuần không biết, lúc 5 tuần có dấu hiệucảm cúm, em tự mua thuốc ở ngoài uống 2,5 ngày không đỡ, em đi khám xét nghiệm bị cúm A, em chụp X-quang và CT. Vậy bác sĩ cho em hỏichụp X-quang và CT khi mang thai 8 tuần có sao không?Em có nên giữ thai không? Xin bác sĩ tư vấn giúp em, em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Trong 3 tháng đầu tiên của thai kỳ, cần hạn chế chụp X-quang hay CT. Hai tuần đầu thai kỳ:Nguy cơ sảy thaikhi liều lượng tia X lớn hơn 5 rad. Tuần từ 3-8 thai kỳ, liều tia xạ lớn hơn 20-30 rad có nguy cơ ảnh hưởng đến thai: Chậm phát triển, ung thư, dị tật,.... Ví dụ: Trong trường hợp chụp X quang vùng ngực, khả năng thai nhi hấp thụ là 0,00007 lần/ chụp, để đạt liều ảnh hưởng 5 rad thì người mẹ cần chụp X-quang 71429 lần chụp. Trường hợp của bạn mô tả vừa chụp X-quang vừa chụp CT nếu chỉ vùng ngực và duy nhất 1 lần thì nguy cơ ảnh hưởng đến thai không quá lớn. Tuy nhiên, vẫn có tỷ lệ nhỏ (4-6%)thai nhi bị bất thườngngay cả không tiếp xúc với tia X, do vậy, bạn nên đi khám và tầm soát định kỳ để phát hiện sớm nhất những bất thường nếu có.",
+    "answer": "Với thông tin được cung cấp, chưa thể đánh giá chính xác nguy cơ của lần chụp CT vì cần biết vùng chụp, liều tia, thời gian và số lần chiếu; các yếu tố này quyết định mức ảnh hưởng. Riêng X-quang ngực có liều nhiễm xạ rất thấp, và nguy cơ biểu hiện do nhiễm xạ không cao hơn nguy cơ nền; trong tuần thai 3–8, nguy cơ được nêu khi liều tia lớn hơn 20–30 rad. Vì vậy, chưa có cơ sở để nghĩ đến việc bỏ thai. Em nên bình tĩnh, yêu cầu cơ sở y tế ghi lại thông số và thời gian chụp, đồng thời sớm gặp bác sĩ sản phối hợp với bác sĩ chẩn đoán hình ảnh để đánh giá liều tia và theo dõi thai kỳ; thực hiện khám, xét nghiệm và siêu âm sàng lọc định kỳ. Thông tin về các thuốc em đã uống chưa đủ để đánh giá trong bằng chứng hiện có.",
+    "evidence": [
+        "Tuy nhiên việc chụp X-quang ngực liều nhiễm xạ rất thấp (tương đương 1 ngày tắm biển).",
+        "Do đó việc nghĩ đến chuyện bỏ thai là không nên.",
+        "Tần suất sinh cháu với các biểu hiện do nhiễm xạ (dị tật,...) không cao hơn nguy cơ nền nên em không cần quá lo lắng.",
+        "Chỉ cần theo dõi thai định kỳ, khám, xét nghiệm, siêu âm sàng lọc theo quy định là được em nhé.",
+        "Các nghiên cứu đánh giá nguy cơ ảnh hưởng đến thai sau 01 lần chụp X quang là rất ít.",
+        "Còn nếu bạn phát hiện mình có đã có thai sau khi vô tình chụp thì bạn cũng nên bình tĩnh đừng lo lắng quá làm ảnh hưởng tới sức khỏe, lúc này bạn nên yêu cầu nhân viên y tế ghi lại các thông số chụp, thời gian chụp và gặp bác sĩ sản phối hợp với bác sĩ chẩn đoán hình ảnh theo dõi sát thai kỳ của bạn để phát đánh giá sự phát triển của thai, từ đó sẽ có những xử trí thích hợp tùy vào từng giai đoạn bạn nhé.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Sự ảnh hưởng củatia Xđối với sức khỏe của con người liên quan tới liều tia, thời gian tiếp xúc, số lần nhận tia....",
+        "Tuần thứ 3 - 8 thai kỳ: Nguy cơ ảnh hưởng đến thai khi liều lượng tia xạ lớn hơn 20-30 rad.",
+        "Khi thực hiện kỹ thuật chụp X quang vào các cơ quan như đầu, chân thì tia X không chiếu vào vùng bào thai.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Chụp X quang phổi là kỹ thuật chẩn đoán hình ảnh có sử dụng tia X nên sẽ có khả năng gây ảnh hưởng tới thai nhi đặc biệt là ở quý đầu thai kỳ."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Em năm nay 28 tuổi, lập gia đình được 3 năm và rất mong có con. Do kinh nguyệt không đều, em không biết mình có thai. Đến ngày 21.3 vừa qua, khám sức khỏe định kỳ, siêu âm ổ bụng em mới biết mình có thai. Tuy nhiên, lúc chờ siêu âm em đã đi chụp X-quang ngực. Sau đó, em đi khám sản khoa và nói với bác sĩ việc chụp X-quang, bác sĩ khá bất ngờ và có hỏi em muốn giữ thai hay không vì sợ tia X ảnh hưởng đến thai. Bác sĩ cũng khẳng định không phương pháp nào có thể biết được tác động của tia X lên thai nhi, chỉ có thể biết khi bé ra đời. Bác sĩ cho em hỏi, chụp X-quang như vậy có phải rất nguy hiểm cho thai nhi không ạ? Trước đó em cũng dùng thuốc giảm cân, thành phần có lá sen, mật ong, hoa cam đắng, trà xanh và diệp lục, liệu thuốc giảm cân có ảnh hưởng gì đến thai nhi không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Thân chào em,\nViệc em có thai nhưng không biết và đi chụp X-quang ngực là việc không mong muốn. Tuy nhiên việc chụp X-quang ngực liều nhiễm xạ rất thấp (tương đương 1 ngày tắm biển). Do đó việc nghĩ đến chuyện bỏ thai là không nên. Tần suất sinh cháu với các biểu hiện do nhiễm xạ (dị tật,...) không cao hơn nguy cơ nền nên em không cần quá lo lắng.\nNếu thai đã lớn (>3 tháng) thì nguy cơ ảnh hưởng càng thấp hơn nữa. Chỉ cần theo dõi thai định kỳ, khám, xét nghiệm, siêu âm sàng lọc theo quy định là được em nhé.\nThuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em.\nChúc em mẹ tròn con vuông nhé!",
+                "score": 0.5971672534942627,
+                "id": "vietnamese_medical_qa_3309",
+                "rerank_score": 0.9846359491348267
+            },
+            {
+                "text": "Câu hỏi: Vợ em có bầu 5 tháng hiện tại bị mắccúm Ađược nửa ngày rồi. Vậy bác sĩ cho em hỏimắc cúm A khi mang thai nguy hiểm như thế nào đến mẹ và con?Em cảm ơn bác sĩ. Nguyen Van Thinh(Hà Nội) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Thị Nhật -Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Giai đoạn hình thành các cơ quan trong cơ thể ở phụ nữ mang thai diễn ra trong 3 tháng đầu của thai kì. Vì vậy, nếu vợ bạn bị mắc cúm A tháng thứ 5 không nguy hiểm đến em bé. Tuy nhiên, mắc cúm A thường sốt cao, vì vậy cần phải hạ sốt cho mẹ để không ảnh hưởng đến em bé.",
+                "score": 0.5770087242126465,
+                "id": "medical_vietnamese_qa_4337",
+                "rerank_score": 0.9821017980575562
+            },
+            {
+                "text": "Câu hỏi: ! Em vừa mới có bầu 6 tuần nhưng em nhớ ra khoảng 3 tuần trước em cóchụp X quang. Bác sĩ cho em hỏi như thế có ảnh hưởng đến thai nhi không ạ? Mong bác sĩ tư vấn giúp em, em xin cảm ơn. Nguyễn Lệ Hằng(1999) Trả lời\nTrả lời: Chào bạn! Các nghiên cứu đánh giá nguy cơ ảnh hưởng đến thai sau 01 lần chụp X quang là rất ít. Chỉ khi chụp nhiều lần, quá gần nhau trong giai đoạnthai nhỏ. Vì vậy khuyến cáo khi chụp nếu nghi ngờ có thai hay đang có thai mà bắt buộc phải chụp thì cần phải che chắn tốt vùng bụng bằng phương tiện chắn tia X quang (Ví dụ: Áo chì). Cảm ơn bạn đã gửi câu hỏi tớiHệ thống Y tế Vinmec! Trân trọng. Bác sĩ chuyên khoa I Nguyễn Đình Hùng -Bác sĩ Chẩn đoán hình ảnh - Khoa Chẩn đoán hình ảnh - Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng",
+                "score": 0.583246111869812,
+                "id": "medical_vietnamese_qa_4151",
+                "rerank_score": 0.8952017426490784
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho em hỏi chụp X quang ngực khi đang mang thai có sao không ạ? Mong bác sĩ tư vấn ạ. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Chụp X quang ngực là một kỹ thuật chống chỉ định tương đối (tức là rất hạn chế thực hiện) đối với phụ nữ mang thai, đặc biệt là giai đoạn ba tháng đầu thai kỳ.\nTrong trường hợp bắt buộc phải chụp bạn sẽ được che chắn rất kỹ cho thai để hạn chế tối đa tác động tia X tới thai. Còn nếu bạn phát hiện mình có đã có thai sau khi vô tình chụp thì bạn cũng nên bình tĩnh đừng lo lắng quá làm ảnh hưởng tới sức khỏe, lúc này bạn nên yêu cầu nhân viên y tế ghi lại các thông số chụp, thời gian chụp và gặp bác sĩ sản phối hợp với bác sĩ chẩn đoán hình ảnh theo dõi sát thai kỳ của bạn để phát đánh giá sự phát triển của thai, từ đó sẽ có những xử trí thích hợp tùy vào từng giai đoạn bạn nhé.",
+                "score": 0.575697660446167,
+                "id": "vietnamese_medical_qa_4571",
+                "rerank_score": 0.8090957999229431
+            },
+            {
+                "text": "Câu hỏi: Vợ em đang mang bầu tuần thứ 9, trước đó ở tuần thứ 5 có bị nhiễm Covid sau 1 tuần thì khỏi. Hậu Covid thì có ho nhiều và thi thoảng ho ra đờm kèm máu, em cho vợ đi kiểm tra thì được chẩn đoán bị viêm họng mạn tính. Em có mua thuốc nam cho vợ uống và đỡ ho nhưng thi thoảng vẫn ho ra máu. Vậy bác sĩ em hỏicó thể chụp X quang phổi khi mang thai 9 tuần không??Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Chụp X quang phổi là kỹ thuật chẩn đoán hình ảnh có sử dụng tia X nên sẽ có khả năng gây ảnh hưởng tới thai nhi đặc biệt là ở quý đầu thai kỳ. Trong một số trường hợp thai phụ bắt buộc phải chụp để chẩn đoán, nhân viên phòng X quang sẽ tư vấn lại sự cần thiết và mối nguy cơ cho thai phụ. Đồng thời sẽ sử dụng các biện pháp kỹ thuật để che chắn, giảm thiểu thời gian và cường độ bức xạ tới thai nhi.",
+                "score": 0.5906095504760742,
+                "id": "medical_vietnamese_qa_1686",
+                "rerank_score": 0.7668254971504211
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Vợ em có bầu 5 tháng hiện tại bị mắccúm Ađược nửa ngày rồi. Vậy bác sĩ cho em hỏimắc cúm A khi mang thai nguy hiểm như thế nào đến mẹ và con?Em cảm ơn bác sĩ. Nguyen Van Thinh(Hà Nội) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Thị Nhật -Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Giai đoạn hình thành các cơ quan trong cơ thể ở phụ nữ mang thai diễn ra trong 3 tháng đầu của thai kì. Vì vậy, nếu vợ bạn bị mắc cúm A tháng thứ 5 không nguy hiểm đến em bé. Tuy nhiên, mắc cúm A thường sốt cao, vì vậy cần phải hạ sốt cho mẹ để không ảnh hưởng đến em bé.",
+                "score": 0.5786184072494507,
+                "id": "medical_vietnamese_qa_4337",
+                "rerank_score": 0.9821017980575562
+            },
+            {
+                "text": "Câu hỏi: Vợ em đang mang bầu tuần thứ 9, trước đó ở tuần thứ 5 có bị nhiễm Covid sau 1 tuần thì khỏi. Hậu Covid thì có ho nhiều và thi thoảng ho ra đờm kèm máu, em cho vợ đi kiểm tra thì được chẩn đoán bị viêm họng mạn tính. Em có mua thuốc nam cho vợ uống và đỡ ho nhưng thi thoảng vẫn ho ra máu. Vậy bác sĩ em hỏicó thể chụp X quang phổi khi mang thai 9 tuần không??Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Chụp X quang phổi là kỹ thuật chẩn đoán hình ảnh có sử dụng tia X nên sẽ có khả năng gây ảnh hưởng tới thai nhi đặc biệt là ở quý đầu thai kỳ. Trong một số trường hợp thai phụ bắt buộc phải chụp để chẩn đoán, nhân viên phòng X quang sẽ tư vấn lại sự cần thiết và mối nguy cơ cho thai phụ. Đồng thời sẽ sử dụng các biện pháp kỹ thuật để che chắn, giảm thiểu thời gian và cường độ bức xạ tới thai nhi.",
+                "score": 0.5760270357131958,
+                "id": "medical_vietnamese_qa_1686",
+                "rerank_score": 0.7668254971504211
+            },
+            {
+                "text": "Câu hỏi: Em bị chấn thương có chụp X quang ở đầu gối và đầu lúc mang thai 4 tuần và 6 tuần, không có biện pháp che chắn do không biết có thai. Bác sĩ cho em hỏi,chụp X quang khi mang thai có ảnh hưởng đến thai nhi không?Khi sàng lọc có thể phát hiện các bất thường do tia X không?\nTrả lời: bác sĩ xin giải đáp như sau: Sự ảnh hưởng củatia Xđối với sức khỏe của con người liên quan tới liều tia, thời gian tiếp xúc, số lần nhận tia.... Theo các bác sĩ, mỗi giai đoạn thai kỳ có mức độ ảnh hưởng của tia X đến thai nhi khác nhau. Cụ thể: Hai tuần đầu thai kỳ: Nguy cơ sẩy thai khi liều lượng tia X lớn hơn 5 rad. Tuần thứ 3 - 8 thai kỳ: Nguy cơ ảnh hưởng đến thai khi liều lượng tia xạ lớn hơn 20-30 rad. Sau tuần thứ 20 thai kỳ: Nguy cơ sẩy thai không tăng nếu chụp X quang khi mang thai vì lúc này thai nhi đã phát triển khá hoàn chỉnh. Phương phápchụp X quangcó liều thấp hơn so với bức xạ được dùng để điều trị. Vì thế, mức độ nguy hại khi tiếp xúc với tia X cũng rất thấp. Khi thực hiện kỹ thuật chụp X quang vào các cơ quan như đầu, chân thì tia X không chiếu vào vùng bào thai. Một số tia thứ cấp có thể chạm tới nhưng với liều rất nhỏ nên không thể làm tăng nguy cơ dị tật bẩm sinh thai nhi. Nếu cảm thấy lo lắng, bạn có thể thăm khám bác sĩ chuyên khoa để được tư vấn chi tiết.",
+                "score": 0.5646149516105652,
+                "id": "medical_vietnamese_qa_2624",
+                "rerank_score": 0.7335981130599976
+            },
+            {
+                "text": "Câu hỏi: Chụp X-quang ngực khi mang thai liệu có nguy hiểm?\nTrả lời: Việc em có thai nhưng không biết và đi chụp X-quang ngực là việc không mong muốn. Tuy nhiên việc chụp X-quang ngực liều nhiễm xạ rất thấp (tương đương 1 ngày tắm biển). Do đó việc nghĩ đến chuyện bỏ thai là không nên. Tần suất sinh cháu với các biểu hiện do nhiễm xạ (dị tật, . . . )không cao hơn nguy cơ nền nên em không cần quá lo lắng. Nếu thai đã lớn (>3 tháng) thì nguy cơ ảnh hưởng càng thấp hơn nữa. Chỉ cần theo dõi thai định kỳ, khám, xét nghiệm, siêu âm sàng lọc theo quy định là được em nhé. Thuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em. Thuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em.",
+                "score": 0.5652942657470703,
+                "id": "vietnamese_healthcare_6920",
+                "rerank_score": 0.7261446118354797
+            },
+            {
+                "text": "Câu hỏi: Em đang mang thai 5 tuần và chưa tiêm phòng cúm. Vậy bác sĩ cho em hỏitiêm phòng cúm khi mang thai 5 tuần có được không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Cúm khác với cảm lạnh thông thường. Bệnh cúm thường đi kèm với những triệu chứng sổ mũi, sốt, ho, mệt mỏi, đau nhức cơ thể. Với người bình thường, cúm cũng có thể biến chứng thành viêm phổi, nguy hiểm đến sức khỏe đường hô hấp. Với phụ nữ mang thai, bệnh cúm càng nguy hiểm. Phụ nữ mang thai nếu bị cúm nặng có thể gây những biến chứng khôn lường. Mẹ có nguy cơ sinh non, thai nhi phát triển không bình thường. Thậm chí có thể dẫn đến dị tật thai nhi. Tiêm phòng là cách tốt nhất để bảo vệ mẹ bầu và thai nhi khỏi sự tác động của bệnh cúm. Với những chị em quan tâm đến sức khỏe sinh sản thường sẽ tìm hiểu trước và thực hiện tiêm các mũi vắc xin cần thiết trước khi có kế hoạch sinh con. Tuy nhiên, với những mẹ chưa có thời gian chuẩn bị từ trước thì có thể bảo vệ mình bằng cách tiêm vắc xin phòng cúm sau khi đã có thai. Thời điểm cần thiết nhất là trước mùa cúm (từ tháng 10 năm trước đến tháng 5 năm sau). Tiêm ở thời điểm nào trong thai kỳ cũng được, tuy nhiên nên tiêm cúm trước khi có thai 1 tháng để bảo vệ được toàn bộ quá trình thai kỳ. Vì sau khi tiêm, chỉ cần 2 - 4 tuần sau là vắc xin sẽ tác động tới hệ miễn dịch để cơ thể tự sản sinh kháng thể phòng virus cúm. Ngoài vacxin phòng cúm ra, phụ nữ mang thai sẽ được các bác sĩ Sản khoa và các bác sĩ tiêm chủng dựa trên tháng tuổi của thai nhi và tình hình dịch tễ thời điểm đó để tư vấn về các loại vacxin khác như vacxin uốn ván, vacxin phòng bạch hầu, ho gà, uốn ván và vacxin phòng Covid,...",
+                "score": 0.5757310390472412,
+                "id": "medical_vietnamese_qa_12743",
+                "rerank_score": 0.5397834777832031
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Em năm nay 28 tuổi, lập gia đình được 3 năm và rất mong có con. Do kinh nguyệt không đều, em không biết mình có thai. Đến ngày 21.3 vừa qua, khám sức khỏe định kỳ, siêu âm ổ bụng em mới biết mình có thai. Tuy nhiên, lúc chờ siêu âm em đã đi chụp X-quang ngực. Sau đó, em đi khám sản khoa và nói với bác sĩ việc chụp X-quang, bác sĩ khá bất ngờ và có hỏi em muốn giữ thai hay không vì sợ tia X ảnh hưởng đến thai. Bác sĩ cũng khẳng định không phương pháp nào có thể biết được tác động của tia X lên thai nhi, chỉ có thể biết khi bé ra đời. Bác sĩ cho em hỏi, chụp X-quang như vậy có phải rất nguy hiểm cho thai nhi không ạ? Trước đó em cũng dùng thuốc giảm cân, thành phần có lá sen, mật ong, hoa cam đắng, trà xanh và diệp lục, liệu thuốc giảm cân có ảnh hưởng gì đến thai nhi không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Thân chào em,\nViệc em có thai nhưng không biết và đi chụp X-quang ngực là việc không mong muốn. Tuy nhiên việc chụp X-quang ngực liều nhiễm xạ rất thấp (tương đương 1 ngày tắm biển). Do đó việc nghĩ đến chuyện bỏ thai là không nên. Tần suất sinh cháu với các biểu hiện do nhiễm xạ (dị tật,...) không cao hơn nguy cơ nền nên em không cần quá lo lắng.\nNếu thai đã lớn (>3 tháng) thì nguy cơ ảnh hưởng càng thấp hơn nữa. Chỉ cần theo dõi thai định kỳ, khám, xét nghiệm, siêu âm sàng lọc theo quy định là được em nhé.\nThuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em.\nChúc em mẹ tròn con vuông nhé!",
+                "score": 0.6172240972518921,
+                "id": "vietnamese_medical_qa_3309",
+                "rerank_score": 0.9846359491348267
+            },
+            {
+                "text": "Câu hỏi: ! Em vừa mới có bầu 6 tuần nhưng em nhớ ra khoảng 3 tuần trước em cóchụp X quang. Bác sĩ cho em hỏi như thế có ảnh hưởng đến thai nhi không ạ? Mong bác sĩ tư vấn giúp em, em xin cảm ơn. Nguyễn Lệ Hằng(1999) Trả lời\nTrả lời: Chào bạn! Các nghiên cứu đánh giá nguy cơ ảnh hưởng đến thai sau 01 lần chụp X quang là rất ít. Chỉ khi chụp nhiều lần, quá gần nhau trong giai đoạnthai nhỏ. Vì vậy khuyến cáo khi chụp nếu nghi ngờ có thai hay đang có thai mà bắt buộc phải chụp thì cần phải che chắn tốt vùng bụng bằng phương tiện chắn tia X quang (Ví dụ: Áo chì). Cảm ơn bạn đã gửi câu hỏi tớiHệ thống Y tế Vinmec! Trân trọng. Bác sĩ chuyên khoa I Nguyễn Đình Hùng -Bác sĩ Chẩn đoán hình ảnh - Khoa Chẩn đoán hình ảnh - Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng",
+                "score": 0.5895975828170776,
+                "id": "medical_vietnamese_qa_4151",
+                "rerank_score": 0.8952017426490784
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho em hỏi chụp X quang ngực khi đang mang thai có sao không ạ? Mong bác sĩ tư vấn ạ. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Chụp X quang ngực là một kỹ thuật chống chỉ định tương đối (tức là rất hạn chế thực hiện) đối với phụ nữ mang thai, đặc biệt là giai đoạn ba tháng đầu thai kỳ.\nTrong trường hợp bắt buộc phải chụp bạn sẽ được che chắn rất kỹ cho thai để hạn chế tối đa tác động tia X tới thai. Còn nếu bạn phát hiện mình có đã có thai sau khi vô tình chụp thì bạn cũng nên bình tĩnh đừng lo lắng quá làm ảnh hưởng tới sức khỏe, lúc này bạn nên yêu cầu nhân viên y tế ghi lại các thông số chụp, thời gian chụp và gặp bác sĩ sản phối hợp với bác sĩ chẩn đoán hình ảnh theo dõi sát thai kỳ của bạn để phát đánh giá sự phát triển của thai, từ đó sẽ có những xử trí thích hợp tùy vào từng giai đoạn bạn nhé.",
+                "score": 0.5871285796165466,
+                "id": "vietnamese_medical_qa_4571",
+                "rerank_score": 0.8090957999229431
+            },
+            {
+                "text": "Câu hỏi: Vợ em đang mang bầu tuần thứ 9, trước đó ở tuần thứ 5 có bị nhiễm Covid sau 1 tuần thì khỏi. Hậu Covid thì có ho nhiều và thi thoảng ho ra đờm kèm máu, em cho vợ đi kiểm tra thì được chẩn đoán bị viêm họng mạn tính. Em có mua thuốc nam cho vợ uống và đỡ ho nhưng thi thoảng vẫn ho ra máu. Vậy bác sĩ em hỏicó thể chụp X quang phổi khi mang thai 9 tuần không??Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Chụp X quang phổi là kỹ thuật chẩn đoán hình ảnh có sử dụng tia X nên sẽ có khả năng gây ảnh hưởng tới thai nhi đặc biệt là ở quý đầu thai kỳ. Trong một số trường hợp thai phụ bắt buộc phải chụp để chẩn đoán, nhân viên phòng X quang sẽ tư vấn lại sự cần thiết và mối nguy cơ cho thai phụ. Đồng thời sẽ sử dụng các biện pháp kỹ thuật để che chắn, giảm thiểu thời gian và cường độ bức xạ tới thai nhi.",
+                "score": 0.5748947858810425,
+                "id": "medical_vietnamese_qa_1686",
+                "rerank_score": 0.7668254971504211
+            },
+            {
+                "text": "Câu hỏi: Chụp X-quang ngực khi mang thai liệu có nguy hiểm?\nTrả lời: Việc em có thai nhưng không biết và đi chụp X-quang ngực là việc không mong muốn. Tuy nhiên việc chụp X-quang ngực liều nhiễm xạ rất thấp (tương đương 1 ngày tắm biển). Do đó việc nghĩ đến chuyện bỏ thai là không nên. Tần suất sinh cháu với các biểu hiện do nhiễm xạ (dị tật, . . . )không cao hơn nguy cơ nền nên em không cần quá lo lắng. Nếu thai đã lớn (>3 tháng) thì nguy cơ ảnh hưởng càng thấp hơn nữa. Chỉ cần theo dõi thai định kỳ, khám, xét nghiệm, siêu âm sàng lọc theo quy định là được em nhé. Thuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em. Thuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em.",
+                "score": 0.5841773152351379,
+                "id": "vietnamese_healthcare_6920",
+                "rerank_score": 0.7261446118354797
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

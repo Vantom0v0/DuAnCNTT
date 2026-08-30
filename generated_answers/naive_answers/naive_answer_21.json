@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Ngón chân màu đen, chảy máu có phải bị hoại tử không?",
+    "ground_truth": "Dựa trên những dấu hiệu về thời gian mắc bệnh, triệu chứng hiện tại, bố của bạn có biểu hiện hoại tử ngón bàn chân. Đây là một trong những biến chứng đáng ngại của bệnh tiểu đường. Bệnh có nguy cơ cắt cụt chân nếu điều trị nội khoa không đạt kết quả. Bệnh nhân cần sớm đi khám bệnh, có thể kết hợp nhiều chuyên khoa như: nội tiết, ngoại khoa, dinh dưỡng để được tư vấn chi tiết và có phương pháp điều trị thích hợp nhất.",
+    "answer": "Ngón chân bị thâm đen, chảy máu—đặc biệt kèm sưng, đau, chảy dịch hoặc có mùi hôi—có biểu hiện phù hợp với hoại tử, một biến chứng nặng thường gặp ở người bệnh tiểu đường. Đây là tình trạng cần được đưa đi khám và nhập viện ngay để điều trị, vì có nguy cơ phải cắt cụt chân nếu điều trị không hiệu quả; nên khám phối hợp các chuyên khoa nội tiết, ngoại khoa và dinh dưỡng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nBa em bị bệnh tiểu đường đã 14 năm. Hiện tại chân ba em bị sưng rất to và có 1 ngón chân đã bị đen chảy máu ra nhiều và có mùi rất hôi. Bác sĩ cho em hỏi, ngón chân màu đen, chảy máu có phải bị hoại tử không? Em xin cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nDựa trên những dấu hiệu về thời gian mắc bệnh, triệu chứng hiện tại, bố của bạn có biểu hiện hoại tử ngón bàn chân. Đây là một trong những biến chứng đáng ngại của bệnh tiểu đường. Bệnh có nguy cơ cắt cụt chân nếu điều trị nội khoa không đạt kết quả. Bệnh nhân cần sớm đi khám bệnh, có thể kết hợp nhiều chuyên khoa như: nội tiết, ngoại khoa, dinh dưỡng để được tư vấn chi tiết và có phương pháp điều trị thích hợp nhất.\nTrân trọng!",
+            "score": 0.6777529120445251,
+            "id": "vietnamese_medical_qa_1287"
+        },
+        {
+            "text": "Câu hỏi: Dấu hiệu hoại tử ngón chân ở người bệnh tiểu đường\nTrả lời: 2. Dấu hiệu hoại tử ngón chân ở người bệnh tiểu đường\nTheo Tổ chức Y Tế thế giới thống kê, trung bình cứ 2 phút trôi qua sẽ có 2 bệnh nhân tiểu đường phải cắt cụt chi do biến chứng loét bàn chân . Nguyên nhân chính trong số này là do không biết chăm sóc vết thương đúng cách. Do vậy, cần hết sức chú ý tới các dấu hiệu hoại tử ngón chân để chăm sóc vết thương đúng cách: Sưng đau ngón chân; Nóng ở các chi; Vòng đỏ > 0,5 cm bao quanh vết loét; Chảy mủ, có thể là mủ đục, trắng hoặc lẫn máu. Cũng có trường hợp vết thương bị hoại tử khô, không sưng đỏ, đau hay nóng hoặc chảy mủ mà sẽ thâm đen và teo dần lại. Đây cũng là tình trạng nặng và cần nhập viện ngay để điều trị.",
+            "score": 0.6335420608520508,
+            "id": "vietnamese_healthcare_20808"
+        },
+        {
+            "text": "Câu hỏi: Cho em hỏi, người nhà em ( cụ thể là ông em - 74  tuổi ) trong 3 ngày gần đây có hiện tượng phần da các đầu ngón tay, ngón chân bị thâm đen, bị vậy có làm sao không ạ?\nTrả lời: Chào bạn, bạn nên đưa ông đến ngay chuyên khoa tim mạch để khám vì tổn thương như bạn mô tả có nguy cơ tắc mạch và hoại tử đầu chi nhé. Chúc ông và gia đình nhiều sức khoẻ!",
+            "score": 0.5251640677452087,
+            "id": "vietnamese_medical_qa_5028"
+        },
+        {
+            "text": "Câu hỏi: Răng cháu có xuất hiện chấm đen, lỗ thủng dưới chân răng và hay bị chảy máu vào buổi sáng thức dậy. Vậy bác sĩ cho cháu hỏirăng có lỗ chấm đen, chảy máu khi thức dậy là sao?Cháu cảm ơn bác sĩ. Dương Thành Cường(2000) Trả lời Được giải đáp bởiBác sĩ Răng - Hàm - Mặt- Khoa Liên Chuyên Khoa, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Răng bạn có chấm đen và lỗ thủng là đã bịsâu răng. Bạn hay bịchảy máu lợilà biểu hiện của viêm lợi.Viêm lợithì có nhiều nguyên nhân nhưng hay gặp nhất là do cao răng. Vì vậy, bạn nên tới khám với bác sĩ nha khoa để được thăm khám, hàn răng bị sâu và lấy cao răng kịp thời, tránh các biến chứng nặng hơn.",
+            "score": 0.5152937173843384,
+            "id": "medical_vietnamese_qa_9626"
+        },
+        {
+            "text": "Câu hỏi: Dấu hiệu vết thương bị hoại tử\nTrả lời: 2. Dấu hiệu vết thương bị hoại tử\nDấu hiệu vết thương bị hoại tử sẽ tùy thuộc từng loại như sau: Hoại tử khô: Da khô và co rút, chuyển từ màu xanh sang màu đen rồi bong ra. Da có cảm giác tê, lạnh. Có thể bị đau hoặc không. Sốt cao . Hoại thư ướt: Có cảm giác đau ở vùng da bị nhiễm trùng . Da chuyển màu từ đỏ sang nâu và cuối cùng bị đen lại. Có mụn nước hoặc vết loét tiết ra dịch có mùi rất hôi. Mệt mỏi, sốt. Khi nhấn vào vùng da bị tổn thương thấy có tiếng do sự di chuyển của dịch hoặc mủ phát ra.",
+            "score": 0.5013917684555054,
+            "id": "vietnamese_healthcare_127373"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

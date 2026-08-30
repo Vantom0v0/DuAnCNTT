@@ -1,0 +1,96 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ,\nCháu bị đau tim hay bị gì ạ??  Mỗi lần uống nước đá xong là cứ đau nhức như xương sắp bị rạn nứt í...  cháu thở thì nhói lắm như có cái gì đang đâm tim cháu ấy.. \nCháu bị gì ạ??  Có nguy hiểm k?",
+    "ground_truth": "Chào bạn\nVới các thông tin bạn đưa ra chúng tôi không thể khẳng định là bạn bị bệnh gì hay đang ở trong tình trạng nào. Bạn có thể cung cấp thêm thông tin như bạn chỉ bị như vậy khi uống nước đá hay những lúc khác cũng bị\nĐau ngực trái hay còn đau vị trí nào khác, có hồi hộp đánh trống ngực hay không?\nĐau có lan đi đâu không\nbạn có kèm ợ hơi, ợ chua hay buồn nôn không\nCó khó thwor kèm theo không...\nBạn có từng bị bệnh gì trước đây không\nĐể yên tâm bạn nên đi khám để các bác sĩ chẩn đoán xác định tình trạng của bạn, tránh hoang mang lo lắng.\nThân mến",
+    "answer": "Đau nhói ngực trái khi hít thở sau khi uống nước đá **chưa đủ thông tin để xác định là bệnh tim hay nguyên nhân khác**. Các khả năng được nêu trong thông tin gồm:\n\n- **Co thắt cơ thực quản**, nhất là nếu trước đó bị sặc nước.\n- **Viêm/hội chứng khớp sụn sườn hoặc đau thành ngực**, thường đau tăng khi hít sâu, ho, vận động hoặc do tư thế, chấn thương, ho kéo dài.\n- Một số vấn đề **hô hấp hoặc tim mạch**. Khó thở kèm đau ngực có thể gặp trong bệnh lý nguy hiểm như hội chứng vành cấp hoặc phình bóc tách động mạch chủ; cũng có thể do nguyên nhân ít nguy hiểm hơn như đau cơ, đau thần kinh liên sườn.\n- Đồ uống lạnh được đề cập là có thể liên quan đến nhịp tim không đều ở một số người, nhưng bằng chứng còn ở giai đoạn đầu.\n\n**Cần đi cấp cứu/đánh giá y tế khẩn cấp nếu có một trong các dấu hiệu sau:**\n\n- Đau ngực kéo dài khoảng **30 phút mà không giảm**.\n- Khó thở rõ, đau hoặc tức ngực nặng, cảm giác vật nặng đè lên ngực.\n- Đau xuất hiện khi vận động hoặc làm mọi hoạt động đều đau.\n- Choáng váng, tim đập nhanh/hồi hộp, đau lưng kèm khó thở.\n- Đau lan sang các vùng khác hoặc triệu chứng ngày càng nặng.\n\nNếu hiện tại bạn vẫn đau nhói khi thở hoặc đang khó thở, **không nên tự kết luận do nước đá** mà cần đến cơ sở y tế để được khám, điện tim và làm các xét nghiệm/chụp phim cần thiết.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tác dụng phụ và rủi ro khi tắm nước đá\nTrả lời: 3. Tác dụng phụ và rủi ro khi tắm nước đá\nTác dụng phụ đáng chú ý nhất của việc tắm nước đá là khiến cơ thể cảm thấy rất lạnh, ngoài tác dụng phụ này còn có một số rủi ro khác cần xem xét như sau: Rủi ro chính của việc tắm nước đá khi áp dụng cho những người có sẵn bệnh tim mạch hoặc huyết áp cao : Việc giảm thân nhiệt và ngâm mình trong nước đá sẽ làm co mạch máu và làm chậm dòng chảy của máu trong cơ thể, điều này có thể nguy hiểm khi người đó bị giảm lưu lượng máu, có nguy cơ bị ngừng tim hoặc đột quỵ . Một nguy cơ khác có thể xảy ra đó là hạ thân nhiệt , đặc biệt nếu người tập ngâm mình trong bồn nước đá quá lâu. Những người mắc bệnh tiểu đường tuýp 1 và bệnh tiểu đường tuýp 2 cũng nên cẩn thận với việc tắm nước đá vì cả hai loại bệnh này đều gây giảm khả năng duy trì thân nhiệt khi thay đổi nhiệt độ một cách khắc nghiệt. Hạ thân nhiệt là một rủi ro thường gặp của việc tắm nước đá",
+            "score": 0.522121012210846,
+            "id": "vietnamese_healthcare_48844",
+            "rerank_score": 0.33057427406311035
+        },
+        {
+            "text": "Câu hỏi: Uống nước đá có tốt không?\nTrả lời: 1. Uống nước đá có tốt không?\nKhó tiêu hóa Một số người tin rằng uống nước lạnh là một thói quen xấu, thực sự có thể gây hại cho sức khỏe lâu dài của cơ thể. Theo quan điểm này, uống nước lạnh làm co thắt dạ dày, khiến việc tiêu hóa thức ăn sau khi dùng bữa trở nên khó khăn hơn. Có người cũng tin rằng cơ thể phải làm việc nhiều hơn để duy trì nhiệt độ bên trong (37°C) nếu uống nước đá, hoặc nước lạnh dưới 4°C. Gây nghẹt mũi, khó thở Thực tế, uống nước lạnh có ảnh hưởng đến cơ thể theo những cách không lường trước được hoặc không mong muốn. Một nghiên cứu được tiến hành từ năm 1978 phát hiện ra rằng uống nước lạnh làm chất nhầy mũi dày hơn và khó đi qua đường hô hấp. Khi so sánh, các chuyên gia cũng nhận thấy những món canh súp và nước ấm nóng nói chung sẽ giúp mọi người dễ thở hơn. Vì vậy, nếu bạn đang cố gắng điều trị khỏi bệnh cảm lạnh hoặc cảm cúm , uống nước lạnh có thể khiến tình trạng nghẹt mũi trở nên tồi tệ hơn. Đau đầu và cổ họng Uống nước lạnh có thể làm nặng thêm một số tình trạng sức khỏe khác. Ví dụ, số liệu năm 2001 cho thấy uống nước lạnh có liên quan đến kích hoạt chứng đau nửa đầu ở những người đang trải qua căn bệnh này. Cơn đau liên quan đến co thắt tâm vị (achalasia) - tình trạng làm hạn chế khả năng truyền thức ăn qua thực quản, cũng có thể trở nên tồi tệ hơn nếu bạn uống nước lạnh trong bữa ăn. Đặc biệt không tốt cho người có bệnh lý tăng huyết áp. Uống nước lạnh có thể dễ gây co mạch và gây tai biến ở người bệnh lý bệnh lý huyết áp cao. Uống nước đá có thể gây triệu chứng đau họng và đau đầu ở một số người dùng Mất cân bằng cơ thể Trong y học cổ đại Trung Quốc, uống nước lạnh cùng với thức ăn nóng sẽ tạo ra sự mất cân bằng. Thông thường, các bữa ăn trong văn hóa Trung Hoa sẽ được phục vụ với nước ấm hoặc trà nóng. Quan điểm này cũng được công nhận rộng rãi trong một số nền văn hóa khác trên thế giới. Một số người còn rằng uống nước lạnh vào những ngày nóng bức sẽ không giúp bạn hạ nhiệt, chỉ giải tỏa cơn khát tức thời và khiến bạn bị mất nước nhiều hơn. Tuy nhiên chưa có đủ nghiên cứu để kết luận ý kiến này là đúng hay sai.",
+            "score": 0.6050946712493896,
+            "id": "vietnamese_healthcare_66264",
+            "rerank_score": 0.24969352781772614
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nSau khi uống nước bị làm cho sặc em bị đau thắt dưới ngực trái. Thở sâu là bị đau thắt không nằm nghiêng bên trái được. Nhờ bác sĩ tư vấn giúp đau thắt ngực trái khi sặc nước nên đi khám không? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nSau khi uống nước bị sặc làm đau thắt dưới trái thường do nguyên nhân co thắt cơ thực quản. Nếu tình trạng này xảy ra thường xuyên bạn nên đi khám chuyên khoa Tiêu hóa để được tư vấn điều trị.\nTrân trọng!",
+            "score": 0.4843476414680481,
+            "id": "vietnamese_medical_qa_507",
+            "rerank_score": 0.16905532777309418
+        },
+        {
+            "text": "Câu hỏi: Đồ uống lạnh\nTrả lời: 11. Đồ uống lạnh\nNhững loại đồ uống lạnh giúp bạn giải nhiệt mùa hè nhưng có thể khởi phát cơn rung nhĩ. Mặc dù các nghiên cứu vẫn đang ở giai đoạn đầu tuy nhiên một nghiên cứu được công bố gần đây cho thấy có mối liên hệ giữa việc hạ nhiệt độ đồ uống lạnh và nhịp tim không đều. Nếu bạn cảm thấy cảm giác hồi hộp đánh trống ngực thường xuất hiện sau khi uống các loại đồ uống lạnh, bạn nên đến gặp bác sĩ để được tư vấn kỹ hơn.",
+            "score": 0.4864974021911621,
+            "id": "vietnamese_healthcare_134596",
+            "rerank_score": 0.13607290387153625
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cổ họng tôi hay bị nhạy cảm với nước lạnh, mỗi lần tôi uống nước mát lạnh hoặc lạnh là cổ họng lại khô rát, sau đó giống như có đờm, đồng thời tạo cảm giác uể oải, tê mỏi trong người như sắp sốt. Vì thế, tôi đã không thể tiếp tục uống nước mát lạnh hoặc nước lạnh.\nVậy bác sĩ cho tôi hỏi nhạy cảm với nước lạnh, cổ đau rát họng có phải dấu hiệu viêm amidan? Có cần cắt amidan không?\nTrả lời: Chào bạn! Nước lạnh chỉ là yếu tố kích thích, khi tình trạng họng của bạn không tốt như bạn có yếu tố dị ứng, viêm họng mạn, viêm Amidan mạn. Khi bạn uống nước lạnh sẽ làm cho các tổ chức trong cổ họng dễ bị kích ứng và phù nề lên, các vi khuẩn cơ hội có thể xâm nhập vào các tổ chức hầu họng, các tổ chức lympho vùng họng như Amidan khẩu cái, Amidan đáy lưỡi, các hạt lympho thành sau họng sưng lên và gây nên các triệu chứng về họng đồng thời gây phản ứng của hệ thống miễn dịch của cơ thể nên bạn có cảm giác ớn lạnh, mệt mỏi.\nViệc cắt amidan cần có chỉ định của bác sĩ.\nCảm ơn bạn đã tin tưởng và gửi câu hỏi: “Nhạy cảm với nước lạnh, cổ đau rát họng có phải dấu hiệu viêm amidan?” đến AI-Doctor. Mong một ngày gần nhất có thể được gặp bạn để tư vấn chuyên sâu hơn nữa. Trân trọng!",
+            "score": 0.4637012779712677,
+            "id": "vietnamese_medical_qa_1978",
+            "rerank_score": 0.04856473207473755
+        },
+        {
+            "text": "Câu hỏi: . Em có triệu chứng mũi nhạy cảm và hay bị đau mũi. Mũi thì thường xuyên tắc 1 bên và thay đổi trái hoặc phải. Mấy năm trước em cứ nghĩ do mình bị viêm xoang nên như vậy nhưng đến bây giờ thì mũi em bị tắc và em có thể cảm nhận được ạ. Bên cạnh đó emthường xuyên khó thở,lâu lâu lại nhói ở tim. Xin hỏi bác sĩmũi bị tắc, thường xuyên khó thở kèm nhói ở tim là dấu hiệu bệnh gìvà không biết có phải là do mũi của em gây nên không ạ. Xin bác sĩ tư vấn giúp e ạ Vĩ Thị Bích Phượng(2000) Trả lời\nTrả lời: Chào bạn. Như bạn mô tả, mũi của bạn có khả năngviêm mũi vận mạch, gây ngạt mũi thường xuyên. Còn đau nhói ở tim, bạn nên khám chuyên khoa Tim mạch để được tư vấn điều trị thích hợp. Bên cạnh đó để có hướng điều trị tình trạng “mũi bị tắc thường xuyên khó thở kèm nhói ở tim là dấu hiệu bệnh gì”của bạn, bạn có thể đến các phòng khám chuyên khoa hoặc bệnh viện thuộcHệ thống Y tế Vinmecđể được bác sĩ kiểm tra và có những tư vấn chuyên sâu. Rất mong có thể gặp bạn. Cảm ơn bạn đã tin tưởng và chia sẻ lo lắng tới Vinmec. Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Văn Thái- Bác sĩ Tai Mũi Họng - Khoa Tai Mũi Họng và Phẫu thuật đầu cổ - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng Các nội dung tư vấn khác Viêm mũi vận mạch và viêm mũi dị ứng có điều trị dứt điểm được không? Viêm mũi dị ứng, ngứa cổ họng và tai có chữa khỏi không? Bệnh viêm phế quản - viêm mũi dị ứng ở trẻ có cần chạy khí dung không? Các bài viết cùng chủ đề Thế nào là viêm mũi vận mạch? Viêm mũi mãn tính: Chớ chủ quan Điều trị viêm mũi vận mạch thế nào?",
+            "score": 0.42737656831741333,
+            "id": "medical_vietnamese_qa_10352",
+            "rerank_score": 0.023667126893997192,
+            "weighted_score": 0.3377495586872101
+        },
+        {
+            "text": "Câu hỏi: Em bị ho với hít thở mạnh thì bị đau ở bên trên ngực trái. Lâu lâu, em cũng đau nhói lên xong rồi hết. Vậy bác sĩ cho em hỏiđau ngực trái khi hít thở mạnh là dấu hiệu bệnh gì?Có phải em bị viêm không thưa bác sĩ? Em cảm ơn bác sĩ. Nguyễn Trọng Hiếu(1995) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Thanh An -Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Dấu hiệuđau ngực trái khi hohoặc hít mạnh, có nhiều nguyên nhân, thường gặp nhất làhội chứng khớp sụn sườn, đặc biệt gặp ở vị trí tiếp giáp giữa các xương sườn và xương ức (là vị trí dọc hai bên xương ức), có thể gặp hai bên phải và trái. Triệu chứng đau xảy ra do viêm các khớp sụn sườn này, mức độ từ nhẹ đến nặng khác nhau, có thể đau khi hít vào mạnh hoặc khi ho, đôi khi đau cả khi hít thở nhẹ, hoặc đau âm ỉ liên tục. Nguyên nhân thường  do thói quen tập luyện, làm việc/ học tập, hoặc nằm ngủ không đúng tư thế, đôi khi xảy ra do chấn thương vùng ngực, hoặc có thể do ho kéo dài hay viêm nhiễm. Viêm sụn sườn có tiên lượng tốt, thương tự khỏi sau vài tuần, điều trị chủ yếu là thuốc giảm đau, Việc có cần uống hay không thì tùy mức độ triệu chứng đau và nguyên nhân gây ra. Nếu bạn thấy đau nhiều không giảm thì bạn nên đến gặp bác sĩ để được khám kỹ hơn. Khi cần, bác sĩ sẽ cho bạn chụpX - quang ngực thẳngđể kiểm tra thêm.",
+            "score": 0.4251454472541809,
+            "id": "medical_vietnamese_qa_11858",
+            "rerank_score": 0.8879607915878296,
+            "weighted_score": 0.2521200060844421
+        },
+        {
+            "text": "Câu hỏi: Mũi bị tắc, thường xuyên khó thở kèm nhói ở tim là dấu hiệu bệnh gì?\nTrả lời: Như bạn mô tả, mũi của bạn có khả năng viêm mũi vận mạch, gây ngạt mũi thường xuyên. Còn đau nhói ở tim, bạn nên khám chuyên khoa Tim mạch để được tư vấn điều trị thích hợp.",
+            "score": 0.45330047607421875,
+            "id": "vietnamese_healthcare_2386",
+            "rerank_score": 0.019458038732409477,
+            "weighted_score": 0.19519413374364378
+        },
+        {
+            "text": "Câu hỏi: Thỉnh thoảng, em bị khó thở và đau nhói tim. Vậy bác sĩ cho em hỏikhó thở kèm đau nhói tim là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khó thở kèm đau nhói ngực có thể gặp trong những bệnh cảnh nguy hiểm do bệnh lý tim mạch như hội chứng vành cấp, phình bóc tách động mạch chủ,... cũng có thể do những nguyên nhân không nguy hiểm như đau cơ, đau thần kinh liên sườn. Để biết chính xác tình trạng bệnh và phương pháp điều trị, bạn cần đi khám để bác sĩ có thể thăm khám và thực hiện những cận lâm sàng phù hợp.",
+            "score": 0.46849387884140015,
+            "id": "medical_vietnamese_qa_11675",
+            "rerank_score": 0.5032362937927246,
+            "weighted_score": 0.7900011539459229
+        },
+        {
+            "text": "Câu hỏi: Con hay bị tức bên ngực trái, khó thở, vận động đều cảm thấy đau, tức ngực trái. Mọi hoạt động đều gây đến việc đau tức ngực. Vậy bác sĩ cho em hỏiđau tức ngực trái kèm khó thở có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Chứng đau ngực trái thực chất không phải là một bệnh mà có thể là triệu chứng của nhiều bệnh lý khác nhau, có thể kể đến: Đau nhói ngực trái có thể liên quan đến bệnh tim mạch. Cụ thể là một số bệnh lý như viêm màng ngoài tim, phình tách động mạch chủ, bệnh van tim, mạch vành, thiếu máu cơ tim,... đều có triệu chứng đau nhói ngực trái từ ban đầu. Cơn đau thường xuất hiện ở vị trí sau xương ức rồi lan qua trái hoặc cả 2 bên ngực, đôi khi có thể lan đến các bộ phận trên cơ thể như tay, chân,... khi vận động mạnh, gây mất sức. Nếu nhận thấy dấu hiệu đau ngực trái kéo dài khoảng 30 phút nhưng không có dấu hiệu thuyên giảm thì bạn cần lưu ý và đến ngay các cơ sở y tế để thăm khám. Triệu chứng đau ngực trái cảnh báo bệnh đường tiêu hóa. Chứng đau ngực trái liên quan đến viêm cơ sụn, xương ở vùng ngực. Chứng đau ngực trái liên quan bệnh lý về phổi.",
+            "score": 0.4596875309944153,
+            "id": "medical_vietnamese_qa_11648",
+            "rerank_score": 0.9231882095336914,
+            "weighted_score": 0.5222139120101928
+        },
+        {
+            "text": "Câu hỏi: Cháu thường hay bị nhói bên sườn trái (đau đến nỗi không thở được mà phải thở 1 cách nhẹ nhàng), đau lưng và trào ngược dạ dày. Hiện tại, cháu đang khó thở và cảm thấy có vật nào đó rất nặng đè lên ngực trái kèm theo đau lưng, choáng váng. Vậy bác sĩ cho cháu hỏinữ giới đau nhói sườn trái, khó thở nguyên nhân là gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Các triệu chứng của bạn liên quan đến nhiều bệnh lý khác nhau và xảy ra ở nhiều thời điểm khác nhau như đau nhói sườn trái, đau liên quan quan đến hít thở, thường liên quan đến hội chứng khớp sụn sườn, có nhiều nguyên nhân dẫn đến như nằm ngồi sai tư thế, vận động thể lực không đúng cách hay bệnh dây thần kinh liên sườn, bệnh Zona,... Đau lưng có thể do nhiều nguyên nhân, ở tuổi của bạn, đau thường do ngồi lâu kéo dài, cách khắc phục là vận động thường xuyên hơn, nếu đau nhiều thì phải dùng thuốc. Trào ngược dạ dày thực quản, xảy ra do ăn uống không điều độ, nghỉ ngơi không hợp lý, đôi khi tự khỏi. Nếu khó chịu nhiều thì bạn nên khám bác sĩ chuyên khoa Tiêu hóa. Khó thở và tức ngực là hay triệu chứng có thể liên quan đến nhiều bệnh nguy hiểm liên quan đến hô hấp và tim mạch, do đó bạn cần đi khám bác sĩ.",
+            "score": 0.4587354063987732,
+            "id": "medical_vietnamese_qa_8627",
+            "rerank_score": 0.7879990339279175,
+            "weighted_score": 0.4661252498626709
+        },
+        {
+            "text": "Câu hỏi: Gần đây, em thấy mình có dấu hiệu khó thở, đau rãnh lưng giữa ở lưng. Đôi lúc tim đập nhanh, mỏi lưng, cảm giác đau nhói ở phần cuống tim khu vực ở lồng ngực hay mỏi nên đôi khi em vặn người qua trái phải thì kêu nhiều tiếng cạch cạch. Xin hỏi bác sĩkhó thở kèm tim đập nhanh nên khám gì?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Khó thở kèm tim đập nhanh nên khám gì?”, bác sĩ giải đáp như sau: Với các triệu chứng bạn mô tả, em cần gặp bác sĩ thăm khám, làm một số xét nghiệm, chụp phim, điện tim,... sau đó có chẩn đoán và điều trị",
+            "score": 0.4649902284145355,
+            "id": "medical_vietnamese_qa_11692",
+            "rerank_score": 0.017480526119470596,
+            "weighted_score": 0.37296193316578863
+        },
+        {
+            "text": "Câu hỏi: Đau nhói ngực trái khi gặp stress là sao?\nTrả lời: Cháu bị đau nhói ngực khi gặp stress, thời gian trước bị chấn thương do thể thao, như vậy cũng có thể liên quan đến vấn đề ở tim hoặc thành ngực. Chấn thương ngực dẫn đến các tổn thương như: Xương sườn, đụng dập phổi, dây thần kinh, van tim, khí quản,...Bạn nên đi khám chuyên khoa Tim mạch để chẩn đoán và điều trị bệnh nếu có. Bác sĩ có thể sẽ cho chỉ định một số xét nghiệm như: Máu, điện tim, X quang ngực, siêu âm tim để kiểm tra. Tùy kết quả mà bác sĩ sẽ tư vấn chính xác hơn nhé.",
+            "score": 0.49588102102279663,
+            "id": "vietnamese_healthcare_1550",
+            "rerank_score": 0.15811467170715332,
+            "weighted_score": 0.3137506484985352
+        }
+    ],
+    "llm_call": 7,
+    "iteration": 3
+}

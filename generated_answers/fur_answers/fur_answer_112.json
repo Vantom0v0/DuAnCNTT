@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Thưa bác sĩ, em năm nay 30 tuổi em đã hiến thận được 2 năm. Hiện giờ em muốn triệt sản vì vợ em đã sinh 3 bé . Vì không muốn vợ em đẻ thêm tổn hại sức khoẻ em muốn triệt sản. Cho em hỏi, đã hiến thận triệt sản có ảnh hưởng gì không? Mong bác sĩ tư vấn giúp em ạ.",
+    "ground_truth": "Chào bạn! Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả. Cho dù bạn đã hiến thận, bạn vẫn có phẫu thuật được.\nCảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Nam giới đã hiến thận triệt sản có ảnh hưởng gì không?” Rất mong có thể sớm gặp bạn tại AI-Doctor trong thời gian sớm nhất. Trân trọng.",
+    "answer": "Theo thông tin hiện có, triệt sản nam bằng phẫu thuật cắt ống dẫn tinh là thủ thuật đơn giản, an toàn và hiệu quả. Tuy nhiên, chưa có đủ thông tin cụ thể để khẳng định việc bạn đã hiến thận có ảnh hưởng đặc biệt đến thủ thuật này hay không.\n\nSau khi hiến thận, bạn nên được bác sĩ đánh giá chức năng quả thận còn lại và tình trạng sức khỏe hiện tại. Bạn nên khám tại cơ sở chuyên khoa, thông báo rõ tiền sử hiến thận 2 năm trước để được bác sĩ tiết niệu/nam khoa và chuyên khoa thận tư vấn trước khi thực hiện.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Nam giới đã hiến thận, triệt sản có ảnh hưởng gì không?\nTrả lời: Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả.",
+            "score": 0.6067822575569153,
+            "id": "vietnamese_healthcare_3682",
+            "rerank_score": 0.9988412261009216
+        },
+        {
+            "text": "Câu hỏi: Em muốnhiến 1 quả thận. Bác sĩ cho em hỏihiến 1 quả thận có ảnh hưởng tới sức khỏe không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bịsuy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phảicắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận. Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+            "score": 0.6083734631538391,
+            "id": "medical_vietnamese_qa_9288",
+            "rerank_score": 0.9925715327262878
+        },
+        {
+            "text": "Câu hỏi: Hiến 1 quả thận có ảnh hưởng tới sức khỏe không?\nTrả lời: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bị suy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phải cắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận.Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+            "score": 0.5890175700187683,
+            "id": "vietnamese_healthcare_3943",
+            "rerank_score": 0.9720702767372131
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nVợ em năm nay 25 tuổi có tiểu sử mắc bệnh viêm thận từ nhỏ và đã khỏi bệnh cách đây 16 năm. Vậy nếu lúc vợ em mang thai sinh con có ảnh hưởng gì đến chức năng thận không ạ? Bác sĩ cho em hỏi có tiền sử bệnh thận nếu mang thai ảnh hưởng gì không? Đã có trường hợp nào như vợ em bị tái phát sau sinh và không sinh con được nữa không ạ? Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVợ bạn có tiền sử viêm cầu thận và đã khỏi cách đây 16 năm tuy nhiên sau khi khỏi không biết có định kỳ khám kiểm tra chức năng thận và phân tích nước tiểu không. Các trường hợp tổn thương thận mạn tính (bệnh thận mạn) đôi khi chỉ thể hiện thay đổi ở phân tích nước tiểu mà không có triệu chứng lâm sàng. Các trường hợp bệnh thận mạn tính này thường sẽ nặng lên hoặc thể hiện rõ hơn khi mang thai. Trường hợp của vợ bạn nên được theo dõi bởi chuyên khoa thận trong suốt quá trình mang thai và cả sau sinh nữa.\nTrân trọng!",
+            "score": 0.5687682628631592,
+            "id": "vietnamese_medical_qa_3921",
+            "rerank_score": 0.5428756475448608
+        },
+        {
+            "text": "Câu hỏi: Em năm nay 35 tuổi, chồng em 39 tuổi, mặc dù kết hôn được ba năm nhưng vẫn chưa có con. Vợ chồng em có đi khám, kết quả chồng em bình thường không có vấn đề gì, em bị buồng trứng đa nang và trứng kém phát triển. Bác sĩ có kê thuốc kích thích trứng cho em nhưng không có hiệu quả. Em đã đi khám nhiều nơi nhưng không có kết quả.Vợ chồng em muốn có cháu, mong bác sĩ tư vấn giúp gia đình em. Trường hợp của vợ chồng em có phải thực hiện IUI hay IVF không và chi phí hết bao nhiêu ạ?\nTrả lời: Vợ chồng em muốn có cháu, mong bác sĩ tư vấn giúp gia đình em. Trường hợp của vợ chồng em có phải thực hiện IUI hay IVF không và chi phí hết bao nhiêu ạ?Em xin cám ơn bác sĩ!Chào bạn, cảm ơn câu hỏi của bạn. Quyết định làm thụ tinh nhân tạo (bơm tinh trùng vào buồng tử cung - IUI) hay thụ tinh trong ống nghiệm (IVF) đều dựa trên các chỉ định điều trị rõ ràng. Những chỉ định này phụ thuộc vào các yếu tố như chức năng buồng trứng, tình trạng vòi tử cung - buồng tử cung, chất lượng tinh trùng, . . . Trường hợp của hai vợ chồng bạn nên can thiệp các phương pháp hỗ trợ sinh sản. Hai bạn có thể đến thăm khám cùng bác sĩ để có thể thực hiện các kiểm tra còn thiếu về chức năng sinh sản và được tư vấn phương pháp hỗ trợ sinh sản phù hợp nhất với hai vợ chồng.",
+            "score": 0.5610756874084473,
+            "id": "vietnamese_healthcare_2720",
+            "rerank_score": 0.3086422383785248
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

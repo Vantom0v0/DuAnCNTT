@@ -1,0 +1,121 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tôi bị viêm gan B, năm 2014 tôi dùng thuốc điều trị thì bị mẩn ngứa khắp người. Sau đó, tôi dừng thuốc thì khỏi. Hiện tôi không điều trị và không dùng thuốc. Tình trạng bệnh vẫn được kiểm soát. Vậy tôi tiêm vaccine Covid-19 được không ạ?",
+    "ground_truth": "Anh bị viêm gan B mạn tính hiện tại không phải sử dụng thuốc và có tiền sử dị ứng độ 1 với thuốc kháng virus viêm gan B thì theo hướng dẫn của quyết định 2995/QD-BYT anh có thể tiêm chủng vaccine phòng Covid-19 tại khối bệnh viện.",
+    "answer": "Nếu viêm gan B của anh hiện ổn định, không trong giai đoạn tiến triển, không cần thay đổi điều trị đáng kể hoặc nhập viện trong khoảng 3 tháng gần đây và các xét nghiệm vẫn ổn, anh có thể tiêm vaccine Covid-19. Việc từng bị mẩn ngứa khi dùng thuốc năm 2014, sau khi ngừng thuốc thì tự khỏi, nếu không phải phản vệ độ 2 trở lên, thường không thuộc chống chỉ định; tuy nhiên anh cần thông báo đầy đủ tiền sử dị ứng khi khám sàng lọc và nên tiêm tại bệnh viện hoặc cơ sở có đủ năng lực hồi sức cấp cứu ban đầu. Anh cũng nên khám, xét nghiệm để xác nhận tình trạng viêm gan B đang ổn định trước khi tiêm.",
+    "evidence": [
+        "Trả lời: Trường hợp của anh bị viêm gan B mạn tính nhưng anh không nói rõ bệnh đã ổn định hay chưa, có đang điều trị bằng thuốc gì không?Do vậy, anh nên đi gặp bác sĩ để khám lại tình trạng bệnh của mình, nếu bệnh của anh không trong giai đoạn tiến triển và đang ổn định, anh có thể tiêm vaccine Covid-19 bình thường.",
+        "Trả lời: Theo các bệnh lý mà bạn mô tả như gan nhiễm mỡ, mỡ máu, viêm mũi dị ứng mạn tính, dị ứng mẩn ngứa không rõ nguyên nhấn, bạn không thuộc nhóm đối tượng chống chỉ định tiêm chủng vaccine Covid-19 nhưng sẽ cần cẩn trọng khi tiêm.",
+        "Do vậy, bạn nên tiêm tại khối bệnh viện hoặc nơi có đủ năng lực hồi sức cấp cứu ban đầu.",
+        "Trả lời: Trường hợp anh/chị bị dị ứng với thuốc tê, không rõ bệnh viện nơi anh chị thực hiện phẫu thuật có chẩn đoán tình trạng dị ứng của anh/chị thuộc về phản vệ độ mấy không?Nếu trường hợp dị ứng thuộc phản vệ độ 2 trở lên, anh/chị nằm trong nhóm đối tượng chống chỉ định tiêm ngừa vaccine Covid-19.",
+        "Nếu dị ứng của anh/chị chỉ biểu hiện bằng tình trạng nổi mẫn đỏ trên da, không kèm triệu chứng khác thì vẫn có thể tiêm ngừa vaccine Covid-19 bình thường.",
+        "Khi đến khám sàng lọc để tiêm ngừa vaccine Covid-19, anh/chị nên cung cấp thông tin về tình trạng dị ứng của mình cho bác sĩ khám sàng lọc, cung cấp tất cả hồ sơ, giấy tờ về những lần nhập viện trước đó và cả giấy xác nhận dị ứng với thuốc.",
+        "Anh có chia sẻ bị nổi mề đay, nhiều khi nổi cục ngứa trên đầu nhưng không dùng thuốc và tự khỏi thì đây không phải là phản vệ độ 2.",
+        "Chúng ta biết được, đối với bệnh viêm gan B, đôi khi chúng ta phải có những đợt xét nghiệm để kiểm tra bệnh đang ổn định hay đang diễn tiến để có thể điều trị kịp thời.",
+        "Còn trong trường hợp anh/chị bị dị ứng cần phải thông tin đầy đủ cho bác sĩ để các bác sĩ có thể quyết định anh/chị có thể tiêm chủng tại các cơ sở y tế ngoài bệnh viện hoặc trong bệnh viện, hay trong trường hợp nặng có thể chống chỉ định tiêm chủng.",
+        "Trả lời: Nếu các bệnh lý mãn tính như viêm gan B đã ổn định trong vòng 3 tháng trước khi tiêm chủng (có nghĩa là bệnh không cần thay đổi điều trị đáng kể hoặc nhập viện vì bệnh lý nặng hơn), các chỉ số xét nghiệm duy trì ở mức độ ổn thì anh/chị hoàn toàn có thể tiêm được vaccine phòng Covid-19.",
+        "Còn về vấn đề dị ứng, chúng tôi không biết mức độ dị ứng của anh/chị có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết.",
+        "- Nếu anh/chị chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên anh/chị cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+        "Trả lời: Trường hợp của bạn chỉ dị ứng nhẹ, chỉ nên theo dõi và nếu dị ứng là tự khỏi, không nhập viện thì có thể tiêm chủng vaccine Covid-19 bình thường, tuy nhiên sẽ tiêm chủng tại tuyến cơ sở bệnh viện có các trang thiết bị cấp cứu ban đầu."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B mãn tính, vài năm nay lại bị mẩn ngứa, nổi mề đay, nhiều khi mẩn ngứa nổi cục trên đầu và trên người. Tôi có thể tiêm vaccine phòng Covid-19 được không?\nTrả lời: Trường hợp của anh bị viêm gan B mạn tính nhưng anh không nói rõ bệnh đã ổn định hay chưa, có đang điều trị bằng thuốc gì không?Do vậy, anh nên đi gặp bác sĩ để khám lại tình trạng bệnh của mình, nếu bệnh của anh không trong giai đoạn tiến triển và đang ổn định, anh có thể tiêm vaccine Covid-19 bình thường. Anh có chia sẻ bị nổi mề đay, nhiều khi nổi cục ngứa trên đầu nhưng không dùng thuốc và tự khỏi thì đây không phải là phản vệ độ 2. Anh có thể tiêm ngừa Covid-19 nếu bệnh lý nền đã ổn định.",
+                "score": 0.6645859479904175,
+                "id": "vietnamese_healthcare_1865",
+                "rerank_score": 0.9997162222862244
+            },
+            {
+                "text": "Câu hỏi: Hiện tại em gặp 2 vấn đề sau:1. Em bị viêm gan B bùng phát đã điều trị ổn định, hiện nay vẫn còn dùng thuốc.2. Em cũng bị dị ứng khi bị ong ruồi đốt (đã bị 2 lần, triệu chứng nổi mề đay, ngứa khắp người, khó thở... cả 2 lần phải vào bệnh viện để tiêm thuốc). Vậy e có nên tiêm vaccine Covid-19 không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, anh thuộc đối tượng cần cẩn trọng khi tiêm và nên tiêm vaccine Covid-19 tại khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức ban đầu.",
+                "score": 0.6036787629127502,
+                "id": "vietnamese_healthcare_7007",
+                "rerank_score": 0.9994446635246277
+            },
+            {
+                "text": "Câu hỏi: Tôi bị gan nhiễm mỡ, mỡ máu, viêm mũi dị ứng mạn tính. Bên cạnh đó, tôi còn bị dị ứng mẩn ngứa hơn 11 năm không rõ nguyên nhân, ngứa thường nổi ở lưng, bụng và 2 bên bẹn (nổi mẩn theo mảng và có một số chỗ ngứa nổi sưng lên thành cục như kiểu vết sưng muỗi đốt nhưng rộng và to hơn) nhưng khi uống cetirizin vào thì lại hết (cách 4-5 ngày bị mẩn là uống 1 viên). Vậy tôi có thể tiêm vaccine Covid-19 không?\nTrả lời: Theo các bệnh lý mà bạn mô tả như gan nhiễm mỡ, mỡ máu, viêm mũi dị ứng mạn tính, dị ứng mẩn ngứa không rõ nguyên nhấn, bạn không thuộc nhóm đối tượng chống chỉ định tiêm chủng vaccine Covid-19 nhưng sẽ cần cẩn trọng khi tiêm. Do vậy, bạn nên tiêm tại khối bệnh viện hoặc nơi có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6103097796440125,
+                "id": "vietnamese_healthcare_4554",
+                "rerank_score": 0.9901913404464722
+            },
+            {
+                "text": "Câu hỏi: Tôi bị mề đay ngứa mãn tính, thường xuyên uống thuốc kháng histamin vậy tôi có được tiêm chủng vaccine Covid-19 không bác sĩ?\nTrả lời: Với thông tin về bệnh lý mà anh cung cấp, anh vẫn có thể tiêm vaccine Covid-19. Tuy nhiên, để đảm bảo an toàn, anh nên tiến hành tiêm chủng tại khối bệnh viện cơ sở y tế có năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6160816550254822,
+                "id": "vietnamese_healthcare_7093",
+                "rerank_score": 0.9823530912399292
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thuốc gây tê, mỗi lần phẫu thuật tôi đều bị nổi mẩn ngứa và đỏ lan dần ra khắp người. Vậy tôi có thể tiêm vaccine chống Covid-19 được không?\nTrả lời: Trường hợp anh/chị bị dị ứng với thuốc tê, không rõ bệnh viện nơi anh chị thực hiện phẫu thuật có chẩn đoán tình trạng dị ứng của anh/chị thuộc về phản vệ độ mấy không?Nếu trường hợp dị ứng thuộc phản vệ độ 2 trở lên, anh/chị nằm trong nhóm đối tượng chống chỉ định tiêm ngừa vaccine Covid-19. Nếu dị ứng của anh/chị chỉ biểu hiện bằng tình trạng nổi mẫn đỏ trên da, không kèm triệu chứng khác thì vẫn có thể tiêm ngừa vaccine Covid-19 bình thường. Khi đến khám sàng lọc để tiêm ngừa vaccine Covid-19, anh/chị nên cung cấp thông tin về tình trạng dị ứng của mình cho bác sĩ khám sàng lọc, cung cấp tất cả hồ sơ, giấy tờ về những lần nhập viện trước đó và cả giấy xác nhận dị ứng với thuốc. Tùy theo tình trạng của anh/chị, bác sĩ sẽ xác định có tiêm ngừa vaccine Covid-19 hay không. Trong trường hợp này, bác sĩ khuyên anh/chị nên tiêm ngừa vaccine tại bệnh viện. Nếu anh/chị được bác sĩ xác nhận đủ điều kiện tiêm ngừa vaccine, nên theo dõi kỹ những dấu hiệu lúc khám sàng lọc mà bác sĩ đã tư vấn để phát hiện sớm những trường hợp nếu có dị ứng xảy ra.",
+                "score": 0.6324146389961243,
+                "id": "vietnamese_healthcare_4824",
+                "rerank_score": 0.945537805557251
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B mãn tính, vài năm nay lại bị mẩn ngứa, nổi mề đay, nhiều khi mẩn ngứa nổi cục trên đầu và trên người. Tôi có thể tiêm vaccine phòng Covid-19 được không?\nTrả lời: Trường hợp của anh bị viêm gan B mạn tính nhưng anh không nói rõ bệnh đã ổn định hay chưa, có đang điều trị bằng thuốc gì không?Do vậy, anh nên đi gặp bác sĩ để khám lại tình trạng bệnh của mình, nếu bệnh của anh không trong giai đoạn tiến triển và đang ổn định, anh có thể tiêm vaccine Covid-19 bình thường. Anh có chia sẻ bị nổi mề đay, nhiều khi nổi cục ngứa trên đầu nhưng không dùng thuốc và tự khỏi thì đây không phải là phản vệ độ 2. Anh có thể tiêm ngừa Covid-19 nếu bệnh lý nền đã ổn định.",
+                "score": 0.6970455646514893,
+                "id": "vietnamese_healthcare_1865",
+                "rerank_score": 0.9997162222862244
+            },
+            {
+                "text": "Câu hỏi: Hiện tại em gặp 2 vấn đề sau:1. Em bị viêm gan B bùng phát đã điều trị ổn định, hiện nay vẫn còn dùng thuốc.2. Em cũng bị dị ứng khi bị ong ruồi đốt (đã bị 2 lần, triệu chứng nổi mề đay, ngứa khắp người, khó thở... cả 2 lần phải vào bệnh viện để tiêm thuốc). Vậy e có nên tiêm vaccine Covid-19 không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, anh thuộc đối tượng cần cẩn trọng khi tiêm và nên tiêm vaccine Covid-19 tại khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức ban đầu.",
+                "score": 0.6030128598213196,
+                "id": "vietnamese_healthcare_7007",
+                "rerank_score": 0.9994446635246277
+            },
+            {
+                "text": "Câu hỏi: Em bị bệnh viêm gan B đi khám và uống thuốc một lần cách đây 8 năm, chưa đi khám và chưa uống thêm đợt thuốc nào cả. Đợt này công ty cho tiêm vaccine liệu em có tiêm được không và độ an toàn có cao không ạ?\nTrả lời: Anh bị viêm gan B hiện chưa rõ tình trạng, cần đi khám chuyên khoa để đánh giá mức độ cũng như tình trạng nhiễm viêm gan B của mình. Nếu tình trạng của anh ổn định có thể tiêm ngừa sớm nhất có thể, nếu bệnh cần điều trị thì việc tiêm chủng vaccine ngừa Covid-19 sẽ tạm hoãn đến khi sức khỏe ổn định.",
+                "score": 0.6102619171142578,
+                "id": "vietnamese_healthcare_1771",
+                "rerank_score": 0.9984714388847351
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 44 tuổi, bị bệnh viêm gan B mãn tính hơn 10 năm nhưng trong tình trạng ổn định và chưa từng uống thuốc. Năm 41 tuổi sau khi sinh con tôi bị dị ứng nổi mề đay không rõ nguyên nhân. Ngoài ra, tôi bị xoang mãn tính, hay bị nhiễm cảm cúm khi chuyển mùa dẫn đến ho rất lâu. Năm 2020, tôi có tiêm phòng cúm thì thấy rất hiệu quả. Như vậy, tôi có nên tiêm phòng vaccine Covid-19 không?\nTrả lời: Tình trạng bệnh mãn tính đã ổn định, không sử dụng thuốc như là bệnh viêm gan B thì chúng tôi khuyến cáo anh/chị nên theo dõi tại bệnh viện. Chúng ta biết được, đối với bệnh viêm gan B, đôi khi chúng ta phải có những đợt xét nghiệm để kiểm tra bệnh đang ổn định hay đang diễn tiến để có thể điều trị kịp thời. Còn trong trường hợp anh/chị bị dị ứng cần phải thông tin đầy đủ cho bác sĩ để các bác sĩ có thể quyết định anh/chị có thể tiêm chủng tại các cơ sở y tế ngoài bệnh viện hoặc trong bệnh viện, hay trong trường hợp nặng có thể chống chỉ định tiêm chủng. Tuy nhiên, chúng tôi cũng nhận được thông tin là anh/chị đã tiêm vaccine cúm hàng năm và anh/chị thấy hiệu quả rất là tốt, chúng tôi thấy rằng việc tiêm ngừa để chúng ta có thể phòng được những biểu hiện của các bệnh lý đường hô hấp. Ngoài vaccine cúm, anh/chị có thể tiêm phòng các loại vaccine như vaccine phế cầu, vaccine ho gà. Đặc biệt những người có bệnh lý nền thì chúng ta cần tiêm phòng những vaccine hiện có để tránh sự nhầm lẫn giữa một bệnh lý đường hô hấp với dịch Covid-19 mà hiện nay vaccine đang khan hiếm. Và chúng ta thấy là nếu trong trường hợp có vaccine thì anh/chị vẫn là người có thể tiêm ngừa đầy đủ, ngay cả những vaccine phòng Covid-19, chỉ cần thiết là anh/chị phải thông báo cho bác sĩ biết tình trạng bệnh lý của anh/chị trong quá khứ, hiện tại và việc sử dụng thuốc như thế nào.",
+                "score": 0.6106033325195312,
+                "id": "vietnamese_healthcare_8025",
+                "rerank_score": 0.9984267950057983
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thuốc gây tê, mỗi lần phẫu thuật tôi đều bị nổi mẩn ngứa và đỏ lan dần ra khắp người. Vậy tôi có thể tiêm vaccine chống Covid-19 được không?\nTrả lời: Trường hợp anh/chị bị dị ứng với thuốc tê, không rõ bệnh viện nơi anh chị thực hiện phẫu thuật có chẩn đoán tình trạng dị ứng của anh/chị thuộc về phản vệ độ mấy không?Nếu trường hợp dị ứng thuộc phản vệ độ 2 trở lên, anh/chị nằm trong nhóm đối tượng chống chỉ định tiêm ngừa vaccine Covid-19. Nếu dị ứng của anh/chị chỉ biểu hiện bằng tình trạng nổi mẫn đỏ trên da, không kèm triệu chứng khác thì vẫn có thể tiêm ngừa vaccine Covid-19 bình thường. Khi đến khám sàng lọc để tiêm ngừa vaccine Covid-19, anh/chị nên cung cấp thông tin về tình trạng dị ứng của mình cho bác sĩ khám sàng lọc, cung cấp tất cả hồ sơ, giấy tờ về những lần nhập viện trước đó và cả giấy xác nhận dị ứng với thuốc. Tùy theo tình trạng của anh/chị, bác sĩ sẽ xác định có tiêm ngừa vaccine Covid-19 hay không. Trong trường hợp này, bác sĩ khuyên anh/chị nên tiêm ngừa vaccine tại bệnh viện. Nếu anh/chị được bác sĩ xác nhận đủ điều kiện tiêm ngừa vaccine, nên theo dõi kỹ những dấu hiệu lúc khám sàng lọc mà bác sĩ đã tư vấn để phát hiện sớm những trường hợp nếu có dị ứng xảy ra.",
+                "score": 0.6404509544372559,
+                "id": "vietnamese_healthcare_4824",
+                "rerank_score": 0.945537805557251
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B mãn tính, vài năm nay lại bị mẩn ngứa, nổi mề đay, nhiều khi mẩn ngứa nổi cục trên đầu và trên người. Tôi có thể tiêm vaccine phòng Covid-19 được không?\nTrả lời: Trường hợp của anh bị viêm gan B mạn tính nhưng anh không nói rõ bệnh đã ổn định hay chưa, có đang điều trị bằng thuốc gì không?Do vậy, anh nên đi gặp bác sĩ để khám lại tình trạng bệnh của mình, nếu bệnh của anh không trong giai đoạn tiến triển và đang ổn định, anh có thể tiêm vaccine Covid-19 bình thường. Anh có chia sẻ bị nổi mề đay, nhiều khi nổi cục ngứa trên đầu nhưng không dùng thuốc và tự khỏi thì đây không phải là phản vệ độ 2. Anh có thể tiêm ngừa Covid-19 nếu bệnh lý nền đã ổn định.",
+                "score": 0.7025077939033508,
+                "id": "vietnamese_healthcare_1865",
+                "rerank_score": 0.9997162222862244
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B, dị ứng cơ địa thì có tiêm phòng Covid-19 được không?\nTrả lời: Nếu các bệnh lý mãn tính như viêm gan B đã ổn định trong vòng 3 tháng trước khi tiêm chủng (có nghĩa là bệnh không cần thay đổi điều trị đáng kể hoặc nhập viện vì bệnh lý nặng hơn), các chỉ số xét nghiệm duy trì ở mức độ ổn thì anh/chị hoàn toàn có thể tiêm được vaccine phòng Covid-19. Còn về vấn đề dị ứng, chúng tôi không biết mức độ dị ứng của anh/chị có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để anh/chị biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp anh/chị dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu anh/chị chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên anh/chị cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6288555264472961,
+                "id": "vietnamese_healthcare_4565",
+                "rerank_score": 0.9986250400543213
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 44 tuổi, bị bệnh viêm gan B mãn tính hơn 10 năm nhưng trong tình trạng ổn định và chưa từng uống thuốc. Năm 41 tuổi sau khi sinh con tôi bị dị ứng nổi mề đay không rõ nguyên nhân. Ngoài ra, tôi bị xoang mãn tính, hay bị nhiễm cảm cúm khi chuyển mùa dẫn đến ho rất lâu. Năm 2020, tôi có tiêm phòng cúm thì thấy rất hiệu quả. Như vậy, tôi có nên tiêm phòng vaccine Covid-19 không?\nTrả lời: Tình trạng bệnh mãn tính đã ổn định, không sử dụng thuốc như là bệnh viêm gan B thì chúng tôi khuyến cáo anh/chị nên theo dõi tại bệnh viện. Chúng ta biết được, đối với bệnh viêm gan B, đôi khi chúng ta phải có những đợt xét nghiệm để kiểm tra bệnh đang ổn định hay đang diễn tiến để có thể điều trị kịp thời. Còn trong trường hợp anh/chị bị dị ứng cần phải thông tin đầy đủ cho bác sĩ để các bác sĩ có thể quyết định anh/chị có thể tiêm chủng tại các cơ sở y tế ngoài bệnh viện hoặc trong bệnh viện, hay trong trường hợp nặng có thể chống chỉ định tiêm chủng. Tuy nhiên, chúng tôi cũng nhận được thông tin là anh/chị đã tiêm vaccine cúm hàng năm và anh/chị thấy hiệu quả rất là tốt, chúng tôi thấy rằng việc tiêm ngừa để chúng ta có thể phòng được những biểu hiện của các bệnh lý đường hô hấp. Ngoài vaccine cúm, anh/chị có thể tiêm phòng các loại vaccine như vaccine phế cầu, vaccine ho gà. Đặc biệt những người có bệnh lý nền thì chúng ta cần tiêm phòng những vaccine hiện có để tránh sự nhầm lẫn giữa một bệnh lý đường hô hấp với dịch Covid-19 mà hiện nay vaccine đang khan hiếm. Và chúng ta thấy là nếu trong trường hợp có vaccine thì anh/chị vẫn là người có thể tiêm ngừa đầy đủ, ngay cả những vaccine phòng Covid-19, chỉ cần thiết là anh/chị phải thông báo cho bác sĩ biết tình trạng bệnh lý của anh/chị trong quá khứ, hiện tại và việc sử dụng thuốc như thế nào.",
+                "score": 0.6418704986572266,
+                "id": "vietnamese_healthcare_8025",
+                "rerank_score": 0.9984267950057983
+            },
+            {
+                "text": "Câu hỏi: Trước đây tôi từng bị dị ứng thuốc có tác dụng tăng hệ miễn dịch, chống nhiễm khuẩn, tôi uống thuốc này bị mẩn ngứa và nổi mề đay khoảng 30 phút sau đó tự hết, liệu tôi có thể tiêm vaccine Covid-19 không?\nTrả lời: Trường hợp của bạn chỉ dị ứng nhẹ, chỉ nên theo dõi và nếu dị ứng là tự khỏi, không nhập viện thì có thể tiêm chủng vaccine Covid-19 bình thường, tuy nhiên sẽ tiêm chủng tại tuyến cơ sở bệnh viện có các trang thiết bị cấp cứu ban đầu.",
+                "score": 0.6362670063972473,
+                "id": "vietnamese_healthcare_7207",
+                "rerank_score": 0.9869885444641113
+            },
+            {
+                "text": "Câu hỏi: Em có tiền sử dị ứng với một loại thuốc kháng sinh phải vào bệnh viện cấp cứu một lần do bị nổi mẩn ngứa khắp người, hơi khó thở. Vậy em có được tiêm vaccine ngừa Covid-19 không ạ?\nTrả lời: Như trường hợp của anh có dị ứng với một loại thuốc kháng sinh (nổi mẩn đỏ, hơi khó thở) có triệu chứng của phản ứng phản vệ độ II. Theo hướng dẫn trong QĐ 2995 BYT ngày 18/6/2021 về đối tượng chống chỉ định tiêm chủng trong đó có đối tượng có phản ứng phản vệ từ độ II trở lên với bất ký tác nhân nào.",
+                "score": 0.6509784460067749,
+                "id": "vietnamese_healthcare_3170",
+                "rerank_score": 0.9700523018836975
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

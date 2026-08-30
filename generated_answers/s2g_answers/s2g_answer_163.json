@@ -1,0 +1,121 @@
+{
+    "model_name": "s2g_rag",
+    "question": ". Con em mới sinh được 1 tháng, bé được chẩn đoán mắc Hội chứng Down. Em thấy mắt bé có biểu hiện lác, là biểu hiện thường thấy ở trẻ Down. Bác sĩ cho em hỏi, có thể phẫu thuật điều chỉnh trị lác với trẻ mắc Hội chứng Down được không ạ? Em mong bé có thể cải thiện được một chút vẻ ngoài, mong bác sĩ tư vấn. Em xin cảm ơn. Câu hỏi ẩn danh Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Thị Phương Thảo -Bác sĩ Mắt - Khoa Liên Chuyên Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+    "ground_truth": "Chào bạn! Với câu hỏi\"Có thể phẫu thuật trị lác ở trẻ mắc hội chứng Down không?\", bác sĩ xin giải đáp như sau: Do bé có hội chứng Down, khuyên bạn nên cho bé đi khám bác sĩ chuyên khoa Mắt để được thăm khám chuyên sâu về mắt chứ không chỉ chuyện lác, lé của bé. Còn vấn đề có can thiệp phẫu thuật hay không, sau khi thăm khám bác sĩ sẽ giải thích với gia đình cụ thể.",
+    "answer": "Với bé mới 1 tháng tuổi, chưa nên can thiệp phẫu thuật ngay; cần đưa bé khám chuyên khoa mắt/nhãn nhi để đánh giá mức độ lác và kiểm tra tật khúc xạ. Nếu lác do tật khúc xạ, thường điều chỉnh bằng kính trước; khi đeo kính vẫn không hết lác, bác sĩ mới cân nhắc các phương pháp khác, bao gồm phẫu thuật, tùy tình trạng và mức độ lác. Bằng chứng hiện có chưa cung cấp thông tin cụ thể riêng cho trẻ mắc Hội chứng Down, vì vậy gia đình nên đưa bé đi khám để được tư vấn phù hợp.",
+    "evidence": [
+        "Trả lời: Bé nhà bạn mới được 1 tháng tuổi nên sẽ không can thiệp phẫu thuật ngay tại thời điểm này, bé cần được đưa đến khám chuyên khoa mắt để xem mức độ lác để có cách xử trí phù hợp nhé.",
+        "Đối với các trường hợp trẻ sơ sinh mắt lác nghiêm trọng hơn, các lựa chọn điều trị bao gồm: Phẫu thuật Trong khi em bé của bạn được gây mê toàn thân, các cơ mắt sẽ được bác sĩ thắt chặt hoặc thả lỏng ra để điều chỉnh mắt.",
+        "Em bé của bạn có thể cần phải đeo miếng che mắt và / hoặc nhỏ mắt, nhưng nói chung, quá trình hồi phục sau mổ lác mắt chỉ mất vài ngày.",
+        "Những em bé có đôi mắt gần như luôn lác thường có xu hướng phẫu thuật hơn những em chỉ thỉnh thoảng mắc bệnh.",
+        "Nếu chỉnh khúc xạ tốt mà vẫn chưa hết lác thì có thểphẫu thuật chỉnh láccho bé ở độ tuổi chuẩn bị đi học.",
+        "Giờ con được 6 tháng, mắt bị lé (lác), việc điều trị sẽ được tư vấn sau khi khám chuyên khoa nhãn nhi.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Phương pháp điều trị bệnh mắt lác cho trẻ là kiểm tra trẻ có bị tật khúc xạ hay không.",
+        "Nếu lác này do tật khúc xạ gây ra thì nên điều chỉnh bằng kính trước.",
+        "Khi trẻ đeo kính mà điều chỉnh được độ lác thì không cần phẫu thuật mà chỉ đeo kính.",
+        "Vì vậy, bạn nên đưa trẻ đến thăm khám bác sĩ chuyên khoa Mắt để được chẩn đoán đánh giá.",
+        "Có nhiều phương pháp để chữa lác mắt như chỉnh quang, chỉnh thị, mổ mắt lác cho bé để chỉnh lệch trục nhãn cầu.",
+        "Bạn nên cho bé khám bác sĩ chuyên khoa mắt để đánh giá và tư vấn phù hợp.",
+        "Phương pháp điều trị là theo dõi, phát hiện sớm tật khúc xạ và chỉnh tật khúc xạ."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Có thể phẫu thuật trị lác ở trẻ mắc hội chứng Down không?\nTrả lời: Bé nhà bạn mới được 1 tháng tuổi nên sẽ không can thiệp phẫu thuật ngay tại thời điểm này, bé cần được đưa đến khám chuyên khoa mắt để xem mức độ lác để có cách xử trí phù hợp nhé.",
+                "score": 0.7696069478988647,
+                "id": "vietnamese_healthcare_2941",
+                "rerank_score": 0.9998595714569092
+            },
+            {
+                "text": "Câu hỏi: Các phương pháp điều trị mắt lác ở trẻ sơ sinh là gì?\nTrả lời: 5. Các phương pháp điều trị mắt lác ở trẻ sơ sinh là gì?\nBước kiểm tra thị lực để kiểm tra sức khỏe của mắt, sự phát triển thị lực và sự điều chỉnh của mắt nên là một phần của mỗi lần thăm khám sức khỏe của trẻ bắt đầu từ 6 tháng tuổi. Nếu bác sĩ xác định rằng mắt của con bạn thực sự bị lé, trẻ sẽ nhận được một trong một số phương pháp điều trị tùy thuộc vào mức độ nghiêm trọng của lác mắt. Các phương pháp điều trị cho trẻ sơ sinh mắt lác nhẹ bao gồm: Kính đeo mắt để canh chỉnh thị lực cho bên mắt yếu hơn hoặc chủ động làm giảm thị lực ở mắt tốt hơn. Hệ quả là mắt yếu hơn buộc phải tăng cường thị lực bù đắp. Miếng che mắt đối với mắt bên bình thường buộc bé phải sử dụng mắt yếu hơn để nhìn. Mục đích của nghiệm pháp này là để tăng cường các cơ vòng mắt bên yếu hơn và điều chỉnh thị lực. Thuốc nhỏ mắt. Những thứ này hoạt động giống như một miếng che mắt, làm mờ tầm nhìn trong mắt tốt của con bạn, vì vậy chúng phải sử dụng miếng che mắt yếu hơn để nhìn. Đây là một lựa chọn tốt nếu con bạn không đeo miếng che mắt. Đối với các trường hợp trẻ sơ sinh mắt lác nghiêm trọng hơn, các lựa chọn điều trị bao gồm: Phẫu thuật Trong khi em bé của bạn được gây mê toàn thân, các cơ mắt sẽ được bác sĩ thắt chặt hoặc thả lỏng ra để điều chỉnh mắt. Em bé của bạn có thể cần phải đeo miếng che mắt và / hoặc nhỏ mắt, nhưng nói chung, quá trình hồi phục sau mổ lác mắt chỉ mất vài ngày. Những em bé có đôi mắt gần như luôn lác thường có xu hướng phẫu thuật hơn những em chỉ thỉnh thoảng mắc bệnh. Trong một số trường hợp, bác sĩ sẽ sử dụng chỉ khâu có thể điều chỉnh, cho phép họ điều chỉnh hướng mắt sau khi phẫu thuật. Tiêm botox Trong quá trình gây mê, bác sĩ sẽ tiêm Botox vào cơ mắt để làm nó yếu đi, từ đó nhãn cầu có thể điều chỉnh hướng xoay đúng cách. Tóm lại, nhận biết trẻ sơ sinh bị lác mắt để phát hiện và điều trị sớm là chìa khóa quan trọng. Tuy nhiên, đừng quá căng thẳng vì mắt trẻ sơ sinh như bị lé khá phổ biến trong vài tháng đầu đời. Bên cạnh các vấn đề về thị lực kéo dài, trẻ sơ sinh mắt lác không được điều trị có thể chậm đạt được các mốc phát triển. Nếu trẻ em được chẩn đoán và điều trị sớm, trẻ sẽ có cơ hội tốt nhất để có thị lực và sự phát triển khỏe mạnh. Vì vậy, nếu con bạn lớn hơn 4 tháng và bạn vẫn nhận thấy một số ánh nhìn nghi ngờ, hãy đưa chúng đi kiểm tra. Có những phương pháp điều trị trẻ sơ sinh mắt lác hiệu quả như đeo kính và miếng dán, rất đơn giản và không xâm lấn, giúp trẻ có thể phát triển như bình thường.",
+                "score": 0.6506747007369995,
+                "id": "vietnamese_healthcare_55587",
+                "rerank_score": 0.9939553141593933
+            },
+            {
+                "text": "Câu hỏi: Bé gái nhà em sinh năm 2020 được 18 tháng nhưngbé bị lác trong. Em đã đưa bé đi khám ở bệnh viện, bác sĩ kết luận lác trong. Vậy bác sĩ cho em hỏitrẻ 1,5 tuổi bị lác trong có điều trị được không?Có thể khỏi hoàn toàn được không? Phương pháp điều trị thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn chưa cung cấp loại lác trong mà bác sĩ chẩn đoán cho bé, có 1 số bạn nhỏ lác cơ năng thì sau này sẽ khỏi. Bé hiện tại 18 tháng thì khó xác định có bịtật khúc xạhay không (đa số lác là do nguyên nhân của tật khúc xạ). Phương pháp điều trị là theo dõi, phát hiện sớm tật khúc xạ và chỉnh tật khúc xạ. Nếu chỉnh khúc xạ tốt mà vẫn chưa hết lác thì có thểphẫu thuật chỉnh láccho bé ở độ tuổi chuẩn bị đi học.",
+                "score": 0.6555426120758057,
+                "id": "medical_vietnamese_qa_5879",
+                "rerank_score": 0.9887562394142151
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bé nhà em nay được 6 tháng tuổi. Hai tháng gần đây, em đưa bé đi khám thì bác sĩ bảo lác mắt bẩm sinh, bé gần 4 tháng mới bắt đầu thấy lác. Bác sĩ cho em hỏi tình trạng bé như vậy có điều trị được không ạ? Có phải phẫu thuật không? Mong bác sĩ tư vấn giúp, xin cảm ơn.\nTrả lời: Chào bạn. Giờ con được 6 tháng, mắt bị lé (lác), việc điều trị sẽ được tư vấn sau khi khám chuyên khoa nhãn nhi. Bạn nên đưa bé đi khám sớm bạn sẽ nhận được lời khuyên tốt nhất cho bé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.6742797493934631,
+                "id": "vietnamese_medical_qa_3652",
+                "rerank_score": 0.9860040545463562
+            },
+            {
+                "text": "Câu hỏi: Con em 6 tuổi đi khám bác sĩ chẩn đoán 2 mắt lác trong. Bác sĩ khuyên nên mổ nhưng em có nghe tới phương pháp đeo kính chỉnh lác. Vậy bác sĩ cho em hỏitrẻ 6 tuổi lác mắt trong điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Phương pháp điều trị bệnh mắt lác cho trẻ là kiểm tra trẻ có bị tật khúc xạ hay không. Nếu lác này do tật khúc xạ gây ra thì nên điều chỉnh bằng kính trước. Khi trẻ đeo kính mà điều chỉnh được độ lác thì không cần phẫu thuật mà chỉ đeo kính.",
+                "score": 0.6279744505882263,
+                "id": "medical_vietnamese_qa_4597",
+                "rerank_score": 0.9850274324417114
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Có thể phẫu thuật trị lác ở trẻ mắc hội chứng Down không?\nTrả lời: Bé nhà bạn mới được 1 tháng tuổi nên sẽ không can thiệp phẫu thuật ngay tại thời điểm này, bé cần được đưa đến khám chuyên khoa mắt để xem mức độ lác để có cách xử trí phù hợp nhé.",
+                "score": 0.7787834405899048,
+                "id": "vietnamese_healthcare_2941",
+                "rerank_score": 0.9998595714569092
+            },
+            {
+                "text": "Câu hỏi: Bé gái nhà em sinh năm 2020 được 18 tháng nhưngbé bị lác trong. Em đã đưa bé đi khám ở bệnh viện, bác sĩ kết luận lác trong. Vậy bác sĩ cho em hỏitrẻ 1,5 tuổi bị lác trong có điều trị được không?Có thể khỏi hoàn toàn được không? Phương pháp điều trị thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn chưa cung cấp loại lác trong mà bác sĩ chẩn đoán cho bé, có 1 số bạn nhỏ lác cơ năng thì sau này sẽ khỏi. Bé hiện tại 18 tháng thì khó xác định có bịtật khúc xạhay không (đa số lác là do nguyên nhân của tật khúc xạ). Phương pháp điều trị là theo dõi, phát hiện sớm tật khúc xạ và chỉnh tật khúc xạ. Nếu chỉnh khúc xạ tốt mà vẫn chưa hết lác thì có thểphẫu thuật chỉnh láccho bé ở độ tuổi chuẩn bị đi học.",
+                "score": 0.6613258123397827,
+                "id": "medical_vietnamese_qa_5879",
+                "rerank_score": 0.9887562394142151
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bé nhà em nay được 6 tháng tuổi. Hai tháng gần đây, em đưa bé đi khám thì bác sĩ bảo lác mắt bẩm sinh, bé gần 4 tháng mới bắt đầu thấy lác. Bác sĩ cho em hỏi tình trạng bé như vậy có điều trị được không ạ? Có phải phẫu thuật không? Mong bác sĩ tư vấn giúp, xin cảm ơn.\nTrả lời: Chào bạn. Giờ con được 6 tháng, mắt bị lé (lác), việc điều trị sẽ được tư vấn sau khi khám chuyên khoa nhãn nhi. Bạn nên đưa bé đi khám sớm bạn sẽ nhận được lời khuyên tốt nhất cho bé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.6910644769668579,
+                "id": "vietnamese_medical_qa_3652",
+                "rerank_score": 0.9860040545463562
+            },
+            {
+                "text": "Câu hỏi: Con em 6 tuổi đi khám bác sĩ chẩn đoán 2 mắt lác trong. Bác sĩ khuyên nên mổ nhưng em có nghe tới phương pháp đeo kính chỉnh lác. Vậy bác sĩ cho em hỏitrẻ 6 tuổi lác mắt trong điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Phương pháp điều trị bệnh mắt lác cho trẻ là kiểm tra trẻ có bị tật khúc xạ hay không. Nếu lác này do tật khúc xạ gây ra thì nên điều chỉnh bằng kính trước. Khi trẻ đeo kính mà điều chỉnh được độ lác thì không cần phẫu thuật mà chỉ đeo kính.",
+                "score": 0.6502081155776978,
+                "id": "medical_vietnamese_qa_4597",
+                "rerank_score": 0.9850274324417114
+            },
+            {
+                "text": "Câu hỏi: Cháu có em bé được 2 tháng rồi. Cháu thấy có dấu hiệu bị lác trong. Bác sĩ cho cháu hỏitrẻ 2 tháng tuổi có dấu hiệu bị lác phải làm sao?Cháu cảm ơn bác sĩ. Loan(1997) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Thái Hưng -Bác sĩ Mắt - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bệnhlác mắtcác triệu chứng sau: Triệu chứng thực thể rất dễ nhận biết khi soi gương hoặc người xung quanh nhìn vào sẽ thấy mắt bị lệch. Triệu chứng chủ quan với các biểu hiện như: mỏi mắt thường xuyên, khả năng tập trung kém; đi lại hay té ngã, làm việc không chính xác; mắt bị lác thường xuyên bị mờ hơn mắt không lác; nhìn thấy 2 hình sẽ xảy ra nếu người có chức năng thị giác đã hoàn thiện. Trẻ 2 tháng thường thì bác sĩ khó khám hay kiểm tra được độ lác, haykhúc xạ. Thường thì theo dõi đến 2 tuổi (vì có thể hết lác khi lớn). Vì vậy, bạn nên đưa trẻ đến thăm khám bác sĩ chuyên khoa Mắt để được chẩn đoán đánh giá. Sau khi khám thì tùy nguyên nhân sẽ có hướng xử lý cụ thể cho trẻ.",
+                "score": 0.7031511664390564,
+                "id": "medical_vietnamese_qa_6894",
+                "rerank_score": 0.982607901096344
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Có thể phẫu thuật trị lác ở trẻ mắc hội chứng Down không?\nTrả lời: Bé nhà bạn mới được 1 tháng tuổi nên sẽ không can thiệp phẫu thuật ngay tại thời điểm này, bé cần được đưa đến khám chuyên khoa mắt để xem mức độ lác để có cách xử trí phù hợp nhé.",
+                "score": 0.7829662561416626,
+                "id": "vietnamese_healthcare_2941",
+                "rerank_score": 0.9998595714569092
+            },
+            {
+                "text": "Câu hỏi: mắt bé bị lác vậy từ nhỏ,ai cũng bảo lớn lên bé sẽ hết mà giờ bé đã 5 tuổi rồi mà vẫn k hết.xin hỏi bs này là tự hết hoạt có cách nào điều trị dc từ bây giờ k ạ.cảm ơn bs\nTrả lời: Chào bạn, cám ơn bạn đã gửi câu hỏi\n   Lác mắt có thể chữa được nhưng kết quả còn phụ thuộc vào từng trường hợp bệnh cụ thể, thời gian mắc bệnh kéo dài bao lâu. Có nhiều phương pháp để chữa lác mắt như chỉnh quang, chỉnh thị, mổ mắt lác cho bé để chỉnh lệch trục nhãn cầu. Bệnh lác mắt ở trẻ em, nếu bệnh nhân được điều trị càng sớm, tuổi đời càng nhỏ thì cơ hội khỏi bệnh sẽ cao hơn. Bạn nên cho bé khám bác sĩ chuyên khoa mắt để đánh giá và tư vấn phù hợp.\nChúc bạn nhiều sức khoẻ - Thân chào bạn",
+                "score": 0.6282246112823486,
+                "id": "vietnamese_medical_qa_5718",
+                "rerank_score": 0.9924970865249634
+            },
+            {
+                "text": "Câu hỏi: Bé gái nhà em sinh năm 2020 được 18 tháng nhưngbé bị lác trong. Em đã đưa bé đi khám ở bệnh viện, bác sĩ kết luận lác trong. Vậy bác sĩ cho em hỏitrẻ 1,5 tuổi bị lác trong có điều trị được không?Có thể khỏi hoàn toàn được không? Phương pháp điều trị thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn chưa cung cấp loại lác trong mà bác sĩ chẩn đoán cho bé, có 1 số bạn nhỏ lác cơ năng thì sau này sẽ khỏi. Bé hiện tại 18 tháng thì khó xác định có bịtật khúc xạhay không (đa số lác là do nguyên nhân của tật khúc xạ). Phương pháp điều trị là theo dõi, phát hiện sớm tật khúc xạ và chỉnh tật khúc xạ. Nếu chỉnh khúc xạ tốt mà vẫn chưa hết lác thì có thểphẫu thuật chỉnh láccho bé ở độ tuổi chuẩn bị đi học.",
+                "score": 0.6912477612495422,
+                "id": "medical_vietnamese_qa_5879",
+                "rerank_score": 0.9887562394142151
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bé nhà em nay được 6 tháng tuổi. Hai tháng gần đây, em đưa bé đi khám thì bác sĩ bảo lác mắt bẩm sinh, bé gần 4 tháng mới bắt đầu thấy lác. Bác sĩ cho em hỏi tình trạng bé như vậy có điều trị được không ạ? Có phải phẫu thuật không? Mong bác sĩ tư vấn giúp, xin cảm ơn.\nTrả lời: Chào bạn. Giờ con được 6 tháng, mắt bị lé (lác), việc điều trị sẽ được tư vấn sau khi khám chuyên khoa nhãn nhi. Bạn nên đưa bé đi khám sớm bạn sẽ nhận được lời khuyên tốt nhất cho bé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.714470386505127,
+                "id": "vietnamese_medical_qa_3652",
+                "rerank_score": 0.9860040545463562
+            },
+            {
+                "text": "Câu hỏi: Con em 6 tuổi đi khám bác sĩ chẩn đoán 2 mắt lác trong. Bác sĩ khuyên nên mổ nhưng em có nghe tới phương pháp đeo kính chỉnh lác. Vậy bác sĩ cho em hỏitrẻ 6 tuổi lác mắt trong điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Phương pháp điều trị bệnh mắt lác cho trẻ là kiểm tra trẻ có bị tật khúc xạ hay không. Nếu lác này do tật khúc xạ gây ra thì nên điều chỉnh bằng kính trước. Khi trẻ đeo kính mà điều chỉnh được độ lác thì không cần phẫu thuật mà chỉ đeo kính.",
+                "score": 0.6724063754081726,
+                "id": "medical_vietnamese_qa_4597",
+                "rerank_score": 0.9850274324417114
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

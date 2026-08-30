@@ -1,0 +1,117 @@
+{
+    "model_name": "fur",
+    "question": "Em bị HPV 6 và 11. Bác sĩ cho em hỏiphương pháp điều trị HPV 6, 11 như thế nào?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Có nhiều hơn 100 type HPV có vai trò gây bệnh liên quan đến bệnh lý da và niêm mạc và khoảng 40 type có tác động lên đường sinh dục, đặc biệt liên quan đến bệnh lý ung thư cổ tử cung. Nhóm được gọi là nguy cơ cao bao gồm các type 16 (HPV-16), 18, 31, 33, 35, 39, 45, 51, 52, 56, 59, 66 và HPV-68. Các type HPV-6, 11, 42, 43, 44 được gọi là nhóm nguy cơ thấp. Hiện chưa có thuốc điều trị đặc hiệu cho virus HPV. Vì vậy, bạn cần khám phụ khoa định kỳ để theo dõi cũng như phát hiện sớm những bất thường ở cổ tử cung.",
+    "answer": "HPV type 6 và 11 thuộc nhóm **nguy cơ thấp**, thường liên quan đến **sùi mào gà/mụn cóc sinh dục**, không phải các type thường gây ung thư.\n\n- **Nếu chỉ xét nghiệm dương tính nhưng chưa có tổn thương hoặc triệu chứng:** hiện **không có thuốc điều trị hay chữa khỏi trực tiếp virus HPV**. Phần lớn trường hợp có thể tự đào thải; có thể khám phụ khoa định kỳ để theo dõi.\n- **Nếu có sùi mào gà** gây ngứa, rát, đau, mất thẩm mỹ hoặc tổn thương lớn: bác sĩ có thể điều trị bằng:\n  - Kem **imiquimod** theo chỉ định;\n  - **Podophyllin** do bác sĩ bôi;\n  - Áp lạnh bằng nitơ lỏng;\n  - Đốt điện, đốt nhiệt hoặc laser CO₂;\n  - Cắt bỏ bằng phẫu thuật.\n\nKhông nên tự dùng thuốc trị mụn cóc không kê đơn ở vùng sinh dục vì có thể gây đau và kích ứng. Tổn thương có thể **tái phát sau điều trị**; việc điều trị sùi mào gà không nhất thiết loại bỏ hoàn toàn HPV hoặc ngăn lây truyền cho bạn tình. Bạn nên khám chuyên khoa để xác định có tổn thương hay không và chọn phương pháp phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Nhiễm HPV type 11 điều trị như thế nào?\nTrả lời: HPV là một loại virus gây ra bệnh lây truyền qua đường tình dục thường gặp nhất. Hiện nay, có hơn 100 tuýp HPV đã được xác định. Loại Vi-rút gây u nhú ở người Human Papilloma virus (HPV) là một Bệnh Lây qua đường Tình dục (STI) gây ra bởi một loại vi-rút. Có hơn 40 loại vi-rút HPV có thể truyền bệnh qua bộ phận sinh dục của đàn ông và phụ nữ. Lây nhiễm HPV có thể gây ra nhiều vấn đề, bao gồm ung thư cổ tử cung.Trong đó, HPV type 11 hay gây sùi mào gà. 80% HPV là nhiễm thoáng qua không có triệu chứng và không cần điều trị. Một số trường hợp gây sùi mào gà thì sẽ phải điều trị sùi bằng cách đốt, cắt hoặc chấm acid.Nếu mụn cóc không gây khó chịu có thể không cần điều trị. Nhưng nếu các triệu chứng bao gồm ngứa, rát và đau, hoặc nếu mụn cóc ở những vị trí có thể nhìn thấy được gây mất mỹ quan, cảm giác xấu hổ, bác sĩ có thể loại bỏ ổ mụn cóc bằng thuốc hoặc phẫu thuật. Tuy nhiên, các tổn thương có khả năng quay trở lại sau khi điều trị. Cách chữa sùi mào gà bằng thuốc: Imiquimod dạng kem bôi làm tăng khả năng của hệ thống miễn dịch để chống lại mụn cóc sinh dục. Tránh tiếp xúc tình dục trong khi kem ở trên da do thuốc này có thể làm rách bao cao su, màng ngăn âm đạo và có thể gây kích ứng da của bạn tình. Một tác dụng phụ khác có thể xảy ra là đỏ da, mụn nước, đau nhức cơ thể, ho, phát ban và mệt mỏi. Podophyllin là một loại nhựa có nguồn gốc thực vật phá hủy mô mụn cóc sinh dục. Bác sĩ của bạn phải áp dụng giải pháp này. Không nên điều trị mụn cóc ở bộ phận sinh dục bằng thuốc tẩy mụn cóc không kê đơn. Những loại thuốc này không được chỉ định sử dụng cho vùng ẩm như bộ phận sinh dục, nếu sử dụng có thể gây đau đớn và khó chịu hơn nữa. Phẫu thuật để loại bỏ mụn cóc lớn hơn, mụn cóc không đáp ứng với thuốc hoặc phụ nữ mang thai gây nguy cơ trẻ tiếp xúc với mụn cóc trong quá trình sinh nở. Các lựa chọn phẫu thuật bao gồm: Ðốt lạnh bằng nitơ lỏng - Đốt điện bằng sóng điện cao tần hay tia laser CO2. Đốt nhiệt Phẫu thuật cắt bỏ Điều trị bằng laser",
+            "score": 0.5455033779144287,
+            "id": "vietnamese_healthcare_5988",
+            "rerank_score": 0.9970322847366333
+        },
+        {
+            "text": "Câu hỏi: Em có đi khám và kết quả nhiễm HPV 16 và 18. Bác sĩ cho em hỏi,nhiễm virus HPV 16 và 18 có nguy hiểm không?Bệnh có tự khỏi không? Em có nên tiêm phòng không? Em cảm ơn. Nguyễn Thị Thư(2001) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Văn Thành- Bác sĩ Sản phụ khoa - Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: HPVcó nhiều typ, trong đó có typ 16 và 18 hay gây bất thường cho cổ tử cung. Khoảng 80% trường hợp là nhiễm thoáng qua không cần điều trị. Ngoài ra, tiêm phòng HPV khuyến cáo có tác dụng tốt nhất với những người chưa nhiễm và có độ tuổi từ 9-26 tuổi.",
+            "score": 0.5520263314247131,
+            "id": "medical_vietnamese_qa_2433",
+            "rerank_score": 0.8997001647949219
+        },
+        {
+            "text": "Câu hỏi: ! Em bị u ác 1/4 tuyến vú, Carcinom dạng xâm nhiễm nos, grad 2. Vậy bác sĩ cho em hỏiphương pháp điều trị u ác tính tuyến vú là gì? Điều trị trong bao lâuạ? Cảm ơn bác sĩ tư vấn! Trần Thị Phương Kim(1983) Trả lời\nTrả lời: Chào bạn! Bác sĩ xin được giải đáp câu hỏi: “Phương pháp điều trị u ác tính tuyến vú là gì? Điều trị trong bao lâu?” như sau: Với thông tin bạn cung cấp, chỉ có thể xác định là bạn có khối u ác tính của vú, chưa thể xác định được giai đoạn bệnh là loại mô học có các thụ thể nội tiết, thụ thể yếu tố phát triển biểu mô,... cũng như tình trạng sức khỏe chung của bạn nên bác sĩ không thể trả lời chính xác kế hoạch điều trị tiếp theo và thời gian điều trị bao lâu, tiên lượng như thế nào? Việcđiều trị ung thư vúbao gồm nhiều phương pháp phẫu thuật, hóa trị, xạ trị, nội tiết, điều trị miễn dịch,... tùy thuộc vào các yếu tố trên, có thể phối hợp nhiều phương pháp điều trị với nhau. Bạn sẽ được thăm khám và làm thêm một số xét nghiệm và chẩn đoán hình ảnh khác trước khi tiến hành điều trị.  Được giải đáp bởiBác sĩ chuyên khoa II Phùng Thị Phương Chi- Bác sĩ chuyên khoa ung bướu - Trung tâm Ung bướu, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+            "score": 0.6030963063240051,
+            "id": "medical_vietnamese_qa_12633",
+            "rerank_score": 0.0703975036740303
+        },
+        {
+            "text": "Câu hỏi: Ngoài những phương pháp trên còn có những phương pháp nào điều trị ung thư tuyến tiền liệt\nTrả lời: 2. Ngoài những phương pháp trên còn có những phương pháp nào điều trị ung thư tuyến tiền liệt\nKhi mắc ung thư, bạn có thể nghe về những cách điều trị ung thư khác hoặc điều trị các triệu chứng. Đây có thể không phải luôn là phương pháp điều trị y tế tiêu chuẩn. Chúng có thể là vitamin, thảo dược, chế độ ăn uống đặc biệt và những thứ khác. Bạn có thể thắc mắc về những phương pháp điều trị này. Một số trong các phương pháp này có tính chất hỗ trợ, một số không, thậm chí có hại. Hãy trao đổi với bác sĩ về bất cứ điều gì bạn đang nghĩ về việc sử dụng chúng, cho dù đó là một loại vitamin, chế độ ăn uống, hoặc bất cứ điều gì khác. Các câu hỏi có thể hỏi bác sĩ Bác sỹ nghĩ phương pháp điều trị nào là tốt nhất cho tôi? Mục tiêu của điều trị này là gì? Bác sĩ có nghĩ rằng nó có thể chữa ung thư? Điều trị có bao gồm phẫu thuật? Nếu vậy, ai sẽ làm phẫu thuật? Phẫu thuật sẽ như thế nào? Tôi cũng sẽ cần các phương pháp điều trị khác chứ? Mục tiêu của các phương pháp điều trị này là gì? Tôi có thể có tác dụng phụ nào từ những phương pháp điều trị này? Tôi có thể làm gì về tác dụng phụ mà tôi có thể có? Bác sỹ có biết điều gì về vitamin đặc biệt hoặc chế độ ăn kiêng mà bạn bè nói với tôi? Làm sao tôi biết chúng có an toàn không? Tôi cần bắt đầu điều trị sớm nhất như thế nào? Tôi nên làm gì để sẵn sàng điều trị? Có bất cứ điều gì tôi có thể làm để giúp việc điều trị có hiệu quả hơn? Bước tiếp theo là gì?",
+            "score": 0.5560154914855957,
+            "id": "vietnamese_healthcare_45361",
+            "rerank_score": 0.0022561915684491396
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Tôi bị ung thư tuyến giáp giai đoạn đầu. Có những lựa chọn điều trị nào trong trường hợp của tôi? Có thể kéo dài cuộc sống bao lâu? (Giang Huy, 42 tuổi, Tuyên Quang)\nTrả lời: Chào bạn! Phương pháp điều trị ung thư tuyến giáp là phẫu thuật và xem xét điều trị thuốc phóng xạ Iod 131 trong một số trường hợp cần thiết. Tỷ lệ điều trị khỏi hẳn đối với ung thư tuyến giáp thể biệt hóa rất cao.\nCảm ơn bạn đã tin tưởng và gửi câu hỏi tới AI-Doctor, rất mong sẽ được gặp bạn để tư vấn cụ thể hơn. Trân trọng!",
+            "score": 0.5338342785835266,
+            "id": "vietnamese_medical_qa_3294",
+            "rerank_score": 0.0018860973650589585
+        },
+        {
+            "text": "Câu hỏi: Vì sao virus HPV 16 và 18 là nguyên nhân hàng đầu gây ung thư cổ tử cung?\nTrả lời: 2. Vì sao virus HPV 16 và 18 là nguyên nhân hàng đầu gây ung thư cổ tử cung?\nNhiễm các loại HPV 16, 18 , 31 và 45 được coi là có nguy cơ cao phát triển cổ tử cung ung thư, trong khi HPV 6, 11, 42, 43 và 44 có nguy cơ thấp, các loại không gây ung thư liên quan đến mụn cóc sinh dục và không tổn thương ác tính. HPV nhiễm các tế bào keratinocytes của lớp tế bào cơ bản, thường ở các tổn thương vi mô của da hoặc niêm mạc. Quần thể các tế bào bị nhiễm virus lây lan sang một bên khi chúng phân chia và một số tế bào di chuyển vào supra phân biệt các lớp tế bào cơ bản, nơi các gen virus được kích hoạt, sao chép DNA của virus và protein capsid được hình thành. Các hạt virus được giải phóng, do đó lan rộng dân số của các tế bào bị nhiễm bệnh. Harald zur Hausen đã chứng minh rằng mô từ chứng loạn sản cổ tử cung cũng như từ các tổn thương cung điện tiền liệt tuyến chứa DNA-DNA episomal, và các nghiên cứu trong tương lai cho thấy khoảng 90% HPV 16 và 18 các mô dương tính trở nên âm tính trong vòng hai năm Nghiên cứu trên 3000 phụ nữ từ 25 quốc gia đã tìm thấy HPV 16 và 18 với trên 70% các trường hợp ác tính. Năm loại phổ biến nhất tiếp theo chiếm 20% khác, trong khi đó 10% còn lại là do nhiều loại HPV gây ra. Xét nghiệm PCR nhạy cảm kể từ đó cải thiện việc phát hiện DNA virus và dữ liệu dịch tễ học tích lũy đã xác nhận zur Hausen những khám phá ban đầu. Thật vậy, có tới 99,7% ca ung thư cổ tử cung được nghiên cứu đã được phát hiện dương tính với HPV trong một số báo cáo, trong đó cung cấp bằng chứng thuyết phục về căn nguyên của bệnh HPV. Cổ tử cung các mô ung thư chứa DNA virus được tích hợp vào bộ gen của tế bào chủ với các chuỗi virus mã hóa các gen đầu E6 và E7. Điểm đặc biệt của virus HPV 16 và HPV 18 là chúng không gây ra triệu chứng gì khi mắc phải cũng như khi xuất hiện tiền ung thư, cho đến khi khối u trong cổ tử cung phát triển và xâm lấn các cơ quan khác trong cơ thể. Bên cạnh đó, virus HPV không bùng phát ngay mà chúng diễn tiến âm thầm trong cơ thể, cụ thể để virus HPV hình thành ung thư phải mất 10-20 năm ở người có hệ miễn dịch bình thường và 5-10 năm với những người có hệ miễn dịch suy yếu như người nhiễm HIV. Đây cũng là lý do vì sao, nhiều phụ nữ khi phát hiện bệnh đã ở giai đoạn muộn, lúc này quá trình điều trị khó khăn và tốn kém hơn, đặc biệt là tỷ lệ sống không cao. Điểm đặc biệt của virus HPV 16 và HPV 18 là chúng không gây ra triệu chứng gì khi mắc phải cũng như khi xuất hiện tiền ung thư Virus HPV 16, 18 gây hơn 70% các trường hợp ung thư cổ tử cung. HPV 16 có thể gây ung thư dương vật. Dùng bao cao su tránh được lây nhiễm HPV qua đường tình dục nhưng không hoàn toàn vì những vùng tiếp xúc ngoài bao cao su vẫn có thể bị nhiễm. Bệnh viện Đa khoa Quốc tế Vinmec là một trong những bệnh viện không những đảm bảo chất lượng chuyên môn với đội ngũ y bác sĩ, hệ thống trang thiết bị công nghệ hiện đại mà còn nổi bật với dịch vụ khám, tư vấn và chữa bệnh toàn diện, chuyên nghiệp; không gian khám chữa bệnh văn minh, lịch sự, an toàn và tiệt trùng tối đa.",
+            "score": 0.4543099105358124,
+            "id": "vietnamese_healthcare_157625",
+            "rerank_score": 0.8708857893943787,
+            "weighted_score": 0.9173721194267273
+        },
+        {
+            "text": "Câu hỏi: Bạn em có xét nghiệm HPV và dương tính với HPV type 6, bác sĩ cho em hỏidương tính HPV type 6 có nguy cơ mắc bệnh gì?Và có ảnh hưởng nghiêm trọng gì đến sức khoẻ sau này không ạ? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Dương tính HPV type 6 có nguy cơ mắc bệnh gì?”, bác sĩ giải đáp như sau: Bạn bị nhiễm HPV type 6, type này gây nên bệnh sùi mào gà ở cơ quan sinh dục. Bạn nên đến bệnh viện khám Phụ khoa xem có biểu hiện bệnh hay chưa, tầm soát ung thư cổ tử cung, chích vacxin ngừa HPV. Nếu chưa bị bệnh sùi mào gà và kết quả tầm soát ung thư bình thường thì bạn khám phụ khoa định kỳ hàng năm.",
+            "score": 0.4525254964828491,
+            "id": "medical_vietnamese_qa_1363",
+            "rerank_score": 0.44741830229759216,
+            "weighted_score": 0.8689777076244354
+        },
+        {
+            "text": "Câu hỏi: Em bị HPV tuýp 68. Bác sĩ cho em hỏinhiễm HPV type 68 có tiêm phòng ung thư tử cung được không?Em cảm ơn bác sĩ. Hoàng Thúy Vân(1981) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Phạm Thị Tuyết Mai -Bác sĩ Sản Phụ Khoa - Khoa sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin phòng virus HPVhiện tại đang sử dụng của Bỉ (Cervarix) phòng ngừa được 2 type 16 và 18; Của Mỹ (Gardasil) phòng ngừa được 4 type 6,11,16 và 18. Bạn đangdương tính với HPV type 68thì bạn chỉ có kháng thể kháng type 68, còn lại còn rất nhiều type bạn vẫn có nguy cơ mắc và các tuýp có nguy cơ cao vớiung thư cổ tử cung, đặc biệt nhất là 16,18. Vắc-xin Gardasil phòng ngừa được tổn thương tiền ung thư và loạn sản do virus HPV type 6,11,16,18 gây ra. Vì vậy, bạn vẫn tiêm phòng được. Lịch tiêm phòng HPV là bạn sẽ tiêm 3 mũi, mũi thứ hai cách mũi thứ nhất 2 tháng và mũi thứ 3 cách mũi thứ hai 4 tháng.",
+            "score": 0.4420502483844757,
+            "id": "medical_vietnamese_qa_13347",
+            "rerank_score": 0.2208632230758667,
+            "weighted_score": 0.7830479383468628
+        },
+        {
+            "text": "Câu hỏi: HPV và ung thư cổ tử cung\nTrả lời: 4. HPV và ung thư cổ tử cung\nNhiễm HPV có thể gây nên nhiều bệnh ung thư như: ung thư âm hộ , âm đạo , dương vật , hậu môn , vùng miệng họng , đặc biệt là ung thư cổ tử cung . Các type HPV nguy cơ gây ung thư thấp như: 6, 11, 40, 42, 43, 44, 54, 55, 61, 70, 72, 81 và CP6108, liên quan đến u nhú đảo ngược ở bộ phận sinh dục và tổn thương nội mô vảy thấp. Các type HPV nguy cơ gây ung thư cao như: 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66 và 68 liên quan đến tổn thương nội mô vảy cao và ung thư biểu mô xâm lấn. Trong đó HPV 16 gây ra khoảng 60% các trường hợp ung thư cổ tử cung . HPV 18 khoảng 10% trường hợp. Mỗi loại HPV nguy cơ cao khác liên quan đến ung thư dưới 5% các trường hợp. Khi một người nhiễm HPV không tự khỏi sẽ tiến triển thành ung thư cổ tử cung. Ung thư cổ tử cung có thời gian phát triển dài, trung bình có khoảng từ 10 đến 15 năm tiến triển từ loạn sản đến ung thư. Đây là khoảng thời gian thuận lợi cho việc tầm soát ung thư cổ tử cung , giúp phát hiện sớm và điều trị những tổn thương loạn sản cũng như ung thư giai đoạn sớm. Có những yếu tố tạo thuận lợi cho tiến triển ung thư cổ tử cung từ nhiễm HPV: sinh nhiều con, giao hợp sớm, nhiều bạn tình, thuốc lá... Virus HPV 16 và 18 là hai type chủ yếu gây bệnh ung thư cổ tử cung",
+            "score": 0.45918208360671997,
+            "id": "vietnamese_healthcare_65096",
+            "rerank_score": 0.8400530219078064,
+            "weighted_score": 0.7188061594963073
+        },
+        {
+            "text": "Câu hỏi: Vừa rồi, công ty em tổ chức khám sức khỏe định kỳ và kết quảxét nghiệm dịch âm đạocủa em cho thấy HPV type 18 dương tính và HPV 12 type nguy cơ cao dương tính. Vậy bác sĩ cho em hỏimắc HPV type 18, nguy cơ cao mắc HPV type 12 có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: HPVlà virus lây qua đường tình dục (Sexually transmitted infection – STI) phổ biến nhất. HPV là loại siêu vi khác với HIV và HSV (bệnh mụn rộp). Có nhiều loại HPV khác nhau. Trong đó có một số loại có thể gây ra những vấn đề ảnh hưởng đến sức khỏe như mụn sinh dục và ung thư. Bạn bị nhiễm type HPV nguy cơ cao nên bạn phải đến khám tại bệnh viện chuyên khoa Sản phụ khoa để điều trị, dùng thuốc ức chế sự phát triển của HPV vàtầm soát ung thư cổ tử cung.",
+            "score": 0.4577256441116333,
+            "id": "medical_vietnamese_qa_2125",
+            "rerank_score": 0.05356336757540703,
+            "weighted_score": 0.7106518290936947
+        },
+        {
+            "text": "Câu hỏi: Em đi khám và kết quả bị nhiễm HPV type 16 và các chủng nguy cơ cao khác. Bác sĩ cho em hỏinhiễm HPV type 16 có tự hết được khôngạ? Cảm ơn bác sĩ!\nTrả lời: bác sĩ xin giải đáp như sau: Khi bạn bị nhiễm HPV type 16 và các chủng nguy cơ khác thì vẫn có khả năng tự khỏi. HPV là một loại virus cũng như các loại virus khác đều có khả năng tự khỏi. Theo các chuyên gia nghiên cứu thì khoảng 90% người mắc virus HPV có khả năng tự khỏi hoàn toàn, chỉ có xấp xỉ 10% còn lại có khả năng gây các bệnh ung thư cổ tử cung, sùi mào gà,... Điều trị trong trường hợp mắc virus HPV là vệ sinh phụ khoa cẩn thận để tránh viêm nhiễm; cùng với khám phụ khoa định kỳ để phát hiện sớm các tổn thương bất thường ở cổ tử cung.",
+            "score": 0.4958101212978363,
+            "id": "medical_vietnamese_qa_2886",
+            "rerank_score": 0.07166053354740143,
+            "weighted_score": 0.6868830233812332
+        },
+        {
+            "text": "Câu hỏi: HPV còn ảnh hưởng đến cơ thể như thế nào?\nTrả lời: 3. HPV còn ảnh hưởng đến cơ thể như thế nào?\nMột vài type HPV có thể làm biến đổi tế bào cổ tử cung người phụ nữ và dẫn đến ung thư sau nhiều năm. Mặt khác, type HPV gây ra mụn cóc sinh dục ở cả nam và nữ (mào gà...). Nhưng type HPV gây ra mụn cóc sinh dục khác với type HPV gây ra ung thư cổ tử cung, chúng thuộc type nguy cơ thấp. Hầu hết HPV tự đào thải trong vòng 2 năm và không gây ra vấn đề cho sức khỏe. Người ta cho rằng đó là do hệ thống miễn dịch tự nhiên của cơ thể đã chiến đấu chống lại sự xâm nhập của HPV. Tuy nhiên cũng có trường hợp HPV không được đào thải mà vẫn tồn tại. Nếu HPV tồn tại trên tế bào cổ tử cung trong nhiều năm có thể dẫn đến ung thư cổ tử cung.",
+            "score": 0.4702671468257904,
+            "id": "vietnamese_healthcare_21893",
+            "rerank_score": 0.02048354223370552,
+            "weighted_score": 0.14077875390648842
+        },
+        {
+            "text": "Câu hỏi: Nhiễm HPV ảnh hưởng như thế nào đến sức khỏe?\nTrả lời: 3. Nhiễm HPV ảnh hưởng như thế nào đến sức khỏe?\nPhần lớn những người nhiễm HPV đều tự khỏi và không gây ra bất cứ vấn đề gì về sức khỏe. Trung bình, 50% các ca nhiễm HPV sẽ tự khỏi trong vòng 8 tháng và 90% tự khỏi trong vòng 2 năm. Thời gian tự khỏi khi nhiễm virus HPV nguy cơ cao kéo dài hơn thời gian nhiễm HPV nguy cơ thấp. Khi không tự khỏi thì nó có thể gây ra những vấn đề về sức khỏe như mụn cơm và ung thư.",
+            "score": 0.4743431806564331,
+            "id": "vietnamese_healthcare_65095",
+            "rerank_score": 0.03665047138929367,
+            "weighted_score": 0.10618640035390854
+        },
+        {
+            "text": "Câu hỏi: Có cách nào điều trị hoặc chữa khỏi HPV không?\nTrả lời: 7. Có cách nào điều trị hoặc chữa khỏi HPV không?\nKhông có phương pháp điều trị hoặc chữa khỏi HPV. Nhưng có nhiều cách có thể điều trị các vấn đề sức khoẻ do HPV gây ra ở nam giới. Mụn cóc sinh dục có thể được điều trị bằng thuốc, loại bỏ (phẫu thuật), đốt điện hoặc nhiệt đông. Một số phương pháp điều trị có thể được bác sĩ thực hiện khi bạn đi khám bệnh. Một số biện pháp có thể được thực hiện tại nhà bởi chính người bệnh. Theo đó, không có biện pháp nào điều trị tốt hơn biện pháp nào. Mụn cóc thường xuất hiện trở lại trong vòng vài tháng sau đó. Vì vậy, người bệnh nên biết một số phương pháp điều trị. Điều trị mụn cóc sinh dục không nhất thiết phải làm giảm nguy cơ lây truyền HPV sang người bạn tình. Nếu mụn cóc không được điều trị, chúng có thể tự khỏi, không thay đổi hoặc phát triển (về kích thước hoặc số lượng) và chúng sẽ không biến thành ung thư. Ung thư dương vật, hậu môn và hầu họng có thể được điều trị bằng phẫu thuật, xạ trị và hóa trị liệu. Thông thường, có hai hoặc nhiều hơn các phương pháp điều trị được sử dụng kết hợp. Bệnh nhân nên quyết định chọn phương pháp điều trị nào tốt cho họ.",
+            "score": 0.5505746006965637,
+            "id": "vietnamese_healthcare_156161",
+            "rerank_score": 0.5795763731002808,
+            "weighted_score": 0.8464502573013306
+        },
+        {
+            "text": "Câu hỏi: Biện pháp chữa trị HPV ở nam giới?\nTrả lời: 3. Biện pháp chữa trị HPV ở nam giới?\nCó các biện pháp để điều trị các bệnh do HPV gây ra ở nam giới và nữ giới . Bệnh mụn cóc ở nam giới do HPV gây ra có thể được điều trị bằng các cách: Sử dụng các loại kem theo chỉ định của bác sĩ hoặc các phương pháp như đốt điện, phun nitơ là cho mụn khô dần và biến mất hoặc cắt bỏ mụn Thường mụn cóc sẽ có thể tái sinh sau một thời gian nhất định, và phụ thuộc vào hợp tác điều trị của người bệnh Tiêm phòng vacxin HPV để phòng ngừa virus một cách hiệu quả nhất",
+            "score": 0.5928042531013489,
+            "id": "vietnamese_healthcare_134888",
+            "rerank_score": 0.2360735982656479,
+            "weighted_score": 0.6860139578580857
+        },
+        {
+            "text": "Câu hỏi: Phương pháp điều trị mụn cóc như thế nào?\nTrả lời: Nguyên nhân gây ra mụn cóc thường do virus gây u nhú ở người hay virus HPV, biểu hiện là các u sùi trên da và bệnh dễ tái phát. Phương pháp điều trị mụn cóc hiện nay có thể dùng như đốt điện, đốt laser, áp Nitơ lỏng hoặc bôi các thuốc thường chứa hỗn hợp các axit. . . Để điều trị dứt điểm bệnh mụn cóc bạn cần đến bệnh viện quốc tế Vinmec để được bác sĩ chuyên khoa khám và điều trị sớm, tránh để tổn thương lan rộng dễ tái phát.",
+            "score": 0.5114935040473938,
+            "id": "vietnamese_healthcare_5211",
+            "rerank_score": 0.11701519787311554,
+            "weighted_score": 0.27514924108982086
+        }
+    ],
+    "llm_call": 6,
+    "iteration": 2
+}

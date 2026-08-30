@@ -1,0 +1,117 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Đau tức ngực khi mệt mỏi, hít sâu là do đâu?",
+    "ground_truth": "biểu hiện tức ngực ở độ tuổi của em thì không nghĩ đến bệnh lý mạch vành, tuy nhiên em cần đến cơ sở y tế để kiểm tra các bệnh lý về tim mạch và tiêu hóa nhé.",
+    "answer": "Đau tức ngực khi mệt mỏi hoặc hít sâu có thể do nhiều nguyên nhân, gồm bệnh hô hấp như viêm phổi, viêm phế quản, hen, tràn dịch hoặc tràn khí màng phổi; ngoài ra còn có thể liên quan đến tim mạch, trào ngược dạ dày–thực quản hoặc dây thần kinh liên sườn. Khi hít sâu, phổi nở và cơ liên sườn giãn cũng có thể làm tăng đau ngực. Nếu kèm ho, sốt, khó thở hoặc mệt nhiều, bạn nên đi khám sớm để bác sĩ khám trực tiếp và cân nhắc xét nghiệm máu, X-quang phổi, điện tâm đồ hoặc đo chức năng hô hấp nhằm xác định nguyên nhân; hiện chưa đủ thông tin để kết luận bệnh cụ thể.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Dấu hiệutức ngực khi hít thởcó thể là biểu hiện của nhiều bệnh hô hấp: viêm phổi, viêm phế quản, hen phế quản, bệnh lý màng phổi: tràn dịch, tràn khí màng phổi...",
+        "cũng như một số bệnh ngoài hô hấp như: tim mạch, trào ngược dạ dày thực quản, dây thần kinh liên sườn.",
+        "Khi hít sâu, phổi nở ra lồng ngực căng phồng, các cơ liên sườn giãn ra sẽ gây đau ngực.",
+        "Tuy nhiên, cháu cũng nên đi khám để được chụp X-quang tim phổi, đo điện tâm đồ… kiểm tra và loại trừ bệnh lý ở tim, phổi nhé!",
+        "Trả lời: Các triệu chứng của bạn (khó chịu ở ngực khi hít sâu và ho) có thể liên quan đến bệnh lý đường hô hấp.Các triệu chứng của bệnh lý đường hô hấp thường khác nhau tùy thuộc vào việc bạn bị nhiễm khuẩn đường hô hấp trên hay dưới, những triệu chứng phổ biến hay gặp bao gồm:Ngạt mũi, chảy nước mũiĐau rát cổ họng, hoNhức mỏi toàn thân, sốt ớn lạnh..Đối với những nhiễm trùng nặng có thể ho khạc đờm nhiều, tức ngực khó thở,...Bạn nên đến khám để bác sĩ có thêm thông tin qua việc khám trực tiếp phổi, lồng ngực và từ đó có thể chỉ định xét nghiệm, chụp phim hoặc khám thêm chuyên khoa liên quan như tim mạch...",
+        "Bạn có thể được bác sĩ chỉ định chụp X-Quang để đánh giá hình ảnh và cấu trúc hệ hô hấp,đo chức năng hô hấpđể đánh giá tình trạng thông khí phế quản, mức độ viêm trong đường thở để loại trừ bệnh lý hen, bệnh phổi tắc nghẽn mạn tính.",
+        "Trả lời: Chào bạn,\nVới câu hỏi “Đau tức ngực khi hít sâu kèm sốt nhẹ về chiều, nguyên nhân do đâu?\", bác sĩ xin giải đáp như sau:\nBạn có biểu hiện tức ngực, sốt nhẹ về chiều, gợi ý bệnh lý nhiễm trùng, bạn nên đăng ký thăm khám với bác sĩ, có thể bác sĩ sẽ phải cần thêm một số xét nghiệm máu, Xquang phổi, điện tim...để chẩn đoán chính xác nguyên nhân và điều trị sớm cho bạn.",
+        "Mệt mỏi thì có rất nhiều nguyên nhân gây ra, tuy nhiên mệt mỏi kèm theo các dấu hiệu khó thở,đau tức ngựcđến nỗi không ngồi dậy nổi và không ăn uống gì được....",
+        "thì phải được khám chuyên sâu về thần kinh, hô hấp, tim mạch, thậm chí Nội tiết,..."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Vào ngày 28 tết, cháu có thấy phổi cháu có biểu hiện giống tức ngực khi hít thở sâu và hơi nhức đầu. Ngoài ra, cháu không ho, không sốt, không khó thở, không mệt mỏi. Bác sĩ cho cháu hỏi:Tức ngực khi hít thở sâu kèm nhức đầu là dấu hiệu bệnh gì?\nTrả lời: bác sĩ xin giải đáp như sau: Dấu hiệutức ngực khi hít thởcó thể là biểu hiện của nhiều bệnh hô hấp: viêm phổi, viêm phế quản, hen phế quản, bệnh lý màng phổi: tràn dịch, tràn khí màng phổi... cũng như một số bệnh ngoài hô hấp như: tim mạch, trào ngược dạ dày thực quản, dây thần kinh liên sườn. Với các triệu chứng như bạn mô tả thì bạn không cần đi khám ngay lập tức. Tuy nhiên, bạn còn có biểu hiện nhức đầu vào buổi tối nên bác sĩ tư vấn bạn nên đi khám kiểm tra nếu biểu hiện vẫn còn xuất hiện. Bạn nên đến khám bác sĩ chuyên khoa Hô hấp tại cơ sở y tế uy tín. Bạn có thể được bác sĩ chỉ định chụp X-Quang để đánh giá hình ảnh và cấu trúc hệ hô hấp,đo chức năng hô hấpđể đánh giá tình trạng thông khí phế quản, mức độ viêm trong đường thở để loại trừ bệnh lý hen, bệnh phổi tắc nghẽn mạn tính.",
+                "score": 0.6798704862594604,
+                "id": "medical_vietnamese_qa_9758",
+                "rerank_score": 0.975963830947876
+            },
+            {
+                "text": "Câu hỏi: Đau tức ngực khi hít sâu kèm sốt nhẹ về chiều, nguyên nhân do đâu?\nTrả lời: với triệu chứng trên, em có thể bị lao phổi hoặc đau thần kinh liên sườn bên phải. Tốt nhất em nên vào bệnh viện để bác sĩ khám và cho làm xét nghiệm, chụp X quang phổi kiểm tra và chẩn đoán chính xác nhé.",
+                "score": 0.6020399332046509,
+                "id": "vietnamese_healthcare_6303",
+                "rerank_score": 0.9710068702697754
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nLâu lâu cháu có hiện tượng bị khó thở , tức lồng ngực ( bên trái ). Mỗi lần hít sâu vào là bị quặng người xuống rất đau. Nhưng ngỗi bình tĩnh cố hít thở nhẹ tầm 30 phút là hết. Vậy cháu hỏi bác sĩ cháu bị bệnh gì và cách khắc phục\nTrả lời: Chào cháu,\nCháu hít thở sâu đau ngực trái, không có triệu chứng gì bất thường khác, vậy có thể chỉ do đau cơ thần kinh liên sườn.\nKhi hít sâu, phổi nở ra lồng ngực căng phồng, các cơ liên sườn giãn ra sẽ gây đau ngực.\nCháu có thể uống thuốc giảm đau thông thường như Paracetamol 500mg hoặc thuốc kháng viêm giảm đau như Diclofenac 50mg, kèm theo thuốc dãn cơ như Coltramyl, mỗi ngày uống 3 lần, mỗi lần 1viên cho mỗi loại.\nTuy nhiên, cháu cũng nên đi khám để được chụp X-quang tim phổi, đo điện tâm đồ… kiểm tra và loại trừ bệnh lý ở tim, phổi nhé!\nChúc cháu điều trị đạt kết quả tốt!",
+                "score": 0.5624269247055054,
+                "id": "vietnamese_medical_qa_8813",
+                "rerank_score": 0.963406503200531
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ, vài hôm nay em thấy hơi hơi tức ngực phải khi hít sâu, em không ho, hơi hơi sốt nhẹ về chiều tối, nguyên nhân dẫn đến việc tức ngực của em là gì vậy ạ? Mong bác sĩ tư vấn giúp!\nTrả lời: Chào bạn,\nVới câu hỏi “Đau tức ngực khi hít sâu kèm sốt nhẹ về chiều, nguyên nhân do đâu?\", bác sĩ xin giải đáp như sau:\nBạn có biểu hiện tức ngực, sốt nhẹ về chiều, gợi ý bệnh lý nhiễm trùng, bạn nên đăng ký thăm khám với bác sĩ, có thể bác sĩ sẽ phải cần thêm một số xét nghiệm máu, Xquang phổi, điện tim...để chẩn đoán chính xác nguyên nhân và điều trị sớm cho bạn.\nTrân trọng!",
+                "score": 0.6509652733802795,
+                "id": "vietnamese_medical_qa_4148",
+                "rerank_score": 0.9430582523345947
+            },
+            {
+                "text": "Câu hỏi: Tức ngực khi hít thở sâu kèm nhức đầu là dấu hiệu bệnh gì?\nTrả lời: Dấu hiệu tức ngực khi hít thở có thể là biểu hiện của nhiều bệnh hô hấp: viêm phổi, viêm phế quản, hen phế quản, bệnh lý màng phổi: tràn dịch, tràn khí màng phổi... cũng như một số bệnh ngoài hô hấp như: tim mạch, trào ngược dạ dày thực quản, dây thần kinh liên sườn.Với các triệu chứng như bạn mô tả thì bạn không cần đi khám ngay lập tức. Tuy nhiên, bạn còn có biểu hiện nhức đầu vào buổi tối nên bác sĩ tư vấn bạn nên đi khám kiểm tra nếu biểu hiện vẫn còn xuất hiện. Bạn nên đến khám bác sĩ chuyên khoa Hô hấp tại cơ sở y tế uy tín. Bạn có thể được bác sĩ chỉ định chụp X-Quang để đánh giá hình ảnh và cấu trúc hệ hô hấp, đo chức năng hô hấp để đánh giá tình trạng thông khí phế quản, mức độ viêm trong đường thở để loại trừ bệnh lý hen, bệnh phổi tắc nghẽn mạn tính.",
+                "score": 0.6648637056350708,
+                "id": "vietnamese_healthcare_1046",
+                "rerank_score": 0.9198032021522522
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Vào ngày 28 tết, cháu có thấy phổi cháu có biểu hiện giống tức ngực khi hít thở sâu và hơi nhức đầu. Ngoài ra, cháu không ho, không sốt, không khó thở, không mệt mỏi. Bác sĩ cho cháu hỏi:Tức ngực khi hít thở sâu kèm nhức đầu là dấu hiệu bệnh gì?\nTrả lời: bác sĩ xin giải đáp như sau: Dấu hiệutức ngực khi hít thởcó thể là biểu hiện của nhiều bệnh hô hấp: viêm phổi, viêm phế quản, hen phế quản, bệnh lý màng phổi: tràn dịch, tràn khí màng phổi... cũng như một số bệnh ngoài hô hấp như: tim mạch, trào ngược dạ dày thực quản, dây thần kinh liên sườn. Với các triệu chứng như bạn mô tả thì bạn không cần đi khám ngay lập tức. Tuy nhiên, bạn còn có biểu hiện nhức đầu vào buổi tối nên bác sĩ tư vấn bạn nên đi khám kiểm tra nếu biểu hiện vẫn còn xuất hiện. Bạn nên đến khám bác sĩ chuyên khoa Hô hấp tại cơ sở y tế uy tín. Bạn có thể được bác sĩ chỉ định chụp X-Quang để đánh giá hình ảnh và cấu trúc hệ hô hấp,đo chức năng hô hấpđể đánh giá tình trạng thông khí phế quản, mức độ viêm trong đường thở để loại trừ bệnh lý hen, bệnh phổi tắc nghẽn mạn tính.",
+                "score": 0.6564943194389343,
+                "id": "medical_vietnamese_qa_9758",
+                "rerank_score": 0.975963830947876
+            },
+            {
+                "text": "Câu hỏi: Đau tức ngực khi hít sâu kèm sốt nhẹ về chiều, nguyên nhân do đâu?\nTrả lời: với triệu chứng trên, em có thể bị lao phổi hoặc đau thần kinh liên sườn bên phải. Tốt nhất em nên vào bệnh viện để bác sĩ khám và cho làm xét nghiệm, chụp X quang phổi kiểm tra và chẩn đoán chính xác nhé.",
+                "score": 0.5780128836631775,
+                "id": "vietnamese_healthcare_6303",
+                "rerank_score": 0.9710068702697754
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ, vài hôm nay em thấy hơi hơi tức ngực phải khi hít sâu, em không ho, hơi hơi sốt nhẹ về chiều tối, nguyên nhân dẫn đến việc tức ngực của em là gì vậy ạ? Mong bác sĩ tư vấn giúp!\nTrả lời: Chào bạn,\nVới câu hỏi “Đau tức ngực khi hít sâu kèm sốt nhẹ về chiều, nguyên nhân do đâu?\", bác sĩ xin giải đáp như sau:\nBạn có biểu hiện tức ngực, sốt nhẹ về chiều, gợi ý bệnh lý nhiễm trùng, bạn nên đăng ký thăm khám với bác sĩ, có thể bác sĩ sẽ phải cần thêm một số xét nghiệm máu, Xquang phổi, điện tim...để chẩn đoán chính xác nguyên nhân và điều trị sớm cho bạn.\nTrân trọng!",
+                "score": 0.6349872946739197,
+                "id": "vietnamese_medical_qa_4148",
+                "rerank_score": 0.9430582523345947
+            },
+            {
+                "text": "Câu hỏi: Tức ngực khi hít thở sâu kèm nhức đầu là dấu hiệu bệnh gì?\nTrả lời: Dấu hiệu tức ngực khi hít thở có thể là biểu hiện của nhiều bệnh hô hấp: viêm phổi, viêm phế quản, hen phế quản, bệnh lý màng phổi: tràn dịch, tràn khí màng phổi... cũng như một số bệnh ngoài hô hấp như: tim mạch, trào ngược dạ dày thực quản, dây thần kinh liên sườn.Với các triệu chứng như bạn mô tả thì bạn không cần đi khám ngay lập tức. Tuy nhiên, bạn còn có biểu hiện nhức đầu vào buổi tối nên bác sĩ tư vấn bạn nên đi khám kiểm tra nếu biểu hiện vẫn còn xuất hiện. Bạn nên đến khám bác sĩ chuyên khoa Hô hấp tại cơ sở y tế uy tín. Bạn có thể được bác sĩ chỉ định chụp X-Quang để đánh giá hình ảnh và cấu trúc hệ hô hấp, đo chức năng hô hấp để đánh giá tình trạng thông khí phế quản, mức độ viêm trong đường thở để loại trừ bệnh lý hen, bệnh phổi tắc nghẽn mạn tính.",
+                "score": 0.6420735120773315,
+                "id": "vietnamese_healthcare_1046",
+                "rerank_score": 0.9198032021522522
+            },
+            {
+                "text": "Câu hỏi: Khó chịu ở ngực khi hít sâu là do đâu?\nTrả lời: Các triệu chứng của bạn (khó chịu ở ngực khi hít sâu và ho) có thể liên quan đến bệnh lý đường hô hấp.Các triệu chứng của bệnh lý đường hô hấp thường khác nhau tùy thuộc vào việc bạn bị nhiễm khuẩn đường hô hấp trên hay dưới, những triệu chứng phổ biến hay gặp bao gồm:Ngạt mũi, chảy nước mũiĐau rát cổ họng, hoNhức mỏi toàn thân, sốt ớn lạnh..Đối với những nhiễm trùng nặng có thể ho khạc đờm nhiều, tức ngực khó thở,...Bạn nên đến khám để bác sĩ có thêm thông tin qua việc khám trực tiếp phổi, lồng ngực và từ đó có thể chỉ định xét nghiệm, chụp phim hoặc khám thêm chuyên khoa liên quan như tim mạch... sau khi có đầy đủ xét nghiệm bác sĩ sẽ tổng hợp và đưa ra chẩn đoán, phương pháp điều trịCảm ơn bạn đã đặt câu hỏi tới Hệ thống Y tế Vinmec, rất mong được gặp bạn để được tư vấn trực tiếp.",
+                "score": 0.586258053779602,
+                "id": "vietnamese_healthcare_5243",
+                "rerank_score": 0.9174420833587646
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Vào ngày 28 tết, cháu có thấy phổi cháu có biểu hiện giống tức ngực khi hít thở sâu và hơi nhức đầu. Ngoài ra, cháu không ho, không sốt, không khó thở, không mệt mỏi. Bác sĩ cho cháu hỏi:Tức ngực khi hít thở sâu kèm nhức đầu là dấu hiệu bệnh gì?\nTrả lời: bác sĩ xin giải đáp như sau: Dấu hiệutức ngực khi hít thởcó thể là biểu hiện của nhiều bệnh hô hấp: viêm phổi, viêm phế quản, hen phế quản, bệnh lý màng phổi: tràn dịch, tràn khí màng phổi... cũng như một số bệnh ngoài hô hấp như: tim mạch, trào ngược dạ dày thực quản, dây thần kinh liên sườn. Với các triệu chứng như bạn mô tả thì bạn không cần đi khám ngay lập tức. Tuy nhiên, bạn còn có biểu hiện nhức đầu vào buổi tối nên bác sĩ tư vấn bạn nên đi khám kiểm tra nếu biểu hiện vẫn còn xuất hiện. Bạn nên đến khám bác sĩ chuyên khoa Hô hấp tại cơ sở y tế uy tín. Bạn có thể được bác sĩ chỉ định chụp X-Quang để đánh giá hình ảnh và cấu trúc hệ hô hấp,đo chức năng hô hấpđể đánh giá tình trạng thông khí phế quản, mức độ viêm trong đường thở để loại trừ bệnh lý hen, bệnh phổi tắc nghẽn mạn tính.",
+                "score": 0.5620944499969482,
+                "id": "medical_vietnamese_qa_9758",
+                "rerank_score": 0.9759638905525208
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ, vài hôm nay em thấy hơi hơi tức ngực phải khi hít sâu, em không ho, hơi hơi sốt nhẹ về chiều tối, nguyên nhân dẫn đến việc tức ngực của em là gì vậy ạ? Mong bác sĩ tư vấn giúp!\nTrả lời: Chào bạn,\nVới câu hỏi “Đau tức ngực khi hít sâu kèm sốt nhẹ về chiều, nguyên nhân do đâu?\", bác sĩ xin giải đáp như sau:\nBạn có biểu hiện tức ngực, sốt nhẹ về chiều, gợi ý bệnh lý nhiễm trùng, bạn nên đăng ký thăm khám với bác sĩ, có thể bác sĩ sẽ phải cần thêm một số xét nghiệm máu, Xquang phổi, điện tim...để chẩn đoán chính xác nguyên nhân và điều trị sớm cho bạn.\nTrân trọng!",
+                "score": 0.5542237758636475,
+                "id": "vietnamese_medical_qa_4148",
+                "rerank_score": 0.9430583715438843
+            },
+            {
+                "text": "Câu hỏi: ! Người nhà em bị làm mệt khó thở, tức ngực đau, không ngồi dậy nổi và không ăn uống gì được ngoài cố gắng uống chút sữa. Thăm khám, chụp toàn thân và kiểm tra máu thì cho kết quá không có bệnh gì. Vậy bác sĩ cho em hỏikhó thở, đau tức ngực, người mệt mỏi yếu ớt, thăm khám kết quả bình thường có phải là triệu chứng tụt canxi máukhông? và có thể bổ sung viên canxi qua đường uống không ạ? Nếu có thì liều lượng là bao nhiêu? Mong bác sĩ tư vấn và giải đáp. Em xin chân thành cảm ơn! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Mệt mỏi thì có rất nhiều nguyên nhân gây ra, tuy nhiên mệt mỏi kèm theo các dấu hiệu khó thở,đau tức ngựcđến nỗi không ngồi dậy nổi và không ăn uống gì được.... thì phải được khám chuyên sâu về thần kinh, hô hấp, tim mạch, thậm chí Nội tiết,... chứ không chỉ đơn thuần chụp và làm xét nghiệm máu. Còn theo bác sĩ nhiều khả năng không phải dotụt canxi máu, vì các triệu chứng hạ canxi máu thường lại ngược lại; ví dụ như; co cơ, co giật, tăng động, có thể rối loạn nhịp tim,.... Nếu bạn cần tư vấn chuyên sâu hơn nữa về việckhó thở, đau tức ngực, người mệt mỏi yếu ớt có phải là triệu chứng tụt canxi máukhông? thì bạn có thể đưa người nhà của mình đến bệnh viện thuộcHệ thống Y tế Vinmecđể được thăm khám và điều trị chuyên sâu. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Thị Minh Tâm -Trưởng phòng khám Vinmec Royal City - Phòng khám Quốc tế Vinmec Royal City",
+                "score": 0.5110595226287842,
+                "id": "medical_vietnamese_qa_10293",
+                "rerank_score": 0.9304291605949402
+            },
+            {
+                "text": "Câu hỏi: Tức ngực khi hít thở sâu kèm nhức đầu là dấu hiệu bệnh gì?\nTrả lời: Dấu hiệu tức ngực khi hít thở có thể là biểu hiện của nhiều bệnh hô hấp: viêm phổi, viêm phế quản, hen phế quản, bệnh lý màng phổi: tràn dịch, tràn khí màng phổi... cũng như một số bệnh ngoài hô hấp như: tim mạch, trào ngược dạ dày thực quản, dây thần kinh liên sườn.Với các triệu chứng như bạn mô tả thì bạn không cần đi khám ngay lập tức. Tuy nhiên, bạn còn có biểu hiện nhức đầu vào buổi tối nên bác sĩ tư vấn bạn nên đi khám kiểm tra nếu biểu hiện vẫn còn xuất hiện. Bạn nên đến khám bác sĩ chuyên khoa Hô hấp tại cơ sở y tế uy tín. Bạn có thể được bác sĩ chỉ định chụp X-Quang để đánh giá hình ảnh và cấu trúc hệ hô hấp, đo chức năng hô hấp để đánh giá tình trạng thông khí phế quản, mức độ viêm trong đường thở để loại trừ bệnh lý hen, bệnh phổi tắc nghẽn mạn tính.",
+                "score": 0.5448094010353088,
+                "id": "vietnamese_healthcare_1046",
+                "rerank_score": 0.9198033809661865
+            },
+            {
+                "text": "Câu hỏi: Khó chịu ở ngực khi hít sâu là do đâu?\nTrả lời: Các triệu chứng của bạn (khó chịu ở ngực khi hít sâu và ho) có thể liên quan đến bệnh lý đường hô hấp.Các triệu chứng của bệnh lý đường hô hấp thường khác nhau tùy thuộc vào việc bạn bị nhiễm khuẩn đường hô hấp trên hay dưới, những triệu chứng phổ biến hay gặp bao gồm:Ngạt mũi, chảy nước mũiĐau rát cổ họng, hoNhức mỏi toàn thân, sốt ớn lạnh..Đối với những nhiễm trùng nặng có thể ho khạc đờm nhiều, tức ngực khó thở,...Bạn nên đến khám để bác sĩ có thêm thông tin qua việc khám trực tiếp phổi, lồng ngực và từ đó có thể chỉ định xét nghiệm, chụp phim hoặc khám thêm chuyên khoa liên quan như tim mạch... sau khi có đầy đủ xét nghiệm bác sĩ sẽ tổng hợp và đưa ra chẩn đoán, phương pháp điều trịCảm ơn bạn đã đặt câu hỏi tới Hệ thống Y tế Vinmec, rất mong được gặp bạn để được tư vấn trực tiếp.",
+                "score": 0.5055122375488281,
+                "id": "vietnamese_healthcare_5243",
+                "rerank_score": 0.9174420833587646
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

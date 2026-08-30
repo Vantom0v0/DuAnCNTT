@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Tôi có thể đăng ký danh sách chờ để được tiêm vaccine Pfizer (khi đã có hàng) được không? Tôi sẽ phải đăng ký chờ ở đâu?",
+    "ground_truth": "Theo thông tin từ Bộ Y tế, hơn 90. 000 liều vaccine Covid-19 Pfizer/BioNTech đã về đến sân bay Nội Bài vào sáng ngày 7/7/2021. Đây là lô vaccine đầu tiên của hãng này về Việt Nam. Hiện nay, Chính phủ chưa có cơ chế triển khai tiêm chủng loại vaccine này. Hiện nay, Việt Nam đang tiến hành tiêm chủng vaccine AstraZeneca (Vương quốc Anh) cho các đối tượng, địa bàn ưu tiên theo hướng dẫn chỉ đạo của Chính phủ và Bộ Y tế.",
+    "answer": "Hiện chưa thể đăng ký danh sách chờ riêng để tiêm vaccine Pfizer theo cơ chế dịch vụ, vì vaccine Pfizer và Moderna chưa được nhập về Việt Nam và chưa có cơ chế tiêm dịch vụ được phê duyệt. Nếu thuộc nhóm ưu tiên, bạn có thể đăng ký tại nơi cư trú hoặc nơi công tác; nếu chưa thuộc nhóm ưu tiên, có thể đăng ký nhu cầu qua hệ thống tổng đài VNVC và chờ thông báo khi vaccine được cung ứng, đồng thời được Bộ Y tế cho phép triển khai tiêm dịch vụ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi có thể đăng ký danh sách chờ để được tiêm vaccine Pfizer theo cơ chế tính phí được không bác sĩ?\nTrả lời: Hiện nay, vaccine phòng Covid-19 của Pfizer và Modena của Mỹ chưa được nhập về Việt Nam và cũng chưa có cơ chế tiêm dịch vụ đối với những vaccine này. Anh vui lòng chờ thêm thông tin từ Chính phủ và Bộ Y tế.",
+            "score": 0.753480076789856,
+            "id": "vietnamese_healthcare_9686"
+        },
+        {
+            "text": "Câu hỏi: Em muốn đăng ký tiêm vaccine sớm nhất có thể đăng ký ở đâu?\nTrả lời: Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên. Vì vậy, nếu anh thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra, nếu chị chưa thuộc nhóm đối tương ưu tiên theo NĐ 21-CP thì vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC.",
+            "score": 0.7170001268386841,
+            "id": "vietnamese_healthcare_480"
+        },
+        {
+            "text": "Câu hỏi: Vaccine Covid-19 có triển khai tiêm dịch vụ không? Mình muốn đăng ký thì phải làm sao?\nTrả lời: Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên. Vì vậy, nếu chị thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra nếu chị chưa thuộc nhóm đối tương ưu tiên theo NĐ 21-CP vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC. Ngay khi có thể được đáp ứng và cho phép của Bộ Y tế về cơ chế tiêm dịch vụ. chúng tôi sẽ thông báo và mời khách hàng đến tiêm.",
+            "score": 0.7167392373085022,
+            "id": "vietnamese_healthcare_9466"
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn tiêm vaccine Covid-19 thì đăng ký như thế nào? Khi nào VNVC cho tiêm vaccine Covid-19 dịch vụ?\nTrả lời: Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy, nếu chị thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra nếu chị chưa thuộc nhóm đối tượng ưu tiên theo NĐ 21-CP vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC. Ngay khi có thể được đáp ứng và cho phép của Bộ Y tế về cơ chế tiêm dịch vụ, chúng tôi sẽ thông báo và mời khách hàng đến tiêm.",
+            "score": 0.7004709243774414,
+            "id": "vietnamese_healthcare_3145"
+        },
+        {
+            "text": "Câu hỏi: tôi và gia đình muốn đăng ký chích vaccine Covid-19 sớm nhất có thể thì đăng ký như thế nào?\nTrả lời: Hiện tại chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu anh/chị thuộc diện được tiêm theo chính sách thì có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra nếu anh/chị chưa thuộc nhóm đối tương ưu tiên theo NĐ 21-CP thì vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC, ngay khi có thể được đáp ứng và cho phép của Bộ Y tế về cơ chế tiêm dịch vụ chúng tôi sẽ thông báo và mời đến tiêm.",
+            "score": 0.6944284439086914,
+            "id": "vietnamese_healthcare_7259"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

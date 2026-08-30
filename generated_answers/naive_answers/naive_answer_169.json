@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "! Em hiện tại đangmang thai 23 tuần3 ngày, em bịcạn nước ốivà 1 tuần này em có hiện tượngrỉ ối, chỉ số ối còn 46mm. Em nghe nói cóphương pháp truyền ối. Bác sĩ cho em hỏimẹ bầu 23 tuần bị rỉ ối liệu có nên thực hiện phương pháp truyền ối không? Mong bác sĩ tư vấn giúp em. Câu hỏi ẩn danh Trả lời",
+    "ground_truth": "Chào bạn! Với câu hỏi “Mẹ bầu 23 tuần bị rỉ ối liệu có nên thực hiện phương pháp truyền ối?”, bác sĩ xin trả lời như sau: Bạn có thai 23 tuần 03 ngày, thiểu ối và như bạn nói có thể dorỉ ối. Bạn cần đến ngay bệnh viện chuyên khoa sản để được khám và điều trị vìrỉ ốikéo dài có thể gây nên nhiễm khuẩn, nguy hiểm cho cả mẹ và thai. Còn việc có truyền dịch buồng ối hay không sẽ được các bác sỹ quyết định và tư vấn cho bạn nhé. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp bạn trực tiếp để tư vấn kỹ càng hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được tư vấn bởi Bác sĩ chuyên khoa II Trần Thị Mai Hương- Bác sĩ Sản phụ khoa - Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+    "answer": "Tài liệu cung cấp không có đủ thông tin để kết luận thai 23 tuần bị rỉ ối có nên thực hiện truyền ối hay không. Tuy nhiên, khi rỉ ối ở giai đoạn này, bạn cần nhập viện hoặc đến cơ sở sản khoa để được theo dõi; bác sĩ sẽ đánh giá lượng nước ối qua siêu âm, theo dõi toàn trạng và làm xét nghiệm máu tìm dấu hiệu nhiễm trùng. Tùy tình trạng, bác sĩ có thể chỉ định kháng sinh phòng nhiễm trùng ối, truyền dịch và thuốc chống cơn co tử cung nhằm giảm nguy cơ sinh non. Bạn nên được khám sớm và không tự quyết định thực hiện truyền ối khi chưa có chỉ định chuyên khoa.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em mang thai 39 tuần. Em có dấu hiệu bị rỉ nước ối. Vậy bác sĩ cho em hỏiphụ nữ mang thai 39 tuần rỉ nước ối nguyên nhân là gì?Em cảm ơn bác sĩ. Nguyễn Thị Ngọc Mai(1990) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Văn Thành- Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp thai đã 39 tuần và rỉ nước ối thì bạn nên nhập viện để có kế hoạch sinh.",
+            "score": 0.733028769493103,
+            "id": "medical_vietnamese_qa_2444"
+        },
+        {
+            "text": "Câu hỏi: Em mang thai tuần 20. Em đang gặp hiện tượng rỉ ối và nhập viện nhưng rỉ rất ít. Vậy bác sĩ cho em hỏirỉ ối khi mang thai 20 tuần có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như bạn nói thì thai bạn đang 20 tuần có hiện tượng rỉ ối thì việc nhập viện theo dõi là rất quan trọng. Tùy vào tình trạng rỉ ối của bạn là nhiều hay ít kết hợp với siêu âm xác định lượng nước ối, theo dõi toàn trạng, làm xét nghiệm máu xem có dấu hiệu nhiễm trùng không thì bác sĩ có thể cho bạn điều trị kháng sinh nhằm ngăn ngừa tình trạng nhiễm trùng ối, tiến hành truyền dịch và thuốc để chống những cơ co của tử cung phòng nguy cơ sinh non. Bạn không nên quá lo lắng.",
+            "score": 0.6873282790184021,
+            "id": "medical_vietnamese_qa_1113"
+        },
+        {
+            "text": "Câu hỏi: Em bị rỉ ít nước ối ở tuần thứ 17 thai kỳ (màu vàng). Bác sĩ cho em hỏi,rỉ ối khi mang thai tuần thứ 17 có nguy hiểm không? Lê Thị Quý Chung(1993) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Vưu Khánh Linh- Bác sĩ Sản phụ khoa - Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Việcra nước ốikhi mang thai có thể gâynhiễm trùngvàsảy thai. Khi nước ối bị rò rỉ, chất lỏng thường có màu trắng, trong suốt, đôi khi có dính chút nhầy hay chút máu và đặc biệt không có mùi như mùi khai đặc trưng của nước tiểu. Tuy nhiên, để phân biệt đó là nước ối, nước tiểu hay huyết trắng, bạn nên đến gặp bác sĩ kiểm tra lại để có hướng xử trí phù hợp.",
+            "score": 0.6721676588058472,
+            "id": "medical_vietnamese_qa_2328"
+        },
+        {
+            "text": "Câu hỏi: Em bầu được 24 tuần. Em đi khám định kỳ bác sĩ bảo đa ối. Vậy bác sĩ cho em hỏiđa ối khi mang bầu 24 tuần có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng đa ối tuần 24 - 28 có thể xuất phát từ nhiều nhóm nguyên nhân. Trong đó nhiều nhất là do sự bất thường trong quá trình trao đổi chất giữa thai nhi và phần phụ của thai (nước ối, nhau thai, dây rốn...); hoặc cũng có thể do gặp vấn đề di truyền của thai (hở hàm ếch, hẹp môn vị...), do mẹ bị tiểu đường thai kỳ, song thai/ đa thai, thiếu máu hoặc nhiễm trùng bào thai... Thông thường, các mẹ bầu sẽ bị đa ối ở tuần thứ 30 trở đi, tuy nhiên nếu thấy dấu hiệu đa ối tuần 22 trở đi thì đây cũng là dấu hiệu các mẹ bầu cần đặc biệt lưu ý. Đối với trường hợp đa ối tuần 22 - 28, cách tốt nhất là bạn nên khám thai thường xuyên để đánh giá sự phát triển thai nhi và tình trạng nước ối có ở mức nguy hiểm hay không. Nếu thấy bất kỳ triệu chứng gì bất thường như bụng to nhanh, da bụng căng bóng, mệt mỏi, khó thở,... thì cần tới các cơ sở chuyên khoa uy tín để kiểm tra và khắc phục kịp thời. Bên cạnh đó, thai phụ cần chú ý nghỉ ngơi nhiều hơn vì đa ối sẽ khiến các bà mẹ mau mệt mỏi hơn bình thường. Bên cạnh đó, các mẹ bầu cần tuân thủ chế độ ăn uống và ngủ nghỉ hợp lý như: Ăn một lượng nhỏ thường xuyên Tránh thực phẩm và đồ uống như chất béo, cà phê, rượu Đảm bảo lượng protein và chất đạm trong khẩu phần ăn hằng ngày Ăn nhiều rau xanh nhưng hạn chế các loại rau chứa nhiều nước Tập trung ăn trái cây nhiều chất xơ, vitamin như táo, lê, chuối, đu đủ,...và hạn chế loại trái cây mọng nước như cam, bưởi, dưa hấu. Tuyệt đối tránh ăn mặn do muối có khả năng giữ nước Không nằm xuống sau bữa ăn Không ăn trước khi ngủ Kê cao gối khi ngủ.",
+            "score": 0.6677070260047913,
+            "id": "medical_vietnamese_qa_1181"
+        },
+        {
+            "text": "Câu hỏi: Cháu đang mang thai tuần thứ 36, mấy hôm trước ra dịch đặc, trong đó có tơ máu kéo dài 3, 4 hôm. Xong hôm nay sau khi đi tiểu xong thì hay són ra 1 ít nước, cháu ngửi thấy không có mùi gì và hình như hơi đặc 1 tí thôi. Vậy bác sĩ cho cháu hỏimang thai 36 tuần bị ra dịch đặc có tơ máu kèm són tiểu có phải rỉ ối không?Cháu phải làm gì? Cháu cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Rỉ ối là hiện tượng nước ối xuất ra bên ngoài âm đạo với một số lượng ít. Điều này khiến cho nhiều mẹ bầu bị nhầm lẫn đó là nước tiểu. Sự nhầm lẫn này khá nguy hiểm, vì nếu mẹ bầu không nhận biết được và không kịp thời phát hiện ra có thể sẽ dẫn đến sinh non làm ảnh hưởng đến sức khỏe của con. Trường hợp của bạn chưa rõ ràng là bạn có rỉ ối, hay chỉ mới ra cục nhầy hồng cổ tử cung kèm dịch âm đạo. Bạn cần đến bệnh viện gần nhất để khám và các bác sĩ sẽ tư vấn cho bạn thêm.",
+            "score": 0.6621220111846924,
+            "id": "medical_vietnamese_qa_1211"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

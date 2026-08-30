@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Bác sĩ cho em hỏiđứt dây chằng cổ chân đã 3 năm có mổ được không?Chân em bị dại không gập lên xuống theo chiều mặt bàn chân được. Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Việc đứt dây chằng có mổ không phụ thuộc vào mức độ đứt và nhu cầu vận động của bản thân người bệnh. Dây chằng cổ chân thường chỉ có chỉ định mổ khi đứt hoàn toàn ( độ 3) và ảnh hưởng tới chức năng khớp. Thời điểm mổ sau 3 năm có thể ảnh hưởng đến cách thức mổ nhưng vẫn mổ được. Tuy nhiên, tổn thương dây chằng không gây mất vận động khớp như bạn mô tả. Bạn nên đến thăm khám lại bác sĩ chuyên khoa để kiểm tra lại tình trạng bệnh của mình trước.",
+    "answer": "Đứt dây chằng cổ chân sau 3 năm vẫn có thể phẫu thuật, nhưng có mổ hay không phụ thuộc vào mức độ tổn thương, tình trạng lỏng khớp và nguyên nhân khiến cổ chân không gập duỗi được. Vì triệu chứng của bạn kéo dài và ảnh hưởng vận động, bạn nên sớm khám tại cơ sở Chấn thương chỉnh hình uy tín để được thăm khám và chụp X-quang/MRI khi cần, từ đó bác sĩ lựa chọn điều trị phù hợp (phẫu thuật tái tạo dây chằng, phục hồi chức năng hoặc phương pháp khác). Trong thời gian chờ khám, nên hạn chế chạy nhảy, xoay cổ chân và vận động mạnh; không tự ý điều trị.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em bị đứt dây chằng cổ chân. Em bị đứt sau 3 năm, chân bị dại không gập lên xuống theo chiều mặt bàn chân được. Vậy bác sĩ cho em hỏiđứt dây chằng cổ chân sau 3 năm có phải mổ không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Hệ thống dây chằng cổ chân khá phức tạp và có chức năng quan trọng trong việc vận động của cổ chân. Nếu vận động cổ chân của bạn bị ảnh hưởng trong thời gian dài và không hồi phục thì bạn cần đi khám tại các cơ sở Chấn thương chỉnh hình uy tín để bác sĩ có thể kiểm tra và đánh giá chính xác mức độ tổn thương, từ đó đưa ra phương án điều trị phù hợp cho bạn.",
+            "score": 0.8576479554176331,
+            "id": "medical_vietnamese_qa_55"
+        },
+        {
+            "text": "Câu hỏi: ! Tôi bị đứt dây chằng chéo trước khớp gối đã 4 năm. Hiện tại tôi đi lại bình thường. Chỉ khi nào xoay người hay xoay chân thì tôi bị giống như lệch khớp gối và đau vị trí khớp gối đó. Vậy bác sĩ cho tôi hỏi,khớp gối lệch và đau khi xoay người do đứt dây chằng chéo trước khớp gối 4 năm có nên mổ không?Nếu mổ xong tôi có thể hoạt động như người bình thường được hay không? Cảm ơn bác sĩ! Huyền(1990) Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Khớp gối lệch và đau khi xoay người do đứt dây chằng chéo trước khớp gối 4 năm có nên mổ không?” như sau: Dây chằng chéo trướccó chức năng giữ khớp gối không di chuyển ra trước, khiđứt dây chằng đầu gối, gối sẽ lỏng. Biến chứng sẽ gâythoái hóa khớp gối. Sau này sẽ phải thay khớp gối nhân tạo Bạn nênmổ tái tạo dây chằng bằngnội soi. Sau mổ cần vật lý trị liệu sẽ hồi phục, tỷ lệ thành công khoảng 95%. Bạn có thể đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Song Linh -Bác sĩ khoa Ngoại chấn thương chỉnh hình - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.7204461693763733,
+            "id": "medical_vietnamese_qa_794"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi, em bịđứt dây chằng chéo trước 16 năm có thể phẫu thuật được không? Có xảy ra biến chứng gì không ạ? Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn bác sĩ. Nguyễn Văn Nghị(1990) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Song Linh- Bác sĩ khoa Ngoại chấn thương chỉnh hình - Đơn nguyên Chấn thương - Chỉnh hình - Bệnh viện Đa khoa Quốc tế Vinmec Times City\nTrả lời: bác sĩ xin giải đáp như sau: Đứt dây chằng chéo trước, vẫn đi lại được 16 năm có nguy cơ thoái hóa khớp. Trong trường hợp đứt dây chằng lâu rồi có thể phẫu thuật được. Sau khi phẫu thuật có gây biến chứng: Tỷ lệ dưới 1%. Vì vậy tốt nhất, bạn đi thăm khám để được các bác sĩ chuyên khoa tư vấn cụ thể nhất. Nếu bạn còn thắc mắc vềđứt dây chằng chéo trước 16 năm có thể phẫu thuật được không, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng!",
+            "score": 0.7025879621505737,
+            "id": "medical_vietnamese_qa_675"
+        },
+        {
+            "text": "Câu hỏi: Con bị té xe tổn thương khớp gối, khám bác sĩ chẩn đoán đứt dây chằng nhưng do lúc đó con thấy còn đi lại được nên cố cho qua. Hiện đã gần 2 năm rồi, con đi lại hoạt động vẫn không tự nhiên và cảm thấy lỏng lẻo. Vậy bác sĩ cho con hỏilỏng gối sau đứt dây chằng 2 năm có sao không?Nếu để lâu quá liệu sau này con có phẫu thuật nối lại được nữa không? Con cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn còn trẻ mà biểu hiện lỏng gối rõ và ảnh hưởng đến vận động như vậy thì nên phẫu thuật tái tạo dây chằng chéo trước để làm vững khớp gối, giảm nguy cơ thoái hóa khớp gối về sau. Nếu bạn để lâu thì nguy cơ tổn thương sụn chêm và sụn khớp nặng rất cao, khi đó có phẫu thuật thì kết quả cũng sẽ không được như khi chưa có tổn thương sụn chêm và sụn khớp. Vì vậy, bạn nên sắp xếp đi khám để được đánh giá và tư vấn cụ thể. Trước mắt có thể tập khỏe các cơ vùng đùi, hạn chế vận động mạnh, hạn chế xoay người, chuyển hướng và thay đổi tốc độ đột ngột để giảm nguy cơ tổn thương sụn chêm và sụn khớp thứ phát do mất vững dây chằng. Hiện nay, tại Trung tâm Chấn thương chỉnh hình và Y học thể thao Vinmec có các phương pháp phẫu thuật và trang thiết bị hiện đại có thể giúp bạn phục hồi tốt nhất.",
+            "score": 0.6686991453170776,
+            "id": "medical_vietnamese_qa_204"
+        },
+        {
+            "text": "Câu hỏi: Cháu mới đá bóng, đi chụp MRI thì cho kết quả là đứt gần hoàn toàn dây chằng chéo trước. Bây giờ chân cháu không thấy đau hay sưng (mấy hôm đầu thì có). 2 đầu khớp gối vẫn bình thường, đi lại gập duỗi chân vẫn được. Bác sĩ cho cháu hỏiđứt dây chằng chéo trước không đau không sưng có phải mổ không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Đứt dây chằng chéo trước không đau không sưng có phải mổ không?”, bác sĩ giải đáp như sau: Chấn thương dây chằng là tình trạng phổ biến, thường gặp trong các tai nạn lao động và hoạt động thể thao. Nhiều người bị đứt dây chằng chéo đầu gối nhưng không biết khiến cho quá trình điều trị gặp nhiều khó khăn, và có nguy cơ tiến triển thành biến chứng nặng. Bệnh nhân có chỉ định mổ khi lỏng gối, đau và không thể thao được. Hiện tại, bạn chưa có chỉ định mổ.",
+            "score": 0.6655063629150391,
+            "id": "medical_vietnamese_qa_157"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

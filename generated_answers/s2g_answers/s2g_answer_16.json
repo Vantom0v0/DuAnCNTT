@@ -1,0 +1,107 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Thuốc điều trị bệnh sa sút trí tuệ hiệu quả?",
+    "ground_truth": "Giai đoạn sớm nhất của bệnh sa sút trí tuệ gọi là suy giảm nhận thức nhẹ (mild cognitive impairment). Ở giai đoạn này, có thể là biểu hiện sớm của bệnh sa sút trí tuệ thực sự hoặc chỉ do các bệnh lý về nội tiết, chuyển hóa hoặc do stress, căng thẳng. Chọn lựa thuốc điều trị phụ thuộc vào giai đoạn bệnh và nguyên nhân. Bạn nên đi khám tại bệnh viện quốc tế Vinmec để được bác sĩ chuyên khoa xác định chính xác giai đoạn bệnh và nguyên nhân, từ đó mới chọn lựa được điều trị phù hợp nhất.",
+    "answer": "Không tìm thấy đủ thông tin trong phần bằng chứng được cung cấp để xác định thuốc điều trị sa sút trí tuệ hiệu quả.",
+    "evidence": [],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Savixin\nTrả lời: 3. Cách sử dụng thuốc Savixin\n3.1. Cách sử dụng thuốc Savixin: Người bệnh sử dụng thuốc Savixin qua đường uống.",
+                "score": 0.6473040580749512,
+                "id": "vietnamese_healthcare_154773",
+                "rerank_score": 0.00026970432372763753
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6437063813209534,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.00022971731959842145
+            },
+            {
+                "text": "Câu hỏi: Liều lượng, cách dùng thuốc Vifloxacol\nTrả lời: 3. Liều lượng, cách dùng thuốc Vifloxacol\n3.1. Cách dùng thuốc Vifloxacol Vifloxacol được bào chế, sản xuất dưới dạng thuốc nhỏ mắt.",
+                "score": 0.6360267996788025,
+                "id": "vietnamese_healthcare_118653",
+                "rerank_score": 0.00020691945974249393
+            },
+            {
+                "text": "Câu hỏi: Liều lượng sử dụng thuốc\nTrả lời: 5. Liều lượng sử dụng thuốc\nLiều lượng sử dụng thuốc Mepred",
+                "score": 0.6381053924560547,
+                "id": "vietnamese_healthcare_69296",
+                "rerank_score": 0.00015580130275338888
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.6492082476615906,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 0.00011471668403828517
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Savixin\nTrả lời: 3. Cách sử dụng thuốc Savixin\n3.1. Cách sử dụng thuốc Savixin: Người bệnh sử dụng thuốc Savixin qua đường uống.",
+                "score": 0.6684998869895935,
+                "id": "vietnamese_healthcare_154773",
+                "rerank_score": 0.00026970432372763753
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6657235622406006,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.00022971731959842145
+            },
+            {
+                "text": "Câu hỏi: Liều lượng sử dụng thuốc\nTrả lời: 5. Liều lượng sử dụng thuốc\nLiều lượng sử dụng thuốc Mepred",
+                "score": 0.6613779067993164,
+                "id": "vietnamese_healthcare_69296",
+                "rerank_score": 0.00015580130275338888
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.6689044237136841,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 0.00011471668403828517
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng của Cefuroxime\nTrả lời: 2. Cách sử dụng của Cefuroxime\n2.2. Liều dùng của thuốc Cefuroxime 2.",
+                "score": 0.652165412902832,
+                "id": "vietnamese_healthcare_2737",
+                "rerank_score": 0.00010311715595889837
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Savixin\nTrả lời: 3. Cách sử dụng thuốc Savixin\n3.1. Cách sử dụng thuốc Savixin: Người bệnh sử dụng thuốc Savixin qua đường uống.",
+                "score": 0.710340142250061,
+                "id": "vietnamese_healthcare_154773",
+                "rerank_score": 0.00026970432372763753
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7118102312088013,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.0002297168830409646
+            },
+            {
+                "text": "Câu hỏi: Liều lượng, cách dùng thuốc Vifloxacol\nTrả lời: 3. Liều lượng, cách dùng thuốc Vifloxacol\n3.1. Cách dùng thuốc Vifloxacol Vifloxacol được bào chế, sản xuất dưới dạng thuốc nhỏ mắt.",
+                "score": 0.6878448128700256,
+                "id": "vietnamese_healthcare_118653",
+                "rerank_score": 0.00020692004181910306
+            },
+            {
+                "text": "Câu hỏi: Liều lượng sử dụng thuốc\nTrả lời: 5. Liều lượng sử dụng thuốc\nLiều lượng sử dụng thuốc Mepred",
+                "score": 0.6908805966377258,
+                "id": "vietnamese_healthcare_69296",
+                "rerank_score": 0.00015580144827254117
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Fluxar\nTrả lời: 3. Cách sử dụng thuốc Fluxar\n3.1. Cách sử dụng thuốc Fluxar Đối với thuốc Fluxar , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6951790452003479,
+                "id": "vietnamese_healthcare_137326",
+                "rerank_score": 0.0001537469943286851
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

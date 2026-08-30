@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Em bị sưng cổ họng trái, có triệu chứng ngứa mặt và bây giờ thì sốt. Không biết em tự soi có đúng không nhưng bên phải thì xuất hiện vài đốm trắng. Ăn nuốt gì có cảm giác đau, sờ phần cổ cũng có cảm giác đau ạ. Bác sĩ cho em hỏisốt, sưng cổ họng kèm nuốt đau dấu hiệu bệnh gì?Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn, Với câu hỏi “Sốt, sưng cổ họng kèm nuốt đau dấu hiệu bệnh gì?”, bác sĩ giải đáp như sau: Nếu bạn xuất hiện các triệu chứng: Sốt, nuốt đau, cảm giác sưng vùng cổ họng, ghi nhận các đốm trắng vùng họng thì bạn nên đến bệnh viện để khám và tư vấn điều trị. Các dấu hiệu trên có thể gặp trong một số bệnh lý như: Viêm họng cấp, viêm amidan cấp. Tuy vậy cũng cần khám kiểm tra để loại trừ một số bệnh lý khác.",
+    "answer": "Các triệu chứng sốt, sưng và đau họng khi nuốt, đau khi sờ vùng cổ kèm đốm trắng có thể gặp trong viêm họng cấp hoặc viêm amidan cấp, nhưng chưa thể xác định chính xác chỉ qua tự soi và cũng cần loại trừ các bệnh lý khác. Bạn nên đến phòng khám Tai Mũi Họng sớm để bác sĩ thăm khám, nội soi và làm xét nghiệm cần thiết nhằm đánh giá tổn thương và tư vấn điều trị phù hợp.",
+    "evidence": [
+        "Trả lời: Nếu bạn xuất hiện các triệu chứng: Sốt, nuốt đau, cảm giác sưng vùng cổ họng, ghi nhận các đốm trắng vùng họng thì bạn nên đến bệnh viện để khám và tư vấn điều trị.",
+        "Các dấu hiệu trên có thể gặp trong một số bệnh lý như: Viêm họng cấp, viêm amidan cấp.",
+        "Tuy vậy cũng cần khám kiểm tra để loại trừ một số bệnh lý khác.",
+        "Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.",
+        "Tuy vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, tầm soát các nguyên nhân gây đau họng, nuốt khó.",
+        "Trả lời: Chào bạn, Với câu hỏi “Cấn cổ họng kèm các đốm trắng ở cuống lưỡi nên đi khám không?”, bác sĩ giải đáp như sau: Tình trạng của bạn: Hiện tại thấy xuất hiện cấn ở cổ họng hay cuống lưỡi, bạn soi đèn thấy đốm trắng, bạn có cảm giác đau rát tại đốm đó không, bạn cần đi khám để đánh giá tổn thương là gì, khi đi khám bác sĩ cần làm cả xét nghiệm để chẩn đoán ra tổn thương hay không."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Sốt, sưng cổ họng kèm nuốt đau dấu hiệu bệnh gì?\nTrả lời: Nếu bạn xuất hiện các triệu chứng: Sốt, nuốt đau, cảm giác sưng vùng cổ họng, ghi nhận các đốm trắng vùng họng thì bạn nên đến bệnh viện để khám và tư vấn điều trị. Các dấu hiệu trên có thể gặp trong một số bệnh lý như: Viêm họng cấp, viêm amidan cấp. Tuy vậy cũng cần khám kiểm tra để loại trừ một số bệnh lý khác.",
+                "score": 0.6790549755096436,
+                "id": "vietnamese_healthcare_6144",
+                "rerank_score": 0.9998888969421387
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Cổ họng em gần xương quai xanh bên phải nổi lên một đường giống đường gân, sờ vào thấy đau, khiến em khi nuốt bất cứ thứ gì cũng đau. Bác sĩ cho em hỏi em bị bệnh gì không ạ?\nTrả lời: Chào bạn. Theo mô tả của bạn thì đó là vấn đề bất thường. Tuy nhiên, bác sĩ cần phải trực tiếp thăm khám cho bạn mới có thể đưa ra chẩn đoán được.\nDo vậy, bạn cần đến cơ sở y tế để được bác sĩ chuyên khoa thăm khám, tư vấn và chẩn đoán cho bạn nhé.",
+                "score": 0.6626243591308594,
+                "id": "vietnamese_medical_qa_3779",
+                "rerank_score": 0.9473875761032104
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau 1 bên họng, nuốt nước bọt đau đã 3 - 4 ngày nay. Lúc đầu cảm giác là đau 1 lưỡi nghĩ bị nhiệt vì em bị clo vào sát răng nhưng hôm sau lan xuống họng gây khó nuốt. Hôm nay, em soi đèn thì thấy cổ họng có những u nổi trên bề mặt, đau nhiều hơn. Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm nổi u trên bề mặt vùng họng là bệnh gì? Có phải ung thư không thưa bác sĩ? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVới những triệu chứng như bạn mô tả như: Đau một bên lưỡi lan xuống họng, khó nuốt, có những khối u bề mặt vùng họng, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.\nTrân trọng!",
+                "score": 0.6741595268249512,
+                "id": "vietnamese_medical_qa_1205",
+                "rerank_score": 0.9103745222091675
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm năm nay 29 tuổi (nữ), bị viêm họng 3 - 4 ngày nay chưa khỏi, không sốt không ho. Em đau họng, khó nuốt và nhìn vào thì có nổi các hạt đỏ viêm. Vậy bác sĩ cho em hỏi đau họng kèm nổi hạt đỏ vùng họng là bệnh gì? Vì dịch bệnh nên em chưa đến bệnh viện khám được. Mong bác sĩ tư vấn giúp em giải pháp điều trị? Dấu hiệu này có phải bệnh ung thư vòm họng không? Em không sử dụng chất kích thích, thuốc lá hay rượu bia thưa bác sĩ. Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có tình trạng đau họng, khó nuốt khoảng 03 - 04 ngày, đồng thời nổi các hạt đỏ vùng họng, những dấu hiệu trên không phải là dấu hiệu điển hình của ung thư vòm họng. Tuy vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, tầm soát các nguyên nhân gây đau họng, nuốt khó.\nTrân trọng!",
+                "score": 0.6489545702934265,
+                "id": "vietnamese_medical_qa_1218",
+                "rerank_score": 0.906968891620636
+            },
+            {
+                "text": "Câu hỏi: Mấy hôm trước, lưỡi em bị khô ít tiết nước bọt, bên trong cuống lưỡi có nổi các hạch nhỏ nhỏ. Sang đến hôm nay thì không khô lưỡi nữa, mà lại xuất hiện tình trạng bị cấn ở cổ họng hay là cuống lưỡi gì đó ở mé bên phải, em soi đèn thì thấy có một đốm trắng trắng ở phía hàm bên phải. Vậy cho em hỏicấn cổ họng kèm các đốm trắng ở cuống lưỡi nên đi khám không?\nTrả lời: Chào bạn, Với câu hỏi “Cấn cổ họng kèm các đốm trắng ở cuống lưỡi nên đi khám không?”, bác sĩ giải đáp như sau: Tình trạng của bạn: Hiện tại thấy xuất hiện cấn ở cổ họng hay cuống lưỡi, bạn soi đèn thấy đốm trắng, bạn có cảm giác đau rát tại đốm đó không, bạn cần đi khám để đánh giá tổn thương là gì, khi đi khám bác sĩ cần làm cả xét nghiệm để chẩn đoán ra tổn thương hay không.",
+                "score": 0.6780664324760437,
+                "id": "medical_vietnamese_qa_8716",
+                "rerank_score": 0.7364283204078674
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

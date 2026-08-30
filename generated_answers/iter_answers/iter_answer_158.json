@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Cháu có dự định mang thai. Bác sĩ cho cháu hỏikhi mang thai cần tiêm những loại vacxin nào?Mất bao lâu để hoàn thành? Thời gian hoàn thành mũi tiêm cuối cùng đến lúc mang thai là bao lâu? Cháu cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Nếu bạn có dự định mang thai thì nên tiêm các vaccine sau: Sởi quai bị rubella (MMR II), thủy đậu trước mang bầu ít nhất 3 tháng, tiêm bạch hầu ho gà uốn ván ( Boostrix) và tiêm cúm. Ngoài ra phải làm xét nghiệm viêm gan B, nếu chưa có kháng thể bảo vệ thì phải tiêm viêm gan B theo phác đồ 3 mũi (0-1-6). Như vậy bạn phải thu xếp tiêm 6 tháng trước mang bầu.",
+    "answer": "Trước khi mang thai, bạn nên khám và tiêm các vắc-xin cần thiết gồm: cúm (có thể tiêm trước hoặc trong thai kỳ, nhắc lại hằng năm), bạch hầu–ho gà–uốn ván, viêm gan B (nên xét nghiệm kháng thể trước; có thể tiêm trong thai kỳ nếu cần), viêm gan A, HPV, sởi–quai bị–rubella và thủy đậu. Vắc-xin sởi–quai bị–rubella và thủy đậu cần hoàn thành phác đồ trước khi mang thai ít nhất 1 tháng, lý tưởng là 3 tháng; các vắc-xin khác nên hoàn thành trước khoảng 1 tháng để cơ thể tạo miễn dịch. Nếu mang thai lần đầu, thường cần tiêm 2 mũi uốn ván cách nhau 1 tháng, mũi đầu từ khoảng tuần 20 và mũi thứ hai phải cách ngày sinh ít nhất 1 tháng; các lần mang thai sau có thể chỉ cần 1 mũi nếu lần trước đã tiêm đủ. Tiêm vắc-xin không làm giảm khả năng thụ thai; lịch cụ thể và số mũi phụ thuộc tiền sử tiêm chủng, kết quả xét nghiệm và hướng dẫn của cơ sở tiêm chủng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Hai vợ chồng em vừa mới kết hôn. Bác sĩ cho em hỏi,trước khi mang thai nên tiêm những vắc-xin gì?Có phải sau khi tiêm vắc-xin thì nguy cơ đậu thai sẽ khó hơn, 6-7 tháng hoặc có thể 1 năm mới có thai không? Nguyễn Thanh Dũng(1994) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Khắc Hiệu- Bác sĩ sản phụ khoa - Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Trước khi mang thai, bạn nên tiêm các loạivắc-xinsau: cúm, bạch hầu - ho gà - uốn ván (3 trong 1), sởi - quai bị - rubella (3 trong 1), thủy đậu, viêm gan B (nếu chưa có kháng thể viêm gan B). Các vắc-xin cúm, bạch hầu - ho gà - uốn ván, viêm gan B bạn vẫn có thể tiêm trong khi đang mang thai nếu cần thiết và không sợ ảnh hưởng đến thai nhi. Còn vắc-xin sởi - quai bị - rubella, thủy đậu thì nên tiêm trước khi mang thai 3 tháng. Trong thai kỳ, nếu mang thai lần đầu, bạn còn cần tiêm 2 mũi vắc-xin uốn ván (VAT), 2 mũi cách nhau 01 tháng. Bên cạnh đó, không có bằng chứng nào chứng minh tiêm vắc-xin xong sẽ khó đậu thai hơn. Nếu không tiêm vắc-xin và trong lúc mang thai mắc các bệnh này thì sẽ nguy hiểm hơn cho mẹ và bé.",
+            "score": 0.7429743409156799,
+            "id": "medical_vietnamese_qa_13226"
+        },
+        {
+            "text": "Câu hỏi: Em mới tiêm ngừa bạch hầu - ho gà - uốn ván, bại liệt - hib, thuỷ đậu, sởi -quai bị - rubella. Vậy bác sĩ cho em hỏisau tiêm phòng vacxin bao lâu có thể mang thai?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Vắc xin phòng bạch hầu, ho gà, uốn ván, bại liệt, Hib khuyến cáo nên hoàn thành phác đồ tiêm trước khi mang thai 1 tháng để cơ thể có đủ thời gian sinh kháng thể bảo vệ. Vắc xin phòng Sởi, Quai bị, Rubella và Thủy đậu bắt buộc phải hoàn thành phác đồ tiêm trước khi có thai ít nhất 1 tháng và lý tưởng nhất là 3 tháng.",
+            "score": 0.7231240272521973,
+            "id": "medical_vietnamese_qa_12766"
+        },
+        {
+            "text": "Câu hỏi: Em tiêm ngừa vacxin cúm, vacxin sởi, quai bị, rubella được khoảng 2 tháng 15 ngày thì hiện tại em có thai. Vậy bác sĩ cho em hỏimang thai sau hơn 2 tháng tiêm vacxin sởi, quai bị, Rubella có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vaccine cúm hoàn toàn không ảnh hưởng đến thai. Tiêm trong thời gian mang thai vẫn được. Vacxin sởi, quai bị, rubella thì có nguy cơ ảnh hưởng thai nhi nếu tiêm khi mang thai (về lý thuyết là vậy). Khoảng cách an toàn nhất là có thai sau tiêm 3 tháng. Tuy nhiên, bạn đã tiêm được 2.5 tháng rồi thì xem như là an toàn. Bạn cần khám thai định kỳ theo hướng dẫn của bác sĩ Sản khoa.",
+            "score": 0.6732903718948364,
+            "id": "medical_vietnamese_qa_12742"
+        },
+        {
+            "text": "Câu hỏi: Em muốn khám và tiêm phòng trước khi mang thai. Bác sĩ cho em hỏicần tiêm phòng vacxin gì trước khi mang thai?Sau bao lâu thì em có thể mang thai? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trước khi lên kế hoạch mang thai, người mẹ nên được tiêm tất cả các loại vắc - xin cần thiết theo khuyến cáo của Bộ Y tế và Tổ chức Y tế Thế giới. Tiêm vắc - xin trước khi mang thai rất cần thiết, giúp bảo vệ người mẹ và em bé sau này tránh khỏi các bệnh nguy hiểm và hạn chế các biến chứng có thể xảy ra do mắc bệnh. Ví dụ, Rubella là bệnh truyền nhiễm có khả năng diễn biến phức tạp nếu mắc phải trong thời kỳ mang thai. Cụ thể, bệnh này có nguy cơ dẫn đến sảy thai hoặc dị tật bẩm sinh cho thai nhi. Những vắc xin cần tiêm phòng trước khi mang thai là: viêm gan A, B (cần xét nghiệm trước khi tiêm); cúm; bạch hầu-ho gà-uốn ván; phòng ung thư cổ tử cung, sùi mào gà, mụn cóc sinh dục (phòng HPV); sởi, quai bị, Rubella, thủy đậu. Vắc xin phòng viêm gan A,B, vắc xin phòng cúm, bạch hầu-ho gà-uốn ván, phòng ung thư cổ tử cung, sùi mào gà, mụn cóc sinh dục (phòng HPV) khuyến cáo nên hoàn thành phác đồ tiêm trước khi mang thai 1 tháng để cơ thể có đủ thời gian sinh kháng thể bảo vệ. Vắc xin phòng Sởi, Quai bị, Rubella và Thủy đậu bắt buộc phải hoàn thành phác đồ tiêm trước khi có thai ít nhất 1 tháng và lý tưởng nhất là 3 tháng.",
+            "score": 0.6696435213088989,
+            "id": "medical_vietnamese_qa_12759"
+        },
+        {
+            "text": "Câu hỏi: Thời gian tiêm phòng thích hợp nhất\nTrả lời: 4. Thời gian tiêm phòng thích hợp nhất\nTrước mang bầu Mũi tiêm 3 trong 1 (sởi, quai bị, rubella): Tiêm phòng trong 3-6 tháng trước khi có thai, muộn nhất là trước khi có bầu 1- 3 tháng. Tiêm phòng viêm gan B: Vắc xin có thể tiêm vào trước hoặc trong khi có bầu. Tốt nhất là bạn nên tiêm trước khi có bầu để có sự chuẩn bị tốt nhất về sức khỏe. Cúm: Vắc xin có độ nhạy cao và thiết yếu với cuộc sống nên có thể tiêm ở mọi thời điểm trước hoặc trong khi mang thai nhưng khuyến cáo nên tiêm sớm trước khi mang bầu và nhắc lại hàng năm. Bạch hầu – ho gà – uốn ván: Tiêm 1 liều duy nhất vẫn đảm bảo phòng bệnh hiệu quả. Trong mang bầu Đối với mang thai lần đầu: Nên tiêm 2 mũi uốn ván trong quá trình mang bầu. Mũi đầu tiên có thể tiêm từ tuần 20 trở đi. Sau một tháng, tiêm nhắc lại mũi thứ 2. Tuy nhiên, cần đảm bảo mũi 2 phải được tiêm trước khi bạn sinh ít nhất là 1 tháng. Lần có thai sau: Chỉ tiêm 1 mũi vắc xin phòng uốn ván nếu lần có thai trước đã tiêm đủ 2 mũi vắc xin phòng uốn ván.",
+            "score": 0.6686819791793823,
+            "id": "vietnamese_healthcare_98024"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Em bị dị ứng thuốc nhưng không biết là dự úng với loại thuốc nào, liệu em có tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Theo bạn chia sẻ, bạn bị dị ứng với thuốc chúng tôi không biết mức độ dị ứng có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Nếu em từng dị ứng thuốc nhưng chưa xác định được loại thuốc, vẫn cần khai báo đầy đủ với bác sĩ khi khám sàng lọc và mô tả các triệu chứng đã từng gặp. Nếu chỉ nổi mề đay, ngứa nhẹ, không khó thở, tụt huyết áp, nôn ói/đau bụng, rối loạn tim mạch–thần kinh và không phải nhập viện cấp cứu, em có thể được tiêm nhưng nên tiêm tại bệnh viện hoặc cơ sở có đủ năng lực cấp cứu, theo dõi sau tiêm. Ngược lại, nếu trước đây từng phản vệ độ II trở lên, chẳng hạn khó thở, tím tái, tụt huyết áp hoặc phải cấp cứu/nhập viện, thì thuộc nhóm chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn; em không nên tự quyết định mà cần được bác sĩ đánh giá trực tiếp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em có tiền sử dị ứng với một loại thuốc kháng sinh phải vào bệnh viện cấp cứu một lần do bị nổi mẩn ngứa khắp người, hơi khó thở. Vậy em có được tiêm vaccine ngừa Covid-19 không ạ?\nTrả lời: Như trường hợp của anh có dị ứng với một loại thuốc kháng sinh (nổi mẩn đỏ, hơi khó thở) có triệu chứng của phản ứng phản vệ độ II. Theo hướng dẫn trong QĐ 2995 BYT ngày 18/6/2021 về đối tượng chống chỉ định tiêm chủng trong đó có đối tượng có phản ứng phản vệ từ độ II trở lên với bất ký tác nhân nào.",
+            "score": 0.8330280184745789,
+            "id": "vietnamese_healthcare_3170"
+        },
+        {
+            "text": "Câu hỏi: Mình có tiền sử dị ứng với thuốc, dung dịch truyền nước hoa quả và thi thoảng hay bị dị ứng chưa rõ nguyên nhân (không dị ứng với hải sản) thì có tiêm được vaccine phòng Covid-19 không?\nTrả lời: Bạn chưa miêu tả cụ thể tình trạng dị ứng của mình như triệu chứng, thuốc điều trị khi dị ứng như thế nào, bạn có phải cấp cứu tại bệnh viện hay không. Nếu tình trạng dị ứng chỉ bị nổi mề đay thì có thể tiêm ngừa vaccine tại bệnh viện hoặc cơ sở tiêm chủng đủ năng lực cấp cứu ban đầu, còn nếu tình trạng dị ứng của bạn ở mức độ nặng (phản vệ độ 2 trở lên) phải cấp cứu tại bệnh viện thì đó là chống chỉ định tiêm vaccine Covid-19 .",
+            "score": 0.8322154879570007,
+            "id": "vietnamese_healthcare_1177"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng với thuốc hạ sốt và thuốc giảm đau có thể tiêm vaccine Covid-19 được không?\nTrả lời: Theo thông tin của chị cung cấp, chúng tôi chưa đánh giá được mức độ dị ứng của chị vì theo hướng dẫn của Bộ Y tế, những người có tiền sử phản vệ nặng (phản vệ từ độ II) với bất kỳ tác nhân gì trước đó thuộc nhóm chống chỉ định tiêm vaccine Covid-19. Vì vậy, trong giai đoạn này, chị cần thực hiện các biện pháp phòng dịch hiệu quả khác như thông điệp 5K của Chính phủ. Tuy nhiên, nếu mức độ dị ứng của chị chỉ là mề đay, ngứa, . . . và không bị khó thở, tím tái, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn/buồn nôn. . . thì chị vẫn được tiêm chủng nhưng cần cẩn trọng dưới sự giám sát của nhân viên y tế, chị nên tiêm chủng trong bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu.",
+            "score": 0.8309680223464966,
+            "id": "vietnamese_healthcare_177"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng với thuốc, có tiêm vaccine Covid-19 của Astrazenca được không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, những người có tiền sử dị ứng cần thận trọng với việc tiêm chủng vaccine Covid-19. Trường hợp bạn có những biểu hiện phản ứng phản vệ độ 2 trở lên sau khi dùng thuốc như nổi mề đay, ngứa, buồn nôn, nôn, khó thở. . . thì chống chỉ định với vaccine này. Nếu tình trạng dị ứng không quá nặng nề (phản ứng phản vệ độ 1), bạn có thể tiêm chủng tại các cơ sở trong bệnh viện. Bạn cần thông báo với bác sĩ khám sàng lọc về các triệu chứng gặp phải sau khi dùng thuốc để nhận được khuyến cáo phù hợp.",
+            "score": 0.8106632232666016,
+            "id": "vietnamese_healthcare_1348"
+        },
+        {
+            "text": "Câu hỏi: Em bị dị ứng thuốc kháng viêm và dị ứng với ve sầu. Em có tiêm ngừa Covid-19 được không ạ?\nTrả lời: Nếu tình trạng dị ứng của anh không nghiêm trọng như không ảnh hưởng đến hô hấp, tim mạch, tiêu hóa, thần kinh và cũng không khiến anh phải nhập viện điều trị thì không chống chỉ định tiêm vaccine Covid-19. Tuy nhiên, người có cơ địa dị ứng có nguy cơ phản vệ cao hơn những người khác. Vì vậy, khi khám sàng lọc trước tiêm, anh cần báo cáo với bác sĩ về tình trạng dị ứng của anh cũng như triệu chứng mà anh gặp phải để bác sĩ có thể quyết định cho chỉ định tiêm chủng ngay hoặc cần phải chuyển bệnh viện và tư vấn thêm cho anh.",
+            "score": 0.8084287643432617,
+            "id": "vietnamese_healthcare_8909"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

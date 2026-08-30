@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tôi muốn đăng ký tiêm vaccine Covid-19 thì làm sao ạ?",
+    "ground_truth": "Để biết thêm chi tiết về vấn đề này, Anh/Chị vui lòng hiện hệ xã, phường nơi cư trú biết thêm thông tin và được hướng dẫn cụ thể hơn về các đợt tiêm chủng vaccine Covid-19. Hiện tại vẫn đang triển khai tiêm chủng theo sự chỉ đạo của Chính Phủ và Bộ Y tế.",
+    "answer": "Bạn cần liên hệ với cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể. Nếu thuộc nhóm đối tượng được ưu tiên theo chính sách, bạn có thể đăng ký tại nơi sinh sống hoặc nơi công tác; ngoài ra, có thể đăng ký trực tuyến qua website “Cổng thông tin tiêm chủng Covid-19”.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Muốn tiêm vaccine Covid-19 phải đăng ký như thế nào?\nTrả lời: Về vấn đề cách thức đăng ký tiêm vaccine Covid-19, anh cần liên hệ với các cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể hơn. Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu anh thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+            "score": 0.845099687576294,
+            "id": "vietnamese_healthcare_5366"
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn được tiêm vaccine Covid- 19 phải đăng ký như thế nào?\nTrả lời: Về vấn đề cách thức đăng ký tiêm vaccine Covid-19, anh cần liên hệ với các cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể hơn. Hiện tại chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu anh thuộc diện được tiêm theo chính sách thì có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+            "score": 0.8331048488616943,
+            "id": "vietnamese_healthcare_57"
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn tiêm vacine Covid-19 thì phải đăng ký như thế nào ạ?\nTrả lời: Về vấn đề cách thức đăng ký tiêm vaccine Covid-19, anh cần liên hệ với các cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể hơn. Hiện tại, chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên. Vì vậy, nếu anh thuộc diện được tiêm theo chính sách thì anh có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Hiện thông tin mới nhất anh có thể đăng ký trực tuyến qua website “Cổng thông tin tiêm chủng Covid-19”.",
+            "score": 0.8305365443229675,
+            "id": "vietnamese_healthcare_9019"
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn tiêm vaccine Covid-19 phải đăng ký như thế nào ạ?\nTrả lời: Về vấn đề cách thức đăng ký tiêm vaccine Covid-19, anh cần liên hệ với các cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể hơn. Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên. Vì vậy, nếu anh thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+            "score": 0.8219181299209595,
+            "id": "vietnamese_healthcare_9588"
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn tiêm vaccine Covid-19 thì phải đăng ký như thế nào?\nTrả lời: Về vấn đề cách thức đăng ký tiêm vaccine Covid-19, chị cần liên hệ với các cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể hơn. Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu chị thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+            "score": 0.8166804313659668,
+            "id": "vietnamese_healthcare_5078"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

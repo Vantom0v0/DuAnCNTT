@@ -1,0 +1,120 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Em năm nay 30 tuổi. Ngực em lâu lâu có đau 1 chút, em có đi khám tổng quát thì không có vấn đề gì. Em có tìm hiểu trên mạng về các dấu hiệu bệnh, nhưng thấy không có những dấu hiệu đó. Vậy cho em hỏi, triệu chứng đau của em là như thế nào ạ?\nChào bác sĩ cho em hỏi em rạng sáng trước ngực em hơi bị đau là bị bệnh gì vậy? Mong bác sĩ tư vấn. Xin cảm ơn.",
+    "ground_truth": "Chào bạn. Đau ngực là triệu chứng của nhiều cơ quan. Trong đó có 2 cơ quan quan trọng là tim và phổi. Bạn có đi khám tổng quát kết quả bình thường có thể loại trừ nguyên nhân đau ngực do bệnh lý tim mạch, hô hấp.\nDo đó trường hợp đau ngực của bạn là triệu chứng lành tính có thể do căng cơ thành ngực (căng cơ thường xảy ra sau khi nâng vật nặng, kéo giãn hoặc cử động đột ngột, ho kéo dài) hoặc trong trạng thái lo âu có xuất hiện cơn đau tại vùng ngực, nên bạn không cần quá lo lắng quá.\nTuy nhiên bạn nên theo dõi sức khỏe thường xuyên, nếu đau ngực kéo dài kèm theo khó thở, chóng mặt... cần đến ngay cơ sở y tế uy tín để thăm khám và tư vấn nhé.",
+    "answer": "Đau ngực thoáng qua hoặc xuất hiện rạng sáng có thể liên quan đến nhiều nguyên nhân như bệnh tim mạch, hô hấp, trào ngược thực quản, màng tim, màng phổi, thần kinh hoặc tâm lý; chỉ dựa vào mô tả hiện tại chưa đủ để kết luận bệnh cụ thể. Vì đau tức ngực là triệu chứng cần được đánh giá, bạn nên đi khám sớm, đặc biệt tại cơ sở y tế hoặc bác sĩ tim mạch, để được thăm khám và làm xét nghiệm phù hợp như điện tim, siêu âm tim, xét nghiệm men tim hoặc X-quang ngực; khi cần có thể khám tiêu hóa và nội soi dạ dày–thực quản.",
+    "evidence": [
+        "Tùy theo tính chất, cường độ, thời gian của cơn đau sẽ liên quan đến nhiều bệnh lý khác nhau như bệnh mạch vành, bệnh trào ngược thực quản, bệnh màng tim, bệnh màng phổi, bệnh động mạch chủ, thần kinh hoặc tâm lý.",
+        "Vì vậy, bạn nên đến gặp bác sĩ để được thăm khám để được chẩn đoán và điều trị hợp lý.",
+        "Đau ngực là một triệu chứng của nhiều bệnh lý về tim mạch, hô hấp, thần kinh, tiêu hóa...",
+        "Chào cháu, Với câu hỏi“Đau nhói ngực liên tục trong vài giờ là triệu chứng của bệnh gì?”,\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng cháu mô tả không đủ để bác sĩ kết luận một bệnh lý cụ thể nào.",
+        "Khám tim mạch để siêu âm tim, điện tim các xét nghiệm về men tim mục đích tầm soát các bệnh lý tim bẩm sinh, bệnh mạch vành,...",
+        "Khám tiêu hóa để được nội soi dạ dày thực quản xem có viêm loét hay bất thường gì khác không.",
+        "Em có dấu hiệu đau ngực, chỉ hơi đau và cơn đau cũng có lúc kéo dài cả ngày, lúc thì đau ngực trái lúc thì đau ngực phải và xiên qua sau lưng, cũng có lúc đau cả ngực.",
+        "Em thường đau khi mệt mỏi hoặc khi hít thở sâu, có cảm giác khó thở.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bạn cần khám cụ thể, làm thêm XQuang ngực và điện tim thêm để xác chẩn.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Đau tức ngực là 1 triệu chứng báo động và cần được đánh giá sớm, toàn diện và đầy đủ.",
+        "Bạn nên đến khám sớm tại các cơ sở y tế gần nhất để được thăm khám và thực hiện các xét nghiệm phù hợp.",
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có xuất hiện cơn nặng tức vùng trước ngực xuất hiện về đêm nên đến khám ngay bác sĩ tim mạch để tìm nguyên nhân hay gặp như các bệnh lý tim bẩm sinh, bệnh lý động mạch vành."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Thưa bác sĩ, em muốn hỏi về vấn đề đau tức ngực. Em có dấu hiệu đau ngực, chỉ hơi đau và cơn đau cũng có lúc kéo dài cả ngày, lúc thì đau ngực trái lúc thì đau ngực phải và xiên qua sau lưng, cũng có lúc đau cả ngực. Em thường đau khi mệt mỏi hoặc khi hít thở sâu, có cảm giác khó thở. Có một thời gian, em thấy vàng mắt, chán ăn, ăn không tiêu, tuần chỉ đi vệ sinh 2 lần vì những cơn đau dữ dội. Bác sĩ cho hỏi em như vậy là bị làm sao ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn trước sự nhiệt tình của bác sĩ.\nTrả lời: Chào em, biểu hiện tức ngực ở độ tuổi của em thì không nghĩ đến bệnh lý mạch vành, tuy nhiên em cần đến cơ sở y tế để kiểm tra các bệnh lý về tim mạch và tiêu hóa nhé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.5951974987983704,
+                "id": "vietnamese_medical_qa_4292",
+                "rerank_score": 0.9824275374412537
+            },
+            {
+                "text": "Câu hỏi: . Sáng ngủ dậy em cảm thấy lồng ngực mình hơi đau, hắt xì cũng đau, ấn mạnh vào lồng ngực cũng đau. Bác sĩ cho em hỏi em bị làm sao vậy ạ? Mong nhận được sự tư vấn, em xin cảm ơn. Nguyễn Văn Quốc(2003) Trả lời\nTrả lời: Chào bạn! Đau ngựclà triệu chứng của nhiều cơ quan. Trong đó có 2 cơ quan quan trọng là tim và phổi. Ở độ tuổi của bạn (17 tuổi) hiếm khi bịbệnh về tim mạchhoặc phổi. Tuy nhiên để loại trừ những nguyên nhântim bẩm sinh(bệnh từ lúc còn trong bụng mẹ), bạn nên đến gặp bác sĩ chuyên khoa nội tim mạch và hô hấp để loại trừ. Nếu tim mạch, hô hấp không có vấn đề gì thì trường hợp đau ngực của bạn có thể do cơ xương hay thần kinh vùng đau, đây là triệu chứng lành tính và có thể tự hết khi bạn hết ho hết hắt xì. Cảm ơn vì đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng! Thạc sĩ, Bác sĩ Danh Mện- Bác sĩ Nội tim mạch-Khoa Khám bệnh & nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc",
+                "score": 0.5762430429458618,
+                "id": "medical_vietnamese_qa_12211",
+                "rerank_score": 0.9562764167785645
+            },
+            {
+                "text": "Câu hỏi: Sáng nay, cháu bị đau giữa lòng ngực, cháu cứ tưởng là tức ngực bình thường nhưng không phải, nó cứ đau khi cháu thở dài hay hoạt động gì đó là nó nhức. Vậy bác sĩ cho cháu hỏinam giới đau giữa lòng ngực nguyên nhân là gì?Cháu cảm ơn bác sĩ. Võ Khắc Tuấn Anh(2002) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Lê Đức Hoàng- Khoa Hồi sức Cấp cứu, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như mô tả của bạn thì triệu chứng của bạn là đau tức ngực khi hoạt động gắng sức, triệu chứng này là không bình thường. Tùy theo tính chất, cường độ, thời gian của cơn đau sẽ liên quan đến nhiều bệnh lý khác nhau như bệnh mạch vành, bệnh trào ngược thực quản, bệnh màng tim, bệnh màng phổi, bệnh động mạch chủ, thần kinh hoặc tâm lý. Tuy nhiên, do bạn còn trẻ tuổi nên ít nghĩ đến bệnh mạch vành hơn. Vì vậy, bạn nên đến gặp bác sĩ để được thăm khám để được chẩn đoán và điều trị hợp lý.",
+                "score": 0.5744431018829346,
+                "id": "medical_vietnamese_qa_11840",
+                "rerank_score": 0.9511865973472595
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho em hỏi đau 2 bên ngực cùng một chỗ là triệu chứng bệnh gì ạ? Em bị đau 1 chỗ ở vùng ngực nhưng cả hai bên đau y hệt nhau ạ. Mong bác sĩ tư vấn giúp em, em xin cảm ơn.\nChào bác sĩ. Tôi bị đau cả 2 bên ngực. Bên ngực trái thì đau bên trên, sưng mà căng cứng. Bên phải thì nhẹ hơn chỉ hơi đau bên dưới thôi. Tôi bị đau 1 tuần nay rồi. Xin hỏi tôi có triệu chứng của bệnh gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ. Em vừa sinh xong được 2 tháng thì mấy hôm gần đây cảm thấy đau nhói ở ngực trái thỉnh thoảng lan ra giữa ngực và ngực phải thì đó là bị gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn!\nĐau ngực là một triệu chứng của nhiều bệnh lý về tim mạch, hô hấp, thần kinh, tiêu hóa... Trường hợp này bạn nên đi khám bác sĩ để được tư vấn và điều trị được tốt nhất.",
+                "score": 0.5785356163978577,
+                "id": "vietnamese_medical_qa_3684",
+                "rerank_score": 0.9219762086868286
+            },
+            {
+                "text": "Câu hỏi: Em bị đau nhói ở ngực liên tục trong vài giờ. Lúc hít thở ngực phồng lên lan cơn nhói đến gần cổ, cơn đau khá nhẹ. Bác sĩ cho em hỏiđau nhói ngực liên tục trong vài giờ là triệu chứng của bệnh gì?Em cảm ơn bác sĩ. Trần Thái Duy Khôi(2005) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Ngô Đắc Thanh Huy- Bác sĩ tim mạch - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng. Chào cháu, Với câu hỏi“Đau nhói ngực liên tục trong vài giờ là triệu chứng của bệnh gì?”,\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng cháu mô tả không đủ để bác sĩ kết luận một bệnh lý cụ thể nào. Cháu nên tái khám bác sĩ tim mạch và bác sĩ chuyên khoa về tiêu hóa. Khám tim mạch để siêu âm tim, điện tim các xét nghiệm về men tim mục đích tầm soát các bệnh lý tim bẩm sinh, bệnh mạch vành,... Khám tiêu hóa để được nội soi dạ dày thực quản xem có viêm loét hay bất thường gì khác không. Tuỳ vào kết quả khám bệnh thực tế bác sĩ sẽ tư vấn hướng khắc phục phù hợp cho cháu. Nếu cháu còn thắc mắc về việcđau nhói ngực, cháu có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn cháu đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc cháu có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+                "score": 0.6127911806106567,
+                "id": "medical_vietnamese_qa_11853",
+                "rerank_score": 0.9050652384757996
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Thưa bác sĩ, em muốn hỏi về vấn đề đau tức ngực. Em có dấu hiệu đau ngực, chỉ hơi đau và cơn đau cũng có lúc kéo dài cả ngày, lúc thì đau ngực trái lúc thì đau ngực phải và xiên qua sau lưng, cũng có lúc đau cả ngực. Em thường đau khi mệt mỏi hoặc khi hít thở sâu, có cảm giác khó thở. Có một thời gian, em thấy vàng mắt, chán ăn, ăn không tiêu, tuần chỉ đi vệ sinh 2 lần vì những cơn đau dữ dội. Bác sĩ cho hỏi em như vậy là bị làm sao ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn trước sự nhiệt tình của bác sĩ.\nTrả lời: Chào em, biểu hiện tức ngực ở độ tuổi của em thì không nghĩ đến bệnh lý mạch vành, tuy nhiên em cần đến cơ sở y tế để kiểm tra các bệnh lý về tim mạch và tiêu hóa nhé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.6056575179100037,
+                "id": "vietnamese_medical_qa_4292",
+                "rerank_score": 0.9824275374412537
+            },
+            {
+                "text": "Câu hỏi: Em thấy nặng ngực và lâu lâu thấy mệt, đau ở giữa ngực, nhiều khi lệch sang trái và nhiều khi nằm thấy ngực đánh mạnh giống hồi hộp. Bác sĩ cho em hỏinặng ngực kèm đau giữa ngực là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bạn cần khám cụ thể, làm thêm XQuang ngực và điện tim thêm để xác chẩn.",
+                "score": 0.5758007764816284,
+                "id": "medical_vietnamese_qa_11640",
+                "rerank_score": 0.9339677691459656
+            },
+            {
+                "text": "Câu hỏi: Gần đây, tôi hay có triệu chứng đau tức ngực. Cách đây 3 ngày khi uống nước thì có cơn đau bất ngờ khoảng tầm 15 phút. Những ngày sau có bị đau nhưng thời gian ít hơn. Bác sĩ tư vấn giúp tôiđau tức ngực là biểu hiện của bệnh gì?Tôi xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Đau tức ngực là 1 triệu chứng báo động và cần được đánh giá sớm, toàn diện và đầy đủ. Bạn nên đến khám sớm tại các cơ sở y tế gần nhất để được thăm khám và thực hiện các xét nghiệm phù hợp.",
+                "score": 0.5822083950042725,
+                "id": "medical_vietnamese_qa_11813",
+                "rerank_score": 0.9011592864990234
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm đột nhiên bị nặng ngực, hơi thở yếu hơn bình thường và kèm theo mệt mỏi và lạnh 2 cánh tay. Sau một lúc nghỉ ngơi, em mới đỡ lại và triệu chứng đó xuất hiện ban đêm. Vậy bác sĩ cho em hỏi nặng ngực kèm hơi thở yếu vào ban đêm có sao không? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có xuất hiện cơn nặng tức vùng trước ngực xuất hiện về đêm nên đến khám ngay bác sĩ tim mạch để tìm nguyên nhân hay gặp như các bệnh lý tim bẩm sinh, bệnh lý động mạch vành.\nTrân trọng!",
+                "score": 0.6093024611473083,
+                "id": "vietnamese_medical_qa_9",
+                "rerank_score": 0.798427402973175
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho cháu hỏi thường xuyên đau tức ngực là dấu hiệu của bệnh gì? Bởi vì 1 - 2 tháng nay, cháu thường xuyên bị đau tức ngực, cơn tức nghẹn lên cổ, nó chỉ diễn ra trong vài phút rồi tự khỏi, nếu không cháu chỉ cần uống nước là khỏi luôn. Cháu cảm ơn bác sĩ rất nhiều ạ!\nTrả lời: Chào bạn! Đối với câu hỏi thường xuyên đau tức ngực là dấu hiệu của bệnh gì? Bác sĩ xin được trả lời như sau:\nCảm ơn bạn đã gửi câu hỏi tới AI-Doctor. Trân trọng!",
+                "score": 0.572868824005127,
+                "id": "vietnamese_medical_qa_2327",
+                "rerank_score": 0.7918699979782104
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Thưa bác sĩ, em muốn hỏi về vấn đề đau tức ngực. Em có dấu hiệu đau ngực, chỉ hơi đau và cơn đau cũng có lúc kéo dài cả ngày, lúc thì đau ngực trái lúc thì đau ngực phải và xiên qua sau lưng, cũng có lúc đau cả ngực. Em thường đau khi mệt mỏi hoặc khi hít thở sâu, có cảm giác khó thở. Có một thời gian, em thấy vàng mắt, chán ăn, ăn không tiêu, tuần chỉ đi vệ sinh 2 lần vì những cơn đau dữ dội. Bác sĩ cho hỏi em như vậy là bị làm sao ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn trước sự nhiệt tình của bác sĩ.\nTrả lời: Chào em, biểu hiện tức ngực ở độ tuổi của em thì không nghĩ đến bệnh lý mạch vành, tuy nhiên em cần đến cơ sở y tế để kiểm tra các bệnh lý về tim mạch và tiêu hóa nhé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.6005108952522278,
+                "id": "vietnamese_medical_qa_4292",
+                "rerank_score": 0.9824275374412537
+            },
+            {
+                "text": "Câu hỏi: Em thấy nặng ngực và lâu lâu thấy mệt, đau ở giữa ngực, nhiều khi lệch sang trái và nhiều khi nằm thấy ngực đánh mạnh giống hồi hộp. Bác sĩ cho em hỏinặng ngực kèm đau giữa ngực là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bạn cần khám cụ thể, làm thêm XQuang ngực và điện tim thêm để xác chẩn.",
+                "score": 0.6014559864997864,
+                "id": "medical_vietnamese_qa_11640",
+                "rerank_score": 0.9339677691459656
+            },
+            {
+                "text": "Câu hỏi: Thường xuyên đau tức ngực là dấu hiệu của bệnh gì?\nTrả lời: Qua triệu chứng bạn mô tả, bác sĩ bước đầu chẩn đoán có thể đây là dấu hiệu của bệnh co thắt thực quản.",
+                "score": 0.5902340412139893,
+                "id": "vietnamese_healthcare_8099",
+                "rerank_score": 0.9251453876495361
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho em hỏi đau 2 bên ngực cùng một chỗ là triệu chứng bệnh gì ạ? Em bị đau 1 chỗ ở vùng ngực nhưng cả hai bên đau y hệt nhau ạ. Mong bác sĩ tư vấn giúp em, em xin cảm ơn.\nChào bác sĩ. Tôi bị đau cả 2 bên ngực. Bên ngực trái thì đau bên trên, sưng mà căng cứng. Bên phải thì nhẹ hơn chỉ hơi đau bên dưới thôi. Tôi bị đau 1 tuần nay rồi. Xin hỏi tôi có triệu chứng của bệnh gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ. Em vừa sinh xong được 2 tháng thì mấy hôm gần đây cảm thấy đau nhói ở ngực trái thỉnh thoảng lan ra giữa ngực và ngực phải thì đó là bị gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn!\nĐau ngực là một triệu chứng của nhiều bệnh lý về tim mạch, hô hấp, thần kinh, tiêu hóa... Trường hợp này bạn nên đi khám bác sĩ để được tư vấn và điều trị được tốt nhất.",
+                "score": 0.5927978754043579,
+                "id": "vietnamese_medical_qa_3684",
+                "rerank_score": 0.9219760894775391
+            },
+            {
+                "text": "Câu hỏi: Gần đây, tôi hay có triệu chứng đau tức ngực. Cách đây 3 ngày khi uống nước thì có cơn đau bất ngờ khoảng tầm 15 phút. Những ngày sau có bị đau nhưng thời gian ít hơn. Bác sĩ tư vấn giúp tôiđau tức ngực là biểu hiện của bệnh gì?Tôi xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Đau tức ngực là 1 triệu chứng báo động và cần được đánh giá sớm, toàn diện và đầy đủ. Bạn nên đến khám sớm tại các cơ sở y tế gần nhất để được thăm khám và thực hiện các xét nghiệm phù hợp.",
+                "score": 0.5917022228240967,
+                "id": "medical_vietnamese_qa_11813",
+                "rerank_score": 0.9011592864990234
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tôi bị viêm gan B, năm 2014 tôi dùng thuốc điều trị thì bị mẩn ngứa khắp người. Sau đó, tôi dừng thuốc thì khỏi. Hiện tôi không điều trị và không dùng thuốc. Tình trạng bệnh vẫn được kiểm soát. Vậy tôi tiêm vaccine Covid-19 được không ạ?",
+    "ground_truth": "Anh bị viêm gan B mạn tính hiện tại không phải sử dụng thuốc và có tiền sử dị ứng độ 1 với thuốc kháng virus viêm gan B thì theo hướng dẫn của quyết định 2995/QD-BYT anh có thể tiêm chủng vaccine phòng Covid-19 tại khối bệnh viện.",
+    "answer": "Nếu viêm gan B của bạn hiện ổn định, không trong giai đoạn tiến triển và tình trạng mẩn ngứa trước đây không phải phản vệ độ 2, bạn có thể tiêm vaccine Covid-19. Tuy nhiên, vì bạn từng bị mẩn ngứa khi dùng thuốc điều trị, nên đi khám để bác sĩ đánh giá lại tình trạng viêm gan B và tiền sử dị ứng trước khi tiêm. Khi mẩn ngứa tái diễn hoặc kéo dài, bạn nên khám chuyên khoa Da liễu; đồng thời có thể cần khám chuyên khoa Tiêu hóa và làm xét nghiệm để đánh giá tình trạng gan.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị viêm gan B mãn tính, vài năm nay lại bị mẩn ngứa, nổi mề đay, nhiều khi mẩn ngứa nổi cục trên đầu và trên người. Tôi có thể tiêm vaccine phòng Covid-19 được không?\nTrả lời: Trường hợp của anh bị viêm gan B mạn tính nhưng anh không nói rõ bệnh đã ổn định hay chưa, có đang điều trị bằng thuốc gì không?Do vậy, anh nên đi gặp bác sĩ để khám lại tình trạng bệnh của mình, nếu bệnh của anh không trong giai đoạn tiến triển và đang ổn định, anh có thể tiêm vaccine Covid-19 bình thường. Anh có chia sẻ bị nổi mề đay, nhiều khi nổi cục ngứa trên đầu nhưng không dùng thuốc và tự khỏi thì đây không phải là phản vệ độ 2. Anh có thể tiêm ngừa Covid-19 nếu bệnh lý nền đã ổn định.",
+            "score": 0.6406573057174683,
+            "id": "vietnamese_healthcare_1865"
+        },
+        {
+            "text": "Câu hỏi: Nam 30 tuổi\nBác sĩ cho em hỏi là mắc viêm gan B có gây ngứa không ạ\nEm đã đi xét nghiệm giun sán nhưng không có,họ bảo men gan tăng cao cũng gây ngứa,em hoang mang quá không biết nên đi khám gì,mong bác sĩ giải đáp hộ ạ…Em xin cảm ơn\nTrả lời: Chào bạn, gan làm nhiệm vụ chuyển hóa các chất trong cơ thể, từ đó dễ đào thải ra ngoài. Khi chức năng gan bị suy giảm có thể gây tích tụ một số chất gây ngứa da. Tuy nhiên nguyên nhân gây hay gặp hơn là bệnh lý da.  Bạn nên đi khám chuyên khoa da liễu để bác sĩ thăm khám, xác chính xác nguyên nhân gây ngứa. Thân mến.",
+            "score": 0.63780277967453,
+            "id": "vietnamese_medical_qa_5070"
+        },
+        {
+            "text": "Câu hỏi: Bị ngứa khắp cơ thể, uống và bôi thuốc không khỏi cần phải làm gì?\nTrả lời: Cô đã khám bác sĩ da liễu và đang điều trị thuốc theo hướng triệu chứng bằng thuốc chống dị ứng. Cô có thể tái khám lại và đề nghị bác sĩ xem xét làm các xét nghiệm để tìm nguyên nhân như Panel 1, xét nghiệm sán chó mèo, soi phân tìm giun, xét nghiệm Helicobacter pylori dạ dày, . . . nếu có thể được. Trọng trường hợp bị ngứa khắp cơ thể kéo dài mà điều kiện không thể khám đúng tại bệnh viện khám ban đầu thì cô có thể đến cơ sở y tế gần nhất để thực hiện tầm soát nguyên nhân gây dị ứng. Nếu không thể thực hiện các xét nghiệm trên, cô vẫn nên tái khám và làm theo hướng dẫn của bác sĩ sở tại. Về việc nghi ngờ nhiễm sán chó mà chưa có xét nghiệm thì cô không nên tự ý điều trị, vì thuốc này phải sử dụng liều cao, thời gian dài khoảng 3 tuần, có thể gây ảnh hưởng rất xấu đến gan. Trong điều kiện thực tế, cô có thể xem xét lại môi trường sống, vệ sinh sạch sẽ nhà cửa (vì bụi mạc cũng có thể là nguyên nhân gây dị ứng), tránh tiếp xúc với lông chó mèo, phấn hoa, tránh sử dụng các hóa chất mỹ phẩm, tránh ăn thực phẩm nghi ngờ dị ứng: một số loại cá, tôm, cua, ghẹ, . . tạm ngưng thuốc hoặc các thực phẩm chức năng nếu không thật sự cần thiết, tắm rửa sử dụng xà phòng trung tính như Cetaphil, Johnson. .",
+            "score": 0.6349954605102539,
+            "id": "vietnamese_healthcare_2573"
+        },
+        {
+            "text": "Câu hỏi: Men gan cao, mẩn ngứa khắp người là do đâu?\nTrả lời: Men gan tăng là dấu chứng của sự tổn thương hủy tế bào gan. Ngứa cũng có thể là một trong những dấu chứng của tắc mật (Bệnh lý của gan). Bạn cần đến khám bác sĩ chuyên khoa Tiêu hóa để được tư vấn làm thêm xét nghiệm.",
+            "score": 0.6321678757667542,
+            "id": "vietnamese_healthcare_3529"
+        },
+        {
+            "text": "Câu hỏi: Điều trị da bị nổi mẩn đỏ khắp người?\nTrả lời: Bạn bị nổi mẩn đỏ khắp người. Tuy nhiên, bác sĩ chưa thấy bạn nhắc đến thời gian bạn bị lâu chưa, có kèm theo triệu chứng khác như đau, rát, ngứa,... không.Mẩn ngứa là triệu chứng phổ biến của rất nhiều bệnh da liễu như viêm da tiếp xúc dị ứng, bệnh mề đay, bệnh viêm mao mạch dị ứng,...Để được hỗ trợ tốt nhất, bạn cần đến khám bác sĩ chuyên khoa Da Liễu để được chẩn đoán và điều trị và tư vấn cụ thể hơn cho bạn.",
+            "score": 0.6258459091186523,
+            "id": "vietnamese_healthcare_6755"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ! Cho tôi hỏi: Nội soi đại tràng có đau không? Cảm ơn bác sĩ đã tư vấn và giải đáp!",
+    "ground_truth": "Chào bạn! Nội soi đại tràng có đau không? Là thắc mắc của rất nhiều người. Thực tế, nội soi đại tràng, trực tràng thường diễn ra trong khoảng 20 - 30 phút, tùy thuộc đại tràng dễ hay khó và có can thiệp thủ thuật như cắt polyp đại tràng hay sinh thiết không?\nCó thể nội soi đại tràng gây đau khi ống soi đi qua chỗ gập góc và gây chướng bụng. Trong trường hợp đau nhiều như bệnh nhân đã từng phẫu thuật vùng bụng, gây dính ruột đại tràng gập góc nhiều thì những trường hợp này nên thực nội soi đại tràng gây mê. Đây là thủ thuật gây mê nội soi có sử dụng thuốc mê đường tĩnh mạch, bệnh nhân sẽ được ngủ trong suốt quá trình thực hiện nội soi và không có cảm giác khó chịu.\nPhương pháp nội soi đại tràng là một kỹ thuật được thực hiện thường quy tại AI-Doctor. Tại đây đã thực hiện nhiều ca phẫu thuật nội soi đem lại kết quả chính xác, sàng lọc sớm các bệnh ung thư đường tiêu hóa hiệu quả, góp phần không nhỏ vào việc chẩn đoán bệnh và giải đoạn bệnh.",
+    "answer": "Xin chào bạn! Tài liệu được cung cấp không có thông tin về việc nội soi đại tràng có đau hay không, nên chưa đủ cơ sở để giải đáp câu hỏi này.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+            "score": 0.7485335469245911,
+            "id": "vietnamese_medical_qa_1629"
+        },
+        {
+            "text": "Câu hỏi: Sữa đậu nành kỵ với thực phẩm nào?\nTrả lời: 2. Sữa đậu nành kỵ với thực phẩm nào?",
+            "score": 0.6889662742614746,
+            "id": "vietnamese_healthcare_38886"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cho em hỏi hở van động mạch phổi nhẹ có nguy hiểm không? Cần làm những gì và ăn kiêng những gì ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn em đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+            "score": 0.6830852627754211,
+            "id": "vietnamese_medical_qa_1887"
+        },
+        {
+            "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+            "score": 0.6829838156700134,
+            "id": "vietnamese_healthcare_125866"
+        },
+        {
+            "text": "Câu hỏi: Tác dụng phụ của thuốc Vixogan\nTrả lời: 4. Tác dụng phụ của thuốc Vixogan\nHiện tại, chưa có báo cáo về tác dụng phụ gặp phải khi sử dụng thuốc Vixogan. Nếu trong quá trình sử dụng thuốc Vixogan, bạn thấy xuất hiện các triệu chứng bất thường, cần báo cho bác sĩ hoặc đến ngay cơ sở y tế gần nhất để được hỗ trợ kịp thời.",
+            "score": 0.6648541688919067,
+            "id": "vietnamese_healthcare_3969"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Con nhà em được 1 tháng tuổi nhưng hay vặn mình giật mình khi ngủ nôn trớ nhiều, 3 - 5 hôm vẫn chưa đi ngoài. Bác sĩ cho em hỏitrẻ sơ sinh nôn trớ khi ngủ kèm ít đi ngoài có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Đa số các triệu chứng như trường hợp của bé là hiện tượng sinh lý. Tuy nhiên cần xác định bụng có chướng căng không, tính chất phân thế nào, bé có tăng cân không,... để xem xét loại trừ bệnh lý bất thường đường ruột bẩm sinh gây chậm đi cầu. Bạn có thể cho trẻ uống vitamin liều cao (800 - 1000 IU/ ngày) và nằm cao tư thế 30 độ, chia nhỏ cữ bú để giảm thiểu hiện tượng vặn mình nôn trớ.",
+    "answer": "Ở trẻ khoảng 1 tháng, vặn mình, giật mình khi ngủ và ọc sữa lượng ít có thể là biểu hiện sinh lý thường gặp, thường giảm dần sau 3–4 tháng; tuy nhiên nôn trớ nhiều có thể ảnh hưởng tăng cân và gây biến chứng hô hấp nên cần theo dõi. Nếu bé vẫn bú tốt, tỉnh táo, bụng mềm và không sốt thì có thể cho bú đúng tư thế, chia nhiều cữ (khoảng 2,5–3 giờ/lần), tránh ép bú, vỗ ợ hơi và giữ đầu cao khi bế khoảng 30 phút sau bú, cho bé ngủ nằm ngửa trong môi trường yên tĩnh. Việc 3–5 ngày chưa đi ngoài đôi khi vẫn gặp, nhất là trẻ bú mẹ, nhưng cần đưa bé đi khám sớm để đánh giá nếu kèm nôn trớ nhiều, bụng chướng, bỏ bú, quấy khóc nhiều, phân nhầy/máu, nôn vọt hoặc nôn màu xanh, sốt, lừ đừ, tiểu ít hay không tăng cân; không tự ý dùng thuốc hoặc men tiêu hóa cho bé.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con em gần 1 tháng. Bé hay vặn người đỏ mặt, giật mình, quấy khóc và ngủ không sâu, hay bị ọc sữa, trung bình 1 ngày chỉ có giấc ngủ trưa 12h - 2h và 22h - 1h là bé ngủ sâu, còn lại phải bồng bế hoặc ôm bé mới ngủ được nhưng vẫn hay vặn vẹo và khóc quấy. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn người, ngủ không sâu có sao không?Em cảm ơn bác sĩ. Lương Thị Tuyết Mai(1996) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Triệu Thị Hồng Thái -Khoa Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ dưới 3 tháng sẽ hay gặp vấn đề quấy khóc, hay nôn trớ, tuy nhiên không nhiều. Nếutrẻ quấy khóc, đòi bế nhiều,hay ọc sữanhiều có thể ảnh hưởng tăng cân, nguy cơ viêm đường hô hấp,... gây stress cho gia đình. Vì thế, bạn nên đưa trẻ đến bác sĩ kiểm tra, hướng dẫn hỗ trợ để trẻ vượt qua nhanh hơn.",
+            "score": 0.7824811339378357,
+            "id": "medical_vietnamese_qa_5676"
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ ạ,\nBé nhà em được 17 ngày tuổi, bé hay nôn trớ nhiều có khi trớ lên cả mũi dù sau khi cho ti em đã ôm cao tầm 20p mới đặt xuống. Bé rất hay vặn mình đỏ hết cả mặt, cứ vặn mình là bị trớ sữa. Ôm bé trên tay thì bé ít vặn, ngủ ngon nhưng đặt xuống giường là vặn mình liên tục ngủ không sâu giấc. Khi ở viện về bs có kê thuốc KiDal dặn nhỏ ngày 5 giọt, em cũng uống canxi corbiere 10ml ngày 2 ống (bé ti mẹ hoàn toàn). Do thời tiết không tốt nên em chỉ phơi nắng cho bé được 3 hôm nên em lo sợ không biết bé có bị thiếu canxi không ạ. Và bé hay đi ngoài ít ít nhưng nhiều lần trong ngày, nhiều khi bé vặn mình cũng đi són phân. Em có cho bé dùng thêm biogaia ngày 5 giọt. \nCho em hỏi tình trạng bé vặn mình, nôn trớ và đi ngoài như vậy có cách nào khắc phục k ạ? Em cảm ơn ạ.\nTrả lời: Chào bạn, với trẻ sơ sinh các hiện tượng vặn mình, trớ sữa, đi ngoài hoa cà hoa cải hay gặp do các bộ phận chưa hoàn thiện. Bạn không nên quá lo lắng. Bạn có thể khắc phục bằng cách cho bé bú nhiều bữa trong ngày, vỗ ợ hơi, massage bụng cho bé, quấy bé khi ngủ, tại môi trường ngủ yên tĩnh...Thân mến.",
+            "score": 0.7710908055305481,
+            "id": "vietnamese_medical_qa_5899"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em nay được 22 ngày tuổi.Bé hay vặn mình vào ban đêm, rặn đỏ mặt và hay nôn trớ, khóc vàkhó ngủ ban đêm. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn mình, nôn trớ kèm khó ngủ vào ban đêm là sao?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn hay vặn mình, nôn trớ, khóc kèm khó ngủ vào ban đêm. Với những biểu hiện như bạn mô tả có thể gặp ở trẻ sơ sinh và trẻ nhỏ, đó là hiện tượng bình thường. Nếutrẻ nôn trớ nhiều, đại tiện phân nhầy, máu nên đưa trẻ đi khám. Bạn cũng có thể kiểm tra trẻ ăn đủ lượng chưa, thay bỉm, tã nếu trẻ đi ướt bỉm, ôm ấp, vỗ về bé, đảm bảo nhiệt độ, độ ẩm phòng ngủ để đảm bảo giấc ngủ cho trẻ sơ sinh. Nếu bạn còn thắc mắc, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.7637159824371338,
+            "id": "medical_vietnamese_qa_5242"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 21 ngày, 3 hôm gần đâybé khó ngủ giấc ngày, thường chỉ ngủ giấc rất ngắn, đặt bé xuống là bé giật mình dậy. Bé hay vặn mình, rướn người để xì hơi vàxì hơi nhiều, to. Đêm bé vẫn ăn và ngủ tốt. Bé bú mẹ hoàn toàn. Vậy bác sĩ cho em hỏibé sơ sinh khó ngủ, hay vặn mình kèm xì hơi nhiều là sao?Có phải bé bị đầy hơi khó chịu nên mới ngủ không tốt và xì hơi nhiều không? Có cách nào để cải thiện tình trạng này không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Biểu hiện trên của bé là hoàn toàn bình thường, giai đoạn này các bé sẽ thường xuyên vặn mình, rướn người và rất dễ giật mình. Biểu hiệngồng người vặn mình, mặt đỏ lên và kết thúc trong vài phút khi thức hoặc khi ngủ có ở hầu hết các trẻ sơ sinh từ vài tuần tuổi tới 2 tháng và thường kết thúc khi trẻ được 3 - 4 tháng tuổi. Đây là biểu hiện sinh lý bình thường, nguyên nhân do trẻ chưa quen với cuộc sống ở bên ngoài tử cung của mẹ, các tế bào thần kinh chưa biệt hoá, vỏ não và thể vân chưa phát triển nên hoạt động dưới vỏ chiếm ưu thế. Do đó, trẻ thường có những biểu hiện múa vờn, vận động tay chân thường xuyên vì phản ứng của vỏ não có xu hướng lan tỏa khi bị kích thích.",
+            "score": 0.7566599249839783,
+            "id": "medical_vietnamese_qa_5228"
+        },
+        {
+            "text": "Câu hỏi: Con em được 20 ngày. Lúc sinh bé được 2kg7. Bé thường xuyên vặn mình và trớ. Mỗi lần bé trớ là rất nhiều. Bé ngủ ngày nhiều. Đêm ngủ ít. Bé bú mẹ hoàn toàn, bú xong vẫn bế bé một lúc mà lúc đặt bé xuống vẫn bị trớ ra ngoài. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn mình kèm nôn trớ phải làm thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ bú mẹ ít khi bị nôn trớ trừ trường hợp mẹ cho bú không đúng cách, thời gian bú quá gần sữa chưa tiêu hết. Do đó, bạn cần cho con bú đúng cách, không để trẻ nuốt hơi, mỗi 2.30 - 3 giờ cho trẻ bú 1 lần, bú xong giữ trẻ đầu cao 30 phút.",
+            "score": 0.749187707901001,
+            "id": "medical_vietnamese_qa_4413"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Đau tai kèm ù tai sau ngoáy tai là dấu hiệu bệnh gì?",
+    "ground_truth": "Bạn bị đau tai, ù tai, giảm thính lực (nghe không rõ) xuất hiện sau ngoáy tai có thể do một số nguyên nhân: Chấn thương ống tai ngoài, thủng màng nhĩ, chấn thương chuỗi xương con (tai giữa),...Vì vậy, bạn nên đi khám, nội soi tai kiểm tra để xác định nguyên nhân và điều trị phù hợp.",
+    "answer": "Đau tai kèm ù tai, nghe không rõ sau khi ngoáy tai có thể do chấn thương ống tai ngoài, thủng màng nhĩ hoặc chấn thương chuỗi xương con ở tai giữa. Bạn nên tránh ngoáy tai, không để nước hay bụi bẩn vào tai và đi khám Tai Mũi Họng sớm để nội soi xác định nguyên nhân, điều trị phù hợp; nếu nghi bị tăm bông đâm vào màng nhĩ kèm đau nhức, chóng mặt hoặc ù tai nặng thì cần đến cơ sở y tế khẩn cấp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cháu bịđau tai, hay giật. Cháu dùng bông tai ngoáy tai sau đó có hiện tượng ù không nghe rõ. Vậy bác sĩ cho cháu hỏiđau tai kèm ù tai sau ngoáy tai là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ. Thiết Thị Tú Anh(2004) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Trần Minh Tuấn -Khoa Ngoại Tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị đau tai,ù tai, giảm thính lực (nghe không rõ) xuất hiện sau ngoáy tai có thể do một số nguyên nhân:Chấn thương ống tai ngoài, thủng màng nhĩ, chấn thương chuỗi xương con (tai giữa),...Vì vậy, bạn nên đi khám, nội soi tai kiểm tra để xác định nguyên nhân và điều trị phù hợp.",
+            "score": 0.8317347168922424,
+            "id": "medical_vietnamese_qa_8895"
+        },
+        {
+            "text": "Câu hỏi: Bị tăm bông đâm vào màng nhĩ gây ù tai, đau nhức, chóng mặt phải làm sao?\nTrả lời: Theo như các triệu chứng bạn mô tả thì bạn đã bị chấn thương màng nhĩ gây ù tai đau nhức. Đây là trường hợp chấn thương Tai Mũi Họng cần cấp cứu khẩn cấp. Vì thế, bạn cần nhanh chóng đến cơ sở y tế hoặc bệnh viện thuộc Hệ thống Y tế Vinmec để được thăm khám và điều trị chuyên sâu.",
+            "score": 0.617510199546814,
+            "id": "vietnamese_healthcare_6733"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ ơi, em đang ngoáy tai bằng tăm bông thì em bé chạy nhảy va vào tai em khiến bông tăm bị chọt sâu vào trong. Em nghe tiếng bụp và bây giờ ù tai rất nặng. Em ko thấy chảy mủ hay máu chỉ hơi nhức và ù tai. Em không biết có bị thủng màng nhĩ không thưa bác sĩ? Hiện tại em đang ở khu phong toả nên không thể đi khám, bác sĩ tư vấn giúp em có thể dùng thuốc gì không ạ?\nTrả lời: Chào bạn. Bạn nên tránh để nước và bụi bẩn vào tai, tuyệt đối không ngoáy tai, dụi vào tai. Vì chưa bị viêm tai nên chưa dùng thuốc gì. Ngoài ra bạn nên đi khám sớm nhất có thể. Thân mến.",
+            "score": 0.6045158505439758,
+            "id": "vietnamese_medical_qa_5531"
+        },
+        {
+            "text": "Câu hỏi: Đã chữa trị khỏi viêm tai ngoài 2 tháng nhưng vẫn xuất hiện triệu chứng đau tai, ù tai và có tiếng kêu trong tai là dấu hiệu của bệnh gì?\nTrả lời: Cháu bị Viêm tai ngoài, đã điều trị khỏi, đã được bác sĩ tai mũi họng nội soi kiểm tra lại bình thường. Vậy triệu chứng đau thỉnh thoảng hay hơi ù trong giai đoạn này không hệ trọng. Tuy nhiên phải hạn chế ngoáy tai, vì ngoáy tai không tốt cho tai ngoài.",
+            "score": 0.5688711404800415,
+            "id": "vietnamese_healthcare_6721"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nCả nửa tháng nay em bị đau rát lưỡi, nổi hạt ở cuống lưỡi đụng vào cảm thấy đau dù uống thuốc viêm lưỡi nhưng vẫn không thấy giảm. Mấy ngày nay lại có hiện tượng ù tai, co cứng cổ, ngứa họng. Bệnh nền em đang mắc là vi khuẩn HP, viêm họng hạt. Cho em hỏi đau đáy lưỡi kèm ù tai có phải đi khám ngay không?\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nTriệu chứng đau đáy lưỡi (cuốn lưỡi) thông thường do viêm tổ chức Lympho đáy lưỡi (hay còn gọi Amidan đáy lưỡi). Hiện tại, ngoài đau đáy lưỡi, bạn còn ù tai, với triệu chứng như vậy bạn nên khám chuyên khoa Tai mũi họng để được Nội soi đánh giá vùng hạ họng - đáy lưỡi, cũng như vòm mũi.\nTrân trọng!",
+            "score": 0.5555217266082764,
+            "id": "vietnamese_medical_qa_1146"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

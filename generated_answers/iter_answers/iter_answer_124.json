@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Con đi ngoài mấy ngày nay, con cảm thấyphân màu đen, có chỗ nhão có 2,3 viên, hạt màu trắng. Con đang bịsổ mũi, sốt nhẹ và đang trong quá trình giảm cân. Vậy bác sĩ cho con hỏiđi ngoài phân đen, hạt trắng khi đang giảm cân là bệnh gì?Con cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Thông thường, một người bình thường đi đại tiện một lần/ngày nhưng phân thành khuôn, chắc, không lỏng nát, không cứng rắn, màu vàng nâu. Khi bạn có những biểu đi ngoài phân đen có hạt màu trắng khi đang bị sổ mũi và đang trong quá trình giảm cân là những dấu hiệu của các bệnh lý đường tiêu hóa. Tuy nhiên, bạn chưa cung cấp cho bác sĩ biết thời gian diễn ra tình trạng này của bạn, triệu chứng đi kèm (đau bụng, chán ăn, vàng da,...), bạn đang dùng thuốc giảm cân vậy có thể ảnh hưởng đến quá trình hấp thụ thức ăn và gâyrối loạn tiêu hóa, bạn có thể dừng thuốc giảm cân để xem triệu chứng còn xuất hiện không, nếu còn bạn cần khám bác sĩ chuyên khoa Tiêu hoá kiểm tra và làm các xét nghiệm cần thiết (như siêu âm bụng, xét nghiệm phân,...) để biết chính xác tình trạng hiện tại cũng như nguyên nhân gây tình trạng trên để xử trí sớm.",
+    "answer": "Bé 2 tháng tuổi chưa ăn dặm thường đi phân vàng; phân đen kéo dài là bất thường và cần đưa bé đi khám, đồng thời mang theo mẫu phân mới để bác sĩ đánh giá, vì có thể liên quan đến chảy máu đường tiêu hóa hoặc nguyên nhân khác. Các hạt trắng đôi khi có thể là cặn sữa nhưng không thể xác định chỉ qua mô tả. Bé đang giảm cân là dấu hiệu không tốt ở lứa tuổi này; nếu bé vẫn bú tốt, ngủ ngoan, không thở nhanh và chỉ sốt nhẹ thì có thể theo dõi sát, nhưng nếu sốt kéo dài trên 2 ngày, bú kém, nôn, quấy nhiều, phân có máu, thở mệt hoặc lừ đừ thì cần đưa đi khám ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con em 2 tháng đi ngoài mấy ngày nay, cảm thấy phân màu đen , có chỗ nhão có 2, 3 viên, hạt màu trắng. Con đang bị sổ mũi và sốt nhẹ và đang trong quá trình giảm cân. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân đen kèm hạt trắng có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé 2 tháng tuổi chưa ăn dặm thường phân có màu vàng, nếu bé đi phân màu đen mẹ nên đi khám và đem phân mới của bé theo để bác sĩ đánh giá phân. Bé 2 tháng theo sinh lý hàng tháng bé phải tăng cân. Bé giảm cân là không tốt, bé ho và sốt nhẹ nếu bé vẫn bú tốt, ngủ ngoan, không thở nhanh thì theo dõi bé tại nhà, nếu bé thở mệt hoặc sốt quá 2 ngày bạn nên cho bé đi khám.",
+            "score": 0.8727960586547852,
+            "id": "medical_vietnamese_qa_4559"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 2 tháng tuổi, bé bú sữa ngoài. Mấy nay bé đi phân lúc đầu xanh lúc sau màu vàng, phân không lỏng, bé vẫn bú ngủ tốt. Bác sĩ cho em hỏitrẻ 2 tháng tuổi đi ngoài phân màu bất thường có sao không?Em có cần cho bé đi khám không? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé bú sữa công thức có thể đi phân xanh xám hoặc vàng là bình thường. Nếu bé không sốt, không quấy khóc, lên cân tốt, phân không có máu thì bạn chưa cần cho bé đi khám và có thể theo dõi tiếp ở nhà.",
+            "score": 0.7519327998161316,
+            "id": "medical_vietnamese_qa_4416"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 2 tháng tuổi bú sữa mẹ, cứ ăn xong thì đi ngoài phân lỏng, có nhiều nước vàng có chất nhầy, phân tạo thành những hạt dẻo tròn, có màu xanh nhẹ và bị sôi bụng. Bác sĩ cho em hỏi,đi ngoài phân lỏng sau ăn ở trẻ 2 tháng tuổi có bất thường không?Em xin cảm ơn. Đinh Thị Thảo Nguyên(1996) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Trương Thành Tâm- Bác sĩ Nhi khoa - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bé chỉ làrối loạn tiêu hóamức độ nhẹ. Bạn nên tiếp tục cho bé bú sữa mẹ tích cực, bổ sung men vi sinh thời gian ngắn (có thể dùng 1 ống Enterogermina/ngày). Bạn chưa cần đưa bé đi khám ngay vì chưa có dấu hiệu nguy hiểm. Ngoài ra, bạn cần theo dõi phân có nhầy nhiều kèm có máu không, trẻ có quấy khóc liên tục, đặc biệt lúc đi cầu, có sốt không... Nếu có các triệu chứng trên, bạn nên đưa bé tới cơ sở y tế uy tín thăm khám để được tư vấn cụ thể.",
+            "score": 0.7464742064476013,
+            "id": "medical_vietnamese_qa_6040"
+        },
+        {
+            "text": "Câu hỏi: Con nhà em được 2 tháng 8 ngày. Con uống sữa công thức hoàn toàn. Em thấy phân của con nhuyễn sệt. Ngày con đi 1 lần hôm thì màu xanh đậm, hôm thì màu vàng đậm. Con ăn 90 - 120ml/ cữ, ngày uống 6 lần. Vậy bác sĩ cho em hỏitrẻ 2 tháng tuổi đi ngoài phân nhuyễn sệt có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đi ngoài phân nhuyễn sệt, có hôm phân xanh, có hôm phân màu vàng như vậy hiện tại chưa thấy gì bất thường. Nếu bé đi cầu phân cứng hoặc tiêu lỏng như nước, phân có máu, phân nhầy mủ thì bạn nên đưa bé đi khám ngay bác sĩ chuyên khoa Nhi để được tư vấn cụ thể.",
+            "score": 0.7203178405761719,
+            "id": "medical_vietnamese_qa_4986"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em bị đi ngoài 2 hôm nay, bữa đầu phân màu vàng lỏng ăn gì đi đó. Hôm nay, bé phân nước màu xanh. Bé có bị sốt và biếng ăn, thỉnh thoảng ói. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân lỏng kèm sốt có sao không?Hiện tại, em ở quê, vùng em đang dịch nên em chưa cho bé đi khám được. Mong bác sĩ tư vấn, em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé đang có cácdấu hiệu đại tiện phân lỏng, sốt, nôn,ăn kémlà các biểu hiện bệnh lý đường tiêu hóa: Nếu bé đi nặng từ 3 lần / ngày trở lên, phân lỏng tóe nước là bé đang mắctiêu chảy cấp. Nôn, sốt, biếng ăn là triệu chứng thường gặp khí có tiêu chảy. Bé cần được đi khám ngay để bác sĩ đánh giá mức độ mất nước và tìm nguyên nhân gây nên tình trạng tiêu chảy của bé để lên kế hoạch bù nước và điện giải, bổ sung thuốc điều trị phù hợp cho bé. Tình trạng mất nước có thể tiến triển nhanh nếu bé có tiêu chảy kèm theo có nôn (không bù nước bằng đường uống được), do đó bạn nên cho bé khám ngay.",
+            "score": 0.7170498371124268,
+            "id": "medical_vietnamese_qa_5799"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

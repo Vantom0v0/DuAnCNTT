@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phải dấu hiệu mắc bệnh tim?",
+    "ground_truth": "Qua những gì bạn chia sẻ cùng câu hỏi “ trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phải dấu hiệu mắc bệnh tim?” thì đây có thể là biểu hiện của nhiều bệnh, có thể là bệnh tim, phổi, thậm chí là bệnh máu. Tốt nhất với tình trạng hiện tại, bạn nên đưa con đến bệnh viện để được thăm khám, đặc biệt phải siêu âm tim kiểm tra.",
+    "answer": "Môi thâm tím kèm mặt tái nhợt ở trẻ 12 tuổi không nhất thiết là bệnh tim, nhưng có thể liên quan đến bệnh tim, phổi, bệnh máu hoặc thiếu máu/giảm tưới máu; môi hoặc móng tay chuyển xanh tím cũng có thể là dấu hiệu thiếu oxy trong máu. Vì vậy, dù trẻ vẫn ăn uống và hoạt động bình thường, gia đình nên đưa trẻ đi khám sớm để được đánh giá, xét nghiệm cần thiết và siêu âm tim. Nếu tình trạng xanh tím xuất hiện đột ngột hoặc kèm khó thở, mệt lả, đau ngực, cần đưa trẻ đi cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: . Bé gái nhà em được 12 tuổi, thời gian gần đây nhận thấy môi bé bị thâm tím, mặt tái nhợt, không hồng hào, bé vẫn ăn uống, hoạt động bình thường. Xin hỏi bác sĩ trường hợp,trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phảidấu hiệu mắc bệnh timkhông?Cảm ơn bác sĩ đã tư vấn giúp em. Tô Thùy Trang(1983) Trả lời\nTrả lời: Chào bạn. Qua những gì bạn chia sẻ cùng câu hỏi“ trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phải dấu hiệu mắc bệnh tim?”thì đây có thể là biểu hiện của nhiều bệnh, có thể là bệnh tim, phổi, thậm chí là bệnh máu. Với tình trạng hiện tại, bạn nên đưa con đến bệnh viện để được thăm khám, đặc biệt phảisiêu âm timkiểm tra. Bạn có thể đăng ký khám tại bệnh viện thuộcHệ thống Y tế Vinmecđể được tư vấn bởi những bác sĩ giàu chuyên môn. Rất mong có thể gặp gia đình bạn để cùng trao đổi thêm về vấn đề sức khỏe của trẻ. Trân trọng. Được giải đáp bởiThạc sĩ, Bác sĩ Trương Thành Tâm- Bác sĩ Nhi khoa - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+            "score": 0.8546205759048462,
+            "id": "medical_vietnamese_qa_7685"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, năm nay con 20 tuổi, con không hút thuốc nhưng vẫn bị môi thâm xãm\nTrả lời: Chào cháu, \nTình trạng môi thâm có thể do những nguyên nhân như sau : \n- Do hút thuốc, sử dụng Caffeine\n- Tiếp xúc với nắng\n- Không uống đủ nước\n- Chế độ ăn uống\n- Tình trạng suy tim \nTrước tiên cháu cần có chế độ ăn uống hợp lý, ăn nhiều rau xanh , hoa quả tươi đặc biệt là quả có chứa nhiều Vitamin C.  Vitamin C có khả năng đối phó tình trạng nhiễm sắc tố môi.  Cũng có thể thoa mật ong lên môi hoặc dùng nước chanh tươi và sữa chua cũng có tác dụng giúp môi hồng hào\nThân mến",
+            "score": 0.6018738746643066,
+            "id": "vietnamese_medical_qa_8166"
+        },
+        {
+            "text": "Câu hỏi: Trẻ 4 tháng tuổi cổ chưa cứng hoàn toàn, môi nhợt nhạt có phải bị bại não?\nTrả lời: Trẻ 4 tháng tuổi đã biết lật mặc đù cổ chưa cứng hoàn toàn là nằm trong ngưỡng phát triển bình thường của trẻ giai đoạn 3 – 6 tháng tuổi. Môi của bé nhợt nhạt thì có thể biểu hiện bé bị thiếu máu hoặc các bệnh lý giảm tưới máu, . . . Cha mẹ nên đưa bé đi khám để được đánh giá chính xác hơn. Ngoài ra, với lo lắng về bệnh lý bại não, bác sĩ xin được tư vấn như sau: Bại não là bệnh lý thần kinh thường do di chứng của các bệnh lý tổn thương ở não như: Xuất huyết não, viêm não – màng não, thiếu oxy não kéo dài, . . . . Nếu bé không có tiền sử các bệnh lý trên và không có các dấu hiệu chỉ điểm thì chưa nghĩ đến bại não.",
+            "score": 0.5720283389091492,
+            "id": "vietnamese_healthcare_1555"
+        },
+        {
+            "text": "Câu hỏi: Môi hoặc móng tay có màu xanh lam\nTrả lời: 8. Môi hoặc móng tay có màu xanh lam\nMôi hoặc móng tay có màu xanh hoặc xám là dấu hiệu cho thấy không có đủ oxy trong máu. Tình trạng này được gọi là chứng xanh tím . Nếu nó xảy ra, bệnh nhân cần nhận được trợ giúp y tế ngay lập tức.",
+            "score": 0.5447487831115723,
+            "id": "vietnamese_healthcare_51887"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nCháu bị bệnh về môi đã 5 tháng, da môi cháu có hơi vàng và liên tục tróc vảy. Cháu đã đi khám da liễu rất nhiều nhưng không khỏi. Theo bác sĩ cháu nên làm gì khi da môi bong tróc, chuyển màu? Cháu xin cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhư mô tả bạn bị bệnh đã 5 tháng, môi thay đổi màu sắc, thường khô và bong tróc thì có thể bạn bị tình trạng khô da. Ngoài việc dùng các thuốc theo đơn của bác sĩ, bạn cần bôi dưỡng môi nhiều lần trong ngày, uống nhiều nước, sử dụng kem đánh răng dành cho da nhạy cảm, tránh để mỹ phẩm và hóa chất tiếp xúc vào vùng môi.\nTrường hợp bạn đã thử các biện pháp trên nhưng không cải thiện, bạn cần đi khám chuyên khoa da liễu tại bệnh viện để được kiểm tra xác định nguyên nhân và điều trị hiệu quả nhé\nTrân trọng!",
+            "score": 0.5330679416656494,
+            "id": "vietnamese_medical_qa_1406"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

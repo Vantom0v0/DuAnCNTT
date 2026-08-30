@@ -1,0 +1,121 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ 2 tháng trước cháu có biểu hiện bị nặng ở ngực và đi khám thì được chuẩn đoán là thiếu canxi. Sau đó cháu đã uống thực phẩm chức năng bổ xung canxi thì biểu hiện không còn nữa. Nhưng mấy hôm trước tự nhiên cháu có cảm giác hơi nhói ở bên phải ngực và có cảm giác nhức mỏi lưng, thỉnh thoảng có bị ho nhưng không nhiều. Cháu còn hay bị ợ hơi nữa ạ. Liệu có phải cháu vẫn chưa bổ xung đủ canxi không ạ?",
+    "ground_truth": "chào bạn: nếu bạn có những triệu chứng đấy thường liên quan đến trào ngược dạ đay bạn nhé! trào ngược dạ dày cũng có thể có gây ra triệu chứng như vừa rồi!  bạn có thể đi khám bác sĩ tiêu hoá bạn nhé\nthân aia chào bạn",
+    "answer": "Các triệu chứng hiện tại của cháu chưa đủ để kết luận là do vẫn thiếu canxi. Thiếu canxi ion có thể gây tê, co rút tay chân, mệt tức ngực hoặc khó thở, nhưng đau nhói ngực còn có nhiều nguyên nhân khác như đau cơ, thần kinh liên sườn, bệnh tim, ho hoặc bệnh dạ dày–thực quản; ợ hơi có thể gợi ý vấn đề ở dạ dày–thực quản. Cháu nên đến bệnh viện để xét nghiệm canxi trong máu và khám xác định nguyên nhân, bác sĩ có thể cân nhắc kiểm tra tim mạch hoặc chụp X-quang phổi nếu cần. Không nên tự tiếp tục bổ sung canxi khi chưa được đánh giá; nếu xuất hiện khó thở, đau ngực tăng hoặc kéo dài, cháu cần đi khám sớm.",
+    "evidence": [
+        "Không rõ là tình trạng thiếu canxi của bạn đã được xét nghiệm chẩn đoán chưa hay chỉ dựa vào triệu chứng và nghĩ là thiếu canxi.",
+        "Vì vậy, việc đầu tiên là phải xét nghiệm kiểm tra có thật sự cơ thể thiếu canxi hay không, nếu có thiếu thì nguyên nhân gì gây thiếu canxi, thiếu canxi toàn phần hay chỉ là thiếu canxi ion thoáng qua.",
+        "Khi thiếu canxi ion gây ra các triệu chứng: tê, co rút tay chân, mệt tức ngực, khó thở.",
+        "Tuy nhiên, tức ngực khó thở cũng có thể gặp trong các bệnh lý liên quan đến tim mạch.",
+        "Vì vậy, bạn nên đến bệnh viện khám và thực hiện các xét nghiệm liên quan đến canxi trong máu, bác sĩ có thể sẽ xem xét việc kiểm tra tim mạch nếu cần cũng như sẽ có những trao đổi cụ thể hơn về tình trạng thiếu canxi thường hay khó thở đau ngực nên làm gì?",
+        "Vì đau ngực có rất nhiều nguyên nhân:\n- Bệnh tim như bạn nói\n- Đau phần mềm và tổ chức dưới da\n- Đau dây thần kinh liên sườn\n- viêm dạ dày, trào ngược dạ dày thực quản...",
+        "Trả lời: bác sĩ xin giải đáp như sau: Theo như bạn mô tả, nguyên nhân có thể do rối loạn thần kinh thực vật, ho hay đau lưng cũng có thể góp phần xuất hiện nhói ngực.",
+        "Bạn nên đi khám để xác định chính xác nguyên nhân và điều trị.",
+        "Trả lời: Chào bạn, tình trạng đau nhói rồi hết có thể liên quan đến thần kinh, tuy nhiên, bạn cần theo dõi thêm các triệu chứng kèm theo như ho, khó thở.",
+        "Để chắc chắn về tình hình sức khỏe thì bạn nên đến bệnh viện để chụp X quang phổi và được bác sĩ chuyên khoa tư vấn cụ thể hơn về tình trạng nhé.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Vị trí đau theo bạn mô tả là thượng vị, kèm theo triệu chứng đau thường liên quan đến ăn uống do đó khả năng nhiều bạn có vấn đề về dạ dày thực quản có thể nhưviêm dạ dàyhoặctrào ngược dạ dày thực quản.",
+        "Còn theo bác sĩ nhiều khả năng không phải dotụt canxi máu, vì các triệu chứng hạ canxi máu thường lại ngược lại; ví dụ như; co cơ, co giật, tăng động, có thể rối loạn nhịp tim,....",
+        "Vì vậy, bạn nên đến khám với bác sĩ chuyên khoa Tiêu hóa sớm để được hướng dẫn và tư vấn chính xác nhất."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bệnh thiếu canxi thường hay khó thở, đau ngực nên làm gì? Mong nhận được câu trả lời của bác sĩ.\nTrả lời: Chào bạn! Không rõ là tình trạng thiếu canxi của bạn đã được xét nghiệm chẩn đoán chưa hay chỉ dựa vào triệu chứng và nghĩ là thiếu canxi. Vì vậy, việc đầu tiên là phải xét nghiệm kiểm tra có thật sự cơ thể thiếu canxi hay không, nếu có thiếu thì nguyên nhân gì gây thiếu canxi, thiếu canxi toàn phần hay chỉ là thiếu canxi ion thoáng qua.\nThiếu canxi toàn phần có thể liên quan đến ăn uống canxi không đủ(nguồn thức ăn ít canxi, ăn chay..), hấp thu canxi kém(gặp trong bệnh đường tiêu hóa: tiêu chảy, hội chứng ruột kích thích, viêm dạ dày..), tăng thải canxi ra khỏi cơ thể (loãng xương, cường cận giáp..).\nThiếu canxi ion thường gặp trong trường hợp rối loạn thần kinh thực vật (tình trạng lo lắng, cảm giác khó thở, thở nhanh dẫn đến tăng thải khí CO2 làm kiềm hóa máu, dẫn đến canxi ion gắn vào Albumin máu làm giảm lượng canxi ion hiệu dụng), suy cận giáp (tuyến cận giáp tiết ra hormon PTH giúp huy động canxi từ xương vào máu, khi tuyến cận giáp suy không tiết đủ Hormon PTH khi cơ thể cần sử dụng canxi ion, dẫn đến thiếu canxi ion máu).\nKhi thiếu canxi ion gây ra các triệu chứng: tê, co rút tay chân, mệt tức ngực, khó thở. Tuy nhiên, tức ngực khó thở cũng có thể gặp trong các bệnh lý liên quan đến tim mạch.\nVì vậy, bạn nên đến bệnh viện khám và thực hiện các xét nghiệm liên quan đến canxi trong máu, bác sĩ có thể sẽ xem xét việc kiểm tra tim mạch nếu cần cũng như sẽ có những trao đổi cụ thể hơn về tình trạng thiếu canxi thường hay khó thở đau ngực nên làm gì?",
+                "score": 0.6229357719421387,
+                "id": "vietnamese_medical_qa_1842",
+                "rerank_score": 0.9100568294525146
+            },
+            {
+                "text": "Câu hỏi: Sau điều trị rối loạn chuyển hóa canxi và trào ngược dạ dày thực quản vẫn mệt mỏi, bủn rủn, tức ngực là do đâu?\nTrả lời: Chẩn đoán trên là đúng nhưng bạn chưa điều trị đủ liệu trình, cụ thể chưa bù đủ Canxi khiến bạn có thể bủn rủn chân tay. Có thể còn thiếu chẩn đoán gì nữa mà bệnh viện chưa tìm ra. Tuy nhiên với cả hai khả năng trên, bác sĩ khuyên bạn nên quay lại viện để bác sĩ thăm khám kỹ hơn và theo dõi điều trị cho bạn đến khi ổn hẳn nhé.",
+                "score": 0.6317540407180786,
+                "id": "vietnamese_healthcare_6328",
+                "rerank_score": 0.8903161883354187
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, em bị đau dưới vùng ngực phải, khi nằm xong ngồi dậy thì đau, ho cũng đau, cảm giác đau nhói 1 cái là hết, chỉ đau nhói và không có triệu chứng gì khác, tình trạng của em có phải bị bệnh gì không ạ? Mong bác sĩ tư vấn giúp!\nTrả lời: Chào bạn, tình trạng đau nhói rồi hết có thể liên quan đến thần kinh, tuy nhiên, bạn cần theo dõi thêm các triệu chứng kèm theo như ho, khó thở. Để chắc chắn về tình hình sức khỏe thì bạn nên đến bệnh viện để chụp X quang phổi và được bác sĩ chuyên khoa tư vấn cụ thể hơn về tình trạng nhé.",
+                "score": 0.6309803128242493,
+                "id": "vietnamese_medical_qa_4693",
+                "rerank_score": 0.6935960650444031
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nCháu năm nay 21 tuổi. Thường thấy đau nhói ở ngực chỗ cách ức 3cm về bên trái. Có khi đau âm ỉ cả ngực trái và cả núm vú cũng có cảm giác đâu rát. Có khi buốt cả bả vai và cánh tay trái. Đặc biệt mỗi khi ngủ dậy thường thấy tức ngực khoảng 1-2 phút. Bác sĩ cho cháu hỏi có phải cháu bị bẹnh tim ko ạ\nTrả lời: Chào bạn\nBạn có thể cho biết tình trạng đau ngực của bạn có tăng lên khi vận động hay căng thẳng hay không, đau bắt đầu xuất hiện từ bao giờ, có kèm theo triệu chứng nào khác như khó thở, hồi hộp trống ngực hay không?\nVì đau ngực có rất nhiều nguyên nhân:\n- Bệnh tim như bạn nói\n- Đau phần mềm và tổ chức dưới da\n- Đau dây thần kinh liên sườn\n- viêm dạ dày, trào ngược dạ dày thực quản...\n- Hay thậm chí chỉ là đau tâm lý\nBạn có thể cung cấp thông tin chi tiết hơn để các bác sĩ tư vấn đầy đủ hơn.\nHoặc bạn có thể đi khám sức khỏe, làm 1 số xét nghiệm hay chụp chiếu để xác định nguyên nhân.\nThân mến",
+                "score": 0.6495860815048218,
+                "id": "vietnamese_medical_qa_8411",
+                "rerank_score": 0.6202917098999023
+            },
+            {
+                "text": "Câu hỏi: Cháu có hiện tượngđau nhói phần dưới ngực, đoạn giữa ngực và bụng, lúc ăn uống là rất đau, nằm lại đau hơn, hít thở cũng bị đau. Bình thường hít thở sâu, nhưng mà bây giờ chỉ hít vào hơi ngắn là bình thường, còn hít thở sâu là bị đau nhói ở ngực. Vậy bác sĩ cho cháu hỏihay đau nhói phần dưới ngực là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vị trí đau theo bạn mô tả là thượng vị, kèm theo triệu chứng đau thường liên quan đến ăn uống do đó khả năng nhiều bạn có vấn đề về dạ dày thực quản có thể nhưviêm dạ dàyhoặctrào ngược dạ dày thực quản. Vì vậy, bạn nên đến khám với bác sĩ chuyên khoa Tiêu hóa sớm để được hướng dẫn và tư vấn chính xác nhất. Ngoài ra, chế độ ăn bạn nên hạn chế đồ ăn cay nóng, ăn uống điều độ đúng giờ, không sử dụng đồ uống có cồn, cà phê, tránh lo lắng căng thẳng.",
+                "score": 0.6357297301292419,
+                "id": "medical_vietnamese_qa_11848",
+                "rerank_score": 0.592194676399231
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: 2 - 3 ngày nay, em bị hơi nhói ở giữa ngực, không đau lắm, làm việc bình thường, chỉ là nhói vài giây rồi hết, vài giây sau lại bị như vậy và bị ho khan. Em cũng hay đau lưng. Không biết có phải do Covid không? Vậy bác sĩ cho em hỏinam giới nhói ở ngực, ho khan nguyên nhân là gì?Có phải em mắc Covid? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như bạn mô tả, nguyên nhân có thể do rối loạn thần kinh thực vật, ho hay đau lưng cũng có thể góp phần xuất hiện nhói ngực. Còn do Covid thì triệu chứng thường gặp là sốt, ho, chảy mũi, đau họng, mất khứu giá và xét nghiệm Coronavirus Real-time PCR dương tính. Bạn nên đi khám để xác định chính xác nguyên nhân và điều trị.",
+                "score": 0.6334018111228943,
+                "id": "medical_vietnamese_qa_8869",
+                "rerank_score": 0.9562422037124634
+            },
+            {
+                "text": "Câu hỏi: Sau điều trị rối loạn chuyển hóa canxi và trào ngược dạ dày thực quản vẫn mệt mỏi, bủn rủn, tức ngực là do đâu?\nTrả lời: Chẩn đoán trên là đúng nhưng bạn chưa điều trị đủ liệu trình, cụ thể chưa bù đủ Canxi khiến bạn có thể bủn rủn chân tay. Có thể còn thiếu chẩn đoán gì nữa mà bệnh viện chưa tìm ra. Tuy nhiên với cả hai khả năng trên, bác sĩ khuyên bạn nên quay lại viện để bác sĩ thăm khám kỹ hơn và theo dõi điều trị cho bạn đến khi ổn hẳn nhé.",
+                "score": 0.6338338255882263,
+                "id": "vietnamese_healthcare_6328",
+                "rerank_score": 0.8903154134750366
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, em bị đau dưới vùng ngực phải, khi nằm xong ngồi dậy thì đau, ho cũng đau, cảm giác đau nhói 1 cái là hết, chỉ đau nhói và không có triệu chứng gì khác, tình trạng của em có phải bị bệnh gì không ạ? Mong bác sĩ tư vấn giúp!\nTrả lời: Chào bạn, tình trạng đau nhói rồi hết có thể liên quan đến thần kinh, tuy nhiên, bạn cần theo dõi thêm các triệu chứng kèm theo như ho, khó thở. Để chắc chắn về tình hình sức khỏe thì bạn nên đến bệnh viện để chụp X quang phổi và được bác sĩ chuyên khoa tư vấn cụ thể hơn về tình trạng nhé.",
+                "score": 0.6539665460586548,
+                "id": "vietnamese_medical_qa_4693",
+                "rerank_score": 0.6935961246490479
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nCháu năm nay 21 tuổi. Thường thấy đau nhói ở ngực chỗ cách ức 3cm về bên trái. Có khi đau âm ỉ cả ngực trái và cả núm vú cũng có cảm giác đâu rát. Có khi buốt cả bả vai và cánh tay trái. Đặc biệt mỗi khi ngủ dậy thường thấy tức ngực khoảng 1-2 phút. Bác sĩ cho cháu hỏi có phải cháu bị bẹnh tim ko ạ\nTrả lời: Chào bạn\nBạn có thể cho biết tình trạng đau ngực của bạn có tăng lên khi vận động hay căng thẳng hay không, đau bắt đầu xuất hiện từ bao giờ, có kèm theo triệu chứng nào khác như khó thở, hồi hộp trống ngực hay không?\nVì đau ngực có rất nhiều nguyên nhân:\n- Bệnh tim như bạn nói\n- Đau phần mềm và tổ chức dưới da\n- Đau dây thần kinh liên sườn\n- viêm dạ dày, trào ngược dạ dày thực quản...\n- Hay thậm chí chỉ là đau tâm lý\nBạn có thể cung cấp thông tin chi tiết hơn để các bác sĩ tư vấn đầy đủ hơn.\nHoặc bạn có thể đi khám sức khỏe, làm 1 số xét nghiệm hay chụp chiếu để xác định nguyên nhân.\nThân mến",
+                "score": 0.659023106098175,
+                "id": "vietnamese_medical_qa_8411",
+                "rerank_score": 0.6202915906906128
+            },
+            {
+                "text": "Câu hỏi: Cháu có hiện tượngđau nhói phần dưới ngực, đoạn giữa ngực và bụng, lúc ăn uống là rất đau, nằm lại đau hơn, hít thở cũng bị đau. Bình thường hít thở sâu, nhưng mà bây giờ chỉ hít vào hơi ngắn là bình thường, còn hít thở sâu là bị đau nhói ở ngực. Vậy bác sĩ cho cháu hỏihay đau nhói phần dưới ngực là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vị trí đau theo bạn mô tả là thượng vị, kèm theo triệu chứng đau thường liên quan đến ăn uống do đó khả năng nhiều bạn có vấn đề về dạ dày thực quản có thể nhưviêm dạ dàyhoặctrào ngược dạ dày thực quản. Vì vậy, bạn nên đến khám với bác sĩ chuyên khoa Tiêu hóa sớm để được hướng dẫn và tư vấn chính xác nhất. Ngoài ra, chế độ ăn bạn nên hạn chế đồ ăn cay nóng, ăn uống điều độ đúng giờ, không sử dụng đồ uống có cồn, cà phê, tránh lo lắng căng thẳng.",
+                "score": 0.6690518856048584,
+                "id": "medical_vietnamese_qa_11848",
+                "rerank_score": 0.5921940803527832
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Sau điều trị rối loạn chuyển hóa canxi và trào ngược dạ dày thực quản vẫn mệt mỏi, bủn rủn, tức ngực là do đâu?\nTrả lời: Chẩn đoán trên là đúng nhưng bạn chưa điều trị đủ liệu trình, cụ thể chưa bù đủ Canxi khiến bạn có thể bủn rủn chân tay. Có thể còn thiếu chẩn đoán gì nữa mà bệnh viện chưa tìm ra. Tuy nhiên với cả hai khả năng trên, bác sĩ khuyên bạn nên quay lại viện để bác sĩ thăm khám kỹ hơn và theo dõi điều trị cho bạn đến khi ổn hẳn nhé.",
+                "score": 0.630619466304779,
+                "id": "vietnamese_healthcare_6328",
+                "rerank_score": 0.8903161883354187
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, em bị đau dưới vùng ngực phải, khi nằm xong ngồi dậy thì đau, ho cũng đau, cảm giác đau nhói 1 cái là hết, chỉ đau nhói và không có triệu chứng gì khác, tình trạng của em có phải bị bệnh gì không ạ? Mong bác sĩ tư vấn giúp!\nTrả lời: Chào bạn, tình trạng đau nhói rồi hết có thể liên quan đến thần kinh, tuy nhiên, bạn cần theo dõi thêm các triệu chứng kèm theo như ho, khó thở. Để chắc chắn về tình hình sức khỏe thì bạn nên đến bệnh viện để chụp X quang phổi và được bác sĩ chuyên khoa tư vấn cụ thể hơn về tình trạng nhé.",
+                "score": 0.646659791469574,
+                "id": "vietnamese_medical_qa_4693",
+                "rerank_score": 0.6935960650444031
+            },
+            {
+                "text": "Câu hỏi: ! Người nhà em bị làm mệt khó thở, tức ngực đau, không ngồi dậy nổi và không ăn uống gì được ngoài cố gắng uống chút sữa. Thăm khám, chụp toàn thân và kiểm tra máu thì cho kết quá không có bệnh gì. Vậy bác sĩ cho em hỏikhó thở, đau tức ngực, người mệt mỏi yếu ớt, thăm khám kết quả bình thường có phải là triệu chứng tụt canxi máukhông? và có thể bổ sung viên canxi qua đường uống không ạ? Nếu có thì liều lượng là bao nhiêu? Mong bác sĩ tư vấn và giải đáp. Em xin chân thành cảm ơn! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Mệt mỏi thì có rất nhiều nguyên nhân gây ra, tuy nhiên mệt mỏi kèm theo các dấu hiệu khó thở,đau tức ngựcđến nỗi không ngồi dậy nổi và không ăn uống gì được.... thì phải được khám chuyên sâu về thần kinh, hô hấp, tim mạch, thậm chí Nội tiết,... chứ không chỉ đơn thuần chụp và làm xét nghiệm máu. Còn theo bác sĩ nhiều khả năng không phải dotụt canxi máu, vì các triệu chứng hạ canxi máu thường lại ngược lại; ví dụ như; co cơ, co giật, tăng động, có thể rối loạn nhịp tim,.... Nếu bạn cần tư vấn chuyên sâu hơn nữa về việckhó thở, đau tức ngực, người mệt mỏi yếu ớt có phải là triệu chứng tụt canxi máukhông? thì bạn có thể đưa người nhà của mình đến bệnh viện thuộcHệ thống Y tế Vinmecđể được thăm khám và điều trị chuyên sâu. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Thị Minh Tâm -Trưởng phòng khám Vinmec Royal City - Phòng khám Quốc tế Vinmec Royal City",
+                "score": 0.6281644105911255,
+                "id": "medical_vietnamese_qa_10293",
+                "rerank_score": 0.6695377826690674
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nCháu năm nay 21 tuổi. Thường thấy đau nhói ở ngực chỗ cách ức 3cm về bên trái. Có khi đau âm ỉ cả ngực trái và cả núm vú cũng có cảm giác đâu rát. Có khi buốt cả bả vai và cánh tay trái. Đặc biệt mỗi khi ngủ dậy thường thấy tức ngực khoảng 1-2 phút. Bác sĩ cho cháu hỏi có phải cháu bị bẹnh tim ko ạ\nTrả lời: Chào bạn\nBạn có thể cho biết tình trạng đau ngực của bạn có tăng lên khi vận động hay căng thẳng hay không, đau bắt đầu xuất hiện từ bao giờ, có kèm theo triệu chứng nào khác như khó thở, hồi hộp trống ngực hay không?\nVì đau ngực có rất nhiều nguyên nhân:\n- Bệnh tim như bạn nói\n- Đau phần mềm và tổ chức dưới da\n- Đau dây thần kinh liên sườn\n- viêm dạ dày, trào ngược dạ dày thực quản...\n- Hay thậm chí chỉ là đau tâm lý\nBạn có thể cung cấp thông tin chi tiết hơn để các bác sĩ tư vấn đầy đủ hơn.\nHoặc bạn có thể đi khám sức khỏe, làm 1 số xét nghiệm hay chụp chiếu để xác định nguyên nhân.\nThân mến",
+                "score": 0.6534953713417053,
+                "id": "vietnamese_medical_qa_8411",
+                "rerank_score": 0.6202917098999023
+            },
+            {
+                "text": "Câu hỏi: Cháu có hiện tượngđau nhói phần dưới ngực, đoạn giữa ngực và bụng, lúc ăn uống là rất đau, nằm lại đau hơn, hít thở cũng bị đau. Bình thường hít thở sâu, nhưng mà bây giờ chỉ hít vào hơi ngắn là bình thường, còn hít thở sâu là bị đau nhói ở ngực. Vậy bác sĩ cho cháu hỏihay đau nhói phần dưới ngực là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vị trí đau theo bạn mô tả là thượng vị, kèm theo triệu chứng đau thường liên quan đến ăn uống do đó khả năng nhiều bạn có vấn đề về dạ dày thực quản có thể nhưviêm dạ dàyhoặctrào ngược dạ dày thực quản. Vì vậy, bạn nên đến khám với bác sĩ chuyên khoa Tiêu hóa sớm để được hướng dẫn và tư vấn chính xác nhất. Ngoài ra, chế độ ăn bạn nên hạn chế đồ ăn cay nóng, ăn uống điều độ đúng giờ, không sử dụng đồ uống có cồn, cà phê, tránh lo lắng căng thẳng.",
+                "score": 0.6531881093978882,
+                "id": "medical_vietnamese_qa_11848",
+                "rerank_score": 0.592194676399231
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

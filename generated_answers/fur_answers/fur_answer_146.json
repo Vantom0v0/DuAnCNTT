@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Mình bị bệnh viêm mũi dị ứng vậy cho mình hỏiviêm mũi dị ứng điều trị dứt điểm được không?Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn, Với câu hỏi “Viêm mũi dị ứng điều trị dứt điểm được không?”, bác sĩ giải đáp như sau: Viêm mũi dị ứng là tình trạng viêm vùng mũi do cơ thể phản ứng quá mức với các dị nguyên (tác nhân gây dị ứng) như bụi, phấn hoa, lông chó mèo,... với các biểu hiện như: hắt hơi liên tục; sổ mũi; nghẹt mũi, ngứa mũi, mắt, cổ họng,... Đa số các trường hợp viêm mũi dị ứng là tình trạng mạn tính, do đó nguyên tắc điều trị viêm mũi dị ứng không phải là điều trị dứt điểm hoàn toàn bệnh mà chủ yếu là kiểm soát tốt và ngừa các triệu chứng tái phát, giúp người bệnh sống và làm việc bình thường. Tùy theo mức độ và tần suất xuất hiện các triệu chứng mà có các phương pháp điều trị khác nhau như: hạn chế tiếp xúc với các tác nhân dị ứng, vệ sinh mũi thường xuyên bằng nước muối sinh lý, các thuốc xịt mũi chứa corticoid, thuốc kháng dị ứng, liệu pháp miễn dịch dị ứng,... Do đó để điều trị viêm mũi dị ứng đạt hiệu quả, bạn nên đến khám tại phòng khám Tai mũi họng để bác sĩ đánh giá mức độ viêm mũi dị ứng và tư vấn phương pháp, thời gian điều trị phù hợp.",
+    "answer": "Viêm mũi dị ứng thường **khó điều trị dứt điểm hoàn toàn** và có thể tái phát. Điều trị chủ yếu là:\n\n- Xác định và tránh các dị nguyên gây dị ứng như phấn hoa, lông chó mèo, bọ nhà…\n- Điều trị triệu chứng và nâng cao thể trạng, chẳng hạn tập luyện thể thao.\n- Có thể đến khoa Dị ứng để kiểm tra dị nguyên và cân nhắc **điều trị giải mẫn cảm**; phương pháp này cần thực hiện trong thời gian dài.\n\nNếu bạn thường xuyên nghẹt mũi hoặc tái phát, nên khám chuyên khoa để được xác định nguyên nhân và hướng điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi bệnh viêm mũi vận mạch và viêm mũi dị ứng có trị dứt điểm được không? Em cứ đi điều trị một thời gian rồi nó cứ bị lại rất là khó chịu, đặc biệt là bị nghẹt mũi. Mong bác sĩ tư vấn giúp em, em xin cảm ơn ạ.\nTrả lời: Chị chào em! Viêm mũi dị ứng là do em bị dị ứng với tác nhân gây dị ứng như: phấn hoa, lông chó mèo, bọ nhà... Nếu muốn chữa dứt điểm thì em phải tránh tiếp xúc với dị nguyên đó. Còn viêm mũi vận mạch là 1 dạng viêm mũi dị ứng nhưng không có dị nguyên, nó biểu hiện khi thay đổi thời tiết hoặc cơ thể ở trạng thái thay đổi nhiệt độ đột ngột.\nCả hai loại này chủ yếu điều trị triệu chứng và nâng cao thể trạng như tập luyện thể thao...Trường hợp viêm mũi dị ứng có thể đến khoa dị ứng kiểm tra dị nguyên và điều trị bằng phương pháp giải mẫn cảm nhé, tuy nhiên phương pháp này phải chữa lâu dài.",
+            "score": 0.634344220161438,
+            "id": "vietnamese_medical_qa_3728",
+            "rerank_score": 0.9999624490737915
+        },
+        {
+            "text": "Câu hỏi: Viêm kết mạc dị ứng có thể chữa dứt điểm không?\nTrả lời: Bệnh viêm kết mạc dị ứng là bệnh tuy không nguy hiểm song hay tái phát, bệnh do rất nhiều nguyên nhân. Để điều trị triệt để cần tìm được nguyên nhân gây dị ứng, song việc tìm nguyên nhân là rất khó. Bạn cần đến viện để làm test dị nguyên để từ đó có hướng xử trí phù hợp.",
+            "score": 0.626268744468689,
+            "id": "vietnamese_healthcare_3156",
+            "rerank_score": 0.9953271150588989
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nMắt em bị viêm giác mạc dị ứng hay tái lại. Bác sĩ cho em hỏi viêm giác mạc dị ứng hay tái lại có điều trị dứt điểm không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn đã được chẩn đoán viêm do dị ứng thì không thể điều trị dứt điểm được, tuy nhiên bạn cần xác định nguyên nhân gây dị ứng để tránh tiếp xúc sẽ giảm được tần suất viêm.\nTrân trọng!",
+            "score": 0.6591564416885376,
+            "id": "vietnamese_medical_qa_160",
+            "rerank_score": 0.9744234681129456
+        },
+        {
+            "text": "Câu hỏi: . Con em thường xuyên nổi mẩn ngứa. Đi khám bác sĩ nói bị viêm da dị ứng ở trẻ. Xin hỏi bác sĩbệnh viêm da dị ứng ở trẻ có chữa dứt điểm được không? Vàđiều trị bệnh viêm da dị ứngbằng cách nào cho khỏi và dứt điểm ạ?Xin cảm ơn bác sĩ. Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn, xin giải đáp câu hỏi: “Bệnh viêm da dị ứng ở trẻ có chữa dứt điểm được không?”của bạn như sau: Cho hỏi con bạn bao nhiêu tuổi rồi? Triệu chứng viêm da cụ thể của bé như thế nào? Bạn cần cung cấp thêm thông tin cụ thể hơn về triệu chứng của bé để được tư vấn cụ thể hơn. Điều trị bệnh viêm da dị ứng là sự phối hợp giữa việc dùng thuốc, chăm sóc da và thay đổi lối sống. Tuy nhiên, không có phương phápđiều trị bệnh viêm da dị ứngmột cách triệt để nhưng có thể điều trị để làm giảm các triệu chứng như: Ngăn cho bệnh diễn tiến xấu đi hoặc bùng phát bệnh; Giảm đau, giảm ngứa; Giảm cảm giác khó chịu hay yếu tố nguy cơ gây ra; Ngăn nhiễm trùng; Giúp da không bị dày lên. Bạn có thể tham khảo thêm trong bài viết: “Các dạng viêm da dị ứng ở trẻ nhỏ”. Tốt nhất bạn nên đưa con đến các cơ sở Y tế hoặc bệnh viện thuộcHệ thống Y tế Vinmecđể được bác sĩ chuyên môn kiểm tra sức khỏe và tư vấn chi tiết hơn. Cảm ơn bạn đã gửi câu hỏi đến Vinmec. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.6680513620376587,
+            "id": "medical_vietnamese_qa_7409",
+            "rerank_score": 0.8962125778198242
+        },
+        {
+            "text": "Câu hỏi: Có phương pháp nào điều trị dứt điểm VA mũi không?\nTrả lời: Như em mô tả thì có thể con em bị viêm VA. Nếu tình trạng này thường xuyên và nhất là cháu đã từng bị viêm tai giữa thì em nên cho cháu đi khám cụ thể để bác sĩ chuyên khoa xem xét vấn đề nạo VA cho cháu nhé!",
+            "score": 0.620201587677002,
+            "id": "vietnamese_healthcare_4444",
+            "rerank_score": 0.8485329747200012
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

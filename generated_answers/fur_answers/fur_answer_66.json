@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ!\nEm thắc mắc về vấn đề sinh thường. Theo em được biết thì trước khi sinh, sản phụ sẽ được gây tê ngoài màng cứng. Tuy nhiên, sức chịu đau của em khá kém, em muốn tiêm thêm thuốc gây tê khi khâu tầng sinh môn liệu có được không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.",
+    "ground_truth": "Chào bạn!",
+    "answer": "Chào bạn, **có thể được bạn nhé**.\n\n- Nếu đã gây tê ngoài màng cứng khi chuyển dạ, thuốc thường giúp giảm đau trong lúc rạch và khâu tầng sinh môn.\n- Sau sinh, bác sĩ có thể gây tê thần kinh thẹn để giảm đau sau rạch/khâu tầng sinh môn.\n- Nếu chưa gây tê ngoài màng cứng, bác sĩ có thể tiêm thuốc tê tại chỗ trước khi rạch hoặc khâu để bạn không cảm thấy đau trong quá trình thực hiện. Mũi tiêm có thể gây đau nhẹ trong thời gian ngắn.\n- Gây tê ngoài màng cứng giúp giảm đau tối đa, nhưng khi cổ tử cung mở hết và em bé chuẩn bị chào đời, bạn vẫn có thể cảm thấy hơi đau và cảm giác muốn rặn.\n\nBạn nên trao đổi trước với bác sĩ sản khoa và bác sĩ gây mê hồi sức về mong muốn giảm đau, tình trạng sức khỏe và phương pháp phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Có thể tiêm thêm thuốc gây tê khi khâu tầng sinh môn không?\nTrả lời: Tại tất cả các bệnh viện thuộc Hệ thống Y tế Vinmec, trong trường hợp bạn mua gói thai sản thì bạn sẽ được gây tê ngoài màng cứng khi chuyển dạ. Thuốc gây tê ngoài màng cứng còn có tác dụng giảm đau trong và sau cắt khâu hồi phục tầng sinh môn. Sau khi sinh, bạn được gây tê thần kinh thẹn giảm đau sau khi cắt khâu tầng sinh môn bạn nhé. Mọi chi phí dịch vụ nằm trong gói thai sản. Nếu bạn sử dụng dịch vụ lẻ sẽ được nhân viên tư vấn từng dịch vụ cụ thể.",
+            "score": 0.8084943890571594,
+            "id": "vietnamese_healthcare_7565",
+            "rerank_score": 0.9995760321617126
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm nghe nói sinh thường nếu thai lớn thì có thể rạch tầng sinh môn. Vợ em nghe vậy nên rất sợ. Bác sĩ cho em hỏi có cách nào giảm đau khi rạch tầng sinh môn hoặc khâu tầng sinh môn không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nPhương pháp gây tê ngoài màng cứng để giảm đau trong quá trình chuyển dạ là một phương pháp an toàn cho cả mẹ và em bé. Phương pháp này không những giảm đau cho mẹ trong quá trình chuyển dạ mà còn giảm đau cho mẹ khi phải cắt tầng sinh môn ở giai đoạn sổ thai ra ngoài và khi khâu tầng sinh môn.\nNgoài ra, để giảm đau sau sinh do vết rạch tầng sinh môn các bác sĩ có thể áp dụng thêm phương pháp gây tê thần kinh thẹn để giảm đau cho mẹ. Phương pháp này giúp mẹ có thể vận động sớm, chăm sóc được em bé, hạn chế chuyển thành đau mạn tính, giảm stress sau sinh.\nỞ hệ thống bệnh viện, hiện tại đang áp dụng 2 phương pháp gây tê ngoài màng cứng và gây tê thần kinh thẹn để giảm đau trong chuyển dạ, cắt khâu tầng sinh môn và giảm đau sau sinh cho các sản phụ.\nTrân trọng!",
+            "score": 0.7041099667549133,
+            "id": "vietnamese_medical_qa_725",
+            "rerank_score": 0.9991235136985779
+        },
+        {
+            "text": "Câu hỏi: Khâu tầng sinh môn dùng thuốc tê hay khâu sống?\nTrả lời: Rạch cắt tầng sinh môn là một trong những phương pháp cắt da vùng âm đạo xuống phía dưới vùng hậu môn (đáy chậu) giúp tạo ra một khoảng rộng cho em bé có thể chui ra một cách dễ dàng hơn khi sinh thường. Phương pháp này giúp quá trình chuyển dạ, sinh nở diễn ra một cách nhanh hơn và tránh được các tổn thương rách âm đạo phức tạp do quá trình di chuyển của thai nhi xuống dưới cũng như rặn đẻ của mẹ.Cắt tầng sinh môn thường sử dụng trong một số trường hợp như: Tầng sinh môn của người mẹ cứng, dày hoặc phù nề do chuyển dạ kéo dài, cần phải mổ thai nhanh, thai nhi to, thai có nguy cơ bị ngạt hoặc cần phải làm các thủ thuật can thiệp sản khoa như đặt Forceps, giác hút, đỡ sinh ngôi mông...Khi cắt và khâu tầng sinh môn, nếu không có làm gây tê ngoài màng cứng giảm đau trước đó thì bạn sẽ được các bác sĩ tiêm thuốc tê tại chỗ vùng da sẽ cắt nên bạn sẽ không cảm thấy đau.Tuy vậy, khi hết thời gian tác dụng của thuốc tê, cảm giác sẽ phục hồi lại như ban đầu nên bạn sẽ cảm thấy đau vùng bị cắt và đau này có thể kéo dài thành đau mạn tính làm ảnh hưởng đến đến tâm sinh lý cũng như sinh hoạt.Hiện nay, tại bệnh viện thuộc Hệ thống Y tế Vinmec, bằng kinh nghiệm, kiến thức và sự hỗ trợ của máy siêu âm hiện đại, các bác sĩ sẽ sử dụng phương pháp gây tê thần kinh thẹn (thần kinh chi phối cảm giác da vùng sinh dục, hậu môn, đáy chậu) dưới hướng dẫn siêu âm để điều trị đau sau cắt tầng sinh môn. Phương pháp gây tê này không những giúp bạn giảm đau tức thời mà còn giúp thời gian giảm đau dài hơn sau khi ra khỏi phòng sinh, hạn chế được đau mãn tính. Bạn có thể thảo luận, để nghị bác sĩ sử dụng phương pháp này cho mình sau khi sinh để có thể hạn chế được đau đớn một cách trọn vẹn, phục hồi nhanh hơn và có một trải nghiệm cuộc sinh một cách dễ chịu nhất.",
+            "score": 0.6346103549003601,
+            "id": "vietnamese_healthcare_1408",
+            "rerank_score": 0.9952424764633179
+        },
+        {
+            "text": "Câu hỏi: ! Em còn sót vết chỉ khikhâu tầng sinh môn, bây giờ lên mủ vẫn không rút chỉ. Giờ đi khám người ta bảo phải rạch ra khâu lại. Xin hỏi bác sĩ,phẫu thuật khâu lại tầng sinh môn có gây mê được khôngạ? Rất mong bác sĩ tư vấn, cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Phẫu thuật khâu lại tầng sinh môn có gây mê được không?” như sau: Với tình trạng như bạn mô tả, thông thường khiphẫu thuật khâu tầng sinh mônthì các bác sĩ sẽ sử dụngthuốc gây têđể gây tê tại chỗ vùng rạch da để có thể cắt chỉ và khâu lại mà không đau. Trong lúc tiêm thuốc tê sẽ làm bạn có đau một chút và trong thời gian rất ngắn nhưng giúp bạn có thể về nhà trong thời gian sớm nhất, ít bị ảnh hưởng đến quá trình chăm sóc và cho em bé bú mẹ. Tuy nhiên, nếu bạn quá lo sợ, không đồng ý với phương pháp gây tê, hoặc có các chống chỉ định của gây tê thì bác sĩ gây mê hồi sức sẽ tư vấn cho bạn sử dụng các phương pháp bổ trợ hoặcgây mê, thảo luận với bạn về lợi ích và nguy cơ của gây mê đối với mẹ và em bé. Việc gây mê phải được thực hiện ở nơi được cấp phép, có đầy đủ thuốc men, trang thiết bị hỗ trợ, cấp cứu và phải có bác sĩ gây mê hồi sức được đào tạo có đủ năng lực để thực hiện. Bạn có thể đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Được giải đáp bởiBác sĩ chuyên khoa I Đặng Thế Thành- Bác sĩ Gây mê hồi sức - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.7065355181694031,
+            "id": "medical_vietnamese_qa_10223",
+            "rerank_score": 0.9947131276130676
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Tôi muốn hỏi nếu gây tê ngoài màng cứng thì có phải lúc sinh sẽ không còn cảm giác đau không? Cảm ơn bác sĩ đã chia sẻ cùng tôi.\nTrả lời: Chào bạn. Gây tê ngoài màng cứng là phương pháp giảm đau khi sinh, giúp giảm đau đến mức tối đa trong suốt quá trình chuyển dạ. Nhưng đến khi cổ tử cung mở hết, đầu em bé lọt sản phụ sẽ thấy hơi đau trở lại đồng thời với cảm giác muốn rặn là thời điểm chuẩn bị bé chào đời.\nCảm ơn bạn đã tin tưởng và chia sẻ những thắc mắc tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+            "score": 0.6053171157836914,
+            "id": "vietnamese_medical_qa_2532",
+            "rerank_score": 0.9890596866607666
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

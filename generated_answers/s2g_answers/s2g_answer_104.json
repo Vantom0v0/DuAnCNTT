@@ -1,0 +1,124 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ,tôi và chồng có 1 lần không sử dụng thuốc tránh thai hay bao cao su nhưng lần đó chồng tôi ra ngoài không vào trong tôi.Tháng sau tôi bị chậm kinh 1 tuần rồi sau đó có kinh bình thường.Vậy tôi có thai không?",
+    "ground_truth": "Chào bạn\nTrong mọi trường hợp đã quan hệ là có khả năng có thai dù đã sử dụng biện pháp nào đi chăng nữa vì ko biện pháp nào đạt hiểu quả 100%. Hơn nữa xuất tinh ngoài âm đạo là biện pháp ít hiệu quả nhất. Tuy nhiên trong trường hợp của bạn khả năng có thai là thấp hoặc đã có thai nhưng có thể sảy tự nhiên vì bạn đã có kinh bình thường. Bạn có thể đi khám để đảm bảo sức khỏe tốt hơn\nThân mến",
+    "answer": "Xuất tinh ngoài không phải là biện pháp tránh thai an toàn nên vẫn có khả năng mang thai, dù xác suất có thể thấp. Việc bạn chậm kinh 1 tuần rồi có kinh bình thường không đủ để khẳng định có thai hay không, vì chậm kinh cũng có thể do rối loạn kinh nguyệt. Hiện chưa có đủ cơ sở để kết luận; nếu còn lo lắng, bạn nên khám chuyên khoa Sản và làm xét nghiệm máu beta-hCG, có thể kết hợp siêu âm để xác định chính xác.",
+    "evidence": [
+        "Kể cả bạn xuất tinh ngoài cũng không phải là biện pháp tránh thai an toàn, nên bạn vẫn có khả năng có thai.",
+        "Trả lời: Tỷ lệ thành công của biện pháp tránh thai bằng xuất tinh ngoài hay tính ngày an toàn trong chu kỳ kinh không đảm bảo tuyệt đối, chỉ lên đến 80% tùy từng trường hợp.",
+        "Xác xuất bạn có thai tuy thấp nhưng vẫn có thể có.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Xuất tinh ngoài là biện pháp tránh thai có độ an toàn rất thấp, bên cạnh đó test thử thai là loại test nhanh, độ chính xác không cao.",
+        "Để loại trừ có thai, bạn cần được xét nghiệm máu thửnồng độ beta HCGmới cho kết quả chính xác, bạn cũng cần được siêu âm để tìm nguyên nhân rối loạn kinh nguyệt.",
+        "Bạn có thể theo dõi thêm nếu sau 2 tuần vẫn chưa có kinh trở lại hoặc có đau bụng thì nên đến bệnh viện khám.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Thông thường, chu kỳ kinh nguyệt của chị em khoảng 28 – 32 ngày, thời gian rụng trứng sẽ rơi vào khoảng giữa chu kỳ nhưng nếu bạn quan hệ tình dục không sử dụng biện pháp tránh thai thì có khả năng thụ thai bất kỳ trong thời điểm nào, có thể ngay sau khi kết thúc kinh nguyệt.",
+        "Do đó, nếu thấy chậm kinh 1 tuần, vợ bạn nên đi khám bác sĩ chuyên khoa Sản để biết chính xác có thai hay không.",
+        "Trả lời: Chào bạn, chậm kinh là một trong những dấu hiệu dễ nhận thấy nhất ở phụ nữ có thai.",
+        "Tuy nhiên, cũng còn nhiều yếu tố khác tác động đến khiến chu kỳ kinh nguyệt bị rối loạn, không đều.",
+        "Hiện bạn đã chậm kinh 5 ngày, cách đơn giản nhất để xác định có bầu hay chưa là bạn nên mua que thử thai thử tại nhà hoặc đi siêu âm, xét nghiệm máu xem có phải bạn đang mang thai không?",
+        "Chậm kinh nếu đã test que thử thai 1 vạch thì có thể dorối loạn kinh nguyệt(do nhiều nguyên nhân khác nhau gây rối loạn kinh nguyệt).",
+        "Với trường hợp của bạn có rối loạn kinh nguyệt như vậy có thể do có thai (thai trong buồng tử cung hoặc chửa ngoài tử cung) hoặc do rối loạn nội tiết.",
+        "Theo bác sĩ, bạn nên đi khám sớm tại các cơ sở y tế có chuyên khoa phụ sản để được chẩn đoán sớm và điều trị thích hợp.",
+        "- Phương pháp tránh thai theo chu kỳ kinh nguyệt hoặc xuất tinh ra ngoài chưa phải là biện pháp đảm bảo 100% tỷ lệ tránh thai.",
+        "- Hiện tại chưa có cơ sở nào để trả lời cho em có thai hay không."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chuyện là tầm 13/5, cháu với bạn trai cóquan hệ xuất ngoài. Cháu bịtrễ kinh. Ngày 14/6, cháu thử que thì 1 vạch, đến 16/6 cháu thử lần 2 thì cũng 1 vạch, 23/6 thì cháu có kinh được 4 ngày nhưng kinh ra ít hơn những lần trước. Mà tháng 7 vừa rồi thì cháu không có kinh. Vậy bác sĩ cho cháu hỏichậm kinh sau quan hệ xuất tinh ngoài có mang thai không?Có phải cháu có thai không thưa bác sĩ? Cháucảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Xuất tinh ngoài là biện pháp tránh thai có độ an toàn rất thấp, bên cạnh đó test thử thai là loại test nhanh, độ chính xác không cao. Với trường hợp của bạn có rối loạn kinh nguyệt như vậy có thể do có thai (thai trong buồng tử cung hoặc chửa ngoài tử cung) hoặc do rối loạn nội tiết. Để loại trừ có thai, bạn cần được xét nghiệm máu thửnồng độ beta HCGmới cho kết quả chính xác, bạn cũng cần được siêu âm để tìm nguyên nhân rối loạn kinh nguyệt. Theo bác sĩ, bạn nên đi khám sớm tại các cơ sở y tế có chuyên khoa phụ sản để được chẩn đoán sớm và điều trị thích hợp.",
+                "score": 0.5944271087646484,
+                "id": "medical_vietnamese_qa_2481",
+                "rerank_score": 0.9943172335624695
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ. Bác sĩ cho em hỏi, em mới hết kinh nguyệt được 1 ngày, hôm nay chỉ còn một chút dây ra thì quan hệ có thai được không ạ? Mong bác sĩ tư vấn.\nChào bác sĩ. Em quan hệ vào ngày đầu tiên của chu kỳ kinh nguyệt. Khả năng đậu thai của em là bao nhiêu % ạ? Cảm ơn bác sĩ!\nChào bác sĩ. Có kinh cách 3 ngày rồi và quan hệ xuất tinh trong. Vậy có mang thai không ạ. Cảm ơn bác sĩ!\nChào bác sĩ ạ. Sáng nay là kỳ kinh của em nhưng đến chiều bọn em có quan hệ nhưng không xuất vào trong, bác sĩ cho em hỏi như thế liệu có thai không ạ? Vì đã có 1 cháu rồi, nghe mọi người bảo những người đẻ rồi rất dễ có thai nên em rất sợ. Cảm ơn bác sĩ tư vấn.\nChào bác sĩ, em có quan hệ vào đúng ngày chu kì của tháng trước và tháng này thì đã chậm kinh 1 tuần, bác sĩ cho em hỏi là khả năng mang thai có cao không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn. Ngày rụng trứng của phụ nữ thường diễn ra vào giữa chu kỳ, tuy nhiên chu kỳ kinh nguyệt của mỗi người dài ngắn khác nhau và thời gian rụng trứng cũng vậy. Do đó quan hệ tình dục mà không sử dụng biện pháp tránh thai vẫn có khả năng thụ thai, dù ngày quan hệ còn kinh nguyệt. Kể cả bạn xuất tinh ngoài cũng không phải là biện pháp tránh thai an toàn, nên bạn vẫn có khả năng có thai.\nBạn nên sử dụng bao cao su khi quan hệ để không những có thể tránh thai hiệu quả mà còn phòng tránh các bệnh lây lan qua đường tình dục bạn nhé.",
+                "score": 0.5638103485107422,
+                "id": "vietnamese_medical_qa_3880",
+                "rerank_score": 0.9880086183547974
+            },
+            {
+                "text": "Câu hỏi: Em và bạn trai có quan hệ không dùng biện pháp tránh thai, xuất tinh ngoài. Chu kỳ 28 ngày, quan hệ ngày thứ 9 của chu kỳ, tính từ ngày có kinh. Hiện tại đang trễ kinh 6 ngày. Xin cho hỏi e có thể mang thai không?\nTrả lời: Tỷ lệ thành công của biện pháp tránh thai bằng xuất tinh ngoài hay tính ngày an toàn trong chu kỳ kinh không đảm bảo tuyệt đối, chỉ lên đến 80% tùy từng trường hợp. Xác xuất bạn có thai tuy thấp nhưng vẫn có thể có.",
+                "score": 0.5663838982582092,
+                "id": "vietnamese_healthcare_5452",
+                "rerank_score": 0.984944760799408
+            },
+            {
+                "text": "Câu hỏi: ! Cách đây 3-4 tuần em và bạn trai có quan hệ. Bọn em có dùng bao cao su, nhưng sau đó phát hiện bao cao su bị rách. Em có dùng thuốc tránh thai khẩn cấp ngay sau đó. Hiện tại theo lịch là đến kỳ kinh nguyệt của em nhưng em bị chậm 2-3 ngày rồi. Em đã thử que thử thai 2 lần nhưng không có thai ạ. Vậy bác sĩ cho em hỏi,dùng thuốc tránh thai khẩn cấp sau quan hệ bị chậm kinh,thử que thử thai 1 vạchcó sao không? Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Với câu hỏi: ‘Dùng thuốc tránh thai khẩn cấp sau quan hệ bị chậm kinh, thử que thử thai 1 vạchcó sao không?” của bạn, bác sĩ xin tư vấn như sau: Dùng viên tránh thai khẩn cấp đôi khi gây một số triệu chứng như: xuất huyết âm đạo, rong kinh hay chậm kinh... Bạn đã thử que: âm tính. Bạn có thể theo dõi thêm nếu sau 2 tuần vẫn chưa có kinh trở lại hoặc có đau bụng thì nên đến bệnh viện khám. Bạn có thể đến cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được bác sĩ giàu kinh nghiệm tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng và gửi câu hỏi tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa II Trần Thị Mai Hương -Bác sĩ Sản phụ khoa - Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng",
+                "score": 0.5616492033004761,
+                "id": "medical_vietnamese_qa_3678",
+                "rerank_score": 0.9553579092025757
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, em năm nay 21t. Chưa có chồng. E đang rất băn khoăn và lo ạ. E có chu kì kinh nguyệt không đều. Nhưng 2 tháng nay e đều có kinh vào ngày 17 và sạch vào ngày 25. Hôm 22 và 27 e có quan hệ với bạn trai xuất tinh ngoài. Đến nay 29 e thấy có máu ở âm đạo. V có phải e có thai không ạ.\nTrả lời: Chào em!\n- Phương pháp tránh thai theo chu kỳ kinh nguyệt hoặc xuất tinh ra ngoài chưa phải là biện pháp đảm bảo 100% tỷ lệ tránh thai. Bạn nên kiểm tra nếu chu kỳ kinh nguyệt sau đến muộn.\n- Hiện tại chưa có cơ sở nào để trả lời cho em có thai hay không.\nChúc em vui và sống khỏe!",
+                "score": 0.5676575899124146,
+                "id": "vietnamese_medical_qa_7084",
+                "rerank_score": 0.9482539296150208
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nBác sĩ cho cháu hỏi, cháu có chồng và thời gian trước cháu có sử dụng thuốc và những lần sau cháu đã ngưng sử dụng . Tính đến hôm nay cháu đã bị chậm kinh hơn 1 tháng mấy , cháu có thử que thì chỉ 1 vạch, sau vài ngày và 1 tuần cháu thử tiếp thì vẫn 1 vạch . Như vậy cho cháu hỏi liệu cháu có mang thai không ạ?\nTrả lời: Chào cháu,\nThông thường , sau khi chậm kinh 7-10 ngày nếu có thai thử que sẽ lên 2 vạch ( Que đảm bảo chất lượng ) . Ở đây, cháu mới thử que sau 1 tuần khi quan hệ thì cũng chưa chính xác. Vì vậy cháu nên thử lại. Nếu kết quả 1 vạch thì cháu không có thai. \nViệc chậm kinh có thể do rối loạn kinh nguyệt gây nên. Cháu cần theo dõi thêm\nThân mến",
+                "score": 0.6341959238052368,
+                "id": "vietnamese_medical_qa_7603",
+                "rerank_score": 0.9970425963401794
+            },
+            {
+                "text": "Câu hỏi: Vợ em vừa hết kỳ kinh nguyệt vài ngày và em có quan hệ tình dục với vợ. Vậy bác sĩ cho em hỏiquan hệ sau kỳ kinh nguyệt có mang thai không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Thông thường, chu kỳ kinh nguyệt của chị em khoảng 28 – 32 ngày, thời gian rụng trứng sẽ rơi vào khoảng giữa chu kỳ nhưng nếu bạn quan hệ tình dục không sử dụng biện pháp tránh thai thì có khả năng thụ thai bất kỳ trong thời điểm nào, có thể ngay sau khi kết thúc kinh nguyệt. Do đó, nếu thấy chậm kinh 1 tuần, vợ bạn nên đi khám bác sĩ chuyên khoa Sản để biết chính xác có thai hay không.",
+                "score": 0.5965787172317505,
+                "id": "medical_vietnamese_qa_2791",
+                "rerank_score": 0.9849200248718262
+            },
+            {
+                "text": "Câu hỏi: ! Bác sĩ cho em hỏi ạ. Em bịchậm kinh1 tháng nhưng không phải có bầu thì là do nguyên nhân gì ạ? Em cảm ơn bác sĩ. Lã Thị Hồng Chào bác sĩ. Em bị chậm kinh 10 ngày, em có test que thử thai thì không thấy có thai. Bác sĩ cho em hỏi nguyên nhân chậm kinh là do đâu ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn ạ. Vũ Thị Xuân(2002) Chào bác sĩ. Em năm nay 28 tuổi. Kỳ kinh cuối vào ngày 23/2. Đến ngày 14/3 có quan hệ, xuất ngoài. Tới nay chưa có kinh nguyệt lại. Chậm kinh 10 ngày, không đau ngực, chỉ đau đầu ti, có hơi đau bụng dưới bên phải, buốt dọc sống lưng, thử thai 1 vạch. Thì em có thai không ạ? Câu hỏi ẩn danh Chào bác sĩ. Vợ chồng em quan hệ sau khi hết kinh được 3 ngày, nhưng đến hơn 1 tháng nay em bị trễ kinh. Thử 4 lần vẫn cho kết quả âm tính. Như vậy em có thai không. Em cảm ơn bác sĩ. Câu hỏi ẩn danh Chào bác sĩ, bạn gái em bị trễ kinh 7 ngày, nhưng dùng que thử thai cho ra 1 vạch, vậy là có thai hay không ạ. Em cám ơn ạ! Câu hỏi ẩn danh Chào bác sĩ. Nếu emkhông mang thai mà chậm kinh tới 4 tháng liềnlý do tại sao vậy bác sĩ. Cảm ơn bác sĩ tư vấn. Câu hỏi ẩn danh Em chào bác sĩ! Em và bạn trai có quan hệ ngày 4/1 có sử dụng bao cao su. Ngày 6/1 em có kinh và đến 20/2 em có kinh tiếp. Kể từ đó đến nay em vẫn chưa có kinh. Em không bị ngứa hay gì. Bác sĩ cho em hỏi em bị làm sao ạ. Mong bác sĩ tư vấn. Em cảm ơn ạ! Câu hỏi ẩn danh Chào bác sĩ, em bị trễ kinh 23 ngày em có thử que thử thai 2 lần nhưng đều 1 vạch. Vậy em phải làm sao ạ? Mong bác sĩ tư vấn. Xin cảm ơn Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Chậm kinh nếu đã test que thử thai 1 vạch thì có thể dorối loạn kinh nguyệt(do nhiều nguyên nhân khác nhau gây rối loạn kinh nguyệt). Tùy theo từng trường hợp mà để theo dõi tự nhiên hay cần điều trị.Tuy nhiên có một tỷ lệ nhỏ que thử thai không chính xác. Vì vậy đê biết rõ nguyên nhân chậm kinh, tốt nhất là bạn nên đi khám Sản phụ khoa để được tư vấn và có hướng điều trị phù hợp bạn nhé! Cảm ơn vì đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng! Bác sĩ Chuyên Khoa I Nguyễn Thị Mận -Bác sĩ Sản phụ khoa - Khoa Sản Phụ Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng. BSCK II Trần Thị Mai Hương- Bác sĩ Sản phụ khoa - Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+                "score": 0.6374956965446472,
+                "id": "medical_vietnamese_qa_4292",
+                "rerank_score": 0.9651965498924255
+            },
+            {
+                "text": "Câu hỏi: ! Cách đây 3-4 tuần em và bạn trai có quan hệ. Bọn em có dùng bao cao su, nhưng sau đó phát hiện bao cao su bị rách. Em có dùng thuốc tránh thai khẩn cấp ngay sau đó. Hiện tại theo lịch là đến kỳ kinh nguyệt của em nhưng em bị chậm 2-3 ngày rồi. Em đã thử que thử thai 2 lần nhưng không có thai ạ. Vậy bác sĩ cho em hỏi,dùng thuốc tránh thai khẩn cấp sau quan hệ bị chậm kinh,thử que thử thai 1 vạchcó sao không? Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Với câu hỏi: ‘Dùng thuốc tránh thai khẩn cấp sau quan hệ bị chậm kinh, thử que thử thai 1 vạchcó sao không?” của bạn, bác sĩ xin tư vấn như sau: Dùng viên tránh thai khẩn cấp đôi khi gây một số triệu chứng như: xuất huyết âm đạo, rong kinh hay chậm kinh... Bạn đã thử que: âm tính. Bạn có thể theo dõi thêm nếu sau 2 tuần vẫn chưa có kinh trở lại hoặc có đau bụng thì nên đến bệnh viện khám. Bạn có thể đến cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được bác sĩ giàu kinh nghiệm tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng và gửi câu hỏi tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa II Trần Thị Mai Hương -Bác sĩ Sản phụ khoa - Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng",
+                "score": 0.6326979994773865,
+                "id": "medical_vietnamese_qa_3678",
+                "rerank_score": 0.9553579092025757
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho tôi hỏi, bé đầu nhà tôi mới được 10 tháng nhưng tôi đã trễ kinh 5 ngày rồi. Tôi chưa muốn cho thai vào thời gian này. Vậy giờ có cách nào để giải quyết vấn đề này không thưa bác sĩ? Cảm ơn bác sĩ!\nChào bác sĩ, bác sĩ cho em hỏi em mới sinh bé được 5 tháng và em có quan hệ lại trước 2 ngày có kinh nguyệt sau khi quan hệ tới nay mà em vẫn chưa có kinh nguyệt tính hiện tại em bị trễ kinh 5 ngày vậy em có khả năng mang thai không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn, chậm kinh là một trong những dấu hiệu dễ nhận thấy nhất ở phụ nữ có thai. Tuy nhiên, cũng còn nhiều yếu tố khác tác động đến khiến chu kỳ kinh nguyệt bị rối loạn, không đều. Hiện bạn đã chậm kinh 5 ngày, cách đơn giản nhất để xác định có bầu hay chưa là bạn nên mua que thử thai thử tại nhà hoặc đi siêu âm, xét nghiệm máu xem có phải bạn đang mang thai không? Nếu trong trường hợp bạn có bầu và không muốn giữ lại thai nhi có thể đến bệnh viện tham khảo một vài phương pháp đình chỉ thai nghén bằng thuốc, nạo phá thai...\nTuy nhiên, việc nạo phá thai đều mang đến những ảnh hưởng nhất định cho sức khỏe người mẹ. Vì thế, bạn nên cân nhắc và tham khảo thật kỹ ý kiến của bác sĩ trong trường hợp này.",
+                "score": 0.6305897235870361,
+                "id": "vietnamese_medical_qa_2882",
+                "rerank_score": 0.9421907663345337
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chuyện là tầm 13/5, cháu với bạn trai cóquan hệ xuất ngoài. Cháu bịtrễ kinh. Ngày 14/6, cháu thử que thì 1 vạch, đến 16/6 cháu thử lần 2 thì cũng 1 vạch, 23/6 thì cháu có kinh được 4 ngày nhưng kinh ra ít hơn những lần trước. Mà tháng 7 vừa rồi thì cháu không có kinh. Vậy bác sĩ cho cháu hỏichậm kinh sau quan hệ xuất tinh ngoài có mang thai không?Có phải cháu có thai không thưa bác sĩ? Cháucảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Xuất tinh ngoài là biện pháp tránh thai có độ an toàn rất thấp, bên cạnh đó test thử thai là loại test nhanh, độ chính xác không cao. Với trường hợp của bạn có rối loạn kinh nguyệt như vậy có thể do có thai (thai trong buồng tử cung hoặc chửa ngoài tử cung) hoặc do rối loạn nội tiết. Để loại trừ có thai, bạn cần được xét nghiệm máu thửnồng độ beta HCGmới cho kết quả chính xác, bạn cũng cần được siêu âm để tìm nguyên nhân rối loạn kinh nguyệt. Theo bác sĩ, bạn nên đi khám sớm tại các cơ sở y tế có chuyên khoa phụ sản để được chẩn đoán sớm và điều trị thích hợp.",
+                "score": 0.7103034257888794,
+                "id": "medical_vietnamese_qa_2481",
+                "rerank_score": 0.9943172335624695
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ. Bác sĩ cho em hỏi, em mới hết kinh nguyệt được 1 ngày, hôm nay chỉ còn một chút dây ra thì quan hệ có thai được không ạ? Mong bác sĩ tư vấn.\nChào bác sĩ. Em quan hệ vào ngày đầu tiên của chu kỳ kinh nguyệt. Khả năng đậu thai của em là bao nhiêu % ạ? Cảm ơn bác sĩ!\nChào bác sĩ. Có kinh cách 3 ngày rồi và quan hệ xuất tinh trong. Vậy có mang thai không ạ. Cảm ơn bác sĩ!\nChào bác sĩ ạ. Sáng nay là kỳ kinh của em nhưng đến chiều bọn em có quan hệ nhưng không xuất vào trong, bác sĩ cho em hỏi như thế liệu có thai không ạ? Vì đã có 1 cháu rồi, nghe mọi người bảo những người đẻ rồi rất dễ có thai nên em rất sợ. Cảm ơn bác sĩ tư vấn.\nChào bác sĩ, em có quan hệ vào đúng ngày chu kì của tháng trước và tháng này thì đã chậm kinh 1 tuần, bác sĩ cho em hỏi là khả năng mang thai có cao không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn. Ngày rụng trứng của phụ nữ thường diễn ra vào giữa chu kỳ, tuy nhiên chu kỳ kinh nguyệt của mỗi người dài ngắn khác nhau và thời gian rụng trứng cũng vậy. Do đó quan hệ tình dục mà không sử dụng biện pháp tránh thai vẫn có khả năng thụ thai, dù ngày quan hệ còn kinh nguyệt. Kể cả bạn xuất tinh ngoài cũng không phải là biện pháp tránh thai an toàn, nên bạn vẫn có khả năng có thai.\nBạn nên sử dụng bao cao su khi quan hệ để không những có thể tránh thai hiệu quả mà còn phòng tránh các bệnh lây lan qua đường tình dục bạn nhé.",
+                "score": 0.6212990283966064,
+                "id": "vietnamese_medical_qa_3880",
+                "rerank_score": 0.9880086183547974
+            },
+            {
+                "text": "Câu hỏi: Em và bạn trai có quan hệ không dùng biện pháp tránh thai, xuất tinh ngoài. Chu kỳ 28 ngày, quan hệ ngày thứ 9 của chu kỳ, tính từ ngày có kinh. Hiện tại đang trễ kinh 6 ngày. Xin cho hỏi e có thể mang thai không?\nTrả lời: Tỷ lệ thành công của biện pháp tránh thai bằng xuất tinh ngoài hay tính ngày an toàn trong chu kỳ kinh không đảm bảo tuyệt đối, chỉ lên đến 80% tùy từng trường hợp. Xác xuất bạn có thai tuy thấp nhưng vẫn có thể có.",
+                "score": 0.6359915137290955,
+                "id": "vietnamese_healthcare_5452",
+                "rerank_score": 0.984944760799408
+            },
+            {
+                "text": "Câu hỏi: ! Cách đây 3-4 tuần em và bạn trai có quan hệ. Bọn em có dùng bao cao su, nhưng sau đó phát hiện bao cao su bị rách. Em có dùng thuốc tránh thai khẩn cấp ngay sau đó. Hiện tại theo lịch là đến kỳ kinh nguyệt của em nhưng em bị chậm 2-3 ngày rồi. Em đã thử que thử thai 2 lần nhưng không có thai ạ. Vậy bác sĩ cho em hỏi,dùng thuốc tránh thai khẩn cấp sau quan hệ bị chậm kinh,thử que thử thai 1 vạchcó sao không? Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Với câu hỏi: ‘Dùng thuốc tránh thai khẩn cấp sau quan hệ bị chậm kinh, thử que thử thai 1 vạchcó sao không?” của bạn, bác sĩ xin tư vấn như sau: Dùng viên tránh thai khẩn cấp đôi khi gây một số triệu chứng như: xuất huyết âm đạo, rong kinh hay chậm kinh... Bạn đã thử que: âm tính. Bạn có thể theo dõi thêm nếu sau 2 tuần vẫn chưa có kinh trở lại hoặc có đau bụng thì nên đến bệnh viện khám. Bạn có thể đến cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được bác sĩ giàu kinh nghiệm tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng và gửi câu hỏi tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa II Trần Thị Mai Hương -Bác sĩ Sản phụ khoa - Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng",
+                "score": 0.6322166919708252,
+                "id": "medical_vietnamese_qa_3678",
+                "rerank_score": 0.9553579092025757
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, em năm nay 21t. Chưa có chồng. E đang rất băn khoăn và lo ạ. E có chu kì kinh nguyệt không đều. Nhưng 2 tháng nay e đều có kinh vào ngày 17 và sạch vào ngày 25. Hôm 22 và 27 e có quan hệ với bạn trai xuất tinh ngoài. Đến nay 29 e thấy có máu ở âm đạo. V có phải e có thai không ạ.\nTrả lời: Chào em!\n- Phương pháp tránh thai theo chu kỳ kinh nguyệt hoặc xuất tinh ra ngoài chưa phải là biện pháp đảm bảo 100% tỷ lệ tránh thai. Bạn nên kiểm tra nếu chu kỳ kinh nguyệt sau đến muộn.\n- Hiện tại chưa có cơ sở nào để trả lời cho em có thai hay không.\nChúc em vui và sống khỏe!",
+                "score": 0.6179102063179016,
+                "id": "vietnamese_medical_qa_7084",
+                "rerank_score": 0.9482539296150208
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

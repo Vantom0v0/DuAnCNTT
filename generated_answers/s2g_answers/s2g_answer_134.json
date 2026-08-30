@@ -1,0 +1,107 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Em bị HPV 6 và 11. Bác sĩ cho em hỏiphương pháp điều trị HPV 6, 11 như thế nào?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Có nhiều hơn 100 type HPV có vai trò gây bệnh liên quan đến bệnh lý da và niêm mạc và khoảng 40 type có tác động lên đường sinh dục, đặc biệt liên quan đến bệnh lý ung thư cổ tử cung. Nhóm được gọi là nguy cơ cao bao gồm các type 16 (HPV-16), 18, 31, 33, 35, 39, 45, 51, 52, 56, 59, 66 và HPV-68. Các type HPV-6, 11, 42, 43, 44 được gọi là nhóm nguy cơ thấp. Hiện chưa có thuốc điều trị đặc hiệu cho virus HPV. Vì vậy, bạn cần khám phụ khoa định kỳ để theo dõi cũng như phát hiện sớm những bất thường ở cổ tử cung.",
+    "answer": "Hiện phần bằng chứng được cung cấp không có thông tin về phương pháp điều trị HPV type 6 và 11, nên chưa đủ cơ sở để trả lời cụ thể. Bạn nên trao đổi trực tiếp với bác sĩ đang theo dõi để được đánh giá và hướng dẫn phù hợp.",
+    "evidence": [],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: ! Em bị u ác 1/4 tuyến vú, Carcinom dạng xâm nhiễm nos, grad 2. Vậy bác sĩ cho em hỏiphương pháp điều trị u ác tính tuyến vú là gì? Điều trị trong bao lâuạ? Cảm ơn bác sĩ tư vấn! Trần Thị Phương Kim(1983) Trả lời\nTrả lời: Chào bạn! Bác sĩ xin được giải đáp câu hỏi: “Phương pháp điều trị u ác tính tuyến vú là gì? Điều trị trong bao lâu?” như sau: Với thông tin bạn cung cấp, chỉ có thể xác định là bạn có khối u ác tính của vú, chưa thể xác định được giai đoạn bệnh là loại mô học có các thụ thể nội tiết, thụ thể yếu tố phát triển biểu mô,... cũng như tình trạng sức khỏe chung của bạn nên bác sĩ không thể trả lời chính xác kế hoạch điều trị tiếp theo và thời gian điều trị bao lâu, tiên lượng như thế nào? Việcđiều trị ung thư vúbao gồm nhiều phương pháp phẫu thuật, hóa trị, xạ trị, nội tiết, điều trị miễn dịch,... tùy thuộc vào các yếu tố trên, có thể phối hợp nhiều phương pháp điều trị với nhau. Bạn sẽ được thăm khám và làm thêm một số xét nghiệm và chẩn đoán hình ảnh khác trước khi tiến hành điều trị.  Được giải đáp bởiBác sĩ chuyên khoa II Phùng Thị Phương Chi- Bác sĩ chuyên khoa ung bướu - Trung tâm Ung bướu, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+                "score": 0.689838707447052,
+                "id": "medical_vietnamese_qa_12633",
+                "rerank_score": 0.07039760798215866
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị vẹo vách ngăn mũi. Bác sĩ cho em hỏi phương pháp điều trị vẹo vách ngăn mũi là gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nĐiều trị vẹo vách ngăn, tùy mức độ để có thái độ xử trí khác nhau, việc này phải được đích thân bác sĩ Tai mũi họng thăm khám lâm sàng kết hợp chụp CT scan mũi xoang. Bạn nên thăm khám tại bệnh viện để được các bác sĩ Tai mũi họng thăm khám và tư vấn điều trị.\nTrân trọng!",
+                "score": 0.6031587719917297,
+                "id": "vietnamese_medical_qa_386",
+                "rerank_score": 0.012898306362330914
+            },
+            {
+                "text": "Câu hỏi: Ngoài những phương pháp trên còn có những phương pháp nào điều trị ung thư tuyến tiền liệt\nTrả lời: 2. Ngoài những phương pháp trên còn có những phương pháp nào điều trị ung thư tuyến tiền liệt\nKhi mắc ung thư, bạn có thể nghe về những cách điều trị ung thư khác hoặc điều trị các triệu chứng. Đây có thể không phải luôn là phương pháp điều trị y tế tiêu chuẩn. Chúng có thể là vitamin, thảo dược, chế độ ăn uống đặc biệt và những thứ khác. Bạn có thể thắc mắc về những phương pháp điều trị này. Một số trong các phương pháp này có tính chất hỗ trợ, một số không, thậm chí có hại. Hãy trao đổi với bác sĩ về bất cứ điều gì bạn đang nghĩ về việc sử dụng chúng, cho dù đó là một loại vitamin, chế độ ăn uống, hoặc bất cứ điều gì khác. Các câu hỏi có thể hỏi bác sĩ Bác sỹ nghĩ phương pháp điều trị nào là tốt nhất cho tôi? Mục tiêu của điều trị này là gì? Bác sĩ có nghĩ rằng nó có thể chữa ung thư? Điều trị có bao gồm phẫu thuật? Nếu vậy, ai sẽ làm phẫu thuật? Phẫu thuật sẽ như thế nào? Tôi cũng sẽ cần các phương pháp điều trị khác chứ? Mục tiêu của các phương pháp điều trị này là gì? Tôi có thể có tác dụng phụ nào từ những phương pháp điều trị này? Tôi có thể làm gì về tác dụng phụ mà tôi có thể có? Bác sỹ có biết điều gì về vitamin đặc biệt hoặc chế độ ăn kiêng mà bạn bè nói với tôi? Làm sao tôi biết chúng có an toàn không? Tôi cần bắt đầu điều trị sớm nhất như thế nào? Tôi nên làm gì để sẵn sàng điều trị? Có bất cứ điều gì tôi có thể làm để giúp việc điều trị có hiệu quả hơn? Bước tiếp theo là gì?",
+                "score": 0.6098169684410095,
+                "id": "vietnamese_healthcare_45361",
+                "rerank_score": 0.00225618714466691
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nTôi được chuẩn đoánphì đại tiền liệt tuyến  khảng 2 năm nay,bác sĩ khuyên uống thuốc hay phẫu thuật\nTrả lời: Chào bác.\nBác cần căn cứ xem tuyến tiền liệt đã bị phình bao nhiêu ? Và đã chèn ép đường tiểu như thế nào ? Bác có hay bị bí tiểu không ? \nBác cung cấp thêm một số thông tin để bác sỹ tư vấn được cụ thể hơn nhé.\nThân mến.",
+                "score": 0.5970329642295837,
+                "id": "vietnamese_medical_qa_6805",
+                "rerank_score": 0.0013998395297676325
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.6017919778823853,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0011758640175685287
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: ! Em bị u ác 1/4 tuyến vú, Carcinom dạng xâm nhiễm nos, grad 2. Vậy bác sĩ cho em hỏiphương pháp điều trị u ác tính tuyến vú là gì? Điều trị trong bao lâuạ? Cảm ơn bác sĩ tư vấn! Trần Thị Phương Kim(1983) Trả lời\nTrả lời: Chào bạn! Bác sĩ xin được giải đáp câu hỏi: “Phương pháp điều trị u ác tính tuyến vú là gì? Điều trị trong bao lâu?” như sau: Với thông tin bạn cung cấp, chỉ có thể xác định là bạn có khối u ác tính của vú, chưa thể xác định được giai đoạn bệnh là loại mô học có các thụ thể nội tiết, thụ thể yếu tố phát triển biểu mô,... cũng như tình trạng sức khỏe chung của bạn nên bác sĩ không thể trả lời chính xác kế hoạch điều trị tiếp theo và thời gian điều trị bao lâu, tiên lượng như thế nào? Việcđiều trị ung thư vúbao gồm nhiều phương pháp phẫu thuật, hóa trị, xạ trị, nội tiết, điều trị miễn dịch,... tùy thuộc vào các yếu tố trên, có thể phối hợp nhiều phương pháp điều trị với nhau. Bạn sẽ được thăm khám và làm thêm một số xét nghiệm và chẩn đoán hình ảnh khác trước khi tiến hành điều trị.  Được giải đáp bởiBác sĩ chuyên khoa II Phùng Thị Phương Chi- Bác sĩ chuyên khoa ung bướu - Trung tâm Ung bướu, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+                "score": 0.6108436584472656,
+                "id": "medical_vietnamese_qa_12633",
+                "rerank_score": 0.07039762288331985
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.5803894996643066,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.00151777733117342
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.6202378273010254,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0011758663458749652
+            },
+            {
+                "text": "Câu hỏi: Cần làm gì với biến chủng Omicron?\nTrả lời: 3. Cần làm gì với biến chủng Omicron?",
+                "score": 0.596049427986145,
+                "id": "vietnamese_healthcare_40044",
+                "rerank_score": 0.00020732330449391156
+            },
+            {
+                "text": "Câu hỏi: Tôi muốn hỏi chi phí cho một ca thụ tinh ống nghiệm là bao nhiêu? Tôi sinh 1978, vợ 1980, chúng tôi có một bé sinh năm 2011, cho đến nay thì không có thêm bé nào nữa.\nTrả lời: Chi phí cho một lộ trình điều trị hỗ trợ sinh sản IVF không cố định, phụ thuộc vào nhiều yếu tố như phương pháp hỗ trợ sinh sản, cơ địa, thể trạng, thuốc sử dụng. . .",
+                "score": 0.5940728783607483,
+                "id": "vietnamese_healthcare_8982",
+                "rerank_score": 0.00014612609811592847
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: ! Em bị u ác 1/4 tuyến vú, Carcinom dạng xâm nhiễm nos, grad 2. Vậy bác sĩ cho em hỏiphương pháp điều trị u ác tính tuyến vú là gì? Điều trị trong bao lâuạ? Cảm ơn bác sĩ tư vấn! Trần Thị Phương Kim(1983) Trả lời\nTrả lời: Chào bạn! Bác sĩ xin được giải đáp câu hỏi: “Phương pháp điều trị u ác tính tuyến vú là gì? Điều trị trong bao lâu?” như sau: Với thông tin bạn cung cấp, chỉ có thể xác định là bạn có khối u ác tính của vú, chưa thể xác định được giai đoạn bệnh là loại mô học có các thụ thể nội tiết, thụ thể yếu tố phát triển biểu mô,... cũng như tình trạng sức khỏe chung của bạn nên bác sĩ không thể trả lời chính xác kế hoạch điều trị tiếp theo và thời gian điều trị bao lâu, tiên lượng như thế nào? Việcđiều trị ung thư vúbao gồm nhiều phương pháp phẫu thuật, hóa trị, xạ trị, nội tiết, điều trị miễn dịch,... tùy thuộc vào các yếu tố trên, có thể phối hợp nhiều phương pháp điều trị với nhau. Bạn sẽ được thăm khám và làm thêm một số xét nghiệm và chẩn đoán hình ảnh khác trước khi tiến hành điều trị.  Được giải đáp bởiBác sĩ chuyên khoa II Phùng Thị Phương Chi- Bác sĩ chuyên khoa ung bướu - Trung tâm Ung bướu, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+                "score": 0.6370557546615601,
+                "id": "medical_vietnamese_qa_12633",
+                "rerank_score": 0.07039762288331985
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.581368625164032,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.00151777733117342
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.5960841774940491,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0011758663458749652
+            },
+            {
+                "text": "Câu hỏi: Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nTrả lời: 10. Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nNếu bạn lo lắng về nguy cơ ung thư đại trực tràng hoặc các loại ung thư khác, bạn nên thảo luận cùng các bác sĩ có chuyên môn. Hãy cân nhắc hỏi những câu hỏi sau: Nguy cơ phát triển ung thư đại trực tràng là gì? Tôi có tổng cộng có bao nhiêu polyp đại tràng? Tôi đã có loại polyp đại tràng nào? Nguy cơ phát triển một loại ung thư khác là bao nhiêu? Tôi có thể làm gì để giảm nguy cơ mắc bệnh ung thư? Các biện pháp nào để sàng lọc và phòng ngừa ung thư là gì?",
+                "score": 0.5811007022857666,
+                "id": "vietnamese_healthcare_43316",
+                "rerank_score": 0.0004537134664133191
+            },
+            {
+                "text": "Câu hỏi: Cần làm gì với biến chủng Omicron?\nTrả lời: 3. Cần làm gì với biến chủng Omicron?",
+                "score": 0.5949156284332275,
+                "id": "vietnamese_healthcare_40044",
+                "rerank_score": 0.00020732330449391156
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Gia đình em 4 đời điếc từ cụ ngoại đến em đang nghe kém dần. Bác sĩ cho em hỏitai nghe kém dần có phẫu thuật thay thế được không? Rất mong bác sĩ tư vấn, em cảm ơn bác sĩ. Nguyễn Thị Mận(1985) Trả lời",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Theo như bạn mô tả, chứng nghe kém này có tính di truyền (Hereditary) và tiến triển chậm theo thời gian (late-onset progression). Bác sĩ có thể đưa ra nhận định tạm thời như sau: Có thể đây là 1 chứng bệnh gọi là Cochleosarcular degeneration/Scheibe degeneration. Chứng này, bác sĩ chưa thấy tài liệu tiếng Việt nào mô tả cụ thể. Có thể hiểu nôm na như một tình trạng thoái hóa ốc tai có tính di truyền. Bác sĩ khuyên bạn đến khoa Tai mũi họng thăm khám và xác định một cách rõ ràng nhất xem có đúng như vậy không hay một chứng bệnh nào khác, đồng thời có thể cân nhắc làm thêm một số khảo sát, đo đạc về Tai cũng như Gene để có cái nhìn chính xác hơn nữa và có thể mang đến một hướng điều trị thích hợp nhất có thể.  Được giải đáp bởiBác sĩ chuyên khoa I Lê Văn Quảng -Bác sĩ Tai Mũi Họng - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+    "answer": "Theo thông tin được cung cấp, tình trạng nghe kém của bạn có tính gia đình và tiến triển dần. Chưa đủ dữ liệu để khẳng định có thể phẫu thuật thay thế hay không, vì còn phải xác định nguyên nhân và mức độ nghe kém, xuất phát từ tai ngoài, tai giữa hay tai trong.\n\nBạn nên đến chuyên khoa Tai Mũi Họng/thính học để khám và có thể được thực hiện:\n\n- Đo thính lực đồ, nhĩ lượng đồ.\n- Các khảo sát chuyên sâu như phản xạ cơ bàn đạp, điện âm ốc tai, điện thính giác thân não.\n- Chụp CT hoặc MRI khi cần.\n- Tư vấn và khảo sát di truyền.\n\nMột số trường hợp nghe kém có thể được hỗ trợ cải thiện chức năng nghe; trường hợp điếc bẩm sinh có thể được cân nhắc cấy điện cực ốc tai tại trung tâm chuyên khoa. Tuy nhiên, với tình trạng nghe kém di truyền tiến triển của bạn, bằng chứng hiện có chưa đủ để kết luận phương pháp phẫu thuật cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tai nghe kém dần có phẫu thuật thay thế được không?\nTrả lời: Theo như bạn mô tả, chứng nghe kém này có tính di truyền (Hereditary) và tiến triển chậm theo thời gian (late-onset progression). Bác sĩ có thể đưa ra nhận định tạm thời như sau: Có thể đây là 1 chứng bệnh gọi là Cochleosarcular degeneration/Scheibe degeneration. Chứng này, bác sĩ chưa thấy tài liệu tiếng Việt nào mô tả cụ thể. Có thể hiểu nôm na như một tình trạng thoái hóa ốc tai có tính di truyền. Bác sĩ khuyên bạn đến khoa Tai mũi họng thăm khám và xác định một cách rõ ràng nhất xem có đúng như vậy không hay một chứng bệnh nào khác, đồng thời có thể cân nhắc làm thêm một số khảo sát, đo đạc về Tai cũng như Gene để có cái nhìn chính xác hơn nữa và có thể mang đến một hướng điều trị thích hợp nhất có thể.",
+            "score": 0.613619327545166,
+            "id": "vietnamese_healthcare_2329",
+            "rerank_score": 0.9998137354850769
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho em hỏi, nghe kém do di truyền có điều trị được không ạ? Cảm ơn bác sĩ đã tư vấn giúp em.\nTrả lời: Chào bạn. Với câu hỏi, tai nghe kém có chữa được không thì vấn đề tai nghe kém có thể hỗ trợ cải thiện chức năng nghe được.\nCảm ơn bạn đã tin tưởng và chia sẻ lo lắng tới AI-Doctor. Trân trọng.\nĐược giải đáp bởi Bác sĩ Bùi Thị Phương Hoa - Bác sĩ tư vấn di truyền - Trung tâm công nghệ cao AI-Doctor",
+            "score": 0.6134357452392578,
+            "id": "vietnamese_medical_qa_1898",
+            "rerank_score": 0.9874909520149231
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nTôi bị điếc từ nhỏ 1 bên, tai phải nghe không rõ âm thanh gì. Mong bác sĩ cho tôi biết có phương pháp chữa nghe kém một bên như thế nào? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nTheo bạn ghi nhận thì bạn có tình trạng nghe kém một bên tai từ nhỏ. Để cải thiện chức năng nghe của tai thì trước hết cần xác định mức độ nghe kém và nguyên nhân nghe kém (tai ngoài, tai giữa hay tai trong). Bạn sẽ được làm thêm một số xét nghiệm như đo thính lực đồ, nhĩ lượng đồ, phản xạ cơ bàn đạp, điện âm ốc tai, điện thính giác thân não, chụp MRI não để đánh giá mức độ nghe kém và nguyên nhân nghe kém. Hiện nay có rất nhiều phương pháp điều trị nghe kém, bạn có thể đến phòng khám Tai mũi họng để khám kiểm tra và tư vấn điều trị cụ thể hơn.\nTrân trọng!",
+            "score": 0.5522534251213074,
+            "id": "vietnamese_medical_qa_379",
+            "rerank_score": 0.9730344414710999
+        },
+        {
+            "text": "Câu hỏi: Có cách nào cải thiện khả năng nghe và học nói của người câm điếc bẩm sinh không?\nTrả lời: Theo bạn mô tả, em bạn có khả năng bị điếc bẩm sinh, khi bị điếc ngôn ngữ sẽ không hình thành được. Hiện tại, những trường hợp điếc bẩm sinh nên được khám tại các trung tâm thính học để được chỉ định cấy điện cực ốc tai càng sớm càng tốt để hy vọng mang lại thính lực, tuy nhiên việc cấy điện cực ốc kinh phí rất lớn và được thực hiện bởi các chuyên gia về cấy điện cực.",
+            "score": 0.5449885129928589,
+            "id": "vietnamese_healthcare_2881",
+            "rerank_score": 0.8021058440208435
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nBố em bị viêm tai giữa từ nhỏ, đã mổ 2 tai để lấy hết mủ nhưng giờ lại không nghe được. Vậy bác sĩ cho em hỏi không nghe được sau mổ viêm tai giữa phải làm sao? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBa bạn hiện đang có tình trạng nghe kém. Hiện nay, có rất nhiều phương pháp điều trị hiệu quả tình trạng nghe kém. Tuy vậy, để điều trị nghe kém hiệu quả thì cần xác định được nguyên nhân gây nên tình trạng nghe kém (từ tai ngoài, tai giữa hay tai trong) và mức độ nghe kém.\nTốt nhất, bạn nên dẫn ba đến phòng khám Tai mũi họng để khám kiểm tra và làm thêm một số cận lâm sàng để đánh giá chính xác tình trạng nghe kém như: Nội soi tai, đo thính lực đồ, nhĩ lượng đồ, chụp CT scan tai.\nTrân trọng!",
+            "score": 0.575053870677948,
+            "id": "vietnamese_medical_qa_698",
+            "rerank_score": 0.7983958125114441
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

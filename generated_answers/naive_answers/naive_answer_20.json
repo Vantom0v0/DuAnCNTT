@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tôi có người thân là nam, 44 tuổi bị bệnh bạch cầu mãn (CML) từ năm 2017, đang uống thuốc theo phác đồ của bác sĩ ở bệnh viện, sức khỏe vẫn bình thường. Người thân của tôi có thể tiêm vaccine Covid-19 được không? Nếu được tiêm thì có nguy cơ gặp các biến chứng gì hay không?",
+    "ground_truth": "Nếu trong 3 tháng gần đây, tình trạng bệnh lý CML của không tiến triển, không thay đổi phác đồ điều trị hàng ngày. Anh/Chị có thể tiêm chủng vaccine Covid-19 tại các cơ sở bệnh viện. Với vắc xin Covid-19, các phản ứng sau tiêm có thể gặp là sưng đỏ vị trí tiêm, sốt và mệt mỏi trong 2, 3 ngày sau tiêm. Ngoài ra cũng có thể gặp các phản ứng nặng hơn như phản ứng phản vệ, hội chứng đông máu, tuy nhiên tỷ lệ rất thấp. Việc xảy ra các triệu chứng sau tiêm tùy thuộc và cơ địa đáp ứng miễn dịch của từng người.",
+    "answer": "Người thân của bạn bị bạch cầu mãn tính (CML) nhưng hiện sức khỏe ổn định và đang điều trị theo phác đồ có thể được xem xét tiêm vaccine Covid-19. Tuy nhiên, bệnh bạch cầu thuộc nhóm cần thận trọng, nên người thân cần được khám sàng lọc và tiêm tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu; bác sĩ sẽ đánh giá tình trạng bệnh, sức khỏe và chỉ định theo hướng dẫn của Bộ Y tế. Tài liệu cung cấp không nêu cụ thể các biến chứng hoặc nguy cơ đặc biệt có thể gặp ở người mắc CML, vì vậy chưa có đủ thông tin để khẳng định nguy cơ cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Trước đây cháu bị bạch cầu cấp đã điều trị, đến nay hơn 10 năm. Vậy cháu có thể tiêm ngừa vaccine Covid được không?\nTrả lời: Hiện tại bạn đang bị bệnh bạch cầu cấp đã điều trị, nếu tình trạng bệnh của bạn đang trong giai đoạn ổn định thì vẫn có thể được tiêm vaccine Covid-19. Tuy nhiên bạn thuộc nhóm thận trọng khi tiêm vaccine Covid-19 vì vậy bạn cần được khám sàng lọc tại bệnh viện, bác sĩ sẽ khám đánh giá tình trạng sức khỏe của bạn, nếu sức khỏe của bạn đủ điều kiện tiêm chủng theo hướng dẫn của Bộ Y tế, bác sĩ sẽ chỉ định và tư vấn cụ thể.",
+            "score": 0.6418454647064209,
+            "id": "vietnamese_healthcare_4935"
+        },
+        {
+            "text": "Câu hỏi: Người nhà tôi 40 tuổi, bị viêm gan B mãn tính đã điều trị ổn định nhiều năm nay thì có tiêm vaccine ngừa Covid-19 được không?\nTrả lời: Người nhà anh bị viêm gan B mãn tính hiện không điều trị thuốc và bệnh ổn định nhiều năm nay vẫn có thể tiêm ngừa vaccine Covid-19 được bình thường.",
+            "score": 0.6411279439926147,
+            "id": "vietnamese_healthcare_9847"
+        },
+        {
+            "text": "Câu hỏi: Xét nghiệm máu của tôi bị hồng cầu nhỏ nhược sắt. Dì ruột, cậu ruột tôi cũng bị hồng cầu nhỏ nhược sắt. Xin cho hỏi tôi, dì tôi, cậu tôi có thể tiêm vaccine Covid-19 được không? Nếu có rủi ro gì có thể xảy ra ?\nTrả lời: Với tình trạng bệnh lý của bạn, dì và cậu của bạn vẫn tiêm vaccine phòng Covid-19. Tuy nhiên, theo hướng dẫn của Bộ Y tế, những trường hợp như bạn cần được khám sàng lọc và tiêm chủng tại tuyến bệnh viện hoặc tại các cơ sở y tế có đủ năng lực về hồi sức cấp cứu ban đầu.",
+            "score": 0.6371607184410095,
+            "id": "vietnamese_healthcare_7189"
+        },
+        {
+            "text": "Câu hỏi: Em 33 tuổi bị viêm gan B mạn tính, đã điều trị bằng thuốc kháng virus và kết quả trong 2 năm gần đây test đều âm tính. Em còn có một khối u lành tính ở lưỡi. Em xin hỏi các chuyên gia có các bệnh như vậy có thể tiêm được vaccine Covid-19 không?\nTrả lời: Trường hợp viêm gan B mạn tính của Anh/Chị nếu hiện tại virus không hoạt động, các xét nghiệm đều trong giới hạn bình thường và bác sĩ chuyên khoa điều trị kết luận không cần điều trị gì nữa, tình trạng bệnh của Anh/Chị đã ổn định thì bạn vẫn có thể tiêm vaccine Covid -19 được nhé. Còn khối u ở lưỡi, BS kết luận là lành tính và không cần điều trị gì thì Anh/Chị không chống chỉ định tiêm vắc xin Covid-19.",
+            "score": 0.6193666458129883,
+            "id": "vietnamese_healthcare_8532"
+        },
+        {
+            "text": "Câu hỏi: Tôi là nam giới 50 tuổi, hiện tại tôi vừa hoàn thành việc uống thuốc điều trị lao tiềm ẩn với thời gian là 9 tháng (tôi nuôi mẹ bệnh lao và được xác định là lao tiềm ẩn). Vậy trường hợp của tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Sau khi điều trị bệnh lao của anh/chị đã được bác sĩ kết luận là khỏi/ổn định thì có thể tiêm vaccine Covid-19.",
+            "score": 0.6133167743682861,
+            "id": "vietnamese_healthcare_571"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

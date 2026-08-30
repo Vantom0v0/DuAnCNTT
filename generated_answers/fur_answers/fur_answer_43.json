@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Cần làm gì khi họng sờ thấy cục vướng và đau?",
+    "ground_truth": "Đau họng, vướng họng là tình trạng bệnh thường gặp, tuy nhiên nếu bạn thấy có cục cứng trong họng bạn nên đi nội soi Tai - Mũi - Họng để biết được nguyên nhân chính xác nhé.",
+    "answer": "Khi họng có cảm giác vướng, đau và sờ thấy cục cứng, bạn nên:\n\n- **Đi khám chuyên khoa Tai–Mũi–Họng và nội soi** để xác định nguyên nhân chính xác.\n- Nếu triệu chứng **kéo dài**, hoặc kèm nuốt vướng, đau đầu, ù tai một bên, cần được kiểm tra vùng họng, vòm họng và tai giữa; bác sĩ có thể chỉ định thêm xét nghiệm khi cần.\n- Trong thời gian chờ khám, có thể **vệ sinh họng miệng bằng nước muối sinh lý và uống đủ nước**.\n\nCảm giác vướng họng có thể liên quan đến viêm họng mạn, viêm amidan, trào ngược, bệnh tuyến giáp, viêm xoang sau hoặc loạn cảm họng; tuy nhiên **không thể xác định chỉ dựa vào triệu chứng**.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi, tôi bị đau họng, vướng họng như có đờm mà khạc không ra và đau họng bên phải, sờ vào thấy cứng là bị làm sao? Mong bác sĩ tư vấn. Cảm ơn bác sĩ!\nTrả lời: Chào bạn. Đau họng, vướng họng là tình trạng bệnh thường gặp, tuy nhiên nếu bạn thấy có cục cứng trong họng bạn nên đi nội soi Tai - Mũi - Họng để biết được nguyên nhân chính xác nhé.",
+            "score": 0.6154565811157227,
+            "id": "vietnamese_medical_qa_4198",
+            "rerank_score": 0.9321619868278503
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nTôi bị đau họng lâu rồi không khỏi, bây giờ nó có cảm giác vướng mắc cổ họng như có gai đâm á và còn cảm thấy nuốt nước bọt nghẹn cổ, ăn uống thấy bình thường không đau, xin hỏi bác sĩ nuốt vướng kèm đau họng dấu hiệu bệnh gì? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nCảm giác vướng vùng cổ, nghẹn vùng cổ khi nuốt nước bọt, ăn uống bình thường gợi ý tình trạng loạn cảm họng (dị cảm vùng họng). Tuy vậy, nếu bạn gặp tình trạng trên kéo dài thì bạn nên đến phòng khám Tai mũi họng để nội soi và làm thêm một số xét nghiệm để tầm soát các bệnh lý khác gây cảm giác vướng vùng cổ, đồng thời xác định nguyên nhân gây loạn cảm họng để điều trị hiệu quả tình trạng trên.\nTrân trọng!",
+            "score": 0.6919236183166504,
+            "id": "vietnamese_medical_qa_374",
+            "rerank_score": 0.7214290499687195
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Tôi bị nuốt vướng kèm theo đau họng, ho và viêm họng. Tôi uống thuốc kháng sinh thì thấy khỏi ho nhưng khi sờ yết hầu thì thấy gồ lên, lúc nói thấy bị lặp lại từ ngữ, hầu như nói lắp. Bác sĩ cho tôi hỏi đó có phải dấu hiệu của ung thư vòm họng không ạ? Mong bác sĩ tư vấn giúp tôi. Tôi xin cảm ơn.\nTrả lời: Chào bạn!\nTheo như triệu chứng bạn mô tả thì bạn có triệu chứng nuốt vướng. Nuốt vướng chỉ là một triệu chứng của Ung thư hạ họng - thanh quản. Nuốt vướng cũng là triệu chứng có thể gặp trong bệnh viêm họng,...\nĐể xác định xem có bị ung thư hay không thì bạn nên đi khám chuyên khoa Tai - Mũi - Họng, thực hiện nội soi và đánh giá bệnh lý.",
+            "score": 0.6390411257743835,
+            "id": "vietnamese_medical_qa_4484",
+            "rerank_score": 0.5262550115585327
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Mấy hôm nay cổ họng em có biểu hiện vướng cục ở cổ khi nuốt, ngồi, nằm điều có cảm giác khó chịu như cục gì bên trong. Em không đau nhưng làm cho em mệt mỏi và nóng trong người. Bác sĩ cho em hỏi với tình trạng cổ họng vướng khi nuốt, người mệt mỏi kèm nóng trong là dấu hiệu bệnh gì?\nTrả lời: Chào bạn. Cảm ơn bạn đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Với trường hợp của bạn nếu vẫn ăn, nuốt được bình thường thì không đáng ngại. Nhưng bạn nên đến bác sĩ chuyên khoa để được kiểm tra và có những tư vấn chuyên sâu về tình trạng cổ họng vướng khi nuốt, người mệt mỏi kèm nóng trong là dấu hiệu bệnh gì?",
+            "score": 0.668287992477417,
+            "id": "vietnamese_medical_qa_3426",
+            "rerank_score": 0.4306679964065552
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nNăm nay con 19 tuổi, con phát hiện ở cổ họng con có cái gì đó nó vướng vướng không khạc ra được. Buổi sáng ngủ dậy còn có đờm, một bên tai ù đến nhức, đầu cứ đau âm ỉ không dứt. Tình trạng này của con cũng lâu lắm rồi. Vậy bác sĩ cho con hỏi ù tai, nuốt vướng liên tục là bệnh gì? Con cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNuốt vướng ở cổ họng thường còn gọi là loạn cảm họng. Đa số không có nguyên nhân rõ ràng. Một số nguyên nhân có thể nghĩ đến như viêm họng mạn, viêm amidan, hội chứng trào ngược, bệnh lý tuyến giáp, viêm xoang sau, stress. Đa số không nguy hiểm.\nNếu bạn kèm theo đau đầu, ù tai một bên thì cần phải nội soi tai mũi họng kiểm tra hệ thống vùng vòm họng, tai giữa. Trong giai đoạn dịch, bạn nên vệ sinh họng miệng hàng ngày bằng nước muối sinh lý, tập thể dục đều đặn, uống nhiều nước trong ngày. Bạn không nên quá lo lắng.\nTrân trọng!",
+            "score": 0.6132077574729919,
+            "id": "vietnamese_medical_qa_4956",
+            "rerank_score": 0.40207958221435547
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

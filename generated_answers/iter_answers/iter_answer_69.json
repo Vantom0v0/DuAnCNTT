@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Em bị huyết trắng, trước thì bị ngứa rồi có mùi khắm, bây giờ thì chỉ có dịch trắng chứ không còn ngứa hay hôi nữa ạ. Mong bác sĩ cho em lời khuyên em phải làm thế nào với ạ!",
+    "ground_truth": "Chào bạn! Có rất nhiều nguyên nhân gây ra huyết trắng có tính chất bệnh lý, gọi là khí hư, đa số đều do viêm nhiễm. Vì vậy, khi thấy khí hư thay đổi như có mùi hôi, màu sắc, số lượng bất thường cần được kiểm tra và điều trị kịp thời, bởi đây là một căn bệnh khá nguy hiểm, nếu không được điều trị kịp thời sẽ gây ra nhiều biến chứng khác như viêm tử cung, lậu, chlamydia, vô sinh...",
+    "answer": "Huyết trắng trong, trắng đục hoặc trắng sữa, không mùi và không gây ngứa có thể là dịch sinh lý, thường tăng quanh thời điểm rụng trứng hoặc sau quan hệ. Tuy nhiên, trước đây bạn từng ngứa và có mùi khắm nên vẫn có khả năng đã hoặc đang bị viêm âm đạo/nhiễm nấm hay tác nhân khác; việc hết ngứa, hết mùi không đủ để khẳng định đã khỏi. Bạn nên theo dõi, vệ sinh vùng kín hằng ngày bằng nước sạch hoặc dung dịch dịu nhẹ, giữ vùng kín khô thoáng, thay quần lót mỗi ngày, không thụt rửa âm đạo và không tự mua thuốc đặt/uống. Nếu dịch tiếp tục ra nhiều, đổi màu, có mùi, ngứa rát, đau bụng dưới, đau khi tiểu/quan hệ hoặc tái phát, hãy khám phụ khoa để xét nghiệm dịch và điều trị đúng nguyên nhân; nên quan hệ tình dục an toàn trong thời gian này.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Dạo gần đây thỉnh thoảng em bị đau bụng dưới, đi nhẹ hay đi nặng đều đau, đi nặng thì lúc nào cũng có máu. Vùng kín của em luôn ngứa ngáy, tiết nhiều dịch ẩm ướt, có mùi khó chịu, huyết trắng màu trắng sữa, có chút xanh. Bác sĩ cho em hỏi em bị làm sao ạ? Mong bác sĩ tư vấn, em xin cảm ơn.\nTrả lời: Chào bạn, qua những thông tin bạn chia sẻ chắc chắn bạn đang gặp vấn đề về phụ khoa. Điển hình nhất là xuất hiện huyết trắng vùng kín. Người xuất hiện huyết trắng thường gặp phải các biểu hiện như: lượng huyết trắng tiết ra nhiều, có màu sắc bất thường như xanh, vàng, trắng đục, có mùi hôi khó chịu. Cảm giác ngứa, bỏng rát âm đạo. Đau rát khi quan hệ hoặc khi đi tiểu tiện. Đau âm ỉ vùng bụng dưới.\nĐể phòng tránh tình trạng huyết trắng, chị em nên chú ý những việc sau:\nVệ sinh vùng kín sạch sẽ.\nThay quần lót mỗi ngày.\nHạn chế thụt rửa âm đạo thường xuyên.\nQuan hệ tình dục an toàn.\nTốt nhất bạn cần đi khám phụ khoa để bác sĩ kiểm tra, xác định nguyên nhân và có hướng điều trị chuyên sâu. Tránh để lâu sẽ khiến bản thân mất tự tin và ảnh hưởng cuộc sống.",
+            "score": 0.7770318984985352,
+            "id": "vietnamese_medical_qa_2974"
+        },
+        {
+            "text": "Câu hỏi: Em hay bị ngứa và chảy huyết trắng nhiều, cần bác sĩ tư vấn.\nTrả lời: Huyết trắng hay khí hư là dịch tiết ở âm đạo giúp giữ ẩm vùng kín và ngăn ngừa viêm nhiễm. Huyết trắng sinh lý không gây ngứa, có thể tiết nhiều hơn vào thời điểm rụng trứng hoặc quan hệ tình dục.\nTheo đó, phụ nữ bị ra nhiều huyết trắng và ngứa vùng kín là đang mắc phải huyết trắng bệnh lý. Các bệnh liên quan như: nhiễm nấm âm đạo, viêm âm đạo, viêm lộ tuyến cổ tử cung,...Bạn cần đi khám với bác sĩ phụ khoa để chẩn đoán chỉnh xác nhé!",
+            "score": 0.7701107859611511,
+            "id": "vietnamese_medical_qa_4968"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nE nam nay 25t,e chua co gia đìh,e thay dạo này huyet trắg e ra nhiều và đặc có màu vàg nhạt,ko hôi,ko ngứa,vay e có bị sao ko bác sĩ,tư vấn giúp e.e cảm ơn ạ.\nTrả lời: Chào em!\nHuyết trắng là dịch được tiết ra từ âm đạo mà không phải là máu. Tình trạng này có thể là sinh lí bình thường như trong chu kì kinh nguyệt thì xung quanh ngày rụng trứng huyết trắng có thể được tiết ra nhiều hơn, tình trạng này không kèm theo các biểu hiện khó chịu như viêm đỏ ngứa rát âm hộ âm đạo hay huyết trắng có mùi hôi.\nNếu có kèm theo bệnh lí thì thường có triệu chứng như vừa kể!\nNhư vậy tình trạng của em chỉ cần theo dõi tại nhà, vệ sinh sạch sẽ vùng cơ quan sinh dục mỗi ngày bằng nước sạch hoặc dung dịch vệ sinh thông thường của nữ là được!\nThân.",
+            "score": 0.7664671540260315,
+            "id": "vietnamese_medical_qa_9113"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nE bị ngứa âm đạo có có dịch trắng bám ngay ở ngoài. Nó rất khó ra.vậy uống metridazol được k ạ.có tác dụng phụ gì không ạ\nTrả lời: Chào bạn, \nTình trạng của bạn có thể bạn đã bị nhiễm nấm gây ngứa và có dịch trắng vón cục như vậy, không biết bạn dịch trắng có kèm theo mùi hôi, tanh khó chịu không? cũng có thể bạn bị nhiễm bệnh lây qua đường tình dục nếu đã quan hệ tình dục.\nTốt nhất bạn nên đi khám để bác sỹ có chuẩn đoán chính xác và chỉ định điều trị phù hợp mức độ bệnh. \nNgoài ra trong vệ sinh hàng ngày cần giữ gìn sạch sẽ, không nên mặc đồ lót quá chật.\nThân mến!",
+            "score": 0.7655019760131836,
+            "id": "vietnamese_medical_qa_8683"
+        },
+        {
+            "text": "Câu hỏi: Hiện tại, em bị ngứa âm đạo phía bên ngoài mấy tháng nay. Dịch âm đạo có màu trắng và có mùi. Những ngày có kinh thì không bị ngứa. Vậy bác sĩ cho em hỏingứa âm đạo kèm dịch âm đạo trắng có nguy hiểm không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng bạn mô tả là dấu hiệu của viêm âm đạo. Bạn nên đi khám tại cơ sở chuyên khoa phụ khoa, các bác sĩ sẽ xét nghiệm dịch âm đạo của bạn để tìm ra cụ thể nguyên nhân gây viêm âm đạo, từ đó có phương pháp điều trị hiệu quả cho bạn, tránh tái phát gây nhiều nguy cơ ảnh hưởng đến sức khỏe sinh sản.",
+            "score": 0.7594643831253052,
+            "id": "medical_vietnamese_qa_1495"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

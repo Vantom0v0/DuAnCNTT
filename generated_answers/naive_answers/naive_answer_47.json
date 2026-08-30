@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Đau bụng, táo bón là do rối loạn tiêu hoá hay đau dạ dày? Điều trị thế nào?",
+    "ground_truth": "Có thể em mắc chứng Hội chứng ruột kích thích, tuy nhiên dữ liệu chưa đầy đủ. Em nên đi khám và làm nội soi đường tiêu hóa để phát hiện, loại trừ và điều trị những tổn thương thực thể ở đường ruột nhé. Sau đó bác sĩ sẽ có kế hoạch điều chỉnh lại hoạt động chức năng đường tiêu hóa cho em.",
+    "answer": "Đau bụng kèm táo bón có thể liên quan đến táo bón, rối loạn đại tiện hoặc hội chứng ruột kích thích; riêng đau vùng trên rốn chếch trái khi đói hoặc sau ăn chưa đủ thông tin để khẳng định là đau dạ dày. Hội chứng ruột kích thích thường gây đau hoặc khó chịu bụng, thay đổi giữa táo bón và tiêu chảy, đầy chướng và cảm giác đi ngoài chưa hết; tuy nhiên cần bác sĩ thăm khám và có thể nội soi để loại trừ bệnh thực thể. Điều trị chủ yếu gồm chế độ ăn đủ chất xơ, tránh bia rượu, chất kích thích, gia vị quá nhiều và nước ngọt có gas; vận động thường xuyên, tập thói quen đi đại tiện mỗi ngày, không ngồi lâu và xoa bụng hằng ngày. Vì triệu chứng kéo dài hoặc tái diễn, bạn nên khám chuyên khoa Tiêu hóa để được chẩn đoán và điều trị chính xác; tài liệu không cung cấp phác đồ thuốc cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bé biếng ăn, đại tiện phân lỏng kèm táo bón và đau bụng là bị sao?\nTrả lời: Bé những ngày trước đại tiện như thế nào?Hiện tại như gia đình mô tả bé đại tiện phân lỏng kèm táo bón, vậy bản chất là bé bị táo bón, sẽ gây đau bụng, khó đi, có thể gây bán tắc ruột, viêm ruột.",
+            "score": 0.5625132918357849,
+            "id": "vietnamese_healthcare_710"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sỹ,\nEm là nữ 22 tuổi.\nTrong lúc đại tiện em bị cảm giác đau thắt vùng bụng dưới.\nXin bác sỹ vui lòng tư vấn giúp em.\nCám ơn bác sỹ rất nhiều\nTrả lời: Chào em,\nXin cho hỏi thêm là khi đại tiện có bị táo bón không? mấy ngày e mới đai tiện 1 lần. Nếu bị táo bón hoặc bị trỉ khi đại tiện e sẽ đau thắt vùng bụng dưới.\nCòn nếu đại tiện bình thường không bị bón, chỉ đau khi đại tiện rồi sau khi đi được không đau nữa thì là bình thường, nếu cơn đau không nhiều.\ncòn trường hợp đau đã lâu, kéo dài, kèm khó đại tiện lâu ngày, tốt nhất nên đi khám để kiểm tra em nhê.\nChào thân ái",
+            "score": 0.5327466130256653,
+            "id": "vietnamese_medical_qa_6112"
+        },
+        {
+            "text": "Câu hỏi: Cháu bị rối loạn đại tiện, lúc táo bón lúc tiêu chảy. Cháu bị đi ngoài ngày chục lần. Xin hỏi bác sĩnguyên nhân gây rối loạn đại tiện là gìvà điều trị như thế nào? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Nguyên nhân gây rối loạn đại tiện là gì?”, bác sĩ giải đáp như sau: Trước hết phải nói là có rất nhiều nguyên nhân gây rối loạn đại tiện, chẳng hạn như viêm đại tràng, u đại tràng. Nguyên nhân thường gặp nhất có thể kể đến là hội chứng ruột kích thích. Đây là một bệnh lành tính nhưng kéo dài. Việc điều trị cần phối hợp nhiều yếu tố như thuốc, chế độ ăn, chế độ sinh hoạt. Tuy nhiên để có được chẩn đoán và điều trị chính xác, bạn nên đến bệnh viện có chuyên khoa Tiêu hóa để được bác sĩ tư vấn cụ thể và làm thêm những xét nghiệm cần thiết như nội soi đại tràng.",
+            "score": 0.513888955116272,
+            "id": "medical_vietnamese_qa_10594"
+        },
+        {
+            "text": "Câu hỏi: Cách đây vài năm, em hay bị táo bón liên tục mặc dù em ăn rất nhiều rau nhưng thời điểm gần đây em lại bị tiêu chảy, đau bụng xen kẽ với táo bón, mặc dù thức ăn em ăn thì đảm bảo. Trước em đau ở bên trái dưới rốn còn bây giờ em hay bị đau bụng khi ăn xong hoặc khi đói, đau ở trên rốn chếch trái. Em ăn rất lâu, ngủ muộn với hay ngồi xổm. Vậy bác sĩ cho em hỏiđau bụng, táo bón là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ. Trần Mạnh Hùng(2002) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Đồng Xuân Hà- Khoa khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Những triệu chứng của bạn là do hội chứng ruột kích thích. Đây là bệnh lý thường gặp, tỷ lệ mắc tùy vào từng vùng, lứa tuổi,... Bệnh thường biểu hiện bằng những triệu chứng điển hình sau: Đau hoặc khó chịu ở bụng, không nhất thiết phải liên tục, kéo dài tổng thời gian trên 12 tháng, thường giảm đi sau khi đi đại tiện. Thay đổi hình dạng khuôn phân, thể táo hoặc thể lỏng chiếm ưu thế hoặc hỗn hợp táo lỏng thất thường, phân có thể có nhầy, bọt nhưng không bao giờ có máu (ngoại trừ táo bón do tác động cơ học vùng hậu môn khi đi đại tiện). Thay đổi số lần đi đại tiện nhiều hơn 03 lần/ngày hoặc mấy ngày mới đại tiện một lần. Ngoài ra, có thể có các triệu chứng khác kèm theo như đầy chướng bụng, cảm giác khó chịu, đại tiện không hết phân. Tuy nhiên, chỉ được chẩn đoán là hội chứng ruột kích thích khi có những triệu chứng như trên và được thăm khám một cách kỹ lưỡng loại trừ những bệnh lý có tổn thương thực thể bởi một bác sĩ chuyên khoa có kinh nghiệm, các xét nghiệm đặc biệt là nội soi tiêu hóa. Điều trị hội chứng ruột kích thích là một vấn đề không khó tuy nhiên, lại rất cần đến sự kiên trì, kiên định của bệnh nhân vì: Hiện nay, chưa có thuốc điều trị đặc hiệu, thuốc chỉ dùng để điều trị triệu chứng. Chế độ ăn uống: Điều này rất quan trọng. Khẩu phần ăn hợp lý phải có đầy đủ đạm, mỡ đường, vitamin, chất khoáng và đặc biệt là chất xơ. Không dùng các chất kích thích, bia rượu, gia vị quá nhiều, nước ngọt có gas,... Chế độ luyện tập: Cần phải kiên trì, thường xuyên vận động, tập thể dục thể thao, luyện thói quen đi đại tiện một lần/ngày, không ngồi lâu, xoa bụng hàng ngày,.. Bạn nên đi khám lại một cách toàn diện để bác sĩ chẩn đoán bệnh chính xác và có kế hoạch điều trị.",
+            "score": 0.5104596614837646,
+            "id": "medical_vietnamese_qa_11060"
+        },
+        {
+            "text": "Câu hỏi: Chế độ ăn cho người đau bụng kinh\nTrả lời: 2. Chế độ ăn cho người đau bụng kinh\n2.2. Bị đau bụng kinh không nên ăn và uống gì? Ngoài việc sử dụng các loại thực phẩm hỗ trợ giảm đau bụng khi hành kinh, phụ nữ cũng cần tránh hay hạn chế sử dụng các loại thực phẩm dưới đây để tránh nguy cơ ảnh hưởng xấu lên những ngày “đèn đỏ” 2.",
+            "score": 0.5022996664047241,
+            "id": "vietnamese_healthcare_161980"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

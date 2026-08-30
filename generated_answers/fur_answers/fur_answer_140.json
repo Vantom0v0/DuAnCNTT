@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Em 32 tuổi. Gần đây em có triệu chứng đau ngực trái, thi thoảng bị nhói ngay dưới vùng ngực, khi cố gắng hít sâu 1 chút thì bị nhói hơn, chỉ dám hít thở ngắn. Thường cơn đau nhói chỉ kéo dài 5-10 phút. Bác sĩ cho em hỏiđau nhói ngực trái là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Đỗ Phương Huy(1990) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I, Bác sĩ nội trú Lê Đức Hiệp- Bác sĩ Nội và Can thiệp tim mạch - Trung Tâm Tim Mạch - Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bạn năm nay 32 tuổi có triệu chứng đau nhói vùng ngực trái, tăng khi hít thở sâu. Đau nhói ngực như bạn mô tả có thể do rất nhiều nguyên nhân: Hệ tim mạch, hệ hô hấp, hệ thần kinh-cơ, bệnh lý dạ dày,... Nguy cơ bệnh tim mạch tăng dần theo tuổi, nhưng hiện nay ngày càng có xu hướng trẻ hóa. Để khẳng định chẩn đoán và tư vấn được thêm cho bạn, cần khai thác thêm các yếu tố: Hút thuốc lá, tiền sử gia đình mắc các bệnh tim mạch, tình trạng rối loạn lipid máu,... và các xét nghiệm, thăm dò của chuyên khoa tim mạch để khẳng định chẩn đoán. Nếu mức độ đau nhiều, thường xuyên, bạn nên dành thời gian để đi khám để kiểm tra tổng quát về tình trạng sức khỏe tim mạch của bạn và tìm ra nguyên nhân đau ngực.",
+    "answer": "Đau nhói ngực trái tăng khi hít sâu, kéo dài khoảng 5–10 phút **không phải là triệu chứng điển hình của bệnh tim mạch**, nhưng không thể kết luận nguyên nhân chỉ dựa vào mô tả. Đau ngực có thể liên quan đến nhiều vấn đề như tim mạch, phổi, tiêu hóa hoặc cơ–sụn–xương vùng ngực.\n\nBạn nên đi khám để được đánh giá, có thể cần **điện tim, siêu âm Doppler tim và chụp X-quang phổi** theo chỉ định bác sĩ. Nếu cơn đau kéo dài khoảng **30 phút mà không thuyên giảm**, cần đến ngay cơ sở y tế.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Thưa bác sĩ, thỉnh thoảng cách 1, 2 tháng em lại bị đau nhói và khó thở bên ngực trái, thường thì cơn đau kéo dài 5-10 phút, nếu thở nhẹ nhẹ thì không đau lắm. Bác sĩ cho em hỏi,thỉnh thoảng đau nhói và khó thở ở ngực trái có phải bệnhtim mạch khôngạ? Cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Thỉnh thoảng đau nhói và khó thở ở ngực trái có phải bệnh tim mạch không?” như sau: Theo triệu chứng mà bạn mô tả, đau ngực kiểu đau nhói, cơn đau kéo dài 5-10 phút, khi nhở nhẹ thì triệu chứng có thuyên giảm. Triệu chứng đau ngực thi thoảng xuất hiện (1-2 tháng bị một lần). Với các thông tin mà bạn cung cấp, sẽ rất khó để bác sĩ có thể kết luận chắc chắn triệu chứng trên có liên quan đến tim mạch hay không, mặc dù về mặt triệu chứng mô tả, triệu chứng của bạn không gợi ý tới nguyên nhân tim mạch. Trân trọng ! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ Lê Đức Hiệp -Bác sĩ Nội và Can thiệp Tim mạch - Trung Tâm Tim Mạch, Bệnh viện Đa khoa quốc tế Vinmec Times City",
+            "score": 0.7598323822021484,
+            "id": "medical_vietnamese_qa_11994",
+            "rerank_score": 0.999177873134613
+        },
+        {
+            "text": "Câu hỏi: Con hay bị tức bên ngực trái, khó thở, vận động đều cảm thấy đau, tức ngực trái. Mọi hoạt động đều gây đến việc đau tức ngực. Vậy bác sĩ cho em hỏiđau tức ngực trái kèm khó thở có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Chứng đau ngực trái thực chất không phải là một bệnh mà có thể là triệu chứng của nhiều bệnh lý khác nhau, có thể kể đến: Đau nhói ngực trái có thể liên quan đến bệnh tim mạch. Cụ thể là một số bệnh lý như viêm màng ngoài tim, phình tách động mạch chủ, bệnh van tim, mạch vành, thiếu máu cơ tim,... đều có triệu chứng đau nhói ngực trái từ ban đầu. Cơn đau thường xuất hiện ở vị trí sau xương ức rồi lan qua trái hoặc cả 2 bên ngực, đôi khi có thể lan đến các bộ phận trên cơ thể như tay, chân,... khi vận động mạnh, gây mất sức. Nếu nhận thấy dấu hiệu đau ngực trái kéo dài khoảng 30 phút nhưng không có dấu hiệu thuyên giảm thì bạn cần lưu ý và đến ngay các cơ sở y tế để thăm khám. Triệu chứng đau ngực trái cảnh báo bệnh đường tiêu hóa. Chứng đau ngực trái liên quan đến viêm cơ sụn, xương ở vùng ngực. Chứng đau ngực trái liên quan bệnh lý về phổi.",
+            "score": 0.72210693359375,
+            "id": "medical_vietnamese_qa_11648",
+            "rerank_score": 0.9990662932395935
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Em bị đau nhói ở vùng ngực trái, khoảng 2-3 phút nhói 1 cái. người mệt mỏi. Không biết là triệu chứng của vấn đề gì?\nTrả lời: chào bạn,\ntrong thời gian ngắn 2-3 phút đau 1 cái, vậy tần suất cũng lớn, khuyên bạn nên đi khám tim mạch để siêu âm doppler tim và đo điện tim, có thể chụp X-quang phổi để đánh giá tình trạng hoạt động của tim bạn như thế nào nhé. Với tuổi bạn trẻ thì ít nghĩ tới bệnh lý nguy hiểm, có thể là rối loạn thần kinh tim. Để yên tâm thì nên đi kiểm tra bạn nhé.\nThân ái !",
+            "score": 0.7655054330825806,
+            "id": "vietnamese_medical_qa_6067",
+            "rerank_score": 0.9980506896972656
+        },
+        {
+            "text": "Câu hỏi: Cháu thường xuyên cảm thấy hơi khó thở. Thỉnh thoảng, cháu lại cảm thấy đau nhói khiến khó thở ở phần dưới ngực bên trái. Cơn đau khiến cháu không ngủ được và cơ thể bị yếu dần. Bác sĩ cho cháu hỏithường xuyên khó thở, đau nhói dưới ngực bên trái là bệnh gì?Cháu cảm ơn bác sĩ. Lương An Th(2005) Trả lời Được giải đáp bởiThS.BS Trần Hồng Nhật -Bác sĩ Tim mạch can thiệp, Trung tâm Tim mạch - Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Cảm giác nhói ngực trái kèm khó thở thường không phải là triệu chứng điển hình của bệnh lý tim mạch. Để có đánh giá chính xác, bạn nên đi khám để bác sĩ kiểm tra thêm cho bạn và có hướng điều trị thích hợp.",
+            "score": 0.7501376867294312,
+            "id": "medical_vietnamese_qa_11940",
+            "rerank_score": 0.9968441724777222
+        },
+        {
+            "text": "Câu hỏi: Tôi có tiền sử mỡ máu cao. Tôi đang uống thuốc, ăn kiêng, mỡ máu đã giảm nhiều. Tôi có bị tăng huyết áp từ 2014. Gần đây, tôi thấy hơi đau ở ngực trái, thỉnh thoảng có nhói lên khoảng 3-5 giây. xin hỏi bác sĩđau tức ngực trái là dấu hiệu của bệnh gì? Vào gần đây tháng 5/2021, tôi có siêu âm tim kết quả bị hở van 3 lá 2/4, vậy có sao không? Lê Văn Tiến(1975) Trả lời Được giải đáp bởiPhó Giáo sư, Tiến sĩ, Bác sĩ chuyên khoa II Chu Hoàng Vân -Trưởng đơn nguyên Khám bệnh - Khoa khám bệnh Ngoại trú - Khoa Khám bệnh - Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn có tiền sử bệnh tăng huyết áp, đang điều trị tăng mỡ máu, hiện tức ngực trái, những triệu chứng này có liên quan đến nhau. Trước mắt, bạn nên làm điện tim đồ xem có tình trạng thiếu máu cơ tim hoặc loạn nhịp tim hay không. Kết quả kiểm tra sẽ giúp bác sĩ chẩn đoán chính xác bệnh và tư vấn điều trị cho bạn. Còn hở van 3 lá 2/4 trên siêu âm thì có thể không gây đau ngực như bạn mô tả.",
+            "score": 0.7345324754714966,
+            "id": "medical_vietnamese_qa_11925",
+            "rerank_score": 0.9961100220680237
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

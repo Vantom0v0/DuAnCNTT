@@ -1,0 +1,86 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Cứng hàm trái khi đang mọc răng khôn là do đâu?",
+    "ground_truth": "Để đánh giá xem em có bị khớp hàm, đau vì mọc răng khôn hay nguyên nhân gì khác thì tốt nhất em nên đến khám tại khoa Răng - Hàm - Mặt để bác sĩ thực hiện các chỉ định chụp phim, siêu âm. . . thì mới có thể chẩn đoán chính xác tình trạng cứng hàm trái khi đang mọc răng khôn cho em.",
+    "answer": "Cứng hàm trái khi mọc răng khôn có thể do răng mọc lệch, bị kẹt hoặc mọc không hoàn toàn vì không đủ chỗ, dẫn đến viêm lợi, viêm quanh răng và gây sưng đau, khó há miệng. Việc thức ăn và vi khuẩn mắc kẹt do khó vệ sinh có thể làm tình trạng viêm tái phát. Bạn nên đến khám chuyên khoa răng hàm mặt để được chụp X-quang và đánh giá tình trạng răng, từ đó bác sĩ quyết định hướng điều trị hoặc có cần nhổ răng hay không.",
+    "evidence": [
+        "Các vấn đề về răng khôn dẫn đến: Đau, sưng hoặc cứng hàm U nang phát triển xung quanh răng bị ảnh hưởng, làm hỏng chân răng và phá hủy xương Sâu răng bắt nguồn từ thức ăn bị mắc kẹt Bệnh nướu răng vì khó làm sạch kẽ răng (nướu sưng, mềm hay bị chảy máu) Nhiễm trùng khi vi khuẩn có thể xâm nhập vào nướu gây hôi miệng Khó mở miệng hoặc nhai.",
+        "Răng khôn thường bị mọc ngầm, có nghĩa là chúng không thể mọc bình thường như những chiếc răng khác trong khoang miệng.",
+        "Nguyên nhân là do chúng mọc sau cùng khi các răng khác đã mọc không còn đủ chỗ trong khoang miệng, việc thiếu khoảng trống này có thể dẫn đến việc răng mọc lệch, bị kẹt hoặc mọc không hoàn toàn.",
+        "Khi cơ thể có viêm nhiễm thì hệ miễn dịch sẽ hoạt động mạnh hơn và nổi hạch là một trong những biểu hiện.",
+        "Bạn không nên lo lắng, việc cần làm là đến khám chuyên khoa răng hàm mặt.",
+        "Câu hỏi: Răng khôn hàm bên trái của em mọc nếu em vệ sinh răng miệng cẩn thận thì không sao nhưng nếu em không đánh răng buổi tối trước khi đi ngủ thì nó sẽ viêm lên và rất đau khó há miệng được, có thể đau nhức buốt lên một bên đầu ( cảm giác như buốt dây thần kinh nào bên đó ) nếu em vệ sinh kỹ thì sau vài ngày sẽ hết đau và viêm rồi bình thường lại.",
+        "Hình như cả 2 bên hàm em đều sờ thấy có răng khôn nhưng chỉ 1 bên trái là hay bị viêm đau lên nếu vệ sinh ko kĩ thôi còn 1 bên ko bị bao giờ\nTrả lời: chào bạn: do răng khôn của bạn có thẻ mọc lệch hay nguyên nhân gì lên rất dễ gây viêm lợi!",
+        "và viêm cuống răng!",
+        "bạn cần đi khám bác sĩ chụp XQ răng xem tình trạng răng có phải nhổ không nhé!",
+        "Trả lời: Sưng đau hàm do mọc răng khôn thì bạn nên đến bệnh viện khám, xét nghiệm, chụp phim, bácsĩ sẽ kê đơn thuốc cho bạn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Em bị xơ vú và đã làm tiểu phẫu cắt bỏ được gần 1 tháng. Sau khi làm tiểu phẫu xong thì em thấy hiện tượng cứng hàm trái, có cảm giác đau gần tai, sờ tay thấy có 1 khối u nhỏ dưới 1cm di động và đang mọc răng khôn hàm trái dưới. Em đọc thông tin thấy có thể bị khớp hàm hoặc do đau vì mọc răng khôn. Bác sĩ có thể chẩn đoán tình trạng cứng hàm trái khi đang mọc răng khôn cho em được không ạ?\nTrả lời: Cảm ơn em đã tin tưởng AI-Doctor. Rất mong có thể gặp em để tư vấn cụ thể hơn!",
+                "score": 0.7148982882499695,
+                "id": "vietnamese_medical_qa_2443",
+                "rerank_score": 0.9905921816825867
+            },
+            {
+                "text": "Câu hỏi: Sưng đau hàm do mọc răng khôn phải làm sao?\nTrả lời: Sưng đau hàm do mọc răng khôn thì bạn nên đến bệnh viện khám, xét nghiệm, chụp phim, bácsĩ sẽ kê đơn thuốc cho bạn. Sau đó bạn có thể nhổ răng khôn cho dứt hẳn.",
+                "score": 0.5925917625427246,
+                "id": "vietnamese_healthcare_5264",
+                "rerank_score": 0.6754512190818787
+            },
+            {
+                "text": "Câu hỏi: Răng khôn là gì? Và cách chúng gây khó chịu cho bạn\nTrả lời: 1. Răng khôn là gì? Và cách chúng gây khó chịu cho bạn\nBản chất răng khôn là chiếc răng hàm số 8, mọc sau cùng vào độ tuổi trưởng thành. Có 4 chiếc răng khôn ở góc hàm trong cùng cả ở bên trên và bên dưới của cung răng. Răng khôn thường bị mọc ngầm, có nghĩa là chúng không thể mọc bình thường như những chiếc răng khác trong khoang miệng. Nguyên nhân là do chúng mọc sau cùng khi các răng khác đã mọc không còn đủ chỗ trong khoang miệng, việc thiếu khoảng trống này có thể dẫn đến việc răng mọc lệch, bị kẹt hoặc mọc không hoàn toàn. Đôi khi chúng lại có quá nhiều chân răng hay phát triển biến tướng. Ước tính khoảng 70 phần trăm mọi người có ít nhất một chiếc răng khôn bị ảnh hưởng. Các vấn đề về răng khôn dẫn đến: Đau, sưng hoặc cứng hàm U nang phát triển xung quanh răng bị ảnh hưởng, làm hỏng chân răng và phá hủy xương Sâu răng bắt nguồn từ thức ăn bị mắc kẹt Bệnh nướu răng vì khó làm sạch kẽ răng (nướu sưng, mềm hay bị chảy máu) Nhiễm trùng khi vi khuẩn có thể xâm nhập vào nướu gây hôi miệng Khó mở miệng hoặc nhai. Đối với nhiều người, nhổ bỏ răng khôn có thể là lựa chọn tốt nhất, chủ yếu là do các vấn đề có thể bùng phát sau đó. Nhưng tốt hơn hết bạn nên khám nha khoa để có được lời khuyên và phương pháp điều trị tốt nhất.",
+                "score": 0.560518205165863,
+                "id": "vietnamese_healthcare_9917",
+                "rerank_score": 0.6240429878234863
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị mọc răng khôn bên trái ạ, hôm qua thì có hơi sưng và đau nướu, sáng nay em dậy thì thấy dưới cằm trái hơi nhói, em rụt cổ lại sờ tay vào thì thấy hơi nhói và có 1 cục gì đó nó di chuyển được ấy ạ. Bác sĩ cho em hỏi nổi hạch dưới cằm khi mọc răng khôn có bất thường không?\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nTheo như bạn mô tả thì bạn đang có nổi hạch dưới cằm. Đây là hiện tượng thường gặp. Hạch bạch huyết thuộc hệ miễn dịch của cơ thể. Khi cơ thể có viêm nhiễm thì hệ miễn dịch sẽ hoạt động mạnh hơn và nổi hạch là một trong những biểu hiện.\nBạn không nên lo lắng, việc cần làm là đến khám chuyên khoa răng hàm mặt. Bác sĩ sẽ cho dùng thuốc thích hợp và tư vấn về hướng điều trị răng số 8 của bạn.\nTrân trọng!",
+                "score": 0.5616790056228638,
+                "id": "vietnamese_medical_qa_1109",
+                "rerank_score": 0.5647058486938477
+            },
+            {
+                "text": "Câu hỏi: Nguyên nhân gây nên tình trạng răng khôn mọc lệch\nTrả lời: 1. Nguyên nhân gây nên tình trạng răng khôn mọc lệch\nTheo chia sẻ của bác sĩ chuyên khoa, một vài yếu tố sau đây được xác định là nguyên nhân chính gây nên tình trạng răng khôn mọc lệch. Do xương hàm đã cứng hơn, lớp mô mềm ở phần lợi cũng dày và chắc rất nhiều, khiến cho việc một chiếc răng khôn mọc lên cũng khó khăn như một mầm cây đâm lên từ sỏi đá vậy. Do cấu trúc xương hàm của người châu Á thường hẹp. Khi một chiếc răng khôn mọc lên ở trong cùng phía hàm, do không còn đủ chỗ với kích thước của chúng, đương nhiên chúng sẽ bị lệch, nghiêng hoặc có khi nằm trọn vẹn dưới phần lợi luôn. Các bác sĩ nha khoa thường sẽ xếp răng khôn mọc lệch vào các loại như sau: Răng khôn mọc lệch gần Răng khôn mọc lệch xa Răng khôn mọc lệch má Răng khôn mọc lệch ngang Khi xuất hiện tình trạng răng khôn mọc lệch bạn nên tới nha sĩ để được kiểm tra nhằm có hướng can thiệp kịp thời",
+                "score": 0.577208936214447,
+                "id": "vietnamese_healthcare_130480",
+                "rerank_score": 0.21283000707626343
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Em bị xơ vú và đã làm tiểu phẫu cắt bỏ được gần 1 tháng. Sau khi làm tiểu phẫu xong thì em thấy hiện tượng cứng hàm trái, có cảm giác đau gần tai, sờ tay thấy có 1 khối u nhỏ dưới 1cm di động và đang mọc răng khôn hàm trái dưới. Em đọc thông tin thấy có thể bị khớp hàm hoặc do đau vì mọc răng khôn. Bác sĩ có thể chẩn đoán tình trạng cứng hàm trái khi đang mọc răng khôn cho em được không ạ?\nTrả lời: Cảm ơn em đã tin tưởng AI-Doctor. Rất mong có thể gặp em để tư vấn cụ thể hơn!",
+                "score": 0.6608005166053772,
+                "id": "vietnamese_medical_qa_2443",
+                "rerank_score": 0.9905921816825867
+            },
+            {
+                "text": "Câu hỏi: Răng khôn hàm bên trái của em mọc nếu em vệ sinh răng miệng cẩn thận thì không sao nhưng nếu em không đánh răng buổi tối trước khi đi ngủ thì nó sẽ viêm lên và rất đau khó há miệng được, có thể đau nhức buốt lên một bên đầu ( cảm giác như buốt dây thần kinh nào bên đó ) nếu em vệ sinh kỹ thì sau vài ngày sẽ hết đau và viêm rồi bình thường lại. Em bị nhiều lần như thế rồi và cũng ko biết răng mọc từ lúc nào, em có cần phải nhổ không bác sĩ? Hình như cả 2 bên hàm em đều sờ thấy có răng khôn nhưng chỉ 1 bên trái là hay bị viêm đau lên nếu vệ sinh ko kĩ thôi còn 1 bên ko bị bao giờ\nTrả lời: chào bạn: do răng khôn của bạn có thẻ mọc lệch hay nguyên nhân gì lên rất dễ gây viêm lợi! và viêm cuống răng! bạn cần đi khám bác sĩ chụp XQ răng xem tình trạng răng có phải nhổ không nhé! và chú ý vệ sinh răng miệng đầy đủ\nthân ái chào bạn",
+                "score": 0.562144935131073,
+                "id": "vietnamese_medical_qa_6045",
+                "rerank_score": 0.90108323097229
+            },
+            {
+                "text": "Câu hỏi: Sưng đau hàm do mọc răng khôn phải làm sao?\nTrả lời: Sưng đau hàm do mọc răng khôn thì bạn nên đến bệnh viện khám, xét nghiệm, chụp phim, bácsĩ sẽ kê đơn thuốc cho bạn. Sau đó bạn có thể nhổ răng khôn cho dứt hẳn.",
+                "score": 0.5885400772094727,
+                "id": "vietnamese_healthcare_5264",
+                "rerank_score": 0.6754512190818787
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị mọc răng khôn bên trái ạ, hôm qua thì có hơi sưng và đau nướu, sáng nay em dậy thì thấy dưới cằm trái hơi nhói, em rụt cổ lại sờ tay vào thì thấy hơi nhói và có 1 cục gì đó nó di chuyển được ấy ạ. Bác sĩ cho em hỏi nổi hạch dưới cằm khi mọc răng khôn có bất thường không?\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nTheo như bạn mô tả thì bạn đang có nổi hạch dưới cằm. Đây là hiện tượng thường gặp. Hạch bạch huyết thuộc hệ miễn dịch của cơ thể. Khi cơ thể có viêm nhiễm thì hệ miễn dịch sẽ hoạt động mạnh hơn và nổi hạch là một trong những biểu hiện.\nBạn không nên lo lắng, việc cần làm là đến khám chuyên khoa răng hàm mặt. Bác sĩ sẽ cho dùng thuốc thích hợp và tư vấn về hướng điều trị răng số 8 của bạn.\nTrân trọng!",
+                "score": 0.568436861038208,
+                "id": "vietnamese_medical_qa_1109",
+                "rerank_score": 0.5647061467170715
+            },
+            {
+                "text": "Câu hỏi: Vì sao răng khôn hay mọc lệch?\nTrả lời: 2. Vì sao răng khôn hay mọc lệch?\nNguyên nhân dẫn đến răng khôn mọc lệch ra má cũng giống với các loại răng khôn mọc lệch khác. Trong thời kỳ bào thai, mầm răng vĩnh viễn được hình thành từ rất sớm và qua vài giai đoạn. Mầm răng khôn được hình thành muộn hơn so với các răng khác và do sự kéo dài ra sau của dải tạo mầm răng gọi là lá răng. Khi trẻ được sinh ra và lớn lên, quá trình phát triển của mầm răng khôn vẫn tiếp tục, cùng với sự phát triển ra sau của xương hàm kéo theo mầm răng khôn bị kéo ra sau, dẫn tới mầm răng khôn bị lệch. Lúc này răng thường không đứng ngay ngắn trên cung hàm, dẫn tới tình trạng răng khôn mọc lệch . Thường răng khôn hay mọc lệch ra trước và ra ngoài hay ra má. Mặt khác, răng khôn bắt đầu mọc ở tuổi trưởng thành, mọc muộn nhất so với các răng khác. Lúc này, xương hàm đã phát triển hết, xương khá cứng chắc và hàm răng đã ổn định trên cung hàm. Khi chúng mọc lên, gặp vật cản là xương hàm chắc khỏe và bị “chiếm chỗ” bởi các răng khác, vì thế mà răng khôn đổi hướng mọc dẫn đến hiện tượng răng mọc lệch.",
+                "score": 0.5845082998275757,
+                "id": "vietnamese_healthcare_135636",
+                "rerank_score": 0.24965667724609375
+            }
+        ]
+    ],
+    "llm_call": 6,
+    "num_turns": 2
+}

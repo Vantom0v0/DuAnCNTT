@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Thưa bác sĩ, em năm nay 30 tuổi em đã hiến thận được 2 năm. Hiện giờ em muốn triệt sản vì vợ em đã sinh 3 bé . Vì không muốn vợ em đẻ thêm tổn hại sức khoẻ em muốn triệt sản. Cho em hỏi, đã hiến thận triệt sản có ảnh hưởng gì không? Mong bác sĩ tư vấn giúp em ạ.",
+    "ground_truth": "Chào bạn! Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả. Cho dù bạn đã hiến thận, bạn vẫn có phẫu thuật được.\nCảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Nam giới đã hiến thận triệt sản có ảnh hưởng gì không?” Rất mong có thể sớm gặp bạn tại AI-Doctor trong thời gian sớm nhất. Trân trọng.",
+    "answer": "Triệt sản nam (phẫu thuật cắt ống dẫn tinh) là phẫu thuật đơn giản, an toàn và hiệu quả. Theo tài liệu cung cấp, chưa có thông tin cho thấy việc đã hiến thận 2 năm trước làm triệt sản ảnh hưởng đến sức khỏe; tuy nhiên, bạn nên đến khám bác sĩ chuyên khoa, mang theo hồ sơ hiến thận và kiểm tra tình trạng sức khỏe hiện tại để được tư vấn cụ thể trước phẫu thuật.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em muốnhiến 1 quả thận. Bác sĩ cho em hỏihiến 1 quả thận có ảnh hưởng tới sức khỏe không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bịsuy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phảicắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận. Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+            "score": 0.6083734631538391,
+            "id": "medical_vietnamese_qa_9288"
+        },
+        {
+            "text": "Câu hỏi: Nam giới đã hiến thận, triệt sản có ảnh hưởng gì không?\nTrả lời: Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả.",
+            "score": 0.6067822575569153,
+            "id": "vietnamese_healthcare_3682"
+        },
+        {
+            "text": "Câu hỏi: Hiến 1 quả thận có ảnh hưởng tới sức khỏe không?\nTrả lời: Trước hiến thận, bác sĩ sẽ khám và làm các xét nghiệm đánh giá sức khỏe tổng quát các cơ quan bộ phận của cơ thể bạn, kiểm tra và đánh giá chức năng của từng thận. Sau đó, bác sĩ sẽ ước lượng bạn có thể sống với 1 quả thận còn lại ít nhất đến 80 tuổi mà không bị suy thận. Nếu bạn không có bệnh lý gì tại thời điểm hiện tại thì có thể hiến 1 quả thận. Tuy nhiên, sự dự đoán nào cũng có nguy cơ rủi ro mặc dù thấp, bạn có thể bị suy thận vì một bệnh lý nào đó trước tuổi 80, hoặc bị chấn thương thận còn lại phải cắt bỏ thận. Bác sĩ tư vấn sẽ nói rõ hết với bạn khi bạn đi tư vấn hiến thận.Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+            "score": 0.5890175700187683,
+            "id": "vietnamese_healthcare_3943"
+        },
+        {
+            "text": "Câu hỏi: Năm nay tôi 35 tuổi, vợ 33 tuổi. Cách đây bốn năm vợ tôi có mang thai nhưng thai ngoài tử cung, bác sĩ khuyên nên bỏ. Đến giờ vợ chồng tôi vẫn chưa có con. Nhờ bác sĩ tư vấn phương pháp hỗ trợ.\nTrả lời: Xin chia sẻ với bạn những khó khăn và không may mắn trong hành trình tìm con. Thời gian mong con cũng đã lâu, nếu hai vợ chồng quan hệ tự nhiên mà vẫn chưa thể có em bé thì nên đến thăm khám tại bệnh viện hoặc trung tâm hỗ trợ sinh sản để thực hiện các biện pháp điều trị tích cực hơn. Với độ tuổi của bạn, ở ngưỡng 35, khả năng mang thai thai tự nhiên đã bị ảnh hưởng do sự suy giảm số lượng và chất lượng trứng, đồng thời tăng nguy cơ bất thường thai kỳ như sảy thai hoặc dị tật bẩm sinh. Chị có tiền căn thai ngoài tử cung nên việc đánh giá lại chức năng của vòi trứng nhằm lựa chọn phương pháp điều trị phù hợp cũng như tránh nguy cơ tái phát rất cần thiết trước khi thực hiện bất kỳ phương pháp hỗ trợ sinh sản nào.",
+            "score": 0.5702488422393799,
+            "id": "vietnamese_healthcare_5658"
+        },
+        {
+            "text": "Câu hỏi: Em đang có ý định làm IVF bởi hai vợ chồng em tuổi cũng khá cao. Em đã 39 tuổi và chồng 45 tuổi rồi ạ. Em có một con 13 tuổi và năm 2010 em chửa ngoài tử cung và cắt một bên vòi trứng trái. Đến nay đã 8 năm rồi không có thai. Giờ em muốn thực hiện IVF ở Bệnh viện Tâm Anh TP HCM thì chi phí khoảng bao nhiêu? Tỷ lệ thành công cho trường hợp của vợ chồng em có cao không ạ?\nTrả lời: Năm chị 39 tuổi và chồng chị 45 tuổi. 8 năm chị chưa có con sau khi cắt một bên tay vòi, chị nên điều trị sớm vì rơi vào nhóm lớn tuổi, dự trữ buồng trứng sẽ kém đi.",
+            "score": 0.569664716720581,
+            "id": "vietnamese_healthcare_870"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

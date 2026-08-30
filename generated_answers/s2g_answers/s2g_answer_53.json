@@ -1,0 +1,119 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Trẻ sơ sinh 6 ngày tuổi bị vàng da có ảnh nguy hiểm không?",
+    "ground_truth": "tùy theo mức độ vàng da và kết quả đo Bilirubin (chất gây vàng da) bác sĩ sẽ đưa ra phương pháp điều trị phù hợp nhất cho bé nhé.",
+    "answer": "Vàng da ở trẻ 6 ngày tuổi có thể là vàng da sinh lý, thường xuất hiện trong những ngày đầu và giảm dần trong 2 tuần đầu. Tuy nhiên, nếu da vàng sậm hoặc vàng nhiều lan đến tay, chân, lòng bàn tay, bàn chân; bé lừ đừ, bú kém, bỏ bú, khóc thét hoặc co giật thì có thể là vàng da bệnh lý và cần đưa bé đến cơ sở y tế có chuyên khoa Nhi ngay. Vì bé vẫn còn vàng da, bố mẹ nên cho bé đi khám để kiểm tra mức độ vàng da và nhận tư vấn chính xác; không thể xác định mức độ nguy hiểm chỉ dựa vào tuổi của bé.",
+    "evidence": [
+        "Nếu bé vàng da nhiều lan đến chân và tay là bất thường.",
+        "Vậy nên, bạn nên kiểm tra tình trạng vàng da cho bé mỗi ngày 1 lần bằng cách theo dõi dưới ánh sáng tự nhiên, ấn nhẹ vùng xương ức của bé khoảng 5 giây nếu thấy tính trạng vàng da nhiều thì bạn nên cho bé đi khám.",
+        "Còn tình trạng vàng da của bé, bạn nên cho bé bú nhiều tăng đào thải Bilirubin cho bé và nhiệm vụ đào thải Bilirubin do gan.",
+        "Thông thường, khoảng 2 - 3 ngày đầu sau sinh, trẻ sẽ có dấu hiệu vàng mắt, vàng da và giảm dần trong 2 tuần tuổi đầu tiên mà không phải điều trị.",
+        "Cách nhận biết vàng da bệnh lý như sau: Vàng da có màu sậm hơn; Trẻ sinh đủ tháng không hết vàng da sau 1 tuần, còn trẻ sinh non thì không hết vàng da sau 2 tuần; Trẻ sơ sinh bị vàng mắt , vàng da toàn thân, đặc biệt là lòng bàn tay, bàn chân; Trẻ lừ đừ, uể oải, bỏ bú hoặc bú kém, khóc thét, thậm chí còn có thể bị co giật .",
+        "Vì vậy, bạn nên đưa bé đến các cơ sở y tế gần nhất có chuyên khoa Nhi để thăm khám và làm các xét nghiệm cần thiết để giải quyết vấn đề này cho bé.",
+        "Tuy nhiên, nếu là vàng da bệnh lý, tức đây là dấu hiệu của một căn bệnh nào đó, thì trẻ sẽ bị vàng da sớm hơn, ngay trong 24 giờ đầu tiên sau khi sinh.",
+        "Vàng da bệnh lý nếu không được nhận biết và điều trị kịp thời thì có thể dẫn đến những biến chứng nguy hiểm như vàng da nhân não , viêm não cấp tính , do bilirubin bị ứ đọng trong cơ thể, thấm vào não bộ một cách gián tiếp.",
+        "Hậu quả cuối cùng là nhiễm độc thần kinh và có thể dẫn đến tử vong hoặc não bị tổn thương vĩnh viễn như bại não.",
+        "Nếu da bé còn vàng, bố mẹ nên cho bé đi khám tại cơ sở y tế có chuyên khoa Nhi để được kiểm tra mức độ vàng da và có lời khuyên chính xác nhất.",
+        "Đối với chứng vàng da vừa hoặc nặng, em bé có thể cần được theo dõi tại bệnh viện và tích cực điều trị nhằm phòng ngừa các biến chứng nguy hiểm do vàng da gây ra dù rất hiếm gặp."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Em mới sinh em bé, ngày thứ 6, lúc mới sinh thì không bị vàng da, nhưng do lượng sữa mẹ ít cộng với bé bú sữa công thức ít, nay em thấy mặt bé và mắt hơi vàng, bé ngủ nhiều. Vậy bác sĩ cho em hỏitrẻ sơ sinh bị vàng da vùng mắt phải làm sao?Em đã có sữa và cho bé bú được nhiều hơn, không biết lượng Bilirubin có được đào thải dần không hay phải can thiệp điều trị? Do tình hình dịch bệnh nên đi lại rất khó khăn, xin bác sĩ tư vấn kỹ giúp em. Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn sinh được 6 ngày có biểu hiệnvàng da vùng mắt. Nếu bé vàng da nhiều lan đến chân và tay là bất thường. Vậy nên, bạn nên kiểm tra tình trạng vàng da cho bé mỗi ngày 1 lần bằng cách theo dõi dưới ánh sáng tự nhiên, ấn nhẹ vùng xương ức của bé khoảng 5 giây nếu thấy tính trạng vàng da nhiều thì bạn nên cho bé đi khám. Còn tình trạng vàng da của bé, bạn nên cho bé bú nhiều tăng đào thải Bilirubin cho bé và nhiệm vụ đào thải Bilirubin do gan.",
+                "score": 0.6401836276054382,
+                "id": "medical_vietnamese_qa_5612",
+                "rerank_score": 0.9856564998626709
+            },
+            {
+                "text": "Câu hỏi: Trẻ sơ sinh bị vàng da vàng mắt có sao không?\nTrả lời: 3. Trẻ sơ sinh bị vàng da vàng mắt có sao không?\nThông thường, khoảng 2 - 3 ngày đầu sau sinh, trẻ sẽ có dấu hiệu vàng mắt, vàng da và giảm dần trong 2 tuần tuổi đầu tiên mà không phải điều trị. Tuy nhiên, nếu là vàng da bệnh lý, tức đây là dấu hiệu của một căn bệnh nào đó, thì trẻ sẽ bị vàng da sớm hơn, ngay trong 24 giờ đầu tiên sau khi sinh. Cách nhận biết vàng da bệnh lý như sau: Vàng da có màu sậm hơn; Trẻ sinh đủ tháng không hết vàng da sau 1 tuần, còn trẻ sinh non thì không hết vàng da sau 2 tuần; Trẻ sơ sinh bị vàng mắt , vàng da toàn thân, đặc biệt là lòng bàn tay, bàn chân; Trẻ lừ đừ, uể oải, bỏ bú hoặc bú kém, khóc thét, thậm chí còn có thể bị co giật . .. Vàng da bệnh lý nếu không được nhận biết và điều trị kịp thời thì có thể dẫn đến những biến chứng nguy hiểm như vàng da nhân não , viêm não cấp tính , do bilirubin bị ứ đọng trong cơ thể, thấm vào não bộ một cách gián tiếp. Hậu quả cuối cùng là nhiễm độc thần kinh và có thể dẫn đến tử vong hoặc não bị tổn thương vĩnh viễn như bại não.",
+                "score": 0.6425607800483704,
+                "id": "vietnamese_healthcare_38742",
+                "rerank_score": 0.9836322069168091
+            },
+            {
+                "text": "Câu hỏi: Tổng quan về vàng da ở trẻ sơ sinh\nTrả lời: 1. Tổng quan về vàng da ở trẻ sơ sinh\nHiện tượng vàng da xuất hiện khá phổ biến ở trẻ sơ sinh. Ở trẻ sơ sinh non tháng, sau khi chào đời 2 - 3 ngày, thường xuất hiện vàng da. Ở những trẻ đủ thángi, vàng da là khá hiếm và chỉ chiếm tỷ lệ khoảng 25 - 30%. Nguyên nhân gây vàng da sinh lý của trẻ sơ sinh là do sự tích tụ Bilirubin - chất có màu vàng được sinh ra khi các tế bào hồng cầu bị phá vỡ và giải phóng. Hiện tượng vàng da xảy ra phổ biến ở trẻ sơ sinh vì các bé có số lượng tế bào hồng cầu cao, lại thường xuyên bị phá vỡ và thay mới. Trong khi đó, gan của trẻ sơ sinh lại chưa đủ trưởng thành để đào thải hết Bilirubin ra khỏi máu và vì vậy mà gây nên vàng da. Khi trẻ lớn đến khoảng 2 tuần tuổi, gan sẽ phát triển đầy đủ hơn để có khả năng xử lý và lọc bỏ hết Bilirubin. Chính vì thế bệnh vàng da sinh lí ở trẻ sơ sinh sẽ tự khỏi mà không để lại bất cứ nguy hiểm nào. Tuy nhiên trẻ sơ sinh có thể bị vàng da sinh lý lẫn vàng da bệnh lý - biểu hiện của một căn bệnh tiềm tàng nào đó. Trong khi vàng da sinh lý ở trẻ sơ sinh sẽ tự khỏi sau khoảng 2 tuần, thì vàng da bệnh lý cần được bác sĩ chuyên khoa chữa trị lâu dài bằng nhiều phương pháp khác nhau tùy vào mức độ bệnh.",
+                "score": 0.6662111878395081,
+                "id": "vietnamese_healthcare_130270",
+                "rerank_score": 0.9834060668945312
+            },
+            {
+                "text": "Câu hỏi: Con em 1 tháng tuổi mà chưa hết vàng da liệu có nguy hiểm không bác sĩ?\nLương Thị Hường (1997)\nChào bác sĩ ạ! Bác sĩ cho em hỏi chút ạ? Bé nhà em đã được 1 tháng tuổi, nhưng vẫn bị vàng da ở đuôi mắt, trong mắt và cằm. Vậy có ảnh hưởng gì không ạ? Cháu có phải đi chiếu đèn không ạ? Em xin cảm ơn\nTrả lời: Chào bạn. Vàng da sơ sinh thường là do gan của trẻ chưa đủ trưởng thành để loại bỏ bilirubin trong máu là 1 hiện tượng sinh lý, thường xuất hiện trong vòng 24h sau sinh và thường tự hết sau 1 tuần (đối với trẻ đủ tháng) hoặc xấp xỉ 2 tuần đối với trẻ sinh non (< 36 tuần tuổi).\nBiểu hiện của vàng da sơ sinh bệnh lý là vàng da đậm xuất hiện sớm, không hết vàng sau 1 tuần với trẻ đủ tháng và 2 tuần đối với trẻ thiếu tháng, mức độ vàng toàn thân, lòng bàn tay, bàn chân và cả kết mạc mắt. Đồng thời với vàng da, có sự xuất hiện của các triệu chứng bất thường khác như: Trẻ lừ đừ, bỏ bú, co giật...\nDựa vào những thông tin bạn cung cấp bác sĩ chưa đủ cơ sở để kết luận tình trạng con của bạn. Tốt nhất bạn cần cho trẻ tới khoa Nhi để được kiểm tra, đánh giá và có hướng điều trị kịp thời, tránh để lâu sẽ ảnh hưởng đến sức khỏe trẻ nhỏ.",
+                "score": 0.687542736530304,
+                "id": "vietnamese_medical_qa_3222",
+                "rerank_score": 0.9782589673995972
+            },
+            {
+                "text": "Câu hỏi: Bé con sinh được 10 ngày rồi, mà da mặt bé bị vàng, tròng mắt bé cũng bị vàng luôn. Mà 10 ngày qua, con cũng đã bổ sung vitamin D3 cho bé nhưng không có ánh nắng mặt trời để phơi cho bé. Vậy bác sĩ cho con hỏitrẻ sơ sinh vàng da mắt kèm vàng mắt có sao không?Bé bị như vậy có ảnh hưởng gì đến não và phát triển của bé không? Con cảm ơn bác sĩ nhiều.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn mô tả triệu chứng vàng da, vàng kết mạc mắt, nhưng chưa mô tả các vùng khác của cơ thể như ngực, bụng, tay chân có vàng không, hay các triệu chứng khác kèm theo như bú ra sao, ngủ li bì hay không,... để đánh giá nguy cơ vàng da của bé. Vì vậy, bạn nên đưa bé đến các cơ sở y tế gần nhất có chuyên khoa Nhi để thăm khám và làm các xét nghiệm cần thiết để giải quyết vấn đề này cho bé.",
+                "score": 0.6712074279785156,
+                "id": "medical_vietnamese_qa_4440",
+                "rerank_score": 0.912638783454895
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Trẻ sơ sinh bị vàng da vàng mắt có sao không?\nTrả lời: 3. Trẻ sơ sinh bị vàng da vàng mắt có sao không?\nThông thường, khoảng 2 - 3 ngày đầu sau sinh, trẻ sẽ có dấu hiệu vàng mắt, vàng da và giảm dần trong 2 tuần tuổi đầu tiên mà không phải điều trị. Tuy nhiên, nếu là vàng da bệnh lý, tức đây là dấu hiệu của một căn bệnh nào đó, thì trẻ sẽ bị vàng da sớm hơn, ngay trong 24 giờ đầu tiên sau khi sinh. Cách nhận biết vàng da bệnh lý như sau: Vàng da có màu sậm hơn; Trẻ sinh đủ tháng không hết vàng da sau 1 tuần, còn trẻ sinh non thì không hết vàng da sau 2 tuần; Trẻ sơ sinh bị vàng mắt , vàng da toàn thân, đặc biệt là lòng bàn tay, bàn chân; Trẻ lừ đừ, uể oải, bỏ bú hoặc bú kém, khóc thét, thậm chí còn có thể bị co giật . .. Vàng da bệnh lý nếu không được nhận biết và điều trị kịp thời thì có thể dẫn đến những biến chứng nguy hiểm như vàng da nhân não , viêm não cấp tính , do bilirubin bị ứ đọng trong cơ thể, thấm vào não bộ một cách gián tiếp. Hậu quả cuối cùng là nhiễm độc thần kinh và có thể dẫn đến tử vong hoặc não bị tổn thương vĩnh viễn như bại não.",
+                "score": 0.7292529940605164,
+                "id": "vietnamese_healthcare_38742",
+                "rerank_score": 0.9836322069168091
+            },
+            {
+                "text": "Câu hỏi: Tổng quan về vàng da ở trẻ sơ sinh\nTrả lời: 1. Tổng quan về vàng da ở trẻ sơ sinh\nHiện tượng vàng da xuất hiện khá phổ biến ở trẻ sơ sinh. Ở trẻ sơ sinh non tháng, sau khi chào đời 2 - 3 ngày, thường xuất hiện vàng da. Ở những trẻ đủ thángi, vàng da là khá hiếm và chỉ chiếm tỷ lệ khoảng 25 - 30%. Nguyên nhân gây vàng da sinh lý của trẻ sơ sinh là do sự tích tụ Bilirubin - chất có màu vàng được sinh ra khi các tế bào hồng cầu bị phá vỡ và giải phóng. Hiện tượng vàng da xảy ra phổ biến ở trẻ sơ sinh vì các bé có số lượng tế bào hồng cầu cao, lại thường xuyên bị phá vỡ và thay mới. Trong khi đó, gan của trẻ sơ sinh lại chưa đủ trưởng thành để đào thải hết Bilirubin ra khỏi máu và vì vậy mà gây nên vàng da. Khi trẻ lớn đến khoảng 2 tuần tuổi, gan sẽ phát triển đầy đủ hơn để có khả năng xử lý và lọc bỏ hết Bilirubin. Chính vì thế bệnh vàng da sinh lí ở trẻ sơ sinh sẽ tự khỏi mà không để lại bất cứ nguy hiểm nào. Tuy nhiên trẻ sơ sinh có thể bị vàng da sinh lý lẫn vàng da bệnh lý - biểu hiện của một căn bệnh tiềm tàng nào đó. Trong khi vàng da sinh lý ở trẻ sơ sinh sẽ tự khỏi sau khoảng 2 tuần, thì vàng da bệnh lý cần được bác sĩ chuyên khoa chữa trị lâu dài bằng nhiều phương pháp khác nhau tùy vào mức độ bệnh.",
+                "score": 0.7467272877693176,
+                "id": "vietnamese_healthcare_130270",
+                "rerank_score": 0.9834060668945312
+            },
+            {
+                "text": "Câu hỏi: Trẻ sơ sinh vàng da, vàng mắt mức độ nhẹ có đáng lo ngại?\nTrả lời: Vàng da là tình trạng rất phổ biến ở trẻ sơ sinh. Hơn một nửa trong số trẻ được sinh ra là bị vàng da với các mức độ khác nhau và sẽ tự thuyên giảm. Tuy nhiên, trong một số trường hợp, trẻ sơ sinh bị vàng da kéo dài lại là một dấu hiệu của bệnh lý tiềm ẩn. Vàng da sơ sinh ở mức độ nhẹ sẽ thường tự biến mất trong vòng hai hoặc ba tuần. Đối với chứng vàng da vừa hoặc nặng, em bé có thể cần được theo dõi tại bệnh viện và tích cực điều trị nhằm phòng ngừa các biến chứng nguy hiểm do vàng da gây ra dù rất hiếm gặp. Trường hợp của em bé nhà bạn sinh non có 36 tuần là một yếu tố nguy cơ gây vàng da kéo dài. Nếu da bé còn vàng, bố mẹ nên cho bé đi khám tại cơ sở y tế có chuyên khoa Nhi để được kiểm tra mức độ vàng da và có lời khuyên chính xác nhất.",
+                "score": 0.7320840358734131,
+                "id": "vietnamese_healthcare_7455",
+                "rerank_score": 0.9797648191452026
+            },
+            {
+                "text": "Câu hỏi: Con em 1 tháng tuổi mà chưa hết vàng da liệu có nguy hiểm không bác sĩ?\nLương Thị Hường (1997)\nChào bác sĩ ạ! Bác sĩ cho em hỏi chút ạ? Bé nhà em đã được 1 tháng tuổi, nhưng vẫn bị vàng da ở đuôi mắt, trong mắt và cằm. Vậy có ảnh hưởng gì không ạ? Cháu có phải đi chiếu đèn không ạ? Em xin cảm ơn\nTrả lời: Chào bạn. Vàng da sơ sinh thường là do gan của trẻ chưa đủ trưởng thành để loại bỏ bilirubin trong máu là 1 hiện tượng sinh lý, thường xuất hiện trong vòng 24h sau sinh và thường tự hết sau 1 tuần (đối với trẻ đủ tháng) hoặc xấp xỉ 2 tuần đối với trẻ sinh non (< 36 tuần tuổi).\nBiểu hiện của vàng da sơ sinh bệnh lý là vàng da đậm xuất hiện sớm, không hết vàng sau 1 tuần với trẻ đủ tháng và 2 tuần đối với trẻ thiếu tháng, mức độ vàng toàn thân, lòng bàn tay, bàn chân và cả kết mạc mắt. Đồng thời với vàng da, có sự xuất hiện của các triệu chứng bất thường khác như: Trẻ lừ đừ, bỏ bú, co giật...\nDựa vào những thông tin bạn cung cấp bác sĩ chưa đủ cơ sở để kết luận tình trạng con của bạn. Tốt nhất bạn cần cho trẻ tới khoa Nhi để được kiểm tra, đánh giá và có hướng điều trị kịp thời, tránh để lâu sẽ ảnh hưởng đến sức khỏe trẻ nhỏ.",
+                "score": 0.7736629247665405,
+                "id": "vietnamese_medical_qa_3222",
+                "rerank_score": 0.9782589673995972
+            },
+            {
+                "text": "Câu hỏi: Trẻ 5 tuần tuổi vàng da nhẹ liệu có đáng lo ngại?\nTrả lời: Vàng da sơ sinh là hiện tượng rất hay gặp trong giai đoạn sơ sinh, nhưng phần lớn là vàng da sinh lý. Trẻ 5 tuần tuổi vàng da nhẹ như chị mô tả dù kéo dài nhưng men gan bình thường, mức độ vàng nhẹ mà chủ yếu là tăng bilirubin gián tiếp (tỷ lệ bilirubin trực tiếp/ bilirubin toàn phần< 10%), bé vẫn bú tốt, tăng cân bình thường thì không nghĩ đến bệnh lý gan mật. Nếu bé da vàng sáng, đi ngoài phân vàng, tăng cân tốt thì không cần phải điều trị gì đặc hiệu. Vàng da sơ sinh chỉ nguy hiểm khi vàng da nặng trong 1 tuần đầu sau sinh vì có nguy cơ vàng da nhân não hoặc vàng da do bệnh lý gan mật. Những trường hợp vàng da kéo dài như thế này thường nguyên nhân do vàng da do sữa mẹ, nhưng trẻ vẫn cần bú mẹ để đảm bảo sức khỏe tốt nhất. Chị có thể cho bé nằm gần chỗ ánh sáng tự nhiên (vào buổi sáng) và cho bé bú theo nhu cầu, từ từ vàng da sẽ tự hết. Nếu trẻ có dấu hiệu bất thường như: bú kém, da vàng xỉn, phân nhạt màu hoặc bạc màu, tăng cân kém thì cần đi khám để kiểm tra.",
+                "score": 0.7429578304290771,
+                "id": "vietnamese_healthcare_3449",
+                "rerank_score": 0.9717714190483093
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Trẻ sơ sinh bị vàng da vàng mắt có sao không?\nTrả lời: 3. Trẻ sơ sinh bị vàng da vàng mắt có sao không?\nThông thường, khoảng 2 - 3 ngày đầu sau sinh, trẻ sẽ có dấu hiệu vàng mắt, vàng da và giảm dần trong 2 tuần tuổi đầu tiên mà không phải điều trị. Tuy nhiên, nếu là vàng da bệnh lý, tức đây là dấu hiệu của một căn bệnh nào đó, thì trẻ sẽ bị vàng da sớm hơn, ngay trong 24 giờ đầu tiên sau khi sinh. Cách nhận biết vàng da bệnh lý như sau: Vàng da có màu sậm hơn; Trẻ sinh đủ tháng không hết vàng da sau 1 tuần, còn trẻ sinh non thì không hết vàng da sau 2 tuần; Trẻ sơ sinh bị vàng mắt , vàng da toàn thân, đặc biệt là lòng bàn tay, bàn chân; Trẻ lừ đừ, uể oải, bỏ bú hoặc bú kém, khóc thét, thậm chí còn có thể bị co giật . .. Vàng da bệnh lý nếu không được nhận biết và điều trị kịp thời thì có thể dẫn đến những biến chứng nguy hiểm như vàng da nhân não , viêm não cấp tính , do bilirubin bị ứ đọng trong cơ thể, thấm vào não bộ một cách gián tiếp. Hậu quả cuối cùng là nhiễm độc thần kinh và có thể dẫn đến tử vong hoặc não bị tổn thương vĩnh viễn như bại não.",
+                "score": 0.6834403276443481,
+                "id": "vietnamese_healthcare_38742",
+                "rerank_score": 0.9836322069168091
+            },
+            {
+                "text": "Câu hỏi: Tổng quan về vàng da ở trẻ sơ sinh\nTrả lời: 1. Tổng quan về vàng da ở trẻ sơ sinh\nHiện tượng vàng da xuất hiện khá phổ biến ở trẻ sơ sinh. Ở trẻ sơ sinh non tháng, sau khi chào đời 2 - 3 ngày, thường xuất hiện vàng da. Ở những trẻ đủ thángi, vàng da là khá hiếm và chỉ chiếm tỷ lệ khoảng 25 - 30%. Nguyên nhân gây vàng da sinh lý của trẻ sơ sinh là do sự tích tụ Bilirubin - chất có màu vàng được sinh ra khi các tế bào hồng cầu bị phá vỡ và giải phóng. Hiện tượng vàng da xảy ra phổ biến ở trẻ sơ sinh vì các bé có số lượng tế bào hồng cầu cao, lại thường xuyên bị phá vỡ và thay mới. Trong khi đó, gan của trẻ sơ sinh lại chưa đủ trưởng thành để đào thải hết Bilirubin ra khỏi máu và vì vậy mà gây nên vàng da. Khi trẻ lớn đến khoảng 2 tuần tuổi, gan sẽ phát triển đầy đủ hơn để có khả năng xử lý và lọc bỏ hết Bilirubin. Chính vì thế bệnh vàng da sinh lí ở trẻ sơ sinh sẽ tự khỏi mà không để lại bất cứ nguy hiểm nào. Tuy nhiên trẻ sơ sinh có thể bị vàng da sinh lý lẫn vàng da bệnh lý - biểu hiện của một căn bệnh tiềm tàng nào đó. Trong khi vàng da sinh lý ở trẻ sơ sinh sẽ tự khỏi sau khoảng 2 tuần, thì vàng da bệnh lý cần được bác sĩ chuyên khoa chữa trị lâu dài bằng nhiều phương pháp khác nhau tùy vào mức độ bệnh.",
+                "score": 0.6990432739257812,
+                "id": "vietnamese_healthcare_130270",
+                "rerank_score": 0.9834060668945312
+            },
+            {
+                "text": "Câu hỏi: Trẻ sơ sinh vàng da, vàng mắt mức độ nhẹ có đáng lo ngại?\nTrả lời: Vàng da là tình trạng rất phổ biến ở trẻ sơ sinh. Hơn một nửa trong số trẻ được sinh ra là bị vàng da với các mức độ khác nhau và sẽ tự thuyên giảm. Tuy nhiên, trong một số trường hợp, trẻ sơ sinh bị vàng da kéo dài lại là một dấu hiệu của bệnh lý tiềm ẩn. Vàng da sơ sinh ở mức độ nhẹ sẽ thường tự biến mất trong vòng hai hoặc ba tuần. Đối với chứng vàng da vừa hoặc nặng, em bé có thể cần được theo dõi tại bệnh viện và tích cực điều trị nhằm phòng ngừa các biến chứng nguy hiểm do vàng da gây ra dù rất hiếm gặp. Trường hợp của em bé nhà bạn sinh non có 36 tuần là một yếu tố nguy cơ gây vàng da kéo dài. Nếu da bé còn vàng, bố mẹ nên cho bé đi khám tại cơ sở y tế có chuyên khoa Nhi để được kiểm tra mức độ vàng da và có lời khuyên chính xác nhất.",
+                "score": 0.6884313821792603,
+                "id": "vietnamese_healthcare_7455",
+                "rerank_score": 0.9797648191452026
+            },
+            {
+                "text": "Câu hỏi: Con em 1 tháng tuổi mà chưa hết vàng da liệu có nguy hiểm không bác sĩ?\nLương Thị Hường (1997)\nChào bác sĩ ạ! Bác sĩ cho em hỏi chút ạ? Bé nhà em đã được 1 tháng tuổi, nhưng vẫn bị vàng da ở đuôi mắt, trong mắt và cằm. Vậy có ảnh hưởng gì không ạ? Cháu có phải đi chiếu đèn không ạ? Em xin cảm ơn\nTrả lời: Chào bạn. Vàng da sơ sinh thường là do gan của trẻ chưa đủ trưởng thành để loại bỏ bilirubin trong máu là 1 hiện tượng sinh lý, thường xuất hiện trong vòng 24h sau sinh và thường tự hết sau 1 tuần (đối với trẻ đủ tháng) hoặc xấp xỉ 2 tuần đối với trẻ sinh non (< 36 tuần tuổi).\nBiểu hiện của vàng da sơ sinh bệnh lý là vàng da đậm xuất hiện sớm, không hết vàng sau 1 tuần với trẻ đủ tháng và 2 tuần đối với trẻ thiếu tháng, mức độ vàng toàn thân, lòng bàn tay, bàn chân và cả kết mạc mắt. Đồng thời với vàng da, có sự xuất hiện của các triệu chứng bất thường khác như: Trẻ lừ đừ, bỏ bú, co giật...\nDựa vào những thông tin bạn cung cấp bác sĩ chưa đủ cơ sở để kết luận tình trạng con của bạn. Tốt nhất bạn cần cho trẻ tới khoa Nhi để được kiểm tra, đánh giá và có hướng điều trị kịp thời, tránh để lâu sẽ ảnh hưởng đến sức khỏe trẻ nhỏ.",
+                "score": 0.7180434465408325,
+                "id": "vietnamese_medical_qa_3222",
+                "rerank_score": 0.9782589673995972
+            },
+            {
+                "text": "Câu hỏi: Trẻ 5 tuần tuổi vàng da nhẹ liệu có đáng lo ngại?\nTrả lời: Vàng da sơ sinh là hiện tượng rất hay gặp trong giai đoạn sơ sinh, nhưng phần lớn là vàng da sinh lý. Trẻ 5 tuần tuổi vàng da nhẹ như chị mô tả dù kéo dài nhưng men gan bình thường, mức độ vàng nhẹ mà chủ yếu là tăng bilirubin gián tiếp (tỷ lệ bilirubin trực tiếp/ bilirubin toàn phần< 10%), bé vẫn bú tốt, tăng cân bình thường thì không nghĩ đến bệnh lý gan mật. Nếu bé da vàng sáng, đi ngoài phân vàng, tăng cân tốt thì không cần phải điều trị gì đặc hiệu. Vàng da sơ sinh chỉ nguy hiểm khi vàng da nặng trong 1 tuần đầu sau sinh vì có nguy cơ vàng da nhân não hoặc vàng da do bệnh lý gan mật. Những trường hợp vàng da kéo dài như thế này thường nguyên nhân do vàng da do sữa mẹ, nhưng trẻ vẫn cần bú mẹ để đảm bảo sức khỏe tốt nhất. Chị có thể cho bé nằm gần chỗ ánh sáng tự nhiên (vào buổi sáng) và cho bé bú theo nhu cầu, từ từ vàng da sẽ tự hết. Nếu trẻ có dấu hiệu bất thường như: bú kém, da vàng xỉn, phân nhạt màu hoặc bạc màu, tăng cân kém thì cần đi khám để kiểm tra.",
+                "score": 0.7011525630950928,
+                "id": "vietnamese_healthcare_3449",
+                "rerank_score": 0.9717714190483093
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

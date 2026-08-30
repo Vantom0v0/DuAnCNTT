@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Em đã xét nghiệm và siêu âm, kết quả viêm dạ dày và đại tràng, men gan tăng cao, do mấy ngày qua em luôn có cảm giác mệt mỏi và ớn lạnh (không sốt). Bác sĩ cho em hỏimen tăng cao kèm ớn lạnh có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Men gan tăng cao là nguyên nhân làm cho bạn mệt mỏi. Men gan cao là dấu hiệu cảnh báo gan đang gặp vấn đề có thể là viêm gan, ung thư gan hoặc những bệnh gây tổn thương gan khác. Thậm chí men gan tăng cao do nhiễm độc có thể dẫn đến suy gan cấp, hôn mê gan và tử vong. Vì vậy, bạn nên đến bệnh viện để được thăm khám, chẩn đoán nguyên nhân gây ra tăng men gan , điều trị để tránh những biến chứng nguy hiểm.",
+    "answer": "Men gan tăng kèm mệt mỏi và ớn lạnh có thể gợi ý tình trạng viêm gan, nhưng không thể khẳng định ớn lạnh là do men gan tăng vì các triệu chứng này cũng gặp trong nhiều bệnh khác. Xét nghiệm máu và siêu âm bụng đơn thuần cũng chưa đủ để chẩn đoán chính xác viêm dạ dày, viêm đại tràng hay nguyên nhân tổn thương gan. Bạn nên sớm khám lại chuyên khoa tiêu hóa–gan mật để bác sĩ đánh giá mức độ tăng men gan, xét nghiệm viêm gan (đặc biệt viêm gan B, C) và theo dõi định kỳ; không tự ý dùng thuốc, rượu bia hay thực phẩm chức năng khi chưa được tư vấn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: em đã xét nghiệm và siêu âm, kết quảviêm dạ dàyvà đại tràng,men gan tăng cao, do mấy ngày qua em luôn có cảm giác mệt mỏi và ớn lạnh (không sốt) có phải là do ảnh hưởng men gan tăng không ạ? Châu Hồng Sang (Nha Trang) Trả lời\nTrả lời: Chào bạn,xét nghiệm máuvàsiêu âm bụngkhông đủ để chẩn đoán viêm dạ dày và viêm đại tràng. Tăng men gan kèm theo mệt mõi, ớn lạnh như Bạn mô tả thì có thể bạn bị viêm gan. Viêm gan có thể do nhiều nguyên nhân. Bạn nên đến khám lại Bác sĩ. Thạc sĩ, Bác sĩ Nguyễn Phước Lâm- Khoa Khám bệnh & Nội khoa, Bệnh Viện Đa khoa Quốc tế Vinmec Central Park.",
+            "score": 0.8846951723098755,
+            "id": "medical_vietnamese_qa_11589"
+        },
+        {
+            "text": "Câu hỏi: Cơ thể mệt mỏi, ớn lạnh có phải do men gan tăng?\nTrả lời: xét nghiệm máu và siêu âm bụng không đủ để chẩn đoán viêm dạ dày và viêm đại tràng. Tăng men gan kèm theo mệt mõi, ớn lạnh như Bạn mô tả thì có thể bạn bị viêm gan. Viêm gan có thể do nhiều nguyên nhân.",
+            "score": 0.7320520281791687,
+            "id": "vietnamese_healthcare_2894"
+        },
+        {
+            "text": "Câu hỏi: ! Tôi đi khám sức khỏe định kỳ năm 2018 và 2019 đều có kết quả là bịviêm gan B, nhưng do thấy trong người khỏe nên tôi không dùng thuốc gì, nhưng dạo này tôi thấy trong người nóng, lạnh bất thường và hơi mệt mỏi. Vậy bác sĩ cho tôi hỏi:“Người nóng lạnh bất thường, mệt mỏi có phải do bệnh viêm gan B tiến triển?”.nếu đúng là viêm gan B tiến triển thì tôi phải điều trị như thế nào? Mong sớm nhận được câu trả lời từ bác sĩ. Xin chân thành cảm ơn! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Bạn đã làm xét nghiệm và được chẩn đoán mắc bệnh viêm gan B mạn tính nhưng chưa điều trị thuốc thì bạn có thể đến các cơ sở y tế hoặc bệnh viện thuộcHệ thống Y tế Vinmecđể được thăm khám,xét nghiệm men gan3 tháng để theo dõi diễn tiến của bệnh, lúc đó bác sĩ mới có thể trả lời tình trạngngười nóng lạnh bất thường, mệt mỏi có phải do bệnh viêm gan B tiến triểnhay không? Từ kết quả đó, các bác sĩ sẽ thăm khám và đưa ra phác đồ điều trị hiệu quả cho bạn. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Mong một ngày gần nhất có thể gặp bạn và tư vấn chuyên sâu. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ chuyên khoa II Phan Thị Minh Hương -Bác sĩ Nội tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+            "score": 0.6477164626121521,
+            "id": "medical_vietnamese_qa_11462"
+        },
+        {
+            "text": "Câu hỏi: Người nóng lạnh bất thường, mệt mỏi có phải do bệnh viêm gan B tiến triển?\nTrả lời: Bạn đã làm xét nghiệm và được chẩn đoán mắc bệnh viêm gan B mạn tính nhưng chưa điều trị thuốc thì bạn cần sớm đến các cơ sở y tế hoặc bệnh viện thuộc Hệ thống Y tế Vinmec để được thăm khám, xét nghiệm men gan 3 tháng để theo dõi diễn tiến của bệnh, lúc đó bác sĩ mới có thể trả lời tình trạng người nóng lạnh bất thường, mệt mỏi có phải do bệnh viêm gan B tiến triển hay không? Từ kết quả đó, các bác sĩ sẽ thăm khám và đưa ra phác đồ điều trị hiệu quả cho bạn.",
+            "score": 0.6410293579101562,
+            "id": "vietnamese_healthcare_9261"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị đổ mồ hôi và và ớn lạnh nhưng kiểm tra nhiệt độ không bị sốt. Tôi cảm thấy chán ăn cơm, người mệt mỏi. Bác sĩ cho tôi hỏi,đổ mồ hôi kèm ớn lạnh là dấu hiệu của bệnh gì? Dang Xuan Phuong(1983) Trả lời Được giải đáp bởiTiến sĩ, Bác sĩ Nguyễn Hồng Sơn- Trưởng đơn nguyên Sức khỏe tổng quát - Khoa Khám bệnh, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Cơnđổ mồ hôivàớn lạnhkèm theo cảm giácchán ănlà biểu hiện của nhiều bệnh lý khác nhau. Nếu các triệu chứng mới xuất hiện thì bạn cần đến cơ sở y tế để được thăm khám tìm nguyên nhân thì mới có thể điều trị được. Bạn cũng không nên vì sợ dịch bệnh mà không đi khám, nhiều bệnh lý nếu để muộn sẽ khó điều trị hơn là chẩn đoán và điều trị từ giai đoạn sớm.",
+            "score": 0.5899027585983276,
+            "id": "medical_vietnamese_qa_9169"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

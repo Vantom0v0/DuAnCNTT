@@ -1,114 +1,114 @@
 {
     "model_name": "s2g_rag",
-    "query": "ạ! Năm kia em có bịchửa trứng bán phầnvà giờ em có thai lại nhưng đã 6 tuần vẫn chưa cótim thai. Túi ối to nhưng phôi thai bé. Bác sĩ cho em hỏi là trường hợp của em có hướng điều trị được không ạ? Le Thi Ly(1994) Trả lời",
-    "groundtruth": "Chào bạn! Trước tiên bạn cần xác định chắc chắn thai còn phát triển hay không. Chỉ nên điều trị khi chắc chắn thai còn phát triển bạn nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Được giải đáp bởi Bác sĩ Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
-    "answer": "Ở tuổi thai 6 tuần, việc chưa thấy tim thai và túi ối to, phôi nhỏ chưa đủ để kết luận thai ngừng phát triển; tiêu chuẩn chẩn đoán là phôi có CRL từ 7 mm trở lên nhưng không có tim thai. Bạn nên siêu âm lại sau 1–2 tuần hoặc xét nghiệm beta-hCG và đánh giá sự thay đổi sau 48 giờ. Nếu siêu âm vẫn không có tim thai hoặc beta-hCG giảm, khi đó có thể xác định thai ngừng tiến triển và cần dùng thuốc hoặc nạo hút theo chỉ định bác sĩ. Do tiền sử chửa trứng bán phần, nếu phải nạo hút, cần tiếp tục theo dõi hCG theo hướng dẫn; bằng chứng không cung cấp thêm thông tin về ảnh hưởng cụ thể của tiền sử này đối với thai hiện tại.",
+    "question": "ạ! Năm kia em có bịchửa trứng bán phầnvà giờ em có thai lại nhưng đã 6 tuần vẫn chưa cótim thai. Túi ối to nhưng phôi thai bé. Bác sĩ cho em hỏi là trường hợp của em có hướng điều trị được không ạ? Le Thi Ly(1994) Trả lời",
+    "ground_truth": "Chào bạn! Trước tiên bạn cần xác định chắc chắn thai còn phát triển hay không. Chỉ nên điều trị khi chắc chắn thai còn phát triển bạn nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Được giải đáp bởi Bác sĩ Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
+    "answer": "Ở thai 6 tuần chưa có tim thai, túi ối to nhưng phôi nhỏ thì chưa thể kết luận chắc chắn thai ngừng tiến triển; theo tiêu chuẩn, chỉ khi CRL ≥7 mm mà chưa có tim thai mới đủ điều kiện chẩn đoán thai lưu. Bạn nên siêu âm lại sau 1–2 tuần để theo dõi; beta HCG chỉ có giá trị tham khảo và cần xét nghiệm 2 lần để so sánh sau 48 giờ. Nếu lần siêu âm sau vẫn không có tim thai hoặc beta HCG giảm, có thể xác định thai đã ngừng tiến triển; khi đó không còn cách giữ thai và bác sĩ sẽ tư vấn dùng thuốc hoặc nạo hút. Do bạn từng bị chửa trứng bán phần, nếu phải nạo hút cần tiếp tục theo dõi HCG theo hướng dẫn bác sĩ.",
     "evidence": [
         "Trả lời: bác sĩ xin giải đáp như sau: Với tuổi thai 5-6 tuần, túi thai méo, không đều và chưa có tim thai, không thể kết luận chắc chắn làthai ngừng tiến triển.",
         "Bạn nên siêu âm lại sau 1-2 tuần hoặc làm thêm xét nghiệm beta HCG để đánh giá sự phát triển của thai sau 48h.",
         "Nếu kết quả siêu âm sau 1-2 tuần thai không có tim thai hoặc xét nghiệm chỉ số beta HCG giảm sau 48 giờ, chứng tỏ rằng thai của bạn đã ngưng tiến triển.",
-        "Với một thai đã kết luận chắc chắn ngưng tiến triển, không còn cách nào giữ thai và bạn phải dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
         "Trả lời: bác sĩ xin giải đáp như sau: Theo tiêu chuẩn thì thai có CRL>= 7mm mà chưa có tim thai thì mới đủ điều kiện chẩn đoán thai lưu.",
         "Vì vậy trong trường hợp của bạn cần theo dõi tiếp sau 1-2 tuần.",
+        "Với một thai đã kết luận chắc chắn ngưng tiến triển, không còn cách nào giữ thai và bạn phải dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
+        "Còn kết quả Beta HCG chỉ có giá trị tham khảo thôi, không có giá trị chẩn đoán thai lưu hay không và phải là 2 lần để so sánh.",
         "Sau khi nạo thai, mẹ bầu vẫn được tiếp tục theo dõi và xét nghiệm nồng độ HCG mỗi tuần đến khi âm tính ba lần liên tiếp, sau đó mỗi tháng một lần trong 6 tháng.",
-        "Trong trường hợp, sau khi nạo thai trứng bán phần, nồng độ HCG giảm tốt thì sau 6 tháng ổn định, có thể để có thai lại.",
-        "Nếu kích thước phôi thai trên 7mm mà không có tim thai là thai ngừng phát triển."
+        "Trong trường hợp, sau khi nạo thai trứng bán phần, nồng độ HCG giảm tốt thì sau 6 tháng ổn định, có thể để có thai lại."
     ],
-    "retrieval_history": [
+    "retrieved": [
         [
             {
                 "text": "Câu hỏi: Em đang mang thai được 5,6 tuần. Tuy nhiên, em bị ra máu nâu, sáng hôm sau ra máu đỏ, không đau bụng. Em đã đi siêu âm đầu dò và được chẩn đoán túi thai méo, không đều, chưa có tim thai. Do đó, bác sĩ kết luận thai ngừng phát triển và chỉ định em ngậm thuốc bỏ thai vào ngày mai. Bác sĩ cho em hỏi,thai nhi 6 tuần chưa có tim thai, túi thai méo có nguy hiểm không?\nTrả lời: bác sĩ xin giải đáp như sau: Với tuổi thai 5-6 tuần, túi thai méo, không đều và chưa có tim thai, không thể kết luận chắc chắn làthai ngừng tiến triển. Bạn nên siêu âm lại sau 1-2 tuần hoặc làm thêm xét nghiệm beta HCG để đánh giá sự phát triển của thai sau 48h. Nếu kết quả siêu âm sau 1-2 tuần thai không có tim thai hoặc xét nghiệm chỉ số beta HCG giảm sau 48 giờ, chứng tỏ rằng thai của bạn đã ngưng tiến triển. Với một thai đã kết luận chắc chắn ngưng tiến triển, không còn cách nào giữ thai và bạn phải dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
-                "score": 0.707466721534729,
+                "score": 0.7322591543197632,
                 "id": "medical_vietnamese_qa_3043",
                 "rerank_score": 0.9913597702980042
             },
             {
                 "text": "Câu hỏi: Năm nay em 21 tuổi, một tuần trước em có đi siêu âm thì phiếu siêu âm có ghi là lòng tử cung có hình túi thai GS 19mm thai được sáu tuần chưa có tim thai, đường kính trước sau của em là 50mm. Xin hỏi bác sĩthai nhi 6 tuần chưa có tim thai đáng lo không?Đường kính tử cung có rộng quá không? Em cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Thai nhi 6 tuần chưa có tim thai đáng lo không?”, bác sĩ giải đáp như sau: Thai 6 tuần chưa có tim thai cũng chưa có gì là bất thường, bạn nên đi kiểm tra lại sau 1 tuần xem đã có tim thai chưa. Đường kính tử cung của bạn là bình thường.",
-                "score": 0.6904100775718689,
+                "score": 0.7088481783866882,
                 "id": "medical_vietnamese_qa_1364",
                 "rerank_score": 0.9892964959144592
             },
             {
+                "text": "Câu hỏi: Em đang mang thai 6 được tuần siêu âm cho kết quả: gs: 14mm; crl:2.7mm, chưa có tim thai. Bác sĩ cho em hỏithai 6 tuần chưa có tim thai có gì bất thường?Mong nhận được phản hồi của bác sĩ. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo tiêu chuẩn thì thai có CRL>= 7mm mà chưa có tim thai thì mới đủ điều kiện chẩn đoán thai lưu. Vì vậy trong trường hợp của bạn cần theo dõi tiếp sau 1-2 tuần. Bạn nên hỏi thêm thông tin về túi noãn hoàng của thai.",
+                "score": 0.7169093489646912,
+                "id": "medical_vietnamese_qa_2148",
+                "rerank_score": 0.9686369299888611
+            },
+            {
+                "text": "Câu hỏi: Em trễ kinh và đi siêu âm, thì phát hiện túi thai trong tử cung 6 tuần tuổi, nhưng chưa thấy phôi thai. Hiện nay vì dịch bệnh em không thể đi bệnh viện để thăm khám. Bác sĩ cho em hỏitúi thai trong trong tử cung 6 tuần tuổi nhưng chưa có phôi thai có sao không?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ. Bùi Thị Nga(1989) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Trương Thị Phượng- Bác sĩ Siêu âm sản phụ khoa - Khoa Sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn cho mình hỏi thêm bạn trễ kinh bao nhiêu ngày, chu kỳ kinh của bạn có đều không? Trên siêu âm túi thai khoảng 6 tuần và chưa có phôi thì có thể có 2 khả năng, một là thai còn bé chưa có phôi, cần theo dõi thêm sau 1-2 tuần. Khả năng thứ hai có thể túi thai không phát triển. Dù khả năng gì thì cũng còn sớm để kết luận. Nếu không có triệu chứng gì thì bạn có thể siêu âm kiểm tra sau 1-2 tuần. Nếu có triệu chứng bất thường: Đau bụng, ra máu âm đạo,... bạn cần đến gặp bác sĩ sớm hơn bất cứ lúc nào.",
+                "score": 0.7031445503234863,
+                "id": "medical_vietnamese_qa_1859",
+                "rerank_score": 0.9265540242195129
+            },
+            {
+                "text": "Câu hỏi: Thai em được 7 tuần 4 ngày. Túi thai: 30mm, phôi thai: 5,7mm, chưa có tim thai. Bác sĩ ch em hỏi,siêu âm 7 tuần chưa có tim thai có nguy hiểm không?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Với thông tin bạn cung cấp, hiện tại bác sĩ chỉ có thể cho rằngtiên lượng cho thai không tốt. Bạn nên đến khám tại các trung tâm sản khoa uy tín, có thể làm các xét nghiệm cần thiết để được tư vấn chi tiết.",
+                "score": 0.6969830989837646,
+                "id": "medical_vietnamese_qa_2440",
+                "rerank_score": 0.9009996056556702
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Em đang mang thai được 5,6 tuần. Tuy nhiên, em bị ra máu nâu, sáng hôm sau ra máu đỏ, không đau bụng. Em đã đi siêu âm đầu dò và được chẩn đoán túi thai méo, không đều, chưa có tim thai. Do đó, bác sĩ kết luận thai ngừng phát triển và chỉ định em ngậm thuốc bỏ thai vào ngày mai. Bác sĩ cho em hỏi,thai nhi 6 tuần chưa có tim thai, túi thai méo có nguy hiểm không?\nTrả lời: bác sĩ xin giải đáp như sau: Với tuổi thai 5-6 tuần, túi thai méo, không đều và chưa có tim thai, không thể kết luận chắc chắn làthai ngừng tiến triển. Bạn nên siêu âm lại sau 1-2 tuần hoặc làm thêm xét nghiệm beta HCG để đánh giá sự phát triển của thai sau 48h. Nếu kết quả siêu âm sau 1-2 tuần thai không có tim thai hoặc xét nghiệm chỉ số beta HCG giảm sau 48 giờ, chứng tỏ rằng thai của bạn đã ngưng tiến triển. Với một thai đã kết luận chắc chắn ngưng tiến triển, không còn cách nào giữ thai và bạn phải dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
+                "score": 0.6725463271141052,
+                "id": "medical_vietnamese_qa_3043",
+                "rerank_score": 0.9913597702980042
+            },
+            {
                 "text": "Câu hỏi: Hiện tại, thai của em được 6 tuần 2 ngày tuổi, phôi thai 5mm. Khi em đi siêu âm, bác sĩ bảo chưa có tim thai và cho em làm xét nghiệm beta HCG cho kết quả là 61866. Xin hỏi bác sĩphôi thai 5mm nhưng siêu âm chưa có tim thai có sao không? Sally(Hà Nội) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Khắc Hiệu -Bác sĩ sản phụ khoa - Khoa Sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Phôi thai kích thước 5mm mà chưa có tim thai chứng tỏ thai tiên lượng không tốt. Nếu kích thước phôi thai trên 7mm mà không có tim thai là thai ngừng phát triển. Còn kết quả Beta HCG chỉ có giá trị tham khảo thôi, không có giá trị chẩn đoán thai lưu hay không và phải là 2 lần để so sánh. Với trường hợp của bạn nếu không đau bụng, không ra máu thì siêu âm kiểm tra sau 1 tuần, nếu không có tim thai là thai của bạn ngừng phát triển.",
-                "score": 0.6983706951141357,
+                "score": 0.6314065456390381,
                 "id": "medical_vietnamese_qa_2764",
                 "rerank_score": 0.9763042330741882
             },
             {
                 "text": "Câu hỏi: Em đang mang thai 6 được tuần siêu âm cho kết quả: gs: 14mm; crl:2.7mm, chưa có tim thai. Bác sĩ cho em hỏithai 6 tuần chưa có tim thai có gì bất thường?Mong nhận được phản hồi của bác sĩ. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo tiêu chuẩn thì thai có CRL>= 7mm mà chưa có tim thai thì mới đủ điều kiện chẩn đoán thai lưu. Vì vậy trong trường hợp của bạn cần theo dõi tiếp sau 1-2 tuần. Bạn nên hỏi thêm thông tin về túi noãn hoàng của thai.",
-                "score": 0.711581826210022,
+                "score": 0.6375542879104614,
                 "id": "medical_vietnamese_qa_2148",
                 "rerank_score": 0.9686369299888611
             },
             {
-                "text": "Câu hỏi: ! Em siêu âm thai 6 tuần 5 ngày có tim thai nhưng bác sĩ bảo chưa có phôi thai. Vậy bác sĩ cho em hỏithai 6 tuần 5 ngàycó tim thai nhưng chưa có phôi thaicó sao không? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Sang tuần thứ 6 của thai kỳ, bé có kích thước bằng hạt đậu và dài khoảng 0,6cm. Bàn tay và bàn chân bé đang nhô ra từ cánh tay và cẳng chân, giống như hình mái chèo. Các nét trên khuôn mặt bé cũng ngày một rõ nét hơn. Nếu gấp mí mắt đang che một phần mắt của bé, bạn sẽ thấy màu mắt, chóp mũi và tĩnh mạch nhỏ ẩn dưới lớp da mỏng manh của con. Thêm vào đó, mắt của bé là hai đốm đen nhỏ chiếm gần 1⁄4 diện tích khuôn mặt, lỗ mũi cũng đã xuất hiện. Theo như chia sẻ của bạn, bạnsiêu âm thai6 tuần 5 ngày cótim thainhưng chưa có phôi thai,có thể nhầm lẫn trong các thuật ngữ, có tim thai đồng nghĩa phải có phôi thai. Bạn có thể kiểm tra lại sau 1 tuần để đánh giá sự phát triển của thai. Nếu còn thắc mắc, bạn có thể liên hệ hoặc đến trực tiếp một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được các bác sĩ giàu kinh nghiệm tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng và đặt câu hỏi tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ Phạm Minh Kiêm -Bác sĩ Siêu âm Sản Phụ Khoa - Trung tâm Sức khỏe Phụ nữ - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
-                "score": 0.6744629144668579,
-                "id": "medical_vietnamese_qa_3722",
-                "rerank_score": 0.9567672610282898
+                "text": "Câu hỏi: Thai em được 7 tuần 4 ngày. Túi thai: 30mm, phôi thai: 5,7mm, chưa có tim thai. Bác sĩ ch em hỏi,siêu âm 7 tuần chưa có tim thai có nguy hiểm không?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Với thông tin bạn cung cấp, hiện tại bác sĩ chỉ có thể cho rằngtiên lượng cho thai không tốt. Bạn nên đến khám tại các trung tâm sản khoa uy tín, có thể làm các xét nghiệm cần thiết để được tư vấn chi tiết.",
+                "score": 0.6349329352378845,
+                "id": "medical_vietnamese_qa_2440",
+                "rerank_score": 0.9009996056556702
+            },
+            {
+                "text": "Câu hỏi: Vì sao siêu âm không có tim thai?\nTrả lời: 2. Vì sao siêu âm không có tim thai?\nSiêu âm thai 6 tuần nếu kết quả phôi thai hoàn chỉnh, tim thai bắt đầu xuất hiện thì đây là tín hiệu vui bởi bé đang phát triển rất tốt. Tuy nhiên, các mẹ cũng đừng quá lo lắng nếu chưa thấy tim thai hay chưa nghe được nhịp đập tim thai, bác sĩ sẽ xác định và giải thích nguyên nhân. Ở lần khám tới, nếu thai nhi phát triển bình thường, bạn sẽ thấy nhịp tim bé đập rõ ràng. Song, nếu thai nhi đã lớn mà siêu âm không có tim thai, không nghe được nhịp đập tim thai, thì có thể do một số nguyên nhân sau: 2.1 Sảy thai Hầu hết các trường hợp siêu âm không có tim thai là do sảy thai nếu không phải do sai sót trong tính toán tuổi thai. Nguyên nhân khiến sảy thai có thể là do: Sảy thai tự nhiên : hiện chưa xác định được nguyên nhân gây ra tình trạng nhịp tim thai đang đập bỗng dừng lại, kết quả là dù sức khỏe của mẹ vẫn rất tốt mặc dù thực tế em bé không còn. Bất thường nhiễm sắc thể , trứng hỏng, chất lượng tinh trùng hoặc tinh trùng kém, phân chia tế bào bất thường là những nguyên nhân khiến 50% trường hợp sảy thai tự nhiên. Sức khỏe của mẹ: sảy thai dễ xảy ra nếu mẹ mắc một số tình trạng sức khỏe sau: Hội chứng buồng trứng đa nang , bệnh tiểu đường, chứng rối loạn đông máu , tuyến giáp có vấn đề, rối loạn miễn dịch , bất thường ở tử cung, cổ tử cung thiểu năng. Hội chứng buồng trứng đa nang là nguyên nhân gây sảy thai Tác động bên ngoài: nguyên nhân gây tim thai ngừng đập, sảy thai còn có thể là do tác động không mong muốn từ môi trường bên ngoài, bao gồm: Bị va đập, chấn thương vùng bụng Mẹ ốm, mắc các bệnh nhiễm trùng như rubella , toxoplasmosis.... Mẹ hút thuốc lá, uống rượu, sử dụng chất kích thích, sử dụng ma túy, nhiễm HIV/AIDS... Mẹ bị trầm cảm , stress trong thời gian dài Mẹ tiếp xúc trong môi trường độc hại 2.2 Rối loạn nhịp tim ở thai nhi Rối loạn nhịp tim ở thai nhi là trường hợp khá hiếm gặp, tình trạng này thường xảy ra tại một thời điểm nào đó chứ không thể kéo dài trong cả quá trình mang thai. Thai nhi bị rối loạn nhịp tim chỉ mang tính tạm thời, và thường lành tính, tuy nhiên, một số trường hợp thai nhi có thể tử vong. Nhịp đập tim thai thường cao hơn so với người bình thường, tầm 120-160 nhịp/phút. Bé có thể tăng nhanh nhịp tim, chậm hoặc dừng đột ngột nếu bị rối loạn tim thai. 2.3 Thiết bị siêu âm không đảm bảo Yếu tố quan trọng giúp bạn nghe chính xác, rõ ràng nhịp đập tim thai bao gồm thiết bị siêu âm hiện đại và ống nghe tốt. Tuy nhiên, bạn có thể lầm tưởng không có tim thai hoặc thai nhi gặp vấn đề nếu có lỗi thiết bị. Có thể do thiết bị không đủ nhạy để bạn có thể nghe thấy khi tim thai đập còn rất yếu ớt, đặc biệt ở những tuần thai thứ 6--8. 2.4 Tính toán sai tuổi thai Bởi nguyên nhân tính sai tuổi thai mà rất nhiều trường hợp siêu âm 7 tuần chưa có tim thai. Bởi lúc này thai nhi còn nhỏ, tuổi thai có thể sai lệch từ 1 -2 tuần bởi mẹ và bác sĩ tính tuổi thai dựa trên ngày rụng trứng . 2.5 Do hình thức siêu âm Kết quả siêu âm có thể bị ảnh hưởng bởi hình thức siêu âm mà mẹ bầu lựa chọn. Thời điểm thai nhi còn nhỏ, nhịp đập chưa rõ, thực hiện siêu âm vùng bụng thường ít nhạy hơn, khó xác định nhịp tim thai. Siêu âm đầu dò sẽ cho kết quả chính xác hơn bởi đầu dò tiếp cận gần với tử cung hơn. Siêu âm đầu dò cho kết quả chính xác",
+                "score": 0.6482742428779602,
+                "id": "vietnamese_healthcare_2974",
+                "rerank_score": 0.8150731921195984
             }
         ],
         [
             {
                 "text": "Câu hỏi: Em đang mang thai được 5,6 tuần. Tuy nhiên, em bị ra máu nâu, sáng hôm sau ra máu đỏ, không đau bụng. Em đã đi siêu âm đầu dò và được chẩn đoán túi thai méo, không đều, chưa có tim thai. Do đó, bác sĩ kết luận thai ngừng phát triển và chỉ định em ngậm thuốc bỏ thai vào ngày mai. Bác sĩ cho em hỏi,thai nhi 6 tuần chưa có tim thai, túi thai méo có nguy hiểm không?\nTrả lời: bác sĩ xin giải đáp như sau: Với tuổi thai 5-6 tuần, túi thai méo, không đều và chưa có tim thai, không thể kết luận chắc chắn làthai ngừng tiến triển. Bạn nên siêu âm lại sau 1-2 tuần hoặc làm thêm xét nghiệm beta HCG để đánh giá sự phát triển của thai sau 48h. Nếu kết quả siêu âm sau 1-2 tuần thai không có tim thai hoặc xét nghiệm chỉ số beta HCG giảm sau 48 giờ, chứng tỏ rằng thai của bạn đã ngưng tiến triển. Với một thai đã kết luận chắc chắn ngưng tiến triển, không còn cách nào giữ thai và bạn phải dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
-                "score": 0.655698299407959,
+                "score": 0.6137275695800781,
                 "id": "medical_vietnamese_qa_3043",
                 "rerank_score": 0.9913597702980042
             },
             {
-                "text": "Câu hỏi: Em có đi siêu âm thai tại phòng khám tư, kết quả cho thấy túi thai méo, thai 7-8 tuần phôi nhỏ, không thấytim thai. Bác sĩ cho em hỏithai 7-8 tuần chưa có tim thai, phôi nhỏ phải làm sao?Em cảm ơn bác sĩ. Câu hỏi khách hàng ẩn danh Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Trương Thị Phượng- Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Túi thai 7-8 tuần chưa có tim thai mà phôi nhỏ thì tiên lượng không được tốt lắm. Trường hợp này bạn cần tái khám theo lịch của bác sĩ hẹn đề đánh giá thêm, thường sau 1- 2 tuần.",
-                "score": 0.5951070785522461,
-                "id": "medical_vietnamese_qa_4139",
-                "rerank_score": 0.9792901277542114
-            },
-            {
                 "text": "Câu hỏi: Điều trị và phòng tránh chửa trứng bán phần\nTrả lời: 4. Điều trị và phòng tránh chửa trứng bán phần\nKhi bị chửa trứng, cách điều trị thông thường là nong cổ tử cung để nạo, hút sạch thai trứng ra khỏi tử cung Khi bị chửa trứng, cách điều trị thông thường là nong cổ tử cung để nạo, hút sạch thai trứng ra khỏi tử cung. Điều này cần được thực hiện sớm để tránh bị sảy hoặc phát triển thành ác tính. Sau khi nạo thai, mẹ bầu vẫn được tiếp tục theo dõi và xét nghiệm nồng độ HCG mỗi tuần đến khi âm tính ba lần liên tiếp, sau đó mỗi tháng một lần trong 6 tháng. Trong thời gian theo dõi không nên có thai. Trong trường hợp, sau khi nạo thai trứng bán phần, nồng độ HCG giảm tốt thì sau 6 tháng ổn định, có thể để có thai lại. Chửa trứng là một căn bệnh sản khoa nguy hiểm, nhiều nguy cơ biến chứng nên mỗi phụ nữ cần có những hiểu biết nhất định về nó để phòng tránh. Ăn uống đủ chất rất quan trọng trong độ tuổi sinh nở. Bên cạnh đó, các bà mẹ cần thực hiện kế hoạch hoá gia đình, không sinh quá nhiều con, và sinh gần nhau, không nên sinh con khi đã quá 35 tuổi . Ngoài ra, khi có kế hoạch mang thai, các bà mẹ nên đến thăm khám bác sĩ để kiểm tra nguy cơ cũng như khả năng có thể mang chửa trứng để có biện pháp phòng tránh sớm. Bệnh viện Đa khoa Quốc tế Vinmec là một trong những bệnh viện không những đảm bảo chất lượng chuyên môn với đội ngũ y bác sĩ, hệ thống trang thiết bị công nghệ hiện đại mà còn nổi bật với dịch vụ khám, tư vấn và chữa bệnh toàn diện, chuyên nghiệp; không gian khám chữa bệnh văn minh, lịch sự, an toàn và tiệt trùng tối đa.",
-                "score": 0.6227821111679077,
+                "score": 0.6179544925689697,
                 "id": "vietnamese_healthcare_70571",
                 "rerank_score": 0.9200582504272461
             },
             {
                 "text": "Câu hỏi: Thai em được 7 tuần 4 ngày. Túi thai: 30mm, phôi thai: 5,7mm, chưa có tim thai. Bác sĩ ch em hỏi,siêu âm 7 tuần chưa có tim thai có nguy hiểm không?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Với thông tin bạn cung cấp, hiện tại bác sĩ chỉ có thể cho rằngtiên lượng cho thai không tốt. Bạn nên đến khám tại các trung tâm sản khoa uy tín, có thể làm các xét nghiệm cần thiết để được tư vấn chi tiết.",
-                "score": 0.6090368032455444,
+                "score": 0.5941495299339294,
                 "id": "medical_vietnamese_qa_2440",
                 "rerank_score": 0.9009996056556702
             },
             {
-                "text": "Câu hỏi: bác sĩ cho em hỏi em đikhám thaiđược báo túi thai khoảng 7 tuần nhưng chiều dài thai được khoảng 6 tuần, phát triển không tương ứng (dư hậu xấu) hiện tại vẫn chưa cótim thaithì có phải em bịthai lưukhông ạ? Bùi Thị Hồng Phước (1994) Trả lời\nTrả lời: Chào bạn, cảm ơn bạn đã gửi thắc mắc về website, những trường hợp như của bạn mô tả thì chưa kết luận đầy đủ được. Để đi biết kết quả chắc chắn thì bạn nên siêu âm thai lại sau 1 tuần bạn nhé. Bác sĩ CKI Trương Nghĩa Bình- Khoa Sản Phụ Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
-                "score": 0.5959529280662537,
-                "id": "medical_vietnamese_qa_4324",
-                "rerank_score": 0.7500083446502686
-            }
-        ],
-        [
-            {
-                "text": "Câu hỏi: Em đang mang thai được 5,6 tuần. Tuy nhiên, em bị ra máu nâu, sáng hôm sau ra máu đỏ, không đau bụng. Em đã đi siêu âm đầu dò và được chẩn đoán túi thai méo, không đều, chưa có tim thai. Do đó, bác sĩ kết luận thai ngừng phát triển và chỉ định em ngậm thuốc bỏ thai vào ngày mai. Bác sĩ cho em hỏi,thai nhi 6 tuần chưa có tim thai, túi thai méo có nguy hiểm không?\nTrả lời: bác sĩ xin giải đáp như sau: Với tuổi thai 5-6 tuần, túi thai méo, không đều và chưa có tim thai, không thể kết luận chắc chắn làthai ngừng tiến triển. Bạn nên siêu âm lại sau 1-2 tuần hoặc làm thêm xét nghiệm beta HCG để đánh giá sự phát triển của thai sau 48h. Nếu kết quả siêu âm sau 1-2 tuần thai không có tim thai hoặc xét nghiệm chỉ số beta HCG giảm sau 48 giờ, chứng tỏ rằng thai của bạn đã ngưng tiến triển. Với một thai đã kết luận chắc chắn ngưng tiến triển, không còn cách nào giữ thai và bạn phải dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
-                "score": 0.603406548500061,
-                "id": "medical_vietnamese_qa_3043",
-                "rerank_score": 0.9913597702980042
+                "text": "Câu hỏi: Em bị trễ kinh được 10 ngày. Đi siêu âm thì bác sĩ nói chưa có phôi thai, tim thai, bóc tách 50%. Hẹn em 5 ngày nữa đi khám lại. Bác sĩ cho em hỏisiêu âm không có phôi thai, tim thai và bóc tách 50% nguy hiểm không?Em xin cảm ơn bác. Nguyễn Kỳ Duyên(1987) Trả lời Được giải đáp bởiBSCK I Huỳnh Công Tấn- Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: Chào bạn, Với câu hỏi “Siêu âm không có phôi thai, tim thai và bóc tách 50% nguy hiểm không?”, bác sĩ giải đáp như sau: Các triệu chứng mô tả của bạn rất nguy hiểm, có thể thai ngưng phát triển và dọa sảy thai. Tuy nhiên, bạn cần khám lại sau 5 ngày để đánh giá lại, có thể lúc đó có phôi nếu lần siêu âm trước thai nhỏ không thấy được, cần theo dõi thêm 1 tuần nữa. Ngoài ra, nếu bạn có toa thuốc dưỡng thai thì chưa cần khám ngay, chỉ khám khi ra máu nhiều.",
+                "score": 0.5987994074821472,
+                "id": "medical_vietnamese_qa_2217",
+                "rerank_score": 0.8935720920562744
             },
             {
-                "text": "Câu hỏi: Hiện tại, thai của em được 6 tuần 2 ngày tuổi, phôi thai 5mm. Khi em đi siêu âm, bác sĩ bảo chưa có tim thai và cho em làm xét nghiệm beta HCG cho kết quả là 61866. Xin hỏi bác sĩphôi thai 5mm nhưng siêu âm chưa có tim thai có sao không? Sally(Hà Nội) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Khắc Hiệu -Bác sĩ sản phụ khoa - Khoa Sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Phôi thai kích thước 5mm mà chưa có tim thai chứng tỏ thai tiên lượng không tốt. Nếu kích thước phôi thai trên 7mm mà không có tim thai là thai ngừng phát triển. Còn kết quả Beta HCG chỉ có giá trị tham khảo thôi, không có giá trị chẩn đoán thai lưu hay không và phải là 2 lần để so sánh. Với trường hợp của bạn nếu không đau bụng, không ra máu thì siêu âm kiểm tra sau 1 tuần, nếu không có tim thai là thai của bạn ngừng phát triển.",
-                "score": 0.5811673998832703,
-                "id": "medical_vietnamese_qa_2764",
-                "rerank_score": 0.9763042330741882
-            },
-            {
-                "text": "Câu hỏi: Điều trị và phòng tránh chửa trứng bán phần\nTrả lời: 4. Điều trị và phòng tránh chửa trứng bán phần\nKhi bị chửa trứng, cách điều trị thông thường là nong cổ tử cung để nạo, hút sạch thai trứng ra khỏi tử cung Khi bị chửa trứng, cách điều trị thông thường là nong cổ tử cung để nạo, hút sạch thai trứng ra khỏi tử cung. Điều này cần được thực hiện sớm để tránh bị sảy hoặc phát triển thành ác tính. Sau khi nạo thai, mẹ bầu vẫn được tiếp tục theo dõi và xét nghiệm nồng độ HCG mỗi tuần đến khi âm tính ba lần liên tiếp, sau đó mỗi tháng một lần trong 6 tháng. Trong thời gian theo dõi không nên có thai. Trong trường hợp, sau khi nạo thai trứng bán phần, nồng độ HCG giảm tốt thì sau 6 tháng ổn định, có thể để có thai lại. Chửa trứng là một căn bệnh sản khoa nguy hiểm, nhiều nguy cơ biến chứng nên mỗi phụ nữ cần có những hiểu biết nhất định về nó để phòng tránh. Ăn uống đủ chất rất quan trọng trong độ tuổi sinh nở. Bên cạnh đó, các bà mẹ cần thực hiện kế hoạch hoá gia đình, không sinh quá nhiều con, và sinh gần nhau, không nên sinh con khi đã quá 35 tuổi . Ngoài ra, khi có kế hoạch mang thai, các bà mẹ nên đến thăm khám bác sĩ để kiểm tra nguy cơ cũng như khả năng có thể mang chửa trứng để có biện pháp phòng tránh sớm. Bệnh viện Đa khoa Quốc tế Vinmec là một trong những bệnh viện không những đảm bảo chất lượng chuyên môn với đội ngũ y bác sĩ, hệ thống trang thiết bị công nghệ hiện đại mà còn nổi bật với dịch vụ khám, tư vấn và chữa bệnh toàn diện, chuyên nghiệp; không gian khám chữa bệnh văn minh, lịch sự, an toàn và tiệt trùng tối đa.",
-                "score": 0.5764685869216919,
-                "id": "vietnamese_healthcare_70571",
-                "rerank_score": 0.9200582504272461
-            },
-            {
-                "text": "Câu hỏi: Thai em được 7 tuần 4 ngày. Túi thai: 30mm, phôi thai: 5,7mm, chưa có tim thai. Bác sĩ ch em hỏi,siêu âm 7 tuần chưa có tim thai có nguy hiểm không?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Với thông tin bạn cung cấp, hiện tại bác sĩ chỉ có thể cho rằngtiên lượng cho thai không tốt. Bạn nên đến khám tại các trung tâm sản khoa uy tín, có thể làm các xét nghiệm cần thiết để được tư vấn chi tiết.",
-                "score": 0.5802035927772522,
-                "id": "medical_vietnamese_qa_2440",
-                "rerank_score": 0.9009996056556702
-            },
-            {
-                "text": "Câu hỏi: vợ e mang thai được 8 tuần đisiêu âmthì bác sĩ nói chưa có tim thai và khuyên vợ nên bỏ. Vậy em còn hy vọng đợi thêm được hay không ạ hay là phải bỏ? Mong bác sĩ tư vấn giúp! Trần Văn Lợi (Nha Trang) Chào bác sĩ. Bác sĩ cho em hỏi thai 7 tuần 4 ngày không có tim thai túi ối méo liệu có hi vọng giữ lại được không ạ? Mong bác sĩ tư vấn. Xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, nếu siêu âm xác định thai 08 tuần chưa cótim thaithì có thể thai đã ngừng phát triển (vì với máy siêu âm tốt, bác sĩ có kinh nghiệm thì thai 06 tuần đã có thể đo được tim thai rồi), bạn nên đến bệnh viện chuyên khoa để thăm khám lại và được bác sĩ tư vấn thêm nhé. Bác sĩ CKII Trần Thị Mai Hương- Khoa sản phụ khoa - Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng",
-                "score": 0.6173635721206665,
-                "id": "medical_vietnamese_qa_4330",
-                "rerank_score": 0.6876650452613831
+                "text": "Câu hỏi: Em mới khám thai lần đầu, em khám tư siêu âm trắng đen, bác sĩ bảo có thai 5 tuần mà mới có túi thai 11mm, chưa phát hiện gì và cũng không cho lời khuyên em có nên khám lại hay không. Bác sĩ cho em hỏi thai nhi như thế có phát triển đúng không ạ?Kích thước túi thai cho biết tình trạng phôi thai như nào? Kim Ninh(1999) Trả lời Được giải đáp bởiBác sĩ Nguyễn Thị Minh Huyền -Bác sĩ Sản phụ khoa - Khoa Sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp của bạn, hiện tại bác sĩ siêu âm tạm tính tuổi thai theo kích thước túi thai thôi. Với túi thai 11mm trở xuống thì tình trạng chưa thấy rõ được phôi thai là cũng hay gặp. Nếu bạn không có dấu hiệu lâm sàng gì bất thường, chu kỳ kinh của bạn đều và trên siêu âm thấy túi thai bờ đều, không tụ dịch, bóc tách quanh túi thai thì bác sĩ khoa sản sẽ nhẩm tuổi thai theo ngày kinh cuối cùng quanh 05 tuần. Bạn có thể dưỡng thai bình thường theo hướng dẫn của bác sĩ khoa sản và siêu âm kiểm tra lại sau đó khoảng 07 - 10 ngày thì có thể thấy phôi nhỏ khoảng từ 03 - 04mm, xem được phôi có tim thai không.",
+                "score": 0.5938299298286438,
+                "id": "medical_vietnamese_qa_3058",
+                "rerank_score": 0.7624218463897705
             }
         ]
     ],

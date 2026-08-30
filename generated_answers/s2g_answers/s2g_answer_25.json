@@ -1,0 +1,109 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Đau nửa đầu nên dùng thuốc giảm đau nào hiệu quả?",
+    "ground_truth": "Theo mô tả thì các triệu chứng đó thuộc hội chứng đau nửa đầu (đau đầu vận mạch hay còn gọi là Migraine). Gọi là hội chứng vì nó có nhiều dạng, có rất nhiều nguyên nhân. Các cơn đau do mạch máu não bị căng ra rồi co lại bất thường vì chất dẫn truyền thần kinh serotonin được phóng thích và phân hủy đột ngột khi gặp các yếu tố khởi phát như stress, mất ngủ, thay đổi thời tiết, thay đổi nội tiết tố, bia rượu. . . Thuốc nền tảng để điều trị đau nửa đầu là Tamik (Dihydroergotamine). Đây là thuốc cần được bác sĩ kê đơn. Vì vậy, anh vui lòng đến bệnh viện để được bác sĩ thăm khám và làm các xét nghiệm cận lâm sàng để xác định chẩn đoán và điều trị hiệu quả nhất!",
+    "answer": "Bằng chứng được cung cấp không đủ thông tin để xác định thuốc giảm đau nào hiệu quả cho đau nửa đầu. Tài liệu chỉ cho biết Stagerin dùng đường uống và nên uống sau bữa ăn, nhưng không nêu hiệu quả hoặc chỉ định cụ thể đối với đau nửa đầu.",
+    "evidence": [
+        "Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Liều dùng và cách dùng thuốc Stagerin\nTrả lời: 4. Liều dùng và cách dùng thuốc Stagerin\n4.2. Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn.",
+                "score": 0.7299507260322571,
+                "id": "vietnamese_healthcare_152433",
+                "rerank_score": 0.0005033365450799465
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7206325531005859,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.00010016615124186501
+            },
+            {
+                "text": "Câu hỏi: Liều dùng của thuốc Halofar\nTrả lời: 3. Liều dùng của thuốc Halofar\n3.1. Cách dùng: Thuốc Halofar được sử dụng bằng đường uống",
+                "score": 0.7120373249053955,
+                "id": "vietnamese_healthcare_107542",
+                "rerank_score": 4.971306771039963e-05
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.7137982845306396,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 4.043871012981981e-05
+            },
+            {
+                "text": "Câu hỏi: Thuốc Sposamin có tác dụng gì?\nTrả lời: 2. Thuốc Sposamin có tác dụng gì?",
+                "score": 0.7097058892250061,
+                "id": "vietnamese_healthcare_24842",
+                "rerank_score": 3.797244789893739e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Liều dùng và cách dùng thuốc Stagerin\nTrả lời: 4. Liều dùng và cách dùng thuốc Stagerin\n4.2. Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn.",
+                "score": 0.6872938871383667,
+                "id": "vietnamese_healthcare_152433",
+                "rerank_score": 0.0005033363122493029
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.6723995208740234,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 0.00015108140360098332
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.695695161819458,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.00010016615124186501
+            },
+            {
+                "text": "Câu hỏi: Liều dùng của thuốc Itbay\nTrả lời: 3. Liều dùng của thuốc Itbay\n3.1. Cách dùng: Thuốc Itbay được sử dụng bằng đường uống.",
+                "score": 0.6693532466888428,
+                "id": "vietnamese_healthcare_40971",
+                "rerank_score": 5.272316775517538e-05
+            },
+            {
+                "text": "Câu hỏi: Liều dùng của thuốc Halofar\nTrả lời: 3. Liều dùng của thuốc Halofar\n3.1. Cách dùng: Thuốc Halofar được sử dụng bằng đường uống",
+                "score": 0.6744059920310974,
+                "id": "vietnamese_healthcare_107542",
+                "rerank_score": 4.971311500412412e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Liều dùng và cách dùng thuốc Stagerin\nTrả lời: 4. Liều dùng và cách dùng thuốc Stagerin\n4.2. Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn.",
+                "score": 0.6806439757347107,
+                "id": "vietnamese_healthcare_152433",
+                "rerank_score": 0.0005033363122493029
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.6700055003166199,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 0.00015108140360098332
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6862648129463196,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.00010016615124186501
+            },
+            {
+                "text": "Câu hỏi: Liều dùng của thuốc Itbay\nTrả lời: 3. Liều dùng của thuốc Itbay\n3.1. Cách dùng: Thuốc Itbay được sử dụng bằng đường uống.",
+                "score": 0.6693463921546936,
+                "id": "vietnamese_healthcare_40971",
+                "rerank_score": 5.272316775517538e-05
+            },
+            {
+                "text": "Câu hỏi: Liều dùng của thuốc Halofar\nTrả lời: 3. Liều dùng của thuốc Halofar\n3.1. Cách dùng: Thuốc Halofar được sử dụng bằng đường uống",
+                "score": 0.6703873872756958,
+                "id": "vietnamese_healthcare_107542",
+                "rerank_score": 4.971311500412412e-05
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

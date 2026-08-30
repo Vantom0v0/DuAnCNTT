@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "chào bác sĩ, em mới qh với bạn trai và khong dùng biện pháp tránh thai, thứ 7 tuần trước bọn em cũng có qh, hôm đó em có dùng thuốc tránh thai, em cũng qua kì kinh nguyệt khá lâu, kì kinh nguyệt của em cũng không đều, bsi cho em hỏi nay qh xong em khong sdung biện pháp tránh thai nvay có thai khong? mong bsi tư vấn giép em.",
+    "ground_truth": "Chào bạn,\nCó khả năng có thai bạn nhé. Bạn có thể mua que test Quick thử thai sau quan hệ 5-7 ngày để thử xem hoặc xét nghiệm máu beta HcG để xác chẩn có thai không ? Còn thời gian lâu rồi thì có thể đi siêu âm thai kiểm tra bạn. Tất cả đều có thể kiểm tra. \nThân ái !",
+    "answer": "Chào em, lần quan hệ hôm nay vẫn có khả năng mang thai vì thuốc tránh thai khẩn cấp em uống vào thứ Bảy chỉ giúp giảm nguy cơ cho lần quan hệ trước đó, không bảo vệ cho những lần quan hệ sau. Do chu kỳ của em không đều và đang trễ kinh, em nên uống thuốc tránh thai khẩn cấp càng sớm càng tốt nếu vẫn trong vòng 72 giờ sau lần quan hệ này (hiệu quả không tuyệt đối); không nên lạm dụng thuốc và nên dùng bao cao su hoặc biện pháp tránh thai thường xuyên. Em hãy thử que sau khoảng 2 tuần kể từ lần quan hệ hôm nay hoặc khi trễ kinh trên 7 ngày; nếu âm tính nhưng vẫn chưa có kinh, thử lại sau vài ngày hoặc đi khám.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nBác sĩ cho em hỏi, e có uống thuốc tránh thai khẩn cấp 2 lần cách nhau 3 ngày. Xong ngày hôm sau lại quan hệ không có biện pháp tránh thai j. Thì nguy cơ có thai của em có cao không ạ\nTrả lời: Xin chào em gái, \n\nThuốc tránh thai khẩn cấp chỉ được sử dụng khi có quan hệ không an toàn và cũng không phải là biện pháp thực sự quá hiệu quả để tránh thai. Trường hợp của em đã dùng liên tiếp 2 đợt thuốc tránh thai chỉ trong vòng 3 ngày cũng là yếu tố để làm giảm khả năng bảo vệ. Ngoài ra, em cũng có quan hệ không an toàn sau đó. Như vậy, tác dụng bảo vệ tránh thai của em rất khó dự đoán. Hiện tại, em nên theo dõi vòng kinh của mình. 2 tuần sau khi quan hệ, em thử thai bằng que thử thai để khẳng định có an toàn hay không nhé. (với điều kiện trong thời gian này, em không có quan hệ không an toàn nữa). Ngoài ra, thuốc tránh thai khẩn cấp là nội tiết tố nồng độ cao, có khả năng gây rối loạn hệ nội tiết. Em cũng cần lưu ý và không nên lạm dụng kẻo gây hậu quả vô sinh sau này. Nếu em và bạn trai có quan hệ thường xuyên như vậy, chị nghĩ em có thể lựa chọn biện pháp an toàn hơn như sử dụng bao cao su (vừa tránh thai, vừa tránh bệnh tật), dùng thuốc tránh thai hằng ngày để giảm thiểu tác dụng phụ lên cơ quan sinh sản của em nhé. Là phụ nữ, em cần biết cách để bảo vệ mình và hạnh phúc sau này của mình nhé!\n\nChúc em khỏe,",
+            "score": 0.7352448105812073,
+            "id": "vietnamese_medical_qa_6927"
+        },
+        {
+            "text": "Câu hỏi: sau khi quan hệ 30p em có dùng thuốc tránh thai khẩn cấp như vậy có khả năng mang thai không ạ ?\nTrả lời: Chào bạn, cám ơn bạn đã gửi câu hỏi\n   Không có biện pháp tránh thai hiệu quả 100%, vẫn có tỉ lệ rất nhỏ có thể có thai, bạn nên theo dõi thêm nếu có trễ kinh hơn một tuần nên thử que kiểm tra, thuốc tránh thai khẩn cấp cũng có thể gây rối loạn nội tiết, trễ kinh.\nChúc bạn nhiều sức khoẻ - Thân chào bạn",
+            "score": 0.7315294742584229,
+            "id": "vietnamese_medical_qa_5710"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em có quan hệ không dùng bao cao su, quan hệ xong thì em có uống thuốc tránh thai khẩn cấp, mà em uống tận 2 viên, 1 tuần sau em có kinh thì không biết có bị dính thai không ạ?\nTrả lời: Chào bạn! Thuốc tránh thai khẩn cấp có tác dụng phòng ngừa mang thai ngoài ý muốn khi quan hệ mà không có biện pháp phòng tránh. Theo bạn mô tả, bạn uống thuốc tránh thai khẩn cấp sau 1 tuần thì có kinh, khả năng cao bạn không có thai nhé. Tuy nhiên, lạm dụng thuốc tránh thai khẩn cấp có thể dẫn đến những mối nguy hại khôn lường. Cần sử dụng thuốc một cách hợp lý và an toàn để bảo vệ sức khỏe của bản thân. Các chuyên gia y tế khuyến cáo không nên quá lạm dụng thuốc tránh thai khẩn cấp. Không dùng quá 2 liều/tháng và quá 3 lần/năm để bảo vệ sức khỏe của bản thân, đặc biệt là khả năng sinh sản bạn nhé.",
+            "score": 0.7263792753219604,
+            "id": "vietnamese_medical_qa_3542"
+        },
+        {
+            "text": "Câu hỏi: cháu chào bác sĩ\ncháu muốn hỏi. cháu có quan hệ tình dục nhưng không sử dụng bao. chồng cháu có suất tinh vào bên trong. do vẫn chưa muốn có em bé nên 20p sau khi quan hệ cháu đã uống thuốc tránh thai khẩn cấp. cho cháu hỏi như vậy có tránh thai được không ạ\nTrả lời: Chào bạn, cám ơn bạn đã gửi câu hỏi\nThuốc tránh thai khẩn cấp khi được sử dụng trong 72 giờ đầu sau quan hệ tình dục không an toàn có hiệu quả tránh thai tương đối cao, tuy nhiên không phải trường hợp nào thuốc tránh thai khẩn cấp cũng có tác dụng do đó bạn cần theo dõi dấu hiệu trễ kinh và thử que sau 7 ngày trễ kinh. Thuốc tránh thai khẩn cấp có nhiều tác dụng phụ do đó không nên lạm dụng thuốc tránh thai khẩn cấp có thể ảnh hưởng đến sức khỏe sinh sản của bạn.\nChúc bạn nhiều sức khoẻ - Thân chào bạn",
+            "score": 0.7255691289901733,
+            "id": "vietnamese_medical_qa_6011"
+        },
+        {
+            "text": "Câu hỏi: Em có nên dùng thuốc tránh thai khẩn cấp không ạ? Sáng nay em có quan hệ, lần đầu dùng bao cao su, lần 2 cách đó 2 giờ và không dùng bao nhưng ra bên ngoài và thấy loãng. Kinh nguyệt em vừa hết cách đây 10 ngày, em đã dùng thuốc tránh thai khẩn cấp 2 lần, cách đây 7 tháng và 5 tháng ạ. Mong bác sĩ tư vấn.\nChào bác sĩ. Dạ cho em hỏi quan hệ với bạn trai trong những ngày an toàn thì liệu có khả năng mang thai cao không ạ có cần dùng thuốc tránh thai khẩn cấp không tại trong tháng em đã dùng một lần. Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn. Thuốc tránh thai khẩn cấp được dùng cho phụ nữ không muốn mang thai sau khi quan hệ tình dục không an toàn.\nĐối với trường hợp của bạn, trong vòng 72 giờ sau khi quan hệ tình dục bạn nên uống thuốc tránh thai khẩn cấp càng sớm càng tốt. Thời gian dùng thuốc càng sớm thì hiệu quả càng cao. Nếu sử dụng thuốc sau 72 giờ thì tác dụng tránh thai sẽ giảm đi đáng kể, nhiều trường hợp tránh thai thất bại.\nTheo các chuyên gia y tế, không nên dùng thuốc tránh thai khẩn cấp quá 2 liều/tháng và quá 3 lần/năm để bảo vệ sức khỏe của bản thân, đặc biệt là sức khỏe sinh sản bạn nhé.",
+            "score": 0.7143944501876831,
+            "id": "vietnamese_medical_qa_3513"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

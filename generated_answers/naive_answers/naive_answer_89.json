@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cháu chào bác sĩ ạ. Cháu làm nam, năm nay 19 tuổi. Gần đây cháu phát hiện ra quanh phần đầu của bộ phận sinh dục có các chấm nhỏ bao quanh, xếp thành hàng. Mà cháu có lỡ 1 lần quan hệ không bảo vệ ạ. Vậy là cháu bị bệnh gì ạ?",
+    "ground_truth": "Chào bạn. Với những thông tin bạn cung cấp có thể bạn đang bị viêm nhiễm nam khoa, do vi khuẩn và nấm gây hại tấn công vào vùng kín, gây nhiễm khuẩn đường sinh dục. Nguyên nhân gây viêm nhiễm nam khoa có thể do vệ sinh vùng kín không tốt, quan hệ không sử dụng biện pháp an toàn rất dễ mắc các bệnh lây qua đường tình dục,...\nBạn cần đến cơ sở y tế để được bác sĩ chuyên khoa thăm khám và tư vấn chi tiết nhé.",
+    "answer": "Các chấm nhỏ màu trắng xếp thành hàng quanh đầu dương vật, đặc biệt nếu đã có từ lâu và không gây đau, loét hay tiểu tiện bất thường, có thể là các gai sinh dục lành tính và không phải dị tật, như mô tả trong tài liệu. Tuy nhiên, do cháu từng quan hệ không bảo vệ và tài liệu không cung cấp đủ thông tin để xác định nguyên nhân hay loại trừ bệnh lây truyền qua đường tình dục, cháu nên đến cơ sở y tế hoặc bác sĩ da liễu để được khám và xét nghiệm. Trong thời gian này, nên quan hệ tình dục an toàn và giữ vệ sinh sạch sẽ; nếu có ngứa, sưng đỏ, đau rát, mụn nước, loét hoặc tiết dịch thì cần đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Sưng vùng kín ở bé gái\nTrả lời: 1. Sưng vùng kín ở bé gái\n1.1. Vết sưng mềm Khi trẻ mới sinh ra nếu bộ phận sinh dục của trẻ bị sưng, rất có thể là do trẻ nhận được thêm lượng chất lỏng và hormone từ mẹ trước khi sinh. Hiện tượng sưng tấy này là vô hại và chất lỏng sẽ dần hết theo nước tiểu sau vài ngày. Nếu hiện tượng sưng vẫn không hết hãy liên hệ với bác sĩ nhi khoa của trẻ. Một vài lý do cho hiện tượng trên có thể là sưng hạch bạch huyết (ở hai bên hoặc một bên của bẹn) hay bệnh tăng sản thượng thận bẩm sinh cổ điển. Tăng sản thượng thận bẩm sinh cổ điển xảy ra khi em bé sản xuất quá nhiều nội tiết tố nam , dẫn đến bộ phận sinh dục xuất hiện bất thường khi sinh ra. Ví dụ, bộ phận sinh dục của một bé gái thoạt đầu trông giống nam hơn nữ, và âm vật của bé có thể to ra. Nếu con bạn có biểu hiện như trên thì nó thực sự nghiêm trọng, cần cho trẻ đi khám bác sĩ ngay. Ở một vài trẻ, mẹ của chúng có thể thấy em bé sơ sinh của họ tiết dịch âm đạo với một số chất nhầy có thể dính một chút máu, đó là do trẻ thừa hưởng được nội tiết tố của mẹ trong thời kỳ mang thai. Hiện tượng này cũng không đáng lo ngại. Bộ phận sinh dục của bé bị sưng khi mới sinh là hiện tượng không đáng lo ngại",
+            "score": 0.5490860939025879,
+            "id": "vietnamese_healthcare_94356"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nBác sĩ cho tôi hỏi, năm nay tôi 16 tuổi, ở tinh hoàn bên trái có một vùng gì đó không rõ giống như gân nổi lên khá rõ, không cứng, bám vào tinh hoàn. Vậy tôi bị bệnh gì?\nTrả lời: Chào bạn. Thông thường ở mỗi bên tinh hoàn đều có một bộ phận gọi là mào tinh bám lên, sờ vào thì giống như cọng gân bám lên tinh hoàn. Bạn kiểm tra thử xem bên tinh hoàn bên còn lại cũng giống như vậy không. Nếu vẫn còn lo lắng, bạn nên đến các cơ sở y tế để được tư vấn và điều trị.",
+            "score": 0.5479370355606079,
+            "id": "vietnamese_medical_qa_7651"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nTừ nhỏ đến giờ tôi thấy đầu dương vật của mình có những gai màu trắng xung quanh đầu khấc, chúng nằm vòng xung quanh đường viền của đầu khấc, từ nhỏ đến giờ vẫm thấy chúng mà tôi thấy của mọi ngưòi thì không có các gai này. Dương vật tôi lâu nay tiểu tiện bình thường và không đau đớn gì, các gai này cho cảm giác nhột chứ cũng ko đau đớn, xin hỏi bác sĩ tôi có fai bị dị tật gì ở dương vật không? Xin cảm ơn bác sĩ\nTrả lời: Chào em!\nĐó là tình trạng bình thường của dương vật, Ở 1 số người những gai nhỏ trên dương vật có thể làm tăng thêm khoái cảm khi quan hệ. Không liên can gì đến dị tật. Nên em đừng lo lắng. \nThân ái!",
+            "score": 0.5426051020622253,
+            "id": "vietnamese_medical_qa_8883"
+        },
+        {
+            "text": "Câu hỏi: Cho em hỏi về vấn đề về cơ quan sinh sản ạ :\nBìu , dái nổi lên những cục mụn màu trắng và ngứa . có những hạt to bằng hạt gạo , gãi nhiều thì rát\nTrả lời: Chào bạn, cám ơn bạn đã gửi câu hỏi\nTrường hợp của bạn có thể đang bị viêm nhiễm sinh dục. Bạn nên gặp bác sĩ da liễu để được khám, xét nghiệm - cận lâm sàng, chẩn đoán và điều trị phù hợp, kịp thời. Bên cạnh đó cần phải giữ vệ sinh sạch sẽ, quan hệ tình dục an toàn.\nChúc bạn nhiều sức khoẻ - Thân chào bạn",
+            "score": 0.5408748984336853,
+            "id": "vietnamese_medical_qa_6059"
+        },
+        {
+            "text": "Câu hỏi: Trẻ bị ngứa bao quy đầu là tình trạng gì?\nTrả lời: 1. Trẻ bị ngứa bao quy đầu là tình trạng gì?\nBao quy đầu nằm ở phần đầu dương vật của nam giới, bao bọc bảo vệ “cậu nhỏ” khỏi vi khuẩn, bụi bẩn có hại và giúp duy trì độ ẩm. Bình thường, khi bao quy đầu tụt xuống sẽ để lộ đầu dương vật và lỗ tiểu. Đây là vùng da khá nhạy cảm nên dễ bị tổn thương, viêm nhiễm. Trong đó, viêm bao quy đầu là một bệnh thường gặp ở trẻ. Ngứa bao quy đầu là một biểu hiện đặc trưng của bệnh viêm bao quy đầu. Viêm bao quy đầu ở trẻ có thể do bẩm sinh hoặc do các nguyên nhân khác. Ban đầu, viêm bao quy đầu ở giai đoạn cấp tính. Nếu không điều trị hoặc chữa trị không dứt điểm, bệnh sẽ tiến triển sang giai đoạn mãn tính. Ngoài bị ngứa, trẻ bị viêm bao quy đầu còn có các biểu hiện khác như: Sưng đỏ bao quy đầu, có mụn nước hoặc các nốt nhỏ li ti ở phần đầu dương vật. Lâu ngày, các nốt này có thể bị vỡ ra, lở loét, chảy dịch có mùi hôi; Đau rát, khó chịu ở đầu dương vật, đặc biệt là khi cọ xát vào quần áo; Có các dấu hiệu bất thường về đường tiểu như tiểu rắt, tiểu buốt; Cơ thể mệt mỏi, suy nhược, bị nóng sốt. Sưng đỏ và ngứa bao quy đầu là các biểu hiện cần được cha mẹ phát hiện sớm",
+            "score": 0.5389944911003113,
+            "id": "vietnamese_healthcare_45497"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

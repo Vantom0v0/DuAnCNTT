@@ -1,0 +1,107 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ, cho em hỏi cách nào để giảm thiểu bị huyết áp thấp ?",
+    "ground_truth": "chào bạn!\n\nĐó là tất cả các phương pháp thay đổi lối sống, sinh hoạt và điều chỉnh chế độ ăn uống. Người bệnh huyết áp thấp cần lưu ý một số vấn đề sau:\n\nNgủ đủ giấc : Người bệnh huyết áp thấp cần phải ngủ đẫy giấc, khoảng 9 – 11 tiếng/ngày. Đây cũng là điều mà những người thân trong gia đình có người bị huyết áp thấp cần lưu ý, tránh kìm hãm giấc ngủ của người bệnh.\n\nThức dậy đúng cách : Lý giải vì sao cần như vậy, các chuyên gia phân tích như sau: Khi ngủ, máu sẽ tập trung vào khu vực dạ dày, xuất hiện tình trạng thiếu máu não tạm thời. Nếu người huyết áp thấp dậy đột ngột, có thể người bệnh sẽ bị ngất đi. Chính vì vậy, việc thức dậy đúng cách rất quan trọng với người bị huyết áp thấp. Muốn vậy, người bệnh khi thức dậy cần nằm thêm một lúc, tập một vài động tác đơn giản (có thể vận động các khớp xương chân tay). Sau đó ngồi dậy từ từ, để chân tay trên giường, rồi từ từ cho chân ra khỏi giường và vẫn tiếp tục ngồi. Khi đứng dậy nên vịn vào ghế, cứ đứng như thế một lúc.\n\nTăng cường tập luyện thể dục: Các môn thể dục rất có lợi cho người bị huyết áp thấp như đi bộ, bơi, các trò chơi thể thao. Tuy nhiên bệnh nhân không nên chọn các môn thể thao vận động quá mạnh, và nhiều trường hợp bệnh lý đã biến mất sau thời gian luyện tập.\n\nVề ăn uống :\n\nDuy trì chế độ ăn hợp lý 3-4 bữa/ngày (ăn giảm khối lượng, tức chia nhỏ khẩu phần ăn trong ngày). Không được dùng chế độ ăn kiêng để giảm cân nhanh.\nMột số đồ uống có thể áp dụng làm tăng huyết áp như cà phê, nước chè đặc, ăn thức ăn đậm đà muối, nước sâm, bột tam thất, rau cần tây, nước nho. Mỗi ngày có thể uống 1-2 cốc cà phê đặc, tốt nhất là cà phê không tan tự pha. Không uống quá 2 cốc/ngày để tránh bị nghiện, mất ngủ, rối loạn nhịp tim.\nNên ăn hơi mặn một chút để gây giữ nước trong cơ thể, tăng lượng máu lưu thông trong lòng mạch máu, dẫn đến tăng huyết áp.\nVới phụ nữ, đa số huyết áp thấp là do tình trạng thiếu máu, chị em có thể tăng cường thức ăn chứa nhiều sắt như thịt nạc, gan động vật, mộc nhĩ, nấm hương khô, cần tây, rau đay, rau rền, quả lựu, táo.\nBiện pháp chữa huyết áp thấp sử dụng thuốc\n\nHiện nay, trên thị trường có rất nhiều loại thuốc Đông, Tây y có tác dụng nâng huyết áp, tuy nhiên, người bệnh cần lưu ý rằng, huyết áp thấp không phải là một bệnh, do vậy phương pháp điều trị phải tùy thuộc vào bệnh lý chính gây ra huyết áp thấp. Việc sử dụng thuốc phải trên cơ sở thăm khám rõ ràng, có sự chỉ dẫn của các bác sỹ hoặc thầy thuốc chuyên môn. Người bệnh tuyệt đối không nên tự ý sử dụng thuốc. Phương pháp đầu tiên mà người bệnh nên áp dụng đó là các phương pháp điều trị từ lối sống.",
+    "answer": "Hiện không có đủ thông tin trong phần bằng chứng được cung cấp để hướng dẫn cách giảm thiểu tình trạng huyết áp thấp. Bạn nên trao đổi với bác sĩ hoặc cơ sở y tế để được đánh giá nguyên nhân và tư vấn phù hợp.",
+    "evidence": [],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho em hỏi hở van động mạch phổi nhẹ có nguy hiểm không? Cần làm những gì và ăn kiêng những gì ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn em đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+                "score": 0.7446416020393372,
+                "id": "vietnamese_medical_qa_1887",
+                "rerank_score": 0.006382944993674755
+            },
+            {
+                "text": "Câu hỏi: Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nTrả lời: 10. Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nNếu bạn lo lắng về nguy cơ ung thư đại trực tràng hoặc các loại ung thư khác, bạn nên thảo luận cùng các bác sĩ có chuyên môn. Hãy cân nhắc hỏi những câu hỏi sau: Nguy cơ phát triển ung thư đại trực tràng là gì? Tôi có tổng cộng có bao nhiêu polyp đại tràng? Tôi đã có loại polyp đại tràng nào? Nguy cơ phát triển một loại ung thư khác là bao nhiêu? Tôi có thể làm gì để giảm nguy cơ mắc bệnh ung thư? Các biện pháp nào để sàng lọc và phòng ngừa ung thư là gì?",
+                "score": 0.6848848462104797,
+                "id": "vietnamese_healthcare_43316",
+                "rerank_score": 0.0002256005973322317
+            },
+            {
+                "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+                "score": 0.6836724877357483,
+                "id": "vietnamese_healthcare_86309",
+                "rerank_score": 0.00017452851170673966
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.7376490831375122,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.00011823693785117939
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.7617299556732178,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 3.718961670529097e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho em hỏi hở van động mạch phổi nhẹ có nguy hiểm không? Cần làm những gì và ăn kiêng những gì ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn em đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+                "score": 0.756312906742096,
+                "id": "vietnamese_medical_qa_1887",
+                "rerank_score": 0.006382944993674755
+            },
+            {
+                "text": "Câu hỏi: Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nTrả lời: 10. Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nNếu bạn lo lắng về nguy cơ ung thư đại trực tràng hoặc các loại ung thư khác, bạn nên thảo luận cùng các bác sĩ có chuyên môn. Hãy cân nhắc hỏi những câu hỏi sau: Nguy cơ phát triển ung thư đại trực tràng là gì? Tôi có tổng cộng có bao nhiêu polyp đại tràng? Tôi đã có loại polyp đại tràng nào? Nguy cơ phát triển một loại ung thư khác là bao nhiêu? Tôi có thể làm gì để giảm nguy cơ mắc bệnh ung thư? Các biện pháp nào để sàng lọc và phòng ngừa ung thư là gì?",
+                "score": 0.6961714029312134,
+                "id": "vietnamese_healthcare_43316",
+                "rerank_score": 0.0002256005973322317
+            },
+            {
+                "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+                "score": 0.6927763223648071,
+                "id": "vietnamese_healthcare_86309",
+                "rerank_score": 0.00017452851170673966
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.7625776529312134,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.00011823693785117939
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.7808831930160522,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 3.718961670529097e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho em hỏi hở van động mạch phổi nhẹ có nguy hiểm không? Cần làm những gì và ăn kiêng những gì ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn em đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+                "score": 0.7446416020393372,
+                "id": "vietnamese_medical_qa_1887",
+                "rerank_score": 0.006382944993674755
+            },
+            {
+                "text": "Câu hỏi: Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nTrả lời: 10. Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nNếu bạn lo lắng về nguy cơ ung thư đại trực tràng hoặc các loại ung thư khác, bạn nên thảo luận cùng các bác sĩ có chuyên môn. Hãy cân nhắc hỏi những câu hỏi sau: Nguy cơ phát triển ung thư đại trực tràng là gì? Tôi có tổng cộng có bao nhiêu polyp đại tràng? Tôi đã có loại polyp đại tràng nào? Nguy cơ phát triển một loại ung thư khác là bao nhiêu? Tôi có thể làm gì để giảm nguy cơ mắc bệnh ung thư? Các biện pháp nào để sàng lọc và phòng ngừa ung thư là gì?",
+                "score": 0.6848848462104797,
+                "id": "vietnamese_healthcare_43316",
+                "rerank_score": 0.0002256005973322317
+            },
+            {
+                "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+                "score": 0.6836724877357483,
+                "id": "vietnamese_healthcare_86309",
+                "rerank_score": 0.00017452851170673966
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.7376490831375122,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.00011823693785117939
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.7617299556732178,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 3.718961670529097e-05
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

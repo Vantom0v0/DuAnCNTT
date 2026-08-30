@@ -1,0 +1,111 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ,\nVinmec có trẻ hóa da bằng sóng RF hoặc hồng ngoại không? Em năm nay 28 tuổi có làm được không? Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nVinmec hiện có dịch vụ trẻ hóa da bằng sóng RF cho hiệu quả tốt. Tuy nhiên, không có dịch vụ trẻ hóa da bằng hồng ngoại do hiệu quả thấp. Thay vào đó Vinmec có trẻ hóa da bằng laser Nd YAG, Er: YAG kết hợp với PRP và EV.\nSóng RF giúp làm căng da tức thì và kích thích các tế bào da tăng cường sản xuất collagen và elastin, giúp da được săn chắc và đàn hồi tốt hơn. Ngoài 20 tuổi, da bắt đầu xuất hiện các dấu hiệu lão hóa. Tại Vinmec hiện đang sử dụng các phương pháp trẻ hóa da không xâm lấn, giúp da đẹp tự nhiên nên phù hợp với các độ tuổi và các loại da. Vì vậy, bạn có thể đến Trung tâm Thẩm mỹ Vinmec-View để được tư vấn và phục hồi da hiệu quả nhất.\nTrân trọng!",
+    "answer": "Vinmec có các giải pháp công nghệ cao, bao gồm phương pháp không xâm lấn, nhằm cải thiện tình trạng da chảy xệ và nếp nhăn; một số phương pháp có thể không đau và không cần biện pháp giảm đau. Tuy nhiên, bằng chứng được cung cấp chưa nêu cụ thể Vinmec có trẻ hóa da bằng sóng RF hoặc hồng ngoại, cũng như chưa đủ thông tin để khẳng định người 28 tuổi có phù hợp hay không. Bạn nên liên hệ trực tiếp với Vinmec để được thăm khám và tư vấn cá nhân hóa.",
+    "evidence": [
+        "Vinmec có điều trị da chảy xệ có nếp nhăn không xâm lấn không?",
+        "Hiện nay có nhiều giải pháp khác nhau từ không xâm lấn, xâm lấn tối thiểu và can thiệp thủ thuật, phẫu thuật để giúp cải thiện tình trạng chảy xệ.",
+        "Các ứng dụng công nghệ cao đang ngày càng tỏ ra tính ưu việt để giúp cải thiện tình trạng chảy xệ mà thậm chí hoàn toàn không đau và không sử dụng bất cứ biện pháp chống đau nào."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Con gái em mới 20 tháng, cách đây 1 tháng phát hiện cháu bị vàng da ạ. Cháu đượcchẩn đoán viêm tụy cấp, viêm đường mật do có sỏi tụy ạ. Chỉ định điều trị nội khoa vì cháu quá nhỏ không nội soi tán sỏi được ạ. Xin hỏi bác sĩVinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?Em xin cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Vinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?”, bác sĩ giải đáp như sau: Bệnh sỏi tụy thường vào viện vì có những đợt bị viêm tụy cấp hoặc viêm đường mật, lâu ngày có thể thành viêm tụy mãn. Điều trị sỏi tụy, cho đến nay vẫn chưa có phương pháp tán sỏi như trong sỏi đường tiết niệu mà chỉ có nội soi đặt stent qua chỗ hẹp tạo đường hầm rồi gắp sỏi qua đường hầm đó, nhưng đặt stent đó chỉ làm được khi ống tụy bị giãn ở trẻ lớn hoặc ở người lớn. Việc gắp sỏi qua nội soi đó cũng ít hiệu quả, vì vậy khi sỏi tụy gây giãn ống tụy và gây viêm tụy mãn có thể phải áp dụng phẫu thuật mới là phương pháp điều trị chính của điều trị sỏi tụy sỏi tụy bạn nhé. Với con bạn vì còn bé mới 20 tháng tuổi nên trước mắt là khám định kỳ theo dõi tình trạng sỏi (tức là sỏi to hay bé, nhiều hay ít sỏi, vị trí ở đâu), tình trạng ống tụy có bị giãn hay không và tụy có bị tổn thương không, đồng thời điều trị nội khoa khi có biểu hiện viêm tụy cấp bạn nhé. Hiện tại, tại Vinmec với sỏi tụy ở trẻ em cũng đang điều trị theo phác đồ này bạn có thể đưa bé đến thăm khám sớm nhất.",
+                "score": 0.5440214276313782,
+                "id": "medical_vietnamese_qa_4934",
+                "rerank_score": 0.27540498971939087
+            },
+            {
+                "text": "Câu hỏi: Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nTrả lời: 9. Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nCác triệu chứng trở nên tồi tệ hơn Có dấu hiệu nhiễm trùng da như sưng đỏ vùng viêm da kèm tiết dịch, đau nhiều khi chạm vào, sốt... Triệu chứng viêm da xuất hiện ở các vị trí mới. Khoa nhi tại hệ thống Bệnh viện Đa khoa Quốc tế Vinmec là địa chỉ tiếp nhận và thăm khám các bệnh lý mà trẻ sơ sinh cũng như trẻ nhỏ dễ mắc phải: Sốt virus, sốt vi khuẩn, viêm tai giữa, viêm phổi ở trẻ,....Với trang thiết bị hiện đại, không gian vô trùng, giảm thiểu tối đa tác động cũng như nguy cơ lây lan bệnh. Cùng với đó là sự tận tâm từ các bác sĩ giàu kinh nghiệm chuyên môn với các bệnh nhi, giúp việc thăm khám không còn là nỗi trăn trở của các bậc cha mẹ. Khách hàng có thể trực tiếp đến hệ thống Y tế Vinmec trên toàn quốc để thăm khám hoặc liên hệ hotline tại đây để được hỗ trợ.",
+                "score": 0.5402461290359497,
+                "id": "vietnamese_healthcare_48320",
+                "rerank_score": 0.049453381448984146
+            },
+            {
+                "text": "Câu hỏi: . Bé nhà em năm nay 6 tuổi. Cách đây 10 ngày, bé có đụng đầu vào bồn rửa chén bằng nhôm và bị chảy máu. Sau đó bé bịsốtvànổi mề đay. Xin hỏi bác sĩ bé cònchích ngừa uốn vánđược nữa không ạ? Cảm ơn bác sĩ Ho Thi Thoa(1986) Trả lời\nTrả lời: Chào bạn, cảm ơn bạn đã đặt câu hỏi tới website Vinmec.com. Bé nhà bạn vẫn nên tiêm ngừa uốn ván. Bạn nên đưa bé đến trung tâm tiêm chủng để được tư vấn cụ thể. Chúc bé mau khỏe, trân trọng. ThS.BS Huỳnh Bảo Toàn - Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+                "score": 0.5314260125160217,
+                "id": "medical_vietnamese_qa_13580",
+                "rerank_score": 0.04168548062443733
+            },
+            {
+                "text": "Câu hỏi: Em đang điều trị bướu tuyến giáp (lành tính) bằng phương pháp sóng cao tần RFA. Hiện tại, em đang có thai được 5 tuần. Vậy bác sĩ cho em hỏiđiều trị bướu giáp bằng sóng cao tần khi mang thai có được không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Hiện tại, bạn đang có thai 5 tuần và muốnđiều trị bướu nhân tuyến giápbằngphương pháp đốt song cao tần, bác sĩ trả lời bạn như sau: Nếu bướu nhân tuyến giáp của bạn không gây quá nhiều triệu chứng như nuốt vướng, nuốt nghẹn, khó thở thì bạn có trì hoãn việc điều trị bằng phương pháp đốt sóng cao tần cho đến hết thai kỳ. Vì phương pháp này có chống chỉ định tương đối với phụ nữ có thai, không được khuyến cáo làm trong giai đoạn thai kì. Bạn có thể tới trung tâm bệnh lý tuyến giáp – bệnh viện Vinmec để được các bác sĩ và chuyên gia thăm khám, chẩn đoán sớm cũng như đưa ra phác đồ điều trị phù hợp nhất với bạn.",
+                "score": 0.544651210308075,
+                "id": "medical_vietnamese_qa_12331",
+                "rerank_score": 0.04101705923676491
+            },
+            {
+                "text": "Câu hỏi: bé trai nhà tôi6 tuổi, cháu đã tiêm đầy đủ các mũi tiêm chủng trong chương trình tiêm của nhà nước. Giờ tôi có nhu cầu cho con tiêm phòng các mũitiêm phòng mở rộng. Bác sĩ cho tôi hỏi tôi cần tiêm thêm những mũi nào? Mong bác sĩ tư vấn, tôi xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, Bạn rất quan tâm đến tiêm chủng cho bé là điều rất đáng khen ngợi. Tuy nhiên, các mũi bé đã tiêm và thời điểm tiêm của bé bạn chưa cung cấp chi tiết nên không thể tư vấn cụ thể cho bé được. Vậy bạn nên đưa bé và mang theo sổ tiêm chủng đến cơ sở tiêm chủng gần nhất để được tư vấn các mũi tiêm và thời điểm tiêm phù hợp cho bé nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Bác sĩ chuyên khoa II Lê Thanh Cẩm -Bác sĩ Nhi khoa - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+                "score": 0.5816221833229065,
+                "id": "medical_vietnamese_qa_13541",
+                "rerank_score": 0.02520785480737686
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Con gái em mới 20 tháng, cách đây 1 tháng phát hiện cháu bị vàng da ạ. Cháu đượcchẩn đoán viêm tụy cấp, viêm đường mật do có sỏi tụy ạ. Chỉ định điều trị nội khoa vì cháu quá nhỏ không nội soi tán sỏi được ạ. Xin hỏi bác sĩVinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?Em xin cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Vinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?”, bác sĩ giải đáp như sau: Bệnh sỏi tụy thường vào viện vì có những đợt bị viêm tụy cấp hoặc viêm đường mật, lâu ngày có thể thành viêm tụy mãn. Điều trị sỏi tụy, cho đến nay vẫn chưa có phương pháp tán sỏi như trong sỏi đường tiết niệu mà chỉ có nội soi đặt stent qua chỗ hẹp tạo đường hầm rồi gắp sỏi qua đường hầm đó, nhưng đặt stent đó chỉ làm được khi ống tụy bị giãn ở trẻ lớn hoặc ở người lớn. Việc gắp sỏi qua nội soi đó cũng ít hiệu quả, vì vậy khi sỏi tụy gây giãn ống tụy và gây viêm tụy mãn có thể phải áp dụng phẫu thuật mới là phương pháp điều trị chính của điều trị sỏi tụy sỏi tụy bạn nhé. Với con bạn vì còn bé mới 20 tháng tuổi nên trước mắt là khám định kỳ theo dõi tình trạng sỏi (tức là sỏi to hay bé, nhiều hay ít sỏi, vị trí ở đâu), tình trạng ống tụy có bị giãn hay không và tụy có bị tổn thương không, đồng thời điều trị nội khoa khi có biểu hiện viêm tụy cấp bạn nhé. Hiện tại, tại Vinmec với sỏi tụy ở trẻ em cũng đang điều trị theo phác đồ này bạn có thể đưa bé đến thăm khám sớm nhất.",
+                "score": 0.5989596843719482,
+                "id": "medical_vietnamese_qa_4934",
+                "rerank_score": 0.27540498971939087
+            },
+            {
+                "text": "Câu hỏi: ! Con em được 1 tuổi, đi siêu âm bác sĩ chẩn đoán bịthông liên thấtphần màng. Vậy bác sĩ cho em hỏitrẻ 1 tuổi bị thông liên thất phần màng có cần phẫu thuật không? Điều kiện để bé phẫu thuật là gì? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn bác sĩ. Hoàng Thị Phương,1990 Trả lời\nTrả lời: Chào bạn! Thông liên thất là bệnh lýtim bẩm sinhhay gặp và có thể điều trị triệt để bằng phẫu thuật hay can thiệp. Hiện tại chỉ địnhđiều trị thông liên thấtkhi bệnh lý gây ảnh hưởng huyết động (tim to) hay ảnh hưởng cấu trúc xung quanh (hở van động mạch chủ) Con bạn còn nhỏ, nếu không thuộc các chỉ định trên, vẫn phát triển bình thường thì có thể trì hoãn và theo dõi. Tốt nhất bạn nên đến khám tại các trung tâm tim mạch chuyên về tim bẩm sinh hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được tư vấn “Trẻ 1 tuổi bị thông liên thất phần màng có cần phẫu thuật không”và có kế hoạch theo dõi điều trị cụ thể. Cảm ơn bạn đã gửi tin tưởng và câu hỏi đến Vinmec. Trân trọng! Được giải đáp bởiThạc sĩ, Bác sĩ Trần Hồng Nhật -Bác sĩ Tim mạch can thiệp - Trung tâm Tim mạch - Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+                "score": 0.5525641441345215,
+                "id": "medical_vietnamese_qa_12140",
+                "rerank_score": 0.06801082193851471
+            },
+            {
+                "text": "Câu hỏi: ! Em năm nay 25 tuổi, mang thai lần đầu. Em đi siêu âm thì bác sĩ kết luận em bị bong màng đệmvàkích thước thai nhinhỏ hơn so với tuổi thai. Em bé được 9 tuần 1 ngày, chiều dài 24,8mm, kích thước túi ối là 31,3mm. Xin hỏi bác sĩ bây giờ em nên làm gì ạ? Mong bác sĩ tư vấn giúp em. Em cảm ơn bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Với tình trạng của bạn như vậy thì khó đoán định đượcsự phát triển của túi thai. Với quan điểm điều trị trước đây thì dùng thêm thuốc nội tiết để dưỡng thai. Tuy nhiên, với quan điểm hiện nay thì không cần điều trị gì, chỉ theo dõi và tái khám mỗi tuần. Tùy theo sự phát triển của túi thai mà có hướng xử lý phù hợp bạn nhé. Cảm ơn bạn đã tin tưởng và gửi câu hỏi vềHệ thống Y tế Vinmec. Trân trọng! Được giải đáp bởiBác sĩ chuyên khoa I Trương Nghĩa Bình -Bác sĩ Chuyên khoa sản - Khoa Sản Phụ Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+                "score": 0.5584086775779724,
+                "id": "medical_vietnamese_qa_4045",
+                "rerank_score": 0.055887818336486816
+            },
+            {
+                "text": "Câu hỏi: Em đang điều trị bướu tuyến giáp (lành tính) bằng phương pháp sóng cao tần RFA. Hiện tại, em đang có thai được 5 tuần. Vậy bác sĩ cho em hỏiđiều trị bướu giáp bằng sóng cao tần khi mang thai có được không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Hiện tại, bạn đang có thai 5 tuần và muốnđiều trị bướu nhân tuyến giápbằngphương pháp đốt song cao tần, bác sĩ trả lời bạn như sau: Nếu bướu nhân tuyến giáp của bạn không gây quá nhiều triệu chứng như nuốt vướng, nuốt nghẹn, khó thở thì bạn có trì hoãn việc điều trị bằng phương pháp đốt sóng cao tần cho đến hết thai kỳ. Vì phương pháp này có chống chỉ định tương đối với phụ nữ có thai, không được khuyến cáo làm trong giai đoạn thai kì. Bạn có thể tới trung tâm bệnh lý tuyến giáp – bệnh viện Vinmec để được các bác sĩ và chuyên gia thăm khám, chẩn đoán sớm cũng như đưa ra phác đồ điều trị phù hợp nhất với bạn.",
+                "score": 0.5482184290885925,
+                "id": "medical_vietnamese_qa_12331",
+                "rerank_score": 0.04101705923676491
+            },
+            {
+                "text": "Câu hỏi: Ba em 60 tuổi bị u trung thất, em đang có thắc mắc này mong bác sĩ giải đáp ạ. Các thủ thuật gây mê phẫu thuật u trung thất là gì?Vinmec thực hiện thủ thuật gây mê nào khi phẫu thuật u trung thất?Có để lại di chứng không? Mong bác sĩ giải đáp để em đưa ba đến viện ạ, em cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Vinmec thực hiện thủ thuật gây mê nào khi phẫu thuật u trung thất?”, bác sĩ giải đáp như sau: Phẫu thuật u trung thất là một trong các phẫu thuật khó vì nó liên quan đến các cơ quan quan trọng nằm trong trung thất: phổi, tim, khí quản gốc,... Gây mê trong phẫu thuật u trung thất cũng đòi hỏi việc đánh giá bệnh nhân trước mổ, các nguy cơ khi gây mê cũng được đặt ra các vấn đề liên quan: U trung thất có chèn ép khí quản hay không, có đẩy lệch trung thất hay không, bệnh nhân có khó thở trước đó hay không,... Hiện tại ở Vinmec đang thực hiện thủ thuật gây mê toàn thể có hoặc không thông khí 1 phổi tùy từng loại phẫu thuật ở trung thất. Ngoài ra, Vinmec còn thực hiện kỹ thuật giảm đau mặt phẳng cơ dựng sống (ESP) để giảm đau cho bệnh nhân đảm bảo hồi phục sớm sau phẫu thuật. Với các thuốc gây mê thế hệ mới thì các di chứng sau gây mê thì hầu như không có, có thể xảy ra các tai biến do phẫu thuật trung thất.",
+                "score": 0.5584552884101868,
+                "id": "medical_vietnamese_qa_8578",
+                "rerank_score": 0.028743043541908264
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nTôi gần 40 tuổi, da mặt hơi chảy xệ, có nếp nhăn. Tôi muốn làm căng da nhưng sợ đau và rất ngại động đến dao kéo. Vinmec có điều trị da chảy xệ có nếp nhăn không xâm lấn không? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nDa chảy xệ là 1 biểu hiện của lão hóa da khi tổng diện tích da tăng lên, các sợi collagen và elastin trong chất nền của da giảm. Hiện nay có nhiều giải pháp khác nhau từ không xâm lấn, xâm lấn tối thiểu và can thiệp thủ thuật, phẫu thuật để giúp cải thiện tình trạng chảy xệ.\nCác ứng dụng công nghệ cao đang ngày càng tỏ ra tính ưu việt để giúp cải thiện tình trạng chảy xệ mà thậm chí hoàn toàn không đau và không sử dụng bất cứ biện pháp chống đau nào.\nTrân trọng!",
+                "score": 0.5425729751586914,
+                "id": "vietnamese_medical_qa_917",
+                "rerank_score": 0.9746882915496826
+            },
+            {
+                "text": "Câu hỏi: Con gái em mới 20 tháng, cách đây 1 tháng phát hiện cháu bị vàng da ạ. Cháu đượcchẩn đoán viêm tụy cấp, viêm đường mật do có sỏi tụy ạ. Chỉ định điều trị nội khoa vì cháu quá nhỏ không nội soi tán sỏi được ạ. Xin hỏi bác sĩVinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?Em xin cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Vinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?”, bác sĩ giải đáp như sau: Bệnh sỏi tụy thường vào viện vì có những đợt bị viêm tụy cấp hoặc viêm đường mật, lâu ngày có thể thành viêm tụy mãn. Điều trị sỏi tụy, cho đến nay vẫn chưa có phương pháp tán sỏi như trong sỏi đường tiết niệu mà chỉ có nội soi đặt stent qua chỗ hẹp tạo đường hầm rồi gắp sỏi qua đường hầm đó, nhưng đặt stent đó chỉ làm được khi ống tụy bị giãn ở trẻ lớn hoặc ở người lớn. Việc gắp sỏi qua nội soi đó cũng ít hiệu quả, vì vậy khi sỏi tụy gây giãn ống tụy và gây viêm tụy mãn có thể phải áp dụng phẫu thuật mới là phương pháp điều trị chính của điều trị sỏi tụy sỏi tụy bạn nhé. Với con bạn vì còn bé mới 20 tháng tuổi nên trước mắt là khám định kỳ theo dõi tình trạng sỏi (tức là sỏi to hay bé, nhiều hay ít sỏi, vị trí ở đâu), tình trạng ống tụy có bị giãn hay không và tụy có bị tổn thương không, đồng thời điều trị nội khoa khi có biểu hiện viêm tụy cấp bạn nhé. Hiện tại, tại Vinmec với sỏi tụy ở trẻ em cũng đang điều trị theo phác đồ này bạn có thể đưa bé đến thăm khám sớm nhất.",
+                "score": 0.5522981882095337,
+                "id": "medical_vietnamese_qa_4934",
+                "rerank_score": 0.27540498971939087
+            },
+            {
+                "text": "Câu hỏi: Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nTrả lời: 9. Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nCác triệu chứng trở nên tồi tệ hơn Có dấu hiệu nhiễm trùng da như sưng đỏ vùng viêm da kèm tiết dịch, đau nhiều khi chạm vào, sốt... Triệu chứng viêm da xuất hiện ở các vị trí mới. Khoa nhi tại hệ thống Bệnh viện Đa khoa Quốc tế Vinmec là địa chỉ tiếp nhận và thăm khám các bệnh lý mà trẻ sơ sinh cũng như trẻ nhỏ dễ mắc phải: Sốt virus, sốt vi khuẩn, viêm tai giữa, viêm phổi ở trẻ,....Với trang thiết bị hiện đại, không gian vô trùng, giảm thiểu tối đa tác động cũng như nguy cơ lây lan bệnh. Cùng với đó là sự tận tâm từ các bác sĩ giàu kinh nghiệm chuyên môn với các bệnh nhi, giúp việc thăm khám không còn là nỗi trăn trở của các bậc cha mẹ. Khách hàng có thể trực tiếp đến hệ thống Y tế Vinmec trên toàn quốc để thăm khám hoặc liên hệ hotline tại đây để được hỗ trợ.",
+                "score": 0.5503314733505249,
+                "id": "vietnamese_healthcare_48320",
+                "rerank_score": 0.049453381448984146
+            },
+            {
+                "text": "Câu hỏi: Em đang điều trị bướu tuyến giáp (lành tính) bằng phương pháp sóng cao tần RFA. Hiện tại, em đang có thai được 5 tuần. Vậy bác sĩ cho em hỏiđiều trị bướu giáp bằng sóng cao tần khi mang thai có được không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Hiện tại, bạn đang có thai 5 tuần và muốnđiều trị bướu nhân tuyến giápbằngphương pháp đốt song cao tần, bác sĩ trả lời bạn như sau: Nếu bướu nhân tuyến giáp của bạn không gây quá nhiều triệu chứng như nuốt vướng, nuốt nghẹn, khó thở thì bạn có trì hoãn việc điều trị bằng phương pháp đốt sóng cao tần cho đến hết thai kỳ. Vì phương pháp này có chống chỉ định tương đối với phụ nữ có thai, không được khuyến cáo làm trong giai đoạn thai kì. Bạn có thể tới trung tâm bệnh lý tuyến giáp – bệnh viện Vinmec để được các bác sĩ và chuyên gia thăm khám, chẩn đoán sớm cũng như đưa ra phác đồ điều trị phù hợp nhất với bạn.",
+                "score": 0.540494978427887,
+                "id": "medical_vietnamese_qa_12331",
+                "rerank_score": 0.04101705923676491
+            },
+            {
+                "text": "Câu hỏi: bé trai nhà tôi6 tuổi, cháu đã tiêm đầy đủ các mũi tiêm chủng trong chương trình tiêm của nhà nước. Giờ tôi có nhu cầu cho con tiêm phòng các mũitiêm phòng mở rộng. Bác sĩ cho tôi hỏi tôi cần tiêm thêm những mũi nào? Mong bác sĩ tư vấn, tôi xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, Bạn rất quan tâm đến tiêm chủng cho bé là điều rất đáng khen ngợi. Tuy nhiên, các mũi bé đã tiêm và thời điểm tiêm của bé bạn chưa cung cấp chi tiết nên không thể tư vấn cụ thể cho bé được. Vậy bạn nên đưa bé và mang theo sổ tiêm chủng đến cơ sở tiêm chủng gần nhất để được tư vấn các mũi tiêm và thời điểm tiêm phù hợp cho bé nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Bác sĩ chuyên khoa II Lê Thanh Cẩm -Bác sĩ Nhi khoa - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+                "score": 0.5883526802062988,
+                "id": "medical_vietnamese_qa_13541",
+                "rerank_score": 0.02520785480737686
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

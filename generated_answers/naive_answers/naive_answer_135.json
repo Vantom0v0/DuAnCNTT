@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Con em 4 tuổi hay bị nhiễm giun kim. Bé uống thuốc 4 tháng sau lại bị nhiễm giun kim lại. Vậy bác sĩ cho em hỏitrẻ nhiễm giun kim tái phát điều trị thế nào?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Con bạn nhiễm giun kim đã tẩy giun nhưng bé vẫn xuất hiện lại. Bạn nên tẩy 2 lần cách nhau 3 tuần, giặt chăm mền và hấp sấy cho bé mới hết được.",
+    "answer": "Trẻ 4 tuổi bị nhiễm giun kim tái phát có thể tẩy giun lại bằng thuốc tẩy giun. Để hạn chế tái nhiễm, cần cho trẻ ăn chín, uống sôi, cắt móng tay, rửa tay bằng xà phòng trước khi ăn và sau khi đi vệ sinh, đồng thời giữ vệ sinh môi trường sống sạch sẽ. Có thể tẩy giun định kỳ 2 lần mỗi năm cho trẻ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bé nhà em 5 tuổi bị giun kim. Em cho bé uống thuốc tẩy giun, được 1 tháng 20 ngày bé đã bị lại. Vậy bác sĩ cho em hỏitrẻ 5 tuổi bị giun kim điều trị như thế nào?Có nên tiếp tục uống thuốc tẩy giun không? Em cảm ơn bác sĩ. Lê Thị Minh(1975) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Phan Thị Cẩm Vân- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé có thể tẩy giun lại bằng thuốc tẩy giun. Quan trọng là biện pháp phòng ngừa như ăn chín uống sôi, vệ sinh cá nhân tốt (cắt móng tay, rửa tay bằng xà phòng trước ăn và sau đi vệ sinh), vệ sinh môi trường sống xung quanh sạch sẽ, có thể tẩy giun định kỳ 2 lần/năm cho bé.",
+            "score": 0.6680727601051331,
+            "id": "medical_vietnamese_qa_6104"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 4 tuổi. Em muốn bổ sung canxi cho bé định kỳ. Vậy bác sĩ cho em hỏibổ sung canxi cho trẻ 4 tuổi như thế nào?Bé nên uống loại nào và liều lượng bao nhiêu? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé 4 tuổi nếu uống đủ lượng sữa 500ml/ngày. Bé không có triệu chứng gì, phát triển cân nặng, chiều cao bình thường thì không cần bổ sung. Tuy vậy, bạn muốn bổ sung cho bé có thể bổ sung calci corbiere 10ml, ngày 1 ống, cho bé trong vòng 1 - 2 tuần.",
+            "score": 0.6263653039932251,
+            "id": "medical_vietnamese_qa_5128"
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ! Con em tháng nào cũng bị VA mũi, 1 tháng bị 1 lần, cứ uống kháng sinh khỏi được 20 ngày lại bị lại. Hiện tại con em đã được 19 tháng. Bác sĩ cho em hỏi có phương pháp nào điều trị VA dứt điểm không ạ? Em xin cảm ơn.\nTrả lời: Chào em! Như em mô tả thì có thể con em bị viêm VA. Nếu tình trạng này thường xuyên và nhất là cháu đã từng bị viêm tai giữa thì em nên cho cháu đi khám cụ thể để bác sĩ chuyên khoa xem xét vấn đề nạo VA cho cháu nhé!",
+            "score": 0.6219359040260315,
+            "id": "vietnamese_medical_qa_4038"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em đã tiêm 2 mũi Jevax, sau 1 năm có nhắc lại mũi Imojev. Hiện tại, bé 4 tuổi. Vậy bác sĩ cho em hoitrẻ 4 tuổi đã tiêm 2 mũi Jevax có cần tiêm nhắc lại mũi Imojev không?Em cảm ơn bác sĩ. Hoàng Thị Hơn(1990) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Quách Nguyễn Thu Thủy- Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bé của bạn tiêm 2 mũi Jevax, theo phác đồ sau 1 năm nhắc lại mũi thứ 3 Jevax. Nếu con bạn không tiêm Jevax mà đổi sang loại vắc xin Imojev thì phải theo phác đồ nhắc lại Imojev sau 1 năm tức là con của bạn còn 1 mũi Imojev nữa và là mũi kết thúc luôn.",
+            "score": 0.6168930530548096,
+            "id": "medical_vietnamese_qa_5305"
+        },
+        {
+            "text": "Câu hỏi: Cháu nhà em mới được 3 tháng tuổi nhưng lại bị giun kim. Cháu đi đại tiện có rất nhiều giun kim. Vậy bác sĩ cho em hỏitrẻ 3 tháng tuổi đi bị giun kim điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Giun sán là bệnh lý thường gặp ở trẻ nhỏ, tuy nhiên bé nhà bạn mới có 3 tháng, thức ăn chủ yếu là sữa mẹ, khả năng bị nhiễm giun là hiếm gặp, vì vậy bạn cần chụp ảnh phân có hình ảnh giun kim và đưa con đến khám chuyên khoa nhi để được thăm khám và làm thêm xét nghiệm nếu cần thiết.",
+            "score": 0.6163264513015747,
+            "id": "medical_vietnamese_qa_4598"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

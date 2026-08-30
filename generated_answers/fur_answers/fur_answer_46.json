@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Cứng hàm trái khi đang mọc răng khôn là do đâu?",
+    "ground_truth": "Để đánh giá xem em có bị khớp hàm, đau vì mọc răng khôn hay nguyên nhân gì khác thì tốt nhất em nên đến khám tại khoa Răng - Hàm - Mặt để bác sĩ thực hiện các chỉ định chụp phim, siêu âm. . . thì mới có thể chẩn đoán chính xác tình trạng cứng hàm trái khi đang mọc răng khôn cho em.",
+    "answer": "Dựa trên thông tin được cung cấp, **chưa đủ cơ sở để chẩn đoán nguyên nhân cứng hàm trái** của bạn.\n\nRăng khôn mọc, đặc biệt mọc lệch hoặc chỉ nhô một phần khỏi nướu, có thể gây:\n\n- Đau nhức vùng hàm, gần tai.\n- Viêm, sưng nướu quanh răng.\n- Sưng lan vùng má và khó há miệng.\n- Nhiễm trùng, sâu răng hoặc ảnh hưởng răng kế cận.\n\nTuy nhiên, thông tin hiện có **không xác định được khối nhỏ dưới 1 cm di động** là do răng khôn hay do nguyên nhân khác, cũng như chưa chứng minh tình trạng này liên quan đến tiểu phẫu trước đó.\n\nBạn nên đến bệnh viện hoặc cơ sở nha khoa để được khám, chụp phim và đánh giá trực tiếp. Nếu có sưng nhiều, sốt hoặc không thể há miệng, cần đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Em bị xơ vú và đã làm tiểu phẫu cắt bỏ được gần 1 tháng. Sau khi làm tiểu phẫu xong thì em thấy hiện tượng cứng hàm trái, có cảm giác đau gần tai, sờ tay thấy có 1 khối u nhỏ dưới 1cm di động và đang mọc răng khôn hàm trái dưới. Em đọc thông tin thấy có thể bị khớp hàm hoặc do đau vì mọc răng khôn. Bác sĩ có thể chẩn đoán tình trạng cứng hàm trái khi đang mọc răng khôn cho em được không ạ?\nTrả lời: Cảm ơn em đã tin tưởng AI-Doctor. Rất mong có thể gặp em để tư vấn cụ thể hơn!",
+            "score": 0.6573225259780884,
+            "id": "vietnamese_medical_qa_2443",
+            "rerank_score": 0.9905921816825867
+        },
+        {
+            "text": "Câu hỏi: Sưng đau hàm do mọc răng khôn phải làm sao?\nTrả lời: Sưng đau hàm do mọc răng khôn thì bạn nên đến bệnh viện khám, xét nghiệm, chụp phim, bácsĩ sẽ kê đơn thuốc cho bạn. Sau đó bạn có thể nhổ răng khôn cho dứt hẳn.",
+            "score": 0.567540168762207,
+            "id": "vietnamese_healthcare_5264",
+            "rerank_score": 0.6754512190818787
+        },
+        {
+            "text": "Câu hỏi: Dấu hiệu răng khôn mọc lệch hàm trên\nTrả lời: 1. Dấu hiệu răng khôn mọc lệch hàm trên\nNếu bạn chú ý sẽ thấy dấu hiệu răng khôn mọc lệch hàm trên khá rõ ràng. Thực tế, khi vòm hàm phía trên không còn chỗ cho răng khôn mọc lên thì chúng sẽ mọc ngầm, đâm vào xương hàm hoặc các răng bên cạnh khác để phát triển, tình trạng này được gọi là răng khôn mọc lệch hàm trên . Dấu hiệu răng khôn mọc lệch hàm trên cũng giống như răng khôn mọc lệch hàm dưới. Triệu chứng sớm của việc răng khôn mọc lệch thường là những cơn đau âm ỉ kéo dài trong khoảng 2 đến 3 ngày. Những cơn đau sẽ lặp đi lặp lại nhiều lần trong suốt quá trình mọc. Theo đó, vì xương hàm không có đủ vị trí nên răng khôn mọc sẽ đâm sang răng bên cạnh gây đau nhức và khó chịu cho người bệnh. Tình trạng mọc răng khôn sẽ khiến chiếc răng khỏe mạnh bên cạnh (răng hàm số 7) dần bị phá hủy, lung lay, dẫn đến sâu, nặng hơn nó sẽ khiến chiếc răng này bị xô đẩy chèn ép và rụng đi gây mất răng. Ngoài ra, do răng khôn ở trong cùng của hàm nên rất khó vệ sinh, thức ăn và vi khuẩn dễ dàng tích tụ và dễ gây các bệnh lý viêm khiến người bệnh thêm khó chịu. Các bác sĩ chuyên khoa cũng cho biết, tất cả các răng khôn mọc lệch đều gây khó dễ cho cả người bệnh và bác sĩ. Tình trạng này có thể gây ra các biến chứng nguy hiểm, phiền toái, đau đớn, ảnh hưởng không nhỏ đến chất lượng đời sống, thậm chí khiến người bệnh “ăn không ngon, ngủ không yên”.",
+            "score": 0.5585342645645142,
+            "id": "vietnamese_healthcare_31816",
+            "rerank_score": 0.17848420143127441
+        },
+        {
+            "text": "Câu hỏi: Những biến chứng có thể có khi mọc răng khôn\nTrả lời: 3. Những biến chứng có thể có khi mọc răng khôn\nMỗi lần răng khôn nhú lên sẽ gây đau nhức và có nguy cơ bị viêm nhiễm, sâu răng, nếu chúng ta không vệ sinh miệng đúng cách. Ngoài ra răng khôn mọc lệch còn có nguy cơ làm xô lệch cả hàm răng gây mất thẩm mỹ nghiêm trọng. Gây viêm chân răng Răng khôn mọc lên có khả năng gây viêm tại phần nướu xung quanh răng đó, thậm chí nếu chúng ta không vệ sinh răng miệng tốt trong các đợt răng nhú có thể dẫn đến tình trạng viêm lợi không chỉ ở xung quanh răng đó. Viêm chân răng tại chỗ nhất là các răng mọc lệch sẽ có một phần răng nhô lên còn một phần vẫn nằm lại dưới lợi. Phần nướu xung quanh răng này sẽ rất dễ bị đỏ, viêm, sưng tấy. Nhiều trường hợp sưng ra cả vùng má và không thể há miệng ra được, làm ảnh hưởng đến việc ăn uống, sinh hoạt hay sốt đến vài ngày. Hôi miệng Hôi miệng là do khi răng khôn mọc gây đau nhức, làm hạn chế khả năng vệ sinh răng miệng và tất nhiên nếu chúng ta không vệ sinh răng sạch sẽ tạo điều kiện cho vi khuẩn phát triển, làm cho hơi thở có mùi hôi . Xô lệch răng Răng khôn mọc lệch và khi không có chỗ để mọc, nó sẽ đẩy các răng khác xung quanh để có thể ngoi lên. Vô tình làm thay đổi vị trí ban đầu của răng số 7, hay xô cả các răng trước, khiến chúng chen chúc và lệch lạc, gây mất thẩm mỹ. Sâu răng Răng khôn mọc dù lệch hay không cũng đều gây viêm chân răng, hôi miệng, tạo điều kiện cho vi khuẩn phát triển gây sâu răng , đầu tiên là sâu các răng hàm bên cạnh, lâu dần có thể lan ra các răng khác. Răng khôn mọc lệch tạo điều kiện cho vi khuẩn phát triển gây sâu răng",
+            "score": 0.5555335879325867,
+            "id": "vietnamese_healthcare_59781",
+            "rerank_score": 0.1523897498846054
+        },
+        {
+            "text": "Câu hỏi: Biến chứng khi răng khôn mọc bất thường\nTrả lời: 2. Biến chứng khi răng khôn mọc bất thường\nChèn ép các răng kế cận: Răng khôn mọc lệch lâu ngày sẽ gây ra sự xô lệch của các răng kế cận. Tăng nguy cơ nhiễm trùng khi răng khôn mọc ở vị trí quá sâu bên trong khung hàm, gây khó khăn trong việc vệ sinh, đây là môi trường tiềm năng cho vi khuẩn sinh sôi nảy nở và làm tăng nguy cơ sâu răng , viêm lợi , nhiễm trùng răng miệng. Răng khôn mọc ngầm có thể thoái hóa thành u, nang bệnh lý trong xương hàm, làm yếu xương hàm. Gây cảm giác đau nhức, khó chịu cho bệnh nhân. Răng khôn mọc lệch gây ảnh hưởng đến các răng bên cạnh",
+            "score": 0.5671246647834778,
+            "id": "vietnamese_healthcare_99027",
+            "rerank_score": 0.10615678131580353
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

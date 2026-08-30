@@ -1,0 +1,121 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tôi bị hen phế quản, có tiền sử viêm phế quản và bị viêm phổi một lần cách đây mấy năm. Hiện tôi vẫn phải duy trì thuốc xịt dự phòng. Tôi có cơ địa dị ứng, vậy có tiêm được vaccine Covid-19 không?",
+    "ground_truth": "Theo thông tin sức khỏe anh/chị mô tả, anh/chị có tiền sử viêm phế quản và bị viêm phổi một lần cách đây mấy năm đã được điều trị ổn định. Hiện hàng ngày vẫn phải duy trì thuốc xịt dự phòng, có tiền sử dị ứng nhưng không rõ dị ứng với mức độ như thế nào nếu dị ứng phải vào bệnh viện để điều trị thì bạn nằm trong chống chỉ định tiêm vaccine. Còn nếu dị ứng nhẹ tự khỏi hay chỉ uống thuốc tại nhà bạn vẫn có thể tiêm phòng được. Theo hướng dẫn mới nhất của Bộ Y tế, anh/chị thuộc nhóm cần thận trọng khi tiêm vaccine Covid-19. Trường hợp của anh/chị vẫn được tiêm vaccine Covid-19 tại khối bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Theo thông tin được cung cấp, hen phế quản ổn định, viêm phế quản đã điều trị ổn định và tiền sử viêm phổi từ vài năm trước không phải là chống chỉ định tiêm vắc-xin Covid-19; nếu trong 3 tháng gần đây không có cơn hen tái phát, bạn có thể tiêm. Tuy nhiên, do có cơ địa dị ứng, bạn nên tiêm tại bệnh viện hoặc cơ sở có đủ năng lực cấp cứu phản vệ, khai báo đầy đủ tiền sử dị ứng và được theo dõi khoảng 15–30 phút sau tiêm. Nếu từng dị ứng gây khó thở, tím tái, phải nhập viện hoặc được chẩn đoán phản vệ độ 2 trở lên, cần trì hoãn/không tiêm theo chỉ định và khám chuyên khoa dị ứng; bằng chứng hiện chưa đủ để kết luận nếu chưa biết cụ thể mức độ phản ứng dị ứng của bạn.",
+    "evidence": [
+        "Trả lời: Theo thông tin chị cung cấp, nếu tình trạng viêm phế quản đã điều trị ổn định, chị vẫn có thể tiêm được vaccin Covid-19 theo hướng dẫn của Bộ Y tế.",
+        "Tuy nhiên theo những nghiên cứu tại Mỹ, Tỷ lệ những ngừoi có cơ địa bệnh dị ứng như viêm mũi dị ứng, tiền sử bệnh hen, hoặc tiền sử dị ứng với tác nhân gì thì gặp tỷ lệ phản vệ cao hơn những người khác, tuy nhiên, không phải ai cũng bị và tỷ lệ vẫn rất hiếm.",
+        "Vì vậy, chị cần cung cấp đầy đủ về tiền sử bệnh cho bác sĩ khám sàng lọc để được khám sàng lọc kỹ và dặn dò kỹ các phản ứng sau tiêm.",
+        "Trả lời: Nếu tiền sử dị ứng của anh/chị được chẩn đoán là phản vệ từ độ 2 trở lên thì anh/chị sẽ chống chỉ định tiêm vaccine Covid-19; còn nếu chỉ dị ứng mức độ nhẹ anh/chị vẫn có thể tiêm tại các bệnh viện được.",
+        "Có 2 trường hợp để biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp dị ứng có khó thở, có tím tái phải nhập viện thì chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế.",
+        "- Nếu chỉ nổi mẩn đỏ ít trên da, ngứa, không cần điều trị, tự hết vẫn có thể tiêm vaccine Covid-19, tuy nhiên cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+        "Trả lời: Tiền sử dị ứng của anh/chị chỉ có ngoài da và hen phế quản bệnh đã ổn định, nếu trong vòng 3 tháng trở lại đây không có cơn hen nào tái phát thì anh/chị có thể tiêm phòng được vaccine Covid-19 tại khối bệnh viện.",
+        "Trả lời: Viêm phế quản dị ứng là tình trạng bệnh mạn tính không có chống chỉ định với vaccine phòng Covid-19.",
+        "Trong trường hợp của anh nên được tiêm vaccine Covid-19 ở khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+        "Ngoài ra, anh phải cung cấp đầy đủ các triệu chứng dị ứng gặp phải cho bác sĩ để bác sĩ đánh giá và chỉ định tiêm chủng an toàn.",
+        "Nếu bạn có tiền sử dị ứng: Tiền sử có phản ứng dị ứng với thức ăn , nọc côn trùng hoặc với các thuốc đã được xác định (không phải tá dược trong thuốc) Dị ứng với các dị nguyên hô hấp như bọ nhà, phấn hoa Tiền sử gia đình có bệnh lý dị ứng Phản ứng tại chỗ (không phải phản ứng toàn thân) với vắc xin trước đó Quá mẫn với các thuốc giảm đau chống viêm NSAID như aspirin , ibuprofen Sử dụng liệu pháp miễn dịch với dị nguyên Những bệnh nhân hen phế quản ổn định Đều có chỉ định tiêm vắc xin covid-19 thường quy và nên tiêm ở nơi có đủ khả năng cấp cứu phản vệ, lưu viện khoảng 15-30 phút để theo dõi theo khuyến cáo.",
+        "Nếu bạn có một trong các yếu tố: Tiền sử dị ứng xảy ra trong vòng 4h với nhiều loại thuốc hoặc nhóm thuốc; Dị ứng với vắc xin covid-19 tiêm mũi 1 hiện nay có chỉ định tiêm mũi 2; Phản ứng với vắc xin hoặc các thành phần của vắc xin khác, trong đó có PEG-2000 hoặc Polysorbate 80; Phản vệ độ 2 với bất kì nguyên nhân nào theo khuyến cáo của Bộ Y tế Việt Nam để hạn chế nguy cơ.",
+        "Khi bạn thuộc các yếu tố trên thì bạn có thể trì hoãn tiêm vắc xin covid-19 và cần khám bác sĩ chuyên khoa dị ứng để có tư vấn, chỉ định phù hợp và an toàn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: tôi có tiền sử bị viêm phế quản thể hen thì có thể tiêm phòng vaccine Covid-19 không bác sĩ?\nTrả lời: Theo thông tin chị cung cấp, nếu tình trạng viêm phế quản đã điều trị ổn định, chị vẫn có thể tiêm được vaccin Covid-19 theo hướng dẫn của Bộ Y tế. Tuy nhiên theo những nghiên cứu tại Mỹ, Tỷ lệ những ngừoi có cơ địa bệnh dị ứng như viêm mũi dị ứng, tiền sử bệnh hen, hoặc tiền sử dị ứng với tác nhân gì thì gặp tỷ lệ phản vệ cao hơn những người khác, tuy nhiên, không phải ai cũng bị và tỷ lệ vẫn rất hiếm. Vì vậy, chị cần cung cấp đầy đủ về tiền sử bệnh cho bác sĩ khám sàng lọc để được khám sàng lọc kỹ và dặn dò kỹ các phản ứng sau tiêm.",
+                "score": 0.6824429035186768,
+                "id": "vietnamese_healthcare_1160",
+                "rerank_score": 0.9999501705169678
+            },
+            {
+                "text": "Câu hỏi: Xin hỏi cơ địa dị ứng có tiêm được vaccine Covid-19 được không bác sĩ?\nTrả lời: Theo như báo cáo của Mỹ, những người có cơ địa dị ứng, tức là những người mắc các bệnh dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa, dị ứng thuốc, dị ứng vaccine, sốc phản vệ, dị ứng thức ăn, dị ứng latex, dị ứng nọc côn trùng. . . . là những người dễ dị ứng/phản vệ với vaccine hơn so với những người khác. Tuy nhiên, bất kỳ ai cũng có thể bị phản vệ sau tiêm vaccine dù không có tiền sử dị ứng. Trong trường hợp của chị nên được tiêm vaccine Covid-19 ở khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Để giảm thiểu rủi ro do phản vệ, điều quan trọng là cần chú ý theo dõi, phát hiện và xử trí sớm phản vệ ngay ở những triệu chứng phản vệ như nổi mề đay, phù niêm, tím tái, khó thở, tức ngực, thở rít, đau quặn bụng, tiêu chảy hoặc nôn/buồn nôn, tụt huyết áp hoặc ngất, rối loạn ý thức, . . . sau tiêm vaccine Covid- 19. Người được tiêm cần phải theo dõi tại cơ sở y tế ít nhất 30 phút và tiếp tục theo dõi tại nhà ít nhất 7 ngày, nếu có các dấu hiệu phản vệ như trên Chị cần đến ngay cơ sở y tế gần nhất được xử trí điều trị kịp thời.",
+                "score": 0.710992693901062,
+                "id": "vietnamese_healthcare_4413",
+                "rerank_score": 0.9994900226593018
+            },
+            {
+                "text": "Câu hỏi: Tôi có tiền sử dị ứng 3 lần, tiền sử hen phế quản, mới phát hiện rối lọan chuyển hóa đường, vậy tôi có nên tiêm chủng vaccine Covid-19. Nếu tiêm được thì có nguy cơ gì sẽ xảy ra?\nTrả lời: Nếu tiền sử dị ứng của anh/chị được chẩn đoán là phản vệ từ độ 2 trở lên thì anh/chị sẽ chống chỉ định tiêm vaccine Covid-19; còn nếu chỉ dị ứng mức độ nhẹ anh/chị vẫn có thể tiêm tại các bệnh viện được.",
+                "score": 0.6894285082817078,
+                "id": "vietnamese_healthcare_4605",
+                "rerank_score": 0.9990237951278687
+            },
+            {
+                "text": "Câu hỏi: Khoảng 20 mươi năm trước đây, tôi bị viêm mũi dị ứng có uống thuốc uống viêm ngứa, hơi khó thở. Lần thứ hai tôi bị viêm mũi dị ứng, tôi uống thuốc bị ngứa, khó thở. Xin bác sĩ cho biết, tôi có tiêm ngừa vaccine Covid-19 được không?\nTrả lời: Theo như báo cáo của Mỹ, những người có cơ địa dị ứng, tức là những người mắc các bệnh dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa, dị ứng thuốc, dị ứng vaccine, sốc phản vệ, dị ứng thức ăn, dị ứng latex, dị ứng nọc côn trùng. . . là những người dễ dị ứng/phản vệ với vaccine hơn so với những người khác. Tuy nhiên, bất kỳ ai cũng có thể bị phản vệ sau tiêm vaccine dù không có tiền sử dị ứng. Có 2 trường hợp để biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp dị ứng có khó thở, có tím tái phải nhập viện thì chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu chỉ nổi mẩn đỏ ít trên da, ngứa, không cần điều trị, tự hết vẫn có thể tiêm vaccine Covid-19, tuy nhiên cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Ngoài ra, anh phải cung cấp đầy đủ các triệu chứng dị ứng gặp phải cho bác sĩ để bác sĩ đánh giá và chỉ định tiêm chủng an toàn.",
+                "score": 0.7051044702529907,
+                "id": "vietnamese_healthcare_2129",
+                "rerank_score": 0.9987492561340332
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm mũi dị ứng, thường xuyên uống thuốc tây mua tại tiệm thuốc. Vừa rồi tôi có đăng ký tiêm vaccine Covid-19, qua bác sĩ khám sàng lọc bảo là bị dị ứng thì không nên tiêm tại địa điểm này, về chờ khi có tiêm ở bệnh viện thì đăng ký.Cho tôi hỏi bác sĩ tư vấn như vậy đúng không ạ?\nTrả lời: Theo như báo cáo của Mỹ, những người có cơ địa dị ứng, tức là những người mắc các bệnh dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa, dị ứng thuốc, dị ứng vaccine, sốc phản vệ, dị ứng thức ăn, dị ứng latex, dị ứng nọc côn trùng. . . . là những người dễ dị ứng/phản vệ với vaccine hơn so với những người khác. Tuy nhiên, bất kỳ ai cũng có thể bị phản vệ sau tiêm vaccine dù không có tiền sử dị ứng. Trong trường hợp của anh/chị nên được tiêm vaccine Covid-19 ở khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Để giảm thiểu rủi ro do phản vệ, điều quan trọng là cần chú ý theo dõi, phát hiện và xử trí sớm phản vệ ngay ở những triệu chứng phản vệ như: Nổi mề đay, phù niêm, tím tái, khó thở, tức ngực, thở rít, đau quặn bụng, tiêu chảy hoặc nôn/buồn nôn, tụt huyết áp hoặc ngất, rối loạn ý thức, . . . sau tiêm vaccine Covid- 19.",
+                "score": 0.6913011074066162,
+                "id": "vietnamese_healthcare_6765",
+                "rerank_score": 0.9980630278587341
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị bệnh hen phế quản mãn tính, viêm xoang dị ứng thời tiết. Bác sĩ cho tôi hỏi, tôi có thể tiêm vaccine Covid-19 được không ạ?\nTrả lời: Theo như báo cáo của Mỹ, những người có cơ địa dị ứng, tức là những người mắc các bệnh dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa, dị ứng thuốc, dị ứng vaccine, sốc phản vệ, dị ứng thức ăn, dị ứng latex, dị ứng nọc côn trùng v. v…. là những người dễ dị ứng/phản vệ với vaccine hơn so với những người khác. Tuy nhiên, bất kỳ ai cũng có thể bị phản vệ sau tiêm vaccine dù không có tiền sử dị ứng. Trong trường hợp của anh nên được tiêm vaccine Covid-19 ở khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6580425500869751,
+                "id": "vietnamese_healthcare_4358",
+                "rerank_score": 0.9998548030853271
+            },
+            {
+                "text": "Câu hỏi: Tôi có tiền sử dị ứng 3 lần, tiền sử hen phế quản, mới phát hiện rối lọan chuyển hóa đường, vậy tôi có nên tiêm chủng vaccine Covid-19. Nếu tiêm được thì có nguy cơ gì sẽ xảy ra?\nTrả lời: Nếu tiền sử dị ứng của anh/chị được chẩn đoán là phản vệ từ độ 2 trở lên thì anh/chị sẽ chống chỉ định tiêm vaccine Covid-19; còn nếu chỉ dị ứng mức độ nhẹ anh/chị vẫn có thể tiêm tại các bệnh viện được.",
+                "score": 0.7018781900405884,
+                "id": "vietnamese_healthcare_4605",
+                "rerank_score": 0.9990237951278687
+            },
+            {
+                "text": "Câu hỏi: Tôi có tiền sử dị ứng thời tiết hoặc thỉnh thoảng dị ứng ngoài da khi va chạm vào các sợi bông vải. Tôi có bệnh nền hen từ bé nhưng khi trưởng thành đỡ dần. Do liên quan đến phế quản và bị dị ứng thời tiết nên nếu tôi tiêm vaccine Covid-19 có được hay không?Bố tôi có tiền sử cao huyết áp, tiểu đường (đã ổn định), ngoài 70 tuổi. Bố tôi hay bị dị ứng thuốc chẹn giao cảm và thuốc cao huyết áp. Không biết bố tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Tiền sử dị ứng của anh/chị chỉ có ngoài da và hen phế quản bệnh đã ổn định, nếu trong vòng 3 tháng trở lại đây không có cơn hen nào tái phát thì anh/chị có thể tiêm phòng được vaccine Covid-19 tại khối bệnh viện. Trường hợp thứ hai, bố của anh/chị trên 70 tuổi thì theo quy định của Bộ Y tế cần thận trọng với nhóm đối tượng này.",
+                "score": 0.7033339142799377,
+                "id": "vietnamese_healthcare_7203",
+                "rerank_score": 0.9989997744560242
+            },
+            {
+                "text": "Câu hỏi: Khoảng 20 mươi năm trước đây, tôi bị viêm mũi dị ứng có uống thuốc uống viêm ngứa, hơi khó thở. Lần thứ hai tôi bị viêm mũi dị ứng, tôi uống thuốc bị ngứa, khó thở. Xin bác sĩ cho biết, tôi có tiêm ngừa vaccine Covid-19 được không?\nTrả lời: Theo như báo cáo của Mỹ, những người có cơ địa dị ứng, tức là những người mắc các bệnh dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa, dị ứng thuốc, dị ứng vaccine, sốc phản vệ, dị ứng thức ăn, dị ứng latex, dị ứng nọc côn trùng. . . là những người dễ dị ứng/phản vệ với vaccine hơn so với những người khác. Tuy nhiên, bất kỳ ai cũng có thể bị phản vệ sau tiêm vaccine dù không có tiền sử dị ứng. Có 2 trường hợp để biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp dị ứng có khó thở, có tím tái phải nhập viện thì chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu chỉ nổi mẩn đỏ ít trên da, ngứa, không cần điều trị, tự hết vẫn có thể tiêm vaccine Covid-19, tuy nhiên cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Ngoài ra, anh phải cung cấp đầy đủ các triệu chứng dị ứng gặp phải cho bác sĩ để bác sĩ đánh giá và chỉ định tiêm chủng an toàn.",
+                "score": 0.6607394218444824,
+                "id": "vietnamese_healthcare_2129",
+                "rerank_score": 0.9987492561340332
+            },
+            {
+                "text": "Câu hỏi: Em có tiền sử bị viêm phế quản dị ứng, thì có chống chỉ định tiêm vaccine không ạ?\nTrả lời: Viêm phế quản dị ứng là tình trạng bệnh mạn tính không có chống chỉ định với vaccine phòng Covid-19.",
+                "score": 0.7255043387413025,
+                "id": "vietnamese_healthcare_4738",
+                "rerank_score": 0.9977847933769226
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Khoảng 20 mươi năm trước đây, tôi bị viêm mũi dị ứng có uống thuốc uống viêm ngứa, hơi khó thở. Lần thứ hai tôi bị viêm mũi dị ứng, tôi uống thuốc bị ngứa, khó thở. Xin bác sĩ cho biết, tôi có tiêm ngừa vaccine Covid-19 được không?\nTrả lời: Theo như báo cáo của Mỹ, những người có cơ địa dị ứng, tức là những người mắc các bệnh dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa, dị ứng thuốc, dị ứng vaccine, sốc phản vệ, dị ứng thức ăn, dị ứng latex, dị ứng nọc côn trùng. . . là những người dễ dị ứng/phản vệ với vaccine hơn so với những người khác. Tuy nhiên, bất kỳ ai cũng có thể bị phản vệ sau tiêm vaccine dù không có tiền sử dị ứng. Có 2 trường hợp để biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp dị ứng có khó thở, có tím tái phải nhập viện thì chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu chỉ nổi mẩn đỏ ít trên da, ngứa, không cần điều trị, tự hết vẫn có thể tiêm vaccine Covid-19, tuy nhiên cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Ngoài ra, anh phải cung cấp đầy đủ các triệu chứng dị ứng gặp phải cho bác sĩ để bác sĩ đánh giá và chỉ định tiêm chủng an toàn.",
+                "score": 0.6061710119247437,
+                "id": "vietnamese_healthcare_2129",
+                "rerank_score": 0.9987492561340332
+            },
+            {
+                "text": "Câu hỏi: Những ai có tiền sử dị ứng nhưng vẫn có thể tiêm vắc xin covid-19?\nTrả lời: 2. Những ai có tiền sử dị ứng nhưng vẫn có thể tiêm vắc xin covid-19?\nMột câu hỏi đặt ra là bệnh nhân có tiền sử dị ứng có làm gia tăng nguy cơ gây dị ứng với vắc xin covid-19 hay không? Trong bảng 1 trình bày cụ thể về những nhóm đối tượng và hướng dẫn tiêm cho từng nhóm đối tượng. Nếu bạn có tiền sử dị ứng: Tiền sử có phản ứng dị ứng với thức ăn , nọc côn trùng hoặc với các thuốc đã được xác định (không phải tá dược trong thuốc) Dị ứng với các dị nguyên hô hấp như bọ nhà, phấn hoa Tiền sử gia đình có bệnh lý dị ứng Phản ứng tại chỗ (không phải phản ứng toàn thân) với vắc xin trước đó Quá mẫn với các thuốc giảm đau chống viêm NSAID như aspirin , ibuprofen Sử dụng liệu pháp miễn dịch với dị nguyên Những bệnh nhân hen phế quản ổn định Đều có chỉ định tiêm vắc xin covid-19 thường quy và nên tiêm ở nơi có đủ khả năng cấp cứu phản vệ, lưu viện khoảng 15-30 phút để theo dõi theo khuyến cáo. Nếu bạn có một trong các yếu tố: Tiền sử dị ứng xảy ra trong vòng 4h với nhiều loại thuốc hoặc nhóm thuốc; Dị ứng với vắc xin covid-19 tiêm mũi 1 hiện nay có chỉ định tiêm mũi 2; Phản ứng với vắc xin hoặc các thành phần của vắc xin khác, trong đó có PEG-2000 hoặc Polysorbate 80; Phản vệ độ 2 với bất kì nguyên nhân nào theo khuyến cáo của Bộ Y tế Việt Nam để hạn chế nguy cơ. Khi bạn thuộc các yếu tố trên thì bạn có thể trì hoãn tiêm vắc xin covid-19 và cần khám bác sĩ chuyên khoa dị ứng để có tư vấn, chỉ định phù hợp và an toàn. Một lưu ý quan trọng là phản ứng dị ứng nặng, thậm chí sốc phản vệ cũng xảy ra ở những bệnh nhân không có tiền sử dị ứng. Do vậy, tiêm vắc xin cần được thực hiện tại nơi có khả năng cấp cứu phản vệ. Bệnh nhân cần được lưu lại tại cơ sở y tế để theo dõi ít nhất 15-30 phút để dự phòng các phản ứng tức thì nặng có thể xảy ra. Bảng 1: Hướng dẫn tiêm vắc xin cho bệnh nhân có tiền sử dị ứng (mũi 1)",
+                "score": 0.6231094598770142,
+                "id": "vietnamese_healthcare_115629",
+                "rerank_score": 0.9962714910507202
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm da cơ địa mỗi ngày phải uống một viên chống dị ứng. Tôi bị cao huyết áp mỗi ngày uống một viên huyết áp. Vậy tôi có thể tiêm vaccine phòng Covid-19 không?. Trước khi tiêm có cần chuẩn bị, kiêng cứ điều gì?\nTrả lời: Theo như báo cáo của Mỹ, những người có cơ địa dị ứng, tức là những người mắc các bệnh dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa, dị ứng thuốc, dị ứng vaccine, sốc phản vệ, dị ứng thức ăn, dị ứng latex, dị ứng nọc côn trùng . . . . là những người dễ dị ứng/phản vệ với vaccine hơn so với những người khác.",
+                "score": 0.604844868183136,
+                "id": "vietnamese_healthcare_8152",
+                "rerank_score": 0.992661714553833
+            },
+            {
+                "text": "Câu hỏi: Mình có tiền sử dị ứng với thuốc, dung dịch truyền nước hoa quả và thi thoảng hay bị dị ứng chưa rõ nguyên nhân (không dị ứng với hải sản) thì có tiêm được vaccine phòng Covid-19 không?\nTrả lời: Bạn chưa miêu tả cụ thể tình trạng dị ứng của mình như triệu chứng, thuốc điều trị khi dị ứng như thế nào, bạn có phải cấp cứu tại bệnh viện hay không. Nếu tình trạng dị ứng chỉ bị nổi mề đay thì có thể tiêm ngừa vaccine tại bệnh viện hoặc cơ sở tiêm chủng đủ năng lực cấp cứu ban đầu, còn nếu tình trạng dị ứng của bạn ở mức độ nặng (phản vệ độ 2 trở lên) phải cấp cứu tại bệnh viện thì đó là chống chỉ định tiêm vaccine Covid-19 .",
+                "score": 0.6062747836112976,
+                "id": "vietnamese_healthcare_1177",
+                "rerank_score": 0.989974319934845
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thuốc kháng sinh, bác sĩ cho tôi hỏi tôi có đủ điều kiện để tiêm vaccine Covid-19 không?\nTrả lời: Chị chưa mô tả rõ triệu chứng mà bản thân gặp phải khi bị dị ứng và huyết áp của chị tăng cao cụ thể là ở mức bao nhiêu?Chị có phải sử dụng thuốc hàng ngày hay không?Nếu là dị ứng nhẹ, không phải điều trị, chị có thể tiêm được vaccine Covid-19. Còn nếu trường hợp dị ứng nặng từ phản vệ độ 2, chị thuộc nhóm chỉ định chống chỉ định với vaccine Covid-19.",
+                "score": 0.6491416096687317,
+                "id": "vietnamese_healthcare_5004",
+                "rerank_score": 0.9795597791671753
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

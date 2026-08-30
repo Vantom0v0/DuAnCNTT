@@ -1,0 +1,114 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ! Năm nay mình 51 tuổi, mình bị bệnh hạ kali máu cũng 7 năm rồi. Mình đã đi khám và điều trị nhưng không đỡ. Bác sĩ có thể tư vấn giúp mình làm cách nào để bệnh tình của mình thuyên giảm không ạ? Mình cảm ơn bác sĩ.",
+    "ground_truth": "Chào cô! Trong điều trị hạ kali máu ngoài việc bù đủ kali thì quan trọng không là tìm và điều trị nguyên nhân gây nên tình trạng hạ kali máu.",
+    "answer": "Với tình trạng hạ kali máu kéo dài 7 năm và tái diễn, chưa có đủ thông tin để xác định mức độ bệnh cũng như nguyên nhân cụ thể nên chưa thể tư vấn phương pháp điều trị chính xác. Điều trị không chỉ là bù kali mà quan trọng là tìm và kiểm soát nguyên nhân, có thể liên quan đến ăn uống kém, tiêu chảy hoặc dùng thuốc lợi tiểu; ngoài ra cần kiểm tra nguyên nhân u tuyến thượng thận trong trường hợp hạ kali máu tái diễn. Chị nên đi khám bác sĩ chuyên khoa để được đánh giá và điều trị phù hợp.",
+    "evidence": [
+        "Trả lời: Theo những thông tin mà chị cung cấp, chúng tôi không rõ bệnh lý của chị đã ở mức độ nào.",
+        "Trường hợp của chị nên đi khám bác sĩ chuyên khoa để có sự cụ thể hơn.",
+        "Trả lời: Mỗi lứa tuổi có những nguyên nhân khác nhau nên việc điều trị tùy thuộc vào từng nguyên nhân.",
+        "Trả lời: Trong điều trị hạ kali máu ngoài việc bù đủ kali thì quan trọng không là tìm và điều trị nguyên nhân gây nên tình trạng hạ kali máu.",
+        "Các nguyên nhân thường gặp bao gồm ăn uống kém, mất kali do tiêu chảy, dùng thuốc lợi tiểu, .",
+        "Trong đó u tuyến thượng thận là nguyên nhân nên được kiểm soát đối với trường hợp hạ kali máu tái diễn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: e bị cách đây cũng nửa năm .mà e có bôi thuốc hắc lào mà ko khỏi. bác sĩ có thể tư vấn e bị gì và cách điều trị ko ạ\nTrả lời: Chào em\nNếu em đã điều trị hắc lào nửa năm mà không khỏi thì em không nên tiếp tục bôi thuốc hắc lào nữa Em nên đi khám chuyên khoa da liễu để được khám và hướng dẫn điều trị\nThân mến chào em",
+                "score": 0.5520440936088562,
+                "id": "vietnamese_medical_qa_6272",
+                "rerank_score": 0.018786892294883728
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho con hỏi về bệnh đa hồng cầu, các triệu chứng của bệnh đều được biểu hiện khi xét nghiệm tủy thì chưa phát hiện có gì bất thường. Hiện nay vẫn được cho uống thuốc chống đông máu và đi khám rút máu định kỳ. Cho con hỏi bệnh này sẽ được điều trị theo lộ trình như thế nào và kéo dài được bao lâu? Các biến chứng và nếu như chỉ ở giai đoạn đầu thì cơ hội sống có cao không và kéo dài tầm bao lâu? Xin cảm ơn bác sĩ đã tư vấn giúp con câu hỏi, bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Chào cháu! Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố. Trường hợp bệnh nhân nặng có thể tiến hành ghép tủy.",
+                "score": 0.5740169882774353,
+                "id": "vietnamese_medical_qa_1872",
+                "rerank_score": 0.011812981218099594
+            },
+            {
+                "text": "Câu hỏi: Em bị bệnh gout đã gần 10 năm uống nhiều nhiều loại thuốc (cả đông và tây y) nhưng không khỏi. Em nhờ các bác sĩ tư vấn giúp nên dùng loại thuốc nào để điều trị và thực đơn ăn uống thế nào cho hợp lý.\nTrả lời: Theo những thông tin mà chị cung cấp, chúng tôi không rõ bệnh lý của chị đã ở mức độ nào. Trường hợp của chị nên đi khám bác sĩ chuyên khoa để có sự cụ thể hơn.",
+                "score": 0.6128756999969482,
+                "id": "vietnamese_healthcare_20",
+                "rerank_score": 0.006630921736359596
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho con hỏi là bị bệnh tiểu đường mình nên ăn gì để tốt cho sức khỏe của mình ạ? Ăn gì cho tăng cân ạ? Vì bà ngoại con bị tiểu đường và xuống cân nhiều. Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nLinh (Hà Nội)\nChào bác sĩ. Tôi 36 tuổi bị sút cân đột ngột, đi khám thì bác sĩ kết luận bị tiểu đường! Tôi muốn hỏi giờ điều trị như thế nào? Bác sĩ tư vấn giúp tôi. Xin cảm ơn.\nTrả lời: Chào bạn, cân đối chế độ dinh dưỡng và chế độ ăn hạn chế đường để có thể giữ đường huyết đạt mục tiêu, tránh biến chứng là một điều rất quan trọng trong điều trị bệnh đái tháo đường. Quan trọng là bệnh nhân phải bàn với bác sĩ trực tiếp điều trị vì có rất nhiều vấn đề liên quan: Đái tháo đường type 1 hay 2? Có biến chứng gì chưa? Có bệnh gì đi kèm không? Đường huyết đang ở mức nào? dinh dưỡng và hoàn cảnh thế nào?... Bạn nên gặp trực tiếp bác sĩ điều trị để thảo luận cụ thể trong trường hợp này nhé.",
+                "score": 0.5831958055496216,
+                "id": "vietnamese_medical_qa_3874",
+                "rerank_score": 0.005108421668410301
+            },
+            {
+                "text": "Câu hỏi: Có cách nào trị bệnh xuất huyết não không?\nNguyễn Yến Nhi (1999)\nChào bác sĩ. Bác sĩ cho em hỏi xuất huyết não có thể chữa được không ạ? Bà nội em bị tăng huyết áp và dẫn đến xuất huyết não ạ!\nMong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Mỗi lứa tuổi có những nguyên nhân khác nhau nên việc điều trị tùy thuộc vào từng nguyên nhân.\nVí dụ: trẻ sơ sinh bị xuất huyết não do thiếu vitamin K\nHoặc những người bị xuất huyết não do chấn thương sọ não.\nĐối với người trẻ (dưới 50 tuổi) nguyên nhân xuất huyết não có thể do dị dạng mạch não, phình mạch não,..\nCòn những người có tuổi xuất huyết não do bệnh lý mạch máu như xơ vữa động mạch, huyết áp cao,...",
+                "score": 0.5642175078392029,
+                "id": "vietnamese_medical_qa_4995",
+                "rerank_score": 0.005083860829472542
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bệnh hạ kali máu điều trị bằng cách nào?\nTrả lời: Trong điều trị hạ kali máu ngoài việc bù đủ kali thì quan trọng không là tìm và điều trị nguyên nhân gây nên tình trạng hạ kali máu. Các nguyên nhân thường gặp bao gồm ăn uống kém, mất kali do tiêu chảy, dùng thuốc lợi tiểu, . . . Trong đó u tuyến thượng thận là nguyên nhân nên được kiểm soát đối với trường hợp hạ kali máu tái diễn.",
+                "score": 0.5528573393821716,
+                "id": "vietnamese_healthcare_1588",
+                "rerank_score": 0.995866060256958
+            },
+            {
+                "text": "Câu hỏi: e bị cách đây cũng nửa năm .mà e có bôi thuốc hắc lào mà ko khỏi. bác sĩ có thể tư vấn e bị gì và cách điều trị ko ạ\nTrả lời: Chào em\nNếu em đã điều trị hắc lào nửa năm mà không khỏi thì em không nên tiếp tục bôi thuốc hắc lào nữa Em nên đi khám chuyên khoa da liễu để được khám và hướng dẫn điều trị\nThân mến chào em",
+                "score": 0.5590280890464783,
+                "id": "vietnamese_medical_qa_6272",
+                "rerank_score": 0.018786892294883728
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho con hỏi về bệnh đa hồng cầu, các triệu chứng của bệnh đều được biểu hiện khi xét nghiệm tủy thì chưa phát hiện có gì bất thường. Hiện nay vẫn được cho uống thuốc chống đông máu và đi khám rút máu định kỳ. Cho con hỏi bệnh này sẽ được điều trị theo lộ trình như thế nào và kéo dài được bao lâu? Các biến chứng và nếu như chỉ ở giai đoạn đầu thì cơ hội sống có cao không và kéo dài tầm bao lâu? Xin cảm ơn bác sĩ đã tư vấn giúp con câu hỏi, bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Chào cháu! Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố. Trường hợp bệnh nhân nặng có thể tiến hành ghép tủy.",
+                "score": 0.5705781579017639,
+                "id": "vietnamese_medical_qa_1872",
+                "rerank_score": 0.011812958866357803
+            },
+            {
+                "text": "Câu hỏi: Em bị bệnh gout đã gần 10 năm uống nhiều nhiều loại thuốc (cả đông và tây y) nhưng không khỏi. Em nhờ các bác sĩ tư vấn giúp nên dùng loại thuốc nào để điều trị và thực đơn ăn uống thế nào cho hợp lý.\nTrả lời: Theo những thông tin mà chị cung cấp, chúng tôi không rõ bệnh lý của chị đã ở mức độ nào. Trường hợp của chị nên đi khám bác sĩ chuyên khoa để có sự cụ thể hơn.",
+                "score": 0.6347818374633789,
+                "id": "vietnamese_healthcare_20",
+                "rerank_score": 0.006630940828472376
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho con hỏi là bị bệnh tiểu đường mình nên ăn gì để tốt cho sức khỏe của mình ạ? Ăn gì cho tăng cân ạ? Vì bà ngoại con bị tiểu đường và xuống cân nhiều. Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nLinh (Hà Nội)\nChào bác sĩ. Tôi 36 tuổi bị sút cân đột ngột, đi khám thì bác sĩ kết luận bị tiểu đường! Tôi muốn hỏi giờ điều trị như thế nào? Bác sĩ tư vấn giúp tôi. Xin cảm ơn.\nTrả lời: Chào bạn, cân đối chế độ dinh dưỡng và chế độ ăn hạn chế đường để có thể giữ đường huyết đạt mục tiêu, tránh biến chứng là một điều rất quan trọng trong điều trị bệnh đái tháo đường. Quan trọng là bệnh nhân phải bàn với bác sĩ trực tiếp điều trị vì có rất nhiều vấn đề liên quan: Đái tháo đường type 1 hay 2? Có biến chứng gì chưa? Có bệnh gì đi kèm không? Đường huyết đang ở mức nào? dinh dưỡng và hoàn cảnh thế nào?... Bạn nên gặp trực tiếp bác sĩ điều trị để thảo luận cụ thể trong trường hợp này nhé.",
+                "score": 0.6038584113121033,
+                "id": "vietnamese_medical_qa_3874",
+                "rerank_score": 0.005108431447297335
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: e bị cách đây cũng nửa năm .mà e có bôi thuốc hắc lào mà ko khỏi. bác sĩ có thể tư vấn e bị gì và cách điều trị ko ạ\nTrả lời: Chào em\nNếu em đã điều trị hắc lào nửa năm mà không khỏi thì em không nên tiếp tục bôi thuốc hắc lào nữa Em nên đi khám chuyên khoa da liễu để được khám và hướng dẫn điều trị\nThân mến chào em",
+                "score": 0.5556648969650269,
+                "id": "vietnamese_medical_qa_6272",
+                "rerank_score": 0.018786892294883728
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho con hỏi về bệnh đa hồng cầu, các triệu chứng của bệnh đều được biểu hiện khi xét nghiệm tủy thì chưa phát hiện có gì bất thường. Hiện nay vẫn được cho uống thuốc chống đông máu và đi khám rút máu định kỳ. Cho con hỏi bệnh này sẽ được điều trị theo lộ trình như thế nào và kéo dài được bao lâu? Các biến chứng và nếu như chỉ ở giai đoạn đầu thì cơ hội sống có cao không và kéo dài tầm bao lâu? Xin cảm ơn bác sĩ đã tư vấn giúp con câu hỏi, bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Chào cháu! Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố. Trường hợp bệnh nhân nặng có thể tiến hành ghép tủy.",
+                "score": 0.5752978324890137,
+                "id": "vietnamese_medical_qa_1872",
+                "rerank_score": 0.011812958866357803
+            },
+            {
+                "text": "Câu hỏi: Em bị bệnh gout đã gần 10 năm uống nhiều nhiều loại thuốc (cả đông và tây y) nhưng không khỏi. Em nhờ các bác sĩ tư vấn giúp nên dùng loại thuốc nào để điều trị và thực đơn ăn uống thế nào cho hợp lý.\nTrả lời: Theo những thông tin mà chị cung cấp, chúng tôi không rõ bệnh lý của chị đã ở mức độ nào. Trường hợp của chị nên đi khám bác sĩ chuyên khoa để có sự cụ thể hơn.",
+                "score": 0.6361332535743713,
+                "id": "vietnamese_healthcare_20",
+                "rerank_score": 0.006630940828472376
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho con hỏi là bị bệnh tiểu đường mình nên ăn gì để tốt cho sức khỏe của mình ạ? Ăn gì cho tăng cân ạ? Vì bà ngoại con bị tiểu đường và xuống cân nhiều. Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nLinh (Hà Nội)\nChào bác sĩ. Tôi 36 tuổi bị sút cân đột ngột, đi khám thì bác sĩ kết luận bị tiểu đường! Tôi muốn hỏi giờ điều trị như thế nào? Bác sĩ tư vấn giúp tôi. Xin cảm ơn.\nTrả lời: Chào bạn, cân đối chế độ dinh dưỡng và chế độ ăn hạn chế đường để có thể giữ đường huyết đạt mục tiêu, tránh biến chứng là một điều rất quan trọng trong điều trị bệnh đái tháo đường. Quan trọng là bệnh nhân phải bàn với bác sĩ trực tiếp điều trị vì có rất nhiều vấn đề liên quan: Đái tháo đường type 1 hay 2? Có biến chứng gì chưa? Có bệnh gì đi kèm không? Đường huyết đang ở mức nào? dinh dưỡng và hoàn cảnh thế nào?... Bạn nên gặp trực tiếp bác sĩ điều trị để thảo luận cụ thể trong trường hợp này nhé.",
+                "score": 0.5976474285125732,
+                "id": "vietnamese_medical_qa_3874",
+                "rerank_score": 0.005108431447297335
+            },
+            {
+                "text": "Câu hỏi: Có cách nào trị bệnh xuất huyết não không?\nNguyễn Yến Nhi (1999)\nChào bác sĩ. Bác sĩ cho em hỏi xuất huyết não có thể chữa được không ạ? Bà nội em bị tăng huyết áp và dẫn đến xuất huyết não ạ!\nMong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Mỗi lứa tuổi có những nguyên nhân khác nhau nên việc điều trị tùy thuộc vào từng nguyên nhân.\nVí dụ: trẻ sơ sinh bị xuất huyết não do thiếu vitamin K\nHoặc những người bị xuất huyết não do chấn thương sọ não.\nĐối với người trẻ (dưới 50 tuổi) nguyên nhân xuất huyết não có thể do dị dạng mạch não, phình mạch não,..\nCòn những người có tuổi xuất huyết não do bệnh lý mạch máu như xơ vữa động mạch, huyết áp cao,...",
+                "score": 0.5602710247039795,
+                "id": "vietnamese_medical_qa_4995",
+                "rerank_score": 0.005083853378891945
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

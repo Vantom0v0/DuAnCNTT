@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Tôi 50 tuổi bị hen suyễn từ nhỏ có tiêm vaccine Covid 19 được không? từ trước đến giờ tôi cũng chưa tiêm loại vaccine ngừa bệnh nào?",
+    "ground_truth": "Trường hợp của anh bị hen suyễn từ lúc nhỏ không nằm trong nhóm danh sách chống chỉ định tiêm vaccine theo hướng dẫn 2995 của Bộ Y tế. Do vậy, anh sẽ trao đổi cụ thể tình trạng bệnh của mình với bác sĩ khám sàng lọc, nếu tình trạng sức khỏe của anh ổn định, hen phế quản của bác đã được kiểm soát anh nên tiêm ngừa vaccine Covid-19 càng sớm càng tốt. Bởi anh là người có yếu tố bệnh lý nền nên dễ mắc Covid-19 nặng hơn các trường hợp khác. Ngoài vaccine Covid-19, anh cũng nên tiêm các vaccine khác đặc biệt là các vaccine ngừa các bệnh lý về đường hô hấp như phế cầu khuẩn hoặc cúm vì khi mắc các bệnh lý trên sẽ làm cho tình trạng hen phế quản của mình trấm trọng hơn.",
+    "answer": "Theo thông tin được cung cấp, nếu bệnh hen suyễn của bạn đã được điều trị ổn định và hiện không trong cơn hen cấp, bạn có thể tiêm vaccine Covid-19.\n\nKhi đi tiêm, bạn cần:\n\n- Thông báo đầy đủ tiền sử hen suyễn, thuốc đang sử dụng và tiền sử dị ứng cho bác sĩ khám sàng lọc.\n- Nếu hen đang điều trị thường xuyên hoặc kèm viêm mũi dị ứng/viêm xoang, nên tiêm tại cơ sở bệnh viện để bảo đảm an toàn.\n- Tuân thủ hướng dẫn theo dõi các phản ứng sau tiêm; nên có người hỗ trợ bên cạnh trong 3 ngày đầu.\n\nThông tin được cung cấp không nêu rõ việc trước đây bạn chưa từng tiêm vaccine có ảnh hưởng thế nào, nên chưa đủ căn cứ để kết luận riêng về vấn đề này.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi sinh năm 1973, tôi bị bệnh nền hen suyễn mãn tính từ lúc 3 tuổi. Tôi có dùng thuốc xịt nhưng không thường xuyên, bị cơn suyễn khi gặp thời tiết lạnh kéo dài.Bác sĩ cho hỏi tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Hiện tại, bệnh hen suyễn của anh đã được điều trị ổn định (không ở trong giai đoạn cấp) có thể được tiêm chủng vaccine Covid-19. Khi đi tiêm chủng, anh hãy thông báo các thông tin liên quan đến bệnh để bác sĩ hướng dẫn và chỉ định tiêm chủng an toàn. Đặc biệt sau khi tiêm, anh hãy tuân thủ theo đúng hướng dẫn của bác sĩ về theo dõi các phản ứng sau tiêm để kịp thời phát hiện các dấu hiệu bất thường. Anh nên luôn có người hỗ trợ bên cạnh trong 3 ngày đầu tiên nhé.",
+            "score": 0.7239090800285339,
+            "id": "vietnamese_healthcare_755",
+            "rerank_score": 0.9921280145645142
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 60 tuổi, bị hen suyễn, thỉnh thoảng có sử dụng thuốc xịt. Tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, người có bệnh nền nếu đã được điều trị ổn định/đã khỏi vẫn có thể tiêm ngừa vaccine phòng Covid-19. Trường hợp bệnh suyễn của bác, nếu đã điều trị ổn định, bệnh đã được kiểm soát thì bác vẫn được tiêm chủng vaccine Covid-19.",
+            "score": 0.6759721040725708,
+            "id": "vietnamese_healthcare_9533",
+            "rerank_score": 0.9919453263282776
+        },
+        {
+            "text": "Câu hỏi: Tôi bị hen phế quản, phải dùng thường xuyên thuốc hít, cộng thêm viêm xoang, viêm mũi dị ứng. Vậy có thể tiêm vaccine Covid-19 được không? Khi tiêm chú ý những gì?\nTrả lời: Nếu như anh đang điều trị hen suyễn, viêm mũi dị ứng, viêm xoang vẫn có thể tiêm được vaccine Covid-19. Tuy nhiên, đối với những trường hợp này nên được tiêm vaccine tại tuyến bệnh viện để đảm bảo an toàn cho anh.",
+            "score": 0.6589980125427246,
+            "id": "vietnamese_healthcare_2676",
+            "rerank_score": 0.9553096890449524
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 40 tuổi, bị hen, đã ổn định và đang dùng thuốc dự phòng ngày một lần có được tiêm vaccine phòng Covid-19 hay không?\nTrả lời: Trường hợp của chị đang uống thuốc dự phòng bệnh hen phế quản, theo hướng dẫn của Bộ Y tế chị vẫn tiêm được vaccine Covid-19 bình thường.",
+            "score": 0.6724715232849121,
+            "id": "vietnamese_healthcare_1194",
+            "rerank_score": 0.916570782661438
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho tôi hỏi tôi đang điều trị bênh cường giáp & trước đây có bị suyễn (hết cách đây 1 năm) vậy giờ tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Nếu trong vòng 3 tháng gần đây, mức độ bệnh của Anh/Chị không tiến triển, không tái phát thì Anh/Chị vẫn có thể tiêm ngừa vaccine phòng Covid-19. Khi đi tiêm cần cung cấp đầy đủ thông tin bệnh lý, tiền sử dị ứng cho BS khám sàng lọc để BS có thể chỉ định tiêm an toàn cho Anh/Chị.",
+            "score": 0.6717401742935181,
+            "id": "vietnamese_healthcare_8838",
+            "rerank_score": 0.8833675980567932
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

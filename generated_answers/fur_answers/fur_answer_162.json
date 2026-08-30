@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Bé nhà e tiêm phế cầu Synflorix ngày 2/3/2019, mũi 2 vào ngày 19/5/2019, mũi 3 ngày 27/7/2019 và mũi 4 ngày 26/7/2020. Vậy bác sĩ cho em hỏitrẻ đã tiêm 4 mũi phế cầu có cần tiêm thêm không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bé nhà bạn đã tiêm đủ 4 mũi vắc xin phế cầu theo khuyến cáo của Bộ Y tế. Những mũi vắc xin này sẽ bảo vệ bé trước các bệnh viêm phổi, viêm màng não mủ, viêm tai giữa, nhiễm trùng máu do phế cầu. Sau 5 tuổi nếu trẻ vẫn hay bị viêm nhiễm đường hô hấp trên, có tiền sử viêm xoang, hen phế quản, suy giảm miễn dịch nên nhắc lại một mũi phế cầu 13 (Prevenar 13) để củng cố thêm hiệu quả miễn dịch đối với phế cầu khuẩn.",
+    "answer": "Theo thông tin được cung cấp:\n\n- Bé đã hoàn thành đủ **4 mũi Synflorix** theo phác đồ.\n- **Không cần tiêm lại từ đầu hay tiêm thêm mũi Synflorix**.\n- Một tư vấn trong bằng chứng cho biết bé đã tiêm đủ 4 mũi Synflorix **vẫn có thể tiêm tăng cường Prevenar 13**, vì Prevenar 13 phòng 13 chủng phế cầu còn Synflorix phòng 10 chủng. Khoảng cách tối thiểu giữa mũi Synflorix cuối và Prevenar 13 là **8 tuần**. Với mũi cuối ngày **26/7/2020**, thời điểm sớm nhất là khoảng **20/9/2020**.\n\nTuy nhiên, các thông tin cung cấp chưa nêu rõ đây là chỉ định bắt buộc cho mọi trẻ; việc có tiêm Prevenar 13 hay không nên được bác sĩ đánh giá và tư vấn cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bé nhà em sinh năm 2018, đã tiêm đủ 3 liều vắc xin phế cầu và 1 liều nhắc lại, tổng cộng 4 liều theo như lịch tiêm. Vậy bác sĩ cho em hỏitrẻ tiêm đủ 4 mũi phế cầu có nên tiêm vắc xin phế cầu Prevenar 13 không?Em cảm ơn bác sĩ. La Minh Yến(1988) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Đoàn Ngọc Quỳnh- Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Vắc xin Synflorix phòng được 10 chủng phế cầu, vắc xin Prevenar 13 phòng được 13 chủng phế cầu, nên các bé đã hoàn thành đủ phác đồ tiêm 4 mũi vắc xin Synflorix vẫn nên tiêm tăng cường Prevenar 13. Khoảng cách tối thiểu giữa liều Synflorix cuối cùng và Prevenar 13 được khuyến cáo là 8 tuần.",
+            "score": 0.7053664326667786,
+            "id": "medical_vietnamese_qa_12910",
+            "rerank_score": 0.9997132420539856
+        },
+        {
+            "text": "Câu hỏi: ! bé nhà em có tiêm mũi vắc-xin phế cầu mũi thứ 2 từ tháng 11/2019 và hẹn tháng 12/2019 đến tiêm mũi 3. Nhưng do bé bị ốm phải dùngkháng sinhlâu dài rồi lại đến dịch covid-19 nên chưa tiêm được mũi thứ 3. Vậy bác sĩ cho em hỏitrẻ 13 tháng tuổi tiêm nhắc lại vắc-xin phế cầu mũi 3 còn hiệu quả không? Mong bác sĩ tư vấn và giải đáp. Em xin chân thành cảm ơn! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Lịch tiêm phòng phế cầu như sau: Dành cho trẻ từ 6 tuần tuổi - dưới 7 tháng tuổi: Mũi đầu khi trẻ vừa đủ 6 tuần tuổi. Mũi 2 sau mũi đầu ít nhất 1 tháng. Mũi 3 sau mũi 2 ít nhất 1 tháng. Mũi 4 sau khi trẻ được 12 tháng tuổi( cách mũi 3 khoảng 6 - 12 tháng) Đối với trẻ từ 7 tháng tuổi đến dưới 12 tháng tuổi (chưa được tiêm phế cầu): Mũi đầu cho trẻ từ 7 tháng tuổi trở lên. Mũi 2 sau mũi đầu ít nhất 1 tháng. Liều nhắc (mũi 3) khi trẻ được trên 1 tuổi và cách mũi 2 tối thiểu 2 tháng. Đối với trẻ từ 12 tháng tuổi - 5 tuổi (chưa được tiêm phế cầu): Mũi đầu cho trẻ từ 12 tháng tuổi trở lên. Mũi 2 sau mũi đầu ít nhất 2 tháng. Bé nhà bạn đã tiêm được 2 mũivắc-xin phế cầu, giờ bé đã 13 tháng tuổi. Nếu bé bắt đầu tiêm mũi 1 trước 06 tháng tuổi thì bé sẽ được tiêm tiếp mũi 3 và mũi 4 cách nhau 02 tháng. Nếu bé tiêm mũi thứ 1 sau khi bé được 07 tháng tuổi thì bé sẽ được tiêm thêm 1 mũi thứ 3 (cách mũi thứ 2 tối thiểu 2 tháng) để đảm bảo hiệu quả bảo vệ của vắc-xin. Hy vọng dựa vào giải đáp trên bạn đã có thể hiểu được “trẻ 13 tháng tuổi tiêm nhắc lại vắc-xin phế cầu mũi 3 còn hiệu quả không?” Để đảm bảo trẻ được tiêm vắc-xin chuẩn, có hiệu lực phòng bệnh tốt, bạn có thể đưa bé đến bệnh viện thuộcHệ thống Y tế Vinmecđể thăm khám, sau đó các bác sĩ sẽ chỉ định mũi tiêm phù hợp nhất cho bé. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Trần Thanh Phước -Bác sĩ Nhi - Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.6798255443572998,
+            "id": "medical_vietnamese_qa_13419",
+            "rerank_score": 0.9996157884597778
+        },
+        {
+            "text": "Câu hỏi: Con nhà cháu đã tiêm 2 mũi vacxin phế cầu lúc 4 và 5 tháng tuổi. Do điều kiện kinh tế khó khăn, nên cháu chưa cho bé đi tiêm mũi thứ 3 đúng lịch. Bác sĩ cho cháu hỏilịch tiêm chủng vacxin phế cầu cho trẻ như thế nàovà bây giờ bé đã 19,5 tháng thì có tiếp tục tiêm mũi 3 được không ạ hay phải tiêm lại từ đầu ạ? Lê Linh(1992) Trả lời Được giải đáp bởiBác sĩ Đặng Thị Ngoan -Bác sĩ Nhi, Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đã được tiêm 2 mũi vacxin phế cầu trước 12 tháng. Hiện tại bé đã 19,5 tháng thì bé chỉ cần tiêm thêm 1 mũi phế cầu nữa là đủ, không cần nhắc lại mũi 4 bạn nhé. Lịch tiêm vắc-xin Synflorix phòng phế cầu cho trẻ: Trẻ nhỏ từ 6 tuần đến 6 tháng tuổi: Liều đầu tiên của liệu trình tiêm 3 + 1 có thể bắt đầu từ lúc trẻ được 6 tuần tuổi. Khoảng cách giữa 3 mũi đầu tiên tối thiểu là 1 tháng, liều nhắc lại ít nhất 6 tháng kể từ mũi thứ 3. Trẻ sinh non (từ 27 tuần thai) vẫn có thể áp dụng theo liệu trình này. Trẻ từ 7 - 11 tháng (chưa từng chủng ngừa vắc-xin phòng phế cầu trước đó): Mũi 1: Ngày trẻ tiêm, khi trẻ được 7 tháng tuổi trở lên. Mũi 2: Cách mũi đầu tiên 1 tháng. Mũi nhắc lại: Tiêm vào năm tuổi thứ 2, cách mũi 2 ít nhất 2 tháng. Trẻ từ 12 tháng đến 5 tuổi (chưa từng chủng ngừa vắc-xin phòng phế cầu trước đó): Mũi 1: Trong độ tuổi chỉ định; Mũi 2: Cách mũi 1 ít nhất 2 tháng",
+            "score": 0.7192564010620117,
+            "id": "medical_vietnamese_qa_13348",
+            "rerank_score": 0.9992741942405701
+        },
+        {
+            "text": "Câu hỏi: Trẻ đã tiêm vắc-xin Synflorix có cần tiêm mũi phế cầu 13 nữa không?\nTrả lời: trẻ trên 4 tuổi sẽ được tiêm bổ sung một mũi vắc-xin Adacel thay thế cho phế cầu 13. Em bé 15 tháng chỉ cần hoàn thành tiêm phòng 4 mũi, sau đó bác sĩ sẽ tư vấn tiếp theo cho trẻ (tiêm Adacel sau 4 tuổi hoặc tiêm bổ sung).",
+            "score": 0.7116921544075012,
+            "id": "vietnamese_healthcare_5382",
+            "rerank_score": 0.9988522529602051
+        },
+        {
+            "text": "Câu hỏi: ! Bé nhà mình đã tiêm vắc-xin phế cầu mũi 1 lúc 5 tháng, vì một số lý do nên đến tháng thứ 8 mới tiêm mũi 2. Vậy khi nào tiêm được mũi 3? Và con mình sẽ dùng liều 3+1 hay 2+1? Mong được bác sĩ tư vấn. Khách hàng Nguy Trả lời\nTrả lời: Chào bạn! Với câu hỏi của bạn tôi xin trả lời như sau: Phác đồ tiêmvắc xin Synflorixphòng viêm phổi, viêm màng não, viêm tai giữa do phế cầu sẽ quyết định dựa vào tháng tuổi của trẻ khi trẻ tiêm mũi đầu tiên. Nếu trẻ tiêm vắc xin khi trẻ 6 tuần đến 6 tháng tuổi: sẽ tiêm phác đồ 4 mũi; trẻ 7 tháng đến dưới 12 tháng tuổi: tiêm phác đồ 3 mũi, từ 1-5 tuổi: tiêm phác đồ 2 mũi. Con nhà bạn sẽ tiêm phác đồ 4 mũi: mũi số 3 sẽ tiêm sau mũi số 2 là 1 tháng, mũi thứ 4 sẽ tiêm sau mũi thứ 3 tối thiểu 6 tháng. Nếu hiện nay con mới tiêm được 2 mũi mà con đã quá 1 tuổi thì có thể đổi được phác đồ tiêm, tiêm thêm 2 mũi vắc xin phòng phế cầu cách nhau tối thiểu 2 tháng. Cảm ơn vì đã đặt câu hỏi tớiHệ thống Y tế Vinmec! Trân trọng. Được tư vấn bởiBác sĩ tại Trung tâm Nhi- Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+            "score": 0.6909683346748352,
+            "id": "medical_vietnamese_qa_13540",
+            "rerank_score": 0.9987213015556335
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

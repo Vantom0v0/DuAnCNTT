@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Khi thở cháu phải ngắc lên, hít hơi dài mới thấy thoải mái. Cháu đã bị từ lâu (khoảng 6-7 năm). Cho hỏi cháu bị làm sao, có nguy hiểm không ạ?",
+    "ground_truth": "Chào cháu. Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.\nCảm ơn cháu đã tin tưởng AI-Doctor. Rất mong có thể gặp cháu để được tư vấn cụ thể hơn.",
+    "answer": "Triệu chứng phải “ngắc lên”, hít hơi dài mới dễ chịu kéo dài 6–7 năm chưa đủ để xác định bệnh và không nên tự chẩn đoán; có thể liên quan đến trào ngược dạ dày–thực quản, bệnh vùng họng/thanh quản–khí phế quản, hen hoặc các nguyên nhân hô hấp khác. Cháu nên khám chuyên khoa Hô hấp và Tai Mũi Họng để được khám trực tiếp, nội soi tai mũi họng, chụp phim phổi và đo chức năng hô hấp; nếu có triệu chứng ợ nóng, nghẹn, đau thượng vị thì cần đánh giá thêm dạ dày. Mức độ nguy hiểm phụ thuộc nguyên nhân, vì vậy không nên trì hoãn khám; nếu khó thở tăng nhanh, thở rít, tím tái, đau ngực, choáng/ngất hoặc không nói được thành câu thì cần cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Thi thoảng em lại bị tình trạng khó thở, cảm giác như bị nghẹn hơi ở cổ (cảm giác rõ khi em thử nuốt hơi vào cổ); thời gian thường kéo dài mấy ngày hoặc 1 tuần; mức độ lặp lại thời gian gần đây rất thường xuyên. Em vẫn thỉnh thoảng còn đau bao tử, từng điều trị virus HP (06/2019). Em từng đi điện tim và kết quả bình thường. Bác sĩ cho em hỏi,khó thở kéo dài là dấu hiệu của bệnh gì? Đinh Thị Huyền Chinh(1991) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Huy Nhật- Bác sĩ Hô hấp - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Các triệu chứng bạn mô tả chưa đủ để kết luận bệnh. Dựa trên thông tin mô tả, có khả năng đây là triệu chứng của bệnhtrào ngược dạ dày – thực quản(GERD). Bạn cần được bác sĩ thăm khám, kiểm tra một số xét nghiệm cần thiết (chụp phim phổi, siêu âm tuyến giáp, nội soi dạ dày...) để loại trừ các nguyên nhân gây khó thở khác. Từ đó, bác sĩ sẽ chẩn đoán và hướng dẫn cách điều trị thích hợp",
+            "score": 0.6951620578765869,
+            "id": "medical_vietnamese_qa_9168"
+        },
+        {
+            "text": "Câu hỏi: Trẻ gồng mình, khò khè khó thở là bị sao?\nTrả lời: Hiện tượng ngủ cứ vặn vẹo, rặn và gồng mình trong những tháng đầu đời là hiện tượng sinh lý bình thường của trẻ. Hiện tượng vặn mình này chỉ xảy ra trong vài giây rồi sau đó sẽ hết ngay lập tức. Hiện tượng này sẽ giảm và hết dần khi trẻ được 2 - 3 tháng. Nếu con khò khè không chảy mũi, không ho bạn cần thay đổi tư thế cho con là hiện tượng này sẽ hết. Bạn không cần quá lo lắng nhé. Nếu thấy con khó thở, gắng sức bạn nên cho con tới cơ sở y tế chuyên khoa để khám cho con nhé.",
+            "score": 0.6833783388137817,
+            "id": "vietnamese_healthcare_3687"
+        },
+        {
+            "text": "Câu hỏi: Em bịkhó thởkhi hít thở sâu, cảm giác như có gì đó chặn ở đoạn từ cuống họng xuống, mỗi khi hít thở sâu cứ kêu khèn khẹt. Vậy bác sĩ cho em hỏikhó thở khi hít thở sâu là triệu chứng bệnh gì?Em nên làm gì thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị khó thở khi hít thở sâu, cảm giác có gì đó chặn ở họng, với biểu hiện của bạn như vậy thì có thể là nguyên nhân từ đường hô hấp: Thanh quản, khí phế quản. Bạn nên đi khám để loại trừ các căn nguyên:Viêm thanh quản, bệnh dạ dày trào ngược,hen phế quản,... Bạn nên đi khám nội soi tai mũi họng và khám chuyên khoa Hô Hấp để được chụp phim kiểm tra và đo chức năng hô hấp. Sau khi làm các thăm dò kiểm tra bác sĩ sẽ tư vấn về vấn đề của bạn và đưa ra hướng điều trị cụ thể.",
+            "score": 0.6672249436378479,
+            "id": "medical_vietnamese_qa_9419"
+        },
+        {
+            "text": "Câu hỏi: Khó chịu ở ngực khi hít sâu là do đâu?\nTrả lời: Các triệu chứng của bạn (khó chịu ở ngực khi hít sâu và ho) có thể liên quan đến bệnh lý đường hô hấp.Các triệu chứng của bệnh lý đường hô hấp thường khác nhau tùy thuộc vào việc bạn bị nhiễm khuẩn đường hô hấp trên hay dưới, những triệu chứng phổ biến hay gặp bao gồm:Ngạt mũi, chảy nước mũiĐau rát cổ họng, hoNhức mỏi toàn thân, sốt ớn lạnh..Đối với những nhiễm trùng nặng có thể ho khạc đờm nhiều, tức ngực khó thở,...Bạn nên đến khám để bác sĩ có thêm thông tin qua việc khám trực tiếp phổi, lồng ngực và từ đó có thể chỉ định xét nghiệm, chụp phim hoặc khám thêm chuyên khoa liên quan như tim mạch... sau khi có đầy đủ xét nghiệm bác sĩ sẽ tổng hợp và đưa ra chẩn đoán, phương pháp điều trịCảm ơn bạn đã đặt câu hỏi tới Hệ thống Y tế Vinmec, rất mong được gặp bạn để được tư vấn trực tiếp.",
+            "score": 0.6499300003051758,
+            "id": "vietnamese_healthcare_5243"
+        },
+        {
+            "text": "Câu hỏi: Nghẹn vùng cổ, khó thở là dấu hiệu của bệnh gì?\nTrả lời: Triệu chứng mỏi, nghẹn vùng cổ, cảm giác khó thở là các triệu chứng thường gặp trong bệnh lý trào ngược dạ dày - thực quản. Trào ngược dạ dày thực quản hay Gastroesophageal Reflux Disease (GERD) là tình trạng dịch dạ dày (bao gồm thức ăn, men tiêu hóa, hơi...) trào ngược lên thực quản. Trong điều kiện sinh lý bình thường, mỗi khi chúng ta ăn uống, thức ăn đưa từ miệng xuống thực quản, cơ vòng thực quản dưới mở ra cho phép thức ăn xuống dưới dạ dày, sau đó tự động đóng kín lại để ngăn không cho thức ăn và dịch vị trào ngược trở lại. Bệnh trào ngược dạ dày thực quản xảy ra khi dịch dạ dày trào ngược lên gây tổn thương các cơ quan thực quản, thanh quản, miệng,...Tuy vậy các triệu chứng trên cũng có thể gặp trong các bệnh lý u vùng tai mũi họng, cổ, thực quản. Vì vậy, bạn nên đến phòng khám Tai mũi họng để khám kiểm tra và điều trị hiệu quả.",
+            "score": 0.6493020057678223,
+            "id": "vietnamese_healthcare_7576"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

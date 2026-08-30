@@ -1,0 +1,119 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Loang đỏ ở lưỡi có phải bị viêm lưỡi không?",
+    "ground_truth": "Có một số trường hợp bị lưỡi bản đồ, bạn có thể khám kiểm tra xem bạn có bị vậy không? Còn lưỡi bản đồ thì là cơ địa, chỉ điều trị khi nên đợt cấp còn lại thì chung sống hòa bình bạn nhé.",
+    "answer": "Loang đỏ ở lưỡi có thể liên quan đến viêm lưỡi, nhưng cũng có thể là lưỡi bản đồ hoặc biểu hiện của nhiễm nấm, vi khuẩn, virus hay các nguyên nhân khác. Vì thông tin hiện có chưa đủ để xác định, bạn nên khám chuyên khoa Răng–Hàm–Mặt; bác sĩ có thể kiểm tra và làm xét nghiệm nếu cần để chẩn đoán chính xác.",
+    "evidence": [
+        "Để trả lời câu hỏi trên, bác sĩ xin trả lời như sau:\nCó một số trường hợp bị lưỡi bản đồ, bạn có thể khám kiểm tra xem bạn có bị vậy không?",
+        "Còn lưỡi bản đồ thì là cơ địa, chỉ điều trị khi nên đợt cấp còn lại thì chung sống hòa bình bạn nhé.",
+        "Trả lời: Lưỡi của bạn có thể bị chảy máu do tổn thương cơ học hoặc do viêm lưỡi.",
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBề mặt lưỡi có những mảng trắng có thể do viêm lưỡi bởi thiếu một số vitamin như kẽm, vitamin A, vitamin PP, sắt hoặc do các vi khuẩn ký sinh tại chỗ, nhiễm nấm, hoặc ảnh hưởng của bệnh lý trào ngược.",
+        "Trả lời: Triệu chứng bạn mô tả không rõ ràng nên khó có thể tư vấn chính xác được.",
+        "Hiện tượng lưỡi mọc mụn nhỏ màu đỏ ở miệng có thể do viêm lưỡi, nhiệt miệng.",
+        "Bạn nên đến viện sớm để được khám và làm xét nghiệm, dựa vào đó bác sĩ sẽ chẩn đoán tốt hơn.",
+        "Hiện tại lưỡi em không loét, bề mặt lưỡi hơi trắng, gai đầu lưỡi có sưng đỏ đỏ và cuống lưỡi có nổi hột đỏ chạm vào không đau nhưng rát phần giữa lưỡi ạ.",
+        "Đây là hiện tượng bất thường, có thể là biểu hiện của các bệnh như: Nhiễm nấm, nhiễm vi khuẩn, virus.",
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nSự thay đổi màu sắc của lưỡi kèm theo triệu chứng rát ở lưỡi thường liên quan đến viêm nhiễm, thường gặp nhất là viêm họng do trào ngược họng thanh quản dẫn đến sự thay đổi màu sắc của lưỡi do dịch vị dạ dày.",
+        "Vì vậy, bác sĩ khuyên bạn nên đến phòng khám chuyên khoa Răng - Hàm - Mặt để có câu trả lời cho thắc mắc “2 bên lưỡi mọc mụn nhỏ màu đỏ, không đau là bị gì vậy?đồng thời điều trị dứt điểm bệnh lý nếu có."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nEm bị loang đỏ ở lưỡi, cảm giác đau rát. Em đã đi khám và được chẩn đoán là viêm lưỡi, em đã uống thuốc theo đơn nhưng không thấy khỏi. Bác sĩ cho em hỏi bị loang đỏ ở lưỡi có phải bị viêm lưỡi không ạ? Làm thế nào để điều trị dứt điểm ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin trả lời như sau:\nCó một số trường hợp bị lưỡi bản đồ, bạn có thể khám kiểm tra xem bạn có bị vậy không? Còn lưỡi bản đồ thì là cơ địa, chỉ điều trị khi nên đợt cấp còn lại thì chung sống hòa bình bạn nhé.",
+                "score": 0.6251943111419678,
+                "id": "vietnamese_medical_qa_1747",
+                "rerank_score": 0.9993898868560791
+            },
+            {
+                "text": "Câu hỏi: Có vết đỏ ở lưỡi là bị sao?\nTrả lời: Lưỡi của bạn có thể bị chảy máu do tổn thương cơ học hoặc do viêm lưỡi. . . Bạn nên đến viện sớm để được khám và làm xét nghiệm, dựa vào đó bác sĩ sẽ chẩn đoán tốt hơn.",
+                "score": 0.5430130362510681,
+                "id": "vietnamese_healthcare_3075",
+                "rerank_score": 0.9143769145011902
+            },
+            {
+                "text": "Câu hỏi: Viêm amidan lưỡi là gì?\nTrả lời: 1. Viêm amidan lưỡi là gì?\nAmidan lưỡi là tổ chức lympho nằm ở đáy lưỡi sau V lưỡi. Đây là một bộ phận của vòng Waldeyer thuộc hệ thống lympho đường thở, có vai trò duy trì hệ miễn dịch , giúp cơ thể chống lại các tác nhân gây bệnh. Viêm amidan lưỡi là tình trạng amidan lưỡi bị vi khuẩn hoặc virus xâm nhập gây tình trạng viêm nhiễm, đau nhức, rát vùng lưỡi. Hình ảnh viêm amidan lưỡi ở người bệnh thường gặp là: Amidan sưng to: Khi quan sát cuống lưỡi sẽ thấy amidan sưng to, tấy đỏ. Bề mặt amidan có thể xuất hiện các chấm mủ trắng. Vùng cổ họng sưng đỏ, khô rát, niêm mạc họng đỏ, xuất tiết, lưỡi trắng bẩn, hạch bạch huyết sau họng sưng to. Người bệnh sốt, ho kéo dài, khàn tiếng , đau tức ngực, thở khò khè khi ngủ. Viêm amidan lưỡi thường xuất hiện ở: Những người vệ sinh răng miệng kém, mắc các bệnh răng miệng như sâu răng, viêm lợi , viêm V.A, viêm xoang ,.. Những người mắc các bệnh đường hô hấp không được điều trị triệt để, vi khuẩn phát triển, lây lan đến amidan lưỡi gây viêm. Những người có sức đề kháng kém, hệ miễn dịch suy giảm, vi khuẩn, virus dễ tấn công, gây bệnh. Môi trường ô nhiễm, thời tiết thay đổi thất thường, người bệnh có cơ địa dị ứng cũng là một yếu tố thuận lợi xuất hiện bệnh. Một số loại viêm Amidan Nếu việc điều trị viêm amidan lưỡi không được hiện hoặc thực hiện không triệt để, bệnh amidan đáy lưỡi có thể tiến triển thành mạn tính, rất khó điều trị, đồng thời gây nhiều biến chứng nguy hiểm cho người bệnh. Các biến chứng có thể gặp là: Biến chứng cục bộ: Loét khe amidan, viêm tấy xung quanh amidan, sỏi amidan, viêm tấy thành bên họng, viêm họng mạn tính . Biến chứng gần: Viêm hạch cổ mạn tính, viêm tai giữa , viêm mũi xoang , viêm thanh quản , viêm khí quản, viêm phế quản . Biến chứng xa: Viêm khớp, viêm nội tâm mạc , viêm cầu thận , nhiễm khuẩn huyết,... Khi các biến chứng đã xảy ra, việc điều trị sẽ trở nên khó khăn và tốn kém hơn rất nhiều, trong khi tình trạng sức khỏe chưa chắc đã hồi phục hoàn toàn. Do đó, để việc điều trị thuận lợi, hạn chế các nguy cơ có thể xảy ra, người bệnh nên đến các cơ sở y tế thăm khám sớm ngay từ khi có các triệu chứng đầu tiên của bệnh. Hình ảnh viêm amidan lưỡi",
+                "score": 0.4809606969356537,
+                "id": "vietnamese_healthcare_125810",
+                "rerank_score": 0.5057529807090759
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nHai tuần nay lưỡi tôi xuất hiện mảng trắng, bề mặt không lồi, bằng phẳng và mất đi gai lưỡi như lưỡi bình thường. Tôi không đau, không rát nhưng nếu ăn cay hoặc nóng quá, những chỗ trắng sẽ có cảm giác rát. Tôi vệ sinh răng miệng kỹ, cạo lưỡi nhưng vẫn không hết. Mảng trắng không lan rộng, vẫn nguyên những vị trí đó (gồm 3 mảng lớn và 2 mảng nhỏ ). Bác sĩ cho tôi hỏi, mảng trắng ở lưỡi là dấu hiệu của bệnh gì? Tôi xin cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBề mặt lưỡi có những mảng trắng có thể do viêm lưỡi bởi thiếu một số vitamin như kẽm, vitamin A, vitamin PP, sắt hoặc do các vi khuẩn ký sinh tại chỗ, nhiễm nấm, hoặc ảnh hưởng của bệnh lý trào ngược. Những dấu hiệu của bệnh lý nguy hiểm là đau nhức tăng lên, có các ổ loét vùng bờ lưỡi, chảy máu. Với thông tin như bạn mô tả thì không phải là những dấu hiệu nguy hiểm ở lưỡi. Bạn có thể mua Betadin cho vùng họng, vệ sinh họng hàng ngày. Ngoài ra, bạn nên chú ý bổ sung một số vitamin và yếu tố vi lượng như kẽm, sắt, vitamin PP, vitamin A.\nTrân trọng!",
+                "score": 0.4778364896774292,
+                "id": "vietnamese_medical_qa_1293",
+                "rerank_score": 0.16893109679222107
+            },
+            {
+                "text": "Câu hỏi: 2 bên lưỡi mọc mụn nhỏ màu đỏ, không đau là bị gì vậy?\nTrả lời: Triệu chứng bạn mô tả không rõ ràng nên khó có thể tư vấn chính xác được. Vì vậy, bác sĩ khuyên bạn nên đến phòng khám chuyên khoa Răng - Hàm - Mặt để có câu trả lời cho thắc mắc “2 bên lưỡi mọc mụn nhỏ màu đỏ, không đau là bị gì vậy?đồng thời điều trị dứt điểm bệnh lý nếu có. Hiện tượng lưỡi mọc mụn nhỏ màu đỏ ở miệng có thể do viêm lưỡi, nhiệt miệng. . . , bạn nên vệ sinh răng miệng thật kỹ, định kỳ 6 tháng khám răng miệng 1 lần nhé.",
+                "score": 0.48301050066947937,
+                "id": "vietnamese_healthcare_2215",
+                "rerank_score": 0.16729097068309784
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nEm bị loang đỏ ở lưỡi, cảm giác đau rát. Em đã đi khám và được chẩn đoán là viêm lưỡi, em đã uống thuốc theo đơn nhưng không thấy khỏi. Bác sĩ cho em hỏi bị loang đỏ ở lưỡi có phải bị viêm lưỡi không ạ? Làm thế nào để điều trị dứt điểm ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin trả lời như sau:\nCó một số trường hợp bị lưỡi bản đồ, bạn có thể khám kiểm tra xem bạn có bị vậy không? Còn lưỡi bản đồ thì là cơ địa, chỉ điều trị khi nên đợt cấp còn lại thì chung sống hòa bình bạn nhé.",
+                "score": 0.6641840934753418,
+                "id": "vietnamese_medical_qa_1747",
+                "rerank_score": 0.9993898868560791
+            },
+            {
+                "text": "Câu hỏi: Có vết đỏ ở lưỡi là bị sao?\nTrả lời: Lưỡi của bạn có thể bị chảy máu do tổn thương cơ học hoặc do viêm lưỡi. . . Bạn nên đến viện sớm để được khám và làm xét nghiệm, dựa vào đó bác sĩ sẽ chẩn đoán tốt hơn.",
+                "score": 0.5762239694595337,
+                "id": "vietnamese_healthcare_3075",
+                "rerank_score": 0.9143769145011902
+            },
+            {
+                "text": "Câu hỏi: Em năm nay 26 tuổi, hiện tại em đang bị rát lưỡi và tình trạng đã kéo dài được 3 tháng rồi ạ. Em có đi thăm khám trên bệnh viện tại nơi cư trú bác sĩ có chẩn đoán bị nấm nhưng em dùng thuốc 1 thời gian và không có hiệu quả ạ. Em đi khám bác sĩ tư thì chẩn đoán bị viêm lưỡi và uống thuốc cũng không thấy thuyên giảm ạ. Hiện tại lưỡi em không loét, bề mặt lưỡi hơi trắng, gai đầu lưỡi có sưng đỏ đỏ và cuống lưỡi có nổi hột đỏ chạm vào không đau nhưng rát phần giữa lưỡi ạ. Bác sĩ cho em hỏirát lưỡi, cuống lưỡi nổi hột đỏ có gì bất thường?Em xin cảm ơn. Bùi Văn Quý(1995) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Đặng Tiến Đạt- Bác sĩ Răng - Hàm - Mặt - Khoa khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Rát lưỡi, bề mặt lưỡi hơi trắng, gai đầu lưỡi có sưng đỏ đỏ và cuống lưỡi có nổi hột đỏ. Đây là hiện tượng bất thường, có thể là biểu hiện của các bệnh như: Nhiễm nấm, nhiễm vi khuẩn, virus. Thiếu một số chất như kẽm, vitamin C,PP, B1,B6,B12... Dị ứng thuốc, thức ăn. Một số bệnh toàn thân gây suy giảm miễn dịch Bạn nên đi khám ngay để được chẩn đoán và điều trị tốt hơn. Bác sĩ sẽ thăm khám, làm các xét nghiệm xác định loại nấm, vi khuẩn, virus. Các xét nghiệm về nồng độ chất dinh dưỡng trong máu... Nếu nguyên nhân là do nấm, vi khuẩn thì phải làm kháng sinh đồ để chọn loại kháng sinh thích hợp. Nếu do virus thì dùng thuốc kháng virus. Bạn cần bổ sung đầy đủ chất dinh dưỡng, nâng cao hệ miễn dịch, tránh các tác nhân gây dị ứng, vệ sinh răng miệng, kiêng những đồ ăn cay, nóng,...",
+                "score": 0.493033766746521,
+                "id": "medical_vietnamese_qa_8983",
+                "rerank_score": 0.8021735548973083
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm 26 tuổi, đã 3 tháng lưỡi em bị rát và trắng. Trong cuống lưỡi có nổi mấy hột đỏ và không đau. Vậy bác sĩ cho em hỏi nam giới lưỡi rát, nổi hột đỏ nguyên nhân là gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nSự thay đổi màu sắc của lưỡi kèm theo triệu chứng rát ở lưỡi thường liên quan đến viêm nhiễm, thường gặp nhất là viêm họng do trào ngược họng thanh quản dẫn đến sự thay đổi màu sắc của lưỡi do dịch vị dạ dày. Dựa trên lứa tuổi của bạn thì bác sĩ ít nghĩ đến nguyên nhân do u cục. Bạn nên đến thăm khám chuyên khoa Tai mũi họng và Tiêu hóa để được sự tư vấn phù hợp từ các bác sĩ.\nTrân trọng!",
+                "score": 0.5036119222640991,
+                "id": "vietnamese_medical_qa_1283",
+                "rerank_score": 0.5385229587554932
+            },
+            {
+                "text": "Câu hỏi: Viêm amidan lưỡi là gì?\nTrả lời: 1. Viêm amidan lưỡi là gì?\nAmidan lưỡi là tổ chức lympho nằm ở đáy lưỡi sau V lưỡi. Đây là một bộ phận của vòng Waldeyer thuộc hệ thống lympho đường thở, có vai trò duy trì hệ miễn dịch , giúp cơ thể chống lại các tác nhân gây bệnh. Viêm amidan lưỡi là tình trạng amidan lưỡi bị vi khuẩn hoặc virus xâm nhập gây tình trạng viêm nhiễm, đau nhức, rát vùng lưỡi. Hình ảnh viêm amidan lưỡi ở người bệnh thường gặp là: Amidan sưng to: Khi quan sát cuống lưỡi sẽ thấy amidan sưng to, tấy đỏ. Bề mặt amidan có thể xuất hiện các chấm mủ trắng. Vùng cổ họng sưng đỏ, khô rát, niêm mạc họng đỏ, xuất tiết, lưỡi trắng bẩn, hạch bạch huyết sau họng sưng to. Người bệnh sốt, ho kéo dài, khàn tiếng , đau tức ngực, thở khò khè khi ngủ. Viêm amidan lưỡi thường xuất hiện ở: Những người vệ sinh răng miệng kém, mắc các bệnh răng miệng như sâu răng, viêm lợi , viêm V.A, viêm xoang ,.. Những người mắc các bệnh đường hô hấp không được điều trị triệt để, vi khuẩn phát triển, lây lan đến amidan lưỡi gây viêm. Những người có sức đề kháng kém, hệ miễn dịch suy giảm, vi khuẩn, virus dễ tấn công, gây bệnh. Môi trường ô nhiễm, thời tiết thay đổi thất thường, người bệnh có cơ địa dị ứng cũng là một yếu tố thuận lợi xuất hiện bệnh. Một số loại viêm Amidan Nếu việc điều trị viêm amidan lưỡi không được hiện hoặc thực hiện không triệt để, bệnh amidan đáy lưỡi có thể tiến triển thành mạn tính, rất khó điều trị, đồng thời gây nhiều biến chứng nguy hiểm cho người bệnh. Các biến chứng có thể gặp là: Biến chứng cục bộ: Loét khe amidan, viêm tấy xung quanh amidan, sỏi amidan, viêm tấy thành bên họng, viêm họng mạn tính . Biến chứng gần: Viêm hạch cổ mạn tính, viêm tai giữa , viêm mũi xoang , viêm thanh quản , viêm khí quản, viêm phế quản . Biến chứng xa: Viêm khớp, viêm nội tâm mạc , viêm cầu thận , nhiễm khuẩn huyết,... Khi các biến chứng đã xảy ra, việc điều trị sẽ trở nên khó khăn và tốn kém hơn rất nhiều, trong khi tình trạng sức khỏe chưa chắc đã hồi phục hoàn toàn. Do đó, để việc điều trị thuận lợi, hạn chế các nguy cơ có thể xảy ra, người bệnh nên đến các cơ sở y tế thăm khám sớm ngay từ khi có các triệu chứng đầu tiên của bệnh. Hình ảnh viêm amidan lưỡi",
+                "score": 0.500751256942749,
+                "id": "vietnamese_healthcare_125810",
+                "rerank_score": 0.5057529807090759
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nEm bị loang đỏ ở lưỡi, cảm giác đau rát. Em đã đi khám và được chẩn đoán là viêm lưỡi, em đã uống thuốc theo đơn nhưng không thấy khỏi. Bác sĩ cho em hỏi bị loang đỏ ở lưỡi có phải bị viêm lưỡi không ạ? Làm thế nào để điều trị dứt điểm ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin trả lời như sau:\nCó một số trường hợp bị lưỡi bản đồ, bạn có thể khám kiểm tra xem bạn có bị vậy không? Còn lưỡi bản đồ thì là cơ địa, chỉ điều trị khi nên đợt cấp còn lại thì chung sống hòa bình bạn nhé.",
+                "score": 0.6576202511787415,
+                "id": "vietnamese_medical_qa_1747",
+                "rerank_score": 0.9993898868560791
+            },
+            {
+                "text": "Câu hỏi: Có vết đỏ ở lưỡi là bị sao?\nTrả lời: Lưỡi của bạn có thể bị chảy máu do tổn thương cơ học hoặc do viêm lưỡi. . . Bạn nên đến viện sớm để được khám và làm xét nghiệm, dựa vào đó bác sĩ sẽ chẩn đoán tốt hơn.",
+                "score": 0.5953845381736755,
+                "id": "vietnamese_healthcare_3075",
+                "rerank_score": 0.9143769145011902
+            },
+            {
+                "text": "Câu hỏi: Viêm amidan lưỡi là gì?\nTrả lời: 1. Viêm amidan lưỡi là gì?\nAmidan lưỡi là tổ chức lympho nằm ở đáy lưỡi sau V lưỡi. Đây là một bộ phận của vòng Waldeyer thuộc hệ thống lympho đường thở, có vai trò duy trì hệ miễn dịch , giúp cơ thể chống lại các tác nhân gây bệnh. Viêm amidan lưỡi là tình trạng amidan lưỡi bị vi khuẩn hoặc virus xâm nhập gây tình trạng viêm nhiễm, đau nhức, rát vùng lưỡi. Hình ảnh viêm amidan lưỡi ở người bệnh thường gặp là: Amidan sưng to: Khi quan sát cuống lưỡi sẽ thấy amidan sưng to, tấy đỏ. Bề mặt amidan có thể xuất hiện các chấm mủ trắng. Vùng cổ họng sưng đỏ, khô rát, niêm mạc họng đỏ, xuất tiết, lưỡi trắng bẩn, hạch bạch huyết sau họng sưng to. Người bệnh sốt, ho kéo dài, khàn tiếng , đau tức ngực, thở khò khè khi ngủ. Viêm amidan lưỡi thường xuất hiện ở: Những người vệ sinh răng miệng kém, mắc các bệnh răng miệng như sâu răng, viêm lợi , viêm V.A, viêm xoang ,.. Những người mắc các bệnh đường hô hấp không được điều trị triệt để, vi khuẩn phát triển, lây lan đến amidan lưỡi gây viêm. Những người có sức đề kháng kém, hệ miễn dịch suy giảm, vi khuẩn, virus dễ tấn công, gây bệnh. Môi trường ô nhiễm, thời tiết thay đổi thất thường, người bệnh có cơ địa dị ứng cũng là một yếu tố thuận lợi xuất hiện bệnh. Một số loại viêm Amidan Nếu việc điều trị viêm amidan lưỡi không được hiện hoặc thực hiện không triệt để, bệnh amidan đáy lưỡi có thể tiến triển thành mạn tính, rất khó điều trị, đồng thời gây nhiều biến chứng nguy hiểm cho người bệnh. Các biến chứng có thể gặp là: Biến chứng cục bộ: Loét khe amidan, viêm tấy xung quanh amidan, sỏi amidan, viêm tấy thành bên họng, viêm họng mạn tính . Biến chứng gần: Viêm hạch cổ mạn tính, viêm tai giữa , viêm mũi xoang , viêm thanh quản , viêm khí quản, viêm phế quản . Biến chứng xa: Viêm khớp, viêm nội tâm mạc , viêm cầu thận , nhiễm khuẩn huyết,... Khi các biến chứng đã xảy ra, việc điều trị sẽ trở nên khó khăn và tốn kém hơn rất nhiều, trong khi tình trạng sức khỏe chưa chắc đã hồi phục hoàn toàn. Do đó, để việc điều trị thuận lợi, hạn chế các nguy cơ có thể xảy ra, người bệnh nên đến các cơ sở y tế thăm khám sớm ngay từ khi có các triệu chứng đầu tiên của bệnh. Hình ảnh viêm amidan lưỡi",
+                "score": 0.5126394033432007,
+                "id": "vietnamese_healthcare_125810",
+                "rerank_score": 0.5057529807090759
+            },
+            {
+                "text": "Câu hỏi: Đau họng kèm theo lưỡi có nốt đỏ có nguy hiểm không?\nTrả lời: thành sau họng có các tổ chức Lympho, khi viêm thì sẽ đỏ mọng hơn bình thường. Những nốt lớn màu đỏ bạn mô tả, thì có thể là các tổ chức Lympho thành sau họng.",
+                "score": 0.5142821669578552,
+                "id": "vietnamese_healthcare_7733",
+                "rerank_score": 0.4405098557472229
+            },
+            {
+                "text": "Câu hỏi: 2 bên lưỡi mọc mụn nhỏ màu đỏ, không đau là bị gì vậy?\nTrả lời: Triệu chứng bạn mô tả không rõ ràng nên khó có thể tư vấn chính xác được. Vì vậy, bác sĩ khuyên bạn nên đến phòng khám chuyên khoa Răng - Hàm - Mặt để có câu trả lời cho thắc mắc “2 bên lưỡi mọc mụn nhỏ màu đỏ, không đau là bị gì vậy?đồng thời điều trị dứt điểm bệnh lý nếu có. Hiện tượng lưỡi mọc mụn nhỏ màu đỏ ở miệng có thể do viêm lưỡi, nhiệt miệng. . . , bạn nên vệ sinh răng miệng thật kỹ, định kỳ 6 tháng khám răng miệng 1 lần nhé.",
+                "score": 0.5127999186515808,
+                "id": "vietnamese_healthcare_2215",
+                "rerank_score": 0.16729097068309784
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

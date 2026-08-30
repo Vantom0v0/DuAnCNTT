@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không?",
+    "ground_truth": "Hiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất. Bạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.",
+    "answer": "Theo tài liệu, nếu bệnh lý tuyến giáp của bạn đã ổn định và không cần dùng thuốc điều trị, collagen dạng nước không có thông tin khuyến cáo hay thận trọng đặc biệt nên có thể sử dụng theo hướng dẫn của nhà sản xuất. Tuy nhiên, collagen có nhiều loại; sản phẩm chiết xuất từ tảo biển có thể chứa hàm lượng iod cao, không phù hợp với một số người mắc bệnh tuyến giáp. Vì vậy, bạn nên kiểm tra thành phần sản phẩm và mang sản phẩm trao đổi với bác sĩ tuyến giáp khi tái khám; đồng thời tiếp tục tái khám định kỳ theo hướng dẫn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào dược sĩ,\nTôi bị K tuyến giáp nhỏ 4mm, đã được mổ cắt bỏ toàn bộ thuỳ trái tháng 9 năm 2020, bác sĩ chỉ định theo dõi và không dùng thuốc điều trị. Tôi muốn dùng collagen dạng nước Liquid collagen của Mỹ. Vậy dược sĩ cho tôi hỏi nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không? Tôi cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nHiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất.\nBạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.\nTrân trọng!",
+            "score": 0.7320137619972229,
+            "id": "vietnamese_medical_qa_1408"
+        },
+        {
+            "text": "Câu hỏi: Lưu ý về thuốc uống sau khi cắt tuyến giáp\nTrả lời: 3. Lưu ý về thuốc uống sau khi cắt tuyến giáp\nViệc sử dụng thuốc uống sau khi cắt tuyến giáp cần lưu ý một số vấn đề sau: 3.5. Chú ý đến dinh dưỡng Một trong những tác dụng chính của thuốc uống tuyến giáp Levothyroxine là kích thích chuyển hóa của hầu hết cơ quan trong cơ thể, từ đó tăng giải phóng năng lượng, tạo ra nhiệt và do đó nhiều người bệnh sẽ có cảm giác nóng trong người, sụt cân, tim đập nhanh, hồi hộp... Một số trường hợp có thể sử dụng thuốc bổ gan để giảm tác dụng phụ này, tuy nhiên chúng khá đắt tiền và lợi ích khi dùng kèm Levothyroxine vẫn chưa rõ ràng. Thay vì sử dụng thuốc bổ gan thì bệnh nhân chỉ cần ăn uống đầy đủ, đảm bảo uống đủ nước , tăng cường thêm các loại rau xanh thanh nhiệt như rau má, mã đề...",
+            "score": 0.516670823097229,
+            "id": "vietnamese_healthcare_97644"
+        },
+        {
+            "text": "Câu hỏi: Đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không?\nTrả lời: Em chưa nói bệnh tuyến giáp của em đang có là cường giáp hay suy giáp hay bệnh khác nên bác sĩ chưa thể kết luận đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không. Hơn nữa, sản phẩm chứa collagen cũng có nhiều loại trong đó loại chiết xuất từ tảo biển thường sẽ có hàm lượng iod cao, có thể không phù hợp với người có bệnh tuyến giáp. Tốt nhất em nên đem lọ collagen định dùng đến cho bác sĩ tuyến giáp xem trong đợt tái khám để kiểm tra. Nếu bác sĩ bảo được thì có thể dùng chung với thuốc mà không ảnh hưởng gì.",
+            "score": 0.4989270567893982,
+            "id": "vietnamese_healthcare_3882"
+        },
+        {
+            "text": "Câu hỏi: Thúc đẩy làm lành vết sẹo sau mổ tuyến giáp\nTrả lời: 2. Thúc đẩy làm lành vết sẹo sau mổ tuyến giáp\n2.3. Dùng kem chống nắng cho vết sẹo sau mổ tuyến giáp Bệnh nhân cần lưu ý bôi kem chống nắng và che đậy kín vùng sẹo sau mổ tuyến giáp khi ra ngoài trời cho đến khi vết thương đã lành hẳn. Nên lựa chọn sử dụng kem chống nắng có chỉ số SPF cao, chẳng hạn như SPF 30+. Song song đó, cũng nên giữ cho vết sẹo được che đậy dưới một chiếc khăn quấn cổ trong cả năm. Việc áp dụng các biện pháp này để bảo vệ vết sẹo khỏi ánh nắng mặt trời, sẽ mang lại kết quả thẩm mỹ tốt cho vết sẹo ở cổ Tuy nhiên, bạn phải chắc chắn rằng vết thương đã được chữa lành hoàn toàn trước khi bôi kem chống nắng lên nó. Điều này sẽ cần thời gian từ khoảng hai đến ba tuần.",
+            "score": 0.48079097270965576,
+            "id": "vietnamese_healthcare_30002"
+        },
+        {
+            "text": "Câu hỏi: Bệnh cường giáp ở nữ uống thuốc tiến triển chậm có nên mổ không?\nTrả lời: Bạn đang điều trị cường giáp tiến triển chậm mà bạn muốn mổ thì phải do bác sĩ chuyên khoa nội tiết khám và đánh giá quyết định. Thường chỉ mổ khi nội khoa điều trị thất bại hoặc không thể điều trị được nội khoa. Mổ tuyến giáp có thể có một số biến chứng như chảy máu, cắt dây thần kinh và suy giáp sau phẫu thuật. Nếu sau mổ mà bị suy giáp thì bạn phải uống bù hormon tuyến giáp là Levothyroxin.",
+            "score": 0.47569721937179565,
+            "id": "vietnamese_healthcare_1359"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

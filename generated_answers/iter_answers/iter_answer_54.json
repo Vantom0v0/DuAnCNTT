@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Làm thế nào hạn chế tình trạng nhiễm trùng do đặt ống thông tiểu quá lâu?",
+    "ground_truth": "khuyên em nên đi khám để cấy nước tiểu, xác định vi khuẩn và có kháng sinh đồ để chọn lựa kháng sinh thích hợp, em đã đặt thông tiểu quá lâu, là điều kiện để nhiễm trùng, em nên khám chuyên khoa ngoại để xin mở thông bàng quang trên xương mu, hạn chế bớt tình trạng nhiễm trùng, và việc thay thông cũng dễ dàng và đơn giản hơn. Thủ thuật này cũng đơn giản, chỉ cần gây tê tại chỗ để đặt thông.",
+    "answer": "Để hạn chế nhiễm trùng do đặt ống thông tiểu lâu, cần rút ống càng sớm càng tốt và chỉ đặt khi thật sự cần thiết; khi đặt phải tuân thủ kỹ thuật vô trùng, duy trì hệ thống dẫn lưu kín, cân nhắc thông tiểu ngắt quãng nếu phù hợp và không tự ý dùng kháng sinh dự phòng ở người đặt ống lâu dài. Người bệnh cần vệ sinh vùng đặt ống hằng ngày, rửa tay trước và sau khi chạm vào túi, giữ túi nước tiểu thấp hơn bàng quang, xả túi khi đầy khoảng một nửa hoặc sau 2–4 giờ, thay túi và van ít nhất 7 ngày/lần, bảo đảm uống đủ nước, đồng thời kiểm tra để ống không bị gập, xoắn hoặc tắc và không bôi kem, phấn quanh vị trí đặt ống.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Nguyên nhân dẫn đến tình trạng nhiễm trùng đường niệu khi đặt ống thông tiểu\nTrả lời: 2. Nguyên nhân dẫn đến tình trạng nhiễm trùng đường niệu khi đặt ống thông tiểu\nTrong khi đặt ống thông thì vi khuẩn rất dễ xâm nhập vào bàng quang của bệnh nhân. Kể cả thao tác đặt ống thông được đảm bảo vô trùng thì nguy cơ bị nhiễm trùng đường niệu vẫn có thể tăng từ 3 đến 10% đối với mỗi ngày lưu ống thông, ống thông sau khi đặt được 7 ngày thì nguy cơ bị nhiễm trùng có thể lên tới 10 đến 30%. Hầu hết các bệnh nhân đặt ống thông tiểu có thể sẽ phát triển vi khuẩn gây nhiễm trùng niệu trong vòng 30 ngày sau khi thực hiện thủ thuật.",
+            "score": 0.6559675931930542,
+            "id": "vietnamese_healthcare_153065"
+        },
+        {
+            "text": "Câu hỏi: Phòng ngừa nhiễm trùng đường niệu\nTrả lời: 7. Phòng ngừa nhiễm trùng đường niệu\nRút ống dẫn lưu càng sớm càng tốt vì thời gian sử dụng ống thông tiểu có tỷ lệ thuận với nguy cơ mắc nhiễm trùng đường tiết niệu. Nghiêm chỉnh thực hiện kỹ thuật vô trùng và thực hiện hệ thống dẫn lưu kín. Nếu đặt ống thông ngắt quãng thì nguy cơ bị nhiễm trùng ít hơn so với các kỹ thuật khác. Đối với những bệnh nhân sử dụng ống thông lưu lâu dài thì không khuyến cáo sử dụng dự phòng bằng kháng sinh. Hạn chế đặt ống thông tiểu đối với bệnh nhân nữ và người già. Không đặt nếu không cần thiết. Đối với bệnh nhân nam nên sử dụng dạng ống thông bằng cao su. Nên dùng ống thông tiểu liên tục thẳng. Bệnh nhân sau khi đặt ống thông tiểu thì cần được bác sĩ giải thích rõ cơ chế cũng như nguy cơ tiềm ẩn sau đó. Ngoài ra, bệnh nhân và người nhà cũng cần được cung cấp thông tin để tự chăm sóc mình và chăm sóc bệnh nhân để tránh gây ra nhiễm trùng về sau.",
+            "score": 0.6483848094940186,
+            "id": "vietnamese_healthcare_153070"
+        },
+        {
+            "text": "Câu hỏi: Hướng dẫn chung\nTrả lời: 5. Hướng dẫn chung\nThực hiện theo các hướng dẫn chung sau để giữ cho ống thông không bị tắc nghẽn và giảm nguy cơ bị nhiễm trùng cho người bệnh: Thường xuyên kiểm tra ống để xem ống có bị uốn cong hoặc xoắn khiến nước tiểu khó hoặc không chảy ra. Không sử dụng bất kỳ loại kem hoặc bột nào bôi hoặc xịt xung quanh vị trí ống thông đi vào cơ thể. Xả nước tiểu sau 2 đến 4 giờ hoặc khi nước tiểu đã đầy một nửa túi. Giữ túi đựng nước tiểu thấp hơn vị trí bàng quang của người bệnh để giúp nước tiểu thoát ra dễ dàng. Rửa tay trước và sau khi chạm vào túi đựng nước tiểu.",
+            "score": 0.62682044506073,
+            "id": "vietnamese_healthcare_43058"
+        },
+        {
+            "text": "Câu hỏi: Yếu tố nguy cơ của nhiễm trùng đường niệu khi đặt ống thông\nTrả lời: 3. Yếu tố nguy cơ của nhiễm trùng đường niệu khi đặt ống thông\nThời gian đặt ống thông càng lâu thì nguy cơ bị nhiễm trùng đường niệu càng cao. Bệnh nhân nữ có nguy cơ bị nhiễm trùng đường niệu cao hơn gấp 2 lần so với bệnh nhân nam. Người mắc bệnh đái tháo đường có nguy cơ bị nhiễm trùng đường niệu cao hơn người không có bệnh đái tháo đường. Một khi hệ thống dẫn lưu kín bị hở thì nguy cơ bệnh nhân bị nhiễm trùng sẽ cao hơn. Nếu quy trình đặt ống thông tiểu không đảm bảo thì nguy cơ nhiễm trùng tiết niệu cũng cao hơn Nếu thao tác thay ống thông tắc quá mạnh tay cũng có thể gây ra những chấn thương và nhiễm trùng cho bệnh nhân Nếu bệnh nhân đã có sẵn các tình trạng bệnh lý như viêm của niêm mạc bàng quang , sỏi bàng quang,... cũng có thể làm tăng nguy cơ bị nhiễm trùng Khi dùng ống thông tiểu nhưng lượng nước tiểu ít thì nguy cơ nhiễm trùng càng cao. Hoặc nếu nước tiểu bị ứ đọng thì vi khuẩn cũng dễ dàng phát triển. Nguy cơ bị nhiễm trùng đường tiết niệu khi đặt ống thông tiểu cao hơn đối với những bệnh nhân lớn tuổi. Đặt ống thông tiểu vô tình đã tạo điều kiện vi khuẩn bám dính và xâm nhập vào cơ thể người bệnh. Các vi sinh vật gây bệnh đường niệu xâm nhập sản xuất polysaccharides tạo nên màng sinh học để có thể trao đổi gen thúc đẩy quá trình kháng thuốc kháng sinh. Ngoài ra, những vi sinh vật sản xuất urease sẽ thúc đẩy sự phát triển của bao vỏ cứng ống thông điều đó sau cùng có thể gây trở ngại ống thông.",
+            "score": 0.6091537475585938,
+            "id": "vietnamese_healthcare_153066"
+        },
+        {
+            "text": "Câu hỏi: Hướng dẫn chăm sóc bệnh nhân đặt ống thông tiểu tại nhà\nTrả lời: 3. Hướng dẫn chăm sóc bệnh nhân đặt ống thông tiểu tại nhà\nKhông để túi trữ nước tiểu bị đầy để tránh nước tiểu lưu lại trong bàng quang Lưu ý cần phải thay túi nước tiểu và van ít nhất là 7 ngày một lần. Vệ sinh khu vực đặt ống thông hằng ngày Cung cấp đủ nước cho cơ thể Không để ống thông bị cong .",
+            "score": 0.593282163143158,
+            "id": "vietnamese_healthcare_31398"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

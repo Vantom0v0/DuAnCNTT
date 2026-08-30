@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Phụ nữ mang thai bị thủy đậu phải làm sao?",
+    "ground_truth": "Sốt kèm theo phát ban dạng bọng nước là biểu hiện của bệnh thủy đậu. Tuy nhiên, mỗi người sẽ có mức độ bệnh khác nhau, do đó rất khó để có thể kết luận phụ nữ mang thai bị thủy đậu phải làm sao.",
+    "answer": "Phụ nữ mang thai bị thủy đậu cần liên hệ ngay với bác sĩ sản khoa hoặc cơ sở y tế để được đánh giá, vì bệnh có thể gây viêm phổi cho mẹ và ảnh hưởng đến thai nhi, đặc biệt trong 3 tháng đầu hoặc khi mắc từ 5 ngày trước đến 2 ngày sau sinh. Hãy nghỉ ngơi, uống nhiều nước, ăn thức ăn dễ tiêu, giữ vệ sinh, không làm vỡ các bóng nước; nếu sốt, chỉ dùng paracetamol theo hướng dẫn của bác sĩ. Trường hợp bệnh nặng hoặc có nguy cơ viêm phổi, bác sĩ có thể chỉ định acyclovir, không tự ý dùng thuốc. Nếu mới tiếp xúc với người bệnh và chưa từng mắc hoặc tiêm phòng, cần báo bác sĩ sớm để được cân nhắc globulin miễn dịch trong vòng 72 giờ; không tiêm vắc-xin thủy đậu trong thai kỳ. Nếu khó thở, sốt cao kéo dài, đau ngực hoặc tình trạng xấu đi, cần đi cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Thủy đậu ở phụ nữ có thai\nTrả lời: 3. Thủy đậu ở phụ nữ có thai\nMắc thủy đậu trong thai kỳ có thể gây một số biến chứng, như viêm phổi ở mẹ, hoặc trong một số trường hợp có thể gây dị tật bẩm sinh cho thai nhi. Thuỷ đậu cũng rất nguy hiểm đối với trẻ sơ sinh, do vậy phụ nữ có thai nếu chưa từng tiêm vaccin thì nên lập tức báo cho bác sĩ nếu có tiếp xúc với người bệnh thủy đậu hoặc có các triệu chứng của thủy đậu. Trẻ sơ sinh sinh ra từ người mẹ mắc thủy đậu trong vòng 5 ngày trước sinh đến 2 ngày sau sinh, có nguy cơ cao cũng bị mắc thủy đậu nặng do lây truyền trong tử cung. Trong giai đoạn đang mang thai không được tiêm vacxin thủy đậu. Mẹ bầu mắc thủy đậu có thể sinh con ra bị dị tật bẩm sinh",
+            "score": 0.7990427017211914,
+            "id": "vietnamese_healthcare_3730"
+        },
+        {
+            "text": "Câu hỏi: Biện pháp phòng ngừa thủy đậu trong giai đoạn mang thai\nTrả lời: 3. Biện pháp phòng ngừa thủy đậu trong giai đoạn mang thai\nĐể không phải lo lắng mắc thủy đậu khi mang thai, các bạn nữ nên đi tiêm phòng vắc xin phòng thủy đậu để cơ thể có kháng thể chống lại bệnh lý này. Sau khi tiêm vắc xin khoảng 3 tháng thì có thể mang thai. Đối với những thai phụ đã từng mắc thủy đậu, có thể tiêm globulin miễn dịch zoster IgG. Tuy nhiên, khi tiến hành tiêm thì cần được tư vấn bởi bác sĩ chuyên khoa và cần tiêm trong vòng 72 giờ đầu sau khi tiếp xúc với bệnh nhân mắc bệnh thủy đậu. Hi vọng rằng qua bài viết này, các thai phụ có thể hiểu rõ hơn về ảnh hưởng của bệnh thủy đậu đến sức khỏe của bản thân và thai nhi. Các thai phụ có thể trả lời được câu hỏi liệu rằng mắc thủy đậu khi mang thai có nguy hiểm hay không? Từ đó có kế hoạch chăm sóc tốt cho bản thân trong giai đoạn mang thai để có được một thai kỳ khỏe mạnh.",
+            "score": 0.7865289449691772,
+            "id": "vietnamese_healthcare_155580"
+        },
+        {
+            "text": "Câu hỏi: Điều trị thai phụ bị thủy đậu như thế nào?\nTrả lời: 4. Điều trị thai phụ bị thủy đậu như thế nào?\nThai phụ khi bị thủy đậu cần được nghỉ ngơi, uống nhiều nước, ăn thức ăn lỏng, thức ăn dễ tiêu hóa. Nếu bà bầu bị sốt có thể sử dụng thuốc hạ sốt paracetamol . Cần giữ vệ sinh thân thể, tránh làm vỡ những bóng nước vì có nguy cơ bội nhiễm vi virus. Đối với thai phụ bị thủy đậu diễn tiến nặng, có nguy cơ viêm phổi sẽ được chỉ định dùng Acyclovir đường tĩnh mạch để giảm nguy cơ cho cả mẹ và thai. Acyclovir có vai trò ức chế sự phát triển của virus, từ đó ức chế sự phát triển của bệnh.",
+            "score": 0.7702521085739136,
+            "id": "vietnamese_healthcare_28362"
+        },
+        {
+            "text": "Câu hỏi: Có thể tiêm phòng thủy đậu cho phụ nữ đang mang thai không?\nTrả lời: bệnh lý thủy đậu thường do virus Varicella gây ra, nó chỉ tiến triển cấp 7-10 ngày. Đối với trường hợp của vợ bạn đang mang thai, sẽ cân nhắc tiêm vắc-xin (hạn chế chỉ định tiêm vắc-xin thủy đậu trong giai đoạn thai kỳ). Trường hợp vợ bạn đã bị thủy đậu từ nhỏ thì nguy cơ lây từ con sẽ ít hơn (đã có miễn dịch thụ động). Nếu trường hợp vợ bạn chưa từng bị thủy đậu thì nguy cơ lây nhiễm sẽ cao hơn. Thủy đậu lây truyền qua đường không khí từ các giọt nhỏ dịch tiết đường hô hấp hoặc nốt phỏng; lây truyền do tiếp xúc trực tiếp. Chính vì vậy để phòng ngừa, vợ bạn nên hạn chế tiếp xúc với con đang bị bệnh, thường xuyên rửa tay bằng xà phòng, đeo khẩu trang phù hợp, vệ sinh đồ dùng sinh hoạt sạch sẽ nhé.",
+            "score": 0.7667539119720459,
+            "id": "vietnamese_healthcare_3375"
+        },
+        {
+            "text": "Câu hỏi: Thai phụ bị thủy đậu có nguy hiểm không?\nTrả lời: 2. Thai phụ bị thủy đậu có nguy hiểm không?\nĐối với nữ giới từng mắc thủy đậu lúc còn trẻ hoặc đã tiêm vắc xin phòng ngừa thủy đậu trước khi mang thai thì trong cơ thể đã có kháng thể miễn dịch với căn bệnh này. Sau đó nếu như mang thai, sản phụ có thể yên tâm sức khỏe của cả mẹ và thai nhi sẽ không bị đe dọa bởi bệnh thủy đậu. Biến chứng của bệnh thủy đậu có nguy cơ ảnh hưởng đến bản thân thai phụ cũng như em bé trong bụng họ. Virus varicella gây bệnh thủy đậu làm tăng tỷ lệ mắc viêm phổi ở thai phụ lên 10 – 20%. Phụ nữ mang thai nhiễm bệnh thủy đậu là đối tượng tử vong nhiều nhất trong số những người lớn mắc phải căn bệnh này, đặc biệt là khi thai phụ đã bị viêm phổi do virus varicella. Ở những sản phụ nhiễm thủy đậu lần đầu khi mang thai, sự tác động của bệnh đến thai nhi tùy thuộc vào từng giai đoạn thai kỳ: Trong 3 tháng đầu, cụ thể là tuần thứ 8-12, em bé có 0.4% nguy cơ mắc Hội chứng thủy đậu bẩm sinh . Dấu hiệu phổ biến nhất của hội chứng thủy đậu bẩm sinh là da có sẹo. Bên cạnh đó, những biến chứng khác có thể xảy ra bao gồm: dị tật đầu nhỏ, bệnh lý về mắt, bé nhẹ cân, tay hoặc chân bị teo, chậm phát triển hệ thần kinh hay thậm chí là bại não. Ngoài ra, người mẹ bị thủy đậu khi mới mang thai có thể bị sảy thai do tác động của VZV gây bệnh. Ở 3 tháng tiếp theo, đặc biệt tuần thứ 13 đến tuần 20, tỷ lệ bào thai bị hội chứng thủy đậu bẩm sinh tăng lên 2%. Kể từ tuần lễ thứ 20 trở đi, bệnh thủy đậu thai kỳ hầu như không gây ảnh hưởng đến em bé. Nếu bà bầu mắc bệnh khoảng 5 ngày trước khi chuyển dạ cho đến 2 ngày sau sinh, trẻ sơ sinh có nhiều khả năng nhiễm bệnh thủy đậu lan tỏa. Nguyên nhân là do thời gian quá ngắn khiến thai nhi chưa kịp nhận đủ kháng thể từ người mẹ. Trong trường hợp này, bé có nguy cơ tử vong khá cao, lên đến khoảng 25 - 30% các ca trẻ sơ sinh bị thủy đậu lan tỏa từ mẹ. Phụ nữ mang thai bị thủy đậu có nguy cơ ảnh hưởng đến thai nhi",
+            "score": 0.759559154510498,
+            "id": "vietnamese_healthcare_162347"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

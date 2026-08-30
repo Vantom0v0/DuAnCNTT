@@ -1,0 +1,115 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Điều trị viêm nhiễm tuyến lệ khi cho con bú thế nào?",
+    "ground_truth": "Bạn bị viêm tuyến lệ, theo như mô tả là đã dẫn đến áp xe và phải rạch để nặn mủ. Thông thường sau 1 tuần, mắt sẽ hồi phục về bình thường. Trường hợp của bạn sau 01 tuần nhưng mắt vẫn còn sưng và có nước mắt, bạn nên đến đến khám lại chuyên khoa Mắt để xem mức độ bệnh ở thời điểm hiện tại từ đó sẽ có phương pháp điều trị phù hợp nhất.",
+    "answer": "Khi bị viêm nhiễm tuyến lệ trong thời gian cho con bú, bác sĩ có thể kê thuốc kháng viêm để điều trị; nếu cần thuốc kháng sinh, trong hầu hết trường hợp thuốc được xem là an toàn cho mẹ đang cho con bú và trẻ sơ sinh, dù thuốc có thể đi vào sữa ở một mức độ nào đó. Tuy nhiên, cần dùng thuốc đúng hướng dẫn và theo dõi của bác sĩ, đồng thời hỏi bác sĩ hoặc dược sĩ về độ an toàn cho trẻ, tác dụng phụ và tương tác thuốc; không nên tự mua thuốc điều trị.",
+    "evidence": [
+        "Nếu mua thuốc tự do, hãy hỏi bác sĩ hoặc dược sĩ xem nó có an toàn cho trẻ không.",
+        "Hãy hỏi về tác dụng phụ và tương tác thuốc .",
+        "Trả lời: Khi mắt bị viêm cục lệ thì bác sĩ sẽ cho bạn thuốc kháng viêm để điều trị.",
+        "Nhưng thuốc điều trị viêm cục lệ ở mắt phải dùng theo hướng dẫn và theo dõi của bác sĩ.",
+        "Trong hầu hết các trường hợp, thuốc kháng sinh an toàn cho cha mẹ đang cho con bú và trẻ sơ sinh.",
+        "Viện Nhi khoa Hoa Kỳ (AAP) giải thích rằng thuốc kháng sinh là một trong những loại thuốc phổ biến nhất mà các bà mẹ được kê đơn và tất cả đều đi vào sữa ở một mức độ nào đó.",
+        "Đồng thời, AAP cho biết thế nếu loại thuốc kháng sinh này được sử dụng trực tiếp cho trẻ sinh non hoặc trẻ sơ sinh thì sẽ loại thuốc này an toàn cho người mẹ khi cho con bú."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Điều trị lồng ruột ở trẻ sơ sinh và trẻ nhỏ\nTrả lời: 2. Điều trị lồng ruột ở trẻ sơ sinh và trẻ nhỏ\n2.2. Các phương pháp tháo lồng điều trị lồng ruột ở trẻ sơ sinh và trẻ nhỏ 2.",
+                "score": 0.6189745664596558,
+                "id": "vietnamese_healthcare_101702",
+                "rerank_score": 0.000880162522662431
+            },
+            {
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.6348683834075928,
+                "id": "vietnamese_healthcare_2290",
+                "rerank_score": 0.0002437763469060883
+            },
+            {
+                "text": "Câu hỏi: Điều trị vàng da tắc mật ở trẻ sơ sinh\nTrả lời: 4. Điều trị vàng da tắc mật ở trẻ sơ sinh\n4.1. Nguyên tắc Điều trị đặc hiệu theo từng nguyên nhân; Điều trị nâng đỡ / hỗ trợ.",
+                "score": 0.6066809296607971,
+                "id": "vietnamese_healthcare_155283",
+                "rerank_score": 0.00018975957937072963
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.6073775887489319,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0001438831677660346
+            },
+            {
+                "text": "Câu hỏi: Cho trẻ uống thuốc an toàn và hiệu quả nhờ tư vấn của bác sĩ\nTrả lời: 1. Cho trẻ uống thuốc an toàn và hiệu quả nhờ tư vấn của bác sĩ\nĐể cho trẻ uống thuốc an toàn , các bà mẹ cần hỏi các thông tin sau khi được kê đơn thuốc bao gồm: Tác dụng chính và tác dụng phụ của thuốc Thuốc bắt đầu có hiệu lực khi nào? Trong bao lâu? Thời gian sử dụng thuốc kéo dài bao lâu? Có tương tác với bất kỳ loại thuốc nào khác đang sử dụng? Thuốc có cần bảo quản trong tủ lạnh, nơi có nhiệt độ cao hay ánh sáng không? Cần làm gì nếu lỡ cho trẻ uống quá liều lượng thuốc? Cho thuốc trộn thức ăn để ăn cùng không? Có loại thực phẩm nào cần tránh trong thời gian sử dụng thuốc? Có cần giữ trẻ tránh ánh nắng mặt trời khi dùng thuốc? Trước khi về nhà, hãy chắc chắn rằng bạn hiểu liều lượng, cách thức và thời điểm sử dụng thuốc. Nếu mua thuốc tự do, hãy hỏi bác sĩ hoặc dược sĩ xem nó có an toàn cho trẻ không. Nếu trên bao bì không ghi rõ liều lượng thì không nên sử dụng. Hãy hỏi về tác dụng phụ và tương tác thuốc . Liệt kê với bác sĩ hoặc dược sĩ về các loại dị ứng mà trẻ mắc phải. Cha mẹ cần nắm được liều lượng, cách thức và thời điểm cho trẻ sử dụng thuốc",
+                "score": 0.6064561009407043,
+                "id": "vietnamese_healthcare_146667",
+                "rerank_score": 4.386133878142573e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Điều trị lồng ruột ở trẻ sơ sinh và trẻ nhỏ\nTrả lời: 2. Điều trị lồng ruột ở trẻ sơ sinh và trẻ nhỏ\n2.2. Các phương pháp tháo lồng điều trị lồng ruột ở trẻ sơ sinh và trẻ nhỏ 2.",
+                "score": 0.5883536338806152,
+                "id": "vietnamese_healthcare_101702",
+                "rerank_score": 0.000880162522662431
+            },
+            {
+                "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+                "score": 0.6135733127593994,
+                "id": "vietnamese_healthcare_2290",
+                "rerank_score": 0.0002437763469060883
+            },
+            {
+                "text": "Câu hỏi: Điều trị vàng da tắc mật ở trẻ sơ sinh\nTrả lời: 4. Điều trị vàng da tắc mật ở trẻ sơ sinh\n4.1. Nguyên tắc Điều trị đặc hiệu theo từng nguyên nhân; Điều trị nâng đỡ / hỗ trợ.",
+                "score": 0.5875146985054016,
+                "id": "vietnamese_healthcare_155283",
+                "rerank_score": 0.00018975957937072963
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.5874994993209839,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 4.882536450168118e-05
+            },
+            {
+                "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+                "score": 0.5906031727790833,
+                "id": "vietnamese_healthcare_86309",
+                "rerank_score": 4.478580376598984e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Có nên cho con bú khi bị tắc ống dẫn sữa?\nTrả lời: 3. Có nên cho con bú khi bị tắc ống dẫn sữa?\nCâu trả lời là có và bạn nên làm vì đây là cách để thông ống dẫn sữa. Các ống dẫn bị tắc có thể gây khó chịu và lo lắng. Tuy nhiên, tắc ống dẫn sữa có xu hướng dễ điều trị và thường có thể được quản lý tại nhà. Điều quan trọng là bạn cần thực hiện điều trị sớm. Nếu không điều trị, ống dẫn sữa bị tắc có thể dẫn đến nhiễm trùng vú hoặc nặng hơn, vì vậy hãy thực hiện các bước sau để sữa chảy trở lại: Tiếp tục cho con bú: Việc cho con bú không chỉ an toàn với ống dẫn sữa bị tắc, mà còn là cách loại bỏ tắc nghẽn. Cho con bạn bú vú bị tắc trước (mặc dù nếu quá đau, bạn có thể bắt đầu với vú đối diện) và đảm bảo trẻ bú hết bầu sữa ở mỗi lần cho bú. Tìm đúng vị trí: Thử các tư thế sử dụng trọng lực để giúp hút nhiều sữa hơn từ vú. Hoặc cố gắng cho trẻ ngậm vú sao cho cằm và mũi của bé hướng về phía chỗ bị tắc, vì vậy lực hút của bé nhắm trực tiếp vào ống dẫn sữa bị ảnh hưởng và cằm của trẻ cũng có thể giúp xoa dịu khu vực này. Thay đổi tư thế cho con bú để tất cả các ống dẫn sữa được kích thích như nhau. Hút sữa khi cần: Nếu con bạn chưa bú hết sữa mẹ, bạn hãy hút hết sữa bằng cách sử dụng máy hút sữa cho đến khi sữa chảy ra từng giọt chậm thay vì dòng sữa đều đặn. Quá trình này chỉ mất vài phút. Đôi khi, các ống dẫn bị tắc sẽ trở nên trầm trọng hơn do áp lực bên ngoài (ví dụ: từ áo hoặc áo ngực quá chật). Do đó, bạn nên mắc áo ngực vừa khít nhưng không bị chặt và cân nhắc sử dụng áo ngực không có gọng trong thời điểm này. Chườm ấm: Đặt khăn ấm (nhúng khăn vào nước ấm) chườm lên vú bị đau trước mỗi lần cho con bú để có thể giúp sữa chảy ra. Hoặc bạn có thể đứng dưới vòi sen nước ấm, để nước dội vào ngực. Một trong những phương pháp điều trị hiệu quả nhất là mát-xa vú, đặc biệt là khi bạn đang cho con bú hoặc hút sữa. Để mát-xa, hãy bắt đầu từ bên ngoài bầu vú và dùng ngón tay tạo áp lực khi bạn di chuyển về phía núm vú. Biện pháp này cũng có thể hữu ích để mát-xa khi bạn đang tắm. Nếu bạn bị viêm vú, rất có thể bạn sẽ cần kháng sinh để điều trị nhiễm trùng. Thuốc có thể được dùng trong thời gian 10 ngày. Bạn cần đảm bảo uống tất cả các loại thuốc theo chỉ dẫn để đề phòng viêm vú tái phát. Kiểm tra với bác sĩ nếu các triệu chứng vẫn tiếp tục sau khi bạn đã kết thúc đợt điều trị. Thuốc giảm đau không kê đơn cũng có thể giúp giảm bớt sự khó chịu và viêm mô vú. Bác sĩ có thể kê các loại thuốc như Tylenol (acetaminophen) hoặc Advil / Motrin (ibuprofen). Cho con bú là cách thông ống dẫn sữa",
+                "score": 0.5166100263595581,
+                "id": "vietnamese_healthcare_99666",
+                "rerank_score": 0.05089113116264343
+            },
+            {
+                "text": "Câu hỏi: Bạn có thể dùng thuốc kháng sinh một cách an toàn khi đang cho con bú không?\nTrả lời: 1. Bạn có thể dùng thuốc kháng sinh một cách an toàn khi đang cho con bú không?\nMặc dù không phải tất cả các bệnh đều cần sử dụng thuốc kháng sinh , nhưng một số bệnh lý cần chỉ định sử dụng loại thuốc này, bao gồm nhiễm trùng tai hoặc xoang, thủ thuật nha khoa hoặc viêm vú . Trong hầu hết các trường hợp, thuốc kháng sinh an toàn cho cha mẹ đang cho con bú và trẻ sơ sinh. Viện Nhi khoa Hoa Kỳ (AAP) giải thích rằng thuốc kháng sinh là một trong những loại thuốc phổ biến nhất mà các bà mẹ được kê đơn và tất cả đều đi vào sữa ở một mức độ nào đó. Đồng thời, AAP cho biết thế nếu loại thuốc kháng sinh này được sử dụng trực tiếp cho trẻ sinh non hoặc trẻ sơ sinh thì sẽ loại thuốc này an toàn cho người mẹ khi cho con bú.",
+                "score": 0.5342617034912109,
+                "id": "vietnamese_healthcare_145756",
+                "rerank_score": 0.0057458155788481236
+            },
+            {
+                "text": "Câu hỏi: Bị viêm cục lệ ở mắt nên dùng thuốc nào?\nTrả lời: Khi mắt bị viêm cục lệ thì bác sĩ sẽ cho bạn thuốc kháng viêm để điều trị. Nhưng thuốc điều trị viêm cục lệ ở mắt phải dùng theo hướng dẫn và theo dõi của bác sĩ.",
+                "score": 0.526969850063324,
+                "id": "vietnamese_healthcare_7482",
+                "rerank_score": 0.004700698424130678
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+                "score": 0.5272298455238342,
+                "id": "vietnamese_medical_qa_2402",
+                "rerank_score": 0.002288572955876589
+            },
+            {
+                "text": "Câu hỏi: Trẻ bị sa trực tràng điều trị thế nào?\nTrả lời: Với tình trạng của cháu nên đi khám và tư vấn về chế độ dinh dưỡng, chế độ sinh hoạt cho cháu kĩ hơn nhé.",
+                "score": 0.5147923827171326,
+                "id": "vietnamese_healthcare_2414",
+                "rerank_score": 0.00206473795697093
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

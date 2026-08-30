@@ -1,0 +1,47 @@
+{
+    "model_name": "fur",
+    "question": "Tôi có tiền sử dị ứng thuốc hạ sốt và một vài loại thuốc giảm đau nhưng trước giờ tôi vẫn tiêm được tất cả các loại vaccine cơ bản, cả viêm gan B. Vậy tôi có thể tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Bạn bị dị ứng nhưng không nói rõ triệu chứng, đã từng xử lý như thế nào, có nhập viện hay không. Nếu bạn dị ứng nhẹ chỉ theo dõi, không điều trị gì thì có thể tiêm vaccine Covid-19 tại tuyến bệnh viện. Nếu dị ứng nặng từ phản vệ độ II trở lên sẽ thuộc đối tượng chống chỉ định tiêm chủng vaccine Covid-19.",
+    "answer": "Theo thông tin được cung cấp, **tiền sử dị ứng với thuốc hạ sốt hoặc thuốc giảm đau, kể cả NSAID như aspirin/ibuprofen, không tự động chống chỉ định tiêm vaccine Covid-19** nếu đó là dị ứng với thuốc đã xác định và không phải tá dược của vaccine.\n\nBạn có thể được chỉ định tiêm thường quy, nhưng nên:\n\n- Tiêm tại cơ sở có khả năng cấp cứu phản vệ.\n- Ở lại theo dõi tại cơ sở y tế ít nhất **15–30 phút** sau tiêm.\n- Báo đầy đủ cho nhân viên y tế về loại thuốc từng gây dị ứng và mức độ phản ứng.\n\nCần **trì hoãn tiêm và khám bác sĩ chuyên khoa dị ứng để được tư vấn** nếu bạn từng:\n\n- Bị phản vệ độ II trở lên với bất kỳ nguyên nhân nào.\n- Có phản ứng dị ứng xảy ra trong vòng 4 giờ với nhiều loại thuốc hoặc nhóm thuốc.\n- Dị ứng với vaccine hoặc thành phần vaccine, như PEG-2000 hoặc Polysorbate 80.\n\nViệc trước đây bạn đã tiêm được các vaccine cơ bản, gồm vaccine viêm gan B, là thông tin thuận lợi nhưng **không đủ để xác định hoàn toàn chỉ định tiêm hiện tại** nếu chưa biết rõ mức độ dị ứng với thuốc.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng với thuốc hạ sốt và thuốc giảm đau có thể tiêm vaccine Covid-19 được không?\nTrả lời: Theo thông tin của chị cung cấp, chúng tôi chưa đánh giá được mức độ dị ứng của chị vì theo hướng dẫn của Bộ Y tế, những người có tiền sử phản vệ nặng (phản vệ từ độ II) với bất kỳ tác nhân gì trước đó thuộc nhóm chống chỉ định tiêm vaccine Covid-19. Vì vậy, trong giai đoạn này, chị cần thực hiện các biện pháp phòng dịch hiệu quả khác như thông điệp 5K của Chính phủ. Tuy nhiên, nếu mức độ dị ứng của chị chỉ là mề đay, ngứa, . . . và không bị khó thở, tím tái, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn/buồn nôn. . . thì chị vẫn được tiêm chủng nhưng cần cẩn trọng dưới sự giám sát của nhân viên y tế, chị nên tiêm chủng trong bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu.",
+            "score": 0.6389237642288208,
+            "id": "vietnamese_healthcare_177",
+            "rerank_score": 0.9998657703399658
+        },
+        {
+            "text": "Câu hỏi: Người mang virus viêm gan B có nên tiêm vaccine ngừa Covid-19 không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, bệnh mãn tính đã được điều trị ổn định thì có thể tiêm chủng vaccine Covid-19. Trường hợp bệnh viêm gan B, đã được kiểm soát (ổn định), thì bạn sẽ được chỉ định tiêm chủng.",
+            "score": 0.6193193793296814,
+            "id": "vietnamese_healthcare_2230",
+            "rerank_score": 0.9970728158950806
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm gan B có tiêm vaccine Covid-19 được không?\nTrả lời: Nếu tình trạng viêm gan B của anh trong 3 tháng gần đây ổn định, không tiến triển cấp tính, không thay đổi phác đồ điều trị duy trì, anh vẫn có thể tiêm ngừa vaccine Covid-19",
+            "score": 0.6416887640953064,
+            "id": "vietnamese_healthcare_3644",
+            "rerank_score": 0.9970399737358093
+        },
+        {
+            "text": "Câu hỏi: Tôi đang điều trị viêm gan B, hiện vẫn còn đang uống thuốc. Vậy tôi chích ngừa vaccine Covid-19 được không?\nTrả lời: Trường hợp chị đang điều trị viêm gan B và đang dùng thuốc theo chỉ định của Bộ Y tế cần hoãn tiêm chủng vaccine Covid-19. Sau khi bệnh đã điều trị ổn định sau 3 tháng trở lên, chị có thể đi tiêm chủng bình thường.",
+            "score": 0.6168023347854614,
+            "id": "vietnamese_healthcare_7377",
+            "rerank_score": 0.996884286403656
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm gan B mãn tính và đang uống thuốc điều trị, hiện tình hình bệnh ổn định. Vậy tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Bệnh viêm gan B mạn tính của anh/chị nếu bác sĩ điều trị kết luận bệnh ổn định thì anh chị vẫn tiêm vaccine Covid-19 được.",
+            "score": 0.6172280311584473,
+            "id": "vietnamese_healthcare_7502",
+            "rerank_score": 0.996852457523346
+        },
+        {
+            "text": "Câu hỏi: Những ai có tiền sử dị ứng nhưng vẫn có thể tiêm vắc xin covid-19?\nTrả lời: 2. Những ai có tiền sử dị ứng nhưng vẫn có thể tiêm vắc xin covid-19?\nMột câu hỏi đặt ra là bệnh nhân có tiền sử dị ứng có làm gia tăng nguy cơ gây dị ứng với vắc xin covid-19 hay không? Trong bảng 1 trình bày cụ thể về những nhóm đối tượng và hướng dẫn tiêm cho từng nhóm đối tượng. Nếu bạn có tiền sử dị ứng: Tiền sử có phản ứng dị ứng với thức ăn , nọc côn trùng hoặc với các thuốc đã được xác định (không phải tá dược trong thuốc) Dị ứng với các dị nguyên hô hấp như bọ nhà, phấn hoa Tiền sử gia đình có bệnh lý dị ứng Phản ứng tại chỗ (không phải phản ứng toàn thân) với vắc xin trước đó Quá mẫn với các thuốc giảm đau chống viêm NSAID như aspirin , ibuprofen Sử dụng liệu pháp miễn dịch với dị nguyên Những bệnh nhân hen phế quản ổn định Đều có chỉ định tiêm vắc xin covid-19 thường quy và nên tiêm ở nơi có đủ khả năng cấp cứu phản vệ, lưu viện khoảng 15-30 phút để theo dõi theo khuyến cáo. Nếu bạn có một trong các yếu tố: Tiền sử dị ứng xảy ra trong vòng 4h với nhiều loại thuốc hoặc nhóm thuốc; Dị ứng với vắc xin covid-19 tiêm mũi 1 hiện nay có chỉ định tiêm mũi 2; Phản ứng với vắc xin hoặc các thành phần của vắc xin khác, trong đó có PEG-2000 hoặc Polysorbate 80; Phản vệ độ 2 với bất kì nguyên nhân nào theo khuyến cáo của Bộ Y tế Việt Nam để hạn chế nguy cơ. Khi bạn thuộc các yếu tố trên thì bạn có thể trì hoãn tiêm vắc xin covid-19 và cần khám bác sĩ chuyên khoa dị ứng để có tư vấn, chỉ định phù hợp và an toàn. Một lưu ý quan trọng là phản ứng dị ứng nặng, thậm chí sốc phản vệ cũng xảy ra ở những bệnh nhân không có tiền sử dị ứng. Do vậy, tiêm vắc xin cần được thực hiện tại nơi có khả năng cấp cứu phản vệ. Bệnh nhân cần được lưu lại tại cơ sở y tế để theo dõi ít nhất 15-30 phút để dự phòng các phản ứng tức thì nặng có thể xảy ra. Bảng 1: Hướng dẫn tiêm vắc xin cho bệnh nhân có tiền sử dị ứng (mũi 1)",
+            "score": 0.5216532349586487,
+            "id": "vietnamese_healthcare_115629",
+            "rerank_score": 0.9924020767211914,
+            "weighted_score": 0.9972588062286377
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

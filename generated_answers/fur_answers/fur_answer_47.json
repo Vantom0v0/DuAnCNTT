@@ -1,0 +1,82 @@
+{
+    "model_name": "fur",
+    "question": "Đau bụng, táo bón là do rối loạn tiêu hoá hay đau dạ dày? Điều trị thế nào?",
+    "ground_truth": "Có thể em mắc chứng Hội chứng ruột kích thích, tuy nhiên dữ liệu chưa đầy đủ. Em nên đi khám và làm nội soi đường tiêu hóa để phát hiện, loại trừ và điều trị những tổn thương thực thể ở đường ruột nhé. Sau đó bác sĩ sẽ có kế hoạch điều chỉnh lại hoạt động chức năng đường tiêu hóa cho em.",
+    "answer": "Đau bụng kèm táo bón có thể gợi ý nhiều khả năng, từ nhẹ đến cần cấp cứu:\n\n- **Táo bón đơn thuần**: do ăn ít chất xơ, uống ít nước, ít vận động hoặc thói quen sinh hoạt; có thể gây đau bụng, đầy hơi và buồn nôn.\n- **Hội chứng ruột kích thích (IBS)**: thường gây đau hoặc khó chịu bụng kèm thay đổi tính chất và số lần đi tiêu, có thể lúc táo bón lúc tiêu chảy.\n- **Bệnh lý đại tràng**, chẳng hạn viêm đại tràng hoặc u đại tràng.\n- **Tắc ruột**: có thể kèm đầy bụng, nôn mửa, đau bụng và không đi tiêu được.\n- **Một số tình trạng khác** khi đau bụng dữ dội hoặc liên tục: thủng dạ dày hoặc ruột, viêm ruột thừa, viêm tụy, thiếu máu cục bộ mạc treo.\n- **Tác dụng phụ của thuốc** như thuốc giảm đau chứa chất gây mê, thuốc kháng histamine, thuốc lợi tiểu, thuốc chống trầm cảm, thuốc huyết áp hoặc bổ sung sắt.\n\nKhông thể xác định chẩn đoán chỉ dựa vào triệu chứng. Nếu đau kéo dài, tái diễn hoặc kèm khó đi tiêu, bạn nên khám chuyên khoa Tiêu hóa; bác sĩ có thể chỉ định các thăm dò như xét nghiệm, siêu âm, chụp X-quang/CT bụng hoặc nội soi tùy trường hợp.\n\n**Cần đi cấp cứu** nếu táo bón kèm đau bụng dữ dội hoặc liên tục, nôn mửa, bụng đầy trướng nhiều hoặc có máu trong phân.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cách đây vài năm, em hay bị táo bón liên tục mặc dù em ăn rất nhiều rau nhưng thời điểm gần đây em lại bị tiêu chảy, đau bụng xen kẽ với táo bón, mặc dù thức ăn em ăn thì đảm bảo. Trước em đau ở bên trái dưới rốn còn bây giờ em hay bị đau bụng khi ăn xong hoặc khi đói, đau ở trên rốn chếch trái. Em ăn rất lâu, ngủ muộn với hay ngồi xổm. Vậy bác sĩ cho em hỏiđau bụng, táo bón là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ. Trần Mạnh Hùng(2002) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Đồng Xuân Hà- Khoa khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Những triệu chứng của bạn là do hội chứng ruột kích thích. Đây là bệnh lý thường gặp, tỷ lệ mắc tùy vào từng vùng, lứa tuổi,... Bệnh thường biểu hiện bằng những triệu chứng điển hình sau: Đau hoặc khó chịu ở bụng, không nhất thiết phải liên tục, kéo dài tổng thời gian trên 12 tháng, thường giảm đi sau khi đi đại tiện. Thay đổi hình dạng khuôn phân, thể táo hoặc thể lỏng chiếm ưu thế hoặc hỗn hợp táo lỏng thất thường, phân có thể có nhầy, bọt nhưng không bao giờ có máu (ngoại trừ táo bón do tác động cơ học vùng hậu môn khi đi đại tiện). Thay đổi số lần đi đại tiện nhiều hơn 03 lần/ngày hoặc mấy ngày mới đại tiện một lần. Ngoài ra, có thể có các triệu chứng khác kèm theo như đầy chướng bụng, cảm giác khó chịu, đại tiện không hết phân. Tuy nhiên, chỉ được chẩn đoán là hội chứng ruột kích thích khi có những triệu chứng như trên và được thăm khám một cách kỹ lưỡng loại trừ những bệnh lý có tổn thương thực thể bởi một bác sĩ chuyên khoa có kinh nghiệm, các xét nghiệm đặc biệt là nội soi tiêu hóa. Điều trị hội chứng ruột kích thích là một vấn đề không khó tuy nhiên, lại rất cần đến sự kiên trì, kiên định của bệnh nhân vì: Hiện nay, chưa có thuốc điều trị đặc hiệu, thuốc chỉ dùng để điều trị triệu chứng. Chế độ ăn uống: Điều này rất quan trọng. Khẩu phần ăn hợp lý phải có đầy đủ đạm, mỡ đường, vitamin, chất khoáng và đặc biệt là chất xơ. Không dùng các chất kích thích, bia rượu, gia vị quá nhiều, nước ngọt có gas,... Chế độ luyện tập: Cần phải kiên trì, thường xuyên vận động, tập thể dục thể thao, luyện thói quen đi đại tiện một lần/ngày, không ngồi lâu, xoa bụng hàng ngày,.. Bạn nên đi khám lại một cách toàn diện để bác sĩ chẩn đoán bệnh chính xác và có kế hoạch điều trị.",
+            "score": 0.5104596614837646,
+            "id": "medical_vietnamese_qa_11060",
+            "rerank_score": 0.9781378507614136
+        },
+        {
+            "text": "Câu hỏi: Mẹ em 56 tuổi, thường xuyên bị táo bón. Em đau bụng, buồn nôn với mệt mỏi. Vậy bác sĩ cho em hỏithường táo bón, đau bụng kèm buồn nôn là bệnh gì?Em có cần đi khám không? Em nên uống thuốc nào để khắc phục? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Táo bón là triệu chứng của nhiều bệnh khác nhau, có thể là bệnh liên quan đến thần kinh trung ương, rối loạn nhu động ruột, tắc nghẽn do u,... hay đơn giản chỉ là thói quen ăn uống thiếu rau hoặc uống ít nước Tuy nhiên đau bụng, buồn nôn và mệt mỏi kèm theo lại là một vấn đề khác, bản thân táo bón cũng có thể gây đau bụng, đầy chướng gây buồn nôn và mệt mỏi do độc tố trong phân lưu cữu ngấm vào máu. Nhưng nó cũng không loại trừ được những nguyên nhân khác, trong đó có nhiều nguyên nhân nặng khối u trong lỏng ruột gây tắc nghẽn.. Việc cần thiết là bạn phải đưa mẹ đi khám bệnh tại bệnh viện. Bác sĩ sẽ phải làm một số các xét nghiệm như xét nghiệm máu, siêu âm bụng, chụp X-quang hoặc CT bụng và làm nội soi tiêu hóa để xác định bệnh, nguyên nhân cũng như mức độ bệnh rồi từ đó mới có kế hoạch điều trị cụ thể cho mẹ bạn. Hệ thống bệnh viện Vinmec có nhiều bác sĩ Tiêu hóa giỏi, quy trình nghiêm ngặt, trang thiết bị hiện đại, cập nhật thường xuyên kiến thức y khoa mới, tối ưu hóa việc thăm khám và điều trị cho từng bệnh nhân. Ngoài việc phục vụ tận tình chu đáo khi thăm khám và điều trị tại bệnh viện, Bác sĩ của bạn sẽ theo dõi và hỗ trợ bạn trong suốt quá trình điều trị ngoại trú cho đến khi khỏi bệnh.",
+            "score": 0.49157243967056274,
+            "id": "medical_vietnamese_qa_10413",
+            "rerank_score": 0.9603580236434937
+        },
+        {
+            "text": "Câu hỏi: Cháu bị rối loạn đại tiện, lúc táo bón lúc tiêu chảy. Cháu bị đi ngoài ngày chục lần. Xin hỏi bác sĩnguyên nhân gây rối loạn đại tiện là gìvà điều trị như thế nào? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Nguyên nhân gây rối loạn đại tiện là gì?”, bác sĩ giải đáp như sau: Trước hết phải nói là có rất nhiều nguyên nhân gây rối loạn đại tiện, chẳng hạn như viêm đại tràng, u đại tràng. Nguyên nhân thường gặp nhất có thể kể đến là hội chứng ruột kích thích. Đây là một bệnh lành tính nhưng kéo dài. Việc điều trị cần phối hợp nhiều yếu tố như thuốc, chế độ ăn, chế độ sinh hoạt. Tuy nhiên để có được chẩn đoán và điều trị chính xác, bạn nên đến bệnh viện có chuyên khoa Tiêu hóa để được bác sĩ tư vấn cụ thể và làm thêm những xét nghiệm cần thiết như nội soi đại tràng.",
+            "score": 0.513888955116272,
+            "id": "medical_vietnamese_qa_10594",
+            "rerank_score": 0.837212085723877
+        },
+        {
+            "text": "Câu hỏi: Chào bác sỹ,\nEm là nữ 22 tuổi.\nTrong lúc đại tiện em bị cảm giác đau thắt vùng bụng dưới.\nXin bác sỹ vui lòng tư vấn giúp em.\nCám ơn bác sỹ rất nhiều\nTrả lời: Chào em,\nXin cho hỏi thêm là khi đại tiện có bị táo bón không? mấy ngày e mới đai tiện 1 lần. Nếu bị táo bón hoặc bị trỉ khi đại tiện e sẽ đau thắt vùng bụng dưới.\nCòn nếu đại tiện bình thường không bị bón, chỉ đau khi đại tiện rồi sau khi đi được không đau nữa thì là bình thường, nếu cơn đau không nhiều.\ncòn trường hợp đau đã lâu, kéo dài, kèm khó đại tiện lâu ngày, tốt nhất nên đi khám để kiểm tra em nhê.\nChào thân ái",
+            "score": 0.5327466130256653,
+            "id": "vietnamese_medical_qa_6112",
+            "rerank_score": 0.09846591204404831
+        },
+        {
+            "text": "Câu hỏi: Bé biếng ăn, đại tiện phân lỏng kèm táo bón và đau bụng là bị sao?\nTrả lời: Bé những ngày trước đại tiện như thế nào?Hiện tại như gia đình mô tả bé đại tiện phân lỏng kèm táo bón, vậy bản chất là bé bị táo bón, sẽ gây đau bụng, khó đi, có thể gây bán tắc ruột, viêm ruột.",
+            "score": 0.5625132918357849,
+            "id": "vietnamese_healthcare_710",
+            "rerank_score": 0.09544800221920013
+        },
+        {
+            "text": "Câu hỏi: Táo bón và các trường hợp khẩn cấp\nTrả lời: 5. Táo bón và các trường hợp khẩn cấp\nTáo bón thường là một vấn đề ngắn hạn có thể được giải quyết bằng cách tự chăm sóc. Tuy nhiên, đôi khi nó cần được điều trị y tế khẩn cấp. Các triệu chứng sau kết hợp với táo bón cần được hỗ trợ y tế khẩn cấp: Đau bụng dữ dội /hoặc liên tục Nôn mửa Đầy hơi Máu trong phân của bạn 5.1. Táo bón và đau bụng kinh niên dữ dội Nếu bạn bị táo bón, đau bụng là điều thường thấy. Thông thường, đó chỉ là kết quả của nhu cầu đi tiêu hoặc tích tụ khí. Tuy nhiên, cơn đau bụng dữ dội, liên tục có thể là dấu hiệu của một tình trạng nghiêm trọng hơn cần được chăm sóc y tế ngay lập tức, bao gồm: Ruột hoặc dạ dày bị thủng Tắc ruột Viêm ruột thừa Viêm tụy Thiếu máu cục bộ mạc treo (tắc nghẽn dòng máu đến ruột)",
+            "score": 0.6667511463165283,
+            "id": "vietnamese_healthcare_142824",
+            "rerank_score": 0.22966155409812927,
+            "weighted_score": 0.6007544696331024
+        },
+        {
+            "text": "Câu hỏi: Táo bón kèm đau bụng trên rốn là dấu hiệu bệnh gì?\nTrả lời: Em nên uống nhiều nước, ăn nhiều rau và hoa quả, tăng cường vận động tránh táo bón. Nếu không táo bón nữa mà vẫn còn đau bụng thì em nên đến khám bác sĩ chuyên khoa tiêu hóa. Khi có kết quả thăm khám đầy đủ, bác sĩ sẽ tư vấn thêm cho em về tình trạng táo bón kèm đau bụng trên rốn là dấu hiệu bệnh gì?",
+            "score": 0.6262670755386353,
+            "id": "vietnamese_healthcare_3956",
+            "rerank_score": 0.6129710674285889,
+            "weighted_score": 0.5875017166137695
+        },
+        {
+            "text": "Câu hỏi: Táo bón và các trường hợp khẩn cấp\nTrả lời: 5. Táo bón và các trường hợp khẩn cấp\nTáo bón thường là một vấn đề ngắn hạn có thể được giải quyết bằng cách tự chăm sóc. Tuy nhiên, đôi khi nó cần được điều trị y tế khẩn cấp. Các triệu chứng sau kết hợp với táo bón cần được hỗ trợ y tế khẩn cấp: Đau bụng dữ dội /hoặc liên tục Nôn mửa Đầy hơi Máu trong phân của bạn 5.3. Táo bón và đầy bụng Đau bụng đầy hơi có thể là dấu hiệu của tắc ruột nghiêm trọng Tình trạng này cần được điều trị y tế khẩn cấp. Đầy hơi bao tử cũng có thể do: IBS Chứng đau dạ dày Sự phát triển quá mức của vi khuẩn ruột non (SIBO)",
+            "score": 0.624660849571228,
+            "id": "vietnamese_healthcare_142826",
+            "rerank_score": 0.2799849212169647,
+            "weighted_score": 0.5108610093593597
+        },
+        {
+            "text": "Câu hỏi: Cháu bị đau bụng âm ỉ vào các khoảng thời gian nhất định (9-10h sáng,16-17h chiều, 23h đêm), khó đi đại tiện, lúc lỏng lúc khô. Bác sĩ cho cháu hỏiđau bụng âm ỉ, khó đi đại điện là biểu hiện của bệnh gì?Mong bác sĩ tư vấn giúp. Cháu cảm ơn bác sĩ. Trần Trung(1988) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Vũ Huy Hiền- Bác sĩ Nội tiêu hóa - Khoa Nội Tiêu hóa - Gan mật - Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Các triệu chứng của bạn có thể bạn bị táo bón, hoặc bệnh lý thuộc đại tràng. Trong trường hợp này để xác định chính xác bạn nên đến viện khám và thực hiện các thăm dò nhằm thăm khám đường tiêu hóa như nội soi, siêu âm...",
+            "score": 0.5752403140068054,
+            "id": "medical_vietnamese_qa_10835",
+            "rerank_score": 0.08226361125707626,
+            "weighted_score": 0.5077322766184806
+        },
+        {
+            "text": "Câu hỏi: Đau bụng âm ỉ sau khi hết táo bón là do đâu?\nTrả lời: Biện hiện đau bụng âm ỉ sau khi hết táo bón, đau xung quanh rốn, không rõ vị trí, đau nhiều khi đói, . . . như bạn mô tả có thể nằm trong bệnh cảnh Hội chứng ruột kích thích. Tuy nhiên, để chẩn đoán chắc chắn, bạn cần thực hiện nội soi đại tràng. Sau đó bạn cần được hướng dẫn kỹ về chế độ ăn uống và dùng thuốc. Bạn nên đi khám lại với bác sĩ chuyên khoa Tiêu hóa để được hướng dẫn kỹ càng hơn.",
+            "score": 0.6509630680084229,
+            "id": "vietnamese_healthcare_8962",
+            "rerank_score": 0.4382062554359436,
+            "weighted_score": 0.43400617837905886
+        },
+        {
+            "text": "Câu hỏi: Mối liên hệ giữa buồn nôn và táo bón là gì?\nTrả lời: 1. Mối liên hệ giữa buồn nôn và táo bón là gì?\nKhi ruột kết của bạn không hoạt động bình thường, nó sẽ đẩy toàn bộ đường tiêu hóa của bạn mất cân bằng. Kết quả là phân tích tụ trong đường ruột tạo ra cảm giác khó chịu hoặc nôn nao trong dạ dày . Ruột của bạn đóng một vai trò trong quá trình giải độc của cơ thể. Khi thức ăn di chuyển qua ruột kết mất nhiều thời gian hơn bình thường, điều này gây ra sự tích tụ độc tố trong cơ thể. Chính những chất độc này gây ra cảm giác buồn nôn. Ngoài ra, táo bón có thể dẫn đến chướng bụng và đầy hơi, điều này xảy ra khi phân tồn đọng lâu hơn trong ruột kết. Điều này kích thích sự gia tăng vi khuẩn trong ruột già, gây ra cảm giác buồn nôn. Tùy thuộc vào mức độ nghiêm trọng của táo bón, bạn cũng có thể chán ăn và bắt đầu bỏ bữa. Một số người buồn nôn ngay cả khi bụng rỗng. Ngoài ra, đôi khi táo bón và buồn nôn là triệu chứng của một tình trạng bệnh lý. Các điều kiện chung bao gồm: Táo bón có thể gây nên tình trạng chán ăn 1.1 Mất nước Phân khô, cứng có thể xảy ra khi không có đủ nước trong cơ thể và ruột của bạn. Thiếu chất lỏng có thể khiến thức ăn hoặc chất thải khó đi qua đường ruột. Mất nước cũng làm chậm hoạt động của ruột, dẫn đến buồn nôn và các triệu chứng khác như đầy hơi và đầy hơi. 1.2 Tắc ruột Tắc ruột xảy ra khi sự tắc nghẽn trong ruột kết ngăn cản sự di chuyển của phân. Các triệu chứng khác của tắc nghẽn đường ruột có thể bao gồm đau bụng , nôn mửa và sưng bụng. Các yếu tố khác nhau có thể đóng một vai trò trong tình trạng này. Viêm ruột do bệnh Crohn có thể gây tắc nghẽn, cũng như nhiễm trùng viêm túi thừa . Bạn cũng có thể bị tắc nghẽn nếu bạn bị thoát vị hoặc dính ruột kết. Ung thư ruột hoặc ruột kết là một nguyên nhân khác gây ra các vật cản. Hình ảnh siêu âm tắc ruột 1.3 Hội chứng ruột kích thích (IBS) Rối loạn này ảnh hưởng đến ruột già và có thể gây ra nhiều triệu chứng bao gồm táo bón và buồn nôn. IBS là một tình trạng mãn tính gây ra các cơn co thắt ruột yếu, dẫn đến thức ăn hoặc phân bị ứ đọng trong ruột kết. Người ta cũng tin rằng những bất thường trong hệ thống thần kinh góp phần gây ra táo bón IBS. Điều này là do các tín hiệu phối hợp kém giữa ruột kết và não, dẫn đến các cơn co thắt cơ trong ruột yếu. 1.4 Một số loại thuốc Một số loại thuốc có thể gây ra các tác dụng phụ về đường tiêu hóa như táo bón và buồn nôn. Bao gồm các: Thuốc giảm đau có chất gây mê, như codein và oxycodone Thuốc kháng histamine Thuốc lợi tiểu Thuốc chống trầm cảm Thuốc huyết áp Chất bổ sung sắt Táo bón và buồn nôn có thể cải thiện khi cơ thể bạn thích nghi với thuốc hoặc chất bổ sung. Đi khám bác sĩ nếu tình trạng táo bón do thuốc trở nên trầm trọng hơn hoặc không cải thiện. Bác sĩ có thể cần điều chỉnh liều lượng hoặc đề nghị dùng thuốc làm mềm phân cùng với thuốc. Một số thuốc điều trị bệnh có thể gây táo bón 1.5 Lối sống ít vận động Vấn đề cơ bản của táo bón mãn tính không phải lúc nào cũng là một vấn đề y tế tiềm ẩn. Đôi khi có thể đến từ việc ít tập thể dục. Một lối sống ít vận động có thể góp phần gây ra táo bón mãn tính và sau đó dẫn đến buồn nôn. Tập thể dục thường xuyên giúp thúc đẩy các cơn co cơ bình thường trong ruột. Điều này giúp phân di chuyển dễ dàng qua ruột.",
+            "score": 0.597293496131897,
+            "id": "vietnamese_healthcare_162415",
+            "rerank_score": 0.07293305546045303,
+            "weighted_score": 0.40488812476396563
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

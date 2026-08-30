@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Quy đầu bị xước, nổi mụn và tiết dịch phải làm sao?",
+    "ground_truth": "Bác sĩ nghĩ bạn đang bị viêm bao quy đầu, nguyên nhân viêm thường do nhiễm khuẩn nước tiểu hoặc quan hệ tình dục mà người nữ có viêm nhiễm phụ khoa. Yếu tố thuận lợi gây viêm có thể do bao quy đầu dài, hẹp. Các nốt mụn mà bạn mô tả phải thăm khám trực tiếp mới có thể đánh giá được, vì vậy bạn cần đến cơ sở y tế chuyên khoa để khám.",
+    "answer": "Quy đầu bị xước, nổi mụn, tiết dịch và đau rát khi chạm có thể liên quan đến viêm nhiễm do vi trùng, nấm hoặc virus; vì nhiều bệnh lý có biểu hiện tương tự nên bạn cần đi khám để được chẩn đoán và điều trị, không nên tự dùng thuốc. Trong thời gian này, hãy kiêng quan hệ tình dục, vệ sinh nhẹ nhàng bằng nước ấm, giữ vùng kín sạch và khô, lau khô sau khi tắm và mặc quần áo rộng, thoáng; tránh làm các nốt mụn bị cọ xát hoặc vỡ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi, quy đầu bị xước, nổi mụn và tiết dịch phải làm sao ạ? Em thường xuyên vệ sinh sạch, không quan hệ tình dục, chạm vào đau rát ạ!\nTrả lời: Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+            "score": 0.7288107872009277,
+            "id": "vietnamese_medical_qa_3113"
+        },
+        {
+            "text": "Câu hỏi: Da dương vật nổi mụn, có mùi hôi, chảy máu là dấu hiệu bệnh lý gì?\nTrả lời: Dây thần kinh lưng dương vật là tổ chức nằm sâu dưới da và không thể thấy được. Da dương vật nổi mụn có mùi hôi là có thể em bị viêm nhiễm từ các loại vi trùng, nấm, virus, . . . thường nhất là lây qua đường tình dục. Có rất nhiều bệnh lý có cùng biểu hiện như trên nên em phải đi khám để được chẩn đoán và điều trị nhé.",
+            "score": 0.5457866191864014,
+            "id": "vietnamese_healthcare_7946"
+        },
+        {
+            "text": "Câu hỏi: Cách trị nổi mụn trắng ở bao quy đầu\nTrả lời: 3. Cách trị nổi mụn trắng ở bao quy đầu\nNếu tình trạng nổi mụn không nghiêm trọng có thể các nốt mụn sẽ tự biến mất sau vài ngày. Tuy nhiên để tránh việc tình trạng dương vật ngày càng tệ hơn do mụn thì nam giới cần kiêng quan hệ tình dục khi các nốt mụn hoàn toàn biến mất và vệ sinh sạch sẽ hàng ngày. Có nhiều cách trị mụn trắng ở bao quy đầu như: Kiêng quan hệ tình dục: vì có thể khiến các nốt mụn gặp tổn thương và vỡ ra do cọ xát, bên cạnh đó vi khuẩn cũng như virus gây bệnh có cơ hội xâm nhập, lây nhiễm cho bạn tình. Như vậy cả nam giới lẫn đối tác đều chịu những tác hại nhất định Vệ sinh sạch sẽ cơ thể: các nốt mụn có thể cải thiện nhanh chóng nếu vùng kín được giữ sạch sẽ và khô thoáng. Vì vậy mỗi khi tắm rửa cần chú ý vệ sinh sạch vùng dương vật, nhẹ nhàng với nước ấm. Cần lau khô vùng kín trước khi mặc quần áo. Nên chọn quần áo có chất liệu thoáng mát, thấm hút mồ hôi, rộng rãi không bó sát để tránh tổn thương vùng kín.",
+            "score": 0.5259498953819275,
+            "id": "vietnamese_healthcare_93133"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,tôi đang bị nỗi mụn dưới da sau nhiều ngày thì thành mụn có mũ tôi phải làm sao\nTrả lời: Chào bạn.\nBS đã đọc câu hỏi của bạn và tư vấn như sau: mụn dưới da và mụn mủ nhiều sẽ dễ dẫn đến tình trạng nhiễm trùng, và cần phải được soi da và điều trị kháng sinh cần thiết, bên cạnh đó da của bạn có thể là da nhờn nên cần phải uống thuốc chống bài tiết mồ hôi, bổ sung vitamin C. Thế nên tốt nhất khi đã có mụn mủ thì bạn nên đi khám BS da liễu dể được soi da và điều trị hiệu quả, nếu không sẽ dễ dẫn đến sẹo thâm và ảnh hưởng đến thẫm mỹ.\nThân mến.",
+            "score": 0.5200878381729126,
+            "id": "vietnamese_medical_qa_7441"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho cháu hỏi, dây thần kinh lưng dương vật nổi mụn, chảy máu, mùi hôi và quy đầu nổi mụn là bệnh lý gì vậy ạ? Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nTrả lời: Chào em. Dây thần kinh lưng dương vật là tổ chức nằm sâu dưới da và không thể thấy được. Da dương vật nổi mụn có mùi hôi là có thể em bị viêm nhiễm từ các loại vi trùng, nấm, virus,... thường nhất là lây qua đường tình dục. Có rất nhiều bệnh lý có cùng biểu hiện như trên nên em phải đi khám để được chẩn đoán và điều trị nhé.",
+            "score": 0.5176423788070679,
+            "id": "vietnamese_medical_qa_4080"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Em bị bong gân trước (chỗ tiếp giáp bàn chân và cẳng chân) sau đó thì vết đay bắt đầu lan xuống phía dưới lòng bàn chân và mép ngoài chân trên cùng 1 mặt cắt ngang vị trí bong gân đó. Sau đó ít lâu thì chân bên cạnh (chân không bị bong gân, bình thường) lại bị các triệu chứng tương tự chân kia. Khiến em đi lại rất khó khăn đặc biệt vào buổi sáng hay hoạt động mạnh. Bác sĩ cho em hỏibong gân gây khó khăn khi đi lại có sao không?Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Trường hợp của bạn nên đi khám bác sĩ Chấn thương chỉnh hình để được khám, xét nghiệm để xác định chẩn đoán, nguyên nhân để có điều trị phù hợp.",
+    "answer": "Bong gân nhẹ thường giảm dần trong vài tuần; nếu đau lan xuống lòng bàn chân/mép ngoài, đi lại khó, đau nhiều buổi sáng hoặc khi vận động, kéo dài hay xuất hiện cả ở chân bên kia thì không nên chủ quan—có thể còn tổn thương dây chằng/gân hoặc chân bên kia bị quá tải do đi lệch. Bạn nên hạn chế vận động mạnh, chườm lạnh, băng ép vừa phải và kê cao chân; không tự xoa bóp hay tiếp tục bó thuốc khi chưa được đánh giá. Vì triệu chứng kéo dài và ảnh hưởng đi lại, bạn nên khám chuyên khoa Chấn thương chỉnh hình để kiểm tra và có thể chụp MRI đánh giá gân, dây chằng; đi khám sớm hơn nếu sưng nóng đỏ nhiều, tê lạnh bàn chân, đau tăng, không chịu được trọng lượng hoặc sốt.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: 2 tháng trước, tôi bị bong gân chân, đã đi chụp X - quang, xương khớp không sao. Tôi đi bó thuốc lá 1 tuần, tháo thuốc tầm 1 tuần thấy vẫn bị sưng, đau, tôi có đi tiêm và nghỉ ngơi không hoạt động nhiều nhưng đến giờ chân vẫn sưng, đau. Vậy bác sĩ cho tôi hỏichân bong gân, sưng đau điều trị như thế nào?Tôi cảm ơn bác sĩ. Nghiêm Thị Xuân(1972) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Mai Anh Kha- Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn không nói rõ bong gân cổ chân hay gối. Hiện tại, sau 2 tháng đã bó cố định, nghỉ ngơi mà vẫn còn đau là không bình thường. Bạn nên đi khám và chụp phim MRI để đánh giá mức độ tổn thương gân để có chỉ định đúng.",
+            "score": 0.6855374574661255,
+            "id": "medical_vietnamese_qa_526"
+        },
+        {
+            "text": "Câu hỏi: Em bị đứt gân duỗi mu bàn chân số 1 (ngón cái). Vì lần nối gân trước không được nên 40 ngày sau em đi kiểm tra lại và được yêu cầu phẫu thuật. Tuy nhiên, sau 20 ngày mổ, em vẫn đang bó bột và đi lại bằng nạng nhưng bàn chân bị thương vẫn bị sưng và bầm tím. Bác sĩ cho em hỏi,phục hồi sau phẫu thuật nối gân chân như thế nào?Em có nên cử động nhẹ ngón chân, uống thuốc chống phù nề và khi nào em có thể tập vật lý trị liệu để hồi phục?\nTrả lời: bác sĩ xin giải đáp như sau: Đứt gânduỗi ngón chân cái sau mổ có thể bị sưng và bầm tím. Hiện tượng này thường chỉ xuất hiện khoảng vài tuần và ổn định dần. Để giảm bớt tình trạng này, bạn nên kê chân cao khi nằm nghỉ, tập cử động nhẹ các ngón chân và có thể dùng thuốc theo chỉ dẫn của bác sĩ. Việc tập luyện cần được chỉ dẫn trực tiếp bởi bác sĩ phẫu thuật vì bác sĩ sẽ nắm rõ tình trạng khâu nối gân đứt như thế nào, nhất là trong trường hợp mổ lại lần 2 như của bạn. Tùy theo các vấn đề phát hiện được, bác sĩ có thể chỉ định cho bạn chương trình tập luyện phù hợp, trước khi tập đi, bác sĩ cần kiểm tra lực cơ chân, tình trạng khớp cổ chân, có thể tập đứng rồi mới tập đi với mức độ chịu trọng lượng ở chân phẫu thuật tăng dần, vẫn mang nạng khi đi lại cho đến khi có thể bỏ nạng mà vẫn đảm bảo an toàn.",
+            "score": 0.6792963743209839,
+            "id": "medical_vietnamese_qa_614"
+        },
+        {
+            "text": "Câu hỏi: Em bị lật sơ mi chân vùng mắt cá vì chơi thể thao. Em đã đi khám, bác sĩ nói bị bong gân mãn tính, có các triệu chứng đau nhức, hơi sưng ở vùng mắt cá và không thể vận động mạnh. Em bị bong gân cũng đã được gần 3 tháng. Vậy bác sĩ cho em hỏibong gân mãn tính điều trị như thế nào?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bong gân cổ chân phải được cố định nghỉ ngơi, hạn chế vận động. Sau 3 tháng mà vẫn còn đau bạn nên đến khám chuyên khoa Chấn thương chỉnh hình, chụp MRI đánh giá gân cổ chân, mức độ tổn thương để bác sĩ cho phương án điều trị phù hợp.",
+            "score": 0.663848876953125,
+            "id": "medical_vietnamese_qa_342"
+        },
+        {
+            "text": "Câu hỏi: Em 17 tuổi có đi học boxing. Trong 1 lần tập em cảm giác như mình bị gãy ngón tay, sau đó thì mẹ em bảo là bong gân do tay sưng phù lên. Em đang không biết có nên đi bệnh viện không. Bác sĩ cho em hỏi nếu làbong gân cấp 2 không phẫu thuật có thể hồi phục không?Có di chứng ảnh hưởng gì không? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Môn boxing thường dễ bị chấn thương bàn tay, ngón tay. Nếu bạn sưng đau và hạn chế cử động thì nên đi khám để được chụp Xquang kiểm tra. Trong thời gian còn sưng, bạn nên chườm đá, hạn chế cử động và không xoa bóp chỗ đau.",
+            "score": 0.6591262221336365,
+            "id": "medical_vietnamese_qa_96"
+        },
+        {
+            "text": "Câu hỏi: Mu bàn chân sưng do bong gân. Vậy bác sĩ cho em hỏisưng mu bàn chân do bong gân phải làm gì để nhanh khỏi?Sau bao lâu thì khỏi? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu bị bong gân đơn thuần, không có các tổn thương xương đi kèm thì bạn cần chú ý đến 4 việc sau để giảm sưng đau: chườm lạnh, băng ép, kê cao chân và hạn chế vận động chân đau. Việc chườm lạnh có thể thực hiện nhiều lần trong ngày và ngay sau chấn thương càng sớm càng tốt. Sau khi chườm lạnh cần băng ép với băng thun và hạn chế vận động để tránh dồn máu xuống bàn chân gây phù nề. Khi nằm nghỉ, bạn nên kê cao chân tối thiểu ngang ngực khi nằm để giúp máu hồi lưu về tim. Thời gian hồi phục khá thay đổi tùy theo mức độ tổn thương: Từ vài tuần đến thậm chí vài tháng. Nếu bạn thấy lo lắng thì đừng quên đi tái khám lại với bác sĩ chuyên khoa.",
+            "score": 0.6551446318626404,
+            "id": "medical_vietnamese_qa_54"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

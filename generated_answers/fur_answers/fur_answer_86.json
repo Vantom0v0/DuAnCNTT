@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ,\nTôi gửi hình ảnh này bác sĩ xem giúp tôi bị làm sao.\nBan đầu lòng bàn chân tôi hơi đau kiểu như có gai. Tôi cạy lên nhưng ko có.xong nó to dần lên và đau.\nGiờ nó sưng đỏ cả xung quanh cái mụn đau. \nCó phải tôi bị mụn cóc không ạ?\nTôi phải điều trị tn ạ. Tôi lại đang cho con bú , con tôi được 2 tháng rưỡi.\nCảm ơn bác sĩ",
+    "ground_truth": "Chào bạn ,\nBạn vui lòng cung cấp hình ảnh trong câu hỏi mới để bác sỹ hỗ trợ tư vấn được chính xác, đầy đủ.\nCòn theo như bạn mô tả thì có khả năng mụn đó đã bị nhiễm trùng, nếu nhẹ bạn chỉ cần ngâm chân bằng nước muối  hàng ngày. Nếu nặng bạn nên uống thêm kháng sinh. \nThân mến!",
+    "answer": "Chào bạn,\n\nDựa trên mô tả, tổn thương lòng bàn chân ban đầu đau như có gai, sau đó to dần, sưng đỏ và đau nhiều **có thể là nhiễm trùng da hoặc áp xe/nhọt**, nhưng **chưa đủ thông tin để khẳng định có phải mụn cóc hay không**. Hiện không thấy hình ảnh tổn thương trong thông tin cung cấp nên không thể chẩn đoán chính xác.\n\nBạn nên:\n\n- Không tiếp tục cạy hoặc tự nặn vì có thể gây nhiễm trùng thứ phát.\n- Đến khám chuyên khoa Da liễu để bác sĩ đánh giá tổn thương và quyết định có cần xét nghiệm hay điều trị gì không.\n- Nếu tổn thương có mủ nhiều, sưng đỏ lan nhanh, đau tăng, sốt hoặc mệt mỏi, cần đi khám sớm vì có thể là dấu hiệu nhiễm khuẩn tại chỗ hoặc toàn thân.\n- Bạn đang cho con bú nên cần thông báo rõ với bác sĩ trước khi dùng thuốc; thông tin hiện có chưa đủ để khẳng định thuốc điều trị nào an toàn trong trường hợp của bạn.\n\nKhông nên tự mua thuốc hoặc tự điều trị khi chưa được thăm khám.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nChân em tự dưng sưng lên một cục to, có ngòi. Ban đầu, em nghĩ là nhọt nhưng dần dần sưng to và tấy lên. Vậy bác sĩ cho em hỏi chân bị sưng tấy có phải nhiễm trùng do tụ cầu không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như bạn mô tả thì có thể bạn đang bị nhiễm trùng da. Mong bạn có thể cung cấp thêm hình ảnh tổn thương da, những điều trị đã dùng để việc chẩn đoán và điều trị dễ dàng hơn. Trường hợp da đang rất khó chịu thì bạn hãy đến khám chuyên khoa Da liễu để điều trị sớm. Bác sĩ sẽ đánh giá lại tình trạng da của bạn, chỉ định thêm một số xét nghiệm nếu cần thiết và đưa ra phác đồ điều trị theo tình trạng hiện tại của bạn.\nTrân trọng!",
+            "score": 0.6522133350372314,
+            "id": "vietnamese_medical_qa_4819",
+            "rerank_score": 0.7507773637771606
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi u nhọt ở chân trái đã mổ ở bệnh viện 1 lần năm 2012. Tới nay chỗ đó lại nổi lên y như vậy càng ngày nó càng bự, không đau nhức. Cách đây cỡ 2 tuần em thấy nó làm miệng và vỡ em nặn một ít và dùng băng cá nhân dán lại. Bác sĩ cho em hỏi tái phát nổi u nhọt ở chân sau mổ có sao không? Do tình hình dịch bệnh covid 19 khó khăn không đến bệnh viện khám được mong bác sĩ trả lời giúp em. Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhọt là một dạng nhiễm trùng da với xuất phát điểm từ lỗ chân lông hay tuyến dầu nhờn. Nhọt không có nhiều biến chứng, nhưng có trường hợp nhọt diễn tiến thành mụn nhọt tái phát. Bạn không nên tự nặn vì có thể dẫn đến nhiễm trùng thứ phát.\nNhọt thường không phải tình trạng cấp cứu cần can thiệp ngay, nếu theo dõi tại nhà có dấu hiệu sưng đỏ, nung mủ hoặc dấu hiệu sốt, sưng đau chân trái cần khám bác sĩ để được điều trị nhọt tái phát đúng cách.\nTrân trọng!",
+            "score": 0.6334570646286011,
+            "id": "vietnamese_medical_qa_1392",
+            "rerank_score": 0.5493515729904175
+        },
+        {
+            "text": "Câu hỏi: Tôi là nam, năm nay 57 tuổi, khoảng 2 ngày nay đổ lại thì ở giữa ngực, ngay phía trên xương ức có sưng lên 1 cục có đường kính khoảng 3cm và có dấu hiệu đau nhức. Tôi không té ngã hay va chạm mạnh ở đâu cả. Vậy bác sĩ cho tôi hỏinổi cục ở xương ức là dấu hiệu bệnh gì?Tôi cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn có cục sưng lên ở trên xương ức và có dấu hiệu đau nhức. Tình trạng này có thể là mụn nhọt, có thể là u, và có thể có dấu hiệu nhiễm trùng (sưng, nóng, đỏ, đau). Bạn cần đi khám để bác sĩ có thể đánh giá bản chất của tổn thương. Nếu cần bác sĩ có thể chỉ định siêu âm phần mềm để xem bản chất tổn thương. Trong trường hợp bạn có các triệu chứng toàn thân như: sốt, mệt mỏi, hoặc tổn thương đau nhức nhiều - vùng da xung quanh đỏ lan nhanh cần đi khám ngay vì đó có thể là những dấu hiệu của nhiễm khuẩn tại chỗ/ toàn thân.",
+            "score": 0.592862606048584,
+            "id": "medical_vietnamese_qa_14",
+            "rerank_score": 0.5029527544975281
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nNgón chân của tôi bị sưng khá nặng và hay bị đau ngay các khóe ngón chân. Riêng ngón cái thì bị sưng tím và cảm giác đau nhiều. Tôi có uống amoxillin nhưng không khỏi. Tình trạng này đã kéo dài 2 tháng. Bác sĩ cho hỏi chân tôi gặp tình trạng này là gì. Nếu khám thì có thể khám ở đâu và chuyên khoa gì (HCM). Cám ơn bác sĩ.\nTrả lời: Chào bạn,\nTình trạng của bạn hiện giờ không biết là tổn thương do va chạm hay tự nhiên chân bạn có biểu hiện đau như vậy. Nếu do va chạm thì có thể tổn thương này ảnh hưởng đến xương nên sau thời gian dài như vậy vẫn bị sưng và đau. Còn nếu tự nhiên bạn bị đau như vậy thì có thể là biểu hiện bệnh lý của bệnh Gout hoặc do viêm khớp nhiễm khuẩn, viêm đa khớp. \nVì vậy bạn nên đi khám chuyên khoa thần kinh tại các bệnh viện lớn để được bác sỹ chuẩn đoán chính xác nguyên nhân và có chỉ định điều trị dứt điểm, kịp thời , không nên tự mua thuốc điều trị như vậy.\nThân mến!",
+            "score": 0.6034502387046814,
+            "id": "vietnamese_medical_qa_6621",
+            "rerank_score": 0.2929226756095886
+        },
+        {
+            "text": "Câu hỏi: Chào Bác sĩ,\nBác sĩ cho em hỏi, em bị sưng 1 cục tròn to ở vùng bẹn. Nó nằm ở giữa chân trái và bộ phận sinh dục. Rất đau và chảy mủ máu. Bác sĩ cho em hỏi đấy là triệu chứng của bệnh gì ạ? Có nguy hiểm và cách chữa, thuốc thang như thế nào ạ? Em xin chân thành cảm ơn bác sĩ.\nKhách hàng tại Hà Nội (1988)\nChào bác sĩ. Tôi bị mụn ở mông bên phải cách hậu môn 2cm gì đó cùng thời điểm này tôi bị lên hạch ở bẹn phải tôi lấy tay kiểm tra thì thấy một đường sưng cứng kéo dài từ chỗ bị mụn lên đến bẹn phải, gây đau, đi lại khó khăn. Tôi dùng kháng sinh thì thấy đỡ. Tôi bị như thế có nghiêm trọng không bác sĩ tôi thực sự lo lắng mong được bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ. Em bị nổi hạch ở bẹn khoảng 1 tuần nay và hôm nay bắt đầu thấy hơi nhức khi đụng vào. Nhưng hạch không bị to và nhô ra. Chỉ lấy tay đụng vào mới thấy thôi ạ. Cho em hỏi hạch vậy là dấu hiệu của các bệnh gì ạ. Em cảm ơn\nTrả lời: Chào bạn,\nTôi xin được tư vấn về trường hợp của bạn như sau: Theo bạn mô tả, đây có thể là 1 trường hợp nhiễm trùng, tạo thành áp xe. Bạn cần tới khám tại cơ sở y tế để bác sĩ khám, đánh giá và tìm nguyên nhân. Trường hợp nhẹ có thể dùng thuốc đơn thuần, trường hợp áp xe to hoặc nhiễm trùng trên nền 1 bệnh có sẵn (ví dụ: bướu bã...), bác sĩ có thể cấy mủ để tìm vi trùng gây bệnh và rạch thoát mủ, thay băng thường xuyên cho vết thương lành.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng!",
+            "score": 0.6118448376655579,
+            "id": "vietnamese_medical_qa_4842",
+            "rerank_score": 0.15693941712379456
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

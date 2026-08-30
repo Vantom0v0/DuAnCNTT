@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Trẻ thường xuyên hắt hơi, chảy nước mũi và ho nhiều là dấu hiệu của bệnh gì?",
+    "ground_truth": "Theo những triệu chứng bạn mô tả thì có thể bé đang mắc bệnh viêm đường hô hấp trên. Theo đó, căn bệnh này thường thuyên giảm triệu chứng sau 5-6 ngày và có thể tự khỏi trong vòng 2 tuần. Mặc dù là các bệnh viêm đường hô hấp trên có triệu chứng không nặng nhưng đây là một trong các nguyên nhân khiến người bệnh phải nghỉ học, nghỉ lao động. Nếu đồng nhiễm với viêm đường hô hấp dưới, tình trạng sẽ nghiêm trọng hơn.",
+    "answer": "Trẻ thường xuyên hắt hơi, chảy nước mũi và ho có thể liên quan đến nhiễm lạnh hoặc viêm nhiễm đường hô hấp; nếu hắt hơi, chảy mũi trong kéo dài thì có thể là viêm mũi dị ứng. Tuy nhiên, cần dựa thêm vào các triệu chứng như sốt, bú kém, mệt mỏi hoặc khó thở để đánh giá. Nếu trẻ có những dấu hiệu này, đặc biệt là trẻ nhỏ, nên đưa đi khám bác sĩ; không tự ý mua thuốc điều trị.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em bé nhà mình hay hắt hơi ngày 5-6 lần và cũng kèm theo ho nữa. Bé đã được gần 2 tháng tuổi. Gia đình lo lắng có thể bé bị nhiễm bệnh. Mong bác sĩ tư vấn giúptrẻ gần 2 tháng tuổi hắt hơi nhiều kèm ho là bị làm sao?Cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khi trẻ có các biểu hiện viêm nhiễm đường hô hấp như ho, hắt hơi, chảy mũi, bú kém, nôn trớ, sốt, hoặc khó thở bạn nên đưa trẻ đi khám để được bác sĩ tư vấn kỹ hơn về tình trạng sức khỏe của trẻ và có biện pháp khắc phục phù hợp.",
+            "score": 0.7361959218978882,
+            "id": "medical_vietnamese_qa_5468"
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân trẻ hắt hơi sổ mũi\nTrả lời: 1. Nguyên nhân trẻ hắt hơi sổ mũi\nTrong các nguyên nhân gây hắt hơi sổ mũi ở trẻ , nhiễm lạnh là nguyên nhân phổ biến nhất. Theo Đông y, do tạng phế của trẻ chưa hoàn thiện nên khi thời tiết thay đổi (nóng, lạnh thất thường) hoặc đổ mồ hôi nhiều khiến trẻ dễ bị cảm lạnh . Ở giai đoạn chớm bị, trẻ có triệu chứng hắt hơi, sổ mũi trong, nghẹt mũi,... Sau đó, trẻ có thể bị ho nặng, gây suy yếu tạng phế. Theo Y Học Hiện Đại, mũi là cửa ngõ của hệ hô hấp. Bình thường, hốc mũi được lót bởi một lớp niêm mạc, bao phủ bằng lớp thảm nhầy có chức năng giữ lại bụi bẩn, vi khuẩn, bảo vệ mũi xoang. Khi lớp biểu mô trong hốc mũi bị kích thích do thời tiết (thay đổi nhiệt độ đột ngột), hóa chất, dị vật, tình trạng viêm nhiễm, các khối u,... sẽ khiến các tuyến chế tiết nằm trong lớp biểu mô gia tăng sản xuất dịch, gây hiện tượng chảy nước mũi. Chảy nước mũi khiến trẻ khó chịu vì giảm lượng không khí lưu thông trong mũi. Hiện tượng này có thể tự hết nhưng cũng có thể gây ra nhiều biến chứng khó lường như viêm xoang, viêm họng , viêm tắc vòi tai, viêm thanh - khí - phế quản,... Hiện tượng chảy nước mũi ở trẻ Bên cạnh đó, niêm mạc mũi là nơi cư trú của nhiều vi khuẩn, virus, khi gặp lạnh hoặc điều kiện thuận lợi sẽ tăng sinh mạnh mẽ, gây viêm mũi - họng. Khi trẻ bị cảm lạnh sẽ bắt đầu bằng triệu chứng nhẹ gồm sổ mũi hắt hơi . Sau vài ngày, nếu không được điều trị đúng cách, trẻ sẽ chuyển sang giai đoạn ho nhiều, mệt mỏi, khó chịu, có thể dẫn tới viêm họng, viêm phổi, viêm phế quản ,... gây khó khăn cho việc điều trị sau này.",
+            "score": 0.7301580905914307,
+            "id": "vietnamese_healthcare_32831"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em năm nay 11 tuổi.Bé hay bị hắt hơi, sổ mũi thường xuyên, thỉnh thoảng lại chảy máu mũi nữa. Vậy bác sĩ cho em hỏitrẻ 11 tuổi hay hắt hơi kèm chảy máu mũi là bệnh gì?Xin bác sĩ tư vấn và cách điều trị? Em cảm ơn bác sĩ. Nguyễn Thị Lý(1990) Trả lời Được giải đáp bởi các bác sĩ Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bị hắt hơi, sổ mũi như bạn mô tả thì bé có thể bịviêm mũi dị ứng. Dị ứng phấn hoa (tên tiếng Anh là Hay fever) hay còn được gọi là viêm mũi dị ứng (tên tiếng Anh là allergic rhinitis) gây ra các dấu hiệu và triệu chứng giống như cảm lạnh, như sổ mũi, ngứa mắt, nghẹt mũi, hắt hơi và tăng áp lực xoang. Nhưng không giống như cảm lạnh, viêm mũi dị ứng không phải do virus gây ra mà do phản ứng dị ứng với các chất gây dị ứng ngoài trời hoặc trong nhà, chẳng hạn như phấn hoa, mạt bụi hoặc nước bọt của mèo, chó và các động vật khác có lông. Còn hiện tượngchảy máu mũicó thể là hiện tượng chảy máu điểm mạch, cũng cần loại trừ các bệnh lý khác để loại trừ bệnh lý chảy máu mũi. Vì vậy, bạn nên đưa bé đến khám với bác sĩ chuyên khoa Tai mũi họng hoặc bác sĩ chuyên khoa Nhi để được tư vấn cụ thể. Nếu bạn còn thắc mắc, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.7257031202316284,
+            "id": "medical_vietnamese_qa_5674"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 4, 5 tuổi hay hắt xì hơi, không sốt, thỉnh thoảng mới sổ mũi, tối đến thì nghẹt mũi không thở được. Bác sĩ cho em hỏitrẻ hay hắt hơi, tối nghẹt mũi là bệnh gì?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Như bạn mô tả có thể bé bị mắc chứng viêm mũi dị ứng. Bạn có thể đưa bé khám với bác sĩ hô hấp hoặc miễn dịch dị ứng để được tư vấn cụ thể.",
+            "score": 0.7203542590141296,
+            "id": "medical_vietnamese_qa_4633"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà mình 5 tuổi hắt hơi sổ mũi thường xuyên. Bác sĩ cho hỏihắt hơi sổ mũi thường xuyên là biểu hiện của bệnh lý gì?Lâu ngày có thành bệnh mãn tính không? Và nên đi bác sĩ khám hay mua thuốc gì để tốt cho sức khỏe? Mong bác sĩ tư vấn giúp. Xin cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Cháu nhà bạn bị hắt hơi, sổ mũi thường xuyên. Nếu là hắt hơi và chảy mũi trong thì khả năng cháu bị viêm mũi dị ứng. Viêm mũi dị ứng là bệnh cơ địa, tuy không nguy hiểm nhưng dai dẳng khó điều trị và làm giảm chất lượng cuộc sống. Cháu 5 tuổi, việc dùng thuốc cho trẻ nhỏ phải cẩn thận, bạn không nên tùy tiện mua thuốc cho cháu mà cần được bác bác sĩ Tai mũi họng hoặc bác sĩ Nhi khoa kê toa.",
+            "score": 0.7182120084762573,
+            "id": "medical_vietnamese_qa_5832"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

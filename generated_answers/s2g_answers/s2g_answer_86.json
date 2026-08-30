@@ -1,0 +1,115 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ,\nTôi gửi hình ảnh này bác sĩ xem giúp tôi bị làm sao.\nBan đầu lòng bàn chân tôi hơi đau kiểu như có gai. Tôi cạy lên nhưng ko có.xong nó to dần lên và đau.\nGiờ nó sưng đỏ cả xung quanh cái mụn đau. \nCó phải tôi bị mụn cóc không ạ?\nTôi phải điều trị tn ạ. Tôi lại đang cho con bú , con tôi được 2 tháng rưỡi.\nCảm ơn bác sĩ",
+    "ground_truth": "Chào bạn ,\nBạn vui lòng cung cấp hình ảnh trong câu hỏi mới để bác sỹ hỗ trợ tư vấn được chính xác, đầy đủ.\nCòn theo như bạn mô tả thì có khả năng mụn đó đã bị nhiễm trùng, nếu nhẹ bạn chỉ cần ngâm chân bằng nước muối  hàng ngày. Nếu nặng bạn nên uống thêm kháng sinh. \nThân mến!",
+    "answer": "Chào bạn, theo mô tả, tổn thương có thể là nhiễm trùng da; nhọt cũng là một dạng nhiễm trùng da xuất phát từ lỗ chân lông hoặc tuyến dầu nhờn. Chưa đủ thông tin để khẳng định có phải mụn cóc hay không. Bạn không nên tự nặn vì có thể gây nhiễm trùng thứ phát. Do tổn thương đang sưng đỏ và đau, bạn nên khám chuyên khoa Da liễu để được đánh giá, làm xét nghiệm nếu cần và điều trị phù hợp; nếu xuất hiện nung mủ, sốt hoặc sưng đau lan ở chân trái thì cần đi khám.",
+    "evidence": [
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như bạn mô tả thì có thể bạn đang bị nhiễm trùng da.",
+        "Mong bạn có thể cung cấp thêm hình ảnh tổn thương da, những điều trị đã dùng để việc chẩn đoán và điều trị dễ dàng hơn.",
+        "Trường hợp da đang rất khó chịu thì bạn hãy đến khám chuyên khoa Da liễu để điều trị sớm.",
+        "Bác sĩ sẽ đánh giá lại tình trạng da của bạn, chỉ định thêm một số xét nghiệm nếu cần thiết và đưa ra phác đồ điều trị theo tình trạng hiện tại của bạn.",
+        "Bạn không nên tự nặn vì có thể dẫn đến nhiễm trùng thứ phát.",
+        "Nhọt thường không phải tình trạng cấp cứu cần can thiệp ngay, nếu theo dõi tại nhà có dấu hiệu sưng đỏ, nung mủ hoặc dấu hiệu sốt, sưng đau chân trái cần khám bác sĩ để được điều trị nhọt tái phát đúng cách.",
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhọt là một dạng nhiễm trùng da với xuất phát điểm từ lỗ chân lông hay tuyến dầu nhờn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Xin chào Bác Sĩ. Tôi là nữ. Năm nay 29 tuổi. Da tôi bị sần như nổi da gà và chân tôi bị như vậy cũng được vài năm rồi. Tôi chưa dùng bất kì thuốc gì cả. Tôi đang cho con bú vậy tôi dùng gi để điều trị thưa Bác Sĩ.?\nVà tôi có dị ứng với thuốc paracetamol vậy khi tôi sốt hoặc cần giảm đau thì phải dùng thuốc gì ạ. \nTôi cám ơn Bác Sĩ đã đọc câu hỏi của tôi. bà xin được lời khuyên ạ\nTrả lời: xin chào bạn ! với hình ảnh bạn gởi thì tôi nghĩ bạn bị bệnh dày sừng nang lông. Đây là một bệnh lý da liễu mãn tính, thuộc dạng cơ địa. bây giờ bạn đang mang thai, không cần thiết uống thuốc điều trị gì. khi nào sinh con xong, bạn đến bv da liễu gần nhất để được khám và điều trị tốt nhất.",
+                "score": 0.609748363494873,
+                "id": "vietnamese_medical_qa_5311",
+                "rerank_score": 0.8815446496009827
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nChân em tự dưng sưng lên một cục to, có ngòi. Ban đầu, em nghĩ là nhọt nhưng dần dần sưng to và tấy lên. Vậy bác sĩ cho em hỏi chân bị sưng tấy có phải nhiễm trùng do tụ cầu không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như bạn mô tả thì có thể bạn đang bị nhiễm trùng da. Mong bạn có thể cung cấp thêm hình ảnh tổn thương da, những điều trị đã dùng để việc chẩn đoán và điều trị dễ dàng hơn. Trường hợp da đang rất khó chịu thì bạn hãy đến khám chuyên khoa Da liễu để điều trị sớm. Bác sĩ sẽ đánh giá lại tình trạng da của bạn, chỉ định thêm một số xét nghiệm nếu cần thiết và đưa ra phác đồ điều trị theo tình trạng hiện tại của bạn.\nTrân trọng!",
+                "score": 0.6021378040313721,
+                "id": "vietnamese_medical_qa_4819",
+                "rerank_score": 0.7507771253585815
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi u nhọt ở chân trái đã mổ ở bệnh viện 1 lần năm 2012. Tới nay chỗ đó lại nổi lên y như vậy càng ngày nó càng bự, không đau nhức. Cách đây cỡ 2 tuần em thấy nó làm miệng và vỡ em nặn một ít và dùng băng cá nhân dán lại. Bác sĩ cho em hỏi tái phát nổi u nhọt ở chân sau mổ có sao không? Do tình hình dịch bệnh covid 19 khó khăn không đến bệnh viện khám được mong bác sĩ trả lời giúp em. Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhọt là một dạng nhiễm trùng da với xuất phát điểm từ lỗ chân lông hay tuyến dầu nhờn. Nhọt không có nhiều biến chứng, nhưng có trường hợp nhọt diễn tiến thành mụn nhọt tái phát. Bạn không nên tự nặn vì có thể dẫn đến nhiễm trùng thứ phát.\nNhọt thường không phải tình trạng cấp cứu cần can thiệp ngay, nếu theo dõi tại nhà có dấu hiệu sưng đỏ, nung mủ hoặc dấu hiệu sốt, sưng đau chân trái cần khám bác sĩ để được điều trị nhọt tái phát đúng cách.\nTrân trọng!",
+                "score": 0.6288618445396423,
+                "id": "vietnamese_medical_qa_1392",
+                "rerank_score": 0.5493516325950623
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nNgón chân của tôi bị sưng khá nặng và hay bị đau ngay các khóe ngón chân. Riêng ngón cái thì bị sưng tím và cảm giác đau nhiều. Tôi có uống amoxillin nhưng không khỏi. Tình trạng này đã kéo dài 2 tháng. Bác sĩ cho hỏi chân tôi gặp tình trạng này là gì. Nếu khám thì có thể khám ở đâu và chuyên khoa gì (HCM). Cám ơn bác sĩ.\nTrả lời: Chào bạn,\nTình trạng của bạn hiện giờ không biết là tổn thương do va chạm hay tự nhiên chân bạn có biểu hiện đau như vậy. Nếu do va chạm thì có thể tổn thương này ảnh hưởng đến xương nên sau thời gian dài như vậy vẫn bị sưng và đau. Còn nếu tự nhiên bạn bị đau như vậy thì có thể là biểu hiện bệnh lý của bệnh Gout hoặc do viêm khớp nhiễm khuẩn, viêm đa khớp. \nVì vậy bạn nên đi khám chuyên khoa thần kinh tại các bệnh viện lớn để được bác sỹ chuẩn đoán chính xác nguyên nhân và có chỉ định điều trị dứt điểm, kịp thời , không nên tự mua thuốc điều trị như vậy.\nThân mến!",
+                "score": 0.6191132664680481,
+                "id": "vietnamese_medical_qa_6621",
+                "rerank_score": 0.2929222881793976
+            },
+            {
+                "text": "Câu hỏi: . Xin hỏi bác sĩ chân cháu bịsưng khớp mắt cá chân, nhiều lúc đau sưng phù chỗ mắt cá và đỏ nóng. Vậy có cách điều trị thích hợp không ạ? Cảm ơn bác sĩ đã tư vấn giúp cháu. Câu hỏi ẩn danh Chào bác sĩ. Xin bác sĩ tư vấn cho với triệu chứng hay bị đau sưng mắt cá chân là bệnh gì? Cảm ơn bác sĩ. Nguyễn Văn Đại(1981) Trả lời\nTrả lời: Chào bạn. Bạn đang bị bệnh lý tạikhớp cổ chân. Theo mô tả thì có phản ứng viêm tại chỗ. Vì thế, bạn nên tới gặp bác sĩ để được khám và xét nghiệm một số bệnh như gout, các hình thái khác của bệnh lý khớp. Mỗi bệnh lý sẽ có một cách điều trị phù hợp. Bạn có thể đăng ký khám tại bệnh viện thuộcHệ thống Y tế Vinmecđể được chụp chiếu và chẩn đoán chính xác. Rất mong sớm được gặp bạn để tiến hành thăm khám, đưa ra hướng điều trị phù hợp. Cảm ơn bạn đã tin tưởng và chia sẻ những lo lắng tới Vinmec. Được giải đáp bởiBác sĩ Võ Hà Băng Sương- Bác sĩ điều trị - Khoa Khám bệnh & nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc Các nội dung tư vấn khác Tiết dịch khớp ở ngón tay có nguy hiểm không? Dấu hiệu đau lưng khi ngồi lâu cảnh báo bệnh gì? Làm thế nào hạn chế tác dụng phụ của thuốc điều trị đau khớp? Các bài viết cùng chủ đề Viêm khớp tự phát ở tuổi thiếu niên Cảnh giác với đau, viêm khớp háng ở trẻ Cách phát hiện sớm và chính xác bệnh viêm khớp",
+                "score": 0.6113089323043823,
+                "id": "medical_vietnamese_qa_911",
+                "rerank_score": 0.23355166614055634
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nChân em tự dưng sưng lên một cục to, có ngòi. Ban đầu, em nghĩ là nhọt nhưng dần dần sưng to và tấy lên. Vậy bác sĩ cho em hỏi chân bị sưng tấy có phải nhiễm trùng do tụ cầu không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như bạn mô tả thì có thể bạn đang bị nhiễm trùng da. Mong bạn có thể cung cấp thêm hình ảnh tổn thương da, những điều trị đã dùng để việc chẩn đoán và điều trị dễ dàng hơn. Trường hợp da đang rất khó chịu thì bạn hãy đến khám chuyên khoa Da liễu để điều trị sớm. Bác sĩ sẽ đánh giá lại tình trạng da của bạn, chỉ định thêm một số xét nghiệm nếu cần thiết và đưa ra phác đồ điều trị theo tình trạng hiện tại của bạn.\nTrân trọng!",
+                "score": 0.658804178237915,
+                "id": "vietnamese_medical_qa_4819",
+                "rerank_score": 0.7507774829864502
+            },
+            {
+                "text": "Câu hỏi: Ở ngón chân cái của tôi bị sưng sau khi tôi dùng kim (khâu vá áo quần) lấy gai bị đâm vào chân. Lúc trưa, tôi thấy nó sưng mủ, tôi đã nặn mủ ra. Đến chiều, nó bắt đầu sưng lên và đau hơi. Đến tối nay tôi cảm thấy có biểu hiện bị cảm, tôi nghi mình bị uốn ván. Mong bác sĩ tư vấn cho tôi ạ. Tôi xin chân thành cảm ơn!\nTrả lời: Chào em! Trường hợp của em bác sĩ nghĩ em đang bị nhiễm trùng vùng ngón chân. Do đó em nên đến khám tại cơ sở y tế để được xử trí phù hợp, tránh nhiễm trùng lan rộng, đồng thời cũng cần phải tiêm ngừa uốn ván sớm.\nCảm ơn em đã tin tưởng AI-Doctor. Rất mong có thể gặp em để được tư vấn cụ thể hơn.",
+                "score": 0.6035735607147217,
+                "id": "vietnamese_medical_qa_3220",
+                "rerank_score": 0.6634073257446289
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi u nhọt ở chân trái đã mổ ở bệnh viện 1 lần năm 2012. Tới nay chỗ đó lại nổi lên y như vậy càng ngày nó càng bự, không đau nhức. Cách đây cỡ 2 tuần em thấy nó làm miệng và vỡ em nặn một ít và dùng băng cá nhân dán lại. Bác sĩ cho em hỏi tái phát nổi u nhọt ở chân sau mổ có sao không? Do tình hình dịch bệnh covid 19 khó khăn không đến bệnh viện khám được mong bác sĩ trả lời giúp em. Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhọt là một dạng nhiễm trùng da với xuất phát điểm từ lỗ chân lông hay tuyến dầu nhờn. Nhọt không có nhiều biến chứng, nhưng có trường hợp nhọt diễn tiến thành mụn nhọt tái phát. Bạn không nên tự nặn vì có thể dẫn đến nhiễm trùng thứ phát.\nNhọt thường không phải tình trạng cấp cứu cần can thiệp ngay, nếu theo dõi tại nhà có dấu hiệu sưng đỏ, nung mủ hoặc dấu hiệu sốt, sưng đau chân trái cần khám bác sĩ để được điều trị nhọt tái phát đúng cách.\nTrân trọng!",
+                "score": 0.6436037421226501,
+                "id": "vietnamese_medical_qa_1392",
+                "rerank_score": 0.5493516325950623
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nNgón chân của tôi bị sưng khá nặng và hay bị đau ngay các khóe ngón chân. Riêng ngón cái thì bị sưng tím và cảm giác đau nhiều. Tôi có uống amoxillin nhưng không khỏi. Tình trạng này đã kéo dài 2 tháng. Bác sĩ cho hỏi chân tôi gặp tình trạng này là gì. Nếu khám thì có thể khám ở đâu và chuyên khoa gì (HCM). Cám ơn bác sĩ.\nTrả lời: Chào bạn,\nTình trạng của bạn hiện giờ không biết là tổn thương do va chạm hay tự nhiên chân bạn có biểu hiện đau như vậy. Nếu do va chạm thì có thể tổn thương này ảnh hưởng đến xương nên sau thời gian dài như vậy vẫn bị sưng và đau. Còn nếu tự nhiên bạn bị đau như vậy thì có thể là biểu hiện bệnh lý của bệnh Gout hoặc do viêm khớp nhiễm khuẩn, viêm đa khớp. \nVì vậy bạn nên đi khám chuyên khoa thần kinh tại các bệnh viện lớn để được bác sỹ chuẩn đoán chính xác nguyên nhân và có chỉ định điều trị dứt điểm, kịp thời , không nên tự mua thuốc điều trị như vậy.\nThân mến!",
+                "score": 0.62668377161026,
+                "id": "vietnamese_medical_qa_6621",
+                "rerank_score": 0.29292258620262146
+            },
+            {
+                "text": "Câu hỏi: Mẹ em bị tắc tĩnh mạch chi dưới trái đã chữa khỏi nhưng nay lại bị chi phải. Mẹ em đã phẫu thuật và đã ra viện nhưng các đầu ngón chân đau buốt không đi được. Ngón chân cái tím đen và khô lại, lòng bàn chân thì mưng mủ rất đau buốt. Bác sĩ cho em hỏi sau phẫu thuật tắc tĩnh mạch chi dưới, ngón chân vẫn đau buốt phải làm sao? Có phải phẫu thuật tiếp hay cắt bỏ hoặc làm như thế nào? Mong bác sĩ tư vấn giúp em ạ. E cảm ơn bác sĩ. Nguyễn Xuân Luật(1983) Trả lời Được giải đáp bởiTiến sĩ, Bác sĩ Nguyễn Lương Tấn- Trưởng khoa Ngoại Tim mạch - Trung tâm Tim mạch - Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Sau phẫu thuật tắc tĩnh mạch chi dưới, ngón chân đau buốt, tím đen, lòng bàn chân mưng mủ là dấu hiệu nhiễm trùng. Tuy nhiên, cần tìm thử bệnh lý đái tháo đường và làm siêu âm động mạch để có hình ảnh của viêm tắc hệ động mạch hay loại trừ nó. Phương pháp xử lý tình trạng sưng đau, mưng mủ là điều trị tại chỗ, toàn thân và quan trọng là điều trị nguyên nhân. Khi bị tắc tĩnh mạch chi dưới cần tìm đúng thầy thuốc giỏi để có điều trị đúng, toàn diện. Bạn phải tuân thủ tái khám và lời dặn của bác sĩ về điều trị bệnh và điều trị dự phòng.",
+                "score": 0.6048654317855835,
+                "id": "medical_vietnamese_qa_11954",
+                "rerank_score": 0.23074793815612793
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào Bác Sĩ. Tôi là nữ. Năm nay 29 tuổi. Da tôi bị sần như nổi da gà và chân tôi bị như vậy cũng được vài năm rồi. Tôi chưa dùng bất kì thuốc gì cả. Tôi đang cho con bú vậy tôi dùng gi để điều trị thưa Bác Sĩ.?\nVà tôi có dị ứng với thuốc paracetamol vậy khi tôi sốt hoặc cần giảm đau thì phải dùng thuốc gì ạ. \nTôi cám ơn Bác Sĩ đã đọc câu hỏi của tôi. bà xin được lời khuyên ạ\nTrả lời: xin chào bạn ! với hình ảnh bạn gởi thì tôi nghĩ bạn bị bệnh dày sừng nang lông. Đây là một bệnh lý da liễu mãn tính, thuộc dạng cơ địa. bây giờ bạn đang mang thai, không cần thiết uống thuốc điều trị gì. khi nào sinh con xong, bạn đến bv da liễu gần nhất để được khám và điều trị tốt nhất.",
+                "score": 0.596534788608551,
+                "id": "vietnamese_medical_qa_5311",
+                "rerank_score": 0.8815447688102722
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi u nhọt ở chân trái đã mổ ở bệnh viện 1 lần năm 2012. Tới nay chỗ đó lại nổi lên y như vậy càng ngày nó càng bự, không đau nhức. Cách đây cỡ 2 tuần em thấy nó làm miệng và vỡ em nặn một ít và dùng băng cá nhân dán lại. Bác sĩ cho em hỏi tái phát nổi u nhọt ở chân sau mổ có sao không? Do tình hình dịch bệnh covid 19 khó khăn không đến bệnh viện khám được mong bác sĩ trả lời giúp em. Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhọt là một dạng nhiễm trùng da với xuất phát điểm từ lỗ chân lông hay tuyến dầu nhờn. Nhọt không có nhiều biến chứng, nhưng có trường hợp nhọt diễn tiến thành mụn nhọt tái phát. Bạn không nên tự nặn vì có thể dẫn đến nhiễm trùng thứ phát.\nNhọt thường không phải tình trạng cấp cứu cần can thiệp ngay, nếu theo dõi tại nhà có dấu hiệu sưng đỏ, nung mủ hoặc dấu hiệu sốt, sưng đau chân trái cần khám bác sĩ để được điều trị nhọt tái phát đúng cách.\nTrân trọng!",
+                "score": 0.6123790740966797,
+                "id": "vietnamese_medical_qa_1392",
+                "rerank_score": 0.5493525266647339
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nNgón chân của tôi bị sưng khá nặng và hay bị đau ngay các khóe ngón chân. Riêng ngón cái thì bị sưng tím và cảm giác đau nhiều. Tôi có uống amoxillin nhưng không khỏi. Tình trạng này đã kéo dài 2 tháng. Bác sĩ cho hỏi chân tôi gặp tình trạng này là gì. Nếu khám thì có thể khám ở đâu và chuyên khoa gì (HCM). Cám ơn bác sĩ.\nTrả lời: Chào bạn,\nTình trạng của bạn hiện giờ không biết là tổn thương do va chạm hay tự nhiên chân bạn có biểu hiện đau như vậy. Nếu do va chạm thì có thể tổn thương này ảnh hưởng đến xương nên sau thời gian dài như vậy vẫn bị sưng và đau. Còn nếu tự nhiên bạn bị đau như vậy thì có thể là biểu hiện bệnh lý của bệnh Gout hoặc do viêm khớp nhiễm khuẩn, viêm đa khớp. \nVì vậy bạn nên đi khám chuyên khoa thần kinh tại các bệnh viện lớn để được bác sỹ chuẩn đoán chính xác nguyên nhân và có chỉ định điều trị dứt điểm, kịp thời , không nên tự mua thuốc điều trị như vậy.\nThân mến!",
+                "score": 0.6431769728660583,
+                "id": "vietnamese_medical_qa_6621",
+                "rerank_score": 0.29292207956314087
+            },
+            {
+                "text": "Câu hỏi: Anh em bị bệnh viêm cơ tắc nghẽn mạch máu, chân sưng to và hạch nhiều, có uống thuốc chữa bệnh 2 tháng nay cũng đã đỡ. Nay bị phù nề 2 bàn chân to, bàn chân, bàn tay với da mặt nhợt nhạt nhiều. Anh em có đi bệnh viện khám, bác sĩ nói là phù nề không rõ nguyên nhân và bị thiếu máu. Bác sĩ cho em hỏi,phù nề chân nguyên nhân là gì?Có phải do bị thận hư không? Đỗ Thị Loan(1991) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Lê Thị Minh Hương- Bác sĩ Hồi sức - Cấp cứu - Khoa Hồi sức - Cấp cứu, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Chân sưng phù là hiện tượng chân bị sưng tăng kích thước, vị trí thường xuất hiện ở mu bàn chân, mắt cá chân hoặc cẳng chân. Phù chân có thể là sinh lý bình thường cũng có thể là dấu hiệu tiềm ẩn của nhiều căn bệnh nguy hiểm. Theo như thông tin bệnh của anh trai bạn, có nhiều nguyên nhân gâyphù chânnhư: Suy thận, tắc mạch, hội chứng thận hư... Do đó, anh bạn cần nhập viện để tiếp tục theo dõi và làm các cận lâm sàng để chẩn đoán, tìm nguyên nhân và điều trị tốt.",
+                "score": 0.6140774488449097,
+                "id": "medical_vietnamese_qa_8672",
+                "rerank_score": 0.08563891053199768
+            },
+            {
+                "text": "Câu hỏi: Em bị ngã cầu thang đã hơn 1 tháng. Em phải khâu ngang mu bàn chân phải 10cm. Xin hỏi bác sĩchân sưng đau kèm bầm tím sau khi chấn thương bàn chân nên làm gì?Cảm ơn bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Chân sưng đau kèm bầm tím sau khi chấn thương bàn chân nên làm gì?”, bác sĩ giải đáp như sau: Triệu chứng sưng đau, bầm tím,... ở bàn chân là những triệu chứng thường gặp khi bàn chân bị chấn thương. Tùy theo mức độ nghiêm trọng của chấn thương mà các triệu chứng này có thể hồi phục nhanh hoặc chậm. Do đó bạn cần đi khám để Bác sĩ có thể đánh giá trực tiếp các thương tổn và đưa ra phác đồ điều trị phù hợp cho bạn.",
+                "score": 0.6539210677146912,
+                "id": "medical_vietnamese_qa_99",
+                "rerank_score": 0.08465105295181274
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

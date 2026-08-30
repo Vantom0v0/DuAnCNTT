@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Trẻ 4 tháng tuổi mới bắt đầu tiêm phòng có được không?",
+    "ground_truth": "Trẻ có tiền sử sốc hoặc phản ứng nặng sau tiêm chủng vắc xin lần trước (có cùng thành phần). Trẻ có tình trạng suy chức năng các cơ quan, trẻ suy giảm miễn dịch (bệnh suy giảm miễn dịch bẩm sinh). Trẻ nhiễm HIV giai đoạn lâm sàng IV hoặc có biểu hiện suy giảm miễn dịch nặng) chống chỉ định tiêm chủng các loại vắc xin sống, . . . Không tiêm vắc xin BCG cho trẻ sinh ra từ mẹ nhiễm HIV mà không được điều trị dự phòng lây truyền từ mẹ sang con. Ngoài ra một số các trường hợp chống chỉ định khác theo hướng dẫn của nhà sản xuất đối với từng loại vắc xin. Một số trường tạm hoãn tiêm như: Trẻ mắc các bệnh cấp tính đặc biệt là bệnh nhiễm trùng. Trẻ bị sốt hoặc hạ thân nhiệt. Trẻ mới dùng các sản phẩm globulin miễn dịch trong vòng 3 thángTrẻ mới dùng các thuốc corticoid trong vòng 14 ngàyTrẻ có cân nặng thấp dưới 2000grMột số các trường hợp chống chỉ định của từng loại vắc-xin. Nếu bé không có các bệnh lý nằm trong các bệnh lý trên thì bạn cho bé đến trung tâm tiêm chủng để các bác sĩ khám cho bé, nếu bé đủ điều kiện để tiêm chủng thì bác sĩ sẽ tư vấn cho con tiêm các mũi tiêm chủng cụ thể.",
+    "answer": "Trẻ 4 tháng tuổi mới bắt đầu tiêm phòng vẫn được, không phải quá muộn; thời điểm lý tưởng là từ 2 tháng tuổi và trong 6 tháng đầu. Bạn nên đưa bé đi tiêm càng sớm càng tốt và tiếp tục đầy đủ các mũi còn lại theo hướng dẫn, bảo đảm các mũi đầu cách nhau tối thiểu 1 tháng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: bé nhà tôi đã được hơn 4 tháng, mới tiêm phòngvắc-xin 6 trong 1mũi đầu tiên. Như vậy có bị muộn quá và vắc-xin có còn tác dụng không ạ? Hà Chi (Hà Nội) Trả lời\nTrả lời: Chào bạn, thời gian lý tưởng để tiêm 6 trong 1 là trong 6 tháng đầu,lịch tiêm chủngbắt đầu khi trẻ 2 tháng tuổi. Bé nhà mình như vậy có chậm hơn 2 tháng nhưng cũng sẽ không có gì đáng lo ngại. Bạn vẫn cứ tiếp tục cho bé tiêm đầy đủ các mũi còn lại để bé có được miễn dịch sớm nhất. Thạc sĩ, Bác sĩ Nguyễn Nam Phong- Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc",
+            "score": 0.7126784324645996,
+            "id": "medical_vietnamese_qa_13579"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em hiện 4,5 tháng mà chưa chích ngừa vắc-xin 6in1 hoặc 5in1 do bệnh dịch. Bác sĩ cho em hỏi,tiêm vắc-xin 6in1 cho trẻ trên 6 tháng tuổi được không?\nTrả lời: bác sĩ xin giải đáp như sau: Theo lịch tiêm phòng của tổ chức y tế thế giới: trẻ đủ 2 tháng tuổi bắt đầu được tiêm mũi đầu tiên của6in1hoặc5in1. Trong 2 năm đầu, trẻ phải hoàn thành 4 mũi và mũi thứ 4 phải cách mũi thứ 3 ít nhất 1 năm. Nếu để lâu không tiêm thì nguy cơ nhiễm bệnh của con bạn sẽ cao và nếu để muộn mới tiêm không đúng thời gian quy định trên thì sẽ phải tiêm 3 mũi tiêm khác (4in1, viêm gan B và Quimi Hib) thay cho 1 mũi 6in1. Bạn nên cho con đi tiêm càng sớm càng tốt. Hiện nay, do đang giãn cách vì dịch Covid, bạn có thể đặt lịch tiêm tại cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộc Hệ thống Y tế Vinmec trên toàn quốc. Bạn cần đến trước giờ tiêm ít nhất 1 tiếng để thử test Covid cho người nhà.",
+            "score": 0.7058489918708801,
+            "id": "medical_vietnamese_qa_13108"
+        },
+        {
+            "text": "Câu hỏi: Con em hơn 4 tháng tuổi được tiêm phòng vắc-xin mũi thứ 2 của 6in1. Mũi 3 là vừa rồi dịch vụ có thông báo đến kỳ tiêm nhưng hiện tại trong gia đình đang có điều trị F0. Em có nên đưa cháu đi tiêm phòng cho đúng định kỳ mũi 3 còn lại không? Bé tiêm vắc-xin 6in1 khi có người nhà F0 có sao không? Bác sĩ cho cháu hỏitrẻ tiêm vắc-xin 6in1 mũi 3 trễ có sao không?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Theo lịch trình tiêm chủng của vắc-xin 6in1: 4 mũi tiêm vào các thời điểm bé được 2, 3, 4 và 18 tháng tuổi. Tuy nhiên do nhiều lý do khác nhau bé không đến đúng được như hẹn thì bạn cũng đừng lo lắng. Bạn tính toán làm sao cho các mũi 1, 2, 3 cách nhau tối thiểu 1 tháng, mũi thứ 4 cách mũi thứ 3 tối thiểu 12 tháng và phải tiêm trước 24 tháng tuổi. Như vậy mũi thứ 3 của con bạn trễ nhất là trước 1 tuổi để cho mũi thứ 4 được tiêm trước 2 tuổi.",
+            "score": 0.6708748936653137,
+            "id": "medical_vietnamese_qa_12784"
+        },
+        {
+            "text": "Câu hỏi: Con em nay được 6 tháng rưỡi. Lúc 2-3 tháng, bé đã được chích vắc-xin 5 trong 1 tại y tế phường. Qua tháng thứ 4, bé chích nhắc lại lần 3 nhưng vì thời gian rơi vào lúc dịch bệnh bùng phát, trạm y tế không tổ chức nên giờ con em vẫn chưa được tiêm (trễ mũi 3 đã 2 tháng rưỡi). Bác sĩ cho em hỏi,tiêm trễ vắc-xin 5 trong 1 hơn 2 tháng có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Lịch tiêm chủng vacxin 5 trong 1 cho trẻ như sau: Mũi đầu tiên tiêm khi trẻ được đủ 2 tháng tuổi; Mũi thứ 2 tiêm khi trẻ đủ 3 tháng tuổi; Mũi thứ 3 tiêm khi trẻ đủ 4 tháng tuổi; Tiêm nhắc lại mũi thứ 4 lúc trẻ 18 tháng tuổi hoặc hơn 6 tháng kể từ khi tiêm mũi thứ 3. Bạn nên cho bé tiêmvắc-xinđúng lịch hẹn theo độ tuổi càng sớm càng tốt để phòng bệnh. Trường hợp bé nhà bạn sẽ tiếp tục tiêm mũi thứ 3 theo lịch hẹn, không cần tiêm vắc-xin lại từ đầu nhé.",
+            "score": 0.6676743030548096,
+            "id": "medical_vietnamese_qa_12993"
+        },
+        {
+            "text": "Câu hỏi: Con em từ lúc sinh chưa tiêm vắc-xin cúm, đến khi được 4 tuổi em đã tiêm phòng 1 mũi cúm Vaxigrip 0,5ml. Vậy bác sĩ cho em hỏilịch tiêm phòng cúm cho trẻ 4 tuổi như thế nào?Mũi 1 bé tiêm vắc-xin cúm Vaxigrip 0,5ml, 1 tháng sau tiêm thêm mũi 2 tiêm vắc-xin GC Flu 0,5ml được không? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Theo lịch vắc-xin Cúm sẽ được tiêm mũi đầu tiên từ 6 tháng tuổi, và mũi nhắc cách sau đó 1 tháng và sẽ được tiêm nhắc lại hàng năm mỗi năm 1 mũi. Theo khuyến cáo, ưu tiên nhất thì vắc-xin nên tiêm cùng loại với mũi trước đó. Tuy nhiên, trong trường hợp không có vắc-xin cùng loại sẽ sử dụng loại khác để thay thế. Theo đó, con bạn tiêm mũi 2 là loại vắc-xin Flu 0,5mL là vẫn được.",
+            "score": 0.6625831127166748,
+            "id": "medical_vietnamese_qa_12829"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

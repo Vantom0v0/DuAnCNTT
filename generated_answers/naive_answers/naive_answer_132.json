@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Em mấy nay hay ợ hơi, ợ chua buồn nôn, khó thở, người mệt mỏi, chướng bụng, rát khó chịu ở vùng trên rốn và xung quanh bụng. Em đi phân đen và mỗi lần đi cũng khó khăn. Vậy bác sĩ cho em hỏiợ hơi, ợ chua kèm đi ngoài phân đen là bệnh gì?Có phải xuất huyết dạ dày không thưa bác sĩ? Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Những triệu chứng ban kể có thể chia làm hai vấn đề: Nóng rát khó chịu vùng trên rốn, ợ hơi, ợ chua, cảm giác khó thở, đầy chướng bụng: Đó là những biểu hiện tương đối điển hình của bệnh lý dạ dày, trào ngược thực quản. Còn mệt và đại tiện phân đen: Là dấu hiệu cảnh báo của xuất huyết đường tiêu hóa trên, tuy nhiên cũng có nhiều vấn đề có thể làm cho phân có màu đen như ăn tiết canh, một số thuốc có sắt,... Phân đen do xuất huyết tiêu hóa thường nát, dễ đi, phân có mùi khẳn đặc trưng Vì vậy bạn cần đi khám sớm, bác sĩ cần làm một số xét nghiệm về máu xem có bị mất máu không, xét nghiệm phân xem có hồng cầu trong phân không,... và đặc biệt là nội soi tiêu hóa trên cho bạn để xác định bệnh, nguyên nhân và mức độ bệnh. Trường hợp nếu có chảy máu tiêu hóa thật thì qua nội soi bác sĩ cũng có thể can thiệp để cầm máu. Bạn nên đi khám càng sớm càng tốt.",
+    "answer": "Các triệu chứng ợ hơi, ợ chua, buồn nôn, chướng bụng và nóng rát vùng trên rốn có thể gặp trong bệnh lý dạ dày, thường là viêm loét dạ dày hoặc trào ngược dạ dày–thực quản. Tuy nhiên, đi ngoài phân đen là dấu hiệu phổ biến của xuất huyết đường tiêu hóa trên, đặc biệt ở dạ dày, nhưng cần thăm khám, đánh giá tính chất phân và làm các xét nghiệm cần thiết mới xác định được nguyên nhân. Vì bạn có phân đen kèm mệt mỏi, khó thở và đau/rát bụng, nên mau chóng đến bệnh viện có chuyên khoa tiêu hóa để được kiểm tra; không nên tự điều trị tại nhà.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em mấy nay hay ợ hơi, ợ chua, buồn nôn, khó thở, người mệt mỏi, chướng bụng, rát, khó chịu ở vùng trên rốn và xung quanh bụng. Em đi phân đen và mỗi lần đi cũng khó khăn. Vậy bác sĩ cho em hỏiợ hơi, ợ chua kèm chướng bụng có sao không?Có phải em bị xuất huyết dạ dày không? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Xuất huyết dạ dày là tình trạng tổn thương mạch máu tại dạ dày như viêm loét, gây chảy máu trong dạ dày. Tùy mức độ chảy máu mà có các biểu hiện triệu chứng khác nhau như ói máu, đi cầu phân đen. Bệnh có thể chảy máu rỉ ra gây thiếu máu mạn, cũng có thể chảy máu cấp gây mất máu cấp. Để xác định bạn có bị chảy máu đường tiêu hóa cần phải được thăm khám và làm 1 số xét nghiệm, cũng như xã định nguyên nhân gây ra đau bụng, tiêu phân đen của bạn. Bạn có thể đến bệnh viện Vinmec để được thăm khám và tư vấn thêm.",
+            "score": 0.7242342233657837,
+            "id": "medical_vietnamese_qa_10459"
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ! Em năm nay 21 tuổi, giới tính nữ.\nDạo gần đầy em có xuất hiện các triệu chứng như: chướng bụng, đầy hơi, buồn nôn nóng rát dạ dày sau khi ăn, đau vùng bụng ngay rốn và trên rốn. Không cảm giác thấy đói, kèm đi ngoài màu đen. Cảm giác khó thở, thở dốc. Xin bác sĩ tư vấn giúp em và hướng điều trị với ạ. Em cảm ơn bác sĩ!\nTrả lời: Chào em, theo như mô tả của em, hiện tại mình đang có vấn đề ở đường tiêu hóa, mà cụ thể là dạ dày. Thường hay gặp nhất là tình huống viêm loét dạ dày. Tuy nhiên, mình có đi tiêu phân đen, không loại trừ được tình trạng đang có xuất huyết rỉ rả tại dạ dày hoặc ngoài dạ dày. \n  Bác sĩ đề nghị mình mau chóng đến các bệnh viện có chuyên khoa tiêu hóa để được thăm khám và làm các cận lâm sàng cần thiết, nhằm chẩn đoán và điều trị chính xác.\n  Hiện tại việc đi lại, khám chữa bệnh đã thuận tiện hơn nhiều. Em thu xếp sớm nhé.",
+            "score": 0.6615108847618103,
+            "id": "vietnamese_medical_qa_5310"
+        },
+        {
+            "text": "Câu hỏi: Em bị ợ chua, hay bị đầy hơi, chướng bụng làm khó thở, mệt mỏi. Cũng được 1 - 2 năm, tuy nhiên dạo gần đây bị liên tục rất nhiều ngày, mỗi ngày có khi 10 - 12 tiếng. Đặc biệt, em có cảm giác mệt, khó thở, tức ở bụng và lồng ngực rất khó chịu. Vậy bác sĩ cho em hỏihay ợ chua kèm tức bụng là bệnh gì?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bạn có thể là bị hội chứng trào ngược dạ dày - thực quản, để giải quyết triệt để tình trạng này bạn nên đến viện khám bác sĩ chuyên khoa tiêu hóa và nội soi dạ dày chẩn đoán chính xác.",
+            "score": 0.6533668041229248,
+            "id": "medical_vietnamese_qa_10447"
+        },
+        {
+            "text": "Câu hỏi: Em bị viêm dạ dày có đi ra ngoài phân đen mà không nôn ra máu. Xin hỏi bác sĩngười bị viêm dạ dày đi ngoài phân đen có sao không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Người bị viêm dạ dày đi ngoài phân đen có sao không?”, bác sĩ giải đáp như sau: Đi cầu ra phân đen là 1 trong những triệu chứng phổ biến của xuất huyết đường tiêu hóa trên đặc biệt hay xảy ra ở dạ dày, tuy nhiên bác sĩ cũng sẽ phân biệt và xác định tính chất phân cũng như kết hợp với các triệu chứng lâm sàng và cận lâm sàng khác trước khi kết luận có xuất huyết tiêu hóa. Nếu xuất huyết mà không được xử trí kịp thời và đúng lúc có thể đưa đến mất máu, trụy mạch và tử vong. Do đó, nếu bạn thấy đi cầu phân đen, mệt mỏi, đau bụng, chóng mặt thì cần phải đến gặp bác sĩ ngay, không nên tự điều trị tại nhà.",
+            "score": 0.6476376056671143,
+            "id": "medical_vietnamese_qa_10560"
+        },
+        {
+            "text": "Câu hỏi: Em tự nhiên ngủ dậy cảm thấy mệt mỏi sau đó nóng rét thất thường, buồn nôn, ợ hơi ợ chua, đau bụng mệt mỏi khắp người và tiêu chảy. Em uống thuốc đi ngoài không được. Em uống mộc hoa trắng, mộc hương,... đủ thứ nhưng không lành. Bác sĩ cho em hỏibuồn nôn, ợ hơi ợ chua kèm tiêu chảy là dấu hiệu bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị buồn nôn, ợ hơi ợ chua kèm tiêu chảy, khả năng bạn bịtiêu chảy cấpdongộ độc thực phẩm. Trong trường hợp này, bạn cần đến bệnh viện thăm khám bác sĩ để xét nghiệm tìm nguyên nhân gây bệnh, để bác sĩ bù dịch, điều trị kháng sinh nếu cần.",
+            "score": 0.6267167329788208,
+            "id": "medical_vietnamese_qa_11240"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

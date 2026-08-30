@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Em năm nay 30 tuổi. Ngực em lâu lâu có đau 1 chút, em có đi khám tổng quát thì không có vấn đề gì. Em có tìm hiểu trên mạng về các dấu hiệu bệnh, nhưng thấy không có những dấu hiệu đó. Vậy cho em hỏi, triệu chứng đau của em là như thế nào ạ?\nChào bác sĩ cho em hỏi em rạng sáng trước ngực em hơi bị đau là bị bệnh gì vậy? Mong bác sĩ tư vấn. Xin cảm ơn.",
+    "ground_truth": "Chào bạn. Đau ngực là triệu chứng của nhiều cơ quan. Trong đó có 2 cơ quan quan trọng là tim và phổi. Bạn có đi khám tổng quát kết quả bình thường có thể loại trừ nguyên nhân đau ngực do bệnh lý tim mạch, hô hấp.\nDo đó trường hợp đau ngực của bạn là triệu chứng lành tính có thể do căng cơ thành ngực (căng cơ thường xảy ra sau khi nâng vật nặng, kéo giãn hoặc cử động đột ngột, ho kéo dài) hoặc trong trạng thái lo âu có xuất hiện cơn đau tại vùng ngực, nên bạn không cần quá lo lắng quá.\nTuy nhiên bạn nên theo dõi sức khỏe thường xuyên, nếu đau ngực kéo dài kèm theo khó thở, chóng mặt... cần đến ngay cơ sở y tế uy tín để thăm khám và tư vấn nhé.",
+    "answer": "Đau ngực thoáng qua ở tuổi 30 có thể do nhiều nguyên nhân như căng cơ/thành ngực, đau dây thần kinh liên sườn, trào ngược dạ dày–thực quản, căng thẳng tâm lý hoặc các bệnh lý tim, phổi; tuổi còn trẻ và khám tổng quát bình thường khiến bệnh mạch vành ít nghĩ đến hơn nhưng chưa thể chẩn đoán chỉ dựa vào mô tả. Bạn nên theo dõi tính chất cơn đau (đau ở đâu, kéo dài bao lâu, có liên quan vận động, hít sâu, ăn uống hay tư thế không) và đi khám nội tổng quát/tim mạch nếu đau tái diễn hoặc tăng dần. Nếu đau dữ dội hoặc kéo dài trên 10–15 phút, đau lan ra tay trái, hàm/lưng, kèm khó thở, vã mồ hôi, chóng mặt, ngất, hồi hộp hoặc buồn nôn, cần đến cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cháu 17 tuổi. Cháu có dấu hiệu đau thắt ngực, đau khi thở.Vậy bác sĩ cho cháu hỏiđau thắt ngực là dấu hiệu của bệnh gì?Có phải bệnh tim không?Cháu cảm ơn bác sĩ. Ngô Nhi(2004) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Tung Hoành- Khoa Hồi sức - Cấp cứu, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Dấu hiệu đau ngực ở tuổi của bạn liên quan đến yếu tố tâm thần kinh nhiều hơn (thần kinh liên sườn) nên bạn cứ yên tâm. Nếu bạn lo lắng quá nhiều, bạn có thể đến gặp bác sĩ để khám, tư vấn thêm.",
+            "score": 0.6931231021881104,
+            "id": "medical_vietnamese_qa_9059"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nCháu năm nay 21 tuổi. Thường thấy đau nhói ở ngực chỗ cách ức 3cm về bên trái. Có khi đau âm ỉ cả ngực trái và cả núm vú cũng có cảm giác đâu rát. Có khi buốt cả bả vai và cánh tay trái. Đặc biệt mỗi khi ngủ dậy thường thấy tức ngực khoảng 1-2 phút. Bác sĩ cho cháu hỏi có phải cháu bị bẹnh tim ko ạ\nTrả lời: Chào bạn\nBạn có thể cho biết tình trạng đau ngực của bạn có tăng lên khi vận động hay căng thẳng hay không, đau bắt đầu xuất hiện từ bao giờ, có kèm theo triệu chứng nào khác như khó thở, hồi hộp trống ngực hay không?\nVì đau ngực có rất nhiều nguyên nhân:\n- Bệnh tim như bạn nói\n- Đau phần mềm và tổ chức dưới da\n- Đau dây thần kinh liên sườn\n- viêm dạ dày, trào ngược dạ dày thực quản...\n- Hay thậm chí chỉ là đau tâm lý\nBạn có thể cung cấp thông tin chi tiết hơn để các bác sĩ tư vấn đầy đủ hơn.\nHoặc bạn có thể đi khám sức khỏe, làm 1 số xét nghiệm hay chụp chiếu để xác định nguyên nhân.\nThân mến",
+            "score": 0.6922861933708191,
+            "id": "vietnamese_medical_qa_8411"
+        },
+        {
+            "text": "Câu hỏi: Thưa bác sĩ, em muốn hỏi về vấn đề đau tức ngực. Em có dấu hiệu đau ngực, chỉ hơi đau và cơn đau cũng có lúc kéo dài cả ngày, lúc thì đau ngực trái lúc thì đau ngực phải và xiên qua sau lưng, cũng có lúc đau cả ngực. Em thường đau khi mệt mỏi hoặc khi hít thở sâu, có cảm giác khó thở. Có một thời gian, em thấy vàng mắt, chán ăn, ăn không tiêu, tuần chỉ đi vệ sinh 2 lần vì những cơn đau dữ dội. Bác sĩ cho hỏi em như vậy là bị làm sao ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn trước sự nhiệt tình của bác sĩ.\nTrả lời: Chào em, biểu hiện tức ngực ở độ tuổi của em thì không nghĩ đến bệnh lý mạch vành, tuy nhiên em cần đến cơ sở y tế để kiểm tra các bệnh lý về tim mạch và tiêu hóa nhé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.6759319305419922,
+            "id": "vietnamese_medical_qa_4292"
+        },
+        {
+            "text": "Câu hỏi: Em 26 tuổi dạo gần đây em hay bị đau thắt giữa lồng ngực. Mới đầu cơm đau từ 5 giây đau tăng dần 10s - 15s, bây giờ cơn đau tăng lên 1 -3 phút cảm giác đau thắt nóng ran khó thở tại vùng ngực. Sau đó thì hết em thật sự rất lo lắng. Mong bác sĩ tư vấn giúp emđau thắt giữa ngực ở người 26 tuổi dấu hiệu bệnh gì?\nTrả lời: Chào bạn, Với câu hỏi “Đau thắt giữa ngực ở người 26 tuổi dấu hiệu bệnh gì?”, bác sĩ giải đáp như sau: Những triệu chứng liên quan đến vùng ngực có thể liên quan đến những bệnh lý khác nhau, từ đơn giản đến phức tạp như: Viêm dạ dày trào ngược, Rối loạn thần kinh tim, Bệnh mạch vành, bệnh lý liên quan động mạch chủ,... Vì vậy, để có được câu trả lời đầy đủ và kế hoạch điều trị, bạn nên đến khám tại các cơ sở y tế có đầy đủ chuyên khoa.",
+            "score": 0.6747715473175049,
+            "id": "medical_vietnamese_qa_8620"
+        },
+        {
+            "text": "Câu hỏi: Sáng nay, cháu bị đau giữa lòng ngực, cháu cứ tưởng là tức ngực bình thường nhưng không phải, nó cứ đau khi cháu thở dài hay hoạt động gì đó là nó nhức. Vậy bác sĩ cho cháu hỏinam giới đau giữa lòng ngực nguyên nhân là gì?Cháu cảm ơn bác sĩ. Võ Khắc Tuấn Anh(2002) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Lê Đức Hoàng- Khoa Hồi sức Cấp cứu, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như mô tả của bạn thì triệu chứng của bạn là đau tức ngực khi hoạt động gắng sức, triệu chứng này là không bình thường. Tùy theo tính chất, cường độ, thời gian của cơn đau sẽ liên quan đến nhiều bệnh lý khác nhau như bệnh mạch vành, bệnh trào ngược thực quản, bệnh màng tim, bệnh màng phổi, bệnh động mạch chủ, thần kinh hoặc tâm lý. Tuy nhiên, do bạn còn trẻ tuổi nên ít nghĩ đến bệnh mạch vành hơn. Vì vậy, bạn nên đến gặp bác sĩ để được thăm khám để được chẩn đoán và điều trị hợp lý.",
+            "score": 0.6491535305976868,
+            "id": "medical_vietnamese_qa_11840"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

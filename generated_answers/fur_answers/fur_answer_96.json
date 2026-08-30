@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Em bị mụn ở vùng bên dưới lưỡi, nhưng chỉ khi nào ăn gì đó vào thì mới mọc lên, 1 lát sau mất, bình thường thì không thấy. Vậy cho em hỏi, bị nổi mụn bên dưới lưỡi là bệnh gì? Hay chỉ do nhiệt miệng? Hiện em đang bị sưng nướu do mọc răng khôn.",
+    "ground_truth": "Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+    "answer": "Dựa trên thông tin được cung cấp, chưa thể xác định chắc chắn đây là bệnh gì hay chỉ là nhiệt miệng.\n\n- Nếu nốt dưới lưỡi **không đau rát và chỉ xuất hiện tạm thời**, một khả năng được đề cập là **tắc nghẽn tạm thời tuyến nước bọt lạc chỗ**.\n- Các nốt ở lưỡi cũng có thể liên quan đến **nhiệt miệng**, nhưng bằng chứng hiện có không đủ để khẳng định trường hợp của bạn.\n- Nếu nốt **to dần hoặc tồn tại trên 2 tuần không hết**, bạn nên đi khám.\n- Bạn nên đến **phòng khám Răng–Hàm–Mặt** để được kiểm tra trực tiếp, đồng thời trao đổi về tình trạng sưng nướu do mọc răng khôn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bị nổi mụn bên dưới lưỡi là bệnh gì?\nTrả lời: Với triệu chứng nổi mụn dưới lưỡi, bạn nên đến phòng khám Răng - Hàm - Mặt để được khám và chẩn đoán bị nổi mụn bên dưới lưỡi là bệnh gì. Bạn không nói mụn có đau rát không?Nếu không đau rát có thể do nghẽn tạm thời tuyến nước bọt lạc chỗ.",
+            "score": 0.8700048327445984,
+            "id": "vietnamese_healthcare_864",
+            "rerank_score": 0.9998284578323364
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nEm muốn hỏi bác sĩ là nổi mụn li ti ở lưỡi và vùng dưới của lưỡi thuộc nướu là dấu hiệu của bệnh gì ạ? Mong bác sĩ sớm hồi đáp, xin cảm ơn!\nTrả lời: Chào bạn! Cảm ơn bạn đã đặt câu hỏi: “Nổi mụn li ti ở lưỡi và vùng dưới của lưỡi thuộc nướu là dấu hiệu của bệnh gì?” tới AI-Doctor.\nTrước tiên, mụn ở lưỡi của bạn có gây đau rát không? Bởi có rất nhiều nguyên nhân gây nổi mụn nhỏ li ti ở lưỡi khiến cho người bệnh cảm thấy khó chịu. Các nốt mụn li ti có thể mọc ở vị trí đầu lưỡi, cuống lưỡi hoặc bên dưới lưỡi. Màu sắc mụn ở lưỡi có thể là màu đỏ tươi, hồng nhạt hoặc màu trắng.\nCác biểu hiện của nổi mụn li ti ở lưỡi có thể là dấu hiệu của bệnh: nhiệt miệng, nấm lưỡi, viêm họng cấp tính, mãn tính... Qua đó bác sĩ sẽ tư vấn cho bạn hướng điều trị phù hợp nhất.\nChúc bạn sớm khỏe. Trân trọng!",
+            "score": 0.7148582935333252,
+            "id": "vietnamese_medical_qa_2965",
+            "rerank_score": 0.9991313815116882
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm thấy mặt dưới, phía cuống lưỡi của mình có 2 nốt mụn nhỏ, đỏ xung quanh, ở giữa có nhân trắng, đau nhẹ khi dùng đầu lưỡi chạm vào. Đồng thời, phía cuống lưỡi mặt trên cũng có các nốt lớn nổi lên, không gây đau. Bác sĩ cho em hỏi cuống lưỡi nổi mụn nhỏ là dấu hiệu bệnh gì? Có phải em đang mắc bệnh gì không hay chỉ bị nhiệt miệng bình thường? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTriệu chứng nốt mụn đỏ vùng dưới lưỡi, đau khi chạm vào gợi ý tình trạng mụn viêm vùng lưỡi, nếu nốt mụn không to thêm và tự hết trong 7-10 ngày thì bạn không cần quá lo lắng.\nTrong trường hợp nốt mụn to dần hoặc nốt mụn tồn tại trên 02 tuần không hết thì bạn cần đến bác sĩ để khám kiểm tra. Đối với các nốt lớn mặt trên lưỡi thì bạn có thể đến phòng khám Tai mũi họng để bác sĩ khám kiểm tra và tư vấn cụ thể hơn.\nTrân trọng!",
+            "score": 0.6635482311248779,
+            "id": "vietnamese_medical_qa_1",
+            "rerank_score": 0.9988248944282532
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi những hạt mụn đỏ ở lưỡi và 2 bên amidan kèm theo nổi hạch ở dưới xương hàm. Bác sĩ cho em hỏi nổi mụn đỏ ở lưỡi kèm nổi hạch dưới xương hàm là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViệc xuất hiện các nốt đỏ (mụn đỏ) ở lưỡi và amidan, kèm nổi hạch vùng dưới hàm có thể là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, đánh giá kỹ tổn thương, có thể kết hợp nội soi, siêu âm để đánh giá chính xác hơn.\nTrân trọng!",
+            "score": 0.7035418748855591,
+            "id": "vietnamese_medical_qa_1208",
+            "rerank_score": 0.9955950379371643
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm là nam, 35 tuổi, làm văn phòng. Em có triệu chứng: Lưỡi bị trắng đều (không đốm) và có xuất hiện cục 2 - 3 mụn nước ở dưới 2 bên cuống lưỡi, hay bị hắt xì hơi và sổ mũi. Vậy bác sĩ cho em hỏi lưỡi trắng đều kèm nổi mụn nước dưới cuống lưỡi là bệnh gì? Em cần thực hiện những xét nghiệm nào khi khám bệnh này? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn bị trắng đều lưỡi, nổi mụn dưới cuống lưỡi, hay hắt hơi kèm sổ mũi thì tốt nhất, bạn hãy sắp xếp để đi khám bệnh trực tiếp với bác sĩ chuyên khoa. Bạn nên được nội soi vùng mũi họng toàn diện, đánh giá tình trạng của lưỡi cụ thể, đánh giá các bệnh lý đi kèm nếu có như trào ngược, thiếu vitamin B12, mất ngủ, tiểu đường,...\nTrân trọng!",
+            "score": 0.6623872518539429,
+            "id": "vietnamese_medical_qa_1322",
+            "rerank_score": 0.993506908416748
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

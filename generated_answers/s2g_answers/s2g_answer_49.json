@@ -1,0 +1,46 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Đau tai kèm ù tai sau ngoáy tai là dấu hiệu bệnh gì?",
+    "ground_truth": "Bạn bị đau tai, ù tai, giảm thính lực (nghe không rõ) xuất hiện sau ngoáy tai có thể do một số nguyên nhân: Chấn thương ống tai ngoài, thủng màng nhĩ, chấn thương chuỗi xương con (tai giữa),...Vì vậy, bạn nên đi khám, nội soi tai kiểm tra để xác định nguyên nhân và điều trị phù hợp.",
+    "answer": "Đau tai kèm ù tai và nghe không rõ sau khi ngoáy tai có thể do chấn thương ống tai ngoài, thủng màng nhĩ hoặc chấn thương chuỗi xương con ở tai giữa. Bạn nên đi khám và nội soi tai để xác định nguyên nhân, từ đó có hướng điều trị phù hợp.",
+    "evidence": [
+        "Cháu dùng bông tai ngoáy tai sau đó có hiện tượng ù không nghe rõ.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Bạn bị đau tai,ù tai, giảm thính lực (nghe không rõ) xuất hiện sau ngoáy tai có thể do một số nguyên nhân:Chấn thương ống tai ngoài, thủng màng nhĩ, chấn thương chuỗi xương con (tai giữa),...Vì vậy, bạn nên đi khám, nội soi tai kiểm tra để xác định nguyên nhân và điều trị phù hợp."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Cháu bịđau tai, hay giật. Cháu dùng bông tai ngoáy tai sau đó có hiện tượng ù không nghe rõ. Vậy bác sĩ cho cháu hỏiđau tai kèm ù tai sau ngoáy tai là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ. Thiết Thị Tú Anh(2004) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Trần Minh Tuấn -Khoa Ngoại Tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị đau tai,ù tai, giảm thính lực (nghe không rõ) xuất hiện sau ngoáy tai có thể do một số nguyên nhân:Chấn thương ống tai ngoài, thủng màng nhĩ, chấn thương chuỗi xương con (tai giữa),...Vì vậy, bạn nên đi khám, nội soi tai kiểm tra để xác định nguyên nhân và điều trị phù hợp.",
+                "score": 0.6225075125694275,
+                "id": "medical_vietnamese_qa_8895",
+                "rerank_score": 0.9998650550842285
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nEm hay bị đau đầu bên phải phía sau tai, cứ vài phút lại nhói đau rồi hết, mỗi lần như thì em bị rất đau. Bác sĩ cho em hỏi đau nhói ở vùng đầu phải sau tai là dấu hiệu bệnh gì vậy ạ?\nTrả lời: Chào bạn!",
+                "score": 0.5233089923858643,
+                "id": "vietnamese_medical_qa_2843",
+                "rerank_score": 0.48826706409454346
+            },
+            {
+                "text": "Câu hỏi: Phải làm sao khi đã uống thuốc mà vẫn đau tai, sổ mũi?\nTrả lời: Mức độ đau tai của bạn như thế nào?Các cơn đau xuất hiện liên tục hay giãn cách?Bạn đã đi khám hay chưa?Vì những thông tin bạn đưa ra còn thiếu nên bác sĩ không thể chẩn đoán cụ thể được. Bác sĩ khuyên bạn nên đi khám để được chẩn đoán, đánh giá tình trạng và có phác đồ điều trị cụ thể.",
+                "score": 0.5424444079399109,
+                "id": "vietnamese_healthcare_1689",
+                "rerank_score": 0.03615860268473625
+            },
+            {
+                "text": "Câu hỏi: Đau đầu sau mổ tai nguyên nhân do đâu? Cách điều trị như thế nào?\nTrả lời: Có rất nhiều nguyên nhân đau đầu.",
+                "score": 0.6231146454811096,
+                "id": "vietnamese_healthcare_6644",
+                "rerank_score": 0.0026967674493789673
+            },
+            {
+                "text": "Câu hỏi: Bị viêm amidan hốc mủ nên uống thuốc gì?\nTrả lời: Việc chẩn đoán viêm amidan hốc mủ cần được bác sĩ chuyên khoa Tai - Mũi - Họng thăm khám, chẩn đoán, từ đó bác sĩ mới có có sở để kê đơn thuốc và trả lời chính xác câu hỏi: Bị viêm amidan hốc mủ nên uống thuốc gì?Nếu trong trường hợp viêm amidan hốc mủ tái phát nhiều lần thì bạn cần thực hiện phẫu thuật điều trị bệnh.",
+                "score": 0.5014129281044006,
+                "id": "vietnamese_healthcare_8503",
+                "rerank_score": 0.0015775393694639206
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

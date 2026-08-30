@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Trẻ 4 tháng tuổi mới bắt đầu tiêm phòng có được không?",
+    "ground_truth": "Trẻ có tiền sử sốc hoặc phản ứng nặng sau tiêm chủng vắc xin lần trước (có cùng thành phần). Trẻ có tình trạng suy chức năng các cơ quan, trẻ suy giảm miễn dịch (bệnh suy giảm miễn dịch bẩm sinh). Trẻ nhiễm HIV giai đoạn lâm sàng IV hoặc có biểu hiện suy giảm miễn dịch nặng) chống chỉ định tiêm chủng các loại vắc xin sống, . . . Không tiêm vắc xin BCG cho trẻ sinh ra từ mẹ nhiễm HIV mà không được điều trị dự phòng lây truyền từ mẹ sang con. Ngoài ra một số các trường hợp chống chỉ định khác theo hướng dẫn của nhà sản xuất đối với từng loại vắc xin. Một số trường tạm hoãn tiêm như: Trẻ mắc các bệnh cấp tính đặc biệt là bệnh nhiễm trùng. Trẻ bị sốt hoặc hạ thân nhiệt. Trẻ mới dùng các sản phẩm globulin miễn dịch trong vòng 3 thángTrẻ mới dùng các thuốc corticoid trong vòng 14 ngàyTrẻ có cân nặng thấp dưới 2000grMột số các trường hợp chống chỉ định của từng loại vắc-xin. Nếu bé không có các bệnh lý nằm trong các bệnh lý trên thì bạn cho bé đến trung tâm tiêm chủng để các bác sĩ khám cho bé, nếu bé đủ điều kiện để tiêm chủng thì bác sĩ sẽ tư vấn cho con tiêm các mũi tiêm chủng cụ thể.",
+    "answer": "Trẻ 4 tháng tuổi mới bắt đầu tiêm phòng vẫn được. Dù đã chậm khoảng 2 tháng so với lịch thường bắt đầu từ 2 tháng tuổi, điều này không đáng lo ngại; bạn nên đưa bé đến cơ sở tiêm chủng càng sớm càng tốt để bác sĩ tư vấn và sắp xếp lịch tiêm phù hợp, sau đó tiếp tục tiêm đầy đủ các mũi còn lại để bé sớm được bảo vệ.",
+    "evidence": [
+        "Hà Chi (Hà Nội) Trả lời\nTrả lời: Chào bạn, thời gian lý tưởng để tiêm 6 trong 1 là trong 6 tháng đầu,lịch tiêm chủngbắt đầu khi trẻ 2 tháng tuổi.",
+        "Bé nhà mình như vậy có chậm hơn 2 tháng nhưng cũng sẽ không có gì đáng lo ngại.",
+        "Bạn vẫn cứ tiếp tục cho bé tiêm đầy đủ các mũi còn lại để bé có được miễn dịch sớm nhất.",
+        "Nếu bé đã trễ lịch tiêm thì nên đưa bé đến cơ sở tiêm chủng để bác sĩ tư vấn các mũi tiêm tiếp theo cho bé.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Con bạn được 3 tháng tuổi như vậy bé sẽ được tiêm các mũi vacxin phòng phế cầu, uống vacxin Rota phòng ỉa chảy cấp do Rotavirus, tiêm 6in1 phòng các bệnh bạch hầu, ho gà, uốn ván, bại liệt, Haemophilus Influenzae, viêm gan B.",
+        "Nếu con bạn chưa được tiêm thì bạn nên cho con đi tiêm ngay, bác sĩ sẽ sắp xếp lịch tiêm hợp lý cho con bạn, bạn cho con đi tiêm càng sớm càng tốt để bé có kháng thể chủ động bảo vệ cơ thể."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bé nhà em 4 tháng tuổi, do dịch bệnh nên không đi chích ngừa 5in1 được. Đã 7 ngày bé chưa đại tiện. Bé đang bú sữa mẹ hoàn toàn và bú vẫn bình thường. Vậy bác sĩ cho em hỏitrẻ chậm lịch tiêm phòng có ảnh hưởng gì không?Em cảm ơn bác sĩ. Nguyễn Thị Hồng Thắm(1985) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Phan Ngọc Hải- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Việc tiêm phòng nhằm giúp bảo vệ bệnh tật trong thời gian sau khi bé lớn, tiếp xúc với môi trường nhiều hơn, tốt nhất và hiệu quả nhất vẫn là tiêm đúng lịch trình đã có, tuy nhiên, tùy theo điều kiện bé có thể tiêm bổ sung sau đó, bác sĩ sẽ có tư vấn và lựa chọn mũi tiêm phù hợp tùy thuộc vào tháng tuổi cũng như điều kiện tiêm lúc đó. Để tốt nhất, bạn nên tham khảo trung tâm tiêm chủng gần nhất để được hỗ trợ trong mùa dịch bệnh. Bú mẹ hoàn toàn nếu hấp thụ tốt, bé không chướng bụng, ăn ngủ bình thường, để cải thiện, bạn có thể massage bụng cho bé, kích thích nhẹ vùng hậu môn để tạo phản xạ đi ngoài, tích cực cho bé bú hơn. Nếu tình trạng kém cải thiện, bụng chướng, bé khó chịu nhiều, bạn cho bé đến khám để có tư vấn.",
+                "score": 0.5698652863502502,
+                "id": "medical_vietnamese_qa_6416",
+                "rerank_score": 0.9892498254776001
+            },
+            {
+                "text": "Câu hỏi: bé nhà tôi đã được hơn 4 tháng, mới tiêm phòngvắc-xin 6 trong 1mũi đầu tiên. Như vậy có bị muộn quá và vắc-xin có còn tác dụng không ạ? Hà Chi (Hà Nội) Trả lời\nTrả lời: Chào bạn, thời gian lý tưởng để tiêm 6 trong 1 là trong 6 tháng đầu,lịch tiêm chủngbắt đầu khi trẻ 2 tháng tuổi. Bé nhà mình như vậy có chậm hơn 2 tháng nhưng cũng sẽ không có gì đáng lo ngại. Bạn vẫn cứ tiếp tục cho bé tiêm đầy đủ các mũi còn lại để bé có được miễn dịch sớm nhất. Thạc sĩ, Bác sĩ Nguyễn Nam Phong- Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc",
+                "score": 0.6016535758972168,
+                "id": "medical_vietnamese_qa_13579",
+                "rerank_score": 0.9715700745582581
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 4 tháng tuổi chưa được tiêm vắc xin viêm gan B. Vậy bác sĩ cho em hỏitrẻ 4 tháng tiêm vắc xin viêm gan B khi nào?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé sau sinh trong vòng 24h đầu sẽ được tiêm vắc xin viêm gan B mũi đầu tiên (nếu mẹ nhiễm viêm gan B thì sẽ được tiêm đồng thời kháng huyết thanh viêm gan B và vacxin viêm gan B). Sau đó bé sẽ theo lịch tiêm mũi tiếp theo vào tháng thứ 2, 3, 4 và lúc 15 - 20 tháng, mũi nhắc lại sau 5 năm. Hiện nay, vắc xin 6in1 đã có bao gồm viêm gan B nên không cần tiêm mũi rời. Nếu bé đã trễ lịch tiêm thì nên đưa bé đến cơ sở tiêm chủng để bác sĩ tư vấn các mũi tiêm tiếp theo cho bé.",
+                "score": 0.5887951254844666,
+                "id": "medical_vietnamese_qa_12815",
+                "rerank_score": 0.9276533722877502
+            },
+            {
+                "text": "Câu hỏi: Lịch tiêm chủng cho trẻ 6 tháng tuổi\nTrả lời: 1. Lịch tiêm chủng cho trẻ 6 tháng tuổi\nTheo Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ (CDC), các loại vacxin cho bé 6 tháng tuổi được khuyến nghị để chống lại những căn bệnh sau: 1.3. Bệnh bại liệt (IPV) - liều thứ 3 Bệnh bại liệt là một bệnh truyền nhiễm, gây ra bởi virus Polio có khả năng xâm chiếm não và tủy sống . Bại liệt có nguy cơ gây tê liệt cả đời và thậm chí khiến bệnh nhân tử vong. Nhờ vào chương trình tiêm phòng vắc xin bại liệt bất hoạt, Việt Nam đã được Tổ chức Y tế Thế giới WHO công nhận thanh toán bệnh bại liệt trên toàn quốc vào năm 2000. Thời gian qua nước ta đã duy trì được tỷ lệ miễn dịch cao trong cộng đồng, tuy nhiên căn bệnh này vẫn là mối đe dọa ở một số quốc gia khác. CDC khuyến cáo trẻ nên tiêm đủ 4 liều vắc xin IPV, bắt đầu từ lúc 2 tháng tuổi. Các liều sau đó được tiêm khi trẻ đủ 4 tháng tuổi, từ 6 - 18 tháng tuổi và cuối cùng là từ 4 - 6 tuổi.",
+                "score": 0.5715282559394836,
+                "id": "vietnamese_healthcare_44834",
+                "rerank_score": 0.7227446436882019
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em nay được 3 tháng nhưng do dịch bệnh từ lúc bé 2 tháng đến nay nên vẫn chưa được tiêm ngừa mũi nào, trừ 2 mũi chích trong bệnh viện lúc mới sinh. Vậy bác sĩ cho em hỏitrẻ 3 tháng tuổi nhưng chưa được tiêm phòng phải làm sao?Cách nào để khắc phục không? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn được 3 tháng tuổi như vậy bé sẽ được tiêm các mũi vacxin phòng phế cầu, uống vacxin Rota phòng ỉa chảy cấp do Rotavirus, tiêm 6in1 phòng các bệnh bạch hầu, ho gà, uốn ván, bại liệt, Haemophilus Influenzae, viêm gan B. Nếu con bạn chưa được tiêm thì bạn nên cho con đi tiêm ngay, bác sĩ sẽ sắp xếp lịch tiêm hợp lý cho con bạn, bạn cho con đi tiêm càng sớm càng tốt để bé có kháng thể chủ động bảo vệ cơ thể.",
+                "score": 0.6035361289978027,
+                "id": "medical_vietnamese_qa_12732",
+                "rerank_score": 0.6624419093132019
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cháu chào bác sĩ, cháu là nam 21 tuổi, cách đây khoảng 5 ngày môi cháu bị loét và chảy mủ thế này ạ, cháu có bôi thuốc AVIRCREM vào vết thương (những vết màu trắng) nhưng không đỡ. Ban đầu cháu tưởng là bị zona, herpes nhưng lại thấy không có mụn rộp nên cháu rất mong bác sĩ giúp cháu biết được tình trạng sức khỏe của bản thân và nên mua thuốc gì để bôi ạ? Cháu cảm ơn bác sĩ ạ!",
+    "ground_truth": "Chào bạn, hiện tượng môi bạn sưng đau và viêm có thể do ban đầu da môi bạn quá khô ( do uống ít nước và không dưỡng môi thường xuyên) dẫn đến hiện tượng viêm, nhiễm trùng nên bạn bôi thuốc kháng virus không có tác dụng. Bạn nên đến chuyên khoa Da Liễu để khám và điều trị sớm nhé. Chúc bạn nhiều sức khoẻ!",
+    "answer": "Chào cháu, tài liệu hiện có chưa đủ thông tin để xác định vết loét và chảy mủ ở môi là herpes, zona hay bệnh khác; các tổn thương ở môi có thể gặp trong nhiều tình trạng như viêm da tiếp xúc, zona hoặc herpes và cần bác sĩ Da liễu thăm khám trực tiếp để chẩn đoán chính xác. Vì vậy cháu không nên tự mua thêm thuốc bôi; việc dùng thuốc kháng virus như acyclovir hoặc penciclovir chỉ nên thực hiện khi có chỉ định của bác sĩ. Cháu nên đi khám sớm, đặc biệt nếu vết loét lan rộng, đau nhiều hoặc chảy máu.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con em bị sốt cao rồi hạ em để ở nhà mà không biết cháu bị sốt xuất huyết, đi bác sĩ khám nói tay chân miệng cho thuốc uống. Ngày thứ 5, cháu nổi mẩn đỏ tay chân và hôm nay ngày thứ 7 nổi nhiều . Em đi xét nghiệm thấy tiểu cầu thấp, bác sĩ bảo ở nhà theo dõi thứ 2 xuống bệnh viện xét nghiệm lại nếu tiểu cầu thấp nữa thì uống thuốc, đến ngày 4 con em ngoáy mũi bị chảy máu, sáng nay vết lở trên môi bị chảy máu. Giờ em phải làm sao ạ. Xin bác sĩ tư vấntrẻ bị tiểu cầu thấp kèm chảy máu mũi và chảy máu vết lở trên môi có nguy hiểm không?Nhờ bác sĩ tư vấn giúp em. Nguyễn Thị Hồng Thuận(1989) Trả lời\nTrả lời: Chào bạn, Với câu hỏi “Trẻ bị tiểu cầu thấp kèm chảy máu mũi và chảy máu vết lở trên môi có nguy hiểm không?”, bác sĩ xin được giải đáp như sau: Con bạn đến giờ chưa rõ chẩn đoán chính xác là sốt xuất huyết Dengue hay bệnh tay chân miệng, nhưng có tiểu cầu thấp và chảy máu mũi, vết lở trên môi bị chảy máu,... Các triệu chứng này cho thấy bạn cần đưa con đến khám xét nghiệm máu và các xét nghiệm khác tại bệnh viện chuyên khoa Nhi ngay đi để xác chẩn và điều trị kịp thời.  Được giải đáp bởiBác sĩ chuyên khoa II Phạm Thị Khương- Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+            "score": 0.6344355940818787,
+            "id": "medical_vietnamese_qa_7068"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Trên môi em nổi những hạt mủ nhỏ có màu vàng. Em muốn hỏi bác sĩ đây là bệnh gì ạ? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn! Theo như dấu hiệu mà bạn mô tả bên trên, thì bác sĩ chẩn đoán khả năng cao bạn bị bệnh thường gặp đó là: Fordyce spots. Tuy nhiên để đưa ra được những kết luận chính xác thì bạn có thể qua các bệnh viện thuộc hệ thống AI-Doctor để khám. Bác sĩ chuyên khoa Da Liễu sẽ kiểm tra và tư vấn tốt hơn cho bạn nhé.",
+            "score": 0.6059932708740234,
+            "id": "vietnamese_medical_qa_4100"
+        },
+        {
+            "text": "Câu hỏi: Một vùng nhỏ ở môi trên của cháu từ tối qua xuất hiện cảm giác nóng rát, khi đụng vào thì đau rát và có màu đỏ ửng lên. Đến sáng nay vùng đó nổi lên những đốm mụn mọng nước. Hiện tại, cháu không còn cảm thấy đau hay rát và màu sắc vùng đó cũng chỉ đậm hơn màu môi một tí. Ngoài ra không còn nơi nào khác trên cơ thể bị vậy nữa ạ. Vậy bác sĩ cho cháu hỏinam giới nổi mụn nước trên môi nguyên nhân là gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Như bạn mô tả, bạn xuất hiện cảm giác nóng rát vùng môi trên sau đó xuất hiện mụn nước. Biểu hiện này có thể gặp trong nhiều bệnh như viêm da tiếp xúc, Zona, herpes,.. Bạn cần đi khám bác sĩ để được chẩn đoán và điều trị chính xác.",
+            "score": 0.588304340839386,
+            "id": "medical_vietnamese_qa_8710"
+        },
+        {
+            "text": "Câu hỏi: Các loại thuốc bôi Herpes môi an toàn\nTrả lời: 2. Các loại thuốc bôi Herpes môi an toàn\nMụn rộp ở môi do virus Herpes gây ra thường khiến người bệnh cảm thấy rất khó chịu, ngứa rát, thậm chí gây nhức và đau, ảnh hưởng đến ăn uống. Điều trị Herpes trước tiên là dùng thuốc bôi để giúp giảm đau và không còn mụn nước. Dưới đây là một số loại thuốc bôi Herpes môi an toàn được bác sĩ chỉ định hoặc khuyên dùng: Acyclovir 1%: Kem bôi Acyclovir có tác dụng ngăn không cho virus Herpes phát triển và tái phát, đồng thời giúp giảm đau. Tuy nhiên, cần lưu ý là sau khi bôi thuốc lên môi, người bệnh sẽ cảm thấy nóng rát nhẹ, nhưng không cần quá lo lắng vì đây là biểu hiện bình thường. Penciclovir: Kem bôi Penciclovir cũng nằm trong danh sách thuốc bôi Herpes môi an toàn và hiệu quả như Acyclovir 1%. Tuy nhiên, cần lưu ý là Penciclovir chỉ được dùng cho trẻ trên 12 tuổi, bôi thuốc 2 lần/ngày sáng và tối. Sau khi bôi thuốc, người bệnh có thể cảm thấy bị châm chích và phần da bị mụn rộp trở nên khô hơn, bong tróc ra. Denavir: Denavir thuộc nhóm thuốc kháng virus, có thành phần chính là Penciclovir, có tác dụng ngăn không cho virus phát triển và làm lành vết loét do mụn rộp Herpes gây ra nhanh chóng, đồng thời giảm ngứa và đau rát. Tuy nhiên, Denavir không làm giảm khả năng tái phát và lây nhiễm của bệnh. Abreva: Abreva cũng là một loại thuốc bôi Herpes môi có thành phần chính là Docosanol, cũng có tác dụng ngăn không cho virus phát triển và xâm nhập vào sâu hơn. Abreva cũng làm lành vết loét do mụn rộp gây ra ở một cách nhanh chóng, giảm đau rát và ngứa. Tuy nhiên cần lưu ý là Abreva không điều trị mụn rộp do các chủng virus khác gây ra. Ngoài các loại thuốc bôi Herpes môi nêu trên, một số loại thuốc khác cũng rất hiệu quả được biết đến như Castellani, Mangiferin 5%, Znsp Cell II, .... Tuy nhiên, việc dùng bất kỳ loại thuốc kháng virus hay thuốc điều trị nào đều cần có ý kiến bác sĩ chuyên khoa.",
+            "score": 0.5869646072387695,
+            "id": "vietnamese_healthcare_126253"
+        },
+        {
+            "text": "Câu hỏi: Chào Bác sĩ \nNăm nay em 19t ( nam )\nTrong vòng 2 ngày gần đây đột nhiên nổi nhiều mụn và lột da ở vùng miệng có xuất hiện 1 vết mụn nước ở phần hông \nEm có sử dụng thuốc xanh tại nhà để bôi tránh lan ra chỗ khác. Bác sĩ cho em hỏi trường hợp của em là bị gì?\nMong được phản hồi và cảm ơn Bác sĩ\nTrả lời: Chào em\nNếu tổn thương mụn nước của em mới xuất hiện 2 ngày nay nhiều khả năng em bị côn trùng đốt có thể do kiến ba khoang do đó em vẫn có thể dùng thuốc xanh methylen để bôi các tổn thương.\nThân mến chào em",
+            "score": 0.5797144174575806,
+            "id": "vietnamese_medical_qa_5391"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

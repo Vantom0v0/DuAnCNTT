@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Em bị sưng cổ họng trái, có triệu chứng ngứa mặt và bây giờ thì sốt. Không biết em tự soi có đúng không nhưng bên phải thì xuất hiện vài đốm trắng. Ăn nuốt gì có cảm giác đau, sờ phần cổ cũng có cảm giác đau ạ. Bác sĩ cho em hỏisốt, sưng cổ họng kèm nuốt đau dấu hiệu bệnh gì?Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn, Với câu hỏi “Sốt, sưng cổ họng kèm nuốt đau dấu hiệu bệnh gì?”, bác sĩ giải đáp như sau: Nếu bạn xuất hiện các triệu chứng: Sốt, nuốt đau, cảm giác sưng vùng cổ họng, ghi nhận các đốm trắng vùng họng thì bạn nên đến bệnh viện để khám và tư vấn điều trị. Các dấu hiệu trên có thể gặp trong một số bệnh lý như: Viêm họng cấp, viêm amidan cấp. Tuy vậy cũng cần khám kiểm tra để loại trừ một số bệnh lý khác.",
+    "answer": "Các triệu chứng **sốt, đau và sưng họng, nuốt đau, có đốm trắng ở họng và đau khi sờ vùng cổ** có thể gặp trong **viêm họng cấp hoặc viêm amidan cấp**. Tuy nhiên, chỉ dựa vào mô tả và tự soi họng thì **chưa thể chẩn đoán chính xác**, đồng thời cần khám để loại trừ các bệnh lý khác.\n\nBạn nên đến cơ sở y tế hoặc phòng khám Tai Mũi Họng để được bác sĩ trực tiếp khám, có thể nội soi và tư vấn điều trị phù hợp. Thông tin hiện có **chưa đủ để xác định nguyên nhân của triệu chứng ngứa mặt**.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Sốt, sưng cổ họng kèm nuốt đau dấu hiệu bệnh gì?\nTrả lời: Nếu bạn xuất hiện các triệu chứng: Sốt, nuốt đau, cảm giác sưng vùng cổ họng, ghi nhận các đốm trắng vùng họng thì bạn nên đến bệnh viện để khám và tư vấn điều trị. Các dấu hiệu trên có thể gặp trong một số bệnh lý như: Viêm họng cấp, viêm amidan cấp. Tuy vậy cũng cần khám kiểm tra để loại trừ một số bệnh lý khác.",
+            "score": 0.6793610453605652,
+            "id": "vietnamese_healthcare_6144",
+            "rerank_score": 0.9998888969421387
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Cổ họng em gần xương quai xanh bên phải nổi lên một đường giống đường gân, sờ vào thấy đau, khiến em khi nuốt bất cứ thứ gì cũng đau. Bác sĩ cho em hỏi em bị bệnh gì không ạ?\nTrả lời: Chào bạn. Theo mô tả của bạn thì đó là vấn đề bất thường. Tuy nhiên, bác sĩ cần phải trực tiếp thăm khám cho bạn mới có thể đưa ra chẩn đoán được.\nDo vậy, bạn cần đến cơ sở y tế để được bác sĩ chuyên khoa thăm khám, tư vấn và chẩn đoán cho bạn nhé.",
+            "score": 0.6735990047454834,
+            "id": "vietnamese_medical_qa_3779",
+            "rerank_score": 0.9473874568939209
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em năm nay mới 17 tuổi. 3 hôm trước, răng cấm em bị sưng lên thì đi nha khoa, bác sĩ bảo em đang mọc răng nhưng mọc hơi chậm. Tuy nhiên, 1 ngày trước thì em thấy dưới cằm của em (chưa tới cổ) bị mọc 1 cục u (chạm vào khá đau), và mấy hôm nay em cũng có bị đau họng. Vậy thì hạch dưới cằm sưng đau, kèm theo đau họng và đau răng là triệu chứng của ung thư vòm họng ạ? Mong bác sĩ tư vấn giúp.\nTrả lời: Chào bạn! Đối với thắc mắc về Hạch dưới cằm sưng đau, kèm theo đau họng và đau răng là triệu chứng của ung thư vòm họng? bác sĩ xin được giải thích như sau:\nCảm ơn bạn đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Trân trọng!",
+            "score": 0.6840187907218933,
+            "id": "vietnamese_medical_qa_2140",
+            "rerank_score": 0.9190654158592224
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau 1 bên họng, nuốt nước bọt đau đã 3 - 4 ngày nay. Lúc đầu cảm giác là đau 1 lưỡi nghĩ bị nhiệt vì em bị clo vào sát răng nhưng hôm sau lan xuống họng gây khó nuốt. Hôm nay, em soi đèn thì thấy cổ họng có những u nổi trên bề mặt, đau nhiều hơn. Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm nổi u trên bề mặt vùng họng là bệnh gì? Có phải ung thư không thưa bác sĩ? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVới những triệu chứng như bạn mô tả như: Đau một bên lưỡi lan xuống họng, khó nuốt, có những khối u bề mặt vùng họng, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.\nTrân trọng!",
+            "score": 0.692253589630127,
+            "id": "vietnamese_medical_qa_1205",
+            "rerank_score": 0.9103744626045227
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm năm nay 29 tuổi (nữ), bị viêm họng 3 - 4 ngày nay chưa khỏi, không sốt không ho. Em đau họng, khó nuốt và nhìn vào thì có nổi các hạt đỏ viêm. Vậy bác sĩ cho em hỏi đau họng kèm nổi hạt đỏ vùng họng là bệnh gì? Vì dịch bệnh nên em chưa đến bệnh viện khám được. Mong bác sĩ tư vấn giúp em giải pháp điều trị? Dấu hiệu này có phải bệnh ung thư vòm họng không? Em không sử dụng chất kích thích, thuốc lá hay rượu bia thưa bác sĩ. Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có tình trạng đau họng, khó nuốt khoảng 03 - 04 ngày, đồng thời nổi các hạt đỏ vùng họng, những dấu hiệu trên không phải là dấu hiệu điển hình của ung thư vòm họng. Tuy vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, tầm soát các nguyên nhân gây đau họng, nuốt khó.\nTrân trọng!",
+            "score": 0.6852094531059265,
+            "id": "vietnamese_medical_qa_1218",
+            "rerank_score": 0.9069690108299255
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

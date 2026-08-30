@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Em năm nay 24 tuổi và bị rụng tóc được gần 3 năm. Em rụng gần hết phía trước da đầu và em có đi khám ở nhiều bệnh viện khác nhau mà không hết, thậm chí còn nghiêm trọng hơn và đang ngày càng thưa. Vậy bác sĩ cho em hỏinam giới rụng tóc nguyên nhân là gì?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Như bạn mô tả, bạn bị rụng tóc ở phía trước da đầu (phía trán và đỉnh đầu) đã khám tại nhiều bệnh viện nhưng điều trị không có hiệu quả. Có thể bạn bị rụng tóc do hormon Androgen. Bệnh này thường do gen di truyền quyết định. Một số phương pháp điều trị như xịt tại chỗ Minoxidil nhưng cần dùng liên tục, bệnh có thể tái phát khi ngưng thuốc.",
+    "answer": "Rụng tóc có thể do nhiều nguyên nhân, gồm:\n\n- Di truyền/hói đầu kiểu nam.\n- Bệnh lý da đầu như nấm, vảy nến hoặc viêm da.\n- Thay đổi nội tiết tố.\n- Dinh dưỡng không đầy đủ, ăn kiêng.\n- Căng thẳng, stress.\n- Một số bệnh lý khác hoặc thuốc điều trị ung thư.\n\nVới tình trạng rụng tóc vùng trước da đầu kéo dài gần 3 năm và ngày càng thưa, nguyên nhân di truyền/hói đầu là một khả năng được đề cập trong thông tin cung cấp. Tuy nhiên, chưa đủ thông tin để xác định chắc chắn nguyên nhân của bạn. Viêm da cơ địa được cho là không liên quan đến rụng tóc trên đầu.\n\nTheo thông tin trên, bạn không nhất thiết phải xét nghiệm nội tiết hoặc testosterone để đánh giá DHT. Do tình trạng kéo dài, chân tóc có thể đã teo và khó mọc lại, nên bạn nên khám chuyên khoa Da liễu để xác định nguyên nhân và hướng điều trị. Điều trị hói đầu thường cần lâu dài, có thể gồm thuốc uống/thuốc xịt, PRP, liệu pháp ánh sáng hoặc cấy tóc tùy trường hợp.\n\nTrong thời gian này, nên tránh uốn, duỗi, tẩy, nhuộm; không cào gãi da đầu; hạn chế sấy nóng và ăn uống đầy đủ vitamin, khoáng chất.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Mình bị rụng tóc đã 3 năm nay. Hiện tóc rất thưa, mình từng khám ở Vinmec bác sĩ chẩn đoán viêm da cơ địa. Bác sĩ cho mình hỏinguyên nhân rụng tóc là do đâu? Có cần test nồng độ testosterone để xem mình có bị rụng tóc do DHT không ạ ? Trước đó mình có phân tích thành phần máu thì chỉ số bình thường. Cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị rụng tóc đã 3 năm và hiện tóc thưa, đã khám được chẩn đoán Viêm da cơ địa. Viêm da cơ địa không liên quan đến rụng tóc trên đầu. Bạn không nói tuổi của mình tuy nhiên rụng tóc 3 năm chân tóc đã teo không hồi phục khó mọc lại. Bạn không cần phải xét nghiệm Nội tiết.",
+            "score": 0.5399458408355713,
+            "id": "medical_vietnamese_qa_8766",
+            "rerank_score": 0.9998400211334229
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây rụng tóc là do đâu?\nTrả lời: Bạn bị rụng tóc đã 3 năm và hiện tóc thưa, đã khám được chẩn đoán Viêm da cơ địa. Viêm da cơ địa không liên quan đến rụng tóc trên đầu. Bạn không nói tuổi của mình tuy nhiên rụng tóc 3 năm chân tóc đã teo không hồi phục khó mọc lại. Bạn không cần phải xét nghiệm Nội tiết.",
+            "score": 0.6258784532546997,
+            "id": "vietnamese_healthcare_7237",
+            "rerank_score": 0.999829888343811
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân rụng tóc là do đâu?\nTrả lời: Bạn bị rụng tóc đã 3 năm và hiện tóc thưa, đã khám được chẩn đoán Viêm da cơ địa. Viêm da cơ địa không liên quan đến rụng tóc trên đầu. Bạn không nói tuổi của mình tuy nhiên rụng tóc 3 năm chân tóc đã teo không hồi phục khó mọc lại. Bạn không cần phải xét nghiệm Nội tiết.",
+            "score": 0.6349434852600098,
+            "id": "vietnamese_healthcare_778",
+            "rerank_score": 0.9998239874839783
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Xin chào bác sĩ, tôi là nữ, năm nay 24 tuổi. Khoảng 1 tuần gần đây tự nhiên tôi bị rụng tóc rất nhiều. Sau khi gội đầu, ngủ dậy hay chỉ vuốt tóc tóc cũng bị rụng rất nhiều. Mỗi lần rụng cả nắm luôn ạ. Tôi muốn xin được tư vấn về nguyên nhân và cách điều trị ạ. Xin cảm ơn bác sĩ rất nhiều ạ.\nChào bác sĩ. Cháu bị rụng tóc nhiều cứ chải là rụng cào nhẹ cũng rụng. Bác sĩ có thể cho cháu biết cháu làm thế nào để khắc phục được không ạ? Cảm ơn bác sĩ.\nTrả lời: Chào bạn! Rụng tóc có liên quan đến nhiều yếu tố như: Dinh dưỡng, thay đổi hormone, di truyền, bệnh lý da đầu... Để có câu trả lời đầy đủ về nguyên nhân và cách điều trị rụng tóc hiệu quả bạn nên khám chuyên khoa Da liễu nhé.",
+            "score": 0.5806692242622375,
+            "id": "vietnamese_medical_qa_4343",
+            "rerank_score": 0.9994766116142273
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nTóc rụng một mảng to, hơn 3 tháng vẫn chưa mọc lại. Bác sĩ tư vấn giúp em cách cải thiện tóc rụng thành mảng như thế nào? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nRụng tóc có nhiều nguyên nhân: di truyền (thường hệ nam có tình trạng hói đầu), bệnh lý về da đầu (nấm, vảy nến, ...), nội tiết tố nữ (thai kỳ), bệnh lý (sốt xuất huyết, cường giáp,...), thuốc (điều trị Ung thư), tâm lý (stress), chế độ ăn kiêng,...Điều trị sẽ tùy theo nguyên nhân là gì. Ngoài rụng tóc thì bạn có triệu chứng gì khác ở da đầu như: đóng mài, ngứa da đầu, da đầu nổi nốt đỏ, mảng đỏ, chân tóc bị đứt ngang, mất hay còn nang tóc? Bạn rụng tóc vùng nào trên đầu? Gia đình bạn có tiền sử bị hói đầu không? Nguyên nhân gây rụng tóc có thể do chế độ ăn kiêng, không cung cấp đủ chất dinh dưỡng cho tóc. Bạn vui lòng cung cấp thêm thông tin để có thể tư vấn tốt hơn.\nNếu do nguyên nhân di truyền (hói), thì phải điều trị lâu dài, mục đích là làm chậm quá trình rụng tóc. Hiện tại có các phương pháp cải thiện tình trạng hói đầu như: PRP, liệu pháp ánh sáng, cấy tóc kết hợp với thuốc uống và thuốc xịt. Người có tóc mỏng yếu nên hạn chế tác động hóa chất lên da đầu (uốn, duỗi, tẩy tóc, nhuộm tóc), không tác động nhiều phương pháp tạo kiểu tóc cùng 1 lúc. Ngoài ra, khi chăm sóc tóc cần chú ý: chọn dầu gội phù hợp với da đầu, gội đầu nhẹ nhàng không dùng móng tay cào gãi da đầu, không thoa dầu xả trực tiếp lên da đầu, không chà xát tóc ngay sau khi gội đầu mà chỉ dùng khăn thấm khô nhẹ nhàng, không sấy tóc quá nóng, tốt nhất dùng chế độ gió của máy sấy, đưa máy sấy cách xa tóc ít nhất 20cm, sử dụng lược răng thưa chải đầu, không chải đầu khi tóc còn ướt. Chế độ sinh hoạt, ăn uống: cải thiện tình trạng stress, nghỉ ngơi hợp lý, không dùng các chất kích thích (rượu, bia, caffeine), ăn uống đầy đủ vitamin và khoáng chất.\nNếu bạn bị tình trạng vảy da đầu, ngứa da đầu thì nên đến khám bác sĩ Da liễu để có chẩn đoán và điều trị đúng để xác định xem có phải do nấm, vảy nến hay một tình trạng viêm da nào khác. Thường gặp là do nấm, Rụng tóc trong nấm da đầu là tình trạng rụng tóc khu trú, thành mảng, không sẹo. Nấm da đầu cần được điều trị phối hợp đường uống và đường bôi tại chỗ, đồng thời kết hợp các biện pháp phòng ngừa nhằm giúp thời gian lành bệnh kéo dài, tránh tái phát và tái nhiễm: khử mầm bệnh trong áo quần, đồ dùng cá nhân; không dùng chung áo quần, khăn lau, chậu giặt,...; điều trị nguồn lây; chống ẩm ướt, giữ da đầu khô thoáng. Nếu đã được điều trị khỏi nấm da đầu thì tóc sẽ phục hồi và mọc lại sau 4 - 12 tháng.\nTrân trọng!",
+            "score": 0.5876322388648987,
+            "id": "vietnamese_medical_qa_500",
+            "rerank_score": 0.9986191987991333
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

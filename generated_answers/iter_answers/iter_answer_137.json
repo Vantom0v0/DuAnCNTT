@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Hiện em vừa mãn kinh cỡ 6 tháng, nhưng hiện em muốn có con. Em có thể sinh con được không, kể cả việc thụ tinh bằng ống nghiệm? Vậy bác sĩ cho em hỏiphương pháp mang thai ở phụ nữ mãn kinh là gì?Sức khỏe em hiện bình thường. Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Độ tuổi sinh sản tốt nhất của người phụ nữ trong khoảng 20 - 30 tuổi. Khi ở độ tuổi lớn hơn 30, khả năng mang thai bắt đầu suy giảm, đặc biệt là từ 40 tuổi trở lên, khả năng sinh sản có xu hướng suy giảm nhanh. Khi bước vào tuổimãn kinhthì người phụ nữ không thểcó thai tự nhiên. Với tiến bộ của y học hiện tại những phụ nữ lớn tuổi, thậm chí mãn kinh vẫn có cơ hội được làm mẹ với phương phápthụ tinh trong ống nghiệm- xin noãn (phôi được tạo ra từ trứng của 1 người khác trong độ tuổi sinh sản). Tuy nhiên, khả năng mang thai còn phụ thuộc rất nhiều yếu tố, đặc biệt là sức khỏe cơ bản của bạn. Để được tư vấn về các xét nghiệm cũng như quy trình thụ tinh trong ống nghiệm - xin noãn, bạn có thể đến thăm khám tại trung tâm hỗ trợ sinh sản để tư vấn và thăm khám một cách chi tiết hơn.",
+    "answer": "Nếu bạn đã mất kinh khoảng 6 tháng, có thể đang ở giai đoạn tiền mãn kinh hoặc mãn kinh; khả năng mang thai tự nhiên thường giảm rất nhiều do dự trữ và hoạt động buồng trứng suy giảm. Tuy nhiên, vẫn cần khám tại trung tâm hỗ trợ sinh sản/IVF để đánh giá dự trữ buồng trứng, tử cung và sức khỏe tổng quát rồi bác sĩ mới tư vấn được khả năng mang thai, phương pháp phù hợp và các nguy cơ theo tuổi. IVF có thể được cân nhắc nếu buồng trứng còn hoạt động, nhưng nếu dự trữ buồng trứng đã suy giảm nhiều thì khả năng dùng trứng của chính mình rất thấp và cần được tư vấn riêng về các lựa chọn hỗ trợ khác. Bạn nên đi khám sớm, không tự dùng thuốc nội tiết hay thuốc kích trứng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị đa nang buồng trứng, chu kỳ kinh nguyệt không xác định, lúc 40 ngày, lúc 60 hoặc hơn. Vậy tôi có khả năng có con không?\nTrả lời: Buồng trứng đa nang có thể làm cơ hội có thai tự nhiên thấp hơn người bình thường do số chu kỳ rụng trứng trong năm ít hơn, nhưng bạn hoàn toàn có thể có thai tự nhiên nếu các yếu tố khác bình thường. Nếu bạn muốn có thai sớm nên đi thăm khám tại các trung tâm hỗ trợ sinh sản để được kiểm tra đầy đủ về sức khỏe sinh sản và sử dụng các phương pháp hỗ trợ phù hợp",
+            "score": 0.6945277452468872,
+            "id": "vietnamese_healthcare_5613"
+        },
+        {
+            "text": "Câu hỏi: Tôi 48 tuổi, nếu kết hôn có thể mang thai được không? Tôi đang chuẩn bị tái hôn và mong muốn mình có thể có con với chồng mới, tuy nhiên tôi cũng đã nhiều tuổi và đang ở giai đoạn tiền mãn kinh (biểu hiện bốc hỏa, khó ngủ và 2-3 tháng mới có kinh với lượng kinh rất ít, không đáng kể). Vậy tôi còn có cách nào để mang thai và có con không? Mong bác sĩ sớm cho tôi lời khuyên.\nTrả lời: Đối với trường hợp của mình, chị đã rơi vào giai đoạn tiền mãn kinh thì khả năng dự trữ buồng trứng của chị gần như không còn nhiều nữa. Với những người trên 35 tuổi, khả năng có thai đã giảm. Riêng đối với trường hợp của chị đã 48 tuổi, nếu chị muốn có con chị nên đi thăm khám tại trung tâm IVF để được hướng dẫn cụ thể.",
+            "score": 0.6822971105575562,
+            "id": "vietnamese_healthcare_471"
+        },
+        {
+            "text": "Câu hỏi: Em đã cưới được 3 tháng nhưng vẫn chưa có thai. Hai vợ chồng quan hệ vợ chồng bình thường. Chu kỳ kinh nguyệt của em là 39 ngày. Xin hỏi bác sĩlàm thế nào để tăng khả năng mang thai tự nhiênạ?\nTrả lời: bác sĩ xin giải đáp như sau: Theo tổ chức y tế thế giới, vô sinh là tình trạng 2 vợ chồng không thể có con sau 1 năm chung sống dù không sử dụng biện pháp tránh thai và giao hợp bình thường. Trường hợp của bạn mới cưới được 3 tháng thì chưa đáng ngại lắm. Tuy nhiên kinh nguyệt của bạn 39 ngày là kinh nguyệt thưa, vì vậy để tăng khả năng mang thai bạn nên đi khám với bác sĩ hỗ trợ sinh sản để lựa chọn phương án hỗ trợ thích hợp nhất cho bạn.",
+            "score": 0.6720531582832336,
+            "id": "medical_vietnamese_qa_2706"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, sau sinh 1 năm thì em có kinh trở lại. Vậy quan hệ sau khi hết kinh có khả năng mang thai không? Bởi sau khi hết kinh được 2 ngày, em ra nhiều huyết trắng ạ. Xin cảm ơn!\nTrả lời: Chào bạn!\nTrường hợp của bạn là chu kỳ kinh nguyệt đã bắt đầu trở lại sau sinh, nghĩa là bạn đã có khả năng mang thai trở lại. Do đó, việc bạn có quan hệ sau khi kết thúc chu kỳ kinh mà không dùng bất cứ biện pháp tránh thai nào thì vẫn có khả năng mang thai.\nCảm ơn bạn đã tin tưởng và chia sẻ những lo lắng về vấn đề Quan hệ sau khi hết kinh có khả năng mang thai không? tới AI-Doctor. Trân trọng!",
+            "score": 0.671001672744751,
+            "id": "vietnamese_medical_qa_2749"
+        },
+        {
+            "text": "Câu hỏi: Cháu 39 tuổi vì một số lý do nên cháu không muốn lấy chồng nhưng vẫn khao khát có con bằng phương pháp IVF có được không? Thủ tục có khó khăn không? Mong bác sĩ tư vấn.\nTrả lời: Độ tuổi 39 xếp vào trường hợp là bệnh nhân lớn tuổi muốn có con. Chị nên đến trung tâm để làm khảo sát buồng trứng còn hoạt động tốt hay không, bác sĩ sẽ trả lời được chị có khả năng mang thai hay không. Vì sau 35 tuổi, dự trữ buồng trứng sẽ giảm và khả năng mang thai cũng giảm đi. Chị nên đến để bác sĩ khảo sát và tư vấn cụ thể cho trường hợp của mình. Về thủ tục, muốn làm mẹ đơn thân vẫn được. Chị phải làm giấy chứng nhận chị đơn thân, ký xác nhận ở địa phương còn giá trị sáu tháng. Chị phải tìm người cho chị tinh trùng, người này sẽ phải làm các xét nghiệm về bội nhiễm, viêm gan siêu vi BC, HIV, giang mai. Nếu như những xét nghiệm này không bị bệnh lý, người này sẽ kiểm tra được tinh dịch đồ và mẫu tinh dịch đồ phải đạt được chuẩn của ngân hàng tinh trùng. Sau 3 tháng so với lần lấy mẫu cuối cùng để đông, người cho tinh trùng phải để thử xét nghiệm HIV lần thứ hai. Nếu kết quả âm tính, mẫu tinh trùng này sẽ được đưa vào ngân hàng tinh trùng và hoán đổi mẫu với hình thức vô danh để chị nhận một mẫu hoàn toàn chị không biết về nguồn gốc tinh trùng đó.",
+            "score": 0.6670441031455994,
+            "id": "vietnamese_healthcare_1514"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

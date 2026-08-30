@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không?",
+    "ground_truth": "Hiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất. Bạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.",
+    "answer": "Theo thông tin được cung cấp, nếu bệnh tuyến giáp của bạn đang ổn định, sau mổ cắt thuỳ trái và hiện không phải dùng thuốc điều trị, chưa có khuyến cáo thận trọng đặc biệt đối với collagen dạng nước. Bạn có thể sử dụng theo hướng dẫn của nhà sản xuất.\n\nTuy nhiên:\n\n- Hãy kiểm tra thành phần sản phẩm; collagen chiết xuất từ tảo biển có thể chứa hàm lượng iod cao và có thể không phù hợp với một số bệnh tuyến giáp.\n- Nếu bạn đang dùng hormon tuyến giáp như levothyroxin, nên mang sản phẩm collagen đến hỏi bác sĩ điều trị trước khi dùng, vì một số thành phần bổ sung có thể ảnh hưởng đến hấp thu thuốc.\n- Tiếp tục tái khám định kỳ theo lịch của bác sĩ để theo dõi bệnh tuyến giáp.\n\nThông tin hiện có chưa đủ để đánh giá cụ thể sản phẩm Liquid Collagen của Mỹ nếu chưa biết đầy đủ thành phần của sản phẩm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào dược sĩ,\nTôi bị K tuyến giáp nhỏ 4mm, đã được mổ cắt bỏ toàn bộ thuỳ trái tháng 9 năm 2020, bác sĩ chỉ định theo dõi và không dùng thuốc điều trị. Tôi muốn dùng collagen dạng nước Liquid collagen của Mỹ. Vậy dược sĩ cho tôi hỏi nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không? Tôi cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nHiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất.\nBạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.\nTrân trọng!",
+            "score": 0.7320137619972229,
+            "id": "vietnamese_medical_qa_1408",
+            "rerank_score": 0.9998878240585327
+        },
+        {
+            "text": "Câu hỏi: Đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không?\nTrả lời: Em chưa nói bệnh tuyến giáp của em đang có là cường giáp hay suy giáp hay bệnh khác nên bác sĩ chưa thể kết luận đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không. Hơn nữa, sản phẩm chứa collagen cũng có nhiều loại trong đó loại chiết xuất từ tảo biển thường sẽ có hàm lượng iod cao, có thể không phù hợp với người có bệnh tuyến giáp. Tốt nhất em nên đem lọ collagen định dùng đến cho bác sĩ tuyến giáp xem trong đợt tái khám để kiểm tra. Nếu bác sĩ bảo được thì có thể dùng chung với thuốc mà không ảnh hưởng gì.",
+            "score": 0.4989270567893982,
+            "id": "vietnamese_healthcare_3882",
+            "rerank_score": 0.2601799964904785
+        },
+        {
+            "text": "Câu hỏi: Uống thuốc hormon tuyến giáp có ảnh hưởng gì đến cơ thể và chức năng sinh sản không?\nTrả lời: Bạn bị suy giáp, sau mổ cắt tuyến giáp nên việc uống bổ sung hormon tuyến giáp là bắt buộc và cả đời. Suy giáp vẫn đẻ được nhưng khi đẻ bạn phải khám bác sĩ chuyên khoa nội tiết để theo dõi và có thể phải bù lượng hormon tuyến giáp cao hơn lúc bình thường.",
+            "score": 0.47040677070617676,
+            "id": "vietnamese_healthcare_1906",
+            "rerank_score": 0.11628647893667221
+        },
+        {
+            "text": "Câu hỏi: Lưu ý về thuốc uống sau khi cắt tuyến giáp\nTrả lời: 3. Lưu ý về thuốc uống sau khi cắt tuyến giáp\nViệc sử dụng thuốc uống sau khi cắt tuyến giáp cần lưu ý một số vấn đề sau: 3.4. Chú ý tương tác thuốc Việc sử dụng các loại thuốc khác trong khi dùng thuốc uống tuyến giáp Levothyroxin có thể gây ra một số tương tác và dẫn đến một số biểu hiện không mong muốn như giảm hấp thu hoặc tăng tốc độ đào thải Levothyroxin hoặc ảnh hưởng đến khả năng liên kết Levothyroxin trong máu. Một số loại thuốc được sử dụng rộng rãi như nhóm ức chế bơm proton (PPI), Statin, viên sắt, viên bổ sung calci, Raloxifene và nội tiết tố nữ Estrogen... có thể cản trở hấp thu Levothyroxin, dẫn đến bệnh nhân đang được kiểm soát tốt lại chuyển sang giai đoạn nhược giáp.",
+            "score": 0.466414213180542,
+            "id": "vietnamese_healthcare_97643",
+            "rerank_score": 0.06605466455221176
+        },
+        {
+            "text": "Câu hỏi: Lưu ý về thuốc uống sau khi cắt tuyến giáp\nTrả lời: 3. Lưu ý về thuốc uống sau khi cắt tuyến giáp\nViệc sử dụng thuốc uống sau khi cắt tuyến giáp cần lưu ý một số vấn đề sau: 3.5. Chú ý đến dinh dưỡng Một trong những tác dụng chính của thuốc uống tuyến giáp Levothyroxine là kích thích chuyển hóa của hầu hết cơ quan trong cơ thể, từ đó tăng giải phóng năng lượng, tạo ra nhiệt và do đó nhiều người bệnh sẽ có cảm giác nóng trong người, sụt cân, tim đập nhanh, hồi hộp... Một số trường hợp có thể sử dụng thuốc bổ gan để giảm tác dụng phụ này, tuy nhiên chúng khá đắt tiền và lợi ích khi dùng kèm Levothyroxine vẫn chưa rõ ràng. Thay vì sử dụng thuốc bổ gan thì bệnh nhân chỉ cần ăn uống đầy đủ, đảm bảo uống đủ nước , tăng cường thêm các loại rau xanh thanh nhiệt như rau má, mã đề...",
+            "score": 0.516670823097229,
+            "id": "vietnamese_healthcare_97644",
+            "rerank_score": 0.048866841942071915
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

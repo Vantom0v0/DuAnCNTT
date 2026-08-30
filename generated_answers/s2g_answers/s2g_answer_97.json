@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Thưa bác sĩ, hôm nay con ngủ rất bình thường nhưng không hiểu sao đêm hôm qua con trằn trọc tới 12 giờ mới ngủ được. Tới 3 giờ con lại bị thức giấc. Con cố ngủ lại nhưng không được và thức tới sáng luôn. Người con mệt mỏi, nhức đầu và đêm nay cũng thế. Con vẫn thức giấc nửa đêm không ngủ lại được. Theo bác sĩ nên làm sao để cải thiện nhanh tình trạng này ạ?",
+    "ground_truth": "Chào cháu,\nTrước hết cháu có thể điều chỉnh lại giờ giấc, sinh hoạt của mình như: Không thức quá khuya, không dùng chất kích thích như trà, café, loại bỏ các yếu tố stress, ăn uống đầy đủ... Nếu không cải thiện cháu nên đến khám bác sĩ chuyên khoa về tâm thần kinh.",
+    "answer": "Tình trạng trằn trọc, thức giấc giữa đêm và không ngủ lại được có thể liên quan đến vệ sinh giấc ngủ, chế độ ăn uống, stress hoặc bệnh lý tiềm ẩn; hiện chưa đủ thông tin để xác định nguyên nhân của bạn. Bạn nên giữ lịch ngủ đều đặn, tránh dùng máy tính/điện thoại và xem tivi trước khi ngủ, tạo phòng ngủ yên tĩnh, thoáng mát, tắt các thiết bị chiếu sáng, không ăn quá no và tránh cà phê, chè trước khi ngủ; đồng thời kiểm soát stress. Cần lưu ý bạn thường thức giấc tự nhiên hay do ánh sáng, tiếng ồn và có kèm ngáy, đau đầu hoặc biểu hiện khác không. Nếu đã áp dụng các biện pháp trên mà vẫn kéo dài, bạn nên đi khám bác sĩ chuyên khoa Y học giấc ngủ hoặc Nội Thần kinh để được chẩn đoán và điều trị phù hợp.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Bạn bị thức giấc giữa đêm tự nhiên hay do ảnh hưởng bởi môi trường xung quanh (ánh sáng, ồn ào,..?), có các biểu hiện khác đi kèm không (đau đầu, buồn bực chân tay, thở ngáy,...)?.",
+        "Việc điều trị bên cạnh các thuốc theo đơn của bác sĩ chuyên khoa thì việc kiểm soát stress là cần thiết để có được giấc ngủ tốt.",
+        "Để có hướng chẩn đoán và điều trị cụ thể bạn cần được thăm khám bởi bác sĩ chuyên khoa Y học giấc ngủ, tuy nhiên bác sĩ chuyên khoa Nội Thần kinh cũng có thể hỗ trợ bạn trong tư vấn chẩn đoán và điều trị.",
+        "Nếu bạn đã thực hiện tất cả các bước cần thiết để cải thiện vệ sinh giấc ngủ mà vẫn thấy mình trằn trọc không ngủ được vào ban đêm thì đã đến lúc đi khám bác sĩ.",
+        "Có nhiều lý do khiến đêm trằn trọc khó ngủ , bao gồm vệ sinh giấc ngủ kém, chế độ ăn uống không cân bằng và thậm chí cả các tình trạng bệnh lý tiềm ẩn.",
+        "Thực hành vệ sinh giấc ngủ tốt, chẳng hạn như tắt thiết bị điện tử và giữ một lịch trình ngủ đều đặn, có thể giúp bạn ngừng trằn trọc nhiều vào ban đêm.",
+        "Bạn có thể cải thiện bằng một số biện pháp như : \n- Không dùng máy tính, điện thoại , xem tivi trước khi đi ngủ \n- Tạo không gian ngủ yên tĩnh, thoáng mát, tắt hết các thiết bị chiếu sáng \n- Không ăn quá no trước khi đi ngủ, có thể uống một ly sữa.",
+        "- Không dùng cafe, chè\n- Dùng một số thực phẩm như Tâm sen, quả la hán ..."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Lúc trước, cháu ngủ không có bị thức giấc nửa đêm nhưng gần 1 tuần nay, cháu ngủ cứ hay bị thức giấc nửa đêm, đêm nào cũng bị. Bác sĩ cho cháu hỏihay thức giấc nửa đêm phải làm sao?Cháu cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị thức giấc giữa đêm tự nhiên hay do ảnh hưởng bởi môi trường xung quanh (ánh sáng, ồn ào,..?), có các biểu hiện khác đi kèm không (đau đầu, buồn bực chân tay, thở ngáy,...)?. Bạn cần đi khám chuyên khoa để bác sĩ tư vấn cụ thể hơn.",
+                "score": 0.5832428932189941,
+                "id": "medical_vietnamese_qa_8310",
+                "rerank_score": 0.9973811507225037
+            },
+            {
+                "text": "Câu hỏi: Bé nhà con vừa tròn 1 tuổi. 3 tháng gần đây, bé ngủ tới đêm khoảng 1 - 3 giờ sáng là bé dậy và thức tầm 2 tiếng mới ngủ lại mà bé trằn trọc rất khó ngủ lại. Vậy bác sĩ cho con hỏitrẻ 1 tuổi hay thức dậy nửa đêm có sao không?Con có cần bổ sung gì cho bé không thưa bác sĩ? Con cảm ơn bác sĩ. Bùi Thị Minh Mẫn(1998) Trả lời Được giải đáp bởiBác sĩ Nguyễn Thái Ngọc Châu -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Ngay cả những đứa trẻ ngủ ngon nhất cũng có thể đột ngột thức dậy vào ban đêm. Đặc biệt là giai đoạn 6 tháng tuổi trở đi, khi trẻ bắt đầu lo lắng bị thiếu tình thương từ bố mẹ. Các nguyên nhân phổ biến khác gây ra tình trạngđột ngột thức dậy vào ban đêm ở trẻnhỏ gồm bệnh tật hoặc chuẩn bị cho giai đoạn phát triển nhảy vọt. Trong trường hợp này, ngoài việc điều trị sốt, viêm họng hoặc viêm tai bạn có thể thử một số cách khác như: Đảm bảo trẻ ngủ đủ giấc. Hãy nói chuyện nhẹ nhàng và xoa dịu khi trẻ đột ngột thức dậy vào ban đêm. Ngoài ra, bạn cần bổ sung thêm 600 UI vitamin D3 cho trẻ.",
+                "score": 0.5988692045211792,
+                "id": "medical_vietnamese_qa_6093",
+                "rerank_score": 0.9973136782646179
+            },
+            {
+                "text": "Câu hỏi: ạ! Em thường đi ngủ lúc 10 giờ tối, nhưng thường xuyên bị thức giấc sớm vào khoảng 1-2 giờ sáng và sau đó không ngủ lại được. Tình trạng này kéo dài được khoảng 3 tháng rồi. Em để ý thì thấy nếu ban ngày em chịu khó hít thở sâu thường xuyên thì ban đêm sẽ thức dậy trễ hơn (khoảng 3 rưỡi sáng) và ngủ lại được. Em không hút thuốc cũng không hay uống cafe. Vậy bác sĩ cho em hỏithức giấc giữa đêm, không ngủ được tiếp là triệu chứng của bệnh gì?Em cảm ơn bác sĩ ạ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, Bác sĩ xin được giải đáp câu hỏi: “Thức giấc giữa đêm, không ngủ được tiếp là triệu chứng của bệnh gì?” như sau: Trường hợp của bạn là rối loạn giấc ngủ. Rối loạn giấc ngủ có nhiều nhóm nguyên nhân khác nhau, khi tồn tại kéo dài sẽ ảnh hưởng đến hoạt động về thể chất và tinh thần. Việc điều trị bên cạnh các thuốc theo đơn của bác sĩ chuyên khoa thì việc kiểm soát stress là cần thiết để có được giấc ngủ tốt. Để có hướng chẩn đoán và điều trị cụ thể bạn cần được thăm khám bởi bác sĩ chuyên khoa Y học giấc ngủ, tuy nhiên bác sĩ chuyên khoa Nội Thần kinh cũng có thể hỗ trợ bạn trong tư vấn chẩn đoán và điều trị.  Được giải đáp bởiThạc sĩ. Bác sĩ Nguyễn Văn Thái- Bác sĩ Nội thần kinh - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+                "score": 0.6103646755218506,
+                "id": "medical_vietnamese_qa_10149",
+                "rerank_score": 0.9579359889030457
+            },
+            {
+                "text": "Câu hỏi: Khi nào cần gặp bác sĩ?\nTrả lời: 3. Khi nào cần gặp bác sĩ?\nNếu bạn đã thực hiện tất cả các bước cần thiết để cải thiện vệ sinh giấc ngủ mà vẫn thấy mình trằn trọc không ngủ được vào ban đêm thì đã đến lúc đi khám bác sĩ. Họ sẽ thực hiện thăm khám và hỏi bạn những câu hỏi về lối sống, thói quen ngủ của bạn. Họ cũng có thể thực hiện một loạt các xét nghiệm, chẳng hạn như nghiên cứu về giấc ngủ, để xác định xem có các tình trạng bệnh lý tiềm ẩn hay không. Nếu bác sĩ đã chẩn đoán bạn mắc một tình trạng có thể gây ra giấc ngủ kém, bước tiếp theo là tìm một kế hoạch điều trị. Tóm lại, trằn trọc không ngủ được vào ban đêm có thể làm giảm chất lượng giấc ngủ và chất lượng cuộc sống. Có nhiều lý do khiến đêm trằn trọc khó ngủ , bao gồm vệ sinh giấc ngủ kém, chế độ ăn uống không cân bằng và thậm chí cả các tình trạng bệnh lý tiềm ẩn. Thực hành vệ sinh giấc ngủ tốt, chẳng hạn như tắt thiết bị điện tử và giữ một lịch trình ngủ đều đặn, có thể giúp bạn ngừng trằn trọc nhiều vào ban đêm. Nếu bạn lo lắng rằng một tình trạng bệnh lý tiềm ẩn đang khiến bạn trằn trọc cả đêm, hãy lên lịch khám với bác sĩ để được trợ giúp thêm.",
+                "score": 0.6370980739593506,
+                "id": "vietnamese_healthcare_73727",
+                "rerank_score": 0.8686249256134033
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ ơi cho em hỏi, em có con gái năm nay 22 tuổi, cháu rất hay bị đau đầu và mất ngủ, có đêm cháu chỉ ngủ được 2 đến 4 tiếng, khoảng một tuần nay cháu không nói năng gì, ai hỏi gì thì trả lời, nằm suốt ngày, đến bữa thì dậy nấu ăn. Bác sĩ cho em hỏi đây có phải dấu hiệu của bệnh trầm cảm không, em lo quá.\nTrả lời: Chào chị, với những dấu hiệu chị miêu tả thì con gái chị có khả năng bị trầm cảm. Mất ngủ triền miên không chỉ ảnh hưởng nghiêm trọng tới sức khỏe, chất lượng cuộc sống của người bệnh mà còn có mối liên hệ mật thiết với bệnh trầm cảm. Để điều trị chứng mất ngủ triền miên thì ngoài việc dùng thuốc điều trị làm giảm triệu chứng, các bác sĩ có thể đề nghị thực hành liệu pháp hành vi nhận thức. Bệnh nhân sẽ nói chuyện với bác sĩ tâm lý về các vấn đề của mình.\nDo đó, ngoài việc bên cạnh, động viên tinh thần, hướng con đến những hoạt động tích cực thì chị nên đưa con đến gặp bác sĩ tâm lý càng sớm càng tốt.",
+                "score": 0.5888729691505432,
+                "id": "vietnamese_medical_qa_3376",
+                "rerank_score": 0.8369311094284058
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Lúc trước, cháu ngủ không có bị thức giấc nửa đêm nhưng gần 1 tuần nay, cháu ngủ cứ hay bị thức giấc nửa đêm, đêm nào cũng bị. Bác sĩ cho cháu hỏihay thức giấc nửa đêm phải làm sao?Cháu cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị thức giấc giữa đêm tự nhiên hay do ảnh hưởng bởi môi trường xung quanh (ánh sáng, ồn ào,..?), có các biểu hiện khác đi kèm không (đau đầu, buồn bực chân tay, thở ngáy,...)?. Bạn cần đi khám chuyên khoa để bác sĩ tư vấn cụ thể hơn.",
+                "score": 0.5792009234428406,
+                "id": "medical_vietnamese_qa_8310",
+                "rerank_score": 0.9973811507225037
+            },
+            {
+                "text": "Câu hỏi: ạ! Em thường đi ngủ lúc 10 giờ tối, nhưng thường xuyên bị thức giấc sớm vào khoảng 1-2 giờ sáng và sau đó không ngủ lại được. Tình trạng này kéo dài được khoảng 3 tháng rồi. Em để ý thì thấy nếu ban ngày em chịu khó hít thở sâu thường xuyên thì ban đêm sẽ thức dậy trễ hơn (khoảng 3 rưỡi sáng) và ngủ lại được. Em không hút thuốc cũng không hay uống cafe. Vậy bác sĩ cho em hỏithức giấc giữa đêm, không ngủ được tiếp là triệu chứng của bệnh gì?Em cảm ơn bác sĩ ạ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, Bác sĩ xin được giải đáp câu hỏi: “Thức giấc giữa đêm, không ngủ được tiếp là triệu chứng của bệnh gì?” như sau: Trường hợp của bạn là rối loạn giấc ngủ. Rối loạn giấc ngủ có nhiều nhóm nguyên nhân khác nhau, khi tồn tại kéo dài sẽ ảnh hưởng đến hoạt động về thể chất và tinh thần. Việc điều trị bên cạnh các thuốc theo đơn của bác sĩ chuyên khoa thì việc kiểm soát stress là cần thiết để có được giấc ngủ tốt. Để có hướng chẩn đoán và điều trị cụ thể bạn cần được thăm khám bởi bác sĩ chuyên khoa Y học giấc ngủ, tuy nhiên bác sĩ chuyên khoa Nội Thần kinh cũng có thể hỗ trợ bạn trong tư vấn chẩn đoán và điều trị.  Được giải đáp bởiThạc sĩ. Bác sĩ Nguyễn Văn Thái- Bác sĩ Nội thần kinh - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+                "score": 0.5880887508392334,
+                "id": "medical_vietnamese_qa_10149",
+                "rerank_score": 0.9579361081123352
+            },
+            {
+                "text": "Câu hỏi: Khi nào cần gặp bác sĩ?\nTrả lời: 3. Khi nào cần gặp bác sĩ?\nNếu bạn đã thực hiện tất cả các bước cần thiết để cải thiện vệ sinh giấc ngủ mà vẫn thấy mình trằn trọc không ngủ được vào ban đêm thì đã đến lúc đi khám bác sĩ. Họ sẽ thực hiện thăm khám và hỏi bạn những câu hỏi về lối sống, thói quen ngủ của bạn. Họ cũng có thể thực hiện một loạt các xét nghiệm, chẳng hạn như nghiên cứu về giấc ngủ, để xác định xem có các tình trạng bệnh lý tiềm ẩn hay không. Nếu bác sĩ đã chẩn đoán bạn mắc một tình trạng có thể gây ra giấc ngủ kém, bước tiếp theo là tìm một kế hoạch điều trị. Tóm lại, trằn trọc không ngủ được vào ban đêm có thể làm giảm chất lượng giấc ngủ và chất lượng cuộc sống. Có nhiều lý do khiến đêm trằn trọc khó ngủ , bao gồm vệ sinh giấc ngủ kém, chế độ ăn uống không cân bằng và thậm chí cả các tình trạng bệnh lý tiềm ẩn. Thực hành vệ sinh giấc ngủ tốt, chẳng hạn như tắt thiết bị điện tử và giữ một lịch trình ngủ đều đặn, có thể giúp bạn ngừng trằn trọc nhiều vào ban đêm. Nếu bạn lo lắng rằng một tình trạng bệnh lý tiềm ẩn đang khiến bạn trằn trọc cả đêm, hãy lên lịch khám với bác sĩ để được trợ giúp thêm.",
+                "score": 0.6104869842529297,
+                "id": "vietnamese_healthcare_73727",
+                "rerank_score": 0.8686248660087585
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ ơi cho em hỏi, em có con gái năm nay 22 tuổi, cháu rất hay bị đau đầu và mất ngủ, có đêm cháu chỉ ngủ được 2 đến 4 tiếng, khoảng một tuần nay cháu không nói năng gì, ai hỏi gì thì trả lời, nằm suốt ngày, đến bữa thì dậy nấu ăn. Bác sĩ cho em hỏi đây có phải dấu hiệu của bệnh trầm cảm không, em lo quá.\nTrả lời: Chào chị, với những dấu hiệu chị miêu tả thì con gái chị có khả năng bị trầm cảm. Mất ngủ triền miên không chỉ ảnh hưởng nghiêm trọng tới sức khỏe, chất lượng cuộc sống của người bệnh mà còn có mối liên hệ mật thiết với bệnh trầm cảm. Để điều trị chứng mất ngủ triền miên thì ngoài việc dùng thuốc điều trị làm giảm triệu chứng, các bác sĩ có thể đề nghị thực hành liệu pháp hành vi nhận thức. Bệnh nhân sẽ nói chuyện với bác sĩ tâm lý về các vấn đề của mình.\nDo đó, ngoài việc bên cạnh, động viên tinh thần, hướng con đến những hoạt động tích cực thì chị nên đưa con đến gặp bác sĩ tâm lý càng sớm càng tốt.",
+                "score": 0.6145603656768799,
+                "id": "vietnamese_medical_qa_3376",
+                "rerank_score": 0.8369311094284058
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nTôi bị mất ngủ thường xuyên, ngày ngủ rất là ít ( khoảng 4-6 tiếng/ngày ) trưa không dám ngủ \"ngủ trưa là tối thức cả đêm\" công việc tôi rất thoải mãi, không áp lực, chưa có gia đình, nhiều lúc rất buồn ngủ chỉ muốn nằm là ngủ luôn nhưng khi nằm thì lại càng tỉnh, buổi tối cũng thế, nhiều khi buổi tối mắt cay xè buồn ngủ nhưng càng nhắm mắt lại càng tỉnh. Tôi bị từ rất lâu rồi, từ khi còn học phổ thông. Năm nay tôi đã 32 tuổi.\nTôi rất khổ sở với bệnh mất ngủ này, vì mất ngủ mà tôi không tài nào mập nổi, mặc dù ăn uống cũng đảm bảo.\nKính mong bác sĩ tư vấn dùm tôi, tôi phải làm sao để khắc phục được. \nXin chân thành cảm ơn bác sĩ nhiều.\nTrả lời: Chào bạn.\nTình trạng mất ngủ kéo dài trở thành thói quen của bạn , rất khó để thay đổi trong một thời gian ngắn. Bạn có thể cải thiện bằng một số biện pháp như : \n- Không dùng máy tính, điện thoại , xem tivi trước khi đi ngủ \n- Tạo không gian ngủ yên tĩnh, thoáng mát, tắt hết các thiết bị chiếu sáng \n- Không ăn quá no trước khi đi ngủ, có thể uống một ly sữa.\n- Không dùng cafe, chè\n- Dùng một số thực phẩm như Tâm sen, quả la hán ... \nNgoài ra bạn có thể sử dụng một đợt thuốc Rotunda giúp đi vào giấc ngủ dễ dàng hơn. \nThân mến.",
+                "score": 0.5818605422973633,
+                "id": "vietnamese_medical_qa_7741",
+                "rerank_score": 0.8243550658226013
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Lúc trước, cháu ngủ không có bị thức giấc nửa đêm nhưng gần 1 tuần nay, cháu ngủ cứ hay bị thức giấc nửa đêm, đêm nào cũng bị. Bác sĩ cho cháu hỏihay thức giấc nửa đêm phải làm sao?Cháu cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị thức giấc giữa đêm tự nhiên hay do ảnh hưởng bởi môi trường xung quanh (ánh sáng, ồn ào,..?), có các biểu hiện khác đi kèm không (đau đầu, buồn bực chân tay, thở ngáy,...)?. Bạn cần đi khám chuyên khoa để bác sĩ tư vấn cụ thể hơn.",
+                "score": 0.6172853708267212,
+                "id": "medical_vietnamese_qa_8310",
+                "rerank_score": 0.9973811507225037
+            },
+            {
+                "text": "Câu hỏi: Bé nhà con vừa tròn 1 tuổi. 3 tháng gần đây, bé ngủ tới đêm khoảng 1 - 3 giờ sáng là bé dậy và thức tầm 2 tiếng mới ngủ lại mà bé trằn trọc rất khó ngủ lại. Vậy bác sĩ cho con hỏitrẻ 1 tuổi hay thức dậy nửa đêm có sao không?Con có cần bổ sung gì cho bé không thưa bác sĩ? Con cảm ơn bác sĩ. Bùi Thị Minh Mẫn(1998) Trả lời Được giải đáp bởiBác sĩ Nguyễn Thái Ngọc Châu -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Ngay cả những đứa trẻ ngủ ngon nhất cũng có thể đột ngột thức dậy vào ban đêm. Đặc biệt là giai đoạn 6 tháng tuổi trở đi, khi trẻ bắt đầu lo lắng bị thiếu tình thương từ bố mẹ. Các nguyên nhân phổ biến khác gây ra tình trạngđột ngột thức dậy vào ban đêm ở trẻnhỏ gồm bệnh tật hoặc chuẩn bị cho giai đoạn phát triển nhảy vọt. Trong trường hợp này, ngoài việc điều trị sốt, viêm họng hoặc viêm tai bạn có thể thử một số cách khác như: Đảm bảo trẻ ngủ đủ giấc. Hãy nói chuyện nhẹ nhàng và xoa dịu khi trẻ đột ngột thức dậy vào ban đêm. Ngoài ra, bạn cần bổ sung thêm 600 UI vitamin D3 cho trẻ.",
+                "score": 0.6019558906555176,
+                "id": "medical_vietnamese_qa_6093",
+                "rerank_score": 0.9973136782646179
+            },
+            {
+                "text": "Câu hỏi: ạ! Em thường đi ngủ lúc 10 giờ tối, nhưng thường xuyên bị thức giấc sớm vào khoảng 1-2 giờ sáng và sau đó không ngủ lại được. Tình trạng này kéo dài được khoảng 3 tháng rồi. Em để ý thì thấy nếu ban ngày em chịu khó hít thở sâu thường xuyên thì ban đêm sẽ thức dậy trễ hơn (khoảng 3 rưỡi sáng) và ngủ lại được. Em không hút thuốc cũng không hay uống cafe. Vậy bác sĩ cho em hỏithức giấc giữa đêm, không ngủ được tiếp là triệu chứng của bệnh gì?Em cảm ơn bác sĩ ạ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, Bác sĩ xin được giải đáp câu hỏi: “Thức giấc giữa đêm, không ngủ được tiếp là triệu chứng của bệnh gì?” như sau: Trường hợp của bạn là rối loạn giấc ngủ. Rối loạn giấc ngủ có nhiều nhóm nguyên nhân khác nhau, khi tồn tại kéo dài sẽ ảnh hưởng đến hoạt động về thể chất và tinh thần. Việc điều trị bên cạnh các thuốc theo đơn của bác sĩ chuyên khoa thì việc kiểm soát stress là cần thiết để có được giấc ngủ tốt. Để có hướng chẩn đoán và điều trị cụ thể bạn cần được thăm khám bởi bác sĩ chuyên khoa Y học giấc ngủ, tuy nhiên bác sĩ chuyên khoa Nội Thần kinh cũng có thể hỗ trợ bạn trong tư vấn chẩn đoán và điều trị.  Được giải đáp bởiThạc sĩ. Bác sĩ Nguyễn Văn Thái- Bác sĩ Nội thần kinh - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+                "score": 0.6193147897720337,
+                "id": "medical_vietnamese_qa_10149",
+                "rerank_score": 0.9579359889030457
+            },
+            {
+                "text": "Câu hỏi: Khi nào cần gặp bác sĩ?\nTrả lời: 3. Khi nào cần gặp bác sĩ?\nNếu bạn đã thực hiện tất cả các bước cần thiết để cải thiện vệ sinh giấc ngủ mà vẫn thấy mình trằn trọc không ngủ được vào ban đêm thì đã đến lúc đi khám bác sĩ. Họ sẽ thực hiện thăm khám và hỏi bạn những câu hỏi về lối sống, thói quen ngủ của bạn. Họ cũng có thể thực hiện một loạt các xét nghiệm, chẳng hạn như nghiên cứu về giấc ngủ, để xác định xem có các tình trạng bệnh lý tiềm ẩn hay không. Nếu bác sĩ đã chẩn đoán bạn mắc một tình trạng có thể gây ra giấc ngủ kém, bước tiếp theo là tìm một kế hoạch điều trị. Tóm lại, trằn trọc không ngủ được vào ban đêm có thể làm giảm chất lượng giấc ngủ và chất lượng cuộc sống. Có nhiều lý do khiến đêm trằn trọc khó ngủ , bao gồm vệ sinh giấc ngủ kém, chế độ ăn uống không cân bằng và thậm chí cả các tình trạng bệnh lý tiềm ẩn. Thực hành vệ sinh giấc ngủ tốt, chẳng hạn như tắt thiết bị điện tử và giữ một lịch trình ngủ đều đặn, có thể giúp bạn ngừng trằn trọc nhiều vào ban đêm. Nếu bạn lo lắng rằng một tình trạng bệnh lý tiềm ẩn đang khiến bạn trằn trọc cả đêm, hãy lên lịch khám với bác sĩ để được trợ giúp thêm.",
+                "score": 0.628086268901825,
+                "id": "vietnamese_healthcare_73727",
+                "rerank_score": 0.8686249256134033
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ ơi cho em hỏi, em có con gái năm nay 22 tuổi, cháu rất hay bị đau đầu và mất ngủ, có đêm cháu chỉ ngủ được 2 đến 4 tiếng, khoảng một tuần nay cháu không nói năng gì, ai hỏi gì thì trả lời, nằm suốt ngày, đến bữa thì dậy nấu ăn. Bác sĩ cho em hỏi đây có phải dấu hiệu của bệnh trầm cảm không, em lo quá.\nTrả lời: Chào chị, với những dấu hiệu chị miêu tả thì con gái chị có khả năng bị trầm cảm. Mất ngủ triền miên không chỉ ảnh hưởng nghiêm trọng tới sức khỏe, chất lượng cuộc sống của người bệnh mà còn có mối liên hệ mật thiết với bệnh trầm cảm. Để điều trị chứng mất ngủ triền miên thì ngoài việc dùng thuốc điều trị làm giảm triệu chứng, các bác sĩ có thể đề nghị thực hành liệu pháp hành vi nhận thức. Bệnh nhân sẽ nói chuyện với bác sĩ tâm lý về các vấn đề của mình.\nDo đó, ngoài việc bên cạnh, động viên tinh thần, hướng con đến những hoạt động tích cực thì chị nên đưa con đến gặp bác sĩ tâm lý càng sớm càng tốt.",
+                "score": 0.6143437623977661,
+                "id": "vietnamese_medical_qa_3376",
+                "rerank_score": 0.8369311094284058
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

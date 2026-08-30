@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Trẻ sơ sinh mọc răng có những dấu hiệu nào?",
+    "ground_truth": "Thông thường trẻ sẽ bắt đầu có biểu hiện mọc răng từ lúc bé được 4 – 6 tháng tuổi. Tuy nhiên có những bé sẽ mọc răng sớm hơn hoặc muộn hơn. Bé được 3 tháng 21 ngày cũng có thể có biểu hiện mọc răng là bình thường. Biểu hiện mọc răng là bé có thể ngứa lợi, chảy nước dãi nhiều, thích cắn, bị đau (do bị sưng lợi), . . . Như vậy, bé nhà mình có thể có biểu hiện mọc răng, gia đình nên theo dõi thêm. Nếu có bất thường gì khác thì có thể đưa bé đi khám chuyên khoa để được đánh giá thêm.",
+    "answer": "Các dấu hiệu thường gặp khi trẻ mọc răng gồm:\n\n- Chảy nhiều nước dãi, có thể gây phát ban hoặc kích ứng vùng mặt/cằm.\n- Nướu đỏ, sưng và nhạy cảm.\n- Quấy khóc, cáu kỉnh hoặc khó chịu.\n- Hay gặm, cắn, nhai hoặc ngậm đồ vật.\n- Giảm ăn hoặc không muốn ăn.\n- Rối loạn giấc ngủ, khó ngủ.\n- Hay xoa mặt hoặc dụi tai.\n\nMột số trẻ có thể mọc răng mà không có triệu chứng rõ ràng. Theo thông tin cung cấp, ho, nôn mửa, tiêu chảy, phát ban, sốt cao và một số rối loạn khác không phải là các dấu hiệu dự đoán chính xác và nhất quán việc mọc răng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Dấu hiệu trẻ mọc răng là gì?\nTrả lời: 2. Dấu hiệu trẻ mọc răng là gì?\nMỗi trẻ sơ sinh sẽ có sự phát triển khác nhau, bạn có thể dễ dàng nhận thấy một số trẻ sơ sinh mọc răng mà không gặp phải bất kỳ vấn đề khó chịu nào, tuy nhiên nhiều trẻ có thể sẽ cảm thấy khó chịu trong giai đoạn mọc răng này. Bạn có thể nhận thấy các dấu hiệu và triệu chứng của việc mọc răng như: Chảy nước dãi (có thể dẫn đến phát ban trên mặt) Nướu sưng và nhạy cảm Khó chịu hoặc quấy khóc Hay gặm hoặc cắn Không muốn ăn Rối loạn về giấc ngủ Hay xoa mặt và tai. Trẻ chảy dãi nhiều, hay gặm cắn là dấu hiệu nhận biết trẻ sắp mọc răng",
+            "score": 0.6528490781784058,
+            "id": "vietnamese_healthcare_68889",
+            "rerank_score": 0.9996125102043152
+        },
+        {
+            "text": "Câu hỏi: Dấu hiệu và triệu chứng mọc răng ở trẻ\nTrả lời: 1. Dấu hiệu và triệu chứng mọc răng ở trẻ\nCác dấu hiệu, triệu chứng mọc răng phổ biến của bé khi mọc răng là: 1.2. Chảy nước dãi (có thể gây phát ban trên mặt) Tất cả trẻ sơ sinh đều chảy một ít nước dãi, nhưng trẻ mọc răng thường có cằm rất ướt. Nước dãi nhiều có thể làm cho cằm của bé bị đau, vì vậy hãy dùng khăn giấy mềm thấm khô nước dãi thường xuyên nếu có thể.",
+            "score": 0.6054194569587708,
+            "id": "vietnamese_healthcare_39480",
+            "rerank_score": 0.9988901019096375
+        },
+        {
+            "text": "Câu hỏi: Dấu hiệu và triệu chứng mọc răng ở trẻ\nTrả lời: 1. Dấu hiệu và triệu chứng mọc răng ở trẻ\nCác dấu hiệu, triệu chứng mọc răng phổ biến của bé khi mọc răng là: 1.9. Xoa mặt và tai Bé có thể dụi tai vào cùng một bên khi răng đang mọc. Điều này không nhất thiết có nghĩa là chúng đang mọc răng. Tất cả các triệu chứng có thể kéo dài chỉ trong vài ngày, ngay khoảng thời gian một chiếc răng mới mọc lên, hoặc lâu nhất là vài tháng nếu có nhiều răng mọc cùng một lúc. Đối với một số trẻ may mắn (và cả cha mẹ), việc mọc răng hoàn toàn không gây ra bất kỳ dấu hiệu đáng chú ý nào. Bác sĩ nhi khoa cho biết: “Không có hơn một phần ba số trẻ sơ sinh mắc một triệu chứng nào đó. \"Vì vậy, một phần ba số trẻ có thể chảy nước dãi, một phần ba khác có thể cáu kỉnh và một phần ba khác có thể khó ngủ.\" Nếu bạn nhận thấy một số triệu chứng cùng nhau, rất có thể con bạn đang mọc răng.",
+            "score": 0.5956870317459106,
+            "id": "vietnamese_healthcare_39487",
+            "rerank_score": 0.9988288283348083
+        },
+        {
+            "text": "Câu hỏi: Dấu hiệu và triệu chứng mọc răng ở trẻ\nTrả lời: 1. Dấu hiệu và triệu chứng mọc răng ở trẻ\nCác dấu hiệu, triệu chứng mọc răng phổ biến của bé khi mọc răng là: 1.6. Cố gắng cắn, nhai và ngậm đồ vật Trẻ sơ sinh thích đưa đồ vật vào miệng , nhưng nếu con bạn đã bắt đầu nhấm nháp bất cứ thứ gì mà chúng có thể chạm vào, thì có thể chúng đang mọc răng. Thử đeo vòng cho trẻ khi mọc răng vì điều này sẽ giúp làm dịu nướu của trẻ. Tránh sử dụng bất cứ thứ gì có thể bị vỡ thành các mảnh cứng vì bé có thể bị nghẹn.",
+            "score": 0.6497294902801514,
+            "id": "vietnamese_healthcare_39484",
+            "rerank_score": 0.9986156225204468
+        },
+        {
+            "text": "Câu hỏi: Các triệu chứng mọc răng khác\nTrả lời: 2. Các triệu chứng mọc răng khác\nMột số răng sẽ mọc vào mà không gây đau hay khó chịu. Một số khác gây đau và đỏ nướu. Thông thường, trẻ dễ cáu kỉnh và không muốn ăn. Trẻ sơ sinh cũng có thể xuất hiện một số triệu chứng sau khi bắt đầu mọc răng: Nhai Chảy nước dãi Giảm ăn Đang khóc Cáu gắt Không thể ngủ Ăn mất ngon Nướu đỏ, mềm và sưng Cha mẹ nên quan tâm một cách dễ hiểu khi con họ khó chịu, quấy khóc. Họ muốn được giải thích cho bất kỳ triệu chứng nào mà con họ gặp phải. Nhưng theo Học viện Nhi khoa Hoa Kỳ , không có triệu chứng nào sau đây dự đoán chính xác và nhất quán sự khởi đầu của việc mọc răng: Ho Rối loạn giấc ngủ Giảm cảm giác thèm ăn chất lỏng Nôn mửa Tiêu chảy hoặc tăng phân Phát ban Sốt cao",
+            "score": 0.6471402645111084,
+            "id": "vietnamese_healthcare_67897",
+            "rerank_score": 0.998362123966217
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

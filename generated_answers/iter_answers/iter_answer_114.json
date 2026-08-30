@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Con nuốt nước bọt bình thường, ăn uống cũng không bị cản trở gì. Nhưng cổ họng bên trái dưới hàm của con cảm thấy đau khi gập cổ, xoay cổ, nằm nghiêng người về bên trái, nhưng lại không có nổi hạch. Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì thưa bác sĩ?",
+    "ground_truth": "Chào bạn! Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+    "answer": "Với việc bạn nuốt và ăn uống bình thường, không sờ thấy hạch, nhưng đau tăng khi gập hoặc xoay cổ, nghiêng người, nguyên nhân thường có thể là đau cơ hoặc phần mềm vùng cổ hơn là bệnh ở họng; tuy nhiên chưa thể chẩn đoán chính xác chỉ dựa vào triệu chứng. Bạn nên nghỉ ngơi, tránh tư thế làm đau và theo dõi; nếu đau kéo dài hoặc tăng lên, xuất hiện sốt, sưng vùng dưới hàm, khó nuốt, khó thở, khàn tiếng hay có khối bất thường, hãy khám bác sĩ Tai Mũi Họng để được kiểm tra.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì?\nTrả lời: Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+            "score": 0.8318499326705933,
+            "id": "vietnamese_healthcare_7086"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau 1 bên họng, nuốt nước bọt đau đã 3 - 4 ngày nay. Lúc đầu cảm giác là đau 1 lưỡi nghĩ bị nhiệt vì em bị clo vào sát răng nhưng hôm sau lan xuống họng gây khó nuốt. Hôm nay, em soi đèn thì thấy cổ họng có những u nổi trên bề mặt, đau nhiều hơn. Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm nổi u trên bề mặt vùng họng là bệnh gì? Có phải ung thư không thưa bác sĩ? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVới những triệu chứng như bạn mô tả như: Đau một bên lưỡi lan xuống họng, khó nuốt, có những khối u bề mặt vùng họng, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.\nTrân trọng!",
+            "score": 0.6380710601806641,
+            "id": "vietnamese_medical_qa_1205"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, năm nay em 29t, 2 ngày nay bên cằm phải em lên một cái hạch bằng hạt ngô! Sờ thấy đau! Bác sỹ cho em hỏi liệu em có phải bị ung thư không? Em cám ơn!\nTrả lời: Chào bạn!\nBiểu hiện nổi hạch ở cằm, góc hàm thường là hạch viêm phản ứng khi cơ thể bị viêm ( viêm họng, viêm tuyến mang tai,viêm phế quản...) , các hạch này thường lành tính, ( hạch nhỏ,chắc , bờ đều, di động tốt, có thể đau, thường nổi trong vòng vài tuần tự hết). Những biểu hiện của hạch ác tính bạn cần lưu ý là hạch to, cứng, không đi động , bờ lổn nhổn, hạch dính từng chùm, rò mủ, dịch,nổi kéo dài, cộng với các triệu chứng khác như sụt cân, sốt kéo dài.. lúc đó bạn nên đi đến các cơ sở y tế khám xác định chính xác nguyên nhân và có hướng điều trị phù hợp. \nThân mến.",
+            "score": 0.6293761730194092,
+            "id": "vietnamese_medical_qa_7829"
+        },
+        {
+            "text": "Câu hỏi: Nhức đầu, đau cơ cổ kèm sưng vùng dưới hàm là dấu hiệu bệnh gì?\nTrả lời: Theo các dấu hiệu bạn mô tả bao gồm đau đầu, sốt, sưng vùng dưới hàm và đau cơ cổ hai bên có thể bạn đang mắc quai bị. Quai bị là bệnh lý do nhiễm virus gây viêm tuyến mang tai, có thể gây biến chứng viêm tinh hoàn - mào tinh ở nam. Tuy nhiên, các dấu hiệu trên cũng có thể là biểu hiện của tình trạng viêm hạch dưới hàm, viêm hạch phản ứng trong trường hợp viêm nhiễm đường hô hấp trên - nhất là khi dịch Covid-19 đang diễn biến phức tạp như hiện tại, việc thực hiện test tầm soát Covid-19 cũng như thực hiện các biện pháp giữ an toàn cho bản thân và cộng đồng là rất quan trọng. Ngoài ra, các trường hợp sốt, đau đầu, đau cơ cổ 2 bên nếu gây cổ gượng cần nghĩ đến bệnh lý viêm não, màng não. Bạn có thể dùng Paracetamol để giảm đau, hạ sốt tuy nhiên cần gặp bác sĩ để có thể khám, thực hiện một số xét nghiệm cần thiết, từ đó có kết luận về tình trạng bệnh cũng như tư vấn điều trị hiệu quả.",
+            "score": 0.6219896674156189,
+            "id": "vietnamese_healthcare_1579"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nDạo gần đây, cháu có thấy cổ họng mình bị khó nuốt, ban đầu nó mọc cục thì ở bên trong, tầm 2 ngày thì lặn nhưng có cảm giác bị nghẹn và khó chịu. Đồng thời, cháu cũng bị mỏi quai hàm, mỏi 2 hôm sau đó quai hàm chuyển sang khó chịu, tình trạng này bắt đầu từ ngày 26/8 và ngày hôm qua thì cháu bị đau đầu, hôm nay lại bị đau nhức người, thỉnh thoảng ngạt mũi. Cháu không bị ho nhưng có đờm trong cổ họng, rất khó nuốt. Vậy bác sĩ cho cháu hỏi họng khó nuốt kèm mỏi quai hàm là dấu hiệu bệnh gì? Triệu chứng này có phải do Covid không? Cháu cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBệnh Covid khởi đầu là dấu hiệu của các triệu chứng viêm đường hô hấp trên như sốt, ho, mệt mỏi, đau người, mất ngửi, rối loạn vị giác. Sau đó sẽ gây có các triệu chứng của đường hô hấp dưới như ho nặng hơn, tức ngực, khó thở, tụt oxy máu. Ho trong giai đoạn đầu của Covid cũng chủ yếu ho khan.\nTrong trường hợp của bạn không phải là dấu hiệu của Covid. Tuy nhiên, bạn phải luôn nhớ rằng Covid đến 80% người mắc không hề có triệu chứng hoặc chỉ bị nhẹ. Dấu hiệu của bạn có thường do tình trạng loạn cảm họng do viêm họng thông thường. Bạn nên nghỉ ngơi, vệ sinh mũi họng bằng nước muối sinh lý, uống nhiều nước.\nTrân trọng!",
+            "score": 0.6215112209320068,
+            "id": "vietnamese_medical_qa_1221"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

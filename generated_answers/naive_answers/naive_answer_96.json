@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Em bị mụn ở vùng bên dưới lưỡi, nhưng chỉ khi nào ăn gì đó vào thì mới mọc lên, 1 lát sau mất, bình thường thì không thấy. Vậy cho em hỏi, bị nổi mụn bên dưới lưỡi là bệnh gì? Hay chỉ do nhiệt miệng? Hiện em đang bị sưng nướu do mọc răng khôn.",
+    "ground_truth": "Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+    "answer": "Nốt “mụn” dưới lưỡi chỉ xuất hiện khi ăn rồi tự mất có thể liên quan đến nghẽn tạm thời tuyến nước bọt lạc chỗ, đặc biệt nếu không đau rát; tuy nhiên tài liệu cũng nêu các nốt ở lưỡi có thể gặp trong nhiệt miệng, nấm lưỡi hoặc một số viêm nhiễm khác, nên chưa thể khẳng định là nhiệt miệng. Bạn nên đến khám chuyên khoa Răng–Hàm–Mặt để được kiểm tra và chẩn đoán chính xác, nhất là khi đang có sưng nướu hoặc triệu chứng tái diễn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bị nổi mụn bên dưới lưỡi là bệnh gì?\nTrả lời: Với triệu chứng nổi mụn dưới lưỡi, bạn nên đến phòng khám Răng - Hàm - Mặt để được khám và chẩn đoán bị nổi mụn bên dưới lưỡi là bệnh gì. Bạn không nói mụn có đau rát không?Nếu không đau rát có thể do nghẽn tạm thời tuyến nước bọt lạc chỗ.",
+            "score": 0.8700048327445984,
+            "id": "vietnamese_healthcare_864"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nEm muốn hỏi bác sĩ là nổi mụn li ti ở lưỡi và vùng dưới của lưỡi thuộc nướu là dấu hiệu của bệnh gì ạ? Mong bác sĩ sớm hồi đáp, xin cảm ơn!\nTrả lời: Chào bạn! Cảm ơn bạn đã đặt câu hỏi: “Nổi mụn li ti ở lưỡi và vùng dưới của lưỡi thuộc nướu là dấu hiệu của bệnh gì?” tới AI-Doctor.\nTrước tiên, mụn ở lưỡi của bạn có gây đau rát không? Bởi có rất nhiều nguyên nhân gây nổi mụn nhỏ li ti ở lưỡi khiến cho người bệnh cảm thấy khó chịu. Các nốt mụn li ti có thể mọc ở vị trí đầu lưỡi, cuống lưỡi hoặc bên dưới lưỡi. Màu sắc mụn ở lưỡi có thể là màu đỏ tươi, hồng nhạt hoặc màu trắng.\nCác biểu hiện của nổi mụn li ti ở lưỡi có thể là dấu hiệu của bệnh: nhiệt miệng, nấm lưỡi, viêm họng cấp tính, mãn tính... Qua đó bác sĩ sẽ tư vấn cho bạn hướng điều trị phù hợp nhất.\nChúc bạn sớm khỏe. Trân trọng!",
+            "score": 0.7148582935333252,
+            "id": "vietnamese_medical_qa_2965"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi những hạt mụn đỏ ở lưỡi và 2 bên amidan kèm theo nổi hạch ở dưới xương hàm. Bác sĩ cho em hỏi nổi mụn đỏ ở lưỡi kèm nổi hạch dưới xương hàm là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViệc xuất hiện các nốt đỏ (mụn đỏ) ở lưỡi và amidan, kèm nổi hạch vùng dưới hàm có thể là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, đánh giá kỹ tổn thương, có thể kết hợp nội soi, siêu âm để đánh giá chính xác hơn.\nTrân trọng!",
+            "score": 0.7035418748855591,
+            "id": "vietnamese_medical_qa_1208"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! 1 năm nay em bị mọc đi mọc lại mụn nước ở vùng nướu trong cùng bên má phải ạ, em chỉ bị duy nhất một chỗ đó thôi. Cứ cách vài tuần hay ăn đồ nóng vào lại bị, em đi khám thì bác sĩ kêu nhiệt miệng thôi nhưng em bị 1 năm rồi mà vẫn cứ tái đi tái lại. Mong bác sĩ tư vấn giúp em ạ, em cảm ơn bác sĩ.\nTrả lời: Chào bạn! Mọc mụn nước trong miệng có rất nhiều nguyên nhân, trong đó thông thường là bị nhiệt miệng. Tuy nhiên trường hợp của bạn bị tái đi tái lại 1 năm nay thì nên đi khám bác sĩ Răng Hàm Mặt để xác định là bạn bị viêm niêm mạc do vi khuẩn hay virus để có hướng điều trị cho chính xác nhất nhé.",
+            "score": 0.6714789867401123,
+            "id": "vietnamese_medical_qa_4335"
+        },
+        {
+            "text": "Câu hỏi: Vì sao bị nổi mụn nước trong miệng?\nTrả lời: Trong miệng có nhiều tổ chức khác nhau như lợi dính, lợi di động, lưỡi, vòm miệng, tuyến nước bọt, . . Bạn nên đi khám khuyên khoa Răng - Hàm - Mặt ngay để được chẩn đoán ra bệnh và có hướng chữa trị kịp thời.",
+            "score": 0.6714330315589905,
+            "id": "vietnamese_healthcare_7582"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

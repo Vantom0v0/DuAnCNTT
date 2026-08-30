@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Làm thế nào hạn chế tình trạng nhiễm trùng do đặt ống thông tiểu quá lâu?",
+    "ground_truth": "khuyên em nên đi khám để cấy nước tiểu, xác định vi khuẩn và có kháng sinh đồ để chọn lựa kháng sinh thích hợp, em đã đặt thông tiểu quá lâu, là điều kiện để nhiễm trùng, em nên khám chuyên khoa ngoại để xin mở thông bàng quang trên xương mu, hạn chế bớt tình trạng nhiễm trùng, và việc thay thông cũng dễ dàng và đơn giản hơn. Thủ thuật này cũng đơn giản, chỉ cần gây tê tại chỗ để đặt thông.",
+    "answer": "Để hạn chế nhiễm trùng do đặt ống thông tiểu quá lâu, chỉ nên đặt khi thật sự cần thiết và rút ống càng sớm càng tốt vì nguy cơ nhiễm trùng tăng theo thời gian lưu ống. Khi đặt cần tuân thủ nghiêm ngặt kỹ thuật vô trùng và duy trì hệ thống dẫn lưu kín; nếu phù hợp, nên ưu tiên đặt ống thông ngắt quãng vì nguy cơ nhiễm trùng thấp hơn. Đối với người phải lưu ống lâu dài, không khuyến cáo dùng kháng sinh dự phòng.",
+    "evidence": [
+        "Phòng ngừa nhiễm trùng đường niệu\nRút ống dẫn lưu càng sớm càng tốt vì thời gian sử dụng ống thông tiểu có tỷ lệ thuận với nguy cơ mắc nhiễm trùng đường tiết niệu.",
+        "Nghiêm chỉnh thực hiện kỹ thuật vô trùng và thực hiện hệ thống dẫn lưu kín.",
+        "Nếu đặt ống thông ngắt quãng thì nguy cơ bị nhiễm trùng ít hơn so với các kỹ thuật khác.",
+        "Đối với những bệnh nhân sử dụng ống thông lưu lâu dài thì không khuyến cáo sử dụng dự phòng bằng kháng sinh.",
+        "Không đặt nếu không cần thiết.",
+        "Kể cả thao tác đặt ống thông được đảm bảo vô trùng thì nguy cơ bị nhiễm trùng đường niệu vẫn có thể tăng từ 3 đến 10% đối với mỗi ngày lưu ống thông, ống thông sau khi đặt được 7 ngày thì nguy cơ bị nhiễm trùng có thể lên tới 10 đến 30%."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Phòng ngừa nhiễm trùng đường niệu\nTrả lời: 7. Phòng ngừa nhiễm trùng đường niệu\nRút ống dẫn lưu càng sớm càng tốt vì thời gian sử dụng ống thông tiểu có tỷ lệ thuận với nguy cơ mắc nhiễm trùng đường tiết niệu. Nghiêm chỉnh thực hiện kỹ thuật vô trùng và thực hiện hệ thống dẫn lưu kín. Nếu đặt ống thông ngắt quãng thì nguy cơ bị nhiễm trùng ít hơn so với các kỹ thuật khác. Đối với những bệnh nhân sử dụng ống thông lưu lâu dài thì không khuyến cáo sử dụng dự phòng bằng kháng sinh. Hạn chế đặt ống thông tiểu đối với bệnh nhân nữ và người già. Không đặt nếu không cần thiết. Đối với bệnh nhân nam nên sử dụng dạng ống thông bằng cao su. Nên dùng ống thông tiểu liên tục thẳng. Bệnh nhân sau khi đặt ống thông tiểu thì cần được bác sĩ giải thích rõ cơ chế cũng như nguy cơ tiềm ẩn sau đó. Ngoài ra, bệnh nhân và người nhà cũng cần được cung cấp thông tin để tự chăm sóc mình và chăm sóc bệnh nhân để tránh gây ra nhiễm trùng về sau.",
+                "score": 0.5407564640045166,
+                "id": "vietnamese_healthcare_153070",
+                "rerank_score": 0.9927928447723389
+            },
+            {
+                "text": "Câu hỏi: Nhiễm trùng niệu sau đặt ống thông tiểu\nTrả lời: 1. Nhiễm trùng niệu sau đặt ống thông tiểu\nNhiễm trùng đường niệu sau khi đặt ống thông tiểu là tình trạng nhiễm trùng sau khi được đặt ống thông tiểu. Một bệnh nhân được chẩn đoán là nhiễm trùng đường tiết niệu khi có triệu chứng của nhiễm trùng đường tiểu và kết quả xét nghiệm nước tiểu có lượng vi khuẩn từ 103cfu/mL hoặc có từ 1 loại vi khuẩn được tìm thấy. Nhiễm trùng đường tiết niệu sau khi đặt ống thông là hiện tượng rất phổ biến và có thể phòng tránh được. Tỷ lệ bệnh nhân bị nhiễm trùng đường tiết niệu do đặt ống thông tiểu lên đến 20%. Một số loại vi khuẩn làm cho bệnh nhân bị nhiễm trùng tiết niệu khi thường thấy đặt ống thông tiểu là E.coli , trực khuẩn mủ xanh , vi khuẩn gram dương và nấm men .",
+                "score": 0.4585060477256775,
+                "id": "vietnamese_healthcare_153064",
+                "rerank_score": 0.8928079009056091
+            },
+            {
+                "text": "Câu hỏi: Nguyên nhân dẫn đến tình trạng nhiễm trùng đường niệu khi đặt ống thông tiểu\nTrả lời: 2. Nguyên nhân dẫn đến tình trạng nhiễm trùng đường niệu khi đặt ống thông tiểu\nTrong khi đặt ống thông thì vi khuẩn rất dễ xâm nhập vào bàng quang của bệnh nhân. Kể cả thao tác đặt ống thông được đảm bảo vô trùng thì nguy cơ bị nhiễm trùng đường niệu vẫn có thể tăng từ 3 đến 10% đối với mỗi ngày lưu ống thông, ống thông sau khi đặt được 7 ngày thì nguy cơ bị nhiễm trùng có thể lên tới 10 đến 30%. Hầu hết các bệnh nhân đặt ống thông tiểu có thể sẽ phát triển vi khuẩn gây nhiễm trùng niệu trong vòng 30 ngày sau khi thực hiện thủ thuật.",
+                "score": 0.4986898899078369,
+                "id": "vietnamese_healthcare_153065",
+                "rerank_score": 0.8223134875297546
+            },
+            {
+                "text": "Câu hỏi: Cách tránh nhiễm trùng sau phá thai\nTrả lời: 3. Cách tránh nhiễm trùng sau phá thai\nCác triệu chứng và biến chứng sau phá thai đều gây ảnh hưởng lớn đến sức khỏe của người bệnh. Tuy vậy việc phá thai nếu được thực hiện ở những bệnh viện lớn và uy tín sẽ rất ít nguy cơ gặp phải tình trạng trên. Vì vậy, để tránh nhiễm trùng sau phá thai, người bệnh cần đến thăm khám tại các cơ sở y tế uy tín và chất lượng. Bên cạnh đó, người bệnh cũng cần lưu ý một số vấn đề như sau: Trước khi phá thai cần thực hiện thăm khám và xét nghiệm các bệnh lây lan qua đường tình dục . Trong trường hợp mắc bệnh, người bệnh cần điều trị trước khi thực hiện phá thai để tránh trường hợp nhiễm trùng sau khi phá thai; Dùng băng vệ sinh thay vì tampon sau khi phá thai để giúp giảm nguy cơ nhiễm trùng; Tuân thủ hướng dẫn của bác sĩ về các vấn đề sinh hoạt cá nhân như chế độ dinh dưỡng, quan hệ tình dục, vệ sinh cá nhân; Sau khi phá thai, người bệnh không nên tắm nước lạnh, thay vào đó là lau người hoặc tắm bằng nước nóng bằng vòi hoa sen. Hạn chế tắm bồn vì làm tăng sự xâm nhập của vi khuẩn; Người bệnh cần hạn chế quan hệ tình dục từ 4 – 8 tuần sau khi phá thai. Bởi việc quan hệ sớm sẽ làm tăng nguy cơ xâm nhập của vi khuẩn vào cơ quan sinh sản, gây nhiễm trùng; Vệ sinh vùng kín cần thực hiện từ trước ra sau, không cho bất cứ thứ gì hoặc thụt rửa tay vào trong âm đạo, không dùng sản phẩm vệ sinh dễ gây kích ứng; Không uống rượu, hút thuốc hoặc dùng các chất gây nghiện sau khi phá thai. Bởi những chất này gây ảnh hưởng đến sự hồi phục của cơ thể, giảm hiệu quả của thuốc và tăng nguy cơ nhiễm trùng; Hạn chế ăn các thức ăn nhiều dầu mỡ, thức ăn nhanh hoặc thực phẩm, thức uống chứa caffeine; Như vậy, tình trạng nhiễm trùng sau khi phá thai có thể dẫn đến những hậu quả và biến chứng nguy hiểm đối với sức khỏe. Do đó, nếu bạn có ý định chấm dứt thai kỳ do mang thai ngoài ý muốn hay bất kỳ một lý do nào đó, bạn cần hết sức lưu ý và tốt nhất vẫn nên thăm khám tại các cơ sở y tế uy tín, chất lượng để được thăm khám, chẩn đoán chính xác.",
+                "score": 0.45365333557128906,
+                "id": "vietnamese_healthcare_24412",
+                "rerank_score": 0.0011526703601703048
+            },
+            {
+                "text": "Câu hỏi: Cách giảm đau do u nang buồng trứng\nTrả lời: 4. Cách giảm đau do u nang buồng trứng\nNhiều bệnh nhân băn khoăn không biết cách làm giảm đau u nang buồng trứng là gì và những phương pháp điều trị u nang buồng trứng. Thực tế, điều trị u nang buồng trứng cần dựa vào độ tuổi, mức độ bệnh, các triệu chứng, số lượng, kích thước và vị trí của u nang buồng trứng để lựa chọn phương pháp phù hợp. Điều trị u nang buồng trứng nhằm mục đích giảm đau, cải thiện các triệu chứng kinh nguyệt và loại bỏ khối u cũng như hạn chế các biến chứng do khối u gây ra. Những cách điều trị u nang buồng trứng phổ biến là: 4.2. Mổ mở u nang buồng trứng Mặc dù ngày nay, xu hướng mổ u nang buồng trứng là phương pháp mổ nội soi, tuy nhiên, trong một số trường hợp nhất định, việc mổ mở là bắt buộc khi u nang kích thước quá lớn, u nang có biến chứng vỡ, xoắn,... dẫn đến tình trạng nguy hiểm cấp cứu ở người bệnh. Phương pháp mổ truyền thống có thể gây những nguy cơ xấu cho người bệnh như như vết mổ dính, nhiễm trùng, mất nhiều máu, dính ruột, thời gian phục hồi lâu hơn, cảm giác đau đớn hơn so với mổ nội soi..",
+                "score": 0.46283596754074097,
+                "id": "vietnamese_healthcare_77368",
+                "rerank_score": 0.0006428818451240659
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Em bị sẩy thai 1 lần và bây giờ muốn có lạ. Vậy bác sĩ cho em hỏingười có tiền sử thai lưu nên khám sàng lọc gì trước khi mang thai?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bạn nên khám và sàng lọc trước khi mang bầu lần tới. Mục đích của việc khám sàng lọc trước mang thai nhằm: Kiểm tra các bất thường về gen di truyền mà mẹ có nguy cơ lây truyền sang cho con, giúp tầm soát các dị tật bẩm sinh ở thai nhi và đảm bảo quá trình thụ thai và mang thai diễn ra an toàn. Là căn cứ để các bác sĩ đưa ra lời khuyên về thời điểm nên sinh con và cách thức sinh con (sinh thường hoặc sinh mổ) sao cho phù hợp để đảm bảo sức khỏe tốt nhất cho mẹ và bé. Từ kết quả xét nghiệm sàng lọc, bác sĩ sẽ tư vấn về chế độ dinh dưỡng phù hợp để bào thai phát triển một cách tốt nhất ngay từ thời điểm mẹ cấn bầu. Với những mẹ có tiền sử thai lưu, sinh non, thai bị dị tật bẩm sinh thì việc khám tiền sản sẽ giúp mẹ phát hiện nguyên nhân dẫn đến biến chứng thai kỳ từ những lần sinh trước và tạo tiền đề đảm bảo cho mẹ một thai kỳ mới an toàn. Các xét nghiệm cần làm: công thức máu, nhóm máu, xét nghiệm TORCH, các virus dễ gây dị tật thai nhi mình đã bị nhiễm chưa....xét nghiệm di truyền nếu gia đình nội ngoại có người bị bất thường nhiễm sắc thể.... Bạn nên đặt khám với các bệnh viện uy tín để được tư vấn kỹ hơn.",
+    "answer": "Sau tiền sử sẩy thai hoặc thai lưu, bạn nên khám chuyên khoa sản để tìm nguyên nhân và chuẩn bị cho lần mang thai tiếp theo. Các xét nghiệm sàng lọc có thể gồm: xét nghiệm hội chứng kháng phospholipid, bệnh lây qua đường tình dục, nhiễm sắc thể đồ tìm bất thường nhiễm sắc thể ở cả hai vợ chồng, kiểm tra nhóm máu để phát hiện bất đồng nhóm máu; đồng thời đánh giá bất thường tại tử cung, buồng tử cung, phần phụ và các bệnh lý kèm theo của mẹ. Bạn cũng nên mang theo hồ sơ của những lần thai trước khi đi khám. Trước khi mang thai, cần tiêm phòng các bệnh truyền nhiễm như sởi, Rubella, viêm gan B, bổ sung sắt và acid folic, duy trì lối sống lành mạnh và tránh các chất kích thích.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em đã từng mổ thai ngoài tử cung 2 lần. Xin hỏi bác sĩmang thai lại sau khi bị thai ngoài tử cung 2 lần cần khám những gì?Cảm ơn bác sĩ tư vấn,\nTrả lời: Chào bạn, Với câu hỏi “Mang thai lại sau khi bị thai ngoài tử cung 2 lần cần khám những gì?”, bác sĩ giải đáp như sau: Bạn nên đi khám với bác sĩ sản để đánh giá lại 2 vòi trứng có đảm bảo chức năng hay không sau đó bác sĩ sẽ tư vấn phương pháp mang thai cho bạn.",
+            "score": 0.5943596959114075,
+            "id": "medical_vietnamese_qa_1546"
+        },
+        {
+            "text": "Câu hỏi: Em đã có 2 đứa con trai giờ muốn sinh thêm một cô công chúa nữa. Em mang thai 4 lần rồi nhưng cứ mang thai bé trai thì khoẻ mạnh mà 2 bé gái thì đều bị dị tật não. Em cũng không biết thế nào nữa ạ. Mong bác sĩ tư vấn giúp emtiền sử mang thai bé gái bị dị tật não nên làm gì?Em cảm ơn bác sĩ. Nguyễn Thị Hoa(1994) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Võ Tá Sơn- Bác sĩ Y học bào thai - Trung tâm Sức khỏe Phụ nữ - Bệnh viện Đa khoa Quốc tế Vinmec Times City\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp của bạn, đầu tiên có thể nghĩ đến các bé gái bị các bệnh liên quan đến bất thường nhiễm sắc thể hoặc đột biến gen liên quan đến nhiễm sắc thể giới tính. Bác sĩ rất muốn biết thêm bất thường não của 2 bé gái là bất thường gì, được phát hiện ở tuần thai thứ bao nhiêu? Và ngoài bất thường não thì còn có bất thường gì khác không? Bác sĩ mong bạn hãy mang toàn bộ kết quả khám thai của các thai kỳ trước đến Đơn vị Y học bào thai, Bệnh viện Vinmec Times City để được tư vấn chi tiết và làm các xét nghiệm chuyên sâu để tìm nguyên nhân ví dụ như công thức nhiễm sắc thể và giải trình tự gen 2 vợ chồng. Trường hợp may mắn tìm được nguyên nhân như vợ và/hoặc chồng có đột biến gen liên quan đến nhiễm sắc thể giới tính, bác sĩ sẽ tư vấn cho bạn về phương án, kế hoạch cho các thai kỳ tiếp theo.",
+            "score": 0.5880680084228516,
+            "id": "medical_vietnamese_qa_3265"
+        },
+        {
+            "text": "Câu hỏi: Em cưới hơn một năm rồi, có thai hai lần thì một lần thai lưu lúc 12 tuần, 6 tháng sau em có thai lại nhưng bị sảy tự nhiên. Từ đó đến nay em chưa có kinh lại. Em chưa đi khám ở đâu và không biết khám phụ khoa hay khám hiếm muộn. Như vậy, em có bị vô sinh không? Em cần phải khám những gì, có thể điều trị được không?\nTrả lời: Với các thông tin chị cung cấp, chị chưa được chẩn đoán vô sinh. Chị cần đến chuyên khoa sản hoặc các trung tâm hỗ trợ sinh sản để thăm khám và tìm nguyên nhân sảy thai nhiều lần để từ đó đưa ra hướng điều trị cho lần mang thai tiếp theo. Các thăm khám có thể là đánh giá các bất thường tại tử cung, buồng tử cung, phần phụ, các bệnh lý kèm theo của mẹ, các bất thường di truyền của bố mẹ.",
+            "score": 0.578795850276947,
+            "id": "vietnamese_healthcare_8984"
+        },
+        {
+            "text": "Câu hỏi: Em bị tiền sử thai lưu hai lần. Bây giờ, em có thai nữa. Bác sĩ cho em hỏimang thai sau hai lần thai lưu có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Thai lưu là hiện tượng rất đáng tiếc xảy ra khi bà mẹ mang thai và có liên quan đến một số vấn đề về sức khỏe đặc biệt là thai lưu hai lần liên tiếp trở lên. Vì vậy, để mang thai trở lại được an toàn bạn nên đi khám chuyên khoa và xét nghiệm sàng lọc một số bệnh như: Xét nghiệm hội chứng Antiphospholipid. Xét nghiệm bệnh lây qua đường tình dục. Xét nghiệm nhiễm sắc đồ tìm nhiễm sắc thể bất thường ở cả vợ và chồng. Xét nghiệm kiểm tra nhóm máu để tìm bất đồng nhóm máu giữa hai vợ chồng. Ngoài ra trước khi mang thai, bạn cần tiêm phòng các bệnh truyền nhiễm như Sởi, Rubella, Viêm gan B,.. và bổ sung đầy đủ sắt và acid folic trước mang thai cũng như có một lối sống khỏe mạnh tránh xa các chất kích thích để có được một thai kỳ ổn định.",
+            "score": 0.5663616061210632,
+            "id": "medical_vietnamese_qa_1108"
+        },
+        {
+            "text": "Câu hỏi: Mổ nội soi tạo hậu môn nhân tạo được thực hiện như thế nào?2\nTrả lời: 2. Mổ nội soi tạo hậu môn nhân tạo được thực hiện như thế nào?2.1. Chuẩn bị trước phẫu thuật\n2.1. Chuẩn bị trước phẫu thuật",
+            "score": 0.5604953169822693,
+            "id": "vietnamese_healthcare_24805"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

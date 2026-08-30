@@ -1,0 +1,107 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ ạ. Bác sĩ cho em hỏi có làm cách nào để tự kiểm tra vòng tránh thai có đúng vị trí không ạ? Cảm ơn bác sĩ đã tư vấn giúp em.",
+    "ground_truth": "Chào bạn, bạn có thể tự kiểm tra bằng cách: Rửa sạch tay, đặt ngón tay vào trong âm đạo đến khi bạn cảm thấy cổ tử cung của mình. Nếu cảm thấy sợi dây từ cổ tử cung đó là vòng tránh thai đang được đặt ở vị trí thích hợp. Bạn chỉ được chạm, không được kéo dây ra vì có thể làm thay đổi vị trí vòng tránh thai. Bạn nên kiểm tra vòng tránh thai hàng tháng hoặc tối đa 6 tháng/lần để đảm bảo là vòng vẫn được đặt đúng chỗ.",
+    "answer": "Hiện không có đủ thông tin trong phần bằng chứng được cung cấp để hướng dẫn cách tự kiểm tra vòng tránh thai có đúng vị trí hay không. Bạn nên liên hệ cơ sở y tế hoặc bác sĩ sản phụ khoa để được kiểm tra và tư vấn trực tiếp.",
+    "evidence": [],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nCháu thấy có nhiều người tự mua vitamin E về để uống. Bác sĩ cho cháu hỏi việc tự mua vitamin E để uống như vậy có đúng không ạ? Sử dụng vitamin E có cần chỉ định của bác sĩ không ạ? Mong bác sĩ tư vấn giúp cháu. Cháu cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin trả lời bạn như sau:\nNếu bạn đã hiểu về liều lượng vitamin E, như thế nào là vitamin E tự nhiên, vitamin E tổng hợp rồi thì bạn có thể tự đi mua được. Những thuốc vitamin như vậy không cần kê đơn của bác sĩ, chỉ cần bạn hiểu đúng tính chất của vitamin E và cách sử dụng vitamin E.",
+                "score": 0.5109848380088806,
+                "id": "vietnamese_medical_qa_2187",
+                "rerank_score": 0.01133834756910801
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho con hỏi là bị bệnh tiểu đường mình nên ăn gì để tốt cho sức khỏe của mình ạ? Ăn gì cho tăng cân ạ? Vì bà ngoại con bị tiểu đường và xuống cân nhiều. Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nLinh (Hà Nội)\nChào bác sĩ. Tôi 36 tuổi bị sút cân đột ngột, đi khám thì bác sĩ kết luận bị tiểu đường! Tôi muốn hỏi giờ điều trị như thế nào? Bác sĩ tư vấn giúp tôi. Xin cảm ơn.\nTrả lời: Chào bạn, cân đối chế độ dinh dưỡng và chế độ ăn hạn chế đường để có thể giữ đường huyết đạt mục tiêu, tránh biến chứng là một điều rất quan trọng trong điều trị bệnh đái tháo đường. Quan trọng là bệnh nhân phải bàn với bác sĩ trực tiếp điều trị vì có rất nhiều vấn đề liên quan: Đái tháo đường type 1 hay 2? Có biến chứng gì chưa? Có bệnh gì đi kèm không? Đường huyết đang ở mức nào? dinh dưỡng và hoàn cảnh thế nào?... Bạn nên gặp trực tiếp bác sĩ điều trị để thảo luận cụ thể trong trường hợp này nhé.",
+                "score": 0.5028867721557617,
+                "id": "vietnamese_medical_qa_3874",
+                "rerank_score": 0.003045208053663373
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho tôi hỏi tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không? Cảm ơn bác sĩ đã tư vấn và giải đáp!\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi: “Tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không?” đến AI-Doctor. Mong một ngày gần nhất có thể gặp bạn để được tư vấn chuyên sâu. Trân trọng!",
+                "score": 0.5818508863449097,
+                "id": "vietnamese_medical_qa_2033",
+                "rerank_score": 0.0026261028833687305
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏi em bị răng hơi khấp khểnh thì nên làm thế nào ạ? Mong nhận được những chia sẻ của bác sĩ!\nTrả lời: Rất mong có thể sớm gặp bạn tại AI-Doctor. Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “ Răng hơi khấp khểnh thì nên làm thế nào?” Chúc bạn luôn tự tin trong cuộc sống. Trân trọng!",
+                "score": 0.5557825565338135,
+                "id": "vietnamese_medical_qa_2257",
+                "rerank_score": 0.00043868011562153697
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.5541152358055115,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.0004015041922684759
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho tôi hỏi tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không? Cảm ơn bác sĩ đã tư vấn và giải đáp!\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi: “Tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không?” đến AI-Doctor. Mong một ngày gần nhất có thể gặp bạn để được tư vấn chuyên sâu. Trân trọng!",
+                "score": 0.618409276008606,
+                "id": "vietnamese_medical_qa_2033",
+                "rerank_score": 0.0026261028833687305
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏi em bị răng hơi khấp khểnh thì nên làm thế nào ạ? Mong nhận được những chia sẻ của bác sĩ!\nTrả lời: Rất mong có thể sớm gặp bạn tại AI-Doctor. Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “ Răng hơi khấp khểnh thì nên làm thế nào?” Chúc bạn luôn tự tin trong cuộc sống. Trân trọng!",
+                "score": 0.6041972637176514,
+                "id": "vietnamese_medical_qa_2257",
+                "rerank_score": 0.00043868011562153697
+            },
+            {
+                "text": "Câu hỏi: Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nTrả lời: 10. Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nNếu bạn lo lắng về nguy cơ ung thư đại trực tràng hoặc các loại ung thư khác, bạn nên thảo luận cùng các bác sĩ có chuyên môn. Hãy cân nhắc hỏi những câu hỏi sau: Nguy cơ phát triển ung thư đại trực tràng là gì? Tôi có tổng cộng có bao nhiêu polyp đại tràng? Tôi đã có loại polyp đại tràng nào? Nguy cơ phát triển một loại ung thư khác là bao nhiêu? Tôi có thể làm gì để giảm nguy cơ mắc bệnh ung thư? Các biện pháp nào để sàng lọc và phòng ngừa ung thư là gì?",
+                "score": 0.5407426953315735,
+                "id": "vietnamese_healthcare_43316",
+                "rerank_score": 0.00040201377123594284
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.6116260290145874,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.0004015041922684759
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Em đang niềng răng và sắp được tháo những vấn còn đôi chút chưa hài lòng nên em muốn kiểm tra xem răng và khớp cắn ở thời điểm hiện tại như vậy đã ổn chưa. Xin bác sĩ tư vấn giúp em về việc kiểm tra răng và khớp cắn sau khi niềng răng.\nTrả lời: Rất mong có thể gặp bạn tại AI-Doctor để được trao đổi thêm. Trân trọng.",
+                "score": 0.5462942719459534,
+                "id": "vietnamese_medical_qa_2181",
+                "rerank_score": 0.0001909999264171347
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Cho tôi hỏi tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không? Cảm ơn bác sĩ đã tư vấn và giải đáp!\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi: “Tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không?” đến AI-Doctor. Mong một ngày gần nhất có thể gặp bạn để được tư vấn chuyên sâu. Trân trọng!",
+                "score": 0.6218165159225464,
+                "id": "vietnamese_medical_qa_2033",
+                "rerank_score": 0.0026261028833687305
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏi em bị răng hơi khấp khểnh thì nên làm thế nào ạ? Mong nhận được những chia sẻ của bác sĩ!\nTrả lời: Rất mong có thể sớm gặp bạn tại AI-Doctor. Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “ Răng hơi khấp khểnh thì nên làm thế nào?” Chúc bạn luôn tự tin trong cuộc sống. Trân trọng!",
+                "score": 0.6115037202835083,
+                "id": "vietnamese_medical_qa_2257",
+                "rerank_score": 0.00043868011562153697
+            },
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.6061185598373413,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.0004015041922684759
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Em đang niềng răng và sắp được tháo những vấn còn đôi chút chưa hài lòng nên em muốn kiểm tra xem răng và khớp cắn ở thời điểm hiện tại như vậy đã ổn chưa. Xin bác sĩ tư vấn giúp em về việc kiểm tra răng và khớp cắn sau khi niềng răng.\nTrả lời: Rất mong có thể gặp bạn tại AI-Doctor để được trao đổi thêm. Trân trọng.",
+                "score": 0.545430064201355,
+                "id": "vietnamese_medical_qa_2181",
+                "rerank_score": 0.0001909999264171347
+            },
+            {
+                "text": "Câu hỏi: Chỉ số xét nghiệm GGT tăng nên uống thuốc gì?\nTrả lời: Em cho chồng em đi khám bệnh ngay nhé. Mục đích là tìm nguyên nhân gây tăng GGT. Tùy từng nguyên nhân cụ thể bác sĩ sẽ quyết định dùng thuốc hay không nhé.",
+                "score": 0.5503056049346924,
+                "id": "vietnamese_healthcare_3147",
+                "rerank_score": 0.0001438530016457662
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

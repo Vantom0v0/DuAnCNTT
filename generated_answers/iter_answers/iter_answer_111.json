@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Chào bác sĩ,\nEm bị viêm tai thanh dịch. Vậy bác sĩ cho em hỏi viêm tai thanh dịch có thể điều trị được không? Bệnh này có tự hết không hay bắt buộc phải uống thuốc mỗi lần bị viêm? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViêm tai thanh dịch là bệnh lý liên quan đến chức năng thông thoáng của vòi tai (là ống nối thông từ mũi tới tai). Đây là bệnh lý lành tính tuy nhiên việc điều trị cần phải theo dõi sát trong thời gian 1 - 3 tháng vì dịch ở trong tai tiêu chậm, đặc biệt ở người hút thuốc lá hoặc có tiền sử bệnh mũi.\nVì vậy, bạn nên đến thăm khám để nhân được kế hoạch điều trị và theo dõi cho dứt điểm tình trạng ứ dịch trong tai.\nTrân trọng!",
+    "answer": "Chào bạn, viêm tai thanh dịch (viêm tai giữa ứ dịch) hoàn toàn có thể điều trị và nhiều trường hợp tự khỏi, nhất là khi nguyên nhân do viêm mũi họng, dị ứng hoặc rối loạn thông khí vòi nhĩ; tình trạng ù tai, nghe kém do dịch tồn đọng có thể giảm dần trong khoảng 1–2 tuần. Không phải lần nào cũng cần uống kháng sinh; kháng sinh chỉ dùng khi có bội nhiễm vi khuẩn và cần được bác sĩ chỉ định. Bạn nên kiểm soát tốt viêm mũi họng/viêm mũi dị ứng, vệ sinh mũi họng bằng nước muối sinh lý và không tự ý nhỏ tai hay dùng thuốc. Nếu sau khoảng 1 tuần không cải thiện, nghe kém tăng, đau tai, sốt hoặc có dịch/mủ chảy ra, bạn nên khám Tai Mũi Họng và nội soi tai để xác định tình trạng màng nhĩ, từ đó điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Viêm tai giữa ứ dịch có tự khỏi không?\nTrả lời: Viêm tai giữa ứ dịch là tình trạng viêm niêm mạc tai giữa kèm theo sự có mặt của dịch tiết trong hòm tai, dịch bị ứ phía sau một màng tai không bị thủng. Dịch tai giữa có thể là thanh dịch, dịch nhầy hoặc keo. Dựa vào thời gian của bệnh có thể chia ra thành 3 thể: Thể cấp tính xảy trong thời gian ngắn hơn ba tuần; thể bệnh bán cấp kéo dài từ 3 tuần đến 3 tháng; thể mạn tính kéo dài trên 3 tháng.Viêm tai giữa ứ dịch hoàn toàn có thể tự khỏi được. Tình trạng viêm tai ứ dịch thường xảy ra do bị rối loạn thông khí vòi nhĩ, ảnh hưởng do đợt viêm mũi họng cấp, sự thay đổi áp lực như sau đi máy bay hoặc sau khi lặn.Oflovid là thuốc kháng sinh, chỉ dùng khi có bội nhiễm vi khuẩn. Nếu có tình trạng viêm mũi họng hoặc viêm mũi dị ứng thì bạn phải kiểm soát tốt vấn đề đó. Bạn có thể vệ sinh mũi họng hàng ngày bằng nước muối sinh lý. Nếu sau 1 tuần không cải thiện thì bạn nên đi khám bác sĩ.",
+            "score": 0.6921974420547485,
+            "id": "vietnamese_healthcare_8860"
+        },
+        {
+            "text": "Câu hỏi: Viêm tai giữa điều trị tại nhà được không?\nTrả lời: Trường hợp của bạn bị đau tai, có dịch trong tai và đã từng được chẩn đoán viêm tai giữa. Vì vậy, bạn nên đi khám, nội soi tai để xác định đúng tình trạng bệnh. Từ đó, bác sĩ có thể tư vấn điều trị phù hợp cho bạn. Ngoài ra, bạn không nên tự ý dùng thuốc nhỏ tai vì có thể gặp các tác dụng phụ của thuốc. Một số trường hợp có thể làm nặng thêm tình trạng bệnh hiện tại, đặc biệt một số thuốc nhỏ tai có thể gây độc tính cho tai trong (tai thần kinh) khi màng nhĩ bị thủng.",
+            "score": 0.6705439686775208,
+            "id": "vietnamese_healthcare_2929"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏiviêm tai giữa ứ dịch có tự khỏi không?Tai em có cảm giác bị đầy như nước vào, thích lực bị giảm 1 tuần nay rồi. Hình như em bị thủng màng nhĩ nữa vì khi dùng bàn tay ép lên tai và kéo ra kết hợp với bịt mũi tạo áp suất thì dịch trong tai chảy ra. Dịch có màu vàng, không mùi. Em có nhỏ thuốc Oflovid. Em đang ở Sài Gòn nên không đi khám được. Mong bác sĩ trả lời giúp em, cảm ơn bác sĩ. Hoàng(1995) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Vĩnh Toàn- Khoa Liên Chuyên Khoa, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Viêm tai giữa ứ dịch là tình trạng viêm niêm mạc tai giữa kèm theo sự có mặt của dịch tiết trong hòm tai, dịch bị ứ phía sau một màng tai không bị thủng. Dịch tai giữa có thể là thanh dịch, dịch nhầy hoặc keo. Dựa vào thời gian của bệnh có thể chia ra thành 3 thể: Thể cấp tính xảy trong thời gian ngắn hơn ba tuần; thể bệnh bán cấp kéo dài từ 3 tuần đến 3 tháng; thể mạn tính kéo dài trên 3 tháng. Viêm tai giữa ứ dịchhoàn toàn có thể tự khỏi được. Tình trạng viêm tai ứ dịch thường xảy ra do bịrối loạn thông khí vòi nhĩ, ảnh hưởng do đợtviêm mũi họng cấp, sự thay đổi áp lực như sau đi máy bay hoặc sau khi lặn. Oflovid là thuốc kháng sinh, chỉ dùng khi có bội nhiễm vi khuẩn. Nếu có tình trạng viêm mũi họng hoặc viêm mũi dị ứng thì bạn phải kiểm soát tốt vấn đề đó. Bạn có thể vệ sinh mũi họng hàng ngày bằng nước muối sinh lý. Nếu sau 1 tuần không cải thiện thì bạn nên đi khám bác sĩ.",
+            "score": 0.668182373046875,
+            "id": "medical_vietnamese_qa_9151"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cháu bị viêm tai giữa từ nhỏ, do ngày trước gia đình không có điều kiện nên không được chữa trị kịp thời dẫn tới cháu bị thủng màng nhĩ. Gần đây cháu bị viêm xoang nên thường xuyên rửa mũi bằng nước muối. Khi rửa mũi cháu thấy mủ chảy ra từ tai và có mùi khó chịu. Bác sĩ cho cháu hỏi, cháu bị bệnh gì ạ? Cháu cảm ơn bác sĩ ạ.\nTrả lời: Chào Bạn! Theo như những thông tin mà bạn cung cấp, tình trạng bệnh của bạn tương đối phức tạp, cần phải được thăm khám trực tiếp để có được chẩn đoán bệnh chính xác. Bạn không nên tự điều trị, vì nếu không biết cách sẽ gây những biến chứng nguy hiểm.",
+            "score": 0.6455913186073303,
+            "id": "vietnamese_medical_qa_3479"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị viêm tai giữa phải do bị viêm mũi, em đã nhỏ tai bằng kháng sinh thì thấy hết đau tai nhưng đến bây giờ sau 5 ngày nhỏ thuốc em vẫn thấy tai hơi ù ù, nghe không rõ hẳn. Vậy bác sĩ cho cháu hỏi viêm tai giữa điều trị như thế nào? Có nên nhỏ thuốc tiếp không? Có cần uống kèm kháng sinh không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTai giữa thông thương với vòm mũi họng thông qua vòi Eustache hai bên, vì vậy, với tình trạng viêm mũi, viêm họng có thể dẫn tới viêm tai giữa thông qua con đường trực tiếp này. Viêm tai giữa sẽ có nhiều giai đoạn, trong giai đoạn đầu thường ít khi phải dùng kháng sinh, điều trị viêm mũi họng tốt, tai giữa sẽ đỡ và khỏi. Đồng thời gian đoạn đầu thì màng nhĩ chưa bị thủng nên các thuốc kháng sinh nhỏ vào tai thường không hiệu quả mà chỉ nhỏ các loại để giảm đau. Triệu chứng như bạn kể thường là giai đoạn thoái lui của viêm tai giữa, trong hòm nhĩ vẫn còn ứ đọng dịch nên tai vẫn bị ù và nghe kém. Bệnh sẽ hết dần đi sau 1-2 tuần. Để chắc chắn bạn nên đến khoa Tai mũi họng khám và được tư vấn chi tiết cụ thể với từng giai đoạn bệnh với các phương pháp điều trị.\nTrân trọng!",
+            "score": 0.6418035626411438,
+            "id": "vietnamese_medical_qa_685"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

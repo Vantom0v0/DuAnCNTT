@@ -1,0 +1,117 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Con nhà em được 1 tháng tuổi nhưng hay vặn mình giật mình khi ngủ nôn trớ nhiều, 3 - 5 hôm vẫn chưa đi ngoài. Bác sĩ cho em hỏitrẻ sơ sinh nôn trớ khi ngủ kèm ít đi ngoài có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Đa số các triệu chứng như trường hợp của bé là hiện tượng sinh lý. Tuy nhiên cần xác định bụng có chướng căng không, tính chất phân thế nào, bé có tăng cân không,... để xem xét loại trừ bệnh lý bất thường đường ruột bẩm sinh gây chậm đi cầu. Bạn có thể cho trẻ uống vitamin liều cao (800 - 1000 IU/ ngày) và nằm cao tư thế 30 độ, chia nhỏ cữ bú để giảm thiểu hiện tượng vặn mình nôn trớ.",
+    "answer": "Vặn mình, giật mình khi ngủ và nôn trớ khá thường gặp ở trẻ dưới 3 tháng do các bộ phận chưa hoàn thiện; nếu bé vẫn đi tiêu phân mềm thì 2–3 ngày mới đi có thể là bình thường, nhưng bằng chứng chưa đủ để kết luận tình trạng 3–5 ngày không đi ngoài. Bạn nên cho bé bú đúng cách, tránh nuốt hơi, bú mỗi 2,5–3 giờ và giữ đầu bé cao khoảng 30 phút sau bú. Nếu bé ọc nhiều ở hầu hết các cữ, sốt trên 38,5°C, phân nhầy hoặc có máu, quấy khóc nhiều hay ảnh hưởng tăng cân, cần đưa bé đi khám.",
+    "evidence": [
+        "Trả lời: Chào bạn, Với câu hỏi “Trẻ 1 tháng tuổi nôn trớ sau ăn kèm khó ngủ có sao không?”, bác sĩ giải đáp như sau: Nếu cữ bú nào bé cũng ọc nhiều, đặc biệt kèm sốt (khi đo nhiệt độ cơ thể bằng nhiệt kế trên 38,5 độ C) thì bạn cần đưa bé đến cơ sở y tế để thăm khám và làm xét nghiệm nếu cần.",
+        "Do đó, bạn cần cho con bú đúng cách, không để trẻ nuốt hơi, mỗi 2.30 - 3 giờ cho trẻ bú 1 lần, bú xong giữ trẻ đầu cao 30 phút.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Nếu bé vẫn đi tiêu phân mềm thì 2-3 ngày mới đi tiêu là bình thường.",
+        "Với những biểu hiện như bạn mô tả có thể gặp ở trẻ sơ sinh và trẻ nhỏ, đó là hiện tượng bình thường.",
+        "Nếutrẻ nôn trớ nhiều, đại tiện phân nhầy, máu nên đưa trẻ đi khám.",
+        "Trả lời: Chào bạn, với trẻ sơ sinh các hiện tượng vặn mình, trớ sữa, đi ngoài hoa cà hoa cải hay gặp do các bộ phận chưa hoàn thiện.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Trẻ dưới 3 tháng sẽ hay gặp vấn đề quấy khóc, hay nôn trớ, tuy nhiên không nhiều.",
+        "Nếutrẻ quấy khóc, đòi bế nhiều,hay ọc sữanhiều có thể ảnh hưởng tăng cân, nguy cơ viêm đường hô hấp,...",
+        "Trả lời: Vặn mình, nôn trớ là một trong những triệu chứng rất hay gặp của các bé dưới 3 tháng tuổi."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Con nhà em đến nay tròn 1 tháng tuổi. Khoảng 3-4 ngày hôm nay sau khi ăn no bé bụng phình sang 2 bên, phần bụng và gáy nóng, 15 phút sau thì bé nôn trớ hết sữa đã cho ăn (sữa nôn ra có váng nổi), bé rất khó ngủ và không sâu giấc. Vậy bác sĩ cho em hỏi làtrẻ 1 tháng tuổi nôn trớ sau ăn kèm khó ngủ có sao không?Cảm ơn bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Trẻ 1 tháng tuổi nôn trớ sau ăn kèm khó ngủ có sao không?”, bác sĩ giải đáp như sau: Nếu cữ bú nào bé cũng ọc nhiều, đặc biệt kèm sốt (khi đo nhiệt độ cơ thể bằng nhiệt kế trên 38,5 độ C) thì bạn cần đưa bé đến cơ sở y tế để thăm khám và làm xét nghiệm nếu cần. Về vấn đề giấc ngủ, 1 tháng tuổi vẫn là thời gian bé tập làm quen ngày đêm nên chị cần kiên nhẫn tập ngủ cho bé, nếu bạn thấy khó khăn trong quá trình luyện ngủ thì bạn có thể đi khám thể tư vấn thêm.",
+                "score": 0.7361572980880737,
+                "id": "medical_vietnamese_qa_5567",
+                "rerank_score": 0.9995362758636475
+            },
+            {
+                "text": "Câu hỏi: Con em được 20 ngày. Lúc sinh bé được 2kg7. Bé thường xuyên vặn mình và trớ. Mỗi lần bé trớ là rất nhiều. Bé ngủ ngày nhiều. Đêm ngủ ít. Bé bú mẹ hoàn toàn, bú xong vẫn bế bé một lúc mà lúc đặt bé xuống vẫn bị trớ ra ngoài. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn mình kèm nôn trớ phải làm thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ bú mẹ ít khi bị nôn trớ trừ trường hợp mẹ cho bú không đúng cách, thời gian bú quá gần sữa chưa tiêu hết. Do đó, bạn cần cho con bú đúng cách, không để trẻ nuốt hơi, mỗi 2.30 - 3 giờ cho trẻ bú 1 lần, bú xong giữ trẻ đầu cao 30 phút.",
+                "score": 0.6815825700759888,
+                "id": "medical_vietnamese_qa_4413",
+                "rerank_score": 0.9995006322860718
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được 1 tháng rưỡi, sinh thường, bú mẹ hoàn toàn nhưng gần đây 2-3 ngày bé mới đi vệ sinh 1 lần và hay nôn trớ. Bác sĩ cho em hỏitrẻ sơ sinh ít đi ngoài hay nôn trớ là bị làm sao?Mong bác sĩ tư vấn giúp em. Em cảm ơn bác sĩ. Kim Mỹ(1992) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Đặng Thị Ngọc Chương- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu bé vẫn đi tiêu phân mềm thì 2-3 ngày mới đi tiêu là bình thường. Mẹ có thể bổ sung BIOGAIA thêm cho bé để giúp bé tiêu hóa tốt hơn, ăn ngon miệng hơn.",
+                "score": 0.7194679975509644,
+                "id": "medical_vietnamese_qa_5642",
+                "rerank_score": 0.9993153810501099
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em nay được 22 ngày tuổi.Bé hay vặn mình vào ban đêm, rặn đỏ mặt và hay nôn trớ, khóc vàkhó ngủ ban đêm. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn mình, nôn trớ kèm khó ngủ vào ban đêm là sao?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn hay vặn mình, nôn trớ, khóc kèm khó ngủ vào ban đêm. Với những biểu hiện như bạn mô tả có thể gặp ở trẻ sơ sinh và trẻ nhỏ, đó là hiện tượng bình thường. Nếutrẻ nôn trớ nhiều, đại tiện phân nhầy, máu nên đưa trẻ đi khám. Bạn cũng có thể kiểm tra trẻ ăn đủ lượng chưa, thay bỉm, tã nếu trẻ đi ướt bỉm, ôm ấp, vỗ về bé, đảm bảo nhiệt độ, độ ẩm phòng ngủ để đảm bảo giấc ngủ cho trẻ sơ sinh. Nếu bạn còn thắc mắc, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+                "score": 0.68392014503479,
+                "id": "medical_vietnamese_qa_5242",
+                "rerank_score": 0.9989602565765381
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ ạ,\nBé nhà em được 17 ngày tuổi, bé hay nôn trớ nhiều có khi trớ lên cả mũi dù sau khi cho ti em đã ôm cao tầm 20p mới đặt xuống. Bé rất hay vặn mình đỏ hết cả mặt, cứ vặn mình là bị trớ sữa. Ôm bé trên tay thì bé ít vặn, ngủ ngon nhưng đặt xuống giường là vặn mình liên tục ngủ không sâu giấc. Khi ở viện về bs có kê thuốc KiDal dặn nhỏ ngày 5 giọt, em cũng uống canxi corbiere 10ml ngày 2 ống (bé ti mẹ hoàn toàn). Do thời tiết không tốt nên em chỉ phơi nắng cho bé được 3 hôm nên em lo sợ không biết bé có bị thiếu canxi không ạ. Và bé hay đi ngoài ít ít nhưng nhiều lần trong ngày, nhiều khi bé vặn mình cũng đi són phân. Em có cho bé dùng thêm biogaia ngày 5 giọt. \nCho em hỏi tình trạng bé vặn mình, nôn trớ và đi ngoài như vậy có cách nào khắc phục k ạ? Em cảm ơn ạ.\nTrả lời: Chào bạn, với trẻ sơ sinh các hiện tượng vặn mình, trớ sữa, đi ngoài hoa cà hoa cải hay gặp do các bộ phận chưa hoàn thiện. Bạn không nên quá lo lắng. Bạn có thể khắc phục bằng cách cho bé bú nhiều bữa trong ngày, vỗ ợ hơi, massage bụng cho bé, quấy bé khi ngủ, tại môi trường ngủ yên tĩnh...Thân mến.",
+                "score": 0.6916303634643555,
+                "id": "vietnamese_medical_qa_5899",
+                "rerank_score": 0.998818576335907
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Con nhà em đến nay tròn 1 tháng tuổi. Khoảng 3-4 ngày hôm nay sau khi ăn no bé bụng phình sang 2 bên, phần bụng và gáy nóng, 15 phút sau thì bé nôn trớ hết sữa đã cho ăn (sữa nôn ra có váng nổi), bé rất khó ngủ và không sâu giấc. Vậy bác sĩ cho em hỏi làtrẻ 1 tháng tuổi nôn trớ sau ăn kèm khó ngủ có sao không?Cảm ơn bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Trẻ 1 tháng tuổi nôn trớ sau ăn kèm khó ngủ có sao không?”, bác sĩ giải đáp như sau: Nếu cữ bú nào bé cũng ọc nhiều, đặc biệt kèm sốt (khi đo nhiệt độ cơ thể bằng nhiệt kế trên 38,5 độ C) thì bạn cần đưa bé đến cơ sở y tế để thăm khám và làm xét nghiệm nếu cần. Về vấn đề giấc ngủ, 1 tháng tuổi vẫn là thời gian bé tập làm quen ngày đêm nên chị cần kiên nhẫn tập ngủ cho bé, nếu bạn thấy khó khăn trong quá trình luyện ngủ thì bạn có thể đi khám thể tư vấn thêm.",
+                "score": 0.6988825798034668,
+                "id": "medical_vietnamese_qa_5567",
+                "rerank_score": 0.9995362758636475
+            },
+            {
+                "text": "Câu hỏi: Con em được 20 ngày. Lúc sinh bé được 2kg7. Bé thường xuyên vặn mình và trớ. Mỗi lần bé trớ là rất nhiều. Bé ngủ ngày nhiều. Đêm ngủ ít. Bé bú mẹ hoàn toàn, bú xong vẫn bế bé một lúc mà lúc đặt bé xuống vẫn bị trớ ra ngoài. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn mình kèm nôn trớ phải làm thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ bú mẹ ít khi bị nôn trớ trừ trường hợp mẹ cho bú không đúng cách, thời gian bú quá gần sữa chưa tiêu hết. Do đó, bạn cần cho con bú đúng cách, không để trẻ nuốt hơi, mỗi 2.30 - 3 giờ cho trẻ bú 1 lần, bú xong giữ trẻ đầu cao 30 phút.",
+                "score": 0.690691351890564,
+                "id": "medical_vietnamese_qa_4413",
+                "rerank_score": 0.9995006322860718
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được 1 tháng rưỡi, sinh thường, bú mẹ hoàn toàn nhưng gần đây 2-3 ngày bé mới đi vệ sinh 1 lần và hay nôn trớ. Bác sĩ cho em hỏitrẻ sơ sinh ít đi ngoài hay nôn trớ là bị làm sao?Mong bác sĩ tư vấn giúp em. Em cảm ơn bác sĩ. Kim Mỹ(1992) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Đặng Thị Ngọc Chương- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu bé vẫn đi tiêu phân mềm thì 2-3 ngày mới đi tiêu là bình thường. Mẹ có thể bổ sung BIOGAIA thêm cho bé để giúp bé tiêu hóa tốt hơn, ăn ngon miệng hơn.",
+                "score": 0.7600799202919006,
+                "id": "medical_vietnamese_qa_5642",
+                "rerank_score": 0.9993153810501099
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ ạ,\nBé nhà em được 17 ngày tuổi, bé hay nôn trớ nhiều có khi trớ lên cả mũi dù sau khi cho ti em đã ôm cao tầm 20p mới đặt xuống. Bé rất hay vặn mình đỏ hết cả mặt, cứ vặn mình là bị trớ sữa. Ôm bé trên tay thì bé ít vặn, ngủ ngon nhưng đặt xuống giường là vặn mình liên tục ngủ không sâu giấc. Khi ở viện về bs có kê thuốc KiDal dặn nhỏ ngày 5 giọt, em cũng uống canxi corbiere 10ml ngày 2 ống (bé ti mẹ hoàn toàn). Do thời tiết không tốt nên em chỉ phơi nắng cho bé được 3 hôm nên em lo sợ không biết bé có bị thiếu canxi không ạ. Và bé hay đi ngoài ít ít nhưng nhiều lần trong ngày, nhiều khi bé vặn mình cũng đi són phân. Em có cho bé dùng thêm biogaia ngày 5 giọt. \nCho em hỏi tình trạng bé vặn mình, nôn trớ và đi ngoài như vậy có cách nào khắc phục k ạ? Em cảm ơn ạ.\nTrả lời: Chào bạn, với trẻ sơ sinh các hiện tượng vặn mình, trớ sữa, đi ngoài hoa cà hoa cải hay gặp do các bộ phận chưa hoàn thiện. Bạn không nên quá lo lắng. Bạn có thể khắc phục bằng cách cho bé bú nhiều bữa trong ngày, vỗ ợ hơi, massage bụng cho bé, quấy bé khi ngủ, tại môi trường ngủ yên tĩnh...Thân mến.",
+                "score": 0.708397626876831,
+                "id": "vietnamese_medical_qa_5899",
+                "rerank_score": 0.998818576335907
+            },
+            {
+                "text": "Câu hỏi: Con em gần 1 tháng. Bé hay vặn người đỏ mặt, giật mình, quấy khóc và ngủ không sâu, hay bị ọc sữa, trung bình 1 ngày chỉ có giấc ngủ trưa 12h - 2h và 22h - 1h là bé ngủ sâu, còn lại phải bồng bế hoặc ôm bé mới ngủ được nhưng vẫn hay vặn vẹo và khóc quấy. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn người, ngủ không sâu có sao không?Em cảm ơn bác sĩ. Lương Thị Tuyết Mai(1996) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Triệu Thị Hồng Thái -Khoa Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ dưới 3 tháng sẽ hay gặp vấn đề quấy khóc, hay nôn trớ, tuy nhiên không nhiều. Nếutrẻ quấy khóc, đòi bế nhiều,hay ọc sữanhiều có thể ảnh hưởng tăng cân, nguy cơ viêm đường hô hấp,... gây stress cho gia đình. Vì thế, bạn nên đưa trẻ đến bác sĩ kiểm tra, hướng dẫn hỗ trợ để trẻ vượt qua nhanh hơn.",
+                "score": 0.6829224824905396,
+                "id": "medical_vietnamese_qa_5676",
+                "rerank_score": 0.9988090991973877
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bé một tháng tuổi hay vặn mình, nôn trớ phải làm sao?\nTrả lời: Vặn mình, nôn trớ là một trong những triệu chứng rất hay gặp của các bé dưới 3 tháng tuổi. Tuy nhiên để có thể đưa ra được kết luận chính xác nhất, chị có thể đưa bé đến các bệnh viện thuộc Hệ thống Y tế Vinmec để bác sĩ thăm khám và điều trị phù hợp nhất nhé.",
+                "score": 0.7004619240760803,
+                "id": "vietnamese_healthcare_8265",
+                "rerank_score": 0.9996235370635986
+            },
+            {
+                "text": "Câu hỏi: Con nhà em đến nay tròn 1 tháng tuổi. Khoảng 3-4 ngày hôm nay sau khi ăn no bé bụng phình sang 2 bên, phần bụng và gáy nóng, 15 phút sau thì bé nôn trớ hết sữa đã cho ăn (sữa nôn ra có váng nổi), bé rất khó ngủ và không sâu giấc. Vậy bác sĩ cho em hỏi làtrẻ 1 tháng tuổi nôn trớ sau ăn kèm khó ngủ có sao không?Cảm ơn bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Trẻ 1 tháng tuổi nôn trớ sau ăn kèm khó ngủ có sao không?”, bác sĩ giải đáp như sau: Nếu cữ bú nào bé cũng ọc nhiều, đặc biệt kèm sốt (khi đo nhiệt độ cơ thể bằng nhiệt kế trên 38,5 độ C) thì bạn cần đưa bé đến cơ sở y tế để thăm khám và làm xét nghiệm nếu cần. Về vấn đề giấc ngủ, 1 tháng tuổi vẫn là thời gian bé tập làm quen ngày đêm nên chị cần kiên nhẫn tập ngủ cho bé, nếu bạn thấy khó khăn trong quá trình luyện ngủ thì bạn có thể đi khám thể tư vấn thêm.",
+                "score": 0.6956233978271484,
+                "id": "medical_vietnamese_qa_5567",
+                "rerank_score": 0.9995362758636475
+            },
+            {
+                "text": "Câu hỏi: Con em được 20 ngày. Lúc sinh bé được 2kg7. Bé thường xuyên vặn mình và trớ. Mỗi lần bé trớ là rất nhiều. Bé ngủ ngày nhiều. Đêm ngủ ít. Bé bú mẹ hoàn toàn, bú xong vẫn bế bé một lúc mà lúc đặt bé xuống vẫn bị trớ ra ngoài. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn mình kèm nôn trớ phải làm thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ bú mẹ ít khi bị nôn trớ trừ trường hợp mẹ cho bú không đúng cách, thời gian bú quá gần sữa chưa tiêu hết. Do đó, bạn cần cho con bú đúng cách, không để trẻ nuốt hơi, mỗi 2.30 - 3 giờ cho trẻ bú 1 lần, bú xong giữ trẻ đầu cao 30 phút.",
+                "score": 0.712705671787262,
+                "id": "medical_vietnamese_qa_4413",
+                "rerank_score": 0.9995006322860718
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em nay được 22 ngày tuổi.Bé hay vặn mình vào ban đêm, rặn đỏ mặt và hay nôn trớ, khóc vàkhó ngủ ban đêm. Vậy bác sĩ cho em hỏitrẻ sơ sinh hay vặn mình, nôn trớ kèm khó ngủ vào ban đêm là sao?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn hay vặn mình, nôn trớ, khóc kèm khó ngủ vào ban đêm. Với những biểu hiện như bạn mô tả có thể gặp ở trẻ sơ sinh và trẻ nhỏ, đó là hiện tượng bình thường. Nếutrẻ nôn trớ nhiều, đại tiện phân nhầy, máu nên đưa trẻ đi khám. Bạn cũng có thể kiểm tra trẻ ăn đủ lượng chưa, thay bỉm, tã nếu trẻ đi ướt bỉm, ôm ấp, vỗ về bé, đảm bảo nhiệt độ, độ ẩm phòng ngủ để đảm bảo giấc ngủ cho trẻ sơ sinh. Nếu bạn còn thắc mắc, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+                "score": 0.7145451903343201,
+                "id": "medical_vietnamese_qa_5242",
+                "rerank_score": 0.9989602565765381
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ ạ,\nBé nhà em được 17 ngày tuổi, bé hay nôn trớ nhiều có khi trớ lên cả mũi dù sau khi cho ti em đã ôm cao tầm 20p mới đặt xuống. Bé rất hay vặn mình đỏ hết cả mặt, cứ vặn mình là bị trớ sữa. Ôm bé trên tay thì bé ít vặn, ngủ ngon nhưng đặt xuống giường là vặn mình liên tục ngủ không sâu giấc. Khi ở viện về bs có kê thuốc KiDal dặn nhỏ ngày 5 giọt, em cũng uống canxi corbiere 10ml ngày 2 ống (bé ti mẹ hoàn toàn). Do thời tiết không tốt nên em chỉ phơi nắng cho bé được 3 hôm nên em lo sợ không biết bé có bị thiếu canxi không ạ. Và bé hay đi ngoài ít ít nhưng nhiều lần trong ngày, nhiều khi bé vặn mình cũng đi són phân. Em có cho bé dùng thêm biogaia ngày 5 giọt. \nCho em hỏi tình trạng bé vặn mình, nôn trớ và đi ngoài như vậy có cách nào khắc phục k ạ? Em cảm ơn ạ.\nTrả lời: Chào bạn, với trẻ sơ sinh các hiện tượng vặn mình, trớ sữa, đi ngoài hoa cà hoa cải hay gặp do các bộ phận chưa hoàn thiện. Bạn không nên quá lo lắng. Bạn có thể khắc phục bằng cách cho bé bú nhiều bữa trong ngày, vỗ ợ hơi, massage bụng cho bé, quấy bé khi ngủ, tại môi trường ngủ yên tĩnh...Thân mến.",
+                "score": 0.7420370578765869,
+                "id": "vietnamese_medical_qa_5899",
+                "rerank_score": 0.998818576335907
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

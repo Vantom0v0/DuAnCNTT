@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cháu có dự định mang thai. Bác sĩ cho cháu hỏikhi mang thai cần tiêm những loại vacxin nào?Mất bao lâu để hoàn thành? Thời gian hoàn thành mũi tiêm cuối cùng đến lúc mang thai là bao lâu? Cháu cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Nếu bạn có dự định mang thai thì nên tiêm các vaccine sau: Sởi quai bị rubella (MMR II), thủy đậu trước mang bầu ít nhất 3 tháng, tiêm bạch hầu ho gà uốn ván ( Boostrix) và tiêm cúm. Ngoài ra phải làm xét nghiệm viêm gan B, nếu chưa có kháng thể bảo vệ thì phải tiêm viêm gan B theo phác đồ 3 mũi (0-1-6). Như vậy bạn phải thu xếp tiêm 6 tháng trước mang bầu.",
+    "answer": "Các tài liệu được cung cấp không có thông tin về những loại vắc-xin cần tiêm trước hoặc trong khi mang thai, thời gian hoàn thành lịch tiêm, hay khoảng cách từ mũi cuối cùng đến khi mang thai. Vì vậy, chưa đủ thông tin để trả lời chính xác câu hỏi của cháu.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+            "score": 0.7473157048225403,
+            "id": "vietnamese_medical_qa_1629"
+        },
+        {
+            "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+            "score": 0.7418588995933533,
+            "id": "vietnamese_healthcare_7879"
+        },
+        {
+            "text": "Câu hỏi: Sữa đậu nành kỵ với thực phẩm nào?\nTrả lời: 2. Sữa đậu nành kỵ với thực phẩm nào?",
+            "score": 0.7273702621459961,
+            "id": "vietnamese_healthcare_38886"
+        },
+        {
+            "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+            "score": 0.7255800366401672,
+            "id": "vietnamese_healthcare_2290"
+        },
+        {
+            "text": "Câu hỏi: Nếu là nữ: bạn đã bao giờ bị chẩn đoán ĐTĐ thai kỳ chưa?\nTrả lời: 3. Nếu là nữ: bạn đã bao giờ bị chẩn đoán ĐTĐ thai kỳ chưa?\nKhông Có 0 điểm 1 điểm",
+            "score": 0.725213885307312,
+            "id": "vietnamese_healthcare_68044"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

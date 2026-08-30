@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cho em hỏi mẹ em giờ bị ung thư hạch dưới nách mà xét nghiệm ác tính. Em giờ không có điều kiện để chữa trị, chỉ uống thuốc nam thôi mà tay mẹ em giờ ngày càng sưng phù. Cho em hỏiung thư hạch dưới nách, tay sưng phù phải làm sao? Bùi Hồng Nhung (1968) Trả lời",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Theo thông tin bạn cung cấp có thể mẹ bạnphù tay dạng phù bạch mạchdo các hạch lớn làm chèn ép, tắc nghẽn bạch mạch cánh tay. Đề giảm sưng phù cần phải tái lập lưu thông mạch bạch huyết vùng này, điều này tương đối khó nếu không có điều trị đặc hiệu đối vớiung thư hạch. Các biện pháp giảm phù một phần nhưmát - xahoặcbăng ép.  Được giải đáp bởiBác sĩ chuyên khoa I Lê Thiện Quang- Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+    "answer": "Với thông tin mẹ bạn đã được xét nghiệm xác định hạch ác tính và tay ngày càng sưng phù, tài liệu không có đủ thông tin để xác định nguyên nhân của tình trạng sưng hoặc hướng điều trị cụ thể. Hạch nách đôi khi liên quan đến bệnh lý nghiêm trọng như ung thư, vì vậy gia đình nên đưa mẹ đến cơ sở y tế uy tín, khám bác sĩ chuyên khoa và thực hiện các xét nghiệm cần thiết để được đánh giá, chẩn đoán và tư vấn phương pháp điều trị phù hợp; không nên chỉ dựa vào thuốc nam khi chưa có hướng dẫn của bác sĩ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em để ý thấy vùng nách bị nổi hạch. Em đang lo lắng không biết mình bị làm sao ạ, mong bác sĩ tư vấn giúp em.\nem xin cảm ơn.\nNguyễn Thị Xuân Mai (2002)\nChào bác sĩ. Ở nách cháu có nổi 1 hạch nhỏ ở dưới da nó không hiện lên và như 1 hạt đậu nhỏ vậy? Tại sao ạ? Mong bác sĩ tư vấ giúp cháu. Cháu cảm ơn.\nChào bác sĩ. Bác sĩ ơi cho em hỏi là nách em bị nổi hạch sưng nhức thì bị bệnh gì hả bác sĩ? Mong bác sĩ tư vấn ạ. Em cảm ơn.\nLê Thị Thắm (1998)\nChào bác sĩ. Ở nách trái của cháu nổi nốt nhỏ như đầu đũa đã được 10 ngày. Nhưng lại không đau, không to hơn, không ngứa,... không có bất cứ triệu chứng gì, nó như một cục thịt thừa vậy. Nên cháu muốn hỏi bác sĩ là bị làm sao ạ? Cháu cảm ơn!\nTrần Thị Ngân (2002)\nChào bác sĩ, dạo gần đây em bị nổi mấy cục hạch ở nách, bác sĩ cho em hỏi nổi hạch ở nách không rõ nguyên nhân nên làm gì ạ? Cảm ơn bác sĩ tư vấn\nTrả lời: Chào bạn.\nHạch là một tổ chức Lympho (liên võng nội mô), nằm rải rác nhiều vị trí khác nhau trong cơ thể, từ trong phủ tạng, ổ bụng cho tới các phần mềm dưới da. Hạch đóng một vai trò đáng kể trong phòng chống bệnh tật, nhất là các bệnh nhiễm khuẩn.\nTrường hợp hạch mọc ở nách có thể là phản ứng tự nhiên của cơ thể do viêm (Hạch lành tính có tác dụng sản sinh đề kháng để chống lại các nguyên nhân gây bệnh), chúng có thể mất đi tự nhiên mà không cần điều trị hay tác động vào. Nhưng đôi khi có thể là cảnh báo cho các bệnh nguy hiểm, không phải do viêm mà do mắc các bệnh lý liên quan tới bạch cầu, ung thư vú ....\nVì vậy bạn nên đến cơ sở y tế uy tín, bác sĩ chuyên khoa để làm một số các xét nghiệm kiểm tra, thăm khám và tư vấn.",
+            "score": 0.6124066114425659,
+            "id": "vietnamese_medical_qa_3877"
+        },
+        {
+            "text": "Câu hỏi: Cháu bị sưng 1 cục hạch nách trái nó nhức và đau khi cháu cử động, nó đỏ lên nữa ạ. Bác sĩ cho cháu hỏinổi hạch nách trái, đỏ và đau nhức có nguy hiểm không?Bác sĩ cho cháu lời tư vấn ạ. Cháu xin cảm ơn.  Bài trắc nghiệm dưới đây giúp bạn hiểu phần nào vai trò và chức năng của hạch bạch huyết. Bài dịch từ: webmd.com Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Thiện Quang- Bác sĩ Nội ung bướu - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng Chào em, Với câu hỏi“Nổi hạch nách trái, đỏ và đau nhức có nguy hiểm không?”,\nTrả lời: bác sĩ xin giải đáp như sau: Theo tính chất em mô tả thì hạch nách của em khả năng là hạch viêm. Trường hợp viêm lan rộng, sốt cần điều trị kháng sinh, em nên đi khám để bác sĩ tư vấn và có phương thức điều trị phù hợp. Nếu em còn thắc mắc về việcnổi hạch nách trái, em có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn em đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc em có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.5849802494049072,
+            "id": "medical_vietnamese_qa_12444"
+        },
+        {
+            "text": "Câu hỏi: Trẻ mọc hạch dưới cằm có nguy hiểm không?\nTrả lời: Bé bao nhiêu tuổi?Hạch dưới cằm của bé kích thước lớn hay nhỏ?Có phải bé đã được khám và chẩn đoán lao hạch không?Mà mẹ lại hỏi lao hạch?Có 1 số hạch phản ứng của cơ thể là bình thường chứ không gọi là lao hạch. Thông tin mẹ cung cấp chưa rõ ràng nên bác sĩ không tư vấn cụ thể được. Trong trường hợp bé chưa khám lần nào thì mẹ nên cho bé đi khám nhé.",
+            "score": 0.5790349841117859,
+            "id": "vietnamese_healthcare_7608"
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ! Em bị bệnh lý tuyến giáp từ nhỏ, cổ bị sưng phồng và đã đi khám nhiều nơi, cũng như được bác sĩ chẩn đoán bị viêm tuyến giáp/sưng tuyến giáp. Vậy điều trị bằng thuốc có giảm sưng do viêm tuyến giáp không? cũng như cần điều trị là bao lâu? Mong bác sĩ giải đáp giúp, xin cảm ơn!\nTrả lời: Chào bạn, đối với câu hỏi: Điều trị bằng thuốc có giảm sưng do viêm tuyến giáp không? bác sĩ xin được trả lời như sau:",
+            "score": 0.5756285190582275,
+            "id": "vietnamese_medical_qa_2589"
+        },
+        {
+            "text": "Câu hỏi: Đánh giá tình trạng men gan cao qua chỉ số xét nghiệm máu? Men gan tăng cao có nguy cơ ung thư gan không?\nTrả lời: Mẹ cháu bị tăng men gan, có rất nhiều nguyên nhân gây tăng men gan. Cháu nên đưa mẹ đi khám bác sĩ gan mật ngay để được tìm nguyên nhân. Tùy theo thể trạng của người bệnh, chẩn đoán mà bác sĩ đưa ra phương pháp điều trị phù hợp.",
+            "score": 0.5731840133666992,
+            "id": "vietnamese_healthcare_6225"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

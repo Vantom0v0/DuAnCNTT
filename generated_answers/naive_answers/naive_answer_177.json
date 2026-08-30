@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "! Em đã tiêm mũi 5in1 của Ấn Độ cho bé lúc 2,5 tháng tuổi. Bây giờ con em được 3,5 tháng tuổi nặng 7,5kg, em muốn tiêm dịch vụ mũi 5in1 lần 2 hoặc 6in1 để bé đỡ sốt hơn. Vậy bác sĩ cho em hỏibé đã tiêm 5in1 của Ấn Độ có tiêm dịch vụ mũi 5in1 hoặc 6in1 được không? Rất mong bác sĩ tư vấn, em cảm ơn! Câu hỏi ẩn danh Trả lời",
+    "ground_truth": "Chào bạn! Với câu hỏi “Bé đã tiêm 5in1 của Ấn Độ có tiêm dịch vụ mũi 5in1 hoặc 6in1 được không?”, bác sĩ xin giải đáp như sau: Bé nhà bạn đã tiêm mũi 5in1 của Ấn Độ lúc 2,5 tháng thì lúc 3,5 tháng bé có thể chuyển sang tiêm vắc-xin 5in1 hoặc 6in1 của Bỉ hoặc của Pháp được. Khi đó bé không cần phải uống vắc-xin ngừa bại liệt nữa. Nếu tiêm vắc-xin 5in1 (của Pháp hoặc Bỉ) thì bé cần tiêm thêm 1 mũi viêm gan B (do vắc-xin 5in1 của Pháp và Bỉ không chứa thành phần viêm gan B), còn nếu tiêm vắc-xin 6in1 thì không cần tiêm thêm vắc xin viêm gan B nữa.  Được giải đáp bởiThạc sĩ, Bác sĩ Đoàn Ngọc Quỳnh -Bác sĩ Nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+    "answer": "Bé 3,5 tháng vẫn thuộc độ tuổi được chỉ định tiêm vắc-xin 5 trong 1 hoặc 6 trong 1 (dưới 24 tháng). Tuy nhiên, tài liệu cung cấp không đủ thông tin để khẳng định cụ thể việc chuyển từ vắc-xin 5 trong 1 của Ấn Độ sang loại 5 trong 1 hoặc 6 trong 1 dịch vụ, cũng như không có thông tin cho rằng đổi vắc-xin sẽ giúp bé ít sốt hơn. Vì vậy, em nên đưa bé đến cơ sở tiêm chủng để bác sĩ kiểm tra loại vắc-xin đã tiêm, lịch tiêm và tư vấn loại phù hợp; chỉ tiêm khi bé khỏe, không mắc bệnh cấp tính hoặc sốt.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Hiện tại con em được 33 tháng tuổi. Do bé ốm suốt nên chưa tiêm được mũi 5 in 1 nào. Hiện giờ sức khỏe cháu đã ổn định. Bác sĩ cho em hỏi,trẻ 33 tháng tuổi tiêm vắc-xin 5 in 1 được không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ trên 2 tuổi không có chỉ định tiêmvắc-xin 5 in 1hoặc vắc-xin 6 in 1. Vì vậy, khi trẻ được 4 tuổi sẽ tiêm vắc-xin DPT, có tác dụng phòng 3 bệnh truyền nhiễm: Bạch hầu – Ho gà – Uốn ván hấp phụ.",
+            "score": 0.745044469833374,
+            "id": "medical_vietnamese_qa_13136"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em tiêm đúng 3 mũi 6in1 nhưng mũi nhắc lại 18 tháng thì hết 6in1 nên em tiêm cho bé mũi 5in1 của nhà nước tiêm chủng mở rộng và có uống thêm bại liệt. Vậy bác sĩ cho em hỏitrẻ tiêm 3 mũi 6in1 và mũi 5in1 có ảnh hưởng gì?Em có nên tiêm thêm 6in1 cho bé khi bé 38 tháng tuổi không? Em cảm ơn bác sĩ. Ngọc Hân(1996) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Đoàn Ngọc Quỳnh- Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Mũi 6in1 nhắc lại lúc 18 tháng được thay thế bằng vắc xin 5in1 theo chương trình tiêm chủng mở rộng (phòng bạch hầu, ho gà, uốn ván, viêm gan B và Hib) thì có hiệu quả phòng 5 bệnh này. Riêng uống thêm liều bại liệt thì không đủ hiệu quả phòng bệnh bại liệt, bạn chỉ cần cho bé đi tiêm bổ sung 1 liều vắc xin phòng bại liệt (IPV) là được. Khi bé được 4 - 6 tuổi bạn cho bé đi tiêm mũi nhắc lại vắc xin 4in1 phòng 4 bệnh bạch hầu, ho gà, uốn ván, bại liệt.",
+            "score": 0.7277643084526062,
+            "id": "medical_vietnamese_qa_12845"
+        },
+        {
+            "text": "Câu hỏi: ! Con tôi tiêm đủ 3mũi 6in1, đến hẹn tiêm nhắc lần 4 thì hết thuốc, ở các phòng khám gần đó cũng không còn nên tôi đưa con tôi về trạm y tế để tiêm DPT trong chương trình tiêm chủng thì được tư vấn và tiêm nhắc bằng mũi 5in1 SII do DPT đã hết. Nay đọc bài viết ở đây tôi mới biết là chỉ tiêm được cho trẻ dưới 24 tháng. Xin hỏi bác sĩ,trẻ tiêm 3 mũi 6in1 chuyển sang tiêm nhắc lại bằng mũi 5in1 có sao không?Mong nhận được phản hồi sớm của bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Thông tin kê toa củavắc-xin 6in1vàvắc-xin 5in1chỉ cho phép tiêm cho trẻ dưới 24 tháng tuổi do nhà sản xuất chưa tiến hành nghiên cứu thử nghiệm trên đối tượng >24 tháng tuổi. Tuy nhiên, quan sát các bé >24 tháng tuổi đã “lỡ” tiêm thì chưa thấy tác dụng phụ gì nghiêm trọng. Do đó, bạn không nên quá lo lắng. Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Trẻ tiêm 3 mũi 6in1 chuyển sang tiêm nhắc lại bằng mũi 5in1 có sao không?”tớiHệ thống Y tế Vinmec.Chúc con bạn luôn có sức khỏe tốt. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Bảo Toàn- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.7129573225975037,
+            "id": "medical_vietnamese_qa_13493"
+        },
+        {
+            "text": "Câu hỏi: Con em được 25 tháng rưỡi nhưngbé chưa tiêm nhắc lại mũi 5in1. Vậy bác sĩ cho em hỏitrẻ hơn 2 tuổi chưa tiêm nhắc lại 5in1 có tiêm lại được không?Tiêm như vậy có tác dụng gì không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin 5 trong 1(và 6 trong 1) được chỉ định cho trẻ dưới 2 tuổi. Hiện nay, con bạn 25,5 tháng, nếu chưa tiêm mũi 4 của 1 trong 2 loại trên thì bạn cho bé nhanh chóng đi tiêm mũi 4 trong 1 để phòng bệnhbạch hầu- ho gà- uốn ván- bại liệt. Bạn có thể đưa bé đến thăm khám bác sĩ để được tư vấn tiêm chủng một cách tốt nhất.",
+            "score": 0.7113118767738342,
+            "id": "medical_vietnamese_qa_13284"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em còn 4 ngày nữa đủ 2 tháng. Bác sĩ cho em hỏitrẻ 2 tháng tuổi có thể tiêm 6in1 được không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Vacxin 6in1 hiện có 2 loại, Hexaxim có thể tiêm từ 6 tuần tuổi, còn Infanrix hexa thì từ 2 tháng tuổi trở lên. Nếu bác sĩ cho bé tiêm Hexaxim thì vẫn được. Các mũi tiêm dành cho trẻ dưới 12 tháng gồm có: 6in1, Phế cầu, Rota uống, Cúm, Não mô cầu BC, Não mô cầu ACYW, Sởi, Viêm não Nhật Bản. Lưu ý khi đi tiêm phòng: Bé không đang mắc các bệnh lý cấp tính, không sốt. Sau tiêm cần theo dõi sưng đau chỗ tiêm, nổi mẩn, sốt,...",
+            "score": 0.7063732743263245,
+            "id": "medical_vietnamese_qa_12778"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,120 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tôi 48 tuổi hiện tại đang bị cao huyết áp 140/90mmHg và bị rối loạn tuần hoàn máu não đã 3 năm. Tôi sử dụng thuốc mỗi ngày. Ngoài ra, tôi không có bệnh lý gì khác. Bác sĩ tư vấn giúp tôi có thể tiêm vaccine ngừa Covid-19 được không?",
+    "ground_truth": "Anh bị cao huyết áp với 140/90mmHg và bị rối loạn tuần hoàn đa 3 năm vẫn đang sử dụng thuốc mỗi ngày, trong vòng 3 tháng gần đây tình trạng bệnh của anh không có tiến triển thêm thì anh vẫn tiêm được vaccine Covid-19.",
+    "answer": "Anh/chị có thể tiêm vaccine Covid-19 nếu tình trạng cao huyết áp và rối loạn tuần hoàn máu não đã được điều trị ổn định trong ít nhất 3 tháng, không phải thay đổi đáng kể phác đồ hoặc nhập viện; tuy nhiên, đây là nhóm cần thận trọng nên tiêm tại bệnh viện hoặc cơ sở y tế có đủ năng lực cấp cứu ban đầu. Nếu bệnh chưa ổn định hoặc đang tiến triển thì cần hoãn tiêm. Do thông tin hiện tại chưa đủ xác định mức độ ổn định, anh/chị nên khám và tham khảo bác sĩ điều trị trước khi tiêm, đồng thời thông báo đầy đủ về các bệnh đang mắc và thuốc sử dụng.",
+    "evidence": [
+        "Trả lời: Trường hợp của anh/chị với bệnh lý nền đã ổn định hơn 3 tháng, không phải thay đổi phác đồ điều trị hoặc không phải nhập viện thì có thể tiêm được vaccine Covid-19 bình thường.",
+        "Trả lời: Theo Quyết định 2995/QĐ BYT ngày 18/6/2021 của Bộ Y tế, trường hợp có tiền sử bệnh lý nền, bệnh lý mạn tính.",
+        "đã được điều trị ổn định vẫn tiêm phòng vaccine Covid-19.",
+        "Tuy nhiên, anh/chị thuộc nhóm cần cẩn trọng khi tiêm chủng, cần tiêm chủng tại bệnh viện hoặc cơ sở y tế đủ năng lực cấp cứu ban đầu.",
+        "Khi khám anh/chị hãy thông báo cho bác sĩ về bệnh lý mà anh/chị mắc phải cũng như tiền sử và mức độ dị ứng để bác sĩ có thể đánh giá tình trạng sức khỏe của anh/chị và chỉ định tiêm chủng an toàn.",
+        "Trả lời: Nếu bệnh tiền định, huyết áp cao… của anh/chị chưa ổn định, còn đang tiến triển thì cần hoãn tiêm chủng.",
+        "Để đảm bảo an toàn trong việc tiêm vaccine Covid-19, anh/chị nên thăm khám, đánh giá và tham khảo ý kiến của bác sĩ điều trị về tình trạng các bệnh lý nền đang mắc phải trước khi tiến hành tiêm vaccine.",
+        "Đồng thời anh/chị nên tiêm vaccine Covid-19 tại khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+        "Trả lời: Trường hợp của anh/chị có bệnh nền cao huyết áp đã được điều trị ổn định, tuy nhiên do anh/chị có dị ứng thuốc kháng sinh và không cho biết mức độ dị ứng của các loại kháng sinh này như thế nào?Nếu mức độ dị ứng của anh/chị phải nhập viện để điều trị ở mức độ là độ 2, theo QĐ-2995 của Bộ Y tế thì đây là trường hợp chống chỉ định tiêm vaccine Covid-19.",
+        "Còn nếu chỉ dị ứng nhẹ nhàng sau đó tự khỏi hay chỉ điều trị tại nhà, thì anh/chị vẫn có thể tiêm ngừa nhưng nên tiêm tại bệnh viện hay các cơ sở có đủ điều kiện cấp cứu ban đầu.",
+        "Nếu các bệnh lý mãn tính đã ổn định trong vòng 3 tháng trước khi tiêm chủng (có nghĩa là bệnh không cần thay đổi điều trị đáng kể hoặc nhập viện vì bệnh lý nặng hơn), các chỉ số xét nghiệm duy trì ở mức độ ổn, anh hoàn toàn có thể tiêm được vaccine phòng Covid-19.",
+        "Trả lời: Theo các thông tin liên quan sức khỏe mô tả thì anh/chị có nhiều bệnh nền kết hợp, trong trường hợp các bệnh lý nền đều có dùng thuốc điều trị có kiểm soát tốt ổn định trong vòng 3 tháng qua, anh/chị không nhập viện thay đổi phác đồ điều trị thì vẫn đủ điều kiện tiêm vaccine Covid-19."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Tôi bị rối loạn tiền đình (hay chóng mặt), cao huyết áp. Hiện tôi đang uống thuốc theo toa của bác sĩ chỉ định. Tình trạng bệnh ổn định khi uống thuốc đầy đủ. Vậy xin hỏi trường hợp của tôi có tiêm vaccine Covid-19 được không? Sau khi tiêm vaccine xong, thì có tạm ngưng uống thuốc không?\nTrả lời: Trường hợp của anh/chị với bệnh lý nền đã ổn định hơn 3 tháng, không phải thay đổi phác đồ điều trị hoặc không phải nhập viện thì có thể tiêm được vaccine Covid-19 bình thường.",
+                "score": 0.6590288281440735,
+                "id": "vietnamese_healthcare_5707",
+                "rerank_score": 0.9985702037811279
+            },
+            {
+                "text": "Câu hỏi: Tôi bị huyết áp cao đã ổn định trên 8 năm do uống thuốc huyết áp của bệnh viện điều trị. Cách đây khoảng 5 năm, tôi bị dị ứng với kháng sinh. Mỗi lần cần dùng kháng sinh khi điều tri bệnh, bác sĩ thường cho tôi dùng thuốc hoặc các kháng sinh khác (trừ các loại dị ứng) và tôi đều bình thường. Ngoài ra, tôi không bị bệnh gì khác, thường xuyên luyện tập thể thao vừa với sức khỏe. Tôi cân nặng 53,5 kg và cao 1,56m. Xin bác sĩ tư vấn giúp, tôi có tiêm vaccine AstraZeneca được không và khi tiêm nên lưu ý vấn đề gì? Nếu không được tiêm vaccine AstraZeneca thì loại vaccine nào phù hợp với tôi?\nTrả lời: Trường hợp của anh/chị có bệnh nền cao huyết áp đã được điều trị ổn định, tuy nhiên do anh/chị có dị ứng thuốc kháng sinh và không cho biết mức độ dị ứng của các loại kháng sinh này như thế nào?Nếu mức độ dị ứng của anh/chị phải nhập viện để điều trị ở mức độ là độ 2, theo QĐ-2995 của Bộ Y tế thì đây là trường hợp chống chỉ định tiêm vaccine Covid-19. Còn nếu chỉ dị ứng nhẹ nhàng sau đó tự khỏi hay chỉ điều trị tại nhà, thì anh/chị vẫn có thể tiêm ngừa nhưng nên tiêm tại bệnh viện hay các cơ sở có đủ điều kiện cấp cứu ban đầu. Hiện tại, nhà nước đang triển khai tiêm vaccine Covid-19 của Astrazeneca và với loại vaccine này anh/chị vẫn tiêm được theo khuyến cáo ở trên.",
+                "score": 0.6572635173797607,
+                "id": "vietnamese_healthcare_8770",
+                "rerank_score": 0.9972188472747803
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyết áp, đang uống thuốc và huyết áp đang ổn định. Tôi bị dị ứng với thuốc kháng viêm, dị ứng hải sản. Xin hỏi bác sĩ, tôi có nên tiêm vaccine ngừa Covid-19 không?\nTrả lời: Theo Quyết định 2995/QĐ BYT ngày 18/6/2021 của Bộ Y tế, trường hợp có tiền sử bệnh lý nền, bệnh lý mạn tính. . . đã được điều trị ổn định vẫn tiêm phòng vaccine Covid-19.",
+                "score": 0.6381068229675293,
+                "id": "vietnamese_healthcare_6228",
+                "rerank_score": 0.9932065010070801
+            },
+            {
+                "text": "Câu hỏi: Tôi có bệnh trầm cảm, rối loạn lo âu 15 năm thuộc thể nặng nên hàng ngày phải uống 3 vào sáng, chiều, tối mới chịu được. Ngoài ra tôi dị ứng thuốc, dị ứng với rau muống (nhiều lần ăn rau muống xong bị ngộ độc, mấy năm nay không ăn nữa thì không sao). Ngoài ra khám sức khỏe tổng quát cách đây 2 tháng thì có chỉ số mỡ máu 430. Vậy tôi có nên tiêm vaccine để ngừa Covid-19 không?\nTrả lời: Với tình trạng bệnh lý của anh/chị, nếu đã điều trị ổn định vẫn có thể tiêm chủng vaccine Covid-19. Tuy nhiên, anh/chị thuộc nhóm cần cẩn trọng khi tiêm chủng, cần tiêm chủng tại bệnh viện hoặc cơ sở y tế đủ năng lực cấp cứu ban đầu. Khi khám anh/chị hãy thông báo cho bác sĩ về bệnh lý mà anh/chị mắc phải cũng như tiền sử và mức độ dị ứng để bác sĩ có thể đánh giá tình trạng sức khỏe của anh/chị và chỉ định tiêm chủng an toàn.",
+                "score": 0.639263391494751,
+                "id": "vietnamese_healthcare_4441",
+                "rerank_score": 0.9922377467155457
+            },
+            {
+                "text": "Câu hỏi: Tôi hiện đang điều trị bệnh tiền đình, thần kinh rối loạn giấc ngủ, âu lo, huyết áp cao. Vậy tôi có tiêm vaccine phòng Covid-19 được không?\nTrả lời: Nếu bệnh tiền định, huyết áp cao… của anh/chị chưa ổn định, còn đang tiến triển thì cần hoãn tiêm chủng.",
+                "score": 0.6632856726646423,
+                "id": "vietnamese_healthcare_8727",
+                "rerank_score": 0.9792440533638
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị rối loạn tiền đình (hay chóng mặt), cao huyết áp. Hiện tôi đang uống thuốc theo toa của bác sĩ chỉ định. Tình trạng bệnh ổn định khi uống thuốc đầy đủ. Vậy xin hỏi trường hợp của tôi có tiêm vaccine Covid-19 được không? Sau khi tiêm vaccine xong, thì có tạm ngưng uống thuốc không?\nTrả lời: Trường hợp của anh/chị với bệnh lý nền đã ổn định hơn 3 tháng, không phải thay đổi phác đồ điều trị hoặc không phải nhập viện thì có thể tiêm được vaccine Covid-19 bình thường.",
+                "score": 0.7027194499969482,
+                "id": "vietnamese_healthcare_5707",
+                "rerank_score": 0.9985702037811279
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyết áp, rung nhĩ cơn, mỡ máu, xin hỏi tôi muốn tiêm vacccine ngừa Covid-19 có được không?\nTrả lời: Theo các thông tin liên quan sức khỏe mô tả thì anh/chị có nhiều bệnh nền kết hợp, trong trường hợp các bệnh lý nền đều có dùng thuốc điều trị có kiểm soát tốt ổn định trong vòng 3 tháng qua, anh/chị không nhập viện thay đổi phác đồ điều trị thì vẫn đủ điều kiện tiêm vaccine Covid-19. Để đảm bảo an toàn trong việc tiêm vaccine Covid-19, anh/chị nên thăm khám, đánh giá và tham khảo ý kiến của bác sĩ điều trị về tình trạng các bệnh lý nền đang mắc phải trước khi tiến hành tiêm vaccine. Đồng thời anh/chị nên tiêm vaccine Covid-19 tại khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6924503445625305,
+                "id": "vietnamese_healthcare_1630",
+                "rerank_score": 0.9982210993766785
+            },
+            {
+                "text": "Câu hỏi: Tôi bị huyết áp cao đã ổn định trên 8 năm do uống thuốc huyết áp của bệnh viện điều trị. Cách đây khoảng 5 năm, tôi bị dị ứng với kháng sinh. Mỗi lần cần dùng kháng sinh khi điều tri bệnh, bác sĩ thường cho tôi dùng thuốc hoặc các kháng sinh khác (trừ các loại dị ứng) và tôi đều bình thường. Ngoài ra, tôi không bị bệnh gì khác, thường xuyên luyện tập thể thao vừa với sức khỏe. Tôi cân nặng 53,5 kg và cao 1,56m. Xin bác sĩ tư vấn giúp, tôi có tiêm vaccine AstraZeneca được không và khi tiêm nên lưu ý vấn đề gì? Nếu không được tiêm vaccine AstraZeneca thì loại vaccine nào phù hợp với tôi?\nTrả lời: Trường hợp của anh/chị có bệnh nền cao huyết áp đã được điều trị ổn định, tuy nhiên do anh/chị có dị ứng thuốc kháng sinh và không cho biết mức độ dị ứng của các loại kháng sinh này như thế nào?Nếu mức độ dị ứng của anh/chị phải nhập viện để điều trị ở mức độ là độ 2, theo QĐ-2995 của Bộ Y tế thì đây là trường hợp chống chỉ định tiêm vaccine Covid-19. Còn nếu chỉ dị ứng nhẹ nhàng sau đó tự khỏi hay chỉ điều trị tại nhà, thì anh/chị vẫn có thể tiêm ngừa nhưng nên tiêm tại bệnh viện hay các cơ sở có đủ điều kiện cấp cứu ban đầu. Hiện tại, nhà nước đang triển khai tiêm vaccine Covid-19 của Astrazeneca và với loại vaccine này anh/chị vẫn tiêm được theo khuyến cáo ở trên.",
+                "score": 0.6705614328384399,
+                "id": "vietnamese_healthcare_8770",
+                "rerank_score": 0.9972188472747803
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyết áp, đang uống thuốc và huyết áp đang ổn định. Tôi bị dị ứng với thuốc kháng viêm, dị ứng hải sản. Xin hỏi bác sĩ, tôi có nên tiêm vaccine ngừa Covid-19 không?\nTrả lời: Theo Quyết định 2995/QĐ BYT ngày 18/6/2021 của Bộ Y tế, trường hợp có tiền sử bệnh lý nền, bệnh lý mạn tính. . . đã được điều trị ổn định vẫn tiêm phòng vaccine Covid-19.",
+                "score": 0.6789136528968811,
+                "id": "vietnamese_healthcare_6228",
+                "rerank_score": 0.9932065010070801
+            },
+            {
+                "text": "Câu hỏi: Tôi 59 tuổi, hiện có bệnh lý nền: huyết áp, tim mạch và tiểu đường hơn 12 năm nay. Tôi vẫn đang điều trị dài hạn và dùng thuốc ổn định các chỉ số huyết áp, tiểu đường... Sắp tới, cơ quan tôi tổ chức tiêm vaccine Covid-19, vì vậy tôi muốn được tư vấn có thể tiêm chủng vaccine này được không? Nếu được tiêm thì tôi cần lưu ý những gì?\nTrả lời: Với tình trạng bệnh lý nền của anh nên đi kiểm tra lại với bác sĩ chuyên khoa một lần nữa để đánh giá các chỉ số đã ổn định hay chưa. Nếu các bệnh lý mãn tính đã ổn định trong vòng 3 tháng trước khi tiêm chủng (có nghĩa là bệnh không cần thay đổi điều trị đáng kể hoặc nhập viện vì bệnh lý nặng hơn), các chỉ số xét nghiệm duy trì ở mức độ ổn, anh hoàn toàn có thể tiêm được vaccine phòng Covid-19.",
+                "score": 0.6676817536354065,
+                "id": "vietnamese_healthcare_4237",
+                "rerank_score": 0.9881938695907593
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị rối loạn tiền đình (hay chóng mặt), cao huyết áp. Hiện tôi đang uống thuốc theo toa của bác sĩ chỉ định. Tình trạng bệnh ổn định khi uống thuốc đầy đủ. Vậy xin hỏi trường hợp của tôi có tiêm vaccine Covid-19 được không? Sau khi tiêm vaccine xong, thì có tạm ngưng uống thuốc không?\nTrả lời: Trường hợp của anh/chị với bệnh lý nền đã ổn định hơn 3 tháng, không phải thay đổi phác đồ điều trị hoặc không phải nhập viện thì có thể tiêm được vaccine Covid-19 bình thường.",
+                "score": 0.6717804074287415,
+                "id": "vietnamese_healthcare_5707",
+                "rerank_score": 0.9985702037811279
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyết áp, rung nhĩ cơn, mỡ máu, xin hỏi tôi muốn tiêm vacccine ngừa Covid-19 có được không?\nTrả lời: Theo các thông tin liên quan sức khỏe mô tả thì anh/chị có nhiều bệnh nền kết hợp, trong trường hợp các bệnh lý nền đều có dùng thuốc điều trị có kiểm soát tốt ổn định trong vòng 3 tháng qua, anh/chị không nhập viện thay đổi phác đồ điều trị thì vẫn đủ điều kiện tiêm vaccine Covid-19. Để đảm bảo an toàn trong việc tiêm vaccine Covid-19, anh/chị nên thăm khám, đánh giá và tham khảo ý kiến của bác sĩ điều trị về tình trạng các bệnh lý nền đang mắc phải trước khi tiến hành tiêm vaccine. Đồng thời anh/chị nên tiêm vaccine Covid-19 tại khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6634007096290588,
+                "id": "vietnamese_healthcare_1630",
+                "rerank_score": 0.9982210993766785
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyếp áp, rối loạn giấc ngủ, đặt một stent mạch vành được 7 tháng. Hiện, tôi đang uống thuốc bệnh viện, có thể tiêm vaccine Covid-19 không? Tôi nặng 53 kg.\nTrả lời: Với tình trạng bệnh lý như anh mô tả và có kết luận của bác sĩ chuyên khoa rằng sức khỏe của anh ổn định thì vẫn có thể tiêm vaccine Covid-19 được.",
+                "score": 0.6452909708023071,
+                "id": "vietnamese_healthcare_5375",
+                "rerank_score": 0.9960518479347229
+            },
+            {
+                "text": "Câu hỏi: Tôi hiện có bệnh nền rối loạn miễn dịch, đang uống thuốc điều trị. Sau khi uống thuốc điều trị, tình trạng bệnh có tiến triển tốt. Tôi xin hỏi trường hợp của tôi có thể chích vaccine ngừa Covid-19 không?\nTrả lời: Chị có bệnh nền rối loạn miễn dịch, đang sử dụng thuốc, nhưng chị không nói rõ bệnh gì và liều thuốc như thế nào?Mức độ rối loạn miễn dịch nhưng không rõ bệnh bẩm sinh hay bệnh mắc phải, có nhiều nguyên nhân gây rối loạn miễn dịch, trong đó kể đến là suy giảm miễn dịch. Chị cần cung cấp đầy đủ hồ sơ cũng như thông tin về bệnh, thuốc điều trị và diễn biến của bệnh để bác sĩ khám sàng lọc trước tiêm sẽ đánh giá và quyết định có được tiêm chủng hay không. Tốt nhất là chị nên được tiêm chủng trong bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6602739691734314,
+                "id": "vietnamese_healthcare_8630",
+                "rerank_score": 0.9822694063186646
+            },
+            {
+                "text": "Câu hỏi: Tôi hiện đang điều trị bệnh tiền đình, thần kinh rối loạn giấc ngủ, âu lo, huyết áp cao. Vậy tôi có tiêm vaccine phòng Covid-19 được không?\nTrả lời: Nếu bệnh tiền định, huyết áp cao… của anh/chị chưa ổn định, còn đang tiến triển thì cần hoãn tiêm chủng.",
+                "score": 0.6837883591651917,
+                "id": "vietnamese_healthcare_8727",
+                "rerank_score": 0.9792440533638
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Bé gái 7 tuổi đau 2 vú có phải dậy thì? Nên làm thế nào trong trường hợp trẻ dậy thì sớm?",
+    "ground_truth": "Trường hợp bé gái có tuyến vú lúc 7 tuổi là sớm so với tuổi. Bé cần được khám chuyên khoa nội tiết nhi để làm xét nghiệm: định lượng nồng độ nội tiết LH, FSH và E2 trong máu, ngoài ra xét nghiệm siêu âm tử cung, buồng trứng và chụp tuổi xương. Em đã khám rồi với chẩn đoán như vậy sau khi đã làm xét nghiệm. Nếu chưa em có thể cho cháu đến khám PGS. Huỳnh Thoại Loan thuộc bệnh viện Hệ thống Y tế Vinmec để có những đánh giá chính xác cũng như tư vấn thêm về trường hợp bé gái 7 tuổi đau 2 vú có phải dậy thì? Nên làm thế nào trong trường hợp trẻ dậy thì sớm?",
+    "answer": "Bé gái 7 tuổi đau hoặc căng hai vú có thể là dấu hiệu tuyến vú bắt đầu phát triển, nhưng chỉ đau vú đơn thuần chưa đủ khẳng định dậy thì sớm. Ở bé gái, dậy thì trước 8 tuổi được xem là dậy thì sớm; cần chú ý thêm các biểu hiện như vú to nhanh, mọc lông mu/lông nách, khí hư, thay đổi cơ quan sinh dục, tăng trưởng nhanh hoặc kinh nguyệt. Gia đình nên đưa bé khám chuyên khoa Nội tiết nhi để bác sĩ đánh giá, làm xét nghiệm cần thiết và phân biệt dậy thì sớm với tình trạng phát triển tuyến vú lành tính; nếu xác định dậy thì sớm tiến triển, bác sĩ sẽ tư vấn biện pháp can thiệp phù hợp, không tự ý dùng thuốc hay hormone.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Đau 2 đầu vú có phải biểu hiện dậy thì sớm? Cần làm gì để chậm quá trình dậy thì?\nTrả lời: Dậy thì sớm ở bé gái được xác định là khởi phát trước 8 tuổi. Con bạn 9 tuổi nếu chỉ đau 2 đầu vú thì khả năng không phải dậy thì sớm. Tuy nhiên, để xác định bé dậy thì sớm cần đưa trẻ đến khám nội tiết nhi mới xác định được chắc chắn. Bạn có thể đưa cho con tới bệnh viện thuộc Hệ thống Y tế Vinmec để được bác sĩ làm các xét nghiệm, kiểm tra và có hướng can thiệp kịp thời.",
+            "score": 0.7640872001647949,
+            "id": "vietnamese_healthcare_7187"
+        },
+        {
+            "text": "Câu hỏi: Em có bé gái năm nay được 8 tuổi, vú bé đã hình thành nhân và phát triển nhanh. Lúc bé được 8 tháng tuổi thì được chẩn đoán bị tăng sinh mô tuyến vú và theo dõi bé tới lúc bé được 2 tuổi thì bé trở lại bình thường nhưng giờ bé tái lại. Bác sĩ cho em hỏi,bé gái 8 tuổi phát triển vú là dấu hiệu của bệnh gì?Em cảm ơn ạ.\nTrả lời: bác sĩ xin giải đáp như sau: Dựa trên thông tin mô tả, khả năng con bạn có dấu hiệudậy thì, khoảng 10 % các bé gái có tuyến vú to giai đoạn sơ sinh sau này sẽ dậy thì sớm. Dậy thì sớm ở bé gái có biểu hiện đặc trưng là ngực phát triển, mọc lông mu hoặc lông nách, thay đổi hình dáng cơ quan sinh dục ngoài, bắt đầu có kinh nguyệt. Bạn hãy cho con đến khám bác sĩ chuyên khoa nhi để xác định là dậy thì sớm hay tuyến vú to cục bộ và được tư vấn chi tiết.",
+            "score": 0.7091505527496338,
+            "id": "medical_vietnamese_qa_6412"
+        },
+        {
+            "text": "Câu hỏi: Con em năm nay 6 tuổi 7 tháng. Gần đây, ngực bé phát triển to, sờ vào thì bé kêu đau, âm đạo có chất dịch trắng. Vậy bác sĩ cho em hỏibé 6 tuổi phát triển ngực, âm đạo ra dịch trắng có phải dậy thì sớm?Mong bác sĩ tư vấn, em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Dậy thì sớmlà tình trạng phát triển các đặc tính sinh dục sớm hơn bình thường (ở bé gái là trước 8 tuổi, có kinh trước 9 tuổi, bé trai là trước 9 tuổi). Bé nhà bạn 6 tuổi,ngực phát triển tokèm theo đau có thể là một trong biểu hiện của dậy thì sớm. Tuy nhiên, bạn cũng cần phân biệt vớichứng vú phát triển sớm(một rối loạn lành tính trong đó ngực phát triển đơn thuần, không đi kèm với các dấu hiệu dậy thì khác như: Mọc lông mu, lông nách, thay đổi hình dáng cơ quan sinh dịch ngoài). Tuy nhiên, việc ngực của bé phát triển cũng có thể là do một số bệnh lý khác. Do vậy, bạn nên đưa bé đi khám chuyên khoa Nội tiết nhi để được khám và sàng lọc cụ thể.",
+            "score": 0.7021956443786621,
+            "id": "medical_vietnamese_qa_6386"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà cháu là bé gái. Bé được 9 tháng nhưng 2 bên vú có hai phát triển thành cục, sờ vào thì bé không đau. Vậy bác sĩ cho em hỏibé gái 9 tháng có dấu hiệu phát triển ngực có phải dậy thì sớm?Mong bác sĩ tư vấn, cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Dấu hiệu dậy thì sớm ở bé gái: Dấu hiệu đầu tiên và hay gặp nhất là phát triển tuyến vú, thường ở 1 bên, đôi khi xuất hiện ở cả 2 bên. Sau đó là lông mu, lông nách xuất hiện, một số ít trường hợp lông mu, lông nách có thể xuất hiện đồng thời hay sớm hơn so với phát triển tuyến vú. Khi tuyến vú phát triển được khoảng 2 đến 3 năm, kinh nguyệt có thể xuất hiện. Tốc độ tăng trưởng nhanh và thường biểu hiện từ thời kỳ đầu dậy thì. Khi tuyến vú phát triển, hiện tượng đầu tiên là núm vú nổi lên ở 1 hoặc 2 bên, sau đó núm vú to lên rõ, quầng vú rộng và thẫm màu dần. Thăm khám bộ phận sinh dục có thể phát hiện thấy lông mu hoặc không. Niêm mạc âm hộ trở nên hồng và ẩm hơn, có thể có ít khí hư. Trứng cá có thể xuất hiện với số lượng ít hoặc trung bình. Bé gái 9 tháng có hiện tượngphát triển ngựcnên được tầm soátdậy thì sớmbằng các dấu hiệu lâm sàng khác củabiểu hiện dậy thì, trong trường hợp cần thiết bé cần xác định chẩn đoán bằng các xét nghiệm cận lâm sàng để đánh giá chính xác việc xuất hiện ngực to ở bé gái 9 tháng có thể là ngực to lành tính hoặc dấu hiệu sớm của dậy thì.",
+            "score": 0.6886611580848694,
+            "id": "medical_vietnamese_qa_6667"
+        },
+        {
+            "text": "Câu hỏi: Bé 8 tuổi 8 tháng có biểu hiện dậy thì sớm có cần phải khám và tiêm hoocmon không?\nTrả lời: Trẻ gái có biểu hiện dậy thì trước 8 tuổi được coi là dậy thì sớm, con nhà mình đã được 8 tuổi 8 tháng, ở lứa tuổi này có thể phải cân nhắc dùng đến thuốc can thiệp. Bác sĩ khuyên em nên đưa bé đi khám chuyên khoa Nội tiết nhi để có biện pháp chẩn đoán và điều trị dậy thì sớm thích hợp.",
+            "score": 0.6767494678497314,
+            "id": "vietnamese_healthcare_1846"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

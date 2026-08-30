@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "! Em hiện tại đangmang thai 23 tuần3 ngày, em bịcạn nước ốivà 1 tuần này em có hiện tượngrỉ ối, chỉ số ối còn 46mm. Em nghe nói cóphương pháp truyền ối. Bác sĩ cho em hỏimẹ bầu 23 tuần bị rỉ ối liệu có nên thực hiện phương pháp truyền ối không? Mong bác sĩ tư vấn giúp em. Câu hỏi ẩn danh Trả lời",
+    "ground_truth": "Chào bạn! Với câu hỏi “Mẹ bầu 23 tuần bị rỉ ối liệu có nên thực hiện phương pháp truyền ối?”, bác sĩ xin trả lời như sau: Bạn có thai 23 tuần 03 ngày, thiểu ối và như bạn nói có thể dorỉ ối. Bạn cần đến ngay bệnh viện chuyên khoa sản để được khám và điều trị vìrỉ ốikéo dài có thể gây nên nhiễm khuẩn, nguy hiểm cho cả mẹ và thai. Còn việc có truyền dịch buồng ối hay không sẽ được các bác sỹ quyết định và tư vấn cho bạn nhé. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp bạn trực tiếp để tư vấn kỹ càng hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được tư vấn bởi Bác sĩ chuyên khoa II Trần Thị Mai Hương- Bác sĩ Sản phụ khoa - Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+    "answer": "Theo thông tin được cung cấp, thai 23 tuần 3 ngày và chỉ số ối 46 mm là mức dưới 50 mm, được xem là nguy hiểm. Tình trạng rỉ ối có thể làm tăng nguy cơ nhiễm trùng và sinh non.\n\nHiện chưa tìm thấy đủ thông tin trong bằng chứng để kết luận việc **truyền ối** có nên thực hiện ở trường hợp của bạn hay không. Bạn nên **đến bệnh viện chuyên khoa sản hoặc tiếp tục nhập viện theo dõi**, để bác sĩ:\n\n- Xác định chính xác có phải rỉ/vỡ ối hay không.\n- Siêu âm đánh giá lượng nước ối và tình trạng thai.\n- Theo dõi toàn trạng, làm xét nghiệm phát hiện nhiễm trùng.\n- Tùy nguyên nhân và tình trạng cụ thể, cân nhắc các biện pháp điều trị như kháng sinh, truyền dịch hoặc thuốc chống cơn co tử cung.\n\nBạn không nên tự quyết định truyền ối dựa vào chỉ số ối בלבד; cần được bác sĩ sản khoa trực tiếp thăm khám và chỉ định.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cháu đang mang thai tuần thứ 36, mấy hôm trước ra dịch đặc, trong đó có tơ máu kéo dài 3, 4 hôm. Xong hôm nay sau khi đi tiểu xong thì hay són ra 1 ít nước, cháu ngửi thấy không có mùi gì và hình như hơi đặc 1 tí thôi. Vậy bác sĩ cho cháu hỏimang thai 36 tuần bị ra dịch đặc có tơ máu kèm són tiểu có phải rỉ ối không?Cháu phải làm gì? Cháu cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Rỉ ối là hiện tượng nước ối xuất ra bên ngoài âm đạo với một số lượng ít. Điều này khiến cho nhiều mẹ bầu bị nhầm lẫn đó là nước tiểu. Sự nhầm lẫn này khá nguy hiểm, vì nếu mẹ bầu không nhận biết được và không kịp thời phát hiện ra có thể sẽ dẫn đến sinh non làm ảnh hưởng đến sức khỏe của con. Trường hợp của bạn chưa rõ ràng là bạn có rỉ ối, hay chỉ mới ra cục nhầy hồng cổ tử cung kèm dịch âm đạo. Bạn cần đến bệnh viện gần nhất để khám và các bác sĩ sẽ tư vấn cho bạn thêm.",
+            "score": 0.6621220111846924,
+            "id": "medical_vietnamese_qa_1211",
+            "rerank_score": 0.992774486541748
+        },
+        {
+            "text": "Câu hỏi: Em mang thai tuần 20. Em đang gặp hiện tượng rỉ ối và nhập viện nhưng rỉ rất ít. Vậy bác sĩ cho em hỏirỉ ối khi mang thai 20 tuần có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như bạn nói thì thai bạn đang 20 tuần có hiện tượng rỉ ối thì việc nhập viện theo dõi là rất quan trọng. Tùy vào tình trạng rỉ ối của bạn là nhiều hay ít kết hợp với siêu âm xác định lượng nước ối, theo dõi toàn trạng, làm xét nghiệm máu xem có dấu hiệu nhiễm trùng không thì bác sĩ có thể cho bạn điều trị kháng sinh nhằm ngăn ngừa tình trạng nhiễm trùng ối, tiến hành truyền dịch và thuốc để chống những cơ co của tử cung phòng nguy cơ sinh non. Bạn không nên quá lo lắng.",
+            "score": 0.6873282790184021,
+            "id": "medical_vietnamese_qa_1113",
+            "rerank_score": 0.9832239151000977
+        },
+        {
+            "text": "Câu hỏi: Em bị rỉ ít nước ối ở tuần thứ 17 thai kỳ (màu vàng). Bác sĩ cho em hỏi,rỉ ối khi mang thai tuần thứ 17 có nguy hiểm không? Lê Thị Quý Chung(1993) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Vưu Khánh Linh- Bác sĩ Sản phụ khoa - Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Việcra nước ốikhi mang thai có thể gâynhiễm trùngvàsảy thai. Khi nước ối bị rò rỉ, chất lỏng thường có màu trắng, trong suốt, đôi khi có dính chút nhầy hay chút máu và đặc biệt không có mùi như mùi khai đặc trưng của nước tiểu. Tuy nhiên, để phân biệt đó là nước ối, nước tiểu hay huyết trắng, bạn nên đến gặp bác sĩ kiểm tra lại để có hướng xử trí phù hợp.",
+            "score": 0.6721676588058472,
+            "id": "medical_vietnamese_qa_2328",
+            "rerank_score": 0.9812673330307007
+        },
+        {
+            "text": "Câu hỏi: Em mang thai 39 tuần. Em có dấu hiệu bị rỉ nước ối. Vậy bác sĩ cho em hỏiphụ nữ mang thai 39 tuần rỉ nước ối nguyên nhân là gì?Em cảm ơn bác sĩ. Nguyễn Thị Ngọc Mai(1990) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Văn Thành- Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp thai đã 39 tuần và rỉ nước ối thì bạn nên nhập viện để có kế hoạch sinh.",
+            "score": 0.733028769493103,
+            "id": "medical_vietnamese_qa_2444",
+            "rerank_score": 0.9728268384933472
+        },
+        {
+            "text": "Câu hỏi: Em đang mang thai 27 tuần 2 ngày. Hôm nay em có đi siêu âm thai thì chỉ số nước ối giảm 63mm. Bác sĩ cho em hỏisiêu âm thai hơn 27 tuần có chỉ số nước ối giảm 63mm có nguy hiểm không?Em cần làm gì để tăng ối nhanh thưa bác sĩ? Em cảm ơn. Đỗ Thị Hiền (1996) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Chỉ số ốiđược tính bằng tổng số đo của 4 góc ối trên siêu âm thai, chỉ số ối bình thường trên 80mm, với kết quả siêu âm của bạn như vậy chỉ số ối có giảm 1 chút. Tuy nhiên, mức độ không nhiều bởi theo thống nhất về chuyên môn chỉ số ối dưới 50mm là nguy hiểm, tuy nhiên, với trường hợp của bạn, bạn cần được khám với bác sỹ sản khoa để tìmnguyên nhân ối ít, nếu là rỉ ối, vỡ ối thì nguy cơ ảnh hưởng cho thai cao do thai còn non tháng, nếu không phải rỉ ối hayvỡ ối, bác sĩ sẽ cần tìm nguyên nhân ối giảm cho bạn: Do hoạt động chức năng của bánh rau, do các vấn đề của thai nhi,... Dựa trên nguyên nhân, bác sĩ sẽ đưa ra cho bạn được hướng xử trí, điều trị hoặc hỗ trợ chính xác, giúp cải thiện tình trạng ối và có hướng theo dõi thích hợp cho thai.  Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Thu Hoài -Trưởng Đơn nguyên Phòng khám Sản Phụ và Nội trú Phụ khoa - Khoa Sản, Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+            "score": 0.628994345664978,
+            "id": "medical_vietnamese_qa_3514",
+            "rerank_score": 0.9480523467063904
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

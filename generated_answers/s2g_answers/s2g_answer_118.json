@@ -1,0 +1,115 @@
+{
+    "model_name": "s2g_rag",
+    "question": "vợ e hay bị tức ngực khó thở và cảm giác hơi nhói tim là đang gặp vấn đề gì ạh ?",
+    "ground_truth": "Chào bạn. Tình trạng đau ngực có nhiều nguyên nhân. Nguyên nhân đáng lo ngại nhất là bệnh mạch vành, thiếu máu cơ tim. Vì vậy người bệnh cần được thăm khám và làm các xét nghiệm chẩn đoán để có hướng điều trị. Chúc bạn nhiều sức khỏe.",
+    "answer": "Tình trạng tức ngực, khó thở và hơi nhói ngực có thể liên quan đến bệnh tim mạch hoặc phổi, thành ngực như hội chứng vành cấp, phình bóc tách động mạch chủ, tràn dịch màng tim, tràn dịch màng phổi; cũng có thể do đau cơ hoặc đau thần kinh liên sườn. Chưa thể xác định nguyên nhân chỉ dựa vào triệu chứng, vì vậy bạn nên đưa vợ đi khám sớm để được đo điện tim, chụp X-quang tim phổi, xét nghiệm máu, siêu âm tim và các kiểm tra phù hợp khác. Trong thời gian chờ khám, nên tránh vận động gắng sức và các chất kích thích như cà phê, trà, nước tăng lực.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Khó thở kèm đau nhói ngực có thể gặp trong những bệnh cảnh nguy hiểm do bệnh lý tim mạch như hội chứng vành cấp, phình bóc tách động mạch chủ,...",
+        "cũng có thể do những nguyên nhân không nguy hiểm như đau cơ, đau thần kinh liên sườn.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Tình trạng này có thể là dấu hiệu bất thường của một số bệnh liên quan đến tim phổi hoặc thành ngực tại vị trí đau như: Tràn dịch màng tim, tràn dịch màng phổi, đau thần kinh liên sườn, bệnh mạch vành (cầu cơ), rối loạn thần kinh thực vật,..",
+        "Bạn nên đưa vợ đi khám sớm vì nếu là căn nguyên nguy hiểm thì cần phải phát hiện sớm và điều trị kịp thời.",
+        "Khi đến bệnh viện thăm khám, bác sĩ có thể đề nghị cho làm các kiểm tra như: Đo điện tim, chụp X quang tim phổi thẳng, xét nghiệm máu, siêu âm tim, đôi khi phải chụp CT phổi, chụp DSA động mạch vành để tim nguyên nhân.",
+        "Trong thời gian chờ được thăm khám, vợ bạn cần tránh vận động nặng, vận động gắng sức, tránh dùng các chất kích thích như cà phê, trà, nước ngọt có chất tăng lực,..",
+        "Để biết chính xác tình trạng bệnh và phương pháp điều trị, bạn cần đi khám để bác sĩ có thể thăm khám và thực hiện những cận lâm sàng phù hợp."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Vợ em có triệu chứng thở mạnh tim bị nhói đau từng cơn. Vậy bác sĩ cho em hỏitim nhói đau theo từng cơn khi thở mạnh là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng này có thể là dấu hiệu bất thường của một số bệnh liên quan đến tim phổi hoặc thành ngực tại vị trí đau như: Tràn dịch màng tim, tràn dịch màng phổi, đau thần kinh liên sườn, bệnh mạch vành (cầu cơ), rối loạn thần kinh thực vật,.. Bạn nên đưa vợ đi khám sớm vì nếu là căn nguyên nguy hiểm thì cần phải phát hiện sớm và điều trị kịp thời. Khi đến bệnh viện thăm khám, bác sĩ có thể đề nghị cho làm các kiểm tra như: Đo điện tim, chụp X quang tim phổi thẳng, xét nghiệm máu, siêu âm tim, đôi khi phải chụp CT phổi, chụp DSA động mạch vành để tim nguyên nhân. Đối với các tình trạng đau ở ngực, việc thăm khám sớm là cực kỳ quan trọng. Trong thời gian chờ được thăm khám, vợ bạn cần tránh vận động nặng, vận động gắng sức, tránh dùng các chất kích thích như cà phê, trà, nước ngọt có chất tăng lực,.. ăn uống lành mạnh, nghỉ ngơi hợp lý để đảm bảo an toàn.",
+                "score": 0.7437383532524109,
+                "id": "medical_vietnamese_qa_11745",
+                "rerank_score": 0.9398201107978821
+            },
+            {
+                "text": "Câu hỏi: Em bị tức ngực, khó thở, càng hít thở sâu càng đau, tim đập mạnh, nhói. Em bị hơn 2 ngày rồi. Em bị ngay sau khi em bị người khác hù làm hoảng sợ, tới nay là 2 ngày rồi mà vẫn không giảm, càng lúc càng khó thở, thở gấp hơn. Vậy bác sĩ cho em hỏitức ngực kèm tim đập nhanh là dấu hiệu bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng bạn đang gặp như tức ngực, khó thở, nhói đau, càng hít thở sâu càng đau cho thấy tình trạng tim mạch đang trong tình trạng không ổn định, có thể ảnh hưởng đến tính mạng. Tuy nhiên người bệnh nên đến khám, theo dõi các triệu chứng bệnh và kiểm soát các yếu tố nguy cơ và ngăn ngừa bệnh diễn tiến nặng hơn. Để có thể an tâm về tình trạng tim mạch, bạn nên đến khám tại bệnh viện có chuyên khoa Tim mạch nhé.",
+                "score": 0.5984346866607666,
+                "id": "medical_vietnamese_qa_11716",
+                "rerank_score": 0.9345181584358215
+            },
+            {
+                "text": "Câu hỏi: Thỉnh thoảng, em bị khó thở và đau nhói tim. Vậy bác sĩ cho em hỏikhó thở kèm đau nhói tim là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khó thở kèm đau nhói ngực có thể gặp trong những bệnh cảnh nguy hiểm do bệnh lý tim mạch như hội chứng vành cấp, phình bóc tách động mạch chủ,... cũng có thể do những nguyên nhân không nguy hiểm như đau cơ, đau thần kinh liên sườn. Để biết chính xác tình trạng bệnh và phương pháp điều trị, bạn cần đi khám để bác sĩ có thể thăm khám và thực hiện những cận lâm sàng phù hợp.",
+                "score": 0.6432527899742126,
+                "id": "medical_vietnamese_qa_11675",
+                "rerank_score": 0.9315633773803711
+            },
+            {
+                "text": "Câu hỏi: Em có triệu chứng khó thở, đau tim khi vận động mạnh. Những lúc stress mệt mỏi, em thường bị ép tim gây khó thở. Vậykhó thở kèm tức ngực là triệu chứng của bệnh gìạ? Lê Thị Thùy Linh(2000) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Trần Hồng Nhật -Bác sĩ Tim mạch can thiệp - Trung tâm Tim mạch - Bệnh viện Đa khoa Quốc tế Vinmec Central Park\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng khó thở, tức ngực có thể do nhiều nguyên nhân khác nhau gây ra. Có thể do những nguyên nhân thực thể từ bệnh lý tim, phổi,... và cũng có thể do rối loạn chức năng như rối loạn thần kinh thực vật, stress, căng thẳng... Theo như bạn mô tả, tình trạng của bạn liên quan đến stress. Nhưng để làm rõ nguyên nhân, bạn nên thăm khám tại bệnh viện Vinmec để được các bác sĩ chuyên khoa kiểm tra và có chẩn đoán chính xác nhất, từ đó có hướng điều trị phù hợp, hiệu quả nhất cho bạn.",
+                "score": 0.595721960067749,
+                "id": "medical_vietnamese_qa_11944",
+                "rerank_score": 0.6955771446228027
+            },
+            {
+                "text": "Câu hỏi: Hiện tại, em đang có triệu chứng tức ngực, nhói ở lồng ngực, có cảm giác lo âu và suy nghĩ nhiều ảnh hưởng đến sức khỏe. Bác sĩ cho em hỏitức ngực kèm rối loạn lo âu có nguy cơ mắc bệnh gì? Đặng Bảy(1989) Trả lời Được giải đáp bởiBSCK II Nguyễn Quốc Việt- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: Chào bạn, Với câu hỏi “Tức ngực kèm rối loạn lo âu có nguy cơ mắc bệnh gì?”, bác sĩ giải đáp như sau: Với các triệu chứng bạn kể như tức ngực hay nhói ở lồng ngực thông thường không đặc hiệu cho bệnh lý Tim mạch nào cả nếu không có liên quan nào đến gắng sức ( như lúc hoạt động thể lực thêm thì cơn đau mất đi chẳng hạn..). Có thể bạn bị \"rối loạn lo âu\" và đây không phải là bệnh lý thực thể về tim mạch. Tuy nhiên, nếu triệu chứng của bạn vẫn tồn tại dai dẳng, làm ảnh hưởng đến cuộc sống, sinh hoạt, học tập, làm việc của bạn thì bạn nên đến khám tại các bệnh viện có chuyên khoa về Tim mạch để được làm các xét nghiệm loại trừ các bệnh lý thực thể, từ đó bác sĩ sẻ có chỉ định điều trị phù hợp.",
+                "score": 0.6303597688674927,
+                "id": "medical_vietnamese_qa_11843",
+                "rerank_score": 0.6126845479011536
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Vợ em có triệu chứng thở mạnh tim bị nhói đau từng cơn. Vậy bác sĩ cho em hỏitim nhói đau theo từng cơn khi thở mạnh là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng này có thể là dấu hiệu bất thường của một số bệnh liên quan đến tim phổi hoặc thành ngực tại vị trí đau như: Tràn dịch màng tim, tràn dịch màng phổi, đau thần kinh liên sườn, bệnh mạch vành (cầu cơ), rối loạn thần kinh thực vật,.. Bạn nên đưa vợ đi khám sớm vì nếu là căn nguyên nguy hiểm thì cần phải phát hiện sớm và điều trị kịp thời. Khi đến bệnh viện thăm khám, bác sĩ có thể đề nghị cho làm các kiểm tra như: Đo điện tim, chụp X quang tim phổi thẳng, xét nghiệm máu, siêu âm tim, đôi khi phải chụp CT phổi, chụp DSA động mạch vành để tim nguyên nhân. Đối với các tình trạng đau ở ngực, việc thăm khám sớm là cực kỳ quan trọng. Trong thời gian chờ được thăm khám, vợ bạn cần tránh vận động nặng, vận động gắng sức, tránh dùng các chất kích thích như cà phê, trà, nước ngọt có chất tăng lực,.. ăn uống lành mạnh, nghỉ ngơi hợp lý để đảm bảo an toàn.",
+                "score": 0.698956310749054,
+                "id": "medical_vietnamese_qa_11745",
+                "rerank_score": 0.9398202300071716
+            },
+            {
+                "text": "Câu hỏi: Thỉnh thoảng, em bị khó thở và đau nhói tim. Vậy bác sĩ cho em hỏikhó thở kèm đau nhói tim là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khó thở kèm đau nhói ngực có thể gặp trong những bệnh cảnh nguy hiểm do bệnh lý tim mạch như hội chứng vành cấp, phình bóc tách động mạch chủ,... cũng có thể do những nguyên nhân không nguy hiểm như đau cơ, đau thần kinh liên sườn. Để biết chính xác tình trạng bệnh và phương pháp điều trị, bạn cần đi khám để bác sĩ có thể thăm khám và thực hiện những cận lâm sàng phù hợp.",
+                "score": 0.6322809457778931,
+                "id": "medical_vietnamese_qa_11675",
+                "rerank_score": 0.9315633773803711
+            },
+            {
+                "text": "Câu hỏi: Mẹ cháu hay có cảm giác đau nhói ở tim, rồi đau thắt và cảm giác buốt ở tim. Các triệu chứng không liên tục trong ngày nhưng hầu như ngày nào mẹ cháu cũng gặp phải tình trạng này. Vậy bác sĩ cho cháu hỏinữ giới đau nhói tim là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Đau nhói ở tim là dấu hiệu nguy hiểm thường gặp trong bệnh lý liên quan đến mạch vành tim (mạch máu nuôi tim) còn gọi là cơn đau thắt ngực. Tuy nhiên, triệu chứng đau ngực cũng có thể gặp trong một số bệnh lý khác liên quan đến tim (viêm cơ tim, hẹp/hở van tim nặng, viêm nội tâm mạc,..), phổi (tràn khí, tràn dịch màng phổi, u phổi, áp xe phổi,...), thành ngực (đau thần kinh liên sườn, viêm xương ức, viêm cơ thành ngực do sang chấn,..), thực quản (viêm thực quản do trào ngược acid dạ dày, co thắt thực quản,..) hoặc cột sống (thoái hóa cột sống gây chèn ép rễ thần kinh ngực,..). Đôi khi đau ngực liên quan đến rối loạn điện giải (hạ canxi máu, hạ kali máu) gây co rút đau thần kinh liên sườn. Đau ngực là tình trạng cần phải khám ngay, vì tiềm ẩn nguy cơ bệnh lý nguy hiểm như bệnh mạch vành như nhồi máu cơ tim là bệnh có nguy cơ tử vong cao. Khi khám bệnh bác sĩ có thể phải tiến hành các kiểm tra như đo điện tim, siêu âm tim, chụp CT mạch vành tim, các xét nghiệm về men tim, nhiễm trùng, điện giải để tìm nguyên nhân. Trong thời gian chờ đợi được thăm khám, tại nhà cần nghỉ ngơi, hạn chế vận động nặng, ăn uống lành mạnh, tránh chất kích thích và chủ động thăm khám tại cơ sở y tế có chuyên môn cao càng sớm càng tốt.",
+                "score": 0.5897614359855652,
+                "id": "medical_vietnamese_qa_11769",
+                "rerank_score": 0.856876790523529
+            },
+            {
+                "text": "Câu hỏi: Từ nhỏ, em đã hay bị khó thở và tức ngực. Em có đi khám nhưng mọi thứ đều bình thường. Nhưng khoảng vài năm gần đây, ngoài việc tức ngực và khó thở thì thỉnh thoảng em còn phía dưới ngực trái (thường thì đau khoảng 2 phút và hít thở thì rất đau). Vậy bác sĩ cho em hỏihay khó thở kèm tức ngực là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khó thở và tức ngực ở người trẻ tuổi thường do tâm lý, một số ít trường hợp là đau cơ thần kinh liên sườn, hoặc bệnh lý trào ngược dạ dày thực quản. Vì vậy, để chẩn đoán chính xác tình trạng bạn đang gặp phải, tốt nhất bạn nên đến thăm khám bác sĩ chuyên khoa Tim mạch để được tư vấn cụ thể.",
+                "score": 0.5906503796577454,
+                "id": "medical_vietnamese_qa_11743",
+                "rerank_score": 0.7066881060600281
+            },
+            {
+                "text": "Câu hỏi: Em có triệu chứng khó thở, đau tim khi vận động mạnh. Những lúc stress mệt mỏi, em thường bị ép tim gây khó thở. Vậykhó thở kèm tức ngực là triệu chứng của bệnh gìạ? Lê Thị Thùy Linh(2000) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Trần Hồng Nhật -Bác sĩ Tim mạch can thiệp - Trung tâm Tim mạch - Bệnh viện Đa khoa Quốc tế Vinmec Central Park\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng khó thở, tức ngực có thể do nhiều nguyên nhân khác nhau gây ra. Có thể do những nguyên nhân thực thể từ bệnh lý tim, phổi,... và cũng có thể do rối loạn chức năng như rối loạn thần kinh thực vật, stress, căng thẳng... Theo như bạn mô tả, tình trạng của bạn liên quan đến stress. Nhưng để làm rõ nguyên nhân, bạn nên thăm khám tại bệnh viện Vinmec để được các bác sĩ chuyên khoa kiểm tra và có chẩn đoán chính xác nhất, từ đó có hướng điều trị phù hợp, hiệu quả nhất cho bạn.",
+                "score": 0.6007707118988037,
+                "id": "medical_vietnamese_qa_11944",
+                "rerank_score": 0.6955768465995789
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Vợ em có triệu chứng thở mạnh tim bị nhói đau từng cơn. Vậy bác sĩ cho em hỏitim nhói đau theo từng cơn khi thở mạnh là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng này có thể là dấu hiệu bất thường của một số bệnh liên quan đến tim phổi hoặc thành ngực tại vị trí đau như: Tràn dịch màng tim, tràn dịch màng phổi, đau thần kinh liên sườn, bệnh mạch vành (cầu cơ), rối loạn thần kinh thực vật,.. Bạn nên đưa vợ đi khám sớm vì nếu là căn nguyên nguy hiểm thì cần phải phát hiện sớm và điều trị kịp thời. Khi đến bệnh viện thăm khám, bác sĩ có thể đề nghị cho làm các kiểm tra như: Đo điện tim, chụp X quang tim phổi thẳng, xét nghiệm máu, siêu âm tim, đôi khi phải chụp CT phổi, chụp DSA động mạch vành để tim nguyên nhân. Đối với các tình trạng đau ở ngực, việc thăm khám sớm là cực kỳ quan trọng. Trong thời gian chờ được thăm khám, vợ bạn cần tránh vận động nặng, vận động gắng sức, tránh dùng các chất kích thích như cà phê, trà, nước ngọt có chất tăng lực,.. ăn uống lành mạnh, nghỉ ngơi hợp lý để đảm bảo an toàn.",
+                "score": 0.7256835699081421,
+                "id": "medical_vietnamese_qa_11745",
+                "rerank_score": 0.9398200511932373
+            },
+            {
+                "text": "Câu hỏi: Thỉnh thoảng, em bị khó thở và đau nhói tim. Vậy bác sĩ cho em hỏikhó thở kèm đau nhói tim là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khó thở kèm đau nhói ngực có thể gặp trong những bệnh cảnh nguy hiểm do bệnh lý tim mạch như hội chứng vành cấp, phình bóc tách động mạch chủ,... cũng có thể do những nguyên nhân không nguy hiểm như đau cơ, đau thần kinh liên sườn. Để biết chính xác tình trạng bệnh và phương pháp điều trị, bạn cần đi khám để bác sĩ có thể thăm khám và thực hiện những cận lâm sàng phù hợp.",
+                "score": 0.6536173820495605,
+                "id": "medical_vietnamese_qa_11675",
+                "rerank_score": 0.9315632581710815
+            },
+            {
+                "text": "Câu hỏi: Em có triệu chứng khó thở, đau tim khi vận động mạnh. Những lúc stress mệt mỏi, em thường bị ép tim gây khó thở. Vậykhó thở kèm tức ngực là triệu chứng của bệnh gìạ? Lê Thị Thùy Linh(2000) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Trần Hồng Nhật -Bác sĩ Tim mạch can thiệp - Trung tâm Tim mạch - Bệnh viện Đa khoa Quốc tế Vinmec Central Park\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng khó thở, tức ngực có thể do nhiều nguyên nhân khác nhau gây ra. Có thể do những nguyên nhân thực thể từ bệnh lý tim, phổi,... và cũng có thể do rối loạn chức năng như rối loạn thần kinh thực vật, stress, căng thẳng... Theo như bạn mô tả, tình trạng của bạn liên quan đến stress. Nhưng để làm rõ nguyên nhân, bạn nên thăm khám tại bệnh viện Vinmec để được các bác sĩ chuyên khoa kiểm tra và có chẩn đoán chính xác nhất, từ đó có hướng điều trị phù hợp, hiệu quả nhất cho bạn.",
+                "score": 0.611153244972229,
+                "id": "medical_vietnamese_qa_11944",
+                "rerank_score": 0.6955770254135132
+            },
+            {
+                "text": "Câu hỏi: ! Thưa bác sĩ, thỉnh thoảng cách 1, 2 tháng em lại bị đau nhói và khó thở bên ngực trái, thường thì cơn đau kéo dài 5-10 phút, nếu thở nhẹ nhẹ thì không đau lắm. Bác sĩ cho em hỏi,thỉnh thoảng đau nhói và khó thở ở ngực trái có phải bệnhtim mạch khôngạ? Cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Thỉnh thoảng đau nhói và khó thở ở ngực trái có phải bệnh tim mạch không?” như sau: Theo triệu chứng mà bạn mô tả, đau ngực kiểu đau nhói, cơn đau kéo dài 5-10 phút, khi nhở nhẹ thì triệu chứng có thuyên giảm. Triệu chứng đau ngực thi thoảng xuất hiện (1-2 tháng bị một lần). Với các thông tin mà bạn cung cấp, sẽ rất khó để bác sĩ có thể kết luận chắc chắn triệu chứng trên có liên quan đến tim mạch hay không, mặc dù về mặt triệu chứng mô tả, triệu chứng của bạn không gợi ý tới nguyên nhân tim mạch. Trân trọng ! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ Lê Đức Hiệp -Bác sĩ Nội và Can thiệp Tim mạch - Trung Tâm Tim Mạch, Bệnh viện Đa khoa quốc tế Vinmec Times City",
+                "score": 0.5984985828399658,
+                "id": "medical_vietnamese_qa_11994",
+                "rerank_score": 0.6172099709510803
+            },
+            {
+                "text": "Câu hỏi: Hiện tại, em đang có triệu chứng tức ngực, nhói ở lồng ngực, có cảm giác lo âu và suy nghĩ nhiều ảnh hưởng đến sức khỏe. Bác sĩ cho em hỏitức ngực kèm rối loạn lo âu có nguy cơ mắc bệnh gì? Đặng Bảy(1989) Trả lời Được giải đáp bởiBSCK II Nguyễn Quốc Việt- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: Chào bạn, Với câu hỏi “Tức ngực kèm rối loạn lo âu có nguy cơ mắc bệnh gì?”, bác sĩ giải đáp như sau: Với các triệu chứng bạn kể như tức ngực hay nhói ở lồng ngực thông thường không đặc hiệu cho bệnh lý Tim mạch nào cả nếu không có liên quan nào đến gắng sức ( như lúc hoạt động thể lực thêm thì cơn đau mất đi chẳng hạn..). Có thể bạn bị \"rối loạn lo âu\" và đây không phải là bệnh lý thực thể về tim mạch. Tuy nhiên, nếu triệu chứng của bạn vẫn tồn tại dai dẳng, làm ảnh hưởng đến cuộc sống, sinh hoạt, học tập, làm việc của bạn thì bạn nên đến khám tại các bệnh viện có chuyên khoa về Tim mạch để được làm các xét nghiệm loại trừ các bệnh lý thực thể, từ đó bác sĩ sẻ có chỉ định điều trị phù hợp.",
+                "score": 0.6292829513549805,
+                "id": "medical_vietnamese_qa_11843",
+                "rerank_score": 0.6126851439476013
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Hiện tại, em đã trễ kinh hơn 1 tháng và dương tính với que thử thai 3 lần nhưng khi đi khám siêu âm que dò thì bác sĩ lại không thấy túi thai. Tình trạng sức khỏe của em thì em bị huyết áp cao, hay buồn nôn và dễ bị mệt. Vậy bác sĩ cho em hỏithử que 2 vạch dương tính nhưng siêu âm không thấy túi thai có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Thử que 2 vạch (dương tính) là dấu hiệu của mang thai, nhưng có thể đây là giai đoạn sớm khi hợp tử sau khi được tinh có thể đang di chuyển dần từ ống dẫn trứng về làm tổ trong tử cung. Đặc biệt với các bạn có kinh nguyệt không đều, việc trễ kinh hơn 1 tháng vẫn có khả năng siêu âm chưa thấy rõ túi thai. Ngoài ra, trong trường hợp bạn bị thai ngoài tử cung, (là tình trạng hợp tử sau khi thụ tinh không vào buồng tử cung mà bám vào bất kỳ chỗ nào khác ngoài nội mạc tử cung để phát triển) với tuổi thai > 5 tuần nhưng vẫn sẽ không thấy túi thai trong lòng tử cung. Để xác định chẩn đoán mang thai hay mang thai bất thường, em có thể được làm xét nghiệm máu Beta HCG (Hormone thai kỳ) và làm thêm các xét nghiệm khác để kiểm tra về tình trạng huyết áp cao, buồn nôn của em. Tốt nhất, bạn nên đến khám ở cơ sở y tế có làm xét nghiệm để được thăm khám và xác định chẩn đoán.",
+    "answer": "Que thử thai dương tính 3 lần cho thấy **nhiều khả năng bạn đã có thai**, nhưng siêu âm đầu dò chưa thấy túi thai nên **chưa xác định được thai nằm trong tử cung hay ngoài tử cung**. Cũng có thể thai còn sớm hoặc cần loại trừ sảy thai sớm.\n\nBạn nên:\n\n- Tái khám theo hẹn, có thể sau khoảng **1 tuần** hoặc theo chỉ định.\n- Làm xét nghiệm **beta-hCG/máu và theo dõi sự thay đổi hormone**, kết hợp siêu âm lại để xác định vị trí thai.\n- Nếu có **đau bụng hoặc ra máu**, cần đến cơ sở y tế ngay để được kiểm tra và loại trừ thai ngoài tử cung hoặc sảy thai.\n- Do bạn có huyết áp cao, hãy thông báo đầy đủ cho bác sĩ khi tái khám để được đánh giá tình trạng sức khỏe.\n\nChỉ dựa vào que thử dương tính và một lần siêu âm chưa thấy túi thai thì **chưa đủ thông tin để kết luận thai ngoài tử cung hay thai bình thường**.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Vợ chồng em quan hệ vào ngày rụng trứng 24/6 đến ngày 12/7 thử que 2 vạch nhưng siêu âm không thấy túi thai. Trước đó, em ra máu màu nâu ít ít. Vậy bác sĩ cho hỏi emsiêu âm không có túi thai có phải mang thai ngoài tử cung không?Siêu âm thấy một ít dịch trong lòng tử cung. Mong bác sĩ giải đáp giúp. Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Sau quan hệ 2 tuần bạn thử que 02 vạch, như vậy nếu que thử thai là chính xác thì bạn đã có thai. Tuy nhiên chưa biết rõ vị trí túi thai nằm ở đâu: Trong tử cung hay ngoài buồng tử cung. Cũng có thể ở giai đoạn sớm, siêu âm chưa quan sát được vị trí túi thai, vậy bạn cần theo dõi thêm, đi khám và làm thêm một số xét nghiệm để có chẩn đoán chính xác.",
+            "score": 0.710786759853363,
+            "id": "medical_vietnamese_qa_2343",
+            "rerank_score": 0.9995612502098083
+        },
+        {
+            "text": "Câu hỏi: Em chậm kinh được 5 ngày. Hôm qua ngày 30/6, em có đi siêu âm, cả siêu âm đầu dò. Kết quả là chưa có túi ối trong tử cung. Bác sĩ bảo 1 tuần nữa đến khám lại. Em thử que thử 4 lần đều lên 2 vạch. Cơ thể em thì chỉ mệt mỏi, hơi tức bụng dưới, kém ăn. Em lo quá. Bác sĩ cho em hỏithử que hai vạch, siêu âm chưa có túi ối có phải là mang thai ngoài tử cung khôngạ? Em nên đợi 1 tuần nữa đi khám lại hay phải đến bệnh viện kiểm tra ngay. Em đang định chiều nay đi thử máu HCG thì có được không ạ? Rất mong nhận được phản hồi của bác sĩ trong thời gian sớm nhất ạ. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn đang có dấu hiệu chậm kinh, thử que có 2 vạch nghĩa là nhiều khả năng bạn có thai rồi, tuy nhiên thai chưa vào buồng tử cung nên bác sĩ siêu âm không thấy trong tử cung có hình ảnh túi ối. Nếu như bạn không có dấu hiệu đau bụng, không ra máu, bạn có thể theo dõi thêm và khám lại sau 1 tuần theo lời khuyên của bác sĩ. Nếu đau bụng hoặc ra máu bạn nên đến khám bác sĩ ngay để sớm có chẩn đoán chính xác và kịp thời.",
+            "score": 0.7266954183578491,
+            "id": "medical_vietnamese_qa_2784",
+            "rerank_score": 0.9995156526565552
+        },
+        {
+            "text": "Câu hỏi: Em bị trễ kinh 2 tuần, thử nước tiểu chỉ lên 1 vạch và siêu âm không có túi thai nhưng xét nghiệm máu lại báo có thai. Bác sĩ cho em hỏi,xét nghiệm máu có thai nhưng siêu âm không thấy thai có ý nghĩa gì?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Nếusiêu âm không phát hiện túi thai, đừng nên quá lo lắng, có thể vì bạn quá mong muốn mang thai nên đã đi khám trước khi thai kịp làm tổ, túi thai chưa vào buồng tử cung. Trong trường hợp này, bác sĩ sẽ hẹn bạn tái khám sau đó để chờ đợi tinh trùng và trứng đã thụ tinh về đúng vị trí. Nếu nghi ngờ sảy thai hoặc thai ngoài tử cung, bác sĩ sẽ yêu cầu bạn làm một loạt các xét nghiệm máu. Điều này là để tìm ra nơi mà thai nhi của bạn đang phát triển. Ngoài ra cần thêm các xét nghiệm kiểm tra mức độ hormone thai kỳ và theo dõi xem chúng đang thay đổi như thế nào. Xét nghiệm máu chính xác hơn thử nước tiểu, có thể còn sớm nên chưa thấy túi thai. Bạn cần tái khám sau 02 tuần hoặc khi có dấu hiệu đau bụng, ra máu.",
+            "score": 0.7173386812210083,
+            "id": "medical_vietnamese_qa_2495",
+            "rerank_score": 0.999254047870636
+        },
+        {
+            "text": "Câu hỏi: Chu kỳ kinh của cháu đa phần không đều, thường thì 35 ngày, có nhiều tháng thì 30 ngày đều. Lần cuối chu kỳ của cháu là ngày 4/8 kết thúc ngày 11/8. Đến ngày 9/9, cháu đau bụng dữ dội vàthử thai 2 vạch đậm. Cháu có khi siêu âm ổ bụng để tìm ra nguyên nhân đau thì kết luận cho cháu bị táo bón nên dẫn đến đau bụng vàkhông thấy túi thai. Từ đó đến ngày 13/9, cháu đều thử que 2 vạch đậm. Ngày 10/3, cháu có một chút máu nâu lợn cợn và ngày 15/9, cháu bị chảy máu nâu nhưng khá ít. Cháu đi siêu âm ổ bụng vẫn không thấy túi thai cả trong lẫn ngoài tử cung. Vậy bác sĩ cho cháu hỏirối loạn kinh nguyệt kèm thử thai 2 vạch đậm là sao?Tình trạng của cháu thế nào? Liệu cháu có thai hay không? Cháu nên làm thế nào? Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khi córối loạn kinh nguyệtvà thử thai (+), bạn cần nên đến cơ sở y tế để thăm khám. Trường hợp bạn đi siêu âm ổ bụng vẫn không thấy túi thai cả trong lẫn ngoài tử cung thì bạn cần đến các bệnh viện có đầy đủ trang thiết bị, máy móc hiện đại và đội ngũ bác sĩ giàu kinh nghiệm và kỹ năng thực hành chăm sóc sức khỏe giúp bạn thăm khám, chẩn đoán chính xác tình trạng hiện tại.",
+            "score": 0.7136386632919312,
+            "id": "medical_vietnamese_qa_1993",
+            "rerank_score": 0.9989367127418518
+        },
+        {
+            "text": "Câu hỏi: Cháu bị chậm kinh 15 ngày thử lên 2 vạch. Cháu đi siêu âm chưa thấy thai, nội mạc tử cung dày 25mm, âm vang cơ tử cung đồng nhất. Bác sĩ cho cháu hỏichậm kinh 15 ngày nhưng siêu âm chưa thấy thai có sao không?Cháu cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Cũng có thể bạn thuộc giai đoạn thai sớm nên chưa thấy được túi thai trong lòng tử cung. Nếu bạn không đau bụng, không ra máu gì bất thường thì bạn 1 tuần sau siêu âm lại, có thể thấy túi thai nhỏ trong lòng tử cung. Còn bất kể khi nào có đau bụng hoặc ra máu, hoặc có cả 2 triệu chứng này thì bạn nên vào viện để bs thăm khám, test thai ( test nước tiểu/ test beta HCG/ máu) và siêu âm kiểm tra để loại trừ các tình huống: thai sớm và động thai, hoặc sẩy thai sớm, hoặc thai ngoài...",
+            "score": 0.7104663848876953,
+            "id": "medical_vietnamese_qa_1327",
+            "rerank_score": 0.9989363551139832
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

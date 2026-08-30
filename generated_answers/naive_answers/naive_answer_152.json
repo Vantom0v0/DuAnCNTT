@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Em có bầu 8 tuần không biết, lúc 5 tuần có dấu hiệucảm cúm, em tự mua thuốc ở ngoài uống 2,5 ngày không đỡ, em đi khám xét nghiệm bị cúm A, em chụp X-quang và CT. Vậy bác sĩ cho em hỏichụp X-quang và CT khi mang thai 8 tuần có sao không?Em có nên giữ thai không? Xin bác sĩ tư vấn giúp em, em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Trong 3 tháng đầu tiên của thai kỳ, cần hạn chế chụp X-quang hay CT. Hai tuần đầu thai kỳ:Nguy cơ sảy thaikhi liều lượng tia X lớn hơn 5 rad. Tuần từ 3-8 thai kỳ, liều tia xạ lớn hơn 20-30 rad có nguy cơ ảnh hưởng đến thai: Chậm phát triển, ung thư, dị tật,.... Ví dụ: Trong trường hợp chụp X quang vùng ngực, khả năng thai nhi hấp thụ là 0,00007 lần/ chụp, để đạt liều ảnh hưởng 5 rad thì người mẹ cần chụp X-quang 71429 lần chụp. Trường hợp của bạn mô tả vừa chụp X-quang vừa chụp CT nếu chỉ vùng ngực và duy nhất 1 lần thì nguy cơ ảnh hưởng đến thai không quá lớn. Tuy nhiên, vẫn có tỷ lệ nhỏ (4-6%)thai nhi bị bất thườngngay cả không tiếp xúc với tia X, do vậy, bạn nên đi khám và tầm soát định kỳ để phát hiện sớm nhất những bất thường nếu có.",
+    "answer": "Tài liệu được cung cấp không có đủ thông tin để đánh giá ảnh hưởng của thuốc đã uống, chụp X-quang hoặc CT khi mang thai 8 tuần, cũng như chưa đủ căn cứ để tư vấn có nên giữ thai hay không. Bạn nên đến cơ sở y tế uy tín để được bác sĩ sản khoa đánh giá cụ thể; trong thời gian này, nếu có đau bụng, ra huyết hoặc bất kỳ dấu hiệu bất thường nào, cần đến bệnh viện khám. Việc siêu âm thai có thể được kiểm tra lại theo hẹn để theo dõi phôi và tim thai.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Xin hỏi bác sĩthai 5 tuần chưa có phôi và tim thai có sao không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Thai 5 tuần chưa có phôi và tim thai có sao không?”, bác sĩ giải đáp như sau: Trường hợp của bạn thai sớm nên cũng có thể chưa nhìn thấy phôi thai và hoạt động của tim thai trên siêu âm. Bạn nên kiểm tra lại sau 1 tuần nữa.",
+            "score": 0.6388592720031738,
+            "id": "medical_vietnamese_qa_1537"
+        },
+        {
+            "text": "Câu hỏi: Thai em được 5 tuần rồi mà đi siêu âm bác sĩ bảo chưa có tim thai. Vậy bác sĩ cho em hỏithai nhi 5 tuần siêu âm chưa có tim thai có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Túi thai nằm trong lòng tử cung nếu diễn tiến bình thường thì khoảng 6 - 7 tuần mới có phôi và có hoạt động tim thai. Thai bạn 5 tuần thì sẽ chưa có phôi và sẽ chưa có hoạt động tim thai. Bạn sẽ siêu âm kiểm tra lại 2 tuần sau để xem có phôi và tim thai hay chưa. Nếu có đau bụng, ra huyết hay có bất kỳ dấu hiệu bất thường nào bạn nên đến bệnh viện để khám.",
+            "score": 0.6278831362724304,
+            "id": "medical_vietnamese_qa_1305"
+        },
+        {
+            "text": "Câu hỏi: Em mang thai 4 tuần 3 ngày, em bị dọa sảy thai. Em dưỡng sang tuần thứ 5 đi siêu âm bác sĩ nói thai 50 - 50 và chưa thấy tim thai. Bác sĩ cho em hỏimang thai 5 tuần chưa có tim thai có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn nên đi khám ở các cơ sở uy tín. Thai 5 tuần thương có thể chưa có tim thai. Dấu hiệu dọa sảy thai thường phải có đau bụng hoặc ra máu. Bạn có thể kiểm tra sau 01 tuần, nếu có tim thai thì thai phát triển bình thường, nếu vẫn chưa có thì tiên lượng cũng không tốt, và nên kiểm tra sau 01 tuần nữa để khẳng định thai tốt hay không.",
+            "score": 0.6161130666732788,
+            "id": "medical_vietnamese_qa_1249"
+        },
+        {
+            "text": "Câu hỏi: Thai 5 tuần tuổi đã có tim thai chưa?\nTrả lời: 2. Thai 5 tuần tuổi đã có tim thai chưa?\nNhư đã nói ở trên, tim thai ở tuần thứ 5 đã xuất hiện do hệ thống tuần hoàn được hình thành từ mesoderm. Thông qua hoạt động của tim thai, bác sĩ sẽ căn cứ vào đó để theo dõi tình trạng sức khỏe của bé. Tim thai ở tuần thứ 5 Một số người khi đi khám thai ở tuần này nhưng chưa phát hiện tim thai của bé thì cũng nên bình tĩnh. Bạn có thể đợi khoảng 1 hoặc 2 tuần nữa vì mỗi bé sẽ phát triển khác nhau. Xét theo trường hợp của mỗi bé, bác sĩ sẽ đưa ra phương hướng xử lý phù hợp.",
+            "score": 0.6077691316604614,
+            "id": "vietnamese_healthcare_53170"
+        },
+        {
+            "text": "Câu hỏi: Em có bầu 5 tuần rồi và 2 hôm nay, em bị đau bụng dưới râm ran. Vậy bác sĩ cho em hỏiđau bụng dưới râm ran khi mang thai 5 tuần có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khi có thai, tử cung lớn lên, một số phụ nữ sẽ có cảm giác nặng tức vùng hạ vị, một số hơi đau râm râm vùng bụng dưới như đau bụng kinh. Quan trọng là bạn cần được đi khám và siêu âm thai để xem thai kỳ có bị động thai hay không? Nếu không, bạn có thể theo dõi tại nhà được.",
+            "score": 0.6020307540893555,
+            "id": "medical_vietnamese_qa_1082"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

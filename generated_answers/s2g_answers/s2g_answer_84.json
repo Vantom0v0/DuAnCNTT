@@ -1,0 +1,113 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ,\nVợ em bị quáng gà do di truyền từ bố. Vậy bác sĩ cho em hỏi phương pháp điều trị quáng gà là gì? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBệnh lý quáng gà do di truyền hiện nay chưa có phương pháp điều trị, vợ của bạn cần khám mắt định kỳ 6 tháng 1 lần để kiểm tra, bổ sung vitamin A. Vợ bạn cần khám khi có dấu hiệu bất thường.\nTrân trọng!",
+    "answer": "Quáng gà do di truyền cần được khám bởi bác sĩ chuyên khoa mắt để đánh giá mức độ bệnh và kê đơn điều trị phù hợp. Một số thuốc bổ trợ cho mắt có thể được sử dụng và thuốc có thể phần nào hạn chế bệnh tiến triển, nhưng bằng chứng không nêu rõ phương pháp điều trị đặc hiệu.",
+    "evidence": [
+        "Con bị quáng gà bẩm sinh, do di truyền.",
+        "Bác sĩ cho con hỏi, có phương pháp có thể ngăn ngừa bệnh tiến triển nặng hơn không ạ?",
+        "Con cần đến bác sĩ chuyên khoa mắt để khám xem mức độ bệnh thế nào.",
+        "Nhiều thuốc bổ trợ cho mắt rất tốt, con nên đi khám để bác sĩ kê đơn điều trị.",
+        "Thuốc sẽ phần nào hạn chế sự tiến triển của bệnh."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Con chào bác sĩ. Con bị quáng gà bẩm sinh, do di truyền. Bác sĩ cho con hỏi, có phương pháp có thể ngăn ngừa bệnh tiến triển nặng hơn không ạ? Mong bác sĩ giải đáp giúp con, con cảm ơn ạ.\nTrả lời: Chào con. Con cần đến bác sĩ chuyên khoa mắt để khám xem mức độ bệnh thế nào. Nhiều thuốc bổ trợ cho mắt rất tốt, con nên đi khám để bác sĩ kê đơn điều trị. Thuốc sẽ phần nào hạn chế sự tiến triển của bệnh. Chúc con mau khỏe!\nCảm ơn con đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.5762366056442261,
+                "id": "vietnamese_medical_qa_3654",
+                "rerank_score": 0.9974560141563416
+            },
+            {
+                "text": "Câu hỏi: Vợ chồng em lấy nhau đã được gần 5 năm nhưng chưa có mụn con nào. Mới đây đi khám bác sĩ bảo vợ em bị buồng trứng đa nang. Bác sĩ cho em hỏi, bệnh này có thể điều trị được không? Điều trị bằng phương pháp nào và khả năng mang thai sau điều trị của vợ em có cao không?\nTrả lời: Buồng trứng đa nang là một hội chứng gây ra do rối loạn cân bằng hormone. Những phụ nữ bị buồng trứng đa nang có sự gia tăng bất thường về nồng độ androgen (hormone nam giới) trong cơ thể nữ. Những chất này sẽ gây gián đoạn quá trình phát triển của nang noãn, từ đó, buồng trứng xuất hiện nhiều nang nhỏ do nang noãn không phát triển được, trứng không thể trưởng thành và không có hiện tượng rụng trứng. Trước đây, có một vài phương pháp điều trị buồng trứng đa nang như phẫu thuật cắt góc buồng trứng hoặc đốt điểm buồng trứng. . . nhưng hiện nay ít được áp dụng do hiệu quả điều trị không được đảm bảo và phụ thuộc vào phẫu thuật viên rất nhiều. Hiện nay, có nhiều phương pháp hỗ trợ giúp phụ nữ bị đa nang sớm có con mà không cần can thiệp phẫu thuật như IUI, IVF.",
+                "score": 0.5056560039520264,
+                "id": "vietnamese_healthcare_7645",
+                "rerank_score": 0.20824147760868073
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Em có chút thắc mắc về bệnh hở môi hàm ếch, mong bác sĩ giải đáp giúp em với ạ. Bệnh hở môi hàm ếch có phải do di truyền không ạ? và nguyên nhân chính là do đâu? Em có quen một bạn bị hở môi hàm ếch, nhưng anh chị em khác trong gia đình bạn lại không bị gì, liệu sau này nếu lập gia đình thì bệnh này có bị di truyền lại cho con của bạn ấy không ạ? Em cảm ơn bác sĩ nhiều!\nTrả lời: Chào em! Bác sĩ rất chia sẻ với lo lắng của em và bạn về bệnh lý khe hở môi vòm. Đây là một dị tật bẩm sinh hay gặp, có thể xuất hiện một mình hoặc là một phần của một hội chứng, ảnh hưởng nhiều đến sức khỏe và đời sống của bệnh nhân và gia đình họ. Nguyên nhân chính xác của khe hở môi vòm vẫn chưa được xác định. Tuy nhiên, khả năng do di truyền chỉ chiếm một phần nhỏ, phần lớn nguyên nhân là do các yếu tố bên ngoài. Vì vậy, nếu bạn em bị hở môi hàm ếch nhưng anh chị em khác trong gia đình bạn lại không bị gì, thì khi lập gia đình, thì con của bạn em sẽ có khả năng nhỏ là bị khe hở môi vòm.\nTuy nhiên, với khả năng của y học hiện nay, các bác sĩ có thể chữa khỏi dị tật này, trả lại cuộc sống bình thường cho bệnh nhân và gia đình họ. Nhưng quá trình điều trị khá dài, cần phối hợp nhiều chuyên khoa, không chỉ cho bản thân bệnh nhân và còn phải tư vấn cho cả gia đình họ.",
+                "score": 0.5243343114852905,
+                "id": "vietnamese_medical_qa_2845",
+                "rerank_score": 0.09712421894073486
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nVợ em trước không bị viêm gan B, sau khi sinh thì bị mắc. Bác sĩ cho em hỏi nguyên nhân mắc viêm gan B sau khi sinh? Có phải do lây từ chồng không? Con em có khả năng bị lây nhiễm không thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nThông tin bạn đưa ra chưa đủ dữ kiện để kết luận là vợ bạn bị viêm gan B có nguồn lây từ đâu. Bạn chưa cung cấp cho bác sĩ biết vợ bạn nhiễm viêm gan B thể nào (viêm gan B hoạt động hay không hoạt động), việc điều trị thuốc kháng virus viêm gan B của vợ bạn, thời điểm vợ bạn phát hiện viêm gan B ngay sau sinh,...Vì vậy, bạn nên đưa vợ đến thăm khám bác sĩ và cung cấp đầy đủ thông tin để các bác sĩ có thể tư vấn cho bạn tốt nhất.\nTrân trọng!",
+                "score": 0.5465139746665955,
+                "id": "vietnamese_medical_qa_1597",
+                "rerank_score": 0.0718265175819397
+            },
+            {
+                "text": "Câu hỏi: Dạ thưa các bác sĩ. Em muốn hỏi gần đây da em mới xuất hiện các nốt bạch biến. Em muốn hỏi, xuất hiện nốt bạch biến có trị được không? Em xin cảm ơn bác sĩ.\nTrả lời: Chào bạn! Do nguyên nhân gây bệnh bạch biến vẫn chưa được hiểu rõ nên vẫn chưa có phương pháp điều trị bạch biến đặc hiệu. Hiện việc điều trị bệnh còn nhiều khó khăn, chỉ mới dừng lại ở việc giải quyết triệu chứng.\nCảm ơn bạn đã tin tưởng và chia sẻ lo lắng cùng câu hỏi “Xuất hiện nốt bạch biến có trị được không?” tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+                "score": 0.5437003970146179,
+                "id": "vietnamese_medical_qa_2980",
+                "rerank_score": 0.06467480212450027
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Con chào bác sĩ. Con bị quáng gà bẩm sinh, do di truyền. Bác sĩ cho con hỏi, có phương pháp có thể ngăn ngừa bệnh tiến triển nặng hơn không ạ? Mong bác sĩ giải đáp giúp con, con cảm ơn ạ.\nTrả lời: Chào con. Con cần đến bác sĩ chuyên khoa mắt để khám xem mức độ bệnh thế nào. Nhiều thuốc bổ trợ cho mắt rất tốt, con nên đi khám để bác sĩ kê đơn điều trị. Thuốc sẽ phần nào hạn chế sự tiến triển của bệnh. Chúc con mau khỏe!\nCảm ơn con đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.5792220234870911,
+                "id": "vietnamese_medical_qa_3654",
+                "rerank_score": 0.9974560141563416
+            },
+            {
+                "text": "Câu hỏi: Vợ chồng em lấy nhau đã được gần 5 năm nhưng chưa có mụn con nào. Mới đây đi khám bác sĩ bảo vợ em bị buồng trứng đa nang. Bác sĩ cho em hỏi, bệnh này có thể điều trị được không? Điều trị bằng phương pháp nào và khả năng mang thai sau điều trị của vợ em có cao không?\nTrả lời: Buồng trứng đa nang là một hội chứng gây ra do rối loạn cân bằng hormone. Những phụ nữ bị buồng trứng đa nang có sự gia tăng bất thường về nồng độ androgen (hormone nam giới) trong cơ thể nữ. Những chất này sẽ gây gián đoạn quá trình phát triển của nang noãn, từ đó, buồng trứng xuất hiện nhiều nang nhỏ do nang noãn không phát triển được, trứng không thể trưởng thành và không có hiện tượng rụng trứng. Trước đây, có một vài phương pháp điều trị buồng trứng đa nang như phẫu thuật cắt góc buồng trứng hoặc đốt điểm buồng trứng. . . nhưng hiện nay ít được áp dụng do hiệu quả điều trị không được đảm bảo và phụ thuộc vào phẫu thuật viên rất nhiều. Hiện nay, có nhiều phương pháp hỗ trợ giúp phụ nữ bị đa nang sớm có con mà không cần can thiệp phẫu thuật như IUI, IVF.",
+                "score": 0.5226225256919861,
+                "id": "vietnamese_healthcare_7645",
+                "rerank_score": 0.20824052393436432
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nVợ em trước không bị viêm gan B, sau khi sinh thì bị mắc. Bác sĩ cho em hỏi nguyên nhân mắc viêm gan B sau khi sinh? Có phải do lây từ chồng không? Con em có khả năng bị lây nhiễm không thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nThông tin bạn đưa ra chưa đủ dữ kiện để kết luận là vợ bạn bị viêm gan B có nguồn lây từ đâu. Bạn chưa cung cấp cho bác sĩ biết vợ bạn nhiễm viêm gan B thể nào (viêm gan B hoạt động hay không hoạt động), việc điều trị thuốc kháng virus viêm gan B của vợ bạn, thời điểm vợ bạn phát hiện viêm gan B ngay sau sinh,...Vì vậy, bạn nên đưa vợ đến thăm khám bác sĩ và cung cấp đầy đủ thông tin để các bác sĩ có thể tư vấn cho bạn tốt nhất.\nTrân trọng!",
+                "score": 0.5535090565681458,
+                "id": "vietnamese_medical_qa_1597",
+                "rerank_score": 0.07182643562555313
+            },
+            {
+                "text": "Câu hỏi: Dạ thưa các bác sĩ. Em muốn hỏi gần đây da em mới xuất hiện các nốt bạch biến. Em muốn hỏi, xuất hiện nốt bạch biến có trị được không? Em xin cảm ơn bác sĩ.\nTrả lời: Chào bạn! Do nguyên nhân gây bệnh bạch biến vẫn chưa được hiểu rõ nên vẫn chưa có phương pháp điều trị bạch biến đặc hiệu. Hiện việc điều trị bệnh còn nhiều khó khăn, chỉ mới dừng lại ở việc giải quyết triệu chứng.\nCảm ơn bạn đã tin tưởng và chia sẻ lo lắng cùng câu hỏi “Xuất hiện nốt bạch biến có trị được không?” tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+                "score": 0.5218655467033386,
+                "id": "vietnamese_medical_qa_2980",
+                "rerank_score": 0.06467466056346893
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ! Vợ em năm nay 35 tuổi và đã được chẩn đoán mắc bệnh cường giáp ICD:E05. Vào tháng 10/2018, vợ em đã phẫu thuật cắt tuyến giáp hoàn toàn nhưng hiện tại lại có triệu chứng bệnh tái phát gây mệt mỏi, hô hấp kém, loạn nhịp tim.\nVậy bác sĩ cho em hỏi Phương pháp điều trị dứt điểm bệnh cường giáp sau phẫu thuật là gì? Cám ơn bác sĩ đã tư vấn!\nTrả lời: Chào bạn! Với câu hỏi: Phương pháp điều trị dứt điểm bệnh cường giáp sau phẫu thuật là gì? của bạn thì bác sĩ xin trả lời như sau:\nDựa vào thông tin bạn đưa ra, vợ của bạn có thể vẫn còn tình trạng cường giáp mặc dù đã được phẫu thuật. Do đó, để tìm ra phương pháp điều trị hiệu quả nhất thì vợ của bạn cần được khám chuyên khoa Nội tiết và thực hiện một số phương pháp chẩn đoán hình ảnh như: siêu âm tuyến giáp và xét nghiệm đánh giá chức năng tuyến giáp. Từ đó, bác sĩ sẽ biết được đầy đủ tình trạng bệnh và đưa ra giải pháp điều trị phù hợp, hiệu quả nhất.",
+                "score": 0.5762274265289307,
+                "id": "vietnamese_medical_qa_3084",
+                "rerank_score": 0.06321575492620468
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Con chào bác sĩ. Con bị quáng gà bẩm sinh, do di truyền. Bác sĩ cho con hỏi, có phương pháp có thể ngăn ngừa bệnh tiến triển nặng hơn không ạ? Mong bác sĩ giải đáp giúp con, con cảm ơn ạ.\nTrả lời: Chào con. Con cần đến bác sĩ chuyên khoa mắt để khám xem mức độ bệnh thế nào. Nhiều thuốc bổ trợ cho mắt rất tốt, con nên đi khám để bác sĩ kê đơn điều trị. Thuốc sẽ phần nào hạn chế sự tiến triển của bệnh. Chúc con mau khỏe!\nCảm ơn con đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.5968071222305298,
+                "id": "vietnamese_medical_qa_3654",
+                "rerank_score": 0.9974560141563416
+            },
+            {
+                "text": "Câu hỏi: Vợ chồng em lấy nhau đã được gần 5 năm nhưng chưa có mụn con nào. Mới đây đi khám bác sĩ bảo vợ em bị buồng trứng đa nang. Bác sĩ cho em hỏi, bệnh này có thể điều trị được không? Điều trị bằng phương pháp nào và khả năng mang thai sau điều trị của vợ em có cao không?\nTrả lời: Buồng trứng đa nang là một hội chứng gây ra do rối loạn cân bằng hormone. Những phụ nữ bị buồng trứng đa nang có sự gia tăng bất thường về nồng độ androgen (hormone nam giới) trong cơ thể nữ. Những chất này sẽ gây gián đoạn quá trình phát triển của nang noãn, từ đó, buồng trứng xuất hiện nhiều nang nhỏ do nang noãn không phát triển được, trứng không thể trưởng thành và không có hiện tượng rụng trứng. Trước đây, có một vài phương pháp điều trị buồng trứng đa nang như phẫu thuật cắt góc buồng trứng hoặc đốt điểm buồng trứng. . . nhưng hiện nay ít được áp dụng do hiệu quả điều trị không được đảm bảo và phụ thuộc vào phẫu thuật viên rất nhiều. Hiện nay, có nhiều phương pháp hỗ trợ giúp phụ nữ bị đa nang sớm có con mà không cần can thiệp phẫu thuật như IUI, IVF.",
+                "score": 0.5328985452651978,
+                "id": "vietnamese_healthcare_7645",
+                "rerank_score": 0.20824052393436432
+            },
+            {
+                "text": "Câu hỏi: ! Em có đi khám thì bác sĩ nói bịviêm lộ tuyến, và tư vấn em nếu muốn trị dứt điểm để có con thì nên dùng phương pháp áp lạnh. Bác sĩ cho em hỏiđiều trị viêm lộ tuyến bằng phương pháp áp lạnhcó bắt buộc khôngvà có ảnh hưởng đến khả năng sinh sảncủa em sau này khôngạ? Rất mong bác sĩ tư vấn, em cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời Chào em,\nTrả lời: bác sĩ xin được trả lời câu hỏi: “Điều trị viêm lộ tuyến bằng phương pháp áp lạnh có bắt buộc khôngvà có ảnh hưởng đến khả năng sinh sản không?” như sau: Nếu bịviêm lộ tuyếnthì hướng điều trị có thể áp dụng nhiều phương pháp như áp lạnh, đốt điện, laser..Viêm lộ tuyến không điều trị có thể gây viêm nhiễm tái phát nhiều lần, gây vô sinh... Việcđiều trị lộ tuyếnđúng phác đồ và kĩ thuật thì không ảnh hưởng đến khả năng sinh sản của em, nếu điều trị đúng còn làm tăng khả năng có thai cho em. Bạn có thể đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Phùng Quang Thủy- Bác sĩ sản Phụ Khoa - Khoa Phụ - Bệnh viện Đa khoa Quốc tế Vinmec Times City Các nội dung tư vấn khác Phương pháp điều trị viêm lộ tuyến cổ tử cung cho phụ nữ chưa sinh con Sau tiểu phẫu viêm lộ tuyến cổ tử cung cần làm gì để mang thai an toàn? Phương pháp đốt điện điều trị viêm lộ tuyến cổ tử cung có ảnh hưởng tới sức khỏe sinh sản không? Các bài viết cùng chủ đề 3 cấp độ của viêm lộ tuyến cổ tử cung Bệnh viêm lộ tuyến cổ tử cung có nguy hiểm không? Viêm lộ tuyến cổ tử cung độ 2 có nên đốt không?",
+                "score": 0.5086103677749634,
+                "id": "medical_vietnamese_qa_3770",
+                "rerank_score": 0.09158644825220108
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nVợ em trước không bị viêm gan B, sau khi sinh thì bị mắc. Bác sĩ cho em hỏi nguyên nhân mắc viêm gan B sau khi sinh? Có phải do lây từ chồng không? Con em có khả năng bị lây nhiễm không thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nThông tin bạn đưa ra chưa đủ dữ kiện để kết luận là vợ bạn bị viêm gan B có nguồn lây từ đâu. Bạn chưa cung cấp cho bác sĩ biết vợ bạn nhiễm viêm gan B thể nào (viêm gan B hoạt động hay không hoạt động), việc điều trị thuốc kháng virus viêm gan B của vợ bạn, thời điểm vợ bạn phát hiện viêm gan B ngay sau sinh,...Vì vậy, bạn nên đưa vợ đến thăm khám bác sĩ và cung cấp đầy đủ thông tin để các bác sĩ có thể tư vấn cho bạn tốt nhất.\nTrân trọng!",
+                "score": 0.5421059131622314,
+                "id": "vietnamese_medical_qa_1597",
+                "rerank_score": 0.07182643562555313
+            },
+            {
+                "text": "Câu hỏi: Dạ thưa các bác sĩ. Em muốn hỏi gần đây da em mới xuất hiện các nốt bạch biến. Em muốn hỏi, xuất hiện nốt bạch biến có trị được không? Em xin cảm ơn bác sĩ.\nTrả lời: Chào bạn! Do nguyên nhân gây bệnh bạch biến vẫn chưa được hiểu rõ nên vẫn chưa có phương pháp điều trị bạch biến đặc hiệu. Hiện việc điều trị bệnh còn nhiều khó khăn, chỉ mới dừng lại ở việc giải quyết triệu chứng.\nCảm ơn bạn đã tin tưởng và chia sẻ lo lắng cùng câu hỏi “Xuất hiện nốt bạch biến có trị được không?” tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+                "score": 0.5119602680206299,
+                "id": "vietnamese_medical_qa_2980",
+                "rerank_score": 0.06467466056346893
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ, tôi 33 tuổi ,nam,đã cưới vợ nay 7 nam nhưng chưa có con, đã khám chữa nhiều nơi nhung ko có kết quả, tôi do tinh trùng yếu ,nay tôi hỏi bác sĩ là bệnh viện bình dân chuyên khoa nam co thể phẩu thuật làm tinh trùng cải thiện đươc ko",
+    "ground_truth": "Chào em!\nChậm có con là 1 vấn đề khá phổ biến trong cộng đồng dân cư. và việc khó hay dễ có con phụ thuộc vào cả Vợ lẫn Chồng. Nếu vợ em cũng đi khám và kết quả bình thường, mà em cũng có làm tinh trùng đồ. Kết quả là tinh trùng yếu. tuy nhiên kết quả của 1 xét nghiệm không nên tin hoàn toàn tuyệt đối. Em có thể làm lại để đánh giá sau 3 tháng. nếu kết quả tương tự lần trước thì khả năng nguyên nhân gây chậm có con có thể là do tinh trùng yếu.\nViệc cải thiện chất lượng tinh trùng được hay không tuỳ thuộc vào nguyên nhân.\nTuy nhiên nếu có phân lập được tinh trùng thì các phương pháp tiên tiến ngày nay có thể hỗ trợ được cho em có thể có con dễ dàng hơn như IVF chẳng hạn!\nThân",
+    "answer": "Chào bạn, sau 7 năm chưa có con và đã được xác định tinh trùng yếu, bạn nên đến khám tại chuyên khoa Nam học hoặc trung tâm hỗ trợ sinh sản để làm lại tinh dịch đồ và tìm nguyên nhân cụ thể. Tài liệu không cho biết Bệnh viện Bình Dân có thể phẫu thuật để cải thiện tinh trùng trong trường hợp của bạn; việc điều trị phụ thuộc vào nguyên nhân và kết quả thăm khám, có thể cần thuốc hoặc các phương pháp hỗ trợ sinh sản như bơm tinh trùng hay thụ tinh ống nghiệm. Đồng thời, cả hai vợ chồng nên được đánh giá vì khả năng sinh sản phụ thuộc vào nhiều yếu tố của cả vợ và chồng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi năm nay 43 tuổi, đã lập gia đình được 12 năm, bị hiếm muộn khó có con. Tôi đã đi khám uống thuốc khắp nơi, may mắn có một bé năm nay được năm tuổi, bây giờ muốn có đứa nữa mà không biết làm sao. Đi xét nghiệm tinh trùng, bị tinh trùng loãng đạt 1-2% khỏe mạnh. Xin hỏi bác sỹ trường hợp này tôi có thể làm bơm tinh trùng có được không hay làm thụ tinh ống nghiệm luôn?\nTrả lời: Để chỉ định phương pháp điều trị cần dựa vào rất nhiều yếu tố, ví dụ như chất lượng tinh trùng, chức năng tử cung và vòi tử cung, chức năng buồng trứng, tuổi của hai vợ chồng, các bệnh lý kèm theo khác. . .",
+            "score": 0.6010397672653198,
+            "id": "vietnamese_healthcare_4366"
+        },
+        {
+            "text": "Câu hỏi: Tôi đã có con và bây giờ muốn có con nữa. Ba năm nay, tôi và vợ không dùng biện pháp kế hoạch nào nhưng vẫn không có thai. Mới đây, đi xét nghiệm, bác sĩ bảo tinh dịch đồ của tôi với tinh trùng yếu, ít; khi quan hệ, cảm giác rất khó chịu, đi tiểu buốt nhưng không thường xuyên. Nhờ bác sĩ tư vấn.\nTrả lời: Theo lời bạn kể có thể bạn bị thiểu tinh, khó có con, đau dương vật, tiểu buốt. Có rất nhiều nguyên nhân gây ra các vấn đề trên. Tùy nguyên nhân, bác sĩ sẽ đưa ra phương án điều trị khác nhau. Vì vậy, bạn cần sớm để các cơ sở chuyên khoa để được bác sĩ khám, chỉ định làm xét nghiệm và tư vấn thêm.",
+            "score": 0.5972447991371155,
+            "id": "vietnamese_healthcare_8233"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nEm nam nay 33 tuổi, gần đây thỉnh thoảng em bị đau tinh hoàn bên trái đi khám thì bs nói bị viêm tinh hoàn cho thuốc uống nhưng em thấy ko khỏi vẫn bs tư vấn cho em nên nam bay giờ a\nTrả lời: Chào bạn. \nNếu đã uống thuốc mà bạn vẫn không khỏi thì bạn cần tái khám để bác sỹ xác định tình trạng hiện tại và điều chỉnh thuốc cho phù hợp. Bạn nên khám chuyên khoa Nam học ở các bệnh viện lớn. Viêm tinh hoàn để lâu sẽ teo tinh hoàn dẫn đến vô sinh. \nThân mến",
+            "score": 0.597184419631958,
+            "id": "vietnamese_medical_qa_8274"
+        },
+        {
+            "text": "Câu hỏi: Tôi 39 tuổi, từng có một đời vợ, chung sống với nhau 5 năm nhưng không có con. Sau đó cô ấy đi lấy chồng mới lại có em bé, tôi lo lắng nguyên nhân do tôi nên có đi khám tổng quát nhưng sức khỏe bình thường. Hiện tại tôi rất hoang mang không biết tôi mắc bệnh gì và còn cơ hội làm cha hay không?\nTrả lời: Để trả lời cho trăn trở của bạn, bạn chỉ cần đến trung tâm hỗ trợ sinh sản để làm một xét nghiệm đơn giản, rẻ tiền và nhanh chóng: tinh dịch đồ. Trong trường hợp tinh dịch đồ bất thường (ví dụ không có tinh trùng, tinh trùng ít hoặc yếu), bạn có thể cần gặp bác sĩ hiếm muộn để được thăm khám và xét nghiệm chuyên sâu hơn, từ đó có những hướng điều trị cụ thể.",
+            "score": 0.5945447087287903,
+            "id": "vietnamese_healthcare_3778"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,hiện tại tôi 27t, đã lập giâ đình đc 3 năm nhưng vẫn chưa có con. Thật lòng 2 vợ chồng tôi mong con từng ngày. Cách đây 1 năm vc tôi có lên khám tại Từ Dũ. Kết quả tinh dịch đồ chồng tôi yếu. Còn tôi kết quả bình thường, hai vòi trứng thông. Khi siêu âm bs nố buồng trứng có nhiều nang nhỏ, nhưng không kết luận đa nang. Sau đó bs có chỉ định vc tôi bơm tinh trùng. Do chưa có điêu kiện kinh tế nên vc tôi vẫn chưa thực hiện phương pháp này. Hiện kinh nguyệt của tôi không đều(trước đây rất đều, sau khi chụp cản quang vòi trứng tôi mất kinh 4 tháng, và có lại nhưngchu kỳ không đều 45 ngày/ck). Đồng thời mỗi chu kỳ của tôi rất ngắn , chỉ 2 ngày và số lượng kinh ít. Vậy cho tôi hỏi tình trạng của tôi có khả năng có con tự nhiên không????\nTrả lời: Xin chào bạn, \n\nTheo kết quả như bạn đã mô tả thì hiện tại cả 2 vợ chồng đều đang có vấn đề: \n- Với chồng: Tinh trùng yếu làm giảm khả năng có con. Thông thường chồng bạn có thể phải sử dụng 1 số loại thuốc và dùng phương pháp hỗ trợ là bơm tinh trùng hoặc thụ tinh ống nghiệm để tăng khả năng có con. Nếu sau 1 khoảng thời gian điều trị, chất lượng tinh trùng của chồng bạn bình thường thì mới không phải can thiệp, còn không thì sẽ khó có khả năng thụ thai tự nhiên được. \n- Với vợ: Không bị tắc vòi trừng và buồng trứng bình thường. Tuy nhiên, thời gian gần đây chu kỳ dài và lượng kinh ít -> Có khả năng là chu kỳ kinh của bạn đang có vấn đề. Bạn cần phải thăm khám lại đặc biệt là cần xác định xem trứng có rụng hay không (chu kỳ dài có thể do lượng nội tiết thiếu, chu kỳ không rụng trứng), chất lượng trứng có tốt hay không, và niêm mạc có đủ tốt để nuôi thai hay không. \nĐảm bảo được yếu tố cả vợ lẫn chồng thì việc có con mới có hiệu quả. Còn việc khẳng định là bạn muốn có thai tự nhiên, tức là không can thiệp thì vì không có kết quả thăm khám gần đây nhất của bạn nên bác sỹ không tư vấn được mà chỉ giúp bạn hướng tiếp theo thăm khám và tìm hiểu để có được kết quả sớm nhất thôi.\n\nChúc gia đình bạn sớm có tin vui.",
+            "score": 0.5812326669692993,
+            "id": "vietnamese_medical_qa_7189"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

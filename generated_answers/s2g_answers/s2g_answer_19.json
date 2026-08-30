@@ -1,0 +1,120 @@
+{
+    "model_name": "s2g_rag",
+    "question": "tôi bị cơ địa dị ứng với hoá chất, dị ứng với thuốc gây mê, gây tê 17-35%, bị viêm xoang, đau dạ dày và hay đau đầu khi thay đổi thời tiết, khi căng thẳng, bị u tuyến giáp nhỏ, vậy xin hỏi bác sĩ tôi có thể tiêm phòng vaccine được không?",
+    "ground_truth": "Nếu tình trạng dị ứng của bạn ở mức độ nhẹ, bạn chị có thể tiêm ngừa vaccine Covid-19, nếu mức độ nặng, chị không thể tiêm ngừa theo quy định của Bộ Y tế. Ngoài ra, khi đi tiêm, chị cần mang theo sổ khám bệnh để bác sĩ khám sàng lọc biết được tình trạng u tuyến giáp của chị đang ở giai đoạn nào, có lành tính hay không, điều trị như thế nào để tư vấn chị cụ thể hơn.",
+    "answer": "Bạn có thể vẫn được tiêm vaccine nếu các bệnh như viêm xoang, đau dạ dày, đau đầu, u tuyến giáp và tình trạng dị ứng hiện đang ổn định, không gây ảnh hưởng đến hô hấp, tim mạch, tiêu hóa hoặc thần kinh và không phải nhập viện điều trị. Tuy nhiên, do bạn có tiền sử dị ứng với hóa chất, thuốc gây mê và thuốc gây tê, cần báo đầy đủ cho bác sĩ khi khám sàng lọc và nên đến bệnh viện hoặc cơ sở y tế có đủ khả năng cấp cứu ban đầu để được đánh giá kỹ. Nếu trước đây từng phản vệ từ độ 2 trở lên hoặc phải nhập viện cấp cứu vì dị ứng thì chống chỉ định/hoãn tiêm vaccine Covid-19; bằng chứng không đủ để xác định mức độ dị ứng “17–35%” của bạn thuộc trường hợp nào.",
+    "evidence": [
+        "- Nếu mắc độ chỉ nỗi mẫn ngứa rồi tự khỏi thì sẽ chỉ định tiêm được vaccine Covid-19.",
+        "(phản vệ độ 2 chở lên) hoặc phải vào viện cấp cứu điều trị thì phải hoãn tiêm vaccin Covid-19.",
+        "- Bị viêm xoang thì vẫn tiêm được vaccine Covid-19.",
+        "Trả lời: Theo hướng dẫn Bộ Y tế, những trường hợp bệnh mạn tính/cấp tính vẫn có thể tiêm vaccine được nếu hiện tại tình trạng bệnh của bác đã ổn định/đã khỏi.",
+        "Bác đã 64 tuổi kèm bệnh nền nên bác thuộc nhóm cần cẩn trọng khi tiêm chủng, bác nên đến bệnh viện hoặc cơ sở y tế có đủ khả năng hồi sức ban đầu để bác sĩ khám sàng lọc đánh giá tình trạng sức khỏe hiện tại (tổng trạng, dấu hiệu sinh tồn, tiền căn dị ứng, thuốc đang dùng) nếu ổn định bác sĩ sẽ chỉ định tiêm chủng cho bác.",
+        "Tuy nhiên, với tiền sử dị ứng với nhiều loại thuốc và bệnh lý tim mạch, chị cần được bác sĩ khám sàng lọc kỹ ở trong bệnh viện hoặc ở cơ sở y tế đủ năng lực cấp cứu ban đầu.",
+        "Trả lời: Nếu tình trạng dị ứng của anh không nghiêm trọng như không ảnh hưởng đến hô hấp, tim mạch, tiêu hóa, thần kinh và cũng không khiến anh phải nhập viện điều trị thì không chống chỉ định tiêm vaccine Covid-19.",
+        "Vì vậy, khi khám sàng lọc trước tiêm, anh cần báo cáo với bác sĩ về tình trạng dị ứng của anh cũng như triệu chứng mà anh gặp phải để bác sĩ có thể quyết định cho chỉ định tiêm chủng ngay hoặc cần phải chuyển bệnh viện và tư vấn thêm cho anh.",
+        "Trước khi tiêm chủng, bệnh lý tim mạch của chị cần phải được điều trị ổn định.",
+        "Trả lời: Đối với tình trạng bệnh nền, nếu đã điều trị ổn định có thể tiêm ngừa được vaccine Covid 19.",
+        ")có thể tiêm ngừa được vaccine, có thể sẽ tiến hành tiêm chủng tại khối bệnh viện, còn nếu dị ứng ở mức độ nặng (phản vệ độ II trở lên), phải nhập viện cấp cứu sẽ chống chị định tiêm vaccine Covid-19.",
+        "Theo hướng dẫn của Bộ Y tế và nhà sản xuất, những trường hợp bị phản ứng phản vệ từ độ 2 trở lên với bất kỳ nguyên nhân nào sẽ chống chỉ định tiêm vaccine Covid-19."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bị dị ứng kháng sinh và kháng viêm có chích ngừa được không ạ, thưa bác sĩ? Em đang bị viêm xoang có chích vaccine được không?\nTrả lời: Chị bị dị ứng kháng sinh, kháng viêm phải tùy thuộc vào mức độ phản ứng để quyết định được chị có tiêm phòng hay hoãn tiêm vaccine Covid-19. - Nếu mắc độ chỉ nỗi mẫn ngứa rồi tự khỏi thì sẽ chỉ định tiêm được vaccine Covid-19. - Nếu là dị ứng có các triệu cứng như khó thở, thở rít, nổi mề đay, phù môi. . . (phản vệ độ 2 chở lên) hoặc phải vào viện cấp cứu điều trị thì phải hoãn tiêm vaccin Covid-19. - Bị viêm xoang thì vẫn tiêm được vaccine Covid-19.",
+                "score": 0.5503088235855103,
+                "id": "vietnamese_healthcare_9784",
+                "rerank_score": 0.9703609943389893
+            },
+            {
+                "text": "Câu hỏi: Tôi đi tiêm vaccine ngừa Covid-19, gặp bác sĩ tư vấn trước khi tiêm, tôi có khai bị dị ứng thuộc viêm xoang và thuốc cảm sốt hai lần (mỗi lần điều trị hơn một tháng mới hết). Tôi có bệnh nền cao huyết áp, tiểu đường. Bác sĩ tư vấn nói tôi không thể tiêm ngừa được do bị dị ứng thuốc và có bệnh nền. Xin hỏi điều này có đúng không bác sĩ? Tôi cần làm gì để phòng bệnh ạ!\nTrả lời: Trường hợp của anh/chị chưa nói rõ mức độ triệu chứng dị ứng như thế nào?Nếu là phản vệ độ 2 trở lên thì chống chỉ định tiêm vaccine Covid-19; nếu là triệu chứng nhẹ kèm theo bệnh nền ổn định hơn 3 tháng thì có thể tiêm được vaccine Covid-19 tại khối bệnh viện.",
+                "score": 0.5691268444061279,
+                "id": "vietnamese_healthcare_609",
+                "rerank_score": 0.962770402431488
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyết áp, viêm xoang dị ứng, hen phế quản và rối loạn nhịp tim đã được đốt điện cách đây 2 năm. Vậy tôi có tiêm vaccine phòng Covid 19 được không?\nTrả lời: Theo hướng dẫn Bộ Y tế, những trường hợp bệnh mạn tính/cấp tính vẫn có thể tiêm vaccine được nếu hiện tại tình trạng bệnh của bác đã ổn định/đã khỏi. Bác đã 64 tuổi kèm bệnh nền nên bác thuộc nhóm cần cẩn trọng khi tiêm chủng, bác nên đến bệnh viện hoặc cơ sở y tế có đủ khả năng hồi sức ban đầu để bác sĩ khám sàng lọc đánh giá tình trạng sức khỏe hiện tại (tổng trạng, dấu hiệu sinh tồn, tiền căn dị ứng, thuốc đang dùng) nếu ổn định bác sĩ sẽ chỉ định tiêm chủng cho bác. Sau tiêm, bác hãy tuân thủ đúng theo hướng dẫn của bác sĩ về theo dõi các phản ứng sau tiêm nhé.",
+                "score": 0.563407301902771,
+                "id": "vietnamese_healthcare_1962",
+                "rerank_score": 0.9609512686729431
+            },
+            {
+                "text": "Câu hỏi: Hiện nay rất nhiều cơ quan và công ty tiến hành tiêm vaccine phòng chống bệnh Covid 19. Tôi là người từng có các bệnh lý nền như phát hiện và điều trị bệnh lao phổi năm 2016; mắc bệnh xoang mũi dị ứng khoảng 10 năm nay; cơ địa dị ứng một số loại thức ăn. Cách đây hơn một tháng, tôi bị dị ứng dẫn tới sốc phản vệ đi cấp cứu ở bệnh viện 2 lần. Xin hỏi trường hợp tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Trường hợp của chị đã được cấp cứu và chẩn đoán là phản vệ độ 2 nên rất tiếc chị thuộc nhóm đối tượng chống chỉ định tiêm vaccine Covid-19.",
+                "score": 0.5626038312911987,
+                "id": "vietnamese_healthcare_6750",
+                "rerank_score": 0.9301354289054871
+            },
+            {
+                "text": "Câu hỏi: tôi bị dị ứng rất nhiều loại thuốc giảm đau, hạ sốt hoặc các loại thuốc giảm đau/ kháng viêm, ngoài ra tôi còn bị bệnh tim, thỉnh thoảng lên cơn nhịp nhanh trên thất. Xin hỏi như vậy tôi có nên tiêm vaccine Covid-19 không ? Nếu được thì tư vấn và khám sàng lọc ở đâu ạ.\nTrả lời: Nếu chị không có tiền sử dị ứng nặng (phản vệ độ II trở lên) thì chị không thuộc đối tượng chống chỉ định tiêm chủng vaccine Covid-19. Tuy nhiên, với tiền sử dị ứng với nhiều loại thuốc và bệnh lý tim mạch, chị cần được bác sĩ khám sàng lọc kỹ ở trong bệnh viện hoặc ở cơ sở y tế đủ năng lực cấp cứu ban đầu. Trước khi tiêm chủng, bệnh lý tim mạch của chị cần phải được điều trị ổn định. Bác sĩ sẽ khám sức khỏe của chị trước khi tiêm chủng.",
+                "score": 0.5562841296195984,
+                "id": "vietnamese_healthcare_7573",
+                "rerank_score": 0.9155634045600891
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng với các loại thuốc giảm đau như bị phì nề mặt, cứng họng nghẹt thở. Tôi có tiêm vaccine Covid-19 được không? Nếu tiêm thì khám lâm sàng thế nào và tiêm ở đâu để an toàn?\nTrả lời: Anh/Chị có tiền sử bị dị ứng với thuốc giảm đau với các dấu hiệu như Anh/Chị mô tả thì Anh/Chị đã bị phản ứng phản vệ độ 2 trở lên. Theo Quyết định 2995 của Bộ Y tế, Anh/Chị đang thuộc trong đối tượng chống chỉ định tiêm chủng vaccine phòng Covid-19. Trong thời gian chờ hướng dẫn mới của Bộ Y tế về vaccine Covid-19 với các đối tượng bị dị ứng, Anh/Chị nên thực hiện nguyên tắc phòng bệnh với thông điệp 5K của Bộ Y tế.",
+                "score": 0.572645366191864,
+                "id": "vietnamese_healthcare_3623",
+                "rerank_score": 0.9410680532455444
+            },
+            {
+                "text": "Câu hỏi: Em bị dị ứng thuốc kháng viêm và dị ứng với ve sầu. Em có tiêm ngừa Covid-19 được không ạ?\nTrả lời: Nếu tình trạng dị ứng của anh không nghiêm trọng như không ảnh hưởng đến hô hấp, tim mạch, tiêu hóa, thần kinh và cũng không khiến anh phải nhập viện điều trị thì không chống chỉ định tiêm vaccine Covid-19. Tuy nhiên, người có cơ địa dị ứng có nguy cơ phản vệ cao hơn những người khác. Vì vậy, khi khám sàng lọc trước tiêm, anh cần báo cáo với bác sĩ về tình trạng dị ứng của anh cũng như triệu chứng mà anh gặp phải để bác sĩ có thể quyết định cho chỉ định tiêm chủng ngay hoặc cần phải chuyển bệnh viện và tư vấn thêm cho anh.",
+                "score": 0.5629420280456543,
+                "id": "vietnamese_healthcare_8909",
+                "rerank_score": 0.9347062110900879
+            },
+            {
+                "text": "Câu hỏi: tôi bị dị ứng rất nhiều loại thuốc giảm đau, hạ sốt hoặc các loại thuốc giảm đau/ kháng viêm, ngoài ra tôi còn bị bệnh tim, thỉnh thoảng lên cơn nhịp nhanh trên thất. Xin hỏi như vậy tôi có nên tiêm vaccine Covid-19 không ? Nếu được thì tư vấn và khám sàng lọc ở đâu ạ.\nTrả lời: Nếu chị không có tiền sử dị ứng nặng (phản vệ độ II trở lên) thì chị không thuộc đối tượng chống chỉ định tiêm chủng vaccine Covid-19. Tuy nhiên, với tiền sử dị ứng với nhiều loại thuốc và bệnh lý tim mạch, chị cần được bác sĩ khám sàng lọc kỹ ở trong bệnh viện hoặc ở cơ sở y tế đủ năng lực cấp cứu ban đầu. Trước khi tiêm chủng, bệnh lý tim mạch của chị cần phải được điều trị ổn định. Bác sĩ sẽ khám sức khỏe của chị trước khi tiêm chủng.",
+                "score": 0.5719034671783447,
+                "id": "vietnamese_healthcare_7573",
+                "rerank_score": 0.9155634045600891
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thuốc giảm đau dòn. Tôi từng bị sốc phản vệ, đi cấp cứu 3 lần vì dị ứng. Tôi có thể tiêm vaccine Covid-19 được không? Nếu được thì tiêm loại vaccine nào?\nTrả lời: Nếu chị đã từng phải nhập viện điều trị và chẩn đoán là phản vệ độ II với paracetamol thì chị thuộc nhóm đối tượng chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế.",
+                "score": 0.5759987235069275,
+                "id": "vietnamese_healthcare_5746",
+                "rerank_score": 0.9068048596382141
+            },
+            {
+                "text": "Câu hỏi: Tôi bị xơ gan giai đoạn F2 (cuối năm 2020) trên nền viêm gan B mạn tính. Trước đây, tôi có bị dị ứng với kháng sinh tương đối nặng (nổi mề đay sau hai liều thuốc, phải điều trị thuốc chống dị ứng hai tuần mới hết). Nếu tôi tiêm vaccine AstraZeneca giai đoạn này có được không? Tôi có thuộc nhóm loại trừ khi tiêm không hay có thể tiêm ở cơ sở y tế?\nTrả lời: Đối với tình trạng bệnh nền, nếu đã điều trị ổn định có thể tiêm ngừa được vaccine Covid 19. Đối với tình trạng dị ứng, việc chỉ định tiêm chủng còn phụ thuộc vào mức độ dị ứng cụ thể nếu dị ứng của con bác ở mức độ nhẹ (chỉ ở da niêm như mẩn đỏ, ngứa. . . có thể có phù mắt, môi chưa ảnh hưởng đến hô hấp, tuần hoàn, tiêu hóa, tri giác. . . )có thể tiêm ngừa được vaccine, có thể sẽ tiến hành tiêm chủng tại khối bệnh viện, còn nếu dị ứng ở mức độ nặng (phản vệ độ II trở lên), phải nhập viện cấp cứu sẽ chống chị định tiêm vaccine Covid-19.",
+                "score": 0.561000645160675,
+                "id": "vietnamese_healthcare_5253",
+                "rerank_score": 0.9038559794425964
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Em bị dị ứng thuốc kháng viêm và dị ứng với ve sầu. Em có tiêm ngừa Covid-19 được không ạ?\nTrả lời: Nếu tình trạng dị ứng của anh không nghiêm trọng như không ảnh hưởng đến hô hấp, tim mạch, tiêu hóa, thần kinh và cũng không khiến anh phải nhập viện điều trị thì không chống chỉ định tiêm vaccine Covid-19. Tuy nhiên, người có cơ địa dị ứng có nguy cơ phản vệ cao hơn những người khác. Vì vậy, khi khám sàng lọc trước tiêm, anh cần báo cáo với bác sĩ về tình trạng dị ứng của anh cũng như triệu chứng mà anh gặp phải để bác sĩ có thể quyết định cho chỉ định tiêm chủng ngay hoặc cần phải chuyển bệnh viện và tư vấn thêm cho anh.",
+                "score": 0.5573728084564209,
+                "id": "vietnamese_healthcare_8909",
+                "rerank_score": 0.9347062110900879
+            },
+            {
+                "text": "Câu hỏi: Năm 2001 tôi bị dị ứng với thuốc giảm đau, sưng mắt, khó thở phải vô bệnh viện cấp cứu. Thịnh thoảng ăn uống cũng bị nổi mẫn mí mắt mà không xác định loại thức ăn gì. Vậy nay tôi tiêm vaccine được không ạ?\nTrả lời: Như những mô tả mức độ dị ứng của chị, chị đã bị phản ứng phản vệ độ 2. Theo hướng dẫn của Bộ Y tế và nhà sản xuất, những trường hợp bị phản ứng phản vệ từ độ 2 trở lên với bất kỳ nguyên nhân nào sẽ chống chỉ định tiêm vaccine Covid-19. Để đảm bảo sức khỏe cho bản thân và gia đình, chị có thể chủ động phòng ngừa hiệu quả bằng các biện pháp khác như tuân thủ nghiêm túc thông điệp 5K của Bộ Y tế.",
+                "score": 0.5706027746200562,
+                "id": "vietnamese_healthcare_9270",
+                "rerank_score": 0.9246609210968018
+            },
+            {
+                "text": "Câu hỏi: Em có tiền sử dị ứng thuốc kháng sinh, có phản ứng phản vệ là mề đay và phù mặt nhiều. Lúc đó, em đã nhanh chóng đến bệnh viện tiêm thuốc kháng nên sau vài tiếng thì ổn định. Ngoài ra, em cũng hay dị ứng một số loại hóa chất, thời tiết...Đợt này em nghe nói có test dị ứng với vaccine thì em có nên làm test trước khi tiêm hay không? Em không rõ cách làm test sẽ như thế nào, vẫn là test nội bì với vaccine?\nTrả lời: Trường hợp của chị theo thông tư 51 BYT, chị có triệu chứng của phản vệ độ I và theo Quyết định 2995 BYT ngày 18/6/2021 có thể tiêm vaccine Covid-19 tại tuyến bệnh viện. Lưu ý vaccine Covid-19 hiện tại không áp dụng test vaccine.",
+                "score": 0.5869920253753662,
+                "id": "vietnamese_healthcare_7349",
+                "rerank_score": 0.9219412803649902
+            },
+            {
+                "text": "Câu hỏi: tôi bị dị ứng rất nhiều loại thuốc giảm đau, hạ sốt hoặc các loại thuốc giảm đau/ kháng viêm, ngoài ra tôi còn bị bệnh tim, thỉnh thoảng lên cơn nhịp nhanh trên thất. Xin hỏi như vậy tôi có nên tiêm vaccine Covid-19 không ? Nếu được thì tư vấn và khám sàng lọc ở đâu ạ.\nTrả lời: Nếu chị không có tiền sử dị ứng nặng (phản vệ độ II trở lên) thì chị không thuộc đối tượng chống chỉ định tiêm chủng vaccine Covid-19. Tuy nhiên, với tiền sử dị ứng với nhiều loại thuốc và bệnh lý tim mạch, chị cần được bác sĩ khám sàng lọc kỹ ở trong bệnh viện hoặc ở cơ sở y tế đủ năng lực cấp cứu ban đầu. Trước khi tiêm chủng, bệnh lý tim mạch của chị cần phải được điều trị ổn định. Bác sĩ sẽ khám sức khỏe của chị trước khi tiêm chủng.",
+                "score": 0.5627540946006775,
+                "id": "vietnamese_healthcare_7573",
+                "rerank_score": 0.9155634045600891
+            },
+            {
+                "text": "Câu hỏi: Tôi bị xơ gan giai đoạn F2 (cuối năm 2020) trên nền viêm gan B mạn tính. Trước đây, tôi có bị dị ứng với kháng sinh tương đối nặng (nổi mề đay sau hai liều thuốc, phải điều trị thuốc chống dị ứng hai tuần mới hết). Nếu tôi tiêm vaccine AstraZeneca giai đoạn này có được không? Tôi có thuộc nhóm loại trừ khi tiêm không hay có thể tiêm ở cơ sở y tế?\nTrả lời: Đối với tình trạng bệnh nền, nếu đã điều trị ổn định có thể tiêm ngừa được vaccine Covid 19. Đối với tình trạng dị ứng, việc chỉ định tiêm chủng còn phụ thuộc vào mức độ dị ứng cụ thể nếu dị ứng của con bác ở mức độ nhẹ (chỉ ở da niêm như mẩn đỏ, ngứa. . . có thể có phù mắt, môi chưa ảnh hưởng đến hô hấp, tuần hoàn, tiêu hóa, tri giác. . . )có thể tiêm ngừa được vaccine, có thể sẽ tiến hành tiêm chủng tại khối bệnh viện, còn nếu dị ứng ở mức độ nặng (phản vệ độ II trở lên), phải nhập viện cấp cứu sẽ chống chị định tiêm vaccine Covid-19.",
+                "score": 0.5602660775184631,
+                "id": "vietnamese_healthcare_5253",
+                "rerank_score": 0.9038559794425964
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

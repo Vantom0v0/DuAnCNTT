@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Em bị dị ứng thuốc nhưng không biết là dự úng với loại thuốc nào, liệu em có tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Theo bạn chia sẻ, bạn bị dị ứng với thuốc chúng tôi không biết mức độ dị ứng có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Dựa trên thông tin được cung cấp, tiền sử dị ứng thuốc **không đồng nghĩa với việc bạn sẽ dị ứng với vaccine Covid-19**, nên nhìn chung bạn **vẫn có thể được tiêm**.\n\nTuy nhiên, vì bạn chưa biết mình dị ứng với thuốc nào, bạn nên:\n\n- Thông báo đầy đủ tiền sử dị ứng cho bác sĩ khi khám sàng lọc.\n- Nếu từng có triệu chứng nặng như khó thở, sưng phù hoặc phải cấp cứu, nên khám bác sĩ Dị ứng–Miễn dịch trước khi tiêm.\n- Tiêm tại bệnh viện hoặc cơ sở y tế có đủ khả năng cấp cứu phản vệ.\n- Theo dõi và làm đúng hướng dẫn của bác sĩ sau tiêm.\n\nThông tin được cung cấp **chưa đủ để xác định loại vaccine cụ thể phù hợp** với bạn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em có hiện tượng dị ứng với các thuốc giảm đau và khi dị ứng mặt có cảm giác nặng nề, bì bì. Xin hỏi vậy em có thể tiêm vaccine Covid-19 được không?\nTrả lời: Tình trạng dị ứng như bạn kể vẫn có thể tiêm vaccine ngừa Covid-19, tuy nhiên bạn cần được tiêm tại các bệnh viện có cơ sở vật chất và đáp ứng đủ điều kiện cấp cứu ban đầu.",
+            "score": 0.6906008720397949,
+            "id": "vietnamese_healthcare_2112",
+            "rerank_score": 0.9987150430679321
+        },
+        {
+            "text": "Câu hỏi: Tôi thường bị dị ứng thuốc khi uống thuốc điều trị cảm cúm, triệu chứng gồm nóng, ngứa, sưng phù mắt, khó thở. Mỗi lần bị dị ứng, tôi uống thuốc điều trị dị ứng, khoảng một ngày là trở lại bình thường. Tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Tình trạng dị ứng của anh/chị có thể tiêm ngừa được vaccine Covid-19. Tuy nhiên, anh/chị thuộc đối tượng cẩn trọng cần được tiêm ngừa tại bệnh viện hoặc cơ sở y tế có năng lực cấp cứu ban đầu. Trước khi tiêm anh/chị cần cung cấp tiền sử dị ứng của anh/chị cho bác si khám sàng lọc để được hướng dẫn và chỉ định tiêm an toàn. Sau khi tiêm, anh/chị cần thực hiện theo đúng hướng dẫn của bác sĩ về theo dõi sau tiêm đặc biệt là phát hiện sớm các dấu hiệu của phản vệ.",
+            "score": 0.6884298920631409,
+            "id": "vietnamese_healthcare_2592",
+            "rerank_score": 0.9978467226028442
+        },
+        {
+            "text": "Câu hỏi: Cho em hỏi là người bị dị ứng với thuốc chống viêm thì có thể tiêm vaccine Covid-19 không ạ ? Nếu có thể tiêm thì tiêm loại nào ạ?\nTrả lời: Theo anh/chị chia sẻ thì có bị dị ứng với thuốc chống viêm, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết.",
+            "score": 0.752169132232666,
+            "id": "vietnamese_healthcare_4650",
+            "rerank_score": 0.9973418116569519
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏidị ứng thuốc giảm đau chống viêm tiêm vacxin Covid-19 được không?Em đi tiêm nhiều lần mà trạm y tế không tiêm, bảo em phải đến trung tâm y tế tiêm để xử lý tình trạng ngoài ý muốn kịp thời. Nhưng em vẫn thấy hoang mang lo lắng không biết có nên đi tiêm không. Mong được bác sĩ giải đáp.\nTrả lời: Chào bạn, Với câu hỏi“Dị ứng thuốc giảm đau chống viêm tiêm vacxin Covid-19 được không?”, bác sĩ giải đáp như sau: Theo như triệu chứng bạn mô tả bạn có thể có dị ứng với thuốc giảm đau chống viêm Trong trường hợp đó bạn vẫn có thể tiêm vacxin Covid-19 được. Tuy nhiên, bạn cần được thăm khám lại với bác sĩ Dị ứng - Miễn dịch dị ứng trước khi tiêm và cần được tiêm tại cơ sở có khả năng cấp cứu sốc phản vệ.",
+            "score": 0.682097315788269,
+            "id": "medical_vietnamese_qa_12944",
+            "rerank_score": 0.9970378875732422
+        },
+        {
+            "text": "Câu hỏi: Tôi trước đây có bị dị ứng khi uống thuốc, nay có tiêm ngừa vaccine Covid-19 được không ạ?\nTrả lời: Trường hợp của bạn có thể tiêm vaccine Covid-19 vì có tiền sử dị ứng không đồng nghĩa với việc sẽ dị ứng với vaccine Covid-19. Theo báo cáo ở Mỹ, tần suất phản vệ là 1/100. 000 liều vaccine được tiêm và 80% những người bị phản vệ có tiền sử bị dị ứng.",
+            "score": 0.7062458992004395,
+            "id": "vietnamese_healthcare_7636",
+            "rerank_score": 0.9965292811393738
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

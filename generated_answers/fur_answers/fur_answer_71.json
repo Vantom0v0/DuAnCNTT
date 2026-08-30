@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Chào bác sĩ,\nKhi nhìn vào cổ họng, em thấy có cảm giác có nổi hạt màu đỏ trắng nhỏ và 2 bên mép lưỡi, mỗi bên có 2 nốt thịt màu đỏ hồng, không đau. Em không ho, không sốt, không đau họng, ăn uống nuốt bình thường, cảm giác có đờm dưới cổ, thỉnh thoảng nghẹt 1 bên mũi, khi thì nghẹt bên kia thông bên này, không có chảy nước mũi. Vậy bác sĩ cho em hỏi nổi nốt đỏ ở họng kèm có đờm là bệnh gì? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ trắng nhỏ trong họng của bạn nhiều khả năng là những nhú vị giác bị quá phát. Thông thường, những nhú này có kích thước nhỏ hơn. Nhưng ở những người có bệnh lý trào ngược họng - thanh quản thì những nhú này thường tăng kích thước. Kết hợp với triệu chứng cổ có đờm thì bác sĩ nghĩ bạn có nhiều khả năng mắc bệnh trào ngược họng - thanh quản.\nVì vậy, bạn nên đến bệnh viện để được thăm khám để loại trừ các khối u vùng mũi họng và để có hướng điều trị bệnh trào ngược tốt hơn.\nTrân trọng!",
+    "answer": "Chào bạn,\n\nDựa trên thông tin được cung cấp, các hạt đỏ ở vùng hầu họng **có thể là nang lympho**. Khi vùng họng bị viêm hoặc nhiễm trùng, các nang này có thể phì đại và đôi khi tồn tại kéo dài. Nếu bạn không sốt, không đau họng, không nuốt khó hoặc nuốt nghẹn thì thường không cần quá lo lắng.\n\nTuy nhiên, không thể xác định chính xác nguyên nhân chỉ qua mô tả. Bạn có thể vệ sinh họng bằng nước muối sinh lý và nên khám chuyên khoa Tai Mũi Họng nếu các nốt kéo dài, tăng lên, hoặc xuất hiện đau họng, sốt, nuốt vướng/nghẹn, nổi hạch hay triệu chứng bất thường khác. Thông tin hiện có chưa đủ để kết luận đây là bệnh gì cụ thể hoặc khẳng định liên quan đến ung thư vòm họng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm năm nay 29 tuổi (nữ), bị viêm họng 3 - 4 ngày nay chưa khỏi, không sốt không ho. Em đau họng, khó nuốt và nhìn vào thì có nổi các hạt đỏ viêm. Vậy bác sĩ cho em hỏi đau họng kèm nổi hạt đỏ vùng họng là bệnh gì? Vì dịch bệnh nên em chưa đến bệnh viện khám được. Mong bác sĩ tư vấn giúp em giải pháp điều trị? Dấu hiệu này có phải bệnh ung thư vòm họng không? Em không sử dụng chất kích thích, thuốc lá hay rượu bia thưa bác sĩ. Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có tình trạng đau họng, khó nuốt khoảng 03 - 04 ngày, đồng thời nổi các hạt đỏ vùng họng, những dấu hiệu trên không phải là dấu hiệu điển hình của ung thư vòm họng. Tuy vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, tầm soát các nguyên nhân gây đau họng, nuốt khó.\nTrân trọng!",
+            "score": 0.7181629538536072,
+            "id": "vietnamese_medical_qa_1218",
+            "rerank_score": 0.9840318560600281
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nKhi cháu soi gương có thể nhìn thấy những hạt đỏ ở phần hầu họng, cháu có đi khám bác sĩ cho uống kháng định nhưng qua thời gian quan sát cháu thấy các hạt vẫn không thay đổi, chúng chiếm rất nhiều diện tích. Vậy bác sĩ cho cháu hỏi có hạt đỏ ở phần hầu họng là dấu hiệu bệnh gì? Cháu cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ vùng sau họng khi soi gương nhìn thấy có thể là những nang lympho vùng họng. Khi có hiện tượng viêm hoặc nhiễm trùng vùng họng miệng thì những nang lympho sẽ to lên (phì đại) để bảo vệ cơ thể, tiêu diệt các vi sinh vật có hại. Thông thường các nang lympho sẽ trở về kích thước bình thường nếu tình trạng viêm hoặc nhiễm trùng được kiểm soát tốt. Tuy vậy, cũng có một số trường hợp các nang lympho sẽ phì đại kéo dài. Nếu các hạt đỏ (nang lympho phì đại) này không gây ra các triệu chứng như: Sốt, đau họng thường xuyên hoặc kéo dài, nuốt vướng, nuốt nghẹn khi ăn thì bạn không cần quá lo lắng.\nBạn có thể vệ sinh họng thường xuyên bằng nước muối sinh lý và đến khám tại phòng khám Tai mũi họng khi có những triệu chứng bất thường kể trên để tầm soát và điều trị hiệu quả các nguyên nhân gây phì đại nang lympho vùng họng.\nTrân trọng!",
+            "score": 0.7032331824302673,
+            "id": "vietnamese_medical_qa_329",
+            "rerank_score": 0.9813205599784851
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi những hạt mụn đỏ ở lưỡi và 2 bên amidan kèm theo nổi hạch ở dưới xương hàm. Bác sĩ cho em hỏi nổi mụn đỏ ở lưỡi kèm nổi hạch dưới xương hàm là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViệc xuất hiện các nốt đỏ (mụn đỏ) ở lưỡi và amidan, kèm nổi hạch vùng dưới hàm có thể là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, đánh giá kỹ tổn thương, có thể kết hợp nội soi, siêu âm để đánh giá chính xác hơn.\nTrân trọng!",
+            "score": 0.6909985542297363,
+            "id": "vietnamese_medical_qa_1208",
+            "rerank_score": 0.9788774847984314
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nKhoảng một tuần nay em có triệu chứng như mắc nghẹn ở họng, hơi khó thở sau ăn, hơi đau và khó chịu nhiều ở một bên tai, cảm giác như có đờm trong cổ họng, khạc ra dịch đờm trắng. Sáng hôm nay em bắt đầu bị nghẹt mũi. Em cũng soi cổ họng thì thấy vòm họng xuất hiện mụn trắng. Lưỡi trắng, tưa và đắng miệng. Bác sĩ cho em hỏi tình trạng của em như vậy là bị bệnh gì ạ? Có phải bị viêm họng không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào em!",
+            "score": 0.748708963394165,
+            "id": "vietnamese_medical_qa_3038",
+            "rerank_score": 0.9336143732070923
+        },
+        {
+            "text": "Câu hỏi: Khoảng 10 ngay nay, em bị ê ê nơi vùng cổ họng, không ho, không sốt, không khó thở. Em lấy đèn pin soi vô thấy có 1 hạt nhỏ màu trắng. Em kiểm tra trên mạng sao giống ung thư vòm họng. Bác sĩ cho em hỏiê cổ họng, nổi hạt nhỏ màu trắng là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như triệu chứng bạn mô tả, triệu chứng chung chung và không thể chẩn đoán được. Bạn nên khám ngay chuyên khoa Tai mũi họng để được chẩn đoán và tư vấn điều trị.",
+            "score": 0.6974706649780273,
+            "id": "medical_vietnamese_qa_8230",
+            "rerank_score": 0.902296781539917
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

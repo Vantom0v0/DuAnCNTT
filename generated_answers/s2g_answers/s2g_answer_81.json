@@ -1,0 +1,114 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Bác sĩ cho em hỏi. Em muốn xét nghiệm ADN con-cha. thì lấy cuốn rốn bé và tóc của cha được không hay phải lấy cùng mẫu như tóc - tóc thì mới được. và nếu được thì cuốn rốn khô được không hay phải cuốn rốn còn ướt ạ. Bác sĩ cho em xin địa chỉ xét nghiệm ADN trong thành phố Hồ Chí Minh và giá cả khoảng bao nhiêu luôn ạ. Em xin cảm ơn",
+    "ground_truth": "Chào bạn\n1 Xét nghiệm ADN cho trẻ sơ sinh cũng tương tự như xét nghiệm ADN ở người trưởng thành. Tuy nhiên, về lấy mẫu xét nghiệm thường là mẫu cuống rốn khô, mẫu niêm mạc miệng, mẫu máu gót chân,… phổ biến hơn cả, bởi an toàn với trẻ và dễ thực hiện.Ở trẻ lớn và người lớn thì sử dụng chân tóc có nang lông, mẫu niêm mạc miệng, máu...\n2. Xét Nghiệm ADN Ở TPHCM: Giới Thiệu Những Địa Chỉ Hàng Đầu\n\nTrung tâm xét nghiệm ADN Gentis.\n\nTrung tâm xét nghiệm ADN Bionet.\n\nViện sinh học phân tử Loci.\n\nXét nghiệm ADN tại bệnh viện Đa khoa MEDLATEC.\n\n3. Giá cả khoảng trên hoặc dưới 5 triệu việt nam đồng nha bạn.\nChúc bạn sức khỏe!",
+    "answer": "Có thể xét nghiệm ADN cha–con bằng mẫu cuống rốn của bé và tóc của người cha, không bắt buộc hai mẫu phải cùng loại, vì nhiều loại tế bào khác nhau đều có thể dùng và có độ chính xác tương đương. Cuống rốn khô vẫn có thể dùng nếu còn tế bào; bằng chứng cho biết có thể sử dụng một mẩu nhỏ cuống rốn đã rụng, nhưng không nêu rõ yêu cầu cụ thể về cuống rốn ướt hay khô. Xét nghiệm cũng không cần sự hiện diện của người mẹ. Tuy nhiên, thông tin được cung cấp không có địa chỉ xét nghiệm tại Thành phố Hồ Chí Minh hoặc mức giá tham khảo, nên chưa đủ cơ sở để tư vấn phần này.",
+    "evidence": [
+        "Xét nghiệm huyết thống có thể tiến hành với nhiều loại tế bào như máu, tế bào má, mẫu mô, móng tay, chân tóc, cuống rốn...",
+        "Tất cả có cùng độ chính xác như nhau, vì mọi tế bào trong cùng một cơ thể đều có cùng một loại ADN.",
+        "Đó có thể là mẫu nước bọt, móng tay hoặc móng chân, từ 3 đến 5 chân tóc (không phải tóc cắt bằng kéo), cuống rốn, bàn chải đánh răng, bao cao su và nhiều vật thể khác tùy theo trường hợp.",
+        "Có thể thực hiện xét nghiệm ADN với một lượng mẫu rất nhỏ, chẳng hạn như dùng 1/4 giọt máu hoặc một đầu tăm bông chứa các tế bào trong miệng, một mẩu nhỏ cuống rốn đã rụng.",
+        "Quá trình được thực hiện bằng cách so sánh thông tin ADN cá nhân của đứa bé với ADN cá nhân người đàn ông được cho là cha.",
+        "Thực tế, xét nghiệm huyết thống cha con có thể thực hiện được mà không cần sự hiện diện của người mẹ."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Xét nghiệm ADN có chính xác không?\nTrả lời: 2. Xét nghiệm ADN có chính xác không?\nXét nghiệm ADN là cách xác minh mối quan hệ huyết thống chính xác nhất hiện nay Xét nghiệm ADN là cách xác minh mối quan hệ huyết thống chính xác nhất hiện nay. Xét nghiệm ADN huyết thống thường cần trong những trường hợp nhận con nuôi, thụ tinh trong ống nghiệm hoặc vì lý do cá nhân. Xét nghiệm này nhằm mục đích chứng minh một người đàn ông có phải là cha ruột của đứa trẻ nào đó hay không. Quá trình được thực hiện bằng cách so sánh thông tin ADN cá nhân của đứa bé với ADN cá nhân người đàn ông được cho là cha. Mỗi thông tin ADN cá nhân bao gồm 16 gene marker. Đối tượng tham gia trong xét nghiệm ADN xác minh quan hệ cha con bao gồm đứa trẻ và người được cho là cha ruột. Sự tham gia của người mẹ làm tăng độ chính xác của kết quả nhưng không bắt buộc. Nếu các mẫu ADN của mẹ, con và bố nghi vấn khớp với nhau trong từng gene thì độ chính xác khẳng định có quan hệ huyết thống đạt từ 99.999% đến 99,9999%, khi đó kết luận người đàn ông chính là cha ruột của đứa trẻ. Ngược lại, 2 hai mẫu ADN của người con và bố nghi vấn không khớp với nhau từ 2 gene trở lên thì kết luận 100% người đàn ông này không phải là cha của đứa trẻ. Thực tế, xét nghiệm huyết thống cha con có thể thực hiện được mà không cần sự hiện diện của người mẹ. Nếu như các mẫu ADN của bố nghi vấn và con không khớp với nhau thì loại trừ hoàn toàn khả năng người đàn ông đó là bố của đứa bé. Nếu các mẫu khớp với nhau thì có thể khẳng định người đàn ông đó chính là cha ruột. Xét nghiệm huyết thống có thể tiến hành với nhiều loại tế bào như máu, tế bào má, mẫu mô, móng tay, chân tóc, cuống rốn... Tất cả có cùng độ chính xác như nhau, vì mọi tế bào trong cùng một cơ thể đều có cùng một loại ADN. Người yêu cầu xét nghiệm có thể tự lấy mẫu theo sự hướng dẫn của các chuyên gia. Đó có thể là mẫu nước bọt, móng tay hoặc móng chân, từ 3 đến 5 chân tóc (không phải tóc cắt bằng kéo), cuống rốn, bàn chải đánh răng, bao cao su và nhiều vật thể khác tùy theo trường hợp. Trẻ con có thể tham gia giám định ADN từ khi chưa sinh ra, như vậy không có giới hạn nào về tuổi khi xét nghiệm huyết thống. Có thể thực hiện xét nghiệm ADN với một lượng mẫu rất nhỏ, chẳng hạn như dùng 1/4 giọt máu hoặc một đầu tăm bông chứa các tế bào trong miệng, một mẩu nhỏ cuống rốn đã rụng. Để xét nghiệm trước khi sinh có thể dùng nước ối có chứa các tế bào của thai nhi mới 3 tháng.",
+                "score": 0.5140796303749084,
+                "id": "vietnamese_healthcare_140656",
+                "rerank_score": 0.6276686191558838
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Mẫu máu cuống rốn của con tôi đang lưu muốn sử dụng cho người thân thì cần làm gì? Mong nhận được sự giải đáp của bác sĩ?\nTrả lời: Chào bạn!\nTrước hết người muốn sử dụng và em bé cần làm xét nghiệm để xác định khả năng phù hợp mô. Mẫu xét nghiệm là máu ngoại vi.\nSau khi xác định phù hợp mô giữa em bé và người bệnh thì tiến hành các thủ tục lấy mẫu ra để ghép.\nTiến sĩ, Bác sĩ Tưởng Thị Vân Thùy - Trung tâm Công nghệ cao AI-Doctor.",
+                "score": 0.5343527793884277,
+                "id": "vietnamese_medical_qa_3234",
+                "rerank_score": 0.3800221085548401
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tôi khám thai định kỳ và phát hiện tình trạng thiếu máu hồng cầu nhỏ. Tôi có thể lưu máu cuống rốn của em bé được không? Mong bác sĩ tư vấn giúp tôi, tôi xin cảm ơn.\nTrả lời: Chào bạn. Xin được trả lời câu hỏi của bạn như sau:\nTrước hết bạn và chồng cần được thăm khám chuyên khoa sản khoa/ huyết học/ di truyền để xác định tình trạng thiếu máu hồng cầu nhỏ của bạn là do di truyền hay do dinh dưỡng, chồng bạn cũng có tình trạng này hay không. Nếu do nguyên nhân di truyền thì khả năng truyền sang cho con là bao nhiêu.\nNếu tình trạng thiếu máu của bạn được xác nhận nguyên nhân là do dinh dưỡng thì mẫu máu cuống rốn của con bạn vẫn được lưu như bình thường\nNếu tình trạng thiếu máu của bạn có liên quan đến yếu tố di truyền thì bạn cần cân nhắc trước khi quyết định lưu mẫu cho con. Bạn cần liên hệ với Ngân hàng máu cuống rốn để được tư vấn tốt nhất.\nTiến sĩ, Bác sĩ Tưởng Thị Vân Thùy - Trung tâm Công nghệ cao AI-Doctor.",
+                "score": 0.4740147888660431,
+                "id": "vietnamese_medical_qa_3235",
+                "rerank_score": 0.04924257844686508
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ ạ! Em muốn được hỏi và tư vấn về vấn đề gan, thận đa nang. Chồng em bị gan, thận đa nang và em được biết bệnh này có tính di truyền. Em có 2 bé, con gái lớn 7 tuổi và bé út 8 tháng. Vậy cho em hỏi, làm sao để biết con có bị gan, thận đa nang di truyền từ bố không ạ? Em xin cảm ơn bác sĩ!\nTrả lời: Chào bạn! Với thắc mắc “làm sao để biết con có bị gan, thận đa nang di truyền từ bố không?” Bác sĩ khuyên chồng và các con bạn cần được khám và tư vấn di truyền, sau đó là xét nghiệm gen. Khi có kết quả sẽ tư vấn được nguyên nhân và nguy cơ mắc gan, thận đa nang ở hai con bạn nhé.\nĐược giải đáp bởi Bác sĩ Bùi Thị Phương Hoa - Bác sĩ tư vấn di truyền - Trung tâm công nghệ cao AI-Doctor.",
+                "score": 0.4537697732448578,
+                "id": "vietnamese_medical_qa_1943",
+                "rerank_score": 0.01734023541212082
+            },
+            {
+                "text": "Câu hỏi: Tư vấn di truyền\nTrả lời: 6. Tư vấn di truyền\nKhông có quả cầu pha lê nào có thể tiên đoán cho bạn biết con bạn sẽ nhận được đôi mắt của ai. Nhưng bác sĩ có thể đề nghị các xét nghiệm tiền thai nếu tiền sử gia đình hoặc dân tộc của bạn khiến bạn có nguy cơ sinh con bị rối loạn di truyền cao. Một xét nghiệm máu hoặc nước bọt đơn giản có thể xem liệu bạn có mang gen bệnh xơ nang , hội chứng X dễ vỡ , bệnh Tay-Sachs hay bệnh hồng cầu hình liềm hay không.",
+                "score": 0.45287758111953735,
+                "id": "vietnamese_healthcare_116263",
+                "rerank_score": 0.012897329404950142
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xét nghiệm ADN có chính xác không?\nTrả lời: 2. Xét nghiệm ADN có chính xác không?\nXét nghiệm ADN là cách xác minh mối quan hệ huyết thống chính xác nhất hiện nay Xét nghiệm ADN là cách xác minh mối quan hệ huyết thống chính xác nhất hiện nay. Xét nghiệm ADN huyết thống thường cần trong những trường hợp nhận con nuôi, thụ tinh trong ống nghiệm hoặc vì lý do cá nhân. Xét nghiệm này nhằm mục đích chứng minh một người đàn ông có phải là cha ruột của đứa trẻ nào đó hay không. Quá trình được thực hiện bằng cách so sánh thông tin ADN cá nhân của đứa bé với ADN cá nhân người đàn ông được cho là cha. Mỗi thông tin ADN cá nhân bao gồm 16 gene marker. Đối tượng tham gia trong xét nghiệm ADN xác minh quan hệ cha con bao gồm đứa trẻ và người được cho là cha ruột. Sự tham gia của người mẹ làm tăng độ chính xác của kết quả nhưng không bắt buộc. Nếu các mẫu ADN của mẹ, con và bố nghi vấn khớp với nhau trong từng gene thì độ chính xác khẳng định có quan hệ huyết thống đạt từ 99.999% đến 99,9999%, khi đó kết luận người đàn ông chính là cha ruột của đứa trẻ. Ngược lại, 2 hai mẫu ADN của người con và bố nghi vấn không khớp với nhau từ 2 gene trở lên thì kết luận 100% người đàn ông này không phải là cha của đứa trẻ. Thực tế, xét nghiệm huyết thống cha con có thể thực hiện được mà không cần sự hiện diện của người mẹ. Nếu như các mẫu ADN của bố nghi vấn và con không khớp với nhau thì loại trừ hoàn toàn khả năng người đàn ông đó là bố của đứa bé. Nếu các mẫu khớp với nhau thì có thể khẳng định người đàn ông đó chính là cha ruột. Xét nghiệm huyết thống có thể tiến hành với nhiều loại tế bào như máu, tế bào má, mẫu mô, móng tay, chân tóc, cuống rốn... Tất cả có cùng độ chính xác như nhau, vì mọi tế bào trong cùng một cơ thể đều có cùng một loại ADN. Người yêu cầu xét nghiệm có thể tự lấy mẫu theo sự hướng dẫn của các chuyên gia. Đó có thể là mẫu nước bọt, móng tay hoặc móng chân, từ 3 đến 5 chân tóc (không phải tóc cắt bằng kéo), cuống rốn, bàn chải đánh răng, bao cao su và nhiều vật thể khác tùy theo trường hợp. Trẻ con có thể tham gia giám định ADN từ khi chưa sinh ra, như vậy không có giới hạn nào về tuổi khi xét nghiệm huyết thống. Có thể thực hiện xét nghiệm ADN với một lượng mẫu rất nhỏ, chẳng hạn như dùng 1/4 giọt máu hoặc một đầu tăm bông chứa các tế bào trong miệng, một mẩu nhỏ cuống rốn đã rụng. Để xét nghiệm trước khi sinh có thể dùng nước ối có chứa các tế bào của thai nhi mới 3 tháng.",
+                "score": 0.4878227114677429,
+                "id": "vietnamese_healthcare_140656",
+                "rerank_score": 0.6276686191558838
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Mẫu máu cuống rốn của con tôi đang lưu muốn sử dụng cho người thân thì cần làm gì? Mong nhận được sự giải đáp của bác sĩ?\nTrả lời: Chào bạn!\nTrước hết người muốn sử dụng và em bé cần làm xét nghiệm để xác định khả năng phù hợp mô. Mẫu xét nghiệm là máu ngoại vi.\nSau khi xác định phù hợp mô giữa em bé và người bệnh thì tiến hành các thủ tục lấy mẫu ra để ghép.\nTiến sĩ, Bác sĩ Tưởng Thị Vân Thùy - Trung tâm Công nghệ cao AI-Doctor.",
+                "score": 0.5117788314819336,
+                "id": "vietnamese_medical_qa_3234",
+                "rerank_score": 0.3800221085548401
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tôi khám thai định kỳ và phát hiện tình trạng thiếu máu hồng cầu nhỏ. Tôi có thể lưu máu cuống rốn của em bé được không? Mong bác sĩ tư vấn giúp tôi, tôi xin cảm ơn.\nTrả lời: Chào bạn. Xin được trả lời câu hỏi của bạn như sau:\nTrước hết bạn và chồng cần được thăm khám chuyên khoa sản khoa/ huyết học/ di truyền để xác định tình trạng thiếu máu hồng cầu nhỏ của bạn là do di truyền hay do dinh dưỡng, chồng bạn cũng có tình trạng này hay không. Nếu do nguyên nhân di truyền thì khả năng truyền sang cho con là bao nhiêu.\nNếu tình trạng thiếu máu của bạn được xác nhận nguyên nhân là do dinh dưỡng thì mẫu máu cuống rốn của con bạn vẫn được lưu như bình thường\nNếu tình trạng thiếu máu của bạn có liên quan đến yếu tố di truyền thì bạn cần cân nhắc trước khi quyết định lưu mẫu cho con. Bạn cần liên hệ với Ngân hàng máu cuống rốn để được tư vấn tốt nhất.\nTiến sĩ, Bác sĩ Tưởng Thị Vân Thùy - Trung tâm Công nghệ cao AI-Doctor.",
+                "score": 0.4884495437145233,
+                "id": "vietnamese_medical_qa_3235",
+                "rerank_score": 0.04924257844686508
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ ạ! Em muốn được hỏi và tư vấn về vấn đề gan, thận đa nang. Chồng em bị gan, thận đa nang và em được biết bệnh này có tính di truyền. Em có 2 bé, con gái lớn 7 tuổi và bé út 8 tháng. Vậy cho em hỏi, làm sao để biết con có bị gan, thận đa nang di truyền từ bố không ạ? Em xin cảm ơn bác sĩ!\nTrả lời: Chào bạn! Với thắc mắc “làm sao để biết con có bị gan, thận đa nang di truyền từ bố không?” Bác sĩ khuyên chồng và các con bạn cần được khám và tư vấn di truyền, sau đó là xét nghiệm gen. Khi có kết quả sẽ tư vấn được nguyên nhân và nguy cơ mắc gan, thận đa nang ở hai con bạn nhé.\nĐược giải đáp bởi Bác sĩ Bùi Thị Phương Hoa - Bác sĩ tư vấn di truyền - Trung tâm công nghệ cao AI-Doctor.",
+                "score": 0.5040486454963684,
+                "id": "vietnamese_medical_qa_1943",
+                "rerank_score": 0.01734023541212082
+            },
+            {
+                "text": "Câu hỏi: Tư vấn di truyền\nTrả lời: 6. Tư vấn di truyền\nKhông có quả cầu pha lê nào có thể tiên đoán cho bạn biết con bạn sẽ nhận được đôi mắt của ai. Nhưng bác sĩ có thể đề nghị các xét nghiệm tiền thai nếu tiền sử gia đình hoặc dân tộc của bạn khiến bạn có nguy cơ sinh con bị rối loạn di truyền cao. Một xét nghiệm máu hoặc nước bọt đơn giản có thể xem liệu bạn có mang gen bệnh xơ nang , hội chứng X dễ vỡ , bệnh Tay-Sachs hay bệnh hồng cầu hình liềm hay không.",
+                "score": 0.4607120156288147,
+                "id": "vietnamese_healthcare_116263",
+                "rerank_score": 0.012897329404950142
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xét nghiệm ADN có chính xác không?\nTrả lời: 2. Xét nghiệm ADN có chính xác không?\nXét nghiệm ADN là cách xác minh mối quan hệ huyết thống chính xác nhất hiện nay Xét nghiệm ADN là cách xác minh mối quan hệ huyết thống chính xác nhất hiện nay. Xét nghiệm ADN huyết thống thường cần trong những trường hợp nhận con nuôi, thụ tinh trong ống nghiệm hoặc vì lý do cá nhân. Xét nghiệm này nhằm mục đích chứng minh một người đàn ông có phải là cha ruột của đứa trẻ nào đó hay không. Quá trình được thực hiện bằng cách so sánh thông tin ADN cá nhân của đứa bé với ADN cá nhân người đàn ông được cho là cha. Mỗi thông tin ADN cá nhân bao gồm 16 gene marker. Đối tượng tham gia trong xét nghiệm ADN xác minh quan hệ cha con bao gồm đứa trẻ và người được cho là cha ruột. Sự tham gia của người mẹ làm tăng độ chính xác của kết quả nhưng không bắt buộc. Nếu các mẫu ADN của mẹ, con và bố nghi vấn khớp với nhau trong từng gene thì độ chính xác khẳng định có quan hệ huyết thống đạt từ 99.999% đến 99,9999%, khi đó kết luận người đàn ông chính là cha ruột của đứa trẻ. Ngược lại, 2 hai mẫu ADN của người con và bố nghi vấn không khớp với nhau từ 2 gene trở lên thì kết luận 100% người đàn ông này không phải là cha của đứa trẻ. Thực tế, xét nghiệm huyết thống cha con có thể thực hiện được mà không cần sự hiện diện của người mẹ. Nếu như các mẫu ADN của bố nghi vấn và con không khớp với nhau thì loại trừ hoàn toàn khả năng người đàn ông đó là bố của đứa bé. Nếu các mẫu khớp với nhau thì có thể khẳng định người đàn ông đó chính là cha ruột. Xét nghiệm huyết thống có thể tiến hành với nhiều loại tế bào như máu, tế bào má, mẫu mô, móng tay, chân tóc, cuống rốn... Tất cả có cùng độ chính xác như nhau, vì mọi tế bào trong cùng một cơ thể đều có cùng một loại ADN. Người yêu cầu xét nghiệm có thể tự lấy mẫu theo sự hướng dẫn của các chuyên gia. Đó có thể là mẫu nước bọt, móng tay hoặc móng chân, từ 3 đến 5 chân tóc (không phải tóc cắt bằng kéo), cuống rốn, bàn chải đánh răng, bao cao su và nhiều vật thể khác tùy theo trường hợp. Trẻ con có thể tham gia giám định ADN từ khi chưa sinh ra, như vậy không có giới hạn nào về tuổi khi xét nghiệm huyết thống. Có thể thực hiện xét nghiệm ADN với một lượng mẫu rất nhỏ, chẳng hạn như dùng 1/4 giọt máu hoặc một đầu tăm bông chứa các tế bào trong miệng, một mẩu nhỏ cuống rốn đã rụng. Để xét nghiệm trước khi sinh có thể dùng nước ối có chứa các tế bào của thai nhi mới 3 tháng.",
+                "score": 0.4858076572418213,
+                "id": "vietnamese_healthcare_140656",
+                "rerank_score": 0.6276686191558838
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Mẫu máu cuống rốn của con tôi đang lưu muốn sử dụng cho người thân thì cần làm gì? Mong nhận được sự giải đáp của bác sĩ?\nTrả lời: Chào bạn!\nTrước hết người muốn sử dụng và em bé cần làm xét nghiệm để xác định khả năng phù hợp mô. Mẫu xét nghiệm là máu ngoại vi.\nSau khi xác định phù hợp mô giữa em bé và người bệnh thì tiến hành các thủ tục lấy mẫu ra để ghép.\nTiến sĩ, Bác sĩ Tưởng Thị Vân Thùy - Trung tâm Công nghệ cao AI-Doctor.",
+                "score": 0.5194706916809082,
+                "id": "vietnamese_medical_qa_3234",
+                "rerank_score": 0.3800221085548401
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tôi muốn lưu trữ tế bào gốc dây rốn cho con. Bác sĩ cho tôi hỏi, tôi không đăng ký sinh tại các bệnh viện thuộc Hệ thống Vinmec thì có phải trả phí thu thập, vận chuyển ngoại viện không? Mong nhận được sự tư vấn của bác sĩ, tôi xin cảm ơn.\nTôi không đăng ký sinh tại bệnh viện Vinmec Times City, tôi có phải trả phí phí thu thập, vận chuyển ngoại viện không?\nTrả lời: Chào bạn!\nChi phí thu thập và vận chuyển ngoại viện sẽ phụ thuộc việc bạn sinh ở bệnh viện ngoài Vinmec hay thuộc Vinmec.\nNếu bạn không đăng ký sinh tại các bệnh viện thuộc hệ thống Vinmec thì sẽ phải trả phí thu thập và vận chuyển. Phí này đã được quy định cụ thể trong bảng giá gói thu thập và xử lý máu cuống rốn.\nNgoài ra, với những trường hợp chưa nằm trong danh sách, bên Ngân hàng Mô Vinmec sẽ gửi báo giá để chị/gia đình tham khảo sớm nhất có thể.\nThạc sĩ Chu Thị Thảo - Trưởng nhóm máu cuống rốn, Trung tâm công nghệ cao Vinmec.",
+                "score": 0.45573925971984863,
+                "id": "vietnamese_medical_qa_3241",
+                "rerank_score": 0.23499254882335663
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Tôi khám thai định kỳ và phát hiện tình trạng thiếu máu hồng cầu nhỏ. Tôi có thể lưu máu cuống rốn của em bé được không? Mong bác sĩ tư vấn giúp tôi, tôi xin cảm ơn.\nTrả lời: Chào bạn. Xin được trả lời câu hỏi của bạn như sau:\nTrước hết bạn và chồng cần được thăm khám chuyên khoa sản khoa/ huyết học/ di truyền để xác định tình trạng thiếu máu hồng cầu nhỏ của bạn là do di truyền hay do dinh dưỡng, chồng bạn cũng có tình trạng này hay không. Nếu do nguyên nhân di truyền thì khả năng truyền sang cho con là bao nhiêu.\nNếu tình trạng thiếu máu của bạn được xác nhận nguyên nhân là do dinh dưỡng thì mẫu máu cuống rốn của con bạn vẫn được lưu như bình thường\nNếu tình trạng thiếu máu của bạn có liên quan đến yếu tố di truyền thì bạn cần cân nhắc trước khi quyết định lưu mẫu cho con. Bạn cần liên hệ với Ngân hàng máu cuống rốn để được tư vấn tốt nhất.\nTiến sĩ, Bác sĩ Tưởng Thị Vân Thùy - Trung tâm Công nghệ cao AI-Doctor.",
+                "score": 0.4783879518508911,
+                "id": "vietnamese_medical_qa_3235",
+                "rerank_score": 0.04924257844686508
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ ạ! Em muốn được hỏi và tư vấn về vấn đề gan, thận đa nang. Chồng em bị gan, thận đa nang và em được biết bệnh này có tính di truyền. Em có 2 bé, con gái lớn 7 tuổi và bé út 8 tháng. Vậy cho em hỏi, làm sao để biết con có bị gan, thận đa nang di truyền từ bố không ạ? Em xin cảm ơn bác sĩ!\nTrả lời: Chào bạn! Với thắc mắc “làm sao để biết con có bị gan, thận đa nang di truyền từ bố không?” Bác sĩ khuyên chồng và các con bạn cần được khám và tư vấn di truyền, sau đó là xét nghiệm gen. Khi có kết quả sẽ tư vấn được nguyên nhân và nguy cơ mắc gan, thận đa nang ở hai con bạn nhé.\nĐược giải đáp bởi Bác sĩ Bùi Thị Phương Hoa - Bác sĩ tư vấn di truyền - Trung tâm công nghệ cao AI-Doctor.",
+                "score": 0.4883134365081787,
+                "id": "vietnamese_medical_qa_1943",
+                "rerank_score": 0.01734023541212082
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

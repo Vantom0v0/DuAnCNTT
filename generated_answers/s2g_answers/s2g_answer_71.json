@@ -1,0 +1,115 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ,\nKhi nhìn vào cổ họng, em thấy có cảm giác có nổi hạt màu đỏ trắng nhỏ và 2 bên mép lưỡi, mỗi bên có 2 nốt thịt màu đỏ hồng, không đau. Em không ho, không sốt, không đau họng, ăn uống nuốt bình thường, cảm giác có đờm dưới cổ, thỉnh thoảng nghẹt 1 bên mũi, khi thì nghẹt bên kia thông bên này, không có chảy nước mũi. Vậy bác sĩ cho em hỏi nổi nốt đỏ ở họng kèm có đờm là bệnh gì? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ trắng nhỏ trong họng của bạn nhiều khả năng là những nhú vị giác bị quá phát. Thông thường, những nhú này có kích thước nhỏ hơn. Nhưng ở những người có bệnh lý trào ngược họng - thanh quản thì những nhú này thường tăng kích thước. Kết hợp với triệu chứng cổ có đờm thì bác sĩ nghĩ bạn có nhiều khả năng mắc bệnh trào ngược họng - thanh quản.\nVì vậy, bạn nên đến bệnh viện để được thăm khám để loại trừ các khối u vùng mũi họng và để có hướng điều trị bệnh trào ngược tốt hơn.\nTrân trọng!",
+    "answer": "Chào bạn, các nốt đỏ hoặc đỏ trắng nhỏ ở họng và hai bên gốc lưỡi có thể là tổ chức/nang lympho vùng họng, đôi khi phì đại sau viêm hoặc nhiễm trùng; thường không đáng lo nếu không đau, không chảy máu, không sốt, không đau họng kéo dài và không khó nuốt. Cảm giác có đờm và nghẹt mũi luân phiên chưa đủ thông tin để xác định là bệnh gì. Bạn có thể vệ sinh họng bằng nước muối sinh lý; nếu các nốt kéo dài, xuất hiện triệu chứng bất thường hoặc muốn xác định rõ, nên khám và nội soi tại phòng khám Tai mũi họng.",
+    "evidence": [
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ vùng sau họng khi soi gương nhìn thấy có thể là những nang lympho vùng họng.",
+        "Khi có hiện tượng viêm hoặc nhiễm trùng vùng họng miệng thì những nang lympho sẽ to lên (phì đại) để bảo vệ cơ thể, tiêu diệt các vi sinh vật có hại.",
+        "Tuy vậy, cũng có một số trường hợp các nang lympho sẽ phì đại kéo dài.",
+        "Nếu các hạt đỏ (nang lympho phì đại) này không gây ra các triệu chứng như: Sốt, đau họng thường xuyên hoặc kéo dài, nuốt vướng, nuốt nghẹn khi ăn thì bạn không cần quá lo lắng.",
+        "Bạn có thể vệ sinh họng thường xuyên bằng nước muối sinh lý và đến khám tại phòng khám Tai mũi họng khi có những triệu chứng bất thường kể trên để tầm soát và điều trị hiệu quả các nguyên nhân gây phì đại nang lympho vùng họng.",
+        "Trả lời: Chào cháu, theo mô tả của cháu thì nghĩ nhiều đến tổ chức lympho ở hạ họng , phần gốc lưỡi, hình dáng giống như các tổ chức hạt bằng hạt đỗ xanh hoặc nhỏ hơn, gồ ghề trên bề mặt gốc lưỡi, nếu như không có đau, không có chảy máu, ăn uống không khó chịu gì thì là chưa có biểu hiện bệnh lý, cháu nên đi nội soi họng để được thăm khám và tư vấn kỹ hơn nhé",
+        "Thông thường các nang lympho sẽ trở về kích thước bình thường nếu tình trạng viêm hoặc nhiễm trùng được kiểm soát tốt."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm năm nay 29 tuổi (nữ), bị viêm họng 3 - 4 ngày nay chưa khỏi, không sốt không ho. Em đau họng, khó nuốt và nhìn vào thì có nổi các hạt đỏ viêm. Vậy bác sĩ cho em hỏi đau họng kèm nổi hạt đỏ vùng họng là bệnh gì? Vì dịch bệnh nên em chưa đến bệnh viện khám được. Mong bác sĩ tư vấn giúp em giải pháp điều trị? Dấu hiệu này có phải bệnh ung thư vòm họng không? Em không sử dụng chất kích thích, thuốc lá hay rượu bia thưa bác sĩ. Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có tình trạng đau họng, khó nuốt khoảng 03 - 04 ngày, đồng thời nổi các hạt đỏ vùng họng, những dấu hiệu trên không phải là dấu hiệu điển hình của ung thư vòm họng. Tuy vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, tầm soát các nguyên nhân gây đau họng, nuốt khó.\nTrân trọng!",
+                "score": 0.6807512044906616,
+                "id": "vietnamese_medical_qa_1218",
+                "rerank_score": 0.9840318560600281
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nKhi cháu soi gương có thể nhìn thấy những hạt đỏ ở phần hầu họng, cháu có đi khám bác sĩ cho uống kháng định nhưng qua thời gian quan sát cháu thấy các hạt vẫn không thay đổi, chúng chiếm rất nhiều diện tích. Vậy bác sĩ cho cháu hỏi có hạt đỏ ở phần hầu họng là dấu hiệu bệnh gì? Cháu cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ vùng sau họng khi soi gương nhìn thấy có thể là những nang lympho vùng họng. Khi có hiện tượng viêm hoặc nhiễm trùng vùng họng miệng thì những nang lympho sẽ to lên (phì đại) để bảo vệ cơ thể, tiêu diệt các vi sinh vật có hại. Thông thường các nang lympho sẽ trở về kích thước bình thường nếu tình trạng viêm hoặc nhiễm trùng được kiểm soát tốt. Tuy vậy, cũng có một số trường hợp các nang lympho sẽ phì đại kéo dài. Nếu các hạt đỏ (nang lympho phì đại) này không gây ra các triệu chứng như: Sốt, đau họng thường xuyên hoặc kéo dài, nuốt vướng, nuốt nghẹn khi ăn thì bạn không cần quá lo lắng.\nBạn có thể vệ sinh họng thường xuyên bằng nước muối sinh lý và đến khám tại phòng khám Tai mũi họng khi có những triệu chứng bất thường kể trên để tầm soát và điều trị hiệu quả các nguyên nhân gây phì đại nang lympho vùng họng.\nTrân trọng!",
+                "score": 0.7028365135192871,
+                "id": "vietnamese_medical_qa_329",
+                "rerank_score": 0.9813205599784851
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi những hạt mụn đỏ ở lưỡi và 2 bên amidan kèm theo nổi hạch ở dưới xương hàm. Bác sĩ cho em hỏi nổi mụn đỏ ở lưỡi kèm nổi hạch dưới xương hàm là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViệc xuất hiện các nốt đỏ (mụn đỏ) ở lưỡi và amidan, kèm nổi hạch vùng dưới hàm có thể là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, đánh giá kỹ tổn thương, có thể kết hợp nội soi, siêu âm để đánh giá chính xác hơn.\nTrân trọng!",
+                "score": 0.6937708854675293,
+                "id": "vietnamese_medical_qa_1208",
+                "rerank_score": 0.9788774847984314
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ, bác sĩ tư vấn giúp trong cuống lưỡi gần cổ họng của cháu có các hạt bằng hạt đậu lâu không đỡ không biết bệnh gì? Cháu cảm ơn ạ!\nLan (Đà Nẵng)\nEm chào bác sĩ ạ. Dạo gần đây em hay ho kiểu ngứa họng lên ho 1 -2 cái rồi thôi, 2 tuần trước cổ họng em bị loét nhỏ rất đau rát, xong vừa hết được 2-3 hôm thì hôm nay em cảm thấy cộm trong họng, soi thì thấy có những hạt li ti như cát. Cho em hỏi đây có phải bị ung thư hay bệnh nguy hiểm không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào cháu, theo mô tả của cháu thì nghĩ nhiều đến tổ chức lympho ở hạ họng , phần gốc lưỡi, hình dáng giống như các tổ chức hạt bằng hạt đỗ xanh hoặc nhỏ hơn, gồ ghề trên bề mặt gốc lưỡi, nếu như không có đau, không có chảy máu, ăn uống không khó chịu gì thì là chưa có biểu hiện bệnh lý, cháu nên đi nội soi họng để được thăm khám và tư vấn kỹ hơn nhé",
+                "score": 0.6848336458206177,
+                "id": "vietnamese_medical_qa_4131",
+                "rerank_score": 0.9367833137512207
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nKhoảng một tuần nay em có triệu chứng như mắc nghẹn ở họng, hơi khó thở sau ăn, hơi đau và khó chịu nhiều ở một bên tai, cảm giác như có đờm trong cổ họng, khạc ra dịch đờm trắng. Sáng hôm nay em bắt đầu bị nghẹt mũi. Em cũng soi cổ họng thì thấy vòm họng xuất hiện mụn trắng. Lưỡi trắng, tưa và đắng miệng. Bác sĩ cho em hỏi tình trạng của em như vậy là bị bệnh gì ạ? Có phải bị viêm họng không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào em!",
+                "score": 0.7234148383140564,
+                "id": "vietnamese_medical_qa_3038",
+                "rerank_score": 0.9336143732070923
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nKhi cháu soi gương có thể nhìn thấy những hạt đỏ ở phần hầu họng, cháu có đi khám bác sĩ cho uống kháng định nhưng qua thời gian quan sát cháu thấy các hạt vẫn không thay đổi, chúng chiếm rất nhiều diện tích. Vậy bác sĩ cho cháu hỏi có hạt đỏ ở phần hầu họng là dấu hiệu bệnh gì? Cháu cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ vùng sau họng khi soi gương nhìn thấy có thể là những nang lympho vùng họng. Khi có hiện tượng viêm hoặc nhiễm trùng vùng họng miệng thì những nang lympho sẽ to lên (phì đại) để bảo vệ cơ thể, tiêu diệt các vi sinh vật có hại. Thông thường các nang lympho sẽ trở về kích thước bình thường nếu tình trạng viêm hoặc nhiễm trùng được kiểm soát tốt. Tuy vậy, cũng có một số trường hợp các nang lympho sẽ phì đại kéo dài. Nếu các hạt đỏ (nang lympho phì đại) này không gây ra các triệu chứng như: Sốt, đau họng thường xuyên hoặc kéo dài, nuốt vướng, nuốt nghẹn khi ăn thì bạn không cần quá lo lắng.\nBạn có thể vệ sinh họng thường xuyên bằng nước muối sinh lý và đến khám tại phòng khám Tai mũi họng khi có những triệu chứng bất thường kể trên để tầm soát và điều trị hiệu quả các nguyên nhân gây phì đại nang lympho vùng họng.\nTrân trọng!",
+                "score": 0.6774977445602417,
+                "id": "vietnamese_medical_qa_329",
+                "rerank_score": 0.9813206791877747
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi những hạt mụn đỏ ở lưỡi và 2 bên amidan kèm theo nổi hạch ở dưới xương hàm. Bác sĩ cho em hỏi nổi mụn đỏ ở lưỡi kèm nổi hạch dưới xương hàm là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViệc xuất hiện các nốt đỏ (mụn đỏ) ở lưỡi và amidan, kèm nổi hạch vùng dưới hàm có thể là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, đánh giá kỹ tổn thương, có thể kết hợp nội soi, siêu âm để đánh giá chính xác hơn.\nTrân trọng!",
+                "score": 0.6538894176483154,
+                "id": "vietnamese_medical_qa_1208",
+                "rerank_score": 0.9788774847984314
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nKhoảng một tuần nay em có triệu chứng như mắc nghẹn ở họng, hơi khó thở sau ăn, hơi đau và khó chịu nhiều ở một bên tai, cảm giác như có đờm trong cổ họng, khạc ra dịch đờm trắng. Sáng hôm nay em bắt đầu bị nghẹt mũi. Em cũng soi cổ họng thì thấy vòm họng xuất hiện mụn trắng. Lưỡi trắng, tưa và đắng miệng. Bác sĩ cho em hỏi tình trạng của em như vậy là bị bệnh gì ạ? Có phải bị viêm họng không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào em!",
+                "score": 0.6718379259109497,
+                "id": "vietnamese_medical_qa_3038",
+                "rerank_score": 0.9336143732070923
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nE muốn hỏi là lưỡi e bị trắng và bên hông lưỡi cà phải răng nên có dấu chấm nhỏ(k phải loét ạ),họng e thì có đờm và nuốt vướng nước bọt.nuốt nước bọt k đau nhưng e cảm thấy đau bên họng phải.lâu lâu bị nhói tai gây đau,đi khám bệnh viện Ung Bướu được chẩn đoán là viêm lưỡi,e mới tái khám lại thì nói là viêm họng cấp.e bị gì vậy ạ?e lo lắm\nTrả lời: Chào bạn\nVới thông tin bạn đưa ra thì chúng tôi không thể khẳng định chắc chắn bạn đang bị bệnh gì. Tình trạng này có thể chỉ là viêm họng đơn thuần, bạn có thể mô tả rõ hơn triệu chứng lưỡi trắng là như thế nào, bạn đã bị bao lâu rồi, hơi thở có hôi hay không... để các bác sĩ biết rõ hơn và tư vấn đầy đủ hơn.\nĐể yên tâm, bạn có thể đi khám thêm chuyên khoa tai mũi họng để được xác định bệnh và điều trị hiệu quả.\nThân mến",
+                "score": 0.6599997878074646,
+                "id": "vietnamese_medical_qa_6548",
+                "rerank_score": 0.8773210644721985
+            },
+            {
+                "text": "Câu hỏi: Mấy hôm trước, lưỡi em bị khô ít tiết nước bọt, bên trong cuống lưỡi có nổi các hạch nhỏ nhỏ. Sang đến hôm nay thì không khô lưỡi nữa, mà lại xuất hiện tình trạng bị cấn ở cổ họng hay là cuống lưỡi gì đó ở mé bên phải, em soi đèn thì thấy có một đốm trắng trắng ở phía hàm bên phải. Vậy cho em hỏicấn cổ họng kèm các đốm trắng ở cuống lưỡi nên đi khám không?\nTrả lời: Chào bạn, Với câu hỏi “Cấn cổ họng kèm các đốm trắng ở cuống lưỡi nên đi khám không?”, bác sĩ giải đáp như sau: Tình trạng của bạn: Hiện tại thấy xuất hiện cấn ở cổ họng hay cuống lưỡi, bạn soi đèn thấy đốm trắng, bạn có cảm giác đau rát tại đốm đó không, bạn cần đi khám để đánh giá tổn thương là gì, khi đi khám bác sĩ cần làm cả xét nghiệm để chẩn đoán ra tổn thương hay không.",
+                "score": 0.6584857702255249,
+                "id": "medical_vietnamese_qa_8716",
+                "rerank_score": 0.8504687547683716
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm năm nay 29 tuổi (nữ), bị viêm họng 3 - 4 ngày nay chưa khỏi, không sốt không ho. Em đau họng, khó nuốt và nhìn vào thì có nổi các hạt đỏ viêm. Vậy bác sĩ cho em hỏi đau họng kèm nổi hạt đỏ vùng họng là bệnh gì? Vì dịch bệnh nên em chưa đến bệnh viện khám được. Mong bác sĩ tư vấn giúp em giải pháp điều trị? Dấu hiệu này có phải bệnh ung thư vòm họng không? Em không sử dụng chất kích thích, thuốc lá hay rượu bia thưa bác sĩ. Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có tình trạng đau họng, khó nuốt khoảng 03 - 04 ngày, đồng thời nổi các hạt đỏ vùng họng, những dấu hiệu trên không phải là dấu hiệu điển hình của ung thư vòm họng. Tuy vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, tầm soát các nguyên nhân gây đau họng, nuốt khó.\nTrân trọng!",
+                "score": 0.6793502569198608,
+                "id": "vietnamese_medical_qa_1218",
+                "rerank_score": 0.9840318560600281
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nKhi cháu soi gương có thể nhìn thấy những hạt đỏ ở phần hầu họng, cháu có đi khám bác sĩ cho uống kháng định nhưng qua thời gian quan sát cháu thấy các hạt vẫn không thay đổi, chúng chiếm rất nhiều diện tích. Vậy bác sĩ cho cháu hỏi có hạt đỏ ở phần hầu họng là dấu hiệu bệnh gì? Cháu cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ vùng sau họng khi soi gương nhìn thấy có thể là những nang lympho vùng họng. Khi có hiện tượng viêm hoặc nhiễm trùng vùng họng miệng thì những nang lympho sẽ to lên (phì đại) để bảo vệ cơ thể, tiêu diệt các vi sinh vật có hại. Thông thường các nang lympho sẽ trở về kích thước bình thường nếu tình trạng viêm hoặc nhiễm trùng được kiểm soát tốt. Tuy vậy, cũng có một số trường hợp các nang lympho sẽ phì đại kéo dài. Nếu các hạt đỏ (nang lympho phì đại) này không gây ra các triệu chứng như: Sốt, đau họng thường xuyên hoặc kéo dài, nuốt vướng, nuốt nghẹn khi ăn thì bạn không cần quá lo lắng.\nBạn có thể vệ sinh họng thường xuyên bằng nước muối sinh lý và đến khám tại phòng khám Tai mũi họng khi có những triệu chứng bất thường kể trên để tầm soát và điều trị hiệu quả các nguyên nhân gây phì đại nang lympho vùng họng.\nTrân trọng!",
+                "score": 0.712486743927002,
+                "id": "vietnamese_medical_qa_329",
+                "rerank_score": 0.9813205599784851
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi những hạt mụn đỏ ở lưỡi và 2 bên amidan kèm theo nổi hạch ở dưới xương hàm. Bác sĩ cho em hỏi nổi mụn đỏ ở lưỡi kèm nổi hạch dưới xương hàm là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViệc xuất hiện các nốt đỏ (mụn đỏ) ở lưỡi và amidan, kèm nổi hạch vùng dưới hàm có thể là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, đánh giá kỹ tổn thương, có thể kết hợp nội soi, siêu âm để đánh giá chính xác hơn.\nTrân trọng!",
+                "score": 0.6810080409049988,
+                "id": "vietnamese_medical_qa_1208",
+                "rerank_score": 0.9788774847984314
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ ạ, bác sĩ tư vấn giúp trong cuống lưỡi gần cổ họng của cháu có các hạt bằng hạt đậu lâu không đỡ không biết bệnh gì? Cháu cảm ơn ạ!\nLan (Đà Nẵng)\nEm chào bác sĩ ạ. Dạo gần đây em hay ho kiểu ngứa họng lên ho 1 -2 cái rồi thôi, 2 tuần trước cổ họng em bị loét nhỏ rất đau rát, xong vừa hết được 2-3 hôm thì hôm nay em cảm thấy cộm trong họng, soi thì thấy có những hạt li ti như cát. Cho em hỏi đây có phải bị ung thư hay bệnh nguy hiểm không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào cháu, theo mô tả của cháu thì nghĩ nhiều đến tổ chức lympho ở hạ họng , phần gốc lưỡi, hình dáng giống như các tổ chức hạt bằng hạt đỗ xanh hoặc nhỏ hơn, gồ ghề trên bề mặt gốc lưỡi, nếu như không có đau, không có chảy máu, ăn uống không khó chịu gì thì là chưa có biểu hiện bệnh lý, cháu nên đi nội soi họng để được thăm khám và tư vấn kỹ hơn nhé",
+                "score": 0.6803407073020935,
+                "id": "vietnamese_medical_qa_4131",
+                "rerank_score": 0.9367833137512207
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nKhoảng một tuần nay em có triệu chứng như mắc nghẹn ở họng, hơi khó thở sau ăn, hơi đau và khó chịu nhiều ở một bên tai, cảm giác như có đờm trong cổ họng, khạc ra dịch đờm trắng. Sáng hôm nay em bắt đầu bị nghẹt mũi. Em cũng soi cổ họng thì thấy vòm họng xuất hiện mụn trắng. Lưỡi trắng, tưa và đắng miệng. Bác sĩ cho em hỏi tình trạng của em như vậy là bị bệnh gì ạ? Có phải bị viêm họng không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào em!",
+                "score": 0.6899417638778687,
+                "id": "vietnamese_medical_qa_3038",
+                "rerank_score": 0.9336143732070923
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

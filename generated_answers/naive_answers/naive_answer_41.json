@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tôi bị hen phế quản, có tiền sử viêm phế quản và bị viêm phổi một lần cách đây mấy năm. Hiện tôi vẫn phải duy trì thuốc xịt dự phòng. Tôi có cơ địa dị ứng, vậy có tiêm được vaccine Covid-19 không?",
+    "ground_truth": "Theo thông tin sức khỏe anh/chị mô tả, anh/chị có tiền sử viêm phế quản và bị viêm phổi một lần cách đây mấy năm đã được điều trị ổn định. Hiện hàng ngày vẫn phải duy trì thuốc xịt dự phòng, có tiền sử dị ứng nhưng không rõ dị ứng với mức độ như thế nào nếu dị ứng phải vào bệnh viện để điều trị thì bạn nằm trong chống chỉ định tiêm vaccine. Còn nếu dị ứng nhẹ tự khỏi hay chỉ uống thuốc tại nhà bạn vẫn có thể tiêm phòng được. Theo hướng dẫn mới nhất của Bộ Y tế, anh/chị thuộc nhóm cần thận trọng khi tiêm vaccine Covid-19. Trường hợp của anh/chị vẫn được tiêm vaccine Covid-19 tại khối bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Bạn vẫn có thể tiêm vaccine Covid-19 nếu bệnh hen phế quản, viêm phế quản và tiền sử viêm phổi đã ổn định, đồng thời vẫn đang duy trì thuốc xịt dự phòng. Tuy nhiên, do có cơ địa dị ứng và tiền sử hen, bạn nên cung cấp đầy đủ bệnh sử, tiền sử dị ứng và các thuốc đang dùng khi khám sàng lọc; nên tiêm tại cơ sở bệnh viện để được theo dõi và xử trí phù hợp nếu có phản ứng sau tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị hen phế quản, phải dùng thường xuyên thuốc hít, cộng thêm viêm xoang, viêm mũi dị ứng. Vậy có thể tiêm vaccine Covid-19 được không? Khi tiêm chú ý những gì?\nTrả lời: Nếu như anh đang điều trị hen suyễn, viêm mũi dị ứng, viêm xoang vẫn có thể tiêm được vaccine Covid-19. Tuy nhiên, đối với những trường hợp này nên được tiêm vaccine tại tuyến bệnh viện để đảm bảo an toàn cho anh.",
+            "score": 0.670742392539978,
+            "id": "vietnamese_healthcare_2676"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm khớp vảy nến trên bệnh nền vảy nến lâu năm, vậy tôi có thể tiêm được vaccine Covid-19 hay không?\nTrả lời: Với bệnh vẩy nến trong trường hợp của chị, chị vẫn được tiêm chủng vaccine Covid-19 như những người bình thường.",
+            "score": 0.667271614074707,
+            "id": "vietnamese_healthcare_6220"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị bệnh viêm da dị ứng, hàng ngày bị nổi mày đay mẩn ngứa khắp người. Với bệnh lý nên như vậy tôi có nên tiêm vaccine phòng Covid-19 không?\nTrả lời: Trường hợp viêm da dị ứng của chị nếu là thể nhẹ, không phải dùng thuốc gì để điều trị, chị có thể tiêm được vaccine Covid-19.",
+            "score": 0.6645992398262024,
+            "id": "vietnamese_healthcare_1878"
+        },
+        {
+            "text": "Câu hỏi: tôi có tiền sử bị viêm phế quản thể hen thì có thể tiêm phòng vaccine Covid-19 không bác sĩ?\nTrả lời: Theo thông tin chị cung cấp, nếu tình trạng viêm phế quản đã điều trị ổn định, chị vẫn có thể tiêm được vaccin Covid-19 theo hướng dẫn của Bộ Y tế. Tuy nhiên theo những nghiên cứu tại Mỹ, Tỷ lệ những ngừoi có cơ địa bệnh dị ứng như viêm mũi dị ứng, tiền sử bệnh hen, hoặc tiền sử dị ứng với tác nhân gì thì gặp tỷ lệ phản vệ cao hơn những người khác, tuy nhiên, không phải ai cũng bị và tỷ lệ vẫn rất hiếm. Vì vậy, chị cần cung cấp đầy đủ về tiền sử bệnh cho bác sĩ khám sàng lọc để được khám sàng lọc kỹ và dặn dò kỹ các phản ứng sau tiêm.",
+            "score": 0.6569110751152039,
+            "id": "vietnamese_healthcare_1160"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị hen thỉnh thoảng dùng thuốc dạng xịt họng có được tiêm vaccine phòng Covid-19 hay không ạ?\nTrả lời: Theo những mô tả về tình trạng của anh, chị vẫn có thể tiêm chủng vaccine Covid-19 bình thường",
+            "score": 0.6549186706542969,
+            "id": "vietnamese_healthcare_8012"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,166 @@
+{
+    "model_name": "fur",
+    "question": "Người hút thuốc lá lâu năm có nên tiêm vaccine Covid-19 không? Hôm qua, trước khi tiêm, y tá nói tôi về kiểm tra vì phổi thở không tốt.",
+    "ground_truth": "Với trường hợp của anh, thăm khám lâm sàng trực tiếp, các bác sĩ mới có thể nhận định phù hợp được. Hút thuốc lá lâu năm không phải là yếu tố khiến anh không được tiêm phòng vaccine Covid-19.",
+    "answer": "Ở người hút thuốc lá lâu năm, chỉ dựa vào cảm giác “phổi thở không tốt” thì chưa thể kết luận bệnh gì hoặc có đủ ổn định để tiêm vaccine hay không. Cần khám chuyên khoa Hô hấp, thường có thể được chỉ định:\n\n- Chụp phổi hoặc CT ngực để kiểm tra các tổn thương như khí phế thủng, u phổi, xơ phổi…\n- Đo/thăm dò chức năng hô hấp để đánh giá mức độ suy giảm hô hấp.\n- Dựa trên triệu chứng, kết quả xét nghiệm và phim chụp để xác định nguyên nhân, chẳng hạn viêm phế quản mạn, COPD, lao phổi hoặc bệnh phổi khác.\n\nVề tiêm vaccine COVID-19:\n\n- Bệnh phổi mạn tính **đã ổn định** thường vẫn có thể được tiêm, nhưng nên để bác sĩ chuyên khoa đánh giá tình trạng hiện tại.\n- Nếu đang mắc bệnh cấp tính hoặc bệnh mạn tính đang tiến triển, chưa kiểm soát được, cần **trì hoãn tiêm** đến khi bệnh ổn định.\n- Hút thuốc lá lâu năm không được nêu là chống chỉ định riêng; tuy nhiên hút thuốc làm tăng nguy cơ bệnh hô hấp và khi mắc COVID-19 có thể làm bệnh nặng hơn.\n- Khi khám sàng lọc, cần thông báo rõ bệnh phổi, các thuốc đang dùng và tình trạng đáp ứng điều trị. Nếu đang ho kéo dài, khó thở hoặc ho có đờm, nên khám Hô hấp trước khi tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi là nam nay 41 tuổi, năm 2016 tôi bị gãy xương đùi, và đến giờ tôi vẫn chưa rút đinh. Tiếp nữa là tôi bị ho khoảng hơn một năm nay rồi. Như vậy tôi có thể tiêm vaccine Covid-19 không thưa bác sĩ?\nTrả lời: Anh chưa cung cấp đủ thông tin vì chỉ cho biết anh bị ho khoảng một năm nay. Bác sĩ cần biết thêm anh có khám và điều trị chưa, bệnh anh mắc là bệnh gì, có ổn định hay chưa. Trước mắt, anh cần khám sức khỏe và điều trị ho hoặc có chẩn đoán cụ thể về bệnh ho của mình. Khi khỏi bệnh, sức khỏe tốt anh vẫn có thể tiêm ngừa vaccine phòng bệnh Covid-19.",
+            "score": 0.5888886451721191,
+            "id": "vietnamese_healthcare_6946",
+            "rerank_score": 0.4250187277793884
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm gan B mạn tính đang phải điều trị thuốc kháng virus thì việc tiêm vaccine Covid-19 có ảnh hưởng gì không? Loại vaccine nào phù hợp?Bố tôi cách đây 3 năm mổ thay van tim, hàng ngày uống thuốc chống đông máu và bị tăng huyết áp cũng phải uống thuốc hàng ngày thì việc tiêm vaccine Covid-19 có ảnh hưởng gì không? Loại vaccine nào phù hợp?\nTrả lời: Chị đang điều trị thuốc kháng virus viêm gan B thì theo thông tin kê toa của nhà sản xuất việc tiêm vaccine Covid-19 không làm ảnh hưởng đến bệnh lý và quá trình điều trị. - Vaccine hiện nay có ở Việt Nam đều có thể tiêm chủng được, phụ thuộc vào từng địa phương được phân bổ. - Bố của chị đang mổ thay van tim, đang sử dụng thuốc chống đông máu và đang sử dụng thuốc cao huyết áp theo khuyến cáo của Bộ Y tế QĐ/2995, nếu trong 3 tháng trở lại đây tình trạng ổn định không có tiển triển nặng vẫn tiêm chủng vaccine Covid-19 được và sẽ tiêm và theo dõi tại bệnh viện.",
+            "score": 0.5867477059364319,
+            "id": "vietnamese_healthcare_7522",
+            "rerank_score": 0.15263411402702332
+        },
+        {
+            "text": "Câu hỏi: Em bị viêm mũi dị ứng lâu năm vậy có được tiêm vaccine không?\nTrả lời: Bệnh lý viêm mũi dị ứng, theo quy định của QĐ-2995 của Bộ Y Anh/Chị vẫn tiêm được vaccine Covid-19 bình thường.",
+            "score": 0.5897372961044312,
+            "id": "vietnamese_healthcare_3721",
+            "rerank_score": 0.09101901203393936
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 40 tuổi, bị hen, đã ổn định và đang dùng thuốc dự phòng ngày một lần có được tiêm vaccine phòng Covid-19 hay không?\nTrả lời: Trường hợp của chị đang uống thuốc dự phòng bệnh hen phế quản, theo hướng dẫn của Bộ Y tế chị vẫn tiêm được vaccine Covid-19 bình thường.",
+            "score": 0.5817664861679077,
+            "id": "vietnamese_healthcare_1194",
+            "rerank_score": 0.06516062468290329
+        },
+        {
+            "text": "Câu hỏi: Ba tôi là bệnh nhân ghép tạng (cụ thể là ghép gan), vậy có được tiêm vaccine Covid-19 không?\nTrả lời: Do anh/chị không nói rõ người nhà đã ghép tạng được bao lâu và còn dùng thuốc gì không?Trường hợp này anh/chị nên cho người nhà khám sàng lọc để bác sĩ khám và đưa ra chỉ định tiêm chủng phù hợp.",
+            "score": 0.6209195256233215,
+            "id": "vietnamese_healthcare_2880",
+            "rerank_score": 0.056892476975917816
+        },
+        {
+            "text": "Câu hỏi: Hút thuốc lá thường xuyên bị ho dữ dội có làm sao không?\nTrả lời: Hút thuốc lá có thể đem lại nhiều vấn đề cho sức khỏe không chỉ ở phổi mà có thể có các cơ quan khác. Người nhà bạn mô tả biểu hiện như vậy thì nên khám loại trừ các căn nguyên ho như: u hay bệnh phổi tắc nghẽn mãn tính. Người nhà bạn nên đến khám chuyên khoa Hô hấp để chụp kiểm tra và thăm dò chức năng hô hấp.",
+            "score": 0.6150208711624146,
+            "id": "vietnamese_healthcare_9030",
+            "rerank_score": 0.549963653087616,
+            "weighted_score": 0.5426205039024353
+        },
+        {
+            "text": "Câu hỏi: Em có tiếp xúc với người hút thuốc lá nhiều và bị bệnh phổi phải đi hút dịch. Vậy bác sĩ cho em hỏingười hút thuốc lá nhiều phải hút dịch phổi có thể là bệnh gì?Như vậy có phải bị bệnh lao phổi không và em tiếp xúc thì có lây không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn có tiếp xúc với người hút thuốc lá nhiều gọi là hút thuốc lá thụ động, cũng là yếu tố nguy cơ của các bệnh phổi như bệnh phổi tắc nghẽn mạn tính (COPD), ung thư phổi,... Người đó bị tràn dịch màng phổi đã chọc hút, bác sĩ thường sẽ kết luận bị tràn dịch màng phổi do nguyên nhân gì (lao phổi màng phổi, viêm phổi, ung thư phổi,....) và nếu là lao phổi thì có khả năng lây nhiễm.",
+            "score": 0.526681661605835,
+            "id": "medical_vietnamese_qa_8456",
+            "rerank_score": 0.24720905721187592,
+            "weighted_score": 0.5355242222547532
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi bị tức ngực ngay sau khi hút thuốc lá nên chụp phổi không? Mong được bác sĩ giải đáp thắc mắc ạ. Em cảm ơn bác sĩ, chúc bác sĩ sức khỏe.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nKhói thuốc lá lôi kéo các tế bào viêm đến phổi, các tế bào này nhã ra nhiều men tiêu hủy phổi. Có thể phổi đã bị tiêu hủy nhiều năm mới được hô hấp ký khám phá. Hơn nữa, hút thuốc lá làm cho bạn có nguy cơ cao bị nhiều bệnh như ung thư miệng, cổ họng, phổi, thực quản, dạ dày và bàng quang, bệnh tim, cao huyết áp, tai biến mạch máu não, bệnh mạch máu ngoại biên và ung thư máu. 90% bệnh nhân bệnh phổi tắc nghẽn mạn tính là người hút thuốc lá. Vì vậy, bạn cần tới bệnh viện hoặc phòng khám chuyên khoa hô hấp để được chụp phổi và đo chức năng hô hấp.\nTrân trọng!",
+            "score": 0.5384407043457031,
+            "id": "vietnamese_medical_qa_1095",
+            "rerank_score": 0.4454055726528168,
+            "weighted_score": 0.4865154206752777
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 53 tuổi, có tiền sử hen phế quản, mỗi khi trở trời hay khó thở, ngoài ra còn có các bệnh như viêm dạ dày, nhức mỏi tay chân. Vậy tôi có tiêm chủng vaccine Covid-19 được không? Muốn tiêm thì tiêm ở đâu?\nTrả lời: Theo như thông tin cô cung cấp, bác sĩ cần làm rõ thêm thông tin để có thể tư vấn cụ thể hơn: cô có đang tiếp nhận điều trị hen phế quản không, tình trạng bệnh cụ thể (cơn hen gần nhất, có tái đi tái lại không), tình trạng bệnh có đang ổn định trong khoảng 3 tháng gần đây hay không. . .",
+            "score": 0.5241508483886719,
+            "id": "vietnamese_healthcare_3756",
+            "rerank_score": 0.2681410312652588,
+            "weighted_score": 0.4589419364929199
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, hai tuần này bố em có một số triệu chứng như ho nhiều vào buổi sáng, mỗi lần ho thường có đờm. Ngoài ra, bố em còn hay hút thuốc nữa ạ. Vậy người nghiện thuốc lá ho nhiều kèm theo có đờm là dấu hiệu của bệnh gì ạ? Mong bác sĩ giải đáp giúp em, xin cảm ơn!\nTrả lời: Chào em,\nĐối với thắc mắc: Người nghiện thuốc lá ho nhiều kèm theo có đờm là dấu hiệu của bệnh gì? bác sĩ xin được giải đáp như sau:\nĐối với các bệnh nhân có tiền sử hút thuốc lá thì triệu chứng ho kéo dài, ho tái phát dai dẳng có thể là một dấu hiệu cần đi khám. Các bệnh hay gặp là: viêm phế quản mãn tính, bệnh phổi tắc nghẽn mãn tính, lao phổi, u phổi. Từ việc dựa vào các kết quả xét nghiệm và phim chụp, bác sĩ có thể kết luận được bệnh chính xác nhất.",
+            "score": 0.5624349117279053,
+            "id": "vietnamese_medical_qa_2856",
+            "rerank_score": 0.07573653012514114,
+            "weighted_score": 0.25963351875543594
+        },
+        {
+            "text": "Câu hỏi: Bố em bị viêm phế quản mãn tính, thỉnh thoảng khó thở, ho, người gầy, đi khám bệnh viện người ta cho thuốc về uống nhưng không đỡ. Xin hỏi bác sĩkhó thở kèm ho do viêm phế quản mãn tính nên làm gì?Cảm ơn bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Khó thở kèm ho do viêm phế quản mãn tính nên làm gì?”, bác sĩ giải đáp như sau: Nguyên nhân thường gặp của viêm phế quản mãn tính: hút thuốc lá chủ động hoặc thụ động kéo dài, làm việc hoặc sinh sống trong môi trường khói bụi kéo dài như thợ đá, thợ hầm mỏ, thợ làm lò gạch, xi măng,... Ba bạn nên khám chuyên khoa hô hấp, bác sĩ có thể chỉ định chụp CT ngực để phát hiện tình trạng khí phế thủng, khối u phổi, xơ phổi,... đồng thời được chỉ định thăm dò chức năng hô hấp đánh giá bệnh phổi đầy đủ hơn, từ đó sẽ đưa ra phác đồ điều trị thích hợp. Ba bạn nên cai thuốc lá (nếu bác có hút thuốc), tập thể dục đều, tập thở bụng xen kẽ thở ngực,... Tiêm vắc xin cúm và vắc xin phế cầu giúp cho hệ miễn dịch của ba bạn chống lại được bệnh viêm hô hấp do virus cúm và vi khuẩn phế cầu.",
+            "score": 0.531240701675415,
+            "id": "medical_vietnamese_qa_8335",
+            "rerank_score": 0.012092111632227898,
+            "weighted_score": 0.04847764037549496
+        },
+        {
+            "text": "Câu hỏi: Tôi có một số bệnh nền là hẹp động mạch vành (50%), cao huyết áp , tiểu đường tuýp 2, hiện hàng ngày đang uống thuốc. Vậy tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Hiện tại theo hướng dẫn mới nhất 2995 của Bộ Y tế, anh không thuộc trường hợp hoãn tiêm hay chống chỉ định tiêm vaccine Covid-19, tuy nhiên cần thận trọng tiêm chủng và tiêm chủng tại bệnh viện hoặc cơ sở đủ năng lực hồi sức cấp cứu ban đầu để kịp thời xử trí các phản ứng sau tiêm.",
+            "score": 0.5517919063568115,
+            "id": "vietnamese_healthcare_5163",
+            "rerank_score": 0.9082208871841431,
+            "weighted_score": 0.49961297512054437
+        },
+        {
+            "text": "Câu hỏi: Những bệnh cụ thể nào sẽ không được tiêm vaccine Covid-19? Có một quy định nào hay không thưa bác sĩ?\nTrả lời: Theo hướng dẫn của Bộ Y tế, mới đây nhất là quyết định 2995, Bộ Y tế đã quy định rất là rõ những người có tiền sử phản vệ từ độ 2 trở lên thì chống chỉ định tiêm, đồng thời chống chỉ định theo những quy định của nhà sản xuất. Chúng ta biết, không chỉ vaccine Covid-19 mà tất cả các vaccine khác, nếu bạn có dị ứng với thành phần của vaccine, phản ứng phản vệ thì chống chỉ định. Ngoài ra, chúng ta có những quy định về vấn đề hoãn tiêm, những trường hợp nào cần hoãn tiêm, những trường hợp nào cần thận trọng ví dụ như phụ nữ đang có thai, phụ nữ đang cho con bú, mắc bệnh nền mãn tính, bệnh nền chưa kiểm soát được, người ung thư giai đoạn cuối, người đang sử dụng thuốc ức chế miễn dịch, người đang điều trị hóa trị, xã trị. Cần hoãn tiêm với những người mắc Covid-19 vòng 6 tháng. Bên cạnh đó, Bộ Y tế cũng hướng dẫn những người đang bệnh cấp tính/mãn tính triển cũng hoãn tiêm. Còn những trường hợp thận trọng là người có tiền sử dị ứng mà không phản vệ độ 2, các bác sĩ khám sàng lọc trước tiêm chủng sẽ đánh giá lại xem các tác nhân gây dị ứng đó, các tình trạng dị ứng như thế nào để có quyết định chính xác nhất, thận trọng có thể tiêm tại những cơ sở ngoài bệnh viện hoặc tại bệnh viện.",
+            "score": 0.5358234643936157,
+            "id": "vietnamese_healthcare_7560",
+            "rerank_score": 0.9850753545761108,
+            "weighted_score": 0.3972412109375
+        },
+        {
+            "text": "Câu hỏi: Những ai cần trì hoãn tiêm vắc xin COVID-19?\nTrả lời: 2. Những ai cần trì hoãn tiêm vắc xin COVID-19?\nTheo hướng dẫn mới nhất được cập nhật ngày 3/8/2021 của Bộ Y tế, những đối tượng sau đây cần trì hoãn tiêm chủng COVID-19: Đang mắc bệnh cấp tính hoặc mạn tính đang tiến triển, chưa kiểm soát được. Những người bị suy giảm khả năng đáp ứng miễn dịch nặng, ung thư giai đoạn cuối, xơ gan mất bù , ... Trong vòng 14 ngày trước có điều trị corticoid liều cao (tương đương prednisolon lớn hơn hoặc bằng 2 mg/kg/ngày trong lớn hơn hoặc bằng 7 ngày) hoặc điều trị hóa trị, xạ trị. Đã mắc COVID-19 trong vòng 6 tháng. Phụ nữ mang thai và phụ nữ đang nuôi con bằng sữa mẹ.",
+            "score": 0.5941827893257141,
+            "id": "vietnamese_healthcare_105577",
+            "rerank_score": 0.9721383452415466,
+            "weighted_score": 0.21651013344526285
+        },
+        {
+            "text": "Câu hỏi: Tôi bị nhiễm HIV, từng bị viêm phổi nặng và đã khỏi. Tôi có nên tiêm vaccine Covid-19 không? Nếu có tôi sẽ có nguy cơ biến chứng như thế nào ạ?\nTrả lời: Những trường hợp nhiễm HIV nói riêng và các đối tượng mắc các bệnh lý suy giảm miễn dịch có biểu hiện lâm sàng nói chung cần hoãn tiêm vaccine Covid-19 và chờ chỉ đạo tiếp theo của Bộ Y tế.",
+            "score": 0.5835793018341064,
+            "id": "vietnamese_healthcare_9276",
+            "rerank_score": 0.42174527049064636,
+            "weighted_score": 0.18535994887351986
+        },
+        {
+            "text": "Câu hỏi: Người mắc các bệnh gan khác thì tiêm vắc-xin Covid-19 thế nào?\nTrả lời: 2. Người mắc các bệnh gan khác thì tiêm vắc-xin Covid-19 thế nào?\nĐối với bệnh nhân đang bị viêm gan cấp tính, suy gan cấp hoặc xơ gan tiến triển, có biểu hiện mắt vàng, tăng men gan, suy gan, tiểu cầu giảm thì nên trì hoãn tiêm vắc-xin Covid-19, đợi đến khi điều trị bệnh ổn định. Người bệnh xơ gan, ung thư gan : Không có chống chỉ định tiêm vắc-xin. Đối với người bệnh sau ghép gan, nếu chức năng gan ổn định vẫn có chỉ định nên tiêm vắc-xin Covid-19, chỉ trì hoãn tiêm khi người bệnh đang trong giai đoạn thải ghép cấp.",
+            "score": 0.5524041652679443,
+            "id": "vietnamese_healthcare_40311",
+            "rerank_score": 0.6354671716690063,
+            "weighted_score": 0.13716056868433948
+        },
+        {
+            "text": "Câu hỏi: Tôi bị bệnh gan mãn tính, đã uống thuốc điều trị thường xuyên. Tôi được bác sĩ khuyến cáo không nên tiêm vaccine phòng Covid-19 nhưng tôi vẫn muốn được tiêm có được hay không?\nTrả lời: Trong những hướng dẫn về tiêm vaccine Covid-19 cho những đối tượng bị bệnh gan có nói rằng, đối với trường hợp xơ gan mất bù cần thận trọng hoặc hoãn tiêm. Tôi chưa rõ tình trạng bệnh gan của bạn như thế nào. Trong đa số những trường hợp bạn đang điều trị bệnh gan, duy trì ở mức độ ổn định vẫn có thể tiêm phòng vaccine ngừa Covid-19.",
+            "score": 0.5331513285636902,
+            "id": "vietnamese_healthcare_892",
+            "rerank_score": 0.2667543292045593,
+            "weighted_score": 0.09938333332538604
+        },
+        {
+            "text": "Câu hỏi: Những người bị nhiễm HIV đang điều trị, uống thuốc và có xét nghiệm tầm soát theo chỉ định bác sĩ điều trị thì có được tiêm vaccine Covid-19 không? Nếu tiêm thì có bị ảnh hưởng gì đến sức khỏe hay phản tác dụng của vaccine không?\nTrả lời: Những trường hợp nhiễm HIV nói riêng và các đối tượng mắc các bệnh lý suy giảm miễn dịch có biểu hiện lâm sàng nói chung cần hoãn tiêm chờ chỉ đạo tiếp theo của Bộ Y tế.",
+            "score": 0.5614943504333496,
+            "id": "vietnamese_healthcare_5609",
+            "rerank_score": 0.34353867173194885,
+            "weighted_score": 0.09152703583240508
+        },
+        {
+            "text": "Câu hỏi: Tôi đang điều trị viêm gan B, hiện vẫn còn đang uống thuốc. Vậy tôi chích ngừa vaccine Covid-19 được không?\nTrả lời: Trường hợp chị đang điều trị viêm gan B và đang dùng thuốc theo chỉ định của Bộ Y tế cần hoãn tiêm chủng vaccine Covid-19. Sau khi bệnh đã điều trị ổn định sau 3 tháng trở lên, chị có thể đi tiêm chủng bình thường.",
+            "score": 0.5720990896224976,
+            "id": "vietnamese_healthcare_7377",
+            "rerank_score": 0.3160143196582794,
+            "weighted_score": 0.07285167649388313
+        },
+        {
+            "text": "Câu hỏi: Người nhà tôi phổi xấu, giãn phế quản, đang điều trị dài ngày, có tiêm vaccine Covid-19 được không?\nTrả lời: Theo hướng dẫn của Bộ Y Tế thì các trường hợp đang điều trị bệnh mạn tính đã ổn định vẫn có thể được tiêm vaccine Covid-19. Với trường hợp của người nhà bác thì cần có ý kiến của bác sĩ chuyên khoa về tình trạng bệnh hiện tại đã đủ ổn định để tiêm ngừa vaccine hay chưa. Ngoài ra, trước khi tiêm, cần cung cấp thông tin cụ thể về bệnh đang điều trị, các loại thuốc đang sử dụng, tình trạng đáp ứng điều trị. .",
+            "score": 0.5513255596160889,
+            "id": "vietnamese_healthcare_6502",
+            "rerank_score": 0.9014443159103394,
+            "weighted_score": 0.9374076128005981
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nMỗi lần thở, em phải thở bằng miệng thật thật sâu rồi thở ra mới cảm thấy dễ chịu. Tình trạng diễn đi diễn lại rất nhiều lần. Em cũng có hút thuốc. Bác sĩ cho em hỏi, khó thở kéo dài là triệu triệu chứng của bệnh gì? Em cám ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nHút thuốc lá là một yếu tố làm tăng nguy cơ mắc các bệnh nhiễm trùng đường hô hấp và làm tăng mức độ nghiêm trọng của các bệnh về đường hô hấp. Hút thuốc lá có thể gây ung thư với mọi cơ quan trong cơ thể của bạn: phổi, bàng quang, máu, cổ tử cung, đại tràng, thực quản, thận, vòm họng, gan, tụy, dạ dày. Hút thuốc cũng gây ra: Bệnh tim mạch, đột quỵ, bệnh phổi như khí phế thũng và viêm phế quản.\nTrước tiên, bạn phải bỏ thuốc lá, khói thuốc lá góp phần gây nên tình trạng khó thở của bạn. Tuy nhiên, khó thở do nhiều nguyên nhân gây ra, bạn cần đăng ký khám với bác sĩ chuyên khoa Hô hấp. Bác sĩ sẽ thăm khám và làm một số xét nghiệm cần thiết, xác định nguyên nhân và đưa ra phương pháp điều trị.\nTrân trọng!",
+            "score": 0.5567281246185303,
+            "id": "vietnamese_medical_qa_1227",
+            "rerank_score": 0.312326043844223,
+            "weighted_score": 0.6739334762096405
+        },
+        {
+            "text": "Câu hỏi: Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nTrả lời: 2. Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nHút thuốc lá làm giảm dung tích phổi, tăng nguy cơ viêm đường hô hấp và tăng mức độ nghiêm trọng của các bệnh đường hô hấp . Trong khi đó, COVID-19 là một bệnh truyền nhiễm tấn công chủ yếu vào phổi. Do đó, hút thuốc lá sẽ làm giảm khả năng chống lại coronavirus và các bệnh đường hô hấp khác. Các nghiên cứu hiện có cho thấy những người hút thuốc lá có nguy cơ mắc bệnh COVID-19 ở mức độ nghiêm trọng hơn và nguy cơ tử vong cao hơn.",
+            "score": 0.5808638334274292,
+            "id": "vietnamese_healthcare_84825",
+            "rerank_score": 0.3754481077194214,
+            "weighted_score": 0.6459437131881713
+        },
+        {
+            "text": "Câu hỏi: hững nguy hại cho sức khỏe khi hút thuốc lá thường xuyên\nTrả lời: 1. hững nguy hại cho sức khỏe khi hút thuốc lá thường xuyên\nTheo nghiên cứu trong thành phần của thuốc lá có chứa nicotin một chất tìm thấy trong thuốc trừ sâu. Đây cũng là nguyên nhân gây ra các vấn đề về phổi cho người hút thuốc. Khi sử dụng thuốc lá cả người hút và người hít khói thuốc đều có nguy cơ mắc bệnh ung thư phổi , tai biến mạch máu não , nhồi máu cơ tim , viêm phế quản mãn ...... Số liệu thống kê tại các tổ chức y tế hàng năm cho thấy, trong mỗi giây có 1 bệnh nhân tử vong vì tổn thương phổi do hút hoặc hít phải khói thuốc lá. Trước kia, số người tử vong do thuốc lá gây ra được thống kê còn cao hơn do nhiễm căn bệnh thế kỷ. Trong đó, nam giới là đối tượng điển hình có thói quen hút thuốc. Khí cacbon dioxit từ thuốc lá khi hút sẽ xâm nhập qua mũi vào cơ thể khiến nồng độ oxy trong hồng cầu không thể tăng lên. Dưới tác động ngăn chặn oxy kết hợp với hồng cầu, khói thuốc làm cho các cơ quan phải hoạt động tăng cường để bù lại những thiếu sót đó. Vì vậy, nếu hút thuốc lá hay hít phải khói thuốc thường xuyên sẽ dẫn đến suy thận , quáng gà , hoại tử bàn chân....",
+            "score": 0.5700222253799438,
+            "id": "vietnamese_healthcare_17657",
+            "rerank_score": 0.0828908160328865,
+            "weighted_score": 0.28692077547311784
+        }
+    ],
+    "llm_call": 7,
+    "iteration": 3
+}

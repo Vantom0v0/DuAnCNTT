@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ, cháu bị vết thâm do mụn để lại, có ít sẹo nữa, k biết có thuốc gì bôi lên k ạ. Da mặt cháu dễ nhạy cảm",
+    "ground_truth": "Chào bạn. \nBạn có thể sử dụng Kem nghệ Thái Dương hoặc thuốc Madecassol để bôi lên vùng thâm và sẹo. Có thể dùng nghệ tươi tuy nhiên sẽ ảnh hưởng đến thẩm mỹ. Nếu da bạn nhạy cảm, nên bôi thử vào mặt trong cánh tay. Nếu không thấy dị ứng gì thì có thể sử dụng nhé. \nThân mến.",
+    "answer": "Chào cháu, trước hết nên điều trị dứt điểm mụn và không tự ý nặn hoặc dùng thuốc bôi khi chưa được bác sĩ chỉ định vì có thể làm tăng thâm, sẹo và khiến da nhạy cảm hơn. Cháu có thể hạn chế thâm bằng cách tránh nắng, bổ sung vitamin C qua thuốc hoặc thực phẩm, rửa mặt bằng sản phẩm phù hợp với da và không sờ tay lên mặt. Sẹo rỗ hoặc sẹo lồi có thể cần điều trị chuyên khoa, chẳng hạn phương pháp lăn kim, nhưng nên được bác sĩ da liễu khám trực tiếp và tư vấn tại cơ sở uy tín.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ, da mặt em là da dầu,da mặt em bị mụn hai bên má nhiều, và để lại nhiều vết thâm lâu khỏi, cho em hỏi có thuốc bôi da trị thâm mụn và trị mụn nào tốt không ạ?. Em cám ơn ạ!\nTrả lời: Chào em,\nTình trạng mụn của em có thể có nhiều nguyên nhân nên phải tìm hiểu nguyên nhân mới có thể cho thuốc trị mụn hiệu quả. Trước khi điều trị thâm em cần điều trị mụn trước. Hiện tại để hạn chế thâm em có thể bổ sung thêm vitamin C bằng thuốc hoặc thức ăn, tránh nắng. Em nên đến khám tại phòng khám chuyên khoa da liễu để được khám trực tiếp, tư vấn và cho thuốc điều trị mụn\nCảm ơn và chúc em mau cải thiện được tình trạng da.",
+            "score": 0.650336742401123,
+            "id": "vietnamese_medical_qa_6010"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nEm bị mụn giờ còn sẹo rỗ liti voi sa nhờn uống thuốc gì để  hết nhờn cảm ơn bác sĩ\nTrả lời: Chào em, \n\nEm có chất da dầu, do đó rất dễ bị mụn và sẹo. Em cần có chế độ chăm sóc phù hợp với làn da của mình bằng cách: \n- Rửa mặt bằng dung dịch dành cho da nhờn\n- Dùng kem kiểm soát dầu \n- Điều trị mụn nếu có theo chỉ định của bác sỹ\n- Không sờ tay lên da, mặt gây nhiễm trùng da\n\nNếu da vẫn tiếp tục nhờn mụn, em nên đi khám bác sỹ để được kê thuốc cho da mình nhé. \n\nChúc em khỏe",
+            "score": 0.5782089233398438,
+            "id": "vietnamese_medical_qa_6999"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,cho cháu hỏi cháu hay xuất hiện những mụn to trên mặt lúc đầu sưng to tấy đỏ sau một khoảng thời gian xẹp đi và thâm lại k đau nữa tầm một tháng sau nốt mụn lại đau nặn ra thấy một ít nhầy như thịt và máu.bác sĩ cho cháu hỏi mụn như vậy là mụn gì nguyên nhân và cách điều trị\nTrả lời: Chào bạn,\nTheo bạn nói thì có thể bạn bị viêm nang lông ( Viêm lỗ chân lông). Với tình trạng này, trước tiên bạn nên giữ gìn vệ sinh sạch sẽ, tuyệt đối không được nặn mụn dễ gây sẹo thâm, ảnh hưởng đến thẩm mỹ.\nDa bạn vào loại da nhờn, vì vậy nên có chế độ chăm sóc da đặc biệt hơn: \n- Đi ra ngoài nên đeo khẩu trang tránh tiếp xúc với bụi bẩn , nắng.\n- Rửa mặt ngày 2-3 lần bằng sữa rửa mặt có tinh chất dưa leo.\n- Uống bổ sung Vitamin C.\n- Uống nhiều nước.\n- Tăng cường ăn nhiều rau xanh và hoa quả tươi.\nThân mến!",
+            "score": 0.5730810165405273,
+            "id": "vietnamese_medical_qa_7256"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ !\nE năm nay 18T và đã từng bị mụn , giờ e trị mụn đã hết nhưng còn khá nhiều sẹo rỗ và sẹo lồi ... bác sĩ cho e hỏi giờ e phải làm gì để hết sẹo hoặc giảm tối  đa nhất có thể ạ ? E ở Nghệ An ạ , là Nam . Mong bác sĩ tư vấn ạ . e xin cảm ơn !\nTrả lời: Chào em trai, \n\nCác vết sẹo trên da của em có thể điều trị được nhưng tương đối tốn kém. Có 1 kỹ thuật chăm sóc và điều trị da sẹo rỗ là phương pháp lăn kim tế bào gốc. Các bác sỹ bên da liễu sẽ làm sạch da của em, lăn kim tại các vị trí sẹo và dùng dung dịch tế bào gốc để kích thích vùng lăn kim đầy lên và giảm sẹo rỗ. Tuy nhiên, chi phí thường tương đối cao do chế phẩm tế bào gốc có giá thành cao (1 liệu trình cho 10 lần điều trị tốn khoảng 10 - 30 triệu đồng tùy cơ sở) Nếu thực sự em muốn cải thiện làn da, em nên tới các cơ sở uy tín tại Hà Nội để điều trị tận gốc nhé. \n\nChúc em khỏe",
+            "score": 0.563381016254425,
+            "id": "vietnamese_medical_qa_7316"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, hiện cháu đang bị nổi nhiều mụn và nốt to ở lưng xong nó thâm lại. Một thời gian uống thuốc không đỡ, giờ lan nốt xuống cả lưng với 2 bên bả vai. Nốt to, có nhân, kiểu mụn bọc và ngứa. Năm nay cháu 18 tuổi. Cháu cảm ơn!\nTrả lời: Chào bạn !\nXin được trả lời câu hỏi của bạn như sau: Mụn là bệnh lý mạn tính có nhiều nguyên nhân có thể do tâm lý, chế độ ăn uống, để điều trị bệnh cần kiên trì tuân thủ điều trị thuốc theo toa bác sĩ và thay đổi lối sống, hạn chế các loại thức ăn có nhiều đường, mỡ ,tránh thức khuya, tránh căng thẳng tâm lý, vệ sinh da mặt thường xuyên, có thể sử dụng các kem dưỡng ẩm, chư cetaphil. Không nên tự ý điều trị thuốc, có thể làm bệnh nặng hơn gây khó khăn cho việc điều trị.\nBạn nên đến khám tại các bác sĩ da liễu uy tín để được kê toa thuốc điều trị.\nThân mến !",
+            "score": 0.5534467101097107,
+            "id": "vietnamese_medical_qa_8867"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

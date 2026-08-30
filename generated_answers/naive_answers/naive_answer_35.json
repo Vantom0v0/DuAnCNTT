@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Em bị dị ứng thuốc nhưng không biết là dự úng với loại thuốc nào, liệu em có tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Theo bạn chia sẻ, bạn bị dị ứng với thuốc chúng tôi không biết mức độ dị ứng có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Vì em chưa biết mình dị ứng với thuốc nào và mức độ phản ứng ra sao nên chưa thể kết luận có tiêm vaccine Covid-19 được hay không. Em cần khai báo cụ thể tiền sử dị ứng để nhân viên y tế sàng lọc; nếu trước đây từng phản vệ nặng từ độ II với bất kỳ tác nhân nào thì thuộc nhóm chống chỉ định tiêm. Nếu chỉ nổi mề đay, ngứa hoặc triệu chứng nhẹ, không khó thở, tím tái, tụt huyết áp, đau quặn bụng, nôn hay tiêu chảy thì có thể được tiêm nhưng cần thận trọng, dưới sự giám sát tại bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu. Tài liệu không cung cấp đủ thông tin để xác định loại vaccine phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cho em hỏi là người bị dị ứng với thuốc chống viêm thì có thể tiêm vaccine Covid-19 không ạ ? Nếu có thể tiêm thì tiêm loại nào ạ?\nTrả lời: Theo anh/chị chia sẻ thì có bị dị ứng với thuốc chống viêm, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết.",
+            "score": 0.752169132232666,
+            "id": "vietnamese_healthcare_4650"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng với thuốc có kháng viêm không steroid thì có chích ngừa Covid-19 được không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, chị thuộc nhóm đối tượng phải cẩn trọng khi tiêm cần phải tiêm chủng tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Tuy nhiên, không phải tất cả những người có tiền sử dị ứng sẽ phản vệ với vaccine. Điều quan trọng là chị cần phải biết các triệu chứng phản vệ sớm để thông báo hoặc đến ngay cơ sở y tế để được xử trí kịp thời.",
+            "score": 0.7448081374168396,
+            "id": "vietnamese_healthcare_709"
+        },
+        {
+            "text": "Câu hỏi: Em bị dị ứng kháng sinh có tiêm được vaccine Covid-19 không? Nếu được thì vaccine của hãng nào ạ?\nTrả lời: Qua lời chia sẻ của anh/chị, tôi không nói rõ các triệu chứng phản ứng của anh, chị như thế nào?",
+            "score": 0.7229095101356506,
+            "id": "vietnamese_healthcare_5419"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng với thuốc hạ sốt và thuốc giảm đau có thể tiêm vaccine Covid-19 được không?\nTrả lời: Theo thông tin của chị cung cấp, chúng tôi chưa đánh giá được mức độ dị ứng của chị vì theo hướng dẫn của Bộ Y tế, những người có tiền sử phản vệ nặng (phản vệ từ độ II) với bất kỳ tác nhân gì trước đó thuộc nhóm chống chỉ định tiêm vaccine Covid-19. Vì vậy, trong giai đoạn này, chị cần thực hiện các biện pháp phòng dịch hiệu quả khác như thông điệp 5K của Chính phủ. Tuy nhiên, nếu mức độ dị ứng của chị chỉ là mề đay, ngứa, . . . và không bị khó thở, tím tái, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn/buồn nôn. . . thì chị vẫn được tiêm chủng nhưng cần cẩn trọng dưới sự giám sát của nhân viên y tế, chị nên tiêm chủng trong bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu.",
+            "score": 0.7127017378807068,
+            "id": "vietnamese_healthcare_177"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng thuốc, vậy xin hỏi tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Như các anh/chị cũng biết, tiền sử dị ứng để các bác sĩ sàng lọc quyết định tiêm hay không thì người chủng ngừa cần phải thông báo những tiền sử dị ứng của mình cụ thể là gì, mức độ dị ứng nhẹ ví dụ như uống thuốc vào bị ngứa, ngưng không uống nữa, . . .",
+            "score": 0.7114609479904175,
+            "id": "vietnamese_healthcare_7969"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

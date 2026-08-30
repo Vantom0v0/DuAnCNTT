@@ -1,0 +1,118 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ, cháu bị vết thâm do mụn để lại, có ít sẹo nữa, k biết có thuốc gì bôi lên k ạ. Da mặt cháu dễ nhạy cảm",
+    "ground_truth": "Chào bạn. \nBạn có thể sử dụng Kem nghệ Thái Dương hoặc thuốc Madecassol để bôi lên vùng thâm và sẹo. Có thể dùng nghệ tươi tuy nhiên sẽ ảnh hưởng đến thẩm mỹ. Nếu da bạn nhạy cảm, nên bôi thử vào mặt trong cánh tay. Nếu không thấy dị ứng gì thì có thể sử dụng nhé. \nThân mến.",
+    "answer": "Chào cháu, trước khi điều trị vết thâm và sẹo, cháu nên kiểm soát và điều trị mụn trước. Vì da nhạy cảm và bác sĩ chưa khám trực tiếp, cháu không nên tự ý dùng thuốc hoặc mỹ phẩm trị thâm vì có thể làm tình trạng nặng hơn; một số tài liệu chỉ đề cập có thể chấm nghệ hoặc kem nghệ lên vết mụn nhưng không đảm bảo hết thâm, sẹo. Cháu nên tránh nắng, có thể bổ sung vitamin C qua thuốc hoặc thức ăn, chăm sóc da phù hợp và không sờ tay lên mặt. Tốt nhất cháu nên khám bác sĩ chuyên khoa da liễu để được đánh giá và kê thuốc phù hợp.",
+    "evidence": [
+        "Trước khi điều trị thâm em cần điều trị mụn trước.",
+        "Hiện tại để hạn chế thâm em có thể bổ sung thêm vitamin C bằng thuốc hoặc thức ăn, tránh nắng.",
+        "Em nên đến khám tại phòng khám chuyên khoa da liễu để được khám trực tiếp, tư vấn và cho thuốc điều trị mụn\nCảm ơn và chúc em mau cải thiện được tình trạng da.",
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nPhương pháp điều trị tình trạng mụn đầu đen, da nhờn là uống các thuốc giảm nhờn và bôi thuốc trị mụn.",
+        "Không nên tự ý điều trị thuốc, có thể làm bệnh nặng hơn gây khó khăn cho việc điều trị.",
+        "Bạn nên đến khám tại các bác sĩ da liễu uy tín để được kê toa thuốc điều trị.",
+        "Sau đó em có thể bôi nghệ, hoặc kem nghệ Thái Dương,chấm lên vết mụn.",
+        "Em cần có chế độ chăm sóc phù hợp với làn da của mình bằng cách: \n- Rửa mặt bằng dung dịch dành cho da nhờn\n- Dùng kem kiểm soát dầu \n- Điều trị mụn nếu có theo chỉ định của bác sỹ\n- Không sờ tay lên da, mặt gây nhiễm trùng da\n\nNếu da vẫn tiếp tục nhờn mụn, em nên đi khám bác sỹ để được kê thuốc cho da mình nhé.",
+        "việc sử dụng 3 loại mỹ phẩm trên không thể chắc chắn tình trạng mụn và thâm mụn sẽ hết.",
+        "Hơn nữa bác sĩ không rõ tiền sử điều trị và tình trạng da của cháu nên không thể có lời khuyên tốt hơn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ, da mặt em là da dầu,da mặt em bị mụn hai bên má nhiều, và để lại nhiều vết thâm lâu khỏi, cho em hỏi có thuốc bôi da trị thâm mụn và trị mụn nào tốt không ạ?. Em cám ơn ạ!\nTrả lời: Chào em,\nTình trạng mụn của em có thể có nhiều nguyên nhân nên phải tìm hiểu nguyên nhân mới có thể cho thuốc trị mụn hiệu quả. Trước khi điều trị thâm em cần điều trị mụn trước. Hiện tại để hạn chế thâm em có thể bổ sung thêm vitamin C bằng thuốc hoặc thức ăn, tránh nắng. Em nên đến khám tại phòng khám chuyên khoa da liễu để được khám trực tiếp, tư vấn và cho thuốc điều trị mụn\nCảm ơn và chúc em mau cải thiện được tình trạng da.",
+                "score": 0.7289789915084839,
+                "id": "vietnamese_medical_qa_6010",
+                "rerank_score": 0.9953533411026001
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nCháu năm nay 17 tuổi, da cháu là da nhờn. Trên mặt rất nhiều mụn đầu đen và lỗ chân lông to. Da bị thâm lại do mụn. Bác sĩ cho cháu hỏi da nhiều mụn đầu đen kèm lỗ chân lông to điều trị thế nào? Cháu cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nPhương pháp điều trị tình trạng mụn đầu đen, da nhờn là uống các thuốc giảm nhờn và bôi thuốc trị mụn. Cần thời gian dài. Bạn cần đến khám bác sĩ chuyên khoa Da liễu để được chẩn đoán và có chỉ định thuốc điều trị.\nTrân trọng!",
+                "score": 0.5980256199836731,
+                "id": "vietnamese_medical_qa_224",
+                "rerank_score": 0.9916871190071106
+            },
+            {
+                "text": "Câu hỏi: Dạ chào bác sĩ,  cháu 14 tuổi da mặt , hiện tại mặt cháu mụn ít nhưng thâm đỏ  thì khá nhiều ,cháu thuộc da  hỗn hợp thiên dầu, hằng ngày chỉ sử dụng sữa rửa mặt aquaphil  và không dùng mỹ phẩm nào cả ,cháu muốn skincare  để hết mụn và thâm  cho da sạch và không tái mụn trở lại ,cháu nghĩ  là chỉ cần 3 bước là sữa rửa mặt, tẩy trang, và kem  chống nắng  là ổn  vậy như thế có được không ạ ? Và có cần phải hết mụn và thâm  mới được skincare không??\nTrả lời: chào cháu. việc sử dụng 3 loại mỹ phẩm trên không thể chắc chắn tình trạng mụn và thâm mụn sẽ hết. Hơn nữa bác sĩ không rõ tiền sử điều trị và tình trạng da của cháu nên không thể có lời khuyên tốt hơn. Vì vậy cháu hãy vào mục chat với bác sĩ nhé.",
+                "score": 0.5796346664428711,
+                "id": "vietnamese_medical_qa_5375",
+                "rerank_score": 0.9810880422592163
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nEm bị mụn giờ còn sẹo rỗ liti voi sa nhờn uống thuốc gì để  hết nhờn cảm ơn bác sĩ\nTrả lời: Chào em, \n\nEm có chất da dầu, do đó rất dễ bị mụn và sẹo. Em cần có chế độ chăm sóc phù hợp với làn da của mình bằng cách: \n- Rửa mặt bằng dung dịch dành cho da nhờn\n- Dùng kem kiểm soát dầu \n- Điều trị mụn nếu có theo chỉ định của bác sỹ\n- Không sờ tay lên da, mặt gây nhiễm trùng da\n\nNếu da vẫn tiếp tục nhờn mụn, em nên đi khám bác sỹ để được kê thuốc cho da mình nhé. \n\nChúc em khỏe",
+                "score": 0.591262698173523,
+                "id": "vietnamese_medical_qa_6999",
+                "rerank_score": 0.9703062176704407
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, hiện cháu đang bị nổi nhiều mụn và nốt to ở lưng xong nó thâm lại. Một thời gian uống thuốc không đỡ, giờ lan nốt xuống cả lưng với 2 bên bả vai. Nốt to, có nhân, kiểu mụn bọc và ngứa. Năm nay cháu 18 tuổi. Cháu cảm ơn!\nTrả lời: Chào bạn !\nXin được trả lời câu hỏi của bạn như sau: Mụn là bệnh lý mạn tính có nhiều nguyên nhân có thể do tâm lý, chế độ ăn uống, để điều trị bệnh cần kiên trì tuân thủ điều trị thuốc theo toa bác sĩ và thay đổi lối sống, hạn chế các loại thức ăn có nhiều đường, mỡ ,tránh thức khuya, tránh căng thẳng tâm lý, vệ sinh da mặt thường xuyên, có thể sử dụng các kem dưỡng ẩm, chư cetaphil. Không nên tự ý điều trị thuốc, có thể làm bệnh nặng hơn gây khó khăn cho việc điều trị.\nBạn nên đến khám tại các bác sĩ da liễu uy tín để được kê toa thuốc điều trị.\nThân mến !",
+                "score": 0.5892150402069092,
+                "id": "vietnamese_medical_qa_8867",
+                "rerank_score": 0.969792902469635
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, em bị sẹo mụn thì nên dùng thuốc gì được ạ?\nTrả lời: Chào bạn \nSẹo do mụn hay vết thâm mụn thường khiến các chị em mình trở nên mặc cảm , tự ti vì nó ảnh hưởng rất lớn đến thẩm mỹ. \n-Trước tiên em cần điều trị dứt điểm mụn trứng cá vì những vết thâm mụn này là do trị mụn không đúng cách ,do đó, ngay khi mụn xuất hiện trên da, em nên tránh làm tổn thương đến da tạo điều kiện cho nhân tố tạo nên vết thâm hình thành.\n- Hàng ngày cần vệ sinh da mặt thật sạch sẽ. Em hãy sử dụng nước ấm pha với một chút muối để rửa sạch bã nhờn. Có thể sử dụng giấy thấm dầu để hạn chế việc tiết dầu trên da mặt.\n-Hàng ngày cần uống đủ từ 1,5 đến 2 lít nước. Nước giúp cân bằng bài tiết và hạn chế dịch nhờn. \n-Em cũng nên hạn chế ăn những đồ cay , nóng, thức khuya.\n- Ngoài ra em cũng có thể đắp mặt nạ trái cây để cung cấp dưỡng chất cho da nhé.vệ sinh da mặt thật sạch sẽ.Em hãy sử dụng nước ấm pha với một chút muối để rửa sạch bã nhờn. Có thể sử dụng giấy thấm dầu để hạn chế việc tiết dầu trên da mặt.\n-. Sau đó em có thể bôi nghệ, hoặc kem nghệ Thái Dương,chấm lên vết mụn. Có thể đắp mặt nạ khoai tây, mặt nạ chanh + mật ong, mặt nạ cà chua.\n- Nên kiên trì nhé vì những vết thâm mụn này khá cứng đầu đấy.\n Chúc em mau chóng lấy lại được một làn da đẹp nhé.\n Thân mến.",
+                "score": 0.6066758632659912,
+                "id": "vietnamese_medical_qa_6507",
+                "rerank_score": 0.9992796778678894
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ \nDa em bị mụn viêm và cả mụn ẩn dưới da, hiện nay đã đỡ mụn, nhưng thâm mụn thì để lại trên da rất nhiều. Vậy cho em hỏi nên điều trị thâm mụn như thế nào ạ? Em cám ơn\nTrả lời: Chào em gái, \nVết thâm mụn thường khiến chị em gái chúng mình trở nên mặc cảm , tự ti vì nó ảnh hưởng rất lớn đến thẩm mỹ. Trước tiên em cần điều trị dứt điểm mụn trứng cá vì những vết thâm mụn này là do trị mụn không đúng cách ,do đó, ngay khi mụn xuất hiện trên da, em nên tránh làm tổn thương đến da tạo điều kiện cho nhân tố tạo nên vết thâm hình thành. \nHàng ngày cần vệ sinh da mặt thật sạch sẽ. Em hãy sử dụng nước ấm pha với một chút muối để rửa sạch bã nhờn. Có thể sử dụng giấy thấm dầu để hạn chế việc tiết dầu trên da mặt.Hàng ngày cần uống đủ từ 1,5 đến 2 lít nước. Nước giúp cân bằng bài tiết và hạn chế dịch nhờn. Em cũng nên hạn chế ăn những đồ cay , nóng, thức khuya. Ngoài ra em cũng có thể đắp mặt nạ trái cây để cung cấp dưỡng chất cho da nhé.vệ sinh da mặt thật sạch sẽ. Bạn hãy sử dụng nước ấm pha với một chút muối để rửa sạch bã nhờn. Có thể sử dụng giấy thấm dầu để hạn chế việc tiết dầu trên da mặt.Hàng ngày cần uống đủ từ 1,5 đến 2 lít nước. Nước giúp cân bằng bài tiết và hạn chế dịch nhờn. Nên hạn chế ăn những đồ cay , nóng, thức khuya. Ngoài ra bạn cũng có thể đắp mặt nạ trái cây để cung cấp dưỡng chất cho da và hạn chế tiết dầu.. Sau đó em có thể bôi nghệ, hoặc kem nghệ Thái Dương,chấm lên vết mụn. Có thể đắp mặt nạ khoai tây, mặt nạ chanh + mật ong, mặt nạ cà chua. Nên kiên trì nhé vì những vết thâm mụn này khá cứng đầu đấy.\nChúc em mau chóng lấy lại được một làn da đẹp nhé. \nThân mến.",
+                "score": 0.5657773017883301,
+                "id": "vietnamese_medical_qa_9189",
+                "rerank_score": 0.9958465695381165
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, da mặt em là da dầu,da mặt em bị mụn hai bên má nhiều, và để lại nhiều vết thâm lâu khỏi, cho em hỏi có thuốc bôi da trị thâm mụn và trị mụn nào tốt không ạ?. Em cám ơn ạ!\nTrả lời: Chào em,\nTình trạng mụn của em có thể có nhiều nguyên nhân nên phải tìm hiểu nguyên nhân mới có thể cho thuốc trị mụn hiệu quả. Trước khi điều trị thâm em cần điều trị mụn trước. Hiện tại để hạn chế thâm em có thể bổ sung thêm vitamin C bằng thuốc hoặc thức ăn, tránh nắng. Em nên đến khám tại phòng khám chuyên khoa da liễu để được khám trực tiếp, tư vấn và cho thuốc điều trị mụn\nCảm ơn và chúc em mau cải thiện được tình trạng da.",
+                "score": 0.6878225207328796,
+                "id": "vietnamese_medical_qa_6010",
+                "rerank_score": 0.9953533411026001
+            },
+            {
+                "text": "Câu hỏi: Dạ chào bác sĩ,  cháu 14 tuổi da mặt , hiện tại mặt cháu mụn ít nhưng thâm đỏ  thì khá nhiều ,cháu thuộc da  hỗn hợp thiên dầu, hằng ngày chỉ sử dụng sữa rửa mặt aquaphil  và không dùng mỹ phẩm nào cả ,cháu muốn skincare  để hết mụn và thâm  cho da sạch và không tái mụn trở lại ,cháu nghĩ  là chỉ cần 3 bước là sữa rửa mặt, tẩy trang, và kem  chống nắng  là ổn  vậy như thế có được không ạ ? Và có cần phải hết mụn và thâm  mới được skincare không??\nTrả lời: chào cháu. việc sử dụng 3 loại mỹ phẩm trên không thể chắc chắn tình trạng mụn và thâm mụn sẽ hết. Hơn nữa bác sĩ không rõ tiền sử điều trị và tình trạng da của cháu nên không thể có lời khuyên tốt hơn. Vì vậy cháu hãy vào mục chat với bác sĩ nhé.",
+                "score": 0.5504786968231201,
+                "id": "vietnamese_medical_qa_5375",
+                "rerank_score": 0.9810880422592163
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nEm bị mụn giờ còn sẹo rỗ liti voi sa nhờn uống thuốc gì để  hết nhờn cảm ơn bác sĩ\nTrả lời: Chào em, \n\nEm có chất da dầu, do đó rất dễ bị mụn và sẹo. Em cần có chế độ chăm sóc phù hợp với làn da của mình bằng cách: \n- Rửa mặt bằng dung dịch dành cho da nhờn\n- Dùng kem kiểm soát dầu \n- Điều trị mụn nếu có theo chỉ định của bác sỹ\n- Không sờ tay lên da, mặt gây nhiễm trùng da\n\nNếu da vẫn tiếp tục nhờn mụn, em nên đi khám bác sỹ để được kê thuốc cho da mình nhé. \n\nChúc em khỏe",
+                "score": 0.5958020687103271,
+                "id": "vietnamese_medical_qa_6999",
+                "rerank_score": 0.9703062176704407
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, em bị sẹo mụn thì nên dùng thuốc gì được ạ?\nTrả lời: Chào bạn \nSẹo do mụn hay vết thâm mụn thường khiến các chị em mình trở nên mặc cảm , tự ti vì nó ảnh hưởng rất lớn đến thẩm mỹ. \n-Trước tiên em cần điều trị dứt điểm mụn trứng cá vì những vết thâm mụn này là do trị mụn không đúng cách ,do đó, ngay khi mụn xuất hiện trên da, em nên tránh làm tổn thương đến da tạo điều kiện cho nhân tố tạo nên vết thâm hình thành.\n- Hàng ngày cần vệ sinh da mặt thật sạch sẽ. Em hãy sử dụng nước ấm pha với một chút muối để rửa sạch bã nhờn. Có thể sử dụng giấy thấm dầu để hạn chế việc tiết dầu trên da mặt.\n-Hàng ngày cần uống đủ từ 1,5 đến 2 lít nước. Nước giúp cân bằng bài tiết và hạn chế dịch nhờn. \n-Em cũng nên hạn chế ăn những đồ cay , nóng, thức khuya.\n- Ngoài ra em cũng có thể đắp mặt nạ trái cây để cung cấp dưỡng chất cho da nhé.vệ sinh da mặt thật sạch sẽ.Em hãy sử dụng nước ấm pha với một chút muối để rửa sạch bã nhờn. Có thể sử dụng giấy thấm dầu để hạn chế việc tiết dầu trên da mặt.\n-. Sau đó em có thể bôi nghệ, hoặc kem nghệ Thái Dương,chấm lên vết mụn. Có thể đắp mặt nạ khoai tây, mặt nạ chanh + mật ong, mặt nạ cà chua.\n- Nên kiên trì nhé vì những vết thâm mụn này khá cứng đầu đấy.\n Chúc em mau chóng lấy lại được một làn da đẹp nhé.\n Thân mến.",
+                "score": 0.6154820919036865,
+                "id": "vietnamese_medical_qa_6507",
+                "rerank_score": 0.9992796778678894
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ \nDa em bị mụn viêm và cả mụn ẩn dưới da, hiện nay đã đỡ mụn, nhưng thâm mụn thì để lại trên da rất nhiều. Vậy cho em hỏi nên điều trị thâm mụn như thế nào ạ? Em cám ơn\nTrả lời: Chào em gái, \nVết thâm mụn thường khiến chị em gái chúng mình trở nên mặc cảm , tự ti vì nó ảnh hưởng rất lớn đến thẩm mỹ. Trước tiên em cần điều trị dứt điểm mụn trứng cá vì những vết thâm mụn này là do trị mụn không đúng cách ,do đó, ngay khi mụn xuất hiện trên da, em nên tránh làm tổn thương đến da tạo điều kiện cho nhân tố tạo nên vết thâm hình thành. \nHàng ngày cần vệ sinh da mặt thật sạch sẽ. Em hãy sử dụng nước ấm pha với một chút muối để rửa sạch bã nhờn. Có thể sử dụng giấy thấm dầu để hạn chế việc tiết dầu trên da mặt.Hàng ngày cần uống đủ từ 1,5 đến 2 lít nước. Nước giúp cân bằng bài tiết và hạn chế dịch nhờn. Em cũng nên hạn chế ăn những đồ cay , nóng, thức khuya. Ngoài ra em cũng có thể đắp mặt nạ trái cây để cung cấp dưỡng chất cho da nhé.vệ sinh da mặt thật sạch sẽ. Bạn hãy sử dụng nước ấm pha với một chút muối để rửa sạch bã nhờn. Có thể sử dụng giấy thấm dầu để hạn chế việc tiết dầu trên da mặt.Hàng ngày cần uống đủ từ 1,5 đến 2 lít nước. Nước giúp cân bằng bài tiết và hạn chế dịch nhờn. Nên hạn chế ăn những đồ cay , nóng, thức khuya. Ngoài ra bạn cũng có thể đắp mặt nạ trái cây để cung cấp dưỡng chất cho da và hạn chế tiết dầu.. Sau đó em có thể bôi nghệ, hoặc kem nghệ Thái Dương,chấm lên vết mụn. Có thể đắp mặt nạ khoai tây, mặt nạ chanh + mật ong, mặt nạ cà chua. Nên kiên trì nhé vì những vết thâm mụn này khá cứng đầu đấy.\nChúc em mau chóng lấy lại được một làn da đẹp nhé. \nThân mến.",
+                "score": 0.5804828405380249,
+                "id": "vietnamese_medical_qa_9189",
+                "rerank_score": 0.9958465695381165
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, da mặt em là da dầu,da mặt em bị mụn hai bên má nhiều, và để lại nhiều vết thâm lâu khỏi, cho em hỏi có thuốc bôi da trị thâm mụn và trị mụn nào tốt không ạ?. Em cám ơn ạ!\nTrả lời: Chào em,\nTình trạng mụn của em có thể có nhiều nguyên nhân nên phải tìm hiểu nguyên nhân mới có thể cho thuốc trị mụn hiệu quả. Trước khi điều trị thâm em cần điều trị mụn trước. Hiện tại để hạn chế thâm em có thể bổ sung thêm vitamin C bằng thuốc hoặc thức ăn, tránh nắng. Em nên đến khám tại phòng khám chuyên khoa da liễu để được khám trực tiếp, tư vấn và cho thuốc điều trị mụn\nCảm ơn và chúc em mau cải thiện được tình trạng da.",
+                "score": 0.7426116466522217,
+                "id": "vietnamese_medical_qa_6010",
+                "rerank_score": 0.9953533411026001
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nCháu năm nay 17 tuổi, da cháu là da nhờn. Trên mặt rất nhiều mụn đầu đen và lỗ chân lông to. Da bị thâm lại do mụn. Bác sĩ cho cháu hỏi da nhiều mụn đầu đen kèm lỗ chân lông to điều trị thế nào? Cháu cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nPhương pháp điều trị tình trạng mụn đầu đen, da nhờn là uống các thuốc giảm nhờn và bôi thuốc trị mụn. Cần thời gian dài. Bạn cần đến khám bác sĩ chuyên khoa Da liễu để được chẩn đoán và có chỉ định thuốc điều trị.\nTrân trọng!",
+                "score": 0.5778728723526001,
+                "id": "vietnamese_medical_qa_224",
+                "rerank_score": 0.9916871190071106
+            },
+            {
+                "text": "Câu hỏi: Dạ chào bác sĩ,  cháu 14 tuổi da mặt , hiện tại mặt cháu mụn ít nhưng thâm đỏ  thì khá nhiều ,cháu thuộc da  hỗn hợp thiên dầu, hằng ngày chỉ sử dụng sữa rửa mặt aquaphil  và không dùng mỹ phẩm nào cả ,cháu muốn skincare  để hết mụn và thâm  cho da sạch và không tái mụn trở lại ,cháu nghĩ  là chỉ cần 3 bước là sữa rửa mặt, tẩy trang, và kem  chống nắng  là ổn  vậy như thế có được không ạ ? Và có cần phải hết mụn và thâm  mới được skincare không??\nTrả lời: chào cháu. việc sử dụng 3 loại mỹ phẩm trên không thể chắc chắn tình trạng mụn và thâm mụn sẽ hết. Hơn nữa bác sĩ không rõ tiền sử điều trị và tình trạng da của cháu nên không thể có lời khuyên tốt hơn. Vì vậy cháu hãy vào mục chat với bác sĩ nhé.",
+                "score": 0.5790990591049194,
+                "id": "vietnamese_medical_qa_5375",
+                "rerank_score": 0.9810880422592163
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

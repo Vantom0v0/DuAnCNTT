@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ,\nE 24t, e hay bị đau bụng liên sườn bên hông trái rất khó chịu nhất là khi đói. Xin bsi tu van",
+    "ground_truth": "Chào bạn, bạn hay bị đau bụng liên sườn bên trái khi đói, đau bụng mà liên quan đến ăn uống có thể bạn gặp phải vấn để về dạ day và đường tiêu hoá. Bạn nén đi khám chuyên khoa tiêu hoá nhe",
+    "answer": "Chào em, đau vùng hông trái dưới xương sườn có thể liên quan đến nhiều cơ quan như đại tràng, thận hoặc dạ dày; việc đau rõ hơn khi đói chưa đủ để xác định nguyên nhân. Để chẩn đoán chính xác, cần biết thêm thời gian và tính chất cơn đau, tình trạng đại–tiểu tiện, có sốt, buồn nôn/nôn hay không, đồng thời cần được bác sĩ thăm khám bụng. Em nên đến cơ sở y tế, ưu tiên khám Tiêu hóa; bác sĩ có thể chỉ định siêu âm và xét nghiệm máu, nước tiểu, phân khi cần. Nếu đau cấp hoặc tăng dần, em nên đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Hiện tại, em đang bị căng tức bụng bên trái (hông trái), khu vực ngay dưới xương sường, khi ấn vào thì có cảm giác khó chịu (chủ yếu là cảm giác căng tức chứ không đau nhói gì cả). Trong buổi sáng, em đã đi đại tiện 3 lần kèm theo trung tiện, đi tiểu khoảng 3-4 lần nhưng mỗi lần không có nhiều nước tiểu. Vậy bác sĩ cho em hỏicăng tức bụng trái kèm đại tiện nhiều là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Duc(1990) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Hùng -Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như những triệu chứng của bạn:Căng tức bụng bên trái, ấn vào có cảm giác khó chịu, kèm đại tiện 3 lần. Nếu đau vùng hông trái thì có thể bệnh lý ở nhiều bộ phận như: Đại tràng, thận, dạ dày,... Trường hợp bạn đau kèm theo có triệu chứngđại tiện nhiều lầnnên bác sĩ nghĩ nhiều đến đại tràng, ít nghĩ đến thận. Song để xác định chẩn đoán mà điều trị thì bác sĩ cần phải thăm khám bụng kỹ, không thể thiếu động tác này. Do đó, bạn nên đến bệnh viện khám chuyên khoa Tiêu hóa, bác sĩ sẽ khám, cần thiết cho siêu âm, xét nghiệm máu, nước tiểu, phân thì mới xác định được bệnh mà có kế hoạch điều trị.",
+            "score": 0.6135002374649048,
+            "id": "medical_vietnamese_qa_11040"
+        },
+        {
+            "text": "Câu hỏi: Em năm nay 26 tuổi. Tháng 7 năm ngoái em bị đau vùng bụng dưới bên trái. Em đi khám thì bác sĩ nói là viêm hang vị. Em uống thuốc nhưng không đỡ, sau đó nó tự hết tầm hơn 2 tháng. Tháng 10/2020 em lại thấy từ vị trí đó đau lại, và kèm theo đau nóng vùng thượng vị, buồn nôn. Sau khi đến bệnh viện thì bác sĩ kết luận là viêm dạ dày cộng với hội chứng ruột kích thích (bác sĩ bảo khả năng cao là hội chứng ruột kích thích do đã làm các xét nghiệm và nội soi đại tràng nhưng không tìm thấy tổn thương). Uống thuốc thì đau dạ dày đã đỡ, nhưng vùng bụng dưới vẫn đau y vậy. Tháng 11/2020 em cảm thấy nóng rát vùng bụng dưới, kèm theo đau bẹn, nhiều lúc đau ra hông và lưng trái. Em đi thăm khám lại nhưng tình trạng vẫn không thuyên giảm và bác sĩ vẫn khẳng định là do viêm dạ dày và hội chứng ruột kích thích. Hiện tại, em còn cảm thấy đau cả phần ngực. Em tìm hiểu thì thấy hội chứng ruột kích thích ngoài đau bụng thì còn kèm theo rối loạn đại tiện nhưng em thì hoàn toàn không có. Vậy bác sĩ cho em hỏiđau bụng dưới nguyên nhân là gì?Em cảm ơn bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, Với câu hỏi “Đau bụng dưới nguyên nhân là gì?” bác sĩ xin được giải đáp như sau: Bạn nên đến cơ sở y tế để khám bệnh, làm một số xét nghiệm cần thiết xem ngoài viêm dạ dày và hội chứng ruột kích thích thì có nguyên nhân nào khác gây đau không? Bạn đau vùng bụng dưới nên kiểm tra thêm phần phụ khoa.  Được giải đáp bởiBác sĩ chuyên khoa I Võ Thị Thùy Trang- Bác sĩ Nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+            "score": 0.6008137464523315,
+            "id": "medical_vietnamese_qa_11274"
+        },
+        {
+            "text": "Câu hỏi: Em ấn vào vùng hông bên phải ngang rốn thấy đau. Bác sĩ cho em hỏiđau khi ấn vào vùng hông bên phải ngang rốn là dấu hiệu bệnh gì?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vùng hông bên phải ngang rốn liên quan đến nhiều cơ quan khác nhau như thận phải, ruột đại tràng, gan mật tuỵ,... Để có thể tư vấn cụ thể cho bạn bác sĩ cần thêm thông tin về tình trạng đau của bạn như: Thời gian đau, đau từng cơn hay đau liên tục, Có kèm sốt và buồn nôn hay nôn mửa không, đại tiểu tiện như thế nào?,....Vì vậy bạn nên đến cơ sở y tế để bác sĩ trao đổi thêm, kiểm tra xác định chính xác nguyên nhân từ đó có hướng điều trị phù hợp. Tuy dịch bệnh nhưng các trường hợp đau bụng cấp đều được khám cấp cứu, nếu đến khám muộn sẽ có nhiều nguy cơ không tốt cho sức khỏe.",
+            "score": 0.58223557472229,
+            "id": "medical_vietnamese_qa_10901"
+        },
+        {
+            "text": "Câu hỏi: Em ấn vào vùng hông bên phải ngang rốn thấy đau. Bác sĩ cho em hỏiđau khi ấn vào vùng hông bên phải ngang rốn là dấu hiệu bệnh gì?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vùng hông bên phải ngang rốn liên quan đến nhiều cơ quan khác nhau như thận phải, ruột đại tràng, gan mật tuỵ,... Để có thể tư vấn cụ thể cho bạn bác sĩ cần thêm thông tin về tình trạng đau của bạn như: Thời gian đau, đau từng cơn hay đau liên tục, Có kèm sốt và buồn nôn hay nôn mửa không, đại tiểu tiện như thế nào?,....Vì vậy bạn nên đến cơ sở y tế để bác sĩ trao đổi thêm, kiểm tra xác định chính xác nguyên nhân từ đó có hướng điều trị phù hợp. Tuy dịch bệnh nhưng các trường hợp đau bụng cấp đều được khám cấp cứu, nếu đến khám muộn sẽ có nhiều nguy cơ không tốt cho sức khỏe.",
+            "score": 0.58223557472229,
+            "id": "medical_vietnamese_qa_10900"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nChủ nhật tuần trước, em bưng bê vật nặng. Sáng thứ 2, em thấy bị đau lưng phần hông bên trái, vì em thấy nhức ở vùng thịt nên chỉ nghĩ bị căng cơ bởi lâu không hoạt động mạnh. Nhưng đến tuần này là sau khoảng 9 ngày, em vẫn còn tình trạng đau âm ỉ nhất là khi chạy xe lâu. Hai ngày gần đây, nếu em ngồi lâu 1 tư thế thì còn xuất hiện tình trạng tức ở tinh hoàn, nếu nằm nghỉ ngơi thì lại đỡ. Bác sĩ cho em hỏi đau thắt lưng kèm đau tinh hoàn có nguy hiểm không và phương pháp điều trị thế nào ạ?\nTrả lời: Chào em,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTrường hợp như em mô tả có thể em có nhiều tổn thương phối hợp ở một số hệ cơ quan như xương khớp, tiết niệu, sinh dục. Các dấu hiệu này của em có chiều hướng tăng dần nên đó là dấu hiệu nhắc em cần đến cơ sở y tế khám sớm. Bác sĩ cần làm các xét nghiệm cần thiết mới có thể chẩn đoán bệnh chính xác cho em được. Hy vọng em sẽ có quyết định sớm.\nHầu hết các bệnh nhân đau tinh hoàn đều có thể được điều trị thành công. Nam giới khi thấy mình có dấu hiệu đau tinh hoàn được khuyến cáo nên đi khám sớm.\nTrân trọng!",
+            "score": 0.5813924670219421,
+            "id": "vietnamese_medical_qa_1574"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

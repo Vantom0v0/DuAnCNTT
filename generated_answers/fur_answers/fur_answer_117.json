@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "tôi thường hay bị ức chế về một số việc. thường muốn ném đồ hoạc làm 1 cái gì đó thật mạnh mẽ, khó tập trung. nhiều lúc chỉ muốn thẩn thờ đó, không muốn làm gì cả. k biết là trôi bi bệnh gì cả",
+    "ground_truth": "Chào bạn!\nTrường hợp của bạn có thể là dạng rối loạn cảm xúc. Bạn hoàn toàn có thể học cách tự kiềm chế. Dành nhiều thời gian đi bộ, chơi thể thao hoặc tập yoga rất hữu ích... Nếu tình trạng ngày càng nghiêm trọng thì nên đi khám để được dùng thuốc phù hợp.\nThân ái!",
+    "answer": "Những biểu hiện bạn mô tả—cảm giác bị ức chế, muốn ném đồ hoặc làm gì đó thật mạnh, khó tập trung, thẫn thờ và không muốn làm gì—có thể gặp trong một số vấn đề sức khỏe tâm thần như lo âu, trầm cảm, rối loạn ám ảnh cưỡng chế hoặc rối loạn tăng động giảm chú ý. Tuy nhiên, thông tin hiện có **không đủ để xác định bạn mắc bệnh gì**.\n\nBạn nên trao đổi trực tiếp với bác sĩ chuyên khoa Tâm thần/Tâm lý tâm thần để được đánh giá đầy đủ, đồng thời chia sẻ về thời gian xuất hiện triệu chứng, mức độ ảnh hưởng đến học tập/công việc, giấc ngủ và các suy nghĩ hoặc hành động đi kèm.\n\nNếu bạn có ý nghĩ tự làm hại bản thân hoặc người khác, hoặc cảm thấy không kiểm soát được việc đập phá, hãy tìm sự hỗ trợ y tế ngay và báo cho người thân đáng tin cậy ở bên cạnh.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Vì sao bạn khó tập trung?\nTrả lời: 1. Vì sao bạn khó tập trung?\nTập trung được coi là chìa khóa của sự thành công, tuy nhiên, không phải ai cũng có thể làm làm được điều đó. Rất nhiều người thường phàn nàn về vấn đề hay mất tập trung nhưng không phải ai cũng đi tìm hiểu vì sao mình khó tập trung và phương án giải quyết tình trạng này. Nhìn chung, cuộc sống hiện nay có vô vàn lý do khiến bạn hay mất tập trung . Sau đây là một số lý do thường gặp gây ra tình trạng này. Hãy cùng đọc và đánh giá xem đây có phải là nguyên nhân khiến bạn hay quên mất tập trung hay không. 1.6. Rối loạn ám ảnh cưỡng chế Đây là một bệnh lý thần kinh khiến khả năng kiểm soát hành động và suy nghĩ của người bệnh không cao. Người bệnh thường hay khó tập trung vào những vấn đề xung quanh và thường mắc kẹt trong suy nghĩ để tìm ra phương pháp hoàn hảo nhất.",
+            "score": 0.448855459690094,
+            "id": "vietnamese_healthcare_41239",
+            "rerank_score": 0.5957545638084412
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em luôn có cảm giác chán nản. Cơ thể mệt mỏi, không thể tập trung cho 1 công việc nào kể cả khi cố gắng và quyết tâm nhưng được 1 lúc lại bỏ cuộc. Em luôn gặp vấn đề về giấc ngủ (mơ liên tục và có khi thức luôn đến sáng). Em không muốn ăn bất cứ thứ gì kể cả khi em quá đói. Em hay suy nghĩ về những vấn đề chưa xảy ra. Cảm xúc lẫn lộn. Có thể em đang rất vui nhưng trong phút chốc lại cảm thấy khó chịu. Em hay để tâm đến lời nói của người khác và đặc biệt em luôn luôn và hầu như ngày nào cũng tưởng tượng về một điều mơ hồ không có thật. Em luôn lo sợ về vấn đề cuộc sống và sức khỏe và em tự mặc định cho bản thân mình đang vấp phải 1 vấn đề hay một căn bệnh nào đó. Bác sĩ có thể giúp em giải đáp và cho em biết cơ thể thường mệt mỏi, suy nghĩ tiêu cực, cảm xúc lẫn lộn là dấu hiệu bệnh gì?\nTrả lời: Chào bạn. Với các triệu chứng bạn mô tả, bác sĩ nghĩ rằng có thể bạn đã mắc chứng bệnh liên quan đến sức khỏe tâm thần, biểu hiện cả hai trạng thái: Hưng trầm cảm lẫn lộn.\nBạn nên khám bác sĩ chuyên khoa Tâm thần để điều trị. Khi đến khám bạn nên trao đổi với bác sĩ các vấn đề có liên quan đến stress nếu có. Việc điều trị cần phải kiên trì.",
+            "score": 0.4646063446998596,
+            "id": "vietnamese_medical_qa_3707",
+            "rerank_score": 0.5457618236541748
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, bác sĩ cho em hỏi ạ. Em hay bồn chồn, lo lắng, suy nghĩ. Đi học em không muốn ai nhìn em hay nói chuyện với em. Em muốn ở một mình thậm chí không muốn nghe thầy cô giảng bài mặc dù đó là môn em thích. Em dễ cáu gắt vì một câu hỏi đơn giản như “Sao chưa chịu ăn cơm?”. Đôi lúc tức giận quá là muốn đập phá đồ đạc rồi nghĩ quẩn muốn tự tử cho ba mẹ em hối hận. Em tự ti, ngại tiếp xúc, không muốn tiếp xúc với ai dù là người trong gia đình và bị mất ngủ ạ. Em như vậy là bị sao ạ? Mong bác sĩ sẽ trả lời em sớm ạ. Cảm ơn bác sĩ.\nNguyễn Đặng Diễm Quỳnh (2002)\nChào bác sĩ. Dạo gần đây con thường xuyên buồn bã mệt mỏi và con hay suy nghĩ tiêu cực 1 vấn đề, con nhạy cảm trong mọi chuyện, con dễ khóc khi ai đó nói 1 điều không tốt đến bản thân thậm chí là la mắng và có suy nghĩ có nên tự tử hay không? Mong bác sĩ tư vấn. Xin cảm ơn.\nVõ Thị Tố Quyên (2005)\nChào bác sĩ. Em mới lập gia đình, sống chung với gia đình chồng, gần đây em luôn cảm thấy mệt mỏi, lúc nào cũng buồn bã, ngủ nhiều, sụt cân, nghĩ đến cách kết thúc cuộc sống, luôn muốn trốn tránh, không muốn giao tiếp với bất kì ai. Có phải em bị trầm cảm không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào em Quỳnh!\nVới các triệu chứng em nêu có nhiều khả năng em bị trầm cảm. Nhưng để tránh bỏ sót bệnh em nên đến bệnh viện để kiểm tra các bệnh lý thực thể. Nếu kết quả bình thường thì em nên đến gặp bác sĩ chuyên khoa Tâm thần để được tư vấn điều trị.\nCảm ơn em đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.5055668950080872,
+            "id": "vietnamese_medical_qa_4667",
+            "rerank_score": 0.5347879528999329
+        },
+        {
+            "text": "Câu hỏi: Vì sao bạn khó tập trung?\nTrả lời: 1. Vì sao bạn khó tập trung?\nTập trung được coi là chìa khóa của sự thành công, tuy nhiên, không phải ai cũng có thể làm làm được điều đó. Rất nhiều người thường phàn nàn về vấn đề hay mất tập trung nhưng không phải ai cũng đi tìm hiểu vì sao mình khó tập trung và phương án giải quyết tình trạng này. Nhìn chung, cuộc sống hiện nay có vô vàn lý do khiến bạn hay mất tập trung . Sau đây là một số lý do thường gặp gây ra tình trạng này. Hãy cùng đọc và đánh giá xem đây có phải là nguyên nhân khiến bạn hay quên mất tập trung hay không. 1.5. Mắc chứng rối loạn tăng động giảm chú ý Nếu những nguyên nhân trên chỉ là các yếu tố bên ngoài ảnh hưởng đến mọi người thì chứng rối loạn tăng động giảm chú ý là một bệnh lý liên quan đến hành vi của người bệnh. Họ thường khó đưa ra quyết định hay thường chậm trễ hoàn thành công việc bởi tình trạng hay quên và mất tập trung , khó lập kế hoạch cũng như dễ dàng từ bỏ công việc. Người mắc chứng rối loạn tăng động giảm chú ý thường có những triệu chứng như hay mơ mộng, thường xuyên mất đồ, phạm sai lầm, hay lúng túng, bồn chồn,...",
+            "score": 0.4512171149253845,
+            "id": "vietnamese_healthcare_41238",
+            "rerank_score": 0.4097702205181122
+        },
+        {
+            "text": "Câu hỏi: Em cứ hay bị khó chịu, khó thở và tim đập nhanh mỗi khi em cố gắng để bản thân không lặp đi những hành động và suy nghĩ. Khi xem phim, em có thói quen đếm số từ trong lời thoại. Nếu mà không đếm, em sẽ cảm thấy khó chịu, bức bối nhưng nếu đếm xong thì sẽ bình thường lại. Gần đây, em có rất nhiều suy nghĩ và hành động cưỡng chế bản thân phải làm theo, nếu không thì vô cùng khó chịu. Em cố lờ đi nhưng không được. Vậy bác sĩ cho em hỏinữ giới khó chịu, bức bối, tim đập nhanh nguyên nhân là gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Biểu hiện của bạn thường gặp trong bệnh rối loạn lo âu. Bạn nên được bác sĩ chuyên khoa Tâm lý tâm thần tư vấn, sống tích cực, hạn chế căng thẳng, tập thể dục đều hàng ngày.",
+            "score": 0.46014752984046936,
+            "id": "medical_vietnamese_qa_8811",
+            "rerank_score": 0.24024561047554016
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

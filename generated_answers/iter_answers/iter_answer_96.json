@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Em bị mụn ở vùng bên dưới lưỡi, nhưng chỉ khi nào ăn gì đó vào thì mới mọc lên, 1 lát sau mất, bình thường thì không thấy. Vậy cho em hỏi, bị nổi mụn bên dưới lưỡi là bệnh gì? Hay chỉ do nhiệt miệng? Hiện em đang bị sưng nướu do mọc răng khôn.",
+    "ground_truth": "Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+    "answer": "Nốt “mụn” dưới lưỡi chỉ xuất hiện khi ăn rồi nhanh chóng biến mất có thể liên quan đến tình trạng nghẽn tạm thời tuyến nước bọt lạc chỗ hơn là nhiệt miệng; nhiệt miệng thường gây vết loét đau rát và tồn tại vài ngày. Tuy nhiên, không thể chẩn đoán chính xác nếu chưa nhìn và khám trực tiếp. Sưng nướu do mọc răng khôn có thể là vấn đề riêng nhưng cũng cần được bác sĩ Răng–Hàm–Mặt kiểm tra, đặc biệt nếu đau nhiều, có mủ, sốt, hôi miệng, khó há miệng hoặc khó nuốt. Bạn nên giữ vệ sinh răng miệng, tránh đồ cay nóng và đi khám nếu nốt tái diễn, đau rát, không biến mất, hoặc kèm nổi hạch.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bị nổi mụn bên dưới lưỡi là bệnh gì?\nTrả lời: Với triệu chứng nổi mụn dưới lưỡi, bạn nên đến phòng khám Răng - Hàm - Mặt để được khám và chẩn đoán bị nổi mụn bên dưới lưỡi là bệnh gì. Bạn không nói mụn có đau rát không?Nếu không đau rát có thể do nghẽn tạm thời tuyến nước bọt lạc chỗ.",
+            "score": 0.7417802810668945,
+            "id": "vietnamese_healthcare_864"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nEm muốn hỏi bác sĩ là nổi mụn li ti ở lưỡi và vùng dưới của lưỡi thuộc nướu là dấu hiệu của bệnh gì ạ? Mong bác sĩ sớm hồi đáp, xin cảm ơn!\nTrả lời: Chào bạn! Cảm ơn bạn đã đặt câu hỏi: “Nổi mụn li ti ở lưỡi và vùng dưới của lưỡi thuộc nướu là dấu hiệu của bệnh gì?” tới AI-Doctor.\nTrước tiên, mụn ở lưỡi của bạn có gây đau rát không? Bởi có rất nhiều nguyên nhân gây nổi mụn nhỏ li ti ở lưỡi khiến cho người bệnh cảm thấy khó chịu. Các nốt mụn li ti có thể mọc ở vị trí đầu lưỡi, cuống lưỡi hoặc bên dưới lưỡi. Màu sắc mụn ở lưỡi có thể là màu đỏ tươi, hồng nhạt hoặc màu trắng.\nCác biểu hiện của nổi mụn li ti ở lưỡi có thể là dấu hiệu của bệnh: nhiệt miệng, nấm lưỡi, viêm họng cấp tính, mãn tính... Qua đó bác sĩ sẽ tư vấn cho bạn hướng điều trị phù hợp nhất.\nChúc bạn sớm khỏe. Trân trọng!",
+            "score": 0.7233577370643616,
+            "id": "vietnamese_medical_qa_2965"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! 1 năm nay em bị mọc đi mọc lại mụn nước ở vùng nướu trong cùng bên má phải ạ, em chỉ bị duy nhất một chỗ đó thôi. Cứ cách vài tuần hay ăn đồ nóng vào lại bị, em đi khám thì bác sĩ kêu nhiệt miệng thôi nhưng em bị 1 năm rồi mà vẫn cứ tái đi tái lại. Mong bác sĩ tư vấn giúp em ạ, em cảm ơn bác sĩ.\nTrả lời: Chào bạn! Mọc mụn nước trong miệng có rất nhiều nguyên nhân, trong đó thông thường là bị nhiệt miệng. Tuy nhiên trường hợp của bạn bị tái đi tái lại 1 năm nay thì nên đi khám bác sĩ Răng Hàm Mặt để xác định là bạn bị viêm niêm mạc do vi khuẩn hay virus để có hướng điều trị cho chính xác nhất nhé.",
+            "score": 0.7052462697029114,
+            "id": "vietnamese_medical_qa_4335"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi những hạt mụn đỏ ở lưỡi và 2 bên amidan kèm theo nổi hạch ở dưới xương hàm. Bác sĩ cho em hỏi nổi mụn đỏ ở lưỡi kèm nổi hạch dưới xương hàm là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViệc xuất hiện các nốt đỏ (mụn đỏ) ở lưỡi và amidan, kèm nổi hạch vùng dưới hàm có thể là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, đánh giá kỹ tổn thương, có thể kết hợp nội soi, siêu âm để đánh giá chính xác hơn.\nTrân trọng!",
+            "score": 0.6617641448974609,
+            "id": "vietnamese_medical_qa_1208"
+        },
+        {
+            "text": "Câu hỏi: Mình bị nổi mụn nước ở miệng, có hạch dưới cằm và mụn li ti quanh người. Mụn quanh người chỉ mọc 1-2 ngày rồi tự hết nhưng mình theo dõi 1-2 tuần nay đều thấy mụn mới mọc lên. Gần đây mình cũng có quan hệ tình dục với bạn trai (có sử dụng bao cao su), sức khỏe bạn trai mình khi khám định kỳ đều bình thường. Bác sĩ cho mình hỏi,nổi mụn khắp người kèm mụn nước ở miệng là dấu hiệu của bệnh gì?Cảm ơn bác sĩ! Phương Nguyễn(Hải Phòng) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Thị Thu Hằng- Bác sĩ Da Liễu - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Theo thông tin mô tả, bạn bị nổimụn nước ở miệngnhưng bạn không nói rõ mụn nước trong miệng hay quanh miệng. Trường hợp bệnh lý trong niêm mạc miệng, bạn có thể mắc một bệnh da bọng nước. Nếu mụn nước cạnh miệng, má, trong miệng nhưng chỉ bị một bên mặt kèm nổi hạch vùng lân cận và đau, có thể bạn bị Zona. Nếu mụn nước ở vùng môi tái phát nhiều lần có thể bạn bị Herpes, bệnh này khá phổ biến, trường hợp nhẹ bệnh có thể tự khỏi sau 5-7 ngày. Ngoài ra, bạn cónổi mụn khắp ngườinhưng không mô tả tính chất của mụn (như mụn nước, mụn sưng đau...), bạn nên sớm gặp bác sĩ da liễu để được thăm khám, tìm nguyên nhân và có phương pháp điều trị phù hợp.",
+            "score": 0.658066987991333,
+            "id": "medical_vietnamese_qa_9614"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

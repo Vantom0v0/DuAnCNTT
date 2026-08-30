@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Con đi ngoài mấy ngày nay, con cảm thấyphân màu đen, có chỗ nhão có 2,3 viên, hạt màu trắng. Con đang bịsổ mũi, sốt nhẹ và đang trong quá trình giảm cân. Vậy bác sĩ cho con hỏiđi ngoài phân đen, hạt trắng khi đang giảm cân là bệnh gì?Con cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Thông thường, một người bình thường đi đại tiện một lần/ngày nhưng phân thành khuôn, chắc, không lỏng nát, không cứng rắn, màu vàng nâu. Khi bạn có những biểu đi ngoài phân đen có hạt màu trắng khi đang bị sổ mũi và đang trong quá trình giảm cân là những dấu hiệu của các bệnh lý đường tiêu hóa. Tuy nhiên, bạn chưa cung cấp cho bác sĩ biết thời gian diễn ra tình trạng này của bạn, triệu chứng đi kèm (đau bụng, chán ăn, vàng da,...), bạn đang dùng thuốc giảm cân vậy có thể ảnh hưởng đến quá trình hấp thụ thức ăn và gâyrối loạn tiêu hóa, bạn có thể dừng thuốc giảm cân để xem triệu chứng còn xuất hiện không, nếu còn bạn cần khám bác sĩ chuyên khoa Tiêu hoá kiểm tra và làm các xét nghiệm cần thiết (như siêu âm bụng, xét nghiệm phân,...) để biết chính xác tình trạng hiện tại cũng như nguyên nhân gây tình trạng trên để xử trí sớm.",
+    "answer": "Bé 2 tháng chưa ăn dặm thường đi phân vàng, vì vậy phân màu đen cần được đưa đi khám và nên mang theo mẫu phân mới để bác sĩ đánh giá. Bé đang giảm cân là dấu hiệu không tốt; nếu kèm sổ mũi, sốt nhẹ nhưng vẫn bú tốt, ngủ ngoan và không thở nhanh thì có thể theo dõi tại nhà. Nếu bé thở mệt hoặc sốt kéo dài quá 2 ngày, cần đưa bé đi khám ngay. Tài liệu chưa đủ thông tin để xác định nguyên nhân của các hạt trắng trong phân.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con em 2 tháng đi ngoài mấy ngày nay, cảm thấy phân màu đen , có chỗ nhão có 2, 3 viên, hạt màu trắng. Con đang bị sổ mũi và sốt nhẹ và đang trong quá trình giảm cân. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân đen kèm hạt trắng có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé 2 tháng tuổi chưa ăn dặm thường phân có màu vàng, nếu bé đi phân màu đen mẹ nên đi khám và đem phân mới của bé theo để bác sĩ đánh giá phân. Bé 2 tháng theo sinh lý hàng tháng bé phải tăng cân. Bé giảm cân là không tốt, bé ho và sốt nhẹ nếu bé vẫn bú tốt, ngủ ngoan, không thở nhanh thì theo dõi bé tại nhà, nếu bé thở mệt hoặc sốt quá 2 ngày bạn nên cho bé đi khám.",
+            "score": 0.665722668170929,
+            "id": "medical_vietnamese_qa_4559"
+        },
+        {
+            "text": "Câu hỏi: Con em 4 tháng 20 ngày. Bé bú cả sữa mẹ và sữa công thức. Bé đi ngoài màu hơi ngả xanh. Phân hơi loãng có hạt li ti và hơi có nhầy. Vậy bác sĩ cho em hỏitrẻ gần 5 tháng tuổi đi ngoài phân xanh kèm hạt có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Với tình trạng bạn mô tả thì hiện tại chưa có vấn đề đáng lo ngại. Nếu bé chậm tăng cân, bú kém, bụng chướng, đi cầu phân có nhầy máu mủ, sốt,... thì người nhà nên đưa trẻ đi khám ngay.",
+            "score": 0.6529104113578796,
+            "id": "medical_vietnamese_qa_4686"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em bị đi ngoài 2 hôm nay, bữa đầu phân màu vàng lỏng ăn gì đi đó. Hôm nay, bé phân nước màu xanh. Bé có bị sốt và biếng ăn, thỉnh thoảng ói. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân lỏng kèm sốt có sao không?Hiện tại, em ở quê, vùng em đang dịch nên em chưa cho bé đi khám được. Mong bác sĩ tư vấn, em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé đang có cácdấu hiệu đại tiện phân lỏng, sốt, nôn,ăn kémlà các biểu hiện bệnh lý đường tiêu hóa: Nếu bé đi nặng từ 3 lần / ngày trở lên, phân lỏng tóe nước là bé đang mắctiêu chảy cấp. Nôn, sốt, biếng ăn là triệu chứng thường gặp khí có tiêu chảy. Bé cần được đi khám ngay để bác sĩ đánh giá mức độ mất nước và tìm nguyên nhân gây nên tình trạng tiêu chảy của bé để lên kế hoạch bù nước và điện giải, bổ sung thuốc điều trị phù hợp cho bé. Tình trạng mất nước có thể tiến triển nhanh nếu bé có tiêu chảy kèm theo có nôn (không bù nước bằng đường uống được), do đó bạn nên cho bé khám ngay.",
+            "score": 0.6455485820770264,
+            "id": "medical_vietnamese_qa_5799"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 4 tháng đi ngoài phân nhầy và máu kèm sốt cao, gia đình đưa cháu đi khám và điều trị tại bệnh viện khoảng 1 tuần và bác sĩ kết luận bé bị viêm ruột. Sau khi ra viện được 2 ngày thì phân bé hoa cà hoa cải kèm nhầy. Ngày thứ 5 đi nhầy màu trắng. Hiện tại bé bị ho sổ mũi nữa.Bác sĩ cho em hỏitrẻ sơ sinh bị viêm ruột kèm phân có dịch nhầy, trắng là triệu chứng bệnh gì? Vinh(1988) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Theo như bạn mô tả, tình trạng của bé là rối loạn tiêu hóa. Hiện tại, bạn đã bổ sung men tiêu hóa và nên bổ sung kẽm cho bé. Bạn nên theo dõi bé về số lần đi cầu, tăng nhiều lần kèm theo tính chất phân có nhầy nhiều, có máu và phân nhiều nước thì bạn bên cho bé đi khám ngay. Ngoài vấn đề bổ sung men và kẽm cho bé, bạn nên chú ý đến vệ sinh tay sau mỗi lần đi cầu của bé. Tất cả đồ cho và bình bú cũng cần được tiệt trùng thường xuyên để loại bỏ các yếu tố nhiễm bệnh.  Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Quốc Ánh -Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+            "score": 0.6415550112724304,
+            "id": "medical_vietnamese_qa_7201"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 1 tuổi nặng 8kg. Hôm nay, bé đi phân lỏng, có mùi tanh và có máu. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân lỏng, có máu nguyên nhân là gì?Em cảm ơn bác sĩ. Lê Quý(1989) Trả lời Được giải đáp bởi các Bác sĩ chuyên khoa Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé đi ngoài phân lỏng, có máu. Trường hợp này có thể có một số nguyên nhân gây ra như tình trạng viêm ruột, nhiễm trùng đường ruột, nứt kẽ hậu môn, trĩ, lồng ruột. Những nguyên nhân trên ở trẻ nhũ nhi thường là những dấu hiệu cấp tính. Bạn nên đưa bé đi khám để được bác sĩ đánh giá các triệu chứng, đưa ra các phương pháp cận lâm sàng phù hợp để chẩn đoán và cho hướng xử trí kịp thời.",
+            "score": 0.6362500190734863,
+            "id": "medical_vietnamese_qa_6265"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

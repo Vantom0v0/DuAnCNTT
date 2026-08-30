@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Em năm nay 30 tuổi. Ngực em lâu lâu có đau 1 chút, em có đi khám tổng quát thì không có vấn đề gì. Em có tìm hiểu trên mạng về các dấu hiệu bệnh, nhưng thấy không có những dấu hiệu đó. Vậy cho em hỏi, triệu chứng đau của em là như thế nào ạ?\nChào bác sĩ cho em hỏi em rạng sáng trước ngực em hơi bị đau là bị bệnh gì vậy? Mong bác sĩ tư vấn. Xin cảm ơn.",
+    "ground_truth": "Chào bạn. Đau ngực là triệu chứng của nhiều cơ quan. Trong đó có 2 cơ quan quan trọng là tim và phổi. Bạn có đi khám tổng quát kết quả bình thường có thể loại trừ nguyên nhân đau ngực do bệnh lý tim mạch, hô hấp.\nDo đó trường hợp đau ngực của bạn là triệu chứng lành tính có thể do căng cơ thành ngực (căng cơ thường xảy ra sau khi nâng vật nặng, kéo giãn hoặc cử động đột ngột, ho kéo dài) hoặc trong trạng thái lo âu có xuất hiện cơn đau tại vùng ngực, nên bạn không cần quá lo lắng quá.\nTuy nhiên bạn nên theo dõi sức khỏe thường xuyên, nếu đau ngực kéo dài kèm theo khó thở, chóng mặt... cần đến ngay cơ sở y tế uy tín để thăm khám và tư vấn nhé.",
+    "answer": "Đau ngực thoáng qua ở tuổi 30 có thể liên quan đến nhiều nguyên nhân, nhưng tài liệu chưa đủ thông tin để xác định bạn mắc bệnh gì. Đau vú là triệu chứng khá thường gặp và có thể bình thường, tuy nhiên nếu đau kéo dài hoặc tái diễn nhiều tháng thì nên khám chuyên khoa vú; nếu đau kèm hồi hộp, tim đập mạnh, khó thở hoặc xuất hiện khi mệt/hít sâu, bạn nên khám Tim mạch để được đánh giá cụ thể. Trường hợp đau nhẹ, kéo dài vài giây và không kèm triệu chứng khác, có thể nghỉ ngơi, hạn chế làm việc nặng và theo dõi; nếu không cải thiện hoặc nặng hơn, hãy đi khám để bác sĩ cân nhắc các kiểm tra cần thiết.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho cháu hỏi thường xuyên đau tức ngực là dấu hiệu của bệnh gì? Bởi vì 1 - 2 tháng nay, cháu thường xuyên bị đau tức ngực, cơn tức nghẹn lên cổ, nó chỉ diễn ra trong vài phút rồi tự khỏi, nếu không cháu chỉ cần uống nước là khỏi luôn. Cháu cảm ơn bác sĩ rất nhiều ạ!\nTrả lời: Chào bạn! Đối với câu hỏi thường xuyên đau tức ngực là dấu hiệu của bệnh gì? Bác sĩ xin được trả lời như sau:\nCảm ơn bạn đã gửi câu hỏi tới AI-Doctor. Trân trọng!",
+            "score": 0.656428337097168,
+            "id": "vietnamese_medical_qa_2327"
+        },
+        {
+            "text": "Câu hỏi: Thưa bác sĩ, em muốn hỏi về vấn đề đau tức ngực. Em có dấu hiệu đau ngực, chỉ hơi đau và cơn đau cũng có lúc kéo dài cả ngày, lúc thì đau ngực trái lúc thì đau ngực phải và xiên qua sau lưng, cũng có lúc đau cả ngực. Em thường đau khi mệt mỏi hoặc khi hít thở sâu, có cảm giác khó thở. Có một thời gian, em thấy vàng mắt, chán ăn, ăn không tiêu, tuần chỉ đi vệ sinh 2 lần vì những cơn đau dữ dội. Bác sĩ cho hỏi em như vậy là bị làm sao ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn trước sự nhiệt tình của bác sĩ.\nTrả lời: Chào em, biểu hiện tức ngực ở độ tuổi của em thì không nghĩ đến bệnh lý mạch vành, tuy nhiên em cần đến cơ sở y tế để kiểm tra các bệnh lý về tim mạch và tiêu hóa nhé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.628572940826416,
+            "id": "vietnamese_medical_qa_4292"
+        },
+        {
+            "text": "Câu hỏi: Năm nay em 27 tuổi, em thường xuyên bị đau ngực nên đi khám bác sĩ bảo bị u xơ tuyến vú nhưng bệnh này không chữa được và phải đi khám định kỳ. Tầm mấy tháng nay ngày nào cũng bị đau ạ. Bác sĩ cho em hỏiphụ nữ 27 tuổi đau ngực kéo dài do u xơ tuyến vú có đáng lo không?Em đang lo không biết nó có thể thành ung thư không ạ? Giờ ngày nào cũng đau thì có cách nào khắc phục không ạ? Mong bác sĩ giúp đỡ ạ. Em cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Phụ nữ 27 tuổi đau ngực kéo dài do u xơ tuyến vú có đáng lo không?”, bác sĩ giải đáp như sau: Đau vú là triệu chứng hay gặp ở phụ nữ, tuy nhiên có thể là bình thường nhưng cũng có thể liên quan đến những bệnh lý bất thường ở vú. Nếu bạn có triệu chứng đau kéo dài nhiều tháng như vậy thì mình nên đi khám bác sĩ chuyên khoa vú để được tư vấn. Khi đi khám, bác sĩ cần bạn cung cấp thêm một số thông tin như: kích thước của khối u vú của bạn và phân độ BIRADS khối u đó và khối u đó đã được chọc tế bào hay sinh thiết chưa? Nếu đã có kết quả sinh thiết hay chọc tế bào là lành tính thì bạn có thể yên tâm theo dõi định kỳ 6 tháng 1 lần. Còn nếu chưa làm các xét nghiệm này thì bạn có thể đến khám và tư vấn bác sĩ chuyên khoa vú để xem xét có cần thiết chọc tế bào hay sinh thiết khối u vú này bạn nhé.",
+            "score": 0.6126214265823364,
+            "id": "medical_vietnamese_qa_8125"
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ ạ.\nTrong cỡ 3-4 tháng gần đây em hay thấy ngực em đau nhói lên mỗi 1-2 tuần. Em hay mệt hơn và tim đập mạnh hơn thường ạ. Lâu lâu em còn thấy núm vú đau nhói lên nữa ạ. Không biết là do dạo này em ít hoạt động hay có vấn đề gì về sức khỏe không ạ? Mong bác sĩ tư vấn giúp em.\nTrả lời: Chào bạn! Xin hỏi bạn đau ngực trái hay phải? Cơn đau xuất hiện khi nào và kéo dài bao lâu? Bạn nên gặp bác sĩ Tim mạch để được thăm khám và tư vấn cụ thể.",
+            "score": 0.6114885210990906,
+            "id": "vietnamese_medical_qa_3253"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ ạ! Dạo gần đây em có đau nhói hai bên ngực, đau khoảng vài giây, có khi lan xuống tay cùng bên, nhưng em không thấy có biểu hiện gì bất thường như hạch. Không biết em bị bệnh gì ạ? Em năm nay 20 tuổi. Mong bác sĩ tư vấn ạ!\nTrả lời: Chào bạn!\nVới câu hỏi \"Đau nhói hai bên ngực lan xuống tay là dấu hiệu bệnh gì?\", bác sĩ xin giải đáp như sau:\nNhững triệu chứng bạn mô tả khả năng bệnh lý liên quan thần kinh ngoại biên: có thể là viêm - đau thần kinh ngoại biên hoặc bệnh rễ thần kinh do chèn ép. Nếu các triệu chứng khởi phát trong thời gian ngắn, mức độ nhẹ và không kèm triệu chứng khác thì bạn có thể nghỉ ngơi theo dõi tại nhà một vài ngày, hạn chế làm việc nặng. Trường hợp các triệu chứng không cải thiện hoặc diễn tiến xấu hơn, bạn nên đi khám để tìm nguyên nhân điều trị. Bác sĩ có thể đề nghị bạn thực hiện một số kiểm tra xét nghiệm máu, Xquang ngực, cột sống, siêu âm tim, đo điện tim... để tìm các nguyên nhân khác.\nTrân trọng,",
+            "score": 0.6111017465591431,
+            "id": "vietnamese_medical_qa_3628"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

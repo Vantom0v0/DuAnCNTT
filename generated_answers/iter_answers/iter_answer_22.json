@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Trẻ thường xuyên hắt hơi, chảy nước mũi và ho nhiều là dấu hiệu của bệnh gì?",
+    "ground_truth": "Theo những triệu chứng bạn mô tả thì có thể bé đang mắc bệnh viêm đường hô hấp trên. Theo đó, căn bệnh này thường thuyên giảm triệu chứng sau 5-6 ngày và có thể tự khỏi trong vòng 2 tuần. Mặc dù là các bệnh viêm đường hô hấp trên có triệu chứng không nặng nhưng đây là một trong các nguyên nhân khiến người bệnh phải nghỉ học, nghỉ lao động. Nếu đồng nhiễm với viêm đường hô hấp dưới, tình trạng sẽ nghiêm trọng hơn.",
+    "answer": "Trẻ thường xuyên hắt hơi, chảy nước mũi và ho có thể gặp trong các bệnh đường hô hấp như viêm mũi dị ứng (đặc biệt nếu nước mũi trong, nghẹt mũi, tái diễn), viêm mũi họng hoặc các bệnh lý hô hấp khác như viêm phế quản, viêm phổi. Để xác định nguyên nhân, bạn nên đưa trẻ khám bác sĩ Nhi hoặc Tai Mũi Họng, không tự ý mua thuốc, đặc biệt là kháng sinh; nếu trẻ sốt, ho kéo dài hoặc điều trị không đỡ càng cần đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con em cháu thường hay sốt về đêm, ho nhiều và haychảy nước mũivới cảm giác như có đờm trong cổ. Bác sĩ cho em hỏi cháu bị như vậy là dấu hiệu của bệnh gì ạ? Em cảm ơn bác sĩ. Thân Đức Tài(2019) Trả lời\nTrả lời: Chào bạn, Bé nhà mình có cáctriệu chứng sốt, ho, chảy mũi là các triệu chứng của bệnh lý đường hô hấp, có thể là bệnh lý đường hô hấp trên hoặc hô hấp dưới. Trẻ em thường gặp các bệnh lý như:viêm mũi họng, viêm VA, viêm thanh quản, viêm phế quản, viêm phế quản phổi. Vì vậy, bạn cần đưa cháu đến cơ sở y tế để được khám và tư vấn nhé! Nếu có những vấn đề gia đình lo lắng thì nên khám bác sĩ chuyên khoa Nhi để được khám và tư vấn kỹ hơn. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Câu trả lời được tư vấn bởi các bác sĩ Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Time City",
+            "score": 0.7934216260910034,
+            "id": "medical_vietnamese_qa_8009"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nghẹt mũi và hắt hơi liên tục. Nước mũi chảy rất nhiều sau mỗi lần hắt hơi. Vậy nghẹt mũi, hắt hơi kèm chảy nước mũi dấu hiệu bệnh gì và hướng điều trị như nào ạ? Em cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nNghẹt mũi, hắt hơi và chảy nước mũi là 3 triệu chứng thông dụng trong Tai mũi họng. Ví dụ như viêm mũi dị ứng, viêm mũi xuất tiết, viêm mũi xoang cấp,... Nhìn chung để xác định được một cách chính xác hơn chẩn đoán bạn nên đi khám Tai mũi họng để được kiểm tra và tư vấn rõ hơn.\nTrân trọng!",
+            "score": 0.7735898494720459,
+            "id": "vietnamese_medical_qa_1101"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em năm nay 9 tuổi, thường xuyên bị hắt hơi, chảy nước mũi trong, nghẹt mũi. Em soi đèn thấy niêm mạc mũi bé sưng phù lên. Vậy bác sĩ cho em hỏi trẻnghẹt mũi, niêm mạc mũi sưng nguyên nhân là gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn 9 tuổi, hắt hơi, chảy nước mũi trong, nghẹt mũi là biểu hiện của viêm mũi dị ứng. Bạn nên đưa bé đến khám bác sĩ Tai mũi họng để khám lâm sàng và được tư vấn điều trị.",
+            "score": 0.7587886452674866,
+            "id": "medical_vietnamese_qa_6395"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà mình 5 tuổi hắt hơi sổ mũi thường xuyên. Bác sĩ cho hỏihắt hơi sổ mũi thường xuyên là biểu hiện của bệnh lý gì?Lâu ngày có thành bệnh mãn tính không? Và nên đi bác sĩ khám hay mua thuốc gì để tốt cho sức khỏe? Mong bác sĩ tư vấn giúp. Xin cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Cháu nhà bạn bị hắt hơi, sổ mũi thường xuyên. Nếu là hắt hơi và chảy mũi trong thì khả năng cháu bị viêm mũi dị ứng. Viêm mũi dị ứng là bệnh cơ địa, tuy không nguy hiểm nhưng dai dẳng khó điều trị và làm giảm chất lượng cuộc sống. Cháu 5 tuổi, việc dùng thuốc cho trẻ nhỏ phải cẩn thận, bạn không nên tùy tiện mua thuốc cho cháu mà cần được bác bác sĩ Tai mũi họng hoặc bác sĩ Nhi khoa kê toa.",
+            "score": 0.7567102909088135,
+            "id": "medical_vietnamese_qa_5832"
+        },
+        {
+            "text": "Câu hỏi: Cháu nhà em 1 tuổi bị ho nhiều ngày và chảy nước mũi nhiều mà không khỏi. Có biểu hiện quấy khóc sốt nhẹ. Bé uống kháng sinh nửa tháng không khỏi và đỡ. Vậy bác sĩ cho cháu hỏitrẻ 1 tuổi ho nhiều kèm chảy nước mũi có phải viêm phổi không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé có biểu hiện viêm nhiễm dai dẳng đường hô hấp, để xác định có viêm phổi không thì bạn nên đưa trẻ đến khám nếu điều trị kháng sinh uống tại nhà thời gian kéo dài không đáp ứng.",
+            "score": 0.7562286853790283,
+            "id": "medical_vietnamese_qa_4620"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

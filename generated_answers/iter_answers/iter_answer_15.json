@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?",
+    "ground_truth": "Đau đầu do rất nhiều nguyên nhân, có thể do căng thẳng stress, lo lắng việc gì đó hoặc do thiếu máu, bệnh lý vùng mắt và tai. . . Vì vậy em cần khám bác sĩ chuyên khoa Thần kinh để tìm nguyên nhân đau đầu và điều trị em nhé.",
+    "answer": "Hay đau đầu, ngủ hay mơ và thức dậy khó chịu có thể thường gặp trong đau đầu căng cơ, đau nửa đầu, rối loạn giấc ngủ hoặc liên quan đến lo âu, căng thẳng; tuy nhiên những thông tin này chưa đủ để xác định bệnh lý cụ thể. Nếu triệu chứng kéo dài, tái diễn hoặc ảnh hưởng sinh hoạt, bạn nên khám chuyên khoa Nội thần kinh và/hoặc sức khỏe tâm thần để được đánh giá, chẩn đoán và điều trị phù hợp. Hãy cố gắng ngủ đúng giờ, nghỉ ngơi đầy đủ, tập thể dục và hạn chế sử dụng điện thoại, máy tính trước khi ngủ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Đau đầu, suy nghĩ nhiều, lo âu là dấu hiệu của bệnh gì?\nTrả lời: Theo như triệu chứng em mô tả thì tôi chẩn đoán đây là bệnh lý rối loạn lo âu - đau đầu - căng cơ. Đây là một trong những dạng rối loạn tâm lý phổ biến. Người bệnh thường có cảm giác lo lắng quá mức đối với một tình huống hoặc sự việc, thậm chí có thể lo lắng rất vô lý. Nếu tình trạng này kéo dài và lặp lại nhiều lần có thể ảnh hưởng đến cuộc sống của bệnh nhân. Do đó, để đảm bảo sức khỏe cũng như chất lượng cuộc sống thì em nên đến khám chuyên khoa sức khỏe tâm thần và Nội Thần kinh để có hướng điều trị cụ thể.",
+            "score": 0.7475728988647461,
+            "id": "vietnamese_healthcare_7149"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ! Em năm nay 30 tuổi, vài năm nay em hay bị đau đầu, đêm ngủ hay mơ, thức dậy rất khó chịu. Bác sĩ cho em hỏi đó là dấu hiệu của bệnh lý gì ạ?\nTrả lời: Chào bạn,\nVới câu hỏi \"Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?\", bác sĩ xin giải đáp như sau:\nĐau đầu xảy ra ở người trẻ, nếu kéo dài, không có các yếu tố gợi ý nguy hiểm và và không thay đổi tính chất thì thường gặp nhất là đau đầu căng cơ và đau đầu Migraine. Tuy nhiên, thông tin bạn cung cấp không đủ để bác sĩ xác định loại đau đầu và nguyên nhân đau đầu. Bạn nên đi khám để bác sĩ thăm khám, chẩn đoán và điều trị phù hợp nhé.\nTrân trọng,",
+            "score": 0.7315967082977295,
+            "id": "vietnamese_medical_qa_4088"
+        },
+        {
+            "text": "Câu hỏi: Đau nửa đầu thường xuyên, kéo dài thì phải làm sao?\nTrả lời: Dựa trên thông tin mô tả, có vẻ như bạn không phải bị hội chứng đau nửa đầu. Bác sĩ cho rằng, có thể bạn bị rối loạn lo âu, trầm cảm và rối loạn giấc ngủ.Bạn đang bị mất phương hướng với bệnh tật và lo âu quá mức. Bệnh này liên quan đến tâm lý nên bạn kết quả kiểm tra não bộ của bạn bình thường. Đây là một điều rất tốt, chứng tỏ não của bạn không bị tổn thương. Để khắc phục tình trạng này, bạn cần chú ý:Bạn nên bình tĩnh với bệnh tật của mình, nếu bạn quá lo sợ bệnh thì triệu chứng sẽ nặng thêm lên rất nhiều. Bạn nên đi khám bác sĩ tâm lý.Điều chỉnh giấc ngủ bằng cách ngủ đúng giờ. Ở giai đoạn điều trị đầu tiên, bác sĩ có thể sẽ kê cho bạn thuốc an dịu thần kinh. Nếu ngủ đủ giấc, tình trạng bệnh của ngày hôm sau sẽ được cải thiện.Bạn nên tập thể dục, sống tích cực, chọn mục tiêu sống tốt, tham gia sinh hoạt cộng đồng, trợ giúp người khác, hạn chế dùng máy tính, điện thoại để tránh mệt mỏi và tránh đau cơ vai gáy.",
+            "score": 0.6978886723518372,
+            "id": "vietnamese_healthcare_7568"
+        },
+        {
+            "text": "Câu hỏi: Hay đau đầu kèm suy nghĩ tiêu cực là dấu hiệu bệnh gì?\nTrả lời: Bạn bị đau đầu, hay suy nghĩ tiêu cực, buồn bã và hay khóc, bạn đang có biểu hiện của bệnh lý tâm thần. Do đó, bạn cần đi khám bác sĩ Tâm thần để được chẩn đoán, tư vấn và có kế hoạch điều trị sớm. Bạn cần tập thể dục nhiều, ăn nhiều rau xanh, uống nhiều nước, điều chỉnh chế độ nghỉ ngơi, học tập.",
+            "score": 0.6952462792396545,
+            "id": "vietnamese_healthcare_2141"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, tôi lúc nào cũng trong trạng thái lo lắng và căng thẳng, lúc nào cũng đau nửa đầu, buồn nôn chóng mặt, rất ngại tiếp xúc với mọi người, không quan tâm với tất cả mọi việc xung quanh, ngại làm. Vậy tôi đang có dấu hiệu của bệnh tâm lý đúng không?\nTrả lời: Chào em, với những gì mô tả thì có thể em đang bị suy nhược thần kinh kèm đau đầu kiểu căng thẳng. Tốt nhất em vẫn vào bệnh viện khám bác sĩ chuyên khoa Nội thần kinh để được chẩn đoán chính xác và có phương án điều trị kịp thời.",
+            "score": 0.6814517378807068,
+            "id": "vietnamese_medical_qa_3742"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

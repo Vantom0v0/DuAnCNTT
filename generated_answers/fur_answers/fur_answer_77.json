@@ -1,0 +1,54 @@
+{
+    "model_name": "fur",
+    "question": "Chào bác sĩ 2 tháng trước cháu có biểu hiện bị nặng ở ngực và đi khám thì được chuẩn đoán là thiếu canxi. Sau đó cháu đã uống thực phẩm chức năng bổ xung canxi thì biểu hiện không còn nữa. Nhưng mấy hôm trước tự nhiên cháu có cảm giác hơi nhói ở bên phải ngực và có cảm giác nhức mỏi lưng, thỉnh thoảng có bị ho nhưng không nhiều. Cháu còn hay bị ợ hơi nữa ạ. Liệu có phải cháu vẫn chưa bổ xung đủ canxi không ạ?",
+    "ground_truth": "chào bạn: nếu bạn có những triệu chứng đấy thường liên quan đến trào ngược dạ đay bạn nhé! trào ngược dạ dày cũng có thể có gây ra triệu chứng như vừa rồi!  bạn có thể đi khám bác sĩ tiêu hoá bạn nhé\nthân aia chào bạn",
+    "answer": "Thông tin được cung cấp **chưa nêu rõ các dấu hiệu cảnh báo cần đi cấp cứu** khi đau ngực kèm ho và ợ hơi.\n\nTheo bằng chứng hiện có:\n\n- Ho kéo dài, có đờm, đau rát họng, đau nhói ngực khi ho và ợ hơi **có thể liên quan đến trào ngược dạ dày–thực quản**; nên khám chuyên khoa Tiêu hóa và có thể nội soi để xác định.\n- Nếu có **cơn nặng tức ngực xuất hiện về đêm**, nên đi khám bác sĩ Tim mạch để tìm nguyên nhân.\n- Nếu là trẻ em ho kèm đau ngực, cần đưa đi khám để kiểm tra hệ hô hấp.\n\nChưa có đủ thông tin trong bằng chứng để xác định khi nào cần gọi cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Sau điều trị rối loạn chuyển hóa canxi và trào ngược dạ dày thực quản vẫn mệt mỏi, bủn rủn, tức ngực là do đâu?\nTrả lời: Chẩn đoán trên là đúng nhưng bạn chưa điều trị đủ liệu trình, cụ thể chưa bù đủ Canxi khiến bạn có thể bủn rủn chân tay. Có thể còn thiếu chẩn đoán gì nữa mà bệnh viện chưa tìm ra. Tuy nhiên với cả hai khả năng trên, bác sĩ khuyên bạn nên quay lại viện để bác sĩ thăm khám kỹ hơn và theo dõi điều trị cho bạn đến khi ổn hẳn nhé.",
+            "score": 0.6292927265167236,
+            "id": "vietnamese_healthcare_6328",
+            "rerank_score": 0.8903154134750366
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm đột nhiên bị nặng ngực, hơi thở yếu hơn bình thường và kèm theo mệt mỏi và lạnh 2 cánh tay. Sau một lúc nghỉ ngơi, em mới đỡ lại và triệu chứng đó xuất hiện ban đêm. Vậy bác sĩ cho em hỏi nặng ngực kèm hơi thở yếu vào ban đêm có sao không? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có xuất hiện cơn nặng tức vùng trước ngực xuất hiện về đêm nên đến khám ngay bác sĩ tim mạch để tìm nguyên nhân hay gặp như các bệnh lý tim bẩm sinh, bệnh lý động mạch vành.\nTrân trọng!",
+            "score": 0.6219444870948792,
+            "id": "vietnamese_medical_qa_9",
+            "rerank_score": 0.7621024250984192
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nCháu năm nay 21 tuổi. Thường thấy đau nhói ở ngực chỗ cách ức 3cm về bên trái. Có khi đau âm ỉ cả ngực trái và cả núm vú cũng có cảm giác đâu rát. Có khi buốt cả bả vai và cánh tay trái. Đặc biệt mỗi khi ngủ dậy thường thấy tức ngực khoảng 1-2 phút. Bác sĩ cho cháu hỏi có phải cháu bị bẹnh tim ko ạ\nTrả lời: Chào bạn\nBạn có thể cho biết tình trạng đau ngực của bạn có tăng lên khi vận động hay căng thẳng hay không, đau bắt đầu xuất hiện từ bao giờ, có kèm theo triệu chứng nào khác như khó thở, hồi hộp trống ngực hay không?\nVì đau ngực có rất nhiều nguyên nhân:\n- Bệnh tim như bạn nói\n- Đau phần mềm và tổ chức dưới da\n- Đau dây thần kinh liên sườn\n- viêm dạ dày, trào ngược dạ dày thực quản...\n- Hay thậm chí chỉ là đau tâm lý\nBạn có thể cung cấp thông tin chi tiết hơn để các bác sĩ tư vấn đầy đủ hơn.\nHoặc bạn có thể đi khám sức khỏe, làm 1 số xét nghiệm hay chụp chiếu để xác định nguyên nhân.\nThân mến",
+            "score": 0.6124153137207031,
+            "id": "vietnamese_medical_qa_8411",
+            "rerank_score": 0.6202915906906128
+        },
+        {
+            "text": "Câu hỏi: Đau nhói ngực nhẹ, bóng tim cháu hơi to liệu có vấn đề gì không ạ? Thỉnh thoảng khi cơ thể trong trạng thái nghỉ ngơi thì vùng ngực cháu cảm giác nặng và hơi nhói nhẹ ạ. Cháu có làm công việc nặng.\nTrả lời: Cảm ơn em đã tin tưởng AI-Doctor. Trân trọng!",
+            "score": 0.6568321585655212,
+            "id": "vietnamese_medical_qa_1661",
+            "rerank_score": 0.5903576016426086
+        },
+        {
+            "text": "Câu hỏi: Cháu năm nay 21 tuổi là nữ. 2 hôm nay, cháu có hiện tượng hít thở không đều, nếu hít sâu thì hơi tức ngực 1 chút nhưng cũng không đáng kể. Lúc nằm xuống, nhất là nằm thẳng thì tim cháu đập mạnh và khoảng 2 - 3 cái sẽ nhói 1 lần nhưng nằm nghiêng thì lại bình thường. Vậy bác sĩ cho cháu hỏihít thở không đều kèm tức ngực là bệnh gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn cần theo dõi thêm triệu chứng đau nặng tức vùng trước ngực bên trái dưới vú có liên quan với gắng sức, nếu còn đau thì tái khám ngay bác sĩ tim mạch. Bạn không được quá căng thẳng, lo âu hay mất ngủ, tập thở với các động tác hít sâu thở ra mạnh.",
+            "score": 0.6136023998260498,
+            "id": "medical_vietnamese_qa_11633",
+            "rerank_score": 0.41168463230133057
+        },
+        {
+            "text": "Câu hỏi: Ho có đờm kéo dài, ợ hơi là dấu hiệu bệnh gì?\nTrả lời: Với những biểu hiện như bạn mô tả (ho kéo dài, có đờm, đau rát cổ họng, lúc ho đau nhói ở ngực và thỉnh thoảng bị ợ hơi) thì có thể bạn bị Trào ngược dạ dày - thực quản. Bạn cần phải đến bác sĩ chuyên khoa Tiêu hóa nội soi để có chẩn đoán chính xác và hướng điều trị phù hợp.",
+            "score": 0.6190412044525146,
+            "id": "vietnamese_healthcare_2274",
+            "rerank_score": 0.8972223997116089,
+            "weighted_score": 0.6147767305374146
+        },
+        {
+            "text": "Câu hỏi: Mỗi lần bé ho là bị đau ngực có phải dấu hiệu của viêm phổi không?\nTrả lời: Bác sĩ khuyên mẹ nên đưa bé đi khám để được bác sĩ thăm khám và kiểm tra hệ hô hấp, đưa ra hướng điều trị tốt nhất cho bé nhé.",
+            "score": 0.6188241243362427,
+            "id": "vietnamese_healthcare_6707",
+            "rerank_score": 0.5432277917861938,
+            "weighted_score": 0.575656533241272
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ, cho em hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không ạ?\nCảm ơn bác sĩ đã tư vấn.",
+    "ground_truth": "Chào em. Với câu hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không? bác sĩ xin tư vấn như sau.",
+    "answer": "Bìu sưng to, cứng và hai tinh hoàn không cân đối có thể là dấu hiệu bất thường, chẳng hạn như tràn dịch màng tinh, nang thừng tinh, viêm tinh hoàn, u tinh hoàn–mào tinh hoàn hoặc nghiêm trọng hơn là ung thư tinh hoàn; tình trạng teo một bên tinh hoàn cũng có thể ảnh hưởng đến sinh lý và khả năng sinh sản. Tuy nhiên, kích thước hai tinh hoàn vốn có thể không hoàn toàn bằng nhau nên chưa thể xác định nguyên nhân chỉ dựa vào mô tả. Bạn nên đi khám để được đánh giá, có thể cần soi và siêu âm tinh hoàn nhằm xác định khối sưng là chứa dịch hay khối rắn và có hướng xử trí phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không?\nTrả lời: Với câu hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không?bác sĩ xin tư vấn như sau. Theo như mô tả thì có khả năng em bị teo tinh hoàn 1 bên. Điều này có thể gây ảnh hưởng không tốt đến sinh lý và sinh sản của em.",
+            "score": 0.8713577389717102,
+            "id": "vietnamese_healthcare_7976"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em bị sưng một bên “trứng dương vật”, sưng khá to gần bằng quả trứng gà. Vậy bác sĩ cho em hỏi em bị gì ạ? Mong bác sĩ tư vấn giúp em với. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Trước hết, cảm ơn bạn đã chia sẻ băn khoăn với chúng tôi. Xin được giải đáp thắc mắc của bạn như sau:\nBình thường kích thước tinh hoàn 2 bên là không bằng nhau, kích thước bạn đưa ra thì bác sĩ chưa thể trả lời chính xác được. Tuy nhiên 2 bìu mà lệch hẳn một bên là bất thường, đó có thể là tràn dịch màng tinh, nang thừng tinh, viêm tinh hoàn, u tinh hoàn – mào tinh hoàn, nặng nhất là ung thư tinh hoàn.",
+            "score": 0.6314587593078613,
+            "id": "vietnamese_medical_qa_4253"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi phì đại tuyến giáp có nguy hiểm không?\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTrân trọng!",
+            "score": 0.5776138305664062,
+            "id": "vietnamese_medical_qa_1052"
+        },
+        {
+            "text": "Câu hỏi: Một số chấn thương tinh hoàn nguy hiểm khác\nTrả lời: 7. Một số chấn thương tinh hoàn nguy hiểm khác\nTrong trường hợp bạn bị đau và sưng bìu nhưng không gặp phải chấn thương nào, bạn có thể đang mắc phải những vấn đề sau đây: Viêm mào tinh hoàn : Gây ra bởi nhiễm trùng lây qua đường tình dục, bao gồm triệu chứng đau, sưng và đỏ bìu. Hydrocele: Hiện tượng chất lỏng tích tụ bên trong bìu gây sưng và đau. Viêm tinh hoàn : Do nhiễm trùng hoặc do virus. Varicocele: Một hoặc một vài tĩnh mạch trong bìu căng thẳng và giãn nở lớn, còn gọi là giãn tĩnh mạch thừng tinh . Ung thư tinh hoàn : Mặc dù ung thư tinh hoàn không gây đau đớn, nhưng có thể có triệu chứng to tinh hoàn, tinh hoàn căng cứng. Hãy lưu ý khi thấy dấu hiệu này. Như vậy, tình trạng vỡ tinh hoàn có thể đem lại nhiều nguy hiểm đối với sức khỏe sinh sản của nam giới. Việc điều trị phụ thuộc vào tình trạng chấn thương của bệnh nhân. Do đó, bạn cần có phương pháp bảo vệ và ngăn ngừa, hạn chế tối đa các chấn thương xảy đến tại vùng nhạy cảm này.",
+            "score": 0.5746794939041138,
+            "id": "vietnamese_healthcare_87549"
+        },
+        {
+            "text": "Câu hỏi: Nang mào tinh hoàn có nguy hiểm không?\nTrả lời: 3. Nang mào tinh hoàn có nguy hiểm không?\nMặc dù đa số là lành tính nhưng nang mào tinh hoàn vẫn có thể gây ảnh hưởng tới sức khoẻ sinh sản nam giới, đặc biệt là với các khối u có kích thước lớn. Các biến chứng mà nang mào tinh hoàn có thể gây ra gồm có: Khối nang lớn vỡ làm viêm nhiễm cơ quan sinh dục nam, từ đó ảnh hưởng đến sức khoẻ sinh sản cũng như khả năng tình dục của nam giới Khối u phát triển gây chèn ép ống dẫn tinh khiến quá trình dẫn tinh bị gián đoạn, gây suy giảm chất lượng và số lượng tinh trùng Để phát hiện sớm nang mào tinh hoàn, các bác sĩ có thể cần tới một số cận lâm sàng như: Soi tinh hoàn: là sử dụng ánh sáng chiếu qua vùng bìu của người bệnh, nếu là nang tinh hoàn phần ánh sáng được chiếu qua sẽ cho thấy khối u chứa chất dạng lỏng thay vì 1 khối rắn Siêu âm: cung cấp các hình ảnh về cấu trúc khối u để đưa ra chẩn đoán xác định cũng như phương pháp điều trị.",
+            "score": 0.5725998282432556,
+            "id": "vietnamese_healthcare_71910"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

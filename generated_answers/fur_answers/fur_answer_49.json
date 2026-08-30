@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Đau tai kèm ù tai sau ngoáy tai là dấu hiệu bệnh gì?",
+    "ground_truth": "Bạn bị đau tai, ù tai, giảm thính lực (nghe không rõ) xuất hiện sau ngoáy tai có thể do một số nguyên nhân: Chấn thương ống tai ngoài, thủng màng nhĩ, chấn thương chuỗi xương con (tai giữa),...Vì vậy, bạn nên đi khám, nội soi tai kiểm tra để xác định nguyên nhân và điều trị phù hợp.",
+    "answer": "Đau tai kèm ù tai và nghe không rõ sau khi ngoáy tai có thể do:\n\n- Chấn thương ống tai ngoài.\n- Thủng màng nhĩ.\n- Chấn thương chuỗi xương con ở tai giữa.\n- Viêm tai ngoài do da ống tai bị trầy xước, sưng nề hoặc nhiễm trùng.\n\nKhông thể xác định chính xác nguyên nhân chỉ dựa vào triệu chứng. Bạn nên đi khám Tai–Mũi–Họng và nội soi tai để kiểm tra. Trong thời gian này, nên hạn chế ngoáy tai hoặc đưa tăm bông/dụng cụ vào tai.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cháu bịđau tai, hay giật. Cháu dùng bông tai ngoáy tai sau đó có hiện tượng ù không nghe rõ. Vậy bác sĩ cho cháu hỏiđau tai kèm ù tai sau ngoáy tai là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ. Thiết Thị Tú Anh(2004) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Trần Minh Tuấn -Khoa Ngoại Tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị đau tai,ù tai, giảm thính lực (nghe không rõ) xuất hiện sau ngoáy tai có thể do một số nguyên nhân:Chấn thương ống tai ngoài, thủng màng nhĩ, chấn thương chuỗi xương con (tai giữa),...Vì vậy, bạn nên đi khám, nội soi tai kiểm tra để xác định nguyên nhân và điều trị phù hợp.",
+            "score": 0.8317347168922424,
+            "id": "medical_vietnamese_qa_8895",
+            "rerank_score": 0.9998650550842285
+        },
+        {
+            "text": "Câu hỏi: Đã chữa trị khỏi viêm tai ngoài 2 tháng nhưng vẫn xuất hiện triệu chứng đau tai, ù tai và có tiếng kêu trong tai là dấu hiệu của bệnh gì?\nTrả lời: Cháu bị Viêm tai ngoài, đã điều trị khỏi, đã được bác sĩ tai mũi họng nội soi kiểm tra lại bình thường. Vậy triệu chứng đau thỉnh thoảng hay hơi ù trong giai đoạn này không hệ trọng. Tuy nhiên phải hạn chế ngoáy tai, vì ngoáy tai không tốt cho tai ngoài.",
+            "score": 0.5688711404800415,
+            "id": "vietnamese_healthcare_6721",
+            "rerank_score": 0.9186012744903564
+        },
+        {
+            "text": "Câu hỏi: 2 ngày trước em bị tát mạnh 1 phát vào tai. Hôm sau, em cảm thấy nghe yếu đi, hơi nhói, ù tai. Em có ngoáy tăm bông nhưng không thấy máu và mủ. Vậy bác sĩ cho em hỏinghe yếu, ù tai sau khi bị tát mạnh có sao không?Liệu có phải em chỉ bị ù tai bình thường không hay là em bị thủng màng nhĩ? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo bạn ghi nhận thì bạn có triệu chứnggiảm thính lực, đau tai,ù taixảy ra sau khi bị tát mạnh vào tai, những triệu chứng này gợi ý tình trạngtổn thương màng nhĩ, có thể bao gồm cả thủng màng nhĩ. Vì vậy, bạn nên đến phòng khám Tai mũi họng nội soi tai kiểm tra để xác định đúng tình trạng bệnh và có hướng xử lý phù hợp.",
+            "score": 0.5378385782241821,
+            "id": "medical_vietnamese_qa_8491",
+            "rerank_score": 0.9066001772880554
+        },
+        {
+            "text": "Câu hỏi: Em đang bị viêm tai giữa do bất cẩn ngoáy tai khoảng 1 tuần rồi. Em có sử dụng thuốc nhỏ tai để điều trị. Nhưng từ hôm qua, tai bắt đầu tiết dịch vàng khá nhiều gây ù và cảm giác ứ nước trong tai. Không biết em đã sử dụng thuốc đúng chưa vàtai chảy dịch vàng sau ngoáy tai có nguy hiểm không? Hiện tại, em đang trong khu phong tỏa nên không biết nhờ ai. Cảm ơn bác sĩ rất nhiều. Duyên Phạm(2001) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Vĩnh Toàn -Bác sĩ Tai - Mũi - Họng - Khoa Liên Chuyên Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Thường viêm nhiễm sau ngoáy tai thì đa số là viêm tai ngoài, không phải viêm tai giữa. Nguyên nhân do da của ống tai ngoài rất mỏng dễ bị tổn thương và phù nề nếu dùng tăm bông và các dụng cụ lấy ráy tai không đúng cách, sau đó sẽ dễ bị các vi khuẩn xâm nhập gây tình trạng viêm tai ngoài. Tình trạng viêm này sẽ tự lành nếu không bị bội nhiễm. Nếu bạn đang trong khu phong tỏa có thể mua các thuốc chống viêm tại chỗ như Ciprofloxacin 0.3%, Ofloxacin để nhỏ tai ngày 3 lần trong khoảng 5 ngày.",
+            "score": 0.5491915941238403,
+            "id": "medical_vietnamese_qa_9076",
+            "rerank_score": 0.8610830307006836
+        },
+        {
+            "text": "Câu hỏi: Dấu hiệu viêm tai ngoài cấp tính\nTrả lời: 2. Dấu hiệu viêm tai ngoài cấp tính\nCác dấu hiệu viêm tai ngoài cấp tính thể hiện rõ qua các triệu chứng sau đây: Đau tai : có 70% bệnh nhân có dấu hiệu đau tai tại chỗ, đau hơn khi kéo vành tai. Ngứa tai : đây là triệu chứng thường xuyên gặp phải ( theo thống kê có 60% bệnh nhân có dấu hiệu này). Người bệnh có cảm giác ngứa liên tục, khó chịu làm người bệnh liên tục phải ngoáy tai, nhưng việc này chỉ khiến bệnh nhân lại càng ngứa và gây đau tai. Thêm vào đó sẽ khiến da bị trầy xước nhiều hơn. Đầy tai: lúc đầu cảm giác căng tức đầy đầy 2 tai (có 22% bệnh nhân cảm thấy bị đầy tai khi viêm tai ngoài cấp tính ). Sau đó càng ngày càng đau, đau tăng khi nhai và nuốt nước bọt. Đến giai đoạn nặng thì đau liên tục, người bệnh phải uống thuốc giảm đau để đỡ đau. Ù tai : Các tổ chức nấm trong ống tai ngoài gây viêm ống tai ngoài gây ra ù tai. Nghe kém: viêm tai ngoài do nấm là khi nấm phát triển nhiều làm bít lấp ống tai ngoài gây nghe kém. Bên cạnh đó, khi vi khuẩn đã xâm nhập vào gây ra tổn thương ở ống tai ngoài, màng nhĩ, có thể ngăn không cho âm thanh dẫn truyền hiệu quả đến tai trong. Sưng ống tai: Biểu hiện sưng nề vùng ống tai ngoài do viêm ống tai ngoài gây nên sưng tấy, viêm đỏ ống tai ngoài lan ra phía da bên ngoài. Tai rỉ dịch: Tai mưng mủ ở ống tai ngoài, có mùi hôi, dịch tai lúc đầu trong, sau có lợn cợn trắng hoặc vàng xanh khi nhiễm trùng, có thể có vi khuẩn hoặc tổ chức nấm kèm theo. Nhọt ống tai: Tình trạng này gây ra những cơn đau dữ dội và có thể chảy ít máu hoặc chảy mủ. Nhọt xuất hiện như một điểm sưng nề, tấy đỏ. Bệnh nhân có tiền sử viêm da vùng tai mạn tính có ngứa và biến đổi màu sắc da.",
+            "score": 0.5379534959793091,
+            "id": "vietnamese_healthcare_88232",
+            "rerank_score": 0.5734195113182068
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

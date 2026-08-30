@@ -1,0 +1,61 @@
+{
+    "model_name": "fur",
+    "question": "Tôi bị dị ứng thời tiết lạnh, ướt, khi đó tôi bị mẩn ngứa, sau khoảng 2 tiếng thì khỏi. Ngoài ra, tôi cũng bị dị ứng nổi u cục lớn khi bị kiến cắn, dị ứng nhựa cây (đặc biệt là mủ nhựa cây xương rồng). Tôi cũng hay đau tức ngực khi bị gió quạt thổi thẳng vào người hoặc ăn đồ hơi bị lạnh. Ngoài ra, tôi còn bị u xơ tử cung với số lượng u nhiều, u nang tuyến giáp.Con gái tôi năm nay 25 tuổi cũng hay nổi mề đay chưa rõ nguyên nhân, u xơ vú, u nang tuyến giáp, viêm dạ dày. Chúng tôi có tiêm được vaccine Covid-19 được không ạ?",
+    "ground_truth": "Nếu Anh/Chị và con gái của Anh/Chị phản vệ từ độ II trở lên sẽ chống chỉ định tiêm phòng vaccine Covid-19, tuy nhiên nếu chỉ dị ứng nhẹ vẫn có thể tiêm phòng nhưng nên tiêm tại bệnh viện.",
+    "answer": "Theo thông tin được cung cấp, **chưa ghi nhận người mẹ hoặc con gái từng bị phản ứng dị ứng với vaccine hay với thành phần vaccine**. Các tình trạng được nêu là dị ứng thời tiết, côn trùng, nhựa cây; con gái có mề đay chưa rõ nguyên nhân và nếu có dị ứng kháng sinh thì cũng chưa mô tả mức độ cụ thể.\n\nVì vậy, **chưa có bằng chứng cho thấy hai mẹ con thuộc nhóm chống chỉ định chỉ vì các tiền sử dị ứng này**. Tuy nhiên:\n\n- Nếu trước đây dị ứng chỉ gây mẩn ngứa, mề đay và tự hết, không phải nhập viện vì khó thở, tím tái, tụt huyết áp hoặc phản vệ, thường vẫn có thể được tiêm nhưng cần khai báo đầy đủ khi khám sàng lọc.\n- Nếu từng có phản ứng dị ứng nặng, khó thở hoặc phải nhập viện, cần được bác sĩ đánh giá; có thể phải tiêm tại bệnh viện hoặc bị chống chỉ định tùy mức độ.\n- Không tìm thấy đủ thông tin để kết luận chắc chắn về chỉ định tiêm cho từng người. Cần thông báo mọi tiền sử dị ứng và các thuốc đang sử dụng cho bác sĩ trước tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng da khi thời tiết lạnh thì chích vaccine Covid-19 được không ạ?\nTrả lời: Dị ứng thời tiết có nhiều mức độ khác nhau, nếu dị ứng nổi mẩn ngứa nhẹ và tự hết có thể tiêm tại các trung tâm tiêm chủng, phòng tiêm chủng. Nếu anh có dấu hiệu dị ứng nặng hơn như nổi mẩn, phù quincke có thể hoãn tiêm hoặc tiêm trong bệnh viện, nơi đủ điều kiện cấp cứu ban đầu.",
+            "score": 0.5922809839248657,
+            "id": "vietnamese_healthcare_2590",
+            "rerank_score": 0.9975900650024414
+        },
+        {
+            "text": "Câu hỏi: Khoảng 7 đến 10 năm trước, khi thời tiết chuyển từ mát sang lạnh đột ngột, nếu không mặc đủ ấm thì cơ thể tôi hay nổi giác, ngứa. Đây là tình trạng dị ứng thời tiết. Nhưng khi mặc ấm đầy đủ thì các vết giác đó tự biến mất. Gần đây, do chủ động mặc ấm khi chuyển mùa nên tôi không còn bị hiện tượng này nữa, thì liệu tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Về việc anh bị dị ứng nổi mẩn và ngứa khi thời tiết thay đổi là khá rõ ràng và đã cách đây 7-10 năm. Việc tiêm vaccine Covid-19 không chống chỉ định hay hoãn tiêm cho đối tượng dị ứng thời tiết. Lưu ý, anh nên thông báo cho bác sĩ sàng lọc trước tiêm, để bác sĩ có thể thăm khám và tư vấn kỹ về các dấu hiệu của phản vệ. Người được tiêm cần phải theo dõi tại cơ sở y tế ít nhất 30 phút và tiếp tục theo dõi tại nhà ít nhất 7 ngày, nếu có các dấu hiệu phản vệ như nổi mề đay, phù niêm, tím tái, khó thở, tức ngực, thở rít, đau quặn bụng, tiêu chảy hoặc nôn/buồn nôn, tụt huyết áp hoặc ngất, rối loạn ý thức. . . Anh cần đến ngay cơ sở y tế gần nhất được xử trí kịp thời.",
+            "score": 0.6236587166786194,
+            "id": "vietnamese_healthcare_853",
+            "rerank_score": 0.9923633337020874
+        },
+        {
+            "text": "Câu hỏi: Hiện em có bệnh mạn tính từ nhỏ là dị ứng cơ địa: thời tiết như bụi, nóng, gạch hải sản, hoặc những nơi ô nhiễm, bệnh trong người. Em hay bị nổi mẩn đỏ như rôm sảy có lúc nhẹ thi uống thuốc hết, nếu nặng thì gây sốt, khó thở. Vào thời tiết gió bụi thì dị ứng nổi hết cả người khoảng 1-2 tháng khi thời tiết ổn lại mới tự hết. Tình trạng em có tiêm vaccine Covid-19 được không?\nTrả lời: Anh/Chị cần nêu rõ tình trạng của Anh/Chị khi bị dị ứng: nếu trường hợp của Anh/Chị bị dị ứng nặng có khó thở phải nhập viện điều trị cấp cứu thì theo hướng dẫn của Bộ Y tế thì Anh/Chị thuộc nhóm chống chỉ định tiêm chủng vaccine Covid-19. Còn nếu tình trạng dị ứng của Anh/Chị nhẹ hơn như chỉ gặp các triệu chứng như mẩn ngứa, mề đay và không phải nhập viện vì các triệu chứng khó thở hay tụt huyết áp hay nôn ói thì Anh/Chị vẫn có thể tiêm vaccine Covid-19. Tuy nhiên theo hướng dẫn của Bộ Y tế Anh/Chị thuộc nhóm đối tượng thận trọng khi tiêm vaccine Covid-19, và phải tiêm chủng vaccine Covid-19 tại bệnh viện. Ngoài ra Anh/Chị phải cung cấp đầy đủ các triệu chứng khi mắc phải cho bác sĩ khám sàng lọc để bác sĩ khám cho chỉ định và dặn dò theo dõi cho phù hợp.",
+            "score": 0.6488926410675049,
+            "id": "vietnamese_healthcare_5599",
+            "rerank_score": 0.9821485280990601
+        },
+        {
+            "text": "Câu hỏi: Tôi từ nhỏ tới giờ hay bị dị ứng, không đi khám nên không rõ nguyên nhân. Khi bị dị ứng trên người, mặt sẽ xuất hiện các vầng đỏ như vầng cháy hoặc da bị u lên thành rất nhiều cục nhỏ như đầu ngón tay út, cứng và nổi trên da, rất ngứa ngáy khó chịu. Tôi uống thuốc chống dị ứng sẽ đỡ và khỏi dần. Thường một năm, tôi sẽ bị dị ứng như vậy 2-3 lần. Các lần nhẹ hơn thì thấy ngứa khắp lưng hoặc đùi, bụng nhưng không bị nổi u, cục.Tôi có thể tiêm vaccine ngừa Covid-19 được không? Xin chia sẻ thêm tôi là nữ, năm nay 41 tuổi, đã có con, sức khỏe bình thường, huyết áp 90/60 hoặc hơn một chút. Ngoài ra, tôi bị thiếu máu tuần hoàn não bất chợt, trào ngược dạ dày nữa.\nTrả lời: Với những chia sẻ của chị về tình trạng dị ứng chưa rõ nguyên nhân, và với tần suất mắc gần đây mỗi năm từ 2 - 3 lần và phải dùng tới thuốc kháng Histamin. Tình trạng này có thể coi là phản ứng phản vệ độ I theo Thông tư 51 của Bộ Y tế. Kèm theo với những triệu chứng về hệ tiêu hóa, rối loạn tuần hoàn não thì Chị cần đi khám bác sĩ chuyên khoa để được điều trị sớm. Chị có thể tiêm chủng vaccine phòng Covid-19 khi khám sàng lọc trước tiêm chị đủ điều kiện sức khỏe nhưng cần được tiêm chủng và theo dõi tại bệnh viện theo hướng dẫn của Bộ Y tế.",
+            "score": 0.6053712368011475,
+            "id": "vietnamese_healthcare_9041",
+            "rerank_score": 0.9727367162704468
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 52 tuổi, nam giới. Tôi có bệnh huyết áp cao phải uống thuốc mỗi ngày. Vào tháng 7/2020, tôi bị dị ứng nặng với thuốc giảm acid uric trong máu. Lúc đó, tôi bị sưng mặt và nổi đỏ toàn thân, có nơi trên cơ thể bị viêm da mủ. Tôi nằm điều trị ở bệnh viện 10 ngày, sau đó về nhà uống thuốc gần một tháng nữa thì hết đỏ toàn thân. Nhưng từ lúc đó đến nay tôi hay bị nổi mụn, mẩn ngứa. Cho đến giờ tôi vẫn phải đi khám da liễu và uống thuốc mỗi ngày. Bác sĩ da liễu nói tôi bị viêm da cơ địa dị ứng.Xin hỏi bác sĩ là với tiền sử dị ứng thuốc và vẫn đang bị nổi mẩn ngứa, uống thuốc da liễu hàng ngày như hiện giờ thì tôi có thể tiêm vaccine Covid-19 được không ạ?\nTrả lời: Anh bị dị ứng thuốc với nhiều biểu hiện phải nằm viện 10 ngày. Trong trường hợp nếu anh được điều trị và được chẩn đoán phản vệ từ độ 2 trở lên cần chống chỉ định tiêm phòng vaccine Covid-19. Ngoài ra, anh đang nổi mẫn ngứa còn dùng thuốc điều trị hàng ngày cần trì hoãn việc tiêm vaccine Covid-19.",
+            "score": 0.5998169779777527,
+            "id": "vietnamese_healthcare_6547",
+            "rerank_score": 0.9493056535720825
+        },
+        {
+            "text": "Câu hỏi: Con gái tôi 25 tuổi bị dị ứng thuốc có chứa kháng sinh. Cháu có tiêm vaccine Covid-19 được không bác sĩ?\nTrả lời: Anh nên cung cấp rõ tình trạng dị ứng mức độ cụ thể của con gái để bác sĩ thăm khám sàng lọc có chỉ định tư vấn phù hợp, nhìn chung với tình trạng dị ứng thuốc kháng sinh nhưng không phải nhập viện với chẩn đoán và điều trị phản vệ độ II thì không phải trường hợp chống chỉ định với tiêm vaccine Covid-19. Tuy nhiên, tùy từng trường hợp bác sĩ sẽ tư vấn tiêm tại các cơ sở y tế có đủ năng lực hồi sức ban đầu hoặc tiêm chủng trong bệnh viện.",
+            "score": 0.6562263369560242,
+            "id": "vietnamese_healthcare_9884",
+            "rerank_score": 0.9664531946182251,
+            "weighted_score": 0.9793281316757202
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng thuốc, vậy xin hỏi tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Như các anh/chị cũng biết, tiền sử dị ứng để các bác sĩ sàng lọc quyết định tiêm hay không thì người chủng ngừa cần phải thông báo những tiền sử dị ứng của mình cụ thể là gì, mức độ dị ứng nhẹ ví dụ như uống thuốc vào bị ngứa, ngưng không uống nữa, . . .",
+            "score": 0.6269070506095886,
+            "id": "vietnamese_healthcare_7969",
+            "rerank_score": 0.9641476273536682,
+            "weighted_score": 0.972365152835846
+        },
+        {
+            "text": "Câu hỏi: Khoảng 20 mươi năm trước đây, tôi bị viêm mũi dị ứng có uống thuốc uống viêm ngứa, hơi khó thở. Lần thứ hai tôi bị viêm mũi dị ứng, tôi uống thuốc bị ngứa, khó thở. Xin bác sĩ cho biết, tôi có tiêm ngừa vaccine Covid-19 được không?\nTrả lời: Theo như báo cáo của Mỹ, những người có cơ địa dị ứng, tức là những người mắc các bệnh dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa, dị ứng thuốc, dị ứng vaccine, sốc phản vệ, dị ứng thức ăn, dị ứng latex, dị ứng nọc côn trùng. . . là những người dễ dị ứng/phản vệ với vaccine hơn so với những người khác. Tuy nhiên, bất kỳ ai cũng có thể bị phản vệ sau tiêm vaccine dù không có tiền sử dị ứng. Có 2 trường hợp để biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp dị ứng có khó thở, có tím tái phải nhập viện thì chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu chỉ nổi mẩn đỏ ít trên da, ngứa, không cần điều trị, tự hết vẫn có thể tiêm vaccine Covid-19, tuy nhiên cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Ngoài ra, anh phải cung cấp đầy đủ các triệu chứng dị ứng gặp phải cho bác sĩ để bác sĩ đánh giá và chỉ định tiêm chủng an toàn.",
+            "score": 0.6088271141052246,
+            "id": "vietnamese_healthcare_2129",
+            "rerank_score": 0.9724571704864502,
+            "weighted_score": 0.9663873672485351
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

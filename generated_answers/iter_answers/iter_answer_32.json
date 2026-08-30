@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Tôi bị dị ứng thời tiết lạnh, ướt, khi đó tôi bị mẩn ngứa, sau khoảng 2 tiếng thì khỏi. Ngoài ra, tôi cũng bị dị ứng nổi u cục lớn khi bị kiến cắn, dị ứng nhựa cây (đặc biệt là mủ nhựa cây xương rồng). Tôi cũng hay đau tức ngực khi bị gió quạt thổi thẳng vào người hoặc ăn đồ hơi bị lạnh. Ngoài ra, tôi còn bị u xơ tử cung với số lượng u nhiều, u nang tuyến giáp.Con gái tôi năm nay 25 tuổi cũng hay nổi mề đay chưa rõ nguyên nhân, u xơ vú, u nang tuyến giáp, viêm dạ dày. Chúng tôi có tiêm được vaccine Covid-19 được không ạ?",
+    "ground_truth": "Nếu Anh/Chị và con gái của Anh/Chị phản vệ từ độ II trở lên sẽ chống chỉ định tiêm phòng vaccine Covid-19, tuy nhiên nếu chỉ dị ứng nhẹ vẫn có thể tiêm phòng nhưng nên tiêm tại bệnh viện.",
+    "answer": "Theo thông tin bạn cung cấp, nếu các cơn mẩn ngứa/mề đay do lạnh, côn trùng hoặc nhựa cây chỉ xuất hiện ngoài da, tự hết sau khoảng 2 giờ và chưa từng gây khó thở, tụt huyết áp, nôn ói hoặc phải nhập viện cấp cứu thì bạn và con gái vẫn có thể tiêm vaccine COVID-19, nhưng nên tiêm tại bệnh viện hoặc cơ sở có đủ năng lực hồi sức cấp cứu và khai báo đầy đủ tiền sử dị ứng để bác sĩ khám sàng lọc. Tuy nhiên, triệu chứng đau tức ngực khi gặp lạnh cần được bác sĩ đánh giá trước; nếu từng kèm khó thở nặng, tím tái, tụt huyết áp hoặc phải cấp cứu thì có thể thuộc nhóm chống chỉ định theo hướng dẫn. U xơ tử cung, u nang tuyến giáp, u xơ vú và viêm dạ dày thường không phải là chống chỉ định riêng, nhưng vẫn cần được bác sĩ xem xét tình trạng hiện tại trước khi tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng da khi thời tiết lạnh thì chích vaccine Covid-19 được không ạ?\nTrả lời: Dị ứng thời tiết có nhiều mức độ khác nhau, nếu dị ứng nổi mẩn ngứa nhẹ và tự hết có thể tiêm tại các trung tâm tiêm chủng, phòng tiêm chủng. Nếu anh có dấu hiệu dị ứng nặng hơn như nổi mẩn, phù quincke có thể hoãn tiêm hoặc tiêm trong bệnh viện, nơi đủ điều kiện cấp cứu ban đầu.",
+            "score": 0.7843023538589478,
+            "id": "vietnamese_healthcare_2590"
+        },
+        {
+            "text": "Câu hỏi: Hiện em có bệnh mạn tính từ nhỏ là dị ứng cơ địa: thời tiết như bụi, nóng, gạch hải sản, hoặc những nơi ô nhiễm, bệnh trong người. Em hay bị nổi mẩn đỏ như rôm sảy có lúc nhẹ thi uống thuốc hết, nếu nặng thì gây sốt, khó thở. Vào thời tiết gió bụi thì dị ứng nổi hết cả người khoảng 1-2 tháng khi thời tiết ổn lại mới tự hết. Tình trạng em có tiêm vaccine Covid-19 được không?\nTrả lời: Anh/Chị cần nêu rõ tình trạng của Anh/Chị khi bị dị ứng: nếu trường hợp của Anh/Chị bị dị ứng nặng có khó thở phải nhập viện điều trị cấp cứu thì theo hướng dẫn của Bộ Y tế thì Anh/Chị thuộc nhóm chống chỉ định tiêm chủng vaccine Covid-19. Còn nếu tình trạng dị ứng của Anh/Chị nhẹ hơn như chỉ gặp các triệu chứng như mẩn ngứa, mề đay và không phải nhập viện vì các triệu chứng khó thở hay tụt huyết áp hay nôn ói thì Anh/Chị vẫn có thể tiêm vaccine Covid-19. Tuy nhiên theo hướng dẫn của Bộ Y tế Anh/Chị thuộc nhóm đối tượng thận trọng khi tiêm vaccine Covid-19, và phải tiêm chủng vaccine Covid-19 tại bệnh viện. Ngoài ra Anh/Chị phải cung cấp đầy đủ các triệu chứng khi mắc phải cho bác sĩ khám sàng lọc để bác sĩ khám cho chỉ định và dặn dò theo dõi cho phù hợp.",
+            "score": 0.7696627378463745,
+            "id": "vietnamese_healthcare_5599"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng thời tiết, khi thay đổi thời tiết hay bị khó thở, hít vào khó khăn, trống ngực đập mạnh. Dị ứng kháng sinh và huyết áp thấp. Vậy tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Theo bạn chia sẻ thì bạn có bị dị ứng thời tiết, dị ứng kháng sinh, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.7515060901641846,
+            "id": "vietnamese_healthcare_4287"
+        },
+        {
+            "text": "Câu hỏi: Tôi thỉnh thoảng bị dị ứng mẩn ngứa khi trời lạnh, thì có tiêm vaccine Covid-19 được không?\nTrả lời: Theo bạn chia sẻ thì bạn bị dị ứng mẩn ngứa, chúng tôi không biết mức đó dị ứng có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.7373751997947693,
+            "id": "vietnamese_healthcare_2342"
+        },
+        {
+            "text": "Câu hỏi: Lúc nhỏ có lần tôi chích kháng sinh bị dị ứng nổi mề đay đỏ khắp người, ngứa. Cách đây hơn 10 năm có lần uống thuốc kháng sinh cũng bị nổi mề đay, ngứa, tôi uống thuốc trị dị ứng thì khoảng một tiếngsau thì hết. Vậy tôi có chích được vaccine ngừa Covid-19 được không?\nTrả lời: Theo bạn chia sẻ bạn bị dị kháng sinh, có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.730749785900116,
+            "id": "vietnamese_healthcare_6432"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

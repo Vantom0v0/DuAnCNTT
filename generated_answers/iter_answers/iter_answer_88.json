@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Chào bác sĩ,\nGần đây, cháu thấy tóc rụng nhiều, mỗi lần cháu gội đầu hay ngủ dậy đều thấy tóc rụng, chỉ cần cháu vuốt nhẹ thôi tóc cũng thấy rụng thậm chí thỉnh thoảng trong ngày cháu đang ngồi học cũng thấy tóc rụng. Tình trạng này diễn ra vài tháng. Cháu thấy khá lo lắng và thiếu tự tin khi tóc cháu cứ rụng nhiều thế. Vậy bác sĩ cho cháu hỏi nam giới rụng tóc nhiều nguyên nhân là gì? Cháu cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn cần cung cấp thêm thông tin ngoài rụng tóc thì bạn có triệu chứng gì khác ở da đầu như đóng mài, ngứa da đầu, da đầu nổi nốt đỏ, mảng đỏ, chân tóc bị đứt ngang, mất hay còn nang tóc, bạn rụng tóc vùng nào trên đầu, gia đình bạn có tiền sử bị hói đầu không? Nguyên nhân gây rụng tóc có thể do chế độ ăn kiêng, không cung cấp đủ chất dinh dưỡng cho tóc. Bạn vui lòng cung cấp thêm thông tin để có thể tư vấn tốt hơn.\nTrân trọng!",
+    "answer": "Chào cháu, rụng tóc nhiều ở nam giới thường gặp nhất là **rụng tóc nội tiết tố nam do di truyền** (chiếm khoảng 95%), liên quan đến sự nhạy cảm của nang tóc với DHT; tóc thường mỏng dần ở vùng trán, thái dương hoặc đỉnh đầu. Ngoài ra, rụng tóc có thể do căng thẳng, thay đổi nội tiết, chế độ ăn thiếu protein hoặc thiếu sắt, bệnh tuyến giáp, thiếu máu, lupus, tiểu đường, bệnh viêm/nấm da đầu, lạm dụng hóa chất làm tóc hoặc tác dụng phụ của một số thuốc; xạ trị, hóa trị cũng có thể gây rụng tóc lan tỏa. Vì tình trạng của cháu kéo dài vài tháng và rụng khá nhiều, cháu nên khám bác sĩ Da liễu để kiểm tra da đầu, đánh giá kiểu rụng tóc và làm xét nghiệm cần thiết, không nên tự dùng thuốc kích mọc tóc; đồng thời ăn uống đủ chất, giảm stress và tránh các hóa chất hoặc thao tác kéo giật tóc.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Nguyên nhân gây rụng tóc nhiều ở nam giới?\nTrả lời: 1. Nguyên nhân gây rụng tóc nhiều ở nam giới?\nPhần lớn những người đàn ông bị hói đầu có thể do tình trạng di truyền. Những trường hợp này được gọi là chứng rụng tóc nội tiết tố nam, tên thường gọi là chứng hói đầu kiểu nam giới. Theo Hiệp hội Rụng tóc Hoa Kỳ, 95% trường hợp rụng tóc nhiều ở nam giới là do chứng rụng tóc nội tiết tố nam. Đặc điểm di truyền có xu hướng khiến các chàng trai có đường chân tóc cao với lớp tóc mỏng hơn. Sự nhạy cảm của di truyền với một sản phẩm chuyển hóa của testosterone , được gọi là dihydrotestosterone (DHT). Một sự thật là những nang tóc nhạy cảm với DHT có xu hướng co nhỏ lại theo thời gian. Khi các nang tóc bị ảnh hưởng sẽ thu nhỏ kích thước, tuổi thọ bị rút ngắn. Cuối cùng, các nang bị ảnh hưởng sẽ ngừng sản xuất tóc. Với chứng hói đầu ở đàn ông , rụng tóc thường theo một kiểu hình có thể đoán trước được. Hai kiểu rụng tóc phổ biến nhất bao gồm: Tóc bắt đầu mỏng dần ở đỉnh đầu và xung quanh thái dương. Kiểu này có thể để lại tóc hình “móng ngựa” xung quanh hai bên và phía sau đầu. Tóc bắt đầu rụng dần từ phía trước, đẩy chân tóc ra xa hơn về phía đỉnh đầu. Mức độ và sự tiến triển của chứng hói đầu ở nam giới được đánh giá bởi hệ thống phân loại Norwood. Phân loại này bao gồm 7 giai đoạn đo lường mức độ nghiêm trọng và kiểu rụng tóc , hói đầu.",
+            "score": 0.744464635848999,
+            "id": "vietnamese_healthcare_90961"
+        },
+        {
+            "text": "Câu hỏi: Một số bệnh lý, vấn đề về sức khỏe có thể gây rụng tóc ở nam giới\nTrả lời: 2. Một số bệnh lý, vấn đề về sức khỏe có thể gây rụng tóc ở nam giới\nMột số vấn đề về sức khỏe có thể gây ra tình trạng rụng tóc ở nam giới tạm thời như các vấn đề về tuyến giáp, thiếu máu, thiếu sắt, chế độ ăn ít protein. Ngoài ra, những người mắc bệnh lupus hoặc tiểu đường cũng có nguy cơ bị rụng tóc cao hơn. Trong quá trình sử dụng thuốc để điều trị một số bệnh như tăng huyết áp , tim mạch, gout , viêm khớp , ung thư, ... rụng tóc cũng có thể xảy ra do tác dụng phụ của thuốc. Nếu bị rụng tóc từng mảng ở nam giới trên diện rộng, đó là một trong những kết quả thường thấy của quá trình xạ trị hoặc hóa trị. Tuy nhiên, người bệnh có thể yên tâm là sau khi kết thúc điều trị, tóc sẽ mọc trở lại bình thường.",
+            "score": 0.7211716175079346,
+            "id": "vietnamese_healthcare_98992"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Hiện tại em 17 tuổi, từ mấy năm trước đây em bị rụng tóc rất nhiều nhưng không hiểu vì sao. Em không bị bệnh, ít khi stress, em đã thử nhiều phương pháp kích thích mọc tóc nhưng cũng không được. Tóc em hiện tại rất rất ít ạ, túm lại chỉ bằng 2 ngón tay chụm lại thôi ạ. Mong bác sĩ giải đáp nguyên nhân hay phương pháp giúp em. Em cảm ơn ạ\nTrả lời: Chào bạn. Nguyên nhân gây rụng tóc nhiều thường là do di truyền, thay đổi nội tiết tố, bệnh lý hoặc tác dụng không mong muốn của thuốc.\nĐể xác định được nguyên nhân cụ thể và đưa ra hướng điều trị kịp thời. Bạn cần phải tới gặp bác sĩ để được tư vấn chuyên sâu nếu cần thiết có thể làm các xét nghiệm.",
+            "score": 0.7175073623657227,
+            "id": "vietnamese_medical_qa_4773"
+        },
+        {
+            "text": "Câu hỏi: Tóc rụng nhiều phải làm gì?\nTrả lời: Các nguyên nhân gây rụng tóc thường là do sự mất cân bằng yếu tố nội tiết nam hay nữ, căng thẳng, stress, yếu tố di truyền, thiếu dinh dưỡng, lạm dụng các hóa chất làm đẹp,...Tuy nhiên rụng tóc có thể do các nguyên nhân bệnh lý sau: Rối loạn hệ thống miễn dịch, bệnh lý tuyến giáp, bệnh lý viêm nhiễm da đầu, thiếu máu thiếu chất,...Hiện nay, đã có nhiều phương pháp điều trị hiệu quả cho tình trạng rụng tóc ở cả nam và nữ. Bạn hoàn toàn có thể đảo ngược chứng rụng tóc hoặc ít nhất là làm chậm tiến trình này. Phương pháp điều trị rụng tóc bao gồm sử dụng thuốc, phẫu thuật để kích thích mọc tóc và làm chậm rụng tóc, liệu pháp laser.Nếu đã bị rụng tóc nhiều và muốn khắc phục hậu quả của tình trạng này có thể dùng các sản phẩm hỗ trợ, chẳng hạn như khăn quàng cổ hoặc tóc giả. Trao đổi thêm với một nhà tạo mẫu tóc để lên ý tưởng cho “mái tóc mới” của bạn. Những giải pháp phi y học này có thể được áp dụng trong quá trình điều trị rụng tóc lâu dài. Khi có hiện tượng rụng tóc nhiều, lan tỏa bạn có thể đến khám và điều trị với bác sĩ chuyên khoa Da liễu tại các cơ sở y tế uy tín.",
+            "score": 0.7126948833465576,
+            "id": "vietnamese_healthcare_4028"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nTôi bị rụng tóc nhiều, xin hỏi nguyên nhân và cách điều trị. Cin cảm ơn Bác sĩ nhiều!!!\nTrả lời: Chào anh.\\\nCó rất nhiều nguyên nhân dẫn đến tình trạng rụng tóc. Có thể là do di truyền, các stress trong cuộc sống hằng ngày, dùng dầu gội không phù hợp hoặc nấm...Trước tiên anh nên giảm các stress, gội đầu bằng dầu gội phù hợp hơn. Để điều trị tình trạng này anh nên đi khám chuyên khoa da liễu để được các bác sĩ tư vấn và kê đơn uống thuốc.\nThân mến.",
+            "score": 0.7041115164756775,
+            "id": "vietnamese_medical_qa_6625"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

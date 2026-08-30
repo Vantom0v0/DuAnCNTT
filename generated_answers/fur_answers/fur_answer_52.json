@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không?",
+    "ground_truth": "Theo như mô tả của chị thì mẹ chị mới phẫu thuật Phaco thay thể thủy tinh, trong 2 tuần triệu chứng cộm mắt ở góc ngoài (vết mổ) là bình thường. Nếu lo lắng thì chị cần đưa mẹ đến bác sĩ để kiểm tra, không tự ý dùng thuốc gì khác ngoài thuốc chỉ định của bác sĩ.",
+    "answer": "Sau phẫu thuật Phaco khoảng 2 tuần, cảm giác cộm ở góc ngoài mắt/vết mổ có thể vẫn là bình thường. Theo thông tin được cung cấp, mẹ bạn có thể di chuyển bằng máy bay.\n\nTuy nhiên, nếu lo lắng nên đưa mẹ đi tái khám. Không tự ý mua hoặc dùng thêm thuốc kháng sinh ngoài thuốc bác sĩ đã kê.\n\nCần liên lạc với bác sĩ ngay nếu có mất thị lực, đau mắt không giảm dù đã dùng thuốc giảm đau, đỏ mắt nhiều, thấy tia sáng lóe hoặc đám mây trôi.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Mẹ em mới mổ cườm Phaco được gần 2 tuần, nhưng vẫn còn cộm. Vậy cho em hỏi, sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không? Ngoài thuốc bác sĩ kê đơn, có thể mua thuốc kháng sinh bên ngoài uống được không ạ? Em cảm ơn bác sĩ nhiều.\nTrả lời: Chào chị. Theo như mô tả của chị thì mẹ chị mới phẫu thuật Phaco thay thể thủy tinh, trong 2 tuần triệu chứng cộm mắt ở góc ngoài (vết mổ) là bình thường. Nếu lo lắng thì chị cần đưa mẹ đến bác sĩ để kiểm tra, không tự ý dùng thuốc gì khác ngoài thuốc chỉ định của bác sĩ. Vì vậy, với thắc mắc “Sau 2 tuần phẫu thuật Phaco vẫn cộm mắt liệu có thể di chuyển bằng máy bay không?” Thì có thể di chuyển bằng máy bay được chị nhé.",
+            "score": 0.8853985071182251,
+            "id": "vietnamese_medical_qa_1975",
+            "rerank_score": 0.9999740123748779
+        },
+        {
+            "text": "Câu hỏi: Mắt không nhìn rõ, đồng tử bị nhòe sau phẫu thuật khâu giác mạc và Phaco 2 tháng là bị làm sao?\nTrả lời: Theo như em chia sẻ thì mắt mờ sau mổ Phaco, bác sĩ nghĩ mắt em đục thủy tinh thể do chấn thương nên mới khâu giác mạc.",
+            "score": 0.5291980504989624,
+            "id": "vietnamese_healthcare_8974",
+            "rerank_score": 0.21588337421417236
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nCon tiểu phẫu chắp mắt về được 4 ngày mà mí mắt của con vẫn còn sưng chưa xẹp xuống như mắt còn lại (mắt nhỏ mắt to) và con có sờ lên và cảm nhận được còn một cục nữa. Vậy bác sĩ cho con hỏi mí mắt còn sưng sau tiểu phẫu chắp mắt có sao không? Nếu con đi tiểu phẫu để triệt để luôn thì mắt con có lành như ban đầu không? Có bị mắt to mắt nhỏ không? Cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nKhi bị chắp thì chỉ cần rạch và nạo sạch thì sẽ hết và mắt sẽ khôi phục như ban đầu. Nếu bạn sờ vẫn còn cộm cục thì có khả năng nạo bị xót. Vì vậy, bạn nên tái khám với bác sĩ và kiểm tra lại.\nCác phòng tránh bệnh tái phát là vệ sinh mắt sạch sẽ. vệ sinh mi mắt, chườm ấm mắt. Lưu ý về các dấu hiệu bất thường như cộm xốn, ngứa mi mắt , đau mi mắt thì đi khám để bác sĩ có chỉ định điều trị.\nTrân trọng!",
+            "score": 0.5285308361053467,
+            "id": "vietnamese_medical_qa_526",
+            "rerank_score": 0.05295288935303688
+        },
+        {
+            "text": "Câu hỏi: Sau phẫu thuật đục thủy tinh thể, khi nào cần liên lạc với bác sĩ?\nTrả lời: 6. Sau phẫu thuật đục thủy tinh thể, khi nào cần liên lạc với bác sĩ?\nSau phẫu thuật, mắt có thể hơi nhạy cảm, cộm và chảy lệ trong vài ngày, điều này hoàn toàn là bình thường. Mắt cũng có thể nhạy cảm hơn với ánh sáng hoặc người bệnh thấy mọi thứ có màu đỏ, hồng. Tuy nhiên, đây không phải là vấn đề nghiêm trọng và cũng không phổ biến. Tuy nhiên, nếu có bất kỳ dấu hiệu nào dưới đây sau khi phẫu thuật đục thủy tinh thể, bạn hãy liên lạc với bác sĩ: Mất thị lực; Cơn đau ở mắt không giảm dù đã dùng thuốc giảm đau ; Đỏ mắt nặng; Nhìn thấy những tia sáng lóe lên hoặc những đám mây trôi. =>>Lời khuyên từ Thạc sĩ, Bác sĩ Hoàng Thanh Nga - Khoa khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long : Khi có biểu hiện bất thường sau phẫu thuật cần đi khám ngay để điều trị, tránh biến chứng ảnh hưởng đến thị lực và chức năng của mắt. Xem thêm: Hướng dẫn chẩn đoán đục thủy tinh thể",
+            "score": 0.5508176684379578,
+            "id": "vietnamese_healthcare_80798",
+            "rerank_score": 0.028661958873271942
+        },
+        {
+            "text": "Câu hỏi: ! Bé nhà cháu được 18 tháng, lúc 14 tháng bé bị kéo đâm vào mắt cấp cứu khâu nhãn cầu tại viện, sau khâu 2 tuần tái khám lần 1 thì không phát hiện bong võng mạc, 1 tháng sau tái khám lần 2 thì phát hiện bong võng mạc do co kéo và đã phẫu thuật bơm dầu silicon. Sauphẫu thuật bong võng mạccháu đi tái khám thì võng mạc không bị bong nữa nhưng bác sĩ nói cháu sẽ phải tháo dầu sau mổ khoảng 5 tháng và phải thay thủy tinh thể do bị đục vì bơm dầu silicon. Vậy xin hỏi,trẻ 18 tháng tuổi sau tháo dầu và phẫu thuật đục thủy tinh thể có khôi phục được phần nào thị lực khôngạ? Cảm ơn bác sĩ ạ! Trần Thị Thu Hiền(1990) Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Trẻ 18 tháng tuổi sau tháo dầu và phẫu thuật đục thủy tinh thể có khôi phục được phần nào thị lực không?” như sau: Theo thông tin bạn chia sẻ thì bong võng mạc đã được phẫu thuật vàvõng mạcáp tốt thì tiên lượng ảnh hưởng đến thị lực tùy thuộc vào vị tríbong võng mạccủa bé, nếu bong ngoại vi không ảnh hưởng vùng hoàng điểm thì không ảnh hưởng gì nhiều đến thị lực bạn nhé,đục thủy tinh thểnên phải thay,phẫu thuật đục thủy tinh thểsẽ giúp bé nhìn rõ hơn hiện tại. Bạn có thể đưa bé đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Thị Bích Nhĩ -Bác sĩ Chuyên khoa Mắt - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.5411145091056824,
+            "id": "medical_vietnamese_qa_7395",
+            "rerank_score": 0.004443609621375799
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Ngón chân màu đen, chảy máu có phải bị hoại tử không?",
+    "ground_truth": "Dựa trên những dấu hiệu về thời gian mắc bệnh, triệu chứng hiện tại, bố của bạn có biểu hiện hoại tử ngón bàn chân. Đây là một trong những biến chứng đáng ngại của bệnh tiểu đường. Bệnh có nguy cơ cắt cụt chân nếu điều trị nội khoa không đạt kết quả. Bệnh nhân cần sớm đi khám bệnh, có thể kết hợp nhiều chuyên khoa như: nội tiết, ngoại khoa, dinh dưỡng để được tư vấn chi tiết và có phương pháp điều trị thích hợp nhất.",
+    "answer": "Ngón chân màu đen và chảy máu có thể là dấu hiệu hoại tử ngón chân, nhưng bằng chứng cung cấp chưa đủ để khẳng định chắc chắn chỉ dựa vào hai triệu chứng này. Hoại tử có thể kèm sưng đau, nóng, vòng đỏ quanh vết loét, chảy mủ hoặc cũng có thể hoại tử khô khiến ngón thâm đen và teo dần. Đây là tình trạng nặng, có nguy cơ phải cắt cụt chân, vì vậy cần đưa người bệnh đi khám hoặc nhập viện ngay để được đánh giá và điều trị, có thể phối hợp chuyên khoa nội tiết, ngoại khoa và dinh dưỡng.",
+    "evidence": [
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nDựa trên những dấu hiệu về thời gian mắc bệnh, triệu chứng hiện tại, bố của bạn có biểu hiện hoại tử ngón bàn chân.",
+        "Bệnh có nguy cơ cắt cụt chân nếu điều trị nội khoa không đạt kết quả.",
+        "Bệnh nhân cần sớm đi khám bệnh, có thể kết hợp nhiều chuyên khoa như: nội tiết, ngoại khoa, dinh dưỡng để được tư vấn chi tiết và có phương pháp điều trị thích hợp nhất.",
+        "Do vậy, cần hết sức chú ý tới các dấu hiệu hoại tử ngón chân để chăm sóc vết thương đúng cách: Sưng đau ngón chân; Nóng ở các chi; Vòng đỏ > 0,5 cm bao quanh vết loét; Chảy mủ, có thể là mủ đục, trắng hoặc lẫn máu.",
+        "Cũng có trường hợp vết thương bị hoại tử khô, không sưng đỏ, đau hay nóng hoặc chảy mủ mà sẽ thâm đen và teo dần lại.",
+        "Đây cũng là tình trạng nặng và cần nhập viện ngay để điều trị."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBa em bị bệnh tiểu đường đã 14 năm. Hiện tại chân ba em bị sưng rất to và có 1 ngón chân đã bị đen chảy máu ra nhiều và có mùi rất hôi. Bác sĩ cho em hỏi, ngón chân màu đen, chảy máu có phải bị hoại tử không? Em xin cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nDựa trên những dấu hiệu về thời gian mắc bệnh, triệu chứng hiện tại, bố của bạn có biểu hiện hoại tử ngón bàn chân. Đây là một trong những biến chứng đáng ngại của bệnh tiểu đường. Bệnh có nguy cơ cắt cụt chân nếu điều trị nội khoa không đạt kết quả. Bệnh nhân cần sớm đi khám bệnh, có thể kết hợp nhiều chuyên khoa như: nội tiết, ngoại khoa, dinh dưỡng để được tư vấn chi tiết và có phương pháp điều trị thích hợp nhất.\nTrân trọng!",
+                "score": 0.6084516048431396,
+                "id": "vietnamese_medical_qa_1287",
+                "rerank_score": 0.9997952580451965
+            },
+            {
+                "text": "Câu hỏi: ! Mẹ em có ngón chân cái bị đau, nhức và sưng. Móng chân bị đen nhưng vẫn mọc được dài sau mỗi lần cắt (do là mẹ em thường tiếp xúc với nước bẩn như nước tôm cá hay bùn, phèn). Bác sĩ cho em hỏingón chân cái bị sưng đau, móng bị thâm đen do tiếp xúc với nước bẩncó thuốc gì điều trị không? Do mẹ em là nông dân nên khó tránh nhiễm nước bẩn nên rất mong được bác sĩ tư vấn. Em xin cảm ơn. Lê Hiền Vinh(1999) Trả lời\nTrả lời: Chào bạn. Trường hợpngón chân cái bị sưng đau, móng bị thâm đen do tiếp xúc với nước bẩncủa mẹ bạn khả năng bị bệnhviêm móng chân. Nếu để lâu có thể có các biến chứng như hoại tử móng, viêm các mô mềm do vi khuẩn,nhiễm khuẩn huyết...Bạn nên đưa mẹ bạn đến cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được khám và điều trị. Cảm ơn bạn đã tin tưởng và đặt câu hỏi tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa II Hoàng Thị Hiền- Bác sĩ Đa khoa - Khoa Khám bệnh - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.49349886178970337,
+                "id": "medical_vietnamese_qa_848",
+                "rerank_score": 0.8393887877464294
+            },
+            {
+                "text": "Câu hỏi: Dấu hiệu hoại tử ngón chân ở người bệnh tiểu đường\nTrả lời: 2. Dấu hiệu hoại tử ngón chân ở người bệnh tiểu đường\nTheo Tổ chức Y Tế thế giới thống kê, trung bình cứ 2 phút trôi qua sẽ có 2 bệnh nhân tiểu đường phải cắt cụt chi do biến chứng loét bàn chân . Nguyên nhân chính trong số này là do không biết chăm sóc vết thương đúng cách. Do vậy, cần hết sức chú ý tới các dấu hiệu hoại tử ngón chân để chăm sóc vết thương đúng cách: Sưng đau ngón chân; Nóng ở các chi; Vòng đỏ > 0,5 cm bao quanh vết loét; Chảy mủ, có thể là mủ đục, trắng hoặc lẫn máu. Cũng có trường hợp vết thương bị hoại tử khô, không sưng đỏ, đau hay nóng hoặc chảy mủ mà sẽ thâm đen và teo dần lại. Đây cũng là tình trạng nặng và cần nhập viện ngay để điều trị.",
+                "score": 0.6023573279380798,
+                "id": "vietnamese_healthcare_20808",
+                "rerank_score": 0.7973039150238037
+            },
+            {
+                "text": "Câu hỏi: Hiện tượng chảy máu chân răng kèm hôi miệng có nguy hiểm không?\nTrả lời: 2. Hiện tượng chảy máu chân răng kèm hôi miệng có nguy hiểm không?\nBị chảy máu chân răng, hôi miệng có thể khởi phát do nhiều yếu tố và bệnh lý khác nhau. Trong trường hợp do rối loạn nội tiết, vệ sinh răng miệng kém, thiếu vitamin,... thì có thể cải thiện các triệu chứng này bằng việc thay đổi lối sống, bổ sung các chất còn thiếu. Tuy nhiên, chảy máu chân răng kèm hôi miệng do bệnh lý thì người bệnh cần phải điều trị để ngăn ngừa tình trạng hoại tử và mất răng. Trường hợp bị chảy máu chân răng kèm hôi miệng do ung thư máu và tiểu đường thì bạn phải đối mặt với các biến chứng nguy hiểm hoặc thậm chí là tử vong nếu không có phương pháp điều trị đúng và kịp thời. Vì vậy, nếu bị chảy máu chân răng kèm hôi miệng và các biểu hiện khác như giảm cân bất thường, máu khó đông,... thì bạn cần đến cơ sở y tế để bác sĩ khám, tìm ra nguyên nhân và phương pháp điều trị, tránh các biến chứng nguy hiểm.",
+                "score": 0.5080951452255249,
+                "id": "vietnamese_healthcare_20018",
+                "rerank_score": 0.10536535829305649
+            },
+            {
+                "text": "Câu hỏi: Kẽ ngón chân 2 bên có xuất hiện đốm trắng nhỏ, không ngứa rát nhưng chảy máu và đau nhức là dấu hiệu của bệnh gì?\nTrả lời: Theo bạn mô tả thì bác sĩ chẩn đoán bạn có thể bị bệnh viêm kẽ do nấm. Vì vậy, bạn cần đi khám với bác sĩ chuyên khoa Da liễu để được thăm khám và có chẩn đoán và phương pháp điều trị cụ thể.",
+                "score": 0.491951584815979,
+                "id": "vietnamese_healthcare_5108",
+                "rerank_score": 0.0847429484128952
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Xin chào bác sĩ, tôi thỉnh thoảng khi mệt mỏi đặc biệt là khoảng 17 đến 18h sau khi đi làm về làm việc gì cố sức một chúc là đầu choáng váng, người toát mồ hôi, lạnh, lúc đó phải nằm nghỉ khoảng 15 phút mới đỡ (một năm khoảng vài lần). Cơ quan tôi hàng năm đều có tổ chức khám tổng quát, điện tim... nhưng bs nói bình thường. Không biết đó là triệu chứng gì? Tôi cần phải đi kiểm tra những bộ phận nào để biết nguyên nhân?",
+    "ground_truth": "Chào ban. \nKhoảng thời gian 17-18h có thể bạn bị hạ đường huyết. ( Do làm cả ngày mệt , chưa kịp bổ sung thực phẩm ) . Bạn nên đến viện khám kiểm tra tổng quát, xét nghiệm về máu để tìm nguyên nhân và có hướng điều trị tích cực. \nThân mến.",
+    "answer": "Chào bạn, các cơn choáng váng kèm vã mồ hôi lạnh sau khi mệt hoặc gắng sức có thể liên quan đến hạ huyết áp, hạ đường huyết, thiếu máu, rối loạn thần kinh thực vật hoặc rối loạn nhịp tim; điện tim và khám tổng quát bình thường giữa các cơn chưa loại trừ hoàn toàn, đặc biệt nếu rối loạn nhịp xảy ra thoáng qua. Bạn nên khám Nội tổng quát, đo huyết áp cả khi nằm và đứng, làm xét nghiệm máu (công thức máu, đường huyết và các xét nghiệm cần thiết khác), đồng thời cân nhắc khám Tim mạch để theo dõi điện tim dài ngày nếu bác sĩ chỉ định; có thể khám Nội tiết hoặc Thần kinh tùy kết quả. Trong lúc chờ khám, nên ghi lại thời điểm, mức độ gắng sức, việc ăn uống và huyết áp/đường huyết nếu có thể, tránh làm việc quá sức và không để bụng đói. Nếu cơn kéo dài, tái diễn dày hơn hoặc kèm đau ngực, khó thở, ngất, tim đập bất thường, yếu liệt tay chân, méo miệng hay nói khó, cần đi cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ, dạo gần đây con thường xuyên bị choáng váng liên tục kể cả khi đang ngồi, đang đi và đang đứng. Đầu con cảm thấy nặng và mơ màng, con thường xuyên bị choáng tầm 2 - 3 giây nhưng tần suất lại liên tục. Ngoài ra, tay của con bị nhức buốt như ngâm vô nước đá lâu vậy, cánh tay thấy rất nặng và thường xuyên bị tê nhất là các đầu ngón tay ạ. Xin bác sĩ cho con hỏi là thường xuyên choáng váng đầu kèm theo tê nhức tay là dấu hiệu bệnh gì? Con cảm ơn bác sĩ nhiều ạ.\nTrả lời: Chào bạn, đối với câu hỏi: “Thường xuyên choáng váng đầu kèm theo tê nhức tay là dấu hiệu bệnh gì?” bác sĩ xin được giải đáp như sau:\nVới triệu chứng mô tả nhiều khả năng bạn bị thiếu máu. Còn triệu chứng tê nhức tay có thể kèm theo viêm thần kinh ngoại biên. Ngoài ra có một số bệnh tim mạch cũng có triệu chứng như bạn mô tả. Bạn nên đến bệnh viện để khám và điều trị, vì phải cần làm một số xét nghiệm để có thông tin chẩn đoán bệnh.",
+            "score": 0.6507787704467773,
+            "id": "vietnamese_medical_qa_2102"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Gần đây khoảng 4 đến 5 tháng nay ban đầu tôi thi thoảng bị choáng hẫng hụt trong đầu mất mấy giây thoáng qua, sau đó lại trở lại bình thường. Cách đây 3 tuần sáng ngủ dậy tôi không dậy được vì mở mắt ra trần nhà quay như chong chóng sau nằm không dậy được và nôn, đến chiều ngày hôm sau mới đỡ hơn nhưng cứ ngồi dậy hoặc nằm xuống hay đang đi bộ thường bị choáng và hẫng hụt trong đầu đi lại mất thăng bằng. Ngoài ra, một bên mắt phải của tôi rất hay bị chảy nước mắt cộng với bên tay phải nhiều khi cầm đũa hơi bị run tay, trí nhớ cũng có phần kém hơn hay nhớ nhớ quên quên. Xin hỏi bác sĩ, trường hợp thường choáng, run tay, trí nhớ giảm sút dấu hiệu bệnh gì? Tôi xin cảm ơn bác sĩ.\nTrả lời: Chào chị. Cách đây 4 – 5 tháng chị có những cảm giác choáng hẫng hụt mấy giây thì nguyên nhân quan trọng phải nghĩ tới là nguyên nhân tim mạch (ví dụ như loạn nhịp tim), không rõ bây giờ chị còn những triệu chứng như vậy hay không.\nCòn cách đây 3 tuần đợt chóng mặt như vậy có tính chất của rối loạn tiền đình ngoại biên, nếu hết rồi thì cần theo dõi tiếp, còn nếu còn triệu chứng thì chị nên đi khám để làm chẩn đoán và điều trị kiểm soát triệu chứng.\nMắt phải hay bị chảy nước mắt thì là một triệu chứng không đặc hiệu, chị nên đi khám chuyên khoa Mắt trước. Run tay phải và giảm trí nhớ như chị mô tả cũng chưa gợi ý được bệnh cảnh cụ thể nào.\nTóm lại các triệu chứng của chị khá rời rạc, thuộc về nhiều chuyên khoa khác nhau, có thể không liên quan đến nhau, nhưng cũng có thể nằm trong một bệnh cảnh chung như một bệnh lý thoái hóa thần kinh nào đó.\nDo vậy, mặc dù các triệu chứng không quá nghiêm trọng, nhưng chị nên đi khám, trước hết là khám chuyên khoa Thần kinh, để có thể phát hiện ra tình trạng bệnh lý nào đó (nếu có) để điều trị sớm sẽ hiệu quả hơn.",
+            "score": 0.6353568434715271,
+            "id": "vietnamese_medical_qa_2031"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm mới ngủ dậy bước xuống giường là đầu bị choáng hoa mắt, khi nằm xuống và nằm xong ngồi lên cũng bị. Vậy bác sĩ cho em hỏi hoa mắt, chóng mặt sau khi ngủ dậy có sao không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTriệu chứng như bạn mô tả có thể nghĩ đến bệnh lý tiền đình ngoại biên. Đây là bệnh lý thường gặp, chóng mặt có thể tự hết sau 1 - 2 tuần. Nếu hiện tượng này kéo dài lâu hơn, bệnh nhân nên đến khám chuyên khoa Thần kinh để bác sĩ khám xét và tư vấn cụ thể hơn.\nTrân trọng!",
+            "score": 0.6225211024284363,
+            "id": "vietnamese_medical_qa_583"
+        },
+        {
+            "text": "Câu hỏi: Tình trạng mệt kèm choáng váng thoáng qua là dấu hiệu bệnh gì?\nTrả lời: Bạn bị chóng mặt, mệt, buồn nôn kèm méo cơ mặt,...các vấn đề của bạn không cần điều trị gì mà tự hết thì thông thường không có tổn thương thực thể. Tuy nhiên, cũng có những bệnh lý mà bạn cần khám các bác sĩ chuyên khoa để xác định như chuyên khoa Tâm thần kinh, Nội tiết, Tim mạch,...Bạn không cần khám ngay lập tức vì các triệu chứng đã xuất hiện một thời gian, trừ khi các triệu chứng tăng nặng nhiều. Có thể bạn cần làm các xét nghiệm máu, đo huyết áp, điện tim đồ,...để phục vụ chẩn đoán.",
+            "score": 0.6186073422431946,
+            "id": "vietnamese_healthcare_4926"
+        },
+        {
+            "text": "Câu hỏi: Hay mất ngủ về đêm và đổ mồ hôi lạnh kèm choáng đầu chóng mặt có phải rối loạn tiền đình không?\nTrả lời: Triệu chứng của cháu chủ yếu là rối loạn giấc ngủ (mất ngủ về đêm, ban ngày lại buồn ngủ), vã mồ hôi lạnh có thể là do rối loạn thần kinh thực vật. Còn triệu chứng rối loạn tiền đình không rõ ràng (chỉ chóng mặt ít, choáng đầu và nặng đầu khá chung chung và không đặc hiệu), hơn nữa nếu mất ngủ kéo dài có thể gây choáng váng, nặng đầu, ban ngày sẽ cảm thấy buồn ngủ, uể oải, thiếu năng lượng. Tóm lại tình trạng của cháu có lẽ rối loạn giấc ngủ là quan trọng hơn, là cái gốc của vấn đề, còn tình trạng rối loạn tiền đình là không rõ ràng. Cháu nên đi khám để được khẳng định chẩn đoán và có hướng điều trị.",
+            "score": 0.6086671352386475,
+            "id": "vietnamese_healthcare_1147"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

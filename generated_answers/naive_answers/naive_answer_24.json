@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tôi có thể đăng ký danh sách chờ để được tiêm vaccine Pfizer (khi đã có hàng) được không? Tôi sẽ phải đăng ký chờ ở đâu?",
+    "ground_truth": "Theo thông tin từ Bộ Y tế, hơn 90. 000 liều vaccine Covid-19 Pfizer/BioNTech đã về đến sân bay Nội Bài vào sáng ngày 7/7/2021. Đây là lô vaccine đầu tiên của hãng này về Việt Nam. Hiện nay, Chính phủ chưa có cơ chế triển khai tiêm chủng loại vaccine này. Hiện nay, Việt Nam đang tiến hành tiêm chủng vaccine AstraZeneca (Vương quốc Anh) cho các đối tượng, địa bàn ưu tiên theo hướng dẫn chỉ đạo của Chính phủ và Bộ Y tế.",
+    "answer": "Hiện chưa có thông tin về việc đăng ký danh sách chờ vaccine Pfizer; tài liệu cho biết vaccine Pfizer chưa được nhập về Việt Nam và chưa có cơ chế tiêm dịch vụ. Nếu thuộc nhóm được ưu tiên tiêm theo chính sách, bạn có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi muốn đăng ký tiêm vacxin Pfizer của Mỹ thì đăng ký ở đâu? Và giá vaccine của Pfizer bao nhiêu tiền?\nTrả lời: Hiện nay vaccine phòng Covid-19 của Pfizer và Modena của Mỹ chưa được nhập về Việt Nam và cũng chưa có cơ chế tiêm dịch vụ đối với những vaccine này.",
+            "score": 0.7234675884246826,
+            "id": "vietnamese_healthcare_715"
+        },
+        {
+            "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+            "score": 0.688607931137085,
+            "id": "vietnamese_healthcare_7879"
+        },
+        {
+            "text": "Câu hỏi: Trẻ mắc bệnh thủy đậu mẹ cho con bú nên kiêng ăn gì?\nTrả lời: Bé bị thủy đậu nên mẹ tiếp tục cho bé bú và không cần ăn kiêng gì.",
+            "score": 0.620866596698761,
+            "id": "vietnamese_healthcare_2290"
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn tiêm vaccine Covid-19 thì tiêm ở đâu? Chi phí cho mỗi liều vaccine là bao nhiêu?\nTrả lời: Hiện tại chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu thuộc diện được tiêm theo chính sách thì có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+            "score": 0.619135856628418,
+            "id": "vietnamese_healthcare_4969"
+        },
+        {
+            "text": "Câu hỏi: Cần làm gì với biến chủng Omicron?\nTrả lời: 3. Cần làm gì với biến chủng Omicron?",
+            "score": 0.6128978729248047,
+            "id": "vietnamese_healthcare_40044"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Tôi 50 tuổi, bị bệnh hẹp mạch vành, hiện tại đang uống một số các loại thuốc, trong đó có loại chống đông, vậy tôi có tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Trường hợp bệnh lý của anh/chị hiện chưa ổn định và đang dùng thuốc chống đông sẽ cần phải hoãn tiêm chủng vaccine Covid-19 trong đợt này và chờ hướng dẫn tiêm tại tuyến bệnh viện để đảm bảo an toàn trong thời gian tới.",
+    "answer": "Nếu bệnh mạch vành của bạn **đang ổn định**, dù đang dùng thuốc chống đông máu hằng ngày hoặc đã đặt stent, bạn **vẫn có thể tiêm vaccine Covid-19**.\n\nTuy nhiên:\n\n- Nên được bác sĩ khám và đánh giá trực tiếp trước khi tiêm.\n- Nên tiêm tại bệnh viện hoặc cơ sở y tế có khả năng cấp cứu ban đầu, dưới sự giám sát chặt chẽ của nhân viên y tế.\n- Nếu bệnh tim mạch **chưa ổn định**, có thể cần hoãn tiêm.\n- Thông tin được cung cấp chưa đủ để xác định loại vaccine cụ thể phù hợp hoặc có nên tự điều chỉnh thuốc trước/sau tiêm; bạn không nên tự ngừng thuốc chống đông mà cần hỏi bác sĩ đang điều trị.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị hẹp mạch vành đang sử dụng thuốc chống đông máu hàng ngày. Cho tôi hỏi là tình trạng như tôi có chích vaccine ngừa Covid-19 được không?\nTrả lời: Với bệnh lý mạch vành ổn định bạn vẫn có thể tiêm chủng vaccine Covid-19 bình thường.",
+            "score": 0.7183682322502136,
+            "id": "vietnamese_healthcare_7300",
+            "rerank_score": 0.9998974800109863
+        },
+        {
+            "text": "Câu hỏi: Bị hẹp động mạch vành (75-80%) có tiêm vaccine Covid-19 được không?\nTrả lời: Trường hợp của anh không nói rõ là hẹp động mạch vành (75-80%) nhưng có điều trị thuốc kèm theo hay không?Nếu bệnh chưa ổn định đang dùng thuốc thì hoãn tiêm vaccine Covid-19.",
+            "score": 0.640740156173706,
+            "id": "vietnamese_healthcare_7496",
+            "rerank_score": 0.9985954165458679
+        },
+        {
+            "text": "Câu hỏi: Xin bác sĩ cho hỏi: người 65 tuổi đang có van tim nhân tạo do hẹp van 2 lá, hở van 3 lá; uống thuốc chống đông máu mỗi ngày thì có nên tiêm vaccine không?\nTrả lời: Đối với trường hợp như bạn hỏi, nếu bệnh lý tim mạch đã ổn định, hiện đang uống thuốc chống đông máu hàng ngày vẫn có thể tiêm chủng vaccine Covid-19. Tuy nhiên, bạn cần cẩn trọng khi tiêm chủng dưới sự giám sát chặt chẽ của nhân viên y tế, cần tiêm chủng trong bệnh viện hoặc cơ sở y tế đủ năng lực cấp cứu ban đầu. Bác sĩ sẽ đánh giá trực tiếp tình trạng sức khỏe hiện tại trước khi chỉ định tiêm chủng.",
+            "score": 0.6940978765487671,
+            "id": "vietnamese_healthcare_8140",
+            "rerank_score": 0.9980559349060059
+        },
+        {
+            "text": "Câu hỏi: Tôi có đặt stent mạch vành, đang dùng thuốc, nếu chích ngừa Covid-19 nên tiêm loại vaccine nào, tiêm của AstraZeneca có được không? Nếu có tác dụng phụ sau tiêm thì có cách gì phòng ngừa trước được không?\nTrả lời: Đối với trường hợp đặt stent mạch vành của chị, hiện tại đang sử dụng thuốc chống đông, thì tốt nhất chị nên tiêm chủng tại bệnh viện, nơi có đủ điều kiện hồi sức cấp cứu ban đầu.",
+            "score": 0.6759353280067444,
+            "id": "vietnamese_healthcare_6732",
+            "rerank_score": 0.9974727034568787
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 54 tuổi, đã đặt sten tim động mạch vành, hiện uống thuốc duy trì theo đơn của bác sĩ. Trường hợp của tôi muốn tiêm vaccine Covid-19 có được không? Khi tiêm có duy trì uống thuốc không?\nTrả lời: Anh đang có bệnh lý về tim mạch và sử dụng những loại thuốc chống đông máu. Trong trường hợp này, anh có thể tiêm ngừa vaccine Covid-19 bình thường.",
+            "score": 0.6813468933105469,
+            "id": "vietnamese_healthcare_5723",
+            "rerank_score": 0.9963482022285461
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

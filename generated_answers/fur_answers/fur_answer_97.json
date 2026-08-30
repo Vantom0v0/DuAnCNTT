@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Thưa bác sĩ, hôm nay con ngủ rất bình thường nhưng không hiểu sao đêm hôm qua con trằn trọc tới 12 giờ mới ngủ được. Tới 3 giờ con lại bị thức giấc. Con cố ngủ lại nhưng không được và thức tới sáng luôn. Người con mệt mỏi, nhức đầu và đêm nay cũng thế. Con vẫn thức giấc nửa đêm không ngủ lại được. Theo bác sĩ nên làm sao để cải thiện nhanh tình trạng này ạ?",
+    "ground_truth": "Chào cháu,\nTrước hết cháu có thể điều chỉnh lại giờ giấc, sinh hoạt của mình như: Không thức quá khuya, không dùng chất kích thích như trà, café, loại bỏ các yếu tố stress, ăn uống đầy đủ... Nếu không cải thiện cháu nên đến khám bác sĩ chuyên khoa về tâm thần kinh.",
+    "answer": "Tình trạng trằn trọc, thức giấc giữa đêm và không ngủ lại được có thể do nhiều nguyên nhân, như vệ sinh giấc ngủ chưa phù hợp, lịch ngủ ban ngày, chế độ ăn uống hoặc một vấn đề sức khỏe tiềm ẩn. Với thông tin hiện có, chưa thể xác định nguyên nhân cụ thể của bạn.\n\nBạn có thể thử:\n\n- Duy trì giờ đi ngủ và thức dậy đều đặn.\n- Tắt các thiết bị điện tử trước khi ngủ.\n- Xem lại giấc ngủ ban ngày, đặc biệt là giấc ngủ buổi chiều có quá gần giờ ngủ tối hay không.\n- Theo dõi các yếu tố có thể ảnh hưởng đến giấc ngủ và chế độ ăn uống.\n- Nếu đã nằm lâu mà vẫn không ngủ được, không nên tiếp tục cố ép mình ngủ; hãy giữ môi trường yên tĩnh và quay lại giường khi buồn ngủ hơn.\n\nNếu tình trạng mất ngủ vẫn tiếp diễn dù đã thực hiện các biện pháp trên, bạn nên đi khám để bác sĩ hỏi về thói quen sinh hoạt, thăm khám và tìm nguyên nhân tiềm ẩn; khi cần, bác sĩ có thể chỉ định các xét nghiệm hoặc nghiên cứu giấc ngủ. Nếu trước đây bạn từng bị trầm cảm hoặc mất ngủ kéo dài, nên khám lại chuyên khoa tâm thần kinh.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: bé nhà em được 7,5 tháng tuổi. Khoảng 2 tuần gần đây bé bị trằn trọc khi ngủ đêm, đêm thức dậy khoảng 5 lần, khóc to và ko tự ngủ lại được. Dù trước đó bé ngủ đêm tốt. Bé cân nặng 9kg, được bổ sung vitamin D3 từ lúc sơ sinh. Em muốn hỏi tình trạng này có bất thường không và em cần làm gì để giúp con tìm lại được giấc ngủ ngon. Cảm ơn bác sĩ.\nTrả lời: Chào bạn, nguyên nhân gây khó ngủ cho bé có rất nhiều như nóng ( bạn cần kiểm tra cổ gáy, tóc, lưng bé có mồ hôi không), buồn tiểu, đói, giật mình... Bạn cần kiểm soát các yếu tố trên. Ngoài ra bạn nên xem lại giấc ngủ ngày của bé có nhiều không, giấc ngủ buổi chiều có cách buổi tối đủ xa không... Thân mến.",
+            "score": 0.5329763889312744,
+            "id": "vietnamese_medical_qa_5044",
+            "rerank_score": 0.9897201657295227
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! 2 ngày nay cháu bị mất ngủ, 6h sáng mới ngủ đc và khoảng 12 rưỡi trưa thức dậy. Nhưng khi dậy cảm thấy cơ thể vẫn rất mệt, gần như là “ngủ như không”. Đêm nay cháu mệt vì 2 ngày vừa rồi nên ngủ được từ 10 rưỡi nhưng kết quả vẫn lại 12 rưỡi đêm tỉnh dậy, cháu cố ngủ lại mà không được.\nTrước đây cháu bị mất ngủ 1 thời gian dài triệu chứng y như này. Thời gian đầu ngủ 5-6 tiếng về sau giảm dần đi, đỉnh điểm nhất là 1 ngày ngủ đc khoảng 3 tiếng. Cháu từng đi khám và bị trầm cảm, bác sĩ cũng kê đơn thuốc cho cháu. Cháu điều trị theo thuốc khoảng 3 tháng thì nhà cháu muốn ngừng và chuyển sau bấm huyệt. Sau khi bấm huyệt và không dùng thuốc cháu ngủ được nhưng càng ngày càng ngủ nhiều. 1 ngày có thể ngủ tới 12-13 tiếng, nhưng đến 3 ngày nay tự nhiên cháu lại mất ngủ. Bác sĩ cho cháu hỏi là tình trạng như này có nghiêm trọng không và cháu có cần phải đi khám lại không ạ? Cháu cảm ơn bác sĩ.\nTrả lời: Mất ngủ có thể là do rất nhiều nguyên nhân khác nhau. Tuy nhiên sau khi cháu sử dụng biện pháp bấm huyệt tình trạng mất ngủ chỉ cải thiện được một thời gian rồi lại trở về như cũ thì cháu nên khám lại bác sĩ chuyên khoa về tâm thần kinh. Bác sĩ sẽ để cháu kiểm tra bằng một số phương pháp như: Điện Não, Điện Cơ, CT Scan, MRI,...để từ đó đưa ra kết luận cuối cùng và phương pháp điều trị.",
+            "score": 0.5263416171073914,
+            "id": "vietnamese_medical_qa_4353",
+            "rerank_score": 0.9887557625770569
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em ngủ không sâu giấc, giấc ngủ ngắn, thức nhiều lần trong đêm, trằn trọc khó vào giấc ngủ. Tình trạng từ sơ sinh đến nay 6 tháng. Bé bú mẹ, bổ sung D3 từ 2 tháng vẫn không cải thiện. Vậy bác sĩ cho em hỏitrẻ ngủ không sâu giấc, trằn trọc khó ngủ kéo dài phải làm sao?Em cảm ơn bác sĩ. Đỗ Thị Thanh Thảo(1989) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Chung Thị Mộng Thuý -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Việctrẻ ngủ không sâu giấc, giấc ngủ ngắn, thức nhiều lần trong đêm,trằn trọc khó vào giấc ngủdo nhiều nguyên nhân, không chỉ đơn thuần dothiếu vitamin D3. Tình trạng trẻ thiếu vi chất như sắt, kẽm, canxi, magie,...cũng có triệu chứng tương tự. Đôi khi trẻ bú không đủ no hoặc trẻ có tình trạng trào ngược dạ dày thực quản gây khó chịu làm trẻ ngủ không sâu,... Nếu tình trạng con bạn bị như vậy 6 tháng nay mà trẻ chậm tăng cân thì bạn nên cho con đến bác sĩ Nhi khám tìm nguyên nhân và điều trị cụ thể.",
+            "score": 0.5609233379364014,
+            "id": "medical_vietnamese_qa_5784",
+            "rerank_score": 0.975846529006958
+        },
+        {
+            "text": "Câu hỏi: Khi nào cần gặp bác sĩ?\nTrả lời: 3. Khi nào cần gặp bác sĩ?\nNếu bạn đã thực hiện tất cả các bước cần thiết để cải thiện vệ sinh giấc ngủ mà vẫn thấy mình trằn trọc không ngủ được vào ban đêm thì đã đến lúc đi khám bác sĩ. Họ sẽ thực hiện thăm khám và hỏi bạn những câu hỏi về lối sống, thói quen ngủ của bạn. Họ cũng có thể thực hiện một loạt các xét nghiệm, chẳng hạn như nghiên cứu về giấc ngủ, để xác định xem có các tình trạng bệnh lý tiềm ẩn hay không. Nếu bác sĩ đã chẩn đoán bạn mắc một tình trạng có thể gây ra giấc ngủ kém, bước tiếp theo là tìm một kế hoạch điều trị. Tóm lại, trằn trọc không ngủ được vào ban đêm có thể làm giảm chất lượng giấc ngủ và chất lượng cuộc sống. Có nhiều lý do khiến đêm trằn trọc khó ngủ , bao gồm vệ sinh giấc ngủ kém, chế độ ăn uống không cân bằng và thậm chí cả các tình trạng bệnh lý tiềm ẩn. Thực hành vệ sinh giấc ngủ tốt, chẳng hạn như tắt thiết bị điện tử và giữ một lịch trình ngủ đều đặn, có thể giúp bạn ngừng trằn trọc nhiều vào ban đêm. Nếu bạn lo lắng rằng một tình trạng bệnh lý tiềm ẩn đang khiến bạn trằn trọc cả đêm, hãy lên lịch khám với bác sĩ để được trợ giúp thêm.",
+            "score": 0.5759533047676086,
+            "id": "vietnamese_healthcare_73727",
+            "rerank_score": 0.8686249256134033
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ ơi cho em hỏi, em có con gái năm nay 22 tuổi, cháu rất hay bị đau đầu và mất ngủ, có đêm cháu chỉ ngủ được 2 đến 4 tiếng, khoảng một tuần nay cháu không nói năng gì, ai hỏi gì thì trả lời, nằm suốt ngày, đến bữa thì dậy nấu ăn. Bác sĩ cho em hỏi đây có phải dấu hiệu của bệnh trầm cảm không, em lo quá.\nTrả lời: Chào chị, với những dấu hiệu chị miêu tả thì con gái chị có khả năng bị trầm cảm. Mất ngủ triền miên không chỉ ảnh hưởng nghiêm trọng tới sức khỏe, chất lượng cuộc sống của người bệnh mà còn có mối liên hệ mật thiết với bệnh trầm cảm. Để điều trị chứng mất ngủ triền miên thì ngoài việc dùng thuốc điều trị làm giảm triệu chứng, các bác sĩ có thể đề nghị thực hành liệu pháp hành vi nhận thức. Bệnh nhân sẽ nói chuyện với bác sĩ tâm lý về các vấn đề của mình.\nDo đó, ngoài việc bên cạnh, động viên tinh thần, hướng con đến những hoạt động tích cực thì chị nên đưa con đến gặp bác sĩ tâm lý càng sớm càng tốt.",
+            "score": 0.5653551816940308,
+            "id": "vietnamese_medical_qa_3376",
+            "rerank_score": 0.8369311094284058
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

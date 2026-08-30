@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Bệnh nhân nam 65 tuổi đau ngực, nhưng tỉnh táo, đau dữ dội vùng ngực trái, tim 120 lần/phút, HA 90/60 mmHg. Bác sĩ cho em hỏiđau ngực trái dữ dội có nguy hiểm không?Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn, Với câu hỏi “Đau ngực trái dữ dội có nguy hiểm không?”, bác sĩ giải đáp như sau: Đau ngực trái dữ dội là một triệu chứng cấp cứu bất kể là khi đó các triệu chứng mạch, huyết áp của bệnh nhân có bất thường hay không cũng đều cần được khám, chẩn đoán và xử trí ngay lập tức. Có rất nhiều bệnh lý gây đau ngực cấp trong đó có những bệnh lý nguy hiểm như nhồi máu cơ tim cấp, bóc tách động mạch chủ cấp, tràn khí màng phổi cấp,... Trường hợp bạn nêu vừa có đau ngực trái dữ dội lại có rối loạn về huyết động (mạch nhanh, huyết áp xu hướng tụt) vì vậy cần phải đi khám ngay lập tức tại các cơ sở y tế lớn để được chẩn đoán, xử trí kịp thời.",
+    "answer": "Đau ngực trái dữ dội ở bệnh nhân nam 65 tuổi có thể nguy hiểm, vì tuổi cao và triệu chứng đau ngực liên quan đến nhiều bệnh lý nghiêm trọng; nhịp tim 120 lần/phút và huyết áp 90/60 mmHg càng cần được đánh giá khẩn cấp. Gia đình nên đưa bệnh nhân đến bệnh viện hoặc cấp cứu ngay để bác sĩ thăm khám và thực hiện các xét nghiệm cần thiết như điện tim, xét nghiệm máu, siêu âm tim, X-quang ngực nhằm xác định nguyên nhân và điều trị phù hợp.",
+    "evidence": [
+        "Tất cả mọi người đều có nguy cơ bị đau ngực, đặc biệt là người cao tuổi và những đối tượng có nhiều thói quen sống không lành mạnh như hút thuốc lá, ăn uống thiếu chất dinh dưỡng...",
+        "Ngoài ra, có quá nhiều bệnh lý nguy hiểm liên quan đến triệu chứng đau ngực.",
+        "Vì vậy, bác sĩ khuyến nghị mọi người nên mau chóng đến bệnh viện để được kiểm tra, thậm chí là cấp cứu nếu cơ thể bộc lộ bất kỳ dấu hiệu nào như sau:Dấu hiệu điển hình gồm: Khó chịu vùng ngực: nghẹn, đè nặng, xoắn vặn, đau vùng giữa ngực trên vài phút; Đau lan: lên vai, cánh tay, hàm dưới, sau lưng hoặc thượng vị; Dấu hiệu khác: khó thở, vã mồ hôi, tái xanh, buồn nôn, đau đầu, lơ mơ, không tỉnh táo.",
+        "Trả lời: Chào chị, triệu chứng chị mô tả kèm với độ tuổi của chị, có thể là dấu hiệu cơn đau thắt ngực, có thể nguy hiểm, chị cần đến khám với bác sĩ chuyên khoa Tim mạch để có chẩn đoán chính xác chị nhé,",
+        "Đau tức ngực trái là triệu chứng của nhiều bệnh lý như: Tim mạch, bệnh phổi - màng phổi, trào ngược dạ dày - thực quản, đau thần kinh hoặc cơ liên sườn, rối loạn thần kinh thực vật,...Tùy thuộc vào giới tính, độ tuổi, các thói quen và bệnh lý kèm: Hút thuốc lá, rượu bia, béo phì, đái đường, tăng mỡ máu, tăng huyết áp,...để có hướng chẩn đoán.",
+        "Vì vậy, bạn nên đến Bệnh viện để được bác sĩ thăm khám và thực hiện một số xét nghiệm cần thiết (xét nghiệm máu, điện tim, siêu âm tim, X - quang ngực,...) để xác định chẩn đoán và có phương pháp điều trị thích hợp."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Dạo này, tôi hay tức ngực bên trái, đôi lúc cảm thấy mệt, khó thở, đau đầu, huyết áp khoảng 120/70mmHg, nhịp tim dao động từ 49 lần/phút đến khoảng 70 lần/phút. Tôi có đisiêu âm tim Dopplermàu thì kết luận: Chức năng tâm thu thất trái bình thường, EF=70% (13/10/20). Xin hỏi bác sĩtức ngực trái kèm khó thở là bệnh gì?Tôi cảm ơn bác sĩ. Nguyễn Tiến Minh Trí(1974) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Phạm Văn Hùng- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Số đo huyết áp 120/70 mmHg là chỉ số huyết áp trong giới hạn bình thường; tần số tim trung bình là 60 - 100 lần/p, có thể giảm ít khi ngủ; siêu âm tim có chức năng tâm thu thất trái EF 70% là biểu hiện chức năng co bóp thất trái bình thường, tuy nhiên không rõ thông tin về tình trạng van tim, rối loạn vận động thành tim và hình thái buồng tim như thế nào. Đau tức ngực trái là triệu chứng của nhiều bệnh lý như: Tim mạch, bệnh phổi - màng phổi, trào ngược dạ dày - thực quản, đau thần kinh hoặc cơ liên sườn, rối loạn thần kinh thực vật,...Tùy thuộc vào giới tính, độ tuổi, các thói quen và bệnh lý kèm: Hút thuốc lá, rượu bia, béo phì, đái đường, tăng mỡ máu, tăng huyết áp,...để có hướng chẩn đoán. Vì vậy, bạn nên đến Bệnh viện để được bác sĩ thăm khám và thực hiện một số xét nghiệm cần thiết (xét nghiệm máu, điện tim, siêu âm tim, X - quang ngực,...) để xác định chẩn đoán và có phương pháp điều trị thích hợp.",
+                "score": 0.5793687105178833,
+                "id": "medical_vietnamese_qa_12020",
+                "rerank_score": 0.9922468662261963
+            },
+            {
+                "text": "Câu hỏi: Triệu chứng đau ngực có nguy hiểm không?\nTrả lời: 2. Triệu chứng đau ngực có nguy hiểm không?\nTất cả mọi người đều có nguy cơ bị đau ngực, đặc biệt là người cao tuổi và những đối tượng có nhiều thói quen sống không lành mạnh như hút thuốc lá, ăn uống thiếu chất dinh dưỡng... Điều này không chỉ ảnh hưởng đến sức khỏe tổng thể mà cả cuộc sống của người bệnh cũng phải gánh chịu tác động nặng nề. Ngoài ra, có quá nhiều bệnh lý nguy hiểm liên quan đến triệu chứng đau ngực. Vì vậy, bác sĩ khuyến nghị mọi người nên mau chóng đến bệnh viện để được kiểm tra, thậm chí là cấp cứu nếu cơ thể bộc lộ bất kỳ dấu hiệu nào như sau:Dấu hiệu điển hình gồm: Khó chịu vùng ngực: nghẹn, đè nặng, xoắn vặn, đau vùng giữa ngực trên vài phút; Đau lan: lên vai, cánh tay, hàm dưới, sau lưng hoặc thượng vị; Dấu hiệu khác: khó thở, vã mồ hôi, tái xanh, buồn nôn, đau đầu, lơ mơ, không tỉnh táo. Đau ngực có nhiều tính chất đau khác nhau tùy thuộc vào bệnh cảnh của người bệnh Ở phụ nữ, người lớn tuổi, tiểu đường, đôi khi không có các dấu hiệu đau ngực điển hình trên, mà chỉ biểu hiện triệu chứng: Đau vùng ngực, nóng rát hoặc khó tiêu đầy hơi; Khó chịu vùng lưng, cằm, cổ hoặc vai; Khó thở; Nôn hoặc buồn nôn. Bên cạnh đó, khi cơn đau thắt ngực đột ngột phát sinh không rõ nguyên nhân, bạn vui lòng tham khảo ý kiến bác sĩ. Vì cơ địa mỗi người là khác nhau, nên việc tham vấn y khoa có thể giúp bạn lựa chọn giải pháp đối phó phù hợp nhất.",
+                "score": 0.585191011428833,
+                "id": "vietnamese_healthcare_14989",
+                "rerank_score": 0.9849859476089478
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Em bị đau nhói ở vùng ngực trái, khoảng 2-3 phút nhói 1 cái. người mệt mỏi. Không biết là triệu chứng của vấn đề gì?\nTrả lời: chào bạn,\ntrong thời gian ngắn 2-3 phút đau 1 cái, vậy tần suất cũng lớn, khuyên bạn nên đi khám tim mạch để siêu âm doppler tim và đo điện tim, có thể chụp X-quang phổi để đánh giá tình trạng hoạt động của tim bạn như thế nào nhé. Với tuổi bạn trẻ thì ít nghĩ tới bệnh lý nguy hiểm, có thể là rối loạn thần kinh tim. Để yên tâm thì nên đi kiểm tra bạn nhé.\nThân ái !",
+                "score": 0.5796440243721008,
+                "id": "vietnamese_medical_qa_6067",
+                "rerank_score": 0.9736596941947937
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, tôi thường hay bị tức ngực, từ vùng ngực trái sau lan lên hàm dưới và vai trái rất khó chịu, mỗi lần bị trong vòng 5 đến 7 phút, xin hỏi bác sĩ đó là bệnh gì có nguy hiểm không ạ?\nTrả lời: Chào chị, triệu chứng chị mô tả kèm với độ tuổi của chị, có thể là dấu hiệu cơn đau thắt ngực, có thể nguy hiểm, chị cần đến khám với bác sĩ chuyên khoa Tim mạch để có chẩn đoán chính xác chị nhé,",
+                "score": 0.6229643821716309,
+                "id": "vietnamese_medical_qa_4331",
+                "rerank_score": 0.9657579064369202
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, \nTôi giới tính Nam, 60 tuổi sức khỏe bình thường, không bệnh mãn tính. Huyết áp 106/60, nhịp tim 80. \nGần đây tôi bị đánh trống ngực , tim đập nhanh , lớp da chổ tim phập phồng. Vài phút thì tự hết . Ngày 3,4 lần dù không làm gì nặng, đang ngồi thì bị.\nXin bác sĩ chẩn đoán và  cho lời khuyên. Cám ơn.\nTrả lời: Chào anh\n Nguy cơ biến cố tim mạch gồm các yếu tố sau\nTuổi càng cao nguy cơ càng cao\nTăng HA huyết áp càng cao nguy cơ càng cao\nTiểu đường , rối loạn chuyển hóa lipid (mỡ máu)\nSuy thận \nAnh mới xuất hiện những cơn nhịp nhanh tức là có biến cố tim mạch (rói loạn nhịp tim) tuy các triệu chứng nhẹ và tự ổn định\nỞ tuổi của anh nguy cơ biến cố tim mạch  là có\nHuyết áp 106/60 là tốt nguy cơ biến cố là thấp\nTiểu đường và mỡ máu chưa khảo sát tuy nhiên lứa tuổi của anh rối loạn cá yếu tố này là đa số\nVì vậy anh cần đi khám tim mạch, và làm các xét nghiệm sau \nSinh hóa máu Glucose (đường máu )\n                           Cholesterol\n                            HDL Cholesterol ,LDL Cholesterol\n                            Triglicerit\n                            Ure Creatinin\n  Nếu có các triệu chứng rối loạn dựa váo kết quả bác sĩ kê đơn thuốc mục đích để dự phòng các biến cố tim mạch\nCám ơn anh",
+                "score": 0.587242603302002,
+                "id": "vietnamese_medical_qa_5276",
+                "rerank_score": 0.7896926999092102
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Em mấy nay hay ợ hơi, ợ chua buồn nôn, khó thở, người mệt mỏi, chướng bụng, rát khó chịu ở vùng trên rốn và xung quanh bụng. Em đi phân đen và mỗi lần đi cũng khó khăn. Vậy bác sĩ cho em hỏiợ hơi, ợ chua kèm đi ngoài phân đen là bệnh gì?Có phải xuất huyết dạ dày không thưa bác sĩ? Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Những triệu chứng ban kể có thể chia làm hai vấn đề: Nóng rát khó chịu vùng trên rốn, ợ hơi, ợ chua, cảm giác khó thở, đầy chướng bụng: Đó là những biểu hiện tương đối điển hình của bệnh lý dạ dày, trào ngược thực quản. Còn mệt và đại tiện phân đen: Là dấu hiệu cảnh báo của xuất huyết đường tiêu hóa trên, tuy nhiên cũng có nhiều vấn đề có thể làm cho phân có màu đen như ăn tiết canh, một số thuốc có sắt,... Phân đen do xuất huyết tiêu hóa thường nát, dễ đi, phân có mùi khẳn đặc trưng Vì vậy bạn cần đi khám sớm, bác sĩ cần làm một số xét nghiệm về máu xem có bị mất máu không, xét nghiệm phân xem có hồng cầu trong phân không,... và đặc biệt là nội soi tiêu hóa trên cho bạn để xác định bệnh, nguyên nhân và mức độ bệnh. Trường hợp nếu có chảy máu tiêu hóa thật thì qua nội soi bác sĩ cũng có thể can thiệp để cầm máu. Bạn nên đi khám càng sớm càng tốt.",
+    "answer": "Ợ hơi, ợ chua, buồn nôn, chướng bụng và rát vùng trên rốn có thể liên quan đến bệnh lý dạ dày, nhưng đi ngoài phân đen là triệu chứng thường gặp của xuất huyết tiêu hóa trên, đặc biệt ở dạ dày; chưa thể khẳng định bạn bị xuất huyết dạ dày nếu chưa thăm khám và làm xét nghiệm. Vì bạn có phân đen kèm mệt mỏi, khó chịu bụng và khó đi ngoài, bạn nên mau chóng đến bệnh viện có chuyên khoa tiêu hóa để được kiểm tra, xác định nguyên nhân và điều trị, không nên tự điều trị tại nhà.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Xuất huyết dạ dày là tình trạng tổn thương mạch máu tại dạ dày như viêm loét, gây chảy máu trong dạ dày.",
+        "Tùy mức độ chảy máu mà có các biểu hiện triệu chứng khác nhau như ói máu, đi cầu phân đen.",
+        "Để xác định bạn có bị chảy máu đường tiêu hóa cần phải được thăm khám và làm 1 số xét nghiệm, cũng như xã định nguyên nhân gây ra đau bụng, tiêu phân đen của bạn.",
+        "Trả lời: Chào bạn, Với câu hỏi “Người bị viêm dạ dày đi ngoài phân đen có sao không?”, bác sĩ giải đáp như sau: Đi cầu ra phân đen là 1 trong những triệu chứng phổ biến của xuất huyết đường tiêu hóa trên đặc biệt hay xảy ra ở dạ dày, tuy nhiên bác sĩ cũng sẽ phân biệt và xác định tính chất phân cũng như kết hợp với các triệu chứng lâm sàng và cận lâm sàng khác trước khi kết luận có xuất huyết tiêu hóa.",
+        "Do đó, nếu bạn thấy đi cầu phân đen, mệt mỏi, đau bụng, chóng mặt thì cần phải đến gặp bác sĩ ngay, không nên tự điều trị tại nhà.",
+        "Bác sĩ đề nghị mình mau chóng đến các bệnh viện có chuyên khoa tiêu hóa để được thăm khám và làm các cận lâm sàng cần thiết, nhằm chẩn đoán và điều trị chính xác."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Em mấy nay hay ợ hơi, ợ chua, buồn nôn, khó thở, người mệt mỏi, chướng bụng, rát, khó chịu ở vùng trên rốn và xung quanh bụng. Em đi phân đen và mỗi lần đi cũng khó khăn. Vậy bác sĩ cho em hỏiợ hơi, ợ chua kèm chướng bụng có sao không?Có phải em bị xuất huyết dạ dày không? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Xuất huyết dạ dày là tình trạng tổn thương mạch máu tại dạ dày như viêm loét, gây chảy máu trong dạ dày. Tùy mức độ chảy máu mà có các biểu hiện triệu chứng khác nhau như ói máu, đi cầu phân đen. Bệnh có thể chảy máu rỉ ra gây thiếu máu mạn, cũng có thể chảy máu cấp gây mất máu cấp. Để xác định bạn có bị chảy máu đường tiêu hóa cần phải được thăm khám và làm 1 số xét nghiệm, cũng như xã định nguyên nhân gây ra đau bụng, tiêu phân đen của bạn. Bạn có thể đến bệnh viện Vinmec để được thăm khám và tư vấn thêm.",
+                "score": 0.7625565528869629,
+                "id": "medical_vietnamese_qa_10459",
+                "rerank_score": 0.9999514818191528
+            },
+            {
+                "text": "Câu hỏi: Em bị ợ chua, hay bị đầy hơi, chướng bụng làm khó thở, mệt mỏi. Cũng được 1 - 2 năm, tuy nhiên dạo gần đây bị liên tục rất nhiều ngày, mỗi ngày có khi 10 - 12 tiếng. Đặc biệt, em có cảm giác mệt, khó thở, tức ở bụng và lồng ngực rất khó chịu. Vậy bác sĩ cho em hỏihay ợ chua kèm tức bụng là bệnh gì?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bạn có thể là bị hội chứng trào ngược dạ dày - thực quản, để giải quyết triệt để tình trạng này bạn nên đến viện khám bác sĩ chuyên khoa tiêu hóa và nội soi dạ dày chẩn đoán chính xác.",
+                "score": 0.6106758117675781,
+                "id": "medical_vietnamese_qa_10447",
+                "rerank_score": 0.99910968542099
+            },
+            {
+                "text": "Câu hỏi: Em bị viêm dạ dày có đi ra ngoài phân đen mà không nôn ra máu. Xin hỏi bác sĩngười bị viêm dạ dày đi ngoài phân đen có sao không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Người bị viêm dạ dày đi ngoài phân đen có sao không?”, bác sĩ giải đáp như sau: Đi cầu ra phân đen là 1 trong những triệu chứng phổ biến của xuất huyết đường tiêu hóa trên đặc biệt hay xảy ra ở dạ dày, tuy nhiên bác sĩ cũng sẽ phân biệt và xác định tính chất phân cũng như kết hợp với các triệu chứng lâm sàng và cận lâm sàng khác trước khi kết luận có xuất huyết tiêu hóa. Nếu xuất huyết mà không được xử trí kịp thời và đúng lúc có thể đưa đến mất máu, trụy mạch và tử vong. Do đó, nếu bạn thấy đi cầu phân đen, mệt mỏi, đau bụng, chóng mặt thì cần phải đến gặp bác sĩ ngay, không nên tự điều trị tại nhà.",
+                "score": 0.677716076374054,
+                "id": "medical_vietnamese_qa_10560",
+                "rerank_score": 0.9950829744338989
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ! Em năm nay 21 tuổi, giới tính nữ.\nDạo gần đầy em có xuất hiện các triệu chứng như: chướng bụng, đầy hơi, buồn nôn nóng rát dạ dày sau khi ăn, đau vùng bụng ngay rốn và trên rốn. Không cảm giác thấy đói, kèm đi ngoài màu đen. Cảm giác khó thở, thở dốc. Xin bác sĩ tư vấn giúp em và hướng điều trị với ạ. Em cảm ơn bác sĩ!\nTrả lời: Chào em, theo như mô tả của em, hiện tại mình đang có vấn đề ở đường tiêu hóa, mà cụ thể là dạ dày. Thường hay gặp nhất là tình huống viêm loét dạ dày. Tuy nhiên, mình có đi tiêu phân đen, không loại trừ được tình trạng đang có xuất huyết rỉ rả tại dạ dày hoặc ngoài dạ dày. \n  Bác sĩ đề nghị mình mau chóng đến các bệnh viện có chuyên khoa tiêu hóa để được thăm khám và làm các cận lâm sàng cần thiết, nhằm chẩn đoán và điều trị chính xác.\n  Hiện tại việc đi lại, khám chữa bệnh đã thuận tiện hơn nhiều. Em thu xếp sớm nhé.",
+                "score": 0.6731581091880798,
+                "id": "vietnamese_medical_qa_5310",
+                "rerank_score": 0.9946910738945007
+            },
+            {
+                "text": "Câu hỏi: Năm nay em 22 tuổi, em bị viêm loét dạ dày lâu rồi. Đợt này lại đau lại em có đi tái khám và mua thuốc về uống. Nhưng uống thuốc vào em lại luôn bị đi ngoài phân màu đen, vậyngười viêm loét dạ dày đi ngoài phân đen có nguy hiểm không?Em xin cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Người viêm loét dạ dày đi ngoài phân đen có nguy hiểm không?”, bác sĩ giải đáp như sau: Viêm loét dạ dày là bệnh đường tiêu hóa trên khá phổ biến hiện nay. Bệnh này không nguy hiểm nhưng có ảnh hưởng tới vấn đề sinh hoạt hàng ngày. Nguyên nhân gây viêm loét dạ dày thường có rất nhiều như nhiễm vi khuẩn Helicobacter Pylori, sử dụng thuốc giảm đau kéo dài nhóm không steroid (NSAID), tăng tiết axit dạ dày, chứng Zollinger-Ellison, chế độ sinh hoạt,... Vì vậy, bạn nên đi khám bác sĩ chuyên khoa Nội Tiêu hóa để được khám và chẩn đoán khi có đi cầu phân đen, tư vấn điều trị và theo dõi cụ thể.",
+                "score": 0.6143802404403687,
+                "id": "medical_vietnamese_qa_10592",
+                "rerank_score": 0.9941060543060303
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

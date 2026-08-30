@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Bác sĩ cho em hỏi, em bị ngứa họng và ho nhiều, cứ bị lạnh cổ là ho nhiều không kiềm chế được, hiện tại em đang tiêm và dùng thuốc kháng sinh được 3 hôm nhưng không thấy hiệu quả, bệnh không đỡ, theo bác sĩ em nên làm như thế nào ạ?",
+    "ground_truth": "Chào em, em nên khám nội soi Tai mũi họng để định hướng chẩn đoán và điều trị thích hợp. Việc dùng kháng sinh hay kháng viêm đường tiêm truyền ngoại viện không được khuyến cáo và nguy hiểm.",
+    "answer": "Các triệu chứng ngứa họng và ho có thể liên quan đến nhiều nguyên nhân như viêm họng mạn tính, trào ngược dạ dày–thực quản hoặc vấn đề khác; chỉ dựa vào thông tin hiện có chưa đủ để xác định bệnh và hướng điều trị. Vì đã dùng thuốc, tiêm kháng sinh 3 ngày nhưng chưa cải thiện, bạn nên đến khám chuyên khoa Tai Mũi Họng, mang theo hồ sơ và các thuốc đã dùng để bác sĩ kiểm tra, có thể làm thêm xét nghiệm nếu cần. Trong thời gian này, bạn có thể súc họng hằng ngày bằng nước muối nhạt hoặc dung dịch sát khuẩn họng; nếu ho kéo dài trên 3 tuần hoặc xuất hiện khó thở, khò khè, nặng ngực thì cần đi khám lại để được đánh giá cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Tôi bị triệu chứng là ngứa cổ họng, mắc ho nhưng lại ho không được, xin bác sĩ tư vấn giúp tôi làm thế nào để điều trị ngứa cổ họng, muốn ho nhưng không được?\nTrả lời: Chào bạn!\nCổ họng là một trong những cơ quan phòng vệ của cơ thể trước các tác động bên ngoài lẫn bên trong. Có nhiều bệnh ở cổ họng gây ra các triệu chứng như ngứa họng, mắc ho, đau rát họng....",
+            "score": 0.7327772378921509,
+            "id": "vietnamese_medical_qa_3188"
+        },
+        {
+            "text": "Câu hỏi: Ho nhiều, rát ngứa cổ họng nguyên nhân do đâu?\nTrả lời: em ho nhiều có thể do tình trạng viêm dạ dày gây trào ngược, em nên tiếp tục uống thuốc ho thảo dược, nếu không cải thiện em nên đi khám để bác sĩ kiểm tra lại cho em nhé.",
+            "score": 0.7139983177185059,
+            "id": "vietnamese_healthcare_7927"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi? Em bị ngứa họng và ho suốt 7 tháng rồi, uống bao nhiêu thuốc tây mà cứ bớt được vài hôm hay một tuần mà mình uống nước đá hay bia lạnh là bị ho lại, triệu chứng là ngứa họng, không sốt, không đau họng. Có cảm giác họng bị sưng lên, lở loét nên rát nhiều lần ho ra cục đờm hình tròn màu trắng xanh có mùi rất tanh, hôi, nhiều lúc thở ra cũng có cảm giác tanh. Mỗi lúc ho là người ra mồ hôi, thở khò khè, thở rít thành tiếng, nhiều đêm thấy hơi nặng ngực, khó thở, hơi chóng mặt. Em cũng bị viêm mũi dị ứng vào bị trào ngược dạ dày. Xin bác sĩ tư vấn giúp em về trường hợp thường tái phát ngứa họng và ho kèm theo thở khò khè, nặng ngực nên điều trị thế nào? Cảm ơn bác sĩ.\nTrả lời: Chào bạn, theo như những triệu chứng bạn ghi nhận thì có thể bạn gặp phải vấn đề loạn cảm họng. Tình trạng loạn cảm họng có thể do nhiều nguyên nhân gây ra, một trong những nguyên nhân thường gặp là trào ngược dạ dày-thực quản.\nCảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Thường tái phát ngứa họng và ho kèm theo thở khò khè, nặng ngực nên điều trị thế nào?” tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+            "score": 0.7001360654830933,
+            "id": "vietnamese_medical_qa_3677"
+        },
+        {
+            "text": "Câu hỏi: bác sĩ cho e hỏi: cổ họng e bị ngứa rát, nổi hột có mua thuốc ở quầy thuốc uống nhưng đỡ rồi lại bị lại là e bị bệnh gì ạh? bệnh có liên qua gì đến bộ phận khác kg?\nTrả lời: Chào bạn, ở tuổi của bạn và như bạn mô tả thì có thể bạn bị viêm họng mạn tính, không biết bạn bảo sau uống thuốc lại bị là nổi hạt thành sau họng hay là bị viêm họng trở lại. bạn nên đến chuyên khoa Tai Mũi Họng để kiểm tra lại nhé. Ngoài ra nên xúc họng nước muối nhạt hoặc dung dịch sát khuẩn họng BM hàng ngày nhé. Chúc bạn nhiều sức khỏe!",
+            "score": 0.6810755729675293,
+            "id": "vietnamese_medical_qa_5738"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị ho gần cả tháng nay mà đi khám bác sĩ ở phòng khám bảo viêm phế quản, cho thuốc em uống mà không bớt, em ho từng cơn kéo dài gần cả tiếng rồi hết, trong cổ họng ngứa và nổi hột nhỏ li ti, khi em cuốn lưỡi thì gai to lên, bác sĩ bảo do virus candida, nó sẽ bớt trong 2 tuần mà đến nay vẫn không bớt, nuốt vướng khó chịu, và ngứa. Vậy bác sĩ cho em hỏi ho kéo dài kèm ngứa cổ họng là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nHo trên 3 tuần là ho kéo dài, nếu bạn đã đi khám và điều trị nhưng chưa đỡ và có tổn thương nghi do Nấm, bạn nên đem toàn bộ hồ sơ các đợt khám trước đến bệnh viện, bác sĩ cần thăm khám và làm thêm một số xét nghiệm khác để chẩn đoán và điều trị cụ thể cho bạn.\nTrân trọng!",
+            "score": 0.6744791269302368,
+            "id": "vietnamese_medical_qa_540"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

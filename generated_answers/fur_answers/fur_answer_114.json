@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Con nuốt nước bọt bình thường, ăn uống cũng không bị cản trở gì. Nhưng cổ họng bên trái dưới hàm của con cảm thấy đau khi gập cổ, xoay cổ, nằm nghiêng người về bên trái, nhưng lại không có nổi hạch. Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì thưa bác sĩ?",
+    "ground_truth": "Chào bạn! Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+    "answer": "Dựa trên thông tin được cung cấp, đau vùng họng/cổ bên trái khi gập, xoay cổ hoặc nằm nghiêng có thể liên quan đến đau cơ hoặc phần mềm vùng cổ. Tuy nhiên, đau họng còn có nhiều nguyên nhân khác, trong đó có thể liên quan đến trào ngược dạ dày–thực quản hoặc các vấn đề tại vùng hầu họng.\n\nChưa có đủ thông tin để xác định chính xác bạn mắc bệnh gì. Bạn nên khám bác sĩ, đặc biệt là chuyên khoa Tai Mũi Họng; bác sĩ có thể thăm khám và nội soi nếu cần để tìm nguyên nhân.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì?\nTrả lời: Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+            "score": 0.7775574326515198,
+            "id": "vietnamese_healthcare_7086",
+            "rerank_score": 0.9998527765274048
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau 1 bên họng, nuốt nước bọt đau đã 3 - 4 ngày nay. Lúc đầu cảm giác là đau 1 lưỡi nghĩ bị nhiệt vì em bị clo vào sát răng nhưng hôm sau lan xuống họng gây khó nuốt. Hôm nay, em soi đèn thì thấy cổ họng có những u nổi trên bề mặt, đau nhiều hơn. Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm nổi u trên bề mặt vùng họng là bệnh gì? Có phải ung thư không thưa bác sĩ? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVới những triệu chứng như bạn mô tả như: Đau một bên lưỡi lan xuống họng, khó nuốt, có những khối u bề mặt vùng họng, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.\nTrân trọng!",
+            "score": 0.6169645190238953,
+            "id": "vietnamese_medical_qa_1205",
+            "rerank_score": 0.9653870463371277
+        },
+        {
+            "text": "Câu hỏi: Đau bên trái họng là bị làm sao?\nTrả lời: Bác sĩ không rõ bạn có dấu chứng trào ngược dạ dày thực quản mà bạn đã được điều trị hay chưa? Vấn đề đau họng ngoài nguyên nhân do trào ngược dạ dày thực quản thì còn do nhiều nguyên khác tại vùng hầu họng, do vậy bạn cần khám thêm chuyên khoa Tai Mũi họng, chuyên khoa Tiêu hóa để xác định rõ nguyên nhân rồi từ đó có hướng điều trị phù hợp.",
+            "score": 0.5674957036972046,
+            "id": "vietnamese_healthcare_3776",
+            "rerank_score": 0.9198259711265564
+        },
+        {
+            "text": "Câu hỏi: Mấy tháng nay, em bị trào ngược dạ dày, khiến cổ họng của em bị vướng, nhưng em vẫn nuốt trôi, vẫn ăn uống bình thường được, vẫn ăn ngon. Ngày hôm qua, em nuốt có hơi đau 1 bên trái. Xin hỏi bác sĩ,đau bên trái họng là bị làm sao?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ. Huỳnh Tuấn Minh(2000) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ chuyên khoa II Phan Thị Minh Hương- Bác sĩ Nội tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bác sĩ không rõ bạn có dấu chứng trào ngược dạ dày thực quản mà bạn đã được điều trị hay chưa? Vấn đề đau họng ngoài nguyên nhân do trào ngược dạ dày thực quản thì còn do nhiều nguyên khác tại vùng hầu họng, do vậy bạn cần khám thêm chuyên khoa Tai Mũi họng, chuyên khoa Tiêu hóa để xác định rõ nguyên nhân rồi từ đó có hướng điều trị phù hợp.",
+            "score": 0.5663946270942688,
+            "id": "medical_vietnamese_qa_8956",
+            "rerank_score": 0.8871709704399109
+        },
+        {
+            "text": "Câu hỏi: Dạ chào bác sĩ! Con muốn hỏi là xung quanh vùng cổ, sau gáy, lên hàm và 2 bên lỗ tai ngay cạnh 2 bên gò má con bị nổi rất nhiều hạch tròn và làm con đau lắm. Về hai bên hàm thì con nhai hay nuốt cũng bị đau. Biến dạng sưng luôn cả mặt, nhất là về cổ sau gáy con bị nổi hạch sưng đau khi nằm xuống ngủ và lăn nhẹ qua cũng làm con mất cả giấc ngủ vì đau. Còn bị nổi dị ứng hột như ban đỏ đầy thân thể và mặt mũi con gây ngứa. Xin hỏi bác sĩ với những triệu chứng như vậy con có nguy cơ mắc bệnh gì? Mong nhận được câu trả lời của bác sĩ. Con xin cảm ơn!\nTrả lời: Chào em! Rất cảm ơn em đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Bác sĩ rất chia sẻ với nỗi đau đớn mà em phải chịu đựng. Qua miêu tả của em thì bác sĩ thấy bệnh của em khá phức tạp, các triệu chứng do em đưa ra chưa đủ để các bác sĩ có thể trả lời em là bệnh gì.",
+            "score": 0.5745476484298706,
+            "id": "vietnamese_medical_qa_3052",
+            "rerank_score": 0.8666390180587769
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

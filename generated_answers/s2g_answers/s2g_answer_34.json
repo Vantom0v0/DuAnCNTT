@@ -1,0 +1,114 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tôi có tiền sử dị ứng thuốc hạ sốt và một vài loại thuốc giảm đau nhưng trước giờ tôi vẫn tiêm được tất cả các loại vaccine cơ bản, cả viêm gan B. Vậy tôi có thể tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Bạn bị dị ứng nhưng không nói rõ triệu chứng, đã từng xử lý như thế nào, có nhập viện hay không. Nếu bạn dị ứng nhẹ chỉ theo dõi, không điều trị gì thì có thể tiêm vaccine Covid-19 tại tuyến bệnh viện. Nếu dị ứng nặng từ phản vệ độ II trở lên sẽ thuộc đối tượng chống chỉ định tiêm chủng vaccine Covid-19.",
+    "answer": "Bạn chưa thể được xác định chắc chắn có tiêm vaccine Covid-19 hay không nếu chưa biết rõ mức độ dị ứng và thuốc đã điều trị. Nếu trước đây chỉ bị mề đay, ngứa và không có khó thở, tím tái, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn hoặc buồn nôn thì vẫn có thể tiêm, nhưng cần được nhân viên y tế theo dõi tại bệnh viện hoặc cơ sở có đủ năng lực cấp cứu. Ngược lại, nếu từng bị phản vệ nặng từ độ II, phải điều trị tại bệnh viện, thì thuộc nhóm chống chỉ định tiêm vaccine Covid-19. Việc trước đây vẫn tiêm được các vaccine khác chưa đủ để kết luận; bạn nên cung cấp đầy đủ thông tin về lần dị ứng cho cơ sở tiêm chủng để được đánh giá.",
+    "evidence": [
+        "Trả lời: Theo thông tin của chị cung cấp, chúng tôi chưa đánh giá được mức độ dị ứng của chị vì theo hướng dẫn của Bộ Y tế, những người có tiền sử phản vệ nặng (phản vệ từ độ II) với bất kỳ tác nhân gì trước đó thuộc nhóm chống chỉ định tiêm vaccine Covid-19.",
+        "Tuy nhiên, nếu mức độ dị ứng của chị chỉ là mề đay, ngứa, .",
+        "và không bị khó thở, tím tái, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn/buồn nôn.",
+        "thì chị vẫn được tiêm chủng nhưng cần cẩn trọng dưới sự giám sát của nhân viên y tế, chị nên tiêm chủng trong bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu.",
+        "Trả lời: Đối với trường hợp của anh/chị, cần cung cấp thêm thông tin về lần dị ứng trước về mức độ và thuốc điều trị để biết mình có được tiêm hay không.",
+        "Với những người có tiền sử dị ứng nặng cần điều trị tại bệnh viện (phản ứng phản vệ độ 2) là chống chỉ định tiêm vaccine Covid-19."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng với thuốc hạ sốt và thuốc giảm đau có thể tiêm vaccine Covid-19 được không?\nTrả lời: Theo thông tin của chị cung cấp, chúng tôi chưa đánh giá được mức độ dị ứng của chị vì theo hướng dẫn của Bộ Y tế, những người có tiền sử phản vệ nặng (phản vệ từ độ II) với bất kỳ tác nhân gì trước đó thuộc nhóm chống chỉ định tiêm vaccine Covid-19. Vì vậy, trong giai đoạn này, chị cần thực hiện các biện pháp phòng dịch hiệu quả khác như thông điệp 5K của Chính phủ. Tuy nhiên, nếu mức độ dị ứng của chị chỉ là mề đay, ngứa, . . . và không bị khó thở, tím tái, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn/buồn nôn. . . thì chị vẫn được tiêm chủng nhưng cần cẩn trọng dưới sự giám sát của nhân viên y tế, chị nên tiêm chủng trong bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu.",
+                "score": 0.6462580561637878,
+                "id": "vietnamese_healthcare_177",
+                "rerank_score": 0.9998657703399658
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng tất cả các loại thuốc giảm đau có chứa paracetamol, declofenac, diantavic... và dị ứng tôm, hải sản không tươi, một số loại thực phẩm không rõ chất. Tôi có phản ứng phù nề mặt, nổi mề đay, sưng cuốn họng, nghẹt thở,..., đã cấp cứu 4-5 lần sau dị ứng tại bệnh viện bằng cách chích thuốc giã dị ứng (không rõ tên thuốc).Vậy tôi có thể tiêm vaccine ngừa Covid-19 được không? Nếu tiêm được thì sau khi tiêm bị sốt phải điều trị thế nào khi tôi không uống được thuốc hạ sốt?\nTrả lời: Trường hợp dị ứng của anh chị theo như mô tả thuộc phản vệ từ độ 2 trở lên, do vậy theo quy định của Bộ Y tế chị không được tiêm vaccine Covid-19. Để bảo vệ bản thân trước dịch bệnh, chị cần tuân thủ nguyên tắc 5K của Bộ Y tế.",
+                "score": 0.6127074956893921,
+                "id": "vietnamese_healthcare_8191",
+                "rerank_score": 0.998217761516571
+            },
+            {
+                "text": "Câu hỏi: Tôi có tiền sử bệnh viêm gan B, đã điều trị cách đây 11 năm. Sau thời gian đó, tôi không đi tái khám lần nào nữa. Như vậy, trước khi tiêm vaccine phòng Covid-19, tôi có cần đi tái khám không? Việc khám sàng lọc trước khi tiêm có biết được tôi còn mắc viêm gan B không?\nTrả lời: Theo như câu hỏi của anh/chị, chúng tôi không biết anh/chị đã bị viêm gan B mãn tính hay cấp tính. Nếu anh/chị bị viêm gan B mãn tính có thể tiêm vaccine Covid-19 khi sức khỏe ổn định. Nếu anh/chị bị viêm gan B cấp tính, sau khi khỏi anh/chị có thể tiêm chủng. Việc khám sàng lọc trước tiêm không thể biết được anh/chị còn mắc viêm gan B hay không, anh/chị cần phải gặp bác sĩ chuyên khoa để được khám và chẩn đoán.",
+                "score": 0.6213285326957703,
+                "id": "vietnamese_healthcare_7271",
+                "rerank_score": 0.9965870380401611
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 43 tuổi, từng có lần bị dị ứng thuốc giảm đau cách đây đã lâu (hơn 10 năm), không nhớ dị ứng thuốc gì. Còn lại tôi chưa từng dị ứng thuốc hay hải sản nào khác. Tôi có nên tiêm vaccine Covid-19 không?\nTrả lời: Đối với trường hợp của anh/chị, cần cung cấp thêm thông tin về lần dị ứng trước về mức độ và thuốc điều trị để biết mình có được tiêm hay không. Với những người có tiền sử dị ứng nặng cần điều trị tại bệnh viện (phản ứng phản vệ độ 2) là chống chỉ định tiêm vaccine Covid-19.",
+                "score": 0.667000412940979,
+                "id": "vietnamese_healthcare_2490",
+                "rerank_score": 0.9962666630744934
+            },
+            {
+                "text": "Câu hỏi: Tôi hiện vẫn đang uống thuốc điều trị viêm gan B dạng mãn tính; đang duy trì uống thuốc tháng thứ 33. Hiện các chỉ số về hàm lượng virus dưới ngưỡng phát hiện, chỉ số men gan bình thường. Xin hỏi bác sĩ tôi có tiêm vaccine Covid-19 được không? Khi tiêm  có cần phải tạm dừng uống thuốc không? Nếu phải tạm dừng thì dừng trước tiêm bao nhiêu thời gian?\nTrả lời: Trường hợp chị đang nhiễm viêm gan siêu vi B mạn tính đang dùng thuốc điều trị, tải lượng virus dưới ngưỡng phát hiện, các chỉ số chức năng gan của chị bình thường thì vẫn có thể tiêm vaccine Covid-19 được mà không cần phải ngưng thuốc điều trị. Khi khám sàng lọc chị cần cung cấp đầy đủ thông tin về tiền sử bệnh lý và thuốc đang điều trị cho bác sĩ. Nếu bác sĩ đánh giá tình trạng sức khỏe hiện tại tốt và không có tiêu chuẩn chống chỉ định hay hoãn tiêm khác thì chị sẽ được chỉ định tiêm vaccine Covid-19.",
+                "score": 0.6242430210113525,
+                "id": "vietnamese_healthcare_7509",
+                "rerank_score": 0.9957139492034912
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B có tiêm vaccine Covid-19 được không?\nTrả lời: Nếu tình trạng viêm gan B của anh trong 3 tháng gần đây ổn định, không tiến triển cấp tính, không thay đổi phác đồ điều trị duy trì, anh vẫn có thể tiêm ngừa vaccine Covid-19",
+                "score": 0.6525764465332031,
+                "id": "vietnamese_healthcare_3644",
+                "rerank_score": 0.9970399737358093
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B mãn tính và đang uống thuốc điều trị, hiện tình hình bệnh ổn định. Vậy tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Bệnh viêm gan B mạn tính của anh/chị nếu bác sĩ điều trị kết luận bệnh ổn định thì anh chị vẫn tiêm vaccine Covid-19 được.",
+                "score": 0.6379705667495728,
+                "id": "vietnamese_healthcare_7502",
+                "rerank_score": 0.996852457523346
+            },
+            {
+                "text": "Câu hỏi: Tôi có tiền sử bệnh viêm gan B, đã điều trị cách đây 11 năm. Sau thời gian đó, tôi không đi tái khám lần nào nữa. Như vậy, trước khi tiêm vaccine phòng Covid-19, tôi có cần đi tái khám không? Việc khám sàng lọc trước khi tiêm có biết được tôi còn mắc viêm gan B không?\nTrả lời: Theo như câu hỏi của anh/chị, chúng tôi không biết anh/chị đã bị viêm gan B mãn tính hay cấp tính. Nếu anh/chị bị viêm gan B mãn tính có thể tiêm vaccine Covid-19 khi sức khỏe ổn định. Nếu anh/chị bị viêm gan B cấp tính, sau khi khỏi anh/chị có thể tiêm chủng. Việc khám sàng lọc trước tiêm không thể biết được anh/chị còn mắc viêm gan B hay không, anh/chị cần phải gặp bác sĩ chuyên khoa để được khám và chẩn đoán.",
+                "score": 0.6560001373291016,
+                "id": "vietnamese_healthcare_7271",
+                "rerank_score": 0.9965870380401611
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 43 tuổi, từng có lần bị dị ứng thuốc giảm đau cách đây đã lâu (hơn 10 năm), không nhớ dị ứng thuốc gì. Còn lại tôi chưa từng dị ứng thuốc hay hải sản nào khác. Tôi có nên tiêm vaccine Covid-19 không?\nTrả lời: Đối với trường hợp của anh/chị, cần cung cấp thêm thông tin về lần dị ứng trước về mức độ và thuốc điều trị để biết mình có được tiêm hay không. Với những người có tiền sử dị ứng nặng cần điều trị tại bệnh viện (phản ứng phản vệ độ 2) là chống chỉ định tiêm vaccine Covid-19.",
+                "score": 0.6584569215774536,
+                "id": "vietnamese_healthcare_2490",
+                "rerank_score": 0.9962666630744934
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B đang điều trị, vậy tôi có thể tiêm vaccine Covid-19 được không ạ?\nTrả lời: Trường hợp anh/chị đang điều trị viêm gan B, tuy nhiên không nói rõ là hiện tại về số lượng virus và các chỉ số về chức gan như thể nào.",
+                "score": 0.6665924787521362,
+                "id": "vietnamese_healthcare_8445",
+                "rerank_score": 0.9958655834197998
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi năm nay 44 tuổi, tôi bị viêm gan B mãn tính điều trị ngoại trú được khoảng gần 10 năm, vẫn đang uống thuốc điều trị. Tôi có được tiêm vaccine Covid-19 không thưa bác sĩ?\nTrả lời: Trường hợp bệnh viêm gan B mạn tính của anh không rõ virus có đang hoạt động không, các chỉ số xét nghiệm liên quan có trong giới hạn bình thường không?Nếu bác sĩ điều trị kết luận bệnh của anh đang trong giai đoạn ổn định, anh vẫn có thể tiêm ngừa vaccine Covid-19 được, còn nếu bệnh viêm gan B nặng hoặc chưa kiểm soát được thì theo hướng dẫn của Bộ Y tế thì anh nên hoãn tiêm. Do vậy, trường hợp của anh, chúng tôi khuyên anh nên đi gặp lại bác sĩ điều trị để có thêm thông tin về tình trạng sức khỏe của mình, anh sẽ biết mình có được tiêm hay không như thông tin bác sĩ đã cung cấp phía trên.",
+                "score": 0.6457623243331909,
+                "id": "vietnamese_healthcare_6368",
+                "rerank_score": 0.9980800151824951
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B có tiêm vaccine Covid-19 được không?\nTrả lời: Nếu tình trạng viêm gan B của anh trong 3 tháng gần đây ổn định, không tiến triển cấp tính, không thay đổi phác đồ điều trị duy trì, anh vẫn có thể tiêm ngừa vaccine Covid-19",
+                "score": 0.6627180576324463,
+                "id": "vietnamese_healthcare_3644",
+                "rerank_score": 0.9970399737358093
+            },
+            {
+                "text": "Câu hỏi: Tôi có tiền sử bệnh viêm gan B, đã điều trị cách đây 11 năm. Sau thời gian đó, tôi không đi tái khám lần nào nữa. Như vậy, trước khi tiêm vaccine phòng Covid-19, tôi có cần đi tái khám không? Việc khám sàng lọc trước khi tiêm có biết được tôi còn mắc viêm gan B không?\nTrả lời: Theo như câu hỏi của anh/chị, chúng tôi không biết anh/chị đã bị viêm gan B mãn tính hay cấp tính. Nếu anh/chị bị viêm gan B mãn tính có thể tiêm vaccine Covid-19 khi sức khỏe ổn định. Nếu anh/chị bị viêm gan B cấp tính, sau khi khỏi anh/chị có thể tiêm chủng. Việc khám sàng lọc trước tiêm không thể biết được anh/chị còn mắc viêm gan B hay không, anh/chị cần phải gặp bác sĩ chuyên khoa để được khám và chẩn đoán.",
+                "score": 0.6641224026679993,
+                "id": "vietnamese_healthcare_7271",
+                "rerank_score": 0.9965870380401611
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 43 tuổi, từng có lần bị dị ứng thuốc giảm đau cách đây đã lâu (hơn 10 năm), không nhớ dị ứng thuốc gì. Còn lại tôi chưa từng dị ứng thuốc hay hải sản nào khác. Tôi có nên tiêm vaccine Covid-19 không?\nTrả lời: Đối với trường hợp của anh/chị, cần cung cấp thêm thông tin về lần dị ứng trước về mức độ và thuốc điều trị để biết mình có được tiêm hay không. Với những người có tiền sử dị ứng nặng cần điều trị tại bệnh viện (phản ứng phản vệ độ 2) là chống chỉ định tiêm vaccine Covid-19.",
+                "score": 0.6860069036483765,
+                "id": "vietnamese_healthcare_2490",
+                "rerank_score": 0.9962666630744934
+            },
+            {
+                "text": "Câu hỏi: Tôi bị viêm gan B đang điều trị, vậy tôi có thể tiêm vaccine Covid-19 được không ạ?\nTrả lời: Trường hợp anh/chị đang điều trị viêm gan B, tuy nhiên không nói rõ là hiện tại về số lượng virus và các chỉ số về chức gan như thể nào.",
+                "score": 0.6738821864128113,
+                "id": "vietnamese_healthcare_8445",
+                "rerank_score": 0.9958655834197998
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

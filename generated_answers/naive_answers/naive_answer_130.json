@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Bé 5.5 tháng nặng 6.7 kg. Cách đây vài hôm, bé bị dị ứng sữa công thức. Bình thường bé bú mẹ hoàn toàn. 4 hôm nay xì hơi nhiều và có mùi nặng, 2 ngày mới đi vệ sinh 1 lần, Bác sĩ cho em hỏitrẻ xì hơi nhiều, 2 ngày mới đi vệ sinh có sao không?Em có nên cho bé uống thêm men vi sinh không? Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Tình trạng của bé hiện không gợi ý bất thường, không cần bổ sung men cho bé.",
+    "answer": "Xì hơi nhiều và 2 ngày mới đi ngoài một lần có thể vẫn bình thường nếu bé vẫn bú tốt, ngủ bình thường, không quấy khóc kéo dài và tăng cân tốt; tuy nhiên, xì hơi có thể liên quan đến táo bón hoặc rối loạn hệ vi khuẩn đường ruột nên cần theo dõi. Nếu bé đi phân tóe nước, có nhầy hoặc máu, bú kém, nôn, bụng chướng hoặc khó chịu nhiều, bạn nên đưa bé khám chuyên khoa Nhi. Tài liệu có đề cập một trường hợp dùng BioGaia 5 giọt mỗi sáng để giảm quấy khóc và xì hơi, nhưng chưa đủ thông tin để khẳng định bé nhà bạn nên dùng men vi sinh; bạn nên hỏi lại bác sĩ đã khám cho bé trước khi bổ sung.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bé nhà em được 1 tháng rưỡi mà nay xì hơi mùi rất nặng và bú cũng ít hơn. Bác sĩ cho em hỏibé 1 tháng tuổi xì hơi mùi nặng, bú ít là bị làm sao?Bác sĩ tư vấn giúp. Em cảm ơn bác sĩ. Hoàng Thị Ngân(1997) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Đặng Huy Toàn- Bác sĩ Nhi - Sơ Sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn không mô tả bé đại tiện phân như thế nào, phân có nhầy mũi hay có máu không, ngày đi mấy lần? Bụng cháu có chướng hay không? Nếu bé đại tiện phân lỏng, ngày 3 - 4 lần cũng là bình thường. Bạn nên cho bé đến khám với bác sĩ chuyên khoa để được khám và chẩn đoán chính xác hơn.",
+            "score": 0.7584202289581299,
+            "id": "medical_vietnamese_qa_5536"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 2.5 tháng. Từ khoảng 1.5 tháng, bé xì hơi nặng mùi, 7 ngày mới ị, phân có màu vàng sệt. Mỗi lần trước khi ngủ bé đều quấy khóc, bé ít khi bú khi đang thức. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nặng mùi kèm đi ngoài ít có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Hiện tại, cháu xì hơi và phân vàng như trên là bình thường, bạn có thể bổ sung thêm biogaia ngày 5 giọt mỗi sáng để làm giảm quấy khóc, và xì hơi.",
+            "score": 0.750638484954834,
+            "id": "medical_vietnamese_qa_4535"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 1 tháng tuổi. Một tuần nay,bé xì hơi nhiềuvà có mùi thối (không dưới 30 lần), mỗi lần muốn xì hơi thì hay rặn, gồng mình, có khi quấy khóc luôn, xì hơi xong là hết. Em cảm giác như bé xì hơi bị đau ở đâu đó. Nhưng nếu ẵm bé lên người đi tới đi lui thì bé xì hơi bình thường không khó chịu. Bé không có biểu hiện sốt hay đi ị bất thường, bé bú mẹ hoàn toàn. Hai ngày nay, bé chưa đi ngoài. Ban ngày, bé ngủ giấc ngắn nửa tiếng, tầm 1 tiếng thôi. Cứ 2 tiếng thì bé bú 1 lần, mỗi lần bú cũng khoảng nửa tiếng mới chịu. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nhiều có sao không?Em có cần cho bé đi khám không? Em cảm ơn bác sĩ. Trần Thị Thúy(1991) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Bùi Thị Hà -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Xì hơi (hay còn gọi là trung tiện) là sự tích tụ khí xảy ra khi nguồn thức ăn chưa tiêu hóa hết ở dạ dày, khi xuống đến đại tràng sẽ được các vi khuẩn phân hủy dẫn đến bài tiết khí. Nguyên nhân của trung tiện nhiều có thể do kém tiêu hóa thức ăn do trẻ không dung nạp được đường Lactose và gluten, mắcbệnh Celiaccũng có triệu chứng ợ hơi và trung tiện, do táo bón, doloạn khuẩn đường ruột. Vì thế, bạn nên cho trẻ đi khám để được thăm khám chẩn đoán tìm nguyên nhân điều trị cho trẻ.",
+            "score": 0.7366750240325928,
+            "id": "medical_vietnamese_qa_6105"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em mình hiện được 2 tháng tuổi, cân nặng 5.6 kg, dài 60 cm. Từ lúc sinh tới giờ bé thường xuyên bị đầy bụng, ngày đi tiểu nhiều lần (có ngày tới 8-9 lần), bụng có khi căng cứng, những ngày đi tiểu nhiều trẻ thường ngủ ít, hay khóc. Phân vàng, kèm tiểu cũng nhiều, có 1 vài lần thấy phân với nước tách nhau. Trẻ cũng thường xuyên hắt hơi và xì nước dãi. Đợt cho bú thêm sữa ngoài tình trạng nặng hơn, nên khoảng 1 tháng gần đây chỉ dám cho bú sữa mẹ nhưng bé vẫn bị (1 tuần thì có 4-5 ngày là bé bị như thế). Mình có cho bé khám bác sĩ lại thì được báo là rối loạn tiêu hoá, nhưng uống thuốc vẫn không hết. Mong bác sĩ tư vấn giúptrẻ 2 tháng tuổi hay đầy bụng, tiểu nhiều, ngủ ít, hay khóc là bị làm sao?Cảm ơn bác sĩ. Phạm Thị Quỳnh Trang(1992) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Nam Phong- Bác sĩ Nhi -Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc\nTrả lời: bác sĩ xin giải đáp như sau: Giai đoạn này việc bé đi ngoài như vậy cũng không phải là bất thường, về phát triển cân nặng của bé đang rất tốt chứng tỏ tiêu hóa của bé vẫn ổn, vậy nên bạn có thể yên tâm, nếu bé đi ngoài kèm theo có lẫn nhầy máu thì nên cho bé kiểm tra lại.",
+            "score": 0.7128319144248962,
+            "id": "medical_vietnamese_qa_5370"
+        },
+        {
+            "text": "Câu hỏi: Hiện tại, con em được gần 2 tháng tuổi. Bé ti mẹ và có dặm thêm sữa ngoài nhưng ít. Mới đây, em có đổi sữa cho bé thì bé vẫn ti bình thường còn tí nhiều hơn sữa cũ, nhưng em thấy bé có hiện tượng là xì hơi nhiều lần trong ngày, có mùi, rồi hết hộp đó em cho bé quay về sữa ban đầu thì bé bớt xì hơi nhưng vẫn có mùi và bé đi phân có màu khác bình thường và có mùi thối nhưng bé vẫn ti mẹ và ngủ bình thường không quấy khóc. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nhiều kèm phân màu khác thường có sao không?Em nên làm thế nào để cải thiện tình trạng của bé? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé vẫn ti mẹ và ngủ bình thường không quấy khóc và lên cân đều thì không sao hết. Bạn vẫn cho bé ăn như hiện tại. Nếu phân bé tóe nước, nhầy máu, bú kém, nôn, chướng bụng,... thì là dấu hiệu bất thường, lúc này bạn nên đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể. Bên cạnh đó, bạn nên cho bé bú mẹ nhiều.",
+            "score": 0.6938072443008423,
+            "id": "medical_vietnamese_qa_5158"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

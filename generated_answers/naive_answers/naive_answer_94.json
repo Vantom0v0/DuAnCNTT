@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ, em cần tỉnh táo để làm việc học tập vậy nên bác sĩ uống nhiều cafein có hại sức khoẻ k ạ và nên uống bnhiu. Hằng ngày thì e dùng 1 lon bò húc giờ e tính đổi sang thuốc này bn e đang sài nó chưa 290Mg 1 ngày có sao k ạ bác sĩ",
+    "ground_truth": "Để tỉnh táo làm việc học tập em có thể uống các loại trà, không nên uống nưóc ngọt và cafe vì nó còn chứa nhiều chất khác có hại cho sức khỏe.",
+    "answer": "Caffeine có thể giúp tăng tỉnh táo và hoạt động tư duy, nhưng dùng nhiều hoặc quá đậm đặc có thể gây mệt, đau đầu, tăng nhịp tim, tăng huyết áp và ảnh hưởng thần kinh; uống lúc đói dễ bị “say” cà phê. Tài liệu chưa cung cấp đủ thông tin để khẳng định mức 290 mg/ngày có an toàn hay để so sánh với một lon bò húc, vì còn phụ thuộc lượng caffeine cụ thể trong từng sản phẩm và phản ứng của cơ thể. Bạn nên xem kỹ hàm lượng caffeine trên nhãn, tránh dùng quá nhiều hoặc lúc đói; nếu xuất hiện khó chịu thì ngừng sử dụng và uống nước lọc. Caffeine cũng có thể làm tăng nhãn áp; nếu bạn đang cho con bú, nên hạn chế vì có thể khiến trẻ kích thích, mất ngủ, khó chịu.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, cho cháu hỏi cháu đang cho con bú có uống được ca cao hay milo mỗi ngày không ạ? Cháu cảm ơn ạ\nTrả lời: Chào bạn, \nBạn sinh bé được mấy tháng rồi? Trong thời gian cho con bú 6 tháng đầu tré bú mẹ hoàn toàn vì vậy tốt nhất nên hạn chế các thức ăn lạ, nóng để đảm bảo chất lượng sữa cho con bú vì trong cacao hay milo đều có thành phần cafein nhất định, có thể sẽ làm bé bị đầy hơi, đau bụng và quấy hơn bình thường khi bụng của bé khó chịu.\nBạn có thể uống tuy nhiên không nên uống thường xuyên, không nên uống nhiều. \nThân mến!",
+            "score": 0.4698338210582733,
+            "id": "vietnamese_medical_qa_6599"
+        },
+        {
+            "text": "Câu hỏi: Dùng Caffeine\nTrả lời: 2. Dùng Caffeine\nCaffeine có thể giúp giảm bớt các triệu chứng đau đầu do căng thẳng bằng cách thúc đẩy hiệu quả của thuốc giảm đau . Đó là lý do tại sao caffeine thường là một thành phần trong thuốc giảm đau. Nhưng bạn cũng cần xem phản ứng của cơ thể mình, vì đôi khi caffeine lại là tác nhân gây đau đầu cho một số người.",
+            "score": 0.4613374173641205,
+            "id": "vietnamese_healthcare_100857"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 1 tuổi nhưng em vẫn đang cho bé bú. Vậy bác sĩ cho em hỏitrong thời gian cho trẻ bú mẹ có được uống cafe không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn đang cho bé bú cần tránh uống cà phê vì sẽ gây cho bé sự kích thích, mất ngủ và khó chịu. Lượng caffeine cao có thể làm giảm lượng chất sắt trong sữa mẹ.",
+            "score": 0.45406752824783325,
+            "id": "medical_vietnamese_qa_6510"
+        },
+        {
+            "text": "Câu hỏi: Caffeine không tốt cho thị lực\nTrả lời: 10. Caffeine không tốt cho thị lực\nCác nghiên cứu cho thấy những người có thói quen uống cà phê thường có nhãn áp cao hơn những người không uống. Caffeine có trong cà phê có thể làm tăng áp suất bên trong mắt, hoặc nhãn áp (IOP). Tăng nhãn áp là bệnh lý về mắt, có thể gây mất thị lực và mù lòa do các dây thần kinh phía sau mắt bị tổn thương hoặc dịch trong mắt bị tích tụ không thoát ra được. Chế độ dinh dưỡng hợp lý, khoa học không chỉ đóng vai trò quan trọng giúp đôi mắt sáng khỏe mà còn giúp nâng cao sức khỏe cơ thể. Để đôi mắt hoạt động tốt nhất, hãy cung cấp cho mắt đầy đủ dưỡng chất cần thiết từ những thực phẩm sạch đến từ thiên nhiên, đặc biệt là carotene và các nguyên tố vi lượng khác. Bên cạnh đó cần hạn chế sử dụng những thực phẩm, đồ uống có hại cho mắt; khám mắt định kỳ 6 tháng một lần để kịp thời phát hiện và điều trị các bệnh về mắt, tránh những hậu quả nặng nề. Bệnh viện Đa khoa Quốc tế Vinmec có đầy đủ nhân lực và trang thiết bị hiện đại giúp cho việc khám và điều trị các bệnh lý về Mắt.",
+            "score": 0.452701210975647,
+            "id": "vietnamese_healthcare_163145"
+        },
+        {
+            "text": "Câu hỏi: Em  uống cafe hay bị say mệt mỏi. Có cách nào không bác sĩ\nTrả lời: Chào bạn.\nVới liều lượng thích hợp, cafein có tác dụng tốt cho sức khỏe. Tuy nhiên nếu lạm dụng, hoặc sử dụng cà phê quá đặc (quá lượng) vào thời điểm không thích hợp (uống lúc đói) sẽ dễ gây triệu chứng say cà phê. Chất cafein trong cafe có tác dụng kích thích hoạt động của hệ thần kinh, làm gia tăng các hoạt động thể chất có liên quan đến hệ thần kinh như hoạt động trí não, gia tăng trạng thái thức tỉnh, gia tăng hoạt động tư duy, làm tăng nhịp tim, tăng huyết áp, tăng hoạt động của cơ bắp... Nếu uống nhiều về số lượng và mức độ đậm đặc sẽ gây độc hại cho thần kinh, thậm chí là ức chế mạnh gây loạn óc.\nKhi bị say cần uống nhiều nước lọc để giúp pha loãng và nhanh bài tiết cafein, Và lưu ý không nên uống cafe vào lúc đói nhé. \nThân mến.",
+            "score": 0.45025449991226196,
+            "id": "vietnamese_medical_qa_9325"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

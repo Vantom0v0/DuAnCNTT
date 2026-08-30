@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Chào bác sĩ,\nKhi nhìn vào cổ họng, em thấy có cảm giác có nổi hạt màu đỏ trắng nhỏ và 2 bên mép lưỡi, mỗi bên có 2 nốt thịt màu đỏ hồng, không đau. Em không ho, không sốt, không đau họng, ăn uống nuốt bình thường, cảm giác có đờm dưới cổ, thỉnh thoảng nghẹt 1 bên mũi, khi thì nghẹt bên kia thông bên này, không có chảy nước mũi. Vậy bác sĩ cho em hỏi nổi nốt đỏ ở họng kèm có đờm là bệnh gì? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ trắng nhỏ trong họng của bạn nhiều khả năng là những nhú vị giác bị quá phát. Thông thường, những nhú này có kích thước nhỏ hơn. Nhưng ở những người có bệnh lý trào ngược họng - thanh quản thì những nhú này thường tăng kích thước. Kết hợp với triệu chứng cổ có đờm thì bác sĩ nghĩ bạn có nhiều khả năng mắc bệnh trào ngược họng - thanh quản.\nVì vậy, bạn nên đến bệnh viện để được thăm khám để loại trừ các khối u vùng mũi họng và để có hướng điều trị bệnh trào ngược tốt hơn.\nTrân trọng!",
+    "answer": "Chào bạn, các hạt đỏ nhỏ ở vùng hầu họng có thể là nang lympho; khi họng hoặc miệng bị viêm, nhiễm trùng, các nang này có thể phì đại và đôi khi tồn tại kéo dài. Với tình trạng không đau họng, không sốt, không ho, không khó nuốt hay nuốt nghẹn, bạn không nên quá lo lắng. Tuy nhiên, tài liệu chưa đủ thông tin để xác định nguyên nhân cảm giác có đờm và nghẹt mũi luân phiên. Bạn nên vệ sinh họng, miệng thường xuyên bằng nước muối sinh lý và đi khám Tai Mũi Họng nếu xuất hiện đau họng kéo dài, sốt, nuốt vướng/nuốt nghẹn hoặc các nốt thay đổi bất thường; không nên tự mua thuốc điều trị.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nKhoảng một tuần nay em có triệu chứng như mắc nghẹn ở họng, hơi khó thở sau ăn, hơi đau và khó chịu nhiều ở một bên tai, cảm giác như có đờm trong cổ họng, khạc ra dịch đờm trắng. Sáng hôm nay em bắt đầu bị nghẹt mũi. Em cũng soi cổ họng thì thấy vòm họng xuất hiện mụn trắng. Lưỡi trắng, tưa và đắng miệng. Bác sĩ cho em hỏi tình trạng của em như vậy là bị bệnh gì ạ? Có phải bị viêm họng không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào em!",
+            "score": 0.748708963394165,
+            "id": "vietnamese_medical_qa_3038"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm năm nay 29 tuổi (nữ), bị viêm họng 3 - 4 ngày nay chưa khỏi, không sốt không ho. Em đau họng, khó nuốt và nhìn vào thì có nổi các hạt đỏ viêm. Vậy bác sĩ cho em hỏi đau họng kèm nổi hạt đỏ vùng họng là bệnh gì? Vì dịch bệnh nên em chưa đến bệnh viện khám được. Mong bác sĩ tư vấn giúp em giải pháp điều trị? Dấu hiệu này có phải bệnh ung thư vòm họng không? Em không sử dụng chất kích thích, thuốc lá hay rượu bia thưa bác sĩ. Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có tình trạng đau họng, khó nuốt khoảng 03 - 04 ngày, đồng thời nổi các hạt đỏ vùng họng, những dấu hiệu trên không phải là dấu hiệu điển hình của ung thư vòm họng. Tuy vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, tầm soát các nguyên nhân gây đau họng, nuốt khó.\nTrân trọng!",
+            "score": 0.7181629538536072,
+            "id": "vietnamese_medical_qa_1218"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau 1 bên họng, nuốt nước bọt đau đã 3 - 4 ngày nay. Lúc đầu cảm giác là đau 1 lưỡi nghĩ bị nhiệt vì em bị clo vào sát răng nhưng hôm sau lan xuống họng gây khó nuốt. Hôm nay, em soi đèn thì thấy cổ họng có những u nổi trên bề mặt, đau nhiều hơn. Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm nổi u trên bề mặt vùng họng là bệnh gì? Có phải ung thư không thưa bác sĩ? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVới những triệu chứng như bạn mô tả như: Đau một bên lưỡi lan xuống họng, khó nuốt, có những khối u bề mặt vùng họng, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.\nTrân trọng!",
+            "score": 0.7153638601303101,
+            "id": "vietnamese_medical_qa_1205"
+        },
+        {
+            "text": "Câu hỏi: Viêm sưng họng, nổi hạch ở cổ, lưỡi, phải làm sao?\nTrả lời: 3. Viêm sưng họng, nổi hạch ở cổ, lưỡi, phải làm sao?\nKhi thấy các dấu hiệu viêm sưng họng, nổi hạch ở cổ, lưỡi , hạch sưng to, đau hoặc không đau thì người bệnh cần hết sức bình tĩnh, không nên lo lắng quá mức, đồng thời đi khám bệnh ngay. Khi được bác sĩ khám bệnh và xác định thì nên tích cực điều trị theo đơn của bác sĩ, không nên điều trị dở dang hoặc chần chừ. Tuyệt đối không nên tự mua thuốc để điều trị vì bệnh không những không khỏi mà còn để lại nhiều điều bất lợi. Những người hay bị viêm họng thì nên vệ sinh họng, miệng hằng ngày bằng cách đánh răng sau khi ăn, trước khi đi ngủ và sau khi ngủ dậy. Phân biệt ung thư vòm họng với viêm amidan có mủ và viêm họng hạt",
+            "score": 0.7122269868850708,
+            "id": "vietnamese_healthcare_98616"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nKhi cháu soi gương có thể nhìn thấy những hạt đỏ ở phần hầu họng, cháu có đi khám bác sĩ cho uống kháng định nhưng qua thời gian quan sát cháu thấy các hạt vẫn không thay đổi, chúng chiếm rất nhiều diện tích. Vậy bác sĩ cho cháu hỏi có hạt đỏ ở phần hầu họng là dấu hiệu bệnh gì? Cháu cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững hạt màu đỏ vùng sau họng khi soi gương nhìn thấy có thể là những nang lympho vùng họng. Khi có hiện tượng viêm hoặc nhiễm trùng vùng họng miệng thì những nang lympho sẽ to lên (phì đại) để bảo vệ cơ thể, tiêu diệt các vi sinh vật có hại. Thông thường các nang lympho sẽ trở về kích thước bình thường nếu tình trạng viêm hoặc nhiễm trùng được kiểm soát tốt. Tuy vậy, cũng có một số trường hợp các nang lympho sẽ phì đại kéo dài. Nếu các hạt đỏ (nang lympho phì đại) này không gây ra các triệu chứng như: Sốt, đau họng thường xuyên hoặc kéo dài, nuốt vướng, nuốt nghẹn khi ăn thì bạn không cần quá lo lắng.\nBạn có thể vệ sinh họng thường xuyên bằng nước muối sinh lý và đến khám tại phòng khám Tai mũi họng khi có những triệu chứng bất thường kể trên để tầm soát và điều trị hiệu quả các nguyên nhân gây phì đại nang lympho vùng họng.\nTrân trọng!",
+            "score": 0.7032331824302673,
+            "id": "vietnamese_medical_qa_329"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

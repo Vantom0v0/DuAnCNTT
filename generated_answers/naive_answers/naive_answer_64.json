@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ, xin bác sĩ cho tôi hỏi, thỉnh thoảng tôi đi cầu ra máu tươi thành tia (hơn một năm nay tôi đã bị 2 lần). Vậy tôi bị bệnh gì, điều trị ở đâu thì tốt nhất. Xin cám ơn!",
+    "ground_truth": "Chào anh.\nA đi cầu chảy máu tươi thành tia thì là chảy máu do 1 tổn thương ở vùng hậu môn - trực tràng, có thể là bị bệnh trĩ, hay nứt kẽ hậu môn. A nên đi khám bệnh để xác định chính xác nguyên nhân trước khi điều trị. Bất cứ bệnh viện nào a cũng có thể đến để được kham bệnh, sau đó tùy từng nguyên nhân bệnh lý mà có điều trị cụ thể khác nhau. Chúc anh luôn khỏe mạnh",
+    "answer": "Chào bạn, đi cầu ra máu tươi thành tia thường hay gặp do trĩ nội xuất huyết, nhưng chưa thể xác định chính xác chỉ dựa vào triệu chứng này. Bạn nên theo dõi; nếu tình trạng không tự hết hoặc tái diễn, hãy đặt lịch khám để được xét nghiệm, trong đó có thể cần nội soi đại tràng nhằm chẩn đoán chính xác. Tài liệu không cung cấp thông tin về cơ sở điều trị tốt nhất.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cho con hỏi về bệnh đa hồng cầu, các triệu chứng của bệnh đều được biểu hiện khi xét nghiệm tủy thì chưa phát hiện có gì bất thường. Hiện nay vẫn được cho uống thuốc chống đông máu và đi khám rút máu định kỳ. Cho con hỏi bệnh này sẽ được điều trị theo lộ trình như thế nào và kéo dài được bao lâu? Các biến chứng và nếu như chỉ ở giai đoạn đầu thì cơ hội sống có cao không và kéo dài tầm bao lâu? Xin cảm ơn bác sĩ đã tư vấn giúp con câu hỏi, bệnh đa hồng cầu cần điều trị thế nào và có thể sống được bao lâu?\nTrả lời: Chào cháu! Bệnh đa hồng cầu chỉ cần điều trị như hiện tại, rút máu định kỳ. Thời gian sống của mỗi bệnh nhân khác nhau tùy thuộc vào nhiều yếu tố. Trường hợp bệnh nhân nặng có thể tiến hành ghép tủy.",
+            "score": 0.538360059261322,
+            "id": "vietnamese_medical_qa_1872"
+        },
+        {
+            "text": "Câu hỏi: Gần đây, em bị chảy máu cam ngày 1 đến 2 lần. Vậy bác sĩ cho em hỏithường xuyên chảy máu cam là dấu hiệu bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn hay bị chảy máu mũi, ngày 1 - 2 lần, tuy nhiên bạn chưa cung cấp cho bác sĩ biết thời gian bạn bị chảy máu mũi, bệnh có hay tái phát không, tiền sử bệnh lý của bạn, thuốc bạn đang dùng,...nên bác sĩ chưa thể tư vấn chính xác cho bạn được. Nếu đây là lần đầu tiên, có thể chảy máu do nguyên nhân thành mạch, rất hay thường gặp. Bạn có thể đến bệnh viện khoa Tai mũi họng để được khám và tư vấn,nội soi mũi, họng để có kết quả chẩn đoán chính xác, ngoài ra có thể làm thêm các xét nghiệm về đông cầm máu, CT scan vùng đầu mặt để được tầm soát thêm các nguyên nhân Nội, Ngoại khoa khác.",
+            "score": 0.5373506546020508,
+            "id": "medical_vietnamese_qa_8466"
+        },
+        {
+            "text": "Câu hỏi: Dạo gần đây khi đi đại tiên, em bị ra máu tươi cùng phân. Trong khi đó sức khoẻ của em hiện tại bình thường, không đau bụng, không bị táo bón hay đi ngoài. Vậy bác sĩ cho em hỏiđại tiện ra máu tươi là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khi đi khám bác sĩ sẽ chỉ định thực hiện các kỹ thuật nào để chẩn đoán chính xác. Đi cầu ra máu tươi thường hay gặp do trĩ nội xuất huyết, trĩ ở mức độ nhẹ hay nặng thì cũng có thể gây ra tình trạng chảy máu tươi khi đi cầu. Bạn có thể theo dõi trong vài ngày, thường triệu chứng sẽ tự hết, nếu không tự hết thì nên đặt lịch khám, xét nghiệm để chẩn đoán chính xác là nội soi đại tràng.",
+            "score": 0.5177721977233887,
+            "id": "medical_vietnamese_qa_10504"
+        },
+        {
+            "text": "Câu hỏi: Dạo gần đây khi đi đại tiên, em bị ra máu tươi cùng phân. Trong khi đó sức khoẻ của em hiện tại bình thường, không đau bụng, không bị táo bón hay đi ngoài. Vậy bác sĩ cho em hỏiđại tiện ra máu tươi là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khi đi khám bác sĩ sẽ chỉ định thực hiện các kỹ thuật nào để chẩn đoán chính xác. Đi cầu ra máu tươi thường hay gặp do trĩ nội xuất huyết, trĩ ở mức độ nhẹ hay nặng thì cũng có thể gây ra tình trạng chảy máu tươi khi đi cầu. Bạn có thể theo dõi trong vài ngày, thường triệu chứng sẽ tự hết, nếu không tự hết thì nên đặt lịch khám, xét nghiệm để chẩn đoán chính xác là nội soi đại tràng.",
+            "score": 0.5177721977233887,
+            "id": "medical_vietnamese_qa_10489"
+        },
+        {
+            "text": "Câu hỏi: Em đi khám bác sĩ kết luận bị viêm bàng quang, từ tết đến giờ bị 4-5 lần rồi ạ. mà toàn bị cấp tính, có lần đi cả ra máu, đã uống thuốc mà vẫn bị tái lại. Vậy bác sĩ cho em hỏi, viêm bàng quang tái đi tái lại nhiều lần kèm tiểu ra máu phải làm sao?\nTrả lời: Chào bạn! Để trả lời câu hỏi trên Bác sĩ khuyên bạn nên đến bệnh viện khám bác sĩ chuyên khoa nội tiết niệu để xác định chẩn đoán, cần thiết phải siêu âm xem hệ tiết niệu có sỏi không? Đồng thời nội soi bàng quang, xét nghiệm máu và nước tiểu, cấy nước tiểu để xác định vi khuẩn, làm kháng sinh đồ chọn kháng sinh để điều trị đủ liệu trình.\nCảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+            "score": 0.5148147344589233,
+            "id": "vietnamese_medical_qa_2555"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

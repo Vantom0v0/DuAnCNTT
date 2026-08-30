@@ -1,0 +1,107 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Cách điều trị bệnh chân voi?",
+    "ground_truth": "Bệnh chân voi hay còn được gọi là phù chân voi là biến chứng của nhiễm giun chỉ bạch huyết. Bệnh lưu hành chủ yếu ở các nước nóng ẩm và xảy ra do muỗi truyền ấu trùng giun chỉ sang người. Giun chỉ ký sinh ở hệ thống bạch huyết từ đó là tổn thương các bạch mạch gây ứ dịch tại các chi phù to lên nên được gọi là bệnh phù chân voi. Nguyên nhân bệnh chân voi là do giun chỉ.Bệnh chân voi không lây trực tiếp từ người bị bệnh sang người lành mà phải qua trung gian truyền bệnh là muỗi. Nếu muỗi đốt người bệnh và bị nhiễm ấu trùng sau đó đốt người khác thì có thể lây bệnh sang người khác. Ấu trùng di chuyển đến mạch bạch huyết và phát triển thành giun tại đây. Giun chỉ có thể trú ngụ trong cơ thể người từ 5 - 8 năm và sản sinh vô số các ấu trùng giun, khiến mạch bạch huyết bị tổn thương và gây rối loạn hệ thống miễn dịch. Đồng thời lại thâm nhập ngược lại vào cơ thể muỗi nếu chúng đốt người bệnh. Ngoài ra, một số nguyên nhân khác cũng được cho là gây ra bệnh phù chân voi như hủi, lao, nhiễm liên cầu tái phát hoặc do môi trường sống tiếp xúc nhiều với silic đioxit. Tuy nhiên, đôi khi người ta vẫn không thể xác định chính xác nguyên nhân gây bệnh phù chân voi là do đâu.Các phương pháp điều trị bệnh chân voi bao gồm: Liệu pháp phức hợp điều trị suy giảm (Complex decongestive therapy - CDT). CDT vẫn được coi là tiêu chuẩn quốc tế về chăm sóc điều trị phù bạch huyết nói chung hay bệnh chân voi nói riêng, bao gồm hai giai đoạn: Tấn công và duy trì. Mục tiêu của CDT là để tăng thoát bạch huyết; để giảm sưng, khó chịu, xơ hóa và nguy cơ viêm mô tế bào; và để cải thiện tình trạng chức năng và chất lượng cuộc sống. Giai đoạn tấn công gồm sử dụng một kỹ thuật xoa bóp được gọi là thoát bạch huyết thủ công (MLD), băng bó ngắn, các bài tập để tạo và tăng cường cơ chế bơm bên trong, chăm sóc da và giáo dục trong việc tự quản lý. Chăm sóc da là cần thiết để ngăn ngừa nhiễm trùng, kiểm soát sự xâm nhập của vi khuẩn và nấm, loại bỏ sự phát triển quá mức của vi khuẩn trong các kẽ hở trên da và làm ẩm da để tránh khô và nứt nẻ da. Giai đoạn duy trì thường liên quan đến việc sử dụng (các) quần áo nén vào ban ngày, với các bệnh nhân ở giai đoạn nặng hơn đòi hỏi phải nén về đêm bằng cách băng bó hoặc thay thế bằng thiết bị nén và thiết bị nén tùy chỉnh. MLD và tập thể dục tiếp tục đóng vai trò quan trọng trong điều trị duy trì phù bạch huyết.Phương pháp phẫu thuật: Mặc dù phẫu thuật không phải là thuốc chữa bệnh, đôi khi các phẫu thuật này được xem xét khi CDT và các phương pháp khác không thể làm giảm triệu chứng. Phẫu thuật cắt bỏ hoặc gỡ rối và hút mỡ để giúp giảm các mô dư thừa, và thường được dành riêng cho những bệnh nhân có khả năng di chuyển và chất lượng cuộc sống bị giảm nghiêm trọng do bệnh. Ngoài ra, một số tái tạo bạch huyết vi phẫu mới hơn, bao gồm bỏ qua bạch huyết, chuyển hạch bạch huyết và ghép bạch huyết, đang được chú ý.Trường hợp của bạn cần đến các cơ sở y tế gần nhất để được gặp các bác sĩ chuyên khoa khám và tư vấn cho bạn hướng điều trị cụ thể.",
+    "answer": "Không tìm thấy đủ thông tin trong phần bằng chứng được cung cấp để trả lời về cách điều trị bệnh chân voi.",
+    "evidence": [],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6931825876235962,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.0001296650734730065
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Repamax P\nTrả lời: 3. Cách dùng và liều dùng của thuốc Repamax P\n3.2. Đối tượng sử dụng thuốc Thông tin về đối tượng sử dụng thuốc Repamax P theo chỉ định của bác sĩ điều trị bệnh",
+                "score": 0.6798703074455261,
+                "id": "vietnamese_healthcare_93236",
+                "rerank_score": 7.526665285695344e-05
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Fluxar\nTrả lời: 3. Cách sử dụng thuốc Fluxar\n3.1. Cách sử dụng thuốc Fluxar Đối với thuốc Fluxar , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6965917348861694,
+                "id": "vietnamese_healthcare_137326",
+                "rerank_score": 4.928295675199479e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng thuốc Lodegald Levo\nTrả lời: 3. Cách dùng và liều dùng thuốc Lodegald Levo\n3.1. Cách dùng thuốc Lodegald Levo Thuốc Lodegald Levo được sử dụng bằng đường uống.",
+                "score": 0.6828263998031616,
+                "id": "vietnamese_healthcare_147148",
+                "rerank_score": 4.6528588427463546e-05
+            },
+            {
+                "text": "Câu hỏi: Liều lượng, cách dùng thuốc Vifloxacol\nTrả lời: 3. Liều lượng, cách dùng thuốc Vifloxacol\n3.1. Cách dùng thuốc Vifloxacol Vifloxacol được bào chế, sản xuất dưới dạng thuốc nhỏ mắt.",
+                "score": 0.6983618140220642,
+                "id": "vietnamese_healthcare_118653",
+                "rerank_score": 2.8778025807696395e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Thalapas\nTrả lời: 3. Cách dùng và liều dùng của thuốc Thalapas\n3.1. Cách dùng thuốc Thalapas Thuốc Thalapas dùng qua đường dán ngoài da",
+                "score": 0.7083210945129395,
+                "id": "vietnamese_healthcare_123289",
+                "rerank_score": 0.00013115729962009937
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7273427248001099,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.0001296650734730065
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Fluxar\nTrả lời: 3. Cách sử dụng thuốc Fluxar\n3.1. Cách sử dụng thuốc Fluxar Đối với thuốc Fluxar , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7251645922660828,
+                "id": "vietnamese_healthcare_137326",
+                "rerank_score": 4.928295675199479e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng thuốc Lodegald Levo\nTrả lời: 3. Cách dùng và liều dùng thuốc Lodegald Levo\n3.1. Cách dùng thuốc Lodegald Levo Thuốc Lodegald Levo được sử dụng bằng đường uống.",
+                "score": 0.7120457291603088,
+                "id": "vietnamese_healthcare_147148",
+                "rerank_score": 4.6528588427463546e-05
+            },
+            {
+                "text": "Câu hỏi: Liều lượng, cách dùng thuốc Vifloxacol\nTrả lời: 3. Liều lượng, cách dùng thuốc Vifloxacol\n3.1. Cách dùng thuốc Vifloxacol Vifloxacol được bào chế, sản xuất dưới dạng thuốc nhỏ mắt.",
+                "score": 0.7188116312026978,
+                "id": "vietnamese_healthcare_118653",
+                "rerank_score": 2.8778025807696395e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Thalapas\nTrả lời: 3. Cách dùng và liều dùng của thuốc Thalapas\n3.1. Cách dùng thuốc Thalapas Thuốc Thalapas dùng qua đường dán ngoài da",
+                "score": 0.736858606338501,
+                "id": "vietnamese_healthcare_123289",
+                "rerank_score": 0.00013115729962009937
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7628365755081177,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.0001296650734730065
+            },
+            {
+                "text": "Câu hỏi: Liều dùng và cách dùng thuốc Stagerin\nTrả lời: 4. Liều dùng và cách dùng thuốc Stagerin\n4.2. Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn.",
+                "score": 0.7353629469871521,
+                "id": "vietnamese_healthcare_152433",
+                "rerank_score": 6.220560317160562e-05
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Fluxar\nTrả lời: 3. Cách sử dụng thuốc Fluxar\n3.1. Cách sử dụng thuốc Fluxar Đối với thuốc Fluxar , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7576502561569214,
+                "id": "vietnamese_healthcare_137326",
+                "rerank_score": 4.928295675199479e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng thuốc Lodegald Levo\nTrả lời: 3. Cách dùng và liều dùng thuốc Lodegald Levo\n3.1. Cách dùng thuốc Lodegald Levo Thuốc Lodegald Levo được sử dụng bằng đường uống.",
+                "score": 0.7390531301498413,
+                "id": "vietnamese_healthcare_147148",
+                "rerank_score": 4.6528588427463546e-05
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

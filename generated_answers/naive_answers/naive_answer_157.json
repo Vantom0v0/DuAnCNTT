@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tai em từ bé không bị bệnh gì, cách đây khoảng 5 hôm, em nghe nhạc to và lâu. Sau đó, em thấy tai luôn có tiếng kêu o o khi ở nơi không có tiếng động. Khi ngáp hoặc nuốt thức ăn hay nhai thì tai có tiếng kêu óc ách rất khó chịu. Vậy bác sĩ cho em hỏitai có tiếng kêu bất thường là dấu hiệu bệnh gì?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bạn cótiếng kêu bất thường trong taitrong không gian yên tĩnh, tiếng óc ách trong tai khi nuốt hay nhai thức ăn, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để Bác sĩ khám, kiểm tra, đánh giá chính xác hơn và xác định nguyên nhân gây ra những bất thường đó, từ đó có thể tư vấn điều trị hiệu quả cho bạn.",
+    "answer": "Tiếng kêu o o trong tai khi ở nơi yên tĩnh có thể là triệu chứng ù tai; tiếng óc ách khi ngáp, nuốt hoặc nhai cũng là dấu hiệu bất thường. Ù tai có thể liên quan đến các vấn đề ở tai ngoài, tai giữa hoặc tai trong, như viêm ống tai, rối loạn chức năng vòi nhĩ, viêm nhiễm hoặc rối loạn tuần hoàn tai trong. Bạn nên đến khám bác sĩ chuyên khoa Tai Mũi Họng để được kiểm tra, xác định nguyên nhân và tư vấn điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tai có tiếng kêu bất thường là dấu hiệu bệnh gì?\nTrả lời: Bạn có tiếng kêu bất thường trong tai trong không gian yên tĩnh, tiếng óc ách trong tai khi nuốt hay nhai thức ăn, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để Bác sĩ khám, kiểm tra, đánh giá chính xác hơn và xác định nguyên nhân gây ra những bất thường đó, từ đó có thể tư vấn điều trị hiệu quả cho bạn.",
+            "score": 0.7653961777687073,
+            "id": "vietnamese_healthcare_3729"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm sinh năm 1976. Khoảng 1 tuần nay, em bị bên tai trái kêu ro ro như có con gì bên trong rất khó chịu mà không có dịch chảy ra. Bác sĩ cho em hỏi có tiếng kêu trong tai là dấu hiệu bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như mô tả, có thể bạn đang bị triệu chứng ù tai. AI-Doctor đã có bài viết về ù tai. Mặc dù, ù tai gây khó chịu, đây thường không phải triệu chứng của một bệnh lý nghiêm trọng.\nTuy nhiên, vì nguyên nhân ù tai có thể từ tai ngoài, tai giữa như các bệnh lý viêm nhiễm, hoặc từ tai trong như các rối loạn tuần hoàn tai, bạn nên sắp xếp đến khám với bác sĩ chuyên khoa để có thể tìm nguyên nhân bệnh, từ đó có hướng điều trị thích hợp.\nTrân trọng!",
+            "score": 0.6609420776367188,
+            "id": "vietnamese_medical_qa_7"
+        },
+        {
+            "text": "Câu hỏi: Đau đầu kèm có tiếng trong tai là bệnh gì?\nTrả lời: Bạn có tiền sử viêm xoang, đau đầu thì có nhiều nguyên nhân, có thể đau đầu của bạn liên quan đến bệnh viêm xoang. Vì vậy, bạn cần đi khám bác sĩ Nội Thần kinh và Tai mũi họng để kiểm tra thêm để có phác đồ điều trị.",
+            "score": 0.5759972333908081,
+            "id": "vietnamese_healthcare_5670"
+        },
+        {
+            "text": "Câu hỏi: Ù tai, có tiếng kêu trong tai phải làm sao?\nTrả lời: Ù tai là vấn đề cần được thăm khám cẩn thận. Có rất nhiều nguyên nhân ù tai, thường gặp là viêm ống tai, rối loạn chức năng vòi nhĩ, hoặc rối loạn tuần hoàn tai trong. Vì bạn đã điều trị mà không thấy có kết quả thì bạn nên đến để được bác sĩ thăm khám kỹ càng, có thể cần phải chụp phim cộng hưởng từ để xem có khối chèn ép vào dây thần kinh nghe của mình không sau đó sẽ có hướng điều trị tiếp theo.",
+            "score": 0.5567765235900879,
+            "id": "vietnamese_healthcare_1741"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau họng, khó nuốt, đau nhức hai hàm. Em có đi khám ở bệnh viện, bác sĩ nội soi họng, cho thuốc uống. Sau khi uống thuốc các triệu chứng có bớt nhưng không khỏi dứt. Vì dịch nên em đi tiếp bác sĩ tư để nội soi và uống thuốc. Đến nay bệnh vẫn không hết, chỉ giảm triệu chứng. Đến giờ em vẫn bị nuốt vướng, cảm giác sưng tấy một bên họng, kèm theo hơi ù tai (em có soi tai, bác sĩ kêu viêm tai, và em có nhỏ thuốc). Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm ù tai là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhững triệu chứng về đau họng và ù tai của bạn có thể gặp trong nhiều bệnh lý khác nhau. Có thể là viêm amidan hoặc là viêm tai ứ dịch.\nĐể xác định chính xác nguyên nhân bác sĩ rất cần thăm khám để tư vấn cho bạn. Mặc dù dịch bệnh nhưng ở bệnh viện vẫn có cơ chế giãn cách để giảm lây nhiễm. Bạn có thể đeo khẩu trang để đảm bảo an toàn và đến khám tại bệnh viện để bác sĩ có thể xác định đúng nguyên nhân và tìm hướng điều trị cho mình.\nTrân trọng!",
+            "score": 0.5463808178901672,
+            "id": "vietnamese_medical_qa_325"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,112 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Cháu có dự định mang thai. Bác sĩ cho cháu hỏikhi mang thai cần tiêm những loại vacxin nào?Mất bao lâu để hoàn thành? Thời gian hoàn thành mũi tiêm cuối cùng đến lúc mang thai là bao lâu? Cháu cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Nếu bạn có dự định mang thai thì nên tiêm các vaccine sau: Sởi quai bị rubella (MMR II), thủy đậu trước mang bầu ít nhất 3 tháng, tiêm bạch hầu ho gà uốn ván ( Boostrix) và tiêm cúm. Ngoài ra phải làm xét nghiệm viêm gan B, nếu chưa có kháng thể bảo vệ thì phải tiêm viêm gan B theo phác đồ 3 mũi (0-1-6). Như vậy bạn phải thu xếp tiêm 6 tháng trước mang bầu.",
+    "answer": "Hiện bằng chứng được cung cấp chỉ đề cập đến vaccine Covid-19: chưa có khuyến cáo hay nghiên cứu nào quy định phải chờ bao lâu sau tiêm mới được mang thai. Để đạt hiệu quả phòng bệnh cao, bạn nên hoàn tất lịch tiêm mũi 2 và thông báo cụ thể dự định mang thai với bác sĩ khám sàng lọc để được tư vấn phù hợp. Bằng chứng hiện chưa cung cấp thông tin về các loại vaccine cần tiêm khi mang thai hoặc thời gian hoàn thành các mũi tiêm khác.",
+    "evidence": [
+        "Trả lời: Hiện chưa có khuyến cáo về khoảng cách bắt buộc sau tiêm vaccine Covid- 19 bao lâu mới được có thai.",
+        "Tuy nhiên, để có hiệu quả cao về việc phòng bệnh, chị nên hoàn tất lịch tiêm mũi 2 và chia sẻ với bác sĩ khám sàng lọc của mình về dự kiến thời gian cụ thể để bác sĩ có nhận định phù hợp nhất.",
+        "Trả lời: Hiện nay chưa có nghiên cứu nào về khoảng cách bắt buộc sau tiêm vaccine Covid-19 bao lâu mới được có thai.",
+        "Tuy nhiên, vợ chồng anh cần chia sẻ cung cấp thông tin về dự kiến mang thai trong thời gian tới cụ thể cho các bác sĩ thăm khám sàng lọc để nhận được tư vấn phù hợp, chính xác nhất với bản thân và gia đình mình."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Sau khi tiêm vaccine Covid-19 bao lâu mới được mang thai?\nTrả lời: Hiện chưa có khuyến cáo về khoảng cách bắt buộc sau tiêm vaccine Covid- 19 bao lâu mới được có thai. Tuy nhiên, để có hiệu quả cao về việc phòng bệnh, chị nên hoàn tất lịch tiêm mũi 2 và chia sẻ với bác sĩ khám sàng lọc của mình về dự kiến thời gian cụ thể để bác sĩ có nhận định phù hợp nhất.",
+                "score": 0.6859147548675537,
+                "id": "vietnamese_healthcare_7864",
+                "rerank_score": 0.8271726965904236
+            },
+            {
+                "text": "Câu hỏi: vợ chồng tôi nếu tiêm vaccine Covid-19 xong thì trong thời gian bao lâu chưa được mang thai ạ? Sắp tới hai vợ chồng có kế hoạch bầu sinh em bé.\nTrả lời: Hiện nay chưa có nghiên cứu nào về khoảng cách bắt buộc sau tiêm vaccine Covid-19 bao lâu mới được có thai. Tuy nhiên, vợ chồng anh cần chia sẻ cung cấp thông tin về dự kiến mang thai trong thời gian tới cụ thể cho các bác sĩ thăm khám sàng lọc để nhận được tư vấn phù hợp, chính xác nhất với bản thân và gia đình mình.",
+                "score": 0.6574351787567139,
+                "id": "vietnamese_healthcare_3339",
+                "rerank_score": 0.673854649066925
+            },
+            {
+                "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+                "score": 0.6740114688873291,
+                "id": "vietnamese_healthcare_7879",
+                "rerank_score": 0.0339541994035244
+            },
+            {
+                "text": "Câu hỏi: Hiện tôi đang bị gout, có uống thuốc và thực phẩm chức năng. Bác sĩ cho tôi hỏi khi uống thuốc điều trị có được tiêm vaccine không? Hoặc nếu không uống bao nhiêu ngày thì được tiêm vaccine Covid-19?\nTrả lời: Anh đang điều trị Gout trong giai đoạn ổn định không phải đợt cấp, sức khỏe tốt hoàn toàn có thể được tiêm vaccine Covid-19.",
+                "score": 0.6485869288444519,
+                "id": "vietnamese_healthcare_4700",
+                "rerank_score": 0.005074499174952507
+            },
+            {
+                "text": "Câu hỏi: Tôi muốn hỏi chi phí cho một ca thụ tinh ống nghiệm là bao nhiêu? Tôi sinh 1978, vợ 1980, chúng tôi có một bé sinh năm 2011, cho đến nay thì không có thêm bé nào nữa.\nTrả lời: Chi phí cho một lộ trình điều trị hỗ trợ sinh sản IVF không cố định, phụ thuộc vào nhiều yếu tố như phương pháp hỗ trợ sinh sản, cơ địa, thể trạng, thuốc sử dụng. . .",
+                "score": 0.6778767108917236,
+                "id": "vietnamese_healthcare_8982",
+                "rerank_score": 0.0008057756931520998
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Sau khi tiêm vaccine Covid-19 bao lâu mới được mang thai?\nTrả lời: Hiện chưa có khuyến cáo về khoảng cách bắt buộc sau tiêm vaccine Covid- 19 bao lâu mới được có thai. Tuy nhiên, để có hiệu quả cao về việc phòng bệnh, chị nên hoàn tất lịch tiêm mũi 2 và chia sẻ với bác sĩ khám sàng lọc của mình về dự kiến thời gian cụ thể để bác sĩ có nhận định phù hợp nhất.",
+                "score": 0.6885319948196411,
+                "id": "vietnamese_healthcare_7864",
+                "rerank_score": 0.8271726965904236
+            },
+            {
+                "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+                "score": 0.702334463596344,
+                "id": "vietnamese_healthcare_7879",
+                "rerank_score": 0.0339541994035244
+            },
+            {
+                "text": "Câu hỏi: Tôi muốn hỏi chi phí cho một ca thụ tinh ống nghiệm là bao nhiêu? Tôi sinh 1978, vợ 1980, chúng tôi có một bé sinh năm 2011, cho đến nay thì không có thêm bé nào nữa.\nTrả lời: Chi phí cho một lộ trình điều trị hỗ trợ sinh sản IVF không cố định, phụ thuộc vào nhiều yếu tố như phương pháp hỗ trợ sinh sản, cơ địa, thể trạng, thuốc sử dụng. . .",
+                "score": 0.7054486870765686,
+                "id": "vietnamese_healthcare_8982",
+                "rerank_score": 0.0008057756931520998
+            },
+            {
+                "text": "Câu hỏi: Nếu là nữ: bạn đã bao giờ bị chẩn đoán ĐTĐ thai kỳ chưa?\nTrả lời: 3. Nếu là nữ: bạn đã bao giờ bị chẩn đoán ĐTĐ thai kỳ chưa?\nKhông Có 0 điểm 1 điểm",
+                "score": 0.6911576986312866,
+                "id": "vietnamese_healthcare_68044",
+                "rerank_score": 0.0007165378774516284
+            },
+            {
+                "text": "Câu hỏi: Mổ nội soi tạo hậu môn nhân tạo được thực hiện như thế nào?2\nTrả lời: 2. Mổ nội soi tạo hậu môn nhân tạo được thực hiện như thế nào?2.1. Chuẩn bị trước phẫu thuật\n2.1. Chuẩn bị trước phẫu thuật",
+                "score": 0.6809836626052856,
+                "id": "vietnamese_healthcare_24805",
+                "rerank_score": 6.222624506335706e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Sau khi tiêm vaccine Covid-19 bao lâu mới được mang thai?\nTrả lời: Hiện chưa có khuyến cáo về khoảng cách bắt buộc sau tiêm vaccine Covid- 19 bao lâu mới được có thai. Tuy nhiên, để có hiệu quả cao về việc phòng bệnh, chị nên hoàn tất lịch tiêm mũi 2 và chia sẻ với bác sĩ khám sàng lọc của mình về dự kiến thời gian cụ thể để bác sĩ có nhận định phù hợp nhất.",
+                "score": 0.6870145797729492,
+                "id": "vietnamese_healthcare_7864",
+                "rerank_score": 0.8271726965904236
+            },
+            {
+                "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+                "score": 0.6904187798500061,
+                "id": "vietnamese_healthcare_7879",
+                "rerank_score": 0.0339541994035244
+            },
+            {
+                "text": "Câu hỏi: Tôi muốn hỏi chi phí cho một ca thụ tinh ống nghiệm là bao nhiêu? Tôi sinh 1978, vợ 1980, chúng tôi có một bé sinh năm 2011, cho đến nay thì không có thêm bé nào nữa.\nTrả lời: Chi phí cho một lộ trình điều trị hỗ trợ sinh sản IVF không cố định, phụ thuộc vào nhiều yếu tố như phương pháp hỗ trợ sinh sản, cơ địa, thể trạng, thuốc sử dụng. . .",
+                "score": 0.691246509552002,
+                "id": "vietnamese_healthcare_8982",
+                "rerank_score": 0.0008057756931520998
+            },
+            {
+                "text": "Câu hỏi: Nếu là nữ: bạn đã bao giờ bị chẩn đoán ĐTĐ thai kỳ chưa?\nTrả lời: 3. Nếu là nữ: bạn đã bao giờ bị chẩn đoán ĐTĐ thai kỳ chưa?\nKhông Có 0 điểm 1 điểm",
+                "score": 0.6728278398513794,
+                "id": "vietnamese_healthcare_68044",
+                "rerank_score": 0.0007165378774516284
+            },
+            {
+                "text": "Câu hỏi: Mổ nội soi tạo hậu môn nhân tạo được thực hiện như thế nào?2\nTrả lời: 2. Mổ nội soi tạo hậu môn nhân tạo được thực hiện như thế nào?2.1. Chuẩn bị trước phẫu thuật\n2.1. Chuẩn bị trước phẫu thuật",
+                "score": 0.6794292330741882,
+                "id": "vietnamese_healthcare_24805",
+                "rerank_score": 6.222624506335706e-05
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

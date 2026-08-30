@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Bệnh nhân nam 65 tuổi đau ngực, nhưng tỉnh táo, đau dữ dội vùng ngực trái, tim 120 lần/phút, HA 90/60 mmHg. Bác sĩ cho em hỏiđau ngực trái dữ dội có nguy hiểm không?Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn, Với câu hỏi “Đau ngực trái dữ dội có nguy hiểm không?”, bác sĩ giải đáp như sau: Đau ngực trái dữ dội là một triệu chứng cấp cứu bất kể là khi đó các triệu chứng mạch, huyết áp của bệnh nhân có bất thường hay không cũng đều cần được khám, chẩn đoán và xử trí ngay lập tức. Có rất nhiều bệnh lý gây đau ngực cấp trong đó có những bệnh lý nguy hiểm như nhồi máu cơ tim cấp, bóc tách động mạch chủ cấp, tràn khí màng phổi cấp,... Trường hợp bạn nêu vừa có đau ngực trái dữ dội lại có rối loạn về huyết động (mạch nhanh, huyết áp xu hướng tụt) vì vậy cần phải đi khám ngay lập tức tại các cơ sở y tế lớn để được chẩn đoán, xử trí kịp thời.",
+    "answer": "Có, **đau dữ dội vùng ngực trái ở bệnh nhân nam 65 tuổi có thể rất nguy hiểm**, đặc biệt khi kèm **tim đập nhanh 120 lần/phút và huyết áp 90/60 mmHg**. Theo thông tin cung cấp, người cao tuổi và cơn đau ngực dữ dội là những tình huống cần được đánh giá y tế khẩn cấp; đau ngực cũng có thể liên quan đến cơn đau thắt ngực.\n\n**Cần đưa bệnh nhân đến cơ sở y tế/cấp cứu ngay để được thăm khám và làm các kiểm tra cần thiết.** Không thể xác định chính xác nguyên nhân chỉ dựa trên thông tin hiện có.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Triệu chứng đau ngực có nguy hiểm không?\nTrả lời: 2. Triệu chứng đau ngực có nguy hiểm không?\nTất cả mọi người đều có nguy cơ bị đau ngực, đặc biệt là người cao tuổi và những đối tượng có nhiều thói quen sống không lành mạnh như hút thuốc lá, ăn uống thiếu chất dinh dưỡng... Điều này không chỉ ảnh hưởng đến sức khỏe tổng thể mà cả cuộc sống của người bệnh cũng phải gánh chịu tác động nặng nề. Ngoài ra, có quá nhiều bệnh lý nguy hiểm liên quan đến triệu chứng đau ngực. Vì vậy, bác sĩ khuyến nghị mọi người nên mau chóng đến bệnh viện để được kiểm tra, thậm chí là cấp cứu nếu cơ thể bộc lộ bất kỳ dấu hiệu nào như sau:Dấu hiệu điển hình gồm: Khó chịu vùng ngực: nghẹn, đè nặng, xoắn vặn, đau vùng giữa ngực trên vài phút; Đau lan: lên vai, cánh tay, hàm dưới, sau lưng hoặc thượng vị; Dấu hiệu khác: khó thở, vã mồ hôi, tái xanh, buồn nôn, đau đầu, lơ mơ, không tỉnh táo. Đau ngực có nhiều tính chất đau khác nhau tùy thuộc vào bệnh cảnh của người bệnh Ở phụ nữ, người lớn tuổi, tiểu đường, đôi khi không có các dấu hiệu đau ngực điển hình trên, mà chỉ biểu hiện triệu chứng: Đau vùng ngực, nóng rát hoặc khó tiêu đầy hơi; Khó chịu vùng lưng, cằm, cổ hoặc vai; Khó thở; Nôn hoặc buồn nôn. Bên cạnh đó, khi cơn đau thắt ngực đột ngột phát sinh không rõ nguyên nhân, bạn vui lòng tham khảo ý kiến bác sĩ. Vì cơ địa mỗi người là khác nhau, nên việc tham vấn y khoa có thể giúp bạn lựa chọn giải pháp đối phó phù hợp nhất.",
+            "score": 0.6059942245483398,
+            "id": "vietnamese_healthcare_14989",
+            "rerank_score": 0.9849859476089478
+        },
+        {
+            "text": "Câu hỏi: Dạo gần đây, em hay bị đau giữa ngực, phần đuôi cổ 10cm, dùng tay ấn vào có cảm giác đau nhẹ, xin bác sĩ cho em biếtđau giữa ngực có nguy hiểm không?Đó là triệu chứng gì? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Đau giữa ngực có nguy hiểm không?”, bác sĩ giải đáp như sau: Theo như mô tả của bạn thì có khả năng bạn bị đau do nguyên nhân thành ngực (ví dụ như đau cơ, đau thần kinh liên sườn). Đây là bệnh lý không nguy hiểm. Tuy nhiên, để chẩn đoán chính xác thì bác sĩ cần hỏi thêm triệu chứng, thăm khám và làm một số cận lâm sàng. Bạn nên đi khám bác sĩ chuyên khoa nội để được chẩn đoán và điều trị phù hợp.",
+            "score": 0.5841361284255981,
+            "id": "medical_vietnamese_qa_8488",
+            "rerank_score": 0.9778025150299072
+        },
+        {
+            "text": "Câu hỏi: Hiện tượng tức ngực trái khi nằm có nguy hiểm không?\nTrả lời: dựa vào thông tin cháu cung cấp chưa đủ để bác sĩ cho cháu lời khuyên đúng. Để có thể chẩn đoán chính xác tình trạng bệnh và có phác đồ điều trị kịp thời thì cháu nên đến khám ở cơ sở y tế để được đánh giá thêm nhé",
+            "score": 0.5733595490455627,
+            "id": "vietnamese_healthcare_3628",
+            "rerank_score": 0.973921537399292
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Em bị đau nhói ở vùng ngực trái, khoảng 2-3 phút nhói 1 cái. người mệt mỏi. Không biết là triệu chứng của vấn đề gì?\nTrả lời: chào bạn,\ntrong thời gian ngắn 2-3 phút đau 1 cái, vậy tần suất cũng lớn, khuyên bạn nên đi khám tim mạch để siêu âm doppler tim và đo điện tim, có thể chụp X-quang phổi để đánh giá tình trạng hoạt động của tim bạn như thế nào nhé. Với tuổi bạn trẻ thì ít nghĩ tới bệnh lý nguy hiểm, có thể là rối loạn thần kinh tim. Để yên tâm thì nên đi kiểm tra bạn nhé.\nThân ái !",
+            "score": 0.5979843139648438,
+            "id": "vietnamese_medical_qa_6067",
+            "rerank_score": 0.9736596941947937
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, tôi thường hay bị tức ngực, từ vùng ngực trái sau lan lên hàm dưới và vai trái rất khó chịu, mỗi lần bị trong vòng 5 đến 7 phút, xin hỏi bác sĩ đó là bệnh gì có nguy hiểm không ạ?\nTrả lời: Chào chị, triệu chứng chị mô tả kèm với độ tuổi của chị, có thể là dấu hiệu cơn đau thắt ngực, có thể nguy hiểm, chị cần đến khám với bác sĩ chuyên khoa Tim mạch để có chẩn đoán chính xác chị nhé,",
+            "score": 0.6698503494262695,
+            "id": "vietnamese_medical_qa_4331",
+            "rerank_score": 0.9657579064369202
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

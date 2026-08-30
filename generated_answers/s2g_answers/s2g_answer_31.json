@@ -1,0 +1,114 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Đau bụng, nôn nguyên nhân là gì?",
+    "ground_truth": "Theo bạn mô tả, thuốc giảm cân chưa rõ được chính xác tên thuốc và thành phần trong thuốc nhưng một số thuốc giảm cân có tác dụng phụ là gây rối loạn tiêu hóa. Bạn nên đến bệnh viện để được bác sĩ khám và tư vấn đồng thời cần làm một số xét nghiệm như siêu âm bụng, xét nghiệm máu xem có nguyên nhân nào khác.",
+    "answer": "Đau bụng kèm nôn có thể do nhiều nguyên nhân; bằng chứng cung cấp chưa nêu cụ thể các nguyên nhân gây nôn. Một số bệnh cần lưu ý khi đau bụng là viêm ruột thừa, tắc ruột và viêm tụy cấp; ngoài ra còn có thể liên quan đến đầy hơi, khó tiêu, bệnh túi mật, viêm gan, loét hoặc viêm dạ dày, tùy vị trí đau. Vì đau bụng cấp có thể kéo dài từ vài giờ đến vài ngày và một số trường hợp cần cấp cứu hoặc theo dõi, bạn nên đi khám để được chẩn đoán, đặc biệt nếu đau nhiều hoặc kéo dài.",
+    "evidence": [
+        "Có rất nhiều nguyên nhân gây đau bụng, một số nguyên nhân thường gặp như đau do căng cơ, đau bụng đầy hơi, khó tiêu thì thường không nghiêm trọng, nhưng cũng có những trường hợp đau bụng cần phải xử trí cấp cứu hoặc cần được theo dõi.",
+        "Nguyên nhân gây đau bụng cấp tính Đau bụng cấp tính thường kết hợp với các triệu chứng khác của bệnh, cơn đau kéo dài vài giờ cho đến vài ngày.",
+        "Dưới đây là một số bệnh có triệu chứng đau bụng mà chúng ta cần lưu ý: Bệnh viêm ruột thừa .",
+        "Tắc ruột .",
+        "Bệnh viêm tụy cấp .",
+        "Chẩn đoán nguyên nhân gây đau bụng\nTùy thuộc vào vị trí của cơn đau sẽ giúp bác sĩ chẩn đoán nguyên nhân của cơn đau bụng bao gồm: Đau bụng trên bên trái: Lách to Đau bụng trên bên phải: Bệnh túi mật, viêm gan Dưới bên trái đau bụng: Viêm túi thừa , u nang buồng trứng , buồng trứng xoắn Đau bụng dưới bên phải: Viêm ruột thừa, vấn đề buồng trứng phải Đau bụng trên: Loét dạ dày , viêm dạ dày, viêm tụy Đau bụng dưới: Nhiễm trùng đường tiết niệu , các vấn đề phụ khoa như u xơ tử cung và ung thư 4.Nguyên nhân đau bụng ở người lớn Viêm phổi ở người lớn cũng có thể gây ra các cơn đau bụng Có rất nhiều nguyên nhân gây ra các cơn đau bụng, tuy nhiên, ở người lớn, đau bụng có thể không đến từ bụng."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chế độ ăn cho người đau bụng kinh\nTrả lời: 2. Chế độ ăn cho người đau bụng kinh\n2.2. Bị đau bụng kinh không nên ăn và uống gì? Ngoài việc sử dụng các loại thực phẩm hỗ trợ giảm đau bụng khi hành kinh, phụ nữ cũng cần tránh hay hạn chế sử dụng các loại thực phẩm dưới đây để tránh nguy cơ ảnh hưởng xấu lên những ngày “đèn đỏ” 2.",
+                "score": 0.5771984457969666,
+                "id": "vietnamese_healthcare_161980",
+                "rerank_score": 0.0017906228313222528
+            },
+            {
+                "text": "Câu hỏi: Liều dùng và cách dùng thuốc Stagerin\nTrả lời: 4. Liều dùng và cách dùng thuốc Stagerin\n4.2. Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn.",
+                "score": 0.5525205731391907,
+                "id": "vietnamese_healthcare_152433",
+                "rerank_score": 7.059536437736824e-05
+            },
+            {
+                "text": "Câu hỏi: Nắng nóng bà bầu ăn gì cho mát?\nTrả lời: 2. Nắng nóng bà bầu ăn gì cho mát?\nDưới đây là những món ăn giải nhiệt cho bà bầu và cả các loại thức uống giải nhiệt cho bà bầu, các mẹ bầu có thể tham khảo và lên thực đơn phù hợp cho mình.",
+                "score": 0.5368555784225464,
+                "id": "vietnamese_healthcare_129848",
+                "rerank_score": 4.135456038056873e-05
+            },
+            {
+                "text": "Câu hỏi: Tuyến thượng thận là gì?\nTrả lời: 1. Tuyến thượng thận là gì?\nCơ chế bài tiết hormon của tủy thượng thận Tuyến thượng thận",
+                "score": 0.5430171489715576,
+                "id": "vietnamese_healthcare_37497",
+                "rerank_score": 3.723649206222035e-05
+            },
+            {
+                "text": "Câu hỏi: Lợi ích từ hàu sữa\nTrả lời: 4. Lợi ích từ hàu sữa\nNgày nay hàu là động vật hải sản biển rất có giá trị. Vậy ăn hàu có tốt không ? Dưới đây là 10 lợi ích từ hàu:",
+                "score": 0.5475326776504517,
+                "id": "vietnamese_healthcare_143933",
+                "rerank_score": 3.214426396880299e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nguyên nhân gây đau buồng trứng\nTrả lời: 2. Nguyên nhân gây đau buồng trứng\n2.1 U nang buồng trứng 2.5.2. Hội chứng tàn dư buồng trứng được chẩn đoán như thế nào? Siêu âm, CT và MRI giúp bác sĩ xác định vị trí còn lại của mô buồng trứng. Tiểu khó là triệu chứng khác có thể gặp của hội chứng tàn dư buồng trứng 2.",
+                "score": 0.494911253452301,
+                "id": "vietnamese_healthcare_83734",
+                "rerank_score": 0.007314339745789766
+            },
+            {
+                "text": "Câu hỏi: Chế độ ăn cho người đau bụng kinh\nTrả lời: 2. Chế độ ăn cho người đau bụng kinh\n2.2. Bị đau bụng kinh không nên ăn và uống gì? Ngoài việc sử dụng các loại thực phẩm hỗ trợ giảm đau bụng khi hành kinh, phụ nữ cũng cần tránh hay hạn chế sử dụng các loại thực phẩm dưới đây để tránh nguy cơ ảnh hưởng xấu lên những ngày “đèn đỏ” 2.",
+                "score": 0.546789288520813,
+                "id": "vietnamese_healthcare_161980",
+                "rerank_score": 0.001790626090951264
+            },
+            {
+                "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+                "score": 0.5025732517242432,
+                "id": "vietnamese_healthcare_86309",
+                "rerank_score": 0.0005631536478176713
+            },
+            {
+                "text": "Câu hỏi: Tác dụng phụ của thuốc Vixogan\nTrả lời: 4. Tác dụng phụ của thuốc Vixogan\nHiện tại, chưa có báo cáo về tác dụng phụ gặp phải khi sử dụng thuốc Vixogan. Nếu trong quá trình sử dụng thuốc Vixogan, bạn thấy xuất hiện các triệu chứng bất thường, cần báo cho bác sĩ hoặc đến ngay cơ sở y tế gần nhất để được hỗ trợ kịp thời.",
+                "score": 0.5141022801399231,
+                "id": "vietnamese_healthcare_3969",
+                "rerank_score": 0.00025995905161835253
+            },
+            {
+                "text": "Câu hỏi: Liều dùng và cách dùng thuốc Stagerin\nTrả lời: 4. Liều dùng và cách dùng thuốc Stagerin\n4.2. Cách dùng Dùng thuốc Stagerin theo đường uống, nên uống thuốc Stagerin sau bữa ăn.",
+                "score": 0.49801206588745117,
+                "id": "vietnamese_healthcare_152433",
+                "rerank_score": 7.059536437736824e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nguyên nhân gây đau bụng là gì?\nTrả lời: 1. Nguyên nhân gây đau bụng là gì?\nHầu hết tất cả chúng ta, ai cũng đã từng trải qua ít nhất một lần đau bụng trong đời. Có thể chỉ là cơn đau bụng thoáng qua , đau âm ỉ nhưng cũng có khi đau dữ dội; cơn đau có thể là cấp tính kéo dài vài giờ hoặc vài ngày, hoặc là cơn đau mạn tĩnh trong vài tuần cho đến vài tháng, thậm chí là vài năm. Có rất nhiều nguyên nhân gây đau bụng, một số nguyên nhân thường gặp như đau do căng cơ, đau bụng đầy hơi, khó tiêu thì thường không nghiêm trọng, nhưng cũng có những trường hợp đau bụng cần phải xử trí cấp cứu hoặc cần được theo dõi. Khi nói tới đau bụng, chúng ta cần chú ý tới nhiều tính chất của cơn đau như cường độ đau, đau âm ỉ hay đau dữ dội, đau thành cơn hay đau liên tục, cơn đau xuất hiện có liên quan đến yếu tố ăn uống không, và đặc biệt là thời gian đau. Thời gian đau bụng có vai trò rất quan trọng trong việc chẩn đoán nguyên nhân gây đau. Dựa trên tính chất này, chúng ta chia đau bụng thành hai nhóm chính: Đau bụng cấp tính : đau bụng xuất hiện, kéo dài và thường hết trong vài giờ cho đến vài ngày. Đau bụng mạn tính : cơn đau có thể ngắt quãng, xuất hiện rồi mất và lặp lại hàng tuần cho đến hàng tháng và thậm chí là hàng năm. Một số trường hợp còn gây ra các cơn đau bụng kịch phát. Có thể chẩn đoán nguyên nhân dựa vào thời gian đau bụng 1.1. Nguyên nhân gây đau bụng cấp tính Đau bụng cấp tính thường kết hợp với các triệu chứng khác của bệnh, cơn đau kéo dài vài giờ cho đến vài ngày. Mức độ nghiêm trọng của các căn bệnh này là khác nhau, có bệnh nhẹ không cần điều trị gì đặc biệt cho đến những căn bệnh rất nặng cần phải xử trí cấp cứu ngay. Dưới đây là một số bệnh có triệu chứng đau bụng mà chúng ta cần lưu ý: Bệnh viêm ruột thừa . Bệnh viêm túi mật . Bệnh viêm ống mật . Bệnh phình động mạch chủ bụng . Bệnh Crohn . Nhiễm toan xeton trong bệnh đái tháo đường. Bệnh viêm túi thừa . Tắc ruột . Chửa ngoài tử cung . Bệnh nhồi máu cơ tim . Táo bón. Chấn thương. Lồng ruột ở trẻ em . Bệnh viêm thận . Bệnh sỏi thận . Bệnh áp xe gan . Bệnh nhồi máu mạc treo . Bệnh viêm mạch bạch huyết mạc treo . Bệnh huyết khối mạch mạc treo . Bệnh viêm tụy cấp . Bệnh viêm màng ngoài tim . Bệnh viêm màng phổi . Bệnh viêm phổi . Bệnh nhồi máu phổi . Bệnh viêm lách . Vỡ lách. Bệnh viêm đường tiết niệu . Thủng đại tràng .",
+                "score": 0.5632683038711548,
+                "id": "vietnamese_healthcare_36174",
+                "rerank_score": 0.975475013256073
+            },
+            {
+                "text": "Câu hỏi: Nguyên nhân gây đau bụng là gì?\nTrả lời: 1. Nguyên nhân gây đau bụng là gì?\nHầu hết tất cả chúng ta, ai cũng đã từng trải qua ít nhất một lần đau bụng trong đời. Có thể chỉ là cơn đau bụng thoáng qua , đau âm ỉ nhưng cũng có khi đau dữ dội; cơn đau có thể là cấp tính kéo dài vài giờ hoặc vài ngày, hoặc là cơn đau mạn tĩnh trong vài tuần cho đến vài tháng, thậm chí là vài năm. Có rất nhiều nguyên nhân gây đau bụng, một số nguyên nhân thường gặp như đau do căng cơ, đau bụng đầy hơi, khó tiêu thì thường không nghiêm trọng, nhưng cũng có những trường hợp đau bụng cần phải xử trí cấp cứu hoặc cần được theo dõi. Khi nói tới đau bụng, chúng ta cần chú ý tới nhiều tính chất của cơn đau như cường độ đau, đau âm ỉ hay đau dữ dội, đau thành cơn hay đau liên tục, cơn đau xuất hiện có liên quan đến yếu tố ăn uống không, và đặc biệt là thời gian đau. Thời gian đau bụng có vai trò rất quan trọng trong việc chẩn đoán nguyên nhân gây đau. Dựa trên tính chất này, chúng ta chia đau bụng thành hai nhóm chính: Đau bụng cấp tính : đau bụng xuất hiện, kéo dài và thường hết trong vài giờ cho đến vài ngày. Đau bụng mạn tính : cơn đau có thể ngắt quãng, xuất hiện rồi mất và lặp lại hàng tuần cho đến hàng tháng và thậm chí là hàng năm. Một số trường hợp còn gây ra các cơn đau bụng kịch phát. Có thể chẩn đoán nguyên nhân dựa vào thời gian đau bụng 1.2. Nguyên nhân gây đau bụng mạn tính Nguyên nhân gây đau bụng mạn tính thường là các bệnh phức tạp và khó phát hiện hơn. Triệu chứng đau bụng của các căn bệnh này cũng rất đa dạng từ những cơn đau nhẹ cho đến đau dữ dội, đau từng hồi, cơn đau xuất hiện rồi mất hoặc cũng có khi bùng phát thành cơn đau dữ dội. Các bệnh lý có thể gây đau bụng mạn tính đó là: Bệnh viêm dạ dày . Bệnh trào ngược dạ dày - thực quản . Bệnh loét dạ dày . Bệnh của mạch thân tạng. Cơn đau thắt ngực . Bệnh lạc nội mạc tử cung . Bệnh sỏi mật . Bệnh thoát vị bẹn . Bệnh thoát vị hoành . Bệnh phù lách. Đau bụng Mittelschmerz : cơn đau bụng có liên quan tới buồng trứng, xuất hiện vào giữa chu kỳ kinh nguyệt. Bệnh đau dạ dày không do loét. Bệnh nang buồng trứng . Bệnh viêm vùng chậu : do viêm các cơ quan sinh dục nữ. Bệnh thiếu máu tế bào hình liềm . Bệnh viêm loét đại tràng . Căng cơ bụng: do tập luyện, chơi thể thao quá sức hoặc vận động sai tư thế. Tập luyện thể thao quá sức dẫn đến căng cơ bụng",
+                "score": 0.5632683038711548,
+                "id": "vietnamese_healthcare_36175",
+                "rerank_score": 0.9715947508811951
+            },
+            {
+                "text": "Câu hỏi: Chẩn đoán nguyên nhân gây đau bụng\nTrả lời: 3. Chẩn đoán nguyên nhân gây đau bụng\nTùy thuộc vào vị trí của cơn đau sẽ giúp bác sĩ chẩn đoán nguyên nhân của cơn đau bụng bao gồm: Đau bụng trên bên trái: Lách to Đau bụng trên bên phải: Bệnh túi mật, viêm gan Dưới bên trái đau bụng: Viêm túi thừa , u nang buồng trứng , buồng trứng xoắn Đau bụng dưới bên phải: Viêm ruột thừa, vấn đề buồng trứng phải Đau bụng trên: Loét dạ dày , viêm dạ dày, viêm tụy Đau bụng dưới: Nhiễm trùng đường tiết niệu , các vấn đề phụ khoa như u xơ tử cung và ung thư 4.Nguyên nhân đau bụng ở người lớn Viêm phổi ở người lớn cũng có thể gây ra các cơn đau bụng Có rất nhiều nguyên nhân gây ra các cơn đau bụng, tuy nhiên, ở người lớn, đau bụng có thể không đến từ bụng. Một số nguyên nhân đáng ngạc nhiên bao gồm đau tim và viêm phổi, tình trạng ở xương chậu hoặc háng, một số phát ban da như bệnh zona và các vấn đề với cơ bụng bị căng. Cơn đau có thể xảy ra cùng với các vấn đề khi đi tiểu hoặc với nhu động ruột, hoặc các vấn đề về thời gian. Với rất nhiều cơ quan và cấu trúc trong bụng, bác sĩ khó có thể hoàn toàn chắc chắn về nguyên nhân của vấn đề của người bệnh. Bác sĩ sẽ hỏi vài câu và sau đó kiểm tra cẩn thận. Bác sĩ có thể thực hiện xét nghiệm thêm hoặc siêu âm và chụp x quang hoặc CT ổ bụng . Nguyên nhân cơn đau của người bệnh có thể khá rõ ràng không nghiêm trọng. Bác sĩ cũng có thể không thể tìm ra nguyên nhân, những cơn đau trở nên tốt hơn trong vài giờ hoặc vài ngày. Trong trường hợp này, bác sĩ cần phải chắc chắn rằng cơn đau không cần phẫu thuật hoặc nhập viện. 4.1 Chẩn đoán đau bụng ở người lớn Nếu cần kiểm tra và xét nghiệm khi người lớn bị đau bụng , các xét nghiệm có thể thực hiện bao gồm: Khám trực tràng để kiểm tra máu trong phân và xem có bị trĩ không? Nếu người bệnh là đàn ông, bác sĩ có thể kiểm tra dương vật và bìu Nếu người bệnh là phụ nữ, bác sĩ có thể khám phụ khoa để kiểm tra các vấn đề trong tử cung, ống dẫn trứng và buồng trứng, và làm xét nghiệm thai. Xét nghiệm máu để tìm kiếm nhiễm trùng (gây ra số lượng tế bào bạch cầu tăng) hoặc chảy máu (gây ra số lượng máu thấp hoặc huyết sắc tố) Các xét nghiệm máu khác có thể xem xét các enzyme trong gan, tuyến tụy và tim để phân loại cơ quan nào có thể liên quan Xét nghiệm nước tiểu để tìm nhiễm trùng nước tiểu hoặc máu (nếu có sỏi thận) ECG (dấu vết điện của tim) để loại trừ cơn đau tim Các xét nghiệm khác, bao gồm chụp X-quang, siêu âm hoặc CT scan Đôi khi người bệnh cũng có thể được giới thiệu đến một bác sĩ khác để giúp tìm ra nguyên nhân của vấn đề. Nội soi là một kiểm tra trong đó một ống mềm gắn camera và ánh sáng ở đầu được sử dụng để kiểm tra một số cơ quan nội tạng mà không cần phẫu thuật. Tên khác nhau được sử dụng tùy thuộc vào cơ quan nào đang được xem xét. Nếu có xét nghiệm, bác sĩ sẽ giải thích kết quả cho người bệnh. Một số kết quả có thể mất một vài ngày để quay lại và những kết quả này sẽ được gửi đến bác sĩ địa phương của người bệnh. 4.2 Điều trị đau bụng ở người lớn Điều trị đau bụng ở người lớn bằng một số loại thuốc Điều trị đau bụng ở người lớn phụ thuộc vào những gì gây ra đau, có thể bao gồm: Giảm đau - cơn đau có thể không biến mất hoàn toàn với thuốc giảm đau, nhưng nó sẽ giảm bớt. Truyền dịch - người bệnh có thể được truyền dịch vào tĩnh mạch để điều chỉnh mất chất lỏng và nhị ăn cho đường ruột nghỉ ngơi. Thuốc - người bệnh có thể được cho một số thuốc chống nôn, điều hòa nhu động ruột, giảm acid dạ dày... Nhịn ăn - bác sĩ có thể yêu cầu người bệnh không ăn hoặc uống bất cứ thứ gì cho đến khi biết được nguyên nhân gây đau. 4.3 Người bệnh cần thực hiện chăm sóc bản thân tại nhà Hầu hết các cơn đau bụng biến mất mà không cần điều trị đặc biệt, một số điều người bệnh có thể làm để giúp giảm đau, bao gồm: Chườm ấm trên bụng Ngâm mình trong bồn nước ấm, cẩn thận đừng tự làm bỏng mình. Uống nhiều nước một chút.. Khi được phép ăn lại, hãy bắt đầu với ăn lỏng dễ tiêu sau đó chuyển sang thực phẩm như bánh quy hoặc bánh mì nướng. Nghỉ ngơi nhiều Hãy thử các thuốc kháng axit để giúp giảm một số loại đau. Uống thuốc giảm đau nhẹ như paracetamol , kiểm tra gói cho đúng liều. Tránh dùng aspirin hoặc thuốc chống viêm trừ khi được bác sĩ khuyên dùng. Những loại thuốc này có thể làm cho một số loại đau bụng tồi tệ hơn. Bệnh viện Đa khoa Quốc tế Vinmec là một trong những bệnh viện không những đảm bảo chất lượng chuyên môn với đội ngũ y bác sĩ giàu kinh nghiệm, hệ thống trang thiết bị công nghệ hiện đại mà còn nổi bật với dịch vụ khám, tư vấn và chữa bệnh toàn diện, chuyên nghiệp; không gian khám chữa bệnh văn minh, lịch sự, an toàn và tiệt trùng tối đa. Nếu có nhu cầu tư vấn và thăm khám tại các Bệnh viện Vinmec thuộc hệ thống Y tế trên toàn quốc, Quý khách vui lòng đặt lịch trên website để được phục vụ.",
+                "score": 0.5069409608840942,
+                "id": "vietnamese_healthcare_22654",
+                "rerank_score": 0.9152098894119263
+            },
+            {
+                "text": "Câu hỏi: Thông tin chung về tình trạng đau bụng kinh\nTrả lời: 1. Thông tin chung về tình trạng đau bụng kinh\n1.2. Nguyên nhân đau bụng kinh Đau bụng kinh gồm có đau bụng kinh nguyên phát và thứ phát. Đau bụng kinh nguyên phát là tình trạng đau bụng sinh lý mỗi lần hành kinh mà không liên quan đến bệnh lý gì. Đau bụng kinh nguyên phát thường xuất hiện ở phụ nữ trong giai đoạn dậy thì, phụ nữ chưa có chồng hoặc chưa từng sinh con. Đau bụng kinh thứ phát thường liên quan đến các bệnh lý sau : Hội chứng tiền kinh nguyệt Hội chứng rối loạn tâm thần tiền kinh nguyệt Khối u xơ tử cung hay u nang buồng trứng Viêm vùng chậu , viêm phần phụ Lạc nội mạc tử cung trong cơ tử cung, trong buồng trứng, trong vết mổ cũ thành bụng... Các vấn đề về thai như sẩy thai , thai ngoài tử cung ...",
+                "score": 0.5106216073036194,
+                "id": "vietnamese_healthcare_158276",
+                "rerank_score": 0.29386478662490845
+            },
+            {
+                "text": "Câu hỏi: Nữ giới đau nửa đầu, buồn nôn nguyên nhân là gì?\nTrả lời: Thông tin bạn đưa ra quá ít để bác sĩ có thể nhận định về loại đau đầu và nguyên nhân đau đầu của bạn. Có thể là một loại đau đầu nguyên phát có kèm buồn nôn như Migraine hoặc các loại đau đầu thứ phát nguy hiểm như u não,... Bạn nên đi khám để được chẩn đoán và điều trị phù hợp.",
+                "score": 0.46909594535827637,
+                "id": "vietnamese_healthcare_7022",
+                "rerank_score": 0.036958348006010056
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tôi có tiền sử dị ứng thuốc hạ sốt và một vài loại thuốc giảm đau nhưng trước giờ tôi vẫn tiêm được tất cả các loại vaccine cơ bản, cả viêm gan B. Vậy tôi có thể tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Bạn bị dị ứng nhưng không nói rõ triệu chứng, đã từng xử lý như thế nào, có nhập viện hay không. Nếu bạn dị ứng nhẹ chỉ theo dõi, không điều trị gì thì có thể tiêm vaccine Covid-19 tại tuyến bệnh viện. Nếu dị ứng nặng từ phản vệ độ II trở lên sẽ thuộc đối tượng chống chỉ định tiêm chủng vaccine Covid-19.",
+    "answer": "Bạn có thể tiêm vaccine Covid-19 nếu tiền sử dị ứng thuốc hạ sốt và thuốc giảm đau chỉ gây mề đay, ngứa… mà không kèm khó thở, tím tái, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn hoặc buồn nôn; tuy nhiên nên tiêm tại bệnh viện hoặc cơ sở có đủ năng lực cấp cứu và được nhân viên y tế giám sát. Nếu trước đây từng bị phản vệ nặng từ độ II với bất kỳ tác nhân nào, bạn thuộc nhóm chống chỉ định tiêm vaccine Covid-19. Việc trước đây vẫn tiêm được các vaccine khác không đủ để xác định mức độ an toàn, vì vậy cần khai báo cụ thể tiền sử dị ứng khi khám sàng lọc.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Sau khi tiêm vaccine Covid-19 bị sốt có uống thuốc hạ sốt được không?\nTrả lời: Phản ứng sốt sau khi tiêm phòng vaccine phòng Covid 19 là phản ứng thông thường và anh hoàn toàn có thể dùng thuốc hạ sốt thông dụng theo chỉ dẫn của bác sĩ thăm khám sàng lọc.",
+            "score": 0.6577951908111572,
+            "id": "vietnamese_healthcare_9857"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm gan B đang điều trị, vậy tôi có thể tiêm vaccine Covid-19 được không ạ?\nTrả lời: Trường hợp anh/chị đang điều trị viêm gan B, tuy nhiên không nói rõ là hiện tại về số lượng virus và các chỉ số về chức gan như thể nào.",
+            "score": 0.6557922959327698,
+            "id": "vietnamese_healthcare_8445"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm xoang và viêm gan B không có chỉ định uống thuốc có tiêm được vaccine Covid- 19 không?\nTrả lời: Nếu anh/chị không trong đợt cấp của viêm xoang, tình trạng viêm gan B ổn định thì có thể tiêm phòng vaccine Covid-19.",
+            "score": 0.6449002027511597,
+            "id": "vietnamese_healthcare_656"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm gan B có tiêm vaccine Covid-19 được không?\nTrả lời: Nếu tình trạng viêm gan B của anh trong 3 tháng gần đây ổn định, không tiến triển cấp tính, không thay đổi phác đồ điều trị duy trì, anh vẫn có thể tiêm ngừa vaccine Covid-19",
+            "score": 0.6416887640953064,
+            "id": "vietnamese_healthcare_3644"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng với thuốc hạ sốt và thuốc giảm đau có thể tiêm vaccine Covid-19 được không?\nTrả lời: Theo thông tin của chị cung cấp, chúng tôi chưa đánh giá được mức độ dị ứng của chị vì theo hướng dẫn của Bộ Y tế, những người có tiền sử phản vệ nặng (phản vệ từ độ II) với bất kỳ tác nhân gì trước đó thuộc nhóm chống chỉ định tiêm vaccine Covid-19. Vì vậy, trong giai đoạn này, chị cần thực hiện các biện pháp phòng dịch hiệu quả khác như thông điệp 5K của Chính phủ. Tuy nhiên, nếu mức độ dị ứng của chị chỉ là mề đay, ngứa, . . . và không bị khó thở, tím tái, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn/buồn nôn. . . thì chị vẫn được tiêm chủng nhưng cần cẩn trọng dưới sự giám sát của nhân viên y tế, chị nên tiêm chủng trong bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu.",
+            "score": 0.6389237642288208,
+            "id": "vietnamese_healthcare_177"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

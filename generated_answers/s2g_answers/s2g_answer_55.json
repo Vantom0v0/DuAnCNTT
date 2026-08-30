@@ -1,0 +1,107 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Điều trị vá màng nhĩ do viêm tai giữa thủng nhĩ như nào?",
+    "ground_truth": "Bạn đã vá màng nhĩ do viêm tai giữa thủng nhĩ trên 10 năm. Thông thường, nếu vá màng nhĩ thành công thì tai hoàn toàn khô và khỏi bệnh. Tuy nhiên, trong giai đoạn sau vá, bạn nên đi khám kiểm tra để xác định sự thành công của vá nhĩ, bởi vì vá nhĩ có tỷ lệ thất bại nhất định. Hiện tại, bạn đang có vấn đề về tai, bạn nên khám đúng chuyên khoa tai mũi họng để đánh giá tình trạng tai. Nếu còn băn khoăn, bạn có thể đặt hẹn khám chuyên khoa tai mũi họng tại bệnh viện Vinmec để được các bác sĩ chuyên khoa khám, chẩn đoán và tư vấn điều trị.",
+    "answer": "Không tìm thấy đủ thông tin trong phần bằng chứng được cung cấp để trả lời về cách điều trị vá màng nhĩ do viêm tai giữa thủng nhĩ.",
+    "evidence": [],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6732656359672546,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.000101599027402699
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Savixin\nTrả lời: 3. Cách sử dụng thuốc Savixin\n3.1. Cách sử dụng thuốc Savixin: Người bệnh sử dụng thuốc Savixin qua đường uống.",
+                "score": 0.6282774806022644,
+                "id": "vietnamese_healthcare_154773",
+                "rerank_score": 8.858706132741645e-05
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Fluxar\nTrả lời: 3. Cách sử dụng thuốc Fluxar\n3.1. Cách sử dụng thuốc Fluxar Đối với thuốc Fluxar , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6432393789291382,
+                "id": "vietnamese_healthcare_137326",
+                "rerank_score": 7.643915159860626e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng thuốc Lodegald Levo\nTrả lời: 3. Cách dùng và liều dùng thuốc Lodegald Levo\n3.1. Cách dùng thuốc Lodegald Levo Thuốc Lodegald Levo được sử dụng bằng đường uống.",
+                "score": 0.6333256959915161,
+                "id": "vietnamese_healthcare_147148",
+                "rerank_score": 6.329253665171564e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.6257480382919312,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 4.8540452553424984e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.7201747894287109,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.00016012416745070368
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7254470586776733,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.00010159912199014798
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng thuốc Lodegald Levo\nTrả lời: 3. Cách dùng và liều dùng thuốc Lodegald Levo\n3.1. Cách dùng thuốc Lodegald Levo Thuốc Lodegald Levo được sử dụng bằng đường uống.",
+                "score": 0.6905931830406189,
+                "id": "vietnamese_healthcare_147148",
+                "rerank_score": 6.329242023639381e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.688202440738678,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 4.854054714087397e-05
+            },
+            {
+                "text": "Câu hỏi: Cần làm gì với biến chủng Omicron?\nTrả lời: 3. Cần làm gì với biến chủng Omicron?",
+                "score": 0.6937571167945862,
+                "id": "vietnamese_healthcare_40044",
+                "rerank_score": 3.896019188687205e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.631845235824585,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.00016012416745070368
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6717754602432251,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.00010159912199014798
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Fluxar\nTrả lời: 3. Cách sử dụng thuốc Fluxar\n3.1. Cách sử dụng thuốc Fluxar Đối với thuốc Fluxar , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6392514705657959,
+                "id": "vietnamese_healthcare_137326",
+                "rerank_score": 7.643907883903012e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng thuốc Lodegald Levo\nTrả lời: 3. Cách dùng và liều dùng thuốc Lodegald Levo\n3.1. Cách dùng thuốc Lodegald Levo Thuốc Lodegald Levo được sử dụng bằng đường uống.",
+                "score": 0.6320177316665649,
+                "id": "vietnamese_healthcare_147148",
+                "rerank_score": 6.329242023639381e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.6259709000587463,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 4.854054714087397e-05
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

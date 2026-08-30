@@ -1,0 +1,48 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tai em từ bé không bị bệnh gì, cách đây khoảng 5 hôm, em nghe nhạc to và lâu. Sau đó, em thấy tai luôn có tiếng kêu o o khi ở nơi không có tiếng động. Khi ngáp hoặc nuốt thức ăn hay nhai thì tai có tiếng kêu óc ách rất khó chịu. Vậy bác sĩ cho em hỏitai có tiếng kêu bất thường là dấu hiệu bệnh gì?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bạn cótiếng kêu bất thường trong taitrong không gian yên tĩnh, tiếng óc ách trong tai khi nuốt hay nhai thức ăn, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để Bác sĩ khám, kiểm tra, đánh giá chính xác hơn và xác định nguyên nhân gây ra những bất thường đó, từ đó có thể tư vấn điều trị hiệu quả cho bạn.",
+    "answer": "Theo mô tả, bạn có thể đang gặp triệu chứng ù tai. Ù tai có thể liên quan đến các vấn đề ở tai ngoài, tai giữa hoặc tai trong, chẳng hạn như viêm ống tai, rối loạn chức năng vòi nhĩ, viêm nhiễm hoặc rối loạn tuần hoàn tai trong. Bạn nên đến khám tại phòng khám Tai mũi họng để bác sĩ kiểm tra, xác định nguyên nhân và tư vấn hướng điều trị phù hợp.",
+    "evidence": [
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như mô tả, có thể bạn đang bị triệu chứng ù tai.",
+        "Tuy nhiên, vì nguyên nhân ù tai có thể từ tai ngoài, tai giữa như các bệnh lý viêm nhiễm, hoặc từ tai trong như các rối loạn tuần hoàn tai, bạn nên sắp xếp đến khám với bác sĩ chuyên khoa để có thể tìm nguyên nhân bệnh, từ đó có hướng điều trị thích hợp.",
+        "Có rất nhiều nguyên nhân ù tai, thường gặp là viêm ống tai, rối loạn chức năng vòi nhĩ, hoặc rối loạn tuần hoàn tai trong.",
+        "Vì vậy, bạn nên đến phòng khám Tai mũi họng để Bác sĩ khám, kiểm tra, đánh giá chính xác hơn và xác định nguyên nhân gây ra những bất thường đó, từ đó có thể tư vấn điều trị hiệu quả cho bạn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Tai có tiếng kêu bất thường là dấu hiệu bệnh gì?\nTrả lời: Bạn có tiếng kêu bất thường trong tai trong không gian yên tĩnh, tiếng óc ách trong tai khi nuốt hay nhai thức ăn, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để Bác sĩ khám, kiểm tra, đánh giá chính xác hơn và xác định nguyên nhân gây ra những bất thường đó, từ đó có thể tư vấn điều trị hiệu quả cho bạn.",
+                "score": 0.7307778596878052,
+                "id": "vietnamese_healthcare_3729",
+                "rerank_score": 0.9993149042129517
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm sinh năm 1976. Khoảng 1 tuần nay, em bị bên tai trái kêu ro ro như có con gì bên trong rất khó chịu mà không có dịch chảy ra. Bác sĩ cho em hỏi có tiếng kêu trong tai là dấu hiệu bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như mô tả, có thể bạn đang bị triệu chứng ù tai. AI-Doctor đã có bài viết về ù tai. Mặc dù, ù tai gây khó chịu, đây thường không phải triệu chứng của một bệnh lý nghiêm trọng.\nTuy nhiên, vì nguyên nhân ù tai có thể từ tai ngoài, tai giữa như các bệnh lý viêm nhiễm, hoặc từ tai trong như các rối loạn tuần hoàn tai, bạn nên sắp xếp đến khám với bác sĩ chuyên khoa để có thể tìm nguyên nhân bệnh, từ đó có hướng điều trị thích hợp.\nTrân trọng!",
+                "score": 0.6588237285614014,
+                "id": "vietnamese_medical_qa_7",
+                "rerank_score": 0.9867159128189087
+            },
+            {
+                "text": "Câu hỏi: Ù tai, có tiếng kêu trong tai phải làm sao?\nTrả lời: Ù tai là vấn đề cần được thăm khám cẩn thận. Có rất nhiều nguyên nhân ù tai, thường gặp là viêm ống tai, rối loạn chức năng vòi nhĩ, hoặc rối loạn tuần hoàn tai trong. Vì bạn đã điều trị mà không thấy có kết quả thì bạn nên đến để được bác sĩ thăm khám kỹ càng, có thể cần phải chụp phim cộng hưởng từ để xem có khối chèn ép vào dây thần kinh nghe của mình không sau đó sẽ có hướng điều trị tiếp theo.",
+                "score": 0.5602704882621765,
+                "id": "vietnamese_healthcare_1741",
+                "rerank_score": 0.8465832471847534
+            },
+            {
+                "text": "Câu hỏi: Trong tai có tiếng vo ve là dấu hiệu bệnh lý gì?\nTrả lời: Theo triệu chứng cháu kể, có lẽ cháu bị nút ráy tai. Cháu nên đến bác sĩ Tai mũi họng để nội soi và lấy nút ráy tai sẽ hết.",
+                "score": 0.5587774515151978,
+                "id": "vietnamese_healthcare_8472",
+                "rerank_score": 0.8400530815124512
+            },
+            {
+                "text": "Câu hỏi: Đã chữa trị khỏi viêm tai ngoài 2 tháng nhưng vẫn xuất hiện triệu chứng đau tai, ù tai và có tiếng kêu trong tai là dấu hiệu của bệnh gì?\nTrả lời: Cháu bị Viêm tai ngoài, đã điều trị khỏi, đã được bác sĩ tai mũi họng nội soi kiểm tra lại bình thường. Vậy triệu chứng đau thỉnh thoảng hay hơi ù trong giai đoạn này không hệ trọng. Tuy nhiên phải hạn chế ngoáy tai, vì ngoáy tai không tốt cho tai ngoài.",
+                "score": 0.568587064743042,
+                "id": "vietnamese_healthcare_6721",
+                "rerank_score": 0.4090835452079773
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

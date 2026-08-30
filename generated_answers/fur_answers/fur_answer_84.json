@@ -1,0 +1,103 @@
+{
+    "model_name": "fur",
+    "question": "Chào bác sĩ,\nVợ em bị quáng gà do di truyền từ bố. Vậy bác sĩ cho em hỏi phương pháp điều trị quáng gà là gì? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBệnh lý quáng gà do di truyền hiện nay chưa có phương pháp điều trị, vợ của bạn cần khám mắt định kỳ 6 tháng 1 lần để kiểm tra, bổ sung vitamin A. Vợ bạn cần khám khi có dấu hiệu bất thường.\nTrân trọng!",
+    "answer": "Theo thông tin được cung cấp, quáng gà di truyền/bẩm sinh chủ yếu liên quan đến **các bệnh lý võng mạc do gen quy định**, làm rối loạn hoặc suy giảm chức năng của **tế bào que**—loại tế bào giúp mắt nhìn trong điều kiện thiếu sáng.\n\nCác nguyên nhân bệnh lý được nêu gồm:\n\n- **Viêm võng mạc sắc tố**: bệnh di truyền do gen quy định, có thể gây thoái hóa sắc tố võng mạc và quáng gà.\n- **Hội chứng Usher**: hội chứng suy giảm thính giác và thị giác do di truyền, có thể dẫn đến quáng gà.\n- Nhìn chung, **các bệnh di truyền võng mạc** khác cũng có thể gây quáng gà.\n\nPhần thông tin hiện có **chưa nêu cụ thể các gen hoặc danh sách đầy đủ những bệnh di truyền gây quáng gà**, nên chưa thể cung cấp chi tiết hơn. Người bệnh nên khám chuyên khoa mắt để đánh giá võng mạc và được tư vấn di truyền khi cần.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con chào bác sĩ. Con bị quáng gà bẩm sinh, do di truyền. Bác sĩ cho con hỏi, có phương pháp có thể ngăn ngừa bệnh tiến triển nặng hơn không ạ? Mong bác sĩ giải đáp giúp con, con cảm ơn ạ.\nTrả lời: Chào con. Con cần đến bác sĩ chuyên khoa mắt để khám xem mức độ bệnh thế nào. Nhiều thuốc bổ trợ cho mắt rất tốt, con nên đi khám để bác sĩ kê đơn điều trị. Thuốc sẽ phần nào hạn chế sự tiến triển của bệnh. Chúc con mau khỏe!\nCảm ơn con đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.6127958297729492,
+            "id": "vietnamese_medical_qa_3654",
+            "rerank_score": 0.9974560141563416
+        },
+        {
+            "text": "Câu hỏi: Vợ chồng em lấy nhau đã được gần 5 năm nhưng chưa có mụn con nào. Mới đây đi khám bác sĩ bảo vợ em bị buồng trứng đa nang. Bác sĩ cho em hỏi, bệnh này có thể điều trị được không? Điều trị bằng phương pháp nào và khả năng mang thai sau điều trị của vợ em có cao không?\nTrả lời: Buồng trứng đa nang là một hội chứng gây ra do rối loạn cân bằng hormone. Những phụ nữ bị buồng trứng đa nang có sự gia tăng bất thường về nồng độ androgen (hormone nam giới) trong cơ thể nữ. Những chất này sẽ gây gián đoạn quá trình phát triển của nang noãn, từ đó, buồng trứng xuất hiện nhiều nang nhỏ do nang noãn không phát triển được, trứng không thể trưởng thành và không có hiện tượng rụng trứng. Trước đây, có một vài phương pháp điều trị buồng trứng đa nang như phẫu thuật cắt góc buồng trứng hoặc đốt điểm buồng trứng. . . nhưng hiện nay ít được áp dụng do hiệu quả điều trị không được đảm bảo và phụ thuộc vào phẫu thuật viên rất nhiều. Hiện nay, có nhiều phương pháp hỗ trợ giúp phụ nữ bị đa nang sớm có con mà không cần can thiệp phẫu thuật như IUI, IVF.",
+            "score": 0.5219509601593018,
+            "id": "vietnamese_healthcare_7645",
+            "rerank_score": 0.20824061334133148
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nVợ em trước không bị viêm gan B, sau khi sinh thì bị mắc. Bác sĩ cho em hỏi nguyên nhân mắc viêm gan B sau khi sinh? Có phải do lây từ chồng không? Con em có khả năng bị lây nhiễm không thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nThông tin bạn đưa ra chưa đủ dữ kiện để kết luận là vợ bạn bị viêm gan B có nguồn lây từ đâu. Bạn chưa cung cấp cho bác sĩ biết vợ bạn nhiễm viêm gan B thể nào (viêm gan B hoạt động hay không hoạt động), việc điều trị thuốc kháng virus viêm gan B của vợ bạn, thời điểm vợ bạn phát hiện viêm gan B ngay sau sinh,...Vì vậy, bạn nên đưa vợ đến thăm khám bác sĩ và cung cấp đầy đủ thông tin để các bác sĩ có thể tư vấn cho bạn tốt nhất.\nTrân trọng!",
+            "score": 0.5537519454956055,
+            "id": "vietnamese_medical_qa_1597",
+            "rerank_score": 0.07182643562555313
+        },
+        {
+            "text": "Câu hỏi: Dạ thưa các bác sĩ. Em muốn hỏi gần đây da em mới xuất hiện các nốt bạch biến. Em muốn hỏi, xuất hiện nốt bạch biến có trị được không? Em xin cảm ơn bác sĩ.\nTrả lời: Chào bạn! Do nguyên nhân gây bệnh bạch biến vẫn chưa được hiểu rõ nên vẫn chưa có phương pháp điều trị bạch biến đặc hiệu. Hiện việc điều trị bệnh còn nhiều khó khăn, chỉ mới dừng lại ở việc giải quyết triệu chứng.\nCảm ơn bạn đã tin tưởng và chia sẻ lo lắng cùng câu hỏi “Xuất hiện nốt bạch biến có trị được không?” tới AI-Doctor. Chúc bạn luôn có sức khỏe tốt.",
+            "score": 0.5222973823547363,
+            "id": "vietnamese_medical_qa_2980",
+            "rerank_score": 0.06467466056346893
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ! Vợ em năm nay 35 tuổi và đã được chẩn đoán mắc bệnh cường giáp ICD:E05. Vào tháng 10/2018, vợ em đã phẫu thuật cắt tuyến giáp hoàn toàn nhưng hiện tại lại có triệu chứng bệnh tái phát gây mệt mỏi, hô hấp kém, loạn nhịp tim.\nVậy bác sĩ cho em hỏi Phương pháp điều trị dứt điểm bệnh cường giáp sau phẫu thuật là gì? Cám ơn bác sĩ đã tư vấn!\nTrả lời: Chào bạn! Với câu hỏi: Phương pháp điều trị dứt điểm bệnh cường giáp sau phẫu thuật là gì? của bạn thì bác sĩ xin trả lời như sau:\nDựa vào thông tin bạn đưa ra, vợ của bạn có thể vẫn còn tình trạng cường giáp mặc dù đã được phẫu thuật. Do đó, để tìm ra phương pháp điều trị hiệu quả nhất thì vợ của bạn cần được khám chuyên khoa Nội tiết và thực hiện một số phương pháp chẩn đoán hình ảnh như: siêu âm tuyến giáp và xét nghiệm đánh giá chức năng tuyến giáp. Từ đó, bác sĩ sẽ biết được đầy đủ tình trạng bệnh và đưa ra giải pháp điều trị phù hợp, hiệu quả nhất.",
+            "score": 0.5044227838516235,
+            "id": "vietnamese_medical_qa_3084",
+            "rerank_score": 0.0632157251238823
+        },
+        {
+            "text": "Câu hỏi: Quáng gà có chữa được không?\nTrả lời: 4. Quáng gà có chữa được không?\nQuáng gà có chữa được hay không phụ thuộc rất lớn vào nguyên nhân gây bệnh. Nếu bệnh nhân bị cận thị , thiếu vitamin A hoặc đục thủy tinh thể là nguyên nhân gây quáng gà thì bệnh có thể được giải quyết bằng cách điều trị những nguyên nhân này. Tuy nhiên, nếu bệnh nhân bị quáng gà do di truyền hoặc bẩm sinh thì hiện nay việc điều trị vẫn còn nhiều khó khăn, đặc biệt là áp dụng các biện pháp giúp cải thiện triệu chứng và ngăn ngừa biến chứng của bệnh. Phương pháp điều trị cơ bản như sau: Quáng gà do thiếu vitamin A : Tăng cường bổ sung vitamin A theo hướng dẫn của bác sĩ chuyên khoa bằng đường uống với liều khoảng 15.000 đơn vị/ngày. Cần lưu ý tuyệt đối tuân thủ chỉ định điều trị vì vitamin A gây nên các tác dụng phụ nghiêm trọng. Quáng gà do đục thủy tinh thể : Bệnh nhân sau khi thực hiện phẫu thuật đục thủy tinh thể thì có thể khắc phục hiệu quả tình trạng quáng gà. Quáng gà do cận thị: Hạn chế tình trạng suy giảm thị lực của bệnh nhân bằng cách cho bệnh nhân sử dụng các loại kính cận (Kính gọng hoặc kính áp tròng đều được) nhằm cải thiện thị giác cả ban ngày lẫn ban đêm. Quáng gà do di truyền: Bên cạnh việc điều trị triệu chứng và ngăn ngừa biến chứng thì cần thực hiện khám sàng lọc và tư vấn tiền hôn nhân ở những người có nguy cơ cao hay nghi ngờ bị bệnh.",
+            "score": 0.4871387481689453,
+            "id": "vietnamese_healthcare_122663",
+            "rerank_score": 0.8716956377029419,
+            "weighted_score": 0.9729775190353394
+        },
+        {
+            "text": "Câu hỏi: Quáng gà\nTrả lời: 8. Quáng gà\nQuáng gà - khó nhìn trong ánh sáng yếu - xảy ra khi các tế bào cảm quang hình que bị giảm xuống. Những yếu tố sau đây làm tăng nguy cơ mắc bệnh quáng gà: Rối loạn chức năng gan Thiếu vitamin A Bệnh di truyền võng mạc, chẳng hạn như viêm võng mạc sắc tố Đục thủy tinh thể . Thiếu vitamin A làm tăng nguy cơ mắc bệnh quáng gà",
+            "score": 0.5771338939666748,
+            "id": "vietnamese_healthcare_94894",
+            "rerank_score": 0.8848322629928589,
+            "weighted_score": 0.9131875276565551
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây bệnh quáng gà\nTrả lời: 2. Nguyên nhân gây bệnh quáng gà\nBệnh quáng gà xuất phát từ những rối loạn của các tế bào que trong võng mạc, là những tế bào có vai trò hỗ trợ mắt nhìn thấy hình ảnh trong bóng tối. Việc tìm hiểu nguyên nhân giúp các bác sĩ nhãn khoa đưa ra cách chữa bệnh quáng gà phù hợp cho từng cá thể. Các nguyên nhân gây bệnh quáng gà đã được nghiên cứu bao gồm: Tật cận thị Tăng nhãn áp, thuốc điều trị tăng nhãn áp làm co đồng tử Đục thủy tinh thể Viêm võng mạc sắc tố: Bệnh di truyền do gen quy định Bệnh keratoconus Thiếu vitamin A: Vitamin A đóng vai trò quan trọng trong dẫn truyền thần kinh và tạo hình ảnh trong môi trường thiếu sáng. Do đó, thiếu vitamin A ảnh hưởng đến quá trình hình thành các sắc tố cần thiết giúp mắt nhìn được trong điều kiện thiếu sáng. Các nguyên nhân gây thiếu vitamin A thường gặp là chế độ ăn thiếu vitamin A, trẻ suy dinh dưỡng , thiếu vitamin A trong thai kỳ, trẻ không tham gia chương trình bổ sung vitamin A mở rộng, bệnh nhiễm trùng, các bệnh chuyển hóa như đái tháo đường, ... Những ai có nguy cơ cao mắc bệnh quáng gà cao? Người lớn tuổi có nguy cơ cao bị đục thủy tinh thể, do đó họ có khả năng bị quáng gà cao hơn người trẻ em và thanh niên. Người suy tuyến tụy, gặp khó khăn trong hấp thu chất béo và vitamin A có nguy cơ mắc quáng gà cao hơn. Người có đường máu cao hoặc đái tháo đường có nguy cơ mắc các bệnh lý về mắt như đục thủy tinh thể. Những người có nguy cơ thiếu hụt vitamin A như trẻ dưới 3 tuổi, trẻ em suy dinh dưỡng có thể có nguy cơ mắc quáng gà cao hơn.",
+            "score": 0.6205508708953857,
+            "id": "vietnamese_healthcare_155774",
+            "rerank_score": 0.992138683795929,
+            "weighted_score": 0.8995231747627259
+        },
+        {
+            "text": "Câu hỏi: Những lưu ý đối với người bệnh quáng gà\nTrả lời: 4. Những lưu ý đối với người bệnh quáng gà\nKhông thể phòng tránh bệnh quáng gà nếu do nguyên nhân bẩm sinh hoặc di truyền. Tuy nhiên, chúng ta có thể theo dõi đường máu cơ thể và có chế độ ăn uống lành mạnh để giảm thiểu nguy cơ bị quáng gà. Chế độ dinh dưỡng lành mạnh giúp phòng bệnh quáng gà là tăng cường thực phẩm giàu vitamin và khoáng chất, chất chống oxy hóa trong khẩu phần hằng ngày để ngăn ngừa bệnh đục thủy tinh thể. Bổ sung các thực phẩm giàu vitamin A như cà rốt, dưa vàng, khoai lang, bí đỏ, bí ngô, xoài, cải bó xôi, các loại rau lá màu xanh đậm, gan động vật, sữa, trứng, ... Nếu bị quáng gà, người bệnh nên tránh lái xe vào ban đêm để giữ an toàn cho bản thân. Khi ở trong môi trường ánh sáng mạnh, có thể đội mũ hoặc đeo kính râm để giảm độ chói. Tập thể dục đều đặn cũng làm giảm nguy cơ mắc các bệnh về mắt như tăng nhãn áp. Đồng thời, tập thể dục cũng giúp làm giảm mức đường máu. Hy vọng những thông tin trong bài viết trên đã giúp bạn hiểu rõ về những cách chữa bệnh quáng gà, nếu có bất kỳ băn khoăn, thắc mắc nào hãy đến cơ sở y tế để thăm khám và nhờ sự tư vấn của bác sĩ.",
+            "score": 0.44993913173675537,
+            "id": "vietnamese_healthcare_155776",
+            "rerank_score": 0.561079740524292,
+            "weighted_score": 0.8911621570587158
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây ra bệnh quáng gà\nTrả lời: 1. Nguyên nhân gây ra bệnh quáng gà\nQuáng gà hay còn được gọi là chứng mù đêm theo cách gọi dân gian của bệnh thoái hóa sắc tố võng mạc mắt. Đặc trưng của bệnh này là bệnh nhân có tình trạng suy giảm thị lực, thu hẹp tầm nhìn trong bóng tối hoặc về đêm, thậm chí là ở những nơi thiếu ánh sáng. Khi dùng đèn soi đáy mắt có xuất hiện hình ảnh đặc trưng là những đám sắc tố hình tế bào xương ở võng mạc. Một số gây ra bệnh quáng gà đó là: Một số bệnh lý tại mắt: Bệnh nhân mắc phải tình trạng tăng nhãn áp , cận thị, hội chứng suy giảm thính giác và thị giác do di truyền (Usher), đục thủy tinh thể ,... là những bệnh lý có thể dẫn đến quáng gà. Bệnh lý toàn thân: Bệnh Keratoconus (Giác mạc biến dạng từ hình cầu chuyển sang hình chóp), tăng huyết áp và tiểu đường... Tác dụng phụ khi sử dụng các thuốc tăng nhãn áp gây đóng con ngươi và làm cho bệnh nhân bị quáng gà. Thiếu hụt vitamin A : Vitamin A là một chất dinh dưỡng có vai trò quan trọng tham gia vào quá trình dẫn truyền xung thần kinh và hình ảnh ở trên võng mạc. Do đó khi cơ thể thiếu đi loại vitamin này có thể dẫn đến quáng gà.",
+            "score": 0.6065935492515564,
+            "id": "vietnamese_healthcare_122660",
+            "rerank_score": 0.990848183631897,
+            "weighted_score": 0.8745486974716187
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân dị tật ức gà\nTrả lời: 2. Nguyên nhân dị tật ức gà\n2.1 Do di truyền Hầu hết các dị tật về xương đều là do bẩm sinh, vì thế nguyên nhân di truyền là khá cao. Nguyên nhân nhô xương ức gà từ nhỏ thì có đến 25% là do di truyền từ ông bà cha mẹ hoặc những người có quan hệ trực thuộc gần gũi. Trong đó, nếu cha mẹ hoặc người thân có quan hệ huyết thống cận kề thì nguy cơ trẻ bị dị tật xương ức gà sau khi chào đời là rất cao. Di truyền có thể là nguyên nhân gây dị tật xương ức gà ở trẻ 2.2 Phẫu thuật tim khi trẻ bị bệnh tim bẩm sinh Trẻ bị tim bẩm sinh xương ức có thể nhô lồi hẳn ra trước. 2.3 Do trẻ bị thiếu vitamin D Vitamin D là vitamin cực kỳ quan trọng đối với việc phát triển hệ xương của trẻ. Vì thế, một khi trẻ bị thiếu vitamin D thì sẽ càng làm tăng nguy cơ trẻ bị còi xương và dị tật nhô xương ngực ức gà có thể xảy ra. 2.4 Do trẻ thiếu canxi Trẻ thiếu canxi cũng có thể khiến cho xương sườn và xương ức có xu hướng co lại hoặc nhô ra ngoài lồng ngực. Thiếu canxi khiến trẻ tăng nguy cơ mắc dị tật xương ức gà",
+            "score": 0.5217719078063965,
+            "id": "vietnamese_healthcare_50904",
+            "rerank_score": 0.3369062840938568,
+            "weighted_score": 0.2276923954486847
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây bệnh ho gà\nTrả lời: 2. Nguyên nhân gây bệnh ho gà\nBệnh lý gây ra bởi vi khuẩn ho gà có tên khoa học là Bordetella pertussis, thuộc họ Bordetella. Vi khuẩn ho gà có đặc điểm như sau: Trực khuẩn kích thước nhỏ nhất trong các loại vi khuẩn, thuộc nhóm vi khuẩn gram (-); Vi khuẩn này có hai đầu nhỏ, không di chuyển và phát triển tốt nhất trong môi trường Bordet-Gengou có thạch máu với những khuẩn lạc điển hình. Trong môi trường bên ngoài vi khuẩn này có sức đề kháng yếu và sẽ bị chết trong thời gian 1 giờ dưới ảnh hưởng của nhiệt độ, thuốc sát khuẩn môi trường, ánh sáng mặt trời trực tiếp. Con người là vật chủ ký sinh của vi khuẩn ho gà và là nguyên nhân truyền bệnh. Bởi vậy, người bệnh là nguồn lây truyền, không có nguồn lây nhiễm ở người lành mang trùng hoặc người bệnh trong thời gian lấy lại sức. Thời gian ủ bệnh khoảng từ 7 đến 20 ngày. Trong đó, bệnh lý có nguy cơ lây nhiễm mạnh nhất ở thời kỳ đầu viêm long và giảm dần, mất đi sau khoảng 3 tuần mắc bệnh (trong khoảng thời gian này cơn ho vẫn còn dai dẳng). Phương thức lây truyền bệnh chủ yếu là do tiếp xúc trực tiếp qua đường hô hấp, dịch tiết từ niêm mạc mũi họng người bệnh bắn ra ngoài môi trường khi hắt hơi, ho. Đặc biệt, tính lây truyền xảy ra cao nhất khi người lành phơi nhiễm với giọt nước bọt của người bệnh, nhất là đối với những người cùng sinh hoạt trong một không gian khép kín (trường học, hộ gia đình...) Tất cả mọi người đều có thể cảm nhiễm với bệnh ho gà và sau khi mắc bệnh sẽ tạo được miễn dịch lâu dài, chỉ có một số ít trường hợp bị mắc bệnh lần thứ hai (do vi khuẩn B. parapertussis). Bệnh ho gà cần được xác định rõ nguyên nhân gây bệnh",
+            "score": 0.4594908356666565,
+            "id": "vietnamese_healthcare_62353",
+            "rerank_score": 0.3797837197780609,
+            "weighted_score": 0.20322805047035217
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây bệnh Harlequin ichthyosis\nTrả lời: 3. Nguyên nhân gây bệnh Harlequin ichthyosis\nHarlequin ichthyosis vốn là một bệnh lý di truyền về da được di truyền thông qua các gen lặn trên nhiễm sắc thể thường. Vì thế, con cái bạn hoặc bạn sẽ có nguy cơ mắc bệnh nếu trong gia đình đã từng có người mắc bệnh da vảy cá. Thông thường khi cả cha và mẹ đều là người mang mầm bệnh thì có khoảng 25% tỷ lệ con cái sẽ mắc bệnh này. Điều đáng buồn hơn là hiện nay không có biện pháp nào để ngăn ngừa được bệnh. Theo Tổ chức Quốc gia về Rối loạn Hiếm muộn Hoa Kỳ ước tính, bệnh Harlequin ichthyosis ảnh hưởng đến khoảng 1/500.000 người. Đa phần những người mắc căn bệnh này họ đều có cuộc sống rất khó khăn và phải phụ thuộc rất nhiều vào sự chăm sóc của người thân. Hiện nay để giảm thiểu nguy cơ trẻ sinh ra mắc bệnh Harlequin ichthyosis nhiều cặp vợ chồng đã chủ động đi khám để được tư vấn và kiểm tra sức khỏe tiền hôn nhân . Hoặc tiến hành thực hiện các xét nghiệm di truyền với các mẫu da, máu hoặc nước ối để đánh giá tình trạng sức khỏe thai nhi. 4 . Bệnh Harlequin ichthyosis được điều trị như thế nào? Với sự cải tiến của nền y học hiện nay, tuổi thọ của những bệnh nhân mắc Harlequin ichthyosis đã được nâng cao hơn. Tuy nhiên đi kèm với đó là việc phải điều trị tích cực. Đối với trẻ sơ sinh mắc bệnh cần được chăm sóc đặc biệt như nằm trong lồng ấp sưởi ấm với độ ẩm cao. Bên cạnh đó trẻ được cho ăn bằng ống mục đích giúp ngăn ngừa suy dinh dưỡng và mất nước. Việc điều trị bên ngoài, trẻ được sử dụng retinoids nhằm giúp hạn chế hình thành lớp da cứng và có vảy kết hợp thoa thuốc kháng sinh tại chỗ và băng kín da để ngăn ngừa nhiễm trùng. Không chỉ thế bệnh nhân cũng được sử dụng thuốc nhỏ mắt bôi trơn hoặc dụng cụ bảo vệ mắt giúp con bớt cảm giác khó chịu cũng như bảo vệ mắt được tốt hơn. Hiện nay vẫn chưa có thuốc điều trị triệt để tình trạng Harlequin ichthyosis. Những biện pháp hiện tại chỉ nhằm mục đích giảm những tổn thương nên cơ thể người bệnh. Nếu như trước kia trẻ sinh ra mắc bệnh da vảy cá chỉ có thể tiên lượng sống được vài ngày nhưng hiện nay với sự phát triển của khoa học trẻ có thể sống và sinh hoạt tới hơn 20 năm. Trên đây là tất cả những thông tin cần biết về chứng Harlequin ichthyosis. Việc chủ động tìm hiểu bệnh sẽ giúp giảm nguy cơ mắc và có hướng chăm sóc sức khỏe bản thân và người bệnh thật tốt.",
+            "score": 0.4544997811317444,
+            "id": "vietnamese_healthcare_88890",
+            "rerank_score": 0.008141526021063328,
+            "weighted_score": 0.0037906216457486153
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây giác mạc hình chóp\nTrả lời: 1. Nguyên nhân gây giác mạc hình chóp\nKhông ai biết được nguyên nhân chính xác của bệnh giác mạc hình chóp . Tuy nhiên các nhà khoa học tin rằng yếu tố di truyền, môi trường hoặc nội tiết tố có ảnh hưởng ít nhiều đến bệnh. Các yếu tố di truyền gây giác mạc hình chóp : Một số khiếm khuyết di truyền khiến những sợi protein nhất định trong giác mạc trở nên suy yếu. Những sợi này giúp giác mạc có độ cong hoàn hảo, khi những sợi này bị yếu, giác mạc sẽ biến dạng và phình ra phía trước. Theo nghiên cứu của các nhà khoa học những gia đình từng có người bị giác mạc hình chóp thì khả năng thế hệ sau cũng bị bệnh là rất cao. Các yếu tố môi trường: Những ai bị giác mạc hình chóp thường mắc các chứng dị ứng như hen suyễn , eczema và dị ứng thức ăn . Những người bị dị ứng nếu dụi mắt quá nhiều lần có thể gây tổn thương giác mạc , tạo cơ hội cho bệnh giác mạc hình chóp phát triển. Tình trạng giác mạc hình chóp có thể xảy ra do yếu tố nội tiết tố",
+            "score": 0.475929319858551,
+            "id": "vietnamese_healthcare_107412",
+            "rerank_score": 0.005000640172511339,
+            "weighted_score": 0.0014581648632884024
+        }
+    ],
+    "llm_call": 4,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": ". Con em mới sinh được 1 tháng, bé được chẩn đoán mắc Hội chứng Down. Em thấy mắt bé có biểu hiện lác, là biểu hiện thường thấy ở trẻ Down. Bác sĩ cho em hỏi, có thể phẫu thuật điều chỉnh trị lác với trẻ mắc Hội chứng Down được không ạ? Em mong bé có thể cải thiện được một chút vẻ ngoài, mong bác sĩ tư vấn. Em xin cảm ơn. Câu hỏi ẩn danh Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Thị Phương Thảo -Bác sĩ Mắt - Khoa Liên Chuyên Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+    "ground_truth": "Chào bạn! Với câu hỏi\"Có thể phẫu thuật trị lác ở trẻ mắc hội chứng Down không?\", bác sĩ xin giải đáp như sau: Do bé có hội chứng Down, khuyên bạn nên cho bé đi khám bác sĩ chuyên khoa Mắt để được thăm khám chuyên sâu về mắt chứ không chỉ chuyện lác, lé của bé. Còn vấn đề có can thiệp phẫu thuật hay không, sau khi thăm khám bác sĩ sẽ giải thích với gia đình cụ thể.",
+    "answer": "Trẻ mắc Hội chứng Down vẫn có thể được điều trị lác, tuy nhiên bé mới 1 tháng tuổi nên chưa can thiệp phẫu thuật ngay. Bạn nên đưa bé đến khám chuyên khoa Mắt để đánh giá mức độ lác, kiểm tra khúc xạ và xác định nguyên nhân, từ đó lựa chọn hướng xử trí phù hợp. Việc có cần phẫu thuật hay không sẽ phụ thuộc vào kết quả thăm khám; nếu lác do tật khúc xạ, bác sĩ có thể chỉ định điều chỉnh bằng kính trước, còn phẫu thuật chỉ được cân nhắc khi đã loại trừ nguyên nhân này.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con cháu sinh non 32 tuần đã đc đi khám định kỳ mắt thường xuyên. Hiện cháu đc 14 tháng tuổi cho đi khám lại, bác sĩ bảo phải mổ vì mắt bị lác bẩm sinh. Trước đó cháu cũng đã có hiện tượng bị lắc trong. Nay cháu hỏi bác sĩphương pháp điều trị lác bẩm sinh cho trẻ 14 tháng là gì?Cháu cảm ơn bác sĩ. Phạm Thị Thu Hiền(1982) Trả lời\nTrả lời: Chào bạn, Với câu hỏi:“Phương pháp điều trị lác bẩm sinh cho trẻ 14 tháng là gì?”bác sĩ xin được giải đáp như sau: Lác bẩm sinhcần cho trẻ đo thị lực và kiểm tra khúc xạ để chẩn đoán đúng nguyên nhân. Ở trẻ em khi mắt có tật khúc xạ sẽ dẫn đến mắt bị lác trong hoặc lác ngoài. Khi đã loại trừ được lác do tật khúc xạ thì mới có chỉ định phẫu thuật lác. Nếu chỉ có lác bẩm sinh thì phương điều trị là phẫu thuật chỉnh lác.  Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Thị Bích Nhĩ -Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.7493866086006165,
+            "id": "medical_vietnamese_qa_7197"
+        },
+        {
+            "text": "Câu hỏi: Có thể phẫu thuật trị lác ở trẻ mắc hội chứng Down không?\nTrả lời: Bé nhà bạn mới được 1 tháng tuổi nên sẽ không can thiệp phẫu thuật ngay tại thời điểm này, bé cần được đưa đến khám chuyên khoa mắt để xem mức độ lác để có cách xử trí phù hợp nhé.",
+            "score": 0.7473382353782654,
+            "id": "vietnamese_healthcare_2941"
+        },
+        {
+            "text": "Câu hỏi: Cháu có em bé được 2 tháng rồi. Cháu thấy có dấu hiệu bị lác trong. Bác sĩ cho cháu hỏitrẻ 2 tháng tuổi có dấu hiệu bị lác phải làm sao?Cháu cảm ơn bác sĩ. Loan(1997) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Thái Hưng -Bác sĩ Mắt - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bệnhlác mắtcác triệu chứng sau: Triệu chứng thực thể rất dễ nhận biết khi soi gương hoặc người xung quanh nhìn vào sẽ thấy mắt bị lệch. Triệu chứng chủ quan với các biểu hiện như: mỏi mắt thường xuyên, khả năng tập trung kém; đi lại hay té ngã, làm việc không chính xác; mắt bị lác thường xuyên bị mờ hơn mắt không lác; nhìn thấy 2 hình sẽ xảy ra nếu người có chức năng thị giác đã hoàn thiện. Trẻ 2 tháng thường thì bác sĩ khó khám hay kiểm tra được độ lác, haykhúc xạ. Thường thì theo dõi đến 2 tuổi (vì có thể hết lác khi lớn). Vì vậy, bạn nên đưa trẻ đến thăm khám bác sĩ chuyên khoa Mắt để được chẩn đoán đánh giá. Sau khi khám thì tùy nguyên nhân sẽ có hướng xử lý cụ thể cho trẻ.",
+            "score": 0.6859517097473145,
+            "id": "medical_vietnamese_qa_6894"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bé nhà em nay được 6 tháng tuổi. Hai tháng gần đây, em đưa bé đi khám thì bác sĩ bảo lác mắt bẩm sinh, bé gần 4 tháng mới bắt đầu thấy lác. Bác sĩ cho em hỏi tình trạng bé như vậy có điều trị được không ạ? Có phải phẫu thuật không? Mong bác sĩ tư vấn giúp, xin cảm ơn.\nTrả lời: Chào bạn. Giờ con được 6 tháng, mắt bị lé (lác), việc điều trị sẽ được tư vấn sau khi khám chuyên khoa nhãn nhi. Bạn nên đưa bé đi khám sớm bạn sẽ nhận được lời khuyên tốt nhất cho bé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.6818847060203552,
+            "id": "vietnamese_medical_qa_3652"
+        },
+        {
+            "text": "Câu hỏi: Con em 6 tuổi đi khám bác sĩ chẩn đoán 2 mắt lác trong. Bác sĩ khuyên nên mổ nhưng em có nghe tới phương pháp đeo kính chỉnh lác. Vậy bác sĩ cho em hỏitrẻ 6 tuổi lác mắt trong điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Phương pháp điều trị bệnh mắt lác cho trẻ là kiểm tra trẻ có bị tật khúc xạ hay không. Nếu lác này do tật khúc xạ gây ra thì nên điều chỉnh bằng kính trước. Khi trẻ đeo kính mà điều chỉnh được độ lác thì không cần phẫu thuật mà chỉ đeo kính.",
+            "score": 0.656863808631897,
+            "id": "medical_vietnamese_qa_4597"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

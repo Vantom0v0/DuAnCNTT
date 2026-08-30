@@ -1,0 +1,119 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ,\nE 24t, e hay bị đau bụng liên sườn bên hông trái rất khó chịu nhất là khi đói. Xin bsi tu van",
+    "ground_truth": "Chào bạn, bạn hay bị đau bụng liên sườn bên trái khi đói, đau bụng mà liên quan đến ăn uống có thể bạn gặp phải vấn để về dạ day và đường tiêu hoá. Bạn nén đi khám chuyên khoa tiêu hoá nhe",
+    "answer": "Đau vùng hông hoặc hạ sườn trái, nhất là khi đói, có thể liên quan đến dạ dày–tá tràng nhưng cũng có nhiều nguyên nhân khác như đại tràng, thận hoặc các cơ quan khác; hiện chưa đủ thông tin để xác định chẩn đoán. Bạn nên đến cơ sở y tế chuyên khoa Tiêu hóa để được khám bụng kỹ và thực hiện các xét nghiệm cần thiết như siêu âm, xét nghiệm máu, nước tiểu, phân, nội soi dạ dày–tá tràng hoặc kiểm tra vi khuẩn *Helicobacter pylori* nếu bác sĩ chỉ định, từ đó có hướng điều trị phù hợp.",
+    "evidence": [
+        "Nếu đau vùng hông trái thì có thể bệnh lý ở nhiều bộ phận như: Đại tràng, thận, dạ dày,...",
+        "Song để xác định chẩn đoán mà điều trị thì bác sĩ cần phải thăm khám bụng kỹ, không thể thiếu động tác này.",
+        "Do đó, bạn nên đến bệnh viện khám chuyên khoa Tiêu hóa, bác sĩ sẽ khám, cần thiết cho siêu âm, xét nghiệm máu, nước tiểu, phân thì mới xác định được bệnh mà có kế hoạch điều trị.",
+        "Qua những gì bạn mô tả có thể bạn bị bệnh lý viêm loét-dạ dày tá tràng.",
+        "Thường có đặc điểm đau hạ sườn Trái, liên quan tới bữa ăn.Bạn cần phải đi đến các cơ sở y tế chuyên khoa tiêu hóa làm thêm các khảo sát ( nội soi dạ dày tá tràng,thử nghiệm xem có sự hiện diện của vi khuẩn Helicobacter Pylori ) để có hướng điều trị phù hợp và kịp thời.",
+        "Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Viêm loét dạ dàymãn tính nhiễm khuẩn HP đã chữa trị nhưng khó chịu tức ở bụng trái có nguy hiểm không?” như sau: Đau vùng bụng trái có rất nhiều nguyên nhân: Viêm dạ dày, loét dạ dày,viêm loét đại tràng,viêm tụy, viêm lách hayapxe lách, u tụy...Bác sĩ phải thăm khám và thực hiện một số xét nghiệm thì mới có chẩn đoán và hướng điều trị được.",
+        "Câu hỏi: Vào ban đêm hoặc sáng sớm, đặc biệt khi bụng đói, em hay bị khó thở và có cảm giác đau nhói, nặng nề phía sau lưng trái (khoảng vùng giữa lưng) vàđau nhói ở hạ sườn bên trái phía trước.",
+        "Em đã đi khám và bác sĩ chẩn đoánviêm dạ dày.",
+        "Em dùng thuốc một thời gian vẫn không thấy cải thiện.",
+        "Bạn mô tả triệu chứng rất rõ nhưng vẫn chưa đủ dữ kiện để xác định vấn đề bạn gặp, ví dụ như bạn đãnội soi dạ dày, siêu âm bụng chưa, kết quả các xét nghiệm này ra sao.",
+        "Vì thế, theo bác sĩ bạn nên đi khám tại một cơ sở y tế uy tín, có đủ các chuyên khoa và mang theo các xét nghiệm cũng như các điều trị đã có để được tư vấn và điều trị phù hợp hơn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Hiện tại, em đang bị căng tức bụng bên trái (hông trái), khu vực ngay dưới xương sường, khi ấn vào thì có cảm giác khó chịu (chủ yếu là cảm giác căng tức chứ không đau nhói gì cả). Trong buổi sáng, em đã đi đại tiện 3 lần kèm theo trung tiện, đi tiểu khoảng 3-4 lần nhưng mỗi lần không có nhiều nước tiểu. Vậy bác sĩ cho em hỏicăng tức bụng trái kèm đại tiện nhiều là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Duc(1990) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Hùng -Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như những triệu chứng của bạn:Căng tức bụng bên trái, ấn vào có cảm giác khó chịu, kèm đại tiện 3 lần. Nếu đau vùng hông trái thì có thể bệnh lý ở nhiều bộ phận như: Đại tràng, thận, dạ dày,... Trường hợp bạn đau kèm theo có triệu chứngđại tiện nhiều lầnnên bác sĩ nghĩ nhiều đến đại tràng, ít nghĩ đến thận. Song để xác định chẩn đoán mà điều trị thì bác sĩ cần phải thăm khám bụng kỹ, không thể thiếu động tác này. Do đó, bạn nên đến bệnh viện khám chuyên khoa Tiêu hóa, bác sĩ sẽ khám, cần thiết cho siêu âm, xét nghiệm máu, nước tiểu, phân thì mới xác định được bệnh mà có kế hoạch điều trị.",
+                "score": 0.6422797441482544,
+                "id": "medical_vietnamese_qa_11040",
+                "rerank_score": 0.9389563798904419
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nkhoảng một tuần gần đây e bị đau bụng dưới bên trái, đau âm ỉ nhất là ăn thêm thứ gì đó là lại đau, theo bác sỹ e bị bệnh gì ạ ?\nTrả lời: Chào bạn!\nQua những gì bạn mô tả có thể bạn bị bệnh lý viêm loét-dạ dày tá tràng. Thường có đặc điểm đau hạ sườn Trái, liên quan tới bữa ăn.Bạn cần phải đi đến các cơ sở y tế chuyên khoa tiêu hóa làm thêm các khảo sát ( nội soi dạ dày tá tràng,thử nghiệm xem có sự hiện diện của vi khuẩn Helicobacter Pylori ) để có hướng điều trị phù hợp và kịp thời.\nThân mến.",
+                "score": 0.5793285369873047,
+                "id": "vietnamese_medical_qa_6788",
+                "rerank_score": 0.9276869297027588
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nEm bị đau bụng trái ngang rốn vài tuần nay. Em ăn uống bình thường, bụng đau râm râm, nhấn vào có khi đau nhói, sau khi đại tiện thì bụng bớt đau hẳn.\nEm không uống rượu bia, có hút thuốc lá nhưng ít. Tập thể dục và ăn uốn khá điều độ.\nBác ĩỹ vui lòng tư vấn tình trạng sức khỏe của em.\nCám ơn bác sĩ\nTrả lời: Chào bạn\nNgoài các triệu chứng tren bạn còn triệu chứng nào khác nữa không như tính chất phân, có ỉa phân máu, phân rắn, phaan lỏng...không?\nTình trạng trên của bạn có thể là triệu chứng của viem đai tràng co thắt, tuy nhiên chưa thể xác định chính xác, ban nên đi khám để xác định chính xác và điều trị hiệu quả nhất.\nThân mến",
+                "score": 0.5775752067565918,
+                "id": "vietnamese_medical_qa_8851",
+                "rerank_score": 0.7633863091468811
+            },
+            {
+                "text": "Câu hỏi: Em bị đau quặn từng cơn ở giữa bụng, có cảm giác cơn đau kéo theo chiều dài từ bụng dưới lên trên, điểm đau xuất phát là từ bụng dưới. Hồi tháng 8, em đã cắt 7 cái polyp đại tràng. Vậy bác sĩ cho em hỏiđau quặn từng cơn ở giữa bụng là dấu hiệu bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứngđau bụng quặn từng cơn, quanh rốn rất thường gặp ở tình trạng đau bụng. Tình trạng thường gặp ở bệnh nhân có tình trạng liên quan đến các bệnh nội khoa và ngoại khoa nhưviêm dạ dày ruột,ruột thừa giai đoạn sớm,... Một triệu chứng như vậy rất khó để chẩn đoán và tư vấn. Vì vậy, bạn nên đến thăm khám bác sĩ chuyên khoa Tiêu hóa để xác định chẩn đoán và điều trị.",
+                "score": 0.6009191870689392,
+                "id": "medical_vietnamese_qa_10701",
+                "rerank_score": 0.6902009844779968
+            },
+            {
+                "text": "Câu hỏi: ! Em nay nay 37 tuổi năm ngoái em đi khám bệnh. Em bị viêm loét dạ dày tá tràng mãn tính nhiễm khuẩn HP. Em đã dùng thuốc nội soi lại, vi khuẩn HP đã hết. Em cũng đã tái khám. Nhưng giờ em lại có cảm giác khó chịu tức ở vị trí cũ bụng trái. Xin hỏi bác sĩviêm loét dạ dày mãn tính nhiễm khuẩn HP đã chữa trị nhưng khó chịu tức ở bụng trái có nguy hiểm khôngạ? Rất mong bác sĩ tư vấn, em cảm ơn! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Viêm loét dạ dàymãn tính nhiễm khuẩn HP đã chữa trị nhưng khó chịu tức ở bụng trái có nguy hiểm không?” như sau: Đau vùng bụng trái có rất nhiều nguyên nhân: Viêm dạ dày, loét dạ dày,viêm loét đại tràng,viêm tụy, viêm lách hayapxe lách, u tụy...Bác sĩ phải thăm khám và thực hiện một số xét nghiệm thì mới có chẩn đoán và hướng điều trị được. Bạn nên hạn chế ăn thức ăn chua, nhiều gia vị, nhiều dầu mỡ, thức ăn, trái cây quá ngọt. hạn chế cà phê, rượu bia, thuốc lá. Nên: Giảm stress, ăn uống đúng bữa, ăn nhiều rau, trái cây, cá- đạm thực vật. Bạn có thể đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Mai Viễn Phương- Bác sĩ nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+                "score": 0.592636227607727,
+                "id": "medical_vietnamese_qa_11413",
+                "rerank_score": 0.6690810918807983
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Vào ban đêm hoặc sáng sớm, đặc biệt khi bụng đói, em hay bị khó thở và có cảm giác đau nhói, nặng nề phía sau lưng trái (khoảng vùng giữa lưng) vàđau nhói ở hạ sườn bên trái phía trước. Đôi khi đau đến mức em không dám dùng sức bằng tay trái, gây khó khăn trong sinh hoạt. Em đã đi khám và bác sĩ chẩn đoánviêm dạ dày. Em dùng thuốc một thời gian vẫn không thấy cải thiện. Em có tiền sử bệnh lao phổi cách đây hơn 10 năm, đã điều trị khỏi hoàn toàn, kết quả Xquang cũng không phát hiện bất thường. Vậy bác sĩ cho em hỏiđau nhói ở hạ sườn trái là dấu hiệu bệnh gì?Em lo lắng không biết có phải do bệnh lý khác của phổi gây ra hay không? Mong nhận được phản hồi của bác sĩ. Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn có triệu chứng khó thở khi đói, đau nhói hạ sườn trái. Bạn mô tả triệu chứng rất rõ nhưng vẫn chưa đủ dữ kiện để xác định vấn đề bạn gặp, ví dụ như bạn đãnội soi dạ dày, siêu âm bụng chưa, kết quả các xét nghiệm này ra sao. Vì thế, theo bác sĩ bạn nên đi khám tại một cơ sở y tế uy tín, có đủ các chuyên khoa và mang theo các xét nghiệm cũng như các điều trị đã có để được tư vấn và điều trị phù hợp hơn.",
+                "score": 0.6046842336654663,
+                "id": "medical_vietnamese_qa_10662",
+                "rerank_score": 0.9887429475784302
+            },
+            {
+                "text": "Câu hỏi: Hiện tại, em đang bị căng tức bụng bên trái (hông trái), khu vực ngay dưới xương sường, khi ấn vào thì có cảm giác khó chịu (chủ yếu là cảm giác căng tức chứ không đau nhói gì cả). Trong buổi sáng, em đã đi đại tiện 3 lần kèm theo trung tiện, đi tiểu khoảng 3-4 lần nhưng mỗi lần không có nhiều nước tiểu. Vậy bác sĩ cho em hỏicăng tức bụng trái kèm đại tiện nhiều là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Duc(1990) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Hùng -Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như những triệu chứng của bạn:Căng tức bụng bên trái, ấn vào có cảm giác khó chịu, kèm đại tiện 3 lần. Nếu đau vùng hông trái thì có thể bệnh lý ở nhiều bộ phận như: Đại tràng, thận, dạ dày,... Trường hợp bạn đau kèm theo có triệu chứngđại tiện nhiều lầnnên bác sĩ nghĩ nhiều đến đại tràng, ít nghĩ đến thận. Song để xác định chẩn đoán mà điều trị thì bác sĩ cần phải thăm khám bụng kỹ, không thể thiếu động tác này. Do đó, bạn nên đến bệnh viện khám chuyên khoa Tiêu hóa, bác sĩ sẽ khám, cần thiết cho siêu âm, xét nghiệm máu, nước tiểu, phân thì mới xác định được bệnh mà có kế hoạch điều trị.",
+                "score": 0.6840618848800659,
+                "id": "medical_vietnamese_qa_11040",
+                "rerank_score": 0.9389563798904419
+            },
+            {
+                "text": "Câu hỏi: ! Em nay nay 37 tuổi năm ngoái em đi khám bệnh. Em bị viêm loét dạ dày tá tràng mãn tính nhiễm khuẩn HP. Em đã dùng thuốc nội soi lại, vi khuẩn HP đã hết. Em cũng đã tái khám. Nhưng giờ em lại có cảm giác khó chịu tức ở vị trí cũ bụng trái. Xin hỏi bác sĩviêm loét dạ dày mãn tính nhiễm khuẩn HP đã chữa trị nhưng khó chịu tức ở bụng trái có nguy hiểm khôngạ? Rất mong bác sĩ tư vấn, em cảm ơn! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Viêm loét dạ dàymãn tính nhiễm khuẩn HP đã chữa trị nhưng khó chịu tức ở bụng trái có nguy hiểm không?” như sau: Đau vùng bụng trái có rất nhiều nguyên nhân: Viêm dạ dày, loét dạ dày,viêm loét đại tràng,viêm tụy, viêm lách hayapxe lách, u tụy...Bác sĩ phải thăm khám và thực hiện một số xét nghiệm thì mới có chẩn đoán và hướng điều trị được. Bạn nên hạn chế ăn thức ăn chua, nhiều gia vị, nhiều dầu mỡ, thức ăn, trái cây quá ngọt. hạn chế cà phê, rượu bia, thuốc lá. Nên: Giảm stress, ăn uống đúng bữa, ăn nhiều rau, trái cây, cá- đạm thực vật. Bạn có thể đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Mai Viễn Phương- Bác sĩ nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+                "score": 0.6304216384887695,
+                "id": "medical_vietnamese_qa_11413",
+                "rerank_score": 0.6690810918807983
+            },
+            {
+                "text": "Câu hỏi: . Em bịđau bụngbên trái được 2 ngày. Hôm qua bị đau tại vị trí bên trái ngay dưới xương sườn. Đến hôm nay lại chuyển xuống đau bên trái ngang rốn. Cho em hỏi như vậy là bị bệnh gì ạ. Bác sĩ tư vấn giúp em với ạ. Em cảm ơn bác sĩ. Lưu Văn Duy Chào bác sĩ. Cho em hỏi, sáng em ngủ dậy tự nhiên thấy đau bụng bên trái nhưng không biết bị đau bụng như thế nào ? Thi thoảng nó nhói rất đau . Vậy xin hỏi bác sĩ, em bị đau bụng gì vậy ạ ? Việt Hưng (1999) Chào bác sĩ. Bác sĩ ơi em bị đau dưới sườn trái và thỉnh đau râm khắp bụng. Mỗi khi ăn xong em thấy không tiêu, ợ hơi, đổ nhiều mồ hôi có khi đi cầu. Em bị khoảng 4, 5 ngày rồi ạ. Bác sĩ tư vấn giúp em bị bệnh gì và điều trị như thế nào ạ? Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn. Thông tin của bạn chưa đầy đủ. Bác sĩ sẽ cần phải thăm khám một cách kỹ lưỡng, cẩn thận rỗi mới có thể đưa ra chẩn đoán bệnh được bạn nhé. Bạn có thể liên hệ tới các Hotline các bệnh viện Vinmec để được tư vấn khám nhé. Cảm ơn bạn đã quan tâm và đặt câu hỏi websiteVinmec.com. Chúc bạn mau khỏe. Trân trọng. BSCK I Đồng Xuân Hà- Bác sĩ Nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa, Bệnh viện ĐKQT Vinmec Hạ Long",
+                "score": 0.6011738777160645,
+                "id": "medical_vietnamese_qa_11603",
+                "rerank_score": 0.6572821736335754
+            },
+            {
+                "text": "Câu hỏi: Em ấn vào vùng hông bên phải ngang rốn thấy đau. Bác sĩ cho em hỏiđau khi ấn vào vùng hông bên phải ngang rốn là dấu hiệu bệnh gì?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vùng hông bên phải ngang rốn liên quan đến nhiều cơ quan khác nhau như thận phải, ruột đại tràng, gan mật tuỵ,... Để có thể tư vấn cụ thể cho bạn bác sĩ cần thêm thông tin về tình trạng đau của bạn như: Thời gian đau, đau từng cơn hay đau liên tục, Có kèm sốt và buồn nôn hay nôn mửa không, đại tiểu tiện như thế nào?,....Vì vậy bạn nên đến cơ sở y tế để bác sĩ trao đổi thêm, kiểm tra xác định chính xác nguyên nhân từ đó có hướng điều trị phù hợp. Tuy dịch bệnh nhưng các trường hợp đau bụng cấp đều được khám cấp cứu, nếu đến khám muộn sẽ có nhiều nguy cơ không tốt cho sức khỏe.",
+                "score": 0.6029269099235535,
+                "id": "medical_vietnamese_qa_10901",
+                "rerank_score": 0.6216211318969727
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Hiện tại, em đang bị căng tức bụng bên trái (hông trái), khu vực ngay dưới xương sường, khi ấn vào thì có cảm giác khó chịu (chủ yếu là cảm giác căng tức chứ không đau nhói gì cả). Trong buổi sáng, em đã đi đại tiện 3 lần kèm theo trung tiện, đi tiểu khoảng 3-4 lần nhưng mỗi lần không có nhiều nước tiểu. Vậy bác sĩ cho em hỏicăng tức bụng trái kèm đại tiện nhiều là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Duc(1990) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Hùng -Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như những triệu chứng của bạn:Căng tức bụng bên trái, ấn vào có cảm giác khó chịu, kèm đại tiện 3 lần. Nếu đau vùng hông trái thì có thể bệnh lý ở nhiều bộ phận như: Đại tràng, thận, dạ dày,... Trường hợp bạn đau kèm theo có triệu chứngđại tiện nhiều lầnnên bác sĩ nghĩ nhiều đến đại tràng, ít nghĩ đến thận. Song để xác định chẩn đoán mà điều trị thì bác sĩ cần phải thăm khám bụng kỹ, không thể thiếu động tác này. Do đó, bạn nên đến bệnh viện khám chuyên khoa Tiêu hóa, bác sĩ sẽ khám, cần thiết cho siêu âm, xét nghiệm máu, nước tiểu, phân thì mới xác định được bệnh mà có kế hoạch điều trị.",
+                "score": 0.5785577297210693,
+                "id": "medical_vietnamese_qa_11040",
+                "rerank_score": 0.9389565587043762
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nkhoảng một tuần gần đây e bị đau bụng dưới bên trái, đau âm ỉ nhất là ăn thêm thứ gì đó là lại đau, theo bác sỹ e bị bệnh gì ạ ?\nTrả lời: Chào bạn!\nQua những gì bạn mô tả có thể bạn bị bệnh lý viêm loét-dạ dày tá tràng. Thường có đặc điểm đau hạ sườn Trái, liên quan tới bữa ăn.Bạn cần phải đi đến các cơ sở y tế chuyên khoa tiêu hóa làm thêm các khảo sát ( nội soi dạ dày tá tràng,thử nghiệm xem có sự hiện diện của vi khuẩn Helicobacter Pylori ) để có hướng điều trị phù hợp và kịp thời.\nThân mến.",
+                "score": 0.5587202310562134,
+                "id": "vietnamese_medical_qa_6788",
+                "rerank_score": 0.9276869297027588
+            },
+            {
+                "text": "Câu hỏi: Cách đây vài năm, em hay bị táo bón liên tục mặc dù em ăn rất nhiều rau nhưng thời điểm gần đây em lại bị tiêu chảy, đau bụng xen kẽ với táo bón, mặc dù thức ăn em ăn thì đảm bảo. Trước em đau ở bên trái dưới rốn còn bây giờ em hay bị đau bụng khi ăn xong hoặc khi đói, đau ở trên rốn chếch trái. Em ăn rất lâu, ngủ muộn với hay ngồi xổm. Vậy bác sĩ cho em hỏiđau bụng, táo bón là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ. Trần Mạnh Hùng(2002) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Đồng Xuân Hà- Khoa khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Những triệu chứng của bạn là do hội chứng ruột kích thích. Đây là bệnh lý thường gặp, tỷ lệ mắc tùy vào từng vùng, lứa tuổi,... Bệnh thường biểu hiện bằng những triệu chứng điển hình sau: Đau hoặc khó chịu ở bụng, không nhất thiết phải liên tục, kéo dài tổng thời gian trên 12 tháng, thường giảm đi sau khi đi đại tiện. Thay đổi hình dạng khuôn phân, thể táo hoặc thể lỏng chiếm ưu thế hoặc hỗn hợp táo lỏng thất thường, phân có thể có nhầy, bọt nhưng không bao giờ có máu (ngoại trừ táo bón do tác động cơ học vùng hậu môn khi đi đại tiện). Thay đổi số lần đi đại tiện nhiều hơn 03 lần/ngày hoặc mấy ngày mới đại tiện một lần. Ngoài ra, có thể có các triệu chứng khác kèm theo như đầy chướng bụng, cảm giác khó chịu, đại tiện không hết phân. Tuy nhiên, chỉ được chẩn đoán là hội chứng ruột kích thích khi có những triệu chứng như trên và được thăm khám một cách kỹ lưỡng loại trừ những bệnh lý có tổn thương thực thể bởi một bác sĩ chuyên khoa có kinh nghiệm, các xét nghiệm đặc biệt là nội soi tiêu hóa. Điều trị hội chứng ruột kích thích là một vấn đề không khó tuy nhiên, lại rất cần đến sự kiên trì, kiên định của bệnh nhân vì: Hiện nay, chưa có thuốc điều trị đặc hiệu, thuốc chỉ dùng để điều trị triệu chứng. Chế độ ăn uống: Điều này rất quan trọng. Khẩu phần ăn hợp lý phải có đầy đủ đạm, mỡ đường, vitamin, chất khoáng và đặc biệt là chất xơ. Không dùng các chất kích thích, bia rượu, gia vị quá nhiều, nước ngọt có gas,... Chế độ luyện tập: Cần phải kiên trì, thường xuyên vận động, tập thể dục thể thao, luyện thói quen đi đại tiện một lần/ngày, không ngồi lâu, xoa bụng hàng ngày,.. Bạn nên đi khám lại một cách toàn diện để bác sĩ chẩn đoán bệnh chính xác và có kế hoạch điều trị.",
+                "score": 0.5527619123458862,
+                "id": "medical_vietnamese_qa_11060",
+                "rerank_score": 0.8849002122879028
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nEm bị đau bụng trái ngang rốn vài tuần nay. Em ăn uống bình thường, bụng đau râm râm, nhấn vào có khi đau nhói, sau khi đại tiện thì bụng bớt đau hẳn.\nEm không uống rượu bia, có hút thuốc lá nhưng ít. Tập thể dục và ăn uốn khá điều độ.\nBác ĩỹ vui lòng tư vấn tình trạng sức khỏe của em.\nCám ơn bác sĩ\nTrả lời: Chào bạn\nNgoài các triệu chứng tren bạn còn triệu chứng nào khác nữa không như tính chất phân, có ỉa phân máu, phân rắn, phaan lỏng...không?\nTình trạng trên của bạn có thể là triệu chứng của viem đai tràng co thắt, tuy nhiên chưa thể xác định chính xác, ban nên đi khám để xác định chính xác và điều trị hiệu quả nhất.\nThân mến",
+                "score": 0.5634101629257202,
+                "id": "vietnamese_medical_qa_8851",
+                "rerank_score": 0.7633863091468811
+            },
+            {
+                "text": "Câu hỏi: ! Em nay nay 37 tuổi năm ngoái em đi khám bệnh. Em bị viêm loét dạ dày tá tràng mãn tính nhiễm khuẩn HP. Em đã dùng thuốc nội soi lại, vi khuẩn HP đã hết. Em cũng đã tái khám. Nhưng giờ em lại có cảm giác khó chịu tức ở vị trí cũ bụng trái. Xin hỏi bác sĩviêm loét dạ dày mãn tính nhiễm khuẩn HP đã chữa trị nhưng khó chịu tức ở bụng trái có nguy hiểm khôngạ? Rất mong bác sĩ tư vấn, em cảm ơn! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Viêm loét dạ dàymãn tính nhiễm khuẩn HP đã chữa trị nhưng khó chịu tức ở bụng trái có nguy hiểm không?” như sau: Đau vùng bụng trái có rất nhiều nguyên nhân: Viêm dạ dày, loét dạ dày,viêm loét đại tràng,viêm tụy, viêm lách hayapxe lách, u tụy...Bác sĩ phải thăm khám và thực hiện một số xét nghiệm thì mới có chẩn đoán và hướng điều trị được. Bạn nên hạn chế ăn thức ăn chua, nhiều gia vị, nhiều dầu mỡ, thức ăn, trái cây quá ngọt. hạn chế cà phê, rượu bia, thuốc lá. Nên: Giảm stress, ăn uống đúng bữa, ăn nhiều rau, trái cây, cá- đạm thực vật. Bạn có thể đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Mai Viễn Phương- Bác sĩ nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+                "score": 0.5763280391693115,
+                "id": "medical_vietnamese_qa_11413",
+                "rerank_score": 0.6690807342529297
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

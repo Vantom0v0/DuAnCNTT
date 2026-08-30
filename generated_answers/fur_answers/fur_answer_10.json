@@ -1,0 +1,54 @@
+{
+    "model_name": "fur",
+    "question": "Cho hỏi con trai tôi 22 tuổi, đã điều trị bịnh lao phổi trong năm 2019. Cháu bị dị ứng với hải sản tôm, cua, ăn vào là ngứa họng và sưng phù mắt, miệng. Vậy cháu có tiêm được vaccine ngừa Covid-19 không?",
+    "ground_truth": "Theo hướng dẫn của Bộ Y tế, trường hợp của con trai chị nên tiêm phòng vaccine Covid-19 ở khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Theo thông tin được cung cấp:\n\n- **Dị ứng thực phẩm như tôm, cua, ghẹ không phải là chống chỉ định tiêm vaccine** nếu trước đây chỉ gây triệu chứng nhẹ, không phải nhập viện và không được chẩn đoán là **phản vệ độ II trở lên**.\n- Nếu từng có **phù mạch** như sưng mắt, môi, mặt, đặc biệt kèm khó thở, tụt huyết áp hoặc phải cấp cứu/nhập viện, cần được đánh giá kỹ. Trường hợp được xác định là **phản vệ từ độ II trở lên thì chống chỉ định tiêm vaccine Covid-19**.\n- Nếu vẫn đủ điều kiện tiêm, người có tiền sử dị ứng nên **tiêm tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu**, đồng thời khai báo đầy đủ tiền sử dị ứng để được đánh giá chỉ định, chống chỉ định và theo dõi sau tiêm.\n- Ngoài ra, **dị ứng với thành phần của vaccine** cũng là chống chỉ định theo quy định của nhà sản xuất.\n\nPhần bằng chứng được cung cấp **không nêu cụ thể thời gian theo dõi sau tiêm hoặc quy trình xử trí chi tiết**, nên không đủ thông tin để trả lời chính xác nội dung này.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con tôi năm nay 22 tuổi, cháu bị dị ứng cua lột cách nay 2 năm, lúc ăn xong bị dị ứng, người sưng lên, mạch tụt không thở được, phải cấp cứu vô bệnh viện, nhập viện một ngày. Từ đó đến nay, tôi không ăn cua nữa, còn các hải sản khác vẫn ăn. Tôi xin hỏi bác sĩ, cháu có chích vaccine Covid-19 không?\nTrả lời: Theo như tình trạng dị ứng mà chị mô tả rất có khả năng chị đã bị phản ứng phản vệ độ 2 trở lên, trường hợp này có chống chỉ định tiêm vaccine Covid-19.",
+            "score": 0.6156007051467896,
+            "id": "vietnamese_healthcare_1164",
+            "rerank_score": 0.999819815158844
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng hải sản như cua, ghẹ, tôm, nhất là vỏ tôm, đầu tôm. Khi ăn vào, người sẽ mẩn nốt đỏ ngứa, đau bụng. Trường hợp của tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Với thông tin mà anh/chị cung cấp, chúng tôi chưa thể kết luận được anh/chị có thể tiêm chủng vaccine Covid-19 được hay không, vì điều này còn phụ thuộc vào mức độ dị ứng của anh/chị. Theo hướng dẫn của Bộ Y tế, nếu mức độ dị ứng nặng (từ độ II trở lên) có triệu chứng ngứa, nổi sẩn mề đay, phù mạch xuất hiện nhanh, kèm các triệu chứng hô hấp, tuần hoàn, tiêu hóa, tri giác. . . thì anh/chị thuộc nhóm chống chỉ định tiêm chủng vaccine Covid-19.",
+            "score": 0.6370915174484253,
+            "id": "vietnamese_healthcare_7598",
+            "rerank_score": 0.9987039566040039
+        },
+        {
+            "text": "Câu hỏi: Tôi có tiền sử dị ứng tôm cua, ăn vào bị nổi ngứa khắp ngươi, có lúc không bị. Vậy tôi tiêm vaccine Covid-19 có được hay không? Tôi nên tiêm tập trung hay tới bệnh viện để được chích vaccine.\nTrả lời: Bạn bị dị ứng tôm cua, hay nổi mẫn ngứa khi ăn hải sản. Những trường hợp này không chống chỉ định tiêm ngừa vaccine Covid-19.",
+            "score": 0.6474812626838684,
+            "id": "vietnamese_healthcare_7854",
+            "rerank_score": 0.9983903169631958
+        },
+        {
+            "text": "Câu hỏi: Em thỉnh thoảng dị ứng với bánh mì (có lúc ăn là bị nổi mề đay, có lúc lại không) và tôm cua ăn vào là ngứa mắt. Vậy xin hỏi có chích được vaccine Covid-19 được không?\nTrả lời: Tình trạng dị ứng với thức ăn như bánh mì, tôm cua, hải sản. . . nếu chỉ bị nổi mẩn ngứa nhẹ và tự hết thì anh/chị có thể tiêm chủng vaccine Covid-19 bình thường. Trong trường hợp, anh/chị có tiền sử mẩn ngứa kèm phù niêm (phù mắt môi, mặt, phù nhanh nhiều. . . )hay phải điều trị bằng thuốc và nhập viện sẽ phải tiêm trong khối bệnh viện.",
+            "score": 0.6322121620178223,
+            "id": "vietnamese_healthcare_5640",
+            "rerank_score": 0.9970652461051941
+        },
+        {
+            "text": "Câu hỏi: Em năm nay 28 tuổi. Trước khi sinh con, em không bị dị ứng thức ăn gì cả, nhưng sau khi sinh con có lần em ăn tôm thẻ luộc bị nổi mẩn ngứa ở mặt và tiêu chảy, các triệu chứng này qua đêm thì hết. Một thời gian sau em ăn hải sản gồm tôm, sò huyết.... lại lặp lại. Khi ăn tôm với lượng ít, em hay bị ngứa ở miệng nên sau đó em không ăn tôm nữa.Cho em hỏi với tình trạng như vậy, em có thể chích ngừa vaccine Covid-19 không vì công ty em cũng đang đăng ký để chích cho nhân viên?\nTrả lời: Với tiền sử dị ứng tôm của Anh/Chị theo hướng dẫn của BYT căn cứ vào Quyết định 2995/QĐ-BYT thì Anh/Chị đủ điều kiện tiêm phòng vaccine Covid-19 tuy nhiên nên tiêm ở bệnh viện hoặc Cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.6232163906097412,
+            "id": "vietnamese_healthcare_6563",
+            "rerank_score": 0.9874622225761414
+        },
+        {
+            "text": "Câu hỏi: Có lần em ăn cua bị dị ứng phải đi cấp cứu. Ngoài ra, em bị dị ứng thuốc, khi dị ứng mắt thường bị sưng, khó thở. Vậy em có tiêm vaccine Covid-19 được không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, mà mới đây nhất là quyết định 2995, Bộ Y tế đã quy định rất rõ những người có tiền sử phản vệ từ độ 2 trở lên chống chỉ định tiêm vaccine Covid-19, đồng thời chống chỉ định theo những quy định của nhà sản xuất. Chúng ta biết, không chỉ vaccine Covid-19 mà tất cả các vaccine khác, nếu bạn có dị ứng với thành phần của vaccine, phản ứng phản vệ là chống chỉ định. Theo mô tả tiền sử của bạn, bạn đã bị phản vệ độ 2 sau khi ăn cua. Vì vậy, bạn sẽ là đối tượng chống chỉ định tiêm ngừa vaccine Covid-19.",
+            "score": 0.5556660294532776,
+            "id": "vietnamese_healthcare_7835",
+            "rerank_score": 0.9948418736457825,
+            "weighted_score": 0.9973538994789124
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng với các loại tôm, cua, ghẹ thì có nên tiêm vaccine phòng Covid-19 hay không?\nTrả lời: Tình trạng dị ứng với thức ăn như tôm, cua, ghẹ. . . nhìn chung nếu không phải nhập viện và điều trị với chẩn đoán là phản vệ độ II thì không phải là nhóm đối tượng chống chỉ định với tiêm vaccine Covid-19. Tuy nhiên, anh nên cẩn trọng cung cấp rõ các thông tin cụ thể về tình trạng của anh và nên thực hiện tiêm vaccine Covid-19 tại khối bệnh viện, nơi có đủ điều kiện cơ sở vật chất và khả năng cấp cứu ban đầu.",
+            "score": 0.5347342491149902,
+            "id": "vietnamese_healthcare_7530",
+            "rerank_score": 0.9888187050819397,
+            "weighted_score": 0.9961233735084534
+        }
+    ],
+    "llm_call": 5,
+    "iteration": 2
+}

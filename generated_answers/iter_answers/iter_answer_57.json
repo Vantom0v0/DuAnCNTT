@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không?",
+    "ground_truth": "Hiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất. Bạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.",
+    "answer": "Nữ giới sau khi cắt một phần hoặc toàn bộ tuyến giáp, nếu bệnh đang ổn định và không có chỉ định điều trị đặc biệt, thường có thể sử dụng collagen dạng nước theo đúng hướng dẫn của nhà sản xuất; hiện chưa có khuyến cáo cho thấy collagen thông thường gây ảnh hưởng đến tuyến giáp. Tuy nhiên, bạn nên kiểm tra thành phần sản phẩm, đặc biệt tránh hoặc hỏi ý kiến bác sĩ nếu collagen có chiết xuất tảo biển hoặc bổ sung iod vì hàm lượng iod cao có thể không phù hợp với một số bệnh tuyến giáp. Nếu đang dùng hormon tuyến giáp, nên mang sản phẩm dự định sử dụng hỏi bác sĩ nội tiết để được xác nhận và tiếp tục tái khám, xét nghiệm chức năng tuyến giáp định kỳ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào dược sĩ,\nTôi bị K tuyến giáp nhỏ 4mm, đã được mổ cắt bỏ toàn bộ thuỳ trái tháng 9 năm 2020, bác sĩ chỉ định theo dõi và không dùng thuốc điều trị. Tôi muốn dùng collagen dạng nước Liquid collagen của Mỹ. Vậy dược sĩ cho tôi hỏi nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không? Tôi cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nHiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất.\nBạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.\nTrân trọng!",
+            "score": 0.8111737370491028,
+            "id": "vietnamese_medical_qa_1408"
+        },
+        {
+            "text": "Câu hỏi: Đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không?\nTrả lời: Em chưa nói bệnh tuyến giáp của em đang có là cường giáp hay suy giáp hay bệnh khác nên bác sĩ chưa thể kết luận đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không. Hơn nữa, sản phẩm chứa collagen cũng có nhiều loại trong đó loại chiết xuất từ tảo biển thường sẽ có hàm lượng iod cao, có thể không phù hợp với người có bệnh tuyến giáp. Tốt nhất em nên đem lọ collagen định dùng đến cho bác sĩ tuyến giáp xem trong đợt tái khám để kiểm tra. Nếu bác sĩ bảo được thì có thể dùng chung với thuốc mà không ảnh hưởng gì.",
+            "score": 0.7171348333358765,
+            "id": "vietnamese_healthcare_3882"
+        },
+        {
+            "text": "Câu hỏi: Chào dược sĩ! Năm nay em 38 tuổi, hiện tại em đang uống thuốc điều trị bệnh tuyến giáp, mỗi ngày 1 lần vào buổi sáng. Dược sĩ cho em hỏi đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không? Mong dược sĩ tư vấn giúp em. Em cảm ơn dược sĩ.\nTrả lời: Chào em.\nEm chưa nói bệnh tuyến giáp của em đang có là cường giáp hay suy giáp hay bệnh khác nên bác sĩ chưa thể kết luận đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không.\nHơn nữa, sản phẩm chứa collagen cũng có nhiều loại trong đó loại chiết xuất từ tảo biển thường sẽ có hàm lượng iod cao, có thể không phù hợp với người có bệnh tuyến giáp.\nTốt nhất em nên đem lọ collagen định dùng đến cho bác sĩ tuyến giáp xem trong đợt tái khám để kiểm tra. Nếu bác sĩ bảo được thì có thể dùng chung với thuốc mà không ảnh hưởng gì.",
+            "score": 0.6621618270874023,
+            "id": "vietnamese_medical_qa_2037"
+        },
+        {
+            "text": "Câu hỏi: Uống thuốc hormon tuyến giáp có ảnh hưởng gì đến cơ thể và chức năng sinh sản không?\nTrả lời: Bạn bị suy giáp, sau mổ cắt tuyến giáp nên việc uống bổ sung hormon tuyến giáp là bắt buộc và cả đời. Suy giáp vẫn đẻ được nhưng khi đẻ bạn phải khám bác sĩ chuyên khoa nội tiết để theo dõi và có thể phải bù lượng hormon tuyến giáp cao hơn lúc bình thường.",
+            "score": 0.5582966804504395,
+            "id": "vietnamese_healthcare_1906"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em bị bệnh tuyến giáp và bị cắt hết toàn phần tuyến giáp kết quả sau mổ là lành tính. Hiện nay cần uống hormone suốt đời. Vậy bác sĩ cho em hỏi, việc mình uống thuốc hormon tuyến giáp có ảnh hưởng gì đến cơ thể và chức năng sinh sản không? Mong bác sĩ tư vấn\nTrả lời: Chào bạn. Bạn bị suy giáp, sau mổ cắt tuyến giáp nên việc uống bổ sung hormon tuyến giáp là bắt buộc và cả đời. Suy giáp vẫn đẻ được nhưng khi đẻ bạn phải khám bác sĩ chuyên khoa nội tiết để theo dõi và có thể phải bù lượng hormon tuyến giáp cao hơn lúc bình thường.",
+            "score": 0.5350528955459595,
+            "id": "vietnamese_medical_qa_2396"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

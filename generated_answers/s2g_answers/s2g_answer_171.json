@@ -1,0 +1,118 @@
+{
+    "model_name": "s2g_rag",
+    "question": "! Em bị chậm kỳ kinh khoảng 15 ngày, rồi ra máu 2 ngày, sau đó hết đến ngày thứ 3 máu như kỳ kinh. Em thấy một mảng rất to dính trong băng vệ sinh bằng 4 đầu ngón tay. Bác sĩ cho em hỏi,bị ra máu sau khi chậm kinh 15 ngày liệu có phải sảy thai không? Câu hỏi khách hàng ẩn danh Trả lời",
+    "ground_truth": "Chào bạn! Với thắc mắc “bị ra máu sau khi chậm kinh 15 ngày liệu có phải sảy thai không?”Bác sĩ khuyên bạn nên đi khám,siêu âm phụ khoavàxét nghiệm beta-hCGđể xác định nguyên nhân. Bởi các triệu chứng như em mô tả có thể làsảy thaihoặc cũng có thể làthai ngoài tử cung. Bạn có thể đến tại các bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ tư vấn thêm. Cảm ơn bạn đã tin tưởng Vinmec. Trân trọng! Được giải đáp bởiTiến sĩ, Bác sĩ Ngô Thị Uyên- Bác sĩ Sản phụ khoa - Khoa Sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.",
+    "answer": "Ra máu sau khi chậm kinh 15 ngày và xuất hiện một mảng mô lớn có thể là dấu hiệu sảy thai, nhưng cũng có thể liên quan đến các biến chứng sớm của thai kỳ như thai ngoài tử cung hoặc nguyên nhân khác; không thể chẩn đoán chỉ dựa vào mô tả. Bạn nên đi khám ngay tại bệnh viện hoặc bác sĩ chuyên khoa Sản để được siêu âm và xét nghiệm máu beta-hCG nhằm xác định chính xác. Nếu có đau bụng hạ vị, chóng mặt hoặc ra máu nhiều, cần đi khám khẩn cấp.",
+    "evidence": [
+        "Bạn nên đi khám ngay tại bệnh viện để được khám, siêu âm xét nghiệm để chẩn đoán chính xác xem đây có phải là sảy thai hay bệnh lý khác như có thai dọa sảy hoặc có thể bị chửa ngoài tử cung không.",
+        "Bạn nên đi khám ngay bác sĩ chuyên khoa Sản để khám, siêu âm, xét nghiệm, chẩn đoán chính xác và tư vấn, điều trị.",
+        "Vì Thị Liễu(1994) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Những dấu hiệu của sẩy thai gồm như: Chảy máu âm đạo: số lượng có thể nhiều hoặc ít, màu sẫm hoặc đỏ tươi Mất triệu chứng thai nghén: nếu cơ thể đang có cảm giác nghén như chán ăn, buồn nôn và nôn, ngực căng mà đột nhiên các cảm giác đó biến mất.",
+        "Đau bụng vùng hạ vị, đau âm ỉ hoặc đau giữ dội..",
+        "Định lượng xét nghiệm máu beta HCg( Human chorionic Gonadotropin)được tiết ra từ hợp bào nuôi, có vai trò kích hoạt các tế bào mầm của bào thai phát triển và trưởng thành, HCG bắt đầu sinh ra ngay sau khi trứng được thụ tinh và bắt đầu làm tổ trên niêm mạc tử cung , lúc này nồng độ HCg sẽ xuất hiện trong máu, tăng nhanh và đạt nồng độ tối đa tại thời điểm 2,5 tháng, sau đó giảm dần vì thế định lượng HCg có gia trị quan trọng trong việc xác định có thai hay theo dõi thai kỳ giai đoạn đầu.",
+        "Trong trường hợp của bạn que thử một vạch đậm và 1 vạch mờ và HCG âm tính thì tức là chưa phải có thai, tuy nhiên những ngày sau mình có đau bụng và ra máu cục, chóng mặt thì mình nên đi kiểm tra lại ( có thể siêu âm và làm lại xét nghiệm máu định lượng beta HCG ) để được đánh giá kỹ hơn.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Bạn bị trễ kinh 2 tuần, bạn nên thử que thử thai xem liệu mình có thai hay không, còn hiện tượng ra máu bạn cần để ý xem bình thường có ra máu không hay chỉ ra máu khi đi tiểu hoặc đại tiện.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bạn có thể làsảy thai,tuy nhiên cũng có thể nhầm lẫn với những biến chứng sớm của thai kỳ như thai trứng, thai ngoài tử cung...",
+        "Do đó, bạn cần đi thăm khám với bác sĩ Sản phụ khoa để loại trừ những trường hợp nguy hiểm.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Nếu chu kỳ kinh nguyệt của bạn đều thì thường chậm kinh 5 - 7 ngày khi quan hệ không an toàn thì có thể có thai, trường hợp của bạn chậm kinh 27 ngày và thử que lên 2 vạch thì khả năng là bạn đã có thai."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Em bị chậm kinh 2 ngày, cho đến hôm nay thì có nhưng kinh ra ít hơn bình thường. Em có đọc về máu báo thai nhưng không phải vì em vẫn có nhiều máu đông và dịch nhầy. Giờ là thời điểm sau khi quan hệ 17 ngày rồi, bọn em có dùng biện pháp an toàn bao cao su. Vậy bác sĩ cho em hỏichậm kinh kèm ra ít máu âm đạo có phải mang thai không?Biện pháp điều trị thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp của bạn có chậm kinh 02 ngày sau đó có ra ít máu âm đạo. Nếu bạn không đau bụng và đã thử que thử thai âm tính thì bạn có thể theo dõi thêm vài ngày xem lượng máu ra thế nào. Trường hợp ra máu kéo dài > 7 ngày hoặc đau bụng thì bạn nên đến viện khám ngay để được tư vấn cụ thể.",
+                "score": 0.6652832627296448,
+                "id": "medical_vietnamese_qa_1146",
+                "rerank_score": 0.9993072748184204
+            },
+            {
+                "text": "Câu hỏi: . Em trễ kinh nay đã 27 ngày, trước đó em thử thai thì thấy lên 2 vạch. Em chưa đi khám hay siêu âm gì. Sau đó em bị ra máu đỏ tươi kèm theo huyết trắng như lòng trắng trứng. Bác sĩ cho em hỏi córa máu kèm theo huyết trắng khi mang thai có phải bị sảy thai?Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Câu hỏi ẩn danh Trả lời Được giải đáp bởiBSCK I Lê Thị Phương -Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu chu kỳ kinh nguyệt của bạn đều thì thường chậm kinh 5 - 7 ngày khi quan hệ không an toàn thì có thể có thai, trường hợp của bạn chậm kinh 27 ngày và thử que lên 2 vạch thì khả năng là bạn đã có thai. Bạn nên đi khám ngay tại bệnh viện để được khám, siêu âm xét nghiệm để chẩn đoán chính xác xem đây có phải là sảy thai hay bệnh lý khác như có thai dọa sảy hoặc có thể bị chửa ngoài tử cung không.",
+                "score": 0.6672317385673523,
+                "id": "medical_vietnamese_qa_4299",
+                "rerank_score": 0.9949944019317627
+            },
+            {
+                "text": "Câu hỏi: Em trễ kinh 7 ngày, thử que thử thai thấy 2 vạch. Đến nay, em đã trễ kinh được 18 ngày mà đột nhiên nay em bị đau bụng kèm theo ra máu như kinh nguyệt, đi siêu âm không thấy có thai trong bụng. Vậy bác sĩ cho em hỏiđau bụng kèmra máu trong khi mang thai có phải sảy thai không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Sảy thai có thể do rất nhiều nguyên nhân và thường khó xác định rõ ràng, tuy nhiên đa phần không phải do lỗi của người mẹ. Người ta cho rằng hầu hết các trường hợp sảy thai là do bất thường nhiễm sắc thể, khi em bé có quá nhiều hoặc không đủ nhiễm sắc thể thì sẽ không thể phát triển đúng cách. Bạn trễ kinh 7 ngày, thử que thử thai thấy 2 vạch. Đến nay, bạn đã trễ kinh được 18 ngày mà đột nhiên nay bạn bị đau bụng kèm theo ra máu như kinh nguyệt, đi siêu âm không thấy có thai trong bụng. Bạn nên đi khám ngay bác sĩ chuyên khoa Sản để khám, siêu âm, xét nghiệm, chẩn đoán chính xác và tư vấn, điều trị.",
+                "score": 0.6433645486831665,
+                "id": "medical_vietnamese_qa_2684",
+                "rerank_score": 0.9949820637702942
+            },
+            {
+                "text": "Câu hỏi: Cháu trễ kinh 2 tuần. Cháu đi vệ sinh thấy phân ra máu rất nhiều và đã kéo dài 10 ngày. Vậy bác sĩ cho cháu hỏinữ giới chậm kinh, đi ngoài ra máu nguyên nhân là gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị trễ kinh 2 tuần, bạn nên thử que thử thai xem liệu mình có thai hay không, còn hiện tượng ra máu bạn cần để ý xem bình thường có ra máu không hay chỉ ra máu khi đi tiểu hoặc đại tiện. Nếu bạn chỉ ra máu khi đại tiện và ra kéo dài 10 ngày nay, bạn nên đến khám bác sĩ chuyên khoa Tiêu hóa.",
+                "score": 0.6534680128097534,
+                "id": "medical_vietnamese_qa_2392",
+                "rerank_score": 0.9935330152511597
+            },
+            {
+                "text": "Câu hỏi: Em chậm kinh đã 20 ngày, có dấu hiệu mệt mỏi, chán ăn, nhạy cảm với mùi thức ăn, đau mỏi lưng và 2 bên bụng dưới và vùng chậu. Em lấy que về thử thì lên 1 vạch đậm và 1 vạch hơi mờ. 5 hôm sau e đi siêu âm bác sĩ chẩn đoán chưa thấy dấu hiệu có thai. Test nồng độ HCG là âm tính. Bác sĩ kêu nếu sau 5 ngày không thấy có kinh thì ra kiểm tra lại. Nhưng sau 2 hôm em đi khám về em bị đau thắt vùng chậu.rồi đau xuống hậu môn như cảm giác buồn đi vệ sinh nhưng không ra kèm triệu chứng buồn nôn, chóng mặt. Sau đó 8 tiếng em đi vệ sinh thì thấy ra cục máu to bằng cái cốc, 2 hôm nay vẫn ra 1-2 cục máu. Bác sĩ cho em hỏi liệuchậm kinh, đi vệ sinh xuất hiện cục máu có phải đã sảy thai không ạ? Vì Thị Liễu(1994) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Những dấu hiệu của sẩy thai gồm như: Chảy máu âm đạo: số lượng có thể nhiều hoặc ít, màu sẫm hoặc đỏ tươi Mất triệu chứng thai nghén: nếu cơ thể đang có cảm giác nghén như chán ăn, buồn nôn và nôn, ngực căng mà đột nhiên các cảm giác đó biến mất. Đau bụng vùng hạ vị, đau âm ỉ hoặc đau giữ dội.. Thử thai âm tính; Trong một số trường hợp thai nhi khi thử que thử dương tính sau đó lại âm tính.. Định lượng xét nghiệm máu beta HCg( Human chorionic Gonadotropin)được tiết ra từ hợp bào nuôi, có vai trò kích hoạt các tế bào mầm của bào thai phát triển và trưởng thành, HCG bắt đầu sinh ra ngay sau khi trứng được thụ tinh và bắt đầu làm tổ trên niêm mạc tử cung , lúc này nồng độ HCg sẽ xuất hiện trong máu, tăng nhanh và đạt nồng độ tối đa tại thời điểm 2,5 tháng, sau đó giảm dần vì thế định lượng HCg có gia trị quan trọng trong việc xác định có thai hay theo dõi thai kỳ giai đoạn đầu. Trong trường hợp của bạn que thử một vạch đậm và 1 vạch mờ và HCG âm tính thì tức là chưa phải có thai, tuy nhiên những ngày sau mình có đau bụng và ra máu cục, chóng mặt thì mình nên đi kiểm tra lại ( có thể siêu âm và làm lại xét nghiệm máu định lượng beta HCG ) để được đánh giá kỹ hơn.  Được giải đáp bởiBác sĩ chuyên khoa I Trần Thị Thu Hà- Trung tâm Sức khỏe Phụ nữ - Bệnh viện Vinmec Times City.",
+                "score": 0.6910081505775452,
+                "id": "medical_vietnamese_qa_3445",
+                "rerank_score": 0.9923046231269836
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Em bị chậm kinh 2 ngày, cho đến hôm nay thì có nhưng kinh ra ít hơn bình thường. Em có đọc về máu báo thai nhưng không phải vì em vẫn có nhiều máu đông và dịch nhầy. Giờ là thời điểm sau khi quan hệ 17 ngày rồi, bọn em có dùng biện pháp an toàn bao cao su. Vậy bác sĩ cho em hỏichậm kinh kèm ra ít máu âm đạo có phải mang thai không?Biện pháp điều trị thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp của bạn có chậm kinh 02 ngày sau đó có ra ít máu âm đạo. Nếu bạn không đau bụng và đã thử que thử thai âm tính thì bạn có thể theo dõi thêm vài ngày xem lượng máu ra thế nào. Trường hợp ra máu kéo dài > 7 ngày hoặc đau bụng thì bạn nên đến viện khám ngay để được tư vấn cụ thể.",
+                "score": 0.6522517204284668,
+                "id": "medical_vietnamese_qa_1146",
+                "rerank_score": 0.9993072748184204
+            },
+            {
+                "text": "Câu hỏi: . Em trễ kinh nay đã 27 ngày, trước đó em thử thai thì thấy lên 2 vạch. Em chưa đi khám hay siêu âm gì. Sau đó em bị ra máu đỏ tươi kèm theo huyết trắng như lòng trắng trứng. Bác sĩ cho em hỏi córa máu kèm theo huyết trắng khi mang thai có phải bị sảy thai?Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Câu hỏi ẩn danh Trả lời Được giải đáp bởiBSCK I Lê Thị Phương -Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu chu kỳ kinh nguyệt của bạn đều thì thường chậm kinh 5 - 7 ngày khi quan hệ không an toàn thì có thể có thai, trường hợp của bạn chậm kinh 27 ngày và thử que lên 2 vạch thì khả năng là bạn đã có thai. Bạn nên đi khám ngay tại bệnh viện để được khám, siêu âm xét nghiệm để chẩn đoán chính xác xem đây có phải là sảy thai hay bệnh lý khác như có thai dọa sảy hoặc có thể bị chửa ngoài tử cung không.",
+                "score": 0.6656146049499512,
+                "id": "medical_vietnamese_qa_4299",
+                "rerank_score": 0.9949944019317627
+            },
+            {
+                "text": "Câu hỏi: Em trễ kinh 7 ngày, thử que thử thai thấy 2 vạch. Đến nay, em đã trễ kinh được 18 ngày mà đột nhiên nay em bị đau bụng kèm theo ra máu như kinh nguyệt, đi siêu âm không thấy có thai trong bụng. Vậy bác sĩ cho em hỏiđau bụng kèmra máu trong khi mang thai có phải sảy thai không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Sảy thai có thể do rất nhiều nguyên nhân và thường khó xác định rõ ràng, tuy nhiên đa phần không phải do lỗi của người mẹ. Người ta cho rằng hầu hết các trường hợp sảy thai là do bất thường nhiễm sắc thể, khi em bé có quá nhiều hoặc không đủ nhiễm sắc thể thì sẽ không thể phát triển đúng cách. Bạn trễ kinh 7 ngày, thử que thử thai thấy 2 vạch. Đến nay, bạn đã trễ kinh được 18 ngày mà đột nhiên nay bạn bị đau bụng kèm theo ra máu như kinh nguyệt, đi siêu âm không thấy có thai trong bụng. Bạn nên đi khám ngay bác sĩ chuyên khoa Sản để khám, siêu âm, xét nghiệm, chẩn đoán chính xác và tư vấn, điều trị.",
+                "score": 0.6487492322921753,
+                "id": "medical_vietnamese_qa_2684",
+                "rerank_score": 0.9949820637702942
+            },
+            {
+                "text": "Câu hỏi: Cháu trễ kinh 2 tuần. Cháu đi vệ sinh thấy phân ra máu rất nhiều và đã kéo dài 10 ngày. Vậy bác sĩ cho cháu hỏinữ giới chậm kinh, đi ngoài ra máu nguyên nhân là gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị trễ kinh 2 tuần, bạn nên thử que thử thai xem liệu mình có thai hay không, còn hiện tượng ra máu bạn cần để ý xem bình thường có ra máu không hay chỉ ra máu khi đi tiểu hoặc đại tiện. Nếu bạn chỉ ra máu khi đại tiện và ra kéo dài 10 ngày nay, bạn nên đến khám bác sĩ chuyên khoa Tiêu hóa.",
+                "score": 0.6517407894134521,
+                "id": "medical_vietnamese_qa_2392",
+                "rerank_score": 0.9935330152511597
+            },
+            {
+                "text": "Câu hỏi: Em chậm kinh đã 20 ngày, có dấu hiệu mệt mỏi, chán ăn, nhạy cảm với mùi thức ăn, đau mỏi lưng và 2 bên bụng dưới và vùng chậu. Em lấy que về thử thì lên 1 vạch đậm và 1 vạch hơi mờ. 5 hôm sau e đi siêu âm bác sĩ chẩn đoán chưa thấy dấu hiệu có thai. Test nồng độ HCG là âm tính. Bác sĩ kêu nếu sau 5 ngày không thấy có kinh thì ra kiểm tra lại. Nhưng sau 2 hôm em đi khám về em bị đau thắt vùng chậu.rồi đau xuống hậu môn như cảm giác buồn đi vệ sinh nhưng không ra kèm triệu chứng buồn nôn, chóng mặt. Sau đó 8 tiếng em đi vệ sinh thì thấy ra cục máu to bằng cái cốc, 2 hôm nay vẫn ra 1-2 cục máu. Bác sĩ cho em hỏi liệuchậm kinh, đi vệ sinh xuất hiện cục máu có phải đã sảy thai không ạ? Vì Thị Liễu(1994) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Những dấu hiệu của sẩy thai gồm như: Chảy máu âm đạo: số lượng có thể nhiều hoặc ít, màu sẫm hoặc đỏ tươi Mất triệu chứng thai nghén: nếu cơ thể đang có cảm giác nghén như chán ăn, buồn nôn và nôn, ngực căng mà đột nhiên các cảm giác đó biến mất. Đau bụng vùng hạ vị, đau âm ỉ hoặc đau giữ dội.. Thử thai âm tính; Trong một số trường hợp thai nhi khi thử que thử dương tính sau đó lại âm tính.. Định lượng xét nghiệm máu beta HCg( Human chorionic Gonadotropin)được tiết ra từ hợp bào nuôi, có vai trò kích hoạt các tế bào mầm của bào thai phát triển và trưởng thành, HCG bắt đầu sinh ra ngay sau khi trứng được thụ tinh và bắt đầu làm tổ trên niêm mạc tử cung , lúc này nồng độ HCg sẽ xuất hiện trong máu, tăng nhanh và đạt nồng độ tối đa tại thời điểm 2,5 tháng, sau đó giảm dần vì thế định lượng HCg có gia trị quan trọng trong việc xác định có thai hay theo dõi thai kỳ giai đoạn đầu. Trong trường hợp của bạn que thử một vạch đậm và 1 vạch mờ và HCG âm tính thì tức là chưa phải có thai, tuy nhiên những ngày sau mình có đau bụng và ra máu cục, chóng mặt thì mình nên đi kiểm tra lại ( có thể siêu âm và làm lại xét nghiệm máu định lượng beta HCG ) để được đánh giá kỹ hơn.  Được giải đáp bởiBác sĩ chuyên khoa I Trần Thị Thu Hà- Trung tâm Sức khỏe Phụ nữ - Bệnh viện Vinmec Times City.",
+                "score": 0.6856957674026489,
+                "id": "medical_vietnamese_qa_3445",
+                "rerank_score": 0.9923046231269836
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Em bị chậm kinh 2 ngày, cho đến hôm nay thì có nhưng kinh ra ít hơn bình thường. Em có đọc về máu báo thai nhưng không phải vì em vẫn có nhiều máu đông và dịch nhầy. Giờ là thời điểm sau khi quan hệ 17 ngày rồi, bọn em có dùng biện pháp an toàn bao cao su. Vậy bác sĩ cho em hỏichậm kinh kèm ra ít máu âm đạo có phải mang thai không?Biện pháp điều trị thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp của bạn có chậm kinh 02 ngày sau đó có ra ít máu âm đạo. Nếu bạn không đau bụng và đã thử que thử thai âm tính thì bạn có thể theo dõi thêm vài ngày xem lượng máu ra thế nào. Trường hợp ra máu kéo dài > 7 ngày hoặc đau bụng thì bạn nên đến viện khám ngay để được tư vấn cụ thể.",
+                "score": 0.6428514719009399,
+                "id": "medical_vietnamese_qa_1146",
+                "rerank_score": 0.9993072748184204
+            },
+            {
+                "text": "Câu hỏi: Em 37 tuổi, đã sinh mổ 1 bé 10 tuổi, kinh nguyệt đều 26 ngày. Cách đây 3 năm, em có bị trễ kinh 10 ngày, thử que lên 2 vạch, 2 ngày sau ra máu như kinh nguyệt, siêu âm không thấy gì. Gần đây, đến chu kỳ kinh nguyệt nhưng em ra ít máu nâu kèm các triệu chứng như mang thai: ngực to, nhức đầu, buồn nôn... thử que lên 2 vạch đậm. Hai ngày sau, em lại ra máu bình thường như đến chu kỳ kinh nguyệt kèm huyết. Bác sĩ cho em hỏi,chậm kinh, ra máu nâu có phảidấu hiệu mang thaikhông?Em chân thành cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Triệu chứng của bạn có thể làsảy thai,tuy nhiên cũng có thể nhầm lẫn với những biến chứng sớm của thai kỳ như thai trứng, thai ngoài tử cung... Do đó, bạn cần đi thăm khám với bác sĩ Sản phụ khoa để loại trừ những trường hợp nguy hiểm. Đồng thời, các bác sĩ sẽ đánh giá lại những bất thường có thể có để chuẩn bị cho lần mang thai sau và tư vấn chi tiết.",
+                "score": 0.6375664472579956,
+                "id": "medical_vietnamese_qa_2273",
+                "rerank_score": 0.9961665272712708
+            },
+            {
+                "text": "Câu hỏi: . Em trễ kinh nay đã 27 ngày, trước đó em thử thai thì thấy lên 2 vạch. Em chưa đi khám hay siêu âm gì. Sau đó em bị ra máu đỏ tươi kèm theo huyết trắng như lòng trắng trứng. Bác sĩ cho em hỏi córa máu kèm theo huyết trắng khi mang thai có phải bị sảy thai?Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Câu hỏi ẩn danh Trả lời Được giải đáp bởiBSCK I Lê Thị Phương -Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu chu kỳ kinh nguyệt của bạn đều thì thường chậm kinh 5 - 7 ngày khi quan hệ không an toàn thì có thể có thai, trường hợp của bạn chậm kinh 27 ngày và thử que lên 2 vạch thì khả năng là bạn đã có thai. Bạn nên đi khám ngay tại bệnh viện để được khám, siêu âm xét nghiệm để chẩn đoán chính xác xem đây có phải là sảy thai hay bệnh lý khác như có thai dọa sảy hoặc có thể bị chửa ngoài tử cung không.",
+                "score": 0.6700484752655029,
+                "id": "medical_vietnamese_qa_4299",
+                "rerank_score": 0.9949944019317627
+            },
+            {
+                "text": "Câu hỏi: Em trễ kinh 7 ngày, thử que thử thai thấy 2 vạch. Đến nay, em đã trễ kinh được 18 ngày mà đột nhiên nay em bị đau bụng kèm theo ra máu như kinh nguyệt, đi siêu âm không thấy có thai trong bụng. Vậy bác sĩ cho em hỏiđau bụng kèmra máu trong khi mang thai có phải sảy thai không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Sảy thai có thể do rất nhiều nguyên nhân và thường khó xác định rõ ràng, tuy nhiên đa phần không phải do lỗi của người mẹ. Người ta cho rằng hầu hết các trường hợp sảy thai là do bất thường nhiễm sắc thể, khi em bé có quá nhiều hoặc không đủ nhiễm sắc thể thì sẽ không thể phát triển đúng cách. Bạn trễ kinh 7 ngày, thử que thử thai thấy 2 vạch. Đến nay, bạn đã trễ kinh được 18 ngày mà đột nhiên nay bạn bị đau bụng kèm theo ra máu như kinh nguyệt, đi siêu âm không thấy có thai trong bụng. Bạn nên đi khám ngay bác sĩ chuyên khoa Sản để khám, siêu âm, xét nghiệm, chẩn đoán chính xác và tư vấn, điều trị.",
+                "score": 0.6702308654785156,
+                "id": "medical_vietnamese_qa_2684",
+                "rerank_score": 0.9949820637702942
+            },
+            {
+                "text": "Câu hỏi: Cháu trễ kinh 2 tuần. Cháu đi vệ sinh thấy phân ra máu rất nhiều và đã kéo dài 10 ngày. Vậy bác sĩ cho cháu hỏinữ giới chậm kinh, đi ngoài ra máu nguyên nhân là gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bị trễ kinh 2 tuần, bạn nên thử que thử thai xem liệu mình có thai hay không, còn hiện tượng ra máu bạn cần để ý xem bình thường có ra máu không hay chỉ ra máu khi đi tiểu hoặc đại tiện. Nếu bạn chỉ ra máu khi đại tiện và ra kéo dài 10 ngày nay, bạn nên đến khám bác sĩ chuyên khoa Tiêu hóa.",
+                "score": 0.6341325640678406,
+                "id": "medical_vietnamese_qa_2392",
+                "rerank_score": 0.9935330152511597
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

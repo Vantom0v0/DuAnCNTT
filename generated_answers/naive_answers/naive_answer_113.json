@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cháu mổ u ác tuyến giáp vét hạch nhưng sau khi mổ xong tỉnh dậy thì mắt cháu bị sưng 1 bên. Cháu hỏi bác thì họ bảo là tác dụng phụ của thuốc gây mê gây ra, vài hôm là hết. Bác sĩ có thể cho cháu biết rõ hơn được không ạ? Một mắt sưng như thế này có hết không ạ? Cháu mổ ngày 13/5 ạ.",
+    "ground_truth": "Chào cháu. Đây không phải tác dụng phụ của thuốc gây mê mà do tắc tĩnh mạch nhỏ từ mắt về tim bị ngừng trê nên mắt cháu bị sưng một bên, trong vài ngày sẽ khỏi. Cháu nên nằm đầu cao, yêu cầu bác sĩ phẫu thuật viên và chuyên khoa mắt khám, cho ý kiến điều trị thêm cho cháu.",
+    "answer": "Sưng một bên mắt sau mổ u ác tuyến giáp vét hạch theo tài liệu không phải do thuốc gây mê mà có thể do tắc tĩnh mạch nhỏ từ mắt về tim, tình trạng này thường sẽ giảm và khỏi trong vài ngày. Cháu nên nằm kê đầu cao, đồng thời yêu cầu bác sĩ phẫu thuật và bác sĩ chuyên khoa mắt khám, đánh giá và hướng dẫn điều trị thêm. Vì cháu đã mổ từ ngày 13/5, nếu mắt vẫn sưng hoặc có biểu hiện bất thường, cháu nên sớm tái khám để được kiểm tra trực tiếp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Sưng một bên mắt sau mổ u ác tuyến giáp vét hạch là do đâu?\nTrả lời: Đây không phải tác dụng phụ của thuốc gây mê mà do tắc tĩnh mạch nhỏ từ mắt về tim bị ngừng trê nên mắt cháu bị sưng một bên, trong vài ngày sẽ khỏi. Cháu nên nằm đầu cao, yêu cầu bác sĩ phẫu thuật viên và chuyên khoa mắt khám, cho ý kiến điều trị thêm cho cháu.",
+            "score": 0.8735572099685669,
+            "id": "vietnamese_healthcare_3135"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!!\nHồi tháng 4/2019, cháu có đi khám hạch cổ, kết quả xét nghiệm là hạch lành tính. Sau đó cháu có chích mổ hạch. Dạo gần đâu, chỗ vết khâu chích hạch lần trước bị sưng hạch lên và đau, trước đây khi chích hạch cháu cũng bị sưng đau như vậy. Bây giờ cháu lại bị mọc hạch lại thì có sao không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nChào bác sĩ. Bác sĩ cho em hỏi cách đây hơn 1 năm trước em có bị nổi hạch và đã sinh thiết để lấy hạch ra. Sau đó em được chẩn đoán bệnh là lao hạch, em đã uống thuốc chữa hết theo phác đồ là 1 năm vào ngày 26/4/2020. Thì từ đó đến nay khoảng hơn 1 tháng ngay chỗ vết mổ cũ lại nổi lên 1 cục tròn giống cục hạch. Bác sĩ cho em hỏi đó có phải em bị hạch lao tái phát không ạ. Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn.\nTrả lời: Chào em!\nTốt nhất em nên sớm đi khám để kiểm tra lại, có 2 vấn đề cần phải chắc chắn như sau:\nMột là, khối bất thường vùng cổ của em bản chất là gì? Là hạch phản ứng viêm thông thường hay hạch lao hay u? Nếu là u thì là u lành hay u ác?\nHai là, xuất hiện lại khối bất thường đó có phải là do tái phát hay do nhiễm trùng vùng vết mổ cũ?\nKhi em đến bệnh viện thăm khám bác sĩ có thể sẽ cho em siêu âm đánh giá lại, xét nghiệm máu, nếu nghi ngờ u thì sẽ phải sinh thiết tổ chức đó để xác định bản chất.\nCảm ơn bạn đã tin tưởng AI-Doctor, rất mong có thể gặp bạn để được tư vấn kỹ càng hơn. Trân trọng!",
+            "score": 0.6089451909065247,
+            "id": "vietnamese_medical_qa_3404"
+        },
+        {
+            "text": "Câu hỏi: Em có một nhân tuyến giáp kích thước 3mm. Dạo gần đây, em thấy mặt có vẻ hơi sưng to hơn so với bình thường, mí mắt trên bên trái hay giật. Bác sĩ cho em hỏisưng mặt kèm giật mí mắt trái có phải do nhân tuyến giáp?Đối với kích thước nhân tuyến giáp như vậy, em nên ăn muối Iốt hay chuyển sang muối thường ạ và em có phải điều trị nhân tuyến giáp không thưa bác sĩ. Em cảm ơn. Phan Anh Thoại Khanh(1991) Trả lời\nTrả lời: Chào bạn Với câu hỏi “Sưng mặt kèm giật mí mắt trái có phải do nhân tuyến giáp?”, bác sĩ giải đáp như sau: Nhân tuyến giáp là các khối nhân đặc hoặc chứa đầy chất lỏng hình thành trong tuyến giáp, một tuyến nhỏ nằm ở nền cổ, ngay phía trên xương ức của bạn. Hầu hết, các nhân tuyến giáp không nguy hiểm và không gây ra triệu chứng. Có một tỷ lệ nhỏ các nhân tuyến giáp là nhân ung thư. Bệnh bướu cổ có thể mắc phải do nguyên nhân ăn thiếu hoặc thừa muối Iốt trong khẩu phần ăn hàng ngày, nên khi nghi ngờ có thể mắc bệnh, bạn nên gặp bác sĩ chuyên khoa nội tiết để được khám, tư vấn, xét nghiệm, thăm dò để xác định, phân loại, điều trị phù hợp cho từng loại bệnh.  Được giải đáp bởiTiến sĩ. Bác sĩ Trương Ngọc Hải- Bác sĩ Hồi sức - Khoa Hồi sức Cấp cứu, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+            "score": 0.602103590965271,
+            "id": "medical_vietnamese_qa_10011"
+        },
+        {
+            "text": "Câu hỏi: Cháu bị sưng tấy khớp tay, khớp chân, nhưng chỉ là sưng phần mô mềm. Cháu từng điều trị 2 năm ở chuyên khoa khớp nhưng sau phát hiện không phải khớp vì điều trị mãi không thuyên giảm bệnh. Cháu có làm sinh thiết da cũng không phát hiện ra bệnh gì. Trong suốt quá trình xét nghiệm, tất cả các chỉ số đều bình thường, chỉ có nồng độ máu lắng cao hơn do quá trình sử dụng thuốc tây nhiều. Vấn đề của cháu là chưa tìm ra được bệnh của mình nên chưa có hướng điều trị. Giờ cháu mong bác sĩ tư vấn liệu cháu xét nghiệm tủy có tìm ra được nguyên nhân gây bệnh của cơ thể mình không ạ? Mong bác sĩ tư vấn giúp cháu với ạ. Cháu cảm ơn bác sĩ!\nTrả lời: Cảm ơn em đã tin tưởng AI-Doctor! Rất mong có thể gặp em để được tư vấn cụ thể hơn.",
+            "score": 0.5982402563095093,
+            "id": "vietnamese_medical_qa_4006"
+        },
+        {
+            "text": "Câu hỏi: Hiện tượng hàm sưng lên sau khi mổ lấy sỏi là bị làm sao?\nTrả lời: Theo như mô tả, bạn đã mổ lấy sỏi tuyến dưới hàm, nay lại có hiện tượng sưng lại nên bạn cần đến bệnh viện tái khám để siêu âm, chụp phim xác định xem có sỏi tái phát không. Nếu không thì có thể đây là một bệnh lý nang tuyến nước bọt nên cần xác định chính xác để chuyên gia điều trị bạn nhé.",
+            "score": 0.5905508995056152,
+            "id": "vietnamese_healthcare_6211"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

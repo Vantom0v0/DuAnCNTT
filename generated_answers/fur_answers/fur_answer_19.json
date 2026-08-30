@@ -1,0 +1,82 @@
+{
+    "model_name": "fur",
+    "question": "tôi bị cơ địa dị ứng với hoá chất, dị ứng với thuốc gây mê, gây tê 17-35%, bị viêm xoang, đau dạ dày và hay đau đầu khi thay đổi thời tiết, khi căng thẳng, bị u tuyến giáp nhỏ, vậy xin hỏi bác sĩ tôi có thể tiêm phòng vaccine được không?",
+    "ground_truth": "Nếu tình trạng dị ứng của bạn ở mức độ nhẹ, bạn chị có thể tiêm ngừa vaccine Covid-19, nếu mức độ nặng, chị không thể tiêm ngừa theo quy định của Bộ Y tế. Ngoài ra, khi đi tiêm, chị cần mang theo sổ khám bệnh để bác sĩ khám sàng lọc biết được tình trạng u tuyến giáp của chị đang ở giai đoạn nào, có lành tính hay không, điều trị như thế nào để tư vấn chị cụ thể hơn.",
+    "answer": "Dựa trên thông tin được cung cấp, **chưa thể kết luận chắc chắn bạn có tiêm vaccine được hay không**, vì cần biết rõ tiền sử dị ứng với thuốc gây mê/gây tê của bạn có phải là **phản vệ từ độ 2 trở lên** hay chỉ là phản ứng nhẹ ngoài da.\n\n- Nếu trước đây bạn chỉ **nổi mẩn, ngứa, đỏ da**, không kèm khó thở, sưng phù nhiều, tụt huyết áp, co giật hoặc các triệu chứng nặng khác, bạn **có thể vẫn được tiêm**, nhưng nên tiêm tại bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu.\n- Nếu từng bị **phản vệ độ 2 trở lên hoặc phản ứng rất nặng** với thuốc gây mê/gây tê, theo thông tin cung cấp, bạn thuộc nhóm **chống chỉ định tiêm vaccine Covid-19**.\n- Tiền sử viêm xoang dị ứng, đau dạ dày, đau đầu khi thay đổi thời tiết/căng thẳng và u tuyến giáp nhỏ **không đủ thông tin để xác định là chống chỉ định**. Với nhiều bệnh lý cùng tồn tại, nên được kiểm tra và khám sàng lọc trước tiêm tại cơ sở y tế phù hợp.\n- Dị ứng với thuốc không đồng nghĩa chắc chắn dị ứng với vaccine; tuy nhiên, nếu dị ứng với **thành phần của vaccine** thì không nên tiêm. Thông tin hiện có chưa cho biết bạn dị ứng với thành phần nào và vaccine dự định tiêm là loại gì.\n\nKhi đi khám, bạn nên cung cấp đầy đủ thông tin về các lần dị ứng, mức độ triệu chứng, hồ sơ cấp cứu hoặc giấy xác nhận dị ứng nếu có. Bác sĩ khám sàng lọc sẽ quyết định bạn có đủ điều kiện tiêm hay không.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ tôi vị viêm mũi - xoang dị ứng do cơ địa mãn tính vẫn đang điều trị và có dị ứng bia rươu, nổi mề đay. Xin hỏi có tiêm vaccine được không?\nTrả lời: Tình trạng viêm mũi - xoang dị ứng do cơ địa mạn tính đang điều trị, và có dị ứng bia rươu, nổi mề đay nếu không có triệu chứng gì khác kèm theo, anh có thể tiêm vaccine Covid-19.",
+            "score": 0.4902837574481964,
+            "id": "vietnamese_healthcare_3854",
+            "rerank_score": 0.9809737801551819
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm xoang, dị ứng hải sản, khi ăn vào sẽ bị ngứa mẩn đỏ. Vậy tôi có tiêm vaccine được không ạ?\nTrả lời: Với mức độ dị ứng như mô tả, anh/chị có thể tiêm vaccine tại các bệnh viện hoặc nơi có đủ năng lực hồi sức cấp cứu ban đầu để đảm bảo an toàn.",
+            "score": 0.510632336139679,
+            "id": "vietnamese_healthcare_2119",
+            "rerank_score": 0.9782242178916931
+        },
+        {
+            "text": "Câu hỏi: tôi sinh năm 1963, 2 năm trước phát hiện u trung thất, hiện vẫn đang theo dõi nhưng không phải uống thuốc. Khối u này đã vôi hoá, 2 năm rồi không lớn thêm. Bản thân tôi cũng bị đau dạ dày nhiều năm, vậy có tiêm vắc xin được không ạ?\nTrả lời: Trường hợp của chị hoàn toàn có thể tiêm chủng bình thường được. Tuy nhiên, khi tới các cơ sở tiêm chủng, chị nên lắng nghe tư vấn từ các bác sĩ khám sàng lọc để việc tiêm chủng diễn ra hiệu quả và an toàn.",
+            "score": 0.4852040410041809,
+            "id": "vietnamese_healthcare_6322",
+            "rerank_score": 0.9404383897781372
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng với thuốc giảm đau giãn cơ. Tôi uống thuốc này lúc bị sút lưng (phồng đĩa đệm). Vậy xin hỏi tôi có tiêm vaccine Covid-19 được không ạ?\nTrả lời: Nếu tình trạng dị ứng của anh/chị ở mức độ thông thường, không có phản vệ từ độ 2 trở lên, anh/chị vẫn có thể tiến hành tiêm chủng tại bệnh viện được.",
+            "score": 0.4885522127151489,
+            "id": "vietnamese_healthcare_7770",
+            "rerank_score": 0.8970827460289001
+        },
+        {
+            "text": "Câu hỏi: Tôi đi khám bị viêm đa khớp, thường xuyên đau khớp ngón chân và tay, đau nửa đầu. Bác sĩ nói là tôi bị chèn dây thần kinh và thiếu máu lên não gây đau đầu. Tôi bị xoang mũi khoảng trên 10 năm. Tôi xin hỏi với các bệnh như trên có tiêm được vaccine phòng Covid-19 được không?\nTrả lời: Anh/chị có nhiều bệnh lý nền, viêm đa khớp, viêm xoang và có hiện tượng rối loạn tuần hoàn não, chèn ép dây thần kinh thì cần kiểm tra chuyên khoa trước khi tiêm. Sau khi có kết quả hãy đến điểm tiêm khối bệnh viện để được thăm khám sàng lọc trước tiêm, tại điểm tiêm bác sĩ sẽ tư vấn cụ thể.",
+            "score": 0.4849512577056885,
+            "id": "vietnamese_healthcare_9726",
+            "rerank_score": 0.8535333871841431
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng thuốc gây tê, mỗi lần phẫu thuật tôi đều bị nổi mẩn ngứa và đỏ lan dần ra khắp người. Vậy tôi có thể tiêm vaccine chống Covid-19 được không?\nTrả lời: Trường hợp anh/chị bị dị ứng với thuốc tê, không rõ bệnh viện nơi anh chị thực hiện phẫu thuật có chẩn đoán tình trạng dị ứng của anh/chị thuộc về phản vệ độ mấy không?Nếu trường hợp dị ứng thuộc phản vệ độ 2 trở lên, anh/chị nằm trong nhóm đối tượng chống chỉ định tiêm ngừa vaccine Covid-19. Nếu dị ứng của anh/chị chỉ biểu hiện bằng tình trạng nổi mẫn đỏ trên da, không kèm triệu chứng khác thì vẫn có thể tiêm ngừa vaccine Covid-19 bình thường. Khi đến khám sàng lọc để tiêm ngừa vaccine Covid-19, anh/chị nên cung cấp thông tin về tình trạng dị ứng của mình cho bác sĩ khám sàng lọc, cung cấp tất cả hồ sơ, giấy tờ về những lần nhập viện trước đó và cả giấy xác nhận dị ứng với thuốc. Tùy theo tình trạng của anh/chị, bác sĩ sẽ xác định có tiêm ngừa vaccine Covid-19 hay không. Trong trường hợp này, bác sĩ khuyên anh/chị nên tiêm ngừa vaccine tại bệnh viện. Nếu anh/chị được bác sĩ xác nhận đủ điều kiện tiêm ngừa vaccine, nên theo dõi kỹ những dấu hiệu lúc khám sàng lọc mà bác sĩ đã tư vấn để phát hiện sớm những trường hợp nếu có dị ứng xảy ra.",
+            "score": 0.5192826986312866,
+            "id": "vietnamese_healthcare_4824",
+            "rerank_score": 0.9173578023910522,
+            "weighted_score": 0.9785305738449097
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng thuốc, vậy xin hỏi tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Như các anh/chị cũng biết, tiền sử dị ứng để các bác sĩ sàng lọc quyết định tiêm hay không thì người chủng ngừa cần phải thông báo những tiền sử dị ứng của mình cụ thể là gì, mức độ dị ứng nhẹ ví dụ như uống thuốc vào bị ngứa, ngưng không uống nữa, . . .",
+            "score": 0.552191436290741,
+            "id": "vietnamese_healthcare_7969",
+            "rerank_score": 0.900886595249176,
+            "weighted_score": 0.9639641404151916
+        },
+        {
+            "text": "Câu hỏi: Tôi từng bị sốc sau gây mê với triệu chứng co giật, run rẩy, khó thở và tái nhập cấp cứu. Cơ địa tối từ nhỏ đến lớn của tôi cũng dị ứng với một số nhóm thuốc kháng sinh. Vậy tôi có được hoặc có nên chích vaccine Covid-19 không?\nTrả lời: Theo như thông tin thì bạn bị dị ứng với một số nhóm kháng sinh và đã bị dị ứng nặng với thuốc gây mê. Như vậy, theo hướng dẫn của Bộ Y tế và khuyến cáo của nhà sản xuất thì bạn thuộc nhóm đối tượng chống chỉ định tiêm ngừa vaccine Covid-19.",
+            "score": 0.5025383234024048,
+            "id": "vietnamese_healthcare_3053",
+            "rerank_score": 0.8213281035423279,
+            "weighted_score": 0.9604276537895202
+        },
+        {
+            "text": "Câu hỏi: Tôi hay bị dị ứng với thuốc kháng viêm và kháng sinh. Nếu tôi uống hai nhóm thuốc này thì sẽ bị ngứa mắt, phù các mí mắt đến mức không thấy đường và sưng môi, nổi mề đay nhiều chỗ. Tôi có thể tiêm ngừa bất kỳ loại vaccine Covid-19 nào được không?\nTrả lời: Người có tiền sử dị ứng thuộc đối tượng cần thận trọng trong tiêm chủng cần tiêm tại bệnh viện hoặc cơ sở y tế có đủ năng lực cấp cứu ban đầu. Anh/chị cung cấp tiền sử dị ứng cho bác sĩ khám sàng lọc biết để đánh giá và chỉ định tiêm an toàn. Điều quan trọng là sau khi tiêm, anh/chị cần thực hiện theo đúng hướng dẫn của bác sĩ về theo dõi các phản ứng sau tiêm để kịp thời phát hiện các dấu hiệu bất thường và thông báo cho nhân viên y tế để được xử trí kịp thời. Đặc biệt là các triệu chứng của phản vệ như nổi mề đay, sưng mắt, môi, khó thở, thở rít, tụt huyết áp, đau quặn bụng, tiêu chảy, nôn/buồn nôn, chóng mặt, rối loạn tri giác. . . tuy rất hiếm nhưng vẫn có thể xảy ra.",
+            "score": 0.5101954936981201,
+            "id": "vietnamese_healthcare_2099",
+            "rerank_score": 0.9473332762718201,
+            "weighted_score": 0.9490016341209411
+        },
+        {
+            "text": "Câu hỏi: Tôi trước đây có bị dị ứng khi uống thuốc, nay có tiêm ngừa vaccine Covid-19 được không ạ?\nTrả lời: Trường hợp của bạn có thể tiêm vaccine Covid-19 vì có tiền sử dị ứng không đồng nghĩa với việc sẽ dị ứng với vaccine Covid-19. Theo báo cáo ở Mỹ, tần suất phản vệ là 1/100. 000 liều vaccine được tiêm và 80% những người bị phản vệ có tiền sử bị dị ứng.",
+            "score": 0.5781698822975159,
+            "id": "vietnamese_healthcare_7636",
+            "rerank_score": 0.9196867346763611,
+            "weighted_score": 0.906853187084198
+        },
+        {
+            "text": "Câu hỏi: Em bị dị ứng viên thuốc kháng sinh, nổi mẩn ngứa khắp người, sưng, te môi và mặt sau khi ngửi viên thuốc đã bóc ra hoặc uống vào. Vậy em có chích vaccine Covid-19 được không?\nTrả lời: Đối với nhóm đối tượng bị dị ứng thuốc vẫn được khuyến cáo nên tiêm dưới sự giám sát của bác sĩ ở khối bệnh viện có đủ năng lực hồi sức cấp cứu ban đầu. Còn riêng những người dị ứng với thành phần của vaccine không nên tiêm.",
+            "score": 0.5026423931121826,
+            "id": "vietnamese_healthcare_5612",
+            "rerank_score": 0.6668733954429626,
+            "weighted_score": 0.8943230986595153
+        }
+    ],
+    "llm_call": 5,
+    "iteration": 2
+}

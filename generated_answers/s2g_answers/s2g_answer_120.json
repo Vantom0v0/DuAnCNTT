@@ -1,0 +1,107 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ, xin cho tôi hỏi triệu chứng bệnh viêm tiền liệt tuyến và cách điều trị. Xin cám ơn.",
+    "ground_truth": "Chào bạn . \nViêm tuyến tiền liệt chia thành 2 dạng : Viêm cấp và Viêm mạn.\n - Viêm tuyến tiền liệt cấp tính: bệnh nhân có triệu chứng tiểu nhiều lần, tiểu gấp, tiểu đau, tiểu rớt giọt hay đái dắt và có các triệu chứng bế tắc là tiểu khó, tiểu phải rặn, tiểu buốt, rát, tiểu chậm - đi tiểu nhưng không tiểu được ngay, nặng nhất là bí tiểu, kèm theo sốt. Nếu không được điều trị hoặc điều trị không dứt điểm bệnh sẽ chuyển sang giai đoạn mãn tính. \n- Viêm tuyến tiền liệt mãn tính: chủ yếu người bệnh có cảm giác khó chịu vùng bụng dưới, tinh hoàn, đau vùng dưới thắt lưng, tiểu nhiều lần, nước tiểu đục. Bệnh tiến triển chậm hơn và ít nguy hiểm hơn.\nTùy thuộc vào tình trạng bệnh sẽ có hướng điều trị khác nhau. Bạn nên đến bệnh viện để thăm khám, chuẩn đoán xác định. Từ đó sẽ có hướng điều trị phù hợp nhé. \nThân mến.",
+    "answer": "Xin chào bạn, hiện phần bằng chứng được cung cấp không có thông tin về triệu chứng hoặc cách điều trị viêm tiền liệt tuyến, nên tôi không thể trả lời chính xác dựa trên tài liệu này. Bạn nên đi khám bác sĩ để được đánh giá và hướng dẫn điều trị phù hợp.",
+    "evidence": [],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.658092737197876,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.01251226756721735
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+                "score": 0.6539114117622375,
+                "id": "vietnamese_medical_qa_2402",
+                "rerank_score": 0.01030986662954092
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.7055745720863342,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0023848756682127714
+            },
+            {
+                "text": "Câu hỏi: Tuyến thượng thận là gì?\nTrả lời: 1. Tuyến thượng thận là gì?\nCơ chế bài tiết hormon của tủy thượng thận Tuyến thượng thận",
+                "score": 0.6562934517860413,
+                "id": "vietnamese_healthcare_37497",
+                "rerank_score": 0.00034866458736360073
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6562779545783997,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.000275606318609789
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.6834843754768372,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.01251226756721735
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+                "score": 0.6843734979629517,
+                "id": "vietnamese_medical_qa_2402",
+                "rerank_score": 0.01030986662954092
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.7442848682403564,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0023848756682127714
+            },
+            {
+                "text": "Câu hỏi: Tuyến thượng thận là gì?\nTrả lời: 1. Tuyến thượng thận là gì?\nCơ chế bài tiết hormon của tủy thượng thận Tuyến thượng thận",
+                "score": 0.6885285377502441,
+                "id": "vietnamese_healthcare_37497",
+                "rerank_score": 0.00034866458736360073
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6679752469062805,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.000275606318609789
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+                "score": 0.6847556233406067,
+                "id": "vietnamese_healthcare_125866",
+                "rerank_score": 0.01251226756721735
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+                "score": 0.6864755749702454,
+                "id": "vietnamese_medical_qa_2402",
+                "rerank_score": 0.01030986662954092
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+                "score": 0.7427851557731628,
+                "id": "vietnamese_medical_qa_1629",
+                "rerank_score": 0.0023848756682127714
+            },
+            {
+                "text": "Câu hỏi: Tuyến thượng thận là gì?\nTrả lời: 1. Tuyến thượng thận là gì?\nCơ chế bài tiết hormon của tủy thượng thận Tuyến thượng thận",
+                "score": 0.6855301856994629,
+                "id": "vietnamese_healthcare_37497",
+                "rerank_score": 0.00034866458736360073
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.6666830778121948,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 0.000275606318609789
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

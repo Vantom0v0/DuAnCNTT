@@ -1,0 +1,82 @@
+{
+    "model_name": "fur",
+    "question": "Cho em hỏi mẹ em giờ bị ung thư hạch dưới nách mà xét nghiệm ác tính. Em giờ không có điều kiện để chữa trị, chỉ uống thuốc nam thôi mà tay mẹ em giờ ngày càng sưng phù. Cho em hỏiung thư hạch dưới nách, tay sưng phù phải làm sao? Bùi Hồng Nhung (1968) Trả lời",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Theo thông tin bạn cung cấp có thể mẹ bạnphù tay dạng phù bạch mạchdo các hạch lớn làm chèn ép, tắc nghẽn bạch mạch cánh tay. Đề giảm sưng phù cần phải tái lập lưu thông mạch bạch huyết vùng này, điều này tương đối khó nếu không có điều trị đặc hiệu đối vớiung thư hạch. Các biện pháp giảm phù một phần nhưmát - xahoặcbăng ép.  Được giải đáp bởiBác sĩ chuyên khoa I Lê Thiện Quang- Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+    "answer": "Dựa trên thông tin được cung cấp, **hạch ác tính vùng nách kèm tay sưng phù là tình trạng đáng lo ngại**, có thể liên quan đến bệnh ung thư hoặc hạch di căn. Tuy nhiên, **chưa có đủ dữ liệu để xác định chính xác mức độ nặng hay giai đoạn bệnh**; cần bác sĩ ung bướu thăm khám và làm các xét nghiệm cần thiết.\n\nCác dấu hiệu cần đặc biệt lưu ý gồm:\n\n- Tay hoặc vùng nách sưng to dần, đau nhiều.\n- Vùng sưng đỏ, viêm lan rộng.\n- Sốt.\n- Mệt mỏi nhiều.\n- Xuất hiện hoặc tái diễn tình trạng “tràn ngực”.\n\nKhi có những dấu hiệu trên, gia đình nên **đưa người bệnh đến cơ sở y tế hoặc bệnh viện chuyên khoa ung bướu để được đánh giá sớm**, không nên chỉ tự điều trị bằng thuốc nam. Thông tin hiện có chưa đủ để đưa ra cách điều trị cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,cho e hỏi ,e có tìm hiểu về bệnh ung thư vú .e thấy dấu hiệu của ung thư vú có trường hợp nách bị sưng .vậy cho e hỏi bạn e bị sưng nách nhưng không có hạch như vậy có phải bị ung thư vú không ?cảm ơn bác sĩ\nTrả lời: Chào bạn . \nKhi bị ung thư vú sẽ có những triệu chứng như sau : \n- Đau tức ở ngực\n- Vú to lên bất thường \n- Có hạch ở dưới nách , hạch ở nách là giai đoạn đầu tiên phát triển bệnh ung thư vú.\n- Có u cục ở vú \n- Núm vú tụt vào trong\n- Vùng da quanh đầu núm vú thay đổi, co rút da, co rút núm vú, nhăn nheo.\n- Có biểu hiện của viêm da vùng quanh vú ( Da đỏ, chảy nước, bong da, ngứa .. ) \nHiện tại bạn sờ không thấy có hạch và không có các triệu chứng như trên thì chưa cần phải lo lắng quá. Không rõ bạn thấy nách sưng như thế nào , có đau hay tím bầm không? \nBạn có thể đi khám, siêu âm để xác định cụ thể, tránh lo lắng ảnh hưởng tới sức khỏe và cuộc sống nhé. \nThân mến.",
+            "score": 0.5615384578704834,
+            "id": "vietnamese_medical_qa_8602",
+            "rerank_score": 0.9734198451042175
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em để ý thấy vùng nách bị nổi hạch. Em đang lo lắng không biết mình bị làm sao ạ, mong bác sĩ tư vấn giúp em.\nem xin cảm ơn.\nNguyễn Thị Xuân Mai (2002)\nChào bác sĩ. Ở nách cháu có nổi 1 hạch nhỏ ở dưới da nó không hiện lên và như 1 hạt đậu nhỏ vậy? Tại sao ạ? Mong bác sĩ tư vấ giúp cháu. Cháu cảm ơn.\nChào bác sĩ. Bác sĩ ơi cho em hỏi là nách em bị nổi hạch sưng nhức thì bị bệnh gì hả bác sĩ? Mong bác sĩ tư vấn ạ. Em cảm ơn.\nLê Thị Thắm (1998)\nChào bác sĩ. Ở nách trái của cháu nổi nốt nhỏ như đầu đũa đã được 10 ngày. Nhưng lại không đau, không to hơn, không ngứa,... không có bất cứ triệu chứng gì, nó như một cục thịt thừa vậy. Nên cháu muốn hỏi bác sĩ là bị làm sao ạ? Cháu cảm ơn!\nTrần Thị Ngân (2002)\nChào bác sĩ, dạo gần đây em bị nổi mấy cục hạch ở nách, bác sĩ cho em hỏi nổi hạch ở nách không rõ nguyên nhân nên làm gì ạ? Cảm ơn bác sĩ tư vấn\nTrả lời: Chào bạn.\nHạch là một tổ chức Lympho (liên võng nội mô), nằm rải rác nhiều vị trí khác nhau trong cơ thể, từ trong phủ tạng, ổ bụng cho tới các phần mềm dưới da. Hạch đóng một vai trò đáng kể trong phòng chống bệnh tật, nhất là các bệnh nhiễm khuẩn.\nTrường hợp hạch mọc ở nách có thể là phản ứng tự nhiên của cơ thể do viêm (Hạch lành tính có tác dụng sản sinh đề kháng để chống lại các nguyên nhân gây bệnh), chúng có thể mất đi tự nhiên mà không cần điều trị hay tác động vào. Nhưng đôi khi có thể là cảnh báo cho các bệnh nguy hiểm, không phải do viêm mà do mắc các bệnh lý liên quan tới bạch cầu, ung thư vú ....\nVì vậy bạn nên đến cơ sở y tế uy tín, bác sĩ chuyên khoa để làm một số các xét nghiệm kiểm tra, thăm khám và tư vấn.",
+            "score": 0.6124066114425659,
+            "id": "vietnamese_medical_qa_3877",
+            "rerank_score": 0.7280985713005066
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Khi mẹ tôi đi khám vì nghi ung thư vú thì được chẩn đoán K Vú phải CT4N3CMX(50). Bác sĩ cho tôi hỏi chẩn đoán trên nghĩa là sao vậy ạ? Có biện pháp nào chữa hữu hiệu không ạ? Mong bác sĩ tư vấn giúp tôi, tôi xin cảm ơn.\nTrả lời: Chào anh Hiệp,\nVới thông tin anh cung cấp thì mẹ anh đã mắc ung thư vú Phải. Y học hiện nay có nhiều phương pháp để chữa trị ung thư vú. Tuy nhiên, việc lựa chọn phương pháp nào và việc điều trị có hiệu quả hay không còn tùy thuộc vào tuổi, giai đoạn ung thư, bệnh nền đi kèm, khả năng chịu đựng phản ứng phụ xuất hiện khi điều trị của từng bệnh nhân.\nDo đó, để có phác đồ điều trị thích hợp, anh nên liên hệ ngay với bác sĩ đang điều trị cho mẹ anh hoặc thăm khám cùng bác sĩ Ung bướu uy tín để nhận được tư vấn chính xác.\nChúc mẹ anh sức khỏe để vượt qua giai đoạn khó khăn sắp tới.",
+            "score": 0.5596864223480225,
+            "id": "vietnamese_medical_qa_3363",
+            "rerank_score": 0.5265754461288452
+        },
+        {
+            "text": "Câu hỏi: Cháu bị sưng 1 cục hạch nách trái nó nhức và đau khi cháu cử động, nó đỏ lên nữa ạ. Bác sĩ cho cháu hỏinổi hạch nách trái, đỏ và đau nhức có nguy hiểm không?Bác sĩ cho cháu lời tư vấn ạ. Cháu xin cảm ơn.  Bài trắc nghiệm dưới đây giúp bạn hiểu phần nào vai trò và chức năng của hạch bạch huyết. Bài dịch từ: webmd.com Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Thiện Quang- Bác sĩ Nội ung bướu - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng Chào em, Với câu hỏi“Nổi hạch nách trái, đỏ và đau nhức có nguy hiểm không?”,\nTrả lời: bác sĩ xin giải đáp như sau: Theo tính chất em mô tả thì hạch nách của em khả năng là hạch viêm. Trường hợp viêm lan rộng, sốt cần điều trị kháng sinh, em nên đi khám để bác sĩ tư vấn và có phương thức điều trị phù hợp. Nếu em còn thắc mắc về việcnổi hạch nách trái, em có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn em đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc em có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.5849802494049072,
+            "id": "medical_vietnamese_qa_12444",
+            "rerank_score": 0.15775634348392487
+        },
+        {
+            "text": "Câu hỏi: Mẹ em năm nay 60 tuổi bị gãy xương trên khớp cổ tay, bó bột 2 tháng nay đã tháo bột được 4 ngày. Nhưng chỗ cổ tay và mu bàn tay vẫn thấy sưng phù nề. Khi tập khớp cổ tay vẫn đau, xin hỏi bác sĩđau khớp cổ tay khi tập vật lý trị liệu sau tháo bột nên làm gì?Cảm ơn bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Đau khớp cổ tay khi tập vật lý trị liệu sau tháo bột nên làm gì?”, bác sĩ giải đáp như sau: Bạn nên đưa mẹ quay lại khám bác sĩ chuyên khoa để được tư vấn vì giai đoạn này quan trọng là cần được hướng dẫn tập vận động và vật lý trị liệu để cải thiện sưng nề và tầm vận động cổ tay. Thậm chí cần chụp lại X quang xem xương có liền tốt hoặc bị lệch hay không để đưa ra phương án điều trị cụ thể.",
+            "score": 0.5618142485618591,
+            "id": "medical_vietnamese_qa_148",
+            "rerank_score": 0.042869098484516144
+        },
+        {
+            "text": "Câu hỏi: Nổi hạch ở nách có đặc điểm gì?\nTrả lời: 1. Nổi hạch ở nách có đặc điểm gì?\nTại nách có hệ thống những hạch bạch huyết có vai trò như hệ miễn dịch bảo vệ cơ thể. Các hạch nằm nông dưới bề mặt da thì có thể sờ thấy với hình dạng tròn hoặc dẹt. Nhưng những hạch nằm sâu dưới da sẽ khó nhận biết hơn, chỉ khi bị sưng to thì người bệnh mới chú ý đến. Nổi hạch ở nách đau nhức và sưng to là dấu hiệu cảnh báo về sức khỏe và hệ miễn dịch. Có nhiều nguyên nhân dẫn đến sưng hạch ở nách như: nhiễm trùng, chấn thương vùng hạch và xung quanh, ung thư di căn ... Nếu do nguyên nhân chấn thương hoặc nhiễm trùng , tình trạng sưng hạch sẽ sớm mất đi và không ảnh hưởng nhiều đến sức khỏe người. Tuy nhiên hầu hết những bệnh nhân ung thư vú di căn đều bị nổi hạch ở nách. Do đó, người bệnh không nên chủ quan, đặc biệt là các chị em phụ nữ khi xuất hiện hạch ở nách cần đi khám và xác định rõ nguyên nhân. Nổi hạch ở nách đau nhức và sưng to là dấu hiệu cảnh báo về sức khỏe và hệ miễn dịch",
+            "score": 0.5668305158615112,
+            "id": "vietnamese_healthcare_41123",
+            "rerank_score": 0.7227712273597717,
+            "weighted_score": 0.6161034226417541
+        },
+        {
+            "text": "Câu hỏi: Em có hạch to, cứng ở nách trái và nổi ban tay trái luôn, ở cổ dưới tai cũng có cục gì cứng cứng không di chuyển giống bị sưng còn hạch ở nách có di chuyển. Em bị nổi ban tay trái với lại nổi hạch nách trái trước khi tiêm vacxin. Sau khi tiêm em bị đau cổ và có cục gì giống bị sưng dưới tai. Bác sĩ cho em hỏi,nổi hạch nách trái kèm nổi ban tay trái là dấu hiệu bệnh gì?Mong bác sĩ tư vấn giúp. Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Theo dấu hiệu bạn cung cấp có thể là hạch viêm hoặc tổ chức viêm dưới da hoặc u phần mềm, chưa rõ bản chất nên bạn cần đi khám để có chẩn đoán chính xác và hướng điều trị cụ thể.",
+            "score": 0.6217285394668579,
+            "id": "medical_vietnamese_qa_8940",
+            "rerank_score": 0.41391339898109436,
+            "weighted_score": 0.5075195610523224
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Năm nay cháu 17 tuổi, bị nổi u hạch ở 2 nách từ lâu, sờ vào hạch thấy cứng, hạch di chuyển theo ngón tay, tuy nhiên hạch không phát triển to thêm. Nhưng, có một hai lần hạch có mủ trắng và hơi đau. Bác sĩ cho cháu hỏi nổi hạch cứng ở 2 nách có mủ trắng và hơi đau có sao không ạ? Mong bác sĩ tư vấn giúp cháu. Cháu xin cảm ơn bác sĩ!\nTrả lời: Cảm ơn cháu đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+            "score": 0.5525644421577454,
+            "id": "vietnamese_medical_qa_3119",
+            "rerank_score": 0.14773878455162048,
+            "weighted_score": 0.4504406154155731
+        },
+        {
+            "text": "Câu hỏi: Đau nách\nTrả lời: 9. Đau nách\nNếu cảm thấy đau ở nách và không biết nguyên nhân do đâu, bạn nên đến gặp bác sĩ. Mặc dù nó có thể do một số nguyên nhân đơn giản như căng cơ hoặc sưng hạch bạch huyết do nhiễm virus, đau nách cũng có thể là dấu hiệu của ung thư vú. Bạn có thể không nhận thấy các triệu chứng của ung thư ở vú. Nhưng sưng và đau dưới cánh tay có thể có nghĩa là ung thư đã di căn từ vú vào các hạch bạch huyết. Đau nách cũng có thể là dấu hiệu của ung thư vú",
+            "score": 0.5464386940002441,
+            "id": "vietnamese_healthcare_65053",
+            "rerank_score": 0.04646984115242958,
+            "weighted_score": 0.36996632292866705
+        },
+        {
+            "text": "Câu hỏi: Tràn ngực khi xuất hiện hạch ở nách nên làm gì?\nTrả lời: Hạch là tổ chức lympho xuất hiện ở nhiều vị trí trên cơ thể và có chức năng như hệ miễn dịch của cơ thể. Hạch nách nổi lên kèm đau có thể gặp trong một số trường hợp hợp viêm nhiễm hoặc nặng hơn có thể gặp là ung thư vú. Bạn của em đã có tiền sử mổ hạch nách nhưng bây giờ lại bị tái phát kèm các triệu chứng mệt mỏi và tràn ngực thì em nên khuyên bạn mình tới cơ sở y tế uy tín hoặc các bệnh viện thuộc Hệ thống Y tế Vinmec trên toàn quốc để bác sĩ thực hiện một số thăm khám chuyên sâu nhằm tìm ra nguyên nhân và có phác đồ điều trị thích hợp.",
+            "score": 0.5454156398773193,
+            "id": "vietnamese_healthcare_185",
+            "rerank_score": 0.2080622762441635,
+            "weighted_score": 0.3686304301023483
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bạn em có hạch ở nách mổ năm 2018 rồi ạ, nhưng nay lại nổi lên và xuất hiện cùng với các triệu chứng mệt mỏi và tràn ngực. Bác sĩ tư vấn cho em được không ạ? Em xin cảm ơn.\nTrả lời: Cảm ơn em đã tin tưởng, chia sẻ những lo lắng tới AI-Doctor. Chúc bạn em có nhiều sức khỏe.",
+            "score": 0.5476815700531006,
+            "id": "vietnamese_medical_qa_2653",
+            "rerank_score": 0.07286091893911362,
+            "weighted_score": 0.3503224536776543
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

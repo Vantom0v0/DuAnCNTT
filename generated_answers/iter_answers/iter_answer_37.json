@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Người hút thuốc lá lâu năm có nên tiêm vaccine Covid-19 không? Hôm qua, trước khi tiêm, y tá nói tôi về kiểm tra vì phổi thở không tốt.",
+    "ground_truth": "Với trường hợp của anh, thăm khám lâm sàng trực tiếp, các bác sĩ mới có thể nhận định phù hợp được. Hút thuốc lá lâu năm không phải là yếu tố khiến anh không được tiêm phòng vaccine Covid-19.",
+    "answer": "Người hút thuốc lá lâu năm **nên tiêm vaccine COVID-19**, vì hút thuốc làm giảm chức năng phổi và tăng nguy cơ mắc COVID-19 nặng, tử vong; bản thân việc hút thuốc không phải là lý do để từ chối tiêm. Tuy nhiên, do y tá nhận thấy bạn thở không tốt, bạn nên đi khám chuyên khoa Hô hấp để chụp phổi và đo chức năng hô hấp, nhằm kiểm tra các bệnh như bệnh phổi tắc nghẽn mạn tính hoặc nguyên nhân khác. Nếu bệnh phổi đang ổn định, không trong đợt cấp, bác sĩ có thể đánh giá cho tiêm; nên tiêm tại bệnh viện hoặc cơ sở có khả năng cấp cứu và mang theo hồ sơ, thuốc đang dùng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Hút thuốc lá thường xuyên bị ho dữ dội có làm sao không?\nTrả lời: Hút thuốc lá có thể đem lại nhiều vấn đề cho sức khỏe không chỉ ở phổi mà có thể có các cơ quan khác. Người nhà bạn mô tả biểu hiện như vậy thì nên khám loại trừ các căn nguyên ho như: u hay bệnh phổi tắc nghẽn mãn tính. Người nhà bạn nên đến khám chuyên khoa Hô hấp để chụp kiểm tra và thăm dò chức năng hô hấp.",
+            "score": 0.7010011672973633,
+            "id": "vietnamese_healthcare_9030"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi bị tức ngực ngay sau khi hút thuốc lá nên chụp phổi không? Mong được bác sĩ giải đáp thắc mắc ạ. Em cảm ơn bác sĩ, chúc bác sĩ sức khỏe.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nKhói thuốc lá lôi kéo các tế bào viêm đến phổi, các tế bào này nhã ra nhiều men tiêu hủy phổi. Có thể phổi đã bị tiêu hủy nhiều năm mới được hô hấp ký khám phá. Hơn nữa, hút thuốc lá làm cho bạn có nguy cơ cao bị nhiều bệnh như ung thư miệng, cổ họng, phổi, thực quản, dạ dày và bàng quang, bệnh tim, cao huyết áp, tai biến mạch máu não, bệnh mạch máu ngoại biên và ung thư máu. 90% bệnh nhân bệnh phổi tắc nghẽn mạn tính là người hút thuốc lá. Vì vậy, bạn cần tới bệnh viện hoặc phòng khám chuyên khoa hô hấp để được chụp phổi và đo chức năng hô hấp.\nTrân trọng!",
+            "score": 0.6685889959335327,
+            "id": "vietnamese_medical_qa_1095"
+        },
+        {
+            "text": "Câu hỏi: Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nTrả lời: 2. Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nHút thuốc lá làm giảm dung tích phổi, tăng nguy cơ viêm đường hô hấp và tăng mức độ nghiêm trọng của các bệnh đường hô hấp . Trong khi đó, COVID-19 là một bệnh truyền nhiễm tấn công chủ yếu vào phổi. Do đó, hút thuốc lá sẽ làm giảm khả năng chống lại coronavirus và các bệnh đường hô hấp khác. Các nghiên cứu hiện có cho thấy những người hút thuốc lá có nguy cơ mắc bệnh COVID-19 ở mức độ nghiêm trọng hơn và nguy cơ tử vong cao hơn.",
+            "score": 0.6593172550201416,
+            "id": "vietnamese_healthcare_84825"
+        },
+        {
+            "text": "Câu hỏi: Hút thuốc lá điện tử có làm tăng nguy cơ nhiễm COVID-19 và các triệu chứng nặng hơn người không hút thuốc lá nếu bị nhiễm COVID-19?\nTrả lời: 3. Hút thuốc lá điện tử có làm tăng nguy cơ nhiễm COVID-19 và các triệu chứng nặng hơn người không hút thuốc lá nếu bị nhiễm COVID-19?\nHiện chưa có kết luận khoa học nào về mối quan hệ giữa thuốc lá điện tử và COVID-19 . Tuy nhiên, các bằng chứng hiện có chỉ ra rằng thuốc lá điện tử có hại và làm tăng nguy cơ mắc bệnh tim mạch và bệnh lý phổi . Vì COVID-19 gây bệnh ở đường hô hấp, nên các hành động truyền tay nhau, sử dụng chung thuốc lá điện tử có thể làm tăng nguy cơ lây nhiễm. Hiện chưa có kết luận khoa học nào về mối quan hệ giữa thuốc lá điện tử và COVID-19",
+            "score": 0.5877717137336731,
+            "id": "vietnamese_healthcare_84826"
+        },
+        {
+            "text": "Câu hỏi: Năm nay chồng tui đã 58 tuổi, mắc bệnh tắc nghẽn phổi mãn tính hơn 10 năm nay. Tôi đang điều trị ở Bệnh viện thành phố Thủ Đức và dùng thuốc mỗi ngày theo chỉ định của bác sĩ. Vậy chồng tui có tiêm ngừa vaccine Covid-19 được không?\nTrả lời: Những người bị bệnh tắc nghẽn phổi mãn tính là người có nguy cơ bệnh nghiêm trọng hơn khi mắc Covid-19, vì vậy những bệnh nhân này cần tiêm vaccine. Nếu bệnh của chồng Chị đã ổn định, không phải trong giai đoạn cấp (ổn định ở đây được hiểu là ít nhất 3 tháng qua bệnh nhân không bị nhập viện cấp cứu và thay đổi thuốc do bệnh nặng hơn) thì vẫn có thể được tiêm chủng vaccine Covid-19. Chồng chị đã 58 tuổi và có bệnh nền nên cần cẩn trọng khi tiêm chủng và nên tiêm ở bệnh viện hoặc cơ sở y tế có đủ năng lực cấp cứu ban đầu. Khi khám, chồng Chị hãy cung cấp các hồ sơ có liên quan đến bệnh cũng như các thuốc đang điều trị để bác sỹ khám, đánh giá sức khỏe và chỉ định tiêm chủng nếu chồng Chị đủ điều kiện.",
+            "score": 0.5842126607894897,
+            "id": "vietnamese_healthcare_9154"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

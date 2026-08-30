@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Loang đỏ ở lưỡi có phải bị viêm lưỡi không?",
+    "ground_truth": "Có một số trường hợp bị lưỡi bản đồ, bạn có thể khám kiểm tra xem bạn có bị vậy không? Còn lưỡi bản đồ thì là cơ địa, chỉ điều trị khi nên đợt cấp còn lại thì chung sống hòa bình bạn nhé.",
+    "answer": "Loang đỏ ở lưỡi **có thể do viêm lưỡi**, nhưng **không thể khẳng định chỉ dựa vào biểu hiện này**. Một số khả năng được nêu trong thông tin gồm:\n\n- **Lưỡi bản đồ/lưỡi địa lý**: có các đốm đỏ giống bản đồ, có thể thay đổi vị trí theo thời gian; thường không nguy hiểm và có thể không cần điều trị nếu không khó chịu.\n- **Tổn thương cơ học hoặc chảy máu**.\n- **Thiếu acid folic hoặc vitamin B12**.\n- Một số tình trạng khác gây lưỡi đỏ như **sốt ban đỏ** hoặc **bệnh Kawasaki**, thường kèm các triệu chứng khác như sốt.\n\nVì bạn bị đau rát, đã dùng thuốc nhưng không khỏi, nên đi khám lại để bác sĩ kiểm tra trực tiếp và xác định nguyên nhân. Nếu tình trạng kéo dài trên **2 tuần**, nên đi kiểm tra. Hiện chưa có đủ thông tin để hướng dẫn điều trị dứt điểm; việc điều trị phụ thuộc vào nguyên nhân cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nEm bị loang đỏ ở lưỡi, cảm giác đau rát. Em đã đi khám và được chẩn đoán là viêm lưỡi, em đã uống thuốc theo đơn nhưng không thấy khỏi. Bác sĩ cho em hỏi bị loang đỏ ở lưỡi có phải bị viêm lưỡi không ạ? Làm thế nào để điều trị dứt điểm ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin trả lời như sau:\nCó một số trường hợp bị lưỡi bản đồ, bạn có thể khám kiểm tra xem bạn có bị vậy không? Còn lưỡi bản đồ thì là cơ địa, chỉ điều trị khi nên đợt cấp còn lại thì chung sống hòa bình bạn nhé.",
+            "score": 0.6515778303146362,
+            "id": "vietnamese_medical_qa_1747",
+            "rerank_score": 0.9993898868560791
+        },
+        {
+            "text": "Câu hỏi: Có vết đỏ ở lưỡi là bị sao?\nTrả lời: Lưỡi của bạn có thể bị chảy máu do tổn thương cơ học hoặc do viêm lưỡi. . . Bạn nên đến viện sớm để được khám và làm xét nghiệm, dựa vào đó bác sĩ sẽ chẩn đoán tốt hơn.",
+            "score": 0.643322765827179,
+            "id": "vietnamese_healthcare_3075",
+            "rerank_score": 0.9143769145011902
+        },
+        {
+            "text": "Câu hỏi: Lưỡi đỏ hoặc màu dâu tây\nTrả lời: 2. Lưỡi đỏ hoặc màu dâu tây\nCó nhiều yếu tố có thể khiến lưỡi màu hồng bình thường chuyển sang màu đỏ. Trong một số trường hợp, lưỡi thậm chí còn có màu sắc và bề mặt giống quả dâu tây với các núm vị giác màu đỏ mở rộng, nằm rải rác trên bề mặt. Nguyên nhân khiến lưỡi xuất hiện tình trạng này bao gồm: Thiếu vitamin : Sự thiếu hụt acid folic và vitamin B12 có thể khiến lưỡi chuyển từ màu hồng sang đỏ. Lưỡi địa lý : Tình trạng này còn được gọi là viêm lưỡi di cư lành tính được đặt tên theo mô hình giống như bản đồ của các đốm đỏ phát triển trên bề mặt lưỡi. Đôi khi những đóm này có viền trắng xung quanh và vị trí của chúng trên lưỡi có thể thay đổi theo thời gian. Mặc dù thường không gây nguy hiểm cho sức khỏe nhưng các chuyên gia đưa ra lời khuyên nên đi kiểm tra nếu tình trạng này kéo dài quá 2 tuần. Nếu kết quả đưa ra là tình trạng lưỡi địa lý, bệnh nhân có thể không cần điều trị. Trong trường hợp cảm thấy đau và khó chịu ở lưỡi, bạn có thể sẽ được chỉ định sử dụng một số loại thuốc sử dụng nhằm giảm bớt sự khó chịu. Thiếu vitamin B12 có thể dẫn đến tình trạng lưỡi đỏ Sốt ban đỏ : Sốt ban đỏ là bệnh do vi khuẩn Streptococcus pyogenes gây ra. Lưỡi chuyển sang màu đỏ tươi là triệu chứng điển hình của sốt ban đỏ. Sốt ban đỏ thường xảy ra ở những trẻ trong độ tuổi từ 2-8 tuổi do đó khi trẻ sốt, bố mẹ hoặc người chăm sóc trẻ đưa ngay đến cơ sở y tế gần nhất điều được điều trị tránh những biến chứng nguy hiểm như nhiễm trùng tai , áp xe thành sau họng , viêm phổi , viêm màng não ,.... Bệnh Kawasaki : Bệnh Kawasaki thường xuất hiện ở trẻ em dưới 5 tuổi. Bệnh ảnh hưởng đến các mạch máu trong cơ thể và khiến lưỡi chuyển sang màu đỏ. Trong trường hợp bệnh nặng, trẻ thường sốt rất cao, có thể bị đỏ và sưng ở cả chân và tay.",
+            "score": 0.636300802230835,
+            "id": "vietnamese_healthcare_45846",
+            "rerank_score": 0.6008099317550659
+        },
+        {
+            "text": "Câu hỏi: Viêm amidan lưỡi là gì?\nTrả lời: 1. Viêm amidan lưỡi là gì?\nAmidan lưỡi là tổ chức lympho nằm ở đáy lưỡi sau V lưỡi. Đây là một bộ phận của vòng Waldeyer thuộc hệ thống lympho đường thở, có vai trò duy trì hệ miễn dịch , giúp cơ thể chống lại các tác nhân gây bệnh. Viêm amidan lưỡi là tình trạng amidan lưỡi bị vi khuẩn hoặc virus xâm nhập gây tình trạng viêm nhiễm, đau nhức, rát vùng lưỡi. Hình ảnh viêm amidan lưỡi ở người bệnh thường gặp là: Amidan sưng to: Khi quan sát cuống lưỡi sẽ thấy amidan sưng to, tấy đỏ. Bề mặt amidan có thể xuất hiện các chấm mủ trắng. Vùng cổ họng sưng đỏ, khô rát, niêm mạc họng đỏ, xuất tiết, lưỡi trắng bẩn, hạch bạch huyết sau họng sưng to. Người bệnh sốt, ho kéo dài, khàn tiếng , đau tức ngực, thở khò khè khi ngủ. Viêm amidan lưỡi thường xuất hiện ở: Những người vệ sinh răng miệng kém, mắc các bệnh răng miệng như sâu răng, viêm lợi , viêm V.A, viêm xoang ,.. Những người mắc các bệnh đường hô hấp không được điều trị triệt để, vi khuẩn phát triển, lây lan đến amidan lưỡi gây viêm. Những người có sức đề kháng kém, hệ miễn dịch suy giảm, vi khuẩn, virus dễ tấn công, gây bệnh. Môi trường ô nhiễm, thời tiết thay đổi thất thường, người bệnh có cơ địa dị ứng cũng là một yếu tố thuận lợi xuất hiện bệnh. Một số loại viêm Amidan Nếu việc điều trị viêm amidan lưỡi không được hiện hoặc thực hiện không triệt để, bệnh amidan đáy lưỡi có thể tiến triển thành mạn tính, rất khó điều trị, đồng thời gây nhiều biến chứng nguy hiểm cho người bệnh. Các biến chứng có thể gặp là: Biến chứng cục bộ: Loét khe amidan, viêm tấy xung quanh amidan, sỏi amidan, viêm tấy thành bên họng, viêm họng mạn tính . Biến chứng gần: Viêm hạch cổ mạn tính, viêm tai giữa , viêm mũi xoang , viêm thanh quản , viêm khí quản, viêm phế quản . Biến chứng xa: Viêm khớp, viêm nội tâm mạc , viêm cầu thận , nhiễm khuẩn huyết,... Khi các biến chứng đã xảy ra, việc điều trị sẽ trở nên khó khăn và tốn kém hơn rất nhiều, trong khi tình trạng sức khỏe chưa chắc đã hồi phục hoàn toàn. Do đó, để việc điều trị thuận lợi, hạn chế các nguy cơ có thể xảy ra, người bệnh nên đến các cơ sở y tế thăm khám sớm ngay từ khi có các triệu chứng đầu tiên của bệnh. Hình ảnh viêm amidan lưỡi",
+            "score": 0.6663861870765686,
+            "id": "vietnamese_healthcare_125810",
+            "rerank_score": 0.5057529807090759
+        },
+        {
+            "text": "Câu hỏi: Đau họng kèm theo lưỡi có nốt đỏ có nguy hiểm không?\nTrả lời: thành sau họng có các tổ chức Lympho, khi viêm thì sẽ đỏ mọng hơn bình thường. Những nốt lớn màu đỏ bạn mô tả, thì có thể là các tổ chức Lympho thành sau họng.",
+            "score": 0.6022055149078369,
+            "id": "vietnamese_healthcare_7733",
+            "rerank_score": 0.4405098557472229
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

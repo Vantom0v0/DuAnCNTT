@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Xin chào bác sĩ, cứ thường đến kì thi là con tôi lại có triệu chứng buồn nôn hoặc đau đầu vậy nguyên nhân là do đâu?",
+    "ground_truth": "Chào bạn\nTriệu chứng của con bạn có thể do bị áp lực học hành căng thẳng gây ra đau đầu buồn nôn.Bạn nên cho con học hành theo khoa học,ăn uống đầy đủ,ngủ đủ giấc.\nNếu con bạn đau đầu nhiều bạn có thể cho con bạn uống thuốc paracetamol theo chỉ dẫn tùy theo độ tuổi của con bạn.\nThân mến !",
+    "answer": "Chào bạn, việc trẻ thường buồn nôn hoặc đau đầu mỗi khi đến kỳ thi có thể liên quan đến căng thẳng, lo âu, thiếu ngủ hoặc áp lực học tập; ngoài ra, việc tập trung nhìn sách/điện thoại lâu gây mỏi và rối loạn điều tiết mắt cũng có thể khởi phát đau đầu, đôi khi kèm buồn nôn như trong cơn đau nửa đầu Migraine. Bạn nên giúp trẻ ngủ đủ, nghỉ mắt sau mỗi 30–60 phút, nhìn xa, ăn uống đầy đủ và giảm áp lực; không nên tự ý dùng thuốc. Nếu triệu chứng lặp lại, kéo dài, tăng dần hoặc đau dữ dội, nôn nhiều, sốt, sợ ánh sáng, nhìn mờ, yếu liệt, co giật hay đánh thức trẻ khi ngủ, cần đưa trẻ khám bác sĩ Nhi hoặc chuyên khoa Thần kinh để tìm nguyên nhân và điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm hay đau đầu, có lúc đau nửa đầu và buồn nôn khi xem điện thoại. Vậy bác sĩ cho em hỏi đau nửa đầu kèm buồn nôn khi xem điện thoại là do đâu? Điều trị thế nào? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nĐau nửa đầu, buồn nôn thường là dấu hiệu của cơn đau đầu Migraine, thường khởi phát liên quan căng thẳng, stress hoặc căng thẳng do điều tiết mắt quá độ,.... tuy nhiên cần thêm các thông tin khác để có thể kết luận nguyên nhân đau đầu bao gồm đặc điểm cơn đau, thời gian đau, yếu tố tăng giảm và triệu chứng đi kèm, cũng như khám đánh giá các dấu thần kinh khu trú.\nBạn có thể tập điều tiết mắt: khi dùng điện thoại hoặc máy tính, khoảng 30 - 60 phút, bạn nên tập nhìn xa để rèn điều tiết mắt, ngủ đủ giấc, tránh căng thẳng. Trường hợp bạn đã thực hiện các bước trên nhưng vẫn còn đau đầu thì nên sắp xếp khám chuyên khoa Thần Kinh để được khám và tư vấn điều trị theo chuyên khoa.\nTrân trọng!",
+            "score": 0.6434713006019592,
+            "id": "vietnamese_medical_qa_308"
+        },
+        {
+            "text": "Câu hỏi: Em bị đau đầu, chóng mặt, buồn nôn, nôn dữ dội, rất mệt. Em đã đau 10 năm nay, chẩn đoán chữa trị theo phác đồ đau nửa đầu 4 năm nay. Hiện tại, bệnh của em có dấu hiệu tăng. Các cơn đau xuất hiện gần nhau, thường từ 9h sáng tới đỉnh điểm 17h tới 21h thì bớt. Khi đau rất sợ ánh sáng và tiếng ồn, sợ nhất là phải thay đổi tư thế. Kết quả chụp MRI mới đây nhất không phát hiện bất thường ở não. Vậy bác sĩ cho em hỏiđau đầu kèm buồn nôn kéo dài là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn có tình trạng đau đầu, chóng mặt, buồn nôn, sợ ánh sáng thì nhiều khả năng bạn bịbệnh đau nửa đầu Migraine. Trong thời gian 4 năm nay, bạn điều trị theo phác đồ nhưng bác sĩ chưa rõ phác đồ điều trị bệnh của bạn thế nào (có theo đúng phác đồ điều trị Migraine không, có hạn chế các thức ăn đồ uống theo bác sĩ căn dặn không, đã điều trị các thuốc Triptan, kháng thể đơn dòng hay chưa) nên bác sĩ chưa thể tư vấn chính xác cho bạn được. Nếu có điều kiện, bạn nên đến bệnh viện nơi có bác sĩ chuyên khoa Thần kinh để được thăm khám và điều trị. Vì tình trạng bạn bị cũng tương đối khá lâu, nhiều khả năng bạn phải cần điều trị dự phòng để hạn chế tần suất xuất hiện cơn, mức độ cơn đau.",
+            "score": 0.6218227744102478,
+            "id": "medical_vietnamese_qa_8423"
+        },
+        {
+            "text": "Câu hỏi: Đau nửa đầu kèm chóng mặt, buồn nôn khi ngồi dậy có sao không?\nTrả lời: Bệnh lý đau nửa đầu hay còn gọi là bệnh đau nửa đầu Migraine sẽ khiến người bệnh thấy đau nửa đầu không cố định hoặc đôi lúc đau cả hai bên, kèm theo các triệu chứng mạch đập. Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc đau dữ dội, cơn đau tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, sợ ánh sáng, sợ tiếng động, căng thẳng.Đau nửa đầu có thể là dấu hiệu cảnh báo bệnh nhân đang gặp các vấn đề về hệ thần kinh, tuần hoàn máu, não bộ. Tình trạng này xảy ra thường xuyên và kéo dài không chỉ ảnh hưởng đến sức khỏe người bệnh mà còn dẫn đến các biến chứng nguy hiểm.Vì vậy, người bệnh nên đến bác sĩ để được khám, tư vấn điều trị đúng cách.",
+            "score": 0.5937886238098145,
+            "id": "vietnamese_healthcare_2859"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 3,5 tuổi. Bé có dấu hiệu nhức đầu và buồn nôn, lúc nào bé bệnh là bé có triệu chứng này. Nhờ bác sĩ tư vấntrẻ bị nhức đầu, buồn nôn có nguy hiểm khôngạ? Em cảm ơn. Nguyễn Thị Diễm Trang(1990) Trả lời Được giải đáp bởiBác sĩ Nguyễn Hữu Nam -Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn ở lứa tuổi đi nhà trẻ và hay đi các khu vui chơi nên rất dễ bị lây bệnh, đặc biệt các bệnh lây qua đường hô hấp và tiêu hóa. Bé thường có biểu hiện đau đầu, buồn nôn khi khởi bệnh là tình trạng hay gặp do cơ thể phản ứng lại với các tác nhân bên ngoài, hay gặp nhất là do nhiễm siêu vi. Lúc này, ngoài dấu hiệu này, bé còn có thể cảm giác mệt, đau mỏi toàn thân, biếng ăn,... Tuy nhiên, đau đầu nhiều và buồn nôn còn có thể là triệu chứng của hệ thần kinh do nhiễm trùng hoặc khối u,... Do đó, nếu bạn thấy tình trạng lặp lại và còn lo lắng thì nên cho bé đi khám để bác sĩ tư vấn trực tiếp cho bạn nhé.",
+            "score": 0.5911701917648315,
+            "id": "medical_vietnamese_qa_6721"
+        },
+        {
+            "text": "Câu hỏi: Em năm nay 19 tuổi, trong 1 đến 1 tháng rưỡi gần đây em thường xuyên bị đau đầu, buồn nôn nhưng không nôn được. 1 ngày đau ít nhất 1 lần mà 1 lần có thể kéo dài đến mấy tiếng. Em có uống thuốc giảm đau nhưng không hề thấy đỡ. Vậy bác sĩ cho em hỏiđau đầu kèm buồn nôn có nguy cơ mắc bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Đau đầu là triệu chứng của nhiều bệnh lý khác nhau, đôi khi đau đầu có thể có nguyên nhân từ những tổn thương thực thể tại não, bệnh lý mạch máu não, bệnh lý tai mũi họng, mắt, răng hàm mặt. Đau đầu cũng có thể gặp trong những trường hợp do stress, căng thẳng kéo dài, lo âu thường xuyên,... Đau đầu cũng có thể gặp trong sốt vi rút. Triệu chứng đau đầu như bạn mô tả thì không nên tự mua thuốc điều trị triệu chứng mà cần phải thăm khám với bác sĩ chuyên khoa Thần kinh để chẩn đoán tìm nguyên nhân điều trị.",
+            "score": 0.5702706575393677,
+            "id": "medical_vietnamese_qa_9252"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

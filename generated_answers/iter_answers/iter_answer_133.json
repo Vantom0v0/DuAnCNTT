@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Em vừa sinh em bé đầu lòng được 27 ngày. Em đọc trên các diễn đàn Mẹ và Bé thấy có rất nhiều chị bổ sung vitamin D3 cho trẻ. Nhưng vì con đầu lòng nên em khá lo lắng và không dám tự ý bổ sung cho trẻ. Hiện tại bé bú sữa mẹ hoàn toàn và trộm vía bé khá ngoan. Bác sĩ cho em hỏikhi nào cần bổ sung vitamin D3 cho trẻ?Em có thể bổ sung D3 cho bé hay không ạ? Có những loại vitamin nào nữa cần thiết cho sự phát triển của trẻ mà em cần phải bổ sung bằng đường uống để tốt cho con ạ? Vì bé đầu lòng nên em khá lo lắng mong bác sĩ giúp đỡ ạ. Em cảm ơn bác sĩ. Thi Thi(1992) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Nam Phong- Bác sĩ Nhi - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Việc bổ sung bao nhiêu vitamin D cho trẻ sơ sinh phụ thuộc vào chế độ cho bé bú sữa mẹ, uống sữa pha theo công thức hay uống các loại sữa khác như sữa bò, sữa dê, cụ thể như sau: Nếu người mẹ đang cho con bú hoặc chỉ cho con bú một phần, hãy bổ sung cho con 400 đơn vị vitamin D quốc tế (400 IU) mỗi ngày, bắt đầu ngay sau khi sinh. Sau đó, tiếp tục cho bé uống vitamin D cho đến giai đoạn cai sữa. Từ lúc này, nên bổ sung cho bé khoảng 1 lít sữa công thức mỗi ngày hoặc sữa bò nguyên chất (với các bé sau 12 tháng tuổi). Nếu trẻ đang uống loại sữa có tăng cường vitamin D nhưng không thể dùng đủ 1 lít mỗi ngày, phụ huynh nên bổ sung cho bé 400 IU vitamin D dạng lỏng đều đặn ngày, bắt đầu trong vài ngày đầu sau khi sinh. Sau đó tiếp tục bổ sung vitamin D cho trẻ sơ sinh đến khi trẻ có thể uống được khoảng 1 lít sữa mỗi ngày.",
+    "answer": "Bé 27 ngày tuổi bú mẹ hoàn toàn nên được bổ sung vitamin D3 từ vài ngày sau sinh, với liều thông thường **400 IU mỗi ngày** để phòng thiếu vitamin D; vì vậy mẹ có thể bắt đầu cho bé dùng ngay, theo đúng hướng dẫn trên sản phẩm. Vitamin D3 đơn thuần hoặc phối hợp D3K2 đều có thể sử dụng, nhưng **không nhất thiết phải bổ sung K2 nếu chưa có chỉ định** và không nên dùng đồng thời nhiều sản phẩm chứa vitamin D để tránh quá liều. Trẻ khỏe mạnh thường chưa cần bổ sung thêm vitamin nào khác bằng đường uống; nếu bé suy dinh dưỡng, còi xương, kém hấp thu hoặc có bệnh lý đặc biệt thì cần được bác sĩ khám và điều chỉnh liều riêng.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏitrẻ sơ sinh nên bổ sung Vitamin D3 hay kết hợp D3K2ạ? Việc bổ sung này là phải do bác sĩ chỉ định thì bé mới được dùng hay em tự mua về dùng cho bé được ạ? Em cảm ơn bác sĩ Nguyễn Thị Thuỷ(1995) Trả lời Được giải đáp bởiBác sĩ Nguyễn Thái Ngọc Châu -Bác sĩ Nhi sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ sơ sinh có thể bổ sung vitamin D3 hay D3K2 đều được. Bạn có thể tự mua ở ngoài và cho bé uống mỗi ngày theo liều cơ bản 400 - 600 UI/ ngày. Nếu bé có nhu cầu cao hơn như tình trạng suy dinh dưỡng, còi xương hay các bệnh lý thiếu vitamin D3 khác thì bạn cần tham khảo ý kiến bác sĩ để điều chỉnh liều thích hợp cho bé nhé.",
+            "score": 0.7796093821525574,
+            "id": "medical_vietnamese_qa_6246"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏitrẻ 28 ngày tuổi sử dụng vitamin D3 được không?Em có cần hỏi ý kiến bác sĩ về liều dùng cho bé không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ bú mẹ hoàn toàn hoặc trẻ bú mẹ một phần (uống kèm sữa công thức) cần được bổ sung vitamin D3 liều 400 IU/ ngày, bắt đầu vài ngày sau khi sinh. Nếu bạn còn thắc mắc, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.7768680453300476,
+            "id": "medical_vietnamese_qa_4781"
+        },
+        {
+            "text": "Câu hỏi: Hiện tại, con của em là bé gái được 43 tuần tuổi ạ. Bé đang được cho uống sữa Aptamil của New ZeaLand. Ngày bé uống được khoảng 700ml sữa. Xin hỏi bác sĩ không biết như vậycó cần bổ sung vitamin D3 cho trẻ không? Rất mong nhận được sự tư vấn của các bác sĩ ạ. Phạm Minh Viên(1992) Trả lời Được giải đáp bởiBác sĩ Nguyễn Thái Ngọc Châu -Bác sĩ Nhi sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Bé đang uống sữa công thức vẫn cần bổ sung 400 UI Vitamin D3 mỗi ngày thông qua chế độ ăn uống hoặc thực phẩm bổ sung bạn nhé. Trẻ em mắc một số bệnh nhất định, như kém hấp thu chất béo và những trẻ cần sử dụng thuốc điều trị lâu dài có thể cần sử dụng liều vitamin D cao hơn vì tăng nguy cơ thiếu hụt. Không có bằng chứng nào cho thấy rằng bổ sung 400 IU vitamin D hàng ngày là độc hại. Tuy nhiên, bạn cần sử dụng cho bé theo đúng hướng dẫn của bác sĩ. Bạn có thể đưa bé đến bệnh viện Vinmec để bác sĩ chuyên về dinh dưỡng tư vấn cụ thể nhé.",
+            "score": 0.7456177473068237,
+            "id": "medical_vietnamese_qa_6511"
+        },
+        {
+            "text": "Câu hỏi: Có thể bổ sung vitamin D3 cho trẻ với liều 400 IU/ngày không?\nTrả lời: Sau khi sinh, trẻ sơ sinh có thể lấy vitamin D3 thông qua sữa mẹ. Ngoài ra, để phòng trừ trường hợp thiếu vitamin D3 ở trẻ, chị có thể bổ sung thêm cho bé thông qua thực phẩm bổ sung với liều 400 IU mỗi ngày với trẻ bú mẹ hoàn toàn chị nhé!",
+            "score": 0.7371819615364075,
+            "id": "vietnamese_healthcare_5821"
+        },
+        {
+            "text": "Câu hỏi: Con em mới sinh được 12 ngày. Em muốn bổ sung vitamin k2d3 cho bé. Bác sĩ cho em hỏibổ sung vitamin k2d3 cho trẻ 12 ngày tuổi có được không?Em cảm ơn bác bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ sau sinh 3 ngày là mẹ đã có thể bắt đầu bổ sung vitamin D3 cho trẻ. Thời điểm vàng để cho bé uống vitamin D3 chính khoảng thời gian là từ 9 giờ sáng đến khoảng 11 giờ trưa. Bạn có thể cho bé bổ sung với liều 200UI/ngày.",
+            "score": 0.7363902926445007,
+            "id": "medical_vietnamese_qa_5835"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

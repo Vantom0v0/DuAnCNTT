@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ,\nGần đây, cháu thấy tóc rụng nhiều, mỗi lần cháu gội đầu hay ngủ dậy đều thấy tóc rụng, chỉ cần cháu vuốt nhẹ thôi tóc cũng thấy rụng thậm chí thỉnh thoảng trong ngày cháu đang ngồi học cũng thấy tóc rụng. Tình trạng này diễn ra vài tháng. Cháu thấy khá lo lắng và thiếu tự tin khi tóc cháu cứ rụng nhiều thế. Vậy bác sĩ cho cháu hỏi nam giới rụng tóc nhiều nguyên nhân là gì? Cháu cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn cần cung cấp thêm thông tin ngoài rụng tóc thì bạn có triệu chứng gì khác ở da đầu như đóng mài, ngứa da đầu, da đầu nổi nốt đỏ, mảng đỏ, chân tóc bị đứt ngang, mất hay còn nang tóc, bạn rụng tóc vùng nào trên đầu, gia đình bạn có tiền sử bị hói đầu không? Nguyên nhân gây rụng tóc có thể do chế độ ăn kiêng, không cung cấp đủ chất dinh dưỡng cho tóc. Bạn vui lòng cung cấp thêm thông tin để có thể tư vấn tốt hơn.\nTrân trọng!",
+    "answer": "Ở nam giới, rụng tóc nhiều có thể do tóc không được cung cấp đủ dưỡng chất; các bệnh lý da đầu; căng thẳng hoặc chấn thương; và các bệnh lý toàn thân như bệnh tuyến giáp, tuyến yên, thiếu máu. Ngoài ra còn có rụng tóc không sẹo do androgen, bệnh giang mai, rối loạn nội tiết hoặc tật nhổ tóc. Trường hợp của cháu 29 tuổi, da đầu nhiều dầu và tóc thường bết, bằng chứng hiện có chưa đủ để xác định nguyên nhân cụ thể; cháu nên được thăm khám để đánh giá tình trạng da đầu và tìm nguyên nhân phù hợp.",
+    "evidence": [
+        "Ở nam giới có mấy nhóm nguyên nhân chính: Tóc không được cung cấp đủ dưỡng chất.",
+        "Các bệnh lý liên quan da đầu.",
+        "Do căng thẳng, chấn thương.",
+        "Các bệnh lý toàn thân liên quan như bệnh lý tuyến giáp, bệnh lý tuyến yên, thiếu máu,...",
+        "Rụng tóc không sẹo: Rụng tóc do androgen, rụng tóc do bệnh giang mai, do rối loạn nội tiết, tật nhổ tóc,...",
+        "Cháu mới 29 tuổi thôi và da đầu cháu nhiều dầu, mồ hôi dầu nên tóc hay bết."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nBác sĩ ơi cháu bị rụng tóc nhiều lắm. Tóc cháu giờ mỏng lắm rồi, trơ da đầu luôn rồi, hói nặng rồi bác sĩ ạ. Đầu cháu giờ chỉ lưa thưa lớp tóc mỏng. Cháu mới 29 tuổi thôi và da đầu cháu nhiều dầu, mồ hôi dầu nên tóc hay bết. Cháu phải uống thuốc gì để tóc móc lại như cũ ạ.\nCảm ơn bác sĩ\nTrả lời: Chào bạn,\nCó nhiều nguyên nhân gây ra rụng tóc:\n- Rụng tóc do nguồn nước bẩn, môi trường ô nhiễm, tiếp xúc nhiều với hóa chất\n- Rụng tóc do thiếu sắt, kẽm.\n- Rụng tóc do dùng các loại thuốc chữa bệnh mà gây tác dụng phụ.\n- Rụng tóc vì đang mắc bệnh ung thư phải hóa , xạ trị.\n- Nếu bạn đang bị bệnh tiểu đường, rối loạn nội tiết tố, mất cân bằng tuyến giáp cũng gây nên bệnh rụng tóc.\nĐiều trị rụng tóc khó có thể điều trị tận gốc. Trước tiên bạn cần xác định được chính xác nguyên nhân gây ra tình trạng rụng tóc của bản thân nhằm có hướng điều trị đúng và hiệu quả. \nNgoài ra có thể hạn chế tình trạng rụng tóc bằng cách : \n- Gội đầu đúng cách. Khi gọi đầu bạn nên chọn các loại dầu gội phù hợp với mái tóc. Mát xa và gãi nhẹ nhàng da đầu để không bị làm bong tróc chân tóc. Cũng không nên lau chà tóc mạnh tay với khăn lau vì sẽ làm ảnh hưởng đến lớp protein bao bọc quanh tóc làm tóc yếu hơn.\n- Chế độ ăn uống cũng cần phải khoa học điều độ thì hiện tượng tóc rụng cũng có thể được khắc phục. Bạn nên bổ sung các loại thực phẩm giàu sắt và kẽm là những khoáng chất có lợi cho sức khỏe. Các thực phẩm chứa nhiều sắt là các loại thịt đỏ, cá, rau cải xoong, cải xoắn, và các loại ngũ cốc\n-  Bổ xung Protein để hỗ trợ tái tạo một mái tóc bóng mượt và khỏe mạnh. Protein có nhiều trong thịt gia cầm, trứng và các sản phẩm từ trứng, sữa và các loại đậu.\n- Bổ xung vitamin C: để cơ thể hấp thụ sắt tốt hơn. Các thực phẩm chứa nhiều vitamin C gồm các loại trái cây có vị chua, rau lá xanh, cà chua… Rau củ và trái cây luôn tốt cho sức khỏe và mái tóc của bạn\n- Axit béo Omega-3: Sẽ đóng vai trò duy trì độ ẩm và hạn chế sự gãy rụng cho tóc. Axit béo Omega 3 có nhiều trong các loại cá ngừ, cá hồi, cá thu ..\n- Vitamin B sẽ giúp tóc khỏe mạnh hơn. Vitamin B có nhiều trong men bia, lúa mì, đậu lăng, hạt hướng dương, đậu nành…\nCần hạn chế căng thẳng, stress.Khi tinh thần mệt mỏi , mất ngủ não không được nghỉ ngơi sẽ làm cho các tế bào không được phục hồi , cơ thể không hấp thụ tốt các chất dinh dưỡng khiến mái tóc bị suy yếu và gãy rụng. \nNgoài ra bạn cũng nên đi khám chuyên khoa da liễu để các bác sĩ kê đơn thuốc, loại dầu gội phù hợp với da đầu cảu mình sẽ giúp điều trị triệt để hơn.\nThân mến!",
+                "score": 0.6058962345123291,
+                "id": "vietnamese_medical_qa_6825",
+                "rerank_score": 0.999893069267273
+            },
+            {
+                "text": "Câu hỏi: Mấy ngày gần đây, tóc của em tự nhiên rụng nhiều bất thường. Em hơi tức ngực, khó thở, tim đập hơi nhanh. Vậy bác sĩ cho em hỏirụng tóc nhiều kèm khó thở là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Đặng Hữu Dương(1984) Trả lời Được giải đáp bởiTiến sĩ, Bác sĩ Nguyễn Hồng Sơn -Khoa Khám bệnh, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Rụng tóccó thể do nhiều nguyên nhân gây ra. Nếu rụng tóc sinh lý thì không có gì đáng lo ngại. Những sợi tóc già yếu rụng đi sẽ thay bằng những sợi tóc mới khỏe hơn và không ảnh hưởng đến độ dày của mái tóc. Nếu rụng tóc do bệnh lý thì tóc sẽ rụng rất nhiều. Người bị rụng tóc sẽ cảm nhận rất rõ về việc mái tóc của mình trở nên mỏng hơn trong thời gian ngắn. Ở nam giới có mấy nhóm nguyên nhân chính: Tóc không được cung cấp đủ dưỡng chất. Các bệnh lý liên quan da đầu. Do căng thẳng, chấn thương. Các bệnh lý toàn thân liên quan như bệnh lý tuyến giáp, bệnh lý tuyến yên, thiếu máu,... Nếu rụng tóc nhiều bất thường bạn cần đi khám với bác sĩ chuyên khoa Da liễu để chẩn đoán nguyên nhân mới điều trị triệt để được. Triệu chứngtức ngực, khó thở,tim đập nhanhở tuổi này cần loại trừ các bệnh lý tuyến giáp và nếu xuất hiện thường xuyên thì bạn cần phải đi khám ngay với bác sĩ chuyên khoa Nội tiết hay đa khoa để chẩn đoán tìm nguyên nhân.",
+                "score": 0.5948695540428162,
+                "id": "medical_vietnamese_qa_9067",
+                "rerank_score": 0.9998282194137573
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi là tóc em bị rụng nhiều, chắc hơn 100 sợi/ngày. Vào những ngày tóc dơ, vuốt tóc sẽ thấy tóc rụng, ngủ dậy tóc rụng nhiều trên giường, khi gội đầu tóc cũng rụng nhiều. Sẽ đỡ rụng hơn nếu tóc đang sạch. Có tóc con mọc dựng lên. Vậy tóc em có phải là rụng sinh lý hay là do bị bệnh về da đầu ạ? Xin cảm ơn bác sĩ.\nTrả lời: Chào bạn. Nguyên nhân gây nên rụng tóc có nhiều nguyên nhân như: Do dầu gội đầu, bệnh lý nội tiết tuyến giáp, bệnh da liễu. Cho nên trước hết bạn thử thay đổi dầu gội đầu nếu vẫn còn rụng nhiều thì phải khám chuyên khoa da liễu và nội tiết để tìm nguyên nhân gây rụng tóc kịp thời tư vấn hướng theo dõi điều trị bạn nhé.",
+                "score": 0.6180049777030945,
+                "id": "vietnamese_medical_qa_3494",
+                "rerank_score": 0.9998266100883484
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nDạo gần đây, tóc của cháu bị xơ và rụng nhiều, ngủ dậy tóc rơi nhiều trên gối và chỉ cần vuốt nhẹ tóc là tóc sẽ bị rụng, cháu cảm thấy tóc đã thưa đi nhiều, kèm theo đó là có xuất hiện thêm gàu trên da đầu. Trước đây, tóc của cháu khá chắc khỏe vì không mấy khi bị rụng tóc. Gần đây, cháu có nhuộm tóc nhưng tóc vẫn chắc khỏe ổn định cho đến khoảng 2 tuần sau khi nhuộm thì xuất hiện tình trạng tóc bị xơ và bắt đầu rụng nhiều. Vậy bác sĩ cho cháu hỏi nguyên nhân tóc xơ rụng nhiều? Cách điều trị như thế nào thưa bác sĩ? Cháu cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBệnh rụng tóc được chia làm 2 nhóm: Rụng tóc có sẹo và rụng tóc không sẹo.\nRụng tóc có sẹo: Nguyên nhân có thể do bệnh tự miễn (như lupus ban đỏ, lichen phẳng), do nhiễm nấm, bệnh viêm nang lông Decalvans, tổn thương do các yếu tố lý hóa học, bỏng và rụng tóc do chấn thương khác,...\nRụng tóc không sẹo: Rụng tóc do androgen, rụng tóc do bệnh giang mai, do rối loạn nội tiết, tật nhổ tóc,...\nVì thế, để xác định được nguyên nhân và thể bệnh, bạn cần đi khám và làm xét nghiệm để chẩn đoán cụ thể.\nTrân trọng!",
+                "score": 0.578027606010437,
+                "id": "vietnamese_medical_qa_1412",
+                "rerank_score": 0.9997305274009705
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Xin chào bác sĩ, tôi là nữ, năm nay 24 tuổi. Khoảng 1 tuần gần đây tự nhiên tôi bị rụng tóc rất nhiều. Sau khi gội đầu, ngủ dậy hay chỉ vuốt tóc tóc cũng bị rụng rất nhiều. Mỗi lần rụng cả nắm luôn ạ. Tôi muốn xin được tư vấn về nguyên nhân và cách điều trị ạ. Xin cảm ơn bác sĩ rất nhiều ạ.\nChào bác sĩ. Cháu bị rụng tóc nhiều cứ chải là rụng cào nhẹ cũng rụng. Bác sĩ có thể cho cháu biết cháu làm thế nào để khắc phục được không ạ? Cảm ơn bác sĩ.\nTrả lời: Chào bạn! Rụng tóc có liên quan đến nhiều yếu tố như: Dinh dưỡng, thay đổi hormone, di truyền, bệnh lý da đầu... Để có câu trả lời đầy đủ về nguyên nhân và cách điều trị rụng tóc hiệu quả bạn nên khám chuyên khoa Da liễu nhé.",
+                "score": 0.6899449825286865,
+                "id": "vietnamese_medical_qa_4343",
+                "rerank_score": 0.9996504783630371
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

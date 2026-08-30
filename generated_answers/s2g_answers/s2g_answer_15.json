@@ -1,0 +1,115 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?",
+    "ground_truth": "Đau đầu do rất nhiều nguyên nhân, có thể do căng thẳng stress, lo lắng việc gì đó hoặc do thiếu máu, bệnh lý vùng mắt và tai. . . Vì vậy em cần khám bác sĩ chuyên khoa Thần kinh để tìm nguyên nhân đau đầu và điều trị em nhé.",
+    "answer": "Đau đầu kèm ngủ mơ và thức dậy khó chịu có thể liên quan đến rối loạn giấc ngủ, căng thẳng hoặc stress; mất ngủ kéo dài cũng có thể gây mệt mỏi, buồn nôn và đau đầu. Ở người trẻ, nếu đau đầu kéo dài nhưng không có dấu hiệu nguy hiểm và không thay đổi tính chất, nguyên nhân thường gặp là đau đầu do căng cơ hoặc migraine. Tuy nhiên, thông tin hiện có chưa đủ để xác định bệnh lý hay nguyên nhân cụ thể, vì vậy bạn nên đi khám để được thăm khám, chẩn đoán và điều trị phù hợp.",
+    "evidence": [
+        "Trả lời: Chào bạn,\nVới câu hỏi \"Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?\", bác sĩ xin giải đáp như sau:\nĐau đầu xảy ra ở người trẻ, nếu kéo dài, không có các yếu tố gợi ý nguy hiểm và và không thay đổi tính chất thì thường gặp nhất là đau đầu căng cơ và đau đầu Migraine.",
+        "Tuy nhiên, thông tin bạn cung cấp không đủ để bác sĩ xác định loại đau đầu và nguyên nhân đau đầu.",
+        "Bạn nên đi khám để bác sĩ thăm khám, chẩn đoán và điều trị phù hợp nhé.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Stress, căng thẳng có thể gây rađau đầu, hoặc là yếu tố khởi phát cho một loại đau đầu có sẵn.",
+        "Bị mất ngủ quá lâu hoặc thường xuyên sẽ khiến cơ thể mệt mỏi, dẫn đến triệu chứng buồn nôn, đau đầu.",
+        "Một số yếu tố có thể gây rối loạn giấc ngủ như căng thẳng tâm lý, lo lắng, ngủ không đúng giờ, sử dụng chất kích thích như cà phê, rượu bia, thay đổi múi giờ, thay đổi môi trường sống, đau mạn tính, .",
+        "Như đã nhắc ở trên, mất ngủ nhiều gây đau đầu và ngược lại."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ! Em năm nay 30 tuổi, vài năm nay em hay bị đau đầu, đêm ngủ hay mơ, thức dậy rất khó chịu. Bác sĩ cho em hỏi đó là dấu hiệu của bệnh lý gì ạ?\nTrả lời: Chào bạn,\nVới câu hỏi \"Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?\", bác sĩ xin giải đáp như sau:\nĐau đầu xảy ra ở người trẻ, nếu kéo dài, không có các yếu tố gợi ý nguy hiểm và và không thay đổi tính chất thì thường gặp nhất là đau đầu căng cơ và đau đầu Migraine. Tuy nhiên, thông tin bạn cung cấp không đủ để bác sĩ xác định loại đau đầu và nguyên nhân đau đầu. Bạn nên đi khám để bác sĩ thăm khám, chẩn đoán và điều trị phù hợp nhé.\nTrân trọng,",
+                "score": 0.7612993121147156,
+                "id": "vietnamese_medical_qa_4088",
+                "rerank_score": 0.999940037727356
+            },
+            {
+                "text": "Câu hỏi: Cháu năm nay 18 tuổi là nữ. Hiện tại, cháu đang học rất nhiều và có rất nhiều áp lực nên hơn 2 tuần nay cháu bị nặng đầu, khó chịu ở phần đầu và cứ có cảm giác nó lan ra chỗ này chỗ kia. Cháu cảm thấy rất khó chịu và ảnh hưởng đến việc học. Vậy bác sĩ cho cháu hỏinặng đầu, khó chịu ở phần đầu là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Stress, căng thẳng có thể gây rađau đầu, hoặc là yếu tố khởi phát cho một loại đau đầu có sẵn. Bạn bị nặng đầu, khó chịu vùng đầu, những triệu chứng mà bạn mô tả không đủ thông tin để bác sĩ kết luận loại đau đầu của bạn là gì. Vì vậy, bạn nên đi khám để được chẩn đoán và điều trị phù hợp.",
+                "score": 0.5785920023918152,
+                "id": "medical_vietnamese_qa_8563",
+                "rerank_score": 0.7981559038162231
+            },
+            {
+                "text": "Câu hỏi: Khó ngủ kèm theo triệu chứng buồn nôn, đau đầu là bệnh lý gì?\nTrả lời: Triệu chứng khó ngủ do rất nhiều nguyên nhân gây nên. Bị mất ngủ quá lâu hoặc thường xuyên sẽ khiến cơ thể mệt mỏi, dẫn đến triệu chứng buồn nôn, đau đầu.",
+                "score": 0.701765775680542,
+                "id": "vietnamese_healthcare_8160",
+                "rerank_score": 0.539649486541748
+            },
+            {
+                "text": "Câu hỏi: Cảm giác khó chịu trong người là như thế nào?\nTrả lời: 1. Cảm giác khó chịu trong người là như thế nào?\nCảm thấy khó chịu trong người nhìn chung là cảm giác không khỏe, là một triệu chứng chứ không phải bệnh. Mỗi người bệnh có xu hướng trải nghiệm và mô tả khó chịu theo những cách khác nhau, thường liên quan đến các yếu tố như không thoải mái, đau đớn, phiền muộn, mệt mỏi, bệnh tật. Những triệu chứng này có thể xuất hiện đột ngột hoặc xuất hiện rất chậm, hoặc kéo dài ở những đối tượng khác nhau. Hầu hết tất cả mọi người đều trải qua cảm giác mệt mỏi và khó chịu trong người, có thể xuất hiện khi mất ngủ , ăn uống kém, làm việc quá sức hoặc bị cảm cúm . Cảm giác mệt mỏi kéo dài khiến cơ thể mất năng lượng, ảnh hưởng đến chất lượng cuộc sống. Các nguyên nhân gây ra triệu chứng khó chịu có thể kể đến như: Thiếu máu: việc thiếu máu sẽ khiến quá trình trao đổi chất và cung cấp oxy tới các tế bào bị suy giảm, khiến cơ thể luôn trong trạng thái mệt mỏi, chóng mặt, uể oải, kiệt sức và thiếu năng lượng. Ngoài ra thiếu máu còn có thể dẫn đến các triệu chứng như rụng tóc, ăn không ngon, đau bụng, ù tai , lạnh tay chân và tim đập bất thường Bệnh đái tháo đường : khiến người bệnh thường mệt mỏi, khát nước, tiểu tiện thường xuyên, đói, sụt cân và cáu gắt, trong đó mệt mỏi là triệu chứng đầu tiên và kéo dài nhất Bệnh tuyến giáp: khi bị bệnh này các hormon tuyến giáp hoạt động không hiệu quả làm rối loạn quá trình chuyển hóa khiến cơ thể mệt mỏi Suy tuyến thượng thận : cũng là tình trạng khiến người bệnh mệt mỏi, sút cân, đau đầu, đau bụng, tiêu chảy và tăng sắc tố da Bệnh trầm cảm : là bệnh lý rối loạn tâm trạng gây cho người bệnh cảm giác buồn bực, mỏi mệt, suy nghĩ tiêu cực, nếu không được điều trị mà để kéo dài có thể để lại các hậu quả nghiêm trọng. Hội chứng mệt mỏi mãn tính: là một dạng bệnh lý gây mệt mỏi kéo dài ở nhiều mức độ khác nhau khiến người bệnh luôn trong trạng thái mệt mỏi mà không hề cải thiện dù đã được nghỉ ngơi Thiếu vitamin B12 : là vitamin đóng vai trò quan trọng trong sức khỏe não bộ, quá trình trao đổi chất và hệ miễn dịch. Việc thiếu hụt B12 khiến các cơ quan trong cơ thể hoạt động không hiệu quả, cơ thể rơi vào tình trạng mệt mỏi, ủ rũ. Do bệnh về đường hô hấp: các bệnh như viêm phổi, viêm phế quản , viêm đường hô hấp cấp cũng khiến cho người bệnh cảm thấy mệt mỏi thường xuyên nên đừng chủ quan khi có các triệu chứng mệt mỏi kéo dài.",
+                "score": 0.6118952035903931,
+                "id": "vietnamese_healthcare_65560",
+                "rerank_score": 0.3726425766944885
+            },
+            {
+                "text": "Câu hỏi: Khó đi vào giấc ngủ là dấu hiệu bệnh lý gì?\nTrả lời: Khó đi vào giấc ngủ, ngủ ít là triệu chứng của rối loạn giấc ngủ. Một số yếu tố có thể gây rối loạn giấc ngủ như căng thẳng tâm lý, lo lắng, ngủ không đúng giờ, sử dụng chất kích thích như cà phê, rượu bia, thay đổi múi giờ, thay đổi môi trường sống, đau mạn tính, . . . Tuy nhiên trong nhiều trường hợp người bệnh có thể rối loạn giấc ngủ mà không có yếu tố liên quan nào. Nếu em thường xuyên ngủ kém, nên đi khám bác sĩ để được tư vấn kỹ hơn và dùng thuốc phù hợp.",
+                "score": 0.6062643527984619,
+                "id": "vietnamese_healthcare_2646",
+                "rerank_score": 0.18480297923088074
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ! Em năm nay 30 tuổi, vài năm nay em hay bị đau đầu, đêm ngủ hay mơ, thức dậy rất khó chịu. Bác sĩ cho em hỏi đó là dấu hiệu của bệnh lý gì ạ?\nTrả lời: Chào bạn,\nVới câu hỏi \"Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?\", bác sĩ xin giải đáp như sau:\nĐau đầu xảy ra ở người trẻ, nếu kéo dài, không có các yếu tố gợi ý nguy hiểm và và không thay đổi tính chất thì thường gặp nhất là đau đầu căng cơ và đau đầu Migraine. Tuy nhiên, thông tin bạn cung cấp không đủ để bác sĩ xác định loại đau đầu và nguyên nhân đau đầu. Bạn nên đi khám để bác sĩ thăm khám, chẩn đoán và điều trị phù hợp nhé.\nTrân trọng,",
+                "score": 0.724104642868042,
+                "id": "vietnamese_medical_qa_4088",
+                "rerank_score": 0.999940037727356
+            },
+            {
+                "text": "Câu hỏi: Đau đầu, suy nghĩ nhiều, lo âu là dấu hiệu của bệnh gì?\nTrả lời: Theo như triệu chứng em mô tả thì tôi chẩn đoán đây là bệnh lý rối loạn lo âu - đau đầu - căng cơ. Đây là một trong những dạng rối loạn tâm lý phổ biến. Người bệnh thường có cảm giác lo lắng quá mức đối với một tình huống hoặc sự việc, thậm chí có thể lo lắng rất vô lý. Nếu tình trạng này kéo dài và lặp lại nhiều lần có thể ảnh hưởng đến cuộc sống của bệnh nhân. Do đó, để đảm bảo sức khỏe cũng như chất lượng cuộc sống thì em nên đến khám chuyên khoa sức khỏe tâm thần và Nội Thần kinh để có hướng điều trị cụ thể.",
+                "score": 0.571942925453186,
+                "id": "vietnamese_healthcare_7149",
+                "rerank_score": 0.544772744178772
+            },
+            {
+                "text": "Câu hỏi: Khó ngủ kèm theo triệu chứng buồn nôn, đau đầu là bệnh lý gì?\nTrả lời: Triệu chứng khó ngủ do rất nhiều nguyên nhân gây nên. Bị mất ngủ quá lâu hoặc thường xuyên sẽ khiến cơ thể mệt mỏi, dẫn đến triệu chứng buồn nôn, đau đầu.",
+                "score": 0.6511160731315613,
+                "id": "vietnamese_healthcare_8160",
+                "rerank_score": 0.539649486541748
+            },
+            {
+                "text": "Câu hỏi: Mất ngủ, đêm thức dậy nhiều lần, ban ngày nhức đầu nhẹ, có tiền sử viêm xoang là dấu hiệu bệnh gì?\nTrả lời: Nhức đầu là triệu chứng của nhiều bệnh như Tai - Mũi - Họng, thần kinh, . . . Về câu hỏi mất ngủ, đêm thức dậy nhiều lần, ban ngày nhức đầu nhẹ, có tiền sử viêm xoang là dấu hiệu bệnh gì? Bác sĩ khuyên chị nên đăng ký khám bệnh tại cơ sở y tế để được tư vấn điều trị đúng nguyên nhân nhé",
+                "score": 0.5475969910621643,
+                "id": "vietnamese_healthcare_4923",
+                "rerank_score": 0.40244928002357483
+            },
+            {
+                "text": "Câu hỏi: Cảm giác khó chịu trong người là như thế nào?\nTrả lời: 1. Cảm giác khó chịu trong người là như thế nào?\nCảm thấy khó chịu trong người nhìn chung là cảm giác không khỏe, là một triệu chứng chứ không phải bệnh. Mỗi người bệnh có xu hướng trải nghiệm và mô tả khó chịu theo những cách khác nhau, thường liên quan đến các yếu tố như không thoải mái, đau đớn, phiền muộn, mệt mỏi, bệnh tật. Những triệu chứng này có thể xuất hiện đột ngột hoặc xuất hiện rất chậm, hoặc kéo dài ở những đối tượng khác nhau. Hầu hết tất cả mọi người đều trải qua cảm giác mệt mỏi và khó chịu trong người, có thể xuất hiện khi mất ngủ , ăn uống kém, làm việc quá sức hoặc bị cảm cúm . Cảm giác mệt mỏi kéo dài khiến cơ thể mất năng lượng, ảnh hưởng đến chất lượng cuộc sống. Các nguyên nhân gây ra triệu chứng khó chịu có thể kể đến như: Thiếu máu: việc thiếu máu sẽ khiến quá trình trao đổi chất và cung cấp oxy tới các tế bào bị suy giảm, khiến cơ thể luôn trong trạng thái mệt mỏi, chóng mặt, uể oải, kiệt sức và thiếu năng lượng. Ngoài ra thiếu máu còn có thể dẫn đến các triệu chứng như rụng tóc, ăn không ngon, đau bụng, ù tai , lạnh tay chân và tim đập bất thường Bệnh đái tháo đường : khiến người bệnh thường mệt mỏi, khát nước, tiểu tiện thường xuyên, đói, sụt cân và cáu gắt, trong đó mệt mỏi là triệu chứng đầu tiên và kéo dài nhất Bệnh tuyến giáp: khi bị bệnh này các hormon tuyến giáp hoạt động không hiệu quả làm rối loạn quá trình chuyển hóa khiến cơ thể mệt mỏi Suy tuyến thượng thận : cũng là tình trạng khiến người bệnh mệt mỏi, sút cân, đau đầu, đau bụng, tiêu chảy và tăng sắc tố da Bệnh trầm cảm : là bệnh lý rối loạn tâm trạng gây cho người bệnh cảm giác buồn bực, mỏi mệt, suy nghĩ tiêu cực, nếu không được điều trị mà để kéo dài có thể để lại các hậu quả nghiêm trọng. Hội chứng mệt mỏi mãn tính: là một dạng bệnh lý gây mệt mỏi kéo dài ở nhiều mức độ khác nhau khiến người bệnh luôn trong trạng thái mệt mỏi mà không hề cải thiện dù đã được nghỉ ngơi Thiếu vitamin B12 : là vitamin đóng vai trò quan trọng trong sức khỏe não bộ, quá trình trao đổi chất và hệ miễn dịch. Việc thiếu hụt B12 khiến các cơ quan trong cơ thể hoạt động không hiệu quả, cơ thể rơi vào tình trạng mệt mỏi, ủ rũ. Do bệnh về đường hô hấp: các bệnh như viêm phổi, viêm phế quản , viêm đường hô hấp cấp cũng khiến cho người bệnh cảm thấy mệt mỏi thường xuyên nên đừng chủ quan khi có các triệu chứng mệt mỏi kéo dài.",
+                "score": 0.586388885974884,
+                "id": "vietnamese_healthcare_65560",
+                "rerank_score": 0.3726425766944885
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ! Em năm nay 30 tuổi, vài năm nay em hay bị đau đầu, đêm ngủ hay mơ, thức dậy rất khó chịu. Bác sĩ cho em hỏi đó là dấu hiệu của bệnh lý gì ạ?\nTrả lời: Chào bạn,\nVới câu hỏi \"Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?\", bác sĩ xin giải đáp như sau:\nĐau đầu xảy ra ở người trẻ, nếu kéo dài, không có các yếu tố gợi ý nguy hiểm và và không thay đổi tính chất thì thường gặp nhất là đau đầu căng cơ và đau đầu Migraine. Tuy nhiên, thông tin bạn cung cấp không đủ để bác sĩ xác định loại đau đầu và nguyên nhân đau đầu. Bạn nên đi khám để bác sĩ thăm khám, chẩn đoán và điều trị phù hợp nhé.\nTrân trọng,",
+                "score": 0.7233781814575195,
+                "id": "vietnamese_medical_qa_4088",
+                "rerank_score": 0.999940037727356
+            },
+            {
+                "text": "Câu hỏi: Đau đầu, choáng váng khi ngủ dậy là dấu hiệu của bệnh gì?\nTrả lời: Đau đầu có thể là dấu hiệu của nhiều vấn đề sức khỏe nghiêm trọng mà bạn cần phải thận trọng. Đây cũng có thể là dấu hiệu của các bệnh lý như:Huyết áp cao: Khi cơ thể mắc bệnh huyết áp cao, máu sẽ gây áp lực lớn lên đầu sẽ dẫn đến tình trạng sáng ngủ dậy bị đau đầu.Trầm cảm: Bởi nồng độ hormone serotonin thấp, trầm cảm là nguyên nhân gây rối loạn giấc ngủ khiến cho bạn gặp phải tình trạng ngủ dậy đau đầu và những cơn đau đầu do trầm cảm gây ra có thể xảy ra bất cứ lúc nào trong ngày.Thiếu máu não: Nếu những trường hợp trên không phải là nguyên nhân khiến bạn mất ngủ và ngủ dậy nhức đầu, rất có thể bạn đang bị thiếu máu não. Khi bị thiếu máu não, ngoài đau đầu bạn còn có hiện tượng chóng mặt đi kèm, nhất là khi thay đổi tư thế, khó ngủ vào ban đêm thay vào đó là ngủ ngày, ù tai, lãng tai, mờ mắt thì khả năng cao.Vì vậy, bạn cần đưa mẹ đi thăm khám bác sĩ chuyên khoa để chẩn đoán bệnh và có biện pháp điều trị cụ thể.",
+                "score": 0.5870596170425415,
+                "id": "vietnamese_healthcare_2730",
+                "rerank_score": 0.9703758358955383
+            },
+            {
+                "text": "Câu hỏi: Đau đầu, suy nghĩ nhiều, lo âu là dấu hiệu của bệnh gì?\nTrả lời: Theo như triệu chứng em mô tả thì tôi chẩn đoán đây là bệnh lý rối loạn lo âu - đau đầu - căng cơ. Đây là một trong những dạng rối loạn tâm lý phổ biến. Người bệnh thường có cảm giác lo lắng quá mức đối với một tình huống hoặc sự việc, thậm chí có thể lo lắng rất vô lý. Nếu tình trạng này kéo dài và lặp lại nhiều lần có thể ảnh hưởng đến cuộc sống của bệnh nhân. Do đó, để đảm bảo sức khỏe cũng như chất lượng cuộc sống thì em nên đến khám chuyên khoa sức khỏe tâm thần và Nội Thần kinh để có hướng điều trị cụ thể.",
+                "score": 0.5957767963409424,
+                "id": "vietnamese_healthcare_7149",
+                "rerank_score": 0.5447725653648376
+            },
+            {
+                "text": "Câu hỏi: Khó ngủ kèm theo triệu chứng buồn nôn, đau đầu là bệnh lý gì?\nTrả lời: Triệu chứng khó ngủ do rất nhiều nguyên nhân gây nên. Bị mất ngủ quá lâu hoặc thường xuyên sẽ khiến cơ thể mệt mỏi, dẫn đến triệu chứng buồn nôn, đau đầu.",
+                "score": 0.693178117275238,
+                "id": "vietnamese_healthcare_8160",
+                "rerank_score": 0.5396499037742615
+            },
+            {
+                "text": "Câu hỏi: Bị mất ngủ và đau đầu do đâu?\nTrả lời: 2. Bị mất ngủ và đau đầu do đâu?\nNhư đã nhắc ở trên, mất ngủ nhiều gây đau đầu và ngược lại. Tuy nhiên, theo các chuyên gia, đau đầu mất ngủ chủ yếu xuất phát từ một số nguyên nhân phổ biến sau đây: 2.6. Đau đầu mất ngủ do bệnh lý Đau đầu mất ngủ dai dẳng có thể là triệu chứng cảnh báo một số bệnh lý nguy hiểm như sau: Rối loạn tuần hoàn não : Bị mất ngủ và đau đầu là hậu quả do lượng máu lưu thông lên não suy giảm, kèm theo đó bệnh nhân thường có cảm giác mất thăng bằng và choáng váng; Khối u não: Mặc dù không thường gặp nhưng những khối u này có thể chèn ép và ảnh hưởng đến một số vị trí, từ đó gây đau đầu mất ngủ ; Rối loạn tiền đình : Triệu chứng điển hình là hoa mắt, chóng mặt, tuy nhiên nhiều người bệnh than phiền thường xuyên bị đau đầu, ù tai và dẫn đến mất ngủ. Rối loạn tiền đình là bệnh lý mạn tính hay gặp, do đó có thể xem là một trong những nguyên nhân dẫn đến mất ngủ và đau đầu kéo dài; Chứng mất ngủ kinh niên: Thời gian khó ngủ, mất ngủ kéo dài hơn 3 tháng và tái phát liên tục, kèm theo đó là dấu hiệu đau nhức vùng đầu; Đái tháo đường: Mặc dù không phải là triệu chứng điển hình nhưng rất nhiều bệnh nhân đái tháo đường than phiền rằng bị mất ngủ và đau đầu thường xuyên.",
+                "score": 0.5872763395309448,
+                "id": "vietnamese_healthcare_67256",
+                "rerank_score": 0.47977006435394287
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

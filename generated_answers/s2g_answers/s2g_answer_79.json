@@ -1,0 +1,120 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ,\nNghe nói dùng alaxan thường xuyên xương có nguy cơ cao bị giòn và dễ gãy nếu va đập mạnh.\nXin bác sĩ cho ý kiến\nCảm ơn nhiều!!!",
+    "ground_truth": "Chào bạn. \nAlaxan là thuốc kết hợp hai thành phần là paracetamol (thuốc giảm đau, hạ sốt) và ibuprofen (thuốc chống viêm không steroid) nên có tác dụng hạ nhiệt, giảm đau và chống viêm\nUống Alaxan có thể cơn đau sẽ giảm nhanh chóng vì thế thuốc được người bệnh ưa dùng, ko ảnh hưởng đến xương tuy nhiên, cần chú ý những tác dụng phụ ngoài ý mà thuốc có thể gây ra: \n- Hay gặp nhất là tác dụng phụ về đường tiêu hóa: có tới 5 – 15% người bệnh dùng ibuprofen bị trướng bụng, đau bụng, buồn nôn, nặng hơn là loét dạ dày tiến triển, chảy máu dạ dày, ruột… Vì vậy những người bị loét dạ dày tiến triển, mẫn cảm với một trong các thành phần của thuốc, suy gan, suy thận nặng không được dùng. \n- Thuốc có thể gây rối loạn thần kinh (nhức đầu, chóng mặt), dị ứng ở da (nổi mẩn, ngứa), phù, rối loạn thị giác (nhìn mờ, rối loạn màu) và giảm thị lực do ngộ độc thuốc. \nNhững người đang điều khiển phương tiện giao thông và sử dụng máy móc cần lưu ý về nguy cơ chóng mặt khi dùng thuốc.\nThân mến.",
+    "answer": "Chưa tìm thấy đủ thông tin để kết luận việc dùng **Alaxan** thường xuyên có làm xương giòn, dễ gãy hay không, vì các tài liệu được cung cấp chỉ đề cập đến **Panrixim**, không phải Alaxan. Theo bằng chứng, Panrixim liều cao và kéo dài trên 1 năm có thể làm tăng nhẹ nguy cơ gãy xương, chủ yếu ở người lớn tuổi hoặc có yếu tố nguy cơ; người có nguy cơ loãng xương cần được theo dõi theo hướng dẫn lâm sàng và bổ sung đầy đủ canxi, vitamin D. Bạn nên kiểm tra đúng tên thuốc và trao đổi với bác sĩ trước khi sử dụng kéo dài.",
+    "evidence": [
+        "Tìm hiểu về bệnh loãng xương\nLoãng xương (Osteoporosis) là một rối loạn chuyển hóa gây tổn thương sức mạnh của xương và làm tăng nguy cơ gãy xương .",
+        "Sức mạnh của xương bao gồm sự toàn vẹn cả về khối lượng và chất lượng của xương.",
+        "Chú ý đề phòng khi dùng thuốc Panrixim\nSử dụng Panrixim liều cao và trong thời gian dài (> 1 năm), có thể làm tăng nhẹ nguy cơ gãy xương hông, xương sống và cổ tay.",
+        "Tình trạng này chủ yếu xảy ra ở người già hoặc khi có các yếu tố nguy cơ khác.",
+        "Panrixim có thể làm tăng nguy cơ gãy xương từ 10 - 40%.",
+        "Bệnh nhân có nguy cơ loãng xương phải được chăm sóc theo hướng dẫn lâm sàng hiện hành và cần bổ sung đầy đủ vitamin D và calci trong quá trình điều trị với thuốc Panrixim.",
+        "Xương khớp bị thoái hoá do mất mật độ xương sẽ gây ra tình trạng loãng xương, khiến xương dễ gãy khi chịu tác động đủ mạnh.",
+        "Tiền sử cá nhân bị gãy xương, tiền sử gia đình bị gãy xương do loãng xương Sử dụng các thuốc có corticosteroid kéo dài (> 3 tháng).",
+        "Loãng xương và gãy xương\nLoãng xương là tình trạng xương của một người yếu và dễ gãy.",
+        "Thuốc Alenax 70 là một sản phẩm cải thiện bệnh lý loãng xương.",
+        "Theo nghiên cứu, nguy cơ gãy xương phổ biến hơn cả ở phụ nữ lớn tuổi và người bị thiếu canxi cũng như vitamin D.",
+        "Các yếu tố tăng nguy cơ gãy xương bao gồm: tuổi cao, tiền sử gãy xương, dùng phác đồ corticoid, tiền sử gia đình có bố mẹ bị gãy xương hông, cân nặng thấp, hút thuốc lá , uống rượu bia quá mức, viêm khớp dạng thấp , loãng xương thứ phát (ví dụ như ở người mãn kinh sớm, viêm gan mạn, suy dinh dưỡng, viêm đại tràng...) Bệnh lý cơ xương khớp là một trong các biến chứng thường gặp ở bệnh nhân tiểu đường"
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Gãy xương\nTrả lời: 6. Gãy xương\nGãy xương là một căn bệnh thường gặp ở tuổi trung niên khác, đặc biệt là người từ 50 tuổi trở lên. Khi tuổi tác càng cao, hệ thống xương khớp, gân, dịch khớp và bao dịch khớp có xu hướng suy giảm dần, dẫn đến hiện tượng thoái hoá. Xương khớp bị thoái hoá do mất mật độ xương sẽ gây ra tình trạng loãng xương, khiến xương dễ gãy khi chịu tác động đủ mạnh. Theo nghiên cứu, nguy cơ gãy xương phổ biến hơn cả ở phụ nữ lớn tuổi và người bị thiếu canxi cũng như vitamin D. Do đó, việc bổ sung canxi và vitamin D có thể giúp bạn làm chậm hoặc ngăn ngừa nguy cơ gãy xương. Ngoài ra, một số loại thuốc kê đơn cũng giúp bạn bảo vệ và xây dựng lại hệ xương chắc khỏe.",
+                "score": 0.46368589997291565,
+                "id": "vietnamese_healthcare_82940",
+                "rerank_score": 0.753124475479126
+            },
+            {
+                "text": "Câu hỏi: Tác dụng phụ của thuốc Alcixan\nTrả lời: 4. Tác dụng phụ của thuốc Alcixan\nỞ liều điều trị, thuốc Alcixan được dung nạp tốt. Tuy nhiên, quá trình sử dụng Alcixan, người bệnh vẫn có thể gặp phải các tác dụng phụ như: Loét dạ dày hoặc viêm gan. Hiếm thấy: Choáng váng, lo âu, kích ứng, suy tim sung huyết , suy thận, viêm bàng quang, đa niệu, viêm da dị ứng, hồng ban đa dạng và hội chứng Stevens Johnson, thiếu máu. Nếu gặp phải các triệu chứng này, người bệnh cần ngưng sử dụng thuốc Alcixan và thông báo cho bác sĩ để có hướng xử trí phù hợp.",
+                "score": 0.45290669798851013,
+                "id": "vietnamese_healthcare_56383",
+                "rerank_score": 0.13729111850261688
+            },
+            {
+                "text": "Câu hỏi: Tương tác với thuốc Alenax 70\nTrả lời: 5. Tương tác với thuốc Alenax 70\nKhi dùng thuốc Alenax 70 bạn có thể bị tương tác không tốt làm ảnh hưởng đến công dụng. Vì thế để giảm nguy cơ hãy tránh sử dụng những thực phẩm và các loại thuốc sau: Sữa Các chất chống axit có chứa nhôm Thực phẩm chức năng có chứa canxi Estrogen Thuốc Ranitidin sử dụng tiêm tĩnh mạch Thuốc chống viêm không chứa steroid Thuốc sắt Kháng sinh aminoglycosid Levothyroxin Đây là danh sách những thực phẩm và thuốc có nguy cơ tương tác cao với thuốc Alenax 70. Ngoài ra một số loại thuốc khác cũng có thể vô tình tương tác với công dụng thuốc Alenax 70. Những nguyên nhân gây tương tác thường khá phức tạp. Chính vì thế khó có thể đánh giá cụ thể được. Để phòng tránh nguy cơ tương tác thuốc không tốt làm giảm công dụng hay ảnh hưởng đến sức khỏe bệnh nhân, bạn cần kiểm tra sức khỏe tổng quát. Khi trao đổi với bác sĩ ngoài kết quả kiểm tra hãy báo lại bác sĩ đơn thuốc đang uống hoặc đã dừng gần đây đồng thời cung cấp những tiền sử dị ứng thuốc từng được ghi nhận. Thuốc Alenax 70 là một sản phẩm cải thiện bệnh lý loãng xương. Tuy nhiên khi sử dụng thuốc cần hết sức thận trọng để tránh nguy hiểm cho sức khỏe.",
+                "score": 0.46573030948638916,
+                "id": "vietnamese_healthcare_117955",
+                "rerank_score": 0.1363563984632492
+            },
+            {
+                "text": "Câu hỏi: Tìm hiểu về bệnh loãng xương\nTrả lời: 1. Tìm hiểu về bệnh loãng xương\nLoãng xương (Osteoporosis) là một rối loạn chuyển hóa gây tổn thương sức mạnh của xương và làm tăng nguy cơ gãy xương . Sức mạnh của xương bao gồm sự toàn vẹn cả về khối lượng và chất lượng của xương. Cơ chế loãng xương bao gồm: Hủy xương (Resorption) > tạo xương (Formation)🡺 Loãng xương",
+                "score": 0.451288640499115,
+                "id": "vietnamese_healthcare_51968",
+                "rerank_score": 0.0894392654299736
+            },
+            {
+                "text": "Câu hỏi: Chú ý đề phòng khi dùng thuốc Panrixim\nTrả lời: 6. Chú ý đề phòng khi dùng thuốc Panrixim\nSử dụng Panrixim liều cao và trong thời gian dài (> 1 năm), có thể làm tăng nhẹ nguy cơ gãy xương hông, xương sống và cổ tay. Tình trạng này chủ yếu xảy ra ở người già hoặc khi có các yếu tố nguy cơ khác. Panrixim có thể làm tăng nguy cơ gãy xương từ 10 - 40%. Bệnh nhân có nguy cơ loãng xương phải được chăm sóc theo hướng dẫn lâm sàng hiện hành và cần bổ sung đầy đủ vitamin D và calci trong quá trình điều trị với thuốc Panrixim. Nên lưu ý đo nồng độ magnesi trước khi bắt đầu điều trị và định kỳ trong khi điều trị cho những bệnh nhân cần điều trị với Panrixim lâu dài hoặc phải dùng đồng thời Panrixim với Digoxin hay những thuốc gây hạ magnesi huyết. Cần loại trừ khả năng loét đường tiêu hóa ác tính trước khi dùng thuốc Panrixim vì hoạt chất pantoprazol có thể che lấp triệu chứng do đó làm muộn chẩn đoán. Người bệnh có thể bị tăng nhẹ và thoáng qua ALT (SGPT) huyết thanh khi điều trị với Panrixim đường uống. Tính an toàn và hiệu quả của thuốc Panrixim ở trẻ em dưới 18 tuổi chưa được thiết lập. Chưa có các nghiên cứu đầy đủ và có kiểm soát Panrixim trên phụ nữ mang thai. Do vậy, phụ nữ đang trong thai kỳ không nên dùng Panrixim. Thuốc Panrixim được phân bố trong sữa mẹ. Do vậy cần ngưng cho con bú hoặc ngưng dùng thuốc Panrixim do các nguy cơ tiềm ẩn cho trẻ bú mẹ. Thuốc Panrixim có thể gây tác dụng phụ như choáng váng và rối loạn thị giác. Nếu xảy ra các tác dụng phụ này, bệnh nhân không nên lái xe hay vận hành máy móc. Tuyệt đối không sử dụng khi thuốc Panrixim có dấu hiệu bị đổi màu, mốc, chảy nước hay hết hạn dùng. Trên đây là toàn bộ thông tin về thuốc Panrixim, người bệnh cần đọc kỹ hướng dẫn sử dụng, tham khảo ý kiến của bác sĩ/ dược sĩ trước khi dùng. Tuyệt đối không được tự ý mua thuốc Panrixim điều trị tại nhà vì có thể sẽ gặp phải tác dụng phụ không mong muốn.",
+                "score": 0.4507288336753845,
+                "id": "vietnamese_healthcare_124778",
+                "rerank_score": 0.07637244462966919
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Gãy xương\nTrả lời: 6. Gãy xương\nGãy xương là một căn bệnh thường gặp ở tuổi trung niên khác, đặc biệt là người từ 50 tuổi trở lên. Khi tuổi tác càng cao, hệ thống xương khớp, gân, dịch khớp và bao dịch khớp có xu hướng suy giảm dần, dẫn đến hiện tượng thoái hoá. Xương khớp bị thoái hoá do mất mật độ xương sẽ gây ra tình trạng loãng xương, khiến xương dễ gãy khi chịu tác động đủ mạnh. Theo nghiên cứu, nguy cơ gãy xương phổ biến hơn cả ở phụ nữ lớn tuổi và người bị thiếu canxi cũng như vitamin D. Do đó, việc bổ sung canxi và vitamin D có thể giúp bạn làm chậm hoặc ngăn ngừa nguy cơ gãy xương. Ngoài ra, một số loại thuốc kê đơn cũng giúp bạn bảo vệ và xây dựng lại hệ xương chắc khỏe.",
+                "score": 0.5254833102226257,
+                "id": "vietnamese_healthcare_82940",
+                "rerank_score": 0.753124475479126
+            },
+            {
+                "text": "Câu hỏi: Yếu tố nguy cơ loãng xương\nTrả lời: 2. Yếu tố nguy cơ loãng xương\nUống quá nhiều rượu (> 4 ly mỗi ngày đối với nam;> 2 ly mỗi ngày đối với nữ), sử dụng caffeine (> 2,5 tách cà phê mỗi ngày) và sử dụng thuốc lá (bất kỳ hút thuốc nào). Tiền sử cá nhân bị gãy xương, tiền sử gia đình bị gãy xương do loãng xương Sử dụng các thuốc có corticosteroid kéo dài (> 3 tháng). Chế độ ăn uống thiếu canxi hoặc vitamin D . Thiếu hụt hormone tuyến sinh dục Tuổi già Gầy, trọng lượng cơ thể thấp (chỉ số khối cơ thể BMI < 20 kg/ m2). Mức độ hoạt động thể chất thấp Chủng tộc da trắng hoặc châu Á Khuyến cáo từ The choosing wisely campaign Không sử dụng phương pháp đo hấp thụ tia X năng lượng kép (DEXA) để tầm soát loãng xương ở phụ nữ dưới 65 tuổi hoặc ở nam giới dưới 70 tuổi không có yếu tố nguy cơ. Không lặp lại việc đo loãng xương bằng phương pháp đo hấp thụ tia X năng lượng kép (DEXA) thường xuyên hơn hai năm một lần. Đối tượng sàng lọc loãng xương Các hướng dẫn tầm soát loãng xương đã xuất bản khác nhau rất nhiều. Lực lượng y tế dự phòng Hoa Kỳ (USPSTF) khuyến cáo nên sàng lọc tất cả phụ nữ từ 65 tuổi trở lên. Phương pháp đo DEXA của cột sống thắt lưng và xương đùi là phương pháp đánh giá được lựa chọn. USPSTF cũng khuyến cáo sàng lọc loãng xương ở phụ nữ dưới 65 tuổi có nguy cơ gãy xương 10 năm cao hơn hoặc bằng phụ nữ trên 65 tuổi mà không có các yếu tố nguy cơ. Công cụ đánh giá nguy cơ gãy xương FRAX đã được USPSTF sử dụng như một phương pháp xác định nguy cơ gãy xương đối với những phụ nữ này. Khuyến cáo đối tượng tầm soát loãng xương Tổ chức Khuyến cáo American Association of Clinical EndocrinologistsA1 (2010) Tất cả phụ nữ trên 65 tuổi Tất cả phụ nữ sau mãn kinh: Với tiền sử gãy xương mà không do chấn thương nặng sau 40 đến 45 tuổi Với tình trạng thiếu xương được xác định trên Xquang Bắt đầu hoặc sử dụng kéo dài glucocorticoid hệ thống (≥ 3 months) Bệnh nhân với nguy cơ gia tăng loãng xương thứ phát (ví dụ bệnh viêm khớp dạng thấp) Phụ nữ trước mãn kinh hoặc sau mãn kinh có yếu tố nguy cơ loãng xương nếu sẵn sàng xem xét sử dụng thuốc: Hiện đang hút thuốc lá Mãn kinh sớm Tiền sử gia đình gãy xương do loãng xương Uống quá nhiều rượu/bia Nhẹ cân (body mass index < 20 kg/ m2)",
+                "score": 0.5021499395370483,
+                "id": "vietnamese_healthcare_12312",
+                "rerank_score": 0.4376468360424042
+            },
+            {
+                "text": "Câu hỏi: Tổng quan\nTrả lời: 1. Tổng quan\nGãy xương liên quan đến loãng xương ảnh hưởng đến khoảng 1⁄2 phụ nữ da trắng và 1⁄5 đàn ông da trắng trong cuộc đời của họ. Tác động của gãy xương bao gồm mất chức năng, gia tăng chi phí điều trị và tăng tỷ lệ tử vong. Lực lượng phòng ngừa Hoa Kỳ khuyến nghị sử dụng phương pháp đo hấp thụ tia X năng lượng kép (DEXA) để sàng lọc loãng xương cho tất cả phụ nữ từ 65 tuổi trở lên và những phụ nữ trẻ hơn có nguy cơ gãy xương gia tăng, được xác định bởi công cụ đánh giá nguy cơ gãy xương FRAX. Ở những bệnh nhân mới được chẩn đoán loãng xương, các xét nghiệm được đề xuất trong phòng thí nghiệm để xác định nguyên nhân thứ phát bao gồm 25-hydroxyvitamin D huyết thanh , canxi, creatinine và hormone kích thích tuyến giáp. Điều trị đầu tiên để ngăn ngừa gãy xương bao gồm phòng ngừa ngã, ngừng hút thuốc, hạn chế/ngừng uống rượu và liệu pháp bisphosphonate. Các bác sĩ lâm sàng nên xem xét việc ngừng điều trị bằng bisphosphonate sau 5 năm ở phụ nữ không có tiền sử gãy xương đốt sống. Raloxifene, teriparatide và denosumab là những phương pháp điều trị hiệu quả thay thế cho một số nhóm bệnh nhân nhất định và cho những người không thể dùng hoặc tình trạng không đáp ứng với bisphosphonate. Sự cần thiết phải kiểm tra mật độ khoáng của xương tiếp theo ở những bệnh nhân đang điều trị loãng xương là không chắc chắn. Loãng xương làm mất chức năng, gia tăng chi phí điều trị và tăng tỷ lệ tử vong",
+                "score": 0.48953455686569214,
+                "id": "vietnamese_healthcare_12311",
+                "rerank_score": 0.4260941743850708
+            },
+            {
+                "text": "Câu hỏi: Loãng xương và gãy xương\nTrả lời: 3. Loãng xương và gãy xương\nLoãng xương là tình trạng xương của một người yếu và dễ gãy. Sau khi mãn kinh, phụ nữ bắt đầu mất nhiều xương hơn, nhưng đàn ông cũng bị loãng xương. Triệu chứng đầu tiên thường là đau đớn khi bị ngã, va đập hoặc vặn người đột ngột. Ở người Mỹ từ 50 tuổi trở lên, căn bệnh này góp phần gây ra khoảng một nửa số lần nghỉ ở phụ nữ và 1/4 ở nam giới. May mắn thay, bạn có thể ngăn ngừa và điều trị bệnh loãng xương. Các xét nghiệm tầm soát loãng xương Một loại tia X đặc biệt được gọi là phương pháp đo hấp thụ tia X năng lượng kép (DXA) có thể đo mật độ của xương và tìm ra chứng loãng xương trước khi gãy xương. Nó cũng có thể giúp dự đoán nguy cơ gãy xương trong tương lai. Kiểm tra này được khuyến nghị cho tất cả phụ nữ từ 65 tuổi trở lên. Nếu bạn có các yếu tố nguy cơ của bệnh loãng xương, bạn có thể cần bắt đầu sớm hơn.",
+                "score": 0.4831414222717285,
+                "id": "vietnamese_healthcare_5405",
+                "rerank_score": 0.3725249767303467
+            },
+            {
+                "text": "Câu hỏi: Tương tác với thuốc Alenax 70\nTrả lời: 5. Tương tác với thuốc Alenax 70\nKhi dùng thuốc Alenax 70 bạn có thể bị tương tác không tốt làm ảnh hưởng đến công dụng. Vì thế để giảm nguy cơ hãy tránh sử dụng những thực phẩm và các loại thuốc sau: Sữa Các chất chống axit có chứa nhôm Thực phẩm chức năng có chứa canxi Estrogen Thuốc Ranitidin sử dụng tiêm tĩnh mạch Thuốc chống viêm không chứa steroid Thuốc sắt Kháng sinh aminoglycosid Levothyroxin Đây là danh sách những thực phẩm và thuốc có nguy cơ tương tác cao với thuốc Alenax 70. Ngoài ra một số loại thuốc khác cũng có thể vô tình tương tác với công dụng thuốc Alenax 70. Những nguyên nhân gây tương tác thường khá phức tạp. Chính vì thế khó có thể đánh giá cụ thể được. Để phòng tránh nguy cơ tương tác thuốc không tốt làm giảm công dụng hay ảnh hưởng đến sức khỏe bệnh nhân, bạn cần kiểm tra sức khỏe tổng quát. Khi trao đổi với bác sĩ ngoài kết quả kiểm tra hãy báo lại bác sĩ đơn thuốc đang uống hoặc đã dừng gần đây đồng thời cung cấp những tiền sử dị ứng thuốc từng được ghi nhận. Thuốc Alenax 70 là một sản phẩm cải thiện bệnh lý loãng xương. Tuy nhiên khi sử dụng thuốc cần hết sức thận trọng để tránh nguy hiểm cho sức khỏe.",
+                "score": 0.4842284619808197,
+                "id": "vietnamese_healthcare_117955",
+                "rerank_score": 0.1363563984632492
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Gãy xương\nTrả lời: 6. Gãy xương\nGãy xương là một căn bệnh thường gặp ở tuổi trung niên khác, đặc biệt là người từ 50 tuổi trở lên. Khi tuổi tác càng cao, hệ thống xương khớp, gân, dịch khớp và bao dịch khớp có xu hướng suy giảm dần, dẫn đến hiện tượng thoái hoá. Xương khớp bị thoái hoá do mất mật độ xương sẽ gây ra tình trạng loãng xương, khiến xương dễ gãy khi chịu tác động đủ mạnh. Theo nghiên cứu, nguy cơ gãy xương phổ biến hơn cả ở phụ nữ lớn tuổi và người bị thiếu canxi cũng như vitamin D. Do đó, việc bổ sung canxi và vitamin D có thể giúp bạn làm chậm hoặc ngăn ngừa nguy cơ gãy xương. Ngoài ra, một số loại thuốc kê đơn cũng giúp bạn bảo vệ và xây dựng lại hệ xương chắc khỏe.",
+                "score": 0.5272877216339111,
+                "id": "vietnamese_healthcare_82940",
+                "rerank_score": 0.753124475479126
+            },
+            {
+                "text": "Câu hỏi: Tổng quan\nTrả lời: 1. Tổng quan\nGãy xương liên quan đến loãng xương ảnh hưởng đến khoảng 1⁄2 phụ nữ da trắng và 1⁄5 đàn ông da trắng trong cuộc đời của họ. Tác động của gãy xương bao gồm mất chức năng, gia tăng chi phí điều trị và tăng tỷ lệ tử vong. Lực lượng phòng ngừa Hoa Kỳ khuyến nghị sử dụng phương pháp đo hấp thụ tia X năng lượng kép (DEXA) để sàng lọc loãng xương cho tất cả phụ nữ từ 65 tuổi trở lên và những phụ nữ trẻ hơn có nguy cơ gãy xương gia tăng, được xác định bởi công cụ đánh giá nguy cơ gãy xương FRAX. Ở những bệnh nhân mới được chẩn đoán loãng xương, các xét nghiệm được đề xuất trong phòng thí nghiệm để xác định nguyên nhân thứ phát bao gồm 25-hydroxyvitamin D huyết thanh , canxi, creatinine và hormone kích thích tuyến giáp. Điều trị đầu tiên để ngăn ngừa gãy xương bao gồm phòng ngừa ngã, ngừng hút thuốc, hạn chế/ngừng uống rượu và liệu pháp bisphosphonate. Các bác sĩ lâm sàng nên xem xét việc ngừng điều trị bằng bisphosphonate sau 5 năm ở phụ nữ không có tiền sử gãy xương đốt sống. Raloxifene, teriparatide và denosumab là những phương pháp điều trị hiệu quả thay thế cho một số nhóm bệnh nhân nhất định và cho những người không thể dùng hoặc tình trạng không đáp ứng với bisphosphonate. Sự cần thiết phải kiểm tra mật độ khoáng của xương tiếp theo ở những bệnh nhân đang điều trị loãng xương là không chắc chắn. Loãng xương làm mất chức năng, gia tăng chi phí điều trị và tăng tỷ lệ tử vong",
+                "score": 0.48145169019699097,
+                "id": "vietnamese_healthcare_12311",
+                "rerank_score": 0.4260941743850708
+            },
+            {
+                "text": "Câu hỏi: Loãng xương và gãy xương\nTrả lời: 3. Loãng xương và gãy xương\nLoãng xương là tình trạng xương của một người yếu và dễ gãy. Sau khi mãn kinh, phụ nữ bắt đầu mất nhiều xương hơn, nhưng đàn ông cũng bị loãng xương. Triệu chứng đầu tiên thường là đau đớn khi bị ngã, va đập hoặc vặn người đột ngột. Ở người Mỹ từ 50 tuổi trở lên, căn bệnh này góp phần gây ra khoảng một nửa số lần nghỉ ở phụ nữ và 1/4 ở nam giới. May mắn thay, bạn có thể ngăn ngừa và điều trị bệnh loãng xương. Các xét nghiệm tầm soát loãng xương Một loại tia X đặc biệt được gọi là phương pháp đo hấp thụ tia X năng lượng kép (DXA) có thể đo mật độ của xương và tìm ra chứng loãng xương trước khi gãy xương. Nó cũng có thể giúp dự đoán nguy cơ gãy xương trong tương lai. Kiểm tra này được khuyến nghị cho tất cả phụ nữ từ 65 tuổi trở lên. Nếu bạn có các yếu tố nguy cơ của bệnh loãng xương, bạn có thể cần bắt đầu sớm hơn.",
+                "score": 0.4840242862701416,
+                "id": "vietnamese_healthcare_5405",
+                "rerank_score": 0.3725249767303467
+            },
+            {
+                "text": "Câu hỏi: Loãng xương và gãy xương\nTrả lời: 3. Loãng xương và gãy xương\nLoãng xương là tình trạng xương yếu và dễ gãy. Sau mãn kinh, phụ nữ bắt đầu mất nhiều khối lượng xương hơn, nhưng không chỉ phụ nữ, đàn ông cũng bị loãng xương. Triệu chứng đầu tiên thường là sự đau đớn dù chỉ bị ngã nhẹ, bị đập trúng hay chẳng may vặn người đột ngột. Tại Hoa Kỳ, trong độ tuổi trên 50, khoảng một nửa phụ nữ và một phần tư nam giới bị gãy xương do ảnh hưởng bởi căn bệnh này. May mắn thay, loãng xương có thể bị phòng ngừa và điều trị. Xét nghiệm sàng lọc loãng xương Một kỹ thuật X-quang đặc biệt gọi là DXA (dual energy X-ray absorptiometry - đo độ hấp thụ tia X hai nguồn năng lượng) có thể kiểm tra tình trạng xương và phát hiện loãng xương trước khi người bệnh bị gãy xương, nó cũng giúp dự đoán nguy cơ gãy xương trong tương lai. Tất cả phụ nữ trên 65 tuổi đều được khuyến cáo thực hiện DXA. Nếu phụ nữ đã có yếu tố nguy cơ bị loãng xương, bác sĩ sẽ đề nghị kiểm tra sớm hơn. Xét nghiệm sàng lọc loãng xương (DXA) là một kỹ thuật X-quang đặc biệt giúp dự đoán nguy cơ gãy xương trong tương lai",
+                "score": 0.4776308238506317,
+                "id": "vietnamese_healthcare_52644",
+                "rerank_score": 0.3522854447364807
+            },
+            {
+                "text": "Câu hỏi: Bệnh lý về xương ở người tiểu đường\nTrả lời: 1. Bệnh lý về xương ở người tiểu đường\nBệnh tiểu đường ảnh hưởng tới tới hệ cơ xương theo nhiều cơ chế chưa được hiểu rõ hết. Tuy nhiên, các dữ liệu khoa học đều công nhận nguy cơ gãy xương tăng lên ở người mắc tiểu đường. Đường máu cao có thể làm tăng thải calci qua đường niệu và ức chế tạo xương. Giảm chu trình xương với đặc tính giảm chất nền xương không khoáng hóa và tăng đường hóa cấu trúc collagen cũng dẫn đến ảnh hưởng tới chất lượng xương và tăng nguy cơ gãy xương. Mật độ xương không phản ánh được hết nguy cơ gãy xương ở bệnh nhân tiểu đường, đặc biệt là tiểu đường type 2 . Mật độ xương thường thấp ở bệnh nhân tiểu đường type 1 , nhưng bình thường ở bệnh nhân tiểu đường type 2. Xốp lớp vỏ xương và thay đổi vi cấu trúc xương cũng ảnh hưởng tới độ chắc khỏe của xương ở người tiểu đường. Đồng thời, các bệnh lý thần kinh, bệnh võng mạc và bệnh mạch não ở người tiểu đường cũng góp phần tăng nguy cơ ngã dẫn tới tình trạng gãy xương. Các yếu tố tăng nguy cơ gãy xương bao gồm: tuổi cao, tiền sử gãy xương, dùng phác đồ corticoid, tiền sử gia đình có bố mẹ bị gãy xương hông, cân nặng thấp, hút thuốc lá , uống rượu bia quá mức, viêm khớp dạng thấp , loãng xương thứ phát (ví dụ như ở người mãn kinh sớm, viêm gan mạn, suy dinh dưỡng, viêm đại tràng...) Bệnh lý cơ xương khớp là một trong các biến chứng thường gặp ở bệnh nhân tiểu đường",
+                "score": 0.488616406917572,
+                "id": "vietnamese_healthcare_54832",
+                "rerank_score": 0.17298470437526703
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

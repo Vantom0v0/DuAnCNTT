@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Tôi 50 tuổi, bị bệnh hẹp mạch vành, hiện tại đang uống một số các loại thuốc, trong đó có loại chống đông, vậy tôi có tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Trường hợp bệnh lý của anh/chị hiện chưa ổn định và đang dùng thuốc chống đông sẽ cần phải hoãn tiêm chủng vaccine Covid-19 trong đợt này và chờ hướng dẫn tiêm tại tuyến bệnh viện để đảm bảo an toàn trong thời gian tới.",
+    "answer": "Nếu bệnh hẹp mạch vành của anh/chị đang ổn định thì vẫn có thể tiêm vaccine Covid-19; việc đang dùng thuốc chống đông không phải là chống chỉ định và chưa có bằng chứng về tương tác với vaccine. Tuy nhiên, anh/chị nên khám sàng lọc và tiêm tại bệnh viện hoặc cơ sở y tế có đủ khả năng cấp cứu, đồng thời cung cấp đầy đủ hồ sơ bệnh án, tên và liều các thuốc đang dùng để bác sĩ đánh giá trực tiếp trước khi tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị hẹp mạch vành đang sử dụng thuốc chống đông máu hàng ngày. Cho tôi hỏi là tình trạng như tôi có chích vaccine ngừa Covid-19 được không?\nTrả lời: Với bệnh lý mạch vành ổn định bạn vẫn có thể tiêm chủng vaccine Covid-19 bình thường.",
+            "score": 0.805729329586029,
+            "id": "vietnamese_healthcare_7300"
+        },
+        {
+            "text": "Câu hỏi: Tôi có đặt stent mạch vành, đang dùng thuốc, nếu chích ngừa Covid-19 nên tiêm loại vaccine nào, tiêm của AstraZeneca có được không? Nếu có tác dụng phụ sau tiêm thì có cách gì phòng ngừa trước được không?\nTrả lời: Đối với trường hợp đặt stent mạch vành của chị, hiện tại đang sử dụng thuốc chống đông, thì tốt nhất chị nên tiêm chủng tại bệnh viện, nơi có đủ điều kiện hồi sức cấp cứu ban đầu.",
+            "score": 0.7580808401107788,
+            "id": "vietnamese_healthcare_6732"
+        },
+        {
+            "text": "Câu hỏi: Xin bác sĩ cho hỏi: người 65 tuổi đang có van tim nhân tạo do hẹp van 2 lá, hở van 3 lá; uống thuốc chống đông máu mỗi ngày thì có nên tiêm vaccine không?\nTrả lời: Đối với trường hợp như bạn hỏi, nếu bệnh lý tim mạch đã ổn định, hiện đang uống thuốc chống đông máu hàng ngày vẫn có thể tiêm chủng vaccine Covid-19. Tuy nhiên, bạn cần cẩn trọng khi tiêm chủng dưới sự giám sát chặt chẽ của nhân viên y tế, cần tiêm chủng trong bệnh viện hoặc cơ sở y tế đủ năng lực cấp cứu ban đầu. Bác sĩ sẽ đánh giá trực tiếp tình trạng sức khỏe hiện tại trước khi chỉ định tiêm chủng.",
+            "score": 0.7579889893531799,
+            "id": "vietnamese_healthcare_8140"
+        },
+        {
+            "text": "Câu hỏi: Tôi 63 tuổi, đã đặt 2 stent mạch vành cách đây 2 tháng và đang uống các loại thuốc điều trị chống đột quỵ, giảm mỡ máu, thuốc trị cao huyết áp, thuốc dạ dày. Tôi có thể chích vaccine ngừa Covid-19 được không?\nTrả lời: Anh/Chị đã đặt 2 stent mạch vành cách đây 2 tháng và đang uống các loại thuốc điều trị chống đột quỵ, giảm mỡ máu, thuốc trị cao huyết áp, Aspirin 81mg và thuốc dạ dày. Theo hướng dẫn của Bộ Y tế, người có bệnh lý tim mạch nếu trong giai đoạn ổn định thì vẫn được tiêm vaccine Covid-19. Trong trường hợp của Anh/Chị đã đặt 2 stent mạch vành cách đây 02 tháng và đang dùng thuốc kháng đông nên Anh/Chị cần thận trọng khi tiêm vaccine Covid-19, Anh/Chị nên khám sàng lọc và tiêm chủng tại bệnh viện. Khi khám, Anh/Chị phải cung cấp đầy đủ các giấy tờ và hồ sơ liên quan đến tiền sử bệnh lý của Anh/Chị cho bác sĩ để bác sĩ khám sàng lọc kỹ hơn và cân nhắc khi cho chỉ định.",
+            "score": 0.7504743337631226,
+            "id": "vietnamese_healthcare_3157"
+        },
+        {
+            "text": "Câu hỏi: Cách đây 2 năm chồng tôi đặt stent mạch vành hiện giờ vẫn uống thuốc chống đông máu. Chồng tôi có tiêm vaccine Covid -19 được không?\nTrả lời: Hiện không có bất cứ bằng chứng nào cho thấy bệnh tim mạch chống chỉ định tiêm phòng vaccine Covid-19. Đồng thời không có báo cáo nào nói về sự tương tác giữa vaccine Covid-19 với thuốc điều trị bệnh tim mạch. Trường hợp của chồng chị, theo khuyến cáo, vẫn có thể tiêm phòng vaccine Covid-19 bình thường. Tuy nhiên, cần lưu ý về vấn đề sử dụng thuốc chống đông khi đặt stent. Đối với trường hợp này, khi đi tiêm vaccine Covid-19, chồng chị nên cung cấp đầy đủ thông tin về tình trạng bệnh lý của bản thân cho bác sĩ khám sàng lọc (tên thuốc, liều lượng thuốc, thuốc chống đông loại gì. . .",
+            "score": 0.7374410033226013,
+            "id": "vietnamese_healthcare_2250"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

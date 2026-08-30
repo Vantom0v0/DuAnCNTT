@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Bé gái 7 tuổi đau 2 vú có phải dậy thì? Nên làm thế nào trong trường hợp trẻ dậy thì sớm?",
+    "ground_truth": "Trường hợp bé gái có tuyến vú lúc 7 tuổi là sớm so với tuổi. Bé cần được khám chuyên khoa nội tiết nhi để làm xét nghiệm: định lượng nồng độ nội tiết LH, FSH và E2 trong máu, ngoài ra xét nghiệm siêu âm tử cung, buồng trứng và chụp tuổi xương. Em đã khám rồi với chẩn đoán như vậy sau khi đã làm xét nghiệm. Nếu chưa em có thể cho cháu đến khám PGS. Huỳnh Thoại Loan thuộc bệnh viện Hệ thống Y tế Vinmec để có những đánh giá chính xác cũng như tư vấn thêm về trường hợp bé gái 7 tuổi đau 2 vú có phải dậy thì? Nên làm thế nào trong trường hợp trẻ dậy thì sớm?",
+    "answer": "Các tài liệu được cung cấp không có thông tin về đau vú ở bé gái 7 tuổi, dấu hiệu dậy thì sớm hoặc cách xử trí trong trường hợp này. Vì vậy, chưa thể xác định tình trạng của bé có phải dậy thì sớm hay không và cũng không đủ thông tin để hướng dẫn xử trí; bạn nên đưa bé đi khám để được đánh giá cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Sau hút áp xe thận bao lâu có thể phục hồi và có nguy hiểm không?\nTrả lời: Vì bạn không nói rõ tình trạng hiện tại, cũng như ngoài việc chọc hút ổ áp xe thì việc dùng kháng sinh như thế nào, có theo kháng sinh đồ không.",
+            "score": 0.5359102487564087,
+            "id": "vietnamese_healthcare_8835"
+        },
+        {
+            "text": "Câu hỏi: Em hiện có con 7 tháng tuổi và đang cho con bú sữa mẹ. Em có thắc mắc là khi tiêm vaccine thì em có thể vắt sữa cho con bú không? Nếu không thì sau bao lâu kể từ ngày tiêm vaccine em có thể cho con bú lại?\nTrả lời: Theo quyết định 2995/QĐ-BYT, phụ nữ đang mang thai hay đang cho con bú sẽ tạm hoãn tiêm chủng. Do vậy, chị chưa tiêm được vaccine đợt này, chờ hướng dẫn tiếp theo của Bộ Y tế.",
+            "score": 0.5353322625160217,
+            "id": "vietnamese_healthcare_1896"
+        },
+        {
+            "text": "Câu hỏi: bs cho tôi hỏi tôi bị đau khớp đầu gối \ngiờ trữa như nào và ở đâu\nTrả lời: chào bạn: bạn đau đầu gối từ bao giờ , gối bạn buổi sáng có đau không sau đó đỡ dần, ngủ có đau không bạn, đau đầu gối có nhiều nguyên nhân như chấn thương điều trị sẽ khác, thoái hoá điều trị sẽ khác bạn nhé! bạn nên đi khám tìm nguyên nhân để điều trị mấy có thể giúp điều trị được bạn nhé!",
+            "score": 0.5298790335655212,
+            "id": "vietnamese_medical_qa_6326"
+        },
+        {
+            "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+            "score": 0.5255576372146606,
+            "id": "vietnamese_healthcare_86309"
+        },
+        {
+            "text": "Câu hỏi: Những việc nên làm vào ngày thứ bảy (Ngày 1)\nTrả lời: 2. Những việc nên làm vào ngày thứ bảy (Ngày 1)\n2.1. Nên thức dậy lúc nào? Thức sớm là một điều tốt, nhưng nếu muốn bắt đầu hồi phục hàng rào độ ẩm của da thì chúng ta cần phải ngủ.",
+            "score": 0.5251412391662598,
+            "id": "vietnamese_healthcare_75351"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Em trễ kinh 15 ngày. Em thử que 2 lần, mỗi lần cách nhau 1 tuần vẫn lên 2 vạch mờ giống nhau. Em đi xét nghiệm máu kết quả không có thai nhưng mãi giờ em vẫn chưa có kinh. Trước đó, em cóuống thuốc ngừa thaivỉ 28 viên dành cho phụ nữ cho con bú. Vậy bác sĩ cho em hỏitrễ kinh sau uống thuốc tránh thai dành cho con bú có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Thường khi cho con bú có thểkinh nguyệt không đềuhoặc trễ kinh, nếu bạn đi khám, siêu âm vàxét nghiệm beta HCGmà không có thai thì có nghĩa là bạn không có thai tại thời điểm xét nghiệm. Còn việc bạn chậm kinh trên 15 ngày kèm uống thuốc tránh thai thì bạn nên đi khám tại cơ sở có uy tín để được khám siêu âm xét nghiệm để tìm nguyên nhân trễ kinh, từ đó có biện pháp điều trị cụ thể.",
+    "answer": "Thuốc tránh thai hằng ngày dành cho phụ nữ cho con bú (thường chỉ chứa progestin) có thể làm kinh nguyệt thưa, trễ hoặc mất kinh, đặc biệt khi uống không đúng giờ, quên thuốc hoặc ngưng thuốc; việc cho con bú cũng có thể gây rối loạn kinh. Tuy nhiên, que thử lên 2 vạch mờ hai lần vẫn cần loại trừ thai, dù xét nghiệm máu âm tính có thể do xét nghiệm quá sớm hoặc kết quả chưa rõ. Bạn nên khám sản phụ khoa, xét nghiệm lại β-hCG sau 48–72 giờ và/hoặc siêu âm theo chỉ định; đồng thời tiếp tục uống thuốc đúng hướng dẫn, không tự ý ngưng. Nếu đau bụng nhiều, ra máu bất thường, choáng hoặc ngất, cần đi khám ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Dạ bác sĩ cho em hỏi, em mới trễ kinh 2 ngày, thử que 1 vạch đậm 1 vạch mờ, người thân biết thì khuyên em theo 2 trường phái: \n1/ Đi khám ngay\n2/ Đợi trễ 10 bữa nữa tháng hãy đi, giờ nhỏ xíu có thấy gì đâu mà đi\nEm không biết nghe theo bên nào, mong được bác sĩ tư vấn giúp\nDạ còn một chuyện nữa là theo em tham khảo sách vở thì có nói khi mang thai sẽ có một ít máu báo nhưng em theo dõi hoài cũng chưa thấy.\n Em cảm ơn\nTrả lời: Chào bạn,\nHiện tượng máu báo là dấu hiệu mang thai thường gặp ở thời gian mới mang thai, tuy nhiên thời gian xuất hiện dấu hiệu này không ai giống ai, có thể sớm ở người này, muộn ở người kia, người có , người không. Bạn không nên quan trọng quá vấn đề này.\nBạn nên để thêm 5 ngày nữa, bạn thử lại 1 lần nữa, nếu vẫn hiện 2 vạch thì bạn chờ thêm 10 ngày nữa hãy đi khám, lúc đó siêu âm xác định xem thai vào tử cung chưa là chính xác nhất.\nThân mến!",
+            "score": 0.6853856444358826,
+            "id": "vietnamese_medical_qa_9319"
+        },
+        {
+            "text": "Câu hỏi: Em sinh em bé được 5 tháng thì bắt đầu dùng thuốc tránh thai cho con bú. Em uống hết vỉ thuốc và sang vỉ khác đến nay trễ kinh hơn 10 ngày. Vậy bác sĩtrễ kinh 10 ngày khi dùng thuốc tránh thai cho con bú có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Có 2 loại thuốc tránh thai hàng ngày: 1 loại chỉ chứa progestin (thường dùng cho con bú) và 1 loại là thuốc tránh thai phối hợp (gồm estrogen và progestin, không dùng cho con bú). Nếu bạn đang cho con bú thì thường dùng là loại chỉ có progestin, loại này phải uống liên tục mỗi ngày 1 viên vào 1 giờ nhất định, nếu bạn ngưng 10 ngày thì sẽ có khả năng có thai. Vì vậy, bạn nên đi kiểm tra lại xem có thai không, nếu không thì có thể uống tiếp tục vào chu kỳ kinh tiếp theo.",
+            "score": 0.6809877753257751,
+            "id": "medical_vietnamese_qa_1562"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác trễ kinh gần 4 tháng . e đã đi khám phụ khoa rồi nhưng bác sĩ bảo e chỉ bị rối loạn kinh nguyệt và viêm âm đạo. E chưa có gia đình nhưng đã quan hệ e dùng que thử thì chỉ 1 vạch. Vậy bác sĩ cho e lời khuyên\nTrả lời: Chào bạn,\nThời gian để thử que thường là 7- 10 ngày sau khi quan hệ, nếu bạn đã trễ kinh gần 4 tháng thì chỉ cần đi siêu âm sẽ xác định được có thai hay không.\nNếu trước đây kinh nguyệt của bạn vẫn đều, lý do làm trễ kinh có thể là do bạn sử dụng thuốc tránh thai khẩn cấp nhiều lần gây ra hiện tượng rối loạn kinh nguyệt, có thể một số trường hợp gây rong kinh. Ngoài ra việc bạn lo lắng, stress cũng có thể là lý do gây nên tình trạng này.\nTrước tiên bạn cần đi khám để bác sỹ có hướng điều trị viêm âm đạo và rối loạn kinh nguyệt, nên có biện pháp tránh thai an toàn, không nên lạm dụng thuốc tránh thai sẽ gây ảnh hưởng đến khả năng sinh sản.\nThân mến!",
+            "score": 0.67299485206604,
+            "id": "vietnamese_medical_qa_8675"
+        },
+        {
+            "text": "Câu hỏi: Em ra 2 giọt máu hồng, cảm thấy mệt người, đứng làm khoảng 3 tiếng thì lưng rất đau, chán ăn nhưng hay đói, bụng cứ hay đầy hơi, hay mệt mỏi, buồn ngủ và trễ kinh 9 ngày. Em thử thai thì 1 vạch đậm, 1 vạch rất mờ. Ba ngày sau (trễ kinh 12 ngày), em thử lại thì 1 vạch đậm. Bác sĩ cho em hỏi,trễ kinh kèm mệt mỏi là dấu hiệu của bệnh gì?\nTrả lời: bác sĩ xin giải đáp như sau: Nếu bạntrễ kinh, việc đầu tiên cần nghĩ đến là bạn có thểmang thai, tiếp đến có thể làrối loạn kinh nguyệt. Với trường hợp của bạn, để xác định có thai hay không, bạn cần đi khám bác sĩ Sản phụ khoa. Bác sĩ có thể chỉ định bạn làm xét nghiệm nội tiết thai nghén hCG và siêu âm phụ khoa nếu có thể để kiểm tra cơ quan sinh dục có gì bất thường hay không.",
+            "score": 0.6722661256790161,
+            "id": "medical_vietnamese_qa_2023"
+        },
+        {
+            "text": "Câu hỏi: Tháng này, em bị trễ kinh 2 tuần (trước đó tháng nào em cũng có kinh, lệch 2 đến 3 ngày), đã thử que 2 lần (lần 1 là sau kì kinh 7 ngày, lần 2 sau 14 ngày) nhưng que chỉ báo 1 vạch. Hiện tại, em đang phân vân giữa nên mang thai hay nên tiêm vắc xin Covid 19 (em 32 tuổi và chưa có con). Vậy bác sĩ cho em hỏinữ giới trễ kinh, thử que 1 vạch nguyên nhân là gì?Em cảm ơn bác sĩ. Thúy Kiều(1989) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Duy Thái- Khoa Phụ, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn thử que mà chỉ có 1 vạch có thể không có thai vì loại trừ trường hợp có thể que thử thai bị lỗi âm tính giả. Nếu bạn thấy đau bụng và chậm kinh kéo dài bạn nên đi khám kiểm tra. Nếu bạn chưa có ý định có thai ngay thì bạn nên tiêm vắc xin Covid. Hiện tại, mới khuyến cáo tiêm cho phụ nữ có thai từ 13 tuần trở lên, còn những tuổi thai nhỏ hơn thì chưa có đủ bằng chứng mức độ an toàn của vắc xin Covid nên bạn xác định chưa có thai thì bạn nên tiêm sớm để phòng dịch Covid.",
+            "score": 0.6676270365715027,
+            "id": "medical_vietnamese_qa_2364"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

@@ -1,0 +1,83 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không?",
+    "ground_truth": "Hiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất. Bạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.",
+    "answer": "Nếu bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị, hiện không có thông tin cho thấy collagen dạng nước gây ảnh hưởng hoặc cần thận trọng đặc biệt; bạn có thể sử dụng theo hướng dẫn của nhà sản xuất. Tuy nhiên, một số sản phẩm collagen chiết xuất từ tảo biển có thể chứa hàm lượng iod cao và không phù hợp với người bệnh tuyến giáp. Vì vậy, bạn nên mang sản phẩm dự định dùng cho bác sĩ tuyến giáp kiểm tra trong lần tái khám và tiếp tục tái khám định kỳ theo hướng dẫn.",
+    "evidence": [
+        "Câu hỏi: Chào dược sĩ,\nTôi bị K tuyến giáp nhỏ 4mm, đã được mổ cắt bỏ toàn bộ thuỳ trái tháng 9 năm 2020, bác sĩ chỉ định theo dõi và không dùng thuốc điều trị.",
+        "Tôi muốn dùng collagen dạng nước Liquid collagen của Mỹ.",
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nHiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị.",
+        "Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất.",
+        "Bạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.",
+        "Hơn nữa, sản phẩm chứa collagen cũng có nhiều loại trong đó loại chiết xuất từ tảo biển thường sẽ có hàm lượng iod cao, có thể không phù hợp với người có bệnh tuyến giáp.",
+        "Tốt nhất em nên đem lọ collagen định dùng đến cho bác sĩ tuyến giáp xem trong đợt tái khám để kiểm tra."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nTôi bị K tuyến giáp nhỏ 4mm, đã được mổ cắt bỏ toàn bộ thuỳ trái tháng 9 năm 2020, bác sĩ chỉ định theo dõi và không dùng thuốc điều trị. Tôi muốn dùng collagen dạng nước Liquid collagen của Mỹ. Vậy dược sĩ cho tôi hỏi nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không? Tôi cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nHiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất.\nBạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.\nTrân trọng!",
+                "score": 0.7326955199241638,
+                "id": "vietnamese_medical_qa_1408",
+                "rerank_score": 0.9998878240585327
+            },
+            {
+                "text": "Câu hỏi: Đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không?\nTrả lời: Em chưa nói bệnh tuyến giáp của em đang có là cường giáp hay suy giáp hay bệnh khác nên bác sĩ chưa thể kết luận đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không. Hơn nữa, sản phẩm chứa collagen cũng có nhiều loại trong đó loại chiết xuất từ tảo biển thường sẽ có hàm lượng iod cao, có thể không phù hợp với người có bệnh tuyến giáp. Tốt nhất em nên đem lọ collagen định dùng đến cho bác sĩ tuyến giáp xem trong đợt tái khám để kiểm tra. Nếu bác sĩ bảo được thì có thể dùng chung với thuốc mà không ảnh hưởng gì.",
+                "score": 0.5491156578063965,
+                "id": "vietnamese_healthcare_3882",
+                "rerank_score": 0.2601798176765442
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Em muốn hỏi bệnh cường giáp ở nữ uống thuốc không khỏi có nên mổ không? Mổ thì có lo biến chứng gì không và thời gian bao lâu để hồi phục từ lúc mổ ạ? Sau khi mổ có cần uống thuốc nữa không ạ? Cảm ơn bác sĩ đã tư vấn.\nTrả lời: Chào bạn. Bạn đang điều trị cường giáp tiến triển chậm mà bạn muốn mổ thì phải do bác sĩ chuyên khoa nội tiết khám và đánh giá quyết định. Thường chỉ mổ khi nội khoa điều trị thất bại hoặc không thể điều trị được nội khoa.\nMổ tuyến giáp có thể có một số biến chứng như chảy máu, cắt dây thần kinh và suy giáp sau phẫu thuật. Nếu sau mổ mà bị suy giáp thì bạn phải uống bù hormon tuyến giáp là Levothyroxin.",
+                "score": 0.522114098072052,
+                "id": "vietnamese_medical_qa_2400",
+                "rerank_score": 0.02669040486216545
+            },
+            {
+                "text": "Câu hỏi: Nam uống collagen được không?\nTrả lời: 2. Nam uống collagen được không?\nĐể trả lời câu hỏi \" nam uống collagen được không?\" Thì chúng ta cần biết một điều rằng dù là nữ giới hay nam giới thì cơ thể đều bị lão hóa. Cho nên việc bổ sung thêm collagen đúng cách là điều cần thiết và quan trọng. Cơ thể của nam cũng như nữ, sau 25 tuổi đều bắt đầu giảm sự sản sinh collagen. Vì thế sẽ dẫn tới việc làn da bị nhăn nheo, khô sạm, mất sự đàn hồi,... Mặc dù, quá trình lão hóa của nam giới diễn ra chậm hơn so với nữ giới. Nhưng không phải là không cần thiết cung cấp collagen cho nam giới. Việc bổ sung collagen cho cơ thể nam giới là điều nên thực hiện nhằm giúp da hạn chế hình thành nếp nhăn, nám sạm, giúp cơ thể chống lại các dấu hiệu của lão hóa. Nam giới có nên uống collagen là thắc mắc của nhiều đấng mày râu đang có ý định uống collagen",
+                "score": 0.5173919200897217,
+                "id": "vietnamese_healthcare_147933",
+                "rerank_score": 0.006735221482813358
+            },
+            {
+                "text": "Câu hỏi: Mẹ đang nuôi con, cho con bú có uống collagen được không?\nTrả lời: 2. Mẹ đang nuôi con, cho con bú có uống collagen được không?\nCác chuyên gia cho biết, phần lớn các sản phẩm bổ sung collagen hiện nay được chiết xuất từ da của động vật. Khi vào cơ thể, collagen được chuyển hóa thành axit amin, tương tự như bổ sung protein . Vì vậy, mẹ đang cho con bú uống collagen khá an toàn và không ảnh hưởng đến nguồn sữa mẹ cho trẻ. Tuy nhiên, trước khi quyết định bổ sung collagen bằng đường uống, người mẹ nên tham khảo ý kiến của bác sĩ để tránh bị dị ứng với collagen, hoặc được tư vấn liều dùng phù hợp, an toàn trong giai đoạn cho con bú cũng như được thông tin cụ thể về những tác dụng không mong muốn của loại collagen, có thể ảnh hưởng đến sữa mẹ đối với trẻ.",
+                "score": 0.5257387161254883,
+                "id": "vietnamese_healthcare_49200",
+                "rerank_score": 0.0008754247683100402
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nTôi bị K tuyến giáp nhỏ 4mm, đã được mổ cắt bỏ toàn bộ thuỳ trái tháng 9 năm 2020, bác sĩ chỉ định theo dõi và không dùng thuốc điều trị. Tôi muốn dùng collagen dạng nước Liquid collagen của Mỹ. Vậy dược sĩ cho tôi hỏi nữ giới sau khi cắt tuyến giáp sử dụng collagen dạng nước có ảnh hưởng gì không? Tôi cảm ơn dược sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ xin giải đáp như sau:\nHiện tại, tình trạng bệnh lý tuyến giáp của bạn đang ổn định và không cần dùng thuốc điều trị. Collagen dạng nước cũng không có thông tin khuyến cáo hay thận trọng khi sử dụng trên bệnh nhân có bệnh lý tuyến giáp đã ổn định, do đó bạn có thể sử dụng sản phẩm trên theo hướng dẫn của nhà sản xuất.\nBạn cũng nên định kỳ tái khám để kiểm tra các vấn đề liên quan đến bệnh lý tuyến giáp theo như hướng dẫn của bác sĩ.\nTrân trọng!",
+                "score": 0.7586827874183655,
+                "id": "vietnamese_medical_qa_1408",
+                "rerank_score": 0.9998878240585327
+            },
+            {
+                "text": "Câu hỏi: Chào Bác sĩ, em là nữ, 37 tuổi. Một tháng nay em uống nước colagen liên tục mỗi ngày, thấy đau đầu nhẹ, giấc ngủ lộn xộn, hơi thở hôi, nóng trong người. Cho em hỏi em có nên uống tiếp không?\nTrả lời: Chào em\nCollagen nước là một sản phẩm bổ sung collagen được điều chế dưới dạng dung dịch uống tốt cho làn da và cơ thể. Nếu sau khi uống nước Collagen mà em thấy ảnh hưởng đến sức khỏe thì em nên ngưng uống.\nThân mến chào em",
+                "score": 0.4693954288959503,
+                "id": "vietnamese_medical_qa_5595",
+                "rerank_score": 0.4788822531700134
+            },
+            {
+                "text": "Câu hỏi: Đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không?\nTrả lời: Em chưa nói bệnh tuyến giáp của em đang có là cường giáp hay suy giáp hay bệnh khác nên bác sĩ chưa thể kết luận đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không. Hơn nữa, sản phẩm chứa collagen cũng có nhiều loại trong đó loại chiết xuất từ tảo biển thường sẽ có hàm lượng iod cao, có thể không phù hợp với người có bệnh tuyến giáp. Tốt nhất em nên đem lọ collagen định dùng đến cho bác sĩ tuyến giáp xem trong đợt tái khám để kiểm tra. Nếu bác sĩ bảo được thì có thể dùng chung với thuốc mà không ảnh hưởng gì.",
+                "score": 0.5529856085777283,
+                "id": "vietnamese_healthcare_3882",
+                "rerank_score": 0.2601798176765442
+            },
+            {
+                "text": "Câu hỏi: Chào dược sĩ! Năm nay em 38 tuổi, hiện tại em đang uống thuốc điều trị bệnh tuyến giáp, mỗi ngày 1 lần vào buổi sáng. Dược sĩ cho em hỏi đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không? Mong dược sĩ tư vấn giúp em. Em cảm ơn dược sĩ.\nTrả lời: Chào em.\nEm chưa nói bệnh tuyến giáp của em đang có là cường giáp hay suy giáp hay bệnh khác nên bác sĩ chưa thể kết luận đang uống thuốc điều trị tuyến giáp có được bổ sung Collagen không.\nHơn nữa, sản phẩm chứa collagen cũng có nhiều loại trong đó loại chiết xuất từ tảo biển thường sẽ có hàm lượng iod cao, có thể không phù hợp với người có bệnh tuyến giáp.\nTốt nhất em nên đem lọ collagen định dùng đến cho bác sĩ tuyến giáp xem trong đợt tái khám để kiểm tra. Nếu bác sĩ bảo được thì có thể dùng chung với thuốc mà không ảnh hưởng gì.",
+                "score": 0.4812164306640625,
+                "id": "vietnamese_medical_qa_2037",
+                "rerank_score": 0.1800224930047989
+            },
+            {
+                "text": "Câu hỏi: Lưu ý về thuốc uống sau khi cắt tuyến giáp\nTrả lời: 3. Lưu ý về thuốc uống sau khi cắt tuyến giáp\nViệc sử dụng thuốc uống sau khi cắt tuyến giáp cần lưu ý một số vấn đề sau: 3.1. Đảm bảo đúng liều Levothyroxin chủ yếu dùng theo đường uống, bên cạnh đó có thể tiêm mạch hoặc tiêm bắp. Liều dùng của thuốc uống tuyến giáp phải được điều chỉnh cẩn thận theo nhu cầu và đáp ứng của mỗi bệnh nhân, vì có thể thay đổi liên tục theo thời gian, tuổi tác và mức độ đáp ứng thuốc của cơ thể. Nhiệm vụ của người bệnh là tái khám định kỳ và thực hiện xét nghiệm kiểm tra nồng độ hormon giáp trong máu, qua đó bác sĩ sẽ đưa ra điều chỉnh thích hợp cho từng giai đoạn. Một lưu ý đặc biệt là người bệnh không nên tự ý thay đổi liều thuốc uống sau mổ tuyến giáp, vì có nguy cơ dẫn đến một số tác dụng phụ như nhịp tim nhanh hay loạn nhịp, tăng thèm ăn, mất ngủ hoặc run tay chân...",
+                "score": 0.44625332951545715,
+                "id": "vietnamese_healthcare_97640",
+                "rerank_score": 0.04056502506136894
+            }
+        ]
+    ],
+    "llm_call": 6,
+    "num_turns": 2
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Chào bác sĩ! Con nhà em 5 tuổi mới đi viện bỏng về đc 3 tháng, do trong thời gian nằm viện bé nằm về 1 bên mấy ngày nên giờ cổ không quay hết như bình thường được và vai nhiều lúc cũng bị lệch. Bác sĩ cho em hỏi như vậy là làm sao ạ? Và phải làm thế nào để hết được? Mong bác sĩ tư vấn giúp em, em cảm ơn.",
+    "ground_truth": "Chào bạn! Trong câu hỏi bạn không nói rõ con bị bỏng ở bộ phận nào và mức độ ra sao. Vết bỏng sau khi thành sẹo và mất độ đàn hồi bình thường của da có thể gây hạn chế vận động. Mẹ có thể cho con qua các bệnh viện thuộc hệ thống AI-Doctor khám lại để được tư vấn cụ thể nhé.",
+    "answer": "Chào bạn, tài liệu chưa có đủ thông tin để xác định chính xác nguyên nhân cổ bé không quay hết và vai bị lệch sau khi nằm một bên trong thời gian điều trị bỏng. Bạn nên đưa bé đến khám tại khoa Vật lý trị liệu và Phục hồi chức năng để được thăm khám, lượng giá và hướng dẫn bài tập phù hợp; không nên tự ý tập hoặc cố xoay cổ cho bé. Gia đình có thể trao đổi với bác sĩ về các phương pháp phục hồi như xoa mềm cơ và điều chỉnh tư thế, đồng thời nên tái khám định kỳ tại cơ sở đã điều trị cho bé.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ, bé nhà em 4 tuổi bị bỏng độ 1 - 2, đã nằm viện điều trị 13 ngày, hiện tại đã được 23 ngày nhưng vết bỏng vẫn chưa khô, nhìn như 1 vũng đầm lầy, không biết bé có bị nhiễm trùng không ạ?\nTrả lời: Chào bạn,theo tôi bạn nên quay lại gặp BS Bỏng để có đánh giá rõ vì bạn không cho biết vị trí bỏng và diện tích bỏng.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.6161582469940186,
+            "id": "vietnamese_medical_qa_4812"
+        },
+        {
+            "text": "Câu hỏi: . Bé nhà tôi không quay đầu khi đẻ, cháu bị bắt đầu vànghẹo cổ, bây giờ đầu cháu tròn bình thường nhưng vẫn hơi nghẹo cổ. Mong bác sĩ tư vấn giúp tôi cáchkhắc phục chứng nghẹo cổ ở trẻ như thế nào?Cảm ơn bác sĩ. Nguyễn Thế Hải Đăng(2019) Trả lời Được giải đáp bởiBSCK II Cao Thị Thanh- Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu cháu vẫn phát triển bình thường, chỉ có đầu hơi lệch sang 1 phía. Đây là hiện tượng khá hay gặp ở trẻ sau sinh. Do tư thế bé nằm trong tử cung mẹ: đầu bé luôn nghiêng sang 1 bên. Mẹ có thể cho bé khám Phòng khám lý liệu pháp Nhi, có Phương pháp xoa mềm cơ ức đòn chũm để khác phục phần nào.",
+            "score": 0.5915018320083618,
+            "id": "medical_vietnamese_qa_8040"
+        },
+        {
+            "text": "Câu hỏi: Chào Bác sĩ,\nCon tôi lúc 11 tháng tuổi (04.2017) đã đi được chập chững, nhưng vào thời điểm này bé bị sốt cao nhiễm trùng huyết nằm điều trị tại 1 bệnh viện tuyến trung ương. Sau khi điều trị hết nhiễm trùng huyết thì bé bị di chứng về não. Đến nay bé đã 44 tháng và không thể tự ngồi lại được, điều khiển chân tay khó khăn, nói chuyện khó khăn và không rõ chữ. Tôi xin hỏi ý kiến bác sĩ về trường hợp của bé có liệu pháp, hay lộ trình nào để có thể phục hồi não trở về trạng thái ban đầu cho bé không?\nXin chân thành cảm ơn bác sĩ. Mong được phản hồi sớm.\nTrả lời: Chào bạn Thanh,\nTôi xin được tư vấn về trường hợp con của bạn như sau: Từ khi cháu có nhiễm trùng huyết và sau đó bị tổn thương não, đến bây giờ đã gần 3 năm từ khi bị. Như vậy cháu đang ở giai đoạn di chứng của tổn thương não. Để có thể phục hồi não bộ cho cháu tốt nhất, bây giờ gia đình cần đưa cháu đến khoa Vật lý trị liệu và Phục hồi chức năng để khám và lượng giá lại. Bác sĩ sau khi thăm khám để biết mức độ tổn thương não của cháu đã ở mức độ nào mới có thể đưa ra tiên lượng, lộ trình điều trị và có bài tập thích hợp nhất dành cho bé được.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng!",
+            "score": 0.5819299221038818,
+            "id": "vietnamese_medical_qa_4900"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, con  tôi được 2 tháng, cháu bị u cơ ức đòn chủm phải, tôi đang điều trị VLTL cho cháu. Xin hỏi bs, tôi cho cháu nằm nghiêng sang phải nhưng không hoàn toàn ( nửa thân bên trái tựa vào gối, người ngửa ngửa ) như vậy có ảnh hưởng đến cột sống của trẻ không BS ? Hiện, cục u đã mềm không còn cứng như trước nữa và bé đã có thể tự xoay đầu sang phải, tình trạng của bé vậy đã có dấu hiệu đỡ phải không bs ? Mong sớm nhận được câu trả lời của bs, vì tôi đang rất lo lắng. Cảm ơn BS.\nTrả lời: chào bạn. \nBạn nên tập theo hướng dẫn của của bác sĩ phục hồi chức năng. theo các dấu hiệu bạn mô tả như  khối ở cơ ức đòn chũm đã mềm và cổ bé đã có thể xoay phải trái như vậy là có tiến triển. ban quan sát xem tư thế trẻ có còn bị lệch vào một bên hay không? và tốt nhất thì bạn nên đến cơ sở y tế mà bạn đã cho em bé của bạn khám trước đây để kiểm tra định kỳ. Việc bạn cho trẻ nằm tư thế như bạn mô tả thì thực sự tôi không thể tưởng tượng em bé như thế nào. tốt nhất ngoài những tư thế tập cho trẻ mà bạn được bác sĩ phục hồi chức năng hướng dẫn thì bạn nên cho bé nằm ở tư thế sinh lý để bé được thoải mái. chúc bé mau khỏe.",
+            "score": 0.5759516358375549,
+            "id": "vietnamese_medical_qa_7778"
+        },
+        {
+            "text": "Câu hỏi: ! Bé nhà emsinh non31 tuần, được 2.1kg. Do mẹ mang thai bị cao huyết áp nên mổ sớm, bé sinh ra bịthiếu oxy não. Tới nay được 12 tháng mà bé chưa lật được, cổ còn yếu, 2 tay bé cứ đụng vô là lấy gân chặt. Xin hỏi bác sĩ con nhà em nên chữa như thế nào ạ? Em cảm ơn bác sĩ. Phan Phú Thiện(2019) Trả lời Được giải đáp bởiPGS, TS, BS Ninh Thị Ứng -Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Với các triệu chứng hiện tại, bạn nên đưa trẻ đến khám chuyên khoa Thần kinh và chuyên khoa Phục hồi chức năng, bác sĩ cần khám trực tiếp trẻ và tư vấn cụ thể.",
+            "score": 0.5689266324043274,
+            "id": "medical_vietnamese_qa_7906"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

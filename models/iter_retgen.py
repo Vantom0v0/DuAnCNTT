@@ -40,8 +40,8 @@ def iter_retgen_model(query, groundtruth = "NA", iteration = 3, evaluation_mode 
 
     return {
         "model_name": "iter_retgen",
-        "query": query,
-        "groundtruth": groundtruth,
+        "question": query,
+        "ground_truth": groundtruth,
         "answer": output_answer,
         "retrieved": retrieved_documents,
         "llm_call": llm_calls,

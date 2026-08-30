@@ -1,0 +1,122 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Bé 5.5 tháng nặng 6.7 kg. Cách đây vài hôm, bé bị dị ứng sữa công thức. Bình thường bé bú mẹ hoàn toàn. 4 hôm nay xì hơi nhiều và có mùi nặng, 2 ngày mới đi vệ sinh 1 lần, Bác sĩ cho em hỏitrẻ xì hơi nhiều, 2 ngày mới đi vệ sinh có sao không?Em có nên cho bé uống thêm men vi sinh không? Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Tình trạng của bé hiện không gợi ý bất thường, không cần bổ sung men cho bé.",
+    "answer": "Nếu bé vẫn bú mẹ tốt, lên cân đều, ngủ bình thường, không quấy khóc, bụng mềm và phân vẫn mềm thì việc 2 ngày mới đi ngoài một lần, kèm xì hơi nhiều, thường không đáng lo và chưa phải táo bón. Trong trường hợp này, bé không cần bổ sung men vi sinh; bạn nên tiếp tục cho bé bú mẹ, có thể massage bụng và theo dõi thêm. Đưa bé đi khám nếu xuất hiện bụng chướng hoặc đau, bú kém, nôn, sốt, phân tóe nước/nhầy máu hoặc chậm lên cân.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Trẻ bú mẹ hoàn toàn nếu trẻ hấp thu tốt, lên cân, bụng mềm, không quấy khóc, trẻ đi tiểu nhiều lần trong ngày thì trẻ không đi vệ sinh trong 4-5 ngày là bình thường.",
+        "Nếu trẻ chậm đi cầu, bụng chướng căng kèm tiền sử sau sinh chậm đi cầu phân su trong 24h đầu sau sinh thì mẹ nên cho bé đi khám.",
+        "Còn lại, bạn tích cực cho bé bú, massage bụng và theo dõi thêm.",
+        "Nếu phân bé tóe nước, nhầy máu, bú kém, nôn, chướng bụng,...",
+        "thì là dấu hiệu bất thường, lúc này bạn nên đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể.",
+        "Bạn có thể cho trẻ dùng men Biogaia để giúp trẻ tăng thêm thức đề kháng hệ tiêu hóa, miễn dịch.",
+        "Hiện tại bú mẹ hoàn toàn, vẫn khỏe mạnh bình thường không quấy khóc nhưng bé đi đại tiện 3 - 4 ngày mới đi 1 lần phân lỏng nhưng mùi nặng, bé đánh rắm rất nhiều.",
+        "Bé lên cân tốt, bú khá, không quấy khóc thì bạn không cần bổ sung thêm men vi sinh.",
+        "Nếu tình trạng phân nhầy kéo dài, phân có máu, bé sốt hoặc chậm lên cân thì chị cần đưa bé đi khám ngay.",
+        "Ở lứa tuổi này trẻ bú mẹ hoàn toàn mà 1 tuần không ị nhưng phân vẫn mềm, bé chơi vui và tăng cân tốt thì cũng không phải táo bón.",
+        "Tuy nhiên, nếu trẻ có biểu hiện đầy bụng, đau bụng...",
+        "bạn có thể đưa trẻ đi khám chuyên khoa Tiêu hóa tại cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để bác sĩ khẳng định chẩn đoán và tư vấn chế độ ăn của mẹ cũng như hướng xử trí tiếp theo.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Bé vẫn ti mẹ và ngủ bình thường không quấy khóc và lên cân đều thì không sao hết.",
+        "Bên cạnh đó, bạn nên cho bé bú mẹ nhiều."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bé nhà em được 25 ngày tuổi, bình thường 1 ngày bé ị 5 - 6 lần, bé ti mẹ là chính, 1 ngày em cho ti thêm sữa ngoài 50 - 60ml, nhưng 2 ngày nay bé chưa ị được mà xì hơi nhiều. Bé hay bị trớ. Em ăn uống rau củ chế độ đầy đủ. Vậy bác sĩ cho em hỏitrẻ sơ sinh 2 ngày chưa đi ngoài kèm xì hơi nhiều có phải táo bón?Em nên khắc phục thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ bú mẹ hoàn toàn nếu trẻ hấp thu tốt, lên cân, bụng mềm, không quấy khóc, trẻ đi tiểu nhiều lần trong ngày thì trẻ không đi vệ sinh trong 4-5 ngày là bình thường. Nếu trẻ chậm đi cầu, bụng chướng căng kèm tiền sử sau sinh chậm đi cầu phân su trong 24h đầu sau sinh thì mẹ nên cho bé đi khám. Còn lại, bạn tích cực cho bé bú, massage bụng và theo dõi thêm.",
+                "score": 0.6898166537284851,
+                "id": "medical_vietnamese_qa_4646",
+                "rerank_score": 0.9790855050086975
+            },
+            {
+                "text": "Câu hỏi: Hiện tại, con em được gần 2 tháng tuổi. Bé ti mẹ và có dặm thêm sữa ngoài nhưng ít. Mới đây, em có đổi sữa cho bé thì bé vẫn ti bình thường còn tí nhiều hơn sữa cũ, nhưng em thấy bé có hiện tượng là xì hơi nhiều lần trong ngày, có mùi, rồi hết hộp đó em cho bé quay về sữa ban đầu thì bé bớt xì hơi nhưng vẫn có mùi và bé đi phân có màu khác bình thường và có mùi thối nhưng bé vẫn ti mẹ và ngủ bình thường không quấy khóc. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nhiều kèm phân màu khác thường có sao không?Em nên làm thế nào để cải thiện tình trạng của bé? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé vẫn ti mẹ và ngủ bình thường không quấy khóc và lên cân đều thì không sao hết. Bạn vẫn cho bé ăn như hiện tại. Nếu phân bé tóe nước, nhầy máu, bú kém, nôn, chướng bụng,... thì là dấu hiệu bất thường, lúc này bạn nên đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể. Bên cạnh đó, bạn nên cho bé bú mẹ nhiều.",
+                "score": 0.7611701488494873,
+                "id": "medical_vietnamese_qa_5158",
+                "rerank_score": 0.977132260799408
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 1 tháng tuổi. Một tuần nay,bé xì hơi nhiềuvà có mùi thối (không dưới 30 lần), mỗi lần muốn xì hơi thì hay rặn, gồng mình, có khi quấy khóc luôn, xì hơi xong là hết. Em cảm giác như bé xì hơi bị đau ở đâu đó. Nhưng nếu ẵm bé lên người đi tới đi lui thì bé xì hơi bình thường không khó chịu. Bé không có biểu hiện sốt hay đi ị bất thường, bé bú mẹ hoàn toàn. Hai ngày nay, bé chưa đi ngoài. Ban ngày, bé ngủ giấc ngắn nửa tiếng, tầm 1 tiếng thôi. Cứ 2 tiếng thì bé bú 1 lần, mỗi lần bú cũng khoảng nửa tiếng mới chịu. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nhiều có sao không?Em có cần cho bé đi khám không? Em cảm ơn bác sĩ. Trần Thị Thúy(1991) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Bùi Thị Hà -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Xì hơi (hay còn gọi là trung tiện) là sự tích tụ khí xảy ra khi nguồn thức ăn chưa tiêu hóa hết ở dạ dày, khi xuống đến đại tràng sẽ được các vi khuẩn phân hủy dẫn đến bài tiết khí. Nguyên nhân của trung tiện nhiều có thể do kém tiêu hóa thức ăn do trẻ không dung nạp được đường Lactose và gluten, mắcbệnh Celiaccũng có triệu chứng ợ hơi và trung tiện, do táo bón, doloạn khuẩn đường ruột. Vì thế, bạn nên cho trẻ đi khám để được thăm khám chẩn đoán tìm nguyên nhân điều trị cho trẻ.",
+                "score": 0.7512759566307068,
+                "id": "medical_vietnamese_qa_6105",
+                "rerank_score": 0.9716299772262573
+            },
+            {
+                "text": "Câu hỏi: ! Con em hiện tại được 17 ngày tuổi. Từ lúc mới sinh cho đến tầm 1 tuần tuổi, bé thường sôi bụng, có dấu hiệu đầy hơi dẫn đến khó ngủ. Mỗi lần đi nặng bé thường khó rặn nhưng phân lỏng, màu vàng ươm, thỉnh thoảng có hạt. Em có theo dõi bé khoảng 1 tuần thấy không thuyên giảm nên đưa bé đi khám, bác sĩ bảo đó là dấu hiệu bình thường vàhướng dẫn cho bé bú đúng khớp ngậm. Từ hôm đó trở đi thì bé giảm sôi bụng nhưng 2-3 hôm lại đây thì thường trớ nhẹ, trong ngày có 1-2 lần ọc sữa nhiều, đi nặng và xì hơi vẫn phải oằn mình khóc. Bác sĩ cho em hỏi với tình trạngtrẻ sơ sinh khó đi nặng, bị ọc sữanhư vậy có thể dùng men vi sinh Biogaia được không ạ? Nguyễn Thị Thảo Sương(1992) Trả lời\nTrả lời: Chào bạn Nguyễn Thị Thảo Sương! Với câu hỏi “trẻ sơ sinh khó đi nặng, bị ọc sữa như vậy có thể dùng men vi sinh Biogaia được không?”, bác sĩ xin được trả lời như sau: Trẻ sơ sinh trong tháng đầu tiên có một số biểu hiện sinh lý như: Dạ dày nằm ngang nên dễnôn trớsau ăn uống. Để hạn chế biểu hiện này, khi cho trẻ bú miệng trẻ cần ngậm kín ít nhất 2⁄3 quầng vú mẹ, nên chia nhỏ bữa vú, sau bú nên để trẻ ở tư thế thân trên cao, vỗ lưng giữa 2 xương bả vai để trẻ ợ hơi. Trong tháng đầu trẻ có thể có biểu hiện rối loạn bài tiết phân, trẻ có thể són ít phân khi khóc, gồng mình, sau bú, rặn khi đại tiện. Bạn có thể cho trẻ dùng men Biogaia để giúp trẻ tăng thêm thức đề kháng hệ tiêu hóa, miễn dịch. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp trực tiếp bạn để có thể được tư vấn kỹ càng hơn. Trân trọng! Được tư vấn bởi Thạc sĩ, Bác sĩ Nguyễn Thị Ân- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
+                "score": 0.6968708038330078,
+                "id": "medical_vietnamese_qa_7720",
+                "rerank_score": 0.9541865587234497
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 2.5 tháng. Từ khoảng 1.5 tháng, bé xì hơi nặng mùi, 7 ngày mới ị, phân có màu vàng sệt. Mỗi lần trước khi ngủ bé đều quấy khóc, bé ít khi bú khi đang thức. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nặng mùi kèm đi ngoài ít có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Hiện tại, cháu xì hơi và phân vàng như trên là bình thường, bạn có thể bổ sung thêm biogaia ngày 5 giọt mỗi sáng để làm giảm quấy khóc, và xì hơi.",
+                "score": 0.7775872349739075,
+                "id": "medical_vietnamese_qa_4535",
+                "rerank_score": 0.9511743187904358
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bé nhà em 4 tháng. Hiện tại bú mẹ hoàn toàn, vẫn khỏe mạnh bình thường không quấy khóc nhưng bé đi đại tiện 3 - 4 ngày mới đi 1 lần phân lỏng nhưng mùi nặng, bé đánh rắm rất nhiều. Vậy bác sĩ cho em hỏitrẻ 4 tháng tuổi ít đi ngoài, phân lỏng nặng mùi có sao không?Có phải bé đang bị táo bón không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đi ngoài ít, phân lỏng nặng mùi là dấu hiệu táo bón. Bạn nên cho bé đi khám chuyên khoa Tiêu hóa nhi để được đánh giá cụ thể.",
+                "score": 0.70637047290802,
+                "id": "medical_vietnamese_qa_4705",
+                "rerank_score": 0.9963316321372986
+            },
+            {
+                "text": "Câu hỏi: Con em được 4 tháng 10 ngày nặng 7kg. Cháu bú mẹ hoàn toàn. Cháu ngày đi ngoài 4 - 5 lần, phân màu vàng hoa cà hoa cải có nước và sủi bọt. Thỉnh thoảng, bé có són 1 ít phân ra. Bé vẫn bú bình thường, không quấy khóc. Hiện giờ, em đang cho bé uống men vi sinh mà không thấy cải thiện. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần kèm són phân có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bú mẹ hoàn toàn thì đi phân hoa cà hoa cải 4 - 5 lần/ ngày là tình trạng bình thường nên bạn không cần lo lắng. Bé lên cân tốt, bú khá, không quấy khóc thì bạn không cần bổ sung thêm men vi sinh.",
+                "score": 0.7057289481163025,
+                "id": "medical_vietnamese_qa_4923",
+                "rerank_score": 0.9896284341812134
+            },
+            {
+                "text": "Câu hỏi: Con em uống sữa mẹ hoàn toàn nhưng phải vắt ra bình. Bé đến nay được 4 tháng 6 ngày. Lúc sinh được 3.3kg hiện tại bé 7kg. Bé nhà em đi ngoài phân có nhầy. Có mùi chua kéo dài khá lâu rồi ạ. Bác sĩ cho em hỏitrẻ bú mẹ hoàn toàn đi ngoài mùi chua kèm phân nhầy có sao không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Trẻ bú mẹ hoàn toàn đi ngoài mùi chua kèm phân nhầy có sao không?”, bác sĩ giải đáp như sau: Trẻ 4 tháng được 7kg là vẫn trong giới hạn cân nặng bình thường so với tuổi. Tuy nhiên, nếu phân nhầy, chua lâu ngày có thể rối loạn tiêu hóa. Vắt sữa dễ gây nhiễm khuẩn trong quá trình bảo quản. Khuyến cáo cho con bú trực tiếp mẹ. Lưu ý vấn đề vệ sinh cho trẻ trong quá trình ăn uống và chăm sóc. Nếu không cải thiện, bạn cần cho trẻ đến khám bác sĩ.",
+                "score": 0.702498197555542,
+                "id": "medical_vietnamese_qa_5321",
+                "rerank_score": 0.9886977672576904
+            },
+            {
+                "text": "Câu hỏi: Con em hiện được 5,5 tháng ăn sữa công thức và bú mẹ (bú ít thôi do mẹ ít sữa). Bé có hiện tượng cứ ăn sữa xong là bị đi ngoài, tháng trước thì thi thoảng mới bị nhưng độ 1 tuần nay thì bị nhiều hơn, đi ngoài tầm 3 - 4 lần 1 ngày, phân có nhớt và mùi chua. Vậy bác sĩ cho em hỏitrẻ 5,5 tháng tuổi đi ngoài sau ăn có sao không?Cách khắc phục như thế nào? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Phân bé nhớt và có mùi chua nhiều có thể do rối loạn tiêu hóa hoặc nhiễm trùng đường ruột. Nếu tình trạng phân nhầy kéo dài, phân có máu, bé sốt hoặc chậm lên cân thì chị cần đưa bé đi khám ngay.",
+                "score": 0.7081490159034729,
+                "id": "medical_vietnamese_qa_4798",
+                "rerank_score": 0.9880121946334839
+            },
+            {
+                "text": "Câu hỏi: ! Con em được 2 tháng 5 ngày, 1 tuần trở lại đây bé không đi ị, hay rặn, xì hơi có mùi hôi, bụng to. Mỗi ngày bé đi ngoài có 1 hoặc 2 lần, mỗi lần bé đi đều khóc thét lên. Khi khóc thì bé cong người, quơ tay chân, mặt bé tím tái quanh mắt, mũi, mép miệng. Khóc xong thì bé mệt và ngủ luôn. Ngoài ra, bé vẫn bú nhiều, và chơi vui, tăng cân đều. Xin hỏi bác sĩ,trẻ khó đi ngoài, xì hơi có mùi có phải dotáo bónkhông? Mong bác sĩ tư vấn giúp em. Xin cảm ơn bác sĩ. Phạm Thị Kim Chi(1993) Trả lời\nTrả lời: Chào bạn! Thông tin bạn gửi không có chế độ ăn của trẻ, trẻ bú mẹ hay sữa công thức nên bác sĩ rất khó có thể kết luậntrẻ khó đi ngoài, xì hơi có mùi có phải do táo bón không. Ở lứa tuổi này trẻ bú mẹ hoàn toàn mà 1 tuần không ị nhưng phân vẫn mềm, bé chơi vui và tăng cân tốt thì cũng không phải táo bón. Tuy nhiên, nếu trẻ có biểu hiện đầy bụng, đau bụng... bạn có thể đưa trẻ đi khám chuyên khoa Tiêu hóa tại cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để bác sĩ khẳng định chẩn đoán và tư vấn chế độ ăn của mẹ cũng như hướng xử trí tiếp theo. Cảm ơn bạn đã đặt câu hỏi tới Vinmec. Trân trọng! Được giải đáp bởiBác sĩ Đỗ Thị Linh Phương -Bác sĩ Nhi - Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.7241191267967224,
+                "id": "medical_vietnamese_qa_7738",
+                "rerank_score": 0.9828589558601379
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bé nhà em 4 tháng. Hiện tại bú mẹ hoàn toàn, vẫn khỏe mạnh bình thường không quấy khóc nhưng bé đi đại tiện 3 - 4 ngày mới đi 1 lần phân lỏng nhưng mùi nặng, bé đánh rắm rất nhiều. Vậy bác sĩ cho em hỏitrẻ 4 tháng tuổi ít đi ngoài, phân lỏng nặng mùi có sao không?Có phải bé đang bị táo bón không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đi ngoài ít, phân lỏng nặng mùi là dấu hiệu táo bón. Bạn nên cho bé đi khám chuyên khoa Tiêu hóa nhi để được đánh giá cụ thể.",
+                "score": 0.686922550201416,
+                "id": "medical_vietnamese_qa_4705",
+                "rerank_score": 0.9963316321372986
+            },
+            {
+                "text": "Câu hỏi: ! Con em được 2 tháng 5 ngày, 1 tuần trở lại đây bé không đi ị, hay rặn, xì hơi có mùi hôi, bụng to. Mỗi ngày bé đi ngoài có 1 hoặc 2 lần, mỗi lần bé đi đều khóc thét lên. Khi khóc thì bé cong người, quơ tay chân, mặt bé tím tái quanh mắt, mũi, mép miệng. Khóc xong thì bé mệt và ngủ luôn. Ngoài ra, bé vẫn bú nhiều, và chơi vui, tăng cân đều. Xin hỏi bác sĩ,trẻ khó đi ngoài, xì hơi có mùi có phải dotáo bónkhông? Mong bác sĩ tư vấn giúp em. Xin cảm ơn bác sĩ. Phạm Thị Kim Chi(1993) Trả lời\nTrả lời: Chào bạn! Thông tin bạn gửi không có chế độ ăn của trẻ, trẻ bú mẹ hay sữa công thức nên bác sĩ rất khó có thể kết luậntrẻ khó đi ngoài, xì hơi có mùi có phải do táo bón không. Ở lứa tuổi này trẻ bú mẹ hoàn toàn mà 1 tuần không ị nhưng phân vẫn mềm, bé chơi vui và tăng cân tốt thì cũng không phải táo bón. Tuy nhiên, nếu trẻ có biểu hiện đầy bụng, đau bụng... bạn có thể đưa trẻ đi khám chuyên khoa Tiêu hóa tại cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để bác sĩ khẳng định chẩn đoán và tư vấn chế độ ăn của mẹ cũng như hướng xử trí tiếp theo. Cảm ơn bạn đã đặt câu hỏi tới Vinmec. Trân trọng! Được giải đáp bởiBác sĩ Đỗ Thị Linh Phương -Bác sĩ Nhi - Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.6842743158340454,
+                "id": "medical_vietnamese_qa_7738",
+                "rerank_score": 0.9828589558601379
+            },
+            {
+                "text": "Câu hỏi: Hiện tại, con em được gần 2 tháng tuổi. Bé ti mẹ và có dặm thêm sữa ngoài nhưng ít. Mới đây, em có đổi sữa cho bé thì bé vẫn ti bình thường còn tí nhiều hơn sữa cũ, nhưng em thấy bé có hiện tượng là xì hơi nhiều lần trong ngày, có mùi, rồi hết hộp đó em cho bé quay về sữa ban đầu thì bé bớt xì hơi nhưng vẫn có mùi và bé đi phân có màu khác bình thường và có mùi thối nhưng bé vẫn ti mẹ và ngủ bình thường không quấy khóc. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nhiều kèm phân màu khác thường có sao không?Em nên làm thế nào để cải thiện tình trạng của bé? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé vẫn ti mẹ và ngủ bình thường không quấy khóc và lên cân đều thì không sao hết. Bạn vẫn cho bé ăn như hiện tại. Nếu phân bé tóe nước, nhầy máu, bú kém, nôn, chướng bụng,... thì là dấu hiệu bất thường, lúc này bạn nên đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể. Bên cạnh đó, bạn nên cho bé bú mẹ nhiều.",
+                "score": 0.7376607060432434,
+                "id": "medical_vietnamese_qa_5158",
+                "rerank_score": 0.977132260799408
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 1 tháng tuổi. Một tuần nay,bé xì hơi nhiềuvà có mùi thối (không dưới 30 lần), mỗi lần muốn xì hơi thì hay rặn, gồng mình, có khi quấy khóc luôn, xì hơi xong là hết. Em cảm giác như bé xì hơi bị đau ở đâu đó. Nhưng nếu ẵm bé lên người đi tới đi lui thì bé xì hơi bình thường không khó chịu. Bé không có biểu hiện sốt hay đi ị bất thường, bé bú mẹ hoàn toàn. Hai ngày nay, bé chưa đi ngoài. Ban ngày, bé ngủ giấc ngắn nửa tiếng, tầm 1 tiếng thôi. Cứ 2 tiếng thì bé bú 1 lần, mỗi lần bú cũng khoảng nửa tiếng mới chịu. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nhiều có sao không?Em có cần cho bé đi khám không? Em cảm ơn bác sĩ. Trần Thị Thúy(1991) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Bùi Thị Hà -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Xì hơi (hay còn gọi là trung tiện) là sự tích tụ khí xảy ra khi nguồn thức ăn chưa tiêu hóa hết ở dạ dày, khi xuống đến đại tràng sẽ được các vi khuẩn phân hủy dẫn đến bài tiết khí. Nguyên nhân của trung tiện nhiều có thể do kém tiêu hóa thức ăn do trẻ không dung nạp được đường Lactose và gluten, mắcbệnh Celiaccũng có triệu chứng ợ hơi và trung tiện, do táo bón, doloạn khuẩn đường ruột. Vì thế, bạn nên cho trẻ đi khám để được thăm khám chẩn đoán tìm nguyên nhân điều trị cho trẻ.",
+                "score": 0.7241319417953491,
+                "id": "medical_vietnamese_qa_6105",
+                "rerank_score": 0.9716299772262573
+            },
+            {
+                "text": "Câu hỏi: ! Con em hiện tại được 17 ngày tuổi. Từ lúc mới sinh cho đến tầm 1 tuần tuổi, bé thường sôi bụng, có dấu hiệu đầy hơi dẫn đến khó ngủ. Mỗi lần đi nặng bé thường khó rặn nhưng phân lỏng, màu vàng ươm, thỉnh thoảng có hạt. Em có theo dõi bé khoảng 1 tuần thấy không thuyên giảm nên đưa bé đi khám, bác sĩ bảo đó là dấu hiệu bình thường vàhướng dẫn cho bé bú đúng khớp ngậm. Từ hôm đó trở đi thì bé giảm sôi bụng nhưng 2-3 hôm lại đây thì thường trớ nhẹ, trong ngày có 1-2 lần ọc sữa nhiều, đi nặng và xì hơi vẫn phải oằn mình khóc. Bác sĩ cho em hỏi với tình trạngtrẻ sơ sinh khó đi nặng, bị ọc sữanhư vậy có thể dùng men vi sinh Biogaia được không ạ? Nguyễn Thị Thảo Sương(1992) Trả lời\nTrả lời: Chào bạn Nguyễn Thị Thảo Sương! Với câu hỏi “trẻ sơ sinh khó đi nặng, bị ọc sữa như vậy có thể dùng men vi sinh Biogaia được không?”, bác sĩ xin được trả lời như sau: Trẻ sơ sinh trong tháng đầu tiên có một số biểu hiện sinh lý như: Dạ dày nằm ngang nên dễnôn trớsau ăn uống. Để hạn chế biểu hiện này, khi cho trẻ bú miệng trẻ cần ngậm kín ít nhất 2⁄3 quầng vú mẹ, nên chia nhỏ bữa vú, sau bú nên để trẻ ở tư thế thân trên cao, vỗ lưng giữa 2 xương bả vai để trẻ ợ hơi. Trong tháng đầu trẻ có thể có biểu hiện rối loạn bài tiết phân, trẻ có thể són ít phân khi khóc, gồng mình, sau bú, rặn khi đại tiện. Bạn có thể cho trẻ dùng men Biogaia để giúp trẻ tăng thêm thức đề kháng hệ tiêu hóa, miễn dịch. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp trực tiếp bạn để có thể được tư vấn kỹ càng hơn. Trân trọng! Được tư vấn bởi Thạc sĩ, Bác sĩ Nguyễn Thị Ân- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
+                "score": 0.6814736127853394,
+                "id": "medical_vietnamese_qa_7720",
+                "rerank_score": 0.9541865587234497
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

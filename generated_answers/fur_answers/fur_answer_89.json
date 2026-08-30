@@ -1,0 +1,75 @@
+{
+    "model_name": "fur",
+    "question": "Cháu chào bác sĩ ạ. Cháu làm nam, năm nay 19 tuổi. Gần đây cháu phát hiện ra quanh phần đầu của bộ phận sinh dục có các chấm nhỏ bao quanh, xếp thành hàng. Mà cháu có lỡ 1 lần quan hệ không bảo vệ ạ. Vậy là cháu bị bệnh gì ạ?",
+    "ground_truth": "Chào bạn. Với những thông tin bạn cung cấp có thể bạn đang bị viêm nhiễm nam khoa, do vi khuẩn và nấm gây hại tấn công vào vùng kín, gây nhiễm khuẩn đường sinh dục. Nguyên nhân gây viêm nhiễm nam khoa có thể do vệ sinh vùng kín không tốt, quan hệ không sử dụng biện pháp an toàn rất dễ mắc các bệnh lây qua đường tình dục,...\nBạn cần đến cơ sở y tế để được bác sĩ chuyên khoa thăm khám và tư vấn chi tiết nhé.",
+    "answer": "Các chấm nhỏ li ti xếp thành một vòng quanh rãnh/viền quy đầu, tồn tại lâu, không đau, không ngứa, không loét hay tiết dịch **có thể là sẩn ngọc dương vật/tuyến Tyson** — một cấu trúc giải phẫu lành tính, không phải dị tật và thường không cần điều trị.\n\nTuy nhiên, chỉ dựa trên mô tả thì **chưa thể chẩn đoán chắc chắn**. Vì cháu từng quan hệ không bảo vệ, vẫn cần khám trực tiếp tại chuyên khoa **Da liễu hoặc Tiết niệu** để phân biệt với các bệnh lây truyền qua đường tình dục và được tư vấn xét nghiệm phù hợp. Nếu xuất hiện mụn đỏ, mụn nước, loét, ngứa, đau, tiết dịch hoặc các nốt tăng số lượng/kích thước, cháu nên đi khám sớm. Trong thời gian này nên quan hệ tình dục an toàn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cho em hỏi về vấn đề về cơ quan sinh sản ạ :\nBìu , dái nổi lên những cục mụn màu trắng và ngứa . có những hạt to bằng hạt gạo , gãi nhiều thì rát\nTrả lời: Chào bạn, cám ơn bạn đã gửi câu hỏi\nTrường hợp của bạn có thể đang bị viêm nhiễm sinh dục. Bạn nên gặp bác sĩ da liễu để được khám, xét nghiệm - cận lâm sàng, chẩn đoán và điều trị phù hợp, kịp thời. Bên cạnh đó cần phải giữ vệ sinh sạch sẽ, quan hệ tình dục an toàn.\nChúc bạn nhiều sức khoẻ - Thân chào bạn",
+            "score": 0.5408748984336853,
+            "id": "vietnamese_medical_qa_6059",
+            "rerank_score": 0.6644318699836731
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nTừ nhỏ đến giờ tôi thấy đầu dương vật của mình có những gai màu trắng xung quanh đầu khấc, chúng nằm vòng xung quanh đường viền của đầu khấc, từ nhỏ đến giờ vẫm thấy chúng mà tôi thấy của mọi ngưòi thì không có các gai này. Dương vật tôi lâu nay tiểu tiện bình thường và không đau đớn gì, các gai này cho cảm giác nhột chứ cũng ko đau đớn, xin hỏi bác sĩ tôi có fai bị dị tật gì ở dương vật không? Xin cảm ơn bác sĩ\nTrả lời: Chào em!\nĐó là tình trạng bình thường của dương vật, Ở 1 số người những gai nhỏ trên dương vật có thể làm tăng thêm khoái cảm khi quan hệ. Không liên can gì đến dị tật. Nên em đừng lo lắng. \nThân ái!",
+            "score": 0.5426051020622253,
+            "id": "vietnamese_medical_qa_8883",
+            "rerank_score": 0.5816499590873718
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nBác sĩ cho tôi hỏi, năm nay tôi 16 tuổi, ở tinh hoàn bên trái có một vùng gì đó không rõ giống như gân nổi lên khá rõ, không cứng, bám vào tinh hoàn. Vậy tôi bị bệnh gì?\nTrả lời: Chào bạn. Thông thường ở mỗi bên tinh hoàn đều có một bộ phận gọi là mào tinh bám lên, sờ vào thì giống như cọng gân bám lên tinh hoàn. Bạn kiểm tra thử xem bên tinh hoàn bên còn lại cũng giống như vậy không. Nếu vẫn còn lo lắng, bạn nên đến các cơ sở y tế để được tư vấn và điều trị.",
+            "score": 0.5479370355606079,
+            "id": "vietnamese_medical_qa_7651",
+            "rerank_score": 0.5188747048377991
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em muốn hỏi bác sĩ, về vấn đề nam giới. Em có cảm giác như là mình có một cái \"trứng dái\" thứ ba nằm giữa hai trứng dưới và phần dưới dương vật. Đó là triệu chứng gì vậy bác sĩ? Tình trạng này có đáng lo ngại không ạ? Cảm ơn bác sĩ đã tư vấn.\nTrả lời: Chào bạn. Cấu trúc nằm giữa 2 tinh hoàn thường gặp nhất là nang thừng tinh, nang mào tinh hoàn. Những nang này chứa dịch trong suốt, mật độ mềm, không đau và di động. Những nang nhỏ không ảnh hưởng đến sức khỏe và không cần phải loại bỏ. Tuy nhiên, cần phân biệt với các bệnh lý khác như thoát vị bẹn bìu, viêm mào tinh hoàn hoặc u vùng bìu.\nCảm ơn bạn đã tin tưởng, chia sẻ những lo lắng tới AI-Doctor. Chúc bạn sớm lấy lại được sự tự tin trong cuộc sống.",
+            "score": 0.5324794054031372,
+            "id": "vietnamese_medical_qa_4841",
+            "rerank_score": 0.21173438429832458
+        },
+        {
+            "text": "Câu hỏi: Cháu là nữ, năm nay 15 tuổi. Cách đây mấy ngày ,cháu có phát hiện vùng mép ngoài phía trên cùng của môi lớn có xuất hiện 1 cục đường kính khoảng 0,5 cm, khi đụng vào thì đau và ấn xuống thì thấy cứng, có hơi sưng lên. Cháu hoang mang lắm. Bác sĩ cho cháu hỏivùng mép ngoài của môi lớn nổi cục 0,5cm cứng và hơi sưng là dấu hiệu bệnh gì? Rất mong bác sĩ tư vấn, cháu cảm ơn bác sĩ. Lê Thảo Nhi(Hồ Chí Minh) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Vùng âm hộ có nhiều cấu trúc nang lông và bã nhờn, hơn nữa các hoạt động tình dục có thể gây những vấn đề về vùng âm hộ, vì vậy bạn nên đến kiểm tra để bác sĩ xác định nguyên nhân cụ thể và có hướng điều trị thích hợp cho mình  Được giải đáp bởiBác sĩ nội trú Nguyễn Sỹ Quảng -Bác sĩ Sản phụ khoa - Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+            "score": 0.5380793809890747,
+            "id": "medical_vietnamese_qa_3498",
+            "rerank_score": 0.13737691938877106
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,e thấy có dấu hiệu lạ ở dương vật bác sĩ ạ nó nổi 2 nốt như mụn nhú lên k mưng mủ hay tự máu nào không ngứa hay đau dương vật e k đổi màu khác hay đau gì cả e có khám bệnh viện ở đà nẵng nhưng bác sĩ bảo không vấn đề nhưng 2 tháng e k thấy nó suy giảm gi nó cũng k to lên hay mọc thêm nên e muốn bác sĩ tư vấn cho e biết e bị mắc bệnh gì không ạ.Em xin cảm ơn !\nTrả lời: Chào bạn,\nVới thông tin bạn cung cấp có thể chỉ bị mụn nhọt thông thường hoặc có thể nghi vấn là dấu hiệu của bệnh sùi mào gà ( nếu bạn đã quan hệ tình dục).\nVì vậy tốt nhất bạn nên đi khám lại ở khoa da liễu của bệnh viện lớn, có uy tín xác định nguyên nhân chính xác, điều trị hiệu quả.\nNgoài ra nên vệ sinh sạch sẽ bộ phận sinh dục.\nKhông mặc quần quá chật.\nThân mến!",
+            "score": 0.5210561156272888,
+            "id": "vietnamese_medical_qa_7070",
+            "rerank_score": 0.027510179206728935,
+            "weighted_score": 0.6841163661330939
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân dương vật có mụn\nTrả lời: 1. Nguyên nhân dương vật có mụn\n1.2. Nguyên nhân bệnh lý Dương vật nổi mụn có thể xuất hiện bất kể nam giới có quan hệ tình dục hay không. Tuy nhiên nếu có hoạt động tình dục, những nốt mụn bất thường có nguy cơ là dấu hiệu của các bệnh lây truyền qua đường tình dục (STDs) hoặc một số vấn đề da liễu khác. Chẳng hạn như: Hạt bã nhờn (Fordyce Spot) Hạt bã nhờn là một tuyến bã nhờn nằm bên dưới nang lông và có thể nhìn thấy ở các khu vực không có lông - giống như dương vật. Dương vật nổi mụn trắng hoặc vàng, kích thước nhỏ là biểu hiện của tình trạng này. Các hạt bã nhờn xuất hiện trên dương vật thường cũng xuất hiện trong miệng và mọc thành từng cụm từ 50 - 100 hạt. Mặc dù vô hại nhưng đôi khi đám hạt bã nhờn sẽ ảnh hưởng đến mặt thẩm mỹ. Có thể điều trị bằng một số thủ thuật da liễu, chẳng hạn như tia laser, hoặc uống Isotretinoin. Sẩn ngọc dương vật (tuyến Tyson) Tuyến Tyson chính là tuyến bã nhờn nhô ra ở đầu dương vật, có thể nhìn thấy được xung quanh vòm và rãnh quy đầu, hoặc trong các nếp gấp mô nhỏ bên dưới dương vật. Những nốt sẩn ngọc nhỏ khiến dương vật nổi mụn trắng hoặc vàng, tuy nhiên chúng được xem là lành tính và không cần phải điều trị vì thuộc một phần cấu tạo giải phẫu bình thường. Mặc dù không liên quan đến dương vật có mụn bệnh lý, song tuyến Tyson tiết ra dầu khiến đầu bộ phận sinh dục bị ẩm ướt khó chịu. Viêm nang lông Triệu chứng của viêm nang lông là dương vật nổi mẩn đỏ và có một ít mủ ở gần gốc lông mọc. Những nốt sần này thường gây đau và ngứa nhưng cũng có thể tự khỏi mà không cần điều trị. Tuy nhiên một số trường hợp nặng hoặc tái phát nhiều lần thì cần dùng thuốc bôi diệt vi khuẩn để giúp xóa các nốt sần hiện có, đồng thời ngăn ngừa viêm lặp lại trong tương lai. riệu chứng của viêm nang lông là dương vật nổi mẩn đỏ và có một ít mủ ở gần gốc lông mọc U nang bạch huyết U nang bạch huyết, còn gọi là khối u lympho, hình thành dọc theo thân dương vật do chất chất lỏng bạch huyết bị tắc nghẽn sau khi hoạt động tình dục hoặc thủ dâm. Tác động ngoại lực khiến dương vật có mụn thường chỉ là tạm thời, sẽ tự khỏi mà không cần điều trị. U mềm lây (Molluscum contagiosum) Khi nhiễm virus lây lan qua đường tình dục sẽ khiến dương vật nổi mụn u mềm với đặc điểm có quầng đỏ xung quanh. U mềm lây không chỉ ảnh hưởng đến bộ phận sinh dục mà còn lây lan ra những khu vực lân cận. Nếu được phát hiện sớm, bệnh có thể được điều trị dễ dàng bằng phương pháp áp lạnh (Cryotherapy) nhằm ngăn chặn sự lây lan. Bệnh giang mai Giang mai là một bệnh nhiễm trùng nghiêm trọng lây truyền qua đường tình dục . Dương vật nổi mẩn đỏ , sau đó dần trở thành vết loét là dấu hiệu đầu tiên và duy nhất của căn bệnh này. Nhiễm giang mai trên dương vật có thể tự biến mất rồi tái phát trở lại nhiều năm sau đó. Tuy nhiên, bệnh nhân vẫn có nguy cơ lây nhiễm cho người khác trong thời gian này. Cần dùng kháng sinh để điều trị bệnh giang mai , vì nếu diễn tiến nặng sẽ có nguy cơ dẫn đến tổn thương nội tạng và các biến chứng liên quan đến thần kinh. Mụn cóc sinh dục Mụn cóc sinh dục lây truyền khi quan hệ tình dục không được bảo vệ, tương tự như virus HPV và herpes. Triệu chứng của bệnh là dương vật nổi mụn thịt dọc theo thân và mọc thành từng ổ dịch có dạng giống bề mặt bông cải (súp lơ). Mụn cóc sinh dục tuy không phải là ung thư, nhưng nếu xuất phát từ virus HPV sẽ tạo ra nguy cơ phát triển ung thư dương vật trong tương lai. Bệnh nhân cần đến gặp bác sĩ để được hướng dẫn biện pháp ngăn ngừa nhiễm trùng lây lan, cũng như hạn chế biến chứng.",
+            "score": 0.5141922831535339,
+            "id": "vietnamese_healthcare_148128",
+            "rerank_score": 0.17925304174423218,
+            "weighted_score": 0.3850053191184998
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em bị nổi mụn quanh rãnh quy đầu màu đỏ và bao quy đầu bị nổi mụn rộp khi vỡ bị loét đau như kim chích, lúc tự khỏi sau thời gian lại bị lại, em bị bệnh gì vậy ạ?\nPhước Mạnh (Đà Nẵng)\nChào bác sĩ. Cháu bị nổi mẩn đỏ đầu dương vật đó là bệnh gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn, bạn có tiền sử quan hệ tình dục không an toàn không? Tình trạng này là tình trạng viêm nhiễm ở dương vật. Ban nên đến khám chuyên khoa Tiết niệu để được tư vấn và điều trị chính xác.",
+            "score": 0.6498491764068604,
+            "id": "vietnamese_medical_qa_4133",
+            "rerank_score": 0.18698450922966003,
+            "weighted_score": 0.6079171121120454
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, sau khi quan he voi vo thi bi noi man do o dau duong vat? ko bit la bi benh gi a?\nTrả lời: Chào bạn,\nTheo như bạn nói thì có thể bạn bị viêm bao quy đầu tuy nhiên cũng không thể loại trừ bạn bị mắc các bệnh lây qua đường tình dục. Không biết bạn bị nổi mẩn đỏ có kèm theo các biểu hiện khác như ngứa, tiết dịch, hay đau rát không?\n- Trường hợp thứ nhất, nguyên nhân bị viêm bao quy đầu là do vệ sinh cậu bé không sạch sẽ hoặc không đúng cách ( trước và sau khi quan hệ cũng nên vệ sinh sạch sẽ), lạm dụng hóa chất hay mặc quần áo chật cũng dễ gây nên tình trạng này. Bạn nên kiểm tra và xem xét kỹ để loại trừ nguyên nhân.\n- Trường hợp thứ hai, nếu bạn có biểu hiện kèm theo như ngứa, rát, có dịch thì nên đi khám sớm để bác sỹ chuẩn đoán chính xác nguyên nhân và có hướng điều trị hiệu quả.\nThân mến!",
+            "score": 0.5570501089096069,
+            "id": "vietnamese_medical_qa_8235",
+            "rerank_score": 0.3045719265937805,
+            "weighted_score": 0.3936021447181702
+        },
+        {
+            "text": "Câu hỏi: ! Bác sĩ ơi, thú thật là em có quan hệ với gái ngành chủ nhật tuần trước. Khi quan hệ bằng miệng thì em không dùng bao nhưng khi làm thì có ạ. Hôm nay em mới thấy dương vật có vài mụn màu đỏ, ngoài ra không có biểu hiện gì khác ạ. Bác sĩ cho em hỏi,dương vật nổi mụn đỏ sau khi quan hệ tình dục là dấu hiệu của bệnh gìạ? Rất mong bác sĩ tư vấn, cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Dương vật nổi mụn đỏ sau khi quan hệ tình dục là dấu hiệu của bệnh gì?” như sau: Một số bệnh có thể lây khi quan hệ đường miệng- sinh dục. Khi bạn có quan hệ tình dục với đối tượng nguy cơ cao như gái mại dâm và có biểu hiện mụn đỏ ở dương vật bạn nên đến khám chuyên khoa Da liễu thuộcHệ thống Y tế Vinmecđể kiểm tra bạn nhé. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Lê Thị Thu Hằng -Bác sĩ Da Liễu - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng",
+            "score": 0.5601366758346558,
+            "id": "medical_vietnamese_qa_10182",
+            "rerank_score": 0.09871532768011093,
+            "weighted_score": 0.26831424683332444
+        }
+    ],
+    "llm_call": 7,
+    "iteration": 3
+}

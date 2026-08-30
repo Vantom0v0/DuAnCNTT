@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Em đã xét nghiệm và siêu âm, kết quả viêm dạ dày và đại tràng, men gan tăng cao, do mấy ngày qua em luôn có cảm giác mệt mỏi và ớn lạnh (không sốt). Bác sĩ cho em hỏimen tăng cao kèm ớn lạnh có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Men gan tăng cao là nguyên nhân làm cho bạn mệt mỏi. Men gan cao là dấu hiệu cảnh báo gan đang gặp vấn đề có thể là viêm gan, ung thư gan hoặc những bệnh gây tổn thương gan khác. Thậm chí men gan tăng cao do nhiễm độc có thể dẫn đến suy gan cấp, hôn mê gan và tử vong. Vì vậy, bạn nên đến bệnh viện để được thăm khám, chẩn đoán nguyên nhân gây ra tăng men gan , điều trị để tránh những biến chứng nguy hiểm.",
+    "answer": "Tăng men gan kèm mệt mỏi và ớn lạnh có thể liên quan đến viêm gan, nhưng viêm gan có nhiều nguyên nhân và chưa thể kết luận chỉ dựa trên các thông tin hiện có. Ngoài ra, xét nghiệm máu và siêu âm bụng không đủ để chẩn đoán viêm dạ dày, viêm đại tràng. Bạn nên khám lại bác sĩ để được đánh giá và tìm nguyên nhân chính xác, đặc biệt nếu triệu chứng vẫn tiếp diễn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: em đã xét nghiệm và siêu âm, kết quảviêm dạ dàyvà đại tràng,men gan tăng cao, do mấy ngày qua em luôn có cảm giác mệt mỏi và ớn lạnh (không sốt) có phải là do ảnh hưởng men gan tăng không ạ? Châu Hồng Sang (Nha Trang) Trả lời\nTrả lời: Chào bạn,xét nghiệm máuvàsiêu âm bụngkhông đủ để chẩn đoán viêm dạ dày và viêm đại tràng. Tăng men gan kèm theo mệt mõi, ớn lạnh như Bạn mô tả thì có thể bạn bị viêm gan. Viêm gan có thể do nhiều nguyên nhân. Bạn nên đến khám lại Bác sĩ. Thạc sĩ, Bác sĩ Nguyễn Phước Lâm- Khoa Khám bệnh & Nội khoa, Bệnh Viện Đa khoa Quốc tế Vinmec Central Park.",
+            "score": 0.8220052719116211,
+            "id": "medical_vietnamese_qa_11589"
+        },
+        {
+            "text": "Câu hỏi: Cơ thể mệt mỏi, ớn lạnh có phải do men gan tăng?\nTrả lời: xét nghiệm máu và siêu âm bụng không đủ để chẩn đoán viêm dạ dày và viêm đại tràng. Tăng men gan kèm theo mệt mõi, ớn lạnh như Bạn mô tả thì có thể bạn bị viêm gan. Viêm gan có thể do nhiều nguyên nhân.",
+            "score": 0.5701991319656372,
+            "id": "vietnamese_healthcare_2894"
+        },
+        {
+            "text": "Câu hỏi: Cách đây 3 tuần, cháu có triệu chứng như ợ hơi, ợ chua, nhức đầu (cục bộ), choáng váng, chóng mặt, nôn khan, đôi khi ho, có đờm ở cổ, tiêu chảy, chán ăn, ăn không ngon, không đau vùng thượng vị, và cháu đi bác sĩ thì chẩn đoán bị viêm dạ dày ruột, viêm phổi cấp trên do hóa chất, bụi,... Bác sĩ đưa thuốc về uống được 1 tuần thấy không cải thiện, lại đi bác sĩ, bác sĩ lại cho phác đồ lần hai được 1 tuần thấy dần khỏe lại nhưng lúc đó còn thuốc chưa uống xong thì đã giảm uống thuốc, khỏe được 1 tuần thì các triệu chứng trở lại. Vậy bác sĩ cho cháu hỏiợ hơi, ợ chua kèm đau vùng thượng vị là bệnh gì?Có phải bệnh viêm dạ dày ruột có tái phát không? Cần điều trị như thế nào? Cháu cần ăn uống ra sao? Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Viêm dạ dày ruột là bệnh tổn thương viêm ở vùng dạ dày, ruột. Bệnh có thể gây đau bụng, tiêu chảy, sốt, chán ăn. Tuy nhiên đây là những triệu chứng không đặc hiệu, có thể xảy ra ở nhiều bệnh khác nhau, tại chỗ cũng như toàn thân. Việc bạn uống thuốc không làm giảm triệu chứng thì cần phải được khám lại, đánh giá lại lâm sàng cũng như diễn tiến bệnh để các bác sĩ đưa ra các chẩn đoán khác phù hợp với diễn tiến bệnh hơn.",
+            "score": 0.5663869380950928,
+            "id": "medical_vietnamese_qa_10452"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm ở Đắk Nông, Tây Nguyên. Hiện tại, em đang bị viêm bàng quang mãn tính hơn một năm nay. Em uống thuốc tây, thuốc nam rất nhiều nơi mà không khỏi. Triệu chứng của em là đi tiểu nhiều lần trong ngày và đêm, nước tiểu vàng sẫm đi được ít, cuối bãi có giọt trắng màu đục, đau ở bụng dưới, mép miệng bị lở da mặt khô tróc vẩy nhẹ, lưỡi có rêu trắng đục, kẽ ngón tay nóng, tử cung cũng nóng, thỉnh thoảng ớn lạnh và ù tai, rất đau thắt lưng. Chỗ em bây giờ đang ở trong vùng chỉ thị 16 nên không đi khám được. Vậy bác sĩ cho em hỏi viêm bàng quang kèm ớn lạnh có sao không? Em cần phải làm gì thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBên cạnh các triệu chứng viêm bàng quang như đi tiểu nhiều, bạn lại kèm theo triệu chứng ớn lạnh và đau lưng, rất có thể nhiễm trùng từ bàng quang đã lan lên phía trên cao (đài bể thận và niệu quản ).\nDo đó, bạn nên đến viện để khám và làm xét nghiệm nhằm tìm ra chẩn đoán chính xác, từ đó có phương án điều trị thích hợp.\nTrân trọng!",
+            "score": 0.5553473234176636,
+            "id": "vietnamese_medical_qa_1242"
+        },
+        {
+            "text": "Câu hỏi: em chào bác sĩ , cho em hỏi lả tuần rồi em phải tiếp khách và có uống khá nhiều bia rượu. Tuần này thì bụng em có cảm giác nhợn hơi mắc ói ( lúc đói lúc no đều như vậy ạ ) .\nTrả lời: Chào bạn, cám ơn bạn đã gửi câu hỏi\n   Uống rượu bia có nhiều ảnh hưởng sức khỏe, ảnh hưởng nhiều đến gan, dạ dày, đại tràng và hầu họng. triệu chứng của bạn có thể do viêm dạ dày trào ngược.  Bạn nên hạn chế các thức ăn chua cay nóng, ăn uống đúng giờ, không để quá đói, không ăn quá no, hạn chế rượu bia thuốc lá, chất kích thích , hạn chế căng thẳng stress, ăn các thức ăn mềm dễ tiêu..... Bạn có thể khám bác sĩ chuyên khoa tiêu hóa để có đánh giá và điều trị thuốc thêm.\nChúc bạn nhiều sức khoẻ - Thân chào bạn",
+            "score": 0.547372043132782,
+            "id": "vietnamese_medical_qa_5864"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

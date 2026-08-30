@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Bé nhà em 6 tuổi, đã thay 2 răng cửa dưới, bây giờ, thay thêm 1 răng bên cạnh, hàm trên chưa thay cái nào. Vậy bác sĩ cho em hỏithứ tự thay răng sữa của trẻ như thế nào?Em cảm ơn bác sĩ. Lê Thị Minh Trâm(1991) Trả lời Được giải đáp bởiBác sĩ Răng - Hàm - Mặt- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bé nhà bạn đang thay răng và bạn thấy hàm dưới bé thay răng trước hàm trên, hiện tại, bé đang thay răng đúng theo sinh lý. Trong quá trình bé thay răng nếu thấy bất thường, bạn cho bé qua khám bác sĩ Răng hàm mặt.",
+    "answer": "Bé 6 tuổi đã thay 2 răng cửa giữa hàm dưới và đang thay thêm răng bên cạnh là phù hợp với lứa tuổi, vì trẻ thường bắt đầu thay răng khoảng 5–7 tuổi (một số bé sớm 4–5 tuổi hoặc muộn đến 7–8 tuổi). Trình tự thường bắt đầu bằng mọc răng cối lớn vĩnh viễn số 6 và thay các răng cửa, thường hàm dưới trước rồi đến các răng cửa bên và răng cửa hàm trên; khoảng 9–10 tuổi thay các răng hàm sữa thứ nhất bằng răng tiền hàm thứ nhất, khoảng 10 tuổi thay răng nanh, và 11–12 tuổi thay các răng hàm sữa thứ hai bằng răng tiền hàm thứ hai. Vì vậy, việc hàm trên chưa thay răng ở thời điểm này chưa đáng lo; tuy nhiên nếu sau 7 tuổi răng không mọc, mọc lệch nhiều hoặc hai bên không đều kéo dài, nên đưa bé khám nha khoa và chụp phim khi cần.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Bé nhà em 4 tuổi rưỡi , bé em chưa hư hay gãy răng nào, mà sao bé lại mọc thêm 1 cái răng ở hàm dưới cạnh 2 răng cửa dưới mà mọc vào hàm răng. Bác sĩ cho em hỏi,bé 4 tuổi rưỡi mọc thêm 1 răng phía trong 2 răng cửa hàm dưới có sao khôngạ? Em sợ bé mổ vậy sẽ ra răng đôi ba hàng. Nhà không ai mọc răng đôi ba hàng như vậy cả. Mong bác sĩ giải đáp, cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi:“Bé 4 tuổi rưỡi mọc thêm 1 răng phía trong 2 răng cửa hàm dưới có sao không?” như sau: Theo như bạn mô tả thì hiện nay con bạn mọc thêm 1 cái răng phía trong 2 răng cửa hàm dưới, thông thường trẻ thay răng cửa hàm dưới lúc khoảng 5- 6 tuổi, nhưng cũng có những trẻ lại thay răng sớm hơn lúc 4 -4 tuổi rưỡi, một số trẻ lại thay muộn hơn lúc 7-8 tuổi nên trường hợp này có thể cháu đã thay răng sữa sớm, vì vậy bạn không nên quá lo lắng mà nên đưa cháu đến gặp Nha sĩ để bác sĩ xác định chính xác tình trạng thay và mọc răng để xử lý, cần thiết nha sĩ sẽ cho cháu chụp phim răng để xác định chính xác hơn.  Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Trung Hậu -Bác sĩ Răng Hàm Mặt - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+            "score": 0.7832778692245483,
+            "id": "medical_vietnamese_qa_7333"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 7 tuổi mà 2 răng cửa 2 bên không mọc khi thay răng sữa. Vậy bác sĩ cho em hỏitrẻ 7 tuổi không mọc răng cửa khi thay răng sữa có sao không?Em phải làm sao thưa bác sĩ? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn 7 tuổi mà hai răng cửa bên không mọc thì bạn có thể đưa con bạn đến phòng khám răng hàm mặt bệnh viện Vinmec để được thăm khám, chụp phim Xquang răng để kiểm tra và tư vấn cho chính xác.",
+            "score": 0.7793054580688477,
+            "id": "medical_vietnamese_qa_4883"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi,trẻ 7 tuổi chưa thay răng sữa có sao không? Ngô Thị Lương(1984) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Ngô Thị Oanh- Bác sĩ Nhi - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Khi trẻ lên 3 tuổi sẽ mọc hoàn thiện 20 chiếc răng sữa trên cung hàm. Khi lên 6 tuổi, quá trìnhthay răngbắt đầu diễn ra, tuy nhiên một số bé sẽ thay sớm lúc 5 tuổi, có bé thay muộn lúc 7 tuổi. Trình tự thay răng khởi đầu từ việc mọc chiếc răng cối (răng số 6) và kết thúc với răng số 7 khi được 12 tuổi. Trường hợp trẻ hơn 7 tuổi chưa có dấu hiệu thay răng, bạn nên đưa trẻ đến phòng khám nha khoa uy tín để kiểm tra, tìm nguyên nhân và được tư vấn chính xác.",
+            "score": 0.767556369304657,
+            "id": "medical_vietnamese_qa_6876"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 7 tuổi mà 2 răng cửa 2 bên không mọc khi thay răng sữa. Vậy bác sĩ cho em hỏitrẻ 7 tuổi chưa mọc răng cửa khi thay răng sữa có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn hai răng cửa bên không mọc sau khi thay răng sữa, bạn nên đưa con bạn đến phòng khám răng hàm mặt bệnh viện Vinmec để được thăm khám, chụp phim, chẩn đoán và tư vấn hướng điều trị cho chính xác.",
+            "score": 0.7628268003463745,
+            "id": "medical_vietnamese_qa_4684"
+        },
+        {
+            "text": "Câu hỏi: Trình tự mọc răng sữa của trẻ\nTrả lời: 2. Trình tự mọc răng sữa của trẻ\n2.3. Thời gian mọc những chiếc răng hàm ở trẻ Theo quy luật từ 5-7 tuổi các răng cửa giữa vĩnh viễn mọc, thay các răng cửa giữa sữa. Đây cũng chính là thời gian trẻ mọc các răng hàm (cối lớn) thứ nhất sau răng hàm sữa thứ hai. Ở giai đoạn 9 đến 10 tuổi, các răng tiền hàm (cối nhỏ) thứ nhất mọc, thay các răng hàm sữa thứ nhất. Thời điểm 10 tuổi sẽ tiến hành thay các răng nanh sữa. Cuối cùng là lúc trẻ 11-12 tuổi các răng tiền hàm (cối nhỏ) thứ hai mọc, thay các răng hàm sữa. Xem thêm: Những điều mẹ cần biết khi trẻ mọc răng hàm Trẻ từ 5-7 tuổi răng cửa giữa sẽ vĩnh viễn mọc",
+            "score": 0.7624920010566711,
+            "id": "vietnamese_healthcare_28135"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

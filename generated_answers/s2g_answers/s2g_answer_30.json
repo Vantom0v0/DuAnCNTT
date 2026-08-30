@@ -1,0 +1,121 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Bé gái 7 tuổi đau 2 vú có phải dậy thì? Nên làm thế nào trong trường hợp trẻ dậy thì sớm?",
+    "ground_truth": "Trường hợp bé gái có tuyến vú lúc 7 tuổi là sớm so với tuổi. Bé cần được khám chuyên khoa nội tiết nhi để làm xét nghiệm: định lượng nồng độ nội tiết LH, FSH và E2 trong máu, ngoài ra xét nghiệm siêu âm tử cung, buồng trứng và chụp tuổi xương. Em đã khám rồi với chẩn đoán như vậy sau khi đã làm xét nghiệm. Nếu chưa em có thể cho cháu đến khám PGS. Huỳnh Thoại Loan thuộc bệnh viện Hệ thống Y tế Vinmec để có những đánh giá chính xác cũng như tư vấn thêm về trường hợp bé gái 7 tuổi đau 2 vú có phải dậy thì? Nên làm thế nào trong trường hợp trẻ dậy thì sớm?",
+    "answer": "Bé gái 7 tuổi có đau và phát triển mô ở hai vú có thể là dấu hiệu bắt đầu dậy thì, vì dậy thì sớm ở bé gái được xác định khi khởi phát trước 8 tuổi; tuy nhiên, chưa thể kết luận chắc chắn chỉ dựa vào biểu hiện này, vì cũng có thể là tình trạng tuyến vú phát triển đơn thuần, lành tính. Cha mẹ nên theo dõi thêm các dấu hiệu như mọc lông mu/lông nách, thay đổi cơ quan sinh dục ngoài hoặc kinh nguyệt, đồng thời đưa bé đi khám bác sĩ chuyên khoa nhi hoặc nội tiết nhi sớm để được kiểm tra, xét nghiệm và xác định nguyên nhân. Nếu được chẩn đoán dậy thì sớm, bác sĩ sẽ tư vấn hướng can thiệp; điều trị có thể nhằm làm dừng các dấu hiệu dậy thì và giảm cốt hóa xương để cải thiện chiều cao.",
+    "evidence": [
+        "Trả lời: Dậy thì sớm ở bé gái được xác định là khởi phát trước 8 tuổi.",
+        "Gia đình nên đưa bé đi khám sớm để được tư vấn và có hướng xử lý.",
+        "Dậy thì sớm ở bé gái có biểu hiện đặc trưng là ngực phát triển, mọc lông mu hoặc lông nách, thay đổi hình dáng cơ quan sinh dục ngoài, bắt đầu có kinh nguyệt.",
+        "Bạn hãy cho con đến khám bác sĩ chuyên khoa nhi để xác định là dậy thì sớm hay tuyến vú to cục bộ và được tư vấn chi tiết.",
+        "Dậy thì sớm là tình trạng phát triển các đặc tính sinh dục sớm hơn bình thường (ở bé gái là trước 8 tuổi, có kinh trước 9 tuổi; ở bé trai là trước 9 tuổi).",
+        "Đặc biệt, cha mẹ cần phân biệt rõ tình trạng dậy thì thực thụ với chứng vú phát triển sớm – một rối loạn lành tính trong đó ngực phát triển đơn thuần, không đi kèm với các dấu hiệu dậy thì khác.",
+        "Tuy nhiên, để xác định bé dậy thì sớm cần đưa trẻ đến khám nội tiết nhi mới xác định được chắc chắn.",
+        "Bạn có thể đưa cho con tới bệnh viện thuộc Hệ thống Y tế Vinmec để được bác sĩ làm các xét nghiệm, kiểm tra và có hướng can thiệp kịp thời.",
+        "Em phát hiện ra ngực cháu phát triển rõ ràng, 2 bên ngực to lên và phát triển không đều, sờ thấy có mô ngực.",
+        "Không biết ngoài vấn đề ngực phát triển không đều, con bạn có hiện tượng mọc lông mu, lông nách, thay đổi hình dạng cơ quan sinh dục ngoài không?",
+        "Trả lời: Bé gần 7 tuổi khá cao, ngực có cục sưng hơi đau khi tắm có thể bắt đầu dấu hiệu dậy thì nên cần theo dõi và tốt nhất nên đưa trẻ đi khám khi ngực to lên.",
+        "Nguyên tắcđiều trị dậy thì sớmbao gồm: Điều trị triệu chứng: dùng thuốc dừng các dấu hiệu dậy thì, giảm sự cốt hóa xương để cải thiện chiều cao.",
+        "Tuy nhiên, tốc độ phát triển không giống nhau ở từng trẻ, do đó muốn tiên lượng trước khi nào trẻ sẽ dậy thì (đánh dấu bằng kỳ kinh nguyệt đầu tiên) thì cần khám, xét nghiệm nội tiết."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Đau 2 đầu vú có phải biểu hiện dậy thì sớm? Cần làm gì để chậm quá trình dậy thì?\nTrả lời: Dậy thì sớm ở bé gái được xác định là khởi phát trước 8 tuổi. Con bạn 9 tuổi nếu chỉ đau 2 đầu vú thì khả năng không phải dậy thì sớm. Tuy nhiên, để xác định bé dậy thì sớm cần đưa trẻ đến khám nội tiết nhi mới xác định được chắc chắn. Bạn có thể đưa cho con tới bệnh viện thuộc Hệ thống Y tế Vinmec để được bác sĩ làm các xét nghiệm, kiểm tra và có hướng can thiệp kịp thời.",
+                "score": 0.6073750853538513,
+                "id": "vietnamese_healthcare_7187",
+                "rerank_score": 0.9979779124259949
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, con gái em năm nay gần 7 tuổi. Em phát hiện ra ngực cháu phát triển rõ ràng, 2 bên ngực to lên và phát triển không đều, sờ thấy có mô ngực. Vậy bé nhà em có phải bị dậy thì sớm không ạ? Em có nên làm gì để kìm hãm dậy thì sớm của cháu không?\nEm xin cảm ơn.\nChào bác sĩ. Cho em hỏi con em sinh 2013 có hiện tượng đau và cứng ở vú, vậy có phải dậy thì sớm không ạ? Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn.\nChào bác sĩ. Bé nhà em được gần 7 tuổi. Hôm nay em thấy bé nhà mình 1 bên ngực nhô cao, cháu còn kêu đau. Xin hỏi bác sĩ về triệu chứng của bé nhà em ạ. Em cảm ơn.\nThưa bác sĩ. Con gái em năm nay lên 7 tuổi, cháu gần đây hay kêu đau ngực, mẹ có sờ thì thấy 2 bên ngực nổi cục cưng cứng. Bác sĩ cho em hỏi đây có phải là dấu hiệu của dậy thì sớm không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ. Bé gái nhà tôi 7 tuổi. Hiện tôi phát hiện ở ti của cháu nổi cục 2 bên. Hỏi cháu bị sao vậy? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn.\nKhông biết ngoài vấn đề ngực phát triển không đều, con bạn có hiện tượng mọc lông mu, lông nách, thay đổi hình dạng cơ quan sinh dục ngoài không?",
+                "score": 0.5435118675231934,
+                "id": "vietnamese_medical_qa_2915",
+                "rerank_score": 0.9976935982704163
+            },
+            {
+                "text": "Câu hỏi: Dậy thì: Sau khi phát triển ngực bao lâu sẽ có kinh nguyệt?\nTrả lời: Trẻ gái ở giai đoạn 7- 9 tuổi có thể có các biểu hiện của dậy thì: vú phát triển, mọc lông nách, lông mu, . . . Tuy nhiên, tốc độ phát triển không giống nhau ở từng trẻ, do đó muốn tiên lượng trước khi nào trẻ sẽ dậy thì (đánh dấu bằng kỳ kinh nguyệt đầu tiên) thì cần khám, xét nghiệm nội tiết. Gia đình nên đưa bé đi khám sớm để được tư vấn và có hướng xử lý.",
+                "score": 0.5392967462539673,
+                "id": "vietnamese_healthcare_9757",
+                "rerank_score": 0.8949103951454163
+            },
+            {
+                "text": "Câu hỏi: Em có bé gái năm nay được 8 tuổi, vú bé đã hình thành nhân và phát triển nhanh. Lúc bé được 8 tháng tuổi thì được chẩn đoán bị tăng sinh mô tuyến vú và theo dõi bé tới lúc bé được 2 tuổi thì bé trở lại bình thường nhưng giờ bé tái lại. Bác sĩ cho em hỏi,bé gái 8 tuổi phát triển vú là dấu hiệu của bệnh gì?Em cảm ơn ạ.\nTrả lời: bác sĩ xin giải đáp như sau: Dựa trên thông tin mô tả, khả năng con bạn có dấu hiệudậy thì, khoảng 10 % các bé gái có tuyến vú to giai đoạn sơ sinh sau này sẽ dậy thì sớm. Dậy thì sớm ở bé gái có biểu hiện đặc trưng là ngực phát triển, mọc lông mu hoặc lông nách, thay đổi hình dáng cơ quan sinh dục ngoài, bắt đầu có kinh nguyệt. Bạn hãy cho con đến khám bác sĩ chuyên khoa nhi để xác định là dậy thì sớm hay tuyến vú to cục bộ và được tư vấn chi tiết.",
+                "score": 0.5497552752494812,
+                "id": "medical_vietnamese_qa_6412",
+                "rerank_score": 0.8747183084487915
+            },
+            {
+                "text": "Câu hỏi: Dậy thì sớm là gì?\nTrả lời: 1. Dậy thì sớm là gì?\nNhiều phụ huynh quan tâm thế nào là dậy thì sớm. Dậy thì sớm là tình trạng phát triển các đặc tính sinh dục sớm hơn bình thường (ở bé gái là trước 8 tuổi, có kinh trước 9 tuổi; ở bé trai là trước 9 tuổi). Đặc biệt, cha mẹ cần phân biệt rõ tình trạng dậy thì thực thụ với chứng vú phát triển sớm – một rối loạn lành tính trong đó ngực phát triển đơn thuần, không đi kèm với các dấu hiệu dậy thì khác.",
+                "score": 0.5246320366859436,
+                "id": "vietnamese_healthcare_116602",
+                "rerank_score": 0.8348461985588074
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Đau 2 đầu vú có phải biểu hiện dậy thì sớm? Cần làm gì để chậm quá trình dậy thì?\nTrả lời: Dậy thì sớm ở bé gái được xác định là khởi phát trước 8 tuổi. Con bạn 9 tuổi nếu chỉ đau 2 đầu vú thì khả năng không phải dậy thì sớm. Tuy nhiên, để xác định bé dậy thì sớm cần đưa trẻ đến khám nội tiết nhi mới xác định được chắc chắn. Bạn có thể đưa cho con tới bệnh viện thuộc Hệ thống Y tế Vinmec để được bác sĩ làm các xét nghiệm, kiểm tra và có hướng can thiệp kịp thời.",
+                "score": 0.48644188046455383,
+                "id": "vietnamese_healthcare_7187",
+                "rerank_score": 0.9979779124259949
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, con gái em năm nay gần 7 tuổi. Em phát hiện ra ngực cháu phát triển rõ ràng, 2 bên ngực to lên và phát triển không đều, sờ thấy có mô ngực. Vậy bé nhà em có phải bị dậy thì sớm không ạ? Em có nên làm gì để kìm hãm dậy thì sớm của cháu không?\nEm xin cảm ơn.\nChào bác sĩ. Cho em hỏi con em sinh 2013 có hiện tượng đau và cứng ở vú, vậy có phải dậy thì sớm không ạ? Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn.\nChào bác sĩ. Bé nhà em được gần 7 tuổi. Hôm nay em thấy bé nhà mình 1 bên ngực nhô cao, cháu còn kêu đau. Xin hỏi bác sĩ về triệu chứng của bé nhà em ạ. Em cảm ơn.\nThưa bác sĩ. Con gái em năm nay lên 7 tuổi, cháu gần đây hay kêu đau ngực, mẹ có sờ thì thấy 2 bên ngực nổi cục cưng cứng. Bác sĩ cho em hỏi đây có phải là dấu hiệu của dậy thì sớm không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ. Bé gái nhà tôi 7 tuổi. Hiện tôi phát hiện ở ti của cháu nổi cục 2 bên. Hỏi cháu bị sao vậy? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn.\nKhông biết ngoài vấn đề ngực phát triển không đều, con bạn có hiện tượng mọc lông mu, lông nách, thay đổi hình dạng cơ quan sinh dục ngoài không?",
+                "score": 0.5061154365539551,
+                "id": "vietnamese_medical_qa_2915",
+                "rerank_score": 0.9976935982704163
+            },
+            {
+                "text": "Câu hỏi: Bé mình năm nay lớp 7, cao 145cm, nặng 31kg. Bé có kinh nguyệt lần đầu vào tháng 4 năm 2019, trước dậy thì một năm bé tăng 13cm(1m27-1m40), từ khi dậy thì đến nay khoảng 1.5 năm mà bé tăng có 5cm(1m40-1m45). Bác sĩ cho mình hỏibé gái lớp 7 có kinh nguyệt còn tăng chiều cao được không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Bé gái lớp 7 có kinh nguyệt còn tăng chiều cao được không?”, bác sĩ giải đáp như sau: Bé nhà bạn đã có kinh nguyệt chứng tỏ bé đã dậy thì thực sự và dậy thì năm lớp 7 là hoàn toàn bình thường, không phải dậy thì sớm. Em bé vẫn còn phát triển chiều cao và bạn nên tập trung dinh dưỡng tốt, bổ sung calci và tập luyện các môn thể thao nhằm tăng chiều cao cho bé như Bóng rổ, bơi, tập xà..",
+                "score": 0.4734744429588318,
+                "id": "medical_vietnamese_qa_5535",
+                "rerank_score": 0.9144536256790161
+            },
+            {
+                "text": "Câu hỏi: Sự phát triển của trẻ ở độ tuổi 7 tháng tuổi\nTrả lời: 1. Sự phát triển của trẻ ở độ tuổi 7 tháng tuổi\nGiai đoạn 7 tháng tuổi bé đã có thể tự ngồi vững và cảm thấy thích thú với việc ngồi ghế tập đi. Ngoài ra, bé bắt đầu cố gắng trò chuyện với cha mẹ, phản ứng cơ thể linh hoạt hơn, phát triển cứng cáp hệ cơ xương, thính giác và trí não đã dần hoàn thiện đầy đủ, vì vậy bé đã bắt đầu cảm nhận được âm nhạc, âm thanh nhiều hơn trước đó. Khi bước vào độ tuổi từ 7 tháng trở lên, sự tăng trưởng về chiều cao và cân nặng diễn ra rõ ràng hơn. Từ đó nhiều cha mẹ thắc mắc trẻ 7 tháng tuổi nặng bao nhiêu kí, cao bao nhiêu và cảm thấy lo lắng không biết con mình có suy dinh dưỡng không. Giai đoạn này, đối với bé trai 7 tháng, cân nặng trung bình khoảng 7.4-9.2kg và chiều cao từ 67-71cm. Còn đối với bé gái thì nặng từ 6.8-8.6kg và cao 65-69cm. Tuy nhiên so với giai đoạn trước đó, tốc độ tăng trưởng thể chất của bé 7 tháng tuổi diễn ra chậm hơn, trung bình khoảng 0.4-0.7kg mỗi tháng. Về mặt trí não, những cử chỉ thể hiện tình cảm, cảm xúc của trẻ 7 tháng trở nên rõ ràng hơn. Nhiều bé đã biết bày tỏ không thích bị “kiểm soát” về nhiều mặt như việc ăn uống, vui đùa, ngủ nghỉ... Bên cạnh đo, trẻ không ngại biểu lộ những cảm xúc khác như vui mừng, cáu kỉnh hay khó chịu đối với một việc nào đó mà bé thích hoặc không thích. Đa số trẻ 7 tháng tuổi sẽ bước vào giai đoạn mọc răng và tình trạng này có thể khiến bé khó chịu, thậm chí sốt nhẹ. Việc mọc răng sẽ làm phần lợi của bé đau và dẫn đến dấu hiệu lười ăn, mệt mỏi, quấy khóc hay cáu gắt. Một số trường hợp đang mọc răng có thể bị sụt cân hoặc tiêu chảy kéo dài . Do đó cha mẹ phải có biện pháp chăm sóc con kỹ hơn, gần gũi con nhiều hơn và cần quan tâm lưu ý đến chế độ dinh dưỡng để vừa giúp bé duy trì tăng trưởng vừa giúp bé vượt qua những khó chịu khi mọc răng. Giải đáp trẻ 7 tháng tuổi ăn được những hoa quả gì?",
+                "score": 0.4890539050102234,
+                "id": "vietnamese_healthcare_98149",
+                "rerank_score": 0.02680514007806778
+            },
+            {
+                "text": "Câu hỏi: Trẻ 7 tháng tuổi cần bổ sung vitamin gì?\nTrả lời: 2. Trẻ 7 tháng tuổi cần bổ sung vitamin gì?\nTrẻ 7 tháng cần bổ sung vitamin gì và bổ sung như thế nào là thắc mắc của rất nhiều cha mẹ. Vitamin cần thiết cho mọi lứa tuổi, đặc biệt trẻ nhỏ đang phát triển và nhu cầu dưỡng chất cao thì lại càng cần. Trẻ nếu không được cung cấp đầy đủ vitamin sẽ gây chậm phát triển và tăng nguy cơ mắc bệnh, nhất là các bệnh nhiễm khuẩn. Do đó, trẻ 7 tháng tuổi cần bổ sung các loại vitamin như sau: Vitamin A: Bình thường trẻ mới sinh thì lượng vitamin A được dự trữ ở gan, lượng vitamin A dự trữ nhiều hay ít phụ thuộc vào tình trạng dinh dưỡng của người mẹ. Đối với trẻ dưới 1 tuổi thì nhu cầu vitamin A được đề nghị là 375mg/ngày. Một số nguồn cung cấp vitamin A có thể kể đến như gấc, carot, rau màu xanh đậm... Vitamin B: Đây là nhóm vitamin rất quan trọng với cơ thể trẻ, có tác dụng trong việc chuyển hóa và trao đổi chất trong cơ thể, bảo vệ hệ tim mạch, bảo vệ hệ thống thần kinh và hỗ trợ tăng cường sức đề kháng. Nhu cầu vitamin B1(Thiamin) là 0,3 mg mỗi ngày. Vitamin B12 (Cyanocobalamin) cần khoảng 0,4 mcg mỗi ngày. Vitamin C: Vitamin C giúp cơ thể trẻ phòng tránh nhiễm trùng, tăng sức đề kháng , hỗ trợ hấp thu một số loại dưỡng chất tại ruột non và tăng vững bền thành mạch. Với trẻ ở giai đoạn này thì cần bổ sung 25mg vitamin C mỗi ngày. Thực phẩm chứa nhiều vitamin C gồm các loại như bắp cải, súp lơ, trái cây họ cam quýt, ổi, rau chân vịt, cà chua..... Vitamin D: Vitamin D điều hòa sự chuyển hóa canxi và photpho trong cơ thể, giúp tăng sức đề kháng và giảm nguy cơ mắc bệnh tiểu đường, tim mạch cho trẻ. Nhu cầu vitamin D trẻ 7 tháng tuổi là 400UI mỗi ngày. Vitamin D được cung cấp chủ yếu thông qua tiếp xúc với tia UVB trong ánh nắng mặt trời. Ngoài ra, nếu trẻ dùng sữa công thức thì đây cũng là nguồn cung cấp vitamin D. Vitamin K: Vitamin K đóng góp trong quá trình đông máu, ngăn ngừa tình trạng máu khó đông. Ngoài ra nó còn giúp bộ xương chắc khỏe, ngăn ngừa bệnh tim mạch và ung thư. Đối với trẻ nhỏ từ 7 - 12 tháng thì nhu cầu khuyến nghị là 2.5 mcg/ ngày. Nguồn cung cấp là các thực phẩm như súp lơ, bắp cải, các loại ngũ cốc, rau màu xanh đậm, gan động vật, thịt, trứng... Dinh dưỡng cho trẻ 7 tháng tuổi không thể thiếu vitamin",
+                "score": 0.4780551493167877,
+                "id": "vietnamese_healthcare_155750",
+                "rerank_score": 0.0011330470442771912
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Đau 2 đầu vú có phải biểu hiện dậy thì sớm? Cần làm gì để chậm quá trình dậy thì?\nTrả lời: Dậy thì sớm ở bé gái được xác định là khởi phát trước 8 tuổi. Con bạn 9 tuổi nếu chỉ đau 2 đầu vú thì khả năng không phải dậy thì sớm. Tuy nhiên, để xác định bé dậy thì sớm cần đưa trẻ đến khám nội tiết nhi mới xác định được chắc chắn. Bạn có thể đưa cho con tới bệnh viện thuộc Hệ thống Y tế Vinmec để được bác sĩ làm các xét nghiệm, kiểm tra và có hướng can thiệp kịp thời.",
+                "score": 0.5862851142883301,
+                "id": "vietnamese_healthcare_7187",
+                "rerank_score": 0.9979779124259949
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ, con gái em năm nay gần 7 tuổi. Em phát hiện ra ngực cháu phát triển rõ ràng, 2 bên ngực to lên và phát triển không đều, sờ thấy có mô ngực. Vậy bé nhà em có phải bị dậy thì sớm không ạ? Em có nên làm gì để kìm hãm dậy thì sớm của cháu không?\nEm xin cảm ơn.\nChào bác sĩ. Cho em hỏi con em sinh 2013 có hiện tượng đau và cứng ở vú, vậy có phải dậy thì sớm không ạ? Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn.\nChào bác sĩ. Bé nhà em được gần 7 tuổi. Hôm nay em thấy bé nhà mình 1 bên ngực nhô cao, cháu còn kêu đau. Xin hỏi bác sĩ về triệu chứng của bé nhà em ạ. Em cảm ơn.\nThưa bác sĩ. Con gái em năm nay lên 7 tuổi, cháu gần đây hay kêu đau ngực, mẹ có sờ thì thấy 2 bên ngực nổi cục cưng cứng. Bác sĩ cho em hỏi đây có phải là dấu hiệu của dậy thì sớm không ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ. Bé gái nhà tôi 7 tuổi. Hiện tôi phát hiện ở ti của cháu nổi cục 2 bên. Hỏi cháu bị sao vậy? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn.\nKhông biết ngoài vấn đề ngực phát triển không đều, con bạn có hiện tượng mọc lông mu, lông nách, thay đổi hình dạng cơ quan sinh dục ngoài không?",
+                "score": 0.513089120388031,
+                "id": "vietnamese_medical_qa_2915",
+                "rerank_score": 0.9976935982704163
+            },
+            {
+                "text": "Câu hỏi: Ngực trẻ 7 tuổi nổi cục cứng có phải dậy thì sớm không?\nTrả lời: Bé gần 7 tuổi khá cao, ngực có cục sưng hơi đau khi tắm có thể bắt đầu dấu hiệu dậy thì nên cần theo dõi và tốt nhất nên đưa trẻ đi khám khi ngực to lên.",
+                "score": 0.4766315221786499,
+                "id": "vietnamese_healthcare_4218",
+                "rerank_score": 0.9537609815597534
+            },
+            {
+                "text": "Câu hỏi: . Con em 7 tuổi 2 tháng có dấu hiệu ngực phát triển, đi khám ở bệnh viện bác sĩ cho chụp X quang, siêu âm, lấy máu và có kết quả bé dậy thì sớm vậy có nêntiêm hormone kìm hãm dậy thìkhông? Câu hỏi khách hàng ẩn danh Chào bác sĩ, bé nhà em 8 tuổi 7 tháng thì có chích ngừa ngăn dậy thì được không ạ, cháu đang có dấu hiệu dậy thì sớm. Em rất lo lắng, cháu đang phát triển rất nhanh. Mong bác sĩ tư vấn. Xin cảm ơn. Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn. Nếu con bạn đã được bác sĩ khám và chẩn đoán là bédậy thì sớmbạn nên tiến hành điều trị theo chỉ dẫn của bác sĩ. Nguyên tắcđiều trị dậy thì sớmbao gồm: Điều trị triệu chứng: dùng thuốc dừng các dấu hiệu dậy thì, giảm sự cốt hóa xương để cải thiện chiều cao. Điều trị nguyên nhân: bao gồm điều trị ngoại khoa, điều trị hội chứng Mc -cune Albright. Điều trị hỗ trợ: bao gồm điều trị tâm lý và hoạt động trị liệu. Bạn có thể đưa bé đến tại các bệnh viện thuộcHệ thống Y tế Vinmecđể bác sĩ tư vấn thêm nhé. Cảm ơn bạn đã tin tưởng Vinmec. Rất mong có thể gặp bạn và bé để tư vấn cụ thể hơn. Được giải đáp bởi các Bác sĩ Nội trú Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+                "score": 0.49215787649154663,
+                "id": "medical_vietnamese_qa_7788",
+                "rerank_score": 0.950849711894989
+            },
+            {
+                "text": "Câu hỏi: . Con tôi sinh năm 2012. Năm 2019 cháu đã phát triển một bên ngực, sang tới năm nay thì bên ngực còn lại đang phát triển. Bác sĩ cho tôi hỏi, với tốc độ phát triển của cháu như vậy thì bao lâu nữa cháu sẽ cókinh nguyệt? Theo như tôi đọc và tìm hiểu, tình trạng của bé làphát triển sớm, có đúng không ạ? Mong bác sĩ tư vấn giúp tôi. Tôi xin cảm ơn. Trần Thị Trang(1987) Trả lời\nTrả lời: Chào bạn! Trẻ gái ở giai đoạn 7- 9 tuổi có thể có cácbiểu hiện của dậy thì: vú phát triển, mọc lông nách, lông mu,... Tuy nhiên, tốc độ phát triển không giống nhau ở từng trẻ, do đó muốn tiên lượng trước khi nào trẻ sẽ dậy thì (đánh dấu bằng kỳ kinh nguyệt đầu tiên) thì cần khám, xét nghiệm nội tiết. Gia đình nên đưa bé đi khám sớm để được tư vấn và có hướng xử lý. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng! ThS.BS Nội trú Đặng Thị Ngoan- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
+                "score": 0.46689683198928833,
+                "id": "medical_vietnamese_qa_7983",
+                "rerank_score": 0.9488718509674072
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Tôi có người thân là nam, 44 tuổi bị bệnh bạch cầu mãn (CML) từ năm 2017, đang uống thuốc theo phác đồ của bác sĩ ở bệnh viện, sức khỏe vẫn bình thường. Người thân của tôi có thể tiêm vaccine Covid-19 được không? Nếu được tiêm thì có nguy cơ gặp các biến chứng gì hay không?",
+    "ground_truth": "Nếu trong 3 tháng gần đây, tình trạng bệnh lý CML của không tiến triển, không thay đổi phác đồ điều trị hàng ngày. Anh/Chị có thể tiêm chủng vaccine Covid-19 tại các cơ sở bệnh viện. Với vắc xin Covid-19, các phản ứng sau tiêm có thể gặp là sưng đỏ vị trí tiêm, sốt và mệt mỏi trong 2, 3 ngày sau tiêm. Ngoài ra cũng có thể gặp các phản ứng nặng hơn như phản ứng phản vệ, hội chứng đông máu, tuy nhiên tỷ lệ rất thấp. Việc xảy ra các triệu chứng sau tiêm tùy thuộc và cơ địa đáp ứng miễn dịch của từng người.",
+    "answer": "Người thân của bạn **có thể được xem xét tiêm vaccine Covid-19 nếu bệnh CML đang ổn định**, trong thời gian qua **không phải hóa trị, xạ trị hoặc nhập viện điều trị bệnh**.\n\nTuy nhiên, vì CML thuộc nhóm bệnh về máu/tạo máu và đang dùng thuốc điều trị, người thân của bạn cần:\n\n- Khám sàng lọc tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.\n- Cung cấp đầy đủ hồ sơ bệnh CML, thuốc đang dùng và tình trạng điều trị cho bác sĩ.\n- Chỉ tiêm khi bác sĩ đánh giá đủ điều kiện và chỉ định.\n\nThông tin được cung cấp **không nêu cụ thể các biến chứng hoặc nguy cơ riêng biệt ở người mắc CML khi tiêm vaccine Covid-19**, nên chưa đủ cơ sở để khẳng định nguy cơ cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị bệnh bạch cầu mạn dòng tuỷ được 2 năm và đang dùng thuốc hàng ngày để điều trị. Xin hỏi bác sĩ tôi có thể tiêm được vaccine Covid-19 không ạ.\nTrả lời: Theo hướng dẫn của Bộ Y tế, nếu tình trạng bạch cầu mạn dòng tủy của bạn trong thời gian qua không phải điều trị hóa trị hay xạ trị hoặc không phải nhập viện điều trị bệnh vẫn được tiêm vaccine Covid-19. Tuy nhiên những người có tiền sử bệnh về máu hoặc tạo máu cần cẩn trọng khi tiêm ngừa. Vì vậy, bạn cần được khám sàng lọc tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Khi đó, bạn cần cung cấp đầy đủ thông tin và hồ sơ bệnh sử để được bác sĩ đánh giá về tình trạng bệnh và sức khỏe hiện tại, cân nhắc cho chỉ định chính xác.",
+            "score": 0.6102001070976257,
+            "id": "vietnamese_healthcare_3889",
+            "rerank_score": 0.9995792508125305
+        },
+        {
+            "text": "Câu hỏi: Trước đây cháu bị bạch cầu cấp đã điều trị, đến nay hơn 10 năm. Vậy cháu có thể tiêm ngừa vaccine Covid được không?\nTrả lời: Hiện tại bạn đang bị bệnh bạch cầu cấp đã điều trị, nếu tình trạng bệnh của bạn đang trong giai đoạn ổn định thì vẫn có thể được tiêm vaccine Covid-19. Tuy nhiên bạn thuộc nhóm thận trọng khi tiêm vaccine Covid-19 vì vậy bạn cần được khám sàng lọc tại bệnh viện, bác sĩ sẽ khám đánh giá tình trạng sức khỏe của bạn, nếu sức khỏe của bạn đủ điều kiện tiêm chủng theo hướng dẫn của Bộ Y tế, bác sĩ sẽ chỉ định và tư vấn cụ thể.",
+            "score": 0.6418454647064209,
+            "id": "vietnamese_healthcare_4935",
+            "rerank_score": 0.9989062547683716
+        },
+        {
+            "text": "Câu hỏi: Xét nghiệm máu của tôi bị hồng cầu nhỏ nhược sắt. Dì ruột, cậu ruột tôi cũng bị hồng cầu nhỏ nhược sắt. Xin cho hỏi tôi, dì tôi, cậu tôi có thể tiêm vaccine Covid-19 được không? Nếu có rủi ro gì có thể xảy ra ?\nTrả lời: Với tình trạng bệnh lý của bạn, dì và cậu của bạn vẫn tiêm vaccine phòng Covid-19. Tuy nhiên, theo hướng dẫn của Bộ Y tế, những trường hợp như bạn cần được khám sàng lọc và tiêm chủng tại tuyến bệnh viện hoặc tại các cơ sở y tế có đủ năng lực về hồi sức cấp cứu ban đầu.",
+            "score": 0.6371607184410095,
+            "id": "vietnamese_healthcare_7189",
+            "rerank_score": 0.9843981862068176
+        },
+        {
+            "text": "Câu hỏi: Tôi 54 tuổi (nữ) có 2 bệnh nền:1. Giãn phế quản mãn tính từ nhỏ, hay dễ ho (khoảng 5->6 tháng phải uống 1 đợt kháng sinh).2. Viêm khớp dạng thấp 15 năm, hiện uống thuốc ức chế miễn dịch (Medrol 4mg/ ngày và HCQ 200mg/ngày).Xin hỏi tôi có thể chích ngừa vaccine Covid-19 được không ạ?\nTrả lời: Thứ nhất, bệnh lý từ nhỏ của anh/chị dù phải điều trị trong một khoảng thời gian dài, nhưng bệnh lý đó hiện nay không còn nữa. Thứ hai là hiện nay anh/chị đang mắc một bệnh lý mãn tính và đang điều trị thuốc thì vấn đề sử dụng thuốc ở liều duy trì như vậy anh/chị vẫn có thể tiêm ngừa vaccine Covid-19. Vấn đề quan trọng là anh/chị cần thông báo đầy đủ cho bác sĩ tình trạng bệnh lý dù hiện tại hay quá khứ, hoặc là quá trình sử dụng thuốc, để bác sĩ có thể cân nhắc và hướng dẫn cách theo dõi phản ứng sau tiêm như thế nào để có thể tiêm trong trạng thái an toàn nhất.",
+            "score": 0.6112805008888245,
+            "id": "vietnamese_healthcare_4208",
+            "rerank_score": 0.9691914916038513
+        },
+        {
+            "text": "Câu hỏi: Tôi là nam giới 50 tuổi, hiện tại tôi vừa hoàn thành việc uống thuốc điều trị lao tiềm ẩn với thời gian là 9 tháng (tôi nuôi mẹ bệnh lao và được xác định là lao tiềm ẩn). Vậy trường hợp của tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Sau khi điều trị bệnh lao của anh/chị đã được bác sĩ kết luận là khỏi/ổn định thì có thể tiêm vaccine Covid-19.",
+            "score": 0.6133167743682861,
+            "id": "vietnamese_healthcare_571",
+            "rerank_score": 0.930404007434845
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Trẻ rụng răng cửa sau 2 tháng chưa mọc có cần đi khám không?",
+    "ground_truth": "Đối với trường hợp của cháu bạn, bạn nên theo dõi cháu sau nhổ răng 6 tháng mà vẫn chưa mọc răng lúc ấy cần cho cháu đi khám nha khoa bạn nhé.",
+    "answer": "Trẻ thường bắt đầu thay răng cửa vào khoảng 5–7 tuổi. Nếu trẻ đã 8 tuổi, rụng răng cửa 2 tháng nhưng chưa mọc răng mới, bạn nên đưa trẻ đi khám chuyên khoa Răng–Hàm–Mặt và chụp X-quang răng để kiểm tra răng vĩnh viễn có bị thiếu, mọc ngầm hoặc bất thường về cấu trúc răng và xương hàm hay không, từ đó có hướng xử trí phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Con em hiện nay được 8 tuổi, bé rụng 2 răng cửa đã được mấy tháng rồi mà không thấy mọc răng mới. Bác sĩ cho em hỏibé 8 tuổi rụngrăng cửasau 2 tháng chưa mọc lạicó đáng lo không? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn bác sĩ. Nguyen Thi Phuong Yen My (1988) Trả lời\nTrả lời: Chào bạn. Các bé bắt đầuthay răng cửatừ răng sữa sang răng vĩnh viễn thường bắt đầu khi bé 5-7 tuổi. Nếu bé8 tuổi rụng răng cửa sau 2 tháng chưa mọc lại, bạn nên cho bé đi khám tại cơ sở Y tế uy tín hoặc chuyên khoa Răng-Hàm-Mặt một trong các bệnh viện thuộcHệ thống Y tế Vinmecvàchụp phim răngxem có bất thường cấu trúc răng và khung hàm của bé để được can thiệp kịp thời. Cảm ơn bạn đã tin tưởng và gửi câu hỏi về Vinmec. Trân trọng! Được giải đáp bởiNhóm bác sĩ khoa Nội trú Nhi- Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Time City",
+            "score": 0.8370773792266846,
+            "id": "medical_vietnamese_qa_7711"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 7 tuổi mà 2 răng cửa 2 bên không mọc khi thay răng sữa. Vậy bác sĩ cho em hỏitrẻ 7 tuổi không mọc răng cửa khi thay răng sữa có sao không?Em phải làm sao thưa bác sĩ? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn 7 tuổi mà hai răng cửa bên không mọc thì bạn có thể đưa con bạn đến phòng khám răng hàm mặt bệnh viện Vinmec để được thăm khám, chụp phim Xquang răng để kiểm tra và tư vấn cho chính xác.",
+            "score": 0.7502109408378601,
+            "id": "medical_vietnamese_qa_4883"
+        },
+        {
+            "text": "Câu hỏi: Cháu của em đã 11 tuổi mà không biết vì sao vẫn còn một chiếc răng cửa chưa chịu mọc. Bác sĩ cho em hỏitrẻ 11 tuổi còn một răng cửa chưa mọc có sao không?Xin bác sĩ tư vấn giúp em, em cảm ơn bác sĩ. Cẩm Vân(1989) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Trung Hậu- Bác sĩ Răng Hàm Mặt - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Thông thường, răng cửa mọc lúc khoảng 6-7 tuổi, con bạn đến 11 tuổi mà còn một răng cửa chưa mọc nên có thểtrẻ bị thiếu rănghoặc có răng nhưng bị ngầm trong xương không mọc được. Bạn đưa cháu đến bệnh viện để bác sĩ khámchụp phim X-quang răngsẽ biết chính xác tình trạngthiếu răngcủa cháu bạn để có hướng tư vấn điều trị phù hợp.",
+            "score": 0.746013343334198,
+            "id": "medical_vietnamese_qa_6883"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 7 tuổi mà 2 răng cửa 2 bên không mọc khi thay răng sữa. Vậy bác sĩ cho em hỏitrẻ 7 tuổi chưa mọc răng cửa khi thay răng sữa có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn hai răng cửa bên không mọc sau khi thay răng sữa, bạn nên đưa con bạn đến phòng khám răng hàm mặt bệnh viện Vinmec để được thăm khám, chụp phim, chẩn đoán và tư vấn hướng điều trị cho chính xác.",
+            "score": 0.7332962155342102,
+            "id": "medical_vietnamese_qa_4684"
+        },
+        {
+            "text": "Câu hỏi: Con em đã nhổ 2 cái răng cửa vào lúc 4 tuổi vì bị sâu răng đến chân lợi. Bây giờ bé đã 9 tuổi nhưng vẫn chưa mọc răng mới. Bác sĩ cho em hỏi,trẻ 9 tuổi chưa mọc răng cửa có sao không?\nTrả lời: bác sĩ xin giải đáp như sau: Nhiễm trùng là lý do chủ yếu khiến bác sĩ quyết địnhnhổ răngsớm cho trẻ. Tuy nhiên, bạn không nói con bạn đã nhổrăng cửahàm trên hay dưới. Với răng cửa hàm trên, việc mọc răng mới (răng vĩnh viễn) sau khi nhổ răng sữa sẽ muộn hơn so với răng cửa dưới. Ngoài lý do tuổi mọc răng, còn nhiều lý do khiến răng mới chưa có. Bạn nên cho con đi khám chuyên khoa Răng - Hàm - Mặt để được tư vấn cụ thể hơn về tình trạng của trẻ.",
+            "score": 0.7332322001457214,
+            "id": "medical_vietnamese_qa_6630"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

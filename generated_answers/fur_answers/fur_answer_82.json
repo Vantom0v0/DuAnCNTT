@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Chào bác sĩ,\nVinmec có trẻ hóa da bằng sóng RF hoặc hồng ngoại không? Em năm nay 28 tuổi có làm được không? Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nVinmec hiện có dịch vụ trẻ hóa da bằng sóng RF cho hiệu quả tốt. Tuy nhiên, không có dịch vụ trẻ hóa da bằng hồng ngoại do hiệu quả thấp. Thay vào đó Vinmec có trẻ hóa da bằng laser Nd YAG, Er: YAG kết hợp với PRP và EV.\nSóng RF giúp làm căng da tức thì và kích thích các tế bào da tăng cường sản xuất collagen và elastin, giúp da được săn chắc và đàn hồi tốt hơn. Ngoài 20 tuổi, da bắt đầu xuất hiện các dấu hiệu lão hóa. Tại Vinmec hiện đang sử dụng các phương pháp trẻ hóa da không xâm lấn, giúp da đẹp tự nhiên nên phù hợp với các độ tuổi và các loại da. Vì vậy, bạn có thể đến Trung tâm Thẩm mỹ Vinmec-View để được tư vấn và phục hồi da hiệu quả nhất.\nTrân trọng!",
+    "answer": "Bạn chưa nêu câu hỏi cụ thể cần giải đáp. Vui lòng gửi câu hỏi y tế của bạn để tôi trả lời dựa trên các thông tin đã cung cấp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi em muốn trẻ hóa da bằng tiêm PRP ở Vinmec có tác dụng phụ gì không? Sau khi tiêm em có cần kiêng gì không? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nTrẻ hóa da là các phương pháp giúp da trở về đúng tuổi da của chính bạn (da vùng cổ mặt thường lão hóa trước da vùng được che kín như mặt trong cánh tay, mặt trong đùi). Kết quả là cấu trúc cũng như chức năng của da hồi phục ( giảm nếp nhăn, tăng collagen, tăng tưới máu nuôi dưỡng, phục hồi độ ẩm, sắc tố đồng đều, da khỏe và tăng sức đề kháng...).\nPRP được chứng minh hàng trăm năm nay là có tác dụng phục hồi cấu trúc da, kích hoạt sự nuôi dưỡng và thúc đẩy tế bào da làm việc nhịp nhàng, kết quả là giúp chất lượng mô da cải thiện tích cực. Tiêm PRP vào da là kỹ thuật cũ bày tỏ nhiều nhược điểm: đau, phân bố không đồng đều, bầm tím sau tiêm, thời gian hồi phục lâu,...\nHiện tại, Vinmec có nhiều ứng dụng công nghệ cao để đưa PRP vào nơi nhận mà khắc phục được các nhược điểm trên trong khi vẫn phát huy tối đa các lợi thế của PRP. Bạn chăm sóc sau trị liệu hết sức đơn giản, không cần kiêng. nhanh chóng trở lại nếp sinh hoạt hàng ngày mà không có bất cứ khó chịu gì.\nTrân trọng!",
+            "score": 0.5443888306617737,
+            "id": "vietnamese_medical_qa_915",
+            "rerank_score": 0.9897695779800415
+        },
+        {
+            "text": "Câu hỏi: Con nhà em sinh ở tuần thứ 36, bé bị vàng da và ngày thứ 5 có đi khám và nhập viện tại bệnh viện. Ở viện, bé được chiếu đèn và truyền dịch (4 ngày) thì bác sĩ cho ra viện. Nhưng đến nay, bé được 2 tuần tuổi mà em thấybé vẫn bị vàng ở mặtvà người, chân. Vậy bác sĩ cho em hỏitrẻ 2 tuần tuổi vẫn bị vàng da ở mặt, chân có sao không?Em có cần đưa trẻ đến viện khám lại không? Em cảm ơn bác sĩ. Nguyễn Thị Hường(1992) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Thị Ân- Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đã được chẩn đoán vàđiều trị chiếu đèn vàng da, trước khi ra viện bao giờ bác sĩ cũng phải đánh giá mức độ vàng da giảm trong ngưỡng an toàn mới cho bé ra viện. Hầu hết, các bé sau chiếu đèn thì tình trạng vàng da giảm dần nhưng cũng có trường hợp có thể cótình trạng vỡ hồng cầulại gây vàng da lại cho trẻ. Vì thế, bạn nên đưa trẻ đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn điều trị cụ thể.",
+            "score": 0.5352314710617065,
+            "id": "medical_vietnamese_qa_5880",
+            "rerank_score": 0.4589325487613678
+        },
+        {
+            "text": "Câu hỏi: Con gái em mới 20 tháng, cách đây 1 tháng phát hiện cháu bị vàng da ạ. Cháu đượcchẩn đoán viêm tụy cấp, viêm đường mật do có sỏi tụy ạ. Chỉ định điều trị nội khoa vì cháu quá nhỏ không nội soi tán sỏi được ạ. Xin hỏi bác sĩVinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?Em xin cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Vinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?”, bác sĩ giải đáp như sau: Bệnh sỏi tụy thường vào viện vì có những đợt bị viêm tụy cấp hoặc viêm đường mật, lâu ngày có thể thành viêm tụy mãn. Điều trị sỏi tụy, cho đến nay vẫn chưa có phương pháp tán sỏi như trong sỏi đường tiết niệu mà chỉ có nội soi đặt stent qua chỗ hẹp tạo đường hầm rồi gắp sỏi qua đường hầm đó, nhưng đặt stent đó chỉ làm được khi ống tụy bị giãn ở trẻ lớn hoặc ở người lớn. Việc gắp sỏi qua nội soi đó cũng ít hiệu quả, vì vậy khi sỏi tụy gây giãn ống tụy và gây viêm tụy mãn có thể phải áp dụng phẫu thuật mới là phương pháp điều trị chính của điều trị sỏi tụy sỏi tụy bạn nhé. Với con bạn vì còn bé mới 20 tháng tuổi nên trước mắt là khám định kỳ theo dõi tình trạng sỏi (tức là sỏi to hay bé, nhiều hay ít sỏi, vị trí ở đâu), tình trạng ống tụy có bị giãn hay không và tụy có bị tổn thương không, đồng thời điều trị nội khoa khi có biểu hiện viêm tụy cấp bạn nhé. Hiện tại, tại Vinmec với sỏi tụy ở trẻ em cũng đang điều trị theo phác đồ này bạn có thể đưa bé đến thăm khám sớm nhất.",
+            "score": 0.5455372333526611,
+            "id": "medical_vietnamese_qa_4934",
+            "rerank_score": 0.27540498971939087
+        },
+        {
+            "text": "Câu hỏi: Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nTrả lời: 9. Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nCác triệu chứng trở nên tồi tệ hơn Có dấu hiệu nhiễm trùng da như sưng đỏ vùng viêm da kèm tiết dịch, đau nhiều khi chạm vào, sốt... Triệu chứng viêm da xuất hiện ở các vị trí mới. Khoa nhi tại hệ thống Bệnh viện Đa khoa Quốc tế Vinmec là địa chỉ tiếp nhận và thăm khám các bệnh lý mà trẻ sơ sinh cũng như trẻ nhỏ dễ mắc phải: Sốt virus, sốt vi khuẩn, viêm tai giữa, viêm phổi ở trẻ,....Với trang thiết bị hiện đại, không gian vô trùng, giảm thiểu tối đa tác động cũng như nguy cơ lây lan bệnh. Cùng với đó là sự tận tâm từ các bác sĩ giàu kinh nghiệm chuyên môn với các bệnh nhi, giúp việc thăm khám không còn là nỗi trăn trở của các bậc cha mẹ. Khách hàng có thể trực tiếp đến hệ thống Y tế Vinmec trên toàn quốc để thăm khám hoặc liên hệ hotline tại đây để được hỗ trợ.",
+            "score": 0.5462627410888672,
+            "id": "vietnamese_healthcare_48320",
+            "rerank_score": 0.049453381448984146
+        },
+        {
+            "text": "Câu hỏi: . Bé nhà em năm nay 6 tuổi. Cách đây 10 ngày, bé có đụng đầu vào bồn rửa chén bằng nhôm và bị chảy máu. Sau đó bé bịsốtvànổi mề đay. Xin hỏi bác sĩ bé cònchích ngừa uốn vánđược nữa không ạ? Cảm ơn bác sĩ Ho Thi Thoa(1986) Trả lời\nTrả lời: Chào bạn, cảm ơn bạn đã đặt câu hỏi tới website Vinmec.com. Bé nhà bạn vẫn nên tiêm ngừa uốn ván. Bạn nên đưa bé đến trung tâm tiêm chủng để được tư vấn cụ thể. Chúc bé mau khỏe, trân trọng. ThS.BS Huỳnh Bảo Toàn - Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.5488971471786499,
+            "id": "medical_vietnamese_qa_13580",
+            "rerank_score": 0.04168548062443733
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Chào bác sĩ! Xin hỏi bác sĩ, tình trạng cộm và nhìn thấy khóe mắt có bóng dấu hiệu bệnh gì? Cảm ơn bác sĩ đã tư vấn giúp tôi.",
+    "ground_truth": "Chào Bạn! Theo thông tin bạn chia sẻ thì bác sĩ nghĩ đến viêm kết mạc nhãn cầu góc ngoài khóe mắt hơi dày nên khi bạn nhìn ra khóe mắt sẽ thấy có bóng. Theo bác sĩ bạn nên đi khám mắt để có chỉ định điều trị cho tình trạng cộm mắt hiện tại.",
+    "answer": "Chào bạn! Tình trạng cộm mắt và nhìn thấy ở khóe mắt có thể liên quan đến viêm kết mạc; ngoài ra, nếu kéo dài cũng có khả năng là khô mắt hoặc viêm kết mạc mạn tính. Tuy nhiên, tài liệu không cung cấp đủ thông tin để xác định chính xác nguyên nhân hay dấu hiệu bệnh cụ thể. Bạn nên đi khám tại cơ sở chuyên khoa mắt để được bác sĩ soi mắt và đánh giá trực tiếp, đặc biệt nếu triệu chứng kéo dài hoặc kèm đỏ, đau, ngứa hay nhìn mờ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cháu chào bác sĩ! Hơn hai tuần nay, mắt trái của cháu liên tục có dấu hiệu cộm và ngứa. Gần đây, khi hai mắt cháu bị dính nước mưa. mắt sẽ bị cay xè đến mức không nhìn thấy được. Vậy mắt cháu đang gặp vấn đề gì vậy ạ? Xin cảm ơn!\nChào bác sĩ, mắt con bị viêm kết mạc hay ngứa cộm trong mắt mà không biết bị viêm do gì ạ. Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn, với biểu hiện bạn mô tả có khả năng bạn bị viêm kết mạc, bệnh này có thể do nhiều nguyên nhân khác nhau gây nên. Bệnh không gây ảnh hưởng đến thị lực, tuy nhiên khiến người bệnh khó chịu vì cộm, ngứa...nếu để lâu không điều trị có thể dẫn đến 1 số biến chứng: viêm giác mạc, loét giác mạc.. làm ảnh hưởng đến thị lực.",
+            "score": 0.6733241081237793,
+            "id": "vietnamese_medical_qa_2537"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cháu năm nay 24 tuổi, mắt thường xuyên bị cộm và rát, gió vào cũng thấy cộm đeo khẩu trang thở lên cũng cộm. Tình trạng này cũng được gần 2 năm nay rồi. Cháu có đi khám bác sĩ chẩn đoán đau mắt đỏ nhưng cháu có tra thuốc thì không thấy khỏi. Xin bác sĩ tư vấn giúp cháu ạ!\nTrả lời: Chào bạn! Với biểu hiện bạn mô tả có khả năng bạn bị khô mắt hoặc viêm kết mạc mạn tính. Bệnh này ngoài dùng thuốc kiên trì cần kết hợp điều chỉnh thói quen sinh hoạt, công việc hoặc môi trường mới có thể giúp cải thiện bệnh.",
+            "score": 0.664286196231842,
+            "id": "vietnamese_medical_qa_2553"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Ba con vừa đi mổ mắt về nhưng ba con chỉ mổ một bên, bên còn lại bị đỏ và cộm mắt. Vậy bác sĩ cho con hỏi một bên mắt không mổ bị đỏ và cộm như kim châm là bị làm sao và chữa trị như thế nào? Cảm ơn bác sĩ đã tư vấn và giải đáp!\nTrả lời: Chào bạn! Bạn không nói rõ ba của mình phải mổ mắt vì nguyên do bệnh lý gì nên bác sĩ chưa đủ thông tin để trả lời chính xác câu hỏi: “Một bên mắt không mổ bị đỏ và cộm như kim châm là bị làm sao?”.",
+            "score": 0.6252535581588745,
+            "id": "vietnamese_medical_qa_2054"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Dạo gần đây tôi thấy một bên mắt khô, nhìn mờ hơn mắt kia, nhìn bên ngoài thì không thấy mắt lệch. Bác sĩ cho em hỏi liệu đây có phải triệu chứng của bệnh lác mắt không và có cách điều trị không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn bác sĩ nhiều ạ.\nTrả lời: Cảm ơn bạn đã tin tưởng AI-Doctor, rất mong có thể được gặp bạn để tư vấn cụ thể hơn!",
+            "score": 0.5996108055114746,
+            "id": "vietnamese_medical_qa_3167"
+        },
+        {
+            "text": "Câu hỏi: E thấy trong mắt cộm cộm,  nhìn thấy như kiểu con giun hoặc sán gì ấy đang co rút trong mắt, nhưng tầm 3h sau chỉ thấy 1 điểm trắng nhỏ trong mắt, đến tầm 4h sau thì không thấy gì trong mắt nữa, e lên đi khám ở đâu ạ, làm những xét nghiệm gì\nTrả lời: chào bạn: nếu bạn có vấn đề về mắt thị lực bạn nên đi khám ở viện chuyên khoa về mắt! bác sĩ chuyên khoa về mắt bác sĩ khám và xem cho bạn, còn xét nghiệm thường bác sĩ sẽ soi mắt cho bạn! thân ái chào bạn",
+            "score": 0.596954345703125,
+            "id": "vietnamese_medical_qa_6029"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

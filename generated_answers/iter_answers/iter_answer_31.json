@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Đau bụng, nôn nguyên nhân là gì?",
+    "ground_truth": "Theo bạn mô tả, thuốc giảm cân chưa rõ được chính xác tên thuốc và thành phần trong thuốc nhưng một số thuốc giảm cân có tác dụng phụ là gây rối loạn tiêu hóa. Bạn nên đến bệnh viện để được bác sĩ khám và tư vấn đồng thời cần làm một số xét nghiệm như siêu âm bụng, xét nghiệm máu xem có nguyên nhân nào khác.",
+    "answer": "Đau bụng kèm nôn có thể liên quan đến đau bụng kinh do tử cung co bóp mạnh, stress hoặc lo âu; ngoài ra còn gặp trong đau nửa đầu, ngộ độc hoặc dị ứng thực phẩm, nhiễm trùng, mất nước, hạ đường huyết, mang thai sớm, kích thích hệ tiền đình do chấn thương/nhiễm trùng/u hoặc tác dụng của một số thuốc như opioid. Những nguyên nhân nghiêm trọng hơn gồm tăng áp lực nội sọ do u, nhiễm trùng hoặc xuất huyết. Nếu đau bụng dữ dội, nôn liên tục, đau đầu nhiều, sốt, lơ mơ hoặc có dấu hiệu mất nước, cần đi khám ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Nguyên nhân gây nôn và buồn nôn\nTrả lời: 3. Nguyên nhân gây nôn và buồn nôn\n3.4. Bệnh của hệ thần kinh trung ương Tăng áp lực sọ não như: U, nhiễm trùng (đặc biệt là cryptococcal meningitis), xuất huyết, lo âu, dự đoán trước hóa trị liệu gây nôn.",
+            "score": 0.7172333598136902,
+            "id": "vietnamese_healthcare_9990"
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân buồn nôn khi hành kinh\nTrả lời: 1. Nguyên nhân buồn nôn khi hành kinh\n1.3. Buồn nôn do stress Hormone sẽ giảm xuống khi các chị em gặp nhiều áp lực cuộc sống, mệt mỏi do công việc gia đình, trầm cảm ,... Điều này sẽ khiến kỳ kinh của chị em khó khăn nhiều do sự co bóp tử cung tăng mạnh làm đau bụng cũng như sự xuất hiện nhiều hơn của những cơn buồn nôn khi hành kinh , buồn nôn sau khi hết kinh",
+            "score": 0.6786959171295166,
+            "id": "vietnamese_healthcare_86746"
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân buồn nôn khi hành kinh\nTrả lời: 1. Nguyên nhân buồn nôn khi hành kinh\n1.4. Đau bụng kinh gây ra buồn nôn khi hành kinh, Nguyên nhân thường gặp khác khiến chị em thường buồn nôn trong và sau kỳ kinh là đau bụng kinh . Những cơn co bóp mạnh hơn của tử cung để đẩy máu ra ngoài đồng thời cũng khiến cho bụng dưới của chị em bị đau và gây ra tình trạng buồn nôn khi kỳ kinh và sau kỳ kinh.",
+            "score": 0.6650153994560242,
+            "id": "vietnamese_healthcare_86747"
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây nôn và buồn nôn\nTrả lời: 3. Nguyên nhân gây nôn và buồn nôn\n3.2. Kích thích hoặc nhạy cảm hóa hệ thống tiền đình Chấn thương, ví dụ như nhiễm trùng, u; Thuốc như opioid (hiếm).",
+            "score": 0.6596654653549194,
+            "id": "vietnamese_healthcare_9988"
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân hay đau đầu và buồn nôn?\nTrả lời: 2. Nguyên nhân hay đau đầu và buồn nôn?\nNhiều người thường thắc “ vì sao bị đau đầu buồn nôn ”. Đau nửa đầu là một nguyên nhân phổ biến gây đau đầu và buồn nôn. Ngoài đau đầu và buồn nôn, chứng đau nửa đầu có thể gây ra nhiều triệu chứng khác như chóng mặt , nhạy cảm với ánh sáng. Các tình trạng khác liên quan đến đau đầu và buồn nôn bao gồm: Mất nước và lượng đường trong máu thấp. Căng thẳng hoặc lo lắng Ngộ độc và dị ứng thực phẩm Huyết áp cao Nhiễm toan ceton do đái tháo đường Ban đỏ, viêm họng hạt Cơn mê sảng cai rượu Mang thai sớm cũng là nguyên nhân hay đau đầu và buồn nôn Nhiễm trùng, chẳng hạn như cảm lạnh thông thường hoặc cúm Nhiễm trùng não, vỡ xương sọ Sốt ve Colorado, sốt rét Xơ cứng động mạch thận Bại liệt, bệnh Than Virus Ebola , hội chứng hô hấp cấp tính nghiêm trọng, sốt vàng Bệnh thận giai đoạn cuối Tiêu thụ quá nhiều caffeine, rượu hoặc nicotine cũng có thể bị đau đầu buồn nôn",
+            "score": 0.6593776941299438,
+            "id": "vietnamese_healthcare_17742"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

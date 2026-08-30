@@ -1,0 +1,118 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Bị tiền đình có kết quả xét nghiệm máu vượt mức quy định có sao không?",
+    "ground_truth": "Theo như những chỉ số trên thì bác sĩ chẩn đoán bạn có tăng mỡ máu dòng triglycerid, kết quả ở mức bình thường < 1. 7. Bạn cần hạn chế ăn đồ ngọt, tinh bột. . . cần tập thể dục. kiểm tra lại máu sau 03 tháng",
+    "answer": "Kết quả xét nghiệm vượt mức quy định chưa đủ để kết luận có liên quan đến bệnh tiền đình hay mức độ nguy hiểm. Theo thông tin cung cấp, triglycerid 2,61 được xem là tăng so với mức bình thường <1,7; còn glucose 4,66 và LDL-C 2,94 cần đối chiếu với khoảng tham chiếu của chính phòng xét nghiệm. Chỉ số mỡ máu có thể tăng giả tạo nếu lấy máu sau ăn hoặc không nhịn đói 12 giờ, vì vậy nên trao đổi với bác sĩ, hạn chế đồ ngọt và tinh bột, tập thể dục, đồng thời kiểm tra lại sau 3 tháng theo hướng dẫn.",
+    "evidence": [
+        "Nhưng hôm nay cháu xem kết quả xét nghiệm thấy chỉ số vượt quy định như sau:\nĐịnh lượng glucose là 4.66\nĐịnh lượng triglycerid là 2.61\nĐịnh lượng LDL-C là 2.94\nBác sĩ cho cháu hỏi kết quả xét nghiệm máu vượt mức quy định có sao không?",
+        "Bác sĩ xin trả lời câu hỏi kết quả xét nghiệm máu vượt mức quy định có sao không của bạn như sau: Theo như những chỉ số trên thì bác sĩ chẩn đoán bạn có tăng mỡ máu dòng triglycerid, kết quả ở mức bình thường < 1.7.",
+        "Bạn cần hạn chế ăn đồ ngọt, tinh bột...cần tập thể dục.",
+        "kiểm tra lại máu sau 03 tháng",
+        "Trả lời: Mỗi một phòng xét nghiệm có khoảng tham chiếu riêng cho từng chỉ số xét nghiệm và khoảng tham chiếu này áp dụng cho một quần thể người nói chung.",
+        "Thực tế, có một tỷ lệ nhỏ người vẫn có chỉ số xét nghiệm nằm ngoài khoảng tham chiếu bình thường nhưng hoàn toàn khỏe mạnh.",
+        "Khi các bác sĩ đọc kết quả xét nghiệm, nếu một hoặc kết hợp vài tỷ lệ % này cao hơn hoặc thấp hơn giá trị bình thường (tùy theo giá trị tham chiếu của phòng xét nghiệm) sẽ đánh giá ban đầu người đến khám có xét nghiệm gì bất thường, hoặc cần theo dõi và làm xét nghiệm hỗ trợ để xác định.",
+        "Để có thể tìm ra được nguyên nhân và chẩn đoán bệnh, bác sĩ sẽ cần phải khám lâm sàng, kết hợp tiền sử bệnh và kết quả của các xét nghiệm chẩn đoán khác.",
+        "Vì nồng độ lipid máu có liên quan đến bữa ăn, thời điểm thực hiện lý tưởng là khi người bệnh đã nhịn ăn 12 giờ đồng hồ, thường là buổi sáng sau khi ngủ dậy.",
+        "Nếu lấy máu bất kỳ hay khi người bệnh đã ăn thì kết quả có thể là tăng lipid máu giả tạo."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Tuần trước cháu bị chóng mặt không dậy được 3 ngày, sau đó được truyền bổ não ở nhà do nghi vấn bị rối loạn tiền đình. Sau 7 ngày uống thuốc hoạt huyết dưỡng não và bổ máu tình trạng có đỡ nhưng không khỏi hẳn mà người hay mệt mỏi. Cháu có đi bệnh viện khám, bác sĩ cho xét nghiệm máu và kết luận bị tiền đình. Nhưng hôm nay cháu xem kết quả xét nghiệm thấy chỉ số vượt quy định như sau:\nĐịnh lượng glucose là 4.66\nĐịnh lượng triglycerid là 2.61\nĐịnh lượng LDL-C là 2.94\nBác sĩ cho cháu hỏi kết quả xét nghiệm máu vượt mức quy định có sao không? Mong bác sĩ giải đáp và tư vấn giúp cháu.\nTrả lời: Chào bạn! Bác sĩ xin trả lời câu hỏi kết quả xét nghiệm máu vượt mức quy định có sao không của bạn như sau: Theo như những chỉ số trên thì bác sĩ chẩn đoán bạn có tăng mỡ máu dòng triglycerid, kết quả ở mức bình thường < 1.7. Bạn cần hạn chế ăn đồ ngọt, tinh bột...cần tập thể dục. kiểm tra lại máu sau 03 tháng",
+                "score": 0.5778452157974243,
+                "id": "vietnamese_medical_qa_2451",
+                "rerank_score": 0.999620795249939
+            },
+            {
+                "text": "Câu hỏi: Kết quả xét nghiệm máu bất thường có nguy cơ mắc bệnh gì?\nTrả lời: Xét nghiệm tổng phân tích tế bào máu ngoại vi sẽ bao gồm các chỉ số dòng hồng cầu, bạch cầu, tiểu cầu. Các máy đếm tế bào máu ngoại vi thông thường hiện nay khi phân tích dòng bạch cầu sẽ đưa ra các thông số: số lượng bạch cầu, tỷ lệ phần trăm các loại bạch cầu, số lượng tuyệt đối của từng loại. Tổng phần trăm của các loại tế bào bạch cầu máu là 100%, cụ thể của bạn là: 52. 1% bạch cầu đoạn trung tính + 0. 3% bạch cầu đoạn ưa bazơ + 11. 7%bạch cầu đoạn ưa acid + 4. 1% bạch cầu mono + 31. 8% bạch cầu lympho = 100%. Khi các bác sĩ đọc kết quả xét nghiệm, nếu một hoặc kết hợp vài tỷ lệ % này cao hơn hoặc thấp hơn giá trị bình thường (tùy theo giá trị tham chiếu của phòng xét nghiệm) sẽ đánh giá ban đầu người đến khám có xét nghiệm gì bất thường, hoặc cần theo dõi và làm xét nghiệm hỗ trợ để xác định. Trong trường hợp của bạn, bác sĩ thấy tỷ lệ phần trăm bạch cầu ưa acid (11. 7%) (giá trị bình thường là (0. 4 – 8. 4%) và số lượng tuyệt đối bạch cầu đoạn ưa acid (11. 7% x 7. 7 = 0. 9 G/l) (giá trị bình thường: 0. 03 - 0. 5 G/l) cao hơn bình thường một chút. Bạch cầu ưa acid thường tăng cao trong các trường hợp dị ứng, nhiễm ký sinh trùng (giun, sán. . . ). Tuy nhiên, bạn không nên lo lắng quá với kết quả xét nghiệm như trên.",
+                "score": 0.5094414949417114,
+                "id": "vietnamese_healthcare_2778",
+                "rerank_score": 0.16240090131759644
+            },
+            {
+                "text": "Câu hỏi: Các chỉ số xét nghiệm máu nằm ngoài khoảng tham chiếu có sao không?\nTrả lời: Mỗi một phòng xét nghiệm có khoảng tham chiếu riêng cho từng chỉ số xét nghiệm và khoảng tham chiếu này áp dụng cho một quần thể người nói chung. Thực tế, có một tỷ lệ nhỏ người vẫn có chỉ số xét nghiệm nằm ngoài khoảng tham chiếu bình thường nhưng hoàn toàn khỏe mạnh. Bác sĩ thấy các chỉ số của bạn nêu trên thì khác biệt khá ít so với dải tham chiếu bình thường. Bạn không nên lo lắng quá, bạn có thể kiểm tra lại xét nghiệm sau 3 - 6 tháng cùng với việc khám lâm sàng.",
+                "score": 0.47641313076019287,
+                "id": "vietnamese_healthcare_6735",
+                "rerank_score": 0.13331075012683868
+            },
+            {
+                "text": "Câu hỏi: Kết quả xét nghiệm máu thì nói lên điều gì?\nTrả lời: MVC: 73-96 fL, MCHC: 30.5- 35.8 g/dL, RBC: 3.7-5.5 Tera/L, WBC: 3.6-11.2 G/L. Theo thông tin mô tả, các chỉ số xét nghiệm máu của bạn đều nằm trong giới hạn bình thường. Do đó, tình trạng xanh xao, buồn ngủ không phải do thiếu máu. Bạn nên đến cơ sở y tế uy tín để khám sức khỏe tổng quát, xác định nguyên nhân và có hướng điều trị thích hợp nhất.",
+                "score": 0.4784420132637024,
+                "id": "vietnamese_healthcare_1357",
+                "rerank_score": 0.01840456761419773
+            },
+            {
+                "text": "Câu hỏi: Tư vấn giúp kết quả siêu âm gan và xét nghiệm máu\nTrả lời: Vấn đề của em là viêm gan siêu vi B, đã có xơ hóa gan F1, F2, men gan trong giới hạn bình thường, AFP trong giới hạn bình thường, HBeAg âm tính (virus không hoạt động), HBV DNA ( tải lượng virus) thấp. Em đã điều trị thuốc kháng virus gì chưa?Và phát hiện viêm gan B từ khi nào?Có theo dõi định kỳ không?Tiền sử gia đình có bệnh lý ung thư gan gì không?",
+                "score": 0.48221588134765625,
+                "id": "vietnamese_healthcare_1747",
+                "rerank_score": 0.004487794358283281
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Tuần trước cháu bị chóng mặt không dậy được 3 ngày, sau đó được truyền bổ não ở nhà do nghi vấn bị rối loạn tiền đình. Sau 7 ngày uống thuốc hoạt huyết dưỡng não và bổ máu tình trạng có đỡ nhưng không khỏi hẳn mà người hay mệt mỏi. Cháu có đi bệnh viện khám, bác sĩ cho xét nghiệm máu và kết luận bị tiền đình. Nhưng hôm nay cháu xem kết quả xét nghiệm thấy chỉ số vượt quy định như sau:\nĐịnh lượng glucose là 4.66\nĐịnh lượng triglycerid là 2.61\nĐịnh lượng LDL-C là 2.94\nBác sĩ cho cháu hỏi kết quả xét nghiệm máu vượt mức quy định có sao không? Mong bác sĩ giải đáp và tư vấn giúp cháu.\nTrả lời: Chào bạn! Bác sĩ xin trả lời câu hỏi kết quả xét nghiệm máu vượt mức quy định có sao không của bạn như sau: Theo như những chỉ số trên thì bác sĩ chẩn đoán bạn có tăng mỡ máu dòng triglycerid, kết quả ở mức bình thường < 1.7. Bạn cần hạn chế ăn đồ ngọt, tinh bột...cần tập thể dục. kiểm tra lại máu sau 03 tháng",
+                "score": 0.6486401557922363,
+                "id": "vietnamese_medical_qa_2451",
+                "rerank_score": 0.999620795249939
+            },
+            {
+                "text": "Câu hỏi: Kết quả xét nghiệm máu bất thường có nguy cơ mắc bệnh gì?\nTrả lời: Xét nghiệm tổng phân tích tế bào máu ngoại vi sẽ bao gồm các chỉ số dòng hồng cầu, bạch cầu, tiểu cầu. Các máy đếm tế bào máu ngoại vi thông thường hiện nay khi phân tích dòng bạch cầu sẽ đưa ra các thông số: số lượng bạch cầu, tỷ lệ phần trăm các loại bạch cầu, số lượng tuyệt đối của từng loại. Tổng phần trăm của các loại tế bào bạch cầu máu là 100%, cụ thể của bạn là: 52. 1% bạch cầu đoạn trung tính + 0. 3% bạch cầu đoạn ưa bazơ + 11. 7%bạch cầu đoạn ưa acid + 4. 1% bạch cầu mono + 31. 8% bạch cầu lympho = 100%. Khi các bác sĩ đọc kết quả xét nghiệm, nếu một hoặc kết hợp vài tỷ lệ % này cao hơn hoặc thấp hơn giá trị bình thường (tùy theo giá trị tham chiếu của phòng xét nghiệm) sẽ đánh giá ban đầu người đến khám có xét nghiệm gì bất thường, hoặc cần theo dõi và làm xét nghiệm hỗ trợ để xác định. Trong trường hợp của bạn, bác sĩ thấy tỷ lệ phần trăm bạch cầu ưa acid (11. 7%) (giá trị bình thường là (0. 4 – 8. 4%) và số lượng tuyệt đối bạch cầu đoạn ưa acid (11. 7% x 7. 7 = 0. 9 G/l) (giá trị bình thường: 0. 03 - 0. 5 G/l) cao hơn bình thường một chút. Bạch cầu ưa acid thường tăng cao trong các trường hợp dị ứng, nhiễm ký sinh trùng (giun, sán. . . ). Tuy nhiên, bạn không nên lo lắng quá với kết quả xét nghiệm như trên.",
+                "score": 0.5768246054649353,
+                "id": "vietnamese_healthcare_2778",
+                "rerank_score": 0.1624009758234024
+            },
+            {
+                "text": "Câu hỏi: Kết quả xét nghiệm máu ở người tiểu đường bất thường dấu hiệu bệnh gì?\nTrả lời: Các chỉ số hiện tại, bác sĩ nghi ngờ bạn có thể thuộc nhóm Tiền đái tháo đường hoặc giai đoạn đầu đái tháo đường và tăng cholesterol máu. Từ tháng 09/2020, bộ Y tế Việt Nam chính thức công bố điều trị từ tiền đái tháo đường. Vì vậy, các chỉ số của bạn nên khám bác sĩ Nội tiết để bắt đầu điều trị cho chỉ số đường máu và xem xét điều trị mỡ máu. Đồng thời, tìm các biến chứng của tiền đái tháo đường/đái tháo đường.",
+                "score": 0.5533950328826904,
+                "id": "vietnamese_healthcare_3208",
+                "rerank_score": 0.05470194295048714
+            },
+            {
+                "text": "Câu hỏi: Xét nghiệm máu cho số lượng bạch cầu 9440 có bất thường không?\nTrả lời: Xét nghiệm số lượng bạch cầu máu ngoại vi của bạn 9440 là bình thường. Bác sĩ không biết \"qua xét nghiệm tế bào gốc thì kết quả báo là có tế bào phế nang, nhân sưng\" mà bạn nói là bạn đã được làm xét nghiệm gì nên không thể tư vấn cụ thể được. Tuy nhiên, theo bác sĩ hiểu thì xét nghiệm máu ngoại vi của bạn có thể đã có kết quả ghi là hồng cầu lưới. Nếu đúng vậy thì đây là kết quả xét nghiệm bình thường thể hiện tình trạng sinh tủy bình thường.Nếu lâm sàng của bạn không có triệu chứng gì, đi khám sức khỏe định kỳ mà bác sĩ không nghi ngờ gì thì bạn không cần lo lắng bạn đang bị bệnh lành tính hay ác tính. Lần sau, mỗi lần khám sức khỏe, bạn nên trao đổi với bác sĩ để hiểu rõ các kết quả của mình nhé.",
+                "score": 0.5118863582611084,
+                "id": "vietnamese_healthcare_5006",
+                "rerank_score": 0.006204202305525541
+            },
+            {
+                "text": "Câu hỏi: Ý nghĩa xét nghiệm lactate máu\nTrả lời: 5. Ý nghĩa xét nghiệm lactate máu\nKết quả xét nghiệm lactate máu được xem là bình thường nếu có giá trị lactate/ huyết tương TM nằm trong khoảng từ 5 – 15 mg/dL. Trường hợp giá trị lactate máu tăng cao đồng nghĩa với việc cơ thể người đó đang tạo ra lactate tích lũy. Hay nói cách khác, mức độ lactate càng cao thì tình trạng bệnh càng nghiêm trọng. Đặc biệt, nếu lactate tăng kèm theo tình trạng thiếu oxy có thể là dấu hiệu của tình trạng rối loạn chức năng các cơ quan. Tuy nhiên, sự dư thừa lactate thường không có giá trị chẩn đoán bởi nó không giúp xác định nguyên nhân dẫn đến sự gia tăng này mà chỉ là cơ sở để bác sĩ có thể loại trừ hoặc xác nhận lý do dẫn đến các triệu chứng hiện có của người bệnh. Để có thể tìm ra được nguyên nhân và chẩn đoán bệnh, bác sĩ sẽ cần phải khám lâm sàng, kết hợp tiền sử bệnh và kết quả của các xét nghiệm chẩn đoán khác. Một số loại thuốc có thể làm tăng nồng độ axit lactic trong máu. Do đó, người bệnh cần thông báo với bác sĩ nếu có sử dụng rượu, natri bicarbonat, adrenalin hoặc glucose. Bệnh viện Đa khoa Quốc tế Vinmec là một trong những bệnh viện không những đảm bảo chất lượng chuyên môn với đội ngũ y bác sĩ , hệ thống trang thiết bị công nghệ hiện đại mà còn nổi bật với dịch vụ khám, tư vấn và chữa bệnh toàn diện, chuyên nghiệp; không gian khám chữa bệnh văn minh, lịch sự, an toàn và tiệt trùng tối đa. Khách hàng khi chọn thực hiện các xét nghiệm tại đây có thể hoàn toàn yên tâm về độ chính xác của kết quả xét nghiệm. Khách hàng có thể trực tiếp đến hệ thống Y tế Vinmec trên toàn quốc để thăm khám hoặc liên hệ hotline tại đây để được hỗ trợ.",
+                "score": 0.5461018681526184,
+                "id": "vietnamese_healthcare_51963",
+                "rerank_score": 0.0034507757518440485
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Tuần trước cháu bị chóng mặt không dậy được 3 ngày, sau đó được truyền bổ não ở nhà do nghi vấn bị rối loạn tiền đình. Sau 7 ngày uống thuốc hoạt huyết dưỡng não và bổ máu tình trạng có đỡ nhưng không khỏi hẳn mà người hay mệt mỏi. Cháu có đi bệnh viện khám, bác sĩ cho xét nghiệm máu và kết luận bị tiền đình. Nhưng hôm nay cháu xem kết quả xét nghiệm thấy chỉ số vượt quy định như sau:\nĐịnh lượng glucose là 4.66\nĐịnh lượng triglycerid là 2.61\nĐịnh lượng LDL-C là 2.94\nBác sĩ cho cháu hỏi kết quả xét nghiệm máu vượt mức quy định có sao không? Mong bác sĩ giải đáp và tư vấn giúp cháu.\nTrả lời: Chào bạn! Bác sĩ xin trả lời câu hỏi kết quả xét nghiệm máu vượt mức quy định có sao không của bạn như sau: Theo như những chỉ số trên thì bác sĩ chẩn đoán bạn có tăng mỡ máu dòng triglycerid, kết quả ở mức bình thường < 1.7. Bạn cần hạn chế ăn đồ ngọt, tinh bột...cần tập thể dục. kiểm tra lại máu sau 03 tháng",
+                "score": 0.5931625366210938,
+                "id": "vietnamese_medical_qa_2451",
+                "rerank_score": 0.999620795249939
+            },
+            {
+                "text": "Câu hỏi: Kết quả xét nghiệm máu bất thường có nguy cơ mắc bệnh gì?\nTrả lời: Xét nghiệm tổng phân tích tế bào máu ngoại vi sẽ bao gồm các chỉ số dòng hồng cầu, bạch cầu, tiểu cầu. Các máy đếm tế bào máu ngoại vi thông thường hiện nay khi phân tích dòng bạch cầu sẽ đưa ra các thông số: số lượng bạch cầu, tỷ lệ phần trăm các loại bạch cầu, số lượng tuyệt đối của từng loại. Tổng phần trăm của các loại tế bào bạch cầu máu là 100%, cụ thể của bạn là: 52. 1% bạch cầu đoạn trung tính + 0. 3% bạch cầu đoạn ưa bazơ + 11. 7%bạch cầu đoạn ưa acid + 4. 1% bạch cầu mono + 31. 8% bạch cầu lympho = 100%. Khi các bác sĩ đọc kết quả xét nghiệm, nếu một hoặc kết hợp vài tỷ lệ % này cao hơn hoặc thấp hơn giá trị bình thường (tùy theo giá trị tham chiếu của phòng xét nghiệm) sẽ đánh giá ban đầu người đến khám có xét nghiệm gì bất thường, hoặc cần theo dõi và làm xét nghiệm hỗ trợ để xác định. Trong trường hợp của bạn, bác sĩ thấy tỷ lệ phần trăm bạch cầu ưa acid (11. 7%) (giá trị bình thường là (0. 4 – 8. 4%) và số lượng tuyệt đối bạch cầu đoạn ưa acid (11. 7% x 7. 7 = 0. 9 G/l) (giá trị bình thường: 0. 03 - 0. 5 G/l) cao hơn bình thường một chút. Bạch cầu ưa acid thường tăng cao trong các trường hợp dị ứng, nhiễm ký sinh trùng (giun, sán. . . ). Tuy nhiên, bạn không nên lo lắng quá với kết quả xét nghiệm như trên.",
+                "score": 0.5720846652984619,
+                "id": "vietnamese_healthcare_2778",
+                "rerank_score": 0.1624009758234024
+            },
+            {
+                "text": "Câu hỏi: Kết quả xét nghiệm máu ở người tiểu đường bất thường dấu hiệu bệnh gì?\nTrả lời: Các chỉ số hiện tại, bác sĩ nghi ngờ bạn có thể thuộc nhóm Tiền đái tháo đường hoặc giai đoạn đầu đái tháo đường và tăng cholesterol máu. Từ tháng 09/2020, bộ Y tế Việt Nam chính thức công bố điều trị từ tiền đái tháo đường. Vì vậy, các chỉ số của bạn nên khám bác sĩ Nội tiết để bắt đầu điều trị cho chỉ số đường máu và xem xét điều trị mỡ máu. Đồng thời, tìm các biến chứng của tiền đái tháo đường/đái tháo đường.",
+                "score": 0.5684796571731567,
+                "id": "vietnamese_healthcare_3208",
+                "rerank_score": 0.05470194295048714
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ ơi cho e hỏi kết quả xét nghiệm:\nGlucose Negative nhưng Fasting glucose lại tăng cao vượt chỉ số bình thường (10.09 mmol/l), điều này nghĩa là sao ạ? Có phải thực sự bị tiểu đường hay là đang trong nhóm nguy cơ cao ạ?\nTrả lời: Chào bạn, cám ơn bạn đã gửi câu hỏi\n   Chỉ số đường huyết lúc đói của bạn như vậy là cao. Để chẩn đoán đái tháo đường bạn nên xét nghiệm lại chỉ số đường huyết lúc đói và HbA1C có đủ tiêu chuẩn chẩn đoán đái tháo đường chưa, từ đó có chẩn đoán và điều trị phù hợp.\nChúc bạn nhiều sức khoẻ - Thân chào bạn",
+                "score": 0.5184457302093506,
+                "id": "vietnamese_medical_qa_5604",
+                "rerank_score": 0.003085115924477577
+            },
+            {
+                "text": "Câu hỏi: Nhận xét các kết quả xét nghiệm lipid máu như thế nào?\nTrả lời: 3. Nhận xét các kết quả xét nghiệm lipid máu như thế nào?\nVì nồng độ lipid máu có liên quan đến bữa ăn, thời điểm thực hiện lý tưởng là khi người bệnh đã nhịn ăn 12 giờ đồng hồ, thường là buổi sáng sau khi ngủ dậy. Nếu lấy máu bất kỳ hay khi người bệnh đã ăn thì kết quả có thể là tăng lipid máu giả tạo. Ngưỡng bất thường và các mức độ rối loạn từng chỉ số trong xét nghiệm lipid máu được trình bày trong bảng sau:",
+                "score": 0.5391312837600708,
+                "id": "vietnamese_healthcare_68078",
+                "rerank_score": 0.002972535789012909
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

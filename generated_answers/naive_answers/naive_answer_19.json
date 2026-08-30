@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "tôi bị cơ địa dị ứng với hoá chất, dị ứng với thuốc gây mê, gây tê 17-35%, bị viêm xoang, đau dạ dày và hay đau đầu khi thay đổi thời tiết, khi căng thẳng, bị u tuyến giáp nhỏ, vậy xin hỏi bác sĩ tôi có thể tiêm phòng vaccine được không?",
+    "ground_truth": "Nếu tình trạng dị ứng của bạn ở mức độ nhẹ, bạn chị có thể tiêm ngừa vaccine Covid-19, nếu mức độ nặng, chị không thể tiêm ngừa theo quy định của Bộ Y tế. Ngoài ra, khi đi tiêm, chị cần mang theo sổ khám bệnh để bác sĩ khám sàng lọc biết được tình trạng u tuyến giáp của chị đang ở giai đoạn nào, có lành tính hay không, điều trị như thế nào để tư vấn chị cụ thể hơn.",
+    "answer": "Dựa trên tài liệu, viêm xoang dị ứng, đau dạ dày, đau đầu do thời tiết/căng thẳng và u tuyến giáp nhỏ không phải là lý do tuyệt đối không được tiêm nếu bệnh đang ổn định, không có triệu chứng bất thường kèm theo. Tuy nhiên, do bạn có cơ địa dị ứng với hóa chất và tiền sử dị ứng thuốc gây mê, gây tê, bạn nên khám sàng lọc tại bệnh viện hoặc cơ sở có đủ năng lực hồi sức cấp cứu ban đầu; đồng thời cung cấp đầy đủ tiền sử dị ứng, bệnh lý và thuốc đang sử dụng để bác sĩ quyết định tiêm hay hoãn tiêm. Tài liệu không có đủ thông tin để xác định chắc chắn bạn có thể tiêm ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị viêm xoang, dị ứng hải sản, khi ăn vào sẽ bị ngứa mẩn đỏ. Vậy tôi có tiêm vaccine được không ạ?\nTrả lời: Với mức độ dị ứng như mô tả, anh/chị có thể tiêm vaccine tại các bệnh viện hoặc nơi có đủ năng lực hồi sức cấp cứu ban đầu để đảm bảo an toàn.",
+            "score": 0.510632336139679,
+            "id": "vietnamese_healthcare_2119"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị ung thư tuyến giáp đã mổ cách đây hơn 7 năm. Trong quá trình điều trị tôi bị rối loạn thần kinh tim và nhịp tim phải uống thuốc chèn beta. Bây giờ thỉnh thoảng vẫn bị đau ngực nhưng bác sĩ nói không sao. Tôi có uống nghệ mật ong và 1 số thuốc thì gây mêt. Vậy tôi có chích ngừa vaccine Covid-19 được không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, những người có bệnh mạn tính trong giai đoạn ổn định thì vẫn được tiêm vaccine Covid-19. Tuy nhiên, trường hợp của chị có tiền sử ung thư tuyến giáp, rối loạn thần kinh tim và nhịp tim trong thời gian điều trị nên chị cần cẩn trọng khi tiêm vaccine Covid-19, vì vậy nên được khám tiêm tại bệnh viện để bác sĩ đánh giá tình trạng bệnh ung thư tuyến giáp và các chỉ số về sinh hiệu để được cân nhắc cho chỉ định ngay hoặc hoãn tiêm.",
+            "score": 0.4938076138496399,
+            "id": "vietnamese_healthcare_199"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị nang tuyến giáp, viêm gan siêu vi B không uống thuốc, hay căng cơ vai gáy. Như vậy có nên tiêm vaccine Covid 19 không?\nTrả lời: Trường hợp bệnh lý của anh hiện tại không phải dùng thuốc điều trị, không có biểu hiện nào khác, chỉ theo dõi thì anh có thể tiêm chủng vaccine Covid-19 bình thường.",
+            "score": 0.49373602867126465,
+            "id": "vietnamese_healthcare_341"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ tôi vị viêm mũi - xoang dị ứng do cơ địa mãn tính vẫn đang điều trị và có dị ứng bia rươu, nổi mề đay. Xin hỏi có tiêm vaccine được không?\nTrả lời: Tình trạng viêm mũi - xoang dị ứng do cơ địa mạn tính đang điều trị, và có dị ứng bia rươu, nổi mề đay nếu không có triệu chứng gì khác kèm theo, anh có thể tiêm vaccine Covid-19.",
+            "score": 0.4902837574481964,
+            "id": "vietnamese_healthcare_3854"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị thoái hóa xương khớp, bị chèn dây thần kinh gây tê bì chân tay, hay đau, nhức mỏi có tiêm được vaccine Covid-19 không?\nTrả lời: Đối với trường hợp người bệnh điều trị bệnh mạn tính trong giai đoạn ổn định thì có thể tiêm vaccine Covid-19. Tuy nhiên, trước khi tiêm chị cần cung cấp đầy đủ về tiền sử bệnh, các loại thuốc đang sử dụng để bác sĩ khám sàng lọc có đủ thông tin để đưa ra chỉ định tiêm phù hợp. Nếu như các chỉ số huyết áp, nhịp thở mạch đập ổn định thì chị có thể được bác sĩ chỉ định tiêm bình thường.",
+            "score": 0.48998647928237915,
+            "id": "vietnamese_healthcare_8000"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Chào bác sĩ! Xin hỏi bác sĩ, tình trạng cộm và nhìn thấy khóe mắt có bóng dấu hiệu bệnh gì? Cảm ơn bác sĩ đã tư vấn giúp tôi.",
+    "ground_truth": "Chào Bạn! Theo thông tin bạn chia sẻ thì bác sĩ nghĩ đến viêm kết mạc nhãn cầu góc ngoài khóe mắt hơi dày nên khi bạn nhìn ra khóe mắt sẽ thấy có bóng. Theo bác sĩ bạn nên đi khám mắt để có chỉ định điều trị cho tình trạng cộm mắt hiện tại.",
+    "answer": "Chào bạn, cảm giác cộm mắt kèm nhìn thấy bóng hoặc bất thường ở khóe mắt có thể liên quan đến khô mắt, viêm kết mạc hoặc tổn thương giác mạc; nếu kèm nhìn mờ, đau nhức, đỏ mắt, chảy nước mắt hoặc sợ ánh sáng thì cần đặc biệt lưu ý vì tổn thương giác mạc có thể ảnh hưởng thị lực và để lại sẹo. Bạn nên khám chuyên khoa Mắt sớm để được kiểm tra và xác định nguyên nhân, không tự ý tiếp tục dùng thuốc nhỏ mắt; nếu triệu chứng xuất hiện đột ngột hoặc thị lực giảm, hãy đi khám ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nCách đây 5 ngày, mắt em bị đỏ ngứa, nhức. Em có mua thuốc nhỏ mắt nhỏ, sau 2 ngày mắt đã hết đỏ, nhưng mắt cộm như có sỏi trong mắt, nước mắt chảy, nhạy cảm với ánh sáng. Vậy bác sĩ cho em hỏi đỏ mắt, cộm mắt kèm nhạy cảm với ánh sáng là bệnh gì? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nMắt của bạn bị đỏ, cộm mắt, nhạy cảm với ánh sáng có thể do tổn thương giác mạc. Do đó, bạn nên đi khám bác sĩ chuyên khoa Mắt để được tư vấn và điều trị kịp thời vì nếu tổn thương giác mạc có thể gây mất thị lực và để lại sẹo. Khi đi khám, bác sĩ thường sẽ tùy vào tổn thương mà quyết định thêm các xét nghiệm cần thiết cho bạn.\nTrân trọng!",
+            "score": 0.7192491888999939,
+            "id": "vietnamese_medical_qa_1363"
+        },
+        {
+            "text": "Câu hỏi: Đỏ mắt, cộm mắt kèm nhạy cảm với ánh sáng là bệnh gì?\nTrả lời: Mắt của bạn bị đỏ, cộm mắt, nhạy cảm với ánh sáng có thể do tổn thương giác mạc. Do đó, bạn nên đi khám bác sĩ chuyên khoa Mắt để được tư vấn và điều trị kịp thời vì nếu tổn thương giác mạc có thể gây mất thị lực và để lại sẹo. Khi đi khám, bác sĩ thường sẽ tùy vào tổn thương mà quyết định thêm các xét nghiệm cần thiết cho bạn.",
+            "score": 0.7074300646781921,
+            "id": "vietnamese_healthcare_3741"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cháu năm nay 24 tuổi, mắt thường xuyên bị cộm và rát, gió vào cũng thấy cộm đeo khẩu trang thở lên cũng cộm. Tình trạng này cũng được gần 2 năm nay rồi. Cháu có đi khám bác sĩ chẩn đoán đau mắt đỏ nhưng cháu có tra thuốc thì không thấy khỏi. Xin bác sĩ tư vấn giúp cháu ạ!\nTrả lời: Chào bạn! Với biểu hiện bạn mô tả có khả năng bạn bị khô mắt hoặc viêm kết mạc mạn tính. Bệnh này ngoài dùng thuốc kiên trì cần kết hợp điều chỉnh thói quen sinh hoạt, công việc hoặc môi trường mới có thể giúp cải thiện bệnh.",
+            "score": 0.7002620697021484,
+            "id": "vietnamese_medical_qa_2553"
+        },
+        {
+            "text": "Câu hỏi: Cháu chào bác sĩ! Hơn hai tuần nay, mắt trái của cháu liên tục có dấu hiệu cộm và ngứa. Gần đây, khi hai mắt cháu bị dính nước mưa. mắt sẽ bị cay xè đến mức không nhìn thấy được. Vậy mắt cháu đang gặp vấn đề gì vậy ạ? Xin cảm ơn!\nChào bác sĩ, mắt con bị viêm kết mạc hay ngứa cộm trong mắt mà không biết bị viêm do gì ạ. Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn, với biểu hiện bạn mô tả có khả năng bạn bị viêm kết mạc, bệnh này có thể do nhiều nguyên nhân khác nhau gây nên. Bệnh không gây ảnh hưởng đến thị lực, tuy nhiên khiến người bệnh khó chịu vì cộm, ngứa...nếu để lâu không điều trị có thể dẫn đến 1 số biến chứng: viêm giác mạc, loét giác mạc.. làm ảnh hưởng đến thị lực.",
+            "score": 0.690540611743927,
+            "id": "vietnamese_medical_qa_2537"
+        },
+        {
+            "text": "Câu hỏi: Mắt nhìn mờ đục, đau khi ánh sáng chiếu vào sau khi bóng đập vào mắt có sao không?\nTrả lời: Sau khi bị bóng đập vào mắt, hiện tượng mắt nhìn mờ đục, nhiều vằn đen và đau khi có ánh sáng chiếu vào mắt là biểu hiện có thể gặp trong nhiều bệnh lý, hay gặp nhất là do có xuất huyết trong mắt (như xuất huyết tiền phòng, xuất huyết dịch kính) có thể kèm theo tăng nhãn áp hoặc viêm màng bồ đào. Những tổn thương trên đều rất nguy hiểm và cần được điều trị sớm. Nếu để lâu sẽ khiến mắt nhìn mờ, rất khó hồi phục. Bởi vậy, bạn nên đến khám chuyên khoa Mắt để khám đánh giá thị lực, đo nhãn áp, soi đáy mắt để được chẩn đoán và có hướng điều trị kịp thời, phù hợp.",
+            "score": 0.670179545879364,
+            "id": "vietnamese_healthcare_2642"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

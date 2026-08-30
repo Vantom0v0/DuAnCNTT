@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Trẻ rụng răng cửa sau 2 tháng chưa mọc có cần đi khám không?",
+    "ground_truth": "Đối với trường hợp của cháu bạn, bạn nên theo dõi cháu sau nhổ răng 6 tháng mà vẫn chưa mọc răng lúc ấy cần cho cháu đi khám nha khoa bạn nhé.",
+    "answer": "Trẻ rụng răng cửa hơn 2 tháng chưa mọc lại chưa nhất thiết cần khám ngay; có thể theo dõi đến 6 tháng sau nhổ, nếu vẫn chưa mọc thì nên đưa trẻ khám chuyên khoa Răng–Hàm–Mặt và có thể chụp X-quang để kiểm tra. Tuy nhiên, nếu trẻ khoảng 8 tuổi đã rụng răng cửa 2 tháng chưa mọc, nên cho trẻ đi khám sớm hơn. Răng cửa hàm trên thường mọc muộn hơn răng cửa hàm dưới.",
+    "evidence": [
+        "Các bé bắt đầuthay răng cửatừ răng sữa sang răng vĩnh viễn thường bắt đầu khi bé 5-7 tuổi.",
+        "Nếu bé8 tuổi rụng răng cửa sau 2 tháng chưa mọc lại, bạn nên cho bé đi khám tại cơ sở Y tế uy tín hoặc chuyên khoa Răng-Hàm-Mặt một trong các bệnh viện thuộcHệ thống Y tế Vinmecvàchụp phim răngxem có bất thường cấu trúc răng và khung hàm của bé để được can thiệp kịp thời.",
+        "Đối với trường hợp của cháu bạn, bạn nên theo dõi cháu sau nhổ răng 6 tháng mà vẫn chưa mọc răng lúc ấy cần cho cháu đi khám nha khoa bạn nhé.",
+        "Bạn có thể đến những cơ sở cóchụp X-quangnhư bệnh viện thuộcHệ thống Y tế Vinmeccơ sở trên cả nước để bác sĩ kiểm tra, tiến hành chụp chiếu và có hướng xử lý nếu cần thiết.",
+        "Với răng cửa hàm trên, việc mọc răng mới (răng vĩnh viễn) sau khi nhổ răng sữa sẽ muộn hơn so với răng cửa dưới.",
+        "Bạn nên cho con đi khám chuyên khoa Răng - Hàm - Mặt để được tư vấn cụ thể hơn về tình trạng của trẻ.",
+        "Tuy nhiên, bạn không nói con bạn đã nhổrăng cửahàm trên hay dưới.",
+        "Cháu của mình năm nay đang học lớp một, hiện đãnhổ răngcửa rồi mà đến bây giờ hơn 2 tháng chưa thấy mọc, liệu có phải đi khám không bác sĩ?"
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: ! Con em hiện nay được 8 tuổi, bé rụng 2 răng cửa đã được mấy tháng rồi mà không thấy mọc răng mới. Bác sĩ cho em hỏibé 8 tuổi rụngrăng cửasau 2 tháng chưa mọc lạicó đáng lo không? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn bác sĩ. Nguyen Thi Phuong Yen My (1988) Trả lời\nTrả lời: Chào bạn. Các bé bắt đầuthay răng cửatừ răng sữa sang răng vĩnh viễn thường bắt đầu khi bé 5-7 tuổi. Nếu bé8 tuổi rụng răng cửa sau 2 tháng chưa mọc lại, bạn nên cho bé đi khám tại cơ sở Y tế uy tín hoặc chuyên khoa Răng-Hàm-Mặt một trong các bệnh viện thuộcHệ thống Y tế Vinmecvàchụp phim răngxem có bất thường cấu trúc răng và khung hàm của bé để được can thiệp kịp thời. Cảm ơn bạn đã tin tưởng và gửi câu hỏi về Vinmec. Trân trọng! Được giải đáp bởiNhóm bác sĩ khoa Nội trú Nhi- Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Time City",
+                "score": 0.6614607572555542,
+                "id": "medical_vietnamese_qa_7711",
+                "rerank_score": 0.9994609951972961
+            },
+            {
+                "text": "Câu hỏi: ! Cháu của mình năm nay đang học lớp một, hiện đãnhổ răngcửa rồi mà đến bây giờ hơn 2 tháng chưa thấy mọc, liệu có phải đi khám không bác sĩ? Nga(1999) Trả lời\nTrả lời: Chào bạn! Cảm ơn bạn đã chia sẻ những băn khoăn của mình tới Vinmec. Đối với trường hợp của cháu bạn, bạn nên theo dõi cháu sau nhổ răng 6 tháng mà vẫn chưa mọc răng lúc ấy cần cho cháu đi khám nha khoa bạn nhé. Bạn có thể đến những cơ sở cóchụp X-quangnhư bệnh viện thuộcHệ thống Y tế Vinmeccơ sở trên cả nước để bác sĩ kiểm tra, tiến hành chụp chiếu và có hướng xử lý nếu cần thiết. Trân trọng! Được giải đáp bởiBác sĩ Răng - Hàm - Mặt- Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng. Các nội dung tư vấn khác Trẻ 5 tuổi lung lay răng cửa có thể nhổ không? Trẻ bị sún răng cửa có cần nhổ không? Răng sữa chưa nhổ mà răng mới đã nhú lên có ảnh hưởng gì không? Các bài viết cùng chủ đề Răng người có bao nhiêu loại và bao nhiêu chiếc? Cách đếm và đọc tên các loại răng Bé sưng lợi bao lâu thì mọc răng?",
+                "score": 0.6119667887687683,
+                "id": "medical_vietnamese_qa_7811",
+                "rerank_score": 0.9968631267547607
+            },
+            {
+                "text": "Câu hỏi: Trẻ 2 tuổi bị sún răng cửa có nhổ được không?\nTrả lời: Với tình trạng răng hiện tại của con, em nên đưa con đi khám chuyên khoa Răng-Hàm-Mặt để được Nha sĩ khám, chụp film răng và sẽ tư vấn cụ thể hơn về bệnh cũng như cách chữa trị răng của con được tốt nhất. Em không nên để lâu, bởi sẽ ảnh hưởng đến vấn đề răng miệng về sau.",
+                "score": 0.56171053647995,
+                "id": "vietnamese_healthcare_4243",
+                "rerank_score": 0.8942432403564453
+            },
+            {
+                "text": "Câu hỏi: Con em đã nhổ 2 cái răng cửa vào lúc 4 tuổi vì bị sâu răng đến chân lợi. Bây giờ bé đã 9 tuổi nhưng vẫn chưa mọc răng mới. Bác sĩ cho em hỏi,trẻ 9 tuổi chưa mọc răng cửa có sao không?\nTrả lời: bác sĩ xin giải đáp như sau: Nhiễm trùng là lý do chủ yếu khiến bác sĩ quyết địnhnhổ răngsớm cho trẻ. Tuy nhiên, bạn không nói con bạn đã nhổrăng cửahàm trên hay dưới. Với răng cửa hàm trên, việc mọc răng mới (răng vĩnh viễn) sau khi nhổ răng sữa sẽ muộn hơn so với răng cửa dưới. Ngoài lý do tuổi mọc răng, còn nhiều lý do khiến răng mới chưa có. Bạn nên cho con đi khám chuyên khoa Răng - Hàm - Mặt để được tư vấn cụ thể hơn về tình trạng của trẻ.",
+                "score": 0.6235550045967102,
+                "id": "medical_vietnamese_qa_6630",
+                "rerank_score": 0.8925901651382446
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi với ạ, em của em năm nay 6 tuổi đã nhổ 2 răng hàm cửa dưới từ ngày 15/11/2019 nhưng đến nay chưa thấy mọc thì có sao không ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Em của bạn đang độ tuổi mọc răng, nếu đã lâu chưa thấy mọc thì bạn nên đưa em đi khám với bác sĩ Răng - Hàm - Mặt để được chụp phim X quang răng kiểm tra bạn nhé.",
+                "score": 0.6097425222396851,
+                "id": "vietnamese_medical_qa_4153",
+                "rerank_score": 0.8547999262809753
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: ! Con em hiện nay được 8 tuổi, bé rụng 2 răng cửa đã được mấy tháng rồi mà không thấy mọc răng mới. Bác sĩ cho em hỏibé 8 tuổi rụngrăng cửasau 2 tháng chưa mọc lạicó đáng lo không? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn bác sĩ. Nguyen Thi Phuong Yen My (1988) Trả lời\nTrả lời: Chào bạn. Các bé bắt đầuthay răng cửatừ răng sữa sang răng vĩnh viễn thường bắt đầu khi bé 5-7 tuổi. Nếu bé8 tuổi rụng răng cửa sau 2 tháng chưa mọc lại, bạn nên cho bé đi khám tại cơ sở Y tế uy tín hoặc chuyên khoa Răng-Hàm-Mặt một trong các bệnh viện thuộcHệ thống Y tế Vinmecvàchụp phim răngxem có bất thường cấu trúc răng và khung hàm của bé để được can thiệp kịp thời. Cảm ơn bạn đã tin tưởng và gửi câu hỏi về Vinmec. Trân trọng! Được giải đáp bởiNhóm bác sĩ khoa Nội trú Nhi- Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Time City",
+                "score": 0.6216961741447449,
+                "id": "medical_vietnamese_qa_7711",
+                "rerank_score": 0.9994609951972961
+            },
+            {
+                "text": "Câu hỏi: ! Cháu của mình năm nay đang học lớp một, hiện đãnhổ răngcửa rồi mà đến bây giờ hơn 2 tháng chưa thấy mọc, liệu có phải đi khám không bác sĩ? Nga(1999) Trả lời\nTrả lời: Chào bạn! Cảm ơn bạn đã chia sẻ những băn khoăn của mình tới Vinmec. Đối với trường hợp của cháu bạn, bạn nên theo dõi cháu sau nhổ răng 6 tháng mà vẫn chưa mọc răng lúc ấy cần cho cháu đi khám nha khoa bạn nhé. Bạn có thể đến những cơ sở cóchụp X-quangnhư bệnh viện thuộcHệ thống Y tế Vinmeccơ sở trên cả nước để bác sĩ kiểm tra, tiến hành chụp chiếu và có hướng xử lý nếu cần thiết. Trân trọng! Được giải đáp bởiBác sĩ Răng - Hàm - Mặt- Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng. Các nội dung tư vấn khác Trẻ 5 tuổi lung lay răng cửa có thể nhổ không? Trẻ bị sún răng cửa có cần nhổ không? Răng sữa chưa nhổ mà răng mới đã nhú lên có ảnh hưởng gì không? Các bài viết cùng chủ đề Răng người có bao nhiêu loại và bao nhiêu chiếc? Cách đếm và đọc tên các loại răng Bé sưng lợi bao lâu thì mọc răng?",
+                "score": 0.5673404932022095,
+                "id": "medical_vietnamese_qa_7811",
+                "rerank_score": 0.9968631267547607
+            },
+            {
+                "text": "Câu hỏi: Trẻ 2 tuổi bị sún răng cửa có nhổ được không?\nTrả lời: Với tình trạng răng hiện tại của con, em nên đưa con đi khám chuyên khoa Răng-Hàm-Mặt để được Nha sĩ khám, chụp film răng và sẽ tư vấn cụ thể hơn về bệnh cũng như cách chữa trị răng của con được tốt nhất. Em không nên để lâu, bởi sẽ ảnh hưởng đến vấn đề răng miệng về sau.",
+                "score": 0.5884929299354553,
+                "id": "vietnamese_healthcare_4243",
+                "rerank_score": 0.8942432403564453
+            },
+            {
+                "text": "Câu hỏi: Con em đã nhổ 2 cái răng cửa vào lúc 4 tuổi vì bị sâu răng đến chân lợi. Bây giờ bé đã 9 tuổi nhưng vẫn chưa mọc răng mới. Bác sĩ cho em hỏi,trẻ 9 tuổi chưa mọc răng cửa có sao không?\nTrả lời: bác sĩ xin giải đáp như sau: Nhiễm trùng là lý do chủ yếu khiến bác sĩ quyết địnhnhổ răngsớm cho trẻ. Tuy nhiên, bạn không nói con bạn đã nhổrăng cửahàm trên hay dưới. Với răng cửa hàm trên, việc mọc răng mới (răng vĩnh viễn) sau khi nhổ răng sữa sẽ muộn hơn so với răng cửa dưới. Ngoài lý do tuổi mọc răng, còn nhiều lý do khiến răng mới chưa có. Bạn nên cho con đi khám chuyên khoa Răng - Hàm - Mặt để được tư vấn cụ thể hơn về tình trạng của trẻ.",
+                "score": 0.5790404081344604,
+                "id": "medical_vietnamese_qa_6630",
+                "rerank_score": 0.8925901651382446
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi với ạ, em của em năm nay 6 tuổi đã nhổ 2 răng hàm cửa dưới từ ngày 15/11/2019 nhưng đến nay chưa thấy mọc thì có sao không ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Em của bạn đang độ tuổi mọc răng, nếu đã lâu chưa thấy mọc thì bạn nên đưa em đi khám với bác sĩ Răng - Hàm - Mặt để được chụp phim X quang răng kiểm tra bạn nhé.",
+                "score": 0.5724743604660034,
+                "id": "vietnamese_medical_qa_4153",
+                "rerank_score": 0.8547999262809753
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: ! Cháu của mình năm nay đang học lớp một, hiện đãnhổ răngcửa rồi mà đến bây giờ hơn 2 tháng chưa thấy mọc, liệu có phải đi khám không bác sĩ? Nga(1999) Trả lời\nTrả lời: Chào bạn! Cảm ơn bạn đã chia sẻ những băn khoăn của mình tới Vinmec. Đối với trường hợp của cháu bạn, bạn nên theo dõi cháu sau nhổ răng 6 tháng mà vẫn chưa mọc răng lúc ấy cần cho cháu đi khám nha khoa bạn nhé. Bạn có thể đến những cơ sở cóchụp X-quangnhư bệnh viện thuộcHệ thống Y tế Vinmeccơ sở trên cả nước để bác sĩ kiểm tra, tiến hành chụp chiếu và có hướng xử lý nếu cần thiết. Trân trọng! Được giải đáp bởiBác sĩ Răng - Hàm - Mặt- Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng. Các nội dung tư vấn khác Trẻ 5 tuổi lung lay răng cửa có thể nhổ không? Trẻ bị sún răng cửa có cần nhổ không? Răng sữa chưa nhổ mà răng mới đã nhú lên có ảnh hưởng gì không? Các bài viết cùng chủ đề Răng người có bao nhiêu loại và bao nhiêu chiếc? Cách đếm và đọc tên các loại răng Bé sưng lợi bao lâu thì mọc răng?",
+                "score": 0.5391873121261597,
+                "id": "medical_vietnamese_qa_7811",
+                "rerank_score": 0.9968631267547607
+            },
+            {
+                "text": "Câu hỏi: Tại sao trẻ chậm mọc răng?\nTrả lời: 2. Tại sao trẻ chậm mọc răng?\nThực tế, có bé mọc 2 răng cửa đầu tiên sớm khi mới 4, 5 tháng tuổi. Cũng có những bé mọc 2 chiếc răng này muộn hơn ở 9 - 10 tháng tuổi. Như vậy là theo như quy trình trên, trẻ 7 tháng chưa mọc răng cũng chưa phải là quá muộn. Kể cả trẻ 7 tháng rưỡi chưa mọc răng thì cha mẹ cũng không nên quá lo lắng. Nếu các bé chậm mọc răng nhưng vẫn phát triển tốt cả về thể chất lẫn tinh thần thì điều đó không đáng lo ngại,vì khả năng cao đây là chậm mọc răng sinh lý. Trong trường hợp bé chậm mọc răng đi cùng các dấu hiệu khác như: Chậm tăng cân, chiều cao không tăng hoặc tăng ít, lười ăn, tóc vành khăn,... thì mẹ nên đưa bé đi khám ở các bệnh viện, phòng khám có chuyên khoa nhi uy tín. Trẻ 7 tháng chưa mọc răng có thể một số nguyên nhân khác như: Do di truyền. Trẻ sinh non Do cha mẹ cho bé ăn dặm muộn, nướu và mầm răng không được kích thích bằng phản xạ nhai nuốt. Do chế độ dinh dưỡng: trẻ bị suy dinh dưỡng, chậm lớn, thiếu canxi, vitamin D và các dưỡng chất cần thiết khác. Yếu tố dinh dưỡng cho trẻ sơ sinh là điều quan trọng ảnh hưởng đến quá trình mọc răng sữa ở trẻ, và cũng là điều mà các bậc phụ huynh vô cùng quan tâm. Tại sao trẻ chậm mọc răng? Khi trẻ chậm mọc răng, nếu kết hợp thêm các dấu hiệu của một tình trạng thiếu dinh dưỡng chung như chậm phát triển cân nặng, chiều cao và các triệu chứng của còi xương như ngủ không ngon giấc ban đêm, hay giật mình khóc thét, có những cơn khóc ngất tím cả người, đổ mồ hôi trộm ban đêm, bẹp hộp sọ, lồng ngực lép, thóp rộng... thì chậm mọc răng ở trẻ là do còi xương. Trong trường hợp này, cần gia tăng khẩu phần dinh dưỡng hằng ngày cho trẻ. Một số trường hợp trẻ bị chậm mọc răng có thể là do thiếu canxi để phát triển các mầm răng. Thức ăn chính của trẻ trong giai đoạn đầu đời là sữa, thường rất giàu canxi. Tuy nhiên, nếu trẻ bú mẹ, mà chế độ ăn của mẹ lại không đủ chất dinh dưỡng thì có thể làm giảm chất lượng nguồn sữa. Đồ ăn dặm cho trẻ cũng không nên có quá nhiều phốt pho (có nhiều trong các loại rau quả), vì tỷ lệ phốt pho cao quá thì sự hấp thụ canxi cũng sẽ giảm đi. Vitamin D là yếu tố cần cho sự hấp thu canxi, có thể được cung cấp cho trẻ từ cả thức ăn và ánh sáng mặt trời. Ở trẻ sơ sinh thì vitamin D đến từ ánh sáng mặt trời là nhiều hơn. Tắm nắng đúng cách cho trẻ giúp xương, răng của trẻ phát triển tốt hơn, cơ thể khỏe mạnh hơn. Ba mẹ có thể nhờ chuyên gia dinh dưỡng hỗ trợ thêm về chế độ ăn cho trẻ. Ngoài ra, để chắc chắn hơn, ba mẹ có thể đưa bé đến các khoa Nhi của bệnh viện để khám và hỏi ý kiến bác sĩ. Nếu có vấn đề bất thường, bác sĩ có thể yêu cầu chụp phim X-quang hoặc làm các xét nghiệm cần thiết để xác định rõ nếu có vấn đề bất thường. Bên cạnh đó, cha mẹ còn cần bổ sung cho con các vi khoáng chất thiết yếu như kẽm, Lysine, crom , selen , vitamin B1, ... để đáp ứng đầy đủ nhu cầu về dưỡng chất ở trẻ. Việc bổ sung các vitamin thiết yếu này còn hỗ trợ tiêu hóa, tăng cường khả năng hấp thu dưỡng chất, giúp cải thiện tình trạng biếng ăn, giúp trẻ ăn ngon miệng. Cha mẹ có thể đồng thời áp dụng việc bổ sung chất qua đường ăn uống và các thực phẩm chức năng có nguồn gốc từ tự nhiên để bé dễ hấp thụ. Điều quan trọng nhất là việc cải thiện triệu chứng cho bé thường phải diễn ra trong thời gian dài. Việc kết hợp nhiều loại thực phẩm chức năng cùng lúc hoặc thay đổi liên tục nhiều loại trong thời gian ngắn có thể khiến hệ tiêu hóa của bé không kịp thích nghi và hoàn toàn không tốt. Vì vậy cha mẹ phải thực sự kiên trì đồng hành cùng con và thường xuyên truy cập website vinmec.com để cập nhật những thông tin chăm sóc cho bé hữu ích nhé. Lịch mọc răng và thứ tự mọc răng của trẻ",
+                "score": 0.5416584014892578,
+                "id": "vietnamese_healthcare_99756",
+                "rerank_score": 0.7795387506484985
+            },
+            {
+                "text": "Câu hỏi: Trẻ 1 tuổi chưa mọc răng có phải bị chậm mọc răng không?\nTrả lời: So với thống kê thì con bạn chậm mọc răng. Bạn nên cho con đi khám chuyên khoa Răng - Hàm - Mặt để được tư vấn cụ thể nhé.",
+                "score": 0.5922622680664062,
+                "id": "vietnamese_healthcare_1854",
+                "rerank_score": 0.761343240737915
+            },
+            {
+                "text": "Câu hỏi: Sau nhổ răng hàm chưa thấy mọc có sao không?\nTrả lời: Em của bạn đang độ tuổi mọc răng, nếu đã lâu chưa thấy mọc thì bạn nên đưa em đi khám với bác sĩ Răng - Hàm - Mặt để được chụp phim X quang răng kiểm tra bạn nhé.",
+                "score": 0.5699523687362671,
+                "id": "vietnamese_healthcare_1727",
+                "rerank_score": 0.6319103240966797
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em hiện tại 14 tháng mà chưamọc răng sữa nào. Vậy bác sĩ cho em hỏitrẻ 14 tháng tuổi chưa mọc răng có sao không?Có phải bé bị chậm mọc răng không? Nếu đi khám thì khám nha khoa hay khám gì? Em cảm ơn. Trần Thị Tuyết Mai(Nha Trang) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Lại Đỗ Quyên- Khoa Liên Chuyên Khoa, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bé 14 tháng mà chưa mọc răng là hơi muộn so với thống kê. Tuy nhiên, nếu bé vẫn tăng cân và phát triển chiều cao bình thường theo lứa tuổi thì không có gì đáng lo. Bạn nên cho con đi khám đi khám chuyên khoa Răng-Hàm-Mặt để được kiểm tra chi tiết.",
+                "score": 0.5671501755714417,
+                "id": "medical_vietnamese_qa_8054",
+                "rerank_score": 0.4284922480583191
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

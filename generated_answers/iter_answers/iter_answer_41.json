@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Tôi bị hen phế quản, có tiền sử viêm phế quản và bị viêm phổi một lần cách đây mấy năm. Hiện tôi vẫn phải duy trì thuốc xịt dự phòng. Tôi có cơ địa dị ứng, vậy có tiêm được vaccine Covid-19 không?",
+    "ground_truth": "Theo thông tin sức khỏe anh/chị mô tả, anh/chị có tiền sử viêm phế quản và bị viêm phổi một lần cách đây mấy năm đã được điều trị ổn định. Hiện hàng ngày vẫn phải duy trì thuốc xịt dự phòng, có tiền sử dị ứng nhưng không rõ dị ứng với mức độ như thế nào nếu dị ứng phải vào bệnh viện để điều trị thì bạn nằm trong chống chỉ định tiêm vaccine. Còn nếu dị ứng nhẹ tự khỏi hay chỉ uống thuốc tại nhà bạn vẫn có thể tiêm phòng được. Theo hướng dẫn mới nhất của Bộ Y tế, anh/chị thuộc nhóm cần thận trọng khi tiêm vaccine Covid-19. Trường hợp của anh/chị vẫn được tiêm vaccine Covid-19 tại khối bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Bạn vẫn có thể tiêm vaccine Covid-19 nếu hen phế quản, tiền sử viêm phế quản/viêm phổi và tình trạng dị ứng hiện đã ổn định; việc duy trì thuốc xịt dự phòng không phải là chống chỉ định. Khi khám sàng lọc, hãy thông báo đầy đủ tiền sử hen, dị ứng và các bệnh hô hấp để bác sĩ đánh giá, hướng dẫn và quyết định tiêm phù hợp. Do cơ địa dị ứng có thể làm tăng nguy cơ phản ứng dị ứng, bạn cần ở lại cơ sở tiêm chủng ít nhất 30 phút và tiếp tục theo dõi tại nhà theo hướng dẫn (thường 7–28 ngày); nếu xuất hiện khó thở, tím tái, đau quặn bụng, buồn nôn hoặc nôn, hãy liên hệ ngay nhân viên y tế hoặc đến cơ sở y tế gần nhất.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi đang điều trị bệnh hen phế quản và viêm mũi dị ứng. Tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Đối với tình trạng hen phế quản, viêm mũi dị ứng, nếu bệnh đã ổn định, chị vẫn có thể tiêm được vaccine Covid-19. Tuy nhiên, những người có cơ địa dị ứng như hen phế quản, viêm da cơ địa, dị ứng thời tiết có thể có nguy cơ phản ứng với vaccine cao hơn những người khác. Vì vậy, khi khám sàng lọc, bác sĩ sẽ đánh giá tình trạng sức khỏe của chị cũng như có những hướng dẫn phù hợp để chị biết được những triệu chứng sớm của phản vệ như tím tái, khó thở, đau quặn bụng, nôn và buồn nôn. Chị cần phải tuân thủ đúng theo hướng dẫn của bác sĩ ở lại cơ sở tiêm chủng ít nhất 30 phút sau tiêm cũng như tiếp tục theo dõi tại nhà ít nhất 7 ngày. Nếu như có bất kỳ dấu hiệu nào cũng phản vệ nêu trên, chị hãy liên hệ ngay với nhân viên y tế hoặc cơ sở y tế gần nhất để được xử trí kịp thời.",
+            "score": 0.9027842283248901,
+            "id": "vietnamese_healthcare_4483"
+        },
+        {
+            "text": "Câu hỏi: Em là nam năm nay 32 tuổi, bố và em trai em bị hen phế quản, em sức khoẻ hiện nay tốt ổn, song đợt lạnh năm ngoái vẫn có bị khó thở về đêm. Hiện tại khi đùa giỡn cười quá mức thì vẫn có khả năng bị khó thở, em nghĩ là lên cơn hen, mặc dù em chơi thể thao như bóng chuyền thì không sao. Với tình trạng hiện giờ, em có thể tiêm vaccine không?\nTrả lời: Tình trạng sức khỏe của bạn hoàn toàn có thể tiêm chủng vaccine Covid-19. Tuy nhiên, cơ địa của mình dễ bị hen gây khó thở nên mình cần cẩn trọng khi tiêm chủng. Bạn hãy thông báo cho bác sĩ biết tình trạng bệnh của bạn để bác sĩ hướng dẫn và chỉ định tiêm chủng. Sau khi tiêm chủng bạn cần tuân thủ theo đúng hướng dẫn của bác sĩ về theo dõi phản ứng sau tiêm tại cơ sở tiêm chủng ít nhất 30 phút và tiếp tục theo dõi tại nhà ít nhất 7-28 ngày để kịp thời phát hiện các dấu hiệu bất thường như phản vệ (tuy rất hiếm) để kịp thời xử trí. Lưu ý hạn chế tập thể dục cường độ mạnh sau tiêm như đá bóng, chơi bóng chuyền, bóng rổ, cử tạ, boxing. . . Bạn nên duy trì uống đủ nước và nghỉ ngơi hợp lý.",
+            "score": 0.8342013955116272,
+            "id": "vietnamese_healthcare_4870"
+        },
+        {
+            "text": "Câu hỏi: Người bị hen phế quản do dị ứng khi thời tiết thay đổi, có thể tiêm vaccine Covid-19 không?\nTrả lời: Người bị hen phế quản vẫn có thể tiêm vaccine Covid-19. Tuy nhiên, những người có cơ địa dị ứng như hen phế quản, viêm mũi dị ứng, viêm da cơ địa. . . là những người dễ dị ứng vaccine hơn so với những người khác. Điều quan trọng là anh cần phải biết các triệu chứng phản vệ sớm để thông báo hoặc đến ngay cơ sở y tế để được xử trí kịp thời. Vì vậy, khi khám sàng lọc trước tiêm, anh cần thông báo với bác sĩ về tình trạng dị ứng ccũng như các triệu chứng mà bác gặp phải để bác sĩ có thể quyết định chỉ định tiêm chủng và tư vấn cho anh. Chúc anh sức khỏe.",
+            "score": 0.8224656581878662,
+            "id": "vietnamese_healthcare_2501"
+        },
+        {
+            "text": "Câu hỏi: tôi có tiền sử bị viêm phế quản thể hen thì có thể tiêm phòng vaccine Covid-19 không bác sĩ?\nTrả lời: Theo thông tin chị cung cấp, nếu tình trạng viêm phế quản đã điều trị ổn định, chị vẫn có thể tiêm được vaccin Covid-19 theo hướng dẫn của Bộ Y tế. Tuy nhiên theo những nghiên cứu tại Mỹ, Tỷ lệ những ngừoi có cơ địa bệnh dị ứng như viêm mũi dị ứng, tiền sử bệnh hen, hoặc tiền sử dị ứng với tác nhân gì thì gặp tỷ lệ phản vệ cao hơn những người khác, tuy nhiên, không phải ai cũng bị và tỷ lệ vẫn rất hiếm. Vì vậy, chị cần cung cấp đầy đủ về tiền sử bệnh cho bác sĩ khám sàng lọc để được khám sàng lọc kỹ và dặn dò kỹ các phản ứng sau tiêm.",
+            "score": 0.8041541576385498,
+            "id": "vietnamese_healthcare_1160"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị viêm mũi dị ứng, tôi thường chảy mũi vào buổi sáng hoặc thay dổi thời tiết, và tôi bị bệnh bụi phổi cách đây 10 năm, thỉnh thoảng đi làm về mệt thì bị ho. Tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Với tình trạng viêm mũi dị ứng như anh/chị đã thông tin thì anh/chị vẫn có thể tiêm phòng vaccine Covid-19 được. Tuy nhiên, bệnh bụi phổi của anh/chị phải được xem xét và cân nhắc kỹ. Nếu bệnh ổn định trong vòng 3 tháng trở lại đây thì anh/chị có thể được tiêm vaccine Covid-19 tại tuyến bệnh viện hoặc tại các cơ sở y tế đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.8026597499847412,
+            "id": "vietnamese_healthcare_8118"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

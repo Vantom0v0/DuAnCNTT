@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Chào bác sĩ,\nVinmec có trẻ hóa da bằng sóng RF hoặc hồng ngoại không? Em năm nay 28 tuổi có làm được không? Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nVinmec hiện có dịch vụ trẻ hóa da bằng sóng RF cho hiệu quả tốt. Tuy nhiên, không có dịch vụ trẻ hóa da bằng hồng ngoại do hiệu quả thấp. Thay vào đó Vinmec có trẻ hóa da bằng laser Nd YAG, Er: YAG kết hợp với PRP và EV.\nSóng RF giúp làm căng da tức thì và kích thích các tế bào da tăng cường sản xuất collagen và elastin, giúp da được săn chắc và đàn hồi tốt hơn. Ngoài 20 tuổi, da bắt đầu xuất hiện các dấu hiệu lão hóa. Tại Vinmec hiện đang sử dụng các phương pháp trẻ hóa da không xâm lấn, giúp da đẹp tự nhiên nên phù hợp với các độ tuổi và các loại da. Vì vậy, bạn có thể đến Trung tâm Thẩm mỹ Vinmec-View để được tư vấn và phục hồi da hiệu quả nhất.\nTrân trọng!",
+    "answer": "Chào bạn, tài liệu được cung cấp không có thông tin về dịch vụ trẻ hóa da bằng sóng RF hoặc hồng ngoại tại Vinmec, cũng như chưa đề cập việc người 28 tuổi có phù hợp thực hiện hay không. Vì vậy, chưa thể tư vấn chính xác cho trường hợp của bạn; bạn nên liên hệ trực tiếp với Vinmec hoặc đến cơ sở gần nhất để được tư vấn cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: bé trai nhà tôi6 tuổi, cháu đã tiêm đầy đủ các mũi tiêm chủng trong chương trình tiêm của nhà nước. Giờ tôi có nhu cầu cho con tiêm phòng các mũitiêm phòng mở rộng. Bác sĩ cho tôi hỏi tôi cần tiêm thêm những mũi nào? Mong bác sĩ tư vấn, tôi xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, Bạn rất quan tâm đến tiêm chủng cho bé là điều rất đáng khen ngợi. Tuy nhiên, các mũi bé đã tiêm và thời điểm tiêm của bé bạn chưa cung cấp chi tiết nên không thể tư vấn cụ thể cho bé được. Vậy bạn nên đưa bé và mang theo sổ tiêm chủng đến cơ sở tiêm chủng gần nhất để được tư vấn các mũi tiêm và thời điểm tiêm phù hợp cho bé nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Bác sĩ chuyên khoa II Lê Thanh Cẩm -Bác sĩ Nhi khoa - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+            "score": 0.5937787294387817,
+            "id": "medical_vietnamese_qa_13541"
+        },
+        {
+            "text": "Câu hỏi: ! Con tôi được 22 tháng tuổi bịgiun kim, tối nào cũng phải lấy cho bé. Xin bác sĩ tư vấnbé 22 tháng tuổi bị giun kim phải làm sao? Xin cảm ơn. Phạm Thi Bang Tam,1980 Trả lời\nTrả lời: Chào bạn. Bác sĩ xin giải đáp câu hỏi: “Bé 22 tháng tuổi bị giun kim phải làm sao?” của bạn như sau: Nhiễm giun kim là một trong những bệnhký sinh trùngở người khá phổ biến trên thế giới, đặc biệt ở các nước đang phát triển trong đó có Việt Nam. Bệnh có thể lây từ người này qua người khác, nên việc phòng ngừa không hề đơn giản. Bạn nên cho bé uống thuốctẩy giunvà đi khám tại cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để bác sĩ tư vấn cụ thể hơn. Cảm ơn bạn đã đặt câu hỏi tới Vinmec. Trân trọng! Được giải đáp bởiBác sĩ chuyên khoa I Đồng Xuân Hà -Bác sĩ Nội soi tiêu hóa - Khoa khám bệnh và Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long",
+            "score": 0.5500701665878296,
+            "id": "medical_vietnamese_qa_7680"
+        },
+        {
+            "text": "Câu hỏi: . Bé nhà em năm nay 6 tuổi. Cách đây 10 ngày, bé có đụng đầu vào bồn rửa chén bằng nhôm và bị chảy máu. Sau đó bé bịsốtvànổi mề đay. Xin hỏi bác sĩ bé cònchích ngừa uốn vánđược nữa không ạ? Cảm ơn bác sĩ Ho Thi Thoa(1986) Trả lời\nTrả lời: Chào bạn, cảm ơn bạn đã đặt câu hỏi tới website Vinmec.com. Bé nhà bạn vẫn nên tiêm ngừa uốn ván. Bạn nên đưa bé đến trung tâm tiêm chủng để được tư vấn cụ thể. Chúc bé mau khỏe, trân trọng. ThS.BS Huỳnh Bảo Toàn - Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.5488971471786499,
+            "id": "medical_vietnamese_qa_13580"
+        },
+        {
+            "text": "Câu hỏi: Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nTrả lời: 9. Khi nào bố mẹ nên đưa con đến bệnh viện để kiểm tra vấn đề về da cho con?\nCác triệu chứng trở nên tồi tệ hơn Có dấu hiệu nhiễm trùng da như sưng đỏ vùng viêm da kèm tiết dịch, đau nhiều khi chạm vào, sốt... Triệu chứng viêm da xuất hiện ở các vị trí mới. Khoa nhi tại hệ thống Bệnh viện Đa khoa Quốc tế Vinmec là địa chỉ tiếp nhận và thăm khám các bệnh lý mà trẻ sơ sinh cũng như trẻ nhỏ dễ mắc phải: Sốt virus, sốt vi khuẩn, viêm tai giữa, viêm phổi ở trẻ,....Với trang thiết bị hiện đại, không gian vô trùng, giảm thiểu tối đa tác động cũng như nguy cơ lây lan bệnh. Cùng với đó là sự tận tâm từ các bác sĩ giàu kinh nghiệm chuyên môn với các bệnh nhi, giúp việc thăm khám không còn là nỗi trăn trở của các bậc cha mẹ. Khách hàng có thể trực tiếp đến hệ thống Y tế Vinmec trên toàn quốc để thăm khám hoặc liên hệ hotline tại đây để được hỗ trợ.",
+            "score": 0.5462627410888672,
+            "id": "vietnamese_healthcare_48320"
+        },
+        {
+            "text": "Câu hỏi: Con gái em mới 20 tháng, cách đây 1 tháng phát hiện cháu bị vàng da ạ. Cháu đượcchẩn đoán viêm tụy cấp, viêm đường mật do có sỏi tụy ạ. Chỉ định điều trị nội khoa vì cháu quá nhỏ không nội soi tán sỏi được ạ. Xin hỏi bác sĩVinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?Em xin cảm ơn.\nTrả lời: Chào bạn, Với câu hỏi “Vinmec có điều trị sỏi tụy ở trẻ 20 tháng tuổi không?”, bác sĩ giải đáp như sau: Bệnh sỏi tụy thường vào viện vì có những đợt bị viêm tụy cấp hoặc viêm đường mật, lâu ngày có thể thành viêm tụy mãn. Điều trị sỏi tụy, cho đến nay vẫn chưa có phương pháp tán sỏi như trong sỏi đường tiết niệu mà chỉ có nội soi đặt stent qua chỗ hẹp tạo đường hầm rồi gắp sỏi qua đường hầm đó, nhưng đặt stent đó chỉ làm được khi ống tụy bị giãn ở trẻ lớn hoặc ở người lớn. Việc gắp sỏi qua nội soi đó cũng ít hiệu quả, vì vậy khi sỏi tụy gây giãn ống tụy và gây viêm tụy mãn có thể phải áp dụng phẫu thuật mới là phương pháp điều trị chính của điều trị sỏi tụy sỏi tụy bạn nhé. Với con bạn vì còn bé mới 20 tháng tuổi nên trước mắt là khám định kỳ theo dõi tình trạng sỏi (tức là sỏi to hay bé, nhiều hay ít sỏi, vị trí ở đâu), tình trạng ống tụy có bị giãn hay không và tụy có bị tổn thương không, đồng thời điều trị nội khoa khi có biểu hiện viêm tụy cấp bạn nhé. Hiện tại, tại Vinmec với sỏi tụy ở trẻ em cũng đang điều trị theo phác đồ này bạn có thể đưa bé đến thăm khám sớm nhất.",
+            "score": 0.5455372333526611,
+            "id": "medical_vietnamese_qa_4934"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,110 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ, em cần tỉnh táo để làm việc học tập vậy nên bác sĩ uống nhiều cafein có hại sức khoẻ k ạ và nên uống bnhiu. Hằng ngày thì e dùng 1 lon bò húc giờ e tính đổi sang thuốc này bn e đang sài nó chưa 290Mg 1 ngày có sao k ạ bác sĩ",
+    "ground_truth": "Để tỉnh táo làm việc học tập em có thể uống các loại trà, không nên uống nưóc ngọt và cafe vì nó còn chứa nhiều chất khác có hại cho sức khỏe.",
+    "answer": "Theo thông tin được cung cấp:\n\n- **Người trưởng thành khỏe mạnh:** mức thường được khuyến nghị tối đa khoảng **400 mg caffeine/ngày**; một số nguồn nêu khoảng **200–400 mg/ngày** là mức an toàn.\n- **Thanh thiếu niên:** nên giới hạn **không quá 100 mg/ngày**.\n- **Phụ nữ mang thai:** nên giữ **dưới 200 mg/ngày**.\n- **Cho con bú:** có thể dùng tối đa khoảng **300 mg/ngày**, nhưng trên mức này trẻ có thể dễ quấy khóc, bồn chồn hoặc thức giấc hơn.\n\nVì vậy, **290 mg/ngày** có thể vẫn nằm dưới giới hạn dành cho người trưởng thành khỏe mạnh, nhưng **không phù hợp nếu bạn là thanh thiếu niên hoặc đang mang thai**; với người cho con bú thì đây là mức gần giới hạn. Mức an toàn còn tùy tuổi, cân nặng và tình trạng sức khỏe. Cần cộng **tất cả nguồn caffeine trong ngày**: bò húc/nước tăng lực, sản phẩm hoặc thuốc đang dùng, cà phê, trà, nước ngọt, sô cô la…\n\nNếu bạn uống cà phê thường bị “say”, mệt, đau đầu, lo lắng, tim đập nhanh, chóng mặt hoặc mất ngủ thì nên **giảm lượng caffeine**, không dùng lúc đói và tránh uống vào buổi chiều/tối. Không nên tự đổi sang sản phẩm chứa caffeine khi chưa biết rõ hàm lượng; hãy kiểm tra nhãn để tính tổng liều. Thông tin hiện có chưa đủ để xác định 290 mg của bạn có an toàn riêng với bạn hay không vì chưa biết tuổi, thai kỳ/cho con bú, bệnh nền và thành phần chính xác của sản phẩm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em  uống cafe hay bị say mệt mỏi. Có cách nào không bác sĩ\nTrả lời: Chào bạn.\nVới liều lượng thích hợp, cafein có tác dụng tốt cho sức khỏe. Tuy nhiên nếu lạm dụng, hoặc sử dụng cà phê quá đặc (quá lượng) vào thời điểm không thích hợp (uống lúc đói) sẽ dễ gây triệu chứng say cà phê. Chất cafein trong cafe có tác dụng kích thích hoạt động của hệ thần kinh, làm gia tăng các hoạt động thể chất có liên quan đến hệ thần kinh như hoạt động trí não, gia tăng trạng thái thức tỉnh, gia tăng hoạt động tư duy, làm tăng nhịp tim, tăng huyết áp, tăng hoạt động của cơ bắp... Nếu uống nhiều về số lượng và mức độ đậm đặc sẽ gây độc hại cho thần kinh, thậm chí là ức chế mạnh gây loạn óc.\nKhi bị say cần uống nhiều nước lọc để giúp pha loãng và nhanh bài tiết cafein, Và lưu ý không nên uống cafe vào lúc đói nhé. \nThân mến.",
+            "score": 0.45025449991226196,
+            "id": "vietnamese_medical_qa_9325",
+            "rerank_score": 0.7969079613685608
+        },
+        {
+            "text": "Câu hỏi: Dùng Caffeine\nTrả lời: 2. Dùng Caffeine\nCaffeine có thể giúp giảm bớt các triệu chứng đau đầu do căng thẳng bằng cách thúc đẩy hiệu quả của thuốc giảm đau . Đó là lý do tại sao caffeine thường là một thành phần trong thuốc giảm đau. Nhưng bạn cũng cần xem phản ứng của cơ thể mình, vì đôi khi caffeine lại là tác nhân gây đau đầu cho một số người.",
+            "score": 0.4613374173641205,
+            "id": "vietnamese_healthcare_100857",
+            "rerank_score": 0.06409148871898651
+        },
+        {
+            "text": "Câu hỏi: Bị jet lag phải làm sao?\nTrả lời: 3. Bị jet lag phải làm sao?\nHiện tượng jet lag là một hiện tượng rất phổ biến và cơ thể cuối cùng sẽ điều chỉnh theo múi giờ mới. Tuy nhiên, nếu bạn đang thực hiện một chuyến đi gấp hoặc được yêu cầu phải nhanh chóng hoạt động hiệu quả sau chuyến bay thì jet lag lại trở thành một vấn đề nghiêm trọng. Vậy bị jet lag phải làm sao để thực hiện quá trình chuyển đổi sang múi giờ mới nhanh hơn và ít triệu chứng hơn? 3.5. Uống đồ uống có chứa cafein Tiêu thụ caffein sẽ không chữa được chứng jet lag, nhưng đây là một phương pháp giúp bạn tỉnh táo và tập trung vào ban ngày. Một nghiên cứu cho thấy rằng 300 miligam cafein giải phóng chậm giúp tăng cường sự tỉnh táo ở những người đi du lịch về hướng đông. Cà phê, trà, soda, nước tăng lực và thậm chí cả sôcôla đều chứa caffein. Tuy nhiên, cần xem xét các chất khác trong những đồ uống này, chẳng hạn như đường, trước khi tiêu thụ. Tuy nhiên, bạn không nên sử dụng caffein vào buổi chiều và buổi tối vì có thể bị khó ngủ.",
+            "score": 0.4407528042793274,
+            "id": "vietnamese_healthcare_66724",
+            "rerank_score": 0.03042786940932274
+        },
+        {
+            "text": "Câu hỏi: Caffeine không tốt cho thị lực\nTrả lời: 10. Caffeine không tốt cho thị lực\nCác nghiên cứu cho thấy những người có thói quen uống cà phê thường có nhãn áp cao hơn những người không uống. Caffeine có trong cà phê có thể làm tăng áp suất bên trong mắt, hoặc nhãn áp (IOP). Tăng nhãn áp là bệnh lý về mắt, có thể gây mất thị lực và mù lòa do các dây thần kinh phía sau mắt bị tổn thương hoặc dịch trong mắt bị tích tụ không thoát ra được. Chế độ dinh dưỡng hợp lý, khoa học không chỉ đóng vai trò quan trọng giúp đôi mắt sáng khỏe mà còn giúp nâng cao sức khỏe cơ thể. Để đôi mắt hoạt động tốt nhất, hãy cung cấp cho mắt đầy đủ dưỡng chất cần thiết từ những thực phẩm sạch đến từ thiên nhiên, đặc biệt là carotene và các nguyên tố vi lượng khác. Bên cạnh đó cần hạn chế sử dụng những thực phẩm, đồ uống có hại cho mắt; khám mắt định kỳ 6 tháng một lần để kịp thời phát hiện và điều trị các bệnh về mắt, tránh những hậu quả nặng nề. Bệnh viện Đa khoa Quốc tế Vinmec có đầy đủ nhân lực và trang thiết bị hiện đại giúp cho việc khám và điều trị các bệnh lý về Mắt.",
+            "score": 0.452701210975647,
+            "id": "vietnamese_healthcare_163145",
+            "rerank_score": 0.02856452576816082
+        },
+        {
+            "text": "Câu hỏi: Thường xuyên sử dụng caffeine bị đau đầu\nTrả lời: 4. Thường xuyên sử dụng caffeine bị đau đầu\nCaffeine là một trong những chất được rất nhiều người sử dụng để tăng thêm sự tỉnh táo cũng những giảm thiểu những mệt mỏi căng thẳng trong cuộc sống. Sở dĩ, đây là một loại chất có khả năng kích thích hệ thần kinh trung ương của cơ thể, do đó nó có thể ảnh hưởng đáng kể tới giấc ngủ vào ban đêm của bạn nếu tiêu thụ với số lượng lớn. Nếu bạn thường xuyên ngủ không đủ giấc có thể dẫn đến các tình trạng như đau đầu và mệt mỏi. Ngoài ra, việc tiêu thụ thường xuyên các loại đồ uống có chứa hàm lượng lớn caffeine có thể khiến cho cơ thể bạn dần trở nên phụ thuộc vào chúng. Vì vậy, khi bạn quyết định từ bỏ thói quen này ra khỏi chế độ ăn uống hàng ngày, bạn có thể gặp phải những triệu chứng phổ biến của việc “cai nghiện”, trong đó bao gồm cả tình trạng mệt mỏi và đau đầu. Sử dụng caffeine một cách thường xuyên có thể khiến bạn gặp tình trạng đau đầu",
+            "score": 0.4453558325767517,
+            "id": "vietnamese_healthcare_153482",
+            "rerank_score": 0.026189148426055908
+        },
+        {
+            "text": "Câu hỏi: Quá liều caffeine sẽ gây nguy hại như thế nào?\nTrả lời: 2. Quá liều caffeine sẽ gây nguy hại như thế nào?\nCaffeine là chất kích thích được tìm thấy trong các loại thực phẩm, đồ uống và các sản phẩm khác. Nó thường được sử dụng để giúp chúng ta tỉnh táo. Ngoài ra, caffeine cũng được coi là một loại thuốc. Trong một số đồ uống phổ biến nhất như cà phê, trà và soda, có chứa một lượng caffeine đáng kể. Theo Mayo Clinic, lượng caffeine được khuyến nghị lên tới 400 miligam mỗi ngày cho người trưởng thành khỏe mạnh. Quá liều caffeine có thể xảy ra nếu tiêu thụ nhiều hơn số lượng này. Thanh thiếu niên nên tự giới hạn không quá 100 mg caffeine mỗi ngày. Phụ nữ mang thai nên hạn chế lượng tiêu thụ hàng ngày dưới 200 mg caffeine mỗi ngày, vì nó có thể có tác động đến thai nhi. Tuy nhiên, lượng caffeine an toàn khác nhau cho mọi người dựa trên tuổi tác, cân nặng và sức khỏe tổng thể. Thời gian tiêu hủy trung bình của caffeine dao động từ 1,5 đến 9,5 giờ, nghĩa là cơ thể phải mất từ 1,5 đến 9,5 giờ để mức độ caffeine trong máu của bạn giảm xuống một nửa lượng ban đầu. Caffeine cần được dung nạp vào cơ thể một cách hợp lý",
+            "score": 0.49861282110214233,
+            "id": "vietnamese_healthcare_95121",
+            "rerank_score": 0.5886991024017334,
+            "weighted_score": 0.46374523639678955
+        },
+        {
+            "text": "Câu hỏi: Hàm lượng caffein\nTrả lời: 1. Hàm lượng caffein\nNghiên cứu cho thấy rằng caffeine là loại chất kích thích được tiêu thụ nhiều nhất trên thế giới. Loại chất này có mặt trong nhiều loại đồ uống phổ biến, bao gồm cà phê và trà , được biết đến với cả tác dụng có lợi và có hại cho sức khỏe con người. Mặc dù hàm lượng caffeine có thể thay đổi tùy thuộc vào thời gian pha chế, kích cỡ khẩu phần hoặc phương pháp pha chế, cà phê thường có chứa gấp đôi lượng cafein so với một khẩu phần trà tương tự. Lượng caffeine được coi là an toàn cho hoạt động tiêu dùng của con người là 400 mg mỗi ngày. Một cốc cà phê 240 ml chứa trung bình 95 mg cafein, so với 47 mg trong cùng một khẩu phần trà đen. Mặc dù các nhà khoa học chủ yếu tập trung vào cà phê khi nghiên cứu tác dụng tích cực của caffeine, cả hai loại đồ uống - mặc dù có chứa lượng chất này khác nhau - có thể mang lại lợi ích sức khỏe tương đối giống nhau. Tiêu thụ cafein có thể làm giảm nguy cơ mắc một số bệnh mãn tính, cải thiện tâm trạng giúp tinh thần minh mẫn. Caffeine hoạt động như một chất kích thích mạnh mẽ cho hệ thần kinh trung ương, đó cũng là lý do tại sao hợp chất này được coi là một chất để tăng cường hiệu suất trong thể thao. Một đánh giá trên 40 nghiên cứu đã xác định rằng caffeine giúp cải thiện 12% sức bền. Caffein được biết đến là chất giúp cải thiện tâm trạng, giúp tinh thần tỉnh táo Caffeine còn được biết đến bởi tác dụng giúp cải thiện sự tỉnh táo của sức khỏe tinh thần từ đó nâng hiệu suất trong công việc. Một nghiên cứu ở 48 người được cho uống một loại đồ uống có chứa 75 đến 150 mg caffeine cho thấy sự cải thiện về tốc độ phản ứng, khả năng ghi nhớ và quá trình xử lý thông tin, so với nhóm đối chứng. Các nghiên cứu khác chỉ ra rằng caffeine có thể làm giảm nguy cơ mắc bệnh tiểu đường loại 2 bằng cách cải thiện độ nhạy cảm của insulin trong cơ thể. Một đánh giá trên 9 nghiên cứu ở 193.473 người cho thấy rằng việc thường xuyên uống cà phê làm giảm đáng kể nguy cơ mắc bệnh tiểu đường loại 2 . Hơn nữa, tiêu thụ một lượng caffeine vừa phải có tác dụng chống lại chứng mất trí , bệnh Alzheimer , hội chứng chuyển hóa và bệnh gan nhiễm mỡ.",
+            "score": 0.45731121301651,
+            "id": "vietnamese_healthcare_160473",
+            "rerank_score": 0.5676355361938477,
+            "weighted_score": 0.44716269969940187
+        },
+        {
+            "text": "Câu hỏi: Cơ chế tác động của caffeine\nTrả lời: 1. Cơ chế tác động của caffeine\nCaffeine không tự cung cấp giá trị dinh dưỡng và cũng không có vị, vì vậy bạn có thể sẽ không biết được sự có mặt của caffeine trong thức ăn của mình. Thậm chí một số loại thuốc có thể chứa caffeine mà chúng ta không biết. Caffeine có tốt cho sức khỏe ? Caffeine là thành phần hầu như luôn luôn gây ra một số triệu chứng. Ở mức tối thiểu, chúng ta có thể cảm thấy tràn đầy năng lượng sau khi dùng chúng, nhưng theo thời gian, nếu có quá nhiều caffein thì có thể gây ra các triệu chứng nghiện. Nếu bạn khỏe mạnh thì việc tiêu thụ khoảng 400 miligam caffeine mỗi ngày là điều hoàn toàn bình thường và an toàn. Tuy nhiên bạn hãy nhớ rằng một tách cà phê kích thước tiêu chuẩn là 8 ounce. Vì vậy, việc chú ý đến kích cỡ của tách cà phê mà bạn uống rất quan trọng để bạn biết mình nên dừng lại lúc nào là phù hợp.",
+            "score": 0.4977884292602539,
+            "id": "vietnamese_healthcare_28020",
+            "rerank_score": 0.10900945216417313,
+            "weighted_score": 0.2624256744980812
+        },
+        {
+            "text": "Câu hỏi: Có thể dùng cà phê với lượng bao nhiêu thì đủ?\nTrả lời: 4. Có thể dùng cà phê với lượng bao nhiêu thì đủ?\nMặc dù khả năng dung nạp caffeine khác nhau, nhưng bạn có thể sử dụng từ 200 mg đến 400 mg mỗi ngày tương đương khoảng 4 tách cà phê lọc được coi là an toàn cho người lớn. Lượng nhiều hơn mức này có thể ảnh hưởng tiêu cực đến sức khỏe. Hiện tại chưa có đầy đủ bằng chứng khoa học đề xác định mức độ caffeine an toàn cho trẻ em và thanh thiếu niên. Lượng caffein trong hạt cà phê thay đổi tùy theo kích thước, độ căng và thời gian rang. Trung bình 1 hạt cà phê phủ socola chứa 12 mg caffeine. Điều này có nghĩa là người lớn có thể ăn khoảng 33 hạt cà phê phủ socola mà không vượt quá mức caffeine an toàn được khuyến nghị. Tuy nhiên, những món ăn này cũng có thể chứa quá nhiều calo, lượng chất béo cao và nhiều đường, vì vậy tốt nhất bạn nên hạn chế ăn. Hơn nữa, nếu bạn đang tiêu thụ caffeine từ các loại thực phẩm, đồ uống hoặc chất bổ sung khác, bạn có thể nên tiết chế lượng hạt cà phê tiêu thụ để tránh bất kỳ tác dụng phụ khó chịu nào. Hạt cà phê an toàn để ăn nhưng không nên sử dụng quá nhiều mức khuyến cáo. Chúng chứa nhiều chất chống oxy hóa và cafein, có thể tăng cường năng lượng và giảm nguy cơ mắc một số bệnh. Tuy nhiên, nếu ăn quá nhiều có thể gây ra các tác dụng phụ khó chịu. Cà phê hiện nay là loại đồ uống phổ biến trên thế giới và mang đến rất nhiều lợi ích cho sức khỏe. Tuy nhiên, bạn chỉ nên sử dụng một lượng vừa phải việc uống nhiều cà phê luôn mang đến rủi ro nhất định cho sức khỏe.",
+            "score": 0.4455857276916504,
+            "id": "vietnamese_healthcare_92233",
+            "rerank_score": 0.37967440485954285,
+            "weighted_score": 0.12815989851951598
+        },
+        {
+            "text": "Câu hỏi: Thế nào là quá liều caffein?\nTrả lời: 1. Thế nào là quá liều caffein?\nTheo Mayo Clinic, lượng caffeine được khuyến nghị cho một người trưởng thành là 400 miligam mỗi ngày. Đối với thanh thiếu niên nên tự giới hạn không quá 100 mg lượng caffeine mỗi ngày. Riêng đối với phụ nữ mang thai nên hạn chế uống dưới 200 mg caffeine mỗi ngày, vì caffeine có thể gây hại tới thai nhi. Nếu vượt quá mức cho phép này có thể dẫn đến quá liều caffeine . Tuy nhiên, lượng tiêu thụ caffeine an toàn của mỗi người là khác nhau, bởi còn dựa vào nhiều yếu tố như: tuổi tác, cân nặng và tình trạng sức khỏe. Thời gian phân hủy 50% lượng caffeine ban đầu phải mất trung bình từ 1,5 đến 9,5 giờ. Điều này có nghĩa là có thể mất từ ​​1,5 đến 9,5 giờ để mức độ caffeine trong máu của bạn giảm xuống một nửa lượng ban đầu. Dùng cà phê quá nhiều trong thai kỳ không tốt cho sức khỏe của mẹ và bé",
+            "score": 0.4630362093448639,
+            "id": "vietnamese_healthcare_22614",
+            "rerank_score": 0.5608639717102051,
+            "weighted_score": 0.1218922100961208
+        },
+        {
+            "text": "Câu hỏi: Nhận xét kết luận và viễn cảnh tương lai\nTrả lời: 5. Nhận xét kết luận và viễn cảnh tương lai\nChỉ nên sủ dụng dưới 200-300 mg Tổ chức Y tế Thế giới và Cơ quan An toàn Thực phẩm Châu Âu khuyến cáo rằng sử dụng caffeine hàng ngày dưới 200-300 mg như một liều an toàn cho sức khỏe bà bầu. Cũng cần lưu ý rằng liều tối đa được khuyến nghị hiện tại có thể quá cao đối với một số người. Ở cấp độ phân tử, các cơ chế về tính nhạy cảm và tính di truyền của bệnh do caffeine vẫn chưa rõ ràng. Các nghiên cứu đã cung cấp cả bằng chứng dịch tễ và thực nghiệm cho thấy rằng cần nhiều hơn nữa nghiên cứu các cơ chế liên quan đến đáp ứng với caffeine có thể cung cấp một con đường mới trong sử dụng thuốc chính xác. Điều đó nói rằng, phát triển một phương pháp nhanh chóng và hiệu quả để đánh giá mức độ nhạy cảm của cá nhân đối với caffeine sẽ không chỉ có lợi cho phụ nữ trong quản lý sức khỏe thai kỳ, mà còn cung cấp một cơ sở trong hướng dẫn sử dụng thuốc cá nhân và khám phá thuốc. Ví dụ: Enzyme chính chuyển hóa caffeine, CYP1A2, có thể được theo đuổi như một mục tiêu thuốc cụ thể và có thể được sử dụng làm cơ sở của các xét nghiệm độ nhạy với caffeine cá nhân trong cuộc sống hàng ngày. Cuối cùng, bằng cơ chế gì và mức độ ảnh hưởng của caffeine từ trước hoặc trong khi mang thai có thể ảnh hưởng đến kiểu hình của con cái hiện đang là những câu hỏi hấp dẫn cần được điều tra chuyên sâu. Các gói thai sản đang bán tại Vinmec",
+            "score": 0.4941733479499817,
+            "id": "vietnamese_healthcare_97784",
+            "rerank_score": 0.3289774954319,
+            "weighted_score": 0.09115904867649077
+        },
+        {
+            "text": "Câu hỏi: Nên uống bao nhiêu cà phê mỗi ngày?\nTrả lời: 4. Nên uống bao nhiêu cà phê mỗi ngày?\nNgười trưởng thành khỏe mạnh có thể tiêu thụ tới 400 mg caffein mỗi ngày, trong khi phụ nữ mang thai và cho con bú có thể tiêu thụ tới 300mg mỗi ngày một cách an toàn, với một số nghiên cứu cho thấy 200mg là giới hạn an toàn. thời điểm tốt nhất để uống cà phê là từ giữa đến sáng muộn khi mức cortisol của bạn thấp hơn, nhưng vẫn còn thiếu nghiên cứu về chủ đề này. Uống cà phê 30–60 phút trước khi tập luyện hoặc sự kiện thể thao của bạn có thể giúp trì hoãn giảm mệt mỏi và tăng sức bền. Ngoài ra, để uống cafe và đảm bảo sức khỏe, bạn hãy nhớ rằng tác dụng kích thích của caffein từ cà phê có thể gây ra các vấn đề về giấc ngủ nếu uống quá gần giờ đi ngủ, cũng như làm tăng sự lo lắng ở một số người.",
+            "score": 0.4585290551185608,
+            "id": "vietnamese_healthcare_37242",
+            "rerank_score": 0.1856652945280075,
+            "weighted_score": 0.05550502240657806
+        },
+        {
+            "text": "Câu hỏi: Thực phẩm và đồ uống nào chứa caffeine?\nTrả lời: 4. Thực phẩm và đồ uống nào chứa caffeine?\nĐồ uống chứa caffeine phổ biến nhất chính là cà phê. Lượng caffeine trong một khẩu phần cà phê rất khác nhau, tùy thuộc vào loại hạt, cách rang, cách ủ - và rõ ràng là vào kích thước của tách cà phê. Tuy nhiên, để kiểm soát lượng caffeine, bạn cần phải lưu ý đến các nguồn thực phẩm khác, chẳng hạn như: Trà, nước ngọt, nước tăng lực, sô cô la và kem cà phê. Caffeine cũng xuất hiện trong các sản phẩm thảo dược và một số thuốc không kê đơn, bao gồm một số biện pháp chữa đau đầu, cảm lạnh và dị ứng. Dưới đây là lượng caffeine trong thực phẩm và đồ uống thông thường, bạn có thể tham khảo: Cà phê Lượng Caffeine Cà phê, pha máy thông thường 230 ml 95 -200 mg Cà phê Starbucks pha máy 460 ml 211 mg Cà phê latte, misto hoặc cappuccino (Starbucks) 460 ml 150 mg Cà phê latte, misto hoặc cappuccino (Starbucks) 350 ml (nhỏ) 75 mg Cà phê espresso (Starbucks) 30 ml 75 mg Cà phê espresso (thông thường) 30 ml 64 mg Cà phê hạt hoà tan thông thường 1 muỗng cà phê 31 mg Trà Lượng Caffeine Trà đen pha máy 230 ml 47 mg Trà xanh pha máy 230 ml 25 mg Trà đen tách caffeine 230 ml 2 mg Starbucks Tazo Chai Tea latte 460 ml 95 mg Trà hoà tan không đường 1 muỗng cà phê 26 mg Trà Snapple 460 ml 42 mg Trà Lipton 350 ml 5 mg Nước giải khát Lượng Caffeine Coke 350 ml 35 mg Diet Coke 350 ml 47 mg Pepsi 350 ml 38 mg Diet Pepsi 350 ml 36 mg Jolt Cola 350 ml 72 mg Mountain Dew 350 ml 54 mg 7-up 350 ml 0 mg Sprite 350 ml 0 mg Nước tăng lực Lượng Caffeine Red bull 230 ml 77 mg Sobe Essential Energy 230 ml 48 mg 5-Hour Energy 60 ml 138 mg Món tráng miệng Lượng Caffeine Sô cô la đen (70- 85% cacao chất khô) 30g 23 mg Sô cô la sữa 45g 9 mg Kem cà phê hoặc sữa chua đông lạnh 230g 2 mg Ca cao nóng 230 ml 8 - 12 mg Sô cô la chip 120g 53 mg Sữa sô cô la 230 ml 5 – 8 mg",
+            "score": 0.44088929891586304,
+            "id": "vietnamese_healthcare_83308",
+            "rerank_score": 0.11354172229766846,
+            "weighted_score": 0.028783887997269626
+        },
+        {
+            "text": "Câu hỏi: Lượng caffeine bao nhiêu là an toàn cho bà mẹ cho con bú?\nTrả lời: 3. Lượng caffeine bao nhiêu là an toàn cho bà mẹ cho con bú?\nMặc dù trẻ sơ sinh không thể xử lý caffeine nhanh chóng như người lớn, nhưng các bà mẹ đang cho con bú vẫn có thể tiêu thụ một lượng vừa phải. Bạn có thể uống tới 300 mg caffeine mỗi ngày một cách an toàn - hoặc tương đương với hai đến ba tách (470–710 ml) cà phê. Dựa trên nghiên cứu hiện tại, tiêu thụ caffeine trong giới hạn này trong khi cho con bú không gây hại cho trẻ sơ sinh. Một nghiên cứu trên 885 trẻ sơ sinh cho thấy mối liên hệ giữa việc mẹ tiêu thụ nhiều hơn 300 mg caffeine mỗi ngày và sự gia tăng tần suất thức giấc vào ban đêm của trẻ sơ sinh. Khi các bà mẹ cho con bú tiêu thụ hơn 300 mg caffeine mỗi ngày - chẳng hạn như hơn 10 tách cà phê - trẻ sơ sinh có thể quấy khóc và bồn chồn ngoài rối loạn giấc ngủ . Hơn nữa, việc hấp thụ quá nhiều caffeine có thể gây ra những tác động tiêu cực đến bản thân người mẹ, chẳng hạn như: Lo lắng, bồn chồn, tim đập nhanh , chóng mặt và mất ngủ.",
+            "score": 0.467922568321228,
+            "id": "vietnamese_healthcare_83307",
+            "rerank_score": 0.10206370800733566,
+            "weighted_score": 0.020698999008163806
+        },
+        {
+            "text": "Câu hỏi: Kiểm soát lượng cafein bạn uống mỗi ngày\nTrả lời: 6. Kiểm soát lượng cafein bạn uống mỗi ngày\nMặc dù không có sự nhất trí chính xác về lượng cafein an toàn trong thời kỳ mang thai, các chuyên gia đồng ý rằng phụ nữ mang thai và những người đang cố gắng thụ thai nên tránh tiêu thụ một lượng lớn caffeine mỗi ngày. Quá nhiều caffeine có liên quan đến nguy cơ sảy ở một số phụ nữ (nhưng không phải tất cả) nghiên cứu.",
+            "score": 0.44664710760116577,
+            "id": "vietnamese_healthcare_112854",
+            "rerank_score": 0.034086912870407104,
+            "weighted_score": 0.011467174068093298
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

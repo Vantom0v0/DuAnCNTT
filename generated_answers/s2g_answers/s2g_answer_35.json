@@ -1,0 +1,119 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Em bị dị ứng thuốc nhưng không biết là dự úng với loại thuốc nào, liệu em có tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Theo bạn chia sẻ, bạn bị dị ứng với thuốc chúng tôi không biết mức độ dị ứng có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Bạn chưa nên tự quyết định tiêm chỉ dựa vào việc từng dị ứng thuốc mà không rõ loại thuốc; cần cung cấp cho bác sĩ thông tin về triệu chứng, mức độ, thuốc đã dùng để điều trị và có phải cấp cứu, nhập viện hay không. Nếu trước đây chỉ dị ứng nhẹ như ngứa hoặc nổi mề đay rồi tự hết, bạn có thể được tiêm tại bệnh viện hoặc cơ sở tiêm chủng đủ năng lực cấp cứu ban đầu. Nếu từng bị dị ứng nặng, phản vệ độ 2 trở lên và phải điều trị tại bệnh viện thì chống chỉ định tiêm vaccine Covid-19. Tiền sử dị ứng thuốc không đồng nghĩa chắc chắn sẽ dị ứng với vaccine, nhưng bạn cần được bác sĩ sàng lọc trước khi tiêm.",
+    "evidence": [
+        "Trả lời: Theo anh/chị chia sẻ thì có bị dị ứng với thuốc chống viêm, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết.",
+        "Trả lời: Đối với trường hợp của anh/chị, cần cung cấp thêm thông tin về lần dị ứng trước về mức độ và thuốc điều trị để biết mình có được tiêm hay không.",
+        "Với những người có tiền sử dị ứng nặng cần điều trị tại bệnh viện (phản ứng phản vệ độ 2) là chống chỉ định tiêm vaccine Covid-19.",
+        "Trả lời: Chị chưa mô tả rõ triệu chứng mà bản thân gặp phải khi bị dị ứng và huyết áp của chị tăng cao cụ thể là ở mức bao nhiêu?Chị có phải sử dụng thuốc hàng ngày hay không?Nếu là dị ứng nhẹ, không phải điều trị, chị có thể tiêm được vaccine Covid-19.",
+        "Còn nếu trường hợp dị ứng nặng từ phản vệ độ 2, chị thuộc nhóm chỉ định chống chỉ định với vaccine Covid-19.",
+        "Câu hỏi: Tôi năm nay 43 tuổi, từng có lần bị dị ứng thuốc giảm đau cách đây đã lâu (hơn 10 năm), không nhớ dị ứng thuốc gì.",
+        "Trả lời: Như các anh/chị cũng biết, tiền sử dị ứng để các bác sĩ sàng lọc quyết định tiêm hay không thì người chủng ngừa cần phải thông báo những tiền sử dị ứng của mình cụ thể là gì, mức độ dị ứng nhẹ ví dụ như uống thuốc vào bị ngứa, ngưng không uống nữa, .",
+        "Trả lời: Qua lời chia sẻ của anh/chị, tôi không nói rõ các triệu chứng phản ứng của anh, chị như thế nào?",
+        "Trả lời: Bạn chưa miêu tả cụ thể tình trạng dị ứng của mình như triệu chứng, thuốc điều trị khi dị ứng như thế nào, bạn có phải cấp cứu tại bệnh viện hay không.",
+        "Nếu tình trạng dị ứng chỉ bị nổi mề đay thì có thể tiêm ngừa vaccine tại bệnh viện hoặc cơ sở tiêm chủng đủ năng lực cấp cứu ban đầu, còn nếu tình trạng dị ứng của bạn ở mức độ nặng (phản vệ độ 2 trở lên) phải cấp cứu tại bệnh viện thì đó là chống chỉ định tiêm vaccine Covid-19 .",
+        "Trả lời: Trường hợp của bạn có thể tiêm vaccine Covid-19 vì có tiền sử dị ứng không đồng nghĩa với việc sẽ dị ứng với vaccine Covid-19."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Cho em hỏi là người bị dị ứng với thuốc chống viêm thì có thể tiêm vaccine Covid-19 không ạ ? Nếu có thể tiêm thì tiêm loại nào ạ?\nTrả lời: Theo anh/chị chia sẻ thì có bị dị ứng với thuốc chống viêm, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết.",
+                "score": 0.6232745051383972,
+                "id": "vietnamese_healthcare_4650",
+                "rerank_score": 0.9973418116569519
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 43 tuổi, từng có lần bị dị ứng thuốc giảm đau cách đây đã lâu (hơn 10 năm), không nhớ dị ứng thuốc gì. Còn lại tôi chưa từng dị ứng thuốc hay hải sản nào khác. Tôi có nên tiêm vaccine Covid-19 không?\nTrả lời: Đối với trường hợp của anh/chị, cần cung cấp thêm thông tin về lần dị ứng trước về mức độ và thuốc điều trị để biết mình có được tiêm hay không. Với những người có tiền sử dị ứng nặng cần điều trị tại bệnh viện (phản ứng phản vệ độ 2) là chống chỉ định tiêm vaccine Covid-19.",
+                "score": 0.6492408514022827,
+                "id": "vietnamese_healthcare_2490",
+                "rerank_score": 0.9951222538948059
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thuốc kháng sinh, bác sĩ cho tôi hỏi tôi có đủ điều kiện để tiêm vaccine Covid-19 không?\nTrả lời: Chị chưa mô tả rõ triệu chứng mà bản thân gặp phải khi bị dị ứng và huyết áp của chị tăng cao cụ thể là ở mức bao nhiêu?Chị có phải sử dụng thuốc hàng ngày hay không?Nếu là dị ứng nhẹ, không phải điều trị, chị có thể tiêm được vaccine Covid-19. Còn nếu trường hợp dị ứng nặng từ phản vệ độ 2, chị thuộc nhóm chỉ định chống chỉ định với vaccine Covid-19.",
+                "score": 0.6302375793457031,
+                "id": "vietnamese_healthcare_5004",
+                "rerank_score": 0.9933375120162964
+            },
+            {
+                "text": "Câu hỏi: Em bị dị ứng kháng sinh có tiêm được vaccine Covid-19 không? Nếu được thì vaccine của hãng nào ạ?\nTrả lời: Qua lời chia sẻ của anh/chị, tôi không nói rõ các triệu chứng phản ứng của anh, chị như thế nào?",
+                "score": 0.727226972579956,
+                "id": "vietnamese_healthcare_5419",
+                "rerank_score": 0.9904882907867432
+            },
+            {
+                "text": "Câu hỏi: Hiện tôi đang bị gout, có uống thuốc và thực phẩm chức năng. Bác sĩ cho tôi hỏi khi uống thuốc điều trị có được tiêm vaccine không? Hoặc nếu không uống bao nhiêu ngày thì được tiêm vaccine Covid-19?\nTrả lời: Anh đang điều trị Gout trong giai đoạn ổn định không phải đợt cấp, sức khỏe tốt hoàn toàn có thể được tiêm vaccine Covid-19.",
+                "score": 0.6364586353302002,
+                "id": "vietnamese_healthcare_4700",
+                "rerank_score": 0.862899899482727
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Cho em hỏi là người bị dị ứng với thuốc chống viêm thì có thể tiêm vaccine Covid-19 không ạ ? Nếu có thể tiêm thì tiêm loại nào ạ?\nTrả lời: Theo anh/chị chia sẻ thì có bị dị ứng với thuốc chống viêm, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết.",
+                "score": 0.633946418762207,
+                "id": "vietnamese_healthcare_4650",
+                "rerank_score": 0.9973418116569519
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 43 tuổi, từng có lần bị dị ứng thuốc giảm đau cách đây đã lâu (hơn 10 năm), không nhớ dị ứng thuốc gì. Còn lại tôi chưa từng dị ứng thuốc hay hải sản nào khác. Tôi có nên tiêm vaccine Covid-19 không?\nTrả lời: Đối với trường hợp của anh/chị, cần cung cấp thêm thông tin về lần dị ứng trước về mức độ và thuốc điều trị để biết mình có được tiêm hay không. Với những người có tiền sử dị ứng nặng cần điều trị tại bệnh viện (phản ứng phản vệ độ 2) là chống chỉ định tiêm vaccine Covid-19.",
+                "score": 0.5870838165283203,
+                "id": "vietnamese_healthcare_2490",
+                "rerank_score": 0.9951222538948059
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thuốc, vậy xin hỏi tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Như các anh/chị cũng biết, tiền sử dị ứng để các bác sĩ sàng lọc quyết định tiêm hay không thì người chủng ngừa cần phải thông báo những tiền sử dị ứng của mình cụ thể là gì, mức độ dị ứng nhẹ ví dụ như uống thuốc vào bị ngứa, ngưng không uống nữa, . . .",
+                "score": 0.5971254110336304,
+                "id": "vietnamese_healthcare_7969",
+                "rerank_score": 0.9946805834770203
+            },
+            {
+                "text": "Câu hỏi: Em bị dị ứng kháng sinh có tiêm được vaccine Covid-19 không? Nếu được thì vaccine của hãng nào ạ?\nTrả lời: Qua lời chia sẻ của anh/chị, tôi không nói rõ các triệu chứng phản ứng của anh, chị như thế nào?",
+                "score": 0.6923047304153442,
+                "id": "vietnamese_healthcare_5419",
+                "rerank_score": 0.9904882907867432
+            },
+            {
+                "text": "Câu hỏi: Hiện tôi đang bị gout, có uống thuốc và thực phẩm chức năng. Bác sĩ cho tôi hỏi khi uống thuốc điều trị có được tiêm vaccine không? Hoặc nếu không uống bao nhiêu ngày thì được tiêm vaccine Covid-19?\nTrả lời: Anh đang điều trị Gout trong giai đoạn ổn định không phải đợt cấp, sức khỏe tốt hoàn toàn có thể được tiêm vaccine Covid-19.",
+                "score": 0.605853796005249,
+                "id": "vietnamese_healthcare_4700",
+                "rerank_score": 0.8628999590873718
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Mình có tiền sử dị ứng với thuốc, dung dịch truyền nước hoa quả và thi thoảng hay bị dị ứng chưa rõ nguyên nhân (không dị ứng với hải sản) thì có tiêm được vaccine phòng Covid-19 không?\nTrả lời: Bạn chưa miêu tả cụ thể tình trạng dị ứng của mình như triệu chứng, thuốc điều trị khi dị ứng như thế nào, bạn có phải cấp cứu tại bệnh viện hay không. Nếu tình trạng dị ứng chỉ bị nổi mề đay thì có thể tiêm ngừa vaccine tại bệnh viện hoặc cơ sở tiêm chủng đủ năng lực cấp cứu ban đầu, còn nếu tình trạng dị ứng của bạn ở mức độ nặng (phản vệ độ 2 trở lên) phải cấp cứu tại bệnh viện thì đó là chống chỉ định tiêm vaccine Covid-19 .",
+                "score": 0.6528938412666321,
+                "id": "vietnamese_healthcare_1177",
+                "rerank_score": 0.9968107342720032
+            },
+            {
+                "text": "Câu hỏi: Tôi trước đây có bị dị ứng khi uống thuốc, nay có tiêm ngừa vaccine Covid-19 được không ạ?\nTrả lời: Trường hợp của bạn có thể tiêm vaccine Covid-19 vì có tiền sử dị ứng không đồng nghĩa với việc sẽ dị ứng với vaccine Covid-19. Theo báo cáo ở Mỹ, tần suất phản vệ là 1/100. 000 liều vaccine được tiêm và 80% những người bị phản vệ có tiền sử bị dị ứng.",
+                "score": 0.6673837304115295,
+                "id": "vietnamese_healthcare_7636",
+                "rerank_score": 0.9965292811393738
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 43 tuổi, từng có lần bị dị ứng thuốc giảm đau cách đây đã lâu (hơn 10 năm), không nhớ dị ứng thuốc gì. Còn lại tôi chưa từng dị ứng thuốc hay hải sản nào khác. Tôi có nên tiêm vaccine Covid-19 không?\nTrả lời: Đối với trường hợp của anh/chị, cần cung cấp thêm thông tin về lần dị ứng trước về mức độ và thuốc điều trị để biết mình có được tiêm hay không. Với những người có tiền sử dị ứng nặng cần điều trị tại bệnh viện (phản ứng phản vệ độ 2) là chống chỉ định tiêm vaccine Covid-19.",
+                "score": 0.6879369020462036,
+                "id": "vietnamese_healthcare_2490",
+                "rerank_score": 0.9951222538948059
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thuốc, vậy xin hỏi tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Như các anh/chị cũng biết, tiền sử dị ứng để các bác sĩ sàng lọc quyết định tiêm hay không thì người chủng ngừa cần phải thông báo những tiền sử dị ứng của mình cụ thể là gì, mức độ dị ứng nhẹ ví dụ như uống thuốc vào bị ngứa, ngưng không uống nữa, . . .",
+                "score": 0.6803309917449951,
+                "id": "vietnamese_healthcare_7969",
+                "rerank_score": 0.9946805834770203
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thuốc kháng sinh, bác sĩ cho tôi hỏi tôi có đủ điều kiện để tiêm vaccine Covid-19 không?\nTrả lời: Chị chưa mô tả rõ triệu chứng mà bản thân gặp phải khi bị dị ứng và huyết áp của chị tăng cao cụ thể là ở mức bao nhiêu?Chị có phải sử dụng thuốc hàng ngày hay không?Nếu là dị ứng nhẹ, không phải điều trị, chị có thể tiêm được vaccine Covid-19. Còn nếu trường hợp dị ứng nặng từ phản vệ độ 2, chị thuộc nhóm chỉ định chống chỉ định với vaccine Covid-19.",
+                "score": 0.6856683492660522,
+                "id": "vietnamese_healthcare_5004",
+                "rerank_score": 0.9933375120162964
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

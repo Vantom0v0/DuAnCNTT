@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Có thể phẫu thuật thoát vị bẹn cho trẻ 18 tháng tuổi không?",
+    "ground_truth": "Nếu như cháu có các biểu hiện như bạn mô tả (sưng đau khi chạy nhảy, quấy khóc vì đau) thì bạn nên đưa bé đi khám và lên kế hoạch phẫu thuật, tránh nguy cơ thoát vị bẹn nghẹt bạn nhé.",
+    "answer": "Có. Trẻ hơn 18 tháng tuổi **có thể phẫu thuật thoát vị bẹn**. Theo thông tin cung cấp, thoát vị bẹn ở trẻ thường được khuyến cáo phẫu thuật khi đã chẩn đoán để phòng biến chứng nghẹt; mọi lứa tuổi đều có thể mổ, ngoại trừ một số trường hợp sinh non hoặc có bệnh lý nặng đi kèm.\n\nVới tình trạng bé thường sưng khi chạy nhảy và có lúc quấy khóc, gia đình nên đưa bé khám chuyên khoa Nhi hoặc Ngoại nhi để được đánh giá và lập kế hoạch phẫu thuật sớm, tránh nguy cơ thoát vị bẹn nghẹt. Nếu khối phồng bị kẹt, không lên xuống được, cần đưa trẻ đi cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Con trai em hiện tại hơn 18 tháng tuổi, bé bịthoát vị bẹn. Em đưa bé đi khám và có chỉ định phẫu thuật thời điểm 3 tuổi. Tuy nhiên, bây giờ mỗi lần bé chạy nhảy, chơi đùa là lại sưng lên, có hôm còn quấy khóc. Bác sĩ cho em hỏicó thể phẫu thuật thoát vị bẹn cho trẻ 18 tháng tuổi không? Mong bác sĩ tư vấn giúp em. Hồ Văn Hữu(1994) Trả lời\nTrả lời: Chào bạn! Với câu hỏi “Có thể phẫu thuật thoát vị bẹn cho trẻ 18 tháng tuổi không?” bác sĩ xin trả lời bạn như sau: Nếu như cháu có các biểu hiện như bạn mô tả (sưng đau khi chạy nhảy, quấy khóc vì đau) thì bạn nên đưa bé đi khám và lên kế hoạch phẫu thuật, tránh nguy cơ thoát vị bẹn nghẹt bạn nhé. Chúc bé sớm khỏe! Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp trực tiếp bạn để có thể được tư vấn kỹ càng hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được tư vấn bởi Bác sĩ Ngô Duy Minh- Bác sĩ Nội trú Nhi - Trung tâm Nhi Vinmec Time City.",
+            "score": 0.8137848973274231,
+            "id": "medical_vietnamese_qa_7629",
+            "rerank_score": 0.999969482421875
+        },
+        {
+            "text": "Câu hỏi: Trẻ sơ sinh 1 tháng tuổi có mổ thoát vị bẹn được không?\nTrả lời: Thoát vị bẹn hoàn toàn có thể mổ được thậm chí mổ bằng nội soi. Trường hợp trẻ mới được 1 tháng tuổi chưa nên mổ ngay vì gây mê, hậu phẫu khó khăn hơn so với trẻ lớn. Nếu không có biến chứng nghẹt nên trì hoãn khi trẻ lớn hơn rồi mổ theo chỉ định của các bác sĩ ngoại khoa.",
+            "score": 0.7515658736228943,
+            "id": "vietnamese_healthcare_8501",
+            "rerank_score": 0.9686421751976013
+        },
+        {
+            "text": "Câu hỏi: Trẻ 40 ngày tuổi có thể phẫu thuật thoát vị bẹn không?\nTrả lời: Về nguyên tắc, bệnh thoát vị bẹn thì nên mổ càng sớm càng tốt để tránh biến chứng thoát vị bẹn nghẹt, vì khi trẻ bị thoát vị bẹn nghẹt (khối thoát vị không lên xuống được) qua 6 tiếng mà không can thiệp thì sẽ có nguy cơ tổn thương ruột. Tuy nhiên, tùy vào trình độ chuyên môn, trang thiết bị máy móc, mà bệnh viện đó có phẫu thuật cho cháu được không em nhé. Khi tham gia phẫu thuật thì cháu CÓ THỂ bị tai biến, biến chứng do phẫu thuật, do gây mê mà bác sĩ phẫu thuật, bác sĩ gây mê sẽ tư vấn cụ thể cho em trước khi ca mổ tiến hành em nhé!",
+            "score": 0.8549637794494629,
+            "id": "vietnamese_healthcare_4940",
+            "rerank_score": 0.9631152749061584
+        },
+        {
+            "text": "Câu hỏi: Con em bị thoát vị bẹn, nhưng do sinh non 33 tuần, tính từ lúc sinh đến nay được 2 tháng tuổi. Em cho bé đi khám ở bệnh viện 2 tháng sau mới có thể mổ do bé còn quá nhỏ. Vậy bác sĩ cho em hỏitrẻ 2 tháng tuổi bị thoát vị bẹn có thể mổ không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Thoát vị bẹn là một khối sưng phồng ở nơi giao giữa phần đùi và phần thân. Ở trẻ trai khối phồng lan xuống bìu, cái túi mà chứa tinh hoàn. Ở trẻ gái khối phồng kéo xuống môi lớn, vùng quanh âm hộ. Theo khuyến cáo mới nhất, thoát vị bẹn ở trẻ em được chỉ định mổ ngày khi có chẩn đoán, không cần trì hoãn. Trường hợp bé 2 tháng đã có thể phẫu thuật. Bé sẽ được làm các xét nghiệm trước mổ để đảm bảo an toàn cho gây mê. Bạn có thể đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể.",
+            "score": 0.813946008682251,
+            "id": "medical_vietnamese_qa_4948",
+            "rerank_score": 0.9622775912284851
+        },
+        {
+            "text": "Câu hỏi: Điều trị thoát vị bẹn ở trẻ sơ sinh như thế nào là tốt nhất?\nTrả lời: Thoát vị bẹn ở trẻ là bệnh lý bẩm sinh, không tự hết. Nếu không điều trị sẽ xảy ra biến chứng nghẹt dẫn đến các hậu quả sau: Ruột, buồng trứng (ở trẻ gái) trong ổ bụng có thể chui vào ống phúc tinh mạc gây nghẹt dẫn đến hoại tử ruột, buồng trứng nếu không được mổ kịp thời. Tổn thương tinh hoàn: mạch máu nuôi tinh hoàn bị chèn ép do nội tạng bị nghẹt. Phương pháp điều trị duy nhất cho bệnh lý này là phẫu thuật. Khuynh hướng hiện nay là giải quyết sớm khi phát hiện bệnh để đề phòng biến chứng nghẹt. Nghĩa là mọi lứa tuổi (trừ trường hợp bé sinh non hoặc có bệnh lý nặng đi kèm) đều có thể phẫu thuật thoát vị bẹn. Đường mổ nhỏ khoảng 3-4cm ở vùng nếp gấp bẹn, rất khó thấy và đảm bảo tính thẩm mỹ. Thông thường vết mổ sẽ lành và được cắt chỉ sau bảy ngày. Trước đây phẫu thuật thoát vị bẹn thường được mổ mở (mổ phanh). Tuy nhiên, tại Bệnh viện Đa khoa Quốc tế Vinmec tiên phong áp dụng kỹ thuật điều trị thoát vị bẹn bằng nội soi. Ưu điểm lớn nhất của phẫu thuật nội soi là phẫu thuật viên dễ dàng nhận thấy ống dẫn tinh và mạch máu nuôi tinh hoàn, đồng thời có thể khâu lại ống phúc tinh mạc (nguyên nhân gây thoát vị bẹn ở trẻ em) mà không đụng chạm đến ống dẫn tinh hoặc mạch máu nuôi tinh hoàn. Chính vì vậy phẫu thuật nội soi tránh được 2 biến chứng nguy hiểm là tắc ống dẫn tinh hoặc teo tinh hoàn, những biến chứng có thể gặp trong khi mổ mở. Ngoài ra nội soi cũng cho phép đánh giá tình trạng ống phúc tinh mạc bên đối diện và khâu kín ngay nếu nó còn mở. Vì vậy, có thể ngăn ngừa hiện tượng thoát vị bẹn ở bên đối diện.",
+            "score": 0.7326805591583252,
+            "id": "vietnamese_healthcare_4146",
+            "rerank_score": 0.95622718334198
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

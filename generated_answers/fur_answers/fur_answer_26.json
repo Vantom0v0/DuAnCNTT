@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Quy đầu bị xước, nổi mụn và tiết dịch phải làm sao?",
+    "ground_truth": "Bác sĩ nghĩ bạn đang bị viêm bao quy đầu, nguyên nhân viêm thường do nhiễm khuẩn nước tiểu hoặc quan hệ tình dục mà người nữ có viêm nhiễm phụ khoa. Yếu tố thuận lợi gây viêm có thể do bao quy đầu dài, hẹp. Các nốt mụn mà bạn mô tả phải thăm khám trực tiếp mới có thể đánh giá được, vì vậy bạn cần đến cơ sở y tế chuyên khoa để khám.",
+    "answer": "Các triệu chứng quy đầu bị xước, nổi mụn và tiết dịch, kèm đau rát khi chạm, có thể liên quan đến tình trạng viêm nhiễm do vi khuẩn, nấm hoặc virus. Tuy nhiên, chưa đủ thông tin để xác định chính xác bệnh; nhiều bệnh lý có biểu hiện tương tự.\n\nBạn nên:\n\n- Đến khám chuyên khoa Tiết niệu hoặc Da liễu để được kiểm tra.\n- Bác sĩ có thể cần lấy dịch hoặc mẫu tại vết loét để xét nghiệm tìm tác nhân vi sinh vật; nếu có loét sinh dục, có thể chỉ định xét nghiệm giang mai.\n- Tạm ngừng quan hệ tình dục cho đến khi các nốt mụn, vết xước hoặc loét biến mất hoàn toàn.\n- Vệ sinh nhẹ nhàng bằng nước ấm, giữ vùng kín sạch và khô, mặc quần áo rộng, thoáng.\n\nDo bạn mô tả có tiết dịch, đau rát và tổn thương tái phát, không nên chỉ tự theo dõi tại nhà.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi, quy đầu bị xước, nổi mụn và tiết dịch phải làm sao ạ? Em thường xuyên vệ sinh sạch, không quan hệ tình dục, chạm vào đau rát ạ!\nTrả lời: Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+            "score": 0.7288107872009277,
+            "id": "vietnamese_medical_qa_3113",
+            "rerank_score": 0.9728911519050598
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em bị nổi mụn quanh rãnh quy đầu màu đỏ và bao quy đầu bị nổi mụn rộp khi vỡ bị loét đau như kim chích, lúc tự khỏi sau thời gian lại bị lại, em bị bệnh gì vậy ạ?\nPhước Mạnh (Đà Nẵng)\nChào bác sĩ. Cháu bị nổi mẩn đỏ đầu dương vật đó là bệnh gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn, bạn có tiền sử quan hệ tình dục không an toàn không? Tình trạng này là tình trạng viêm nhiễm ở dương vật. Ban nên đến khám chuyên khoa Tiết niệu để được tư vấn và điều trị chính xác.",
+            "score": 0.5129387378692627,
+            "id": "vietnamese_medical_qa_4133",
+            "rerank_score": 0.35778653621673584
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho cháu hỏi, dây thần kinh lưng dương vật nổi mụn, chảy máu, mùi hôi và quy đầu nổi mụn là bệnh lý gì vậy ạ? Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nTrả lời: Chào em. Dây thần kinh lưng dương vật là tổ chức nằm sâu dưới da và không thể thấy được. Da dương vật nổi mụn có mùi hôi là có thể em bị viêm nhiễm từ các loại vi trùng, nấm, virus,... thường nhất là lây qua đường tình dục. Có rất nhiều bệnh lý có cùng biểu hiện như trên nên em phải đi khám để được chẩn đoán và điều trị nhé.",
+            "score": 0.5176423788070679,
+            "id": "vietnamese_medical_qa_4080",
+            "rerank_score": 0.3034452199935913
+        },
+        {
+            "text": "Câu hỏi: Cách trị nổi mụn trắng ở bao quy đầu\nTrả lời: 3. Cách trị nổi mụn trắng ở bao quy đầu\nNếu tình trạng nổi mụn không nghiêm trọng có thể các nốt mụn sẽ tự biến mất sau vài ngày. Tuy nhiên để tránh việc tình trạng dương vật ngày càng tệ hơn do mụn thì nam giới cần kiêng quan hệ tình dục khi các nốt mụn hoàn toàn biến mất và vệ sinh sạch sẽ hàng ngày. Có nhiều cách trị mụn trắng ở bao quy đầu như: Kiêng quan hệ tình dục: vì có thể khiến các nốt mụn gặp tổn thương và vỡ ra do cọ xát, bên cạnh đó vi khuẩn cũng như virus gây bệnh có cơ hội xâm nhập, lây nhiễm cho bạn tình. Như vậy cả nam giới lẫn đối tác đều chịu những tác hại nhất định Vệ sinh sạch sẽ cơ thể: các nốt mụn có thể cải thiện nhanh chóng nếu vùng kín được giữ sạch sẽ và khô thoáng. Vì vậy mỗi khi tắm rửa cần chú ý vệ sinh sạch vùng dương vật, nhẹ nhàng với nước ấm. Cần lau khô vùng kín trước khi mặc quần áo. Nên chọn quần áo có chất liệu thoáng mát, thấm hút mồ hôi, rộng rãi không bó sát để tránh tổn thương vùng kín.",
+            "score": 0.5259498953819275,
+            "id": "vietnamese_healthcare_93133",
+            "rerank_score": 0.1622481644153595
+        },
+        {
+            "text": "Câu hỏi: Đầu dương vật xuất hiện vết loét phải làm sao?\nTrả lời: Theo như bạn mô tả thì bác sĩ chẩn đoán bạn bị: Thứ nhất đó là bệnh loét sinh dục. Thứ 2 đó là bệnh giang mai. Vì loét vùng sinh dục do bệnh giang mai thì thường không đau rát ở thương tổn loét. Còn loét vùng sinh dục thì có nhiều nguyên nhân. Cần lấy dịch tại vết loét ở dương vật để xét nghiệm tìm tác nhân vi sinh vật gây bệnh như: virus, vi khuẩn. . . Còn xét nghiệm giang mai: RPR và TPHA cần làm cả định tính và định lượng để phân tích chẩn đoán bệnh. Trường hợp của bạn theo bác sĩ cần đến khám ở các bệnh viện chuyên khoa Da Liễu, hay bệnh viện có bác sĩ chuyên khoa Da Liễu có kinh nghiệm để được chỉ định điều trị và tư vấn cụ thể.",
+            "score": 0.49637213349342346,
+            "id": "vietnamese_healthcare_9738",
+            "rerank_score": 0.07259496301412582
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

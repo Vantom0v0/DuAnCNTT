@@ -44,8 +44,8 @@ def naive_rag_model(query, groundtruth = "NA", evaluation_mode = False, enable_r
 
     return {
         "model_name": "naive_rag",
-        "query": query,
-        "groundtruth": groundtruth,
+        "question": query,
+        "ground_truth": groundtruth,
         "answer": answer,
         "retrieved": chosen_docs,
         "llm_call": 1,

@@ -1,0 +1,110 @@
+{
+    "model_name": "fur",
+    "question": "Tôi có thể đăng ký danh sách chờ để được tiêm vaccine Pfizer (khi đã có hàng) được không? Tôi sẽ phải đăng ký chờ ở đâu?",
+    "ground_truth": "Theo thông tin từ Bộ Y tế, hơn 90. 000 liều vaccine Covid-19 Pfizer/BioNTech đã về đến sân bay Nội Bài vào sáng ngày 7/7/2021. Đây là lô vaccine đầu tiên của hãng này về Việt Nam. Hiện nay, Chính phủ chưa có cơ chế triển khai tiêm chủng loại vaccine này. Hiện nay, Việt Nam đang tiến hành tiêm chủng vaccine AstraZeneca (Vương quốc Anh) cho các đối tượng, địa bàn ưu tiên theo hướng dẫn chỉ đạo của Chính phủ và Bộ Y tế.",
+    "answer": "Hiện chưa tìm thấy thông tin cho thấy có thể đăng ký **danh sách chờ riêng để tiêm vaccine Pfizer**. Theo thông tin cung cấp, vaccine Pfizer chưa được triển khai tiêm tại Việt Nam và chưa có cơ chế tiêm dịch vụ; Bộ Y tế và Chính phủ cũng chưa có kế hoạch triển khai loại vaccine này.\n\nBạn nên theo dõi thông tin chính thức từ Bộ Y tế và Chính phủ. Nếu thuộc nhóm ưu tiên tiêm vaccine theo chính sách hiện hành, bạn có thể đăng ký tại nơi sinh sống hoặc nơi công tác. Nếu chưa thuộc nhóm ưu tiên, bằng chứng cho biết có thể đăng ký nhu cầu qua tổng đài VNVC để được thông báo khi có cơ chế phù hợp, nhưng không xác nhận đây là danh sách chờ riêng cho Pfizer.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi muốn đăng ký tiêm vacxin Pfizer của Mỹ thì đăng ký ở đâu? Và giá vaccine của Pfizer bao nhiêu tiền?\nTrả lời: Hiện nay vaccine phòng Covid-19 của Pfizer và Modena của Mỹ chưa được nhập về Việt Nam và cũng chưa có cơ chế tiêm dịch vụ đối với những vaccine này.",
+            "score": 0.7234675884246826,
+            "id": "vietnamese_healthcare_715",
+            "rerank_score": 0.9070238471031189
+        },
+        {
+            "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+            "score": 0.688607931137085,
+            "id": "vietnamese_healthcare_7879",
+            "rerank_score": 0.605131208896637
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn tiêm vaccine Covid-19 thì tiêm ở đâu? Chi phí cho mỗi liều vaccine là bao nhiêu?\nTrả lời: Hiện tại chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu thuộc diện được tiêm theo chính sách thì có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+            "score": 0.619135856628418,
+            "id": "vietnamese_healthcare_4969",
+            "rerank_score": 0.5212495923042297
+        },
+        {
+            "text": "Câu hỏi: Cần làm gì với biến chủng Omicron?\nTrả lời: 3. Cần làm gì với biến chủng Omicron?",
+            "score": 0.6128978729248047,
+            "id": "vietnamese_healthcare_40044",
+            "rerank_score": 5.5457396229030564e-05
+        },
+        {
+            "text": "Câu hỏi: Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nTrả lời: 4. Cần chuẩn bị những gì khi đi khám bệnh nếu nghi ngờ bệnh Celiac?\nBác sĩ sẽ cần một số thông tin sau để chẩn đoán bệnh, nên bạn cần chuẩn bị các câu trả lời cho những điều sau đây: Triệu chứng bắt đầu từ khi nào? Các triệu chứng này xuất hiện liên tục hay thỉnh thoảng, lúc có lúc không? Triệu chứng nặng / nhẹ ra sao? Có thể làm gì để giảm triệu chứng kể trên? Tiết giảm thức ăn nào thì cảm thấy dễ chịu hơn? Khi làm gì thì triệu chứng nặng hơn? Loại thức ăn nào khiến triệu chứng gia tăng? Trong gia đình có ai bị bệnh celiac không? Trong gia đình có người đã bị bệnh celiac bạn nên đi khám bệnh nếu nghi ngờ bệnh Celiac Có bị chứng bệnh tự đề kháng nào không (autoimmune disease)? Trong gia đình có ai bị bệnh tự đề kháng không? Đã chịu giải phẫu ở bụng bao giờ chưa? Đã bị chứng bệnh liên quan đến tụy tạng bao giờ chưa, chẳng hạn như viêm tụy tạng? Đã bị chứng da nổi ngứa với những bong bóng bao giờ chưa? Đã bị thiếu máu bao giờ chưa và cần dùng thêm sắt?",
+            "score": 0.5977857708930969,
+            "id": "vietnamese_healthcare_86309",
+            "rerank_score": 2.2709962649969384e-05
+        },
+        {
+            "text": "Câu hỏi: Tôi có thể đăng ký danh sách chờ để được tiêm vaccine Pfizer theo cơ chế tính phí được không bác sĩ?\nTrả lời: Hiện nay, vaccine phòng Covid-19 của Pfizer và Modena của Mỹ chưa được nhập về Việt Nam và cũng chưa có cơ chế tiêm dịch vụ đối với những vaccine này. Anh vui lòng chờ thêm thông tin từ Chính phủ và Bộ Y tế.",
+            "score": 0.681120753288269,
+            "id": "vietnamese_healthcare_9686",
+            "rerank_score": 0.9924916625022888,
+            "weighted_score": 0.9949136614799499
+        },
+        {
+            "text": "Câu hỏi: Chuyên gia tư vấn cách đăng ký vaccine Covid-19 loại Moderna hoặc Pfizer?\nTrả lời: Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu chị thuộc diện được tiêm theo chính sách thì chị có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra nếu chị chưa thuộc nhóm đối tương ưu tiên theo NĐ 21-CP thì vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC, ngay khi có thể được đáp ứng và cho phép của Bộ Y tế về cơ chế tiêm dịch vụ chúng tôi sẽ thông báo và mời khách hàng đến tiêm.",
+            "score": 0.5889676809310913,
+            "id": "vietnamese_healthcare_3272",
+            "rerank_score": 0.93648362159729,
+            "weighted_score": 0.9655801296234131
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn tiêm đăng ký tiêm vaccine Covid-19 Pfizer thì đăng ký ở đâu được ạ?\nTrả lời: Hiện nay, Bộ Y tế và Chính Phủ vẫn chưa có kế hoạch triển khai tiêm vaccine phòng Covid-19 của Pfizer. Chị vui lòng theo dõi thêm thông tin chính thức của Bộ Y tế trong thời gian sắp tới.",
+            "score": 0.6129699349403381,
+            "id": "vietnamese_healthcare_6378",
+            "rerank_score": 0.8253629207611084,
+            "weighted_score": 0.9575825691223145
+        },
+        {
+            "text": "Câu hỏi: Tôi có thể đăng ký tiêm vaccine ở đâu. Mong được bác sĩ tư vấn.\nTrả lời: Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên. Vì vậy, nếu anh thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra, nếu chị chưa thuộc nhóm đối tương ưu tiên theo NĐ 21-CP vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC. Ngay khi có thể được đáp ứng và cho phép của Bộ Y tế về cơ chế tiêm dịch vụ, chúng tôi sẽ thông báo và mời khách hàng đến tiêm.",
+            "score": 0.5875052213668823,
+            "id": "vietnamese_healthcare_7073",
+            "rerank_score": 0.4846528470516205,
+            "weighted_score": 0.8906239688396455
+        },
+        {
+            "text": "Câu hỏi: Em muốn đăng ký tiêm vaccine sớm nhất có thể đăng ký ở đâu?\nTrả lời: Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên. Vì vậy, nếu anh thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra, nếu chị chưa thuộc nhóm đối tương ưu tiên theo NĐ 21-CP thì vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC.",
+            "score": 0.5938886404037476,
+            "id": "vietnamese_healthcare_480",
+            "rerank_score": 0.4750218093395233,
+            "weighted_score": 0.8826823174953461
+        },
+        {
+            "text": "Câu hỏi: tôi và gia đình muốn đăng ký chích vaccine Covid-19 sớm nhất có thể thì đăng ký như thế nào?\nTrả lời: Hiện tại chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu anh/chị thuộc diện được tiêm theo chính sách thì có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra nếu anh/chị chưa thuộc nhóm đối tương ưu tiên theo NĐ 21-CP thì vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC, ngay khi có thể được đáp ứng và cho phép của Bộ Y tế về cơ chế tiêm dịch vụ chúng tôi sẽ thông báo và mời đến tiêm.",
+            "score": 0.5676829814910889,
+            "id": "vietnamese_healthcare_7259",
+            "rerank_score": 0.3812578618526459,
+            "weighted_score": 0.820876806974411
+        },
+        {
+            "text": "Câu hỏi: Mình muốn đăng ký tiêm vaccine thì phải thực hiện như thế nào?\nTrả lời: Hiện tại Chính phủ và Bộ Y tế vẫn đang triển khai tiêm vaccine Covid-19 cho các đối tượng được ưu tiên, vì vậy nếu anh, chị thuộc diện được tiêm theo chính sách thì có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra nếu anh/chị chưa thuộc nhóm đối tương ưu tiên theo NĐ 21-CP thì chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC. Khi có thể được đáp ứng và cho phép của Bộ Y tế về cơ chế tiêm dịch vụ chúng tôi sẽ thông báo và mời khách hàng đến tiêm.",
+            "score": 0.5731642842292786,
+            "id": "vietnamese_healthcare_9534",
+            "rerank_score": 0.36916133761405945,
+            "weighted_score": 0.8134422242641449
+        },
+        {
+            "text": "Câu hỏi: Làm thế nào để đăng ký tiêm vaccine khi không nằm trong danh sách ưu tiên? Tôi hiện đang cư trú ở Hà Nội, nhưng sắp tới cần đến Bắc Giang làm việc.\nTrả lời: Hiện tại vaccine Covid-19 của AstraZeneca đang được tiêm cho các đối tượng ưu tiên theo hướng dẫn của Bộ Y Tế. Nếu bạn chưa thuộc nhóm đối tượng ưu tiên theo NĐ 21-CP thì vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC, ngay khi có thể được đáp ứng và được sự cho phép của Bộ Y tế về cơ chế tiêm dịch vụ, chúng tôi sẽ thông báo và mời khách hàng đến tiêm.",
+            "score": 0.6065627336502075,
+            "id": "vietnamese_healthcare_4649",
+            "rerank_score": 0.41904622316360474,
+            "weighted_score": 0.7744344353675842
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn đăng ký tiêm vaccine Covid-19 của AstraZeneca thì phải làm sao? Cảm ơn!\nTrả lời: Hiện tại, Chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy, nếu chị thuộc diện được tiêm theo chính sách có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác. Ngoài ra nếu chị chưa thuộc nhóm đối tượng ưu tiên theo NĐ 21-CP vui lòng chờ.",
+            "score": 0.5833848714828491,
+            "id": "vietnamese_healthcare_9525",
+            "rerank_score": 0.19773685932159424,
+            "weighted_score": 0.6658202886581421
+        },
+        {
+            "text": "Câu hỏi: Khi nào có thể đăng ký tiêm vaccine Covid 19?\nTrả lời: Hiện tại, vaccine Covid-19 của AstraZeneca đang được tiêm cho các đối tượng ưu tiên theo hướng dẫn của Bộ Y Tế. Bạn hãy liên hệ với chính quyền địa phương nơi bạn sinh sống để biết mình có được tiêm hay không và khi nào được tiêm. Ngoài ra, nếu bạn chưa thuộc nhóm đối tượng ưu tiên theo NĐ 21-CP vui lòng chờ hoặc đăng ký nhu cầu của mình qua hệ thống tổng đài VNVC. Ngay khi có thể được đáp ứng và cho phép của Bộ Y tế về cơ chế tiêm dịch vụ chúng tôi sẽ thông báo và mời khách hàng đến tiêm.",
+            "score": 0.5753446817398071,
+            "id": "vietnamese_healthcare_7256",
+            "rerank_score": 0.1339283287525177,
+            "weighted_score": 0.48641658425331114
+        }
+    ],
+    "llm_call": 4,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Chào bác sĩ! Năm nay mình 51 tuổi, mình bị bệnh hạ kali máu cũng 7 năm rồi. Mình đã đi khám và điều trị nhưng không đỡ. Bác sĩ có thể tư vấn giúp mình làm cách nào để bệnh tình của mình thuyên giảm không ạ? Mình cảm ơn bác sĩ.",
+    "ground_truth": "Chào cô! Trong điều trị hạ kali máu ngoài việc bù đủ kali thì quan trọng không là tìm và điều trị nguyên nhân gây nên tình trạng hạ kali máu.",
+    "answer": "Chào bạn, tài liệu hiện có không cung cấp đủ thông tin để xác định nguyên nhân hoặc hướng điều trị bệnh hạ kali máu kéo dài 7 năm. Bạn nên đi khám lại tại cơ sở y tế, preferably chuyên khoa phù hợp, và cung cấp đầy đủ thông tin về quá trình điều trị, các thuốc đang hoặc đã sử dụng cũng như tình trạng bệnh để bác sĩ thăm khám chi tiết và đưa ra kế hoạch điều trị cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em bị bệnh gout đã gần 10 năm uống nhiều nhiều loại thuốc (cả đông và tây y) nhưng không khỏi. Em nhờ các bác sĩ tư vấn giúp nên dùng loại thuốc nào để điều trị và thực đơn ăn uống thế nào cho hợp lý.\nTrả lời: Theo những thông tin mà chị cung cấp, chúng tôi không rõ bệnh lý của chị đã ở mức độ nào. Trường hợp của chị nên đi khám bác sĩ chuyên khoa để có sự cụ thể hơn.",
+            "score": 0.6355801820755005,
+            "id": "vietnamese_healthcare_20"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ có thể tư vấn giúp tôi từ tuổi 50 trở lên có nên tiêm bổ não hằng năm không ạ? Tôi xin cảm ơn bác sĩ nhiều.\nTrả lời: Chào bác. Bác sĩ tư vấn câu hỏi: “Từ tuổi 50 trở lên có nên tiêm bổ não hằng năm không?” của bác như sau:\nHiện chưa có nghiên cứu nào cho rằng cứ trên 50 tuổi thì nên tiêm bổ não hàng năm. Bác chỉ dùng thuốc về não khi đi khám và có chỉ định của bác sĩ chuyên khoa Thần kinh.",
+            "score": 0.5462885499000549,
+            "id": "vietnamese_medical_qa_2014"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nTôi bị bệnh Lupus ban đỏ đã hơn 10 năm, mấy tuần nay, tôi thấy có triệu chứng sụp mí mắt, chân tay yếu, cảm thấy đi mất thăng bằng, mắt mờ, nói giọng run run người mệt mỏi. Vậy bác sĩ cho tôi hỏi nữ giới sụp mí mắt, chân tay yếu nguyên nhân là gì? Lupus ban đỏ điều trị như thế nào? Tôi cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn bị Lupus ban đỏ đã hơn 10 năm. Bạn cần cung cấp thêm thông tin như có đang điều trị hay không, bạn đã ngưng thuốc hay vẫn tiếp tục điều trị, Lupus ban đỏ có biến chứng gì không. Bạn nên đi khám ngay cơ sở y tế có chuyên khoa về bệnh Lupus ban đỏ, bác sĩ sẽ khám chi tiết và sẽ có kế hoạch cũng như giải đáp về các triệu chứng của bạn.\nTrân trọng!",
+            "score": 0.5255618095397949,
+            "id": "vietnamese_medical_qa_837"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi em bị đau lưng ở chỗ 14 15 khoảng 1 năm rồi cho em hơi hướng điều trị ạ?\nTrả lời: Bạn năm nay 33 tuổi và đã bị đau vùng cột sống thắt lưng từ khoảng 1 năm nay. Trường hợp của bạn chỉ đau tại cột sống thắt lưng, đau chưa lan xuống mông chân. Vậy bác sĩ hướng đến bạn có một tình trạng đau lưng mạn tính.",
+            "score": 0.5172563791275024,
+            "id": "vietnamese_medical_qa_5002"
+        },
+        {
+            "text": "Câu hỏi: Cháu năm nay 23 tuổi, bác sĩ cho cháu hỏi khi nào nên tầm soát ung thư cổ tử cung và trong thời gian bao lâu ạ?\nTrả lời: Cảm ơn em đã tin tưởng AI-Doctor. Rất mong có thể gặp em để được tư vấn cụ thể hơn.",
+            "score": 0.5165592432022095,
+            "id": "vietnamese_medical_qa_4041"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

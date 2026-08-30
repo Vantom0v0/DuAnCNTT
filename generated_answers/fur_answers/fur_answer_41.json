@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Tôi bị hen phế quản, có tiền sử viêm phế quản và bị viêm phổi một lần cách đây mấy năm. Hiện tôi vẫn phải duy trì thuốc xịt dự phòng. Tôi có cơ địa dị ứng, vậy có tiêm được vaccine Covid-19 không?",
+    "ground_truth": "Theo thông tin sức khỏe anh/chị mô tả, anh/chị có tiền sử viêm phế quản và bị viêm phổi một lần cách đây mấy năm đã được điều trị ổn định. Hiện hàng ngày vẫn phải duy trì thuốc xịt dự phòng, có tiền sử dị ứng nhưng không rõ dị ứng với mức độ như thế nào nếu dị ứng phải vào bệnh viện để điều trị thì bạn nằm trong chống chỉ định tiêm vaccine. Còn nếu dị ứng nhẹ tự khỏi hay chỉ uống thuốc tại nhà bạn vẫn có thể tiêm phòng được. Theo hướng dẫn mới nhất của Bộ Y tế, anh/chị thuộc nhóm cần thận trọng khi tiêm vaccine Covid-19. Trường hợp của anh/chị vẫn được tiêm vaccine Covid-19 tại khối bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Theo thông tin được cung cấp, bạn **vẫn có thể tiêm vaccine Covid-19** nếu hen phế quản và các bệnh hô hấp hiện **đang ổn định**, kể cả khi vẫn dùng thuốc xịt dự phòng hằng ngày. Tiền sử viêm phế quản hoặc viêm phổi đã điều trị ổn định không được nêu là chống chỉ định.\n\nKhi đi tiêm, bạn cần:\n\n- Khai báo đầy đủ tiền sử hen, dị ứng, viêm phế quản/viêm phổi và các thuốc đang dùng.\n- Để bác sĩ khám sàng lọc đánh giá tình trạng hen, đặc biệt nếu gần đây có cơn hen tái phát hoặc bệnh chưa ổn định.\n- Do có cơ địa dị ứng và hen, nên cân nhắc tiêm tại cơ sở tuyến bệnh viện để được theo dõi và xử trí phù hợp.\n\nBằng chứng cho biết người có cơ địa dị ứng hoặc tiền sử hen có thể có tỷ lệ phản vệ cao hơn, nhưng phản ứng này vẫn hiếm và không phải ai cũng gặp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: tôi có tiền sử bị viêm phế quản thể hen thì có thể tiêm phòng vaccine Covid-19 không bác sĩ?\nTrả lời: Theo thông tin chị cung cấp, nếu tình trạng viêm phế quản đã điều trị ổn định, chị vẫn có thể tiêm được vaccin Covid-19 theo hướng dẫn của Bộ Y tế. Tuy nhiên theo những nghiên cứu tại Mỹ, Tỷ lệ những ngừoi có cơ địa bệnh dị ứng như viêm mũi dị ứng, tiền sử bệnh hen, hoặc tiền sử dị ứng với tác nhân gì thì gặp tỷ lệ phản vệ cao hơn những người khác, tuy nhiên, không phải ai cũng bị và tỷ lệ vẫn rất hiếm. Vì vậy, chị cần cung cấp đầy đủ về tiền sử bệnh cho bác sĩ khám sàng lọc để được khám sàng lọc kỹ và dặn dò kỹ các phản ứng sau tiêm.",
+            "score": 0.6569110751152039,
+            "id": "vietnamese_healthcare_1160",
+            "rerank_score": 0.9999501705169678
+        },
+        {
+            "text": "Câu hỏi: Tôi bị hen phế quản có tiêm được vaccine Covid-19 không ạ?\nTrả lời: Hiện Anh/Chị đang bị hen phế quản thì vẫn có thể tiêm vaccine Covid-19 được. Khi đi tiêm Anh/Chị vui lòng khai báo tình trạng sức khỏe, tiền sử dị ứng cho bác sĩ khám sàng lọc.",
+            "score": 0.6362552642822266,
+            "id": "vietnamese_healthcare_4626",
+            "rerank_score": 0.9998544454574585
+        },
+        {
+            "text": "Câu hỏi: Tôi bị hen phế quản, phải dùng thường xuyên thuốc hít, cộng thêm viêm xoang, viêm mũi dị ứng. Vậy có thể tiêm vaccine Covid-19 được không? Khi tiêm chú ý những gì?\nTrả lời: Nếu như anh đang điều trị hen suyễn, viêm mũi dị ứng, viêm xoang vẫn có thể tiêm được vaccine Covid-19. Tuy nhiên, đối với những trường hợp này nên được tiêm vaccine tại tuyến bệnh viện để đảm bảo an toàn cho anh.",
+            "score": 0.670742392539978,
+            "id": "vietnamese_healthcare_2676",
+            "rerank_score": 0.9996167421340942
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 53 tuổi, có tiền sử hen phế quản, mỗi khi trở trời hay khó thở, ngoài ra còn có các bệnh như viêm dạ dày, nhức mỏi tay chân. Vậy tôi có tiêm chủng vaccine Covid-19 được không? Muốn tiêm thì tiêm ở đâu?\nTrả lời: Theo như thông tin cô cung cấp, bác sĩ cần làm rõ thêm thông tin để có thể tư vấn cụ thể hơn: cô có đang tiếp nhận điều trị hen phế quản không, tình trạng bệnh cụ thể (cơn hen gần nhất, có tái đi tái lại không), tình trạng bệnh có đang ổn định trong khoảng 3 tháng gần đây hay không. . .",
+            "score": 0.6443160772323608,
+            "id": "vietnamese_healthcare_3756",
+            "rerank_score": 0.9984177350997925
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 40 tuổi, bị hen, đã ổn định và đang dùng thuốc dự phòng ngày một lần có được tiêm vaccine phòng Covid-19 hay không?\nTrả lời: Trường hợp của chị đang uống thuốc dự phòng bệnh hen phế quản, theo hướng dẫn của Bộ Y tế chị vẫn tiêm được vaccine Covid-19 bình thường.",
+            "score": 0.6317510604858398,
+            "id": "vietnamese_healthcare_1194",
+            "rerank_score": 0.9983147382736206
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

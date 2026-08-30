@@ -1,0 +1,75 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ,\nTôi bị mổ nội soi thai ngoài tử cung 7/2012. 20/7/2014 tôi có thai bình thường và sinh con bình thường ko gặp trở ngại gì. \nTuy nhiên giờ tôi lại rất sợ bị thai ngoài tử cung trở lại. \nXin bác sĩ chỉ tôi phương pháp nào tránh thai hiệu quả nhất giúp tôi tránh thai an toàn. (Ngoại trừ biện pháp sử dụng bao cao su)\nTôi xin chân thành cảm ơn!",
+    "ground_truth": "Chào bạn, \nCó nhiều biện pháp tránh thai an toàn như: \n- Đặt vòng tránh thai\n- Uống thuốc tránh thai hàng ngày.\n- Xuất tinh ngoài âm đạo\n- Tính vòng kinh\n- Thắt ống dẫn tinh và thắt buồng trứng.\nMỗi biện pháp đều có ưu và nhược điểm, tuy nhiên bạn nên dùng biện pháp đặt vòng hoặc biện pháp uống thuốc tránh thai hàng ngày là an toàn hơn.\nThân mến!",
+    "answer": "Theo thông tin được cung cấp:\n\n- Người từng bị thai ngoài tử cung có nguy cơ tái phát cao hơn người chưa từng mắc.\n- Hiện chưa có phương pháp nào được chứng minh ngăn ngừa hoàn toàn thai ngoài tử cung tái phát.\n- Đặt dụng cụ tử cung (vòng tránh thai) được xem là một biện pháp tránh thai tạm thời, nhưng tiền sử thai ngoài tử cung là một chống chỉ định tương đối. Thông tin hiện có không nêu rõ vòng đồng hay vòng nội tiết loại nào hiệu quả và an toàn hơn trong trường hợp này.\n- Nếu vừa điều trị thai ngoài tử cung bằng thuốc, chẳng hạn mới 5 tuần, cần được bác sĩ khám và tư vấn trước khi đặt vòng; không nên tự đặt.\n\nVì vậy, chưa có đủ thông tin để khẳng định loại vòng nào là lựa chọn tốt nhất hoặc điều kiện cụ thể để tránh tái phát. Bạn nên đến cơ sở sản phụ khoa để đánh giá tình trạng hiện tại và chọn biện pháp tránh thai phù hợp. Khi có thai lại, cần khám sớm để xác định vị trí thai.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em từng sảy thai do thai ngoài tử cung, quá trình can thiệp gây ra sẹo trên ống dẫn trứng khiến em không thể có con trong nhiều năm. Bác sĩ lúc trước điều trị cho em cũng cho biết em có nguy cơ mang thai ngoài tử cung cao. Em nên thực hiện phương pháp IUI hay IVF để có thể đậu phôi và mang thai an toàn?\nTrả lời: Với các thông tin chị cung cấp, chúng tôi cũng chưa rõ chị từng có thai ngoài tử cung mấy lần, đã can thiệp phẫu thuật bảo tồn vòi tử cung hay cắt hoàn toàn vòi tử cung một hay hai bên để đưa ra câu trả lời chi tiết nhất. Nếu như chị vẫn còn một trong hai vòi tử cung thông, các yếu tố khác bình thường, tinh trùng của chồng tốt thì có thể thực hiện IUI. Còn nếu hai vòi tử cung tắc, anh chị sẽ có chỉ định làm IVF. Tuy nhiên, cả IUI và IVF đều không giúp làm giảm nguy cơ thai ngoài tử cung. Khi bơm IUI hoặc chuyển phôi trong IVF vẫn có tỷ lệ thai ngoài tử cung tương đương với thai tự nhiên nên không có phương pháp nào an toàn tuyệt đối.",
+            "score": 0.6245204210281372,
+            "id": "vietnamese_healthcare_9385",
+            "rerank_score": 0.9851508736610413
+        },
+        {
+            "text": "Câu hỏi: Cháu bị thai ngoài tử cung. Bác sĩ cho cháu hỏiđiều trị thai ngoài tử cung thế nào?Cháu muốn điều trị bằng thuốc nhưng có bác sĩ khuyên dùng thuốc sau này mang thai ngoài lại có đúng không? Mổ với dùng thuốc cái nào tốt hơn thưa bác sĩ? Cháu cảm ơn bác sĩ. Nguyễn Thị Lam(1998) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Thị Phương -Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Thai ngoài tử cunglà thai làm tổ và phát triển bên ngoài buồng tử cung thường nằm tại vòi tử cung, buồng trứng, ổ bụng,... Hiện nay, có 3 phương pháp được sử dụng trongđiều trị thai ngoài tử cungđó là: Dùng thuốc, phẫu thuật nội soi,phẫu thuật mở bụng. Việc chọn lựa phương pháp điều trị tùy thuộc vào từng trường hợp cụ thể. Vì vậy, bạn nên đi khám bác sĩ chuyên khoa Sản phụ khoa để được khám, chẩn đoán và xử lý kịp thời tránh biến chứng sau này.",
+            "score": 0.6491075754165649,
+            "id": "medical_vietnamese_qa_2704",
+            "rerank_score": 0.9666220545768738
+        },
+        {
+            "text": "Câu hỏi: Cháu bịmang thai ngoài tử cung. Cháu quan hệ được 10 ngày thì thử que có 2 vạch. Cháu đi siêu âm thì không thấy gì nhưng thử máu các bác sĩ lại kết luận là có và sẽ mang thai ngoài tử cung. Bác sĩ cho cháu hỏiphá thai ngoài tử cung bằng thuốc có được không?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn chưa được chẩn đoán xác định là thai ngoài tử cung nên bạn cần phải đi khám tại cơ sở y tế uy tín để được thăm khám, theo dõi và tư vấn tốt nhất. Đối với thai ngoài tử cung thì bạn tuyệt đối không được dùngthuốc phá thai. Hiện nay, có 2 phương pháp điều trị thai ngoài tử cung là nội khoa (dùng thuốc methotrexate) và ngoại khoa (phẫu thuật cắt vòi trứng có mang thai và phẫu thuật bảo tồn), cả 2 phương pháp đều phải được theo dõi điều trị tại bệnh viện.",
+            "score": 0.6383004188537598,
+            "id": "medical_vietnamese_qa_2843",
+            "rerank_score": 0.9435535669326782
+        },
+        {
+            "text": "Câu hỏi: Vào năm 2018, em có bị thai ngoài tử cung và mổ nội soi. Vậy bác sĩ cho em hỏikhả năng mang thai sau mổ nội soi thai ngoài tử cung có cao không?Em có khả năng sinh con không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Thai ngoài tử cunglà một bệnh lý chiếm tỉ lệ cao ảnh hưởng trực tiếp đến người bệnh, quá trình sinh đẻ sau này, thậm chí nếu phát hiện muộn thai đã vỡ gây chảy máu ồ ạt trong ổ bụng có thể nguy hiểm đến tính mạng bệnh nhân. Bạn đã mổ nội soi thai ngoài tử cung, bạn vẫn có khả năng mang thai, tuy nhiên khả năng có thai của bạn phụ thuộc vào buồng trứng và phần phụ còn lại.",
+            "score": 0.7051647901535034,
+            "id": "medical_vietnamese_qa_1706",
+            "rerank_score": 0.9144974946975708
+        },
+        {
+            "text": "Câu hỏi: Làm sao để điều trị thai ngoài tử cung hiệu quả?\nTrả lời: 5. Làm sao để điều trị thai ngoài tử cung hiệu quả?\nHiện nay, có hai cách để điều trị thai ngoài tử cung là phẫu thuật nội soi và điều trị nội khoa: 5.1 Phẫu thuật nội soi Đây là phương pháp thường được sử dụng vì có nhiều ưu điểm như thời gian chữa trị nhanh chóng, không đau và sử dụng ít kháng sinh, thời gian nằm viện ngắn và người bệnh phục hồi sức khỏe nhanh chóng để trở lại làm việc và sinh hoạt thường ngày. Tuy nhiên vì đây là phẫu thuật nên vẫn có những biến chứng hậu phẫu có thể xảy ra như các tai biến của thuốc mê, gây tổn thương các cơ quan nội tạng và chi phí của phương pháp này cũng khá cao. Phẫu thuật nội soi là phương pháp xử lý thai ngoài tử cung phổ biến 5.2 Điều trị nội khoa Đây là phương pháp điều trị sử dụng thuốc để làm chết thai rồi cơ thể người mẹ sẽ tự động hấp thụ khối thai đó. Phương pháp này có nhiều ưu điểm như tỷ lệ thành công cao lên đến 95%, người bệnh không phải thực hiện phẫu thuật, tránh được các biến chứng hậu phẫu, chi phí thực hiện thấp. Tuy nhiên phương pháp này chỉ sử dụng đối với thai ngoài tử cung có kích thước nhỏ hơn 4cm, chưa có tim thai và khối thai chưa bị vỡ. Thai ngoài tử cung cực kỳ nguy hiểm, nếu không được phát hiện sớm và xử lý kịp thời sẽ gây ra xuất huyết trong, nguy hiểm đến tính mạng của thai phụ. Vì vậy, khi nghi ngờ mình mang thai hoặc xuất hiện các triệu chứng của thai ngoài tử cung hoặc thuộc nhóm đối tượng có nguy cơ thai ngoài tử cung cao thì bạn hãy đến ngay cơ sở y tế khám. Thông thường, bác sĩ sẽ sử dụng phương pháp siêu âm để chẩn đoán. Kết quả siêu âm phụ thuộc rất nhiều vào trình độ của kỹ thuật viên và trang thiết bị. Bạn nên chọn cơ sở y tế uy tín để có được kết quả chính xác nhất.",
+            "score": 0.6673469543457031,
+            "id": "vietnamese_healthcare_42701",
+            "rerank_score": 0.8823192715644836
+        },
+        {
+            "text": "Câu hỏi: ! Em bị chửa ngoài dạ con, em dùng phương pháp tiêm thuốc. Bác sĩ cho em hỏi,chửa ngoài dạ con đã dùng phương pháp tiêm thuốc có nguy cơ bị lại khôngạ? Rất mong bác sĩ tư vấn, cảm ơn bác sĩ! Nguyễn Thị Hoa(1998) Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Chửa ngoài dạ con đã dùng phương pháp tiêm thuốc có nguy cơ bị lại không?” như sau: Chửa ngoài tử cung là tình trạng thai không làm tổ trong buồng tử cung mà lại nằm ở bên ngoài. Các vị trí thai ngoài tử cung có thể làm tổ bao gồm: Vòi tử cung (đây là trường hợp thai ngoài tử cung hay gặp nhất chiếm 95%, buồng trứng, cổ tử cung, ổ bụng. Các phương pháp điều trị chửa ngoài tử cung bao gồm: Theo dõi, điều trị nội khoa bằng thuốc hoặc phẫu thuật. Đối tượng nguy cơ bị thai ngoài tử cung cao là những người: Tiền sử thai ngoài tử cung, tiền sử phẫu thuật ống dẫn trứng, phẫu thuật vùng bụng, viêm nhiễm vùng chậu, viêm vòi trứng, một số bệnh lây nhiễm qua đường tình dục như chlamydia, lậu... Tỉ lệ bị thai ngoài tử cung ở những người đã từng bị thai ngoài tử cung thường cao hơn những người chưa từng bị căn bệnh này. Hiện nay vẫn chưa có phương pháp nào giúp ngăn ngừa thai ngoài tử cung tái phát. Các biện pháp dự phòng bao gồm: Điều trị sớm các bệnh lý hoặc viêm nhiễm tại các bộ phận sinh sản như viêm dính vòi tử cung, các bất thường bẩm sinh trong cấu trúc của vòi tử cung, viêm nhiễm do Chlamydia, các viêm nhiễm phụ khoa... Đối với những phụ nữ đã mang thai lại sau thai ngoài tử cung cần đi khám sức khỏe định kỳ để xác định chính xác vị trí khối thai và các bất thường khác (nếu có).  Được giải đáp bởiBác sĩ nội trú, Thạc sĩ Nguyễn Thị Tâm Lý -Bác sĩ lâm sàng - Khoa Sản - Bệnh viện Đa khoa Quốc tế Vinmec Times city",
+            "score": 0.6430562734603882,
+            "id": "medical_vietnamese_qa_3604",
+            "rerank_score": 0.9873392581939697,
+            "weighted_score": 0.939959716796875
+        },
+        {
+            "text": "Câu hỏi: bác sĩ ơi cho em hỏi cách tránh thai khi quan hệ hiệu quả nhất và an toàn nhất là dùng biện pháp nào vậy bác sĩ mong bác sĩ trả lời giúp em\nTrả lời: Chào bạn. Phải căn cứ vào rất nhiều yếu tố để quyết định biện pháp tránh thai phù hợp như tần suất quan hệ, dị ứng thuốc, dị ứng cao su, tiền sử bệnh, công việc... Biện pháp tiện lợi , ít tác dụng phụ nhất là sử dụng bao cao su bạn nhé. Thân mến.",
+            "score": 0.5974411964416504,
+            "id": "vietnamese_medical_qa_5036",
+            "rerank_score": 0.9167317748069763,
+            "weighted_score": 0.9784607768058777
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ.\nLàm sao quan hệ không dùng bao cao su ma khong có bầu. Có những biện pháp nào ạ.\nTrả lời: Chào bạn, \nNgoài biện pháp dùng bao cao su còn có các biện pháp tránh thai như: \n- Dùng thuốc tránh thai hàng ngày hoặc thuốc tránh thai khẩn cấp.\n- Tính ngày rụng trứng để quan hệ.\n- Tiêm thuốc tránh thai 3 tháng 1 lần.\n- Đặt miếng ghép tránh thai.\n- Đặt vòng (dùng cho người đã có gia đình và có đủ con)\n- Thắt ống dẫn tinh ở nam giới và thắt vòi trứng ở nữ giới ( dùng cho người đã có gia đình và có đủ con)\nBạn có thể tham khảo và lựa chọn biện pháp phù hợp.\nThân mến!",
+            "score": 0.6705132722854614,
+            "id": "vietnamese_medical_qa_8737",
+            "rerank_score": 0.9910741448402405,
+            "weighted_score": 0.9644327282905578
+        },
+        {
+            "text": "Câu hỏi: Phương pháp rào chắn\nTrả lời: 6. Phương pháp rào chắn\nCác phương pháp tránh thai như rào chắn cơ hoành, nắp cổ tử cung, hoặc bao cao su nam/nữ có thể giúp ngăn chặn không cho tinh trùng xâm nhập vào tử cung của người phụ nữ. Tuy nhiên, độ tin cậy của những phương pháp này thấp hơn so với các phương pháp ngừa thai bằng nội tiết tố. Và tình trạng này vẫn có thể xảy ra, đó là xác suất có thai khi dùng bao cao su. Ví dụ, bao cao su nam có hiệu quả sử dụng 98% với việc sử dụng đúng quy cách, nhưng nếu thực hiện sai thì hiệu quả chỉ còn 82%. Điều đó có nghĩa là 18 phụ nữ thường xuyên sử dụng bao cao su với bạn tình của họ có thể mang thai trong vòng một năm, nếu gặp các trường hợp như bao cao su bị rách hoặc đặt bao cao su không đúng cách. Tuy nhiên, phương pháp này sẽ hoạt động tốt hơn nếu kết hợp với chất diệt tinh trùng - đây là một loại hóa chất kiểm soát sinh sản với tác dụng ngăn không cho tinh trùng gặp trứng.",
+            "score": 0.618613064289093,
+            "id": "vietnamese_healthcare_23679",
+            "rerank_score": 0.9714566469192505,
+            "weighted_score": 0.926965069770813
+        },
+        {
+            "text": "Câu hỏi: em vừađiều trị thai ngoài tử cungbằng cách tiêm thuốc được 5 tuần, bây giờ em muốnđặt vòng tránh thaicó được không ạ? T.N (1994) Trả lời\nTrả lời: Chào bạn, đặt vòng (dụng cụ tử cung) tránh thai là một trong những phương pháp tránh thai tạm thời, thường được dùng rộng rãi ở Việt Nam. Một số trường hợp chống chỉ định tương đối với đặt dụng cụ tử cung trong đó có trường hợp của bạn (tiền sử chửa ngoài tử cung). Bạn nên đến cơ sở y tế để được các bác sĩ khám và tư vấn cho bạnphương pháp tránh thaiphù hợp. Bác sĩ CKII Lại Thị Nguyệt Hằng- Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long",
+            "score": 0.5574583411216736,
+            "id": "medical_vietnamese_qa_4246",
+            "rerank_score": 0.9125598669052124,
+            "weighted_score": 0.9477498292922973
+        }
+    ],
+    "llm_call": 7,
+    "iteration": 3
+}

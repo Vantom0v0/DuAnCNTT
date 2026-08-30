@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?",
+    "ground_truth": "Đau đầu do rất nhiều nguyên nhân, có thể do căng thẳng stress, lo lắng việc gì đó hoặc do thiếu máu, bệnh lý vùng mắt và tai. . . Vì vậy em cần khám bác sĩ chuyên khoa Thần kinh để tìm nguyên nhân đau đầu và điều trị em nhé.",
+    "answer": "Dựa trên thông tin được cung cấp, **chưa đủ cơ sở để xác định bạn mắc bệnh lý cụ thể nào**. Ở người trẻ, đau đầu kéo dài và không thay đổi tính chất, nếu không có dấu hiệu gợi ý nguy hiểm, thường gặp nhất là **đau đầu do căng cơ** hoặc **đau nửa đầu Migraine**. Tình trạng ngủ hay mơ và thức dậy khó chịu chưa đủ để kết luận nguyên nhân.\n\nBạn nên đi khám để bác sĩ hỏi bệnh, thăm khám và xác định nguyên nhân, từ đó có hướng điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ! Em năm nay 30 tuổi, vài năm nay em hay bị đau đầu, đêm ngủ hay mơ, thức dậy rất khó chịu. Bác sĩ cho em hỏi đó là dấu hiệu của bệnh lý gì ạ?\nTrả lời: Chào bạn,\nVới câu hỏi \"Hay đau đầu, ngủ mơ, thức dậy khó chịu là dấu hiệu bệnh lý gì?\", bác sĩ xin giải đáp như sau:\nĐau đầu xảy ra ở người trẻ, nếu kéo dài, không có các yếu tố gợi ý nguy hiểm và và không thay đổi tính chất thì thường gặp nhất là đau đầu căng cơ và đau đầu Migraine. Tuy nhiên, thông tin bạn cung cấp không đủ để bác sĩ xác định loại đau đầu và nguyên nhân đau đầu. Bạn nên đi khám để bác sĩ thăm khám, chẩn đoán và điều trị phù hợp nhé.\nTrân trọng,",
+            "score": 0.7812679409980774,
+            "id": "vietnamese_medical_qa_4088",
+            "rerank_score": 0.999940037727356
+        },
+        {
+            "text": "Câu hỏi: Đau đầu, choáng váng khi ngủ dậy là dấu hiệu của bệnh gì?\nTrả lời: Đau đầu có thể là dấu hiệu của nhiều vấn đề sức khỏe nghiêm trọng mà bạn cần phải thận trọng. Đây cũng có thể là dấu hiệu của các bệnh lý như:Huyết áp cao: Khi cơ thể mắc bệnh huyết áp cao, máu sẽ gây áp lực lớn lên đầu sẽ dẫn đến tình trạng sáng ngủ dậy bị đau đầu.Trầm cảm: Bởi nồng độ hormone serotonin thấp, trầm cảm là nguyên nhân gây rối loạn giấc ngủ khiến cho bạn gặp phải tình trạng ngủ dậy đau đầu và những cơn đau đầu do trầm cảm gây ra có thể xảy ra bất cứ lúc nào trong ngày.Thiếu máu não: Nếu những trường hợp trên không phải là nguyên nhân khiến bạn mất ngủ và ngủ dậy nhức đầu, rất có thể bạn đang bị thiếu máu não. Khi bị thiếu máu não, ngoài đau đầu bạn còn có hiện tượng chóng mặt đi kèm, nhất là khi thay đổi tư thế, khó ngủ vào ban đêm thay vào đó là ngủ ngày, ù tai, lãng tai, mờ mắt thì khả năng cao.Vì vậy, bạn cần đưa mẹ đi thăm khám bác sĩ chuyên khoa để chẩn đoán bệnh và có biện pháp điều trị cụ thể.",
+            "score": 0.5835000276565552,
+            "id": "vietnamese_healthcare_2730",
+            "rerank_score": 0.9703758358955383
+        },
+        {
+            "text": "Câu hỏi: Nhức đầu hoặc đau nửa đầu là dấu hiệu của bệnh lý gì?\nTrả lời: Theo mô tả của chị là chị hay bị đau nửa đầu. Bệnh lý đau nửa đầu hay còn gọi là bệnh đau nửa đầu Migraine sẽ khiến người bệnh thấy đau nửa đầu không cố định hoặc đôi lúc đau cả hai bên, kèm theo các triệu chứng mạch đập. Tình trạng đau nửa đầu, người bệnh sẽ có các biểu hiện về thị giác bị nhòe, ruồi bay, buồn nôn, mạch đập ở vùng thái dương. Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc đau dữ dội, cơn đau tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, sợ ánh sáng, sợ tiếng động, căng thẳng. Nguyên nhân thường là do các dây thần kinh não bị rối loạn, mạch máu não nửa đầu đau bị co giãn một cách bất thường, gây các cơn đau đột ngột và âm ỉ ở nửa đầu. Cơn đau đầu dữ dội xuất hiện khi các chất dẫn truyền Serotonin bị phóng thích, đào thải đột ngột và gặp các yếu tố kích thích như mất ngủ, sử dụng chất kích thích, stress, thay đổi hormone. . . Do nội tiết tố biến động thay đổi ở phụ nữ trong độ tuổi 30-50 thường hay đối mặt với các căng thẳng. . . Do di truyền từ cha mẹ sang con. . . . Với tình trạng đau nửa đầu, đa số người bệnh đều bị đau nửa đầu bên trái. Tình trạng đau kéo dài, thường xuyên dễ bị chẩn đoán nguyên nhân đau đầu do viêm xoang và có thể dẫn đến điều trị không đúng bệnh. Người bị cơn đau nửa đầu trái hành hạ để lâu sẽ gây ra các hậu quả nguy hiểm cho sức khỏe như suy giảm trí nhớ, khó tập trung, trầm cảm thậm chí là đột quỵ. Một số trường hợp còn có biến chứng: suy thoái võng mạc, mất thị lực và mù vĩnh viễn, . . . Nếu không được điều trị sớm thì Migraine đau nửa đầu còn gây ra biến chứng mãn tính, gây nhồi máu não, co giật ở người bệnh Migraine. Để hiểu rõ hơn về tình trạng bệnh của mình, chị nên đến cơ sở y tế gặp bác sĩ chuyên khoa nội thần kinh giàu kinh nghiệm để được tư vấn, thăm khám và điều trị kịp thời.",
+            "score": 0.600999653339386,
+            "id": "vietnamese_healthcare_9121",
+            "rerank_score": 0.897585391998291
+        },
+        {
+            "text": "Câu hỏi: Em bị triệu chứng buồn ngủ nhiều trong thời gian dài, cơ thể mệt mỏi, nhiều khi còn đau đầu, chán ăn, nếu cố ăn sẽ nôn ra hết. Vậy bác sĩ cho em hỏibuồn ngủ nhiều, chán ăn kèm nôn là bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn ngủ nhiều, đau đầu là triệu chứng thần kinh bất thường có thể gặp trong nhiều bệnh lý như tổn thương thần kinh trung ương, bệnh lý nội khoa,... Đôi khi cũng có thể là hậu quả của suy nhược cơ thể trong một thời gian dài. Vì vậy, bạn nên đi khám bệnh để bác sĩ khám, làm xét nghiệm để tìm nguyên nhân càng sớm càng tốt. Tùy tình huống cụ thể bác sĩ sẽ cho xét nghiệm máu, chụp sọ não hoặc các xét nghiệm khác.",
+            "score": 0.5938516855239868,
+            "id": "medical_vietnamese_qa_8352",
+            "rerank_score": 0.5772626996040344
+        },
+        {
+            "text": "Câu hỏi: Đau đầu, suy nghĩ nhiều, lo âu là dấu hiệu của bệnh gì?\nTrả lời: Theo như triệu chứng em mô tả thì tôi chẩn đoán đây là bệnh lý rối loạn lo âu - đau đầu - căng cơ. Đây là một trong những dạng rối loạn tâm lý phổ biến. Người bệnh thường có cảm giác lo lắng quá mức đối với một tình huống hoặc sự việc, thậm chí có thể lo lắng rất vô lý. Nếu tình trạng này kéo dài và lặp lại nhiều lần có thể ảnh hưởng đến cuộc sống của bệnh nhân. Do đó, để đảm bảo sức khỏe cũng như chất lượng cuộc sống thì em nên đến khám chuyên khoa sức khỏe tâm thần và Nội Thần kinh để có hướng điều trị cụ thể.",
+            "score": 0.6141700148582458,
+            "id": "vietnamese_healthcare_7149",
+            "rerank_score": 0.544772744178772
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

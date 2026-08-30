@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Xin chào bác sĩ,tôi và chồng có 1 lần không sử dụng thuốc tránh thai hay bao cao su nhưng lần đó chồng tôi ra ngoài không vào trong tôi.Tháng sau tôi bị chậm kinh 1 tuần rồi sau đó có kinh bình thường.Vậy tôi có thai không?",
+    "ground_truth": "Chào bạn\nTrong mọi trường hợp đã quan hệ là có khả năng có thai dù đã sử dụng biện pháp nào đi chăng nữa vì ko biện pháp nào đạt hiểu quả 100%. Hơn nữa xuất tinh ngoài âm đạo là biện pháp ít hiệu quả nhất. Tuy nhiên trong trường hợp của bạn khả năng có thai là thấp hoặc đã có thai nhưng có thể sảy tự nhiên vì bạn đã có kinh bình thường. Bạn có thể đi khám để đảm bảo sức khỏe tốt hơn\nThân mến",
+    "answer": "Chào bạn, xuất tinh ngoài không phải là biện pháp tránh thai an toàn vì dịch trước xuất tinh vẫn có thể chứa tinh trùng, nên vẫn có khả năng mang thai. Tuy nhiên, nếu sau lần quan hệ đó bạn đã có một kỳ kinh với lượng và thời gian bình thường thì khả năng có thai là rất thấp. Để yên tâm, bạn có thể thử que thử thai nếu đã quan hệ trên 14 ngày hoặc làm xét nghiệm máu beta-hCG; nếu kinh tiếp tục rối loạn hoặc có đau bụng, ra máu bất thường, hãy khám sản phụ khoa.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cháu và bạn gái có quan hệ tình dục, là lần đầu của bạn gái. Cháu có sử dụng bao cao su và xuất tinh. Sau đó, cháu có kiểm tra lại là bao cao su không bị thủng nhưng đến nay, bạn gái cháu bị trễ kinh và hôm trước bạn gái có bảo là đi vệ sinh thấy máu (nhạt hơn bình thường) nên chắc là gần đến ngày rồi nhưng đến nay vẫn chưa đến ngày. Cháu có tìm hiểu một vài dấu hiệu mang thai. Vậy bác sĩ cho cháu hỏichậm kinh kèm ra máu màu nhạt có phải mang thai?Cháu xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Việc sử dụng bao cao su cần đúng cách: Dùng từ đầu đến cuối cuộc giao hợp, cách đi bao cao su đúng để tránh trào tinh dịch ra. Nếu không được sử dụng đúng, hiệu quả tránh thai của bao cao su không cao. Nếu bạn gái tiền sử kinh nguyệt đều,triệu chứng trễ kinh, ra máu báo có thể làdấu hiệu có thai. Sau ngày quan hệ trên 14 ngày, người yêu bạn có thể test nhanh thử thai hoặc nếu lo lắng bạn có thể đưa bạn gái đi khám ngay tại các cơ sở y tế Sản phụ khoa để siêu âm và xét nghiệm máu giúp xác định chính xác tình trạng có thai.",
+            "score": 0.7733308672904968,
+            "id": "medical_vietnamese_qa_1796"
+        },
+        {
+            "text": "Câu hỏi: Chuyện là tầm 13/5, cháu với bạn trai cóquan hệ xuất ngoài. Cháu bịtrễ kinh. Ngày 14/6, cháu thử que thì 1 vạch, đến 16/6 cháu thử lần 2 thì cũng 1 vạch, 23/6 thì cháu có kinh được 4 ngày nhưng kinh ra ít hơn những lần trước. Mà tháng 7 vừa rồi thì cháu không có kinh. Vậy bác sĩ cho cháu hỏichậm kinh sau quan hệ xuất tinh ngoài có mang thai không?Có phải cháu có thai không thưa bác sĩ? Cháucảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Xuất tinh ngoài là biện pháp tránh thai có độ an toàn rất thấp, bên cạnh đó test thử thai là loại test nhanh, độ chính xác không cao. Với trường hợp của bạn có rối loạn kinh nguyệt như vậy có thể do có thai (thai trong buồng tử cung hoặc chửa ngoài tử cung) hoặc do rối loạn nội tiết. Để loại trừ có thai, bạn cần được xét nghiệm máu thửnồng độ beta HCGmới cho kết quả chính xác, bạn cũng cần được siêu âm để tìm nguyên nhân rối loạn kinh nguyệt. Theo bác sĩ, bạn nên đi khám sớm tại các cơ sở y tế có chuyên khoa phụ sản để được chẩn đoán sớm và điều trị thích hợp.",
+            "score": 0.7531629800796509,
+            "id": "medical_vietnamese_qa_2481"
+        },
+        {
+            "text": "Câu hỏi: Thưa bác sĩ. Đây là lần đầu tôi quan hệ, để tránh tinh trùng vào trong tôi đã xuất tinh ra ngoài âm đạo, sau đó lại tiếp tục quan hệ lần thứ hai cũng xuất tinh ra ngoài. Xin hỏi bác sĩ liệu có thể xảy ra trường hợp mang ngoài ý muốn không ạ? Cảm ơn bác sĩ đã tư vấn.\nChào bác sĩ, em năm nay 20 tuổi. Chu kỳ kinh nguyệt của em thường là 32 ngày. Tháng trước em có kinh nguyệt vào ngày 20 đến ngày 03 tháng sau em có quan hệ, có dùng bao cao su nhưng vẫn uống thuốc cho chắc. Và đến ngày 18 em có quan hệ không dùng nhưng xuất tinh ngoài. Thưa bác sĩ liệu xác xuất có thai của em là bao nhiêu % ạ. Eem cảm ơn.\nTrả lời: Chào bạn. Xuất tinh ngoài âm đạo không phải là một phương pháp tránh thai thật sự an toàn mà ngược lại, với phương pháp truyền thống này, khả năng mang thai ngoài ý muốn là rất cao.\nCách tránh thai an toàn và hiệu quả nhất chính là sử dụng bao cao su khi quan hệ tình dục. Phương pháp này có thể giảm thiểu nguy cơ mang thai đến 98% cũng như hạn chế tối đa các bệnh lây lan qua đường tình dục.\nCảm ơn bạn đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Chúc bạn có sức khỏe tốt.",
+            "score": 0.7390691041946411,
+            "id": "vietnamese_medical_qa_2886"
+        },
+        {
+            "text": "Câu hỏi: Em và bạn trai có quan hệ không dùng biện pháp tránh thai, xuất tinh ngoài. Chu kỳ 28 ngày, quan hệ ngày thứ 9 của chu kỳ, tính từ ngày có kinh. Hiện tại đang trễ kinh 6 ngày. Xin cho hỏi e có thể mang thai không?\nTrả lời: Tỷ lệ thành công của biện pháp tránh thai bằng xuất tinh ngoài hay tính ngày an toàn trong chu kỳ kinh không đảm bảo tuyệt đối, chỉ lên đến 80% tùy từng trường hợp. Xác xuất bạn có thai tuy thấp nhưng vẫn có thể có.",
+            "score": 0.7180266380310059,
+            "id": "vietnamese_healthcare_5452"
+        },
+        {
+            "text": "Câu hỏi: Em với người yêu em quan hệ lần đầu trước ngày kinh của em 4 ngày và có dùng bao cao su. Nhưng bây giờ, emchậm kinh hơn 5 ngày có khả năng mang thai khôngạ? Tháng trước em bị trễ kinh gần nửa tháng nên tháng này trễ nên em hơi lo. Mong bác sĩ giải đáp thắc mắc của em ạ. Em xin cảm ơn Kiều Xuân Diệu Anh(2000) Trả lời Được giải đáp bởiBác sĩ Nguyễn Thị Tâm Lý -Bác sĩ lâm sàng - Trung tâm Hỗ trợ sinh sản - Bệnh viện Đa khoa Quốc tế Vinmec Times City\nTrả lời: bác sĩ xin giải đáp như sau: Bao cao su là biện pháp tránh thai dễ sử dụng, không cần dùng thuốc, hiệu quả cao và có tác dụng phòng tránh các bệnh lây truyền qua đường tình dục. Tuy nhiên, có một số lưu ý khi sử dụng bao cao su để đạt hiệu quả tránh thai cao nhất: Luôn đeo bao cao su trước khi bắt đầu quan hệ tình dục. Kiểm tra bao bì và hạn sử dụng của bao cao su cẩn thận trước khi mang. Luôn chắc chắn bao không rách hay hỏng. Đeo bao cao su đúng cách để tránh rách hoặc thủng bao cao su trong khi quan hệ. Nếu sử dụng đúng cách, tỉ lệ tránh thai của bao cao su là 95-98%. Trong trường hợp này thì khả năng có thai của bạn là thấp nhưng để xác định chính xác có thai hay không tại thời điểm này bạn cần thử que hoặc làm xét nghiệm máu định lượng beta hCG nhé.",
+            "score": 0.7054523229598999,
+            "id": "medical_vietnamese_qa_2969"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

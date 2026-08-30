@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tôi 48 tuổi hiện tại đang bị cao huyết áp 140/90mmHg và bị rối loạn tuần hoàn máu não đã 3 năm. Tôi sử dụng thuốc mỗi ngày. Ngoài ra, tôi không có bệnh lý gì khác. Bác sĩ tư vấn giúp tôi có thể tiêm vaccine ngừa Covid-19 được không?",
+    "ground_truth": "Anh bị cao huyết áp với 140/90mmHg và bị rối loạn tuần hoàn đa 3 năm vẫn đang sử dụng thuốc mỗi ngày, trong vòng 3 tháng gần đây tình trạng bệnh của anh không có tiến triển thêm thì anh vẫn tiêm được vaccine Covid-19.",
+    "answer": "Theo tài liệu, người mắc bệnh mạn tính như tăng huyết áp hoặc rối loạn tuần hoàn/thiếu máu não nếu tình trạng đã ổn định, không đang tiến triển và không phải thay đổi điều trị gần đây thì có thể tiêm vaccine Covid-19 tại bệnh viện hoặc cơ sở y tế đủ năng lực cấp cứu. Tuy nhiên, thông tin bạn cung cấp chưa cho biết bệnh đã ổn định hay chưa và huyết áp 140/90 mmHg có được kiểm soát ổn định không; nếu bệnh hoặc huyết áp chưa ổn định thì cần hoãn tiêm. Bạn nên được khám và đánh giá trực tiếp trước tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi đã cắt toàn bộ tuyến giáp từ 2017, phải uống thuốc hàng ngày. Hai năm nay tôi bị rối loạn tuyến giáp, rối loạn chức năng chuyển hoá, đến nay các chỉ số tuyến giáp đã ổn định nhưng vẫn điều trị mỡ máu cao. Vậy tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Thứ nhất, bệnh lý tuyến giáp của chị đã được phẫu thuật, điều trị ổn định. Thứ hai, chị đang có rối loạn chuyển hóa mỡ máu.",
+            "score": 0.6462872624397278,
+            "id": "vietnamese_healthcare_2144"
+        },
+        {
+            "text": "Câu hỏi: tôi là nữ 64 tuổi, có bệnh tăng huyết áp độ 1, rối loạn nhịp tim nhịp nhỉ nhanh, rối loạn mỡ máu, suy van tĩnh mạch (đang uống thuốc lâu dài trong đó có thuốc phòng ngừa huyết khối, thuốc ổn định nhịp tim, tình trạng bệnh ổn định) ngoài ra còn bị trào ngược thực quản thỉnh thoảng uống 1 đợt thuốc thì giảm và ngừng thuốc. Tình trạng tôi như vậy chích vaccine có được không? Có ảnh hưởng gì đến sức khỏe hay bị đông máu không? Và nên chích loại vaccine nào thì tốt nhất?\nTrả lời: Bác chưa nêu rõ thông tin cụ thể, do đó chúng tôi cần thêm thông tin cụ thể tình trạng dùng thuốc của bạn, liều dùng như nào, đơn thuốc điều trị các bệnh lý mạn tính trong vòng 3 tháng nay ra sao mới thể có nhận định phù hợp để tư vấn cho bác.",
+            "score": 0.6266281008720398,
+            "id": "vietnamese_healthcare_8661"
+        },
+        {
+            "text": "Câu hỏi: Ttôi năm nay 47 tuổi, bị rối loạn tiền đình, thiếu máu não, xin cho hỏi tôi có nên tiêm vaccine không?\nTrả lời: Theo như thông tin hướng dẫn của Bộ Y tế, bệnh lý mạn tính đã điều trị ổn định vẫn có thể tiêm vaccine Covid-19. Nếu như tình trạng rối loạn tiền đình, thiếu máu não, ù não của chị được điều trị ổn định, các chỉ số về mạch, huyết áp trong giới hạn bình thường vẫn có thể được tiêm vaccine Covid-19 tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.6159626245498657,
+            "id": "vietnamese_healthcare_3569"
+        },
+        {
+            "text": "Câu hỏi: Tôi 63 tuổi, cách đây 6 năm tôi bị tai biến phải phẫu thuật, đặt ống dẫn lưu từ não xuống ổ bụng, sau đó bình phục gần như hoàn toàn. Hiện nay còn hiện tượng rối loạn giấc ngủ nhưng huyết áp khá ổn định, tim mạch bình thường. Vậy xin hỏi vợ tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Nếu tình trạng sức khỏe của anh ổn định, không phải thay đổi điều trị trong vòng 3 tháng, các chỉ số sức khỏe ở mức bình thường, anh có thể tiêm vaccine Covid-19 bình thường.",
+            "score": 0.6060786843299866,
+            "id": "vietnamese_healthcare_6506"
+        },
+        {
+            "text": "Câu hỏi: Tôi hiện đang điều trị bệnh tiền đình, thần kinh rối loạn giấc ngủ, âu lo, huyết áp cao. Vậy tôi có tiêm vaccine phòng Covid-19 được không?\nTrả lời: Nếu bệnh tiền định, huyết áp cao… của anh/chị chưa ổn định, còn đang tiến triển thì cần hoãn tiêm chủng.",
+            "score": 0.6019683480262756,
+            "id": "vietnamese_healthcare_8727"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

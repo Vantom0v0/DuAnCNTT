@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Mình bị bệnh viêm mũi dị ứng vậy cho mình hỏiviêm mũi dị ứng điều trị dứt điểm được không?Cảm ơn bác sĩ tư vấn.",
+    "ground_truth": "Chào bạn, Với câu hỏi “Viêm mũi dị ứng điều trị dứt điểm được không?”, bác sĩ giải đáp như sau: Viêm mũi dị ứng là tình trạng viêm vùng mũi do cơ thể phản ứng quá mức với các dị nguyên (tác nhân gây dị ứng) như bụi, phấn hoa, lông chó mèo,... với các biểu hiện như: hắt hơi liên tục; sổ mũi; nghẹt mũi, ngứa mũi, mắt, cổ họng,... Đa số các trường hợp viêm mũi dị ứng là tình trạng mạn tính, do đó nguyên tắc điều trị viêm mũi dị ứng không phải là điều trị dứt điểm hoàn toàn bệnh mà chủ yếu là kiểm soát tốt và ngừa các triệu chứng tái phát, giúp người bệnh sống và làm việc bình thường. Tùy theo mức độ và tần suất xuất hiện các triệu chứng mà có các phương pháp điều trị khác nhau như: hạn chế tiếp xúc với các tác nhân dị ứng, vệ sinh mũi thường xuyên bằng nước muối sinh lý, các thuốc xịt mũi chứa corticoid, thuốc kháng dị ứng, liệu pháp miễn dịch dị ứng,... Do đó để điều trị viêm mũi dị ứng đạt hiệu quả, bạn nên đến khám tại phòng khám Tai mũi họng để bác sĩ đánh giá mức độ viêm mũi dị ứng và tư vấn phương pháp, thời gian điều trị phù hợp.",
+    "answer": "Viêm mũi dị ứng thường không có phương pháp điều trị dứt điểm, nhưng có thể kiểm soát và giảm triệu chứng. Bạn nên xác định nguyên nhân gây dị ứng và tránh tiếp xúc với tác nhân đó để giảm tình trạng tái phát. Tuy nhiên, tài liệu chưa cung cấp thông tin cụ thể về phương pháp điều trị viêm mũi dị ứng, vì vậy bạn nên đi khám bác sĩ chuyên khoa tai mũi họng để được tư vấn phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Viêm đại tràng mãn tính có thể điều trị dứt điểm bằng thuốc không?\nTrả lời: Không biết mẹ bạn cháu được chẩn đoán viêm đại tràng mãn tính là như thế nào?Tổn thương trên nội soi đại tràng ra sao?Thường viêm đại tràng sẽ được điều trị bằng thuốc, không phải mổ, tùy tổn thương mới biết điều trị bao lâu cháu nhé.",
+            "score": 0.7013657093048096,
+            "id": "vietnamese_healthcare_481"
+        },
+        {
+            "text": "Câu hỏi: . Con em thường xuyên nổi mẩn ngứa. Đi khám bác sĩ nói bị viêm da dị ứng ở trẻ. Xin hỏi bác sĩbệnh viêm da dị ứng ở trẻ có chữa dứt điểm được không? Vàđiều trị bệnh viêm da dị ứngbằng cách nào cho khỏi và dứt điểm ạ?Xin cảm ơn bác sĩ. Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn, xin giải đáp câu hỏi: “Bệnh viêm da dị ứng ở trẻ có chữa dứt điểm được không?”của bạn như sau: Cho hỏi con bạn bao nhiêu tuổi rồi? Triệu chứng viêm da cụ thể của bé như thế nào? Bạn cần cung cấp thêm thông tin cụ thể hơn về triệu chứng của bé để được tư vấn cụ thể hơn. Điều trị bệnh viêm da dị ứng là sự phối hợp giữa việc dùng thuốc, chăm sóc da và thay đổi lối sống. Tuy nhiên, không có phương phápđiều trị bệnh viêm da dị ứngmột cách triệt để nhưng có thể điều trị để làm giảm các triệu chứng như: Ngăn cho bệnh diễn tiến xấu đi hoặc bùng phát bệnh; Giảm đau, giảm ngứa; Giảm cảm giác khó chịu hay yếu tố nguy cơ gây ra; Ngăn nhiễm trùng; Giúp da không bị dày lên. Bạn có thể tham khảo thêm trong bài viết: “Các dạng viêm da dị ứng ở trẻ nhỏ”. Tốt nhất bạn nên đưa con đến các cơ sở Y tế hoặc bệnh viện thuộcHệ thống Y tế Vinmecđể được bác sĩ chuyên môn kiểm tra sức khỏe và tư vấn chi tiết hơn. Cảm ơn bạn đã gửi câu hỏi đến Vinmec. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.6680513620376587,
+            "id": "medical_vietnamese_qa_7409"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Tôi bị đau mắt đỏ năm 2012. Sau đó để lại di chứng viêm giác mạc đốm. Xin hỏi bác sĩ mắc chứng viêm giác mạc đốm có chữa được không? Cảm ơn bác sĩ đã tư vấn giúp tôi.\nTrả lời: Rất mong có thể gặp được em và trao đổi thêm. Cảm ơn em đã tin tưởng và chia sẻ câu hỏi “Mắc viêm giác mạc đốm có chữa được không?” tới AI-Doctor. Thân ái",
+            "score": 0.6669601202011108,
+            "id": "vietnamese_medical_qa_2274"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nMắt em bị viêm giác mạc dị ứng hay tái lại. Bác sĩ cho em hỏi viêm giác mạc dị ứng hay tái lại có điều trị dứt điểm không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn đã được chẩn đoán viêm do dị ứng thì không thể điều trị dứt điểm được, tuy nhiên bạn cần xác định nguyên nhân gây dị ứng để tránh tiếp xúc sẽ giảm được tần suất viêm.\nTrân trọng!",
+            "score": 0.6591564416885376,
+            "id": "vietnamese_medical_qa_160"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi có cách nào để trị dứt điểm ngáy khi ngủ không? Em ngủ ngáy rất to, đặc biệt lúc gần sáng 5h. Em đã đổi tư thế ngủ, kê gối cao, giảm cân nhưng vẫn ngáy hàng ngày. Mong bác sĩ tư vấn, em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có tình trạng ngủ ngáy và đã làm các biện pháp khắc phục nhưng không đỡ. Ngoài các biện pháp bạn đã thực hiện, bạn cần đăng ký khám để bác sĩ xem có bệnh lý gì về tai mũi họng không, đo đa ký giấc ngủ xem có hội chứng ngưng thở khi ngủ không,... Từ đó, bác sĩ sẽ cho bạn lời khuyên và điều trị phù hợp.\nTrân trọng!",
+            "score": 0.636039674282074,
+            "id": "vietnamese_medical_qa_596"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

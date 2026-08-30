@@ -1,0 +1,117 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Người thân em bị u nang bàng quang. Cứ tiểu ra máu, 6 năm trước đi bệnh viện, bác sĩ chỉ định phẫu thuật, nhưng chị ấy không chịu, giờ cứ bị hoài vậy luôn. Bác sĩ cho em hỏinữ giới bị u nang bàng quang tiểu ra máu điều trị được không? Thạch Sa Na(1981) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Ngọc Thắng- Trung tâm Tiêu hóa - Gan mật - Tiết niệu, Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+    "ground_truth": "Chào bạn, Với câu hỏi “Nữ giới bị u nang bàng quang tiểu ra máu điều trị được không?”, xin được giải đáp như sau: Nếu chị của bạn bị tiểu ra máu, bạn cần phải đưa đến bệnh viện càng sớm càng tốt để các bác sĩ thăm khám và loại trừ các bệnh lý ác tính của hệ tiết niệu từ đó mới có thể tư vấn điều trị một cách cụ thể.",
+    "answer": "Nữ giới bị u bàng quang có thể được điều trị, nhưng cần được bác sĩ chuyên khoa Tiết niệu thăm khám để xác định chính xác nguyên nhân và hướng xử trí. Tiểu ra máu là triệu chứng điển hình của u bàng quang, có thể tự hết rồi tái phát; tuy nhiên cũng có thể gặp trong nhiễm trùng, viêm hoặc sỏi đường tiết niệu. Vì tình trạng của chị đã kéo dài và tái diễn nhiều năm, gia đình nên đưa chị đến bệnh viện càng sớm càng tốt, không nên tiếp tục trì hoãn. Bác sĩ có thể chỉ định xét nghiệm máu, nước tiểu, siêu âm và đặc biệt là nội soi bàng quang; nếu cần, sinh thiết sẽ được thực hiện để xác định tổn thương và tư vấn điều trị cụ thể.",
+    "evidence": [
+        "Trả lời: Nếu chị của bạn bị tiểu ra máu, bạn cần phải đưa đến bệnh viện càng sớm càng tốt để các bác sĩ thăm khám và loại trừ các bệnh lý ác tính của hệ tiết niệu từ đó mới có thể tư vấn điều trị một cách cụ thể.",
+        "và chỉ được sử dụng nếu tiểu máu tái phát không điều trị hết hay có nghi ngờ u trên siêu âm bạn nhé.",
+        "2.1 Triệu chứng lâm sàng của u bàng quang Các triệu chứng lâm sàng của u bàng quang thường gặp là: Tiểu ra máu: Đây là triệu chứng phổ biến và điển hình của bệnh.",
+        "Tiểu ra máu thường tự phát, sau đó có thể hết nhưng tái phát trở lại.",
+        "2.2 Các phương pháp chẩn đoán u bàng quang Nội soi bàng quang là một phương pháp giúp chẩn đoán u bàng quang Có nhiều phương pháp được áp dụng để chẩn đoán u bàng quang như: Soi bàng quang : Đây là phương pháp quan trọng được thực hiện đầu tiên đối với những bệnh nhân có dấu hiệu tiểu ra máu.",
+        "Sinh thiết: Kết hợp nội soi bàng quang và sinh thiết lấy tế bào mô để xác định u bàng quang .",
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTiểu máu là triệu chứng của bệnh lý đường tiết niệu: Thường gặp nhiễm trùng đường tiểu, viêm bàng quang niệu đạo, sỏi bàng bang, sỏi thận,...Trường hợp của bạn khả năng bị viêm bàng quang.",
+        "Tốt nhất, bạn nên đến bệnh viện khám chuyên khoa Nội hoặc Ngoại Tiết niệu, để bác sĩ chuyên khoa khám xác định bệnh điều trị, không nên để kéo dài gây ảnh hưởng đến sức khỏe , hoặc gây những biến chứng nguy hiểm.",
+        "Khi đến khám, bác sĩ sẽ khám và cần thiết có thể chỉ định bạn làm các xét nghiệm máu, nước tiểu, siêu âm, X - quang,...để đánh giá tình trạng nhiễm trùng và xác định nguyên nhân bệnh để điều trị."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Nữ giới bị u nang bàng quang tiểu ra máu điều trị được không?\nTrả lời: Nếu chị của bạn bị tiểu ra máu, bạn cần phải đưa đến bệnh viện càng sớm càng tốt để các bác sĩ thăm khám và loại trừ các bệnh lý ác tính của hệ tiết niệu từ đó mới có thể tư vấn điều trị một cách cụ thể.",
+                "score": 0.8051542043685913,
+                "id": "vietnamese_healthcare_875",
+                "rerank_score": 0.9998975992202759
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Trước tết em bị tiểu buốt ra máu sau đó tự hết. Thời gian sau tái lại rồi cũng tự hết. Em có đi xét nghiệm nước tiểu, siêu âm bàng quang không bị gì. Bác sĩ chẩn đoán em bị viêm bàng quang cấp và cho em toa thuốc uống hết đến nay. Vậy bác sĩ cho em hỏi, em có nên nội soi xem có khối u không ạ? Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Viêm bàng quang sẽ gây tiểu buốt và tiểu máu. Nếu đã siêu âm kiểm tra và uống thuốc hết thì càng khẳng định tiểu máu là do viêm bàng quang. Như vậy, bác sĩ đã chẩn đoán đúng và điều trị đúng cho em. Em không cần quá lo lắng. Bướu bàng quang có thể được chẩn đoán sớm bằng siêu âm. Nội soi bàng quang là thủ thuật xâm lấn, có biến chứng như làm hẹp niệu đạo, nhiễm trùng... và chỉ được sử dụng nếu tiểu máu tái phát không điều trị hết hay có nghi ngờ u trên siêu âm bạn nhé.",
+                "score": 0.7079048156738281,
+                "id": "vietnamese_medical_qa_3927",
+                "rerank_score": 0.9743383526802063
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nHôm trước, em có bị đi tiểu ra máu và hơi đau, sau khi xét nghiệm được chẩn đoán là viêm bàng quang. Bác sĩ khám bệnh bảo là chỉ cần uống nhiều nước là khỏi. Qua 3 hôm rồi thì em không còn đi vệ sinh ra máu nhưng mà có bị căng vùng bụng dưới và mắc tiểu nhiều lần, có lúc mắc nhưng đi không có nhiều. Vậy bác sĩ cho em hỏi mắc viêm bàng quang kèm tiểu máu có sao không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTiểu máu là triệu chứng của bệnh lý đường tiết niệu: Thường gặp nhiễm trùng đường tiểu, viêm bàng quang niệu đạo, sỏi bàng bang, sỏi thận,...Trường hợp của bạn khả năng bị viêm bàng quang.\nTốt nhất, bạn nên đến bệnh viện khám chuyên khoa Nội hoặc Ngoại Tiết niệu, để bác sĩ chuyên khoa khám xác định bệnh điều trị, không nên để kéo dài gây ảnh hưởng đến sức khỏe , hoặc gây những biến chứng nguy hiểm.\nKhi đến khám, bác sĩ sẽ khám và cần thiết có thể chỉ định bạn làm các xét nghiệm máu, nước tiểu, siêu âm, X - quang,...để đánh giá tình trạng nhiễm trùng và xác định nguyên nhân bệnh để điều trị. Bạn cũng nên nên uống nhiều nước trong ngày.\nTrân trọng!",
+                "score": 0.6780932545661926,
+                "id": "vietnamese_medical_qa_1192",
+                "rerank_score": 0.901190459728241
+            },
+            {
+                "text": "Câu hỏi: Viêm bàng quang gây tiểu máu và tiểu buốt nên nội soi không?\nTrả lời: Viêm bàng quang sẽ gây tiểu buốt và tiểu máu. Nếu đã siêu âm kiểm tra và uống thuốc hết thì càng khẳng định tiểu máu là do viêm bàng quang. Như vậy, bác sĩ đã chẩn đoán đúng và điều trị đúng cho em. Em không cần quá lo lắng. Bướu bàng quang có thể được chẩn đoán sớm bằng siêu âm. Nội soi bàng quang là thủ thuật xâm lấn, có biến chứng như làm hẹp niệu đạo, nhiễm trùng. . . và chỉ được sử dụng nếu tiểu máu tái phát không điều trị hết hay có nghi ngờ u trên siêu âm bạn nhé",
+                "score": 0.6904997825622559,
+                "id": "vietnamese_healthcare_5632",
+                "rerank_score": 0.8966483473777771
+            },
+            {
+                "text": "Câu hỏi: Chẩn đoán u bàng quang\nTrả lời: 2. Chẩn đoán u bàng quang\nChẩn đoán u bàng quang dựa vào các triệu chứng lâm sàng và sử dụng một số phương pháp chẩn đoán cận lâm sàng. 2.1 Triệu chứng lâm sàng của u bàng quang Các triệu chứng lâm sàng của u bàng quang thường gặp là: Tiểu ra máu: Đây là triệu chứng phổ biến và điển hình của bệnh. Đa phần người bệnh tiểu ra máu nhiều toàn bãi nhưng cũng có thể tiểu ra máu cuối bãi. Tiểu ra máu thường tự phát, sau đó có thể hết nhưng tái phát trở lại. Người bệnh có thể bị tiểu ra máu thoảng qua nhưng cũng có thể tiểu ra máu mức độ vi thể. Tiểu rắt, tiểu buốt: Bàng quang bị kích thích dẫn đến rối loạn tiểu tiện. Khi thấy thường xuyên tiểu rắt, tiểu buốt cần nghĩ ngay đến u bàng quang . Ngoài ra, một số triệu chứng khác có thể xuất hiện muộn như đau lưng, đau căng tức vùng hạ vị, dưới rốn, vùng bẹn bìu bị phù nề. Đa phần các trường hợp u bàng quang xuất hiện triệu chứng để thăm khám lâm sàng là đã ở giai đoạn muộn. Lúc này, bác sĩ dùng tay sờ trên bụng kết hợp thăm khám đường trực tràng hoặc âm đạo có thể phát hiện được khối u thâm nhiễm ở vùng trên của xương mu. Khi khối u di căn vào lỗ niệu quản có thể khiến thận phình to do bị ứ nước. 2.2 Các phương pháp chẩn đoán u bàng quang Nội soi bàng quang là một phương pháp giúp chẩn đoán u bàng quang Có nhiều phương pháp được áp dụng để chẩn đoán u bàng quang như: Soi bàng quang : Đây là phương pháp quan trọng được thực hiện đầu tiên đối với những bệnh nhân có dấu hiệu tiểu ra máu. Đối với nam giới, để tiến hành kỹ thuật này cần phải thực hiện gây tê tại chỗ. Phương pháp này cho phép phát hiện khối u với các đặc điểm là vị trí, số lượng, kích thước và hình thái. Chụp niệu đồ tĩnh mạch (UIV): Đây là phương pháp chẩn đoán hình ảnh cơ bản cho phép đánh giá hệ tiết niệu. Trong một số trường hợp, phương pháp này cho phép phát hiện u bàng quang ở phần cao của đường bài tiết. Siêu âm tiết niệu: Siêu âm được xem là phương pháp hiệu quả cho phép phát hiện khối u ở bàng quang với tỉ lệ chính xác cao. Siêu âm cho thấy khối u với các đặc điểm về số lượng, kích thước cũng như tình trạng thâm nhiễm. Ngoài ra, siêu âm tiết niệu cũng cho thấy các cơ quan khác như tuyến tiền liệt, bể thận, ... Hình ảnh siêu âm tiết niệu bàng quang Xét nghiệm nước tiểu : Đây là phương pháp đơn giản được thực hiện để tìm kiếm tế bào ung thư có trong nước tiểu. Dựa vào có kết quả có thể tiên lượng bệnh. Sinh thiết: Kết hợp nội soi bàng quang và sinh thiết lấy tế bào mô để xác định u bàng quang . Tuy nhiên, để thực hiện kỹ thuật này có thể cần phải gây tê vùng hoặc gây tê toàn thân và tổ chức u cần phải lấy sâu xuống bên dưới lớp cơ. Chụp cắt lớp vi tính: Phương pháp này được dùng để đánh giá sự xâm lấn hoặc di căn của khối u. Chụp xương với thuốc phóng xạ: Kết hợp với siêu âm gan, kỹ thuật này được thực hiện để kiểm tra sự di căn của khối u. Phương pháp này thường được sử dụng để đánh giá trước khi thực hiện phẫu thuật cắt toàn bộ bàng quang.",
+                "score": 0.6328747272491455,
+                "id": "vietnamese_healthcare_80913",
+                "rerank_score": 0.8698188066482544
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nữ giới bị u nang bàng quang tiểu ra máu điều trị được không?\nTrả lời: Nếu chị của bạn bị tiểu ra máu, bạn cần phải đưa đến bệnh viện càng sớm càng tốt để các bác sĩ thăm khám và loại trừ các bệnh lý ác tính của hệ tiết niệu từ đó mới có thể tư vấn điều trị một cách cụ thể.",
+                "score": 0.7560305595397949,
+                "id": "vietnamese_healthcare_875",
+                "rerank_score": 0.9998975992202759
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Trước tết em bị tiểu buốt ra máu sau đó tự hết. Thời gian sau tái lại rồi cũng tự hết. Em có đi xét nghiệm nước tiểu, siêu âm bàng quang không bị gì. Bác sĩ chẩn đoán em bị viêm bàng quang cấp và cho em toa thuốc uống hết đến nay. Vậy bác sĩ cho em hỏi, em có nên nội soi xem có khối u không ạ? Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Viêm bàng quang sẽ gây tiểu buốt và tiểu máu. Nếu đã siêu âm kiểm tra và uống thuốc hết thì càng khẳng định tiểu máu là do viêm bàng quang. Như vậy, bác sĩ đã chẩn đoán đúng và điều trị đúng cho em. Em không cần quá lo lắng. Bướu bàng quang có thể được chẩn đoán sớm bằng siêu âm. Nội soi bàng quang là thủ thuật xâm lấn, có biến chứng như làm hẹp niệu đạo, nhiễm trùng... và chỉ được sử dụng nếu tiểu máu tái phát không điều trị hết hay có nghi ngờ u trên siêu âm bạn nhé.",
+                "score": 0.7267528176307678,
+                "id": "vietnamese_medical_qa_3927",
+                "rerank_score": 0.9743383526802063
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nHôm trước, em có bị đi tiểu ra máu và hơi đau, sau khi xét nghiệm được chẩn đoán là viêm bàng quang. Bác sĩ khám bệnh bảo là chỉ cần uống nhiều nước là khỏi. Qua 3 hôm rồi thì em không còn đi vệ sinh ra máu nhưng mà có bị căng vùng bụng dưới và mắc tiểu nhiều lần, có lúc mắc nhưng đi không có nhiều. Vậy bác sĩ cho em hỏi mắc viêm bàng quang kèm tiểu máu có sao không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTiểu máu là triệu chứng của bệnh lý đường tiết niệu: Thường gặp nhiễm trùng đường tiểu, viêm bàng quang niệu đạo, sỏi bàng bang, sỏi thận,...Trường hợp của bạn khả năng bị viêm bàng quang.\nTốt nhất, bạn nên đến bệnh viện khám chuyên khoa Nội hoặc Ngoại Tiết niệu, để bác sĩ chuyên khoa khám xác định bệnh điều trị, không nên để kéo dài gây ảnh hưởng đến sức khỏe , hoặc gây những biến chứng nguy hiểm.\nKhi đến khám, bác sĩ sẽ khám và cần thiết có thể chỉ định bạn làm các xét nghiệm máu, nước tiểu, siêu âm, X - quang,...để đánh giá tình trạng nhiễm trùng và xác định nguyên nhân bệnh để điều trị. Bạn cũng nên nên uống nhiều nước trong ngày.\nTrân trọng!",
+                "score": 0.646459698677063,
+                "id": "vietnamese_medical_qa_1192",
+                "rerank_score": 0.9011905789375305
+            },
+            {
+                "text": "Câu hỏi: Viêm bàng quang gây tiểu máu và tiểu buốt nên nội soi không?\nTrả lời: Viêm bàng quang sẽ gây tiểu buốt và tiểu máu. Nếu đã siêu âm kiểm tra và uống thuốc hết thì càng khẳng định tiểu máu là do viêm bàng quang. Như vậy, bác sĩ đã chẩn đoán đúng và điều trị đúng cho em. Em không cần quá lo lắng. Bướu bàng quang có thể được chẩn đoán sớm bằng siêu âm. Nội soi bàng quang là thủ thuật xâm lấn, có biến chứng như làm hẹp niệu đạo, nhiễm trùng. . . và chỉ được sử dụng nếu tiểu máu tái phát không điều trị hết hay có nghi ngờ u trên siêu âm bạn nhé",
+                "score": 0.6657230854034424,
+                "id": "vietnamese_healthcare_5632",
+                "rerank_score": 0.8966485261917114
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBà tôi đã 85 tuổi, cách đây 4 năm bị sa bàng quang phải phẫu thuật đặt lưới. Đã từ 2 tuần nay cứ cách 1 giờ là đi tiểu. Vậy bác sĩ cho tôi hỏi bệnh sa bàng quang đã điều trị nhưng vẫn đi tiểu nhiều, vì sao? Tôi cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBà của bạn đã điều trị sa bàng quang nhưng vẫn tiểu nhiều là triệu chứng kích thích bàng quang. Bác sĩ chưa rõ sau khi đặt lưới thì tình trạng cải thiện của bà bạn như thế nào nên bác sĩ chưa thể tư vấn chính xác cho bạn được. Bạn nên cho bà đo niệu động học để đánh giá khả năng đi tiểu và trương lực của bang quang để dùng thuốc thích hợp tùy tình huống cụ thể.\nTrân trọng!",
+                "score": 0.6619685292243958,
+                "id": "vietnamese_medical_qa_3996",
+                "rerank_score": 0.8834211826324463
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nữ giới bị u nang bàng quang tiểu ra máu điều trị được không?\nTrả lời: Nếu chị của bạn bị tiểu ra máu, bạn cần phải đưa đến bệnh viện càng sớm càng tốt để các bác sĩ thăm khám và loại trừ các bệnh lý ác tính của hệ tiết niệu từ đó mới có thể tư vấn điều trị một cách cụ thể.",
+                "score": 0.7920523881912231,
+                "id": "vietnamese_healthcare_875",
+                "rerank_score": 0.9998975992202759
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Trước tết em bị tiểu buốt ra máu sau đó tự hết. Thời gian sau tái lại rồi cũng tự hết. Em có đi xét nghiệm nước tiểu, siêu âm bàng quang không bị gì. Bác sĩ chẩn đoán em bị viêm bàng quang cấp và cho em toa thuốc uống hết đến nay. Vậy bác sĩ cho em hỏi, em có nên nội soi xem có khối u không ạ? Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Viêm bàng quang sẽ gây tiểu buốt và tiểu máu. Nếu đã siêu âm kiểm tra và uống thuốc hết thì càng khẳng định tiểu máu là do viêm bàng quang. Như vậy, bác sĩ đã chẩn đoán đúng và điều trị đúng cho em. Em không cần quá lo lắng. Bướu bàng quang có thể được chẩn đoán sớm bằng siêu âm. Nội soi bàng quang là thủ thuật xâm lấn, có biến chứng như làm hẹp niệu đạo, nhiễm trùng... và chỉ được sử dụng nếu tiểu máu tái phát không điều trị hết hay có nghi ngờ u trên siêu âm bạn nhé.",
+                "score": 0.7115176916122437,
+                "id": "vietnamese_medical_qa_3927",
+                "rerank_score": 0.9743383526802063
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nHôm trước, em có bị đi tiểu ra máu và hơi đau, sau khi xét nghiệm được chẩn đoán là viêm bàng quang. Bác sĩ khám bệnh bảo là chỉ cần uống nhiều nước là khỏi. Qua 3 hôm rồi thì em không còn đi vệ sinh ra máu nhưng mà có bị căng vùng bụng dưới và mắc tiểu nhiều lần, có lúc mắc nhưng đi không có nhiều. Vậy bác sĩ cho em hỏi mắc viêm bàng quang kèm tiểu máu có sao không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTiểu máu là triệu chứng của bệnh lý đường tiết niệu: Thường gặp nhiễm trùng đường tiểu, viêm bàng quang niệu đạo, sỏi bàng bang, sỏi thận,...Trường hợp của bạn khả năng bị viêm bàng quang.\nTốt nhất, bạn nên đến bệnh viện khám chuyên khoa Nội hoặc Ngoại Tiết niệu, để bác sĩ chuyên khoa khám xác định bệnh điều trị, không nên để kéo dài gây ảnh hưởng đến sức khỏe , hoặc gây những biến chứng nguy hiểm.\nKhi đến khám, bác sĩ sẽ khám và cần thiết có thể chỉ định bạn làm các xét nghiệm máu, nước tiểu, siêu âm, X - quang,...để đánh giá tình trạng nhiễm trùng và xác định nguyên nhân bệnh để điều trị. Bạn cũng nên nên uống nhiều nước trong ngày.\nTrân trọng!",
+                "score": 0.6712525486946106,
+                "id": "vietnamese_medical_qa_1192",
+                "rerank_score": 0.9011905789375305
+            },
+            {
+                "text": "Câu hỏi: Viêm bàng quang gây tiểu máu và tiểu buốt nên nội soi không?\nTrả lời: Viêm bàng quang sẽ gây tiểu buốt và tiểu máu. Nếu đã siêu âm kiểm tra và uống thuốc hết thì càng khẳng định tiểu máu là do viêm bàng quang. Như vậy, bác sĩ đã chẩn đoán đúng và điều trị đúng cho em. Em không cần quá lo lắng. Bướu bàng quang có thể được chẩn đoán sớm bằng siêu âm. Nội soi bàng quang là thủ thuật xâm lấn, có biến chứng như làm hẹp niệu đạo, nhiễm trùng. . . và chỉ được sử dụng nếu tiểu máu tái phát không điều trị hết hay có nghi ngờ u trên siêu âm bạn nhé",
+                "score": 0.6607258319854736,
+                "id": "vietnamese_healthcare_5632",
+                "rerank_score": 0.8966485261917114
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBà tôi đã 85 tuổi, cách đây 4 năm bị sa bàng quang phải phẫu thuật đặt lưới. Đã từ 2 tuần nay cứ cách 1 giờ là đi tiểu. Vậy bác sĩ cho tôi hỏi bệnh sa bàng quang đã điều trị nhưng vẫn đi tiểu nhiều, vì sao? Tôi cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBà của bạn đã điều trị sa bàng quang nhưng vẫn tiểu nhiều là triệu chứng kích thích bàng quang. Bác sĩ chưa rõ sau khi đặt lưới thì tình trạng cải thiện của bà bạn như thế nào nên bác sĩ chưa thể tư vấn chính xác cho bạn được. Bạn nên cho bà đo niệu động học để đánh giá khả năng đi tiểu và trương lực của bang quang để dùng thuốc thích hợp tùy tình huống cụ thể.\nTrân trọng!",
+                "score": 0.6575927138328552,
+                "id": "vietnamese_medical_qa_3996",
+                "rerank_score": 0.8834211826324463
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

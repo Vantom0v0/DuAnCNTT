@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ, xin cho tôi hỏi triệu chứng bệnh viêm tiền liệt tuyến và cách điều trị. Xin cám ơn.",
+    "ground_truth": "Chào bạn . \nViêm tuyến tiền liệt chia thành 2 dạng : Viêm cấp và Viêm mạn.\n - Viêm tuyến tiền liệt cấp tính: bệnh nhân có triệu chứng tiểu nhiều lần, tiểu gấp, tiểu đau, tiểu rớt giọt hay đái dắt và có các triệu chứng bế tắc là tiểu khó, tiểu phải rặn, tiểu buốt, rát, tiểu chậm - đi tiểu nhưng không tiểu được ngay, nặng nhất là bí tiểu, kèm theo sốt. Nếu không được điều trị hoặc điều trị không dứt điểm bệnh sẽ chuyển sang giai đoạn mãn tính. \n- Viêm tuyến tiền liệt mãn tính: chủ yếu người bệnh có cảm giác khó chịu vùng bụng dưới, tinh hoàn, đau vùng dưới thắt lưng, tiểu nhiều lần, nước tiểu đục. Bệnh tiến triển chậm hơn và ít nguy hiểm hơn.\nTùy thuộc vào tình trạng bệnh sẽ có hướng điều trị khác nhau. Bạn nên đến bệnh viện để thăm khám, chuẩn đoán xác định. Từ đó sẽ có hướng điều trị phù hợp nhé. \nThân mến.",
+    "answer": "Tài liệu được cung cấp không có đủ thông tin về triệu chứng của viêm tiền liệt tuyến hoặc các phương pháp điều trị bệnh. Chỉ có một câu hỏi liên quan đến viêm tiền liệt tuyến do nhiễm khuẩn nhưng chưa có phần trả lời cụ thể, vì vậy tôi không thể cung cấp thêm thông tin chính xác dựa trên tài liệu này.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cho em hỏi viêm tuyến tiền liệt do bị nhiễm khuẩn thì có những phương pháp nào điều trị nào ạ? Cảm ơn bác sĩ đã chia sẻ thông tin giúp em.\nTrả lời: Rất mong có thể gặp bạn để trao đổi thêm về vấn đề sức khỏe hiện tại. Cảm ơn bạn đã tin tưởng gửi câu hỏi tới AI-Doctor.",
+            "score": 0.632839024066925,
+            "id": "vietnamese_medical_qa_3830"
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+            "score": 0.6097644567489624,
+            "id": "vietnamese_medical_qa_2402"
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ! Em bị bệnh lý tuyến giáp từ nhỏ, cổ bị sưng phồng và đã đi khám nhiều nơi, cũng như được bác sĩ chẩn đoán bị viêm tuyến giáp/sưng tuyến giáp. Vậy điều trị bằng thuốc có giảm sưng do viêm tuyến giáp không? cũng như cần điều trị là bao lâu? Mong bác sĩ giải đáp giúp, xin cảm ơn!\nTrả lời: Chào bạn, đối với câu hỏi: Điều trị bằng thuốc có giảm sưng do viêm tuyến giáp không? bác sĩ xin được trả lời như sau:",
+            "score": 0.597186803817749,
+            "id": "vietnamese_medical_qa_2589"
+        },
+        {
+            "text": "Câu hỏi: Khi nào đi khám bác sĩ\nTrả lời: 2. Khi nào đi khám bác sĩ\nGặp bác sĩ nếu: Triệu chứng diễn ra rất nghiêm trọng Bạn có các dấu hiệu và triệu chứng không thuyên giảm sau khi sử dụng thuốc không kê đơn hoặc tự chăm sóc Bạn có tác dụng phụ khó chịu do sử dụng thuốc không kê đơn hoặc thuốc kê theo toa cho viêm mũi",
+            "score": 0.5932461619377136,
+            "id": "vietnamese_healthcare_107152"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+            "score": 0.5816646814346313,
+            "id": "vietnamese_medical_qa_1629"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

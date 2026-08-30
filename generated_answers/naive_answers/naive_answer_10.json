@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cho hỏi con trai tôi 22 tuổi, đã điều trị bịnh lao phổi trong năm 2019. Cháu bị dị ứng với hải sản tôm, cua, ăn vào là ngứa họng và sưng phù mắt, miệng. Vậy cháu có tiêm được vaccine ngừa Covid-19 không?",
+    "ground_truth": "Theo hướng dẫn của Bộ Y tế, trường hợp của con trai chị nên tiêm phòng vaccine Covid-19 ở khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+    "answer": "Theo tài liệu, dị ứng tôm cua gây ngứa họng và sưng phù mắt, miệng là biểu hiện phù niêm mạc/phù mạch, không nên tiêm tại điểm tiêm thông thường mà cần đến bệnh viện hoặc cơ sở có khả năng hồi sức cấp cứu để được bác sĩ khám sàng lọc và tư vấn trước khi tiêm. Tài liệu không cho biết tiền sử lao phổi năm 2019 có ảnh hưởng đến việc tiêm hay không; vì vậy cần thông báo đầy đủ bệnh sử và tiền sử dị ứng cho bác sĩ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi có tiền sử dị ứng tôm cua, ăn vào bị nổi ngứa khắp ngươi, có lúc không bị. Vậy tôi tiêm vaccine Covid-19 có được hay không? Tôi nên tiêm tập trung hay tới bệnh viện để được chích vaccine.\nTrả lời: Bạn bị dị ứng tôm cua, hay nổi mẫn ngứa khi ăn hải sản. Những trường hợp này không chống chỉ định tiêm ngừa vaccine Covid-19.",
+            "score": 0.6474812626838684,
+            "id": "vietnamese_healthcare_7854"
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 40 tuổi, có dị ứng với một số loại thuốc giảm đau (sưng ngứa mặt, mẩn đỏ, nổi mề đay, bị xuất huyết dưới da - tụ huyết bầm dưới da nhiều vết tương đối lớn), dị ứng trái dứa chín và khi ăn nhiều Hải sản (phản ứng: nổi mẩn đỏ, ngứa). Ngoài ra tôi từng bị tiểu đường thai kỳ và giảm tiểu cẩu xuống rất thấp vào giai đoạn cuối thai kỳ (sau khi sinh thì tôi không bị tiểu đường nữa và tiểu cầu về lại bình thường trong các kỳ thử máu kiểm tra sức khỏe định kỳ hàng năm). Vậy tôi có thể tiên vaccine Covid-19 không?\nTrả lời: Dựa trên các thông tin sức khỏe mà chị mô tả, chị vẫn được tiêm vaccine Covid-19. Để đảm bảo an toàn cho sức khỏe, chị nên đến khối bệnh viện để được các bác sĩ thăm khám và thực hiện tiêm vaccine Covid-19.",
+            "score": 0.6407351493835449,
+            "id": "vietnamese_healthcare_5106"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị dị ứng hải sản như cua, ghẹ, tôm, nhất là vỏ tôm, đầu tôm. Khi ăn vào, người sẽ mẩn nốt đỏ ngứa, đau bụng. Trường hợp của tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Với thông tin mà anh/chị cung cấp, chúng tôi chưa thể kết luận được anh/chị có thể tiêm chủng vaccine Covid-19 được hay không, vì điều này còn phụ thuộc vào mức độ dị ứng của anh/chị. Theo hướng dẫn của Bộ Y tế, nếu mức độ dị ứng nặng (từ độ II trở lên) có triệu chứng ngứa, nổi sẩn mề đay, phù mạch xuất hiện nhanh, kèm các triệu chứng hô hấp, tuần hoàn, tiêu hóa, tri giác. . . thì anh/chị thuộc nhóm chống chỉ định tiêm chủng vaccine Covid-19.",
+            "score": 0.6370915174484253,
+            "id": "vietnamese_healthcare_7598"
+        },
+        {
+            "text": "Câu hỏi: Con gái tôi năm nay 23 tuổi, mỗi khi cháu ăn tôm, cua đông lạnh thường phải uống thuốc giảm đau, nổi mề đay, ngứa, sưng bụp mắt và khó thở. Vậy cháu tiêm vaccine ngừa Covid-19 được không? Nếu muốn tiêm, cháu phải khám và kiểm tra những gì, ở bệnh viện nào?\nTrả lời: Con gái bạn đang có các biểu hiện dị ứng, sẽ cần tiêm chủng vaccine Covid-19 tại bệnh viện, các cơ sở đủ năng lực hổi sức cấp cứu ban đầu. Trước khi tiêm cháu sẽ được các bác sĩ khám sàng lọc và tư vấn cách theo dõi, xử trí các phản ứng sau tiêm.",
+            "score": 0.632895827293396,
+            "id": "vietnamese_healthcare_9808"
+        },
+        {
+            "text": "Câu hỏi: Em thỉnh thoảng dị ứng với bánh mì (có lúc ăn là bị nổi mề đay, có lúc lại không) và tôm cua ăn vào là ngứa mắt. Vậy xin hỏi có chích được vaccine Covid-19 được không?\nTrả lời: Tình trạng dị ứng với thức ăn như bánh mì, tôm cua, hải sản. . . nếu chỉ bị nổi mẩn ngứa nhẹ và tự hết thì anh/chị có thể tiêm chủng vaccine Covid-19 bình thường. Trong trường hợp, anh/chị có tiền sử mẩn ngứa kèm phù niêm (phù mắt môi, mặt, phù nhanh nhiều. . . )hay phải điều trị bằng thuốc và nhập viện sẽ phải tiêm trong khối bệnh viện.",
+            "score": 0.6322121620178223,
+            "id": "vietnamese_healthcare_5640"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Khi thở cháu phải ngắc lên, hít hơi dài mới thấy thoải mái. Cháu đã bị từ lâu (khoảng 6-7 năm). Cho hỏi cháu bị làm sao, có nguy hiểm không ạ?",
+    "ground_truth": "Chào cháu. Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.\nCảm ơn cháu đã tin tưởng AI-Doctor. Rất mong có thể gặp cháu để được tư vấn cụ thể hơn.",
+    "answer": "Kiểu thở phải ngắc lên, hít hơi dài mới thấy dễ chịu có thể liên quan đến căng thẳng tâm lý, nhưng cũng có thể gặp trong nhiều bệnh lý khác nên tài liệu chưa đủ để xác định cháu bị gì hoặc mức độ nguy hiểm. Cháu có thể thử tập thể dục nhẹ, hít vào sâu, thở ra chậm và thư giãn; vì tình trạng đã kéo dài 6–7 năm, nếu thường xuyên hoặc không cải thiện, cháu nên đi khám chuyên khoa nội để được tư vấn và điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Thở hít hơi dài mới thấy thoải mái là bị làm sao? Có nguy hiểm không?\nTrả lời: Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.",
+            "score": 0.6079198122024536,
+            "id": "vietnamese_healthcare_8695"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà mình 3 tháng 3 tuần tuổi.Bé thở khò khètừ tháng thứ 2 nhưng nhẹ, ngủ ngon, bú tốt. Ba hôm nay, bé thở nặng nề, kèm ho, cảm giác có đờm, mũi nghẹt nhưng không có nước mũi chảy ra. Vậy bác sĩ cho em hỏitrẻ gần 4 tháng tuổi khò khè, mũi nghẹt có sao không?Em có cần đưa bé đi khám bác sĩ không thưa bác sĩ? Vì đang dịch nên em rất lo cho con đi bệnh viện. Em cảm ơn bác sĩ. Thu Trang(1994) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Nam Phong -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Độ tuổi này các bé có khò khè,khụt khịt mũilà hiện tượng sinh lý khá phổ biến. Mũi của các bé chưa phát triển hoàn thiện, chức năng làm ấm, làm ẩm hơi thở kém, khoang mũi hẹp, do đó tác động từ môi trường như không khí lạnh, khô (do nằm máy lạnh), bụi, khói thuốc,.... sẽ làm cho các bé dễ bị ngạt mũi, chảy mũi. Vì vậy, bạn cần chú ývệ sinh mũi cho béthường xuyên, vệ sinh môi trường xung quanh, hạn chế nằm máy lạnh liên tục,...",
+            "score": 0.547107994556427,
+            "id": "medical_vietnamese_qa_6482"
+        },
+        {
+            "text": "Câu hỏi: Trẻ gồng mình, khò khè khó thở là bị sao?\nTrả lời: Hiện tượng ngủ cứ vặn vẹo, rặn và gồng mình trong những tháng đầu đời là hiện tượng sinh lý bình thường của trẻ. Hiện tượng vặn mình này chỉ xảy ra trong vài giây rồi sau đó sẽ hết ngay lập tức. Hiện tượng này sẽ giảm và hết dần khi trẻ được 2 - 3 tháng. Nếu con khò khè không chảy mũi, không ho bạn cần thay đổi tư thế cho con là hiện tượng này sẽ hết. Bạn không cần quá lo lắng nhé. Nếu thấy con khó thở, gắng sức bạn nên cho con tới cơ sở y tế chuyên khoa để khám cho con nhé.",
+            "score": 0.5416509509086609,
+            "id": "vietnamese_healthcare_3687"
+        },
+        {
+            "text": "Câu hỏi: Bé 3 tuổi có hiện tượng lấy hơi khi thở và thở hắt là bị làm sao?\nTrả lời: Em bé có hiện tượng như vậy có thể là có bệnh lý đường hô hấp.",
+            "score": 0.534893274307251,
+            "id": "vietnamese_healthcare_6593"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Hai, ba hôm nay em thấy cổ họng mình như bị gì chặn lại, đôi lúc phải hít thật sâu mới thở được. Bác sĩ cho hỏi em bị bệnh gì vậy ạ? Mong nhận được sự tư vấn từ bác sĩ. Em xin cảm ơn.\nTrả lời: Chào em. Triệu chứng em kể có trong nhiều loại bệnh lý khác nhau. Trước mắt, em nên hít vào sâu, thở ra chậm và mạnh em nhé. Nếu tình trạng này xảy ra thường xuyên và kéo dài, em nên đi khám bác sĩ để được tư vấn cụ thể và có hướng điều trị phù hợp và kịp thời em nhé.",
+            "score": 0.5307291150093079,
+            "id": "vietnamese_medical_qa_3775"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

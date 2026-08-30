@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Nhỏ thừa vắc-xin bại liệt liệu có ảnh hưởng đến sức khỏe của trẻ?",
+    "ground_truth": "Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành của virus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai.",
+    "answer": "Theo bằng chứng được cung cấp, việc trẻ vừa tiêm vắc-xin 6 trong 1 vừa uống thêm vắc-xin bại liệt thường không gây ảnh hưởng xấu đến sức khỏe; phối hợp hai dạng vắc-xin giúp củng cố miễn dịch với cả 3 tuýp bại liệt và vẫn đảm bảo an toàn. Một số phản ứng có thể gặp sau tiêm là đỏ, đau hoặc sưng tại chỗ tiêm; có thể chườm mát, ẩm lên vị trí này. Tác dụng phụ nghiêm trọng rất hiếm, nhưng cần thông báo cho bác sĩ nếu trẻ có tiền sử dị ứng nặng với nấm men, mủ cao su hoặc trứng gà.",
+    "evidence": [
+        "Con em tiêmvắc-xin 6 trong 1, có tiêm và nhỏ thừa hai mũivắc-xin bại liệt.",
+        "Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành củavirus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai.",
+        "Tác dụng phụ và xử trí\nSau khi được tiêm vắc-xin, một số trẻ có thể gặp phải những triệu chứng sau đây: Đỏ và đau nhức chỗ tiêm : Dùng một miếng vải hoặc bông băng mát, ẩm chườm lên vị trí đang bị đỏ, đau hay sưng; Ngất xỉu sau khi tiêm ngừa : Đây là tình trạng thường gặp hơn ở thanh thiếu niên so với trẻ sơ sinh và trẻ nhỏ.",
+        "Những tác dụng phụ nghiêm trọng khác rất hiếm khi xảy ra, tuy nhiên trước khi tiêm cần phải trình bày rõ ràng với bác sĩ nếu trẻ có cơ địa dị ứng nghiêm trọng, chẳng hạn như dị ứng với: Nấm men; Mủ cao su; Trứng gà.",
+        "Với câu hỏi “Bé vừa uống liều bại liệt có tiêm 6in1 được không?”, bác sĩ xin giải đáp như sau: Vắc-xin bại liệt dạng uống chỉ có 2 tuýp 1 và 3, còn trong vắc-xin 6in1 có chứa bại liệt đủ 3 tuýp 1, 2 và 3.",
+        "Theo Tổ chức Y tế Thế giới khuyến cáo các quốc gia đang chỉ sử dụng vắc xin bại liệt uống (OPV) thì cần sử dụng thêm 1 liều tiêm bại liệt trong lịch tiêm chủng thường xuyên.",
+        "Như vậy con của bạn uống vắc-xin phòng bại liệt đủ 3 liều phải tiêm thêm 1 mũi bại liệt ( có trong 6in1) nữa là đúng nhưng phải cách nhau tối thiểu 1 tháng.",
+        "Việc phối hợp dùng cả 2 loại dạng uống và tiêm sẽ giúp củng cố được miễn dịch cho cả 3 tuýp vắc-xin mà vẫn đảm bảo an toàn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: ! Con em tiêmvắc-xin 6 trong 1, có tiêm và nhỏ thừa hai mũivắc-xin bại liệt. Bác sĩ cho em hỏi, tiêm đủ các mũi vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt liệu có ảnh hưởng gì đến sức khỏe của bé không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Dương Tâm(1987) Trả lời\nTrả lời: Chào bạn! Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành củavirus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp bạn trực tiếp để được tư vấn kỹ càng hơn. Trân trọng! Được giải đáp bởi Tiến sĩ, Bác sĩ Phan Nguyễn Thanh Bình- Khoa Nhi - Sơ Sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+                "score": 0.5629692077636719,
+                "id": "medical_vietnamese_qa_13517",
+                "rerank_score": 0.9994655251502991
+            },
+            {
+                "text": "Câu hỏi: Tiêm vắc-xin dại có ảnh hưởng đến sức khỏe, trí tuệ của trẻ?\nTrả lời: Bất cứ loại vắc-xin nào cũng có thể có nguy cơ ảnh hưởng sức khỏe. Tuy nhiên, tác dụng phụ còn tùy thuộc cơ địa mỗi người. Điều quan trọng là khi tiêm vắc-xin dại, trẻ sẽ có kháng thể, giúp phòng ngừa nguy cơ bị bệnh dại. Đó là bệnh có tỷ lệ tử vong gần như 100% khi bệnh đã bộc phát. Chích ngừa dại không ghi nhận việc có ảnh hưởng đến trí tuệ và chiều cao của trẻ sau này.",
+                "score": 0.505713701248169,
+                "id": "vietnamese_healthcare_2446",
+                "rerank_score": 0.8885606527328491
+            },
+            {
+                "text": "Câu hỏi: . Cho mình hỏi, bé nhà mình 20 ngày tuổi, nay mình cho bé đi tiêmvắc-xin laoở 1 trung tâm nhưng bác sĩ tiêm bị nông, khiến thuốc chảy ra 1 nửa. Vậy có ảnh hưởng gì và vắc-xin có đạt tiêu chuẩn không ạ? Cảm ơn bác sĩ đã tư vấn. Trương Thị Ánh(1997) Trả lời\nTrả lời: Chào bạn. Trong trường hợp nếu tiêm không đủ liều thì không đạt tiêu chuẩn và không hiệu quả. Vì thế, bạn nên cho con thực hiện việctiêm phònglại để thuốc có thể phát huy tác dụng trong việc ngừa bệnh và bảo vệ sức khỏe trẻ nhỏ. Cảm ơn bạn đã tin tưởng, chia sẻ những lo lắng tớiHệ thống Y tế Vinmec. Được giải đáp bởiThạc sĩ Bác sĩ Huỳnh Bảo Toàn- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang Các nội dung tư vấn khác Chăm sóc vết tiêm phòng lao như thế nào? Tại sao bị bệnh lao dù đã tiêm phòng? Vết tiêm mưng mủ, nổi hạch ở cổ có ảnh hưởng gì không? Các bài viết cùng chủ đề Vắc-xin BCG là gì? Có tiêm được cho người lớn không? Có thể tiêm vắc-xin phòng lao cho người lớn và trẻ trên 1 tuổi? Đối tượng nên tiêm phòng vắc xin lao BCG",
+                "score": 0.5168676376342773,
+                "id": "medical_vietnamese_qa_13524",
+                "rerank_score": 0.23789219558238983
+            },
+            {
+                "text": "Câu hỏi: Tiêm thừa vắc-xin sởi - quai bị - rubella có ảnh hưởng đến phụ nữ cho con bú không?\nTrả lời: Người trưởng thành chỉ cần tiêm 1 hoặc 2 mũi vắc-xin ngừa sởi - quai bị - rubella. Tuy nhiên trong một số điều kiện như dịch bệnh bùng phát hoặc hiệu lực kháng thể chưa đảm bảo phòng bệnh vẫn có thể tiêm nhắc. Vắc-xin sởi - quai bị - rubella thuộc nhóm vắc-xin virus sống, giảm độc lực, chưa có đầy đủ thông tin về việc có bài tiết qua sữa mẹ hay gây bệnh cho trẻ hay không. Cho nên chưa được khuyến cáo tiêm ở phụ nữ đang cho con bú",
+                "score": 0.4740285575389862,
+                "id": "vietnamese_healthcare_5636",
+                "rerank_score": 0.05944801867008209
+            },
+            {
+                "text": "Câu hỏi: ! Trong bài viết những dấu hiệu và cách phòng ngừa trẻ bị nhiễm siêu vi có đề cập tiêm chủng đầy đủ. Vậy bác sĩ cho em hỏimũi tiêm nào cần thiết để phòng tránh sốt nhiễm siêu vi ở trẻ?Con em 3 tháng tuổi vừa được chẩn đoán nhiễm siêu vi có tiêm phòng được không? Rất mong bác sĩ tư vấn, em cảm ơn! Trần Minh Tâm(1992) Trả lời\nTrả lời: Chào bạn! Với câu hỏi “Mũi tiêm nào cần thiết để phòng tránh sốt nhiễm siêu vi ở trẻ?”, bác sĩ xin giải đáp như sau: Có rất nhiều loại virus là nguyên nhân gây ra tình trạng sốt siêu vi, trong đó điển hình nhất là virus Rhinovirus, Adenovirus, Coronavirus, Enterovirus, Virus cúm,... Tùy theo loại virus bị nhiễm mà gây ra các bệnh khác nhau. Ngoài sốt siêu vi ra, nhiều loại virus khác có thể gây ra nhiều bệnh nhiễm trùng khác mà trẻ có thể mắc phải như sởi , quai bị, Rubella, thủy đậu, viêm gan B, viêm gan A, viêm não Nhật Bản B, tay chân miệng, sốt xuất huyết,... qua các đường lây truyền khác nhau. Rất nhiều bệnh do virus gây ra đã có vắc-xin để phòng ngừa như viêm gan B, tiêu chảy do Rotavirus, viêm gan A, sởi, quai bị, Rubella, cúm mùa, thủy đậu, viêm não Nhật Bản B,... Con bạn 3 tháng tuổi vừa được chẩn đoán sốt siêu vi. Ở lứa tuổi này trẻ vẫn được thừa hưởng ít nhiều miễn dịch từ mẹ. Sau 6 tháng tuổi miễn dịch từ mẹ sẽ sẽ giảm dần. Bạn cần cho bé đi tiêm phòng cúm khi bé được 6 tháng tuổi. Để phòng sốt siêu vi trong thời gian này bạn cần giữ vệ sinh cho bé, dinh dưỡng đầy đủ và những người tiếp xúc với bé hàng ngày nên được tiêm phòng cúm  Được giải đáp bởiBác sĩ chuyên khoa I Trần Thanh Phước -Bác sĩ Nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.4762430191040039,
+                "id": "medical_vietnamese_qa_13384",
+                "rerank_score": 0.0034168309066444635
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: ! Con em tiêmvắc-xin 6 trong 1, có tiêm và nhỏ thừa hai mũivắc-xin bại liệt. Bác sĩ cho em hỏi, tiêm đủ các mũi vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt liệu có ảnh hưởng gì đến sức khỏe của bé không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Dương Tâm(1987) Trả lời\nTrả lời: Chào bạn! Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành củavirus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp bạn trực tiếp để được tư vấn kỹ càng hơn. Trân trọng! Được giải đáp bởi Tiến sĩ, Bác sĩ Phan Nguyễn Thanh Bình- Khoa Nhi - Sơ Sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+                "score": 0.6430926322937012,
+                "id": "medical_vietnamese_qa_13517",
+                "rerank_score": 0.9994655251502991
+            },
+            {
+                "text": "Câu hỏi: ! Bé nhỏ em năm nay 4 tuổi, bé tiêm ngừa đầy đủ từ lúc mới sinh. Tháng rồi ở trường mầm non của bé tổ chức cho bé uống vắc-xin phòng bại liệt gồm 2 đợt uống, bé đã uống 1 đợt và đợt 2 rơi vào thời gian bé vắng lớp. Bé bị bỏ lỡ đợt uống thứ 2 này. Vậy bác sĩ cho em hỏibé 4 tuổi bỏ lỡ uống vắc-xin phòng bại liệt đợt 2 có nghiêm trọng không? Rất mong bác sĩ tư vấn, em cảm ơn! Nguyễn Phượng Cầu(1990) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin sống giảm độc lực dạng uống (OPV): chứa vi rút bại liệt sống đã làm suy yếu, có tác dụng kích thích cơ thể tạo miễn dịch. Miễn dịch này giúp cho cơ thể phòng vệ không cho virus xâm nhập vào cơ thể. Nếu bé đã tiêm phòng đầy đủ từ lúc mới sinh thì việc bỏ lỡ uống bại liệt mũi 2 này không nghiêm trọng. Tuy nhiên, bé 4 tuổi sẽ có lịch tiêm nhắc một số loại vắc-xin, bạn nên đưa bé đến trung tâm tiêm chủng để tiêm.  Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Bảo Toàn -Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+                "score": 0.5334761738777161,
+                "id": "medical_vietnamese_qa_13388",
+                "rerank_score": 0.948830783367157
+            },
+            {
+                "text": "Câu hỏi: Tiêm vắc-xin dại có ảnh hưởng đến sức khỏe, trí tuệ của trẻ?\nTrả lời: Bất cứ loại vắc-xin nào cũng có thể có nguy cơ ảnh hưởng sức khỏe. Tuy nhiên, tác dụng phụ còn tùy thuộc cơ địa mỗi người. Điều quan trọng là khi tiêm vắc-xin dại, trẻ sẽ có kháng thể, giúp phòng ngừa nguy cơ bị bệnh dại. Đó là bệnh có tỷ lệ tử vong gần như 100% khi bệnh đã bộc phát. Chích ngừa dại không ghi nhận việc có ảnh hưởng đến trí tuệ và chiều cao của trẻ sau này.",
+                "score": 0.5335529446601868,
+                "id": "vietnamese_healthcare_2446",
+                "rerank_score": 0.8885606527328491
+            },
+            {
+                "text": "Câu hỏi: Tác dụng phụ và xử trí\nTrả lời: 2. Tác dụng phụ và xử trí\nSau khi được tiêm vắc-xin, một số trẻ có thể gặp phải những triệu chứng sau đây: Đỏ và đau nhức chỗ tiêm : Dùng một miếng vải hoặc bông băng mát, ẩm chườm lên vị trí đang bị đỏ, đau hay sưng; Ngất xỉu sau khi tiêm ngừa : Đây là tình trạng thường gặp hơn ở thanh thiếu niên so với trẻ sơ sinh và trẻ nhỏ. Để hạn chế ngất xỉu sau khi tiêm ngừa, nên ngồi yên hoặc nằm nghỉ ngơi khoảng 15 phút tại cơ sở y tế trước khi ra về và trở lại hoạt động bình thường. Những tác dụng phụ nghiêm trọng khác rất hiếm khi xảy ra, tuy nhiên trước khi tiêm cần phải trình bày rõ ràng với bác sĩ nếu trẻ có cơ địa dị ứng nghiêm trọng, chẳng hạn như dị ứng với: Nấm men; Mủ cao su; Trứng gà. Các chuyên gia y tế khuyến cáo trẻ em, trong có có đối tượng tiền dậy thì , nên bổ sung đầy đủ tất cả các loại vắc xin theo lịch tiêm chủng được đưa ra. Việc lựa chọn tiêm bất kỳ loại vắc xin nào cần dựa trên tuổi tác, tình trạng sức khỏe của trẻ và một số yếu tố khác. Nhìn chung, bốn loại vắc xin cho trẻ 11 tuổi đến 12 tuổi chủ yếu mà CDC khuyến cáo là: cúm, HPV, não mô cầu và Tdap (đề phòng uốn ván, bạch hầu và ho gà). Bệnh viện Đa khoa Quốc tế Vinmec sử dụng nguồn vắc xin chất lượng cao, có xuất xứ rõ ràng, phù hợp với từng độ tuổi cần tiêm chủng, đảm bảo an toàn từ khâu kiểm nhập, bảo quản đến khi đưa vào sử dụng. Để được tư vấn trực tiếp hoặc đặt lịch hẹn tiêm phòng cho con tại Vinmec, cha mẹ vui lòng đặt lịch TẠI ĐÂY hoặc liên hệ theo HOTLINE: Vinmec Times City - Hà Nội: 024 3974 3556 Vinmec Hạ Long : 0203 3828 188 Vinmec Hải Phòng : 0225 730 9888 Vinmec Đà Nẵng : 0236 3711 111 Vinmec Nha Trang : 0258 3900 168 Vinmec Central Park - Tp. Hồ Chí Minh : 028 3622 1166 Vinmec Phú Quốc : 0297 398 5588 Phòng khám Vinmec Royal City - Hà Nội: 024 3975 6887 Phòng khám Vinmec Sài Gòn - (028) 3520 3366 Phòng khám Vinmec Gardenia - Hà Nội: 024 3975 6788 Phòng khám Vinmec Metropolis - Hà Nội: 024 3975 6886",
+                "score": 0.49517881870269775,
+                "id": "vietnamese_healthcare_95761",
+                "rerank_score": 0.08877704292535782
+            },
+            {
+                "text": "Câu hỏi: Tiêm thừa vắc-xin sởi - quai bị - rubella có ảnh hưởng đến phụ nữ cho con bú không?\nTrả lời: Người trưởng thành chỉ cần tiêm 1 hoặc 2 mũi vắc-xin ngừa sởi - quai bị - rubella. Tuy nhiên trong một số điều kiện như dịch bệnh bùng phát hoặc hiệu lực kháng thể chưa đảm bảo phòng bệnh vẫn có thể tiêm nhắc. Vắc-xin sởi - quai bị - rubella thuộc nhóm vắc-xin virus sống, giảm độc lực, chưa có đầy đủ thông tin về việc có bài tiết qua sữa mẹ hay gây bệnh cho trẻ hay không. Cho nên chưa được khuyến cáo tiêm ở phụ nữ đang cho con bú",
+                "score": 0.5069136619567871,
+                "id": "vietnamese_healthcare_5636",
+                "rerank_score": 0.05944801867008209
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: ! Con em tiêmvắc-xin 6 trong 1, có tiêm và nhỏ thừa hai mũivắc-xin bại liệt. Bác sĩ cho em hỏi, tiêm đủ các mũi vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt liệu có ảnh hưởng gì đến sức khỏe của bé không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Dương Tâm(1987) Trả lời\nTrả lời: Chào bạn! Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành củavirus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp bạn trực tiếp để được tư vấn kỹ càng hơn. Trân trọng! Được giải đáp bởi Tiến sĩ, Bác sĩ Phan Nguyễn Thanh Bình- Khoa Nhi - Sơ Sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+                "score": 0.6851920485496521,
+                "id": "medical_vietnamese_qa_13517",
+                "rerank_score": 0.9994655251502991
+            },
+            {
+                "text": "Câu hỏi: ! Bé nhỏ em năm nay 4 tuổi, bé tiêm ngừa đầy đủ từ lúc mới sinh. Tháng rồi ở trường mầm non của bé tổ chức cho bé uống vắc-xin phòng bại liệt gồm 2 đợt uống, bé đã uống 1 đợt và đợt 2 rơi vào thời gian bé vắng lớp. Bé bị bỏ lỡ đợt uống thứ 2 này. Vậy bác sĩ cho em hỏibé 4 tuổi bỏ lỡ uống vắc-xin phòng bại liệt đợt 2 có nghiêm trọng không? Rất mong bác sĩ tư vấn, em cảm ơn! Nguyễn Phượng Cầu(1990) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin sống giảm độc lực dạng uống (OPV): chứa vi rút bại liệt sống đã làm suy yếu, có tác dụng kích thích cơ thể tạo miễn dịch. Miễn dịch này giúp cho cơ thể phòng vệ không cho virus xâm nhập vào cơ thể. Nếu bé đã tiêm phòng đầy đủ từ lúc mới sinh thì việc bỏ lỡ uống bại liệt mũi 2 này không nghiêm trọng. Tuy nhiên, bé 4 tuổi sẽ có lịch tiêm nhắc một số loại vắc-xin, bạn nên đưa bé đến trung tâm tiêm chủng để tiêm.  Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Bảo Toàn -Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+                "score": 0.5088013410568237,
+                "id": "medical_vietnamese_qa_13388",
+                "rerank_score": 0.9488306641578674
+            },
+            {
+                "text": "Câu hỏi: ! Bé nhà em vừa uống liều bại liệt xong. Bác sĩ cho em hỏibé vừa uống liều bại liệt có tiêm 6in1 được không? Rất mong bác sĩ tư vấn, cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Với câu hỏi “Bé vừa uống liều bại liệt có tiêm 6in1 được không?”, bác sĩ xin giải đáp như sau: Vắc-xin bại liệt dạng uống chỉ có 2 tuýp 1 và 3, còn trong vắc-xin 6in1 có chứa bại liệt đủ 3 tuýp 1, 2 và 3. Theo Tổ chức Y tế Thế giới khuyến cáo các quốc gia đang chỉ sử dụng vắc xin bại liệt uống (OPV) thì cần sử dụng thêm 1 liều tiêm bại liệt trong lịch tiêm chủng thường xuyên. Như vậy con của bạn uống vắc-xin phòng bại liệt đủ 3 liều phải tiêm thêm 1 mũi bại liệt ( có trong 6in1) nữa là đúng nhưng phải cách nhau tối thiểu 1 tháng. Việc phối hợp dùng cả 2 loại dạng uống và tiêm sẽ giúp củng cố được miễn dịch cho cả 3 tuýp vắc-xin mà vẫn đảm bảo an toàn.  Được giải đáp bởiBác sĩ chuyên khoa II Quách Nguyễn Thu Thủy -Bác sĩ Nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.498898983001709,
+                "id": "medical_vietnamese_qa_13313",
+                "rerank_score": 0.08201677352190018
+            },
+            {
+                "text": "Câu hỏi: Tiêm thừa vắc-xin sởi - quai bị - rubella có ảnh hưởng đến phụ nữ cho con bú không?\nTrả lời: Người trưởng thành chỉ cần tiêm 1 hoặc 2 mũi vắc-xin ngừa sởi - quai bị - rubella. Tuy nhiên trong một số điều kiện như dịch bệnh bùng phát hoặc hiệu lực kháng thể chưa đảm bảo phòng bệnh vẫn có thể tiêm nhắc. Vắc-xin sởi - quai bị - rubella thuộc nhóm vắc-xin virus sống, giảm độc lực, chưa có đầy đủ thông tin về việc có bài tiết qua sữa mẹ hay gây bệnh cho trẻ hay không. Cho nên chưa được khuyến cáo tiêm ở phụ nữ đang cho con bú",
+                "score": 0.5111440420150757,
+                "id": "vietnamese_healthcare_5636",
+                "rerank_score": 0.05944801867008209
+            },
+            {
+                "text": "Câu hỏi: Dấu hiệu trẻ bị thừa vitamin B6\nTrả lời: 4. Dấu hiệu trẻ bị thừa vitamin B6\nTuy là dưỡng chất thiết yếu nhưng nếu lượng vitamin B6 trong cơ thể tăng lên quá cao cũng có thể dẫn đến nhiều tác dụng không mong muốn, đặc biệt khi lạm dụng bổ sung vitamin B6 dạng thuốc. Những dấu hiệu dễ thấy nhất ở trẻ bị thừa vitamin B6 là tê tay, chân, có thể tê bì ở cả bàn tay, ngón tay, bàn chân và ngón chân, thậm chí bị tê cả cánh tay và mất cảm giác. Khi nhận thấy trẻ có biểu hiện quá liều vitamin B6, hãy đưa trẻ (cùng với sản phẩm chứa vitamin B6 đang dùng) đến cơ sở y tế để được thăm khám và xử trí kịp thời. Bổ sung vitamin B6 dạng thuốc và thực phẩm chức năng cần được thực hiện đúng cách và đúng liều lượng, tốt nhất nên theo chỉ định của bác sĩ. Nếu trẻ không bị thiếu hụt vitamin B6 hay những vấn đề liên quan thì bố mẹ không cần thiết phải bổ sung vitamin B6 ở dạng thuốc. Hầu hết chế độ dinh dưỡng hàng ngày là đã có thể đáp ứng nhu cầu bổ sung vitamin B6 cho bé một cách đầy đủ. Tình trạng thiếu vitamin B6 có thể gây ra các biến chứng nguy hiểm về sức khỏe lẫn tinh thần của trẻ, do đó, cha mẹ cần quan sát và bổ sung kịp thời nguồn vitamin quan trọng này. Ngoài bổ sung qua chế độ ăn uống, cha mẹ có thể cho trẻ sử dụng thực phẩm hỗ trợ có chứa vitamin B6 và các vi khoáng chất thiết yếu như kẽm, Lysine , crom , selen , ... giúp đáp ứng đầy đủ nhu cầu về dưỡng chất ở trẻ. Đồng thời các vitamin thiết yếu này còn hỗ trợ tiêu hóa, tăng cường khả năng hấp thu dưỡng chất, giúp cải thiện tình trạng biếng ăn, giúp trẻ ăn ngon miệng. Hãy thường xuyên truy cập website Vinmec.com và cập nhật những thông tin hữu ích để chăm sóc cho bé và cả gia đình nhé.",
+                "score": 0.4888920783996582,
+                "id": "vietnamese_healthcare_75186",
+                "rerank_score": 0.0006761810509487987
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Xin chào bác sĩ,\nE 24t, e hay bị đau bụng liên sườn bên hông trái rất khó chịu nhất là khi đói. Xin bsi tu van",
+    "ground_truth": "Chào bạn, bạn hay bị đau bụng liên sườn bên trái khi đói, đau bụng mà liên quan đến ăn uống có thể bạn gặp phải vấn để về dạ day và đường tiêu hoá. Bạn nén đi khám chuyên khoa tiêu hoá nhe",
+    "answer": "Chào em, đau vùng hông/hạ sườn trái, đặc biệt tăng khi đói, có thể liên quan đến dạ dày–tá tràng (viêm, loét), nhưng cũng có thể do đại tràng hoặc thận nên chưa thể chẩn đoán chỉ dựa vào triệu chứng. Em nên ăn đúng giờ, chia nhỏ bữa, chọn thức ăn mềm và tránh cay, chua, rượu bia, cà phê; không tự dùng thuốc giảm đau hay thuốc dạ dày kéo dài. Nếu đau kéo dài/tái diễn, em nên khám chuyên khoa Tiêu hóa để bác sĩ khám bụng và cân nhắc xét nghiệm, siêu âm hoặc nội soi, xét nghiệm vi khuẩn H. pylori khi cần. Nếu đau dữ dội tăng dần, sốt, nôn nhiều, bụng cứng/chướng, đi ngoài phân đen hoặc có máu, tiểu buốt/tiểu máu hay khó thở thì cần đi cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Hiện tại, em đang bị căng tức bụng bên trái (hông trái), khu vực ngay dưới xương sường, khi ấn vào thì có cảm giác khó chịu (chủ yếu là cảm giác căng tức chứ không đau nhói gì cả). Trong buổi sáng, em đã đi đại tiện 3 lần kèm theo trung tiện, đi tiểu khoảng 3-4 lần nhưng mỗi lần không có nhiều nước tiểu. Vậy bác sĩ cho em hỏicăng tức bụng trái kèm đại tiện nhiều là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Duc(1990) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Hùng -Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Theo như những triệu chứng của bạn:Căng tức bụng bên trái, ấn vào có cảm giác khó chịu, kèm đại tiện 3 lần. Nếu đau vùng hông trái thì có thể bệnh lý ở nhiều bộ phận như: Đại tràng, thận, dạ dày,... Trường hợp bạn đau kèm theo có triệu chứngđại tiện nhiều lầnnên bác sĩ nghĩ nhiều đến đại tràng, ít nghĩ đến thận. Song để xác định chẩn đoán mà điều trị thì bác sĩ cần phải thăm khám bụng kỹ, không thể thiếu động tác này. Do đó, bạn nên đến bệnh viện khám chuyên khoa Tiêu hóa, bác sĩ sẽ khám, cần thiết cho siêu âm, xét nghiệm máu, nước tiểu, phân thì mới xác định được bệnh mà có kế hoạch điều trị.",
+            "score": 0.7370332479476929,
+            "id": "medical_vietnamese_qa_11040"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nkhoảng một tuần gần đây e bị đau bụng dưới bên trái, đau âm ỉ nhất là ăn thêm thứ gì đó là lại đau, theo bác sỹ e bị bệnh gì ạ ?\nTrả lời: Chào bạn!\nQua những gì bạn mô tả có thể bạn bị bệnh lý viêm loét-dạ dày tá tràng. Thường có đặc điểm đau hạ sườn Trái, liên quan tới bữa ăn.Bạn cần phải đi đến các cơ sở y tế chuyên khoa tiêu hóa làm thêm các khảo sát ( nội soi dạ dày tá tràng,thử nghiệm xem có sự hiện diện của vi khuẩn Helicobacter Pylori ) để có hướng điều trị phù hợp và kịp thời.\nThân mến.",
+            "score": 0.6668587923049927,
+            "id": "vietnamese_medical_qa_6788"
+        },
+        {
+            "text": "Câu hỏi: Cho em xin hỏi: mấy ngày nay em bị đau chấn thuỷ, khó thở; hay bị đau vào ban đêm, và có bị đau bụng trên bên trái. \nEm uống gói thuốc sữa nhưng không bớt. càng ngày e càng đau và khó thở hơn. Mong được Bác sĩ trả lời.\nTrả lời: Chào em\nCác biểu hiện của em nhiều khả năng em bị đau dạ dày, để khắc phục em nên ăn nhẹ, thức ăn mềm như cháo, cơm nát...ăn ít một ăn nhiều bữa, không ăn các chất cay chua, có một chế độ sinh hoạt và nghỉ ngơi hợp lý. Nếu còn đau nhiều em nên đi khám chuyên khoa nội tiêu hóa để được khám và hướng dẫn điều trị.\nThân mến chào em",
+            "score": 0.6557129621505737,
+            "id": "vietnamese_medical_qa_5556"
+        },
+        {
+            "text": "Câu hỏi: Em ấn vào vùng hông bên phải ngang rốn thấy đau. Bác sĩ cho em hỏiđau khi ấn vào vùng hông bên phải ngang rốn là dấu hiệu bệnh gì?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vùng hông bên phải ngang rốn liên quan đến nhiều cơ quan khác nhau như thận phải, ruột đại tràng, gan mật tuỵ,... Để có thể tư vấn cụ thể cho bạn bác sĩ cần thêm thông tin về tình trạng đau của bạn như: Thời gian đau, đau từng cơn hay đau liên tục, Có kèm sốt và buồn nôn hay nôn mửa không, đại tiểu tiện như thế nào?,....Vì vậy bạn nên đến cơ sở y tế để bác sĩ trao đổi thêm, kiểm tra xác định chính xác nguyên nhân từ đó có hướng điều trị phù hợp. Tuy dịch bệnh nhưng các trường hợp đau bụng cấp đều được khám cấp cứu, nếu đến khám muộn sẽ có nhiều nguy cơ không tốt cho sức khỏe.",
+            "score": 0.6468390226364136,
+            "id": "medical_vietnamese_qa_10901"
+        },
+        {
+            "text": "Câu hỏi: Em ấn vào vùng hông bên phải ngang rốn thấy đau. Bác sĩ cho em hỏiđau khi ấn vào vùng hông bên phải ngang rốn là dấu hiệu bệnh gì?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vùng hông bên phải ngang rốn liên quan đến nhiều cơ quan khác nhau như thận phải, ruột đại tràng, gan mật tuỵ,... Để có thể tư vấn cụ thể cho bạn bác sĩ cần thêm thông tin về tình trạng đau của bạn như: Thời gian đau, đau từng cơn hay đau liên tục, Có kèm sốt và buồn nôn hay nôn mửa không, đại tiểu tiện như thế nào?,....Vì vậy bạn nên đến cơ sở y tế để bác sĩ trao đổi thêm, kiểm tra xác định chính xác nguyên nhân từ đó có hướng điều trị phù hợp. Tuy dịch bệnh nhưng các trường hợp đau bụng cấp đều được khám cấp cứu, nếu đến khám muộn sẽ có nhiều nguy cơ không tốt cho sức khỏe.",
+            "score": 0.6468390226364136,
+            "id": "medical_vietnamese_qa_10900"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Chào bác sĩ ạ. Bác sĩ cho em hỏi có làm cách nào để tự kiểm tra vòng tránh thai có đúng vị trí không ạ? Cảm ơn bác sĩ đã tư vấn giúp em.",
+    "ground_truth": "Chào bạn, bạn có thể tự kiểm tra bằng cách: Rửa sạch tay, đặt ngón tay vào trong âm đạo đến khi bạn cảm thấy cổ tử cung của mình. Nếu cảm thấy sợi dây từ cổ tử cung đó là vòng tránh thai đang được đặt ở vị trí thích hợp. Bạn chỉ được chạm, không được kéo dây ra vì có thể làm thay đổi vị trí vòng tránh thai. Bạn nên kiểm tra vòng tránh thai hàng tháng hoặc tối đa 6 tháng/lần để đảm bảo là vòng vẫn được đặt đúng chỗ.",
+    "answer": "Xin lỗi, tài liệu được cung cấp không có thông tin về cách tự kiểm tra vòng tránh thai có đúng vị trí hay không, nên chưa đủ cơ sở để tư vấn chính xác cho bạn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cho tôi hỏi tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không? Cảm ơn bác sĩ đã tư vấn và giải đáp!\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi: “Tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không?” đến AI-Doctor. Mong một ngày gần nhất có thể gặp bạn để được tư vấn chuyên sâu. Trân trọng!",
+            "score": 0.5730584859848022,
+            "id": "vietnamese_medical_qa_2033"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nCháu thấy có nhiều người tự mua vitamin E về để uống. Bác sĩ cho cháu hỏi việc tự mua vitamin E để uống như vậy có đúng không ạ? Sử dụng vitamin E có cần chỉ định của bác sĩ không ạ? Mong bác sĩ tư vấn giúp cháu. Cháu cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin trả lời bạn như sau:\nNếu bạn đã hiểu về liều lượng vitamin E, như thế nào là vitamin E tự nhiên, vitamin E tổng hợp rồi thì bạn có thể tự đi mua được. Những thuốc vitamin như vậy không cần kê đơn của bác sĩ, chỉ cần bạn hiểu đúng tính chất của vitamin E và cách sử dụng vitamin E.",
+            "score": 0.5681454539299011,
+            "id": "vietnamese_medical_qa_2187"
+        },
+        {
+            "text": "Câu hỏi: Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nTrả lời: 5. Cần trao đổi với bác sĩ để hiểu rõ về rối loạn cương dương\nBệnh nhân rối loạn cương dương cũng như các vấn đề về sinh lý nam nói chung thường có nhiều thắc mắc về bệnh tình của mình. Hãy chuẩn bị sẵn những câu hỏi và thắc mắc trước khi đến khám: Đâu là nguyên nhân dẫn đến tình trạng này? Những triệu chứng này là lâu dài hay chỉ tạm thời? Bệnh rối loạn cương dương có chữa được không ? Các lựa chọn điều trị bao gồm những gì? Nếu điều trị không hiệu quả thì sao? Có cần gặp chuyên gia về nam khoa? Phí điều trị có được bảo hiểm y tế chi trả? Bệnh rối loạn cương dương có tự khỏi không ? Cần thay đổi lối sống như thế nào? Làm cách nào để tìm hiểu thêm thông tin?",
+            "score": 0.5582596659660339,
+            "id": "vietnamese_healthcare_125866"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi em bị răng hơi khấp khểnh thì nên làm thế nào ạ? Mong nhận được những chia sẻ của bác sĩ!\nTrả lời: Rất mong có thể sớm gặp bạn tại AI-Doctor. Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “ Răng hơi khấp khểnh thì nên làm thế nào?” Chúc bạn luôn tự tin trong cuộc sống. Trân trọng!",
+            "score": 0.5506708025932312,
+            "id": "vietnamese_medical_qa_2257"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+            "score": 0.5346204042434692,
+            "id": "vietnamese_medical_qa_1629"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

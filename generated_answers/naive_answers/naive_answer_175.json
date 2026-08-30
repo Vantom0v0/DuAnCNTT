@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cháu đi khám tổng quát và kết luận tăng gánh thất trái, ngực cháu hay thấy khó chịu. Vậy bác sĩ cho cháu hỏităng gánh thất trái phải điều trị thế nào?Cháu cảm ơn bác sĩ. Hồ Hữu Thắng(1999) Trả lời",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Tăng gánh thất tráilà tình trạng ứ máu tâm thất trái, tăng gánh nặng cho tim, làm tim phải hoạt động, co bóp mạnh hơn, do đó thành thất trái dày lên và giãn ra. Tăng gánh thất trái thường gặp trong bệnhtăng huyết áp, hở hay hẹp van động mạch chủ, hẹp eo động mạch chủ,hở van 2 lá, còn ống động mạch, thiếu máu cơ tim cục bộ,...Bạn nên khám với bác sĩ Nội Tim mạch để được chẩn đoán nguyên nhân gây tăng gánh thất trái, qua đó có biện pháp điều trị thích hợp.  Được giải đáp bởiThạc sĩ, Bác sĩ Phạm Văn Hùng -Bác sĩ tim mạch can thiệp - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+    "answer": "Tài liệu cung cấp không có thông tin cụ thể về cách điều trị tăng gánh thất trái, nên chưa đủ cơ sở để trả lời chính xác. Cảm giác khó chịu ở ngực có thể do nhiều nguyên nhân như tim mạch, phổi hoặc vùng xương sườn; cháu nên cung cấp thêm vị trí, thời điểm, mức độ đau và đau có lan đi đâu không, đồng thời đi khám để được bác sĩ đánh giá trực tiếp và tư vấn phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Em có một khối u lành tính ở ngực trái, nhưng đôi lúc e hay bị nhói ngay chỗ khối u đó. Cho em hỏi khối u lành tính có thể chuyển thành ung thư hay không và triệu chứng của e gặp có nguy hiểm hay không ạ?\nTrả lời: Chào em\nKhối u của em là khối u gì đã đi khám chưa ? Nếu khối u đó không đau bây giờ đau, phát triến lớn hơn thì em nên đi khám chuyên khoa ngoại tổng quát để khám và tư vấn cụ thể\nThân mến chào em",
+            "score": 0.6618120074272156,
+            "id": "vietnamese_medical_qa_6258"
+        },
+        {
+            "text": "Câu hỏi: chào bác sĩ. 3 hôm nay ngực e có hiện tượng khó chịu, nếu dùng tay vỗ vào thì đau nhức. bác sĩ tư vấn giúp e với ạ\nTrả lời: chào bạn: bạn đau ngực từ bao giờ! đau vị trí nào, bạn đau có lan đi đâu không bạn' đau ngực có nhiều nguyên nhân' nguyên nhân do tim mạch! do phổi, do bản thân vùng xương sườn cũng có thêt gây đau! bạn nên cung cấp thêm thông tin bác sĩ tư vấn tốt nhất cho bạn! \nthân ái chào bạn",
+            "score": 0.6133130788803101,
+            "id": "vietnamese_medical_qa_6120"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho cháu hỏi thường xuyên đau tức ngực là dấu hiệu của bệnh gì? Bởi vì 1 - 2 tháng nay, cháu thường xuyên bị đau tức ngực, cơn tức nghẹn lên cổ, nó chỉ diễn ra trong vài phút rồi tự khỏi, nếu không cháu chỉ cần uống nước là khỏi luôn. Cháu cảm ơn bác sĩ rất nhiều ạ!\nTrả lời: Chào bạn! Đối với câu hỏi thường xuyên đau tức ngực là dấu hiệu của bệnh gì? Bác sĩ xin được trả lời như sau:\nCảm ơn bạn đã gửi câu hỏi tới AI-Doctor. Trân trọng!",
+            "score": 0.6073818206787109,
+            "id": "vietnamese_medical_qa_2327"
+        },
+        {
+            "text": "Câu hỏi: Thường xuyên đau bụng dưới phần ngực có sao không?\nTrả lời: Bạn chưa mô tả rõ tình trạng đau bụng của bạn rõ, đau bụng vùng thượng vị không?Tính chất đau như thế nào?có liên quan đến bữa ăn không?Có cảm giác nóng rát vùng sau xương ức không? Nếu được, bạn cần đến bác sĩ chuyên khoa tiêu hóa để có chẩn đoán chính xác và điều trị phù hợp bạn nhé.",
+            "score": 0.5969855785369873,
+            "id": "vietnamese_healthcare_9359"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, năm nay cháu 17 tuổi. Thời gian gần đây cháu bỗng thấy 1 bên ngực mình nổi cục u to, cứng hơn hẳn bên còn lại nhưng không có triệu chứng đau hay gì khác. Xin hỏi bác sĩ cháu có bị sao không ạ?\nTrả lời: Chào cháu !\nKhông rõ khối u cháu sờ thấy ở vị trí nào trên vú? ở núm vú? hay ở ngoài quầng núm vú? hình dáng của khối đó tròn hay thuôn dài? có di động hay không?..bình thường có thể thấy núm vú cứng, đau nhẹ khi ấn lúc tuổi dậy thì và có khi kích thước bằng quả cau nhỏ, hoặc có thể có khối cứng nhẹ của tuyến sữa trên vú nhưng không tròn có di động,...nhưng tốt hơn hết nếu cục u đó vẫn còn trên ngực thì cháu nên đến bác sỹ phụ khoa để được khám trực tiếp, siêu âm vú, sẽ được tư vấn cụ thể cháu nhé .\n Thân mến !",
+            "score": 0.5935625433921814,
+            "id": "vietnamese_medical_qa_6060"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

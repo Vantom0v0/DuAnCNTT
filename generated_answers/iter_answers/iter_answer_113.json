@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Cháu mổ u ác tuyến giáp vét hạch nhưng sau khi mổ xong tỉnh dậy thì mắt cháu bị sưng 1 bên. Cháu hỏi bác thì họ bảo là tác dụng phụ của thuốc gây mê gây ra, vài hôm là hết. Bác sĩ có thể cho cháu biết rõ hơn được không ạ? Một mắt sưng như thế này có hết không ạ? Cháu mổ ngày 13/5 ạ.",
+    "ground_truth": "Chào cháu. Đây không phải tác dụng phụ của thuốc gây mê mà do tắc tĩnh mạch nhỏ từ mắt về tim bị ngừng trê nên mắt cháu bị sưng một bên, trong vài ngày sẽ khỏi. Cháu nên nằm đầu cao, yêu cầu bác sĩ phẫu thuật viên và chuyên khoa mắt khám, cho ý kiến điều trị thêm cho cháu.",
+    "answer": "Sưng một bên mắt sau mổ u tuyến giáp và vét hạch thường không phải do thuốc gây mê mà có thể do tắc nghẽn tạm thời các tĩnh mạch nhỏ dẫn máu từ vùng mắt về tim, gây ứ trệ và phù; tình trạng này thường giảm và hết trong vài ngày. Cháu nên nằm kê đầu cao, đồng thời yêu cầu bác sĩ phẫu thuật và bác sĩ chuyên khoa Mắt khám để xác định nguyên nhân và hướng điều trị. Vì cháu đã mổ từ ngày 13/5, nếu mắt vẫn sưng, sưng tăng, đau/đỏ mắt, nhìn mờ hoặc kèm khó thở, cháu cần báo ngay cho bệnh viện hoặc đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Sưng một bên mắt sau mổ u ác tuyến giáp vét hạch là do đâu?\nTrả lời: Đây không phải tác dụng phụ của thuốc gây mê mà do tắc tĩnh mạch nhỏ từ mắt về tim bị ngừng trê nên mắt cháu bị sưng một bên, trong vài ngày sẽ khỏi. Cháu nên nằm đầu cao, yêu cầu bác sĩ phẫu thuật viên và chuyên khoa mắt khám, cho ý kiến điều trị thêm cho cháu.",
+            "score": 0.9125229716300964,
+            "id": "vietnamese_healthcare_3135"
+        },
+        {
+            "text": "Câu hỏi: Em có một nhân tuyến giáp kích thước 3mm. Dạo gần đây, em thấy mặt có vẻ hơi sưng to hơn so với bình thường, mí mắt trên bên trái hay giật. Bác sĩ cho em hỏisưng mặt kèm giật mí mắt trái có phải do nhân tuyến giáp?Đối với kích thước nhân tuyến giáp như vậy, em nên ăn muối Iốt hay chuyển sang muối thường ạ và em có phải điều trị nhân tuyến giáp không thưa bác sĩ. Em cảm ơn. Phan Anh Thoại Khanh(1991) Trả lời\nTrả lời: Chào bạn Với câu hỏi “Sưng mặt kèm giật mí mắt trái có phải do nhân tuyến giáp?”, bác sĩ giải đáp như sau: Nhân tuyến giáp là các khối nhân đặc hoặc chứa đầy chất lỏng hình thành trong tuyến giáp, một tuyến nhỏ nằm ở nền cổ, ngay phía trên xương ức của bạn. Hầu hết, các nhân tuyến giáp không nguy hiểm và không gây ra triệu chứng. Có một tỷ lệ nhỏ các nhân tuyến giáp là nhân ung thư. Bệnh bướu cổ có thể mắc phải do nguyên nhân ăn thiếu hoặc thừa muối Iốt trong khẩu phần ăn hàng ngày, nên khi nghi ngờ có thể mắc bệnh, bạn nên gặp bác sĩ chuyên khoa nội tiết để được khám, tư vấn, xét nghiệm, thăm dò để xác định, phân loại, điều trị phù hợp cho từng loại bệnh.  Được giải đáp bởiTiến sĩ. Bác sĩ Trương Ngọc Hải- Bác sĩ Hồi sức - Khoa Hồi sức Cấp cứu, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+            "score": 0.6661421060562134,
+            "id": "medical_vietnamese_qa_10011"
+        },
+        {
+            "text": "Câu hỏi: Vợ emmổ cắt bỏ tuyến giáp. Đến giờ, vợ em mổ được khoảng 2 tuần rồi nhưng giờ chỗ mổ vẫn đau và có hiện tượng hơi sưng bên trên vết mổ và cũng hơikhó thởnữa. Vậy bác sĩ cho em hỏivết mổ cắt tuyến giáp sưng kèm khó thở có sao không?Em cảm ơn bác sĩ. Bùi Văn Giang(1986) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Trần Minh Tuấn -Khoa Ngoại Tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Trường hợp của bạn ghi nhận sưng,đau vùng quanh vết mổvà hơi khó thở sau mổ cắt tuyến giáp 02 tuần, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến bệnh viện để khám kiểm tra lại, có thể siêu âm kiểm tra vùng phẫu thuật nếu cần thiết. Nếu bạn còn thắc mắc vềcắt tuyến giáp, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng!",
+            "score": 0.636640191078186,
+            "id": "medical_vietnamese_qa_9346"
+        },
+        {
+            "text": "Câu hỏi: Vết mổ cắt tuyến giáp sưng kèm khó thở có sao không?\nTrả lời: Trường hợp của bạn ghi nhận sưng, đau vùng quanh vết mổ và hơi khó thở sau mổ cắt tuyến giáp 02 tuần, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến bệnh viện để khám kiểm tra lại, có thể siêu âm kiểm tra vùng phẫu thuật nếu cần thiết.",
+            "score": 0.6356590986251831,
+            "id": "vietnamese_healthcare_8478"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!!\nHồi tháng 4/2019, cháu có đi khám hạch cổ, kết quả xét nghiệm là hạch lành tính. Sau đó cháu có chích mổ hạch. Dạo gần đâu, chỗ vết khâu chích hạch lần trước bị sưng hạch lên và đau, trước đây khi chích hạch cháu cũng bị sưng đau như vậy. Bây giờ cháu lại bị mọc hạch lại thì có sao không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nChào bác sĩ. Bác sĩ cho em hỏi cách đây hơn 1 năm trước em có bị nổi hạch và đã sinh thiết để lấy hạch ra. Sau đó em được chẩn đoán bệnh là lao hạch, em đã uống thuốc chữa hết theo phác đồ là 1 năm vào ngày 26/4/2020. Thì từ đó đến nay khoảng hơn 1 tháng ngay chỗ vết mổ cũ lại nổi lên 1 cục tròn giống cục hạch. Bác sĩ cho em hỏi đó có phải em bị hạch lao tái phát không ạ. Mong bác sĩ tư vấn giúp em ạ. Em cảm ơn.\nTrả lời: Chào em!\nTốt nhất em nên sớm đi khám để kiểm tra lại, có 2 vấn đề cần phải chắc chắn như sau:\nMột là, khối bất thường vùng cổ của em bản chất là gì? Là hạch phản ứng viêm thông thường hay hạch lao hay u? Nếu là u thì là u lành hay u ác?\nHai là, xuất hiện lại khối bất thường đó có phải là do tái phát hay do nhiễm trùng vùng vết mổ cũ?\nKhi em đến bệnh viện thăm khám bác sĩ có thể sẽ cho em siêu âm đánh giá lại, xét nghiệm máu, nếu nghi ngờ u thì sẽ phải sinh thiết tổ chức đó để xác định bản chất.\nCảm ơn bạn đã tin tưởng AI-Doctor, rất mong có thể gặp bạn để được tư vấn kỹ càng hơn. Trân trọng!",
+            "score": 0.6332904100418091,
+            "id": "vietnamese_medical_qa_3404"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

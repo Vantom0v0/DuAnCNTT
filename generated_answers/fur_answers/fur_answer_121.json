@@ -1,9 +1,9 @@
 {
     "model_name": "fur",
-    "query": "ạ! Năm kia em có bịchửa trứng bán phầnvà giờ em có thai lại nhưng đã 6 tuần vẫn chưa cótim thai. Túi ối to nhưng phôi thai bé. Bác sĩ cho em hỏi là trường hợp của em có hướng điều trị được không ạ? Le Thi Ly(1994) Trả lời",
-    "groundtruth": "Chào bạn! Trước tiên bạn cần xác định chắc chắn thai còn phát triển hay không. Chỉ nên điều trị khi chắc chắn thai còn phát triển bạn nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Được giải đáp bởi Bác sĩ Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
-    "answer": "Theo thông tin được cung cấp:\n\n- Nếu **phôi thai có kích thước trên 7 mm nhưng siêu âm không thấy tim thai**, có thể xác định là **thai ngừng phát triển**.\n- Nếu phôi khoảng **5 mm mà chưa thấy tim thai** thì **chưa đủ để kết luận chắc chắn**, dù tiên lượng không tốt; nên siêu âm kiểm tra lại sau khoảng **1 tuần** hoặc theo lịch bác sĩ.\n- Xét nghiệm **beta-hCG chỉ có giá trị tham khảo**, không dùng đơn độc để chẩn đoán thai lưu; cần xét nghiệm hai lần để so sánh.\n\nVì vậy, trường hợp chưa đạt tiêu chuẩn trên 7 mm cần được theo dõi và siêu âm lại, không nên tự kết luận chỉ dựa trên một lần siêu âm.",
-    "evidence": [
+    "question": "ạ! Năm kia em có bịchửa trứng bán phầnvà giờ em có thai lại nhưng đã 6 tuần vẫn chưa cótim thai. Túi ối to nhưng phôi thai bé. Bác sĩ cho em hỏi là trường hợp của em có hướng điều trị được không ạ? Le Thi Ly(1994) Trả lời",
+    "ground_truth": "Chào bạn! Trước tiên bạn cần xác định chắc chắn thai còn phát triển hay không. Chỉ nên điều trị khi chắc chắn thai còn phát triển bạn nhé. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Được giải đáp bởi Bác sĩ Khoa sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.",
+    "answer": "Dựa trên thông tin được cung cấp, **chưa đủ dữ liệu để xác định chắc chắn thai ngừng phát triển chỉ vì thai khoảng 6 tuần, túi ối to và phôi nhỏ**.\n\n- Nếu **phôi có kích thước trên 7 mm nhưng không thấy tim thai**, bằng chứng cho biết có thể xác định là **thai ngừng phát triển**.\n- Nếu phôi khoảng **5 mm chưa có tim thai**, tiên lượng không tốt nhưng **chưa đủ để kết luận chắc chắn**. Nên siêu âm kiểm tra lại sau khoảng **1 tuần**; một số trường hợp có thể theo dõi sau **1–2 tuần**.\n- Xét nghiệm **beta-hCG chỉ có giá trị tham khảo**, không đủ để chẩn đoán thai lưu khi làm một lần; cần có **hai lần xét nghiệm để so sánh**.\n- Nếu lần siêu âm kiểm tra vẫn không có tim thai, bác sĩ có thể kết luận thai ngừng phát triển. Khi đã xác định chắc chắn, các hướng xử trí được nêu gồm **dùng thuốc hoặc nạo hút để lấy thai ra**.\n\nTiền sử chửa trứng bán phần và tình trạng túi ối to, phôi nhỏ có thể khiến cần được theo dõi sản khoa chặt chẽ hơn, nhưng thông tin hiện có **không nêu tiêu chuẩn xử trí riêng cho trường hợp này**. Bạn nên khám tại cơ sở sản khoa để được siêu âm lại theo hẹn. Nếu đau bụng hoặc ra máu âm đạo, cần đi khám sớm hơn.",
+    "retrieved": [
         {
             "text": "Câu hỏi: Em đang mang thai được 5,6 tuần. Tuy nhiên, em bị ra máu nâu, sáng hôm sau ra máu đỏ, không đau bụng. Em đã đi siêu âm đầu dò và được chẩn đoán túi thai méo, không đều, chưa có tim thai. Do đó, bác sĩ kết luận thai ngừng phát triển và chỉ định em ngậm thuốc bỏ thai vào ngày mai. Bác sĩ cho em hỏi,thai nhi 6 tuần chưa có tim thai, túi thai méo có nguy hiểm không?\nTrả lời: bác sĩ xin giải đáp như sau: Với tuổi thai 5-6 tuần, túi thai méo, không đều và chưa có tim thai, không thể kết luận chắc chắn làthai ngừng tiến triển. Bạn nên siêu âm lại sau 1-2 tuần hoặc làm thêm xét nghiệm beta HCG để đánh giá sự phát triển của thai sau 48h. Nếu kết quả siêu âm sau 1-2 tuần thai không có tim thai hoặc xét nghiệm chỉ số beta HCG giảm sau 48 giờ, chứng tỏ rằng thai của bạn đã ngưng tiến triển. Với một thai đã kết luận chắc chắn ngưng tiến triển, không còn cách nào giữ thai và bạn phải dùng thuốc hoặc nạo hút để lấy thai ra ngoài.",
             "score": 0.6106929779052734,
@@ -36,10 +36,17 @@
         },
         {
             "text": "Câu hỏi: Hiện tại, thai của em được 6 tuần 2 ngày tuổi, phôi thai 5mm. Khi em đi siêu âm, bác sĩ bảo chưa có tim thai và cho em làm xét nghiệm beta HCG cho kết quả là 61866. Xin hỏi bác sĩphôi thai 5mm nhưng siêu âm chưa có tim thai có sao không? Sally(Hà Nội) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Khắc Hiệu -Bác sĩ sản phụ khoa - Khoa Sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Phôi thai kích thước 5mm mà chưa có tim thai chứng tỏ thai tiên lượng không tốt. Nếu kích thước phôi thai trên 7mm mà không có tim thai là thai ngừng phát triển. Còn kết quả Beta HCG chỉ có giá trị tham khảo thôi, không có giá trị chẩn đoán thai lưu hay không và phải là 2 lần để so sánh. Với trường hợp của bạn nếu không đau bụng, không ra máu thì siêu âm kiểm tra sau 1 tuần, nếu không có tim thai là thai của bạn ngừng phát triển.",
-            "score": 0.6139477491378784,
+            "score": 0.6544592380523682,
             "id": "medical_vietnamese_qa_2764",
-            "rerank_score": 0.9939203262329102,
-            "weighted_score": 0.9798274517059327
+            "rerank_score": 0.9902308583259583,
+            "weighted_score": 0.9790895581245422
+        },
+        {
+            "text": "Câu hỏi: Em trễ kinh và đi siêu âm, thì phát hiện túi thai trong tử cung 6 tuần tuổi, nhưng chưa thấy phôi thai. Hiện nay vì dịch bệnh em không thể đi bệnh viện để thăm khám. Bác sĩ cho em hỏitúi thai trong trong tử cung 6 tuần tuổi nhưng chưa có phôi thai có sao không?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ. Bùi Thị Nga(1989) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Trương Thị Phượng- Bác sĩ Siêu âm sản phụ khoa - Khoa Sản phụ khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn cho mình hỏi thêm bạn trễ kinh bao nhiêu ngày, chu kỳ kinh của bạn có đều không? Trên siêu âm túi thai khoảng 6 tuần và chưa có phôi thì có thể có 2 khả năng, một là thai còn bé chưa có phôi, cần theo dõi thêm sau 1-2 tuần. Khả năng thứ hai có thể túi thai không phát triển. Dù khả năng gì thì cũng còn sớm để kết luận. Nếu không có triệu chứng gì thì bạn có thể siêu âm kiểm tra sau 1-2 tuần. Nếu có triệu chứng bất thường: Đau bụng, ra máu âm đạo,... bạn cần đến gặp bác sĩ sớm hơn bất cứ lúc nào.",
+            "score": 0.5449345707893372,
+            "id": "medical_vietnamese_qa_1859",
+            "rerank_score": 0.9642284512519836,
+            "weighted_score": 0.9340889096260071
         }
     ],
     "llm_call": 5,

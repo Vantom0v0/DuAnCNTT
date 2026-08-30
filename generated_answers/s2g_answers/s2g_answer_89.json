@@ -1,0 +1,120 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Cháu chào bác sĩ ạ. Cháu làm nam, năm nay 19 tuổi. Gần đây cháu phát hiện ra quanh phần đầu của bộ phận sinh dục có các chấm nhỏ bao quanh, xếp thành hàng. Mà cháu có lỡ 1 lần quan hệ không bảo vệ ạ. Vậy là cháu bị bệnh gì ạ?",
+    "ground_truth": "Chào bạn. Với những thông tin bạn cung cấp có thể bạn đang bị viêm nhiễm nam khoa, do vi khuẩn và nấm gây hại tấn công vào vùng kín, gây nhiễm khuẩn đường sinh dục. Nguyên nhân gây viêm nhiễm nam khoa có thể do vệ sinh vùng kín không tốt, quan hệ không sử dụng biện pháp an toàn rất dễ mắc các bệnh lây qua đường tình dục,...\nBạn cần đến cơ sở y tế để được bác sĩ chuyên khoa thăm khám và tư vấn chi tiết nhé.",
+    "answer": "Các chấm nhỏ màu trắng hoặc hồng, trơn láng, xếp thành một hoặc hai hàng quanh vành quy đầu và không gây đau, ngứa hay khó chịu thường phù hợp với **chuỗi hạt ngọc dương vật**—một tình trạng bình thường, không phải dị tật và thường không cần điều trị; đôi khi có thể tự biến mất. Tuy nhiên, chỉ dựa vào thông tin hiện có chưa đủ để kết luận về nguy cơ bệnh do lần quan hệ không bảo vệ. Nếu xuất hiện đỏ, sưng, đau khi chạm, tiểu khó hoặc tiết dịch có mùi hôi, cháu nên đi khám.",
+    "evidence": [
+        "Câu hỏi: Xin chào bác sĩ,\nTừ nhỏ đến giờ tôi thấy đầu dương vật của mình có những gai màu trắng xung quanh đầu khấc, chúng nằm vòng xung quanh đường viền của đầu khấc, từ nhỏ đến giờ vẫm thấy chúng mà tôi thấy của mọi ngưòi thì không có các gai này.",
+        "Dương vật tôi lâu nay tiểu tiện bình thường và không đau đớn gì, các gai này cho cảm giác nhột chứ cũng ko đau đớn, xin hỏi bác sĩ tôi có fai bị dị tật gì ở dương vật không?",
+        "Các chấm nhỏ ở vành dương vật thường là chuỗi hạt ngọc dương vật, một hiện tượng bình thường ở nam giới nên không cần điều trị bạn nhé.",
+        "Viêm quy đầu là bệnh lý gây đỏ, sưng ở đầu dương vật, khiến nam giới bị đau đớn khi chạm vào và gặp khó khăn trong việc đi đại tiện.",
+        "Viêm dương vật quy đầu cũng gây ra tình trạng tiết ra dịch có mùi hôi khó chịu ở bộ phận sinh dục nam.",
+        "Vệ sinh kém là nguyên nhân phổ biến nhất của viêm bao quy đầu , bên cạnh đó một số yếu tố gây bệnh khác cũng có thể kể đến như nhiễm khuẩn hoặc nấm, nhiễm trùng đường tiểu , dị ứng da, chấn thương vùng kín do tác động mạnh hoặc quan hệ tình dục không an toàn.",
+        "Đó là tình trạng bình thường của dương vật, Ở 1 số người những gai nhỏ trên dương vật có thể làm tăng thêm khoái cảm khi quan hệ.",
+        "Không liên can gì đến dị tật.",
+        "Dẫn tới hình thành những nốt mụn thịt nhỏ li ti có màu hồng hoặc trắng, đỉnh mụn nhịn, trơn láng.",
+        "Tạo thành một hay hai hàng dọc vòng quanh khấc quy đầu.",
+        "Không gây cảm giác đau đớn, ngứa ngáy hay khó chịu nào cho người bệnh.",
+        "Hạt ngọc dương vật có khả năng sẽ tự biến mất mà không cần phải điều trị."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ, em bị nổi mụn quanh rãnh quy đầu màu đỏ và bao quy đầu bị nổi mụn rộp khi vỡ bị loét đau như kim chích, lúc tự khỏi sau thời gian lại bị lại, em bị bệnh gì vậy ạ?\nPhước Mạnh (Đà Nẵng)\nChào bác sĩ. Cháu bị nổi mẩn đỏ đầu dương vật đó là bệnh gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn, bạn có tiền sử quan hệ tình dục không an toàn không? Tình trạng này là tình trạng viêm nhiễm ở dương vật. Ban nên đến khám chuyên khoa Tiết niệu để được tư vấn và điều trị chính xác.",
+                "score": 0.580572783946991,
+                "id": "vietnamese_medical_qa_4133",
+                "rerank_score": 0.7131500840187073
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nTừ nhỏ đến giờ tôi thấy đầu dương vật của mình có những gai màu trắng xung quanh đầu khấc, chúng nằm vòng xung quanh đường viền của đầu khấc, từ nhỏ đến giờ vẫm thấy chúng mà tôi thấy của mọi ngưòi thì không có các gai này. Dương vật tôi lâu nay tiểu tiện bình thường và không đau đớn gì, các gai này cho cảm giác nhột chứ cũng ko đau đớn, xin hỏi bác sĩ tôi có fai bị dị tật gì ở dương vật không? Xin cảm ơn bác sĩ\nTrả lời: Chào em!\nĐó là tình trạng bình thường của dương vật, Ở 1 số người những gai nhỏ trên dương vật có thể làm tăng thêm khoái cảm khi quan hệ. Không liên can gì đến dị tật. Nên em đừng lo lắng. \nThân ái!",
+                "score": 0.5968964695930481,
+                "id": "vietnamese_medical_qa_8883",
+                "rerank_score": 0.5816499590873718
+            },
+            {
+                "text": "Câu hỏi: Dạ thưa bác sĩ, bao quy đầu bị dài, xuất hiện chấm nhỏ ở vành dương vật có nên đi cắt không ạ?\nTrả lời: Chào bạn! Để trả lời câu hỏi trên Bác sĩ xin tư vấn như sau:\nBao quy đầu dài ảnh hưởng đến vấn đề vệ sinh và hay bị viêm nhiễm, tuy nhiên không bắt buộc phải cắt bao quy đầu nếu bạn chịu khó vệ sinh. Các chấm nhỏ ở vành dương vật thường là chuỗi hạt ngọc dương vật, một hiện tượng bình thường ở nam giới nên không cần điều trị bạn nhé.",
+                "score": 0.5881037712097168,
+                "id": "vietnamese_medical_qa_2867",
+                "rerank_score": 0.23170927166938782
+            },
+            {
+                "text": "Câu hỏi: Bệnh lý viêm bao quy đầu\nTrả lời: 1. Bệnh lý viêm bao quy đầu\nBao quy đầu là vùng da mỏng che phủ đầu dương vật và lỗ tiểu, khi dương vật cương cứng bao da quy đầu sẽ tuột ra lộ để bộ phận này. Song có trường hợp bao quy đầu bị hẹp bẩm sinh khiến đầu dương vật dù ở trạng thái bình thường hay khi cương cứng đều nằm kẹt trong bao quy đầu. Đây chính là nguyên nhân khiến nước tiểu và chất bẩn bựa ứ đọng lại trong bộ phận sinh dục nam, trở thành môi trường thuận lợi cho vi khuẩn phát triển và gây bệnh. Viêm quy đầu là bệnh lý gây đỏ, sưng ở đầu dương vật, khiến nam giới bị đau đớn khi chạm vào và gặp khó khăn trong việc đi đại tiện. Trong đó, bao da quy đầu tắc nghẽn sẽ giữ lại nước tiểu, vi khuẩn và các vi sinh vật khác là nguyên nhân dẫn đến căn bệnh này. Viêm dương vật quy đầu cũng gây ra tình trạng tiết ra dịch có mùi hôi khó chịu ở bộ phận sinh dục nam. Tình trạng viêm quy đầu khá phổ biến và xảy ra ở nam giới thuộc mọi độ tuổi. Tuy nhiên, những người không cắt bao quy đầu , hoặc là bệnh nhân của herpes sinh dục , lậu , tiểu đường không kiểm soát,... là đối tượng có nhiều nguy cơ mắc bệnh viêm dương vật quy đầu hơn. Vệ sinh kém là nguyên nhân phổ biến nhất của viêm bao quy đầu , bên cạnh đó một số yếu tố gây bệnh khác cũng có thể kể đến như nhiễm khuẩn hoặc nấm, nhiễm trùng đường tiểu , dị ứng da, chấn thương vùng kín do tác động mạnh hoặc quan hệ tình dục không an toàn. Quan hệ tình dục không an toàn là nguyên nhân dẫn tới viêm bao quy đầu",
+                "score": 0.58094722032547,
+                "id": "vietnamese_healthcare_120253",
+                "rerank_score": 0.08215116709470749
+            },
+            {
+                "text": "Câu hỏi: Dương vật của cháu bị cặn ở đầu, gây ngứa và bị mủ ở đầu dương vật. Trước cháu có đi nong đầu nhưng không nong ra hết, bây giờ lại bị dính lại gây mủ và rất ngứa, cặn trắng bám nhiều ở lớp trong da, lâu ngày gây ra mủ xanh rất tanh. Bác sĩ cho cháu hỏiphương pháp nong bao quy đầu mà không gây đau?Vì lần trước làm cháu rất đau và sợ. Mong bác sĩ tư vấn giúp. Cháu cảm ơn bác sĩ. Nguyễn Minh Hiếu(2013) Trả lời Được giải đáp bởiPhó giáo sư, Thạc sĩ Bùi Đức Hậu- Bác sĩ Nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Với trường hợp của bạn, bao quy đầu bị hẹp gây nhiễm trùng có mủ thường xuyên như vậy, mặc dù đã được nong lấy cặn mà không khỏi thì nên cắt bỏ bao quy đầu, loại bỏ cái giữ ứ đọng nước tiểu và lắng đọng cặn nguyên nhân gây nhiễm trùng. Về phương pháp điều trị không đau: Nếu chọn cách cắt bỏ bao quy đầu thì sẽ không đau vì khi cắt là phải gây mê hoặc gây tê tại chỗ nếu là người lớn, đặc biệt sẽ làm cho trẻ không sợ mà ảnh hưởng tới tâm lý trẻ. Nếu bạn vẫn muốn nong để giữ lại bao quy đầu thì không có cách giảm đau nào hữu hiệu, vì nong là thủ thuật phải làm hàng ngày kéo dài từ vài tuần đến hàng tháng mới có thể làm cho bao quy đầu rộng ra được để vệ sinh hàng ngày, nếu như vậy mỗi lần nong lại phải gây mê để không bị đau. Vì vậy bạn nên cân nhắc vấn đề này, nếu cắt bao quy đầu sẽ gây mê và không đau, việc này sẽ giúp việc vệ sinh vùng kín dễ dàng hơn thay vì nong bao quy đầu kéo dài.",
+                "score": 0.577666699886322,
+                "id": "medical_vietnamese_qa_6728",
+                "rerank_score": 0.08014189451932907
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nTừ nhỏ đến giờ tôi thấy đầu dương vật của mình có những gai màu trắng xung quanh đầu khấc, chúng nằm vòng xung quanh đường viền của đầu khấc, từ nhỏ đến giờ vẫm thấy chúng mà tôi thấy của mọi ngưòi thì không có các gai này. Dương vật tôi lâu nay tiểu tiện bình thường và không đau đớn gì, các gai này cho cảm giác nhột chứ cũng ko đau đớn, xin hỏi bác sĩ tôi có fai bị dị tật gì ở dương vật không? Xin cảm ơn bác sĩ\nTrả lời: Chào em!\nĐó là tình trạng bình thường của dương vật, Ở 1 số người những gai nhỏ trên dương vật có thể làm tăng thêm khoái cảm khi quan hệ. Không liên can gì đến dị tật. Nên em đừng lo lắng. \nThân ái!",
+                "score": 0.5766809582710266,
+                "id": "vietnamese_medical_qa_8883",
+                "rerank_score": 0.5816499590873718
+            },
+            {
+                "text": "Câu hỏi: Dạ thưa bác sĩ, bao quy đầu bị dài, xuất hiện chấm nhỏ ở vành dương vật có nên đi cắt không ạ?\nTrả lời: Chào bạn! Để trả lời câu hỏi trên Bác sĩ xin tư vấn như sau:\nBao quy đầu dài ảnh hưởng đến vấn đề vệ sinh và hay bị viêm nhiễm, tuy nhiên không bắt buộc phải cắt bao quy đầu nếu bạn chịu khó vệ sinh. Các chấm nhỏ ở vành dương vật thường là chuỗi hạt ngọc dương vật, một hiện tượng bình thường ở nam giới nên không cần điều trị bạn nhé.",
+                "score": 0.5639289617538452,
+                "id": "vietnamese_medical_qa_2867",
+                "rerank_score": 0.23170927166938782
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Em muốn hỏi bác sĩ, về vấn đề nam giới. Em có cảm giác như là mình có một cái \"trứng dái\" thứ ba nằm giữa hai trứng dưới và phần dưới dương vật. Đó là triệu chứng gì vậy bác sĩ? Tình trạng này có đáng lo ngại không ạ? Cảm ơn bác sĩ đã tư vấn.\nTrả lời: Chào bạn. Cấu trúc nằm giữa 2 tinh hoàn thường gặp nhất là nang thừng tinh, nang mào tinh hoàn. Những nang này chứa dịch trong suốt, mật độ mềm, không đau và di động. Những nang nhỏ không ảnh hưởng đến sức khỏe và không cần phải loại bỏ. Tuy nhiên, cần phân biệt với các bệnh lý khác như thoát vị bẹn bìu, viêm mào tinh hoàn hoặc u vùng bìu.\nCảm ơn bạn đã tin tưởng, chia sẻ những lo lắng tới AI-Doctor. Chúc bạn sớm lấy lại được sự tự tin trong cuộc sống.",
+                "score": 0.5679125189781189,
+                "id": "vietnamese_medical_qa_4841",
+                "rerank_score": 0.21173438429832458
+            },
+            {
+                "text": "Câu hỏi: Bao quy đầu bị dài, xuất hiện chấm nhỏ ở vành dương vật có nên đi cắt không?\nTrả lời: Bao quy đầu dài ảnh hưởng đến vấn đề vệ sinh và hay bị viêm nhiễm, tuy nhiên không bắt buộc phải cắt bao quy đầu nếu bạn chịu khó vệ sinh. Các chấm nhỏ ở vành dương vật thường là chuỗi hạt ngọc dương vật, một hiện tượng bình thường ở nam giới nên không cần điều trị bạn nhé.",
+                "score": 0.5539639592170715,
+                "id": "vietnamese_healthcare_7169",
+                "rerank_score": 0.15494781732559204
+            },
+            {
+                "text": "Câu hỏi: Cháu trai nhà em hơn 2 tháng tuổi.Bộ phận sinh dục của bé bị ngắngiống như bị dính lớp mu. Vậy bác sĩ cho em hỏibé trai hơn 2 tháng tuổi có bộ phận sinh dục ngắn phải làm sao?Em cảm ơn bác sĩ. Nguyễn Thị Như Ý(1994) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Cháu bạn có bộ phận sinh dục ngắn có thể bé bịvùi dương vật. Vùi dương vật có thể do nguyên nhân bẩm sinh (bất thường trong cấu trúc giải phẫu) hoặc mắc phải (béo phì). Bệnh lý này hiện nay hoàn toàn có thể khắc phục được, mức độ tùy thuộc vào tình trạng bệnh. Biện pháp điều trị vùi dương vật tùy thuộc vào nguyên nhân: Áp dụng phẫu thuật, giải pháp dinh dưỡng hoặc kết hợp. Chỉ định phẫu thuật sớm khi có tình trạng bí tiểu,viêm bao quy đầu mãn tính. Vì vậy, bạn nên đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn đánh giá và điều trị sớm.",
+                "score": 0.5449289083480835,
+                "id": "medical_vietnamese_qa_7019",
+                "rerank_score": 0.13740533590316772
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nTừ nhỏ đến giờ tôi thấy đầu dương vật của mình có những gai màu trắng xung quanh đầu khấc, chúng nằm vòng xung quanh đường viền của đầu khấc, từ nhỏ đến giờ vẫm thấy chúng mà tôi thấy của mọi ngưòi thì không có các gai này. Dương vật tôi lâu nay tiểu tiện bình thường và không đau đớn gì, các gai này cho cảm giác nhột chứ cũng ko đau đớn, xin hỏi bác sĩ tôi có fai bị dị tật gì ở dương vật không? Xin cảm ơn bác sĩ\nTrả lời: Chào em!\nĐó là tình trạng bình thường của dương vật, Ở 1 số người những gai nhỏ trên dương vật có thể làm tăng thêm khoái cảm khi quan hệ. Không liên can gì đến dị tật. Nên em đừng lo lắng. \nThân ái!",
+                "score": 0.5931768417358398,
+                "id": "vietnamese_medical_qa_8883",
+                "rerank_score": 0.5816497206687927
+            },
+            {
+                "text": "Câu hỏi: chào BS. đầu dương vật e có hạt ngọc dương vật, e có thể vệ sinh bằng dung dịch nào ạ. \nhiện tại e dùng Natri Clorid 0,9% và rửa, sau đó lau khô.\ne có ý định dùng cồn sát khuẩn 90 độ lau thêm vậy được không ạ. \nngoài ra thì còn dung dịch nào có thể vệ sinh dương vật không ạ. e cám ơn\nTrả lời: Chào bạn. Chuỗi hạt ngọc dương vật hay gai sinh dục là hiện tượng sinh lý thường gặp ở nam giới từ 20 – 30 tuổi. Do sự ứ đọng chất smegma, vệ sinh không sạch sẽ khiến tích tụ cặn bẩn ở vùng da bao quy đầu. Dẫn tới hình thành những nốt mụn thịt nhỏ li ti có màu hồng hoặc trắng, đỉnh mụn nhịn, trơn láng. Tạo thành một hay hai hàng dọc vòng quanh khấc quy đầu. Không gây cảm giác đau đớn, ngứa ngáy hay khó chịu nào cho người bệnh. Hạt ngọc dương vật có khả năng sẽ tự biến mất mà không cần phải điều trị. Nam giới chỉ cần vệ sinh cơ quan sinh dục sạch sẽ hàng ngày. Nếu như bị bệnh lý dài hoặc hẹp bao quy đầu thì cần đến gặp bác sĩ chuyên khoa để làm thủ thuật cắt bao quy đầu sớm. Bạn có thể vệ sinh dương vật bằng nước sạch, ấm, hoặc có thể dùng thêm dung dịch vệ sinh phụ nữ, không nên dùng cồn. Thân mến.",
+                "score": 0.6354002952575684,
+                "id": "vietnamese_medical_qa_5875",
+                "rerank_score": 0.32932382822036743
+            },
+            {
+                "text": "Câu hỏi: cho e hỏi hạt ngọc dương vật có trị hết được tại nhà không hay phải đi khám ỏ bệnh viện BS\nTrả lời: Chuỗi hạt ngọc dương vật hay gai sinh dục là hiện tượng sinh lý thường gặp ở nam giới từ 20 – 30 tuổi. Do sự ứ đọng chất smegma , vệ sinh không sạch sẽ khiến tích tụ cặn bẩn ở vùng da bao quy đầu. Dẫn tới hình thành những nốt mụn thịt nhỏ li ti có màu hồng hoặc trắng, đỉnh mụn nhịn, trơn láng. Tạo thành một hay hai hàng dọc vòng quanh khấc quy đầu. Không gây cảm giác đau đớn, ngứa ngáy hay khó chịu nào cho người bệnh. Hạt ngọc dương vật có khả năng sẽ tự biến mất mà không cần phải điều trị. Nam giới chỉ cần vệ sinh cơ quan sinh dục sạch sẽ hàng ngày. Nếu như bị bệnh lý dài hoặc hẹp bao quy đầu thì cần đến gặp bác sĩ chuyên khoa nam học để làm thủ thuật cắt bao quy đầu sớm. Thân mến",
+                "score": 0.6293978691101074,
+                "id": "vietnamese_medical_qa_5788",
+                "rerank_score": 0.2419692724943161
+            },
+            {
+                "text": "Câu hỏi: Dạ thưa bác sĩ, bao quy đầu bị dài, xuất hiện chấm nhỏ ở vành dương vật có nên đi cắt không ạ?\nTrả lời: Chào bạn! Để trả lời câu hỏi trên Bác sĩ xin tư vấn như sau:\nBao quy đầu dài ảnh hưởng đến vấn đề vệ sinh và hay bị viêm nhiễm, tuy nhiên không bắt buộc phải cắt bao quy đầu nếu bạn chịu khó vệ sinh. Các chấm nhỏ ở vành dương vật thường là chuỗi hạt ngọc dương vật, một hiện tượng bình thường ở nam giới nên không cần điều trị bạn nhé.",
+                "score": 0.5864591002464294,
+                "id": "vietnamese_medical_qa_2867",
+                "rerank_score": 0.23170927166938782
+            },
+            {
+                "text": "Câu hỏi: Bao quy đầu bị dài, xuất hiện chấm nhỏ ở vành dương vật có nên đi cắt không?\nTrả lời: Bao quy đầu dài ảnh hưởng đến vấn đề vệ sinh và hay bị viêm nhiễm, tuy nhiên không bắt buộc phải cắt bao quy đầu nếu bạn chịu khó vệ sinh. Các chấm nhỏ ở vành dương vật thường là chuỗi hạt ngọc dương vật, một hiện tượng bình thường ở nam giới nên không cần điều trị bạn nhé.",
+                "score": 0.5690076351165771,
+                "id": "vietnamese_healthcare_7169",
+                "rerank_score": 0.15494781732559204
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

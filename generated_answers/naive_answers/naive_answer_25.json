@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Đau nửa đầu nên dùng thuốc giảm đau nào hiệu quả?",
+    "ground_truth": "Theo mô tả thì các triệu chứng đó thuộc hội chứng đau nửa đầu (đau đầu vận mạch hay còn gọi là Migraine). Gọi là hội chứng vì nó có nhiều dạng, có rất nhiều nguyên nhân. Các cơn đau do mạch máu não bị căng ra rồi co lại bất thường vì chất dẫn truyền thần kinh serotonin được phóng thích và phân hủy đột ngột khi gặp các yếu tố khởi phát như stress, mất ngủ, thay đổi thời tiết, thay đổi nội tiết tố, bia rượu. . . Thuốc nền tảng để điều trị đau nửa đầu là Tamik (Dihydroergotamine). Đây là thuốc cần được bác sĩ kê đơn. Vì vậy, anh vui lòng đến bệnh viện để được bác sĩ thăm khám và làm các xét nghiệm cận lâm sàng để xác định chẩn đoán và điều trị hiệu quả nhất!",
+    "answer": "Đau nửa đầu có thể được giảm bằng các thuốc không kê đơn như acetaminophen, aspirin, ibuprofen hoặc naproxen; một số thuốc phối hợp acetaminophen–aspirin–caffeine đôi khi hiệu quả hơn dùng riêng lẻ. Ngoài ra, thuốc chuyên dùng cho đau nửa đầu hoặc thuốc kê đơn như triptan, dihydroergotamine và thuốc chống buồn nôn có thể được sử dụng sau khi hỏi ý kiến bác sĩ. Không nên dùng thuốc giảm đau quá 3 ngày mỗi tuần vì có thể gây đau đầu do lạm dụng thuốc; nếu cần dùng thường xuyên, bạn nên đi khám.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Thuốc trị đau đầu không kê đơn\nTrả lời: 8. Thuốc trị đau đầu không kê đơn\nAcetaminophen, aspirin, ibuprofen và naproxen có thể làm giảm đau đầu . Các loại thuốc kết hợp acetaminophen, aspirin và caffein đôi khi sẽ hoạt động tốt hơn so với việc bạn dùng riêng từng loại. Nhưng nếu sử dụng bất kỳ loại thuốc đau đầu nào hơn 3 ngày / tuần đều có thể dẫn đến đau đầu do lạm dụng thuốc . Do đó hãy đi khám bác sĩ nếu bạn cần dùng thuốc thường xuyên.",
+            "score": 0.7127266526222229,
+            "id": "vietnamese_healthcare_100863"
+        },
+        {
+            "text": "Câu hỏi: Dùng thuốc không kê đơn\nTrả lời: 2. Dùng thuốc không kê đơn\nBạn có thể lựa chọn một số loại thuốc uống thuốc giảm đau không kê đơn như acetaminophen , ibuprofen hoặc naproxen. Ngoài ra cũng có loại chuyên dùng để chữa đau nửa đầu kết hợp với giảm đau mà bạn có thể mua để sử dụng sau khi hỏi ý kiến bác sỹ của bạn.",
+            "score": 0.6603499054908752,
+            "id": "vietnamese_healthcare_1120"
+        },
+        {
+            "text": "Câu hỏi: Các thuốc điều trị dự phòng bệnh đau nửa đầu\nTrả lời: 2. Các thuốc điều trị dự phòng bệnh đau nửa đầu\nThuốc đầu tay hiệu quả để phòng chống đau nửa đầu bao gồm: 2.3. Thuốc chống trầm cảm Thuốc chống trầm cảm Amitriptyline có thể hiệu quả hơn so với Propranolol trong điều trị đau nửa đầu và căng thẳng hỗn hợp. Trong đó, Amitriptyline hoạt động nhanh hơn thuốc chẹn beta và người bệnh có thể nhận được hiệu quả sau tối đa 4 tuần với liều dùng 20 – 75 mg mỗi ngày. Các tác dụng phụ có thể bao gồm: Mờ mắt Táo bón Khô miệng Huyết áp thấp khi đứng hoặc nằm Tăng nguy cơ co giật Thay đổi nhịp tim Buồn ngủ Bí tiểu",
+            "score": 0.6533637046813965,
+            "id": "vietnamese_healthcare_82581"
+        },
+        {
+            "text": "Câu hỏi: Các phương pháp điều trị giảm đau nửa đầu khác\nTrả lời: 3. Các phương pháp điều trị giảm đau nửa đầu khác\nMặc dù không có cách chữa trị chứng đau nửa đầu triệt để, nhiều phương pháp điều trị và thay đổi lối sống có thể giúp kiểm soát các triệu chứng của bạn, bao gồm nghỉ ngơi, đòi hỏi phải nằm trong một căn phòng tối và yên tĩnh; và giảm nhẹ triệu chứng xúc giác, bao gồm việc chườm lạnh lên trán hoặc sau cổ. Các phương pháp điều trị sau đây cũng có thể giúp giảm đau : Quản lý căng thẳng: Trị liệu, yoga , thiền Thay đổi lối sống: Tập thể dục, ăn kiêng, bổ sung, ngừng hút thuốc, ngừng uống rượu Các phương pháp điều trị thay thế: Châm cứu, bấm huyệt, liệu pháp xoa bóp, tiêm Botox, phản hồi sinh học, liệu pháp hương thơm Thuốc giảm đau không kê đơn: Aspirin , ibuprofen, acetaminophen, naproxen Thuốc theo toa: Ergotamines , triptans, dihydroergotamine, thuốc chống buồn nôn, thuốc chống trầm cảm, thuốc chẹn beta, thuốc chẹn kênh canxi Các lựa chọn khác: Liệu pháp nội tiết tố Có nhiều loại đau nửa đầu, chẳng hạn như đau nửa đầu cấp tính và mãn tính, đau nửa đầu thị giác , đau nửa đầu tiền đình, đau nửa đầu do nội tiết tố và đau đầu do căng thẳng. Mỗi người trong số này có thể có những nguyên nhân khác nhau. Tóm lại, butterbur là một loại thuốc truyền thống được sử dụng để điều trị đau nửa đầu bằng cách giảm tần suất các cơn đau. Tuy nhiên, butterbur có thể có các tác dụng phụ nghiêm trọng, vì vậy bạn không nên tùy ý sử dụng. Nhìn chung, không có cách chữa trị chứng đau nửa đầu triệt để nhưng một số biện pháp thay đổi lối sống có thể làm giảm bớt các triệu chứng an toàn hơn mà không gây ra tác dụng phụ đáng kể, như châm cứu và thiền định.",
+            "score": 0.6260353922843933,
+            "id": "vietnamese_healthcare_146609"
+        },
+        {
+            "text": "Câu hỏi: Điều trị\nTrả lời: 8. Điều trị\nMục tiêu của điều trị đau nửa đầu là chấm dứt các triệu chứng đang xảy ra và phòng ngừa các đợt đau đầu tái phát sau này. Nhiều loại thuốc đã ra đời để điều trị các triệu chứng đau nửa đầu, có thể phân chia chúng thành 2 nhóm chính là: Thuốc giảm đau dùng điều trị các cơn đau nửa đầu và giảm bớt các triệu chứng. Các thuốc thường được sử dụng là thuốc giảm đau kháng viêm NSAIDs , sumatriptan, dihydroergotamine, lasmitidan, thuốc giảm đau opioid, thuốc chống nôn... Thuốc phòng ngừa có thể được dùng thường xuyên, hàng ngày để giảm bớt mức độ nghiêm trọng hoặc tần suất xuất hiện cơn đau nửa đầu. Các lựa chọn trong nhóm này gồm thuốc làm hạ huyết áp (như chẹn beta), thuốc chống trầm cảm ba vòng , thuốc chống động kinh (valproate, topiramate)... Bệnh viện Đa khoa Quốc tế Vinmec là một trong những bệnh viện không những đảm bảo chất lượng chuyên môn với đội ngũ y bác sĩ, hệ thống trang thiết bị công nghệ hiện đại mà còn nổi bật với dịch vụ khám, tư vấn và chữa bệnh toàn diện, chuyên nghiệp; không gian khám chữa bệnh văn minh, lịch sự, an toàn và tiệt trùng tối đa. Khách hàng khi chọn thực hiện các xét nghiệm tại đây có thể hoàn toàn yên tâm về độ chính xác của kết quả xét nghiệm.",
+            "score": 0.6182639002799988,
+            "id": "vietnamese_healthcare_100470"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "tôi bị cơ địa dị ứng với hoá chất, dị ứng với thuốc gây mê, gây tê 17-35%, bị viêm xoang, đau dạ dày và hay đau đầu khi thay đổi thời tiết, khi căng thẳng, bị u tuyến giáp nhỏ, vậy xin hỏi bác sĩ tôi có thể tiêm phòng vaccine được không?",
+    "ground_truth": "Nếu tình trạng dị ứng của bạn ở mức độ nhẹ, bạn chị có thể tiêm ngừa vaccine Covid-19, nếu mức độ nặng, chị không thể tiêm ngừa theo quy định của Bộ Y tế. Ngoài ra, khi đi tiêm, chị cần mang theo sổ khám bệnh để bác sĩ khám sàng lọc biết được tình trạng u tuyến giáp của chị đang ở giai đoạn nào, có lành tính hay không, điều trị như thế nào để tư vấn chị cụ thể hơn.",
+    "answer": "Nhìn chung, viêm xoang, đau dạ dày, đau đầu do thời tiết/căng thẳng và u tuyến giáp nhỏ không phải là chống chỉ định tiêm nếu bệnh đang ổn định; dị ứng thuốc gây mê/gây tê cũng không đồng nghĩa chắc chắn không được tiêm. Tuy nhiên, vì bạn có tiền sử dị ứng nhiều hóa chất/thuốc, cần khai rõ loại thuốc, biểu hiện và mức độ phản ứng (đặc biệt có khó thở, tụt huyết áp, phù mặt–họng hoặc từng phải nhập viện hay không) khi khám sàng lọc. Nếu từng phản vệ độ II trở lên, bạn có thể bị chống chỉ định hoặc cần đánh giá chuyên khoa trước; nếu chỉ nổi mẩn, ngứa, sưng nhẹ và bệnh nền ổn định, thường vẫn có thể tiêm nhưng nên tiêm tại bệnh viện hoặc cơ sở đủ năng lực cấp cứu và được theo dõi sau tiêm. Không nên tiêm khi đang bệnh cấp tính hoặc viêm xoang bùng phát nặng; hãy mang theo hồ sơ/đơn thuốc và không tự ý thử thuốc hay vaccine trước.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi năm nay 35 tuổi, tôi từng bị dị ứng với tôm, nhộng ở mức độ nổi mẩn đỏ, ngứa ngáy, hơi sưng mặt và cổ; tôi từng bị lichen và bị rối loạn thần kinh thực vật. Như vậy nguy cơ khi tiêm vaccine với tôi như thế nào? Tôi cần lưu ý điều gì nếu quyết định tiêm vaccine Covid-19?\nTrả lời: Nhìn chung, nếu tình trạng dị ứng không phải nhập viện điều trị với chẩn đoán phản vệ độ II thì anh/chị vẫn tiêm phòng vaccine Covid-19 được. Tuy nhiên, theo Quyết định 2995/QĐ-BYT ngày 18/06/2021 của Bộ Y tế thì những trường hợp có tiền sử dị ứng với các loại dị nguyên (tôm nhộng), bệnh Lichen hay rối loạn thần kinh thực vật được kiểm soát ổn định. . . thì nên được thăm khám, tiêm phòng vaccine Covid-19 tại tuyến bệnh viện. Đối với phản ứng sau tiêm phòng vaccine Covid-19 nói riêng hoặc các loại vaccine khác nói chung thì tuỳ vào đáp ứng của mỗi cơ thể sẽ có các phản ứng thông thường như: sốt, mệt mỏi, đau người, đau cơ, đau khớp, sưng đau tại vị trí tiêm, đau bụng, buồn nôn. . . hoặc có thể gặp các phản ứng nghiêm trọng hiếm gặp: phản vệ, phản ứng quá mẫn. . . Khi bạn đi tiêm phòng vaccine Covid-19, các bác sĩ sẽ tư vấn chi tiết hơn cho anh/chị về các phản ứng sau tiêm.",
+            "score": 0.666083037853241,
+            "id": "vietnamese_healthcare_3463"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị ung thư tuyến giáp đã mổ cách đây hơn 7 năm. Trong quá trình điều trị tôi bị rối loạn thần kinh tim và nhịp tim phải uống thuốc chèn beta. Bây giờ thỉnh thoảng vẫn bị đau ngực nhưng bác sĩ nói không sao. Tôi có uống nghệ mật ong và 1 số thuốc thì gây mêt. Vậy tôi có chích ngừa vaccine Covid-19 được không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, những người có bệnh mạn tính trong giai đoạn ổn định thì vẫn được tiêm vaccine Covid-19. Tuy nhiên, trường hợp của chị có tiền sử ung thư tuyến giáp, rối loạn thần kinh tim và nhịp tim trong thời gian điều trị nên chị cần cẩn trọng khi tiêm vaccine Covid-19, vì vậy nên được khám tiêm tại bệnh viện để bác sĩ đánh giá tình trạng bệnh ung thư tuyến giáp và các chỉ số về sinh hiệu để được cân nhắc cho chỉ định ngay hoặc hoãn tiêm.",
+            "score": 0.6515895128250122,
+            "id": "vietnamese_healthcare_199"
+        },
+        {
+            "text": "Câu hỏi: Hiện tại cơ địa của tôi bị dị ứng với các thuốc giảm đau. Tôi bị viêm gan B mạn tính có chích được vaccine AstraZeneca không ạ? Liệu có bị phản ứng hay tác dụng phụ gì không?\nTrả lời: Bạn có cơ địa dị ứng với các thuốc giảm đau và có bệnh viêm gan B mạn tính, theo hướng dẫn của Bộ Y tế thì bạn có thể tiêm vaccine Covid-19 nếu bệnh viêm gan B mạn tính đã ổn định và mức độ dị ứng không phải là phản vệ từ độ II trở lên. Tuy nhiên, bạn là đối tượng cần thận trọng tiêm chủng cần tiêm tại bệnh viện hoặc cơ sở tiêm chủng đủ khả năng cấp cứu ban đầu. Khi khám, bạn cần cung cấp đầy đủ các thông tin về bệnh cũng như tiền sử dị ứng cho bác sĩ khám sàng lọc trước tiêm chủng để được chỉ định tiêm an toàn.",
+            "score": 0.6328162550926208,
+            "id": "vietnamese_healthcare_3229"
+        },
+        {
+            "text": "Câu hỏi: Cơ địa của mình dị ứng kinh khủng. Ngoài dị ứng thời tiết, hải sản, thức ăn để qua đêm... nhưng chưa dị ứng thuốc nào. Xin hỏi có nên khuyến khích chích vaccine Covid-19 không?\nTrả lời: Theo hướng dẫn Bộ Y tế hiện tại những người có tiền sử dị ứng nặng (từ mức độ phản vệ độ II: có triệu chứng da niêm kèm theo triệu chứng hô hấp, tim mạch, tiêu hóa, thần kinh. . . anh/chị phải nhập viện cấp cứu) sau khi tiếp xúc bất kì dị nguyên nào sẽ chống chỉ định tiêm chủng vaccine Covid-19. Với trường hợp dị ứng nhẹ (phản vệ độ I: chỉ có triệu chứng da niêm như ngứa, nổi sẩn mề đay. . . )thì sẽ thuộc đối tượng thận trọng khi tiêm vaccine và có thể xem xét khám sàng lọc tiêm chủng tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Do đó, với trường hợp của anh/chị nên được khám sàng lọc tại bệnh viện hoặc cơ sở có đủ năng lực hồi sức cấp cứu ban đầu để bác sỹ khám sàng lọc, đánh giá tình trạng dị ứng trước đó cũng như tình trạng sức khỏe hiện tại của anh/chị để có chỉ định tiêm chủng hay không. Sau khi tiêm vaccine anh/chị nhớ hướng dẫn của bác sỹ về các dấu hiệu của phản vệ như: nổi mề đay, phù mắt, phù môi, khó thở, đau bụng, buồn nôn, nôn ói. . . . phải đến cơ sở y tế gần nhất để được xử trí điều trị kịp thời.",
+            "score": 0.6230169534683228,
+            "id": "vietnamese_healthcare_5563"
+        },
+        {
+            "text": "Câu hỏi: Em là người bừa có bệnh lý nền, mãn tính vừa bị dị ứng hải sản, cụ thể là em bị bệnh khớp, viêm da dầu (viêm da cơ địa) nên việc ăn uống kiêng cử đủ thứ, nào là hải sản, nào là thịt gà thậm chị cả hoa quả nóng. Ăn sơ sơ 3 con 5 con tôm là nổi biểu hiện lên da ngay, ngứa rát khó chịu. Bác sĩ cho em hỏi với tình trạng dị ứng như vậy liệu nếu em tiêm vaccine thì có bị gì không? Em rất muốn được tiêm vaccine, nhưng lúc nghĩ tới bệnh tình sao mà nản quá.\nTrả lời: Theo hướng dẫn của BYT ban hành ngày 18/6/2021 về hướng dẫn khám sàng lọc trước tiêm phòng vaccine Covid 19, trường hợp nếu bện lý nền mãn tính đã điều trị ổn định trên 3 tháng, tình trạng dị ứng không phải phản vệ độ 2 thì đủ điều kiện tiêm phòng vaccine Covid-19. Tuy nhiên, những đối tượng này cần được tiêm chủng trong khối bệnh viện hoặc cơ sở y tế đủ năng lực hồi sức cấp cứu để được theo dõi và hỗ trợ kịp thời.",
+            "score": 0.6201978921890259,
+            "id": "vietnamese_healthcare_2234"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

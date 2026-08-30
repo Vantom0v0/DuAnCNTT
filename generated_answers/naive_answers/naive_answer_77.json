@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Chào bác sĩ 2 tháng trước cháu có biểu hiện bị nặng ở ngực và đi khám thì được chuẩn đoán là thiếu canxi. Sau đó cháu đã uống thực phẩm chức năng bổ xung canxi thì biểu hiện không còn nữa. Nhưng mấy hôm trước tự nhiên cháu có cảm giác hơi nhói ở bên phải ngực và có cảm giác nhức mỏi lưng, thỉnh thoảng có bị ho nhưng không nhiều. Cháu còn hay bị ợ hơi nữa ạ. Liệu có phải cháu vẫn chưa bổ xung đủ canxi không ạ?",
+    "ground_truth": "chào bạn: nếu bạn có những triệu chứng đấy thường liên quan đến trào ngược dạ đay bạn nhé! trào ngược dạ dày cũng có thể có gây ra triệu chứng như vừa rồi!  bạn có thể đi khám bác sĩ tiêu hoá bạn nhé\nthân aia chào bạn",
+    "answer": "Dựa trên tài liệu, chưa đủ thông tin để kết luận các triệu chứng hiện tại là do cháu chưa bổ sung đủ canxi; thiếu canxi có thể gây bủn rủn chân tay, nhưng đau hoặc nặng ngực còn có thể liên quan đến tim, phổi, trào ngược dạ dày thực quản, cơ xương hoặc thần kinh liên sườn. Vì cháu có đau nhói ngực kèm nhức mỏi lưng, ho và ợ hơi, cháu nên quay lại cơ sở y tế để được thăm khám, làm xét nghiệm hoặc chẩn đoán hình ảnh cần thiết, đồng thời không tự ý tiếp tục tăng liều canxi khi chưa được bác sĩ đánh giá.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Đau nhói ngực nhẹ, bóng tim cháu hơi to liệu có vấn đề gì không ạ? Thỉnh thoảng khi cơ thể trong trạng thái nghỉ ngơi thì vùng ngực cháu cảm giác nặng và hơi nhói nhẹ ạ. Cháu có làm công việc nặng.\nTrả lời: Cảm ơn em đã tin tưởng AI-Doctor. Trân trọng!",
+            "score": 0.6568321585655212,
+            "id": "vietnamese_medical_qa_1661"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nTrước đây, em có đi khám và bác sĩ bảo là em bị bệnh thiếu máu nhẹ, không cần uống thuốc hay gì cả nhưng tầm khoảng 4 ngày nay em cảm thấy cơ thể đau phần ngực và cảm giác khó thở. Khi em tập trung thì cảm thấy cơ thể bình thường và lúc em tập thể dục thì không cảm thấy khó thở. Khi tập thì em nhận thấy giảm đau ngực, khoảng được vài tiếng thì nó lại đau. Lúc em gồng ngực hay ưỡn ngực thì nó đau. Em làm cách động tác ấy nhiều thì giảm đau nhưng mà không làm hay lúc ngủ dậy là nó đau. Ưỡn ngực hay gồng nhiều thì nó đau ít hơn lúc ngủ dậy.\nVậy bác sĩ cho em hỏi thiếu máu nhẹ kèm đau ngực có sao không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nQua triệu chứng bạn kể thì có khả năng bạn bị đau do căng cơ thành ngực, chưa loại trừ các nguyên nhân đau liên quan đến tim mạch, phổi,... Bạn cần đi khám để bác sĩ có thể hỏi thêm thông tin, thăm khám cũng như chỉ định những cận lâm sàng cần thiết để có thể có được chẩn đoán xác định.\nTrân trọng!",
+            "score": 0.6409196257591248,
+            "id": "vietnamese_medical_qa_36"
+        },
+        {
+            "text": "Câu hỏi: Sau điều trị rối loạn chuyển hóa canxi và trào ngược dạ dày thực quản vẫn mệt mỏi, bủn rủn, tức ngực là do đâu?\nTrả lời: Chẩn đoán trên là đúng nhưng bạn chưa điều trị đủ liệu trình, cụ thể chưa bù đủ Canxi khiến bạn có thể bủn rủn chân tay. Có thể còn thiếu chẩn đoán gì nữa mà bệnh viện chưa tìm ra. Tuy nhiên với cả hai khả năng trên, bác sĩ khuyên bạn nên quay lại viện để bác sĩ thăm khám kỹ hơn và theo dõi điều trị cho bạn đến khi ổn hẳn nhé.",
+            "score": 0.6292927265167236,
+            "id": "vietnamese_healthcare_6328"
+        },
+        {
+            "text": "Câu hỏi: Em nặng ngực và lâu lâu thấy mệt, đau ở giữa ngực, nhiều khi lệch sang trái và nhiều khi nằm thấy ngực đánh mạnh giống hồi hộp. Vậy bác sĩ cho em hỏinặng ngực kèm đau giữa ngực là bệnh gì?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Cảm giác khó chịu ở này của bạn xuất hiện ở ngực, bao gồm nặng ngực, tim đập mạnh, hồi hộp,... có thể do nhiều nguyên nhân (như: Tim, phổi, trào ngược thực quản, cơ xương, thần kinh liên sườn,... hoặc đôi khi do stress) và cần làm nhiều xét nghiệm máu cũng như chẩn đoán hình ảnh mới có câu trả lời thỏa đáng được. Do đó, nếu triệu chứng xảy ra thường xuyên, làm bạn khó chịu, hoặc cảm thấy lo lắng thì bạn nên đến khám bác sĩ chuyên khoa Tim mạch để được khám, làm xét nghiệm và tư vấn cụ thể.",
+            "score": 0.6268900036811829,
+            "id": "medical_vietnamese_qa_11659"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm đột nhiên bị nặng ngực, hơi thở yếu hơn bình thường và kèm theo mệt mỏi và lạnh 2 cánh tay. Sau một lúc nghỉ ngơi, em mới đỡ lại và triệu chứng đó xuất hiện ban đêm. Vậy bác sĩ cho em hỏi nặng ngực kèm hơi thở yếu vào ban đêm có sao không? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn có xuất hiện cơn nặng tức vùng trước ngực xuất hiện về đêm nên đến khám ngay bác sĩ tim mạch để tìm nguyên nhân hay gặp như các bệnh lý tim bẩm sinh, bệnh lý động mạch vành.\nTrân trọng!",
+            "score": 0.6219444870948792,
+            "id": "vietnamese_medical_qa_9"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

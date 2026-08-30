@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Tôi bị huyết áp cao nhiều năm nay. Mỗi ngày uống thuốc huyết áp thì thấy ổn định nếu quên uống thì có khi huyết áp lên tới 176/105 nhịp tim 70/phút..Tôi có nên tiêm vaccine Covid-19 không và nên tiêm loại nào là phù hợp?",
+    "ground_truth": "Thông tin chị cung cấp cho thấy bệnh huyết áp đã ổn định và hoàn toàn có thể tiêm chủng vaccine Covid-19, nếu không có chống chỉ định nào khác, chị cần uống thuốc thường xuyên để duy trì tình trạng ổn định của bệnh. Chị nên được tiêm chủng vaccine Covid-19 và có thể tiêm bất cứ loại nào hiện có ở địa phương.",
+    "answer": "Tăng huyết áp không thuộc nhóm chống chỉ định hoặc phải hoãn tiêm vaccine Covid-19; nếu huyết áp được kiểm soát ổn định khi khám sàng lọc, bạn có thể tiêm. Tuy nhiên, với tình trạng huyết áp có thể tăng đến 176/105 khi quên thuốc, bạn nên uống thuốc đúng theo chỉ định, được khám và đo các chỉ số sinh tồn trước tiêm, đồng thời tiêm tại bệnh viện hoặc cơ sở có đủ khả năng hồi sức cấp cứu để được theo dõi và xử trí kịp thời. Tài liệu không cho thấy một loại vaccine cụ thể phù hợp hơn; khi huyết áp ổn định, có thể tiêm bất kỳ loại vaccine Covid-19 nào hiện có ở Việt Nam theo chỉ định tại điểm tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị huyết áp cao, huyết áp bình thường hơn 140, lúc cao nhất 186, giờ hiện từ 140 đến 165. Tôi có thể tiêm vaccine Covid-19 được không va cần làm gì trước khi tiêm?\nTrả lời: Bệnh lý tăng huyết áp không thuộc trường hợp chống chỉ định hay hoãn tiêm vaccine Covid-19 của Bộ Y tế, tuy nhiên bạn cần thận trọng tiêm chủng và tiêm tại bệnh viện để kịp thời xử trí các phản ứng sau tiêm xảy ra.",
+            "score": 0.6843006610870361,
+            "id": "vietnamese_healthcare_8998"
+        },
+        {
+            "text": "Câu hỏi: Tôi 43 tuổi, bị bệnh cao huyết áp và nhịp tim tăng nhẹ. Lúc chưa uống thuốc, huyết áp khoảng 135/95, nhịp tim khoảng 90-95. Sau khi được bác sĩ cho thuốc uống, huyết áp còn 120/85, nhịp tim khoảng 80-85. Hiện tôi uống thuốc mỗi ngày một lần.Hôm rồi, tôi được tiêm vaccine AstraZeneca mũi một lúc khoảng 11 giờ sáng, từ sáng đến tối bình thường, đến khoảng 21h, huyết áp tôi tăng lên 140/95, nhịp tim lên 127 nhịp. Tôi lo lắng nên đi cấp cứu tại bệnh viện, sau khi được cho uống thuốc khoảng 1 giờ, huyết áp và nhịp tim giảm dần, đến hôm sau thì trở lại bình thường.Bác sĩ cho hỏi, tôi có nên tiếp tục tiêm mũi vaccine thứ 2 hay không?\nTrả lời: Đối với trường hợp của anh/chị có tiền sử huyết áp cao độ một, đã điều trị huyết áp và nhịp tim ổn định. Tùy thuộc vào thời gian được tính từ lúc điều trị bệnh ổn định sẽ chỉ định tiêm vaccine Covid-19 tại khối bệnh viện hay là tiêm ở các điểm tiêm chủng. Tuy nhiên sau khi tiêm mũi một vaccine Covid-19 AstraZeneca anh/chị có biểu hiện tăng huyết áp và nhịp tim trở lại phải nhập viện xử trí cấp cứu, phục hồi sức khỏe.",
+            "score": 0.6740227341651917,
+            "id": "vietnamese_healthcare_8698"
+        },
+        {
+            "text": "Câu hỏi: Tôi bị cao huyết áp 135/81 và đang uống thuốc hàng ngày. Vậy tôi có chích ngừa vaccine phòng Covid-19 được không?\nTrả lời: Nếu chỉ số huyết áp đo tại thời điểm thăm khám sàng lọc của anh trong giới hạn cho phép, anh đủ điều kiện tiêm chủng vaccine Covid-19.",
+            "score": 0.6707322597503662,
+            "id": "vietnamese_healthcare_8733"
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 68 tuổi, bị huyết áp cao đã 20 năm nay. Hàng ngày, tôi đều uống thuốc để duy trì ổn định ở mức dưới 140/75. Xin bác sĩ cho biết, tôi có thể tiêm vaccine ngừa Covid-19 không, nên tiêm loại nào là phù hợp nhất?\nTrả lời: Hiện nay sức huyết áp của bác đã ổn định dưới 140/75, bác hoàn toàn có thể tiêm chủng vaccine Covid-19, bác có thể tiêm bất cứ loại vaccine Covid-19 nào hiện có ở Việt Nam. Hiện nay, Việt Nam đang tiến hành tiêm vaccine Covid-19 của AstraZeneca cho các đối tượng ưu tiên lực lượng tuyến đầu chống dịch là các bác sĩ, nhân viên y tế, người dân đang sống trong vùng dịch.",
+            "score": 0.6686379313468933,
+            "id": "vietnamese_healthcare_8697"
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn tư vấn khi chích ngừa vaccine Covid-19. Khi gặp y tá, bác sĩ thì huyết áp tăng rất cao có khi lên 170/100mmHg, dù có dùng thuốc nhưng vẫn không xuống, nhịp tim tăng nhanh gần cả 100, hồi hộp khó chịu. Nhưng khi đo xong hay nói chuyện với bác sĩ thì cảm giác thoải mái, ở nhà thì huyết áp ổn định 120,130/80. Tôi tập thể dục, ăn uống, sinh hoạt và làm việc bình thường. Như vậy khi tôi đi chích ngừa liệu có được hay không và có giải pháp nào để giải quyết.\nTrả lời: Theo thông tin mà chị cung cấp, chị không thuộc nhóm chống chỉ định, tuy nhiên cần thận trọng tiêm tại khối bệnh viện hoặc nơi có đủ năng lực hồi sức cấp cứu bạn đầu, tùy thời điểm thăm khám cụ thể, căn cứ vào các chỉ số sinh tồn: mạch, huyết áp, nhịp tim, nhịp thở, thuốc điều trị, tiền sử thăm khám bệnh lý. . . bác sĩ mới có tư vấn nhận định phù hợp.",
+            "score": 0.6413212418556213,
+            "id": "vietnamese_healthcare_4099"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

@@ -1,0 +1,113 @@
+{
+    "model_name": "s2g_rag",
+    "question": "xin bác sĩ tư vấn cho em câu hỏi liên quan đếntai biến khi gây mê:Đối với gây mê, loại chèn ép nào gây cản trở và tăng nguy cơ tử vong nhấtạ? Em cảm ơn bác sĩ. Câu hỏi khách hàng ẩn danh Trả lời",
+    "ground_truth": "Chào bạn, Tai biến khi gây mêphụ thuộc nhiều yếu tố về người bệnh (tình trạng người bệnh, các bệnh lý kèm theo) cũng như trình độ tay nghề của đội ngũ gây mê – hồi sức. Ngày nay, với sự tiến bộ của khoa học, các thuốc mê thế hệ mới có tác dụng rất tốt nhưng ít tác dụng phụ, cùng với các phương tiện máy móc theo dõi rất hiện đại nên hạn chế tối đa các tai biến, biến chứng gây mê. Nếu trong quá trình gây mê – phẫu thuật, người bệnh không được theo dõi sát, đường thở bị chèn ép gây nên tình trạngthiếu oxythì rất nguy hiểm cho người bệnh. Nếu tình trạng thiếu oxy không được phát hiện và xử trí kịp thời thì sẽ gây nguy hiểm đến tính mạng người bệnh. Các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc được trang bị đồng bộ máy móc hiện đại, thuốc mới và tốt, cùng với đội ngũ bác sĩ chuyên khoa sâu giúp đảm bảo an toàn tuyệt đối cho phẫu thuật. Để được tư vấn chi tiết nhất, bạn có thể tới các bệnh viện thuộc Vinmec, các bác sĩ chuyên môn sẽ thăm khám và giải đáp cụ thể. Cảm ơn bạn đã gửi câu hỏiđối với gây mê, loại chèn ép nào gây cản trở và tăng nguy cơ tử vong nhấtđến Vinmec. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Đức Thông- Bác sĩ Gây mê hồi sức - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+    "answer": "Dựa trên thông tin được cung cấp, chưa đủ cơ sở để xác định cụ thể loại chèn ép nào có nguy cơ tử vong cao nhất. Tuy nhiên, chèn ép đường thở gây thiếu oxy là tình trạng đặc biệt nguy hiểm; nếu không được phát hiện và xử trí kịp thời có thể đe dọa tính mạng. Một số biến cố hô hấp được nêu gồm co thắt thanh quản và co thắt khí quản. Vì vậy, trong gây mê cần theo dõi sát hô hấp, huyết áp và mạch để phát hiện, xử trí sớm các bất thường.",
+    "evidence": [
+        "Ngày nay, với sự tiến bộ của khoa học, các thuốc mê thế hệ mới có tác dụng rất tốt nhưng ít tác dụng phụ, cùng với các phương tiện máy móc theo dõi rất hiện đại nên hạn chế tối đa các tai biến, biến chứng gây mê.Nếu trong quá trình gây mê – phẫu thuật, người bệnh không được theo dõi sát, đường thở bị chèn ép gây nên tình trạng thiếu oxy thì rất nguy hiểm cho người bệnh.",
+        "Nếu tình trạng thiếu oxy không được phát hiện và xử trí kịp thời thì sẽ gây nguy hiểm đến tính mạng người bệnh",
+        "Buồn nôn, nôn\nSuy hô hấp: co thắt thanh quản, co thắt khí quản...",
+        "Các điều dưỡng và bác sĩ buộc phải lắp đặt máy theo dõi huyết áp – mạch cũng như trạng thái hô hấp của bệnh nhân đối với các phẫu thuật có gây mê toàn thân .",
+        "Bác sĩ gây mê sẽ khám tiền mê để đánh giá các yếu tố nguy cơ, tiên lượng tình trạng bệnh nhân trước mổ nhằm có kế hoạch gây mê hồi sức hợp lý, đồng thời theo dõi sát bệnh nhân trong và sau gây mê nhằm kịp thời phát hiện và xử trí các biến cố có thể xảy ra đảm bảo an toàn cho bệnh nhân."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Đối với gây mê, loại chèn ép nào gây cản trở và tăng nguy cơ tử vong nhất?\nTrả lời: Tai biến khi gây mê phụ thuộc nhiều yếu tố về người bệnh (tình trạng người bệnh, các bệnh lý kèm theo) cũng như trình độ tay nghề của đội ngũ gây mê – hồi sức. Ngày nay, với sự tiến bộ của khoa học, các thuốc mê thế hệ mới có tác dụng rất tốt nhưng ít tác dụng phụ, cùng với các phương tiện máy móc theo dõi rất hiện đại nên hạn chế tối đa các tai biến, biến chứng gây mê.Nếu trong quá trình gây mê – phẫu thuật, người bệnh không được theo dõi sát, đường thở bị chèn ép gây nên tình trạng thiếu oxy thì rất nguy hiểm cho người bệnh. Nếu tình trạng thiếu oxy không được phát hiện và xử trí kịp thời thì sẽ gây nguy hiểm đến tính mạng người bệnh",
+                "score": 0.7151029109954834,
+                "id": "vietnamese_healthcare_3823",
+                "rerank_score": 0.9999792575836182
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi các biến chứng của gây mê là gì? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nBiến cố có thể gặp khi gây mê:\nDị ứng thuốc: có nhiều mức độ dị ứng\nTrào ngược, hít sặc: bệnh nhân cần nhịn ăn uống trước mổ theo hướng dẫn Bs gây mê để phòng ngừa biến cố này.\nBuồn nôn, nôn\nSuy hô hấp: co thắt thanh quản, co thắt khí quản...\nBiến cố tim mạch: rối loạn nhịp tim, huyết áp giảm hoặc tăng\nMục tiêu lớn nhất của gây mê hồi sức là bảo đảm an toàn cho bệnh nhân khi mổ. Nhờ các tiến bộ y khoa, tỷ lệ tai biến trong gây mê giảm rất nhiều, hiện nay khoảng 1/1.000.000 ca mổ. Bác sĩ gây mê sẽ khám tiền mê để đánh giá các yếu tố nguy cơ, tiên lượng tình trạng bệnh nhân trước mổ nhằm có kế hoạch gây mê hồi sức hợp lý, đồng thời theo dõi sát bệnh nhân trong và sau gây mê nhằm kịp thời phát hiện và xử trí các biến cố có thể xảy ra đảm bảo an toàn cho bệnh nhân.\nTrân trọng!",
+                "score": 0.5120967030525208,
+                "id": "vietnamese_medical_qa_815",
+                "rerank_score": 0.9979415535926819
+            },
+            {
+                "text": "Câu hỏi: Sốc phản vệ biến chứng rất nguy hiểm khi gây mê\nTrả lời: 3. Sốc phản vệ biến chứng rất nguy hiểm khi gây mê\nTheo thống kê, tai biến và sốc phản vệ là những điều có thể xảy ra với tất cả những thủ thuật có thể can thiệp vào cơ thể của người bệnh, cũng như đối với toàn bộ các trường hợp vật thể lạ được đưa vào trong cơ thể người bệnh, gồm có cả thuốc và vắc xin. Tỷ lệ bị sốc phản vệ sẽ phụ thuộc vào những loại thuốc đã sử dụng trong quá trình gây mê bởi mỗi loại thuốc sẽ có tỷ lệ gây tai biến là khác nhau, ngoài ra cơ thể khác nhau cũng cho tỷ lệ sốc phản vệ khác nhau. Nó có thể xuất hiện ở bất kỳ thời điểm nào trong quá trình điều trị và gây mê của người bệnh. Đây được coi là một loại tai biến nghiêm trọng, có thể dẫn đến tử vong nhanh chóng nếu không được chẩn đoán và điều trị kịp thời. Biểu hiện của sốc phản vệ là bệnh nhân bị hạ thân nhiệt, tụt huyết áp, trụy tim mạch , co thắt cơ trơn và tăng tính thấm thành mạch. Một số trường hợp xảy ra rất nhanh chỉ sau khi rút kim tiêm, thậm chí chỉ sau vài giây là bệnh nhân tử vong ngay. Nếu triệu chứng của bệnh xuất hiện càng sớm thì bệnh này càng nặng và tỷ lệ gây tử vong càng cao. Do đó, gây mê trong phẫu thuật nội soi khâu vết thương dạ dày cần phải được thăm khám và thực hiện chính xác để đảm bảo an toàn sức khỏe cho người bệnh. Tại Bệnh viện Đa khoa Quốc tế Vinmec tất cả các khách hàng đều được thăm khám tư vấn lập kế hoạch Hồi sức gây mê/ gây tê/ giảm đau trước phẫu thuật/ thủ thuật. Việc này là rất cần thiết để đảm bảo an toàn cho khách hàng và chất lượng trong quá trình hồi sức/gây mê/ gây tê/ giảm đau. Để có phương án tiên lượng, dự phòng trong tất cả các trường hợp trước khi tiến hành làm phẫu thuật/ thủ thuật/ điều trị đau. Hiện Bệnh viện cũng có đầy đủ các trang thiết bị Y tế hiện đại: Máy mê, các Phương tiện hồi sức cấp cứu, trang thiết bị theo dõi: máy siêu âm, monitor, PCA, Auto bolus cùng đội ngũ bác sĩ giàu chuyên môn trực tiếp tham gia vào quá trình thăm khám và điều trị. Do đó, khách hàng hoàn toàn có thể yên tâm khi thực hiện tại Vinmec. Để đăng ký khám và điều trị tại Bệnh viện Đa khoa Quốc tế Vinmec, Quý Khách có thể liên hệ Hệ thống Y tế Vinmec trên toàn quốc, hoặc đăng ký khám trực tuyến TẠI ĐÂY .",
+                "score": 0.5470597743988037,
+                "id": "vietnamese_healthcare_55643",
+                "rerank_score": 0.9751064777374268
+            },
+            {
+                "text": "Câu hỏi: Tai biến và cách xử lý gây mê mask thanh quản phẫu thuật nội soi cắt tuyến tiền liệt\nTrả lời: 4. Tai biến và cách xử lý gây mê mask thanh quản phẫu thuật nội soi cắt tuyến tiền liệt\n4.2. Tai biến rối loạn huyết động Các rối loạn huyết động có thể gặp trong quá trình gây mê mask thanh quản phẫu thuật nội soi cắt tuyến tiền liệt là tăng huyết áp , hạ huyết áp , rối loạn nhịp tim . Bác sĩ sẽ xử trí tùy theo triệu chứng và nguyên nhân. Rối loạn nhịp tim là một trong những tai biến do gây mê mask thanh quản phẫu thuật nội soi cắt tuyến tiền liệt",
+                "score": 0.47163015604019165,
+                "id": "vietnamese_healthcare_95331",
+                "rerank_score": 0.5211028456687927
+            },
+            {
+                "text": "Câu hỏi: Tai biến và cách xử lý gây mê mask thanh quản phẫu thuật viêm sụn vành tai, dị tật vành tai\nTrả lời: 4. Tai biến và cách xử lý gây mê mask thanh quản phẫu thuật viêm sụn vành tai, dị tật vành tai\n4.2. Tai biến rối loạn huyết động Các rối loạn huyết động có thể gặp trong quá trình gây mê mask thanh quản phẫu thuật viêm sụn vành tai , dị tật tai là tăng huyết áp , hạ huyết áp , rối loạn nhịp tim . Bác sĩ sẽ xử trí tùy theo từng trường hợp cụ thể.",
+                "score": 0.5638062357902527,
+                "id": "vietnamese_healthcare_146927",
+                "rerank_score": 0.49140313267707825
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Đối với gây mê, loại chèn ép nào gây cản trở và tăng nguy cơ tử vong nhất?\nTrả lời: Tai biến khi gây mê phụ thuộc nhiều yếu tố về người bệnh (tình trạng người bệnh, các bệnh lý kèm theo) cũng như trình độ tay nghề của đội ngũ gây mê – hồi sức. Ngày nay, với sự tiến bộ của khoa học, các thuốc mê thế hệ mới có tác dụng rất tốt nhưng ít tác dụng phụ, cùng với các phương tiện máy móc theo dõi rất hiện đại nên hạn chế tối đa các tai biến, biến chứng gây mê.Nếu trong quá trình gây mê – phẫu thuật, người bệnh không được theo dõi sát, đường thở bị chèn ép gây nên tình trạng thiếu oxy thì rất nguy hiểm cho người bệnh. Nếu tình trạng thiếu oxy không được phát hiện và xử trí kịp thời thì sẽ gây nguy hiểm đến tính mạng người bệnh",
+                "score": 0.6705518960952759,
+                "id": "vietnamese_healthcare_3823",
+                "rerank_score": 0.9999792575836182
+            },
+            {
+                "text": "Câu hỏi: Tai biến và cách xử lý gây mê mask thanh quản phẫu thuật viêm sụn vành tai, dị tật vành tai\nTrả lời: 4. Tai biến và cách xử lý gây mê mask thanh quản phẫu thuật viêm sụn vành tai, dị tật vành tai\n4.2. Tai biến rối loạn huyết động Các rối loạn huyết động có thể gặp trong quá trình gây mê mask thanh quản phẫu thuật viêm sụn vành tai , dị tật tai là tăng huyết áp , hạ huyết áp , rối loạn nhịp tim . Bác sĩ sẽ xử trí tùy theo từng trường hợp cụ thể.",
+                "score": 0.5040943026542664,
+                "id": "vietnamese_healthcare_146927",
+                "rerank_score": 0.49140283465385437
+            },
+            {
+                "text": "Câu hỏi: Cơ chế của phương pháp hạ huyết áp chỉ huy trong gây mê\nTrả lời: 2. Cơ chế của phương pháp hạ huyết áp chỉ huy trong gây mê\nCơ chế của phương pháp hạ huyết áp chỉ huy trong gây mê như sau: 2.3. Sự ảnh hưởng của việc hạ huyết áp chỉ huy đến các cơ quan trong cơ thể 2.",
+                "score": 0.4882495403289795,
+                "id": "vietnamese_healthcare_91056",
+                "rerank_score": 0.030664177611470222
+            },
+            {
+                "text": "Câu hỏi: Làm thế nào để nhận biết sốc phản vệ trong phẫu thuật?\nTrả lời: 3. Làm thế nào để nhận biết sốc phản vệ trong phẫu thuật?\nCác điều dưỡng và bác sĩ buộc phải lắp đặt máy theo dõi huyết áp – mạch cũng như trạng thái hô hấp của bệnh nhân đối với các phẫu thuật có gây mê toàn thân . Khi huyết áp giảm đột ngột và hô hấp có bất thường, bệnh nhân có khả năng bị sốc phản vệ , cần phải xử trí nhanh.",
+                "score": 0.524339497089386,
+                "id": "vietnamese_healthcare_41807",
+                "rerank_score": 0.016479138284921646
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nTôi được chuẩn đoánphì đại tiền liệt tuyến  khảng 2 năm nay,bác sĩ khuyên uống thuốc hay phẫu thuật\nTrả lời: Chào bác.\nBác cần căn cứ xem tuyến tiền liệt đã bị phình bao nhiêu ? Và đã chèn ép đường tiểu như thế nào ? Bác có hay bị bí tiểu không ? \nBác cung cấp thêm một số thông tin để bác sỹ tư vấn được cụ thể hơn nhé.\nThân mến.",
+                "score": 0.4831814765930176,
+                "id": "vietnamese_medical_qa_6805",
+                "rerank_score": 0.005799493286758661
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Đối với gây mê, loại chèn ép nào gây cản trở và tăng nguy cơ tử vong nhất?\nTrả lời: Tai biến khi gây mê phụ thuộc nhiều yếu tố về người bệnh (tình trạng người bệnh, các bệnh lý kèm theo) cũng như trình độ tay nghề của đội ngũ gây mê – hồi sức. Ngày nay, với sự tiến bộ của khoa học, các thuốc mê thế hệ mới có tác dụng rất tốt nhưng ít tác dụng phụ, cùng với các phương tiện máy móc theo dõi rất hiện đại nên hạn chế tối đa các tai biến, biến chứng gây mê.Nếu trong quá trình gây mê – phẫu thuật, người bệnh không được theo dõi sát, đường thở bị chèn ép gây nên tình trạng thiếu oxy thì rất nguy hiểm cho người bệnh. Nếu tình trạng thiếu oxy không được phát hiện và xử trí kịp thời thì sẽ gây nguy hiểm đến tính mạng người bệnh",
+                "score": 0.7032460570335388,
+                "id": "vietnamese_healthcare_3823",
+                "rerank_score": 0.9999792575836182
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi các biến chứng của gây mê là gì? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nBiến cố có thể gặp khi gây mê:\nDị ứng thuốc: có nhiều mức độ dị ứng\nTrào ngược, hít sặc: bệnh nhân cần nhịn ăn uống trước mổ theo hướng dẫn Bs gây mê để phòng ngừa biến cố này.\nBuồn nôn, nôn\nSuy hô hấp: co thắt thanh quản, co thắt khí quản...\nBiến cố tim mạch: rối loạn nhịp tim, huyết áp giảm hoặc tăng\nMục tiêu lớn nhất của gây mê hồi sức là bảo đảm an toàn cho bệnh nhân khi mổ. Nhờ các tiến bộ y khoa, tỷ lệ tai biến trong gây mê giảm rất nhiều, hiện nay khoảng 1/1.000.000 ca mổ. Bác sĩ gây mê sẽ khám tiền mê để đánh giá các yếu tố nguy cơ, tiên lượng tình trạng bệnh nhân trước mổ nhằm có kế hoạch gây mê hồi sức hợp lý, đồng thời theo dõi sát bệnh nhân trong và sau gây mê nhằm kịp thời phát hiện và xử trí các biến cố có thể xảy ra đảm bảo an toàn cho bệnh nhân.\nTrân trọng!",
+                "score": 0.46800461411476135,
+                "id": "vietnamese_medical_qa_815",
+                "rerank_score": 0.9979415535926819
+            },
+            {
+                "text": "Câu hỏi: Sốc phản vệ biến chứng rất nguy hiểm khi gây mê\nTrả lời: 3. Sốc phản vệ biến chứng rất nguy hiểm khi gây mê\nTheo thống kê, tai biến và sốc phản vệ là những điều có thể xảy ra với tất cả những thủ thuật có thể can thiệp vào cơ thể của người bệnh, cũng như đối với toàn bộ các trường hợp vật thể lạ được đưa vào trong cơ thể người bệnh, gồm có cả thuốc và vắc xin. Tỷ lệ bị sốc phản vệ sẽ phụ thuộc vào những loại thuốc đã sử dụng trong quá trình gây mê bởi mỗi loại thuốc sẽ có tỷ lệ gây tai biến là khác nhau, ngoài ra cơ thể khác nhau cũng cho tỷ lệ sốc phản vệ khác nhau. Nó có thể xuất hiện ở bất kỳ thời điểm nào trong quá trình điều trị và gây mê của người bệnh. Đây được coi là một loại tai biến nghiêm trọng, có thể dẫn đến tử vong nhanh chóng nếu không được chẩn đoán và điều trị kịp thời. Biểu hiện của sốc phản vệ là bệnh nhân bị hạ thân nhiệt, tụt huyết áp, trụy tim mạch , co thắt cơ trơn và tăng tính thấm thành mạch. Một số trường hợp xảy ra rất nhanh chỉ sau khi rút kim tiêm, thậm chí chỉ sau vài giây là bệnh nhân tử vong ngay. Nếu triệu chứng của bệnh xuất hiện càng sớm thì bệnh này càng nặng và tỷ lệ gây tử vong càng cao. Do đó, gây mê trong phẫu thuật nội soi khâu vết thương dạ dày cần phải được thăm khám và thực hiện chính xác để đảm bảo an toàn sức khỏe cho người bệnh. Tại Bệnh viện Đa khoa Quốc tế Vinmec tất cả các khách hàng đều được thăm khám tư vấn lập kế hoạch Hồi sức gây mê/ gây tê/ giảm đau trước phẫu thuật/ thủ thuật. Việc này là rất cần thiết để đảm bảo an toàn cho khách hàng và chất lượng trong quá trình hồi sức/gây mê/ gây tê/ giảm đau. Để có phương án tiên lượng, dự phòng trong tất cả các trường hợp trước khi tiến hành làm phẫu thuật/ thủ thuật/ điều trị đau. Hiện Bệnh viện cũng có đầy đủ các trang thiết bị Y tế hiện đại: Máy mê, các Phương tiện hồi sức cấp cứu, trang thiết bị theo dõi: máy siêu âm, monitor, PCA, Auto bolus cùng đội ngũ bác sĩ giàu chuyên môn trực tiếp tham gia vào quá trình thăm khám và điều trị. Do đó, khách hàng hoàn toàn có thể yên tâm khi thực hiện tại Vinmec. Để đăng ký khám và điều trị tại Bệnh viện Đa khoa Quốc tế Vinmec, Quý Khách có thể liên hệ Hệ thống Y tế Vinmec trên toàn quốc, hoặc đăng ký khám trực tuyến TẠI ĐÂY .",
+                "score": 0.47393620014190674,
+                "id": "vietnamese_healthcare_55643",
+                "rerank_score": 0.9751064777374268
+            },
+            {
+                "text": "Câu hỏi: Tai biến và cách xử lý gây mê mask thanh quản phẫu thuật viêm sụn vành tai, dị tật vành tai\nTrả lời: 4. Tai biến và cách xử lý gây mê mask thanh quản phẫu thuật viêm sụn vành tai, dị tật vành tai\n4.2. Tai biến rối loạn huyết động Các rối loạn huyết động có thể gặp trong quá trình gây mê mask thanh quản phẫu thuật viêm sụn vành tai , dị tật tai là tăng huyết áp , hạ huyết áp , rối loạn nhịp tim . Bác sĩ sẽ xử trí tùy theo từng trường hợp cụ thể.",
+                "score": 0.5070948600769043,
+                "id": "vietnamese_healthcare_146927",
+                "rerank_score": 0.49140313267707825
+            },
+            {
+                "text": "Câu hỏi: Cơ chế của phương pháp hạ huyết áp chỉ huy trong gây mê\nTrả lời: 2. Cơ chế của phương pháp hạ huyết áp chỉ huy trong gây mê\nCơ chế của phương pháp hạ huyết áp chỉ huy trong gây mê như sau: 3.7. Tuần hoàn da và cơ Tuần hoàn da giảm còn tuần hoàn cơ thì tăng và không ghi nhận có biến chứng nào trong quá trình hạ huyết áp chỉ huy. 2.",
+                "score": 0.4794918894767761,
+                "id": "vietnamese_healthcare_91063",
+                "rerank_score": 0.07951122522354126
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

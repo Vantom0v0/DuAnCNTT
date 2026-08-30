@@ -1,0 +1,112 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Khi thở cháu phải ngắc lên, hít hơi dài mới thấy thoải mái. Cháu đã bị từ lâu (khoảng 6-7 năm). Cho hỏi cháu bị làm sao, có nguy hiểm không ạ?",
+    "ground_truth": "Chào cháu. Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.\nCảm ơn cháu đã tin tưởng AI-Doctor. Rất mong có thể gặp cháu để được tư vấn cụ thể hơn.",
+    "answer": "Triệu chứng phải ngắc lên và hít hơi dài mới thấy thoải mái có thể liên quan đến căng thẳng tâm lý, nhưng cũng gặp trong nhiều bệnh lý khác nhau nên chưa thể xác định nguyên nhân hay mức độ nguy hiểm chỉ dựa trên thông tin này. Vì tình trạng đã kéo dài 6–7 năm, cháu nên đi khám bác sĩ chuyên khoa nội để được tư vấn, có thể cần chụp X-quang tim phổi và đo điện tâm đồ nhằm kiểm tra, loại trừ bệnh lý ở tim và phổi. Trong thời gian chờ khám, cháu có thể tập thể dục nhẹ, hít thở sâu và thư giãn; nếu triệu chứng thường xuyên hoặc không cải thiện, cần đi khám để được điều trị phù hợp.",
+    "evidence": [
+        "Trả lời: Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.",
+        "Triệu chứng em kể có trong nhiều loại bệnh lý khác nhau.",
+        "Nếu tình trạng này xảy ra thường xuyên và kéo dài, em nên đi khám bác sĩ để được tư vấn cụ thể và có hướng điều trị phù hợp và kịp thời em nhé.",
+        "Tuy nhiên, cháu cũng nên đi khám để được chụp X-quang tim phổi, đo điện tâm đồ… kiểm tra và loại trừ bệnh lý ở tim, phổi nhé!"
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Thở hít hơi dài mới thấy thoải mái là bị làm sao? Có nguy hiểm không?\nTrả lời: Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.",
+                "score": 0.5856041312217712,
+                "id": "vietnamese_healthcare_8695",
+                "rerank_score": 0.9998893737792969
+            },
+            {
+                "text": "Câu hỏi: Tại sao nghẹt mũi khó thở từng bên kéo dài 6 năm không khỏi?\nTrả lời: Bạn ngạt mũi 6 năm, ngạt từng bên, đây là bệnh viêm mũi quá phát do cuống mũi dưới cương tụ khi thay đổi thời tiết, lúc nằm nghiêng,... Bệnh không có gì nguy hiểm, tuy nhiên, gây phiền toái và đôi lúc làm giảm chất lượng cuộc sống (do ngạt mũi gây ngáy, thậm chí ngưng thở khi ngủ).Nguyên nhân có thể do tình trạng kéo dài của viêm mũi dị ứng, tính trạng lạm dụng thuốc co mạch, vẹo vách ngăn, lạm dụng rượu bia,... Để khắc phục, bạn nên xịt rửa mũi nước muối thường xuyên. Nếu vẫn không cải thiện, bạn nên khám chuyên khoa Tai mũi họng để được chẩn đoán và xử trí can thiệp ngoại khoa.",
+                "score": 0.546568751335144,
+                "id": "vietnamese_healthcare_8511",
+                "rerank_score": 0.7769802808761597
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được 13 ngày, 3 ngày gần đây bé hay thở khò khè, hơi thở có lúc nhanh, ngủ hay há miệng, có lúc cong người để lấy hơi, bé vẫn bú đều cữ, xì hơi to và nhiều nhưng 2 ngày chưa đi ị. Bác sĩ cho em hỏibé 13 ngày thở khò khè cong người lấy hơi có sao không?Mong bác sĩ tư vấn ạ. Em cảm ơn bác sĩ. Đỗ Thị Thu Hà(1995) Trả lời Được giải đáp bởiBác sĩ nội trú Hồ Thị Hồng Tho- Bác sĩ Nhi sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Bé 13 ngày tuổi nếu có khò khè, cong người để lấy hơi là bất thường có thể khởi đầu của Viêm phổi. Tuy nhiên trong trường hợp bé nhà em có thể là khụt khịt (một hiện tượng bình thường trẻ sau sinh, xảy ra do ống mũi bên trong rất nhỏ và hẹp, khi niêm mạc mũi sản xuất ra chất nhầy mà trẻ chưa có phản xạ ho, hắt hơi tốt khó tống chất nhầy này ra ngoài). Nếu trẻ vẫn bú tốt, ngủ đủ giấc thì khả năng nhiều là do bé bị khụt khịt. Bạn nên vệ sinh mũi cho trẻ. Bình thường bé 13 ngày sẽ đi ngoài sau mỗi lần bú. Bé nhà mình 2 ngày chưa đi ngoài là bất thường có thể nghĩ đến bệnh lý như Megacolon. Để biết chính xác bệnh lý của bé bạn nên đưa bé đi khám bác sĩ.",
+                "score": 0.5413500666618347,
+                "id": "medical_vietnamese_qa_6302",
+                "rerank_score": 0.5695953369140625
+            },
+            {
+                "text": "Câu hỏi: Con trai em năm nay 9 tuổi, cháu bị ngạt mũi hơn 3 năm nay rồi cành ngày càng nặng. Em đã đi khám ở bệnh viện huyện, tỉnh rồi bệnh viện đa khoa có các bác sĩ ở Hà Nội về trực tiếp khám, kết quả: Viêm mũi dị ứng, viêm họng có chỗ thì viêm xoang, viêm họng. Nhưng mỗi khi trời đột ngột ấm hoặc lạnh tình trạng ngạt mũi của cháu lại tiến triển nặng, còn bình thường lúc ngạt 1 bên lúc hơi ngạt cũng có khi không bị ngạt mũi nhưng thường thì ít khi được thở bình thường. Em đã dùng rất nhiều thuốc đông, tây y nhưng không có tác dụng. Bác sĩ cho em hỏitrẻ 9 tuổi bị ngạt mũi kéo dài điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Theo chị ghi nhận thì con trai bạn 09 tuổi, có tình trạng nghẹt mũi nhiều năm, tình trạng nghẹt mũi nặng hơn khi thay đổi nhiệt độ môi trường đột ngột. Do tình trạng nghẹt mũi đã kéo dài nhiều năm và không đáp ứng với điều trị bằng thuốc, do đó bạn nên dẫn bé đến bác sĩ chuyên khoa Tai mũi họng để khám, nội soi mũi kiểm tra và chụp CT scan mũi xoang (nếu cần thiết) để tầm soát các nguyên nhân gây nghẹt mũi ở trẻ, từ đó mới có thể tư vấn điều trị hiệu quả hơn.",
+                "score": 0.5414026975631714,
+                "id": "medical_vietnamese_qa_4643",
+                "rerank_score": 0.5079212784767151
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được hơn 40 ngày tuổi, hay khò khè kéo dài, kiểu như khó thở, cháu hay nhỏ nước muối sinh lý cho bé. Vậy bác sĩ cho em hỏitrẻ sơ sinh khò khè kéo dài kèm khó thở có nguy hiểm không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng của trẻ giai đoạn này thường có ứ đọng dịch ở mũi, việc làm sạch họng mũi của con còn khó khăn, nên mình cần hỗ trợ vệ sinh mũi con mỗi ngày. Nếu bạn lo ngại con khò khè kéo dài thì nên cho con đi khám để bác sĩ đánh giá trực tiếp tình trạng của con và cho lời khuyên chính xác hơn.",
+                "score": 0.545661985874176,
+                "id": "medical_vietnamese_qa_4513",
+                "rerank_score": 0.42620277404785156
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Hai, ba hôm nay em thấy cổ họng mình như bị gì chặn lại, đôi lúc phải hít thật sâu mới thở được. Bác sĩ cho hỏi em bị bệnh gì vậy ạ? Mong nhận được sự tư vấn từ bác sĩ. Em xin cảm ơn.\nTrả lời: Chào em. Triệu chứng em kể có trong nhiều loại bệnh lý khác nhau. Trước mắt, em nên hít vào sâu, thở ra chậm và mạnh em nhé. Nếu tình trạng này xảy ra thường xuyên và kéo dài, em nên đi khám bác sĩ để được tư vấn cụ thể và có hướng điều trị phù hợp và kịp thời em nhé.",
+                "score": 0.5029671788215637,
+                "id": "vietnamese_medical_qa_3775",
+                "rerank_score": 0.888099730014801
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nLâu lâu cháu có hiện tượng bị khó thở , tức lồng ngực ( bên trái ). Mỗi lần hít sâu vào là bị quặng người xuống rất đau. Nhưng ngỗi bình tĩnh cố hít thở nhẹ tầm 30 phút là hết. Vậy cháu hỏi bác sĩ cháu bị bệnh gì và cách khắc phục\nTrả lời: Chào cháu,\nCháu hít thở sâu đau ngực trái, không có triệu chứng gì bất thường khác, vậy có thể chỉ do đau cơ thần kinh liên sườn.\nKhi hít sâu, phổi nở ra lồng ngực căng phồng, các cơ liên sườn giãn ra sẽ gây đau ngực.\nCháu có thể uống thuốc giảm đau thông thường như Paracetamol 500mg hoặc thuốc kháng viêm giảm đau như Diclofenac 50mg, kèm theo thuốc dãn cơ như Coltramyl, mỗi ngày uống 3 lần, mỗi lần 1viên cho mỗi loại.\nTuy nhiên, cháu cũng nên đi khám để được chụp X-quang tim phổi, đo điện tâm đồ… kiểm tra và loại trừ bệnh lý ở tim, phổi nhé!\nChúc cháu điều trị đạt kết quả tốt!",
+                "score": 0.5174868106842041,
+                "id": "vietnamese_medical_qa_8813",
+                "rerank_score": 0.8080869913101196
+            },
+            {
+                "text": "Câu hỏi: Tại sao nghẹt mũi khó thở từng bên kéo dài 6 năm không khỏi?\nTrả lời: Bạn ngạt mũi 6 năm, ngạt từng bên, đây là bệnh viêm mũi quá phát do cuống mũi dưới cương tụ khi thay đổi thời tiết, lúc nằm nghiêng,... Bệnh không có gì nguy hiểm, tuy nhiên, gây phiền toái và đôi lúc làm giảm chất lượng cuộc sống (do ngạt mũi gây ngáy, thậm chí ngưng thở khi ngủ).Nguyên nhân có thể do tình trạng kéo dài của viêm mũi dị ứng, tính trạng lạm dụng thuốc co mạch, vẹo vách ngăn, lạm dụng rượu bia,... Để khắc phục, bạn nên xịt rửa mũi nước muối thường xuyên. Nếu vẫn không cải thiện, bạn nên khám chuyên khoa Tai mũi họng để được chẩn đoán và xử trí can thiệp ngoại khoa.",
+                "score": 0.5486122965812683,
+                "id": "vietnamese_healthcare_8511",
+                "rerank_score": 0.7769812345504761
+            },
+            {
+                "text": "Câu hỏi: Mũi của em bị nghẹt hơn 6 năm rồi, lúc nghẹt bên trái lúc nghẹt bên phải. Đi chụp phim khám rất nhiều bác sĩ, thuốc cũng đã uống nhưng mãi không hết. Đi đứng thì dễ thở còn nằm xuống thì nó nghẹt khó thở dẫn đến đau ngực luôn bác sĩ ạ. Bác sĩ có thể cho em biếttại sao nghẹt mũi khó thở từng bên kéo dài 6 năm không khỏi?Cảm ơn bác sĩ tư vấn. Nguyễn Văn Toàn(1993) Trả lời Được giải đáp bởiBSCK II Nguyễn Văn Thái- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: Chào bạn, Với câu hỏi “Tại sao nghẹt mũi khó thở từng bên kéo dài 6 năm không khỏi?”, bác sĩ giải đáp như sau: Bạn ngạt mũi 6 năm, ngạt từng bên, đây là bệnh viêm mũi quá phát do cuống mũi dưới cương tụ khi thay đổi thời tiết, lúc nằm nghiêng,... Bệnh không có gì nguy hiểm, tuy nhiên, gây phiền toái và đôi lúc làm giảm chất lượng cuộc sống (do ngạt mũi gây ngáy, thậm chí ngưng thở khi ngủ). Nguyên nhân có thể do tình trạng kéo dài của viêm mũi dị ứng, tính trạng lạm dụng thuốc co mạch, vẹo vách ngăn, lạm dụng rượu bia,... Để khắc phục, bạn nên xịt rửa mũi nước muối thường xuyên. Nếu vẫn không cải thiện, bạn nên khám chuyên khoa Tai mũi họng để được chẩn đoán và xử trí can thiệp ngoại khoa.",
+                "score": 0.5432918667793274,
+                "id": "medical_vietnamese_qa_8841",
+                "rerank_score": 0.7210091948509216
+            },
+            {
+                "text": "Câu hỏi: Cháu có điều trịung thư vòm họng5 năm. Nhưng hiện tại, cháu bị nói lắp và ăn uống khó nuốt. Vậy bác sĩ cho cháu hỏinói lắp, khó nuốt khi điều trị ung thư vòm họng có sao không?Cháu phải làm gì thưa bác sĩ? Cháu cảm ơn bác sĩ. Nguyễn Văn Đảng(1997) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Trần Ngọc Hải -Bác sĩ Ung bướu - Huyết học - Khoa Nội Ung bướu, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn đã điều trị ung thư vòm 5 năm và hiện tại, bạnăn uống khó nuốtvànói lắp, triệu chứng này có thể là những di chứng sau điều trị bệnh. Vì vậy, bạn cần khám bệnh định kỳ, có thể chụp cộng hưởng từ để phát hiện tổn thương và xử trí. Ngoài ra, bạn có thể tập vật lý trị liệu để khắc phục những rối loạn trên.",
+                "score": 0.497600793838501,
+                "id": "medical_vietnamese_qa_12508",
+                "rerank_score": 0.6899454593658447
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Thở hít hơi dài mới thấy thoải mái là bị làm sao? Có nguy hiểm không?\nTrả lời: Kiểu thở của cháu có thể do sự căng thẳng tâm lý, cháu nên tập thể dục nhẹ đều, tập hít thở sâu, thư giãn; nếu không cải thiện cháu nên khám chuyên khoa nội nhé.",
+                "score": 0.5840999484062195,
+                "id": "vietnamese_healthcare_8695",
+                "rerank_score": 0.9998893737792969
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nLâu lâu cháu có hiện tượng bị khó thở , tức lồng ngực ( bên trái ). Mỗi lần hít sâu vào là bị quặng người xuống rất đau. Nhưng ngỗi bình tĩnh cố hít thở nhẹ tầm 30 phút là hết. Vậy cháu hỏi bác sĩ cháu bị bệnh gì và cách khắc phục\nTrả lời: Chào cháu,\nCháu hít thở sâu đau ngực trái, không có triệu chứng gì bất thường khác, vậy có thể chỉ do đau cơ thần kinh liên sườn.\nKhi hít sâu, phổi nở ra lồng ngực căng phồng, các cơ liên sườn giãn ra sẽ gây đau ngực.\nCháu có thể uống thuốc giảm đau thông thường như Paracetamol 500mg hoặc thuốc kháng viêm giảm đau như Diclofenac 50mg, kèm theo thuốc dãn cơ như Coltramyl, mỗi ngày uống 3 lần, mỗi lần 1viên cho mỗi loại.\nTuy nhiên, cháu cũng nên đi khám để được chụp X-quang tim phổi, đo điện tâm đồ… kiểm tra và loại trừ bệnh lý ở tim, phổi nhé!\nChúc cháu điều trị đạt kết quả tốt!",
+                "score": 0.5435282588005066,
+                "id": "vietnamese_medical_qa_8813",
+                "rerank_score": 0.8080865740776062
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 7 tuổi. Dạo gần đây, cứ nằm xuống là cháu khò khè, khó thở, cháu cứ lấy hơi lên rồi ho ra 1 cái cho dễ thở. Cháu nằm trằn trọc thật lâu mới ngủ. Ngoài lúc nằm ngủ thì mọi thứ đều bình thường. Vậy bác sĩ cho em hỏitrẻ 7 tuổi khò khè, khó thở khi nằm là dấu hiệu bệnh gì?Mong bác sĩ tư vấn, em cảm ơn bác sĩ. Cao Thủy(1987) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Bùi Thị Hà -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu bạn nghe thấy tiếngkhò khè, hoặc tiếng như huýt sáo khi con bạn thở,khó thởlà triệu chứng của bệnhhen suyễn, bệnh phổi, hoặc các phản ứng với các các chất gây dị ứng. Đó cũng có thể là các dấu hiệu báo hiệu tình trạng viêm phổi, viêm phế quản. Vì vậy, bạn cần cho con đến cơ sở chuyên khoa Nhi để khám phát hiện bệnh sớm và điều trị kịp thời.",
+                "score": 0.5407660007476807,
+                "id": "medical_vietnamese_qa_6473",
+                "rerank_score": 0.6948553323745728
+            },
+            {
+                "text": "Câu hỏi: Cháu nhà em được 9 tháng tuổi, cháu sinh non được 2,4kg. Gần đây cháu bị khó thở và đi khám thì được chẩn đoán là viêm phổi nhẹ và gần đây cháu theo dõi thì thấy bé còn xuất hiện hiện tượng gồng mình thường xuyên lúc thức, mỗi lần 5-10 giây, ngày nhiều nhất là gồng hơn 10 lần. Bác sĩ cho em hỏitrẻ 9 tháng tuổi hay khó thở kèm gồng mình là dấu hiệu bệnh gì?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn nên quay video cơn gồng của trẻ và đưa trẻ đi khám chuyên khoa thần kinh nhi để được chẩn đoán chính xác.",
+                "score": 0.550143837928772,
+                "id": "medical_vietnamese_qa_4636",
+                "rerank_score": 0.5548434257507324
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được hơn 40 ngày tuổi, hay khò khè kéo dài, kiểu như khó thở, cháu hay nhỏ nước muối sinh lý cho bé. Vậy bác sĩ cho em hỏitrẻ sơ sinh khò khè kéo dài kèm khó thở có nguy hiểm không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng của trẻ giai đoạn này thường có ứ đọng dịch ở mũi, việc làm sạch họng mũi của con còn khó khăn, nên mình cần hỗ trợ vệ sinh mũi con mỗi ngày. Nếu bạn lo ngại con khò khè kéo dài thì nên cho con đi khám để bác sĩ đánh giá trực tiếp tình trạng của con và cho lời khuyên chính xác hơn.",
+                "score": 0.5455069541931152,
+                "id": "medical_vietnamese_qa_4513",
+                "rerank_score": 0.4262021481990814
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

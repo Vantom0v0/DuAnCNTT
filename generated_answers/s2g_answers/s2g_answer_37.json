@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Người hút thuốc lá lâu năm có nên tiêm vaccine Covid-19 không? Hôm qua, trước khi tiêm, y tá nói tôi về kiểm tra vì phổi thở không tốt.",
+    "ground_truth": "Với trường hợp của anh, thăm khám lâm sàng trực tiếp, các bác sĩ mới có thể nhận định phù hợp được. Hút thuốc lá lâu năm không phải là yếu tố khiến anh không được tiêm phòng vaccine Covid-19.",
+    "answer": "Người hút thuốc lá lâu năm có nguy cơ mắc COVID-19 nặng hơn và tử vong cao hơn, do hút thuốc làm giảm dung tích phổi và tăng mức độ nghiêm trọng của bệnh hô hấp. Tuy nhiên, vì y tá nhận thấy phổi của anh/chị thở không tốt, hiện chưa đủ thông tin để khẳng định anh/chị có thể tiêm ngay; anh/chị nên đến bệnh viện hoặc phòng khám chuyên khoa Hô hấp để chụp phổi và đo chức năng hô hấp, đồng thời khai báo đầy đủ tình trạng sức khỏe, tiền sử dị ứng cho bác sĩ khám trước tiêm.",
+    "evidence": [
+        "Hút thuốc lá làm giảm dung tích phổi, tăng nguy cơ viêm đường hô hấp và tăng mức độ nghiêm trọng của các bệnh đường hô hấp .",
+        "Trong khi đó, COVID-19 là một bệnh truyền nhiễm tấn công chủ yếu vào phổi.",
+        "Các nghiên cứu hiện có cho thấy những người hút thuốc lá có nguy cơ mắc bệnh COVID-19 ở mức độ nghiêm trọng hơn và nguy cơ tử vong cao hơn.",
+        "Trả lời: Tình trạng cao huyết áp và men gan cao của anh/chị nếu ổn định (có kết luận của tuyến chuyên khoa, không phải thay đổi phác đồ hay nhập viện điều trị) thì anh/chị có thể tiêm vaccine tại cơ sở bệnh viện.",
+        "Trước khi tiêm, anh/chị cần chuẩn bị giấy tờ (CMND hoặc căn cước công dân, sổ khám chữa bệnh) chuẩn bị sức khỏe như ăn uống đủ chất và khai báo tình trạng sức khỏe, tiền sử dị ứng cho bác sĩ khám trước tiêm và thuốc huyết áp vẫn dùng theo phác đồ điều trị hàng ngày của anh/chị.",
+        "Vì vậy, bạn cần tới bệnh viện hoặc phòng khám chuyên khoa hô hấp để được chụp phổi và đo chức năng hô hấp.",
+        "Người nhà bạn mô tả biểu hiện như vậy thì nên khám loại trừ các căn nguyên ho như: u hay bệnh phổi tắc nghẽn mãn tính.",
+        "Người nhà bạn nên đến khám chuyên khoa Hô hấp để chụp kiểm tra và thăm dò chức năng hô hấp."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Ở địa phương em hiện nay đang tiến hành rà soát để tiêm vaccine Covid-19 cho người cao tuổi, nhà em có ông nội hiện nay ông 99 tuổi. Sức khỏe hiện tại ổn định, tinh thần minh mẫn. Đầu năm có bị viêm phổi nhưng đã được điều trị khỏi, nay sức khỏe tốt. Trường hợp ông của em như trên thì có nên tiêm vaccine hay không? Vì sao?\nTrả lời: Với trường hợp của ông bạn, người cao tuổi là đối tượng ưu tiên tiêm chủng nếu đủ điều kiện sức khỏe tôt nhất nên tiêm. Vì người lớn tuổi sức đề kháng yếu nếu không may bị nhiễm Covid-19 tỷ lệ chuyển nặng và tử vong sẽ cao hơn với người trẻ tuổi. Sau khi tiêm bạn và gia đình cần theo dõi sức khỏe ông để phát hiện các triệu chứng bất thường để được kịp thời xử trí.",
+                "score": 0.5512725114822388,
+                "id": "vietnamese_healthcare_2735",
+                "rerank_score": 0.9326818585395813
+            },
+            {
+                "text": "Câu hỏi: Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nTrả lời: 2. Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nHút thuốc lá làm giảm dung tích phổi, tăng nguy cơ viêm đường hô hấp và tăng mức độ nghiêm trọng của các bệnh đường hô hấp . Trong khi đó, COVID-19 là một bệnh truyền nhiễm tấn công chủ yếu vào phổi. Do đó, hút thuốc lá sẽ làm giảm khả năng chống lại coronavirus và các bệnh đường hô hấp khác. Các nghiên cứu hiện có cho thấy những người hút thuốc lá có nguy cơ mắc bệnh COVID-19 ở mức độ nghiêm trọng hơn và nguy cơ tử vong cao hơn.",
+                "score": 0.5885348916053772,
+                "id": "vietnamese_healthcare_84825",
+                "rerank_score": 0.7135672569274902
+            },
+            {
+                "text": "Câu hỏi: Năm nay tôi 61 tuổi, bị huyết áp cao và men gan cao (gấp đôi chỉ số bình thường), hàng tháng dùng thuốc của bệnh viện cho. Xin hỏi bác sĩ tôi có thuộc diện ưu tiên tiêm vaccine Covid-19 không? Nếu được tiêm thì tôi cần chuẩn bị những gì trước khi tiêm? Tôi có nên uống thuốc huyết áp hàng ngày như bình thường trước khi đi tiêm được không?\nTrả lời: Tình trạng cao huyết áp và men gan cao của anh/chị nếu ổn định (có kết luận của tuyến chuyên khoa, không phải thay đổi phác đồ hay nhập viện điều trị) thì anh/chị có thể tiêm vaccine tại cơ sở bệnh viện. Trước khi tiêm, anh/chị cần chuẩn bị giấy tờ (CMND hoặc căn cước công dân, sổ khám chữa bệnh) chuẩn bị sức khỏe như ăn uống đủ chất và khai báo tình trạng sức khỏe, tiền sử dị ứng cho bác sĩ khám trước tiêm và thuốc huyết áp vẫn dùng theo phác đồ điều trị hàng ngày của anh/chị.",
+                "score": 0.5493703484535217,
+                "id": "vietnamese_healthcare_2608",
+                "rerank_score": 0.6548649668693542
+            },
+            {
+                "text": "Câu hỏi: Hút thuốc lá thường xuyên bị ho dữ dội có làm sao không?\nTrả lời: Hút thuốc lá có thể đem lại nhiều vấn đề cho sức khỏe không chỉ ở phổi mà có thể có các cơ quan khác. Người nhà bạn mô tả biểu hiện như vậy thì nên khám loại trừ các căn nguyên ho như: u hay bệnh phổi tắc nghẽn mãn tính. Người nhà bạn nên đến khám chuyên khoa Hô hấp để chụp kiểm tra và thăm dò chức năng hô hấp.",
+                "score": 0.5844966173171997,
+                "id": "vietnamese_healthcare_9030",
+                "rerank_score": 0.5407847166061401
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi bị tức ngực ngay sau khi hút thuốc lá nên chụp phổi không? Mong được bác sĩ giải đáp thắc mắc ạ. Em cảm ơn bác sĩ, chúc bác sĩ sức khỏe.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nKhói thuốc lá lôi kéo các tế bào viêm đến phổi, các tế bào này nhã ra nhiều men tiêu hủy phổi. Có thể phổi đã bị tiêu hủy nhiều năm mới được hô hấp ký khám phá. Hơn nữa, hút thuốc lá làm cho bạn có nguy cơ cao bị nhiều bệnh như ung thư miệng, cổ họng, phổi, thực quản, dạ dày và bàng quang, bệnh tim, cao huyết áp, tai biến mạch máu não, bệnh mạch máu ngoại biên và ung thư máu. 90% bệnh nhân bệnh phổi tắc nghẽn mạn tính là người hút thuốc lá. Vì vậy, bạn cần tới bệnh viện hoặc phòng khám chuyên khoa hô hấp để được chụp phổi và đo chức năng hô hấp.\nTrân trọng!",
+                "score": 0.5581766366958618,
+                "id": "vietnamese_medical_qa_1095",
+                "rerank_score": 0.4967932403087616
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nTrả lời: 2. Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nHút thuốc lá làm giảm dung tích phổi, tăng nguy cơ viêm đường hô hấp và tăng mức độ nghiêm trọng của các bệnh đường hô hấp . Trong khi đó, COVID-19 là một bệnh truyền nhiễm tấn công chủ yếu vào phổi. Do đó, hút thuốc lá sẽ làm giảm khả năng chống lại coronavirus và các bệnh đường hô hấp khác. Các nghiên cứu hiện có cho thấy những người hút thuốc lá có nguy cơ mắc bệnh COVID-19 ở mức độ nghiêm trọng hơn và nguy cơ tử vong cao hơn.",
+                "score": 0.5840206742286682,
+                "id": "vietnamese_healthcare_84825",
+                "rerank_score": 0.7135672569274902
+            },
+            {
+                "text": "Câu hỏi: Hút thuốc lá thường xuyên bị ho dữ dội có làm sao không?\nTrả lời: Hút thuốc lá có thể đem lại nhiều vấn đề cho sức khỏe không chỉ ở phổi mà có thể có các cơ quan khác. Người nhà bạn mô tả biểu hiện như vậy thì nên khám loại trừ các căn nguyên ho như: u hay bệnh phổi tắc nghẽn mãn tính. Người nhà bạn nên đến khám chuyên khoa Hô hấp để chụp kiểm tra và thăm dò chức năng hô hấp.",
+                "score": 0.62819904088974,
+                "id": "vietnamese_healthcare_9030",
+                "rerank_score": 0.5407847166061401
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi bị tức ngực ngay sau khi hút thuốc lá nên chụp phổi không? Mong được bác sĩ giải đáp thắc mắc ạ. Em cảm ơn bác sĩ, chúc bác sĩ sức khỏe.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nKhói thuốc lá lôi kéo các tế bào viêm đến phổi, các tế bào này nhã ra nhiều men tiêu hủy phổi. Có thể phổi đã bị tiêu hủy nhiều năm mới được hô hấp ký khám phá. Hơn nữa, hút thuốc lá làm cho bạn có nguy cơ cao bị nhiều bệnh như ung thư miệng, cổ họng, phổi, thực quản, dạ dày và bàng quang, bệnh tim, cao huyết áp, tai biến mạch máu não, bệnh mạch máu ngoại biên và ung thư máu. 90% bệnh nhân bệnh phổi tắc nghẽn mạn tính là người hút thuốc lá. Vì vậy, bạn cần tới bệnh viện hoặc phòng khám chuyên khoa hô hấp để được chụp phổi và đo chức năng hô hấp.\nTrân trọng!",
+                "score": 0.592385470867157,
+                "id": "vietnamese_medical_qa_1095",
+                "rerank_score": 0.4967932403087616
+            },
+            {
+                "text": "Câu hỏi: Ngừng hút thuốc lá\nTrả lời: 1. Ngừng hút thuốc lá\nKhói thuốc lá có thể thu hẹp và làm viêm đường thở và khiến cho bạn bị khó thở hơn. Nó có thể gây kích ứng phổi của bạn và khiến bạn bị ho dai dẳng. Theo thời gian, khói phá hủy mô tại phổi và hút thuốc lá là nguyên nhân số 1 gây ra ung thư phổi và là nguyên nhân chính gây ra bệnh phổi tắc nghẽn mãn tính (COPD) COPD một tình trạng làm tổn thương các phế nang nhỏ trong phổi có chức năng xử lý oxy. Cho nên, cần cái thuốc lá nếu như bạn đang hút thuốc lá và tránh môi trường có khói thuốc lá để không hít phải khói thuốc. Việc ngừng hút thuốc lá không chỉ khiến phổi khỏe mạnh mà còn giúp giảm nguy cơ bệnh tim mạch và nhiều bệnh lý mạn tính khác.",
+                "score": 0.553194522857666,
+                "id": "vietnamese_healthcare_58974",
+                "rerank_score": 0.47059255838394165
+            },
+            {
+                "text": "Câu hỏi: Nguy cơ mắc COVID-19 của người hút thuốc lá có cao hơn so với người không hút thuốc lá?\nTrả lời: 1. Nguy cơ mắc COVID-19 của người hút thuốc lá có cao hơn so với người không hút thuốc lá?\nHiện tại, chưa có nghiên cứu nào xác định mối liên hệ giữa virus SARS-CoV-2 và hút thuốc lá . Tuy nhiên, hành động đưa tay lên miệng trong quá trình hút thuốc lá có thể làm tăng nguy cơ mắc COVID-19 . Hơn nữa, một số dụng cụ hút thuốc được sử dụng chung giữa những người hút thuốc nhiều như shisha hoặc hookah có thể tạo điều kiện cho việc lây lan COVID-19 ra cộng đồng.",
+                "score": 0.5728703737258911,
+                "id": "vietnamese_healthcare_84824",
+                "rerank_score": 0.411080539226532
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nTrả lời: 2. Nếu mắc COVID-19, triệu chứng bệnh của người hút thuốc lá có nghiêm trọng hơn người bình thường không?\nHút thuốc lá làm giảm dung tích phổi, tăng nguy cơ viêm đường hô hấp và tăng mức độ nghiêm trọng của các bệnh đường hô hấp . Trong khi đó, COVID-19 là một bệnh truyền nhiễm tấn công chủ yếu vào phổi. Do đó, hút thuốc lá sẽ làm giảm khả năng chống lại coronavirus và các bệnh đường hô hấp khác. Các nghiên cứu hiện có cho thấy những người hút thuốc lá có nguy cơ mắc bệnh COVID-19 ở mức độ nghiêm trọng hơn và nguy cơ tử vong cao hơn.",
+                "score": 0.5262322425842285,
+                "id": "vietnamese_healthcare_84825",
+                "rerank_score": 0.7135676741600037
+            },
+            {
+                "text": "Câu hỏi: Năm nay tôi 61 tuổi, bị huyết áp cao và men gan cao (gấp đôi chỉ số bình thường), hàng tháng dùng thuốc của bệnh viện cho. Xin hỏi bác sĩ tôi có thuộc diện ưu tiên tiêm vaccine Covid-19 không? Nếu được tiêm thì tôi cần chuẩn bị những gì trước khi tiêm? Tôi có nên uống thuốc huyết áp hàng ngày như bình thường trước khi đi tiêm được không?\nTrả lời: Tình trạng cao huyết áp và men gan cao của anh/chị nếu ổn định (có kết luận của tuyến chuyên khoa, không phải thay đổi phác đồ hay nhập viện điều trị) thì anh/chị có thể tiêm vaccine tại cơ sở bệnh viện. Trước khi tiêm, anh/chị cần chuẩn bị giấy tờ (CMND hoặc căn cước công dân, sổ khám chữa bệnh) chuẩn bị sức khỏe như ăn uống đủ chất và khai báo tình trạng sức khỏe, tiền sử dị ứng cho bác sĩ khám trước tiêm và thuốc huyết áp vẫn dùng theo phác đồ điều trị hàng ngày của anh/chị.",
+                "score": 0.5362792611122131,
+                "id": "vietnamese_healthcare_2608",
+                "rerank_score": 0.6548652648925781
+            },
+            {
+                "text": "Câu hỏi: Hút thuốc lá thường xuyên bị ho dữ dội có làm sao không?\nTrả lời: Hút thuốc lá có thể đem lại nhiều vấn đề cho sức khỏe không chỉ ở phổi mà có thể có các cơ quan khác. Người nhà bạn mô tả biểu hiện như vậy thì nên khám loại trừ các căn nguyên ho như: u hay bệnh phổi tắc nghẽn mãn tính. Người nhà bạn nên đến khám chuyên khoa Hô hấp để chụp kiểm tra và thăm dò chức năng hô hấp.",
+                "score": 0.5914149880409241,
+                "id": "vietnamese_healthcare_9030",
+                "rerank_score": 0.5407847166061401
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBác sĩ cho em hỏi bị tức ngực ngay sau khi hút thuốc lá nên chụp phổi không? Mong được bác sĩ giải đáp thắc mắc ạ. Em cảm ơn bác sĩ, chúc bác sĩ sức khỏe.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nKhói thuốc lá lôi kéo các tế bào viêm đến phổi, các tế bào này nhã ra nhiều men tiêu hủy phổi. Có thể phổi đã bị tiêu hủy nhiều năm mới được hô hấp ký khám phá. Hơn nữa, hút thuốc lá làm cho bạn có nguy cơ cao bị nhiều bệnh như ung thư miệng, cổ họng, phổi, thực quản, dạ dày và bàng quang, bệnh tim, cao huyết áp, tai biến mạch máu não, bệnh mạch máu ngoại biên và ung thư máu. 90% bệnh nhân bệnh phổi tắc nghẽn mạn tính là người hút thuốc lá. Vì vậy, bạn cần tới bệnh viện hoặc phòng khám chuyên khoa hô hấp để được chụp phổi và đo chức năng hô hấp.\nTrân trọng!",
+                "score": 0.5491284132003784,
+                "id": "vietnamese_medical_qa_1095",
+                "rerank_score": 0.49679356813430786
+            },
+            {
+                "text": "Câu hỏi: Có nên dùng sản phẩm cai thuốc lá hoặc nước súc miệng và dùng loại nào?\nTrả lời: Hút thuốc lá kéo dài có thể gây biến chứng:Xơ vữa động mạch (biểu hiện nặng: nhồi máu cơ tim, tai biến mạch não..)Ung thư phổi và ung thư các cơ khác ngoài phổi: vòm miệng, thanh quản, dạ dày...Bệnh phổi tắc nghẽn mạn tính do thuốc lá ...Cai thuốc lá sớm sẽ giúp giảm được phần nào các biến chứng nêu trên. Chất Nicotin trong thuốc lá là chất gây nghiện, nó tác động lên não theo cách tương tự Heroin, Cocain, và tạo cảm giác sảng khoái.Cai nghiện thuốc lá rất dễ thất bại. Em nên liên hệ bệnh viện nào có chương trình cai nghiện thuốc lá để đưa bệnh nhân đến viện nhằm được bác sĩ tư vấn, lên kế hoạch cai nghiện cụ thể. Bên cạnh đó người bệnh hiểu được hội chứng cai thuốc lá để người nhà, bệnh nhân và bác sĩ hợp tác chặt chẽ giúp bệnh nhân cai nghiện thành công.Tạm thời khi người nhà chưa đến bệnh viện được, em tham khảo nước súc miệng Botania, được bộ Y tế cấp phép giúp bệnh nhân cai nghiện thuốc lá (Bác sĩ chưa có kinh nghiệm dùng loại nước súc miệng này).",
+                "score": 0.5302202105522156,
+                "id": "vietnamese_healthcare_2867",
+                "rerank_score": 0.31762272119522095
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

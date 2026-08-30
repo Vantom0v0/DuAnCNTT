@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Em đã xét nghiệm và siêu âm, kết quả viêm dạ dày và đại tràng, men gan tăng cao, do mấy ngày qua em luôn có cảm giác mệt mỏi và ớn lạnh (không sốt). Bác sĩ cho em hỏimen tăng cao kèm ớn lạnh có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Men gan tăng cao là nguyên nhân làm cho bạn mệt mỏi. Men gan cao là dấu hiệu cảnh báo gan đang gặp vấn đề có thể là viêm gan, ung thư gan hoặc những bệnh gây tổn thương gan khác. Thậm chí men gan tăng cao do nhiễm độc có thể dẫn đến suy gan cấp, hôn mê gan và tử vong. Vì vậy, bạn nên đến bệnh viện để được thăm khám, chẩn đoán nguyên nhân gây ra tăng men gan , điều trị để tránh những biến chứng nguy hiểm.",
+    "answer": "Tăng men gan kèm mệt mỏi và ớn lạnh có thể liên quan đến viêm gan, nhưng viêm gan có nhiều nguyên nhân khác nhau. Chỉ dựa vào xét nghiệm máu và siêu âm bụng thì chưa đủ để xác định nguyên nhân hay chẩn đoán chính xác.\n\nBạn nên đi khám lại bác sĩ để được đánh giá thêm và có hướng điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: em đã xét nghiệm và siêu âm, kết quảviêm dạ dàyvà đại tràng,men gan tăng cao, do mấy ngày qua em luôn có cảm giác mệt mỏi và ớn lạnh (không sốt) có phải là do ảnh hưởng men gan tăng không ạ? Châu Hồng Sang (Nha Trang) Trả lời\nTrả lời: Chào bạn,xét nghiệm máuvàsiêu âm bụngkhông đủ để chẩn đoán viêm dạ dày và viêm đại tràng. Tăng men gan kèm theo mệt mõi, ớn lạnh như Bạn mô tả thì có thể bạn bị viêm gan. Viêm gan có thể do nhiều nguyên nhân. Bạn nên đến khám lại Bác sĩ. Thạc sĩ, Bác sĩ Nguyễn Phước Lâm- Khoa Khám bệnh & Nội khoa, Bệnh Viện Đa khoa Quốc tế Vinmec Central Park.",
+            "score": 0.8220052719116211,
+            "id": "medical_vietnamese_qa_11589",
+            "rerank_score": 0.9999788999557495
+        },
+        {
+            "text": "Câu hỏi: Cơ thể mệt mỏi, ớn lạnh có phải do men gan tăng?\nTrả lời: xét nghiệm máu và siêu âm bụng không đủ để chẩn đoán viêm dạ dày và viêm đại tràng. Tăng men gan kèm theo mệt mõi, ớn lạnh như Bạn mô tả thì có thể bạn bị viêm gan. Viêm gan có thể do nhiều nguyên nhân.",
+            "score": 0.5701991319656372,
+            "id": "vietnamese_healthcare_2894",
+            "rerank_score": 0.9998544454574585
+        },
+        {
+            "text": "Câu hỏi: ! Em bị sẩn ngứa hơn 1 tháng nay, đi khám và xét nghiệm máu thì có kết quả em bị men gan cao và bác sĩ có kê đơn thuốc uống. Tuy nhiên, em thấy khi dùng thuốc có đỡ nhưng tác dụng chậm, sau đó bị lại rất nhanh. Bên cạnh đó, thuốc còn làm em thấy đau dạ dày, chướng bụng, đau trĩ và tiểu buốt. Vậy bác sĩ cho em hỏi,sử dụng thuốc điều trị men gan cao xuất hiện đau dạ dày, chướng bụng, đau trĩ và tiểu buốt nên làm gì?Mong bác sĩ tư vấn và giải đáp. Em xin chân thành cảm ơn! Đới Anh Tuấn(1989) Trả lời\nTrả lời: Chào bạn! Theo như các triệu chứng bạn mô tả thì bác sĩ nghĩ có thể liên quan đến dị ứng, tăng men gan chưa xác định do căn nguyên nào? Thực tế,men gan caolà tình trạng nồng độ men gan trong máu tăng cao vượt trên ngưỡng giá trị bình thường. Men gan cao được phát hiện thông quaxét nghiệm máu, và sự tăng cao nồng độ của các enzyme gan trong máu là dấu hiệu cảnh báotổn thương ganđang diễn ra. Có nhiều nguyên nhân có thể gây ra tình trạng men gan cao nhưng có thể nói viêm gan là nguyên nhân chính, nồng độ men gan cao tăng thường tỷ lệ thuận với mức độ phá vỡ tế bào gan, ngoài ra, các nguyên nhân khác gây tăng men gan như do rượu, suy tim, béo phì,... Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiTiến sĩ, Bác sĩ Trần Thị Phương Thúy -Bác sĩ Chuyên khoa Gan Mật - Khoa Nội tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.5327064990997314,
+            "id": "medical_vietnamese_qa_11360",
+            "rerank_score": 0.9914302229881287
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm ở Đắk Nông, Tây Nguyên. Hiện tại, em đang bị viêm bàng quang mãn tính hơn một năm nay. Em uống thuốc tây, thuốc nam rất nhiều nơi mà không khỏi. Triệu chứng của em là đi tiểu nhiều lần trong ngày và đêm, nước tiểu vàng sẫm đi được ít, cuối bãi có giọt trắng màu đục, đau ở bụng dưới, mép miệng bị lở da mặt khô tróc vẩy nhẹ, lưỡi có rêu trắng đục, kẽ ngón tay nóng, tử cung cũng nóng, thỉnh thoảng ớn lạnh và ù tai, rất đau thắt lưng. Chỗ em bây giờ đang ở trong vùng chỉ thị 16 nên không đi khám được. Vậy bác sĩ cho em hỏi viêm bàng quang kèm ớn lạnh có sao không? Em cần phải làm gì thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBên cạnh các triệu chứng viêm bàng quang như đi tiểu nhiều, bạn lại kèm theo triệu chứng ớn lạnh và đau lưng, rất có thể nhiễm trùng từ bàng quang đã lan lên phía trên cao (đài bể thận và niệu quản ).\nDo đó, bạn nên đến viện để khám và làm xét nghiệm nhằm tìm ra chẩn đoán chính xác, từ đó có phương án điều trị thích hợp.\nTrân trọng!",
+            "score": 0.5553473234176636,
+            "id": "vietnamese_medical_qa_1242",
+            "rerank_score": 0.8293769359588623
+        },
+        {
+            "text": "Câu hỏi: Em bị đau dạ dày từ mấy năm trước vì ăn uống không điều độ, về sau ăn uống điều độ, hạn chế ăn cay thì không còn đau nữa, nhưng mỗi khi ăn cay một chút thôi là rất đau. Chẳng hạn như hôm nay, em ăn phải bánh mì có ớt, cảm giác không cay lắm nhưng em lại đau từ trưa tới tối, đau theo từng cơn, khoảng vài phút lại hết. Vậy bác sĩ cho em hỏiđau dạ dày khi ăn cay có sao không?Cần có hướng điều trị như thế nào thưa bác sĩ? Em cảm ơn bác sĩ. Lê Thị Lan Anh(1999) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Bùi Chí Nam- Khoa Nội tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Bệnh viêm loét dạ dày - tá tràng (đau dạ dày) do nhiều nguyên nhân, kể đến hàng đầu do vi khuẩn Helicobacter pylori (HP), tiếp theo là cácthuốc giảm đau chống viêm(NSAIDs), các bệnh viêm dạ dày tự miễn, chế độ ăn uống sinh hoạt không điều độ (stress, mất ngủ, ăn uống không đúng bữa, các chất kích thích bia rượu, các chất cay chua (khi ăn quá mức,....). Khi bạn có triệu chứngđau thượng vịliên quan đến ăn cay thì bạn nên đi khám bác sĩ chuyên khoa Tiêu hóa để kiểm tra: Tình trạng nhiễm vi khuẩn HP, đánh giá tổn thương niêm mạc dạ dày,... Bên cạnh đó, bạn nên điều chỉnh chế độ ăn uống sinh sinh hoạt (giảm stress, mất ngủ (nếu có), hạn chế ăn những thức ăn kích thích như cafe, bia rượu, các thực ăn có vị cay, chua nhiều.",
+            "score": 0.5288873910903931,
+            "id": "medical_vietnamese_qa_11070",
+            "rerank_score": 0.789861798286438
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

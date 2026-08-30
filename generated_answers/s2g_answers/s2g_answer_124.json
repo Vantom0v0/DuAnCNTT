@@ -1,0 +1,115 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Con đi ngoài mấy ngày nay, con cảm thấyphân màu đen, có chỗ nhão có 2,3 viên, hạt màu trắng. Con đang bịsổ mũi, sốt nhẹ và đang trong quá trình giảm cân. Vậy bác sĩ cho con hỏiđi ngoài phân đen, hạt trắng khi đang giảm cân là bệnh gì?Con cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Thông thường, một người bình thường đi đại tiện một lần/ngày nhưng phân thành khuôn, chắc, không lỏng nát, không cứng rắn, màu vàng nâu. Khi bạn có những biểu đi ngoài phân đen có hạt màu trắng khi đang bị sổ mũi và đang trong quá trình giảm cân là những dấu hiệu của các bệnh lý đường tiêu hóa. Tuy nhiên, bạn chưa cung cấp cho bác sĩ biết thời gian diễn ra tình trạng này của bạn, triệu chứng đi kèm (đau bụng, chán ăn, vàng da,...), bạn đang dùng thuốc giảm cân vậy có thể ảnh hưởng đến quá trình hấp thụ thức ăn và gâyrối loạn tiêu hóa, bạn có thể dừng thuốc giảm cân để xem triệu chứng còn xuất hiện không, nếu còn bạn cần khám bác sĩ chuyên khoa Tiêu hoá kiểm tra và làm các xét nghiệm cần thiết (như siêu âm bụng, xét nghiệm phân,...) để biết chính xác tình trạng hiện tại cũng như nguyên nhân gây tình trạng trên để xử trí sớm.",
+    "answer": "Phân đen ở bé, đặc biệt nếu bé 2 tháng và chưa ăn dặm, là bất thường vì phân thường có màu vàng; hạt hoặc vật màu trắng có thể gợi ý nhiễm giun nhưng chưa thể chẩn đoán chắc chắn chỉ qua mô tả. Bé đang giảm cân là không tốt, vì vậy bạn nên đưa bé đi khám và mang theo mẫu phân mới để bác sĩ đánh giá, có thể cần xét nghiệm phân. Nếu bé vẫn bú tốt, ngủ ngoan và không thở nhanh có thể theo dõi tại nhà; nếu bé thở mệt hoặc sốt kéo dài quá 2 ngày, cần đi khám sớm.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Bé 2 tháng tuổi chưa ăn dặm thường phân có màu vàng, nếu bé đi phân màu đen mẹ nên đi khám và đem phân mới của bé theo để bác sĩ đánh giá phân.",
+        "Bé giảm cân là không tốt, bé ho và sốt nhẹ nếu bé vẫn bú tốt, ngủ ngoan, không thở nhanh thì theo dõi bé tại nhà, nếu bé thở mệt hoặc sốt quá 2 ngày bạn nên cho bé đi khám.",
+        "Lê Thị Mến(1992) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Theo bạn mô tả, trong phân con nhà bạn có con gì màu trắng, đó là dấu hiệu của nhiễm giun.",
+        "Bé nhà bạn đi ngoài mà có nghi ngờ bị giun cần đưa bé đi khám, làm xét nghiệm phân để chẩn đoán chính xác.",
+        "Bạn cần giữ lại mẫu phân khi đi khám.",
+        "Bé 2 tháng theo sinh lý hàng tháng bé phải tăng cân.",
+        "Hiện tượng bé 9 tháng rưỡi đi ngoài phân có hạt trắng, không lỏng nhưng bạn không nói phân của bé bị như thế lâu chưa, ngày đi mấy lần, mùi phân thế nào?Tuy nhiên, phân không lỏng thì cũng không đáng ngại lắm."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Con em 2 tháng đi ngoài mấy ngày nay, cảm thấy phân màu đen , có chỗ nhão có 2, 3 viên, hạt màu trắng. Con đang bị sổ mũi và sốt nhẹ và đang trong quá trình giảm cân. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân đen kèm hạt trắng có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé 2 tháng tuổi chưa ăn dặm thường phân có màu vàng, nếu bé đi phân màu đen mẹ nên đi khám và đem phân mới của bé theo để bác sĩ đánh giá phân. Bé 2 tháng theo sinh lý hàng tháng bé phải tăng cân. Bé giảm cân là không tốt, bé ho và sốt nhẹ nếu bé vẫn bú tốt, ngủ ngoan, không thở nhanh thì theo dõi bé tại nhà, nếu bé thở mệt hoặc sốt quá 2 ngày bạn nên cho bé đi khám.",
+                "score": 0.677149772644043,
+                "id": "medical_vietnamese_qa_4559",
+                "rerank_score": 0.9998001456260681
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em nay hơn 8 tháng đi ngoài em thấy trong phân bé có con gì bé màu trắng ngoe nguẩy. Bác sĩ cho em hỏibé hơn 8 tháng tuổi đi ngoài có con gì màu trắng trong phân là dấu hiệu bệnh gì?Em cảm ơn. Lê Thị Mến(1992) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Theo bạn mô tả, trong phân con nhà bạn có con gì màu trắng, đó là dấu hiệu của nhiễm giun. Bé nhà bạn đi ngoài mà có nghi ngờ bị giun cần đưa bé đi khám, làm xét nghiệm phân để chẩn đoán chính xác. Bạn cần giữ lại mẫu phân khi đi khám.  Được giải đáp bởiBác sĩ Ngô Văn Dần -Bác sĩ Sơ Sinh - Khoa Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.6513996124267578,
+                "id": "medical_vietnamese_qa_7169",
+                "rerank_score": 0.9806573987007141
+            },
+            {
+                "text": "Câu hỏi: Con cháu đang trong giai đoạn ăn dặm. Mấy hôm gần đây, con cháu đi ngoài phân lỏng, màu thẫm, mùi chua. Ngày con đi 3 - 4 lần. Trước kia con không bao giờ ị đêm nhưng 3 hôm nay, con ị cả đêm với tình trạng phân như vậy. Vậy bác sĩ cho cháu hỏitrẻ đi ngoài phân lỏng màu thẫm mùi chua có sao không?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo những gì bạn mô tả, khả năng đường tiêu hóa của bé chưa hoàn toàn thích nghi với chế độ ăn dặm, nên phân biểu hiện hơi bất thường về màu sắc, tính chất. Tuy nhiên, có một số bệnh lý đường tiêu hóa (như viêm ruột) khởi đầu tính chất phân cũng tương tự như vậy. Vì vậy, bạn nên đưa bé đến các cơ sở y tế gần nhất có chuyên khoa Nhi để thăm khám và làm các xét nghiệm cần thiết để giải quyết vấn đề này cho bé.",
+                "score": 0.6442957520484924,
+                "id": "medical_vietnamese_qa_4465",
+                "rerank_score": 0.9715165495872498
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 5 tháng 10 ngày, lúc sinh bé nặng 3,4kg, hiện tại 7,5kg. Hiện tại, bé đi ngoài 4 - 5 lần / ngày,phân có lúc lỏng, có lúc sệt sệt chút, có gợn kiểu hoa cà hoa cải, có lúc kèm theo nhầy. Một tuần nay, bé có thêm biểu hiện đi ngoài 2 lần vào đêm. Vậy bác sĩ cho em hỏitrẻ 5 tháng tuổi đi phân lúc lỏng lúc sệt có sao không?Có phải tiêu hóa của bé có vấn đề không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Mộttrẻ bú mẹ hoàn toànsẽ có biểu hiện khi đi ngoài như sau: Trẻ đi cầu phân vàng lỏng, sệt,phân màu hoa cà, hoa cải, đi 4 - 5 lần một ngày, tính chất phân có thể thay đổi một phần do thức ăn của mẹ và do vận động, hấp thu của trẻ. Biểu hiện vậy là ổn, nếu trẻ lên cân, linh hoạt thì không điều trị gì cả.",
+                "score": 0.6266558766365051,
+                "id": "medical_vietnamese_qa_6244",
+                "rerank_score": 0.9466075301170349
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 1 tuổi nặng 8kg. Hôm nay, bé đi phân lỏng, có mùi tanh và có máu. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân lỏng, có máu nguyên nhân là gì?Em cảm ơn bác sĩ. Lê Quý(1989) Trả lời Được giải đáp bởi các Bác sĩ chuyên khoa Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé đi ngoài phân lỏng, có máu. Trường hợp này có thể có một số nguyên nhân gây ra như tình trạng viêm ruột, nhiễm trùng đường ruột, nứt kẽ hậu môn, trĩ, lồng ruột. Những nguyên nhân trên ở trẻ nhũ nhi thường là những dấu hiệu cấp tính. Bạn nên đưa bé đi khám để được bác sĩ đánh giá các triệu chứng, đưa ra các phương pháp cận lâm sàng phù hợp để chẩn đoán và cho hướng xử trí kịp thời.",
+                "score": 0.6495400667190552,
+                "id": "medical_vietnamese_qa_6265",
+                "rerank_score": 0.9203793406486511
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Con em 2 tháng đi ngoài mấy ngày nay, cảm thấy phân màu đen , có chỗ nhão có 2, 3 viên, hạt màu trắng. Con đang bị sổ mũi và sốt nhẹ và đang trong quá trình giảm cân. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân đen kèm hạt trắng có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé 2 tháng tuổi chưa ăn dặm thường phân có màu vàng, nếu bé đi phân màu đen mẹ nên đi khám và đem phân mới của bé theo để bác sĩ đánh giá phân. Bé 2 tháng theo sinh lý hàng tháng bé phải tăng cân. Bé giảm cân là không tốt, bé ho và sốt nhẹ nếu bé vẫn bú tốt, ngủ ngoan, không thở nhanh thì theo dõi bé tại nhà, nếu bé thở mệt hoặc sốt quá 2 ngày bạn nên cho bé đi khám.",
+                "score": 0.6857130527496338,
+                "id": "medical_vietnamese_qa_4559",
+                "rerank_score": 0.9998001456260681
+            },
+            {
+                "text": "Câu hỏi: Một số bệnh lý có triệu chứng đi ngoài phân đen\nTrả lời: 3. Một số bệnh lý có triệu chứng đi ngoài phân đen\nKhi đi ngoài phân đen kéo dài, có thể nghi ngờ một trong các bệnh lý sau đây: Viêm loét dạ dày - tá tràng Khi dạ dày bị tổn thương, viêm loét thậm chí là xuất huyết, máu từ vết loét tồn đọng sau đó sẽ đào thải lẫn vào phân. Một số tác nhân như thuốc kháng sinh, thuốc giảm đau có thể là nguyên nhân gây ra bệnh lý này. Viêm thực quản Khi bị viêm thực quản có chảy máu, máu cũng sẽ lẫn vào các chất thải dẫn đến hiện tượng đại tiện phân đen. Các bệnh về tai mũi họng Khi mắc các vấn đề về tai mũi họng có thể xuất hiện triệu chứng chảy máu trong, máu được nuốt xuống dạ dày và đào thải theo phân. Đây là một nguyên nhân hiếm gặp dẫn đến hiện tượng phân đen nhưng hoàn toàn có thể xảy ra. Viêm/ u ruột non Ruột non là bộ phận cuối cùng của hệ tiêu hóa, khi ruột non gặp vấn đề như viêm, u ruột thì màu sắc phân cũng sẽ bị biến đổi. Chảy máu bên trong đường mật Người có tiền sử bệnh gan, bị chấn thương gan, dập mật, sỏi mật... có thể dẫn đến hiện tượng xuất huyết đường mật, gây ra các tổn thương mạch máu, làm máu chảy xuống đường ruột khiến cho phân màu đen . Ung thư Một số bệnh nhân ung thư dạ dày, trực tràng giai đoạn đầu sẽ có biểu hiện đi ngoài phân đen không rõ cơ chế. Tuy nhiên khi phát hiện phân có màu đen trong thời gian dài cần phải nhanh chóng thăm khám và điều trị ngay. Đi ngoài phân đen là dấu hiệu của bệnh ung thư dạ dày",
+                "score": 0.6132091283798218,
+                "id": "vietnamese_healthcare_87368",
+                "rerank_score": 0.9903978109359741
+            },
+            {
+                "text": "Câu hỏi: Hôm nay, cháu có buồn đi vệ sinh và khi đi thì cháu bị tiêu chảy và phân màu đen. Hiện cháu cũng bị chậm kì kinh nguyệt 5 ngày rồi. Cháu từng đi khám và được biết là mình bị viêm xung huyết hang môn vị, có uống thuốc điều trị nhưng đã hết thuốc từ 5 tháng trước. Do dịch bệnh nên cháu không thể thực hiện việc tái khám đúng theo lịch hẹn. Cháu chỉ thấy đau bụng và đi ngoài phân đen, ngoài ra không có triệu chứng nào khác. Bác sĩ cho cháu hỏi,tiêu chảy, phân đen là dấu hiệu của bệnh gì?\nTrả lời: bác sĩ xin giải đáp như sau: Đi ngoài phân đencó thể dochảy máu trong hệ tiêu hóa(dạ dày, tá tràng). Tuy nhiên, phân đen trong chảy máu tiêu hóa thường sệt, đặc và có mùi rất hôi. Do đó, bạn không nên lo lắng quá, trước tiên bạn nên uống nhiều nước, uống thuốc điều trị tiêu chảy. Nếu sau khi hết tiêu chảy nhưng bạn vẫn còn thấy đi ngoài phân đen, hãy đến bác sĩ chuyên khoa kiểm tra để được tư vấn cụ thể.",
+                "score": 0.6186537742614746,
+                "id": "medical_vietnamese_qa_10926",
+                "rerank_score": 0.988086462020874
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em nay hơn 8 tháng đi ngoài em thấy trong phân bé có con gì bé màu trắng ngoe nguẩy. Bác sĩ cho em hỏibé hơn 8 tháng tuổi đi ngoài có con gì màu trắng trong phân là dấu hiệu bệnh gì?Em cảm ơn. Lê Thị Mến(1992) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Theo bạn mô tả, trong phân con nhà bạn có con gì màu trắng, đó là dấu hiệu của nhiễm giun. Bé nhà bạn đi ngoài mà có nghi ngờ bị giun cần đưa bé đi khám, làm xét nghiệm phân để chẩn đoán chính xác. Bạn cần giữ lại mẫu phân khi đi khám.  Được giải đáp bởiBác sĩ Ngô Văn Dần -Bác sĩ Sơ Sinh - Khoa Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.6474595069885254,
+                "id": "medical_vietnamese_qa_7169",
+                "rerank_score": 0.9806575179100037
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được 12 tháng, đi đại tiện, phân màu đen, có chất nhờn, hôi thối. Bé luôn muốn đi đại tiện. Vậy bác sĩ cho em hỏitrẻ đi đại tiện phân đen, có chất nhờn nguyên nhân là gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng phân của trẻ sẽ phụ thuộc nhiều vào thức ăn của trẻ, vi chất uống kèm và thời gian phân ở trong hậu môn. Phân màu đen cần phải loại trừ với trường hợp đi cầu phân máu ở đường tiêu hóa cao, tuy nhiên, ở độ tuổi 12 tháng thì rất ít nguyên nhân gây ra tình trạng này. Trường hợp do nhiễm khuẩn đường ruột thường kèm theo sốt, đi cầu rất nhiều lần trong ngày, phân có thể kèm máu. Khi nghi ngờ những tình trạng trên, bạn có thể cho bé đến khám để bác sĩ kiểm tra và tư vấn. Nếu không hoặc ít nghi ngờ, bạn nên cho trẻ ăn nhiều rau củ, uống nhiều nước và xem xét lượng sắt bổ sung cho trẻ.",
+                "score": 0.6039885878562927,
+                "id": "medical_vietnamese_qa_6121",
+                "rerank_score": 0.9800838232040405
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Con em 2 tháng đi ngoài mấy ngày nay, cảm thấy phân màu đen , có chỗ nhão có 2, 3 viên, hạt màu trắng. Con đang bị sổ mũi và sốt nhẹ và đang trong quá trình giảm cân. Vậy bác sĩ cho em hỏitrẻ đi ngoài phân đen kèm hạt trắng có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé 2 tháng tuổi chưa ăn dặm thường phân có màu vàng, nếu bé đi phân màu đen mẹ nên đi khám và đem phân mới của bé theo để bác sĩ đánh giá phân. Bé 2 tháng theo sinh lý hàng tháng bé phải tăng cân. Bé giảm cân là không tốt, bé ho và sốt nhẹ nếu bé vẫn bú tốt, ngủ ngoan, không thở nhanh thì theo dõi bé tại nhà, nếu bé thở mệt hoặc sốt quá 2 ngày bạn nên cho bé đi khám.",
+                "score": 0.6637797951698303,
+                "id": "medical_vietnamese_qa_4559",
+                "rerank_score": 0.9998001456260681
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em nay hơn 8 tháng đi ngoài em thấy trong phân bé có con gì bé màu trắng ngoe nguẩy. Bác sĩ cho em hỏibé hơn 8 tháng tuổi đi ngoài có con gì màu trắng trong phân là dấu hiệu bệnh gì?Em cảm ơn. Lê Thị Mến(1992) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Theo bạn mô tả, trong phân con nhà bạn có con gì màu trắng, đó là dấu hiệu của nhiễm giun. Bé nhà bạn đi ngoài mà có nghi ngờ bị giun cần đưa bé đi khám, làm xét nghiệm phân để chẩn đoán chính xác. Bạn cần giữ lại mẫu phân khi đi khám.  Được giải đáp bởiBác sĩ Ngô Văn Dần -Bác sĩ Sơ Sinh - Khoa Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.5941842794418335,
+                "id": "medical_vietnamese_qa_7169",
+                "rerank_score": 0.9806575179100037
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 4 tháng đi ngoài phân nhầy và máu kèm sốt cao, gia đình đưa cháu đi khám và điều trị tại bệnh viện khoảng 1 tuần và bác sĩ kết luận bé bị viêm ruột. Sau khi ra viện được 2 ngày thì phân bé hoa cà hoa cải kèm nhầy. Ngày thứ 5 đi nhầy màu trắng. Hiện tại bé bị ho sổ mũi nữa.Bác sĩ cho em hỏitrẻ sơ sinh bị viêm ruột kèm phân có dịch nhầy, trắng là triệu chứng bệnh gì? Vinh(1988) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Theo như bạn mô tả, tình trạng của bé là rối loạn tiêu hóa. Hiện tại, bạn đã bổ sung men tiêu hóa và nên bổ sung kẽm cho bé. Bạn nên theo dõi bé về số lần đi cầu, tăng nhiều lần kèm theo tính chất phân có nhầy nhiều, có máu và phân nhiều nước thì bạn bên cho bé đi khám ngay. Ngoài vấn đề bổ sung men và kẽm cho bé, bạn nên chú ý đến vệ sinh tay sau mỗi lần đi cầu của bé. Tất cả đồ cho và bình bú cũng cần được tiệt trùng thường xuyên để loại bỏ các yếu tố nhiễm bệnh.  Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Quốc Ánh -Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+                "score": 0.5827072858810425,
+                "id": "medical_vietnamese_qa_7201",
+                "rerank_score": 0.9752091765403748
+            },
+            {
+                "text": "Câu hỏi: Con cháu đang trong giai đoạn ăn dặm. Mấy hôm gần đây, con cháu đi ngoài phân lỏng, màu thẫm, mùi chua. Ngày con đi 3 - 4 lần. Trước kia con không bao giờ ị đêm nhưng 3 hôm nay, con ị cả đêm với tình trạng phân như vậy. Vậy bác sĩ cho cháu hỏitrẻ đi ngoài phân lỏng màu thẫm mùi chua có sao không?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Theo những gì bạn mô tả, khả năng đường tiêu hóa của bé chưa hoàn toàn thích nghi với chế độ ăn dặm, nên phân biểu hiện hơi bất thường về màu sắc, tính chất. Tuy nhiên, có một số bệnh lý đường tiêu hóa (như viêm ruột) khởi đầu tính chất phân cũng tương tự như vậy. Vì vậy, bạn nên đưa bé đến các cơ sở y tế gần nhất có chuyên khoa Nhi để thăm khám và làm các xét nghiệm cần thiết để giải quyết vấn đề này cho bé.",
+                "score": 0.5896739959716797,
+                "id": "medical_vietnamese_qa_4465",
+                "rerank_score": 0.9715166091918945
+            },
+            {
+                "text": "Câu hỏi: Bé 9 tháng rưỡi đi ngoài phân có hạt trắng, không lỏng có sao không?\nTrả lời: Nếu con bạn là con trai 9, 5 tháng tuổi theo Bảng chuẩn chiều cao và cân nặng của trẻ trai Việt Nam 2018 thì trẻ 9 tháng tuổi nặng 8, 9kg là đạt chuẩn và con bạn 9 tháng rưỡi phải nặng khoảng 9kg thì mới đạt chuẩn. Như vậy con bạn đang bị thiếu cân đấy. Hiện tượng bé 9 tháng rưỡi đi ngoài phân có hạt trắng, không lỏng nhưng bạn không nói phân của bé bị như thế lâu chưa, ngày đi mấy lần, mùi phân thế nào?Tuy nhiên, phân không lỏng thì cũng không đáng ngại lắm. Nhưng vì con bạn đang thiếu cân nên bạn cho bé đi khám bác sĩ dinh dưỡng nhi tại cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộc Hệ thống Y tế Vinmec trên toàn quốc để được tư vấn thêm về chế độ ăn và chăm sóc bé nhé. Nếu có thay đổi hợp lí về chế độ ăn thì con sẽ tăng cân hợp với tuổi ngay thôi.",
+                "score": 0.5860776305198669,
+                "id": "vietnamese_healthcare_6024",
+                "rerank_score": 0.9467638731002808
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

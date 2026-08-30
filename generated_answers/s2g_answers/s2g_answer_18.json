@@ -1,0 +1,117 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Người bình thường nên bổ sung kẽm, Calci-D3 và Magie-B6 như thế nào?",
+    "ground_truth": "Kẽm, canxi – vitamin D3 và magie – vitamin B6 là những chất thiết yếu, tham gia vào cấu tạo tế bào và chuyển hóa của cơ thể. Nhu cầu các vitamin khoáng chất này khác nhau tùythuộc từng độ tuổi và từng đối tượng.Ở người bình thường, bổ sung các vi chất thông qua việc đa dạng và tăng cường chế độ ăn uống được ưu tiên. Tuy nhiên viên uống tổng hợp cũng được lựa chọn ở những đối tượngcó nhu cầu cao như trẻ em, phụ nữ có thai, phụ nữ cho con bú hoặc người có bệnh lý đặc biệt.Dù là yếu tố vi lượng nhưng khi để thiếu hụt hoặc lạm dụng quá mức các vitamin khoáng chất đều gây ảnh hưởng đến sức khỏe. Do đó cần bổ sung liều lượng và hình thức hợp lýtùy thuộc vào độ tuổi, đối tượng và các bệnh lý hiện có.",
+    "answer": "Ở người bình thường, nên ưu tiên bổ sung kẽm, Calci-D3 và Magie-B6 thông qua chế độ ăn đa dạng, tăng cường thực phẩm phù hợp thay vì tự ý dùng viên uống. Việc bổ sung bằng thuốc hoặc viên tổng hợp chỉ nên cân nhắc ở người có nhu cầu cao như trẻ em, phụ nữ mang thai, phụ nữ cho con bú hoặc người mắc bệnh lý đặc biệt; liều lượng và hình thức sử dụng cần phù hợp với tuổi, đối tượng và tình trạng sức khỏe. Vì thiếu hụt hoặc lạm dụng đều có thể ảnh hưởng đến sức khỏe, bạn nên khám và hỏi nhân viên y tế để đánh giá nhu cầu thực sự.",
+    "evidence": [
+        "Trả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ giải đáp như sau:\nCalci-D3 thường dùng để bổ sung calci trong các trường hợp còi xương, loãng xương hoặc khi tăng nhu cầu của Calci như phụ nữ mang thai...",
+        "Magie-B6 thường sử dụng trong trường hợp Tim đập nhanh, Rối loạn giấc ngủ, Co thắt cơ trơn tiêu hóa, Đau, co thắt cơ, chuột rút...",
+        "Vì vậy, bạn nên đi khám sức khỏe để nhân viên y tế đánh giá thực sự bạn có cần bổ sung Calci-D3 và Magie-B6 không.",
+        "Ở người bình thường, bổ sung các vi chất thông qua việcđa dạng và tăng cường chế độ ăn uốngđược ưu tiên.",
+        "Tuy nhiên viên uống tổng hợp cũng được lựa chọn ở những đối tượng có nhu cầu cao như trẻ em, phụ nữ có thai, phụ nữ cho con bú hoặc người có bệnh lý đặc biệt.",
+        "Do đó cần bổ sung liều lượng và hình thức hợp lý tùy thuộc vào độ tuổi, đối tượng và các bệnh lý hiện có.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Kẽm, canxi – vitamin D3 và magie – vitamin B6 là nhữngchất thiết yếu, tham gia vào cấu tạo tế bào và chuyển hóa của cơ thể.",
+        "Nhu cầu các vitamin khoáng chất này khác nhau tùy thuộc từng độ tuổi và từng đối tượng.",
+        "Dù là yếu tố vi lượng nhưng khi để thiếu hụt hoặc lạm dụng quá mức các vitamin khoáng chất đều gây ảnh hưởng đến sức khỏe."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nCho em hỏi nên bổ sung kẽm, Calci-D3 và Magie-B6 hợp lý như thế nào? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ giải đáp như sau:\nCalci-D3 thường dùng để bổ sung calci trong các trường hợp còi xương, loãng xương hoặc khi tăng nhu cầu của Calci như phụ nữ mang thai...\nMagie-B6 thường sử dụng trong trường hợp Tim đập nhanh, Rối loạn giấc ngủ, Co thắt cơ trơn tiêu hóa, Đau, co thắt cơ, chuột rút...\nVì vậy, bạn nên đi khám sức khỏe để nhân viên y tế đánh giá thực sự bạn có cần bổ sung Calci-D3 và Magie-B6 không.\nTrân trọng!",
+                "score": 0.6626448631286621,
+                "id": "vietnamese_medical_qa_479",
+                "rerank_score": 0.9998106360435486
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏingười bình thường nên bổ sung kẽm, canxi – vitamin D3 và magie – vitamin B6 như thế nào?\nTrả lời: bác sĩ xin giải đáp như sau: Kẽm, canxi – vitamin D3 và magie – vitamin B6 là nhữngchất thiết yếu, tham gia vào cấu tạo tế bào và chuyển hóa của cơ thể. Nhu cầu các vitamin khoáng chất này khác nhau tùy thuộc từng độ tuổi và từng đối tượng. Ở người bình thường, bổ sung các vi chất thông qua việcđa dạng và tăng cường chế độ ăn uốngđược ưu tiên. Tuy nhiên viên uống tổng hợp cũng được lựa chọn ở những đối tượng có nhu cầu cao như trẻ em, phụ nữ có thai, phụ nữ cho con bú hoặc người có bệnh lý đặc biệt. Dù là yếu tố vi lượng nhưng khi để thiếu hụt hoặc lạm dụng quá mức các vitamin khoáng chất đều gây ảnh hưởng đến sức khỏe. Do đó cần bổ sung liều lượng và hình thức hợp lý tùy thuộc vào độ tuổi, đối tượng và các bệnh lý hiện có.",
+                "score": 0.6823549866676331,
+                "id": "medical_vietnamese_qa_9754",
+                "rerank_score": 0.9997829794883728
+            },
+            {
+                "text": "Câu hỏi: Mẹ cho con bú có cần bổ sung vitamin không?\nTrả lời: 1. Mẹ cho con bú có cần bổ sung vitamin không?\nMang thai làm cạn kiệt một số chất dinh dưỡng trong cơ thể, bao gồm folate, canxi và vitamin B6 . Hơn nữa, nếu bạn đang cho con bú, liều lượng khuyến nghị hàng ngày của nhiều chất dinh dưỡng thậm chí còn cao hơn so với trong thai kỳ. Khi cho con bú, lượng vitamin A, B1, B2, B6, B12, D, axit docosahexaenoic (DHA), choline và i-ốt trong chế độ ăn của bạn sẽ góp phần tạo ra sữa. Não bộ phát triển nhanh nhất trong giai đoạn sơ sinh và trẻ mới biết đi. Vì vậy dinh dưỡng tối ưu trong sữa mẹ giúp xây dựng cơ thể và trí não của em bé toàn diện. Mặc dù chế độ ăn của các bà mẹ mới sinh thường rất bổ dưỡng, nhưng để đáp ứng nhu cầu tăng cao trong thời kỳ cho con bú, phụ nữ cần thêm nhiều năng lượng và vitamin. Thông thường, phụ nữ đang cho con bú không đáp ứng đủ lượng canxi, kẽm, magie và các chất dinh dưỡng quan trọng khác. Dinh dưỡng tối ưu trong sữa mẹ giúp xây dựng cơ thể và trí não của em bé toàn diện. Các chuyên gia khuyên sau khi bé đã ra đời, mẹ vẫn nên tiếp tục dùng loại vitamin trước sinh, đặc biệt là nếu có kế hoạch mang thai lần nữa và sinh thêm con. Những phụ nữ không cho con bú cũng nên tiếp tục bổ sung vitamin trước sinh trong ít nhất 6 tháng sau sinh để khôi phục lượng dinh dưỡng dự trữ.",
+                "score": 0.4740402102470398,
+                "id": "vietnamese_healthcare_130882",
+                "rerank_score": 0.2658805549144745
+            },
+            {
+                "text": "Câu hỏi: Bổ sung vitamin khi mang thai cần có vitamin và yếu tố vi lượng nào?\nTrả lời: 2. Bổ sung vitamin khi mang thai cần có vitamin và yếu tố vi lượng nào?\nCác loại vitamin tổng hợp cho bà mẹ mang thai cần đảm bảo các dưỡng chất quan trọng giúp bảo vệ sức khỏe của mẹ và thai nhi. Khi chọn vitamin bổ sung cho bà bầu cần chú ý tới một số thành phần quan trọng như sau: 2.11. Magie Magie có tác dụng giải độc thai nghén. Chúng có nhiều trong các loại rau xanh, chứa nhiều chất diệp lục, lúa mì, các loại quả cứng, các loại đậu (đỗ), thịt, hải sản.,... Khi theo thức ăn vào cơ thể, thường chỉ khoảng 30-40% lượng Magie được hấp thu và vitamin D3 là chất có tác dụng giúp cơ thể hấp thu magie tốt hơn. Nhu cầu cần bổ sung Magie hàng ngày cho người lớn khoảng 420mg, ở phụ nữ có thai và cho con bú nhu cầu 400mg/ngày.",
+                "score": 0.4880678057670593,
+                "id": "vietnamese_healthcare_107286",
+                "rerank_score": 0.06029095873236656
+            },
+            {
+                "text": "Câu hỏi: Trẻ chậm tăng cân nên bổ sung gì?\nTrả lời: 4. Trẻ chậm tăng cân nên bổ sung gì?\n4.5. Magie Magiê là một khoáng chất thiết yếu và được tìm thấy trong một số loại rau lá xanh, các loại hạt và ngũ cốc nguyên hạt. Tuy nhiên, với áp lực thời gian ngày càng tăng, số lượng phụ huynh nấu các loại rau lá xanh ngày càng ít đi. Magiê hỗ trợ phát triển xương chắc khỏe hơn, hỗ trợ chức năng cơ và thần kinh. Nó cũng giúp trẻ ngủ ngon và có tác dụng làm dịu chúng. Mức magiê thấp cũng có liên quan đến tăng động giảm chú ý (ADHD) và tăng động.",
+                "score": 0.4755881726741791,
+                "id": "vietnamese_healthcare_53123",
+                "rerank_score": 0.017532557249069214
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏingười bình thường nên bổ sung kẽm, canxi – vitamin D3 và magie – vitamin B6 như thế nào?\nTrả lời: bác sĩ xin giải đáp như sau: Kẽm, canxi – vitamin D3 và magie – vitamin B6 là nhữngchất thiết yếu, tham gia vào cấu tạo tế bào và chuyển hóa của cơ thể. Nhu cầu các vitamin khoáng chất này khác nhau tùy thuộc từng độ tuổi và từng đối tượng. Ở người bình thường, bổ sung các vi chất thông qua việcđa dạng và tăng cường chế độ ăn uốngđược ưu tiên. Tuy nhiên viên uống tổng hợp cũng được lựa chọn ở những đối tượng có nhu cầu cao như trẻ em, phụ nữ có thai, phụ nữ cho con bú hoặc người có bệnh lý đặc biệt. Dù là yếu tố vi lượng nhưng khi để thiếu hụt hoặc lạm dụng quá mức các vitamin khoáng chất đều gây ảnh hưởng đến sức khỏe. Do đó cần bổ sung liều lượng và hình thức hợp lý tùy thuộc vào độ tuổi, đối tượng và các bệnh lý hiện có.",
+                "score": 0.5870951414108276,
+                "id": "medical_vietnamese_qa_9754",
+                "rerank_score": 0.9997829794883728
+            },
+            {
+                "text": "Câu hỏi: Cách bổ sung kẽm cho bà mẹ và trẻ em\nTrả lời: 4. Cách bổ sung kẽm cho bà mẹ và trẻ em\nMột số loại thực phẩm giàu kẽm Bổ sung đủ kẽm, trẻ thấp lùn có thể đạt chiều cao bình thường (chứ chưa hẳn đạt chiều cao lý tưởng vì còn nhiều yếu tố khác kể cả di truyền). Bổ sung đủ kẽm (dĩ nhiên cần phối hợp các biện pháp khác), trẻ suy dinh dưỡng sẽ sớm được cải thiện. 4.1. Liều lượng bổ sung cho bà mẹ và bé Liều lượng hằng ngày phù hợp để bổ sung kẽm cho mẹ bé như sau: Bổ sung kẽm cho trẻ sơ sinh 0 - 6 tháng tuổi: 2 mg/ngày; Bổ sung kẽm cho trẻ sơ sinh 7 - 11 tháng tuổi: 3 mg/ngày Bổ sung kẽm cho bé từ 1 - 3 tuổi: 3 mg/ngày; Bổ sung kẽm cho trẻ em 4 - 8 tuổi: 5 mg/ngày; Bổ sung kẽm cho trẻ em 9 - 13 tuổi: 8 mg/ngày; Bổ sung kẽm cho phụ nữ mang thai: 11- 12 mg/ngày; Bổ sung kẽm cho mẹ đang cho con bú: 12 - 13 mg/ngày",
+                "score": 0.5692633986473083,
+                "id": "vietnamese_healthcare_11960",
+                "rerank_score": 0.11342377215623856
+            },
+            {
+                "text": "Câu hỏi: Thiếu kẽm nên ăn gì?\nTrả lời: 3. Thiếu kẽm nên ăn gì?\nVới tầm quan trọng như vậy thì việc xây dựng một chế độ ăn bổ sung kẽm là rất cần thiết, tuy nhiên để cụ thể hóa cho mọi người có thể xây dựng được thì cần có một bảng tổng hợp hàm lượng kẽm trong thực phẩm thường ngày, ví dụ như hàm lượng kẽm trong củ cải, thịt gà, thịt lợn,... Sau đây là bảng hàm lượng kẽm trong 100g thực phẩm các loại: Để khám và điều trị tại Bệnh viện Đa khoa Quốc tế Vinmec, quý khách vui lòng đến trực tiếp hệ thống y tế Vinmec hoặc đăng ký khám trực tuyến TẠI ĐÂY .",
+                "score": 0.60713791847229,
+                "id": "vietnamese_healthcare_161679",
+                "rerank_score": 0.06734409928321838
+            },
+            {
+                "text": "Câu hỏi: Bạn nên bổ sung bao nhiêu kẽm trong một ngày?\nTrả lời: 2. Bạn nên bổ sung bao nhiêu kẽm trong một ngày?\nLượng kẽm được khuyến nghị hàng ngày bao gồm cả lượng kẽm mà bạn nhận được từ cả thực phẩm bạn ăn và lượng kẽm từ bất kỳ thực phẩm bổ sung nào bạn đang sử dụng. Lượng kẽm khuyến nghị theo độ tuổi Mức khuyến nghị đề cập trên bảng trên là lượng kẽm cao nhất mà hầu hết mọi người có thể nạp vào cơ thể một cách an toàn. Bạn không nên bổ sung nhiều hơn lượng khuyến cáo đó trừ khi bác sĩ chỉ định. Lượng kẽm khuyến cáo như trên đã bao gồm kẽm từ thực phẩm và thực phẩm chức năng. Lượng kẽm khuyến cáo tối đa theo độ tuổi",
+                "score": 0.623794436454773,
+                "id": "vietnamese_healthcare_91907",
+                "rerank_score": 0.06168510764837265
+            },
+            {
+                "text": "Câu hỏi: Trẻ cần bổ sung kẽm khi nào?\nTrả lời: 3. Trẻ cần bổ sung kẽm khi nào?\nCha mẹ có thể cân nhắc cho trẻ bổ sung kẽm theo liều lượng khuyến cáo nếu con bị thiếu kẽm. Hiện nay, thiếu kẽm có thể xảy ra ở những trẻ bị tiêu chảy nặng hay các tình trạng làm cho ruột khó hấp thụ thức ăn, xơ gan, sau phẫu thuật lớn hoặc trong thời gian sử dụng ống cho ăn ở bệnh viện. Các triệu chứng của thiếu hụt kẽm bao gồm: Tăng trưởng chậm, mức insulin thấp, chán ăn, khó chịu, rụng tóc, da thô ráp, vết thương chậm lành, khứu giác kém, tiêu chảy và buồn nôn. Bổ sung kẽm qua đường uống hoặc truyền kẽm qua đường tĩnh mạch (IV) giúp phục hồi mức kẽm ở những người thiếu kẽm. Tuy nhiên, việc bổ sung kẽm cho trẻ thường xuyên không được khuyến khích. Cha mẹ cần biết trẻ cần bổ sung kẽm khi nào để bổ sung phù hợp nhất",
+                "score": 0.5699522495269775,
+                "id": "vietnamese_healthcare_104880",
+                "rerank_score": 0.05084459111094475
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào dược sĩ,\nCho em hỏi nên bổ sung kẽm, Calci-D3 và Magie-B6 hợp lý như thế nào? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, dược sĩ giải đáp như sau:\nCalci-D3 thường dùng để bổ sung calci trong các trường hợp còi xương, loãng xương hoặc khi tăng nhu cầu của Calci như phụ nữ mang thai...\nMagie-B6 thường sử dụng trong trường hợp Tim đập nhanh, Rối loạn giấc ngủ, Co thắt cơ trơn tiêu hóa, Đau, co thắt cơ, chuột rút...\nVì vậy, bạn nên đi khám sức khỏe để nhân viên y tế đánh giá thực sự bạn có cần bổ sung Calci-D3 và Magie-B6 không.\nTrân trọng!",
+                "score": 0.5970661640167236,
+                "id": "vietnamese_medical_qa_479",
+                "rerank_score": 0.9998106360435486
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏingười bình thường nên bổ sung kẽm, canxi – vitamin D3 và magie – vitamin B6 như thế nào?\nTrả lời: bác sĩ xin giải đáp như sau: Kẽm, canxi – vitamin D3 và magie – vitamin B6 là nhữngchất thiết yếu, tham gia vào cấu tạo tế bào và chuyển hóa của cơ thể. Nhu cầu các vitamin khoáng chất này khác nhau tùy thuộc từng độ tuổi và từng đối tượng. Ở người bình thường, bổ sung các vi chất thông qua việcđa dạng và tăng cường chế độ ăn uốngđược ưu tiên. Tuy nhiên viên uống tổng hợp cũng được lựa chọn ở những đối tượng có nhu cầu cao như trẻ em, phụ nữ có thai, phụ nữ cho con bú hoặc người có bệnh lý đặc biệt. Dù là yếu tố vi lượng nhưng khi để thiếu hụt hoặc lạm dụng quá mức các vitamin khoáng chất đều gây ảnh hưởng đến sức khỏe. Do đó cần bổ sung liều lượng và hình thức hợp lý tùy thuộc vào độ tuổi, đối tượng và các bệnh lý hiện có.",
+                "score": 0.6212642788887024,
+                "id": "medical_vietnamese_qa_9754",
+                "rerank_score": 0.9997829794883728
+            },
+            {
+                "text": "Câu hỏi: Tôi có cần uống bổ sung Canxi và Vitamin D không?\nTrả lời: 8. Tôi có cần uống bổ sung Canxi và Vitamin D không?\nĐiều này phụ thuộc vào việc bạn có ngừng ăn hoàn toàn các thực phẩm chứa sữa hay không. Bạn nên đến gặp bác sĩ để kiểm tra nồng độ Vitamin D và quyết định xem bạn có phải uống bổ sung hay không.",
+                "score": 0.5323513746261597,
+                "id": "vietnamese_healthcare_11883",
+                "rerank_score": 0.0008847551071085036
+            },
+            {
+                "text": "Câu hỏi: Liều lượng - Cách dùng thuốc Kefstar\nTrả lời: 3. Liều lượng - Cách dùng thuốc Kefstar\n3.1. Cách dùng Thuốc Kefstar được bào chế dưới dạng bột pha và sử dụng theo đường uống.",
+                "score": 0.5173766613006592,
+                "id": "vietnamese_healthcare_58125",
+                "rerank_score": 3.695204941323027e-05
+            },
+            {
+                "text": "Câu hỏi: Chống chỉ định thuốc Pentaglobin khi nào?\nTrả lời: 4. Chống chỉ định thuốc Pentaglobin khi nào?\nMẫn cảm với bất kỳ thành phần nào của thuốc Chống chỉ định sử dụng thuốc Pentaglobin cho những người thiếu hụt IgA chọn lọc.",
+                "score": 0.5377743244171143,
+                "id": "vietnamese_healthcare_156198",
+                "rerank_score": 3.173544610035606e-05
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

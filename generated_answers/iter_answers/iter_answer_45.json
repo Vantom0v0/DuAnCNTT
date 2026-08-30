@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Tôi 66 tuổi có nằm ngoài độ tuổi tiêm vaccine không? Tôi có bệnh lý nền là huyết áp, tim mạch và ung thư đã điều trị. Xin hỏi việc tiêm vaccine sẽ áp dụng cho trường hợp của tôi thế nào?",
+    "ground_truth": "Hiện nay, độ tuổi tiêm vaccine đươc quy định từ 18 tuổi trở lên, không có giới hạn tuổi trên. Do đó với tuổi của anh/chị vẫn có thể được tiêm vaccine nếu đáp ứng đủ các điều kiện khác. Nếu anh/chị có các bệnh lý nền như đã nêu nhưng được điều trị ổn định tối thiểu 3 tháng tính tới thời điểm tiêm chủng, sức khỏe ổn định thì bác vẫn có thể được chỉ định tiêm vaccine phòng Covid-19. Tuy nhiên, anh/chị nên tiêm ở bệnh viện hay các có sở có đủ năng lực cấp cứu ban đầu để đảm báo an toàn trong quá trình tiêm chủng.",
+    "answer": "Bạn 66 tuổi **không nằm ngoài diện được tiêm vaccine**, đặc biệt nếu bệnh huyết áp, tim mạch và ung thư đã được điều trị ổn định, sức khỏe hiện tại bình thường. Theo hướng dẫn, bạn nên được khám sàng lọc và tiêm tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu; bác sĩ sẽ đánh giá cụ thể tình trạng tim mạch, huyết áp và tiền sử ung thư trước khi tiêm. Nếu bệnh nền đang diễn tiến, chưa ổn định hoặc ung thư giai đoạn cuối thì có thể phải tạm hoãn. Sau tiêm, cần theo dõi các phản ứng bất thường theo hướng dẫn và tiếp tục thực hiện các biện pháp phòng dịch.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi sinh năm 1932, không có bệnh mãn tính, chỉ bị cao huyết áp nhẹ (thường 150/85/75 đo sau 21 giờ) có thể chích vaccine ngừa Covid-19 được không ?\nTrả lời: Trường hợp của anh/chị trên 65 tuổi và có bệnh nền là tăng huyết áp, do vậy để đảm bảo an toàn, anh/chị nên đến tiêm chủng tại khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.7360764741897583,
+            "id": "vietnamese_healthcare_7965"
+        },
+        {
+            "text": "Câu hỏi: tôi 66 tuổi, có các bệnh lý nền như vậy tôi tiêm được Vaccine Covid-19 không?\nTrả lời: Hiện tại, Bộ Y tế đang triển khai tiêm cho đối tượng đủ 18 tuổi đến 65 tuổi. Trường hợp của anh/chị trên 65 tuổi và mắc bệnh lý nền nên tạm hoãn tiêm chờ chỉ đạo của Bộ Y tế.",
+            "score": 0.7290788888931274,
+            "id": "vietnamese_healthcare_317"
+        },
+        {
+            "text": "Câu hỏi: Mẹ tôi (70 tuổi) mổ tim cách đây 8 tháng, đặt “ring” để hạn chế hở van tim… Xin hỏi bác sĩ có nên chích ngừa vaccine Covid-19 không?\nTrả lời: Theo quyết định 2995/QĐ-BYT ngày 18/06/2021 của Bộ Y tế, những trường hợp > 65 tuổi, có tiền sử bệnh lý nền, bệnh lý mãn tính. . . đã được điều trị ổn định vẫn tiêm phòng vaccine Covid-19 bình thường. Để đảm bảo an toàn, những trường hợp này cần phải được thăm khám, tiêm phòng vaccine Covid-19 tại khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.7290201783180237,
+            "id": "vietnamese_healthcare_5174"
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn hỏi việc tiêm chủng cho người trên 65 tuổi sẽ thực hiện như thế nào?\nTrả lời: Với đối tượng trên 65 tuổi, nếu không có bệnh nền kèm theo hoặc bệnh nền đã được điều trị ổn định, hiện tại sức khỏe bình thường, theo Quyết định 2995 của Bộ Y tế, anh/chị sẽ được tiêm vaccine phòng Covid-19 tại bệnh viện hay các cơ sở cáo đủ năng lực cấp cứu ban đầu.",
+            "score": 0.7257900238037109,
+            "id": "vietnamese_healthcare_9144"
+        },
+        {
+            "text": "Câu hỏi: bố tôi năm nay 65 tuổi, mới mổ ung thư đại tràng hồi tháng 4 bằng phương pháp mổ Robot. May mắn là bố tôi mới bị ở giai đoạn đầu nên không phải xạ trị hay hoá trị gì hết. Hiện sức khoẻ của của ông cũng rất tốt. Xin bác sĩ cho tôi hỏi người mắc các bệnh nền về ung thư thì có được tiêm vaccine ngừa Covid-19 hay không? Và nếu được tiêm thì phải cần phải chăm sóc thế nào?\nTrả lời: Theo hướng dẫn của Bộ Y tế, những đối tượng ung thư giai đoạn cuối cần hoãn tiêm trong giai đoạn này. Bố của chị 65 tuổi có bệnh nền ung thư giai đoạn đầu được bác sĩ điều trị và được kết luận đã khỏi/ổn định hoàn toàn thì có thể được tiêm chủng vaccine Covid-19 tại các bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Sau khi tiêm, bố của chị cần chú ý chế độ dinh dưỡng tăng cường miễn dịch đồng thời cần theo dõi một số phản ứng nhẹ, vừa hoặc nặng có thể gặp phải. Đồng thời sau tiêm chủng vẫn cần phải đảm bảo thực hiện nghiêm túc thông điệp 5K của Bộ Y tế nhằm bảo vệ bản thân và gia đình. Các bác sĩ khám sàng lọc sẽ hướng dẫn và tư vấn cụ thể cho bố của chị.",
+            "score": 0.7204347848892212,
+            "id": "vietnamese_healthcare_2966"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Thưa bác sĩ, em năm nay 30 tuổi em đã hiến thận được 2 năm. Hiện giờ em muốn triệt sản vì vợ em đã sinh 3 bé . Vì không muốn vợ em đẻ thêm tổn hại sức khoẻ em muốn triệt sản. Cho em hỏi, đã hiến thận triệt sản có ảnh hưởng gì không? Mong bác sĩ tư vấn giúp em ạ.",
+    "ground_truth": "Chào bạn! Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả. Cho dù bạn đã hiến thận, bạn vẫn có phẫu thuật được.\nCảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Nam giới đã hiến thận triệt sản có ảnh hưởng gì không?” Rất mong có thể sớm gặp bạn tại AI-Doctor trong thời gian sớm nhất. Trân trọng.",
+    "answer": "Anh đã hiến thận 2 năm vẫn có thể cân nhắc triệt sản nam bằng thắt/cắt ống dẫn tinh; đây là thủ thuật đơn giản, an toàn và nhìn chung không ảnh hưởng đến chức năng thận, nội tiết, ham muốn, khả năng cương hay xuất tinh—tinh dịch vẫn được tạo và xuất tinh nhưng không còn tinh trùng để thụ thai. Tuy nhiên, đây là biện pháp tránh thai gần như vĩnh viễn, nên chỉ thực hiện khi anh chắc chắn không muốn có thêm con; hiệu quả không đạt ngay lập tức, cần dùng biện pháp tránh thai khác cho đến khi xét nghiệm tinh dịch xác nhận không còn tinh trùng. Trước thủ thuật, anh nên khám và thông báo đầy đủ tiền sử hiến thận, kiểm tra chức năng thận cũng như loại trừ các vấn đề tại bìu, rối loạn đông máu hoặc nhiễm trùng; hãy trao đổi trực tiếp với bác sĩ tiết niệu/nam khoa để được đánh giá cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Phương pháp triệt sản nam có ảnh hưởng gì không\nTrả lời: 2. Phương pháp triệt sản nam có ảnh hưởng gì không\nThủ thuật thắt ống dẫn tinh được các bác sĩ sử dụng hiệu quả, đây là kỹ thuật tương đối đơn giản, thậm chí không cần dùng dao. Triệt sản nam bằng thắt ống dẫn tinh có nhiều ưu điểm như sau: Phương pháp có hiệu quả ngừa thai vĩnh viễn. Phương pháp không gây ảnh hưởng tới sức khỏe và hoạt động tình dục. Tuy nhiên, phương pháp này chỉ có tác dụng ngừa thai và không có hiệu quả phòng tránh các bệnh lây truyền qua đường tình dục . Do vậy, bạn cần kết hợp các phương pháp ngừa thai khác như sử dụng bao cao su để phòng tránh trong trường hợp có bệnh về tình dục. Phương pháp triệt sản nam có ảnh hưởng gì không? Câu trả lời là không và nó có hiệu quả ngừa thai vĩnh viễn",
+            "score": 0.7315725684165955,
+            "id": "vietnamese_healthcare_93691"
+        },
+        {
+            "text": "Câu hỏi: Nam giới đã hiến thận, triệt sản có ảnh hưởng gì không?\nTrả lời: Triệt sản nam hay phẫu thuật cắt ống dẫn tinh là phẫu thuật đơn giản, an toàn và hiệu quả.",
+            "score": 0.726716160774231,
+            "id": "vietnamese_healthcare_3682"
+        },
+        {
+            "text": "Câu hỏi: Cách đây 7 năm, sau khi phẫu thuật lấy thai nhi song sinh, em đã chọn hình thứctriệt sảnđể tránh mang thai ngoài ý muốn. Nhưng giờ con đã lớn, em rất khao khát muốn sinh thêm con. Em không biết hình thức triệt sản của em là gì? Bác sĩ cho em hỏiđã triệt sản có thể mang thai không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Triệt sản là thủ thuật sản khoa cắt vàthắt 2 vòi trứng, có thể thực hiện sau khi sinh hoặc sau khi sạch kinh nhằm mục đích thôi đẻ vĩnh viễn. Trong trường hợp muốn có thai lại sau triệt sản, bạn cần đến bác sĩ Sản khoa và nơi có điều kiện, máy móc, trang thiết bị để được phẫu thuật, tái tạo lại vòi trứng hoặc chọn lựa phương pháp hỗ trợ sinh sản phù hợp (IVF,...).",
+            "score": 0.7012412548065186,
+            "id": "medical_vietnamese_qa_2915"
+        },
+        {
+            "text": "Câu hỏi: Triệt sản\nTrả lời: 5. Triệt sản\nTriệt sản được coi là phương pháp kiểm soát khả năng sinh sản vĩnh viễn. Mặc dù đôi khi bạn có thể mang thai trở lại sau khi đã thực hiện kỹ thuật này, nhưng chúng khá tốn kém, phức tạp và chỉ một số ít đàn ông/phụ nữ có khả năng mang thai lại. Chỉ chọn tùy chọn cách này nếu bạn chắc chắn 100% rằng bạn không muốn có thêm con. Phương pháp này sẽ không ảnh hưởng đến nội tiết tố, ham muốn tình dục hoặc lượng sữa của bạn.. Thắt ống dẫn tinh là phương pháp tránh thai an toàn và hiệu quả cao được dành cho nam giới Thắt ống dẫn tinh : Là một phương pháp tránh thai an toàn và hiệu quả cao được dành cho nam giới. Bác sĩ cắt hoặc chặn hai ống dẫn tinh - mang tinh trùng từ tinh hoàn đến túi trong bìu để chứa tinh dịch trước khi xuất tinh. (Tinh trùng sau đó được cơ thể tái hấp thu. Nam giới bị thắt ống dẫn tinh vẫn có thể quan hệ và xuất tinh. Tuy nhiên, tinh dịch của họ sẽ không chứa bất kỳ tinh trùng nào, vì vậy nó không thể thụ tinh với trứng và gây ra thụ thai. Triệt sản nữ : Có lựa chọn phẫu thuật và không phẫu thuật. Thắt ống dẫn trứng là một thủ thuật phẫu thuật trong đó bác sĩ nạo, cắt hoặc thắt ống dẫn trứng của phụ nữ để trứng không thể gặp tinh trùng. Bạn có thể thực hiện thủ thuật này trong khi sinh nếu bạn sinh mổ hoặc trong vòng 48 giờ sau khi thường. Nếu không, bạn phải đợi sáu tuần để thực hiện phương pháp này. Sau 6 tuần sau sinh, bạn có thể áp dụng biện pháp tránh thai Essure - đây là phương pháp triệt sản không cần phẫu thuật, trong đó các mô cấy được đưa vào ống dẫn trứng bằng đường âm đạo. Nếu biện pháp tránh thai thông thường không thành công hoặc bạn quên sử dụng hoặc sử dụng không đúng cách thì việc sử dụng thuốc tránh thai khẩn cấp có thể làm giảm đáng kể khả năng mang thai của bạn. Thuốc tránh thai khẩn cấp là biện pháp tránh thai được sử dụng phổ biến. (Ngoài ra, bạn có thể đặt vòng tránh thai bằng đồng để tránh thai sau khi quan hệ tình dục không được bảo vệ.) Nguồn tham khảo: babycenter.com",
+            "score": 0.6805377006530762,
+            "id": "vietnamese_healthcare_88493"
+        },
+        {
+            "text": "Câu hỏi: Triệt sản vĩnh viễn\nTrả lời: 8. Triệt sản vĩnh viễn\nKhi chọn triệt sản vĩnh viễn , điều quan trọng là phải chắc chắn rằng bạn đã có số lượng con mong muốn hoặc không muốn mang thai nữa. Triệt sản vĩnh viễn ở phụ nữ được thực hiện được bằng phẫu thuật như thắt ống dẫn trứng. Ở nam giới thường gọi là phương pháp thắt ống dẫn tinh .Các trường hợp có rối loạn đông máu, suy nhược cơ thể, rối loạn tình dục hoặc có các bất thường ở bìu như thoát vị bẹn, giãn tĩnh mạch, ứ nước màng tinh hoàn, viêm nhiễm mãn tính và các di tích ở thừng tinh là những chống chỉ định triệt sản nam. Khi chọn triệt sản vĩnh viễn, điều quan trọng là phải chắc chắn rằng bạn đã có số lượng con mong muốn",
+            "score": 0.6695249080657959,
+            "id": "vietnamese_healthcare_156815"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

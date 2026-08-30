@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "! Em đã tiêm mũi 5in1 của Ấn Độ cho bé lúc 2,5 tháng tuổi. Bây giờ con em được 3,5 tháng tuổi nặng 7,5kg, em muốn tiêm dịch vụ mũi 5in1 lần 2 hoặc 6in1 để bé đỡ sốt hơn. Vậy bác sĩ cho em hỏibé đã tiêm 5in1 của Ấn Độ có tiêm dịch vụ mũi 5in1 hoặc 6in1 được không? Rất mong bác sĩ tư vấn, em cảm ơn! Câu hỏi ẩn danh Trả lời",
+    "ground_truth": "Chào bạn! Với câu hỏi “Bé đã tiêm 5in1 của Ấn Độ có tiêm dịch vụ mũi 5in1 hoặc 6in1 được không?”, bác sĩ xin giải đáp như sau: Bé nhà bạn đã tiêm mũi 5in1 của Ấn Độ lúc 2,5 tháng thì lúc 3,5 tháng bé có thể chuyển sang tiêm vắc-xin 5in1 hoặc 6in1 của Bỉ hoặc của Pháp được. Khi đó bé không cần phải uống vắc-xin ngừa bại liệt nữa. Nếu tiêm vắc-xin 5in1 (của Pháp hoặc Bỉ) thì bé cần tiêm thêm 1 mũi viêm gan B (do vắc-xin 5in1 của Pháp và Bỉ không chứa thành phần viêm gan B), còn nếu tiêm vắc-xin 6in1 thì không cần tiêm thêm vắc xin viêm gan B nữa.  Được giải đáp bởiThạc sĩ, Bác sĩ Đoàn Ngọc Quỳnh -Bác sĩ Nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+    "answer": "Bé đã tiêm mũi 5 trong 1 của Ấn Độ (ComBE Five) vẫn có thể chuyển sang tiêm vắc-xin 5 trong 1 hoặc 6 trong 1 dịch vụ; các vắc-xin 5 trong 1 có thành phần phòng bệnh cơ bản tương đương, còn 6 trong 1 có thêm thành phần bại liệt dạng tiêm. Khoảng cách giữa hai mũi của bé là khoảng 1 tháng, phù hợp để được xem xét tiêm mũi tiếp theo, nhưng cần mang sổ tiêm đến cơ sở tiêm chủng để bác sĩ kiểm tra loại vắc-xin, lịch và chỉ định cụ thể. Việc đổi sang vắc-xin dịch vụ không đảm bảo chắc chắn bé sẽ ít sốt hơn, vì phản ứng sau tiêm tùy từng trẻ; nếu tiêm 6 trong 1 thì thường không cần tiêm thêm IPV cùng thời điểm, nhưng vẫn cần thực hiện đầy đủ lịch phòng bại liệt theo hướng dẫn.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Con em được 5,5 tháng. Cháu có tiêm 2 mũi 5in1 và uống vắc-xin bại liệt theo chương trình mở rộng. Nhưng mũi thứ 3 cháu tiêm 6in1 hexaxim. Tháng này trạm y tế không thông báo cho cháu tiêm bại liệt so với các bé cùng tháng. Bác sĩ cho em hỏitrẻ 5,5 tháng tiêm mũi thứ 3 vắc-xin 6in1 Hexaxim, chưa tiêm bại liệtcó sao không? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn. Với câu hỏi: “Trẻ 5,5 tháng tiêm mũi thứ 3 vắc-xin 6in1 Hexaxim, chưa tiêm bại liệtcó sao không?” của bạn, bác sĩ xin tư vấn như sau: Con bạn đã tiêm mũi thứ 3vắc-xin 6in1 Hexaxim(mũi 6 trong 1) như vậy đã có bại liệt dạng tiêm trong mũi này rồi và con bạn không phải tiêm thêm mũi bại biệt nữa. Những bạn tiêm 5 trong 1 mũi 1, 2 và 3 và uống bại liệt theochương trình tiêm chủng mở rộngthì mới phải tiêm thêm 1 mũivắc-xin bại liệt. Cảm ơn bạn đã tin tưởng và gửi câu hỏi vềHệ thống Y tế Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa II Quách Nguyễn Thu Thủy -Bác sĩ Nhi - Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.7810686826705933,
+            "id": "medical_vietnamese_qa_13422"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em tiêm đúng 3 mũi 6in1 nhưng mũi nhắc lại 18 tháng thì hết 6in1 nên em tiêm cho bé mũi 5in1 của nhà nước tiêm chủng mở rộng và có uống thêm bại liệt. Vậy bác sĩ cho em hỏitrẻ tiêm 3 mũi 6in1 và mũi 5in1 có ảnh hưởng gì?Em có nên tiêm thêm 6in1 cho bé khi bé 38 tháng tuổi không? Em cảm ơn bác sĩ. Ngọc Hân(1996) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Đoàn Ngọc Quỳnh- Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Mũi 6in1 nhắc lại lúc 18 tháng được thay thế bằng vắc xin 5in1 theo chương trình tiêm chủng mở rộng (phòng bạch hầu, ho gà, uốn ván, viêm gan B và Hib) thì có hiệu quả phòng 5 bệnh này. Riêng uống thêm liều bại liệt thì không đủ hiệu quả phòng bệnh bại liệt, bạn chỉ cần cho bé đi tiêm bổ sung 1 liều vắc xin phòng bại liệt (IPV) là được. Khi bé được 4 - 6 tuổi bạn cho bé đi tiêm mũi nhắc lại vắc xin 4in1 phòng 4 bệnh bạch hầu, ho gà, uốn ván, bại liệt.",
+            "score": 0.7597218751907349,
+            "id": "medical_vietnamese_qa_12845"
+        },
+        {
+            "text": "Câu hỏi: Trẻ tiêm vắc-xin 5in1 Hàn Quốc chuyển sang 5in1 Ấn Độ có được không?\nTrả lời: Bé cần được tiêm nhắc lại vắc-xin 5in1 hoặc 6in1 mũi 4 ở thời điểm 15-20 tháng và không trễ quá sau 24 tháng. Vắc-xin Quinvaxem của Hàn quốc và vắc-xin ComBE Five của Ấn độ có thành phần tương đương nhau.",
+            "score": 0.7554508447647095,
+            "id": "vietnamese_healthcare_2926"
+        },
+        {
+            "text": "Câu hỏi: Thưa bác sĩ cho em hỏi: Con em được tiêm dịch vụ các mũi vắc-xin 6in1. Nay con được 18 tháng trạm y tế lại gọi đi tiêm vắc-xin dự phòng, trong khi tháng sau mới đến lịch tiêm nhắc lại vắc-xin dịch vụ của cháu. Vậy em hỏi mũi tiêm này em có phải cho con tiêm theo lịch trạm y tế gọi không ạ?\nTrả lời: Chào mẹ! Bé cần được tiêm 4 mũi vắc-xin 5in1 hoặc 6in1 trước 2 tuổi. Nếu bé đã được tiêm 3 mũi trong năm đầu tiên thì mũi thứ 4 sẽ được tiêm nhắc vào thời điểm 15-20 tháng. Vậy mẹ có thể mang sổ tiêm của bé đến các cơ sở tiêm chủng để được kiểm tra lịch tiêm và tư vấn cụ thể.",
+            "score": 0.7351345419883728,
+            "id": "vietnamese_medical_qa_3449"
+        },
+        {
+            "text": "Câu hỏi: Con em được 25 tháng rưỡi nhưngbé chưa tiêm nhắc lại mũi 5in1. Vậy bác sĩ cho em hỏitrẻ hơn 2 tuổi chưa tiêm nhắc lại 5in1 có tiêm lại được không?Tiêm như vậy có tác dụng gì không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin 5 trong 1(và 6 trong 1) được chỉ định cho trẻ dưới 2 tuổi. Hiện nay, con bạn 25,5 tháng, nếu chưa tiêm mũi 4 của 1 trong 2 loại trên thì bạn cho bé nhanh chóng đi tiêm mũi 4 trong 1 để phòng bệnhbạch hầu- ho gà- uốn ván- bại liệt. Bạn có thể đưa bé đến thăm khám bác sĩ để được tư vấn tiêm chủng một cách tốt nhất.",
+            "score": 0.733821451663971,
+            "id": "medical_vietnamese_qa_13284"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

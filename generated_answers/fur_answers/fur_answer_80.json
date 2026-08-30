@@ -1,0 +1,68 @@
+{
+    "model_name": "fur",
+    "question": "Em năm nay 30 tuổi. Ngực em lâu lâu có đau 1 chút, em có đi khám tổng quát thì không có vấn đề gì. Em có tìm hiểu trên mạng về các dấu hiệu bệnh, nhưng thấy không có những dấu hiệu đó. Vậy cho em hỏi, triệu chứng đau của em là như thế nào ạ?\nChào bác sĩ cho em hỏi em rạng sáng trước ngực em hơi bị đau là bị bệnh gì vậy? Mong bác sĩ tư vấn. Xin cảm ơn.",
+    "ground_truth": "Chào bạn. Đau ngực là triệu chứng của nhiều cơ quan. Trong đó có 2 cơ quan quan trọng là tim và phổi. Bạn có đi khám tổng quát kết quả bình thường có thể loại trừ nguyên nhân đau ngực do bệnh lý tim mạch, hô hấp.\nDo đó trường hợp đau ngực của bạn là triệu chứng lành tính có thể do căng cơ thành ngực (căng cơ thường xảy ra sau khi nâng vật nặng, kéo giãn hoặc cử động đột ngột, ho kéo dài) hoặc trong trạng thái lo âu có xuất hiện cơn đau tại vùng ngực, nên bạn không cần quá lo lắng quá.\nTuy nhiên bạn nên theo dõi sức khỏe thường xuyên, nếu đau ngực kéo dài kèm theo khó thở, chóng mặt... cần đến ngay cơ sở y tế uy tín để thăm khám và tư vấn nhé.",
+    "answer": "Chỉ dựa vào việc đau nhẹ, thỉnh thoảng và xuất hiện vào rạng sáng thì chưa đủ để xác định nguyên nhân. Cần ghi nhận các đặc điểm sau:\n\n- **Vị trí và hướng lan:** sau xương ức, bên trái/phải, lan ra lưng hoặc vùng khác.\n- **Tính chất đau:** bóp nghẹt, nóng rát, nhói, tức nặng hay đau tăng khi hít sâu.\n- **Thời gian:** mỗi cơn kéo dài bao lâu, xuất hiện vài giây hay lâu hơn, tự hết hay tái diễn.\n- **Yếu tố khởi phát:** xảy ra khi gắng sức, lúc nghỉ ngơi, khi lo lắng/căng thẳng, khi uống nước hoặc khi hít thở sâu.\n- **Triệu chứng đi kèm:** khó thở, buồn nôn, vã mồ hôi, cảm giác tụt huyết áp, tim đập mạnh, mệt hoặc đau lan.\n- **Yếu tố nguy cơ tim mạch:** tuổi cao, nam giới, tăng huyết áp, đái tháo đường, rối loạn mỡ máu, béo phì, hút thuốc lá.\n\nĐau ngực có thể liên quan đến tim mạch, phổi, dạ dày–thực quản, cơ–thần kinh hoặc căng thẳng. Nếu đau kèm khó thở, buồn nôn, vã mồ hôi, cảm giác tụt huyết áp hoặc cơn kéo dài/tái diễn nhiều đợt, cần được khám trực tiếp sớm để loại trừ tình trạng nguy hiểm. Không tìm thấy đủ thông tin để kết luận nguyên nhân cụ thể trong trường hợp này.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Thưa bác sĩ, em muốn hỏi về vấn đề đau tức ngực. Em có dấu hiệu đau ngực, chỉ hơi đau và cơn đau cũng có lúc kéo dài cả ngày, lúc thì đau ngực trái lúc thì đau ngực phải và xiên qua sau lưng, cũng có lúc đau cả ngực. Em thường đau khi mệt mỏi hoặc khi hít thở sâu, có cảm giác khó thở. Có một thời gian, em thấy vàng mắt, chán ăn, ăn không tiêu, tuần chỉ đi vệ sinh 2 lần vì những cơn đau dữ dội. Bác sĩ cho hỏi em như vậy là bị làm sao ạ? Mong bác sĩ tư vấn giúp em. Cảm ơn trước sự nhiệt tình của bác sĩ.\nTrả lời: Chào em, biểu hiện tức ngực ở độ tuổi của em thì không nghĩ đến bệnh lý mạch vành, tuy nhiên em cần đến cơ sở y tế để kiểm tra các bệnh lý về tim mạch và tiêu hóa nhé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.628572940826416,
+            "id": "vietnamese_medical_qa_4292",
+            "rerank_score": 0.9824275374412537
+        },
+        {
+            "text": "Câu hỏi: Thường xuyên đau tức ngực là dấu hiệu của bệnh gì?\nTrả lời: Qua triệu chứng bạn mô tả, bác sĩ bước đầu chẩn đoán có thể đây là dấu hiệu của bệnh co thắt thực quản.",
+            "score": 0.6098220348358154,
+            "id": "vietnamese_healthcare_8099",
+            "rerank_score": 0.9251453876495361
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho em hỏi đau 2 bên ngực cùng một chỗ là triệu chứng bệnh gì ạ? Em bị đau 1 chỗ ở vùng ngực nhưng cả hai bên đau y hệt nhau ạ. Mong bác sĩ tư vấn giúp em, em xin cảm ơn.\nChào bác sĩ. Tôi bị đau cả 2 bên ngực. Bên ngực trái thì đau bên trên, sưng mà căng cứng. Bên phải thì nhẹ hơn chỉ hơi đau bên dưới thôi. Tôi bị đau 1 tuần nay rồi. Xin hỏi tôi có triệu chứng của bệnh gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ. Em vừa sinh xong được 2 tháng thì mấy hôm gần đây cảm thấy đau nhói ở ngực trái thỉnh thoảng lan ra giữa ngực và ngực phải thì đó là bị gì ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn!\nĐau ngực là một triệu chứng của nhiều bệnh lý về tim mạch, hô hấp, thần kinh, tiêu hóa... Trường hợp này bạn nên đi khám bác sĩ để được tư vấn và điều trị được tốt nhất.",
+            "score": 0.6103788614273071,
+            "id": "vietnamese_medical_qa_3684",
+            "rerank_score": 0.9219760894775391
+        },
+        {
+            "text": "Câu hỏi: Gần đây, tôi hay có triệu chứng đau tức ngực. Cách đây 3 ngày khi uống nước thì có cơn đau bất ngờ khoảng tầm 15 phút. Những ngày sau có bị đau nhưng thời gian ít hơn. Bác sĩ tư vấn giúp tôiđau tức ngực là biểu hiện của bệnh gì?Tôi xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Đau tức ngực là 1 triệu chứng báo động và cần được đánh giá sớm, toàn diện và đầy đủ. Bạn nên đến khám sớm tại các cơ sở y tế gần nhất để được thăm khám và thực hiện các xét nghiệm phù hợp.",
+            "score": 0.6024001240730286,
+            "id": "medical_vietnamese_qa_11813",
+            "rerank_score": 0.9011592864990234
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ ạ.\nTrong cỡ 3-4 tháng gần đây em hay thấy ngực em đau nhói lên mỗi 1-2 tuần. Em hay mệt hơn và tim đập mạnh hơn thường ạ. Lâu lâu em còn thấy núm vú đau nhói lên nữa ạ. Không biết là do dạo này em ít hoạt động hay có vấn đề gì về sức khỏe không ạ? Mong bác sĩ tư vấn giúp em.\nTrả lời: Chào bạn! Xin hỏi bạn đau ngực trái hay phải? Cơn đau xuất hiện khi nào và kéo dài bao lâu? Bạn nên gặp bác sĩ Tim mạch để được thăm khám và tư vấn cụ thể.",
+            "score": 0.6114885210990906,
+            "id": "vietnamese_medical_qa_3253",
+            "rerank_score": 0.8889107704162598
+        },
+        {
+            "text": "Câu hỏi: Em thỉnh thoảng bị đau thắt ở giữa ngực, đau rất khó chịu, gây khó thở, buồn nôn, có cảm giác như tụt huyết áp, vã mồ hôi, cơn đau kéo dài vài phút, nhẹ thì đau 1 lúc với cường độ nhẹ rồi hết, nặng thì kéo dài nhiều đợt kèm các triệu chứng trên. Vậy bác sĩ cho em hỏiđau thắt giữa ngực kèm buồn nôn là dấu hiệu bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Với các trường hợp đau ngực, người bệnh có thể gặp các vấn đề liên quan đến phổi, dạ dày, tim, thần kinh và các vấn đề về cơ, phần mềm tại ngực. Đối với mỗi cơ quan tổn thương, ngoài triệu chứng đau ngực, người bệnh sẽ có các triệu chứng khác kèm theo gợi ý. Tiền sử bệnh và bệnh mắc kèm cũng có ý nghĩa trong suy luận bệnh. Trường hợp nguy hiểm cần loại từ là cơn đau thắt ngực không ổn định. Bạn cần thiết phải khám bệnh trực tiếp với bác sĩ để được khám trực tiếp và thực hiện các cận lâm sàng, từ đó có chẩn đoán cụ thể và điều trị, tránh các biến chứng nặng.",
+            "score": 0.5156401991844177,
+            "id": "medical_vietnamese_qa_11632",
+            "rerank_score": 0.9089734554290771,
+            "weighted_score": 0.9366448879241943
+        },
+        {
+            "text": "Câu hỏi: Đau ngực không rõ nguyên nhân nên làm gì?\nTrả lời: Đau ngực là triệu chứng thường gặp do tim và phổi hoặc do cơ xương. Ở độ tuổi bạn, hiếm khi có bệnh lý thực thể do tim và phổi trừ khi bạn có bệnh tim bẩm sinh (bệnh từ lúc trong bụng mẹ).Nếu triệu chứng thoáng qua, tự hết tự đến thì bạn không cần lo lắng.",
+            "score": 0.4406012296676636,
+            "id": "vietnamese_healthcare_8768",
+            "rerank_score": 0.7956244349479675,
+            "weighted_score": 0.9222519278526307
+        },
+        {
+            "text": "Câu hỏi: Đau tức ngực là dấu hiệu của bệnh gì?\nTrả lời: Đau ngực vùng sau xương ức và ngực trái là biểu hiện của nhiều bệnh lý khác nhau. Để xác định nguyên nhân gây bệnh sẽ tùy theo tính chất cơn đau như xảy ra khi gắng sức, lo lắng, căng thẳng hoặc khi nghỉ ngơi; đau kiểu bóp nghẹt, nóng rát, đau tăng khi hít sâu, thời gian cơn đau chỉ vài giây hoặc kéo dài. . . và có các yếu tố nguy cơ tim mạch hay không như tuổi cao, nam giới, tăng huyết áp, đái đường, rối loạn mỡ máu, béo phì, hút thuốc lá. . . . Các nguyên nhân thường gặp gây đau ngực là do bệnh tim mạch có bệnh mạch vành, viêm màng ngoài tim, bóc tách động mạch chủ. . . ; do bệnh phổi có viêm phổi, màng phổi, tràn khí - tràn dịch màng phổi. . . ; do bệnh dạ dày - thực quản; đau cơ hoặc thần kinh liên sườn; hoặc do lo lắng, căng thẳng thần kinh. Để xác định chính xác nguyên nhân đau ngực, bạn nên đến khám tại các cơ sở y tế để được thăm khám và thực hiện các xét nghiệm cần thiết nhằm chẩn đoán bệnh và có phương pháp điều trị thích hợp.",
+            "score": 0.43081536889076233,
+            "id": "vietnamese_healthcare_388",
+            "rerank_score": 0.8166811466217041,
+            "weighted_score": 0.9111282348632812
+        },
+        {
+            "text": "Câu hỏi: Mấy ngày nay, em hay bị đau nhẹ vùng ngực trái và cảm giác nóng ran. Vậy bác sĩ cho em hỏiđau ngực trái nguyên nhân là gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Đau ngực trái thường có nhiều nguyên nhân, bác sĩ sẽ dựa vào những đặc điểm đau, tính chất đau cũng như các triệu chứng khác kèm theo để từ đó có những chẩn đoán cụ thể cho từng bệnh nhân. Với đặc điểm đau như bạn mô tả chưa thể xác định được cụ thể nguyên nhân đau là bệnh gì. Bạn cần thăm khám với bác sĩ để được khám lâm sàng, làm điện tim, chụp X quang phổi, làm các xét nghiệm cần thiết thì mới chẩn đoán được bệnh.",
+            "score": 0.4451632499694824,
+            "id": "medical_vietnamese_qa_11921",
+            "rerank_score": 0.8829411864280701,
+            "weighted_score": 0.9110010981559754
+        }
+    ],
+    "llm_call": 5,
+    "iteration": 2
+}

@@ -1,0 +1,119 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Chào bác sĩ! Em bị đau tinh hoàn trái, vừa bị cách đây tầm 2 tiếng. Đồng thời, em hay bị buồn nôn sau khi ăn, việc buồn nôn đã xảy ra tầm 4 5 ngày. Bác sĩ cho em xin lời khuyên và tư vấn khám bệnh được không ạ? Em cảm ơn bác sĩ ạ.",
+    "ground_truth": "Chào em! Đau tinh hoàn có rất nhiều nguyên nhân khác nhau. Tuy nhiên để có thể đưa ra được kết luận chính xác nhất và cách điều trị phù hợp thì em nên qua các bệnh viện thuộc hệ thống AI-Doctor để khám bác sĩ Nam khoa nhé.\nCòn về triệu chứng buồn nôn sau khi ăn xong thì em có thể hỏi ý kiến của bác sĩ chuyên khoa Tiêu hóa nhé, bác sĩ sẽ tư vấn cụ thể cho em.",
+    "answer": "Đau tinh hoàn trái xuất hiện đột ngột trong khoảng 2 giờ và kèm buồn nôn là triệu chứng cần được thăm khám sớm, vì đau tinh hoàn có nhiều nguyên nhân như viêm tinh hoàn–mào tinh hoàn, chấn thương, thoát vị bẹn, giãn tĩnh mạch tinh hoặc xoắn tinh hoàn. Đặc biệt, xoắn tinh hoàn có thể gây hoại tử và biến chứng nghiêm trọng nếu chậm điều trị. Bạn nên đến bệnh viện hoặc cơ sở chuyên khoa ngay để được khám, siêu âm tinh hoàn và làm xét nghiệm cần thiết; không nên tự chẩn đoán hay chủ quan.",
+    "evidence": [
+        "Để trả lời câu hỏi trên, bác sĩ xin được trả lời như sau:\nTình trạng đau tinh hoàn trái, tinh hoàn sưng to, chạm vào thì đau như bạn mô tả khiến bác sĩ nghĩ nhiều đến bệnh lý viêm tinh hoàn - viêm mào tinh hoàn.",
+        "Tuy nhiên để chẩn đoán xác định, bạn cần tới bệnh viện để khám và điều trị, tránh biến chứng đáng tiếc có thể xảy ra.",
+        "Việc này cần phải khám và kiểm tra kỹ với siêu âm và xét nghiệm.",
+        "Vì thế, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.",
+        "Bạn nên đến bệnh viện để được bác sĩ thăm khám và siêu âm tinh hoàn, cho thuốc điều trị triệt để.",
+        "Vợ chồng bạn không nên chủ quan, bởi đây là bộ phận nhạy cảm, tình trạng đau tinh hoàn có thể tiềm ẩn nhiều vấn đề nguy hiểm.",
+        "Trả lời: Đau tinh hoàn có rất nhiều nguyên nhân khác nhau.",
+        "Có rất nhiều nguyên nhân gây đau tinh hoàn như: Giãn tĩnh mạch tinh, chấn thương và xuất huyết, thoát vị bẹn, viêm mào tinh hoàn, xoắn tinh hoàn....",
+        "Nếu nhận thấy những biểu hiện sau đây kèm theo cơn đau, nam giới nên thăm khám bác sĩ nam khoa càng sớm càng tốt: Phát hiện có khối u bất thường trên bìu Sốt Da bìu trở nên sưng đỏ, nóng rát hoặc mềm nhũn Thời gian gần đây có tiếp xúc với người bệnh quai bị Đau xảy ra bất ngờ và ngày càng nặng hơn Đau tinh hoàn kèm theo buồn nôn hoặc nôn mửa Vừa bị chấn thương phần bìu hoặc bộ phận sinh dục bị sưng tấy không giảm sau một giờ đồng hồ Hầu hết, các bệnh nhân đau tinh hoàn đều có thể được điều trị thành công.",
+        "Ngoài ra, xoắn tinh hoàn còn có nguy cơ gây ra hoại tử mô, dẫn đến nhiễm trùng nghiêm trọng và thậm chí đe dọa đến tính mạng người bệnh nếu không điều trị kịp thời.",
+        "Nam giới khi thấy mình có dấu hiệu đau tinh hoàn được khuyến cáo nên đi khám sớm."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Đau tinh hoàn trái, buồn nôn sau khi ăn là dấu hiệu của bệnh lý gì?\nTrả lời: Đau tinh hoàn có rất nhiều nguyên nhân khác nhau.",
+                "score": 0.6036840081214905,
+                "id": "vietnamese_healthcare_5912",
+                "rerank_score": 0.9974976181983948
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nThời gian này, em hay đau tinh hoàn và vùng trên bụng. Khi xuất tinh thì hôm sau hết đau. Tuy nhiên, nếu có kích thích khi ngủ ban đêm thì 2 - 3 ngày thì bị lại. Vậy bác sĩ cho em hỏi hay đau tinh hoàn và vùng bụng trên là dấu hiệu bệnh gì? Em có phải tràn dịch tinh hoàn không? Hiện nay đang giãn cách nên em chưa thể đi kiểm tra được. Mong bác sĩ tư vấn, em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn bị đau tinh hoàn và vùng bụng trên có thể có viêm nhiễm ở đường sinh dục, cụ thể có thể ở vùng tinh hoàn hay túi tinh. Việc này cần phải khám và kiểm tra kỹ với siêu âm và xét nghiệm. Vì thế, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.\nTrân trọng!",
+                "score": 0.5634344816207886,
+                "id": "vietnamese_medical_qa_1260",
+                "rerank_score": 0.9925628304481506
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nCháu bị đau tinh hoàn trái, tinh hoàn trái sưng to, chạm vào rất đau, đôi khi đau cả hai bên, đi tiểu khó. Bác sĩ cho cháu hỏi tình trạng đau tinh hoàn trái là dấu hiệu bệnh gì vậy ạ? Mong bác sĩ tư vấn giúp cháu. Cháu xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin được trả lời như sau:\nTình trạng đau tinh hoàn trái, tinh hoàn sưng to, chạm vào thì đau như bạn mô tả khiến bác sĩ nghĩ nhiều đến bệnh lý viêm tinh hoàn - viêm mào tinh hoàn. Tuy nhiên để chẩn đoán xác định, bạn cần tới bệnh viện để khám và điều trị, tránh biến chứng đáng tiếc có thể xảy ra. Chúc bạn sớm khỏe!",
+                "score": 0.5667111873626709,
+                "id": "vietnamese_medical_qa_2550",
+                "rerank_score": 0.9915534853935242
+            },
+            {
+                "text": "Câu hỏi: Tôi 44 tuổi, tôi bị đau tinh hoàn bên trái lan ra thắt lưng bên trái. Cảm giác đau khi đứng đi nhiều hơn khi ngồi, khi sờ thấy mào tinh căng. Bác sĩ cho tôi hỏi,đau tinh hoàn bên trái lan ra thắt lưng là dấu hiệu của bệnh gì? Thanh Hải(1977) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Võ Thiện Ngôn- Bác sĩ Ngoại tiết niệu - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Dựa trên thông tin mô tả, có thể bạn đang bịviêm mào tinh hoàn. Bệnh viêm mào tinh hoàn là tình trạng sưng viêm xảy ra khu trú tại mào tinh hoàn, có thể do nhiễm khuẩn hoặc không nhiễm khuẩn. Viêm mào tinh hoàn có thể được chia thành cấp tính hoặc mãn tính dựa vào khoảng thời gian tồn tại của các triệu chứng. Viêm mào tinh hoàn cấp hay mãn tính thường được điều trị bằng thuốc. Đa số các trường hợp viêm mào tinh hoàn sẽ hết trong ba tháng. Bạn nên đến bệnh viện để được bác sĩ thăm khám và siêu âm tinh hoàn, cho thuốc điều trị triệt để.",
+                "score": 0.6041408777236938,
+                "id": "medical_vietnamese_qa_9235",
+                "rerank_score": 0.9715391397476196
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ! Chồng em bị viêm tinh hoàn, sau thời gian điều trị bác sĩ đã chẩn đoán đã hết khuẩn nhưng gần 2 tuần nay chồng em vẫn thấy đau. Vậy bác sĩ cho em hỏi: Điều trị viêm tinh hoàn đã hết khuẩn nhưng vẫn đau phải làm sao ạ? Mong bác sĩ tư vấn và giải đáp!\nTrả lời: Chào bạn! Với câu hỏi: Điều trị viêm tinh hoàn hết khuẩn nhưng vẫn đau phải làm sao? của bạn thì bác sĩ xin trả lời như sau: Chồng bạn bị viêm tinh hoàn, sau một thời gian điều trị chồng bạn lại xuất hiện cảm giác đau thì bạn hoặc chồng nên liên hệ lại với bác sĩ đã thăm khám và điều trị viêm tinh hoàn để trao đổi tình trạng hiện tại cũng như tham khảo ý kiến bác sĩ cách điều trị phù hợp hoặc bạn có thể đưa chồng đến bệnh viện tái khám để tìm ra nguyên nhân gây đau. Vợ chồng bạn không nên chủ quan, bởi đây là bộ phận nhạy cảm, tình trạng đau tinh hoàn có thể tiềm ẩn nhiều vấn đề nguy hiểm.",
+                "score": 0.5662940740585327,
+                "id": "vietnamese_medical_qa_2956",
+                "rerank_score": 0.8313050866127014
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Đau tinh hoàn trái, buồn nôn sau khi ăn là dấu hiệu của bệnh lý gì?\nTrả lời: Đau tinh hoàn có rất nhiều nguyên nhân khác nhau.",
+                "score": 0.5912782549858093,
+                "id": "vietnamese_healthcare_5912",
+                "rerank_score": 0.9974976181983948
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nThời gian này, em hay đau tinh hoàn và vùng trên bụng. Khi xuất tinh thì hôm sau hết đau. Tuy nhiên, nếu có kích thích khi ngủ ban đêm thì 2 - 3 ngày thì bị lại. Vậy bác sĩ cho em hỏi hay đau tinh hoàn và vùng bụng trên là dấu hiệu bệnh gì? Em có phải tràn dịch tinh hoàn không? Hiện nay đang giãn cách nên em chưa thể đi kiểm tra được. Mong bác sĩ tư vấn, em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn bị đau tinh hoàn và vùng bụng trên có thể có viêm nhiễm ở đường sinh dục, cụ thể có thể ở vùng tinh hoàn hay túi tinh. Việc này cần phải khám và kiểm tra kỹ với siêu âm và xét nghiệm. Vì thế, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.\nTrân trọng!",
+                "score": 0.5937886834144592,
+                "id": "vietnamese_medical_qa_1260",
+                "rerank_score": 0.9925628304481506
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nCháu bị đau tinh hoàn trái, tinh hoàn trái sưng to, chạm vào rất đau, đôi khi đau cả hai bên, đi tiểu khó. Bác sĩ cho cháu hỏi tình trạng đau tinh hoàn trái là dấu hiệu bệnh gì vậy ạ? Mong bác sĩ tư vấn giúp cháu. Cháu xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin được trả lời như sau:\nTình trạng đau tinh hoàn trái, tinh hoàn sưng to, chạm vào thì đau như bạn mô tả khiến bác sĩ nghĩ nhiều đến bệnh lý viêm tinh hoàn - viêm mào tinh hoàn. Tuy nhiên để chẩn đoán xác định, bạn cần tới bệnh viện để khám và điều trị, tránh biến chứng đáng tiếc có thể xảy ra. Chúc bạn sớm khỏe!",
+                "score": 0.5845237374305725,
+                "id": "vietnamese_medical_qa_2550",
+                "rerank_score": 0.9915534853935242
+            },
+            {
+                "text": "Câu hỏi: Tôi 44 tuổi, tôi bị đau tinh hoàn bên trái lan ra thắt lưng bên trái. Cảm giác đau khi đứng đi nhiều hơn khi ngồi, khi sờ thấy mào tinh căng. Bác sĩ cho tôi hỏi,đau tinh hoàn bên trái lan ra thắt lưng là dấu hiệu của bệnh gì? Thanh Hải(1977) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Võ Thiện Ngôn- Bác sĩ Ngoại tiết niệu - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Dựa trên thông tin mô tả, có thể bạn đang bịviêm mào tinh hoàn. Bệnh viêm mào tinh hoàn là tình trạng sưng viêm xảy ra khu trú tại mào tinh hoàn, có thể do nhiễm khuẩn hoặc không nhiễm khuẩn. Viêm mào tinh hoàn có thể được chia thành cấp tính hoặc mãn tính dựa vào khoảng thời gian tồn tại của các triệu chứng. Viêm mào tinh hoàn cấp hay mãn tính thường được điều trị bằng thuốc. Đa số các trường hợp viêm mào tinh hoàn sẽ hết trong ba tháng. Bạn nên đến bệnh viện để được bác sĩ thăm khám và siêu âm tinh hoàn, cho thuốc điều trị triệt để.",
+                "score": 0.6192055940628052,
+                "id": "medical_vietnamese_qa_9235",
+                "rerank_score": 0.9715391397476196
+            },
+            {
+                "text": "Câu hỏi: ! Bác sĩ cho em hỏi, em có nôn ra nhiều máu, sau đó em bị choáng váng người không có sức tầm 2 - 3 ngày gì đó. Sau 2 tuần em đỡ hẳn nhưng hay có cảm giác nhưđau dạ dàyvà đôi khi bịđau tức ngực. Xin bác sĩ tư vấn về tình trạngnôn ra máu thường bị choáng váng, đau tức ngực nguyên nhân do đâu?Cảm ơn bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Bạn bị nôn ra máu nên bạn phải đến cơ sở y tế để được nội soi và làm các xét nghiệm cần thiết khác tìm nguyên nhân và điều trị. Bạn không nên để lâu bởi tình trạng này có thể ảnh hưởng đến sức khỏe. Bạn có thể đến các cơ sở Y tế gần nhất hoặc bệnh viện thuộcHệ thống Y tế Vinmecđể được bác sĩ thăm khám cụ thể và có những tư vấn thêm về tình trạng“nôn ra máu thường bị choáng váng, đau tức ngực nguyên nhân do đâu?” Rất mong có thể gặp bạn và trao đổi thêm. Chúc bạn luôn có sức khỏe tốt. Được giải đáp bởiBác sĩ chuyên khoa I Võ Thị Thùy Trang- Bác sĩ Nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+                "score": 0.5628540515899658,
+                "id": "medical_vietnamese_qa_12123",
+                "rerank_score": 0.9149131178855896
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Em hay bị đau tinh hoàn bên trái, thỉnh thoảng cứ tối đến là đau rát khó chịu. Bác sĩ cho em hỏi thỉnh thoảng đau tinh hoàn bên trái là bị làm sao? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào bạn. Có rất nhiều nguyên nhân gây đau tinh hoàn như: Giãn tĩnh mạch tinh, chấn thương và xuất huyết, thoát vị bẹn, viêm mào tinh hoàn, xoắn tinh hoàn....\nCảm ơn bạn đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Trân trọng!",
+                "score": 0.5729305148124695,
+                "id": "vietnamese_medical_qa_2350",
+                "rerank_score": 0.9989584684371948
+            },
+            {
+                "text": "Câu hỏi: Hiện tại, em đang rất đau và tức hai bên tinh hoàn, bên trái tức nhiều hơn. Tức nóng phần bìu và kéo đau phần bụng dưới. Bác sĩ cho em hỏiđau tức tinh hoàn, tức nóng phần bìu kèm đau bụng dưới là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Vũ Huy Cảng(1995) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Đau tinh hoàncó thể do các nguyên nhân sau: Giãn tĩnh mạch tinh hoàn, viêm mào tinh hoàn, viêm tiền liệt tuyến, thoát vị bẹn, xoắn tinh hoàn, nang mào tinh hoàn, ung thư tinh hoàn,... Nếu nhận thấy những biểu hiện sau đây kèm theo cơn đau, nam giới nên thăm khám bác sĩ nam khoa càng sớm càng tốt: Phát hiện có khối u bất thường trên bìu Sốt Da bìu trở nên sưng đỏ, nóng rát hoặc mềm nhũn Thời gian gần đây có tiếp xúc với người bệnh quai bị Đau xảy ra bất ngờ và ngày càng nặng hơn Đau tinh hoàn kèm theo buồn nôn hoặc nôn mửa Vừa bị chấn thương phần bìu hoặc bộ phận sinh dục bị sưng tấy không giảm sau một giờ đồng hồ Hầu hết, các bệnh nhân đau tinh hoàn đều có thể được điều trị thành công. Ngược lại, những trường hợp bệnh nhân nhiễm trùng lâu ngày không được điều trị nhưnhiễm nấm Chlamydiacó thể dẫn đếntổn thương vĩnh viễn tinh hoànvà phần bìu, ảnh hưởng đến chất lượng tinh trùng và làm suy giảm đời sống tình dục của nam giới. Ngoài ra, xoắn tinh hoàn còn có nguy cơ gây ra hoại tử mô, dẫn đến nhiễm trùng nghiêm trọng và thậm chí đe dọa đến tính mạng người bệnh nếu không điều trị kịp thời. Nam giới khi thấy mình có dấu hiệu đau tinh hoàn được khuyến cáo nên đi khám sớm.",
+                "score": 0.5933589935302734,
+                "id": "medical_vietnamese_qa_9779",
+                "rerank_score": 0.997675359249115
+            },
+            {
+                "text": "Câu hỏi: Đau tinh hoàn trái, buồn nôn sau khi ăn là dấu hiệu của bệnh lý gì?\nTrả lời: Đau tinh hoàn có rất nhiều nguyên nhân khác nhau.",
+                "score": 0.6411198377609253,
+                "id": "vietnamese_healthcare_5912",
+                "rerank_score": 0.9974976181983948
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ!\nCháu bị đau tinh hoàn trái, tinh hoàn trái sưng to, chạm vào rất đau, đôi khi đau cả hai bên, đi tiểu khó. Bác sĩ cho cháu hỏi tình trạng đau tinh hoàn trái là dấu hiệu bệnh gì vậy ạ? Mong bác sĩ tư vấn giúp cháu. Cháu xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin được trả lời như sau:\nTình trạng đau tinh hoàn trái, tinh hoàn sưng to, chạm vào thì đau như bạn mô tả khiến bác sĩ nghĩ nhiều đến bệnh lý viêm tinh hoàn - viêm mào tinh hoàn. Tuy nhiên để chẩn đoán xác định, bạn cần tới bệnh viện để khám và điều trị, tránh biến chứng đáng tiếc có thể xảy ra. Chúc bạn sớm khỏe!",
+                "score": 0.6362701654434204,
+                "id": "vietnamese_medical_qa_2550",
+                "rerank_score": 0.9915534853935242
+            },
+            {
+                "text": "Câu hỏi: Tôi 44 tuổi, tôi bị đau tinh hoàn bên trái lan ra thắt lưng bên trái. Cảm giác đau khi đứng đi nhiều hơn khi ngồi, khi sờ thấy mào tinh căng. Bác sĩ cho tôi hỏi,đau tinh hoàn bên trái lan ra thắt lưng là dấu hiệu của bệnh gì? Thanh Hải(1977) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Võ Thiện Ngôn- Bác sĩ Ngoại tiết niệu - Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Dựa trên thông tin mô tả, có thể bạn đang bịviêm mào tinh hoàn. Bệnh viêm mào tinh hoàn là tình trạng sưng viêm xảy ra khu trú tại mào tinh hoàn, có thể do nhiễm khuẩn hoặc không nhiễm khuẩn. Viêm mào tinh hoàn có thể được chia thành cấp tính hoặc mãn tính dựa vào khoảng thời gian tồn tại của các triệu chứng. Viêm mào tinh hoàn cấp hay mãn tính thường được điều trị bằng thuốc. Đa số các trường hợp viêm mào tinh hoàn sẽ hết trong ba tháng. Bạn nên đến bệnh viện để được bác sĩ thăm khám và siêu âm tinh hoàn, cho thuốc điều trị triệt để.",
+                "score": 0.6305810809135437,
+                "id": "medical_vietnamese_qa_9235",
+                "rerank_score": 0.9715391397476196
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ,\nBé nhà tôi được 11 tháng mà cổ bị vẹo giờ phải chữa thế nào ạ",
+    "ground_truth": "Chào bạn. \nBé nhà bạn 11 tháng mới bị vẹo cổ chứ không phải vẹo từ lúc sinh thì có nhiều khả năng do bé nằm gối đầu quá cao, thường xuyên nằm về một bên mà gia đình không để ý. Bạn cần cho bé đi khám và tập vật lý trị liệu. Những bài tập kéo căng và định vị thực hiện hàng ngày cho bé sẽ là hướng điều trị gần như là tốt nhất cho tật vẹo cổ. Bạn nên tìm hiểu, học hỏi phương pháp này để mình có thể làm cho bé tại nhà.\nNgoài ra, gia đình cũng nên tập cho bé di chuyển đầu cổ sang hướng bé ít nghiêng qua. \nNếu đến 18 tháng, cơ cổ của bé vẫn yếu và các bài tập vật lý trị liệu chưa đủ sức để giúp tật vẹo cổ ở trẻ hồi phụ hoàn toàn, các bác sỹ sẽ thường chỉ định phẫu thuật chỉnh hình cho bé\nThân mến.",
+    "answer": "Vì bé mới 11 tháng tuổi và cổ bị vẹo là dấu hiệu bất thường, bạn nên đưa bé đi khám sớm, preferably tại bác sĩ chuyên khoa Nhi hoặc Ngoại nhi để được chẩn đoán và tư vấn hướng điều trị phù hợp. Do thông tin hiện có chưa đầy đủ, chưa thể xác định phương pháp chữa tối ưu; nếu bé kèm khó thở, bú kém hoặc sốt, cần đưa đi viện càng sớm càng tốt.",
+    "evidence": [
+        "Vì thế bạn nên đưa trẻ đến khám để bác sĩ chẩn đoán và đưa ra hướng điều trị cho trẻ.",
+        "Bạn nên đưa bé đi khám sớm bạn sẽ nhận được lời khuyên tốt nhất cho bé.",
+        "Khi thấy trẻ có dấu hiệu bất thường về sức khỏe như khó thở, bú kém, sốt,...",
+        "các bậc phụ huynh cần đưa con đến viện càng sớm càng tốt Điều trị viêm phế quản phải dựa vào nguyên nhân gây bệnh mà ở mỗi trẻ có phương pháp điều trị khác nhau.",
+        "Trường hợp bé nhà bạn mới 4 tháng tuổi còn khá nhỏ, bác sĩ khuyên bạn nên đưa bé đến bác sĩ chuyên khoa Nhi để được khám và tư vấn chính xác nhất.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Tùy thuộc vào vị trí, kích thước, mức độ chèn ép các vùng xung quanh mà có hướng điều trị phù hợp.",
+        "Vì thông tin của bạn cung cấp chưa đầy đủ nên bác sĩ chưa thể tư vấn cho bạn phương pháp tối ưu nhất.",
+        "Bạn nên đưa con đến với bác sĩ chuyên khoa Ngoại nhi để thăm khám và tư vấn cụ thể hơn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBé nhà em tính đến nay là hơn 11 tháng và bé chỉ bú mẹ vào buổi tối. Em có 1 chiếc răng khôn mọc lệch hướng má. Vậy bác sĩ cho em hỏi có nên nhổ răng khôn mọc lệch khi cho con bú không? Sau khi nhổ thì em cần lưu ý gì để không ảnh hưởng đến bé? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nCon bạn 11 tháng tuổi và bé vẫn đang bú mẹ, bạn có một răng khôn mọc lệch hướng má. Vậy tốt nhất, bạn nên đến phòng khám Răng hàm mặt bệnh viện để được thăm khám và tư vấn, điều trị.\nTrân trọng!",
+                "score": 0.5812475085258484,
+                "id": "vietnamese_medical_qa_894",
+                "rerank_score": 0.8536608815193176
+            },
+            {
+                "text": "Câu hỏi: Chân trẻ vòng kiềng nên chữa thế nào?\nTrả lời: qua những thông tin chị chia sẻ, không biết cháu bé nhà mình hiện nay bao nhiêu tuổi. Tuy nhiên, với trường hợp của cháu thì chị nên cho cháu đi khám sức khỏe để biết độ biến dạng của chân, xương mới có thể đưa ra phương pháp điều trị phù hợp (mổ hoặc không mổ)",
+                "score": 0.6358180642127991,
+                "id": "vietnamese_healthcare_5022",
+                "rerank_score": 0.05738813802599907
+            },
+            {
+                "text": "Câu hỏi: ! Con em nay 9 tháng. Vú có dấu hiệu phát triển. Đi khám bác sĩ bảo có dấu hiệu dậy thì sớm, về theo dõi sau 3 tháng tái khám. Em đọc có nghe nói có thuốc ngăn chặn dậy thì sớm. Bác sĩ cho em hỏi,bé 9 tháng có tiêm được thuốc ngăn chặn dậy thì sớm không, tiêm đến bao giờ và bao nhiêu mũiạ? Xin chân thành cảm ơn! Lê Ngọc Điệp(1984) Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Bé 9 tháng có tiêm được thuốc ngăn chặn dậy thì sớm không, tiêm đến bao giờ và bao nhiêu mũi?” như sau: Dấu hiệu vú to ở trẻ 9 tháng rất ít gặp và có thể liên quan đến dậy thì, tuy nhiên việc chẩn đoán xác định dậy thì sớm cần phải khám trực tiếp và đôi khi cần phải bổ sung thêm 1 số xét nghiệm chuyên biệt. Vì thế bạn nên đưa trẻ đến khám để bác sĩ chẩn đoán và đưa ra hướng điều trị cho trẻ. Bạn có thể đưa bé đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra bạn nhé. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiPhó Giáo sư, Tiến sĩ, Bác sĩ Huỳnh Thoại Loan -Trưởng khoa Nhi - Sơ sinh - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+                "score": 0.5847050547599792,
+                "id": "medical_vietnamese_qa_7342",
+                "rerank_score": 0.017857709899544716
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bé nhà em nay được 6 tháng tuổi. Hai tháng gần đây, em đưa bé đi khám thì bác sĩ bảo lác mắt bẩm sinh, bé gần 4 tháng mới bắt đầu thấy lác. Bác sĩ cho em hỏi tình trạng bé như vậy có điều trị được không ạ? Có phải phẫu thuật không? Mong bác sĩ tư vấn giúp, xin cảm ơn.\nTrả lời: Chào bạn. Giờ con được 6 tháng, mắt bị lé (lác), việc điều trị sẽ được tư vấn sau khi khám chuyên khoa nhãn nhi. Bạn nên đưa bé đi khám sớm bạn sẽ nhận được lời khuyên tốt nhất cho bé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+                "score": 0.5681390762329102,
+                "id": "vietnamese_medical_qa_3652",
+                "rerank_score": 0.008048446848988533
+            },
+            {
+                "text": "Câu hỏi: ! Con em bị viêm phế quản, bé mới hơn 4 tháng tuổi. Vậy bác sĩ cho em hỏi,bé hơn 4 tháng tuổi bị viêm phế quản điều trị thế nào? Có tiêm được không hay chỉ uống thuốc?Bác sĩ tư vấn cho em về chế độ dinh dưỡng và cách chăm sóc trẻ. Rất mong bác sĩ tư vấn, em cảm ơn! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Với câu hỏi “Bé hơn 4 tháng tuổi bị viêm phế quản điều trị thế nào? Có tiêm được không hay chỉ uống thuốc?”.bác sĩ xin giải đáp như sau: Viêm phế quản ở trẻ sơ sinh và trẻ nhỏ là một bệnh nhiễm trùng hoặc viêm các đường dẫn không khí lớn đến phổi (viêm nhiễm, phù nề, chít hẹp, co thắt,...).Đây là nguyên nhân khiến đường hô hấp bị viêm, sưng lên và bị dịch nhầy làm tắc. Khi thấy trẻ có dấu hiệu bất thường về sức khỏe như khó thở, bú kém, sốt,... các bậc phụ huynh cần đưa con đến viện càng sớm càng tốt Điều trị viêm phế quản phải dựa vào nguyên nhân gây bệnh mà ở mỗi trẻ có phương pháp điều trị khác nhau. Nếu nguyên nhân do virus thì không cần phải điều trị kháng sinh, chỉ điều trị triệu chứng: Giảm ho, giảm sốt, long đờm, nâng cao thể trạng để tăng cường sức đề kháng cho bé. Nếu nguyên nhân do vi khuẩn thì phải điều trị kháng sinh tốt nhất là theo kháng sinh đồ và đồng thời cũng phải điều trị triệu chứng (giảm sốt, giảm ho,...) dùng thuốc đúng liều lượng và đủ thời gian cho bé. Với các trường hợp nhẹ, trẻ sốt nhẹ vẫn ăn uống bình thường, không có yếu tố nguy cơ thì có thể được chăm sóc tại nhà bằng việc cho trẻ bú hay ăn uống đầy đủ. Cụ thể như: Cho trẻ uống nhiều nước Làm thông thoáng mũi cho trẻ để giúp trẻ dễ thở hơn. Có thể nhỏ nước muối sinh lý, sau đó làm sạch mũi cho trẻ. Cho trẻ dùng thuốc theo chỉ định của bác sĩ về liều lượng và thời gian uống. Tránh khói thuốc lá vì có thể làm bệnh của trẻ nặng hơn Bạn cũng thể phòng bệnh viêm phế quản ở trẻ bằng cách: Cho trẻ bú mẹ đến 2 tuổi để tăng cường sức đề kháng cho trẻ. Khi bé bị sổ mũi thì bố mẹ cần lấy nước mũi cho bé thường xuyên. Dùng tăm bông đưa vào lỗ mũi để các chất dịch nhầy dính vào và rút ra. Nhỏ nước muối sinh lý để sạch khuẩn và vệ sinh phía trong mũi cho trẻ. Không nên mặc quá nhiều áo cho bé làm cho bé nóng, không khí trong phòng không được quá khô. Nếu cần thiết phải tạo ẩm cho không khí. Không để cho bé hít phải khói thuốc lá. Khói thuốc lá làm rát phế quản nên trẻ nhỏ và trẻ sơ sinh nguy cơ nhiễm viêm tiểu phế quản là rất cao. Cố gắng cách ly với nguồn bệnh, hạn chế tiếp xúc với người bệnh để tránh lây lan. Trường hợp bé nhà bạn mới 4 tháng tuổi còn khá nhỏ, bác sĩ khuyên bạn nên đưa bé đến bác sĩ chuyên khoa Nhi để được khám và tư vấn chính xác nhất. Bạn cũng có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ nội trú Dương Văn Sỹ -Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng",
+                "score": 0.6075417995452881,
+                "id": "medical_vietnamese_qa_7290",
+                "rerank_score": 0.0048749432899057865
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBé nhà em tính đến nay là hơn 11 tháng và bé chỉ bú mẹ vào buổi tối. Em có 1 chiếc răng khôn mọc lệch hướng má. Vậy bác sĩ cho em hỏi có nên nhổ răng khôn mọc lệch khi cho con bú không? Sau khi nhổ thì em cần lưu ý gì để không ảnh hưởng đến bé? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nCon bạn 11 tháng tuổi và bé vẫn đang bú mẹ, bạn có một răng khôn mọc lệch hướng má. Vậy tốt nhất, bạn nên đến phòng khám Răng hàm mặt bệnh viện để được thăm khám và tư vấn, điều trị.\nTrân trọng!",
+                "score": 0.6150913238525391,
+                "id": "vietnamese_medical_qa_894",
+                "rerank_score": 0.8536608815193176
+            },
+            {
+                "text": "Câu hỏi: . Bé hiện 11 tháng bị sa búi trĩ, đi cầu khó. Xin hỏi bác sĩ cáchđiều trị sa búi trĩ ở trẻ11 tháng tuổi ạ. Trĩ có phải nguyên nhân gây táo bón ở trẻkhông ạ? Mong bác sĩ tư vấn giúp em. Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn, xin được giải đáp câu hỏi của bạn như sau: Bé cần được đi khám để tư vấn cụ thể về búi trĩ, trước mắt cần tập thói quen đi cầu hàng ngày cho bé để tránhtáo bón ở trẻ. Bạn có thể đưa bé đến các bệnh viện thuộcHệ thống Y tế Vinmectoàn quốc để được thăm khám tìm nguyên nhân và tư vấn cáchđiều trị sa búi trĩ ở trẻphù hợp với bác sĩ giỏi chuyên môn. Cảm ơn bạn đã đặt câu hỏi tới Vinmec. Trân trọng. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ Lê Thanh Tuấn- Bác sĩ Ngoại tiêu hóa - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.",
+                "score": 0.5749367475509644,
+                "id": "medical_vietnamese_qa_7399",
+                "rerank_score": 0.5181335210800171
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 14 tháng tuổi có nang bạch huyết vùng cổ. Bác sĩ cho em hỏitrẻ 14 tháng tuổi có nang bạch huyết vùng cổ điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Tùy thuộc vào vị trí, kích thước, mức độ chèn ép các vùng xung quanh mà có hướng điều trị phù hợp. Vì thông tin của bạn cung cấp chưa đầy đủ nên bác sĩ chưa thể tư vấn cho bạn phương pháp tối ưu nhất. Bạn nên đưa con đến với bác sĩ chuyên khoa Ngoại nhi để thăm khám và tư vấn cụ thể hơn.",
+                "score": 0.6150581240653992,
+                "id": "medical_vietnamese_qa_4472",
+                "rerank_score": 0.11961306631565094
+            },
+            {
+                "text": "Câu hỏi: Chân trẻ vòng kiềng nên chữa thế nào?\nTrả lời: qua những thông tin chị chia sẻ, không biết cháu bé nhà mình hiện nay bao nhiêu tuổi. Tuy nhiên, với trường hợp của cháu thì chị nên cho cháu đi khám sức khỏe để biết độ biến dạng của chân, xương mới có thể đưa ra phương pháp điều trị phù hợp (mổ hoặc không mổ)",
+                "score": 0.6397498250007629,
+                "id": "vietnamese_healthcare_5022",
+                "rerank_score": 0.05738813802599907
+            },
+            {
+                "text": "Câu hỏi: ! Con em nay 9 tháng. Vú có dấu hiệu phát triển. Đi khám bác sĩ bảo có dấu hiệu dậy thì sớm, về theo dõi sau 3 tháng tái khám. Em đọc có nghe nói có thuốc ngăn chặn dậy thì sớm. Bác sĩ cho em hỏi,bé 9 tháng có tiêm được thuốc ngăn chặn dậy thì sớm không, tiêm đến bao giờ và bao nhiêu mũiạ? Xin chân thành cảm ơn! Lê Ngọc Điệp(1984) Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Bé 9 tháng có tiêm được thuốc ngăn chặn dậy thì sớm không, tiêm đến bao giờ và bao nhiêu mũi?” như sau: Dấu hiệu vú to ở trẻ 9 tháng rất ít gặp và có thể liên quan đến dậy thì, tuy nhiên việc chẩn đoán xác định dậy thì sớm cần phải khám trực tiếp và đôi khi cần phải bổ sung thêm 1 số xét nghiệm chuyên biệt. Vì thế bạn nên đưa trẻ đến khám để bác sĩ chẩn đoán và đưa ra hướng điều trị cho trẻ. Bạn có thể đưa bé đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra bạn nhé. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiPhó Giáo sư, Tiến sĩ, Bác sĩ Huỳnh Thoại Loan -Trưởng khoa Nhi - Sơ sinh - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+                "score": 0.6030136942863464,
+                "id": "medical_vietnamese_qa_7342",
+                "rerank_score": 0.017857709899544716
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nBé nhà em tính đến nay là hơn 11 tháng và bé chỉ bú mẹ vào buổi tối. Em có 1 chiếc răng khôn mọc lệch hướng má. Vậy bác sĩ cho em hỏi có nên nhổ răng khôn mọc lệch khi cho con bú không? Sau khi nhổ thì em cần lưu ý gì để không ảnh hưởng đến bé? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nCon bạn 11 tháng tuổi và bé vẫn đang bú mẹ, bạn có một răng khôn mọc lệch hướng má. Vậy tốt nhất, bạn nên đến phòng khám Răng hàm mặt bệnh viện để được thăm khám và tư vấn, điều trị.\nTrân trọng!",
+                "score": 0.583912193775177,
+                "id": "vietnamese_medical_qa_894",
+                "rerank_score": 0.8536608815193176
+            },
+            {
+                "text": "Câu hỏi: Bé trai nhà em được 11 tháng, bé sinh mổ 3kg, nay được 11kg. Bé bú mẹ hoàn toàn từ nhỏ, nhưng mọi điểm bé đều chậm hơn so với tuổi, như 4 tháng 15 ngày mới biết lật, 9 tháng mới ngồi vững và biết trườn. Hiện giờ, bé 11 tháng thì chỉ mới trườn, ngồi chứ chưa bò, chưa đứng chựng được. Còn lại, bé ăn uống, chơi đều bình thường hết. Bé vẫnbổ sung vitamin D3 từ 2 tháng đến giờ. Vậy bác sĩ cho em hỏibé trai 11 tháng tuổi nặng 11kg cần bổ sung gì?Em muốn bổ sung thêm cho bé cứng cáp và bổ sung thêmDHAđược không? Sữa mẹ nay cũng giảm nên em muốn cho bé uống thêm sữa ngoài thì không biết uống sữa nào? Mong bác sĩ tư vấn giúp em. Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé trai 11 tháng tuổi có cân nặng 11kg thì tăng trưởng tốt so với chuẩn. Nếu bé ăn uống tốt, bạn nên đảm bảo cung cấp đủ năng lượng và dưỡng chất, chế biến món ăn thay đổi đa dạng các thành phần nguyên liệu để phòng ngừathiếu hụt vi chất. Bé ít vận động ngoài trời tiếp xúc nắng sớm thì cần duy trìbổ sung vitamin D. Các vitamin khác chủ yếu cung cấp từ chế độ ăn, không cần thiết bổ sung thường quy. Nếu có chế độ dinh dưỡng phù hợp và bú mẹ đúng cách, bạn vẫn có thể duy trì sữa mẹ đến thời điểm 2 tuổi, giai đoạn sau 1 tuổi bé ăn 3 cữ/ ngày, lượng sữa và chế phẩm từ sữa chỉ cần 500-600ml/ngày.",
+                "score": 0.5875281095504761,
+                "id": "medical_vietnamese_qa_6748",
+                "rerank_score": 0.7720599174499512
+            },
+            {
+                "text": "Câu hỏi: . Bé hiện 11 tháng bị sa búi trĩ, đi cầu khó. Xin hỏi bác sĩ cáchđiều trị sa búi trĩ ở trẻ11 tháng tuổi ạ. Trĩ có phải nguyên nhân gây táo bón ở trẻkhông ạ? Mong bác sĩ tư vấn giúp em. Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn, xin được giải đáp câu hỏi của bạn như sau: Bé cần được đi khám để tư vấn cụ thể về búi trĩ, trước mắt cần tập thói quen đi cầu hàng ngày cho bé để tránhtáo bón ở trẻ. Bạn có thể đưa bé đến các bệnh viện thuộcHệ thống Y tế Vinmectoàn quốc để được thăm khám tìm nguyên nhân và tư vấn cáchđiều trị sa búi trĩ ở trẻphù hợp với bác sĩ giỏi chuyên môn. Cảm ơn bạn đã đặt câu hỏi tới Vinmec. Trân trọng. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ Lê Thanh Tuấn- Bác sĩ Ngoại tiêu hóa - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.",
+                "score": 0.5708457827568054,
+                "id": "medical_vietnamese_qa_7399",
+                "rerank_score": 0.5181335210800171
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 14 tháng tuổi có nang bạch huyết vùng cổ. Bác sĩ cho em hỏitrẻ 14 tháng tuổi có nang bạch huyết vùng cổ điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Tùy thuộc vào vị trí, kích thước, mức độ chèn ép các vùng xung quanh mà có hướng điều trị phù hợp. Vì thông tin của bạn cung cấp chưa đầy đủ nên bác sĩ chưa thể tư vấn cho bạn phương pháp tối ưu nhất. Bạn nên đưa con đến với bác sĩ chuyên khoa Ngoại nhi để thăm khám và tư vấn cụ thể hơn.",
+                "score": 0.5801222324371338,
+                "id": "medical_vietnamese_qa_4472",
+                "rerank_score": 0.11961306631565094
+            },
+            {
+                "text": "Câu hỏi: Trẻ 11 tháng tuổi cao bao nhiêu?\nTrả lời: 1. Trẻ 11 tháng tuổi cao bao nhiêu?\nChiều cao của một em bé được đo bắt đầu từ đỉnh đầu đến cuối gót chân của trẻ. Nó giống với chiều cao của người lớn nhưng chiều cao của trẻ được đo khi nằm. Chiều cao trung bình từ lúc sinh cho một đứa trẻ đủ tháng trong phạm vị từ 45,7 đến 60cm. Trẻ sơ sinh tăng từ 1,5 đến 2,5 cm mỗi tháng từ sơ sinh đến 6 tháng và từ 6 đến 12 tháng trẻ sơ sinh phát triển trung bình 1cm mỗi tháng. Bé trai 11 tháng tuổi cao bao nhiêu? Chiều cao của trẻ 11 tháng tuổi trung bình là khoảng 74,5cm đối với bé trai và 73cm đối với bé gái. Tuy nhiên, điều quan trọng cần lưu ý là tất cả các trẻ sơ sinh đều khác nhau và cân nặng khi sinh của chúng có thể đóng vai trò quyết định đến số cân nặng hoặc số đo xung quanh mốc 11 tháng tuổi . Những con số này chỉ là mức trung bình và chiều cao của trẻ có thể khác nhau. Không giống như cân nặng được bác sĩ đo lường một cách khách quan bằng cân, chiều cao đo được của trẻ có thể thay đổi tùy thuộc vào người thực hiện phép đo và mức độ hoạt động của em bé vào thời điểm đó. Đôi khi, nếu chiều dài của em bé có sự thay đổi bất ngờ từ lần khám này sang lần khám tiếp theo thì đó có thể là do sự khác biệt trong cách đo. Vì vậy, bé 11 tháng cao 70cm không phải là một vấn đề chậm phát triển chiều cao. Bởi vì chỉ riêng chiều dài sẽ không tiết lộ một em bé có khỏe mạnh hay không. Cân nặng cũng là một trong những yếu tố quan trọng cần cân nhắc, đặc biệt là sau khi sinh nhiều trẻ sơ sinh bị sụt cân . Các bác sĩ cũng sẽ xem xét thêm những yếu tố bao gồm tuổi thai và chế độ dinh dưỡng của em bé. Hầu hết trẻ sơ sinh khỏe mạnh đều tuân theo một mô hình phát triển tương tự trong năm đầu đời. Sau đó, tốc độ tăng trưởng khác nhau giữa các trẻ sơ sinh và chiều dài của trẻ thường không phải là yếu tố dự báo tốt về chiều cao của trẻ khi trưởng thành. Bé 11 tháng cao 70cm không phải là một vấn đề chậm phát triển chiều cao",
+                "score": 0.5935655832290649,
+                "id": "vietnamese_healthcare_150186",
+                "rerank_score": 0.05832928419113159
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

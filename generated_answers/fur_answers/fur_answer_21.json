@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Ngón chân màu đen, chảy máu có phải bị hoại tử không?",
+    "ground_truth": "Dựa trên những dấu hiệu về thời gian mắc bệnh, triệu chứng hiện tại, bố của bạn có biểu hiện hoại tử ngón bàn chân. Đây là một trong những biến chứng đáng ngại của bệnh tiểu đường. Bệnh có nguy cơ cắt cụt chân nếu điều trị nội khoa không đạt kết quả. Bệnh nhân cần sớm đi khám bệnh, có thể kết hợp nhiều chuyên khoa như: nội tiết, ngoại khoa, dinh dưỡng để được tư vấn chi tiết và có phương pháp điều trị thích hợp nhất.",
+    "answer": "Dựa trên thông tin mô tả: ba bạn bị tiểu đường lâu năm, bàn chân sưng to, ngón chân thâm đen, chảy máu nhiều và có mùi hôi — đây là những dấu hiệu **gợi ý hoại tử ngón chân, có thể kèm nhiễm trùng**. Tuy nhiên, không thể xác định mức độ chỉ qua mô tả.\n\nĐây là tình trạng nặng, có nguy cơ phải cắt cụt ngón hoặc bàn chân nếu điều trị không đạt kết quả. Gia đình cần **đưa ba đến bệnh viện ngay**, preferably để được khám phối hợp chuyên khoa nội tiết và ngoại khoa. Không nên trì hoãn việc khám.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nBa em bị bệnh tiểu đường đã 14 năm. Hiện tại chân ba em bị sưng rất to và có 1 ngón chân đã bị đen chảy máu ra nhiều và có mùi rất hôi. Bác sĩ cho em hỏi, ngón chân màu đen, chảy máu có phải bị hoại tử không? Em xin cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nDựa trên những dấu hiệu về thời gian mắc bệnh, triệu chứng hiện tại, bố của bạn có biểu hiện hoại tử ngón bàn chân. Đây là một trong những biến chứng đáng ngại của bệnh tiểu đường. Bệnh có nguy cơ cắt cụt chân nếu điều trị nội khoa không đạt kết quả. Bệnh nhân cần sớm đi khám bệnh, có thể kết hợp nhiều chuyên khoa như: nội tiết, ngoại khoa, dinh dưỡng để được tư vấn chi tiết và có phương pháp điều trị thích hợp nhất.\nTrân trọng!",
+            "score": 0.6777529120445251,
+            "id": "vietnamese_medical_qa_1287",
+            "rerank_score": 0.9997952580451965
+        },
+        {
+            "text": "Câu hỏi: Bố mình bị tiểu đường type 2 đã hơn 20 năm, nay hay bị tê nhức chân tay, khó ngủ, mới đây bố phát hiện móng ở ngón chân cái bị bầm tím, đau nhức, không biếtngón chân đau nhức kèm bầm tím ở người tiểu đường có sao không?Có phải biến chứng tiểu đường không và cách điều trị như thế nào ạ? Mình xin cảm ơn các bác sĩ.\nTrả lời: Chào bạn, Với câu hỏi “Ngón chân đau nhức kèm bầm tím ở người tiểu đường có sao không?”, bác sĩ giải đáp như sau: Bố bạn bị đái đường nhiều năm, hiện tượng mình mô tả có thể là bệnh lý móng thường gặp ở bệnh nhân đái đường (Móng quặp) nếu không điều trị, móng sẽ lấn vào vùng rìa ngón chân gây ra vết thương hở, dễ bị bội nhiễm bởi vi trùng ở da bàn chân, gây nhiễm trùng ngón chân, có thể hoại tử ngón - bàn chân. Ngoài ra, cũng có thể bầm tím, đau nhức ngón chân là do tắc mạch máu nuôi ngón chân, không điều trị cũng gây tổn thương nguy cơ hoại tử, phải cắt bàn-ngón chân. Vì vậy, bạn cần đưa bố đi khám Chuyên khoa để đánh giá tổn thương và có phương pháp điều trị phù hợp.",
+            "score": 0.484045147895813,
+            "id": "medical_vietnamese_qa_8709",
+            "rerank_score": 0.8235020041465759
+        },
+        {
+            "text": "Câu hỏi: Cho em hỏi, người nhà em ( cụ thể là ông em - 74  tuổi ) trong 3 ngày gần đây có hiện tượng phần da các đầu ngón tay, ngón chân bị thâm đen, bị vậy có làm sao không ạ?\nTrả lời: Chào bạn, bạn nên đưa ông đến ngay chuyên khoa tim mạch để khám vì tổn thương như bạn mô tả có nguy cơ tắc mạch và hoại tử đầu chi nhé. Chúc ông và gia đình nhiều sức khoẻ!",
+            "score": 0.5251640677452087,
+            "id": "vietnamese_medical_qa_5028",
+            "rerank_score": 0.8064268231391907
+        },
+        {
+            "text": "Câu hỏi: Dấu hiệu hoại tử ngón chân ở người bệnh tiểu đường\nTrả lời: 2. Dấu hiệu hoại tử ngón chân ở người bệnh tiểu đường\nTheo Tổ chức Y Tế thế giới thống kê, trung bình cứ 2 phút trôi qua sẽ có 2 bệnh nhân tiểu đường phải cắt cụt chi do biến chứng loét bàn chân . Nguyên nhân chính trong số này là do không biết chăm sóc vết thương đúng cách. Do vậy, cần hết sức chú ý tới các dấu hiệu hoại tử ngón chân để chăm sóc vết thương đúng cách: Sưng đau ngón chân; Nóng ở các chi; Vòng đỏ > 0,5 cm bao quanh vết loét; Chảy mủ, có thể là mủ đục, trắng hoặc lẫn máu. Cũng có trường hợp vết thương bị hoại tử khô, không sưng đỏ, đau hay nóng hoặc chảy mủ mà sẽ thâm đen và teo dần lại. Đây cũng là tình trạng nặng và cần nhập viện ngay để điều trị.",
+            "score": 0.6335420608520508,
+            "id": "vietnamese_healthcare_20808",
+            "rerank_score": 0.7973039746284485
+        },
+        {
+            "text": "Câu hỏi: Ngón chân đau nhức kèm bầm tím ở người tiểu đường có sao không?\nTrả lời: Bố bạn bị đái đường nhiều năm, hiện tượng mình mô tả có thể là bệnh lý móng thường gặp ở bệnh nhân đái đường (Móng quặp) nếu không điều trị, móng sẽ lấn vào vùng rìa ngón chân gây ra vết thương hở, dễ bị bội nhiễm bởi vi trùng ở da bàn chân, gây nhiễm trùng ngón chân, có thể hoại tử ngón - bàn chân.Ngoài ra, cũng có thể bầm tím, đau nhức ngón chân là do tắc mạch máu nuôi ngón chân, không điều trị cũng gây tổn thương nguy cơ hoại tử, phải cắt bàn-ngón chân. Vì vậy, bạn cần đưa bố đi khám Chuyên khoa để đánh giá tổn thương và có phương pháp điều trị phù hợp.",
+            "score": 0.4846789538860321,
+            "id": "vietnamese_healthcare_6336",
+            "rerank_score": 0.3737696409225464
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

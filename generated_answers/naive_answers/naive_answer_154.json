@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Bé nhà em 6 tuổi, đã thay 2 răng cửa dưới, bây giờ, thay thêm 1 răng bên cạnh, hàm trên chưa thay cái nào. Vậy bác sĩ cho em hỏithứ tự thay răng sữa của trẻ như thế nào?Em cảm ơn bác sĩ. Lê Thị Minh Trâm(1991) Trả lời Được giải đáp bởiBác sĩ Răng - Hàm - Mặt- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bé nhà bạn đang thay răng và bạn thấy hàm dưới bé thay răng trước hàm trên, hiện tại, bé đang thay răng đúng theo sinh lý. Trong quá trình bé thay răng nếu thấy bất thường, bạn cho bé qua khám bác sĩ Răng hàm mặt.",
+    "answer": "Theo tài liệu cung cấp, quá trình thay răng thường bắt đầu khoảng 6 tuổi (có thể sớm từ 5 tuổi hoặc muộn đến 7 tuổi), khởi đầu bằng việc mọc răng cối số 6 và kết thúc với răng số 7 khoảng 12 tuổi. Tài liệu chưa nêu đầy đủ thứ tự thay từng răng cửa hàm dưới và hàm trên, nên chưa đủ thông tin để khẳng định trình tự cụ thể của bé. Nếu bé 7 tuổi chưa mọc các răng cửa bên hoặc có dấu hiệu mọc răng bất thường, bạn nên đưa bé đến phòng khám Răng–Hàm–Mặt để thăm khám và chụp phim X-quang khi cần.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bé nhà em được 7 tuổi mà 2 răng cửa 2 bên không mọc khi thay răng sữa. Vậy bác sĩ cho em hỏitrẻ 7 tuổi không mọc răng cửa khi thay răng sữa có sao không?Em phải làm sao thưa bác sĩ? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn 7 tuổi mà hai răng cửa bên không mọc thì bạn có thể đưa con bạn đến phòng khám răng hàm mặt bệnh viện Vinmec để được thăm khám, chụp phim Xquang răng để kiểm tra và tư vấn cho chính xác.",
+            "score": 0.7178187370300293,
+            "id": "medical_vietnamese_qa_4883"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 1 tuổi đang mọc răng nhưng phát hiện bên trong răng cửa hàm trên mọc thêm 1 chiếc răng nhỏ hơi đẩy răng cửa ra ngoài. Vậy bác sĩ cho em hỏitrẻ có dấu hiệu mọc răng bất thường có sao không?Răng đó có ảnh hưởng gì không, sau này có rụng như răng sữa không và nếu không thì có cần nhổ để tránh bị hô răng không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn 01 tuổi đang mọc răng nhưng có mọc thêm 1 răng vùng răng cửa hàm trên thì tốt nhất, bạn có thể đưa bé bạn đến phòng khám Răng hàm mặt bệnh viện Vinmec để được thăm khám, chẩn đoán, có thế phải chụp thêm phimXquang răngđể kiểm tra và hướng giải quyết thích hợp.",
+            "score": 0.7091246843338013,
+            "id": "medical_vietnamese_qa_5177"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 7 tuổi mà 2 răng cửa 2 bên không mọc khi thay răng sữa. Vậy bác sĩ cho em hỏitrẻ 7 tuổi chưa mọc răng cửa khi thay răng sữa có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn hai răng cửa bên không mọc sau khi thay răng sữa, bạn nên đưa con bạn đến phòng khám răng hàm mặt bệnh viện Vinmec để được thăm khám, chụp phim, chẩn đoán và tư vấn hướng điều trị cho chính xác.",
+            "score": 0.7044108510017395,
+            "id": "medical_vietnamese_qa_4684"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi,trẻ 7 tuổi chưa thay răng sữa có sao không? Ngô Thị Lương(1984) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Ngô Thị Oanh- Bác sĩ Nhi - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Khi trẻ lên 3 tuổi sẽ mọc hoàn thiện 20 chiếc răng sữa trên cung hàm. Khi lên 6 tuổi, quá trìnhthay răngbắt đầu diễn ra, tuy nhiên một số bé sẽ thay sớm lúc 5 tuổi, có bé thay muộn lúc 7 tuổi. Trình tự thay răng khởi đầu từ việc mọc chiếc răng cối (răng số 6) và kết thúc với răng số 7 khi được 12 tuổi. Trường hợp trẻ hơn 7 tuổi chưa có dấu hiệu thay răng, bạn nên đưa trẻ đến phòng khám nha khoa uy tín để kiểm tra, tìm nguyên nhân và được tư vấn chính xác.",
+            "score": 0.6782520413398743,
+            "id": "medical_vietnamese_qa_6876"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ. Bé nhà em năm nay gần 8 tuổi. Hầu như răng của bé đều tốt, bé mới chỉ thay 2 răng sữa ở hàm dưới nhưng hàm trên bé có 2 cái răng từ từ hở ra. Bác sĩ cho hỏi như vậy có sao không ạ? Có cần phải nhổ răng để sau này không bị thưa răng không ạ?Mong bác sĩ tư vấn giúp em, em xin cảm ơn.\nTrả lời: Chào bạn. Răng của bé bị hở ra là răng cửa hay răng hàm?\nHiện tại bé mới chỉ thay 2 cái răng hàm dưới, bé đã 8 tuổi thường là tuổi thay răng cửa hàm trên. Nếu răng cửa hàm trên thấy hở ra có thể là răng sữa đang chuẩn bị thay, có thể nhổ được. Bạn nên đưa bé đến khám và chụp phim kiểm tra để được chẩn đoán chính xác.",
+            "score": 0.6611114144325256,
+            "id": "vietnamese_medical_qa_3848"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

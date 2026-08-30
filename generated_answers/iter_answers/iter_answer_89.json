@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Cháu chào bác sĩ ạ. Cháu làm nam, năm nay 19 tuổi. Gần đây cháu phát hiện ra quanh phần đầu của bộ phận sinh dục có các chấm nhỏ bao quanh, xếp thành hàng. Mà cháu có lỡ 1 lần quan hệ không bảo vệ ạ. Vậy là cháu bị bệnh gì ạ?",
+    "ground_truth": "Chào bạn. Với những thông tin bạn cung cấp có thể bạn đang bị viêm nhiễm nam khoa, do vi khuẩn và nấm gây hại tấn công vào vùng kín, gây nhiễm khuẩn đường sinh dục. Nguyên nhân gây viêm nhiễm nam khoa có thể do vệ sinh vùng kín không tốt, quan hệ không sử dụng biện pháp an toàn rất dễ mắc các bệnh lây qua đường tình dục,...\nBạn cần đến cơ sở y tế để được bác sĩ chuyên khoa thăm khám và tư vấn chi tiết nhé.",
+    "answer": "Các chấm nhỏ xếp thành hàng quanh đầu dương vật có thể là biến đổi lành tính hoặc do bít tắc lỗ chân lông, nhưng cũng có thể liên quan đến viêm bao quy đầu hay một số bệnh lây truyền qua đường tình dục như u mềm lây, giang mai; không thể chẩn đoán chính xác chỉ qua mô tả. Vì cháu từng quan hệ không bảo vệ, cháu nên sớm khám chuyên khoa Da liễu/Nam khoa để được kiểm tra và xét nghiệm các bệnh lây truyền qua đường tình dục, đồng thời tạm tránh quan hệ hoặc sử dụng bao cao su, không tự nặn hay bôi thuốc. Nếu có sưng đỏ, ngứa đau, loét, chảy dịch/mủ, tiểu buốt hoặc sốt thì cần đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cháu bị nổi hạt ngứa li ti rất nhiều, tập trung nhiều ở mông và đùi, các hạt ngứa lúc đầu không màu như nổi da gà. Nhưng vì ngứa nên cháu gãi nhiều, các hạt chuyển thành đỏ nhưphát ban. Cháu đã sử dụng thuốc uống 1 tháng nhưng tình trạng vẫn không đỡ, ngày càng lan ra các vùng khác trên cơ thể. Đây là lần đầu tiên cháu bị tình trạng này. Bác sĩ cho cháu hỏinổi hạt ngứa li ti ở người là dấu hiệu bệnh gì?Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn bịnổi mẩn ngứa li ti, ban đầu như nốt nổi da gà, sau phát ban và lan sang các vùng khác, có thể bạn bịsẩn ngứa. Bệnh này có nhiều nguyên nhân gây nên bệnh. Vì vậy, bạn cần đi khám bác sĩ chuyên khoa Da Liễu, mới có chỉ định xét nghiệm và chẩn đoán chính xác và có phác đồ điều trị cụ thể.",
+            "score": 0.6555657386779785,
+            "id": "medical_vietnamese_qa_9161"
+        },
+        {
+            "text": "Câu hỏi: Em có bé 18 tháng tuổi rồi mà trên vùng kín của em bé có đốm da màu trắng hạt nhỏ li ti ở phía trên. Các đốm này cũng không nhiều lắm nhưng mà làm cho em lo lắng. Bác sĩ cho em hỏitrẻ hơn 1 tuổi có đốm da màu trắng nhỏ li ti ở vùng kín có sao không?Em cảm ơn bác sĩ nhiều. Nguyễn Thị Hằng(1985) Trả lời Được giải đáp bởiBác sĩ nội trú, Thạc sĩ Lý Thị Thanh Nhã -Bác sĩ Sản Phụ Khoa - Khoa Sản Phụ Khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạnnổi đốm trắng ở vùng kínnhưng bạn chưa cung cấp cho bác sĩ biết những đốm trắng li ti này đã có từ lâu chưa hay mới xuất hiện. Những đốt trắng li ti này có thể nguyên nhân doviêm da, mụn ở trẻ và thường kèm theo triệu chứng ngứa rát. Vì vậy, bạn nên đưa bé đi khám ở bác sĩ Da liễu để được khám và tư vấn kỹ hơn. Ngoài ra, bạn cũng cần chăm sóc,vệ sinh âm đạo cho bésạch sẽ: Vệ sinh hàng ngày 3 lần/ ngày bằng nước sạch hoặc nước muối sinh lý, lau khô và để thoáng.",
+            "score": 0.6301972270011902,
+            "id": "medical_vietnamese_qa_6978"
+        },
+        {
+            "text": "Câu hỏi: Con nhà em 19 tháng tuổi, ở bên cạnh đầu dương vật của cháu có 1 cục trắng bằng hạt đậu bé. Cháu không sưng, không sốt gì cả. Vậy bác sĩ cho em hỏitrẻ hơn 1 tuổi nổi cục trắng ở cạnh đầu dương vật có sao không?Em cảm ơn bác sĩ. Vũ Ngọc Hiên(1987) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Nổi mụn dương vậtlà dấu hiệu cảnh báo nhiều bệnh nhưviêm nang lông, u nang bạch huyết,u mềm lây, bệnh giang mai,...Đôi khi, nổi mụn dương vật không có nguyên nhân bệnh lý mà là lỗ chân lông bị bít tắc do chứa chất bẩn. Bé nhà bạn bị nổi mụn trắng ở dương vật, bạn có thể đưa con tới thăm khám bác sĩ chuyên khoa Nhi để bác sĩ thực hiện một số thăm khám chuyên sâu và tư vấn về trường hợp của bé.",
+            "score": 0.6286865472793579,
+            "id": "medical_vietnamese_qa_7006"
+        },
+        {
+            "text": "Câu hỏi: Trẻ bị ngứa bao quy đầu là tình trạng gì?\nTrả lời: 1. Trẻ bị ngứa bao quy đầu là tình trạng gì?\nBao quy đầu nằm ở phần đầu dương vật của nam giới, bao bọc bảo vệ “cậu nhỏ” khỏi vi khuẩn, bụi bẩn có hại và giúp duy trì độ ẩm. Bình thường, khi bao quy đầu tụt xuống sẽ để lộ đầu dương vật và lỗ tiểu. Đây là vùng da khá nhạy cảm nên dễ bị tổn thương, viêm nhiễm. Trong đó, viêm bao quy đầu là một bệnh thường gặp ở trẻ. Ngứa bao quy đầu là một biểu hiện đặc trưng của bệnh viêm bao quy đầu. Viêm bao quy đầu ở trẻ có thể do bẩm sinh hoặc do các nguyên nhân khác. Ban đầu, viêm bao quy đầu ở giai đoạn cấp tính. Nếu không điều trị hoặc chữa trị không dứt điểm, bệnh sẽ tiến triển sang giai đoạn mãn tính. Ngoài bị ngứa, trẻ bị viêm bao quy đầu còn có các biểu hiện khác như: Sưng đỏ bao quy đầu, có mụn nước hoặc các nốt nhỏ li ti ở phần đầu dương vật. Lâu ngày, các nốt này có thể bị vỡ ra, lở loét, chảy dịch có mùi hôi; Đau rát, khó chịu ở đầu dương vật, đặc biệt là khi cọ xát vào quần áo; Có các dấu hiệu bất thường về đường tiểu như tiểu rắt, tiểu buốt; Cơ thể mệt mỏi, suy nhược, bị nóng sốt. Sưng đỏ và ngứa bao quy đầu là các biểu hiện cần được cha mẹ phát hiện sớm",
+            "score": 0.6264161467552185,
+            "id": "vietnamese_healthcare_45497"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em giới tính nam, 28 tuổi. Cách đây 2 tuần, em phát hiện ở phần da của dương vật có nổi một mụn ruồi nhỏ, kích thước 3mm, tròn đều, hơi nhô lên, màu nâu đen, cân xứng, không ngứa, đau, chảy mủ hay có biểu hiện gì cả. Em không rõ là có từ bao giờ, nhưng có thể là vài tháng trở lại đây, vì em cũng hay kiểm tra dương vật của mình. Chỉ có điều là dương vật của em nổi khoảng 4,5 cái mụn ruồi nhỏ như đầu tăm, cũng không bị đau hay ngứa. Em có đi khám bác sĩ da liễu ở bệnh viện thành phố, họ bảo không sao cả, nhưng em vẫn rất lo. Qua 2 tuần theo dõi thì hình như không có hiện tượng gì thay đổi cả, kích thước vẫn thế. Mong bác sĩ tư vấn giúp e\nTrả lời: Biểu hiện như bạn mô tả gặp trong rất nhiều bệnh lý. Bạn nên đến khám da liễu để được chẩn đoán chính xác và điều trị kịp thời nhé.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.6049374341964722,
+            "id": "vietnamese_medical_qa_4895"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

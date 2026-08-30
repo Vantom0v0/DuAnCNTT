@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Xin chào bác sĩ, cho em hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không ạ?\nCảm ơn bác sĩ đã tư vấn.",
+    "ground_truth": "Chào em. Với câu hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không? bác sĩ xin tư vấn như sau.",
+    "answer": "Kích thước hai tinh hoàn hơi khác nhau có thể là bình thường, nhưng bìu sưng to, cứng và lệch hẳn một bên là dấu hiệu bất thường, có thể liên quan đến tràn dịch màng tinh, nang thừng tinh, viêm mào tinh hoàn, viêm tinh hoàn, u tinh hoàn–mào tinh hoàn hoặc ung thư tinh hoàn. Ung thư tinh hoàn thường không gây đau nhưng có thể làm tinh hoàn to và căng cứng. Hiện chưa đủ thông tin để xác định nguyên nhân cụ thể, vì vậy bạn nên đi khám để được đánh giá chính xác.",
+    "evidence": [
+        "Xin được giải đáp thắc mắc của bạn như sau:\nBình thường kích thước tinh hoàn 2 bên là không bằng nhau, kích thước bạn đưa ra thì bác sĩ chưa thể trả lời chính xác được.",
+        "Tuy nhiên 2 bìu mà lệch hẳn một bên là bất thường, đó có thể là tràn dịch màng tinh, nang thừng tinh, viêm tinh hoàn, u tinh hoàn – mào tinh hoàn, nặng nhất là ung thư tinh hoàn.",
+        "Một số chấn thương tinh hoàn nguy hiểm khác\nTrong trường hợp bạn bị đau và sưng bìu nhưng không gặp phải chấn thương nào, bạn có thể đang mắc phải những vấn đề sau đây: Viêm mào tinh hoàn : Gây ra bởi nhiễm trùng lây qua đường tình dục, bao gồm triệu chứng đau, sưng và đỏ bìu.",
+        "Hydrocele: Hiện tượng chất lỏng tích tụ bên trong bìu gây sưng và đau.",
+        "Viêm tinh hoàn : Do nhiễm trùng hoặc do virus.",
+        "Ung thư tinh hoàn : Mặc dù ung thư tinh hoàn không gây đau đớn, nhưng có thể có triệu chứng to tinh hoàn, tinh hoàn căng cứng."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không?\nTrả lời: Với câu hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không?bác sĩ xin tư vấn như sau. Theo như mô tả thì có khả năng em bị teo tinh hoàn 1 bên. Điều này có thể gây ảnh hưởng không tốt đến sinh lý và sinh sản của em.",
+                "score": 0.8271820545196533,
+                "id": "vietnamese_healthcare_7976",
+                "rerank_score": 0.999976634979248
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Em bị sưng một bên “trứng dương vật”, sưng khá to gần bằng quả trứng gà. Vậy bác sĩ cho em hỏi em bị gì ạ? Mong bác sĩ tư vấn giúp em với. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Trước hết, cảm ơn bạn đã chia sẻ băn khoăn với chúng tôi. Xin được giải đáp thắc mắc của bạn như sau:\nBình thường kích thước tinh hoàn 2 bên là không bằng nhau, kích thước bạn đưa ra thì bác sĩ chưa thể trả lời chính xác được. Tuy nhiên 2 bìu mà lệch hẳn một bên là bất thường, đó có thể là tràn dịch màng tinh, nang thừng tinh, viêm tinh hoàn, u tinh hoàn – mào tinh hoàn, nặng nhất là ung thư tinh hoàn.",
+                "score": 0.5413916707038879,
+                "id": "vietnamese_medical_qa_4253",
+                "rerank_score": 0.9993022680282593
+            },
+            {
+                "text": "Câu hỏi: Em bị đá vào phần hạ bộ và hai ba hôm nay vẫn thấy nhức. Tinh hoàn sưng to và thâm đen hết phần da. Bác sĩ cho em hỏitinh hoàn sưng to, thâm đen có nguy hiểm không?Mong bác sĩ tư vấn giúp. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Các triệu chứng bạn mô tả cho thấy đây là dấu hiệu của chấn thương bìu tinh hoàn. Bạn đã bị chấn thương hai ba hôm dẫn đến tình trạng này. Tổn thương đã diễn tiến từ đau nhức đến sưng to và thâm đen lại. Bạn nên thu xếp đến khám Nam khoa để bác sĩ khám tư vấn và điều trị chính xác với mức độ tổn thương của mình.",
+                "score": 0.5588246583938599,
+                "id": "medical_vietnamese_qa_9031",
+                "rerank_score": 0.9988536834716797
+            },
+            {
+                "text": "Câu hỏi: Tinh hoàn sưng to, thâm đen có nguy hiểm không?\nTrả lời: Các triệu chứng bạn mô tả cho thấy đây là dấu hiệu của chấn thương bìu tinh hoàn. Bạn đã bị chấn thương hai ba hôm dẫn đến tình trạng này. Tổn thương đã diễn tiến từ đau nhức đến sưng to và thâm đen lại. Bạn nên thu xếp đến khám Nam khoa để bác sĩ khám tư vấn và điều trị chính xác với mức độ tổn thương của mình.",
+                "score": 0.5802093744277954,
+                "id": "vietnamese_healthcare_1835",
+                "rerank_score": 0.9936549663543701
+            },
+            {
+                "text": "Câu hỏi: Một số chấn thương tinh hoàn nguy hiểm khác\nTrả lời: 7. Một số chấn thương tinh hoàn nguy hiểm khác\nTrong trường hợp bạn bị đau và sưng bìu nhưng không gặp phải chấn thương nào, bạn có thể đang mắc phải những vấn đề sau đây: Viêm mào tinh hoàn : Gây ra bởi nhiễm trùng lây qua đường tình dục, bao gồm triệu chứng đau, sưng và đỏ bìu. Hydrocele: Hiện tượng chất lỏng tích tụ bên trong bìu gây sưng và đau. Viêm tinh hoàn : Do nhiễm trùng hoặc do virus. Varicocele: Một hoặc một vài tĩnh mạch trong bìu căng thẳng và giãn nở lớn, còn gọi là giãn tĩnh mạch thừng tinh . Ung thư tinh hoàn : Mặc dù ung thư tinh hoàn không gây đau đớn, nhưng có thể có triệu chứng to tinh hoàn, tinh hoàn căng cứng. Hãy lưu ý khi thấy dấu hiệu này. Như vậy, tình trạng vỡ tinh hoàn có thể đem lại nhiều nguy hiểm đối với sức khỏe sinh sản của nam giới. Việc điều trị phụ thuộc vào tình trạng chấn thương của bệnh nhân. Do đó, bạn cần có phương pháp bảo vệ và ngăn ngừa, hạn chế tối đa các chấn thương xảy đến tại vùng nhạy cảm này.",
+                "score": 0.5766014456748962,
+                "id": "vietnamese_healthcare_87549",
+                "rerank_score": 0.9748576283454895
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "xin bác sĩ tư vấn cho em câu hỏi liên quan đếntai biến khi gây mê:Đối với gây mê, loại chèn ép nào gây cản trở và tăng nguy cơ tử vong nhấtạ? Em cảm ơn bác sĩ. Câu hỏi khách hàng ẩn danh Trả lời",
+    "ground_truth": "Chào bạn, Tai biến khi gây mêphụ thuộc nhiều yếu tố về người bệnh (tình trạng người bệnh, các bệnh lý kèm theo) cũng như trình độ tay nghề của đội ngũ gây mê – hồi sức. Ngày nay, với sự tiến bộ của khoa học, các thuốc mê thế hệ mới có tác dụng rất tốt nhưng ít tác dụng phụ, cùng với các phương tiện máy móc theo dõi rất hiện đại nên hạn chế tối đa các tai biến, biến chứng gây mê. Nếu trong quá trình gây mê – phẫu thuật, người bệnh không được theo dõi sát, đường thở bị chèn ép gây nên tình trạngthiếu oxythì rất nguy hiểm cho người bệnh. Nếu tình trạng thiếu oxy không được phát hiện và xử trí kịp thời thì sẽ gây nguy hiểm đến tính mạng người bệnh. Các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc được trang bị đồng bộ máy móc hiện đại, thuốc mới và tốt, cùng với đội ngũ bác sĩ chuyên khoa sâu giúp đảm bảo an toàn tuyệt đối cho phẫu thuật. Để được tư vấn chi tiết nhất, bạn có thể tới các bệnh viện thuộc Vinmec, các bác sĩ chuyên môn sẽ thăm khám và giải đáp cụ thể. Cảm ơn bạn đã gửi câu hỏiđối với gây mê, loại chèn ép nào gây cản trở và tăng nguy cơ tử vong nhấtđến Vinmec. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Đức Thông- Bác sĩ Gây mê hồi sức - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.",
+    "answer": "Tài liệu được cung cấp không có thông tin về các loại chèn ép trong gây mê, mức độ cản trở hay nguy cơ tử vong, nên chưa đủ cơ sở để trả lời chính xác câu hỏi của bạn. Bạn nên trao đổi trực tiếp với bác sĩ gây mê hồi sức để được đánh giá cụ thể theo tình trạng và loại phẫu thuật.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Biến chủng omicron có nguy hiểm không?\nTrả lời: 2. Biến chủng omicron có nguy hiểm không?",
+            "score": 0.5878250002861023,
+            "id": "vietnamese_healthcare_40036"
+        },
+        {
+            "text": "Câu hỏi: Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nTrả lời: 10. Nên đặt câu hỏi gì khi đặt lịch tư vấn từ bác sĩ?\nNếu bạn lo lắng về nguy cơ ung thư đại trực tràng hoặc các loại ung thư khác, bạn nên thảo luận cùng các bác sĩ có chuyên môn. Hãy cân nhắc hỏi những câu hỏi sau: Nguy cơ phát triển ung thư đại trực tràng là gì? Tôi có tổng cộng có bao nhiêu polyp đại tràng? Tôi đã có loại polyp đại tràng nào? Nguy cơ phát triển một loại ung thư khác là bao nhiêu? Tôi có thể làm gì để giảm nguy cơ mắc bệnh ung thư? Các biện pháp nào để sàng lọc và phòng ngừa ung thư là gì?",
+            "score": 0.5873077511787415,
+            "id": "vietnamese_healthcare_43316"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nTôi được chuẩn đoánphì đại tiền liệt tuyến  khảng 2 năm nay,bác sĩ khuyên uống thuốc hay phẫu thuật\nTrả lời: Chào bác.\nBác cần căn cứ xem tuyến tiền liệt đã bị phình bao nhiêu ? Và đã chèn ép đường tiểu như thế nào ? Bác có hay bị bí tiểu không ? \nBác cung cấp thêm một số thông tin để bác sỹ tư vấn được cụ thể hơn nhé.\nThân mến.",
+            "score": 0.580869734287262,
+            "id": "vietnamese_medical_qa_6805"
+        },
+        {
+            "text": "Câu hỏi: Sau hút áp xe thận bao lâu có thể phục hồi và có nguy hiểm không?\nTrả lời: Vì bạn không nói rõ tình trạng hiện tại, cũng như ngoài việc chọc hút ổ áp xe thì việc dùng kháng sinh như thế nào, có theo kháng sinh đồ không.",
+            "score": 0.5769141912460327,
+            "id": "vietnamese_healthcare_8835"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cho em hỏi hở van động mạch phổi nhẹ có nguy hiểm không? Cần làm những gì và ăn kiêng những gì ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn em đã tin tưởng và gửi câu hỏi về AI-Doctor. Trân trọng!",
+            "score": 0.5738598704338074,
+            "id": "vietnamese_medical_qa_1887"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

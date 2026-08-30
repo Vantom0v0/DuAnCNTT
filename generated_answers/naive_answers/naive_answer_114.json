@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Con nuốt nước bọt bình thường, ăn uống cũng không bị cản trở gì. Nhưng cổ họng bên trái dưới hàm của con cảm thấy đau khi gập cổ, xoay cổ, nằm nghiêng người về bên trái, nhưng lại không có nổi hạch. Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì thưa bác sĩ?",
+    "ground_truth": "Chào bạn! Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+    "answer": "Triệu chứng đau vùng cổ họng bên trái dưới hàm khi gập, xoay cổ hoặc nằm nghiêng, trong khi vẫn nuốt và ăn uống bình thường, có thể liên quan đến đau cơ hoặc phần mềm vùng cổ. Tuy nhiên, tài liệu không đủ để xác định chính xác bệnh gì; bạn nên đi khám bác sĩ, có thể khám Tai Mũi Họng, để được kiểm tra và phát hiện sớm nguyên nhân.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Cổ họng trái đau khi gập, xoay cổ, nghiêng người là bệnh gì?\nTrả lời: Tình trạng của bạn có thể bị đau cơ, phần mềm ở vùng cổ. Bạn nên khám bác sĩ để được khám xét nghiệm kịp thời phát hiện sớm tình trạng bệnh.",
+            "score": 0.7775574326515198,
+            "id": "vietnamese_healthcare_7086"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị đau 1 bên họng, nuốt nước bọt đau đã 3 - 4 ngày nay. Lúc đầu cảm giác là đau 1 lưỡi nghĩ bị nhiệt vì em bị clo vào sát răng nhưng hôm sau lan xuống họng gây khó nuốt. Hôm nay, em soi đèn thì thấy cổ họng có những u nổi trên bề mặt, đau nhiều hơn. Vậy bác sĩ cho em hỏi đau họng, khó nuốt kèm nổi u trên bề mặt vùng họng là bệnh gì? Có phải ung thư không thưa bác sĩ? Em cảm ơn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nVới những triệu chứng như bạn mô tả như: Đau một bên lưỡi lan xuống họng, khó nuốt, có những khối u bề mặt vùng họng, đây là những dấu hiệu bất thường. Vì vậy, bạn nên đến phòng khám Tai mũi họng để bác sĩ khám, nội soi kiểm tra, từ đó có thể tư vấn chính xác hơn tình trạng bệnh của bạn.\nTrân trọng!",
+            "score": 0.6169645190238953,
+            "id": "vietnamese_medical_qa_1205"
+        },
+        {
+            "text": "Câu hỏi: Triệu chứng vẹo cổ ở trẻ em\nTrả lời: 2. Triệu chứng vẹo cổ ở trẻ em\nBiểu hiện thường gặp khi trẻ bị vẹo cổ nghiêng đầu : Cổ trẻ sẽ nghiêng về một bên, còn mặt của trẻ thì xoay về bên đối diện. Nghĩa là nếu trẻ bị vẹo cổ bên trái, đầu trẻ sẽ nghiêng về phía bên trái, còn mặt trẻ sẽ quay về phía bên phải. Trẻ thường chỉ quan sát một bên vai (bên bị vẹo cổ), khi bú cũng chỉ bú một bên, trẻ cảm thấy rất khó khăn khi cử động xoay bên phía ngược lại. Một số dấu hiệu khác có thể thấy ở một số trẻ như xuất hiện 1 số vết sưng hoặc u nhỏ ở cổ. Khi thấy trẻ có những dấu hiệu bất thường trên, cha mẹ nên đưa trẻ đến các cơ sở y tế uy tín để được chẩn đoán và điều trị kịp thời cho trẻ.",
+            "score": 0.6093424558639526,
+            "id": "vietnamese_healthcare_135297"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nDạo gần đây, cháu có thấy cổ họng mình bị khó nuốt, ban đầu nó mọc cục thì ở bên trong, tầm 2 ngày thì lặn nhưng có cảm giác bị nghẹn và khó chịu. Đồng thời, cháu cũng bị mỏi quai hàm, mỏi 2 hôm sau đó quai hàm chuyển sang khó chịu, tình trạng này bắt đầu từ ngày 26/8 và ngày hôm qua thì cháu bị đau đầu, hôm nay lại bị đau nhức người, thỉnh thoảng ngạt mũi. Cháu không bị ho nhưng có đờm trong cổ họng, rất khó nuốt. Vậy bác sĩ cho cháu hỏi họng khó nuốt kèm mỏi quai hàm là dấu hiệu bệnh gì? Triệu chứng này có phải do Covid không? Cháu cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBệnh Covid khởi đầu là dấu hiệu của các triệu chứng viêm đường hô hấp trên như sốt, ho, mệt mỏi, đau người, mất ngửi, rối loạn vị giác. Sau đó sẽ gây có các triệu chứng của đường hô hấp dưới như ho nặng hơn, tức ngực, khó thở, tụt oxy máu. Ho trong giai đoạn đầu của Covid cũng chủ yếu ho khan.\nTrong trường hợp của bạn không phải là dấu hiệu của Covid. Tuy nhiên, bạn phải luôn nhớ rằng Covid đến 80% người mắc không hề có triệu chứng hoặc chỉ bị nhẹ. Dấu hiệu của bạn có thường do tình trạng loạn cảm họng do viêm họng thông thường. Bạn nên nghỉ ngơi, vệ sinh mũi họng bằng nước muối sinh lý, uống nhiều nước.\nTrân trọng!",
+            "score": 0.5837634801864624,
+            "id": "vietnamese_medical_qa_1221"
+        },
+        {
+            "text": "Câu hỏi: Dạ chào bác sĩ! Con muốn hỏi là xung quanh vùng cổ, sau gáy, lên hàm và 2 bên lỗ tai ngay cạnh 2 bên gò má con bị nổi rất nhiều hạch tròn và làm con đau lắm. Về hai bên hàm thì con nhai hay nuốt cũng bị đau. Biến dạng sưng luôn cả mặt, nhất là về cổ sau gáy con bị nổi hạch sưng đau khi nằm xuống ngủ và lăn nhẹ qua cũng làm con mất cả giấc ngủ vì đau. Còn bị nổi dị ứng hột như ban đỏ đầy thân thể và mặt mũi con gây ngứa. Xin hỏi bác sĩ với những triệu chứng như vậy con có nguy cơ mắc bệnh gì? Mong nhận được câu trả lời của bác sĩ. Con xin cảm ơn!\nTrả lời: Chào em! Rất cảm ơn em đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Bác sĩ rất chia sẻ với nỗi đau đớn mà em phải chịu đựng. Qua miêu tả của em thì bác sĩ thấy bệnh của em khá phức tạp, các triệu chứng do em đưa ra chưa đủ để các bác sĩ có thể trả lời em là bệnh gì.",
+            "score": 0.5745476484298706,
+            "id": "vietnamese_medical_qa_3052"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

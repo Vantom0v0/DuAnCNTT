@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tôi bị tiểu đường tuýp 2, buổi sáng chưa ăn 8.0 và viêm Gan B, men gan hơi cao vậy có tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Với tình trạng bệnh lý tiểu đường tuýp 2 và viêm gan B, anh/chị thì vẫn tiêm vaccine Covid-19 được.",
+    "answer": "Tiểu đường tuýp 2 không phải là chống chỉ định tiêm vaccine Covid-19 nếu đường huyết được kiểm soát ổn định và không có bệnh cấp tính hoặc bệnh mạn tính đang tiến triển. Tuy nhiên, do bạn bị viêm gan B và men gan hơi cao, nên hoãn tiêm cho đến khi bệnh được điều trị ổn định và có ý kiến bác sĩ chuyên khoa; thông tin hiện có chưa đủ để khẳng định bạn có thể tiêm ngay. Khi đi khám, hãy khai báo đầy đủ bệnh nền và nên tiêm tại bệnh viện có phương tiện cấp cứu.",
+    "evidence": [
+        "Trả lời: Với tình trạng bệnh lý tiểu đường tuýp 2 của anh/chị thì vẫn tiêm phòng vaccine Covid-19 được.",
+        "Trả lời: Bệnh tiểu đường không nằm trong chống chỉ định tiêm vaccine Covid-19 của Bộ Y tế, do đó nếu hiện tại bạn đã kiểm soát đường huyết ổn, không đang mắc bệnh lý cấp tính hay mạn tính tiến triển nào khác thì có thể tiêm vaccine Covid-19.",
+        "Trả lời: Trường hợp của bạn hoãn tiêm chủng đến khi điều trị ổn định bệnh viêm gan B, không biểu hiện gì khác và có ý kiến của bác sĩ chuyên khoa thì sẽ tiến hành tiêm chủng vaccine Covid-19.",
+        "nếu được kiểm soát tốt trong vòng 3 tháng trước tiêm ngừa, các chỉ số duy trì ổn định hợp lý theo tiên lượng của bác sĩ chuyên khoa thì hoàn toàn có thể tiêm vaccine Covid-19.",
+        "Bác nên khai báo với bác sĩ tiền sử bệnh lý, các dị ứng, mẫn cảm nếu có để được chỉ định tiêm chủng vaccine chính xác.",
+        "Tuy nhiên bạn nên tiêm tại bệnh viện, nơi có đầy đủ phương tiện cấp cứu.",
+        "Trả lời: Với trường hợp bệnh lý nền tiểu đường type 2 của anh nếu đã kiểm soát lượng đường huyết tốt thì anh vẫn có thể đi tiêm vaccine Covid-19 bình thường.",
+        "Trả lời: Trong trường hợp của anh chị, nếu các bệnh lý đã được điều trị ổn định, anh chị có thể tiêm vaccine Covid."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường, viêm gan B, cao huyết áp, hiện tại đang dùng thuốc tiêm sáng và chiều, uống thuốc huyết áp mỗi ngày. Trường hợp của tôi có được tiêm vaccine Covid-19 không ạ?\nTrả lời: Các bệnh lý mãn tính như đái tháo đường, viêm gan B mạn tính, tăng huyết áp. . . nếu được kiểm soát tốt trong vòng 3 tháng trước tiêm ngừa, các chỉ số duy trì ổn định hợp lý theo tiên lượng của bác sĩ chuyên khoa thì hoàn toàn có thể tiêm vaccine Covid-19. Bác nên khai báo với bác sĩ tiền sử bệnh lý, các dị ứng, mẫn cảm nếu có để được chỉ định tiêm chủng vaccine chính xác.",
+                "score": 0.7332801818847656,
+                "id": "vietnamese_healthcare_9578",
+                "rerank_score": 0.998904824256897
+            },
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường tuýp 2, đang uống thuốc có được tiêm vaccine phòng Covid-19 không?\nTrả lời: Với tình trạng bệnh lý tiểu đường tuýp 2 của anh/chị thì vẫn tiêm phòng vaccine Covid-19 được.",
+                "score": 0.7643002271652222,
+                "id": "vietnamese_healthcare_3926",
+                "rerank_score": 0.9987609386444092
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 38 tuổi bị tiểu đường tuýp 2 hơn 2 năm tôi kiểm soát đường huyết rất tốt và luôn ở mức an toàn. Xin hỏi tôi có thể tiêm vaccine Covid-19 được không và có cần lưu ý hay xét nghiệm gì không?\nTrả lời: Bệnh tiểu đường không nằm trong chống chỉ định tiêm vaccine Covid-19 của Bộ Y tế, do đó nếu hiện tại bạn đã kiểm soát đường huyết ổn, không đang mắc bệnh lý cấp tính hay mạn tính tiến triển nào khác thì có thể tiêm vaccine Covid-19. Tuy nhiên bạn nên tiêm tại bệnh viện, nơi có đầy đủ phương tiện cấp cứu.",
+                "score": 0.6793508529663086,
+                "id": "vietnamese_healthcare_8904",
+                "rerank_score": 0.998593270778656
+            },
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường và đang điều trị viên gan B, tiểu cầu 124 có tiêm vaccine Covid-19 được không?\nTrả lời: Trường hợp của bạn hoãn tiêm chủng đến khi điều trị ổn định bệnh viêm gan B, không biểu hiện gì khác và có ý kiến của bác sĩ chuyên khoa thì sẽ tiến hành tiêm chủng vaccine Covid-19.",
+                "score": 0.7218999266624451,
+                "id": "vietnamese_healthcare_1174",
+                "rerank_score": 0.9984186887741089
+            },
+            {
+                "text": "Câu hỏi: Xin hỏi tôi có bệnh lý nền là tiểu đường type 2 có chích vaccine Covid-19 được không?\nTrả lời: Với trường hợp bệnh lý nền tiểu đường type 2 của anh nếu đã kiểm soát lượng đường huyết tốt thì anh vẫn có thể đi tiêm vaccine Covid-19 bình thường.",
+                "score": 0.7015416026115417,
+                "id": "vietnamese_healthcare_8489",
+                "rerank_score": 0.9968966245651245
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường, viêm gan B, cao huyết áp, hiện tại đang dùng thuốc tiêm sáng và chiều, uống thuốc huyết áp mỗi ngày. Trường hợp của tôi có được tiêm vaccine Covid-19 không ạ?\nTrả lời: Các bệnh lý mãn tính như đái tháo đường, viêm gan B mạn tính, tăng huyết áp. . . nếu được kiểm soát tốt trong vòng 3 tháng trước tiêm ngừa, các chỉ số duy trì ổn định hợp lý theo tiên lượng của bác sĩ chuyên khoa thì hoàn toàn có thể tiêm vaccine Covid-19. Bác nên khai báo với bác sĩ tiền sử bệnh lý, các dị ứng, mẫn cảm nếu có để được chỉ định tiêm chủng vaccine chính xác.",
+                "score": 0.7150561213493347,
+                "id": "vietnamese_healthcare_9578",
+                "rerank_score": 0.998904824256897
+            },
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường tuýp 2, đang uống thuốc có được tiêm vaccine phòng Covid-19 không?\nTrả lời: Với tình trạng bệnh lý tiểu đường tuýp 2 của anh/chị thì vẫn tiêm phòng vaccine Covid-19 được.",
+                "score": 0.7778852581977844,
+                "id": "vietnamese_healthcare_3926",
+                "rerank_score": 0.9987609386444092
+            },
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường và đang điều trị viên gan B, tiểu cầu 124 có tiêm vaccine Covid-19 được không?\nTrả lời: Trường hợp của bạn hoãn tiêm chủng đến khi điều trị ổn định bệnh viêm gan B, không biểu hiện gì khác và có ý kiến của bác sĩ chuyên khoa thì sẽ tiến hành tiêm chủng vaccine Covid-19.",
+                "score": 0.7056624889373779,
+                "id": "vietnamese_healthcare_1174",
+                "rerank_score": 0.9984186887741089
+            },
+            {
+                "text": "Câu hỏi: Xin hỏi tôi có bệnh lý nền là tiểu đường type 2 có chích vaccine Covid-19 được không?\nTrả lời: Với trường hợp bệnh lý nền tiểu đường type 2 của anh nếu đã kiểm soát lượng đường huyết tốt thì anh vẫn có thể đi tiêm vaccine Covid-19 bình thường.",
+                "score": 0.691191554069519,
+                "id": "vietnamese_healthcare_8489",
+                "rerank_score": 0.9968966245651245
+            },
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường cao huyết áp viêm gan B hơn 10 năm hiện tại đang dùng insulin và thuốc huyết áp mỗi ngày thì có được tiêm vaccine 19 không ạ?\nTrả lời: Trong trường hợp của anh chị, nếu các bệnh lý đã được điều trị ổn định, anh chị có thể tiêm vaccine Covid.",
+                "score": 0.7620968818664551,
+                "id": "vietnamese_healthcare_8411",
+                "rerank_score": 0.9956098198890686
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường, viêm gan B, cao huyết áp, hiện tại đang dùng thuốc tiêm sáng và chiều, uống thuốc huyết áp mỗi ngày. Trường hợp của tôi có được tiêm vaccine Covid-19 không ạ?\nTrả lời: Các bệnh lý mãn tính như đái tháo đường, viêm gan B mạn tính, tăng huyết áp. . . nếu được kiểm soát tốt trong vòng 3 tháng trước tiêm ngừa, các chỉ số duy trì ổn định hợp lý theo tiên lượng của bác sĩ chuyên khoa thì hoàn toàn có thể tiêm vaccine Covid-19. Bác nên khai báo với bác sĩ tiền sử bệnh lý, các dị ứng, mẫn cảm nếu có để được chỉ định tiêm chủng vaccine chính xác.",
+                "score": 0.7310587763786316,
+                "id": "vietnamese_healthcare_9578",
+                "rerank_score": 0.998904824256897
+            },
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường tuýp 2, đang uống thuốc có được tiêm vaccine phòng Covid-19 không?\nTrả lời: Với tình trạng bệnh lý tiểu đường tuýp 2 của anh/chị thì vẫn tiêm phòng vaccine Covid-19 được.",
+                "score": 0.7516531348228455,
+                "id": "vietnamese_healthcare_3926",
+                "rerank_score": 0.9987609386444092
+            },
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường và đang điều trị viên gan B, tiểu cầu 124 có tiêm vaccine Covid-19 được không?\nTrả lời: Trường hợp của bạn hoãn tiêm chủng đến khi điều trị ổn định bệnh viêm gan B, không biểu hiện gì khác và có ý kiến của bác sĩ chuyên khoa thì sẽ tiến hành tiêm chủng vaccine Covid-19.",
+                "score": 0.7214694023132324,
+                "id": "vietnamese_healthcare_1174",
+                "rerank_score": 0.9984186887741089
+            },
+            {
+                "text": "Câu hỏi: Xin hỏi tôi có bệnh lý nền là tiểu đường type 2 có chích vaccine Covid-19 được không?\nTrả lời: Với trường hợp bệnh lý nền tiểu đường type 2 của anh nếu đã kiểm soát lượng đường huyết tốt thì anh vẫn có thể đi tiêm vaccine Covid-19 bình thường.",
+                "score": 0.6782212853431702,
+                "id": "vietnamese_healthcare_8489",
+                "rerank_score": 0.9968966245651245
+            },
+            {
+                "text": "Câu hỏi: Tôi bị tiểu đường cao huyết áp viêm gan B hơn 10 năm hiện tại đang dùng insulin và thuốc huyết áp mỗi ngày thì có được tiêm vaccine 19 không ạ?\nTrả lời: Trong trường hợp của anh chị, nếu các bệnh lý đã được điều trị ổn định, anh chị có thể tiêm vaccine Covid.",
+                "score": 0.7625413537025452,
+                "id": "vietnamese_healthcare_8411",
+                "rerank_score": 0.9956098198890686
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

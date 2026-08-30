@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Đau bụng, nôn nguyên nhân là gì?",
+    "ground_truth": "Theo bạn mô tả, thuốc giảm cân chưa rõ được chính xác tên thuốc và thành phần trong thuốc nhưng một số thuốc giảm cân có tác dụng phụ là gây rối loạn tiêu hóa. Bạn nên đến bệnh viện để được bác sĩ khám và tư vấn đồng thời cần làm một số xét nghiệm như siêu âm bụng, xét nghiệm máu xem có nguyên nhân nào khác.",
+    "answer": "Đau bụng kèm nôn có thể do nhiều nguyên nhân, như viêm dạ dày–ruột, viêm tụy cấp hoặc sỏi túi mật; ngoài ra nôn còn có thể liên quan đến tăng áp lực nội sọ, bệnh hệ thần kinh–tiền đình, hoặc các yếu tố kích phát như nhiễm trùng, lo âu, một số thực phẩm, vận động quá mức hay say tàu xe. Nếu đau bụng liên quan kỳ kinh, nguyên nhân có thể là đau bụng kinh hoặc các bệnh như u xơ tử cung, u nang buồng trứng, viêm vùng chậu, lạc nội mạc tử cung hay vấn đề về thai. Tài liệu không đủ để xác định nguyên nhân cụ thể; bạn nên đi khám để được đánh giá, đặc biệt vì một số nguyên nhân có thể là cấp cứu.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Nguyên nhân gây nôn và buồn nôn\nTrả lời: 3. Nguyên nhân gây nôn và buồn nôn\n3.4. Bệnh của hệ thần kinh trung ương Tăng áp lực sọ não như: U, nhiễm trùng (đặc biệt là cryptococcal meningitis), xuất huyết, lo âu, dự đoán trước hóa trị liệu gây nôn.",
+            "score": 0.5840567350387573,
+            "id": "vietnamese_healthcare_9990"
+        },
+        {
+            "text": "Câu hỏi: Các nguyên nhân gây bệnh nôn chu kỳ ở trẻ em\nTrả lời: 3. Các nguyên nhân gây bệnh nôn chu kỳ ở trẻ em\nNguyên nhân cơ bản của hội chứng nôn ở trẻ em theo chu kỳ vẫn chưa được biết rõ. Một số nguyên nhân có thể nghi ngờ là yếu tố di truyền, khó tiêu hóa, các vấn đề về hệ thần kinh và mất cân bằng hormone. Ngoài ra, các cơn nôn cụ thể có thể được kích hoạt bởi: Cảm lạnh , dị ứng hoặc các vấn đề về mũi xoang; Căng thẳng hoặc phấn khích về cảm xúc; Lo lắng hoặc cơn hoảng sợ; Một số loại thực phẩm và đồ uống, chẳng hạn như sô cô la hoặc pho mát; Ăn quá nhiều, ăn ngay trước khi đi ngủ hoặc nhịn ăn; Thời tiết nóng; Kiệt sức về thể chất; Tập thể dục hay vận động quá nhiều; Say tàu xe . Việc xác định các tác nhân gây ra những đợt nôn chu kỳ ở trẻ em có thể giúp kiểm soát bệnh hiệu quả hơn.",
+            "score": 0.5673377513885498,
+            "id": "vietnamese_healthcare_117420"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho cháu hỏi,đau bụng trên kèm nôn là dấu hiệu của bệnh gì? Tứ Kiều(2005) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Tấn Phúc- Bác sĩ Nội tiêu hóa - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Đau bụngtrên kèmnônlà triệu chứng của nhiều bệnh, bao gồm cả các bệnh cấp cứu hay không cấp cứu. Để tư vấn, bác sĩ cần thêm thông tin về mức độ cũng như thời gian diễn ra tình trạng đau bụng và nôn. Dựa trên thông tin bạn mô tả, có thể đây là triệu chứng của viêm dạ dày ruột thông thường, cũng có thể là viêm tụy cấp hay sỏi túi mật. Bạn nên đi khám bác sĩ chuyên khoa để xác định nguyên nhân và có phương pháp điều trị thích hợp.",
+            "score": 0.5592235326766968,
+            "id": "medical_vietnamese_qa_11089"
+        },
+        {
+            "text": "Câu hỏi: Thông tin chung về tình trạng đau bụng kinh\nTrả lời: 1. Thông tin chung về tình trạng đau bụng kinh\n1.2. Nguyên nhân đau bụng kinh Đau bụng kinh gồm có đau bụng kinh nguyên phát và thứ phát. Đau bụng kinh nguyên phát là tình trạng đau bụng sinh lý mỗi lần hành kinh mà không liên quan đến bệnh lý gì. Đau bụng kinh nguyên phát thường xuất hiện ở phụ nữ trong giai đoạn dậy thì, phụ nữ chưa có chồng hoặc chưa từng sinh con. Đau bụng kinh thứ phát thường liên quan đến các bệnh lý sau : Hội chứng tiền kinh nguyệt Hội chứng rối loạn tâm thần tiền kinh nguyệt Khối u xơ tử cung hay u nang buồng trứng Viêm vùng chậu , viêm phần phụ Lạc nội mạc tử cung trong cơ tử cung, trong buồng trứng, trong vết mổ cũ thành bụng... Các vấn đề về thai như sẩy thai , thai ngoài tử cung ...",
+            "score": 0.5569825172424316,
+            "id": "vietnamese_healthcare_158276"
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân gây nôn và buồn nôn\nTrả lời: 3. Nguyên nhân gây nôn và buồn nôn\n3.2. Kích thích hoặc nhạy cảm hóa hệ thống tiền đình Chấn thương, ví dụ như nhiễm trùng, u; Thuốc như opioid (hiếm).",
+            "score": 0.5552401542663574,
+            "id": "vietnamese_healthcare_9988"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

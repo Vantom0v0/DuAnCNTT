@@ -1,0 +1,47 @@
+{
+    "model_name": "fur",
+    "question": "Nhỏ thừa vắc-xin bại liệt liệu có ảnh hưởng đến sức khỏe của trẻ?",
+    "ground_truth": "Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành của virus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai.",
+    "answer": "Theo thông tin được cung cấp, **chưa tìm thấy đủ bằng chứng cụ thể về tính an toàn khi trẻ sử dụng vắc-xin bại liệt vượt quá số mũi khuyến cáo**.\n\nThông tin hiện có cho thấy:\n\n- Việc trẻ vừa tiêm vắc-xin 6 trong 1 vừa uống thêm vắc-xin bại liệt có thể giúp phòng ngừa đầy đủ hơn các chủng virus bại liệt; việc sử dụng cả hai có thể được khuyến cáo tùy vùng dịch tễ.\n- Vắc-xin bại liệt dạng tiêm được mô tả là an toàn, nhưng vẫn có thể gây đau, đỏ, sưng tại chỗ tiêm, sốt nhẹ; hiếm hơn là dị ứng, phát ban, co giật hoặc sốc phản vệ.\n- Các thông tin về tiêm thừa vắc-xin BCG không thể dùng để kết luận cho vắc-xin bại liệt.\n\nVì vậy, nếu trẻ đã dùng thêm một hoặc vài liều ngoài lịch, nên cung cấp đầy đủ lịch sử tiêm chủng cho cơ sở tiêm chủng/bác sĩ để được đánh giá cụ thể; bằng chứng được cung cấp không đủ để khẳng định mức độ an toàn của việc vượt quá số mũi khuyến cáo.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: ! Con em tiêmvắc-xin 6 trong 1, có tiêm và nhỏ thừa hai mũivắc-xin bại liệt. Bác sĩ cho em hỏi, tiêm đủ các mũi vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt liệu có ảnh hưởng gì đến sức khỏe của bé không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Dương Tâm(1987) Trả lời\nTrả lời: Chào bạn! Việc tiêm phòng vắc-xin 6 trong 1 và nhỏ thừa vắc-xin bại liệt đường uống có thể giúp phòng ngừa đầy đủ hơn các chủng lưu hành củavirus bại liệt, tùy vào vùng dịch tễ mà có thể được khuyến cáo sử dụng cả hai. Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp bạn trực tiếp để được tư vấn kỹ càng hơn. Trân trọng! Được giải đáp bởi Tiến sĩ, Bác sĩ Phan Nguyễn Thanh Bình- Khoa Nhi - Sơ Sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.",
+            "score": 0.6612496376037598,
+            "id": "medical_vietnamese_qa_13517",
+            "rerank_score": 0.9994655251502991
+        },
+        {
+            "text": "Câu hỏi: ! Bé nhỏ em năm nay 4 tuổi, bé tiêm ngừa đầy đủ từ lúc mới sinh. Tháng rồi ở trường mầm non của bé tổ chức cho bé uống vắc-xin phòng bại liệt gồm 2 đợt uống, bé đã uống 1 đợt và đợt 2 rơi vào thời gian bé vắng lớp. Bé bị bỏ lỡ đợt uống thứ 2 này. Vậy bác sĩ cho em hỏibé 4 tuổi bỏ lỡ uống vắc-xin phòng bại liệt đợt 2 có nghiêm trọng không? Rất mong bác sĩ tư vấn, em cảm ơn! Nguyễn Phượng Cầu(1990) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin sống giảm độc lực dạng uống (OPV): chứa vi rút bại liệt sống đã làm suy yếu, có tác dụng kích thích cơ thể tạo miễn dịch. Miễn dịch này giúp cho cơ thể phòng vệ không cho virus xâm nhập vào cơ thể. Nếu bé đã tiêm phòng đầy đủ từ lúc mới sinh thì việc bỏ lỡ uống bại liệt mũi 2 này không nghiêm trọng. Tuy nhiên, bé 4 tuổi sẽ có lịch tiêm nhắc một số loại vắc-xin, bạn nên đưa bé đến trung tâm tiêm chủng để tiêm.  Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Bảo Toàn -Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.6288903951644897,
+            "id": "medical_vietnamese_qa_13388",
+            "rerank_score": 0.948830783367157
+        },
+        {
+            "text": "Câu hỏi: Trẻ em 10 tháng tuổi đang điều trị chân bị bên to bên nhỏ. Vậy bác sĩ cho em hỏitrẻ 10 tháng tuổi điều trị chân không đều có được chích ngừa bại liệt không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ đang đượccan thiệp chỉnh hình hai chânvẫn có thể tiêm chủng vắc-xin bại liệt được. Sử dụng vắc-xin phòng bại liệt là phương pháp phòng chống bệnh bại liệt hữu hiệu nhất. Trước khi tiêm chủng, cần lưu ý trẻ phải được khám sàng lọc trước tiêm và tư vấn theo dõi trẻ sau khi tiêm vắc-xin, bởi trẻ có thể sẽ gặp một số phản ứng phụ sau khi tiêm chủng. Cáchtheo dõi trẻ sau tiêm vắc-xin phòng bại liệt: Cho trẻ ở lại khu vực theo dõi sau tiêm chủng tối thiểu 30 phút sau tiêm để nhân viên y tế theo dõi trẻ và xử lý kịp thời những phản ứng bất thường có thể xảy ra. Cha mẹ theo dõi trẻ tại nhà ít nhất 24-48 giờ sau khi tiêm chủng. Các dấu hiệu cần theo dõi là toàn trạng tinh thần của trẻ (tỉnh táo, quấy khóc, li bì...), tình trạng ăn ngủ, bỏ bú, bú kém, nhiệt độ, phát ban trên da, sưng đỏ vị trí tiêm, thở nhanh, khó thở, tím tái, rối loạn tiêu hóa... khi phát hiện sức khỏe trẻ có gì bất thường, phải đưa trẻ đến cơ sở y tế gần nhất để được xử trí kịp thời. Chú ý, bế và quan sát trẻ thường xuyên, không chạm, đè vào chỗ tiêm, không đắp bất cứ thứ gì vào chỗ tiêm. Cho trẻ ăn đủ bữa, đủ số lượng, thường xuyên kiểm tra trẻ vào ban đêm. Vắc-xin bại liệtdạng tiêm rất an toàn. Tuy nhiên cũng giống như các vắc-xin khác, sau khi tiêm có thể gặp các tác dụng không mong muốn như: Phản ứng thường gặp: Đau, xuất hiện quầng đỏ, sưng tại nơi tiêm, sốt nhẹ. Các phản ứng này sẽ tự hết trong 1-2 ngày. Phản ứng hiếm gặp (nhỏ hơn 0,01%): Sưng, phù nề tại nơi tiêm có thể gặp trong 1-2 ngày, phản ứng dị ứng, nổi mày đay, phù mặt, sốc phản vệ với một trong các thành phần của vắc-xin, đau khớp, co giật, cơ thể kích thích, phát ban.",
+            "score": 0.5160354375839233,
+            "id": "medical_vietnamese_qa_6861",
+            "rerank_score": 0.8767462968826294
+        },
+        {
+            "text": "Câu hỏi: Con em trên 3 tuổi rưỡi. Hiện cháu đang điều trị thuốc động kinh. Bác sĩ cho em hỏitrẻ đang điều trị động kinh có thể tiêm ngừa bại liệt không?Khi đi tiêm phòng thì bé có cần phải ngưng uống thuốc động kinh không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ trên 3,5 tuổi đang điều trị động kinh thì vẫn tiêm được vắc-xin bại liệt bình thường. Khi tiêm vắc-xin bại liệt trẻ không cần dừng uống thuốc động kinh. Vắc-xin bại liệt dạng tiêm rất an toàn. Tuy nhiên, cũng giống như các vắc-xin khác, sau khi tiêm có thể gặp các tác dụng không mong muốn như: Phản ứng thường gặp: Đau, xuất hiện quầng đỏ, sưng tại nơi tiêm, sốt nhẹ đến trung bình. Phản ứng hiếm gặp: Dị ứng, phát ban, nổi mày đay, phù mặt, sốc phản vệ với một trong các thành phần của vắc-xin, đau khớp, co giật. Các phản ứng thường kéo dài 1 - 2 ngày rồi tự hết.",
+            "score": 0.5710607171058655,
+            "id": "medical_vietnamese_qa_12782",
+            "rerank_score": 0.7857000231742859
+        },
+        {
+            "text": "Câu hỏi: Con em trên 3 tuổi rưỡi. Hiện tại, cháu đang điều trị thuốc động kinh. Bác sĩ cho em hỏitrẻ 3,5 tuổi đang điều trị động kinh có tiêm bại liệt được không?Khi đi tiêm ngừa, cháu có phải ngưng uống thuốc động kinh không? Em cảm ơn bác sĩ. Tạ Thị Thương(1986) Trả lời Được giải đáp bởiBác sĩ nội trú Hồ Thị Hồng Tho -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ trên 3,5 tuổi đangđiều trị động kinhthì vẫn tiêm đượcvắc-xin bại liệtbình thường. Khi tiêm vắc-xin bại liệt bạn không cần dừng uốngthuốc động kinh. Vắc-xin bại liệt dạng tiêm rất an toàn. Tuy nhiên, cũng giống như các vắc-xin khác, sau khi tiêm có thể gặp các tác dụng không mong muốn như: Phản ứng thường gặp: Đau, xuất hiện quầng đỏ, sưng tại nơi tiêm, sốt nhẹ. Phản ứng hiếm gặp (nhỏ hơn 0,01%): Sưng, phù nề tại nơi tiêm, phản ứng dị ứng, nổi mày đay, phù mặt, sốc phản vệ với một trong các thành phần của vắc-xin, đau khớp, co giật, cơ thể kích thích, phát ban. Các phản ứng thường kéo dài 1-2 ngày rồi tự hết.",
+            "score": 0.51270592212677,
+            "id": "medical_vietnamese_qa_13235",
+            "rerank_score": 0.6680752635002136
+        },
+        {
+            "text": "Câu hỏi: bác sĩ cho em hỏi trường hợp sau với ạ. Con emsinh mổđược được 1 tháng hai ngày, cháu khỏe mạnh ăn ngủ tốt. Hôm nay đi tiêm vắc-xin lao ở trạm y tế xã, lúc tiêm chị y tá tiêm hỏng mũi xiên ra ngoài nên vắc-xin ra ngoài chắc vào được 1 chút. Chị y tá có tiêm lại mũi khác và tiêm thành công. Bác sĩ cho em hỏi liệu tiêm như vậy có bị sao không ạ? Em lo thừa vắc - xin vì cả mũi đầu chắc có tiêm vào chút. Bác sĩ tư vấn giúp em với ạ, em lo quá. Cảm ơn bác sĩ. Hoàng Văn Dũng(1986) Trả lời\nTrả lời: Chào bạn. Cảm ơn bạn đã tin tưởng, chia sẻ lo lắng tới Vinmec. Trong trường hợp nếu trẻ tiêm phòng thừavắc -xin BCGthì sẽ làm tăng nguy cơ gây phản ứng hạch. Do đó, bạn cần quan sát thấy bé có khối sưng ở nách hoặc cổ thì cần đưa bé đi khám tại trung tâm Nhi - Bệnh viện thuộcHệ thống Y tế Vinmecđể có hướng xử lý kịp thời. Chúc bé và gia đình luôn có sức khỏe tốt. Được giải đáp bởiThạc sĩ Bác sĩ Huỳnh Bảo Toàn- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang Các nội dung tư vấn khác Trẻ hơn 1 tháng tuổi tiêm phòng lao được không? Tiêm phòng lao cho trẻ sinh non Trẻ 1 tuổi có tiêm được lao Các bài viết cùng chủ đề Vắc-xin BCG 1mg/1ml Các xét nghiệm tìm vi khuẩn lao Tiêm phòng lao muộn cho trẻ có ảnh hưởng gì không?",
+            "score": 0.4576030373573303,
+            "id": "medical_vietnamese_qa_13530",
+            "rerank_score": 0.6121765971183777,
+            "weighted_score": 0.7756069540977478
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

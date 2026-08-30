@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cứng hàm trái khi đang mọc răng khôn là do đâu?",
+    "ground_truth": "Để đánh giá xem em có bị khớp hàm, đau vì mọc răng khôn hay nguyên nhân gì khác thì tốt nhất em nên đến khám tại khoa Răng - Hàm - Mặt để bác sĩ thực hiện các chỉ định chụp phim, siêu âm. . . thì mới có thể chẩn đoán chính xác tình trạng cứng hàm trái khi đang mọc răng khôn cho em.",
+    "answer": "Cứng hàm trái khi đang mọc răng khôn có thể liên quan đến tình trạng sưng đau hoặc viêm, nhiễm trùng do răng khôn mọc lệch, mọc sâu và khó vệ sinh; cũng có thể do vấn đề ở khớp thái dương hàm. Tuy nhiên, tài liệu không đủ để xác định nguyên nhân cụ thể trong trường hợp của bạn, nhất là khi có khối nhỏ dưới 1 cm gần tai. Bạn nên đến chuyên khoa Răng hàm mặt để được khám, chụp phim và tìm nguyên nhân; không nên cố há miệng quá to, có thể xoa nhẹ hai bên má và vùng trước tai 5–10 phút trước khi ăn nhai.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Em bị xơ vú và đã làm tiểu phẫu cắt bỏ được gần 1 tháng. Sau khi làm tiểu phẫu xong thì em thấy hiện tượng cứng hàm trái, có cảm giác đau gần tai, sờ tay thấy có 1 khối u nhỏ dưới 1cm di động và đang mọc răng khôn hàm trái dưới. Em đọc thông tin thấy có thể bị khớp hàm hoặc do đau vì mọc răng khôn. Bác sĩ có thể chẩn đoán tình trạng cứng hàm trái khi đang mọc răng khôn cho em được không ạ?\nTrả lời: Cảm ơn em đã tin tưởng AI-Doctor. Rất mong có thể gặp em để tư vấn cụ thể hơn!",
+            "score": 0.6573225259780884,
+            "id": "vietnamese_medical_qa_2443"
+        },
+        {
+            "text": "Câu hỏi: Cứng khớp hàm điều trị như thế nào?\nTrả lời: Có nhiều nguyên nhân gây ra việc cứng khớp hàm làm bạn khó mở to miệng. Bạn nên xoa nhẹ khoảng 5 - 10 phút 2 bên má và vùng trước tai trước khi ăn nhai. Việc cố há miệng to có thể làm tình trạng bệnh trầm trọng hơn nếu nguyên nhân là trật khớp. Vì vậy, bạn nên đi khám chuyên khoa Răng hàm mặt để tìm ra nguyên nhân và có hướng xử lý sớm.",
+            "score": 0.5814778804779053,
+            "id": "vietnamese_healthcare_954"
+        },
+        {
+            "text": "Câu hỏi: Sưng đau hàm do mọc răng khôn phải làm sao?\nTrả lời: Sưng đau hàm do mọc răng khôn thì bạn nên đến bệnh viện khám, xét nghiệm, chụp phim, bácsĩ sẽ kê đơn thuốc cho bạn. Sau đó bạn có thể nhổ răng khôn cho dứt hẳn.",
+            "score": 0.567540168762207,
+            "id": "vietnamese_healthcare_5264"
+        },
+        {
+            "text": "Câu hỏi: Biến chứng khi răng khôn mọc bất thường\nTrả lời: 2. Biến chứng khi răng khôn mọc bất thường\nChèn ép các răng kế cận: Răng khôn mọc lệch lâu ngày sẽ gây ra sự xô lệch của các răng kế cận. Tăng nguy cơ nhiễm trùng khi răng khôn mọc ở vị trí quá sâu bên trong khung hàm, gây khó khăn trong việc vệ sinh, đây là môi trường tiềm năng cho vi khuẩn sinh sôi nảy nở và làm tăng nguy cơ sâu răng , viêm lợi , nhiễm trùng răng miệng. Răng khôn mọc ngầm có thể thoái hóa thành u, nang bệnh lý trong xương hàm, làm yếu xương hàm. Gây cảm giác đau nhức, khó chịu cho bệnh nhân. Răng khôn mọc lệch gây ảnh hưởng đến các răng bên cạnh",
+            "score": 0.5671246647834778,
+            "id": "vietnamese_healthcare_99027"
+        },
+        {
+            "text": "Câu hỏi: Khi nhai cảm giác lục cục, mỏi hàm có phải do viêm khớp thái dương hàm?\nTrả lời: Cháu bị các triệu chứng trên bao lâu rồi?Theo mô tả của cháu thì có thể cháu có loạn chức năng khớp thái dương hàm. Đây là một hội chứng hay gặp. Nguyên nhân có thể do có các thói quen xấu như chỉ nhai 1 bên hàm hoặc nghiến răng. . . nhiều trường hợp nguyên nhân là do tâm lý căng thẳng gây nên. Cháu nên đến viện sớm để được khám kĩ, xác định đúng nguyên nhân",
+            "score": 0.5645896196365356,
+            "id": "vietnamese_healthcare_2902"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

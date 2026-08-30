@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Xin chào bác sĩ, cho em hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không ạ?\nCảm ơn bác sĩ đã tư vấn.",
+    "ground_truth": "Chào em. Với câu hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không? bác sĩ xin tư vấn như sau.",
+    "answer": "Chào bạn, hai tinh hoàn hơi lệch nhau có thể là bình thường, nhưng bìu sưng to, cứng hoặc lệch hẳn một bên là dấu hiệu bất thường, có thể liên quan đến tràn dịch màng tinh, nang thừng tinh, viêm tinh hoàn–mào tinh hoàn, giãn tĩnh mạch thừng tinh, u tinh hoàn; trường hợp tinh hoàn căng cứng, to lên không đau cũng cần lưu ý nguy cơ u/ung thư tinh hoàn. Tình trạng này có thể ảnh hưởng đến chức năng sinh lý và khả năng sinh sản, vì vậy bạn nên đi khám chuyên khoa Tiết niệu–Nam học sớm để được thăm khám và siêu âm xác định nguyên nhân. Nếu sưng đau dữ dội, đau xuất hiện đột ngột, bìu đỏ nóng, sốt, buồn nôn hoặc tiểu khó, hãy đến cơ sở y tế ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không?\nTrả lời: Với câu hỏi bìu dương vật sưng to, cứng và tinh hoàn không cân đối có nguy hiểm không?bác sĩ xin tư vấn như sau. Theo như mô tả thì có khả năng em bị teo tinh hoàn 1 bên. Điều này có thể gây ảnh hưởng không tốt đến sinh lý và sinh sản của em.",
+            "score": 0.8494253158569336,
+            "id": "vietnamese_healthcare_7976"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em bị sưng một bên “trứng dương vật”, sưng khá to gần bằng quả trứng gà. Vậy bác sĩ cho em hỏi em bị gì ạ? Mong bác sĩ tư vấn giúp em với. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Trước hết, cảm ơn bạn đã chia sẻ băn khoăn với chúng tôi. Xin được giải đáp thắc mắc của bạn như sau:\nBình thường kích thước tinh hoàn 2 bên là không bằng nhau, kích thước bạn đưa ra thì bác sĩ chưa thể trả lời chính xác được. Tuy nhiên 2 bìu mà lệch hẳn một bên là bất thường, đó có thể là tràn dịch màng tinh, nang thừng tinh, viêm tinh hoàn, u tinh hoàn – mào tinh hoàn, nặng nhất là ung thư tinh hoàn.",
+            "score": 0.7809634208679199,
+            "id": "vietnamese_medical_qa_4253"
+        },
+        {
+            "text": "Câu hỏi: Tinh hoàn sưng một bên là dấu hiệu của bệnh gì?\nTrả lời: Bình thường kích thước tinh hoàn 2 bên là không bằng nhau, kích thước bạn đưa ra thì bác sĩ chưa thể trả lời chính xác được. Tuy nhiên 2 bìu mà lệch hẳn một bên là bất thường, đó có thể là tràn dịch màng tinh, nang thừng tinh, viêm tinh hoàn, u tinh hoàn – mào tinh hoàn, nặng nhất là ung thư tinh hoàn. Biện pháp tốt nhất là bạn nên đi khám tại các bệnh viện uy tín hoặc đến với chúng tôi sớm nhất để các bác sĩ chuyên khoa Tiết niệu – Nam học thăm khám, từ đó mới có thể tư vấn chính xác cho bạn được, tránh tai biến không đáng có nhé.",
+            "score": 0.778395414352417,
+            "id": "vietnamese_healthcare_3917"
+        },
+        {
+            "text": "Câu hỏi: Một số chấn thương tinh hoàn nguy hiểm khác\nTrả lời: 7. Một số chấn thương tinh hoàn nguy hiểm khác\nTrong trường hợp bạn bị đau và sưng bìu nhưng không gặp phải chấn thương nào, bạn có thể đang mắc phải những vấn đề sau đây: Viêm mào tinh hoàn : Gây ra bởi nhiễm trùng lây qua đường tình dục, bao gồm triệu chứng đau, sưng và đỏ bìu. Hydrocele: Hiện tượng chất lỏng tích tụ bên trong bìu gây sưng và đau. Viêm tinh hoàn : Do nhiễm trùng hoặc do virus. Varicocele: Một hoặc một vài tĩnh mạch trong bìu căng thẳng và giãn nở lớn, còn gọi là giãn tĩnh mạch thừng tinh . Ung thư tinh hoàn : Mặc dù ung thư tinh hoàn không gây đau đớn, nhưng có thể có triệu chứng to tinh hoàn, tinh hoàn căng cứng. Hãy lưu ý khi thấy dấu hiệu này. Như vậy, tình trạng vỡ tinh hoàn có thể đem lại nhiều nguy hiểm đối với sức khỏe sinh sản của nam giới. Việc điều trị phụ thuộc vào tình trạng chấn thương của bệnh nhân. Do đó, bạn cần có phương pháp bảo vệ và ngăn ngừa, hạn chế tối đa các chấn thương xảy đến tại vùng nhạy cảm này.",
+            "score": 0.6734342575073242,
+            "id": "vietnamese_healthcare_87549"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nCháu bị đau tinh hoàn trái, tinh hoàn trái sưng to, chạm vào rất đau, đôi khi đau cả hai bên, đi tiểu khó. Bác sĩ cho cháu hỏi tình trạng đau tinh hoàn trái là dấu hiệu bệnh gì vậy ạ? Mong bác sĩ tư vấn giúp cháu. Cháu xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin được trả lời như sau:\nTình trạng đau tinh hoàn trái, tinh hoàn sưng to, chạm vào thì đau như bạn mô tả khiến bác sĩ nghĩ nhiều đến bệnh lý viêm tinh hoàn - viêm mào tinh hoàn. Tuy nhiên để chẩn đoán xác định, bạn cần tới bệnh viện để khám và điều trị, tránh biến chứng đáng tiếc có thể xảy ra. Chúc bạn sớm khỏe!",
+            "score": 0.6509435772895813,
+            "id": "vietnamese_medical_qa_2550"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Xin chào bác sĩ, xin bác sĩ cho tôi hỏi, thỉnh thoảng tôi đi cầu ra máu tươi thành tia (hơn một năm nay tôi đã bị 2 lần). Vậy tôi bị bệnh gì, điều trị ở đâu thì tốt nhất. Xin cám ơn!",
+    "ground_truth": "Chào anh.\nA đi cầu chảy máu tươi thành tia thì là chảy máu do 1 tổn thương ở vùng hậu môn - trực tràng, có thể là bị bệnh trĩ, hay nứt kẽ hậu môn. A nên đi khám bệnh để xác định chính xác nguyên nhân trước khi điều trị. Bất cứ bệnh viện nào a cũng có thể đến để được kham bệnh, sau đó tùy từng nguyên nhân bệnh lý mà có điều trị cụ thể khác nhau. Chúc anh luôn khỏe mạnh",
+    "answer": "Chào bạn, đi cầu ra máu tươi thành tia thường gặp nhất là do trĩ nội chảy máu, nhưng cũng có thể do nứt hậu môn, polyp, viêm loét hoặc bệnh lý đại–trực tràng khác nên chưa thể chẩn đoán chỉ qua triệu chứng. Vì tình trạng đã tái diễn, bạn nên đến cơ sở y tế uy tín có chuyên khoa Tiêu hóa hoặc Ngoại tiêu hóa–Hậu môn trực tràng để thăm khám; bác sĩ có thể chỉ định soi hậu môn/trực tràng và nội soi đại tràng khi cần, sau đó mới lựa chọn điều trị phù hợp. Nếu máu chảy nhiều hoặc không ngừng, kèm choáng, mệt, đau bụng hay phân đen, cần đi cấp cứu ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Dạo gần đây khi đi đại tiên, em bị ra máu tươi cùng phân. Trong khi đó sức khoẻ của em hiện tại bình thường, không đau bụng, không bị táo bón hay đi ngoài. Vậy bác sĩ cho em hỏiđại tiện ra máu tươi là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khi đi khám bác sĩ sẽ chỉ định thực hiện các kỹ thuật nào để chẩn đoán chính xác. Đi cầu ra máu tươi thường hay gặp do trĩ nội xuất huyết, trĩ ở mức độ nhẹ hay nặng thì cũng có thể gây ra tình trạng chảy máu tươi khi đi cầu. Bạn có thể theo dõi trong vài ngày, thường triệu chứng sẽ tự hết, nếu không tự hết thì nên đặt lịch khám, xét nghiệm để chẩn đoán chính xác là nội soi đại tràng.",
+            "score": 0.8236038684844971,
+            "id": "medical_vietnamese_qa_10504"
+        },
+        {
+            "text": "Câu hỏi: Dạo gần đây khi đi đại tiên, em bị ra máu tươi cùng phân. Trong khi đó sức khoẻ của em hiện tại bình thường, không đau bụng, không bị táo bón hay đi ngoài. Vậy bác sĩ cho em hỏiđại tiện ra máu tươi là dấu hiệu của bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Khi đi khám bác sĩ sẽ chỉ định thực hiện các kỹ thuật nào để chẩn đoán chính xác. Đi cầu ra máu tươi thường hay gặp do trĩ nội xuất huyết, trĩ ở mức độ nhẹ hay nặng thì cũng có thể gây ra tình trạng chảy máu tươi khi đi cầu. Bạn có thể theo dõi trong vài ngày, thường triệu chứng sẽ tự hết, nếu không tự hết thì nên đặt lịch khám, xét nghiệm để chẩn đoán chính xác là nội soi đại tràng.",
+            "score": 0.8236038684844971,
+            "id": "medical_vietnamese_qa_10489"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nTôi bị đi ngoài ra máu tươi, nó chảy k ngớt là triệu chứng gì ạ\nTrả lời: Đi cầu ra máu có rất nhiều nguyên nhân:\n-trĩ\n-bệnh lý hậu môn trực tràng: polyp, nứt hậu môn, viêm loét, ung thư\nBạn nên đi khám chuyên khoa khoa ngọai tiêu hoá để khám hậu môn trực tràng,  siêu âm,  có thể làm thêm các xét nghiệm khác tuỳ từng trường hợp.",
+            "score": 0.7552981376647949,
+            "id": "vietnamese_medical_qa_7555"
+        },
+        {
+            "text": "Câu hỏi: Gần 1 tuần nay tôi đi ngoài ra máu tươi rất nhiều, trong phân không lẫn máu. Đi ngoài xong nhìn vào bồn cầu rất nhiều máu. Tôi không đau hay gặp khó khăn gì khi đi ngoài, không sụt cân hay khó khăn trong việc ăn uống. Bác sĩ cho tôi hỏi,đi ngoài ra máu tươi là dấu hiệu của bệnh gì?Cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Đại tiện ra máu tươicó nhiều nguyên nhân, hay gặp nhất là bệnh trĩ, sau đó là Polyp trực tràng và đại tràng, viêm, nứt kẽ hậu môn, viêm loét đại trực tràng chảy máu... Bạn nên đến cơ sở y tế uy tín để thăm khám, có thể làm các xét nghiệm cần thiết để tìm nguyên nhân. Từ đó, các bác sĩ sẽ tư vấn chi tiết và có phương pháp điều trị thích hợp cho bạn.",
+            "score": 0.7469432353973389,
+            "id": "medical_vietnamese_qa_10909"
+        },
+        {
+            "text": "Câu hỏi: Em bị đi cầu ra máu kèm đau rát, khoảng hơn 10 năm trước có máu tươi kèm phân. Nay đi thì chảy thành giọt, nhất là những lúc tiêu chảy (tuy nhiên không phải lúc nào cũng chảy máu), có lúc thì phân nhỏ màu lúc vàng, lúc đen. Em không bị đau bụng hay gì khác. Em cũng thường xuyên rượu bia tiếp khách. Vậy bác sĩ cho em hỏiđi đại tiện kèm chảy máu có phải mắc bệnh trĩ không?Em cảm ơn bác sĩ. Nguyễn Thành(1983) Trả lời Được giải đáp bởiBác sĩ khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Với triệu chứng đại tiện máu tươi trước phân hoặc nhỏ giọt thường do trĩ chảy máu. Tuy nhiên, bạn không nói rõ năm nay bạn bao nhiêu tuổi, và tiền sử gia đình có ai bị ung thư đường tiêu hóa không,...nên bác sĩ chưa thể tư vấn chính xác cho bạn được. Với triệu chứng phân nhỏ, dẹt, lúc vàng, lúc đen bạn nên khám chuyên khoa Tiêu hóa và nội soi đại tràng để có chẩn đoán xác định và điều trị phù hợp.  Các nội dung tư vấn khác Mang thai 8 tuần bị trĩ có nguy hiểm không? Bệnh trĩ nội độ 2 có thể chữa khỏi được không? Đi ngoài ra máu, hậu môn lòi búi thịt là bệnh gì? Các bài viết cùng chủ đề Bệnh trĩ từ A đến Z: Nguyên nhân, dấu hiệu và cách điều trị hiệu quả Làm rõ triệu chứng bệnh trĩ: Nhận biết sớm, điều trị hiệu quả Bệnh trĩ và các biến chứng không lường vì ... chủ quan",
+            "score": 0.7393643260002136,
+            "id": "medical_vietnamese_qa_11585"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

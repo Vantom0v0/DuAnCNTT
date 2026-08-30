@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Kết quả xét nghiệm HBV-DNA: 2.93E+IU/ml có ý nghĩa gì?",
+    "ground_truth": "Xét nghiệm HBV-DNA dùng để phát hiện và định lượng DNA của virus viêm gan B trong máu. Đây là một xét nghiệm rất hữu ích để chẩn đoán một số trường hợp nhiễm virus viêm gan B cấp ở giai đoạn sớm, phân biệt nhiễm HBV thể hoạt động và không hoạt động, là một tiêu chí trong điều trị cũng như theo dõi hiệu quả điều trị. Trường hợp của bạn, kết quả HBV-DNA ở mức 2.93 x 10 mũ 7 IU/ml, là mức cao. Bạn cần làm các xét nghiệm khác để chẩn đoán giai đoạn bệnh và xem xét điều trị.",
+    "answer": "HBV-DNA là nồng độ virus viêm gan B trong 1 mL máu, phản ánh mức độ virus đang nhân lên. Tuy nhiên, kết quả “2.93E+ IU/mL” chưa ghi rõ số mũ sau chữ “E+”, nên chưa thể xác định chính xác tải lượng virus để so sánh với ngưỡng tăng sinh (≥20.000 IU/mL nếu HBeAg dương tính hoặc >2.000 IU/mL nếu HBeAg âm tính). Một xét nghiệm đơn lẻ cũng chưa đủ để đánh giá tình trạng viêm gan B; cần kết hợp HBeAg, lâm sàng, chức năng gan và các xét nghiệm khác.",
+    "evidence": [
+        "Câu hỏi: Kết quả định lượng HBV-DNA có nghĩa là gì?",
+        "Trả lời: Đây là nồng độ virus viêm gan B có trong 01ml máu.",
+        "Tuy nhiên, 102 có theo tôi hiểu là 10 mũ 2 và chỉ với một xét nghiệm này không đủ để đánh giá vấn đề viêm gan virus B bạn nhé",
+        "Có 2 đơn vị đo thể hiện nồng độ virus trong máu bệnh nhân: Thứ nhất là đơn vị tính theo IU/ml, thứ hai là đơn vị tính theo số bản copy/ml .",
+        "Nồng độ virus trong máu đánh giá mức độ nhân lên của virus trong máu.",
+        "Theo đơn vị IU/mL: Virus đang tăng sinh khi tải lượng ≥ 20.000IU/mL (với trường hợp HBeAg dương tính) hoặc > 2000 IU/mL (với trường hợp HBeAg âm tính).",
+        "Xét nghiệm đo tải lượng virus viêm gan B trong máu dùng để tiên lượng và cân nhắc điều trị khi kết hợp với lâm sàng, chức năng gan và 1 số xét nghiệm khác (với những người chưa bắt đầu điều trị) hoặc để theo dõi đáp ứng với thuốc điều trị (với những người đang điều trị).",
+        "Kết quả đo số lượng, nồng độ virus của bạn không ở mức cao, nhưng cần đánh giá tổng thể cả quá trình từ trước đến nay thì mới có kết luận chính xác tình trạng thực tế của bạn."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Kết quả định lượng HBV-DNA có nghĩa là gì?\nTrả lời: Đây là nồng độ virus viêm gan B có trong 01ml máu. Tuy nhiên, 102 có theo tôi hiểu là 10 mũ 2 và chỉ với một xét nghiệm này không đủ để đánh giá vấn đề viêm gan virus B bạn nhé",
+                "score": 0.45503759384155273,
+                "id": "vietnamese_healthcare_2678",
+                "rerank_score": 0.8069215416908264
+            },
+            {
+                "text": "Câu hỏi: Cháu mới đi khám xét nghiệm beta 1262 mIU/mL 0-10, nội mạc tử cung dày, chưa thấy túi thai. Vậy bác sĩ cho cháu hỏichẩn đoán tuần thai như thế nào?Không biết thai được mấy tuần rồi thưa bác sĩ? Cháu cảm ơn bác sĩ. Lê Thị Na(2002) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Đinh Thanh Hà -Bác sĩ Sản phụ khoa - Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.\nTrả lời: bác sĩ xin giải đáp như sau: Vớikết quả beta HCG1262 mIU/ml có nghĩa rằng bạn đang có thai.Chẩn đoán số tuần thaikhông dựa vào chỉ số xét nghiệm beta HCG, mà dựa vào thời gian trễ kinh, kích thước túi thai, chiều dài phôi thai,...Bạn có thể kết hợp vớisiêu âm đầu dò âmđạo để biết được thai mình đã vào buồng tử cung hay chưa và bao nhiêu tuần.",
+                "score": 0.455687552690506,
+                "id": "medical_vietnamese_qa_3038",
+                "rerank_score": 0.008665251545608044
+            },
+            {
+                "text": "Câu hỏi: Kết quả xét nghiệm Double test trả lời như thế nào?\nTrả lời: 6. Kết quả xét nghiệm Double test trả lời như thế nào?\nKết quả xét nghiệm Double test kết luận thai nhi có nguy cơ với hội chứng dị tật bẩm sinh ở mức cao hay thấp.",
+                "score": 0.4554794728755951,
+                "id": "vietnamese_healthcare_72013",
+                "rerank_score": 0.0013225204311311245
+            },
+            {
+                "text": "Câu hỏi: Ý nghĩa chỉ số HCO3 trong kết quả khí máu\nTrả lời: 2. Ý nghĩa chỉ số HCO3 trong kết quả khí máu\nKết quả khí máu động mạch hầu hết đều tính giá trị HCO3- và kiềm dư nhằm tìm ra các nguyên nhân chuyển hóa trong rối loạn toan kiềm , hoặc cơ chế bù trừ của rối loạn kiềm toan chuyển hóa. HCO3- và kiềm dư đặc biệt có ích khi nguyên nhân rối loạn toan kiềm kết hợp cả chuyển hóa và hô hấp. Kết quả xét nghiệm cho giá trị của HCO3- và kiềm dư bình thường có thể loại trừ được rối loạn toan kiềm do nguyên nhân chuyển hóa. Để đánh giá toan kiềm cần thực hiện xem xét các chỉ số: pH: Toan máu khi pH<7,35, kiềm máu pH>7,45. Trong giới hạn 7,35-7,45 có thể là bình thường hoặc rối loạn toan-kiềm hỗn hợp. PaCO2 và HCO3-: Nhằm xác định rối loạn toan-kiềm máu là do nguyên nhân chuyển hóa hay hô hấp. Đánh giá toan kiềm cần dựa vào các chỉ số tiêu chuẩn Nếu nguyên nhân chuyển hóa là tiên phát thì cần đánh giá hô hấp có bù trừ không. Trong trường hợp kết quả cho ra toan chuyển hóa cần tính anion gap (AG) để tìm ra nguyên nhân. Anion dư không đo được, là nguyên nhân cho các tình trạng toan như nhiễm acid lactic, toan do nhiễm ceton acid, suy thận , ngộ độc. Toan chuyển hóa với anion gap bình thường có liên quan đến tăng Cl- máu, gây ra bởi truyền dịch quá mức cũng như là mất HCO3- qua đường tiêu hóa do tiêu chảy hoặc mất HCO3- qua thận. Tóm lại, giá trị HCO3- trong kết quả xét nghiệm khí máu động mạch nhằm tìm ra các nguyên nhân chuyển hóa trong rối loạn toan kiềm, hoặc cơ chế bù trừ của rối loạn kiềm toan chuyển hóa.",
+                "score": 0.46039366722106934,
+                "id": "vietnamese_healthcare_54239",
+                "rerank_score": 0.000575452228076756
+            },
+            {
+                "text": "Câu hỏi: Các bước tiếp theo\nTrả lời: 7. Các bước tiếp theo\nTrước khi bạn đồng ý tiến hành làm thủ thuật, bạn cần chắc chắn biết rằng: Tên của loại xét nghiệm hoặc thủ thuật được thực hiện cho bạn là gì? Lý do bạn phải thực hiện thủ thuật hoặc xét nghiệm này Kết quả kỳ vọng là gì và chúng có ý nghĩa gì Nguy cơ và lợi ích của xét nghiệm hoặc thủ thuật Những tác dụng phụ hoặc biến chứng có thể có là gì Ai sẽ là người thực hiện xét nghiệm hoặc thủ thuật và trình độ năng lực của họ là như thế nào Điều gì sẽ xảy ra nếu bạn không thực hiện xét nghiệm hoặc thủ thuật Có phương pháp xét nghiệm hoặc thủ thuật nào khác thay thế không Khi nào và bằng cách nào bạn sẽ có được kết quả xét nghiệm Ai là người bạn sẽ gọi sau khi thủ thuật thực hiện xong nếu bạn có bất kỳ câu hỏi hoặc vấn đề Bạn sẽ phải trả bao nhiêu tiền cho xét nghiệm hoặc thủ thuật",
+                "score": 0.45837122201919556,
+                "id": "vietnamese_healthcare_84670",
+                "rerank_score": 0.00040087581146508455
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Kết quả xét nghiệm Double test trả lời như thế nào?\nTrả lời: 6. Kết quả xét nghiệm Double test trả lời như thế nào?\nKết quả xét nghiệm Double test kết luận thai nhi có nguy cơ với hội chứng dị tật bẩm sinh ở mức cao hay thấp.",
+                "score": 0.48553916811943054,
+                "id": "vietnamese_healthcare_72013",
+                "rerank_score": 0.0013225204311311245
+            },
+            {
+                "text": "Câu hỏi: Các bước tiếp theo\nTrả lời: 7. Các bước tiếp theo\nTrước khi bạn đồng ý tiến hành làm thủ thuật, bạn cần chắc chắn biết rằng: Tên của loại xét nghiệm hoặc thủ thuật được thực hiện cho bạn là gì? Lý do bạn phải thực hiện thủ thuật hoặc xét nghiệm này Kết quả kỳ vọng là gì và chúng có ý nghĩa gì Nguy cơ và lợi ích của xét nghiệm hoặc thủ thuật Những tác dụng phụ hoặc biến chứng có thể có là gì Ai sẽ là người thực hiện xét nghiệm hoặc thủ thuật và trình độ năng lực của họ là như thế nào Điều gì sẽ xảy ra nếu bạn không thực hiện xét nghiệm hoặc thủ thuật Có phương pháp xét nghiệm hoặc thủ thuật nào khác thay thế không Khi nào và bằng cách nào bạn sẽ có được kết quả xét nghiệm Ai là người bạn sẽ gọi sau khi thủ thuật thực hiện xong nếu bạn có bất kỳ câu hỏi hoặc vấn đề Bạn sẽ phải trả bao nhiêu tiền cho xét nghiệm hoặc thủ thuật",
+                "score": 0.5009732246398926,
+                "id": "vietnamese_healthcare_84670",
+                "rerank_score": 0.00040087581146508455
+            },
+            {
+                "text": "Câu hỏi: Mổ nội soi tạo hậu môn nhân tạo được thực hiện như thế nào?2\nTrả lời: 2. Mổ nội soi tạo hậu môn nhân tạo được thực hiện như thế nào?2.1. Chuẩn bị trước phẫu thuật\n2.1. Chuẩn bị trước phẫu thuật",
+                "score": 0.5028098821640015,
+                "id": "vietnamese_healthcare_24805",
+                "rerank_score": 5.072408021078445e-05
+            },
+            {
+                "text": "Câu hỏi: Dùng nha đam trị mụn trứng cá như thế nào?\nTrả lời: 2. Dùng nha đam trị mụn trứng cá như thế nào?\n2.2. Cách làm mặt nạ nha đam trị mụn hiệu quả 2.",
+                "score": 0.49608850479125977,
+                "id": "vietnamese_healthcare_103189",
+                "rerank_score": 4.7749355871928856e-05
+            },
+            {
+                "text": "Câu hỏi: Vợ em bị ứ dịch tử cung. Nếu em làm IVF thì tỷ lệ thành công là khoảng bao nhiêu?\nTrả lời: Để đưa ra một con số cụ thể về tỷ lệ thành công của một cặp vợ chồng, các bác sĩ cần đánh giá toàn diện chức năng sinh sản của hai vợ chồng, bao gồm lứa tuổi, đặc điểm nền, các chỉ số nội tiết sinh dục, dự trữ buồng trứng của người vợ cũng như tính chất tinh trùng của người chồng.",
+                "score": 0.4819449782371521,
+                "id": "vietnamese_healthcare_73",
+                "rerank_score": 3.84349150408525e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Kết quảxét nghiệm HBVcủa cháu là 1,85 x 10^ 3 IU/mL (3,27 log10). Bác sĩ cho cháu hỏikết quả xét nghiệm HBV 1,85 x 10^ 3 IU/mL đang ở mức nào?Cháu cần phải tiêm vắc-xin gì và hướng điều trị như thế nào thưa bác sĩ? Cháu cảm ơn. Trương Văn Hào(1997) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Xét nghiệm của bạn HBV - DNA là 1,85 x 10^ 3 IU/mL ( 3,27 log10) có nghĩa là bạn đang bịnhiễm virus viêm gan B. Vì vậy, bạn không có chỉ định tiêm vắc-xin viêm gan B. Việc bạn có phảiđiều trị viêm gan Bkhông thì bác sĩ không thể trả lời bạn được vì thông tin bạn đưa ra quá ít (không biết chức năng gan của bạn thế nào, siêu âm gan mật của bạn ra sao, bạn có xơ gan hay chưa có xơ gan,.....)  Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Thị Nhật -Bác sĩ Chuyên khoa truyền nhiễm - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+                "score": 0.5363500118255615,
+                "id": "medical_vietnamese_qa_9905",
+                "rerank_score": 0.8349691033363342
+            },
+            {
+                "text": "Câu hỏi: Kết quả định lượng HBV-DNA có nghĩa là gì?\nTrả lời: Đây là nồng độ virus viêm gan B có trong 01ml máu. Tuy nhiên, 102 có theo tôi hiểu là 10 mũ 2 và chỉ với một xét nghiệm này không đủ để đánh giá vấn đề viêm gan virus B bạn nhé",
+                "score": 0.5623891949653625,
+                "id": "vietnamese_healthcare_2678",
+                "rerank_score": 0.8069215416908264
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ,\nEm xét nghiệm HBV - DNA và có kết quả: 4,5x10/3 copies/ml. Bác sĩ tư vấn kết quả xét nghiệm HBV - DNA. Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nXét nghiệm HBV - DNA và có kết quả: 4,5x10/3 copies/ml của bạn có nghĩa là bạn đang bị nhiễm virus Viêm gan B. Đây là xét nghiệm đo tải lượng virus, được tính bằng số copies/ ml huyết thanh. Bạn nên đi khám và làm thêm các xét nghiệm để thăm dò chức năng gan khác như siêu âm gan, xét nghiệm men gan, các marker viêm gan khác như HBeAg, HBc IgM, HBc IgG để biết chính xác tình trạng nhiễm virus hiện tại, để bác sĩ tư vấn theo dõi sức khỏe định kỳ và tư vấn điều trị.\nTrân trọng!",
+                "score": 0.5412640571594238,
+                "id": "vietnamese_medical_qa_669",
+                "rerank_score": 0.556541383266449
+            },
+            {
+                "text": "Câu hỏi: ! Em đixét nghiệm viêm gan B có kết quả: Số lượng virus ( IU/ml) huyết tương 6,25x10 và copy/ml 3,64x10 có nghĩa là gì?Rất mong bác sĩ tư vấn, cảm ơn bác sĩ! Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Xét nghiệm viêm gan B có kết quả: Số lượng virus ( IU/ml) huyết tương 6,25x10 và copy/ml 3,64x10 có nghĩa là gì?” như sau: Đây là kết quả đếm tải lượng (số lượng) virus trong máu của bạn. Có 2 đơn vị đo thể hiện nồng độ virus trong máu bệnh nhân: Thứ nhất là đơn vị tính theo IU/ml, thứ hai là đơn vị tính theo số bản copy/ml . (1IU tương đương 5-6 copy). Nồng độ virus trong máu đánh giá mức độ nhân lên của virus trong máu. Theo đơn vị IU/mL: Virus đang tăng sinh khi tải lượng ≥ 20.000IU/mL (với trường hợp HBeAg dương tính) hoặc > 2000 IU/mL (với trường hợp HBeAg âm tính). Trường hợp của bạn: 6,25x101 (62,5) đang ở mức khá thấp. Theo đơn vị copy/mL: Virus đang tăng sinh khi tải lượng ≥ 105 (với trường hợp HBeAg dương tính) hoặc ≥ 104 (với trường hợp HBeAg âm tính). Trường hợp của bạn là 3,64 x102 (tương tự là khá thấp). Xét nghiệm đo tải lượng virus viêm gan B trong máu dùng để tiên lượng và cân nhắc điều trị khi kết hợp với lâm sàng, chức năng gan và 1 số xét nghiệm khác (với những người chưa bắt đầu điều trị) hoặc để theo dõi đáp ứng với thuốc điều trị (với những người đang điều trị). Kết quả đo số lượng, nồng độ virus của bạn không ở mức cao, nhưng cần đánh giá tổng thể cả quá trình từ trước đến nay thì mới có kết luận chính xác tình trạng thực tế của bạn.  Được giải đáp bởiThạc sĩ, Bác sĩ Trần Thị Vượng -Bác sĩ Vi sinh - Khoa Xét nghiệm, Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng.",
+                "score": 0.5465236902236938,
+                "id": "medical_vietnamese_qa_11345",
+                "rerank_score": 0.358080118894577
+            },
+            {
+                "text": "Câu hỏi: !Kết quảđịnh lượng HBV-DNA45 IU/ml (1.66 Log10) nghĩa là gìạ? Xin vui lòng giải đáp giúp, cảm ơn bác sĩ! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Kết quảđịnh lượng HBV-DNA45 IU/ml (1.66 Log10) là chỉ số đánh giá lượng bản saovirus viêm gan Blưu hành trong máu. Chỉ số này tương đương 261 bản sao virus trong 1 ml huyết tương. Trong trường hợp này, bạn có thể đến cơ sở y tế hoặc các bệnh viện thuộcHệ thống Y tế Vinmecđể bác sĩ chuyên khoa thăm khám và tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng và gửi thắc mắc: “Kết quả định lượng HBV-DNA 45 IU/ml (1.66 Log10) nghĩa là gì?” tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiTiến sĩ, Bác sĩ Trần Thị Phương Thúy- Khoa Nội tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+                "score": 0.5347241759300232,
+                "id": "medical_vietnamese_qa_11368",
+                "rerank_score": 0.2308647632598877
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

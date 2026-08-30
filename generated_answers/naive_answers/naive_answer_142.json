@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": ". Emmang thai 26 tuần. Em mới thử đường hôm qua, bác sĩ chẩn đoán em bị đái tháo đường thai kỳ. Em đã khóc rất nhiều. Trong 3 thông số, thông số đường huyết lúc đói của em là 5.19mmol/dL, còn 2 thông số còn lại thì bình thường. Em đã đọc bài viết của bác sĩ, theo trường hợp của em thì là bị rối loạn dung nạp đường huyết thai kỳ hay là đái tháo đường thai kỳ ạ? Nếu em tuân thủ theo hướng dẫn của bác sĩ thì có hết hẳn sau mấy tuần thai tiếp theo không ạ? Em không bị tiền sử tiểu đường, không bị di truyền. Bé đầu sinh thường rất khỏe mạnh, xin bác sĩ tư vấn giùm em để em bớt lo lắng ạ. Cảm ơn bác sĩ. Nguyễn Thị Út Thưa bác sĩtiểu đường thai kỳcó chữa hết hay không ạ? Cảm ơn bác sĩ. Câu hỏi ẩn danh Trả lời",
+    "ground_truth": "Chào bạn, Tùy vào mức độ cao của đường máu của bạn mới có hướng điều trị cụ thể. Mứctrị số đường huyếtcủa bạn có thể được điều chỉnh bằng chế độ ăn giảm tinh bột theo hướng dẫn của Bác sĩ Nội tiết tiểu đường và theo dõi đường máu mao mạch hàng ngày. Mục tiêu điều trị cho thai phụ bị tiểu đường thai kỳ là giữ mức đường huyết là: Lúc đói: 5 – 5.5 mmol/l, 1 giờ sau ăn < 7.8 mmol/l Nếu bạn theo dõi đường máu mao mạch hàng ngày và mức đường huyết mao mạch của bạn sau ăn 1 giờ < 7.8 mmol/l thì được coi là điều chỉnh chế độ ăn có hiệu quả. Ngoài việc khám thai định kỳ theo lịch hẹn của bác sĩ Sản thì bạn cần được khám và tư vấn Bác sĩ chuyên khoa Nội tiểu đường để có điều chỉnh chế độ điều trị thích hợp. Bạn có thể đến tại các bệnh viện thuộc Hệ thống Y tế Vinmec trên toàn quốc để được các bác sĩ giàu chuyên môn thăm khám và hướng dẫn. Cảm ơn bạn đã đặt câu hỏi tới websiteVinmec.com. Trân trọng. ThS. BS Lý Thị Thanh Nhã -Bác sĩ Nội trú Sản phụ khoa - Khoa Sản Phụ Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+    "answer": "Theo tài liệu cung cấp, đường huyết lúc đói 5,19 mmol/L cao hơn mục tiêu cần đạt trong thai kỳ là <5,1 mmol/L, dù hai chỉ số sau uống glucose bình thường; tuy nhiên tài liệu không đủ thông tin để khẳng định trường hợp của bạn là “rối loạn dung nạp đường huyết” hay đái tháo đường thai kỳ theo tiêu chuẩn chẩn đoán đầy đủ. Bạn nên trao đổi lại với bác sĩ Nội tiết để được xác định và hướng dẫn theo dõi. Trong đa số trường hợp, chế độ ăn có thể giúp đường huyết đạt mục tiêu mà không cần thuốc; nếu sau khoảng 2 tuần điều chỉnh ăn uống vẫn không đạt, bác sĩ có thể cân nhắc điều trị insulin. Không thể khẳng định bệnh sẽ hết sau vài tuần thai tiếp theo; nếu không dùng thuốc trong thai kỳ, nên kiểm tra lại đường huyết sau sinh khoảng 4–6 tuần và tiếp tục tầm soát mỗi năm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em đã xét nghiệm tiểu đường thai kỳ ở tuần thai thứ 26 và chỉ số là 4.1 khi đói, 7.4, khi nạp glucose 1 tiếng và 7.2 khi nạp glucose 2 tháng. Đến tuần thứ 30 em đi khám lại và bác sĩ kiểm tra nước tiểu thì thấy chỉ số là 2.8. Bác sĩ cho em hỏi em có bị tiểu đường thai kỳ không ạ? Chỉ số 2.8 đó có nguy hiểm không ạ? Em có cần ăn kiêng gì không ạ? Mong bác sĩ tư vấn giúp em, em xin cảm ơn.\nTrả lời: Chào em, em đã làm nghiệm pháp dung nạp glucose và kết quả là không bị đái tháo đường thai kỳ. Khi em có đường trong nước tiểu, em nên đến gặp bác sĩ chuyên khoa Nội tiết để làm rõ thêm, có thể em đã làm xét nghiệm nước tiểu sau ăn nên có đường trong nước tiểu hoặc cần làm thêm đường máu sau ăn 1 giờ và 2 giờ để làm rõ tình trạng này.",
+            "score": 0.7617188096046448,
+            "id": "vietnamese_medical_qa_4115"
+        },
+        {
+            "text": "Câu hỏi: Hiện tại, em đang mang thai tuần thứ 29. Ở tuần thứ 27 em có đi làm xét nghiệm tiểu đường thai kỳ thì kết quả như sau: Lúc đói: 4.15 mmol/L Sau uống glucose 1h: 10.19 mmol/l Sau uống glucose 2h: 8.53 mmol/l Về nhà em điều chỉnh chế độ ăn cắt đường và ít tinh bột. Em có mua máy thử tiểu đường tại nhà sáng nay với các chỉ số như sau: Lúc đói: 5.5 mmol/l Sau ăn 1h: 8.8 mmol/l Sau ăn 2h: 6.6 mmol/l Bác sĩ cho em hỏikết quả xét nghiệm tiểu đường thai kỳ thế nào là an toàn?Kết quả xét nghiệm của em như thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Thông tin bạn cung cấp bạn bị đái tháo đường thai kỳ. Sẽ điều chỉnh chế độ ăn trong 2 tuần nếu không đạt đường máu mục tiêu thì chuyển sang điều trị tiêm insulin kiểm soát đường máu. Mục tiêu đường máu cần đạt là đường máu đói < 5,1 mmol/l và đường máu sau ăn 2h là < 6,7mmol/l. Hiện tại đường máu chưa đạt mục tiêu. Bạn cần khám bác sĩ nội tiết tư vấn hướng điều trị tiếp.",
+            "score": 0.7516123056411743,
+            "id": "medical_vietnamese_qa_1295"
+        },
+        {
+            "text": "Câu hỏi: Em bị đái tháo đường khi mang thai, đường huyết sau sinh của em lúc đói là 6,2. Vậy bác sĩ cho em hỏiđường huyết lúc đói sau sinh là 6,2 có phải tiểu đường không?Có phải sau sinh 1-3 tháng, đường huyết mới trở lại bình thường không? Em cảm ơn bác sĩ. Lê Thị Kim Anh(1993) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Nguyễn Xuân Thắng -Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Đái tháo đường thai kỳcó tiêu chuẩn chẩn đoán và hướng điều trị rất rõ. Trong đa số các trường hợp thì tiết chế có thể giúp đường huyết đạt mục tiêu mà không cần dùngthuốc hạ đường huyếttrong thai kỳ. Sau sinh khoảng 4-6 tuần, bạn nên kiểm tra lại đường huyết nếu như bạn không cần phải điều trị thuốc gì trong thai kỳ. Bạn cũng phải chú ý kiểm tra đường huyết trong những lần sinh sau và tầm soát đái tháo đường mỗi năm. Trị số bạn đưa ra cũng là hơi cao so với bình thường. Tốt nhất, bạn nên đến gặp bác sĩ Nội tiết để được xét nghiệm kỹ hơn và xác định nguy cơ đái tháo đường thật sự của mình.",
+            "score": 0.7434569001197815,
+            "id": "medical_vietnamese_qa_9344"
+        },
+        {
+            "text": "Câu hỏi: Chào Bác Sĩ,\nE đang mang thai tuần 30, ở tuần 24 e có Test đường với kết quả như hình đính kèm, sau đó e tự Test ở nhà vào sáng sớm lúc đói thì đường huyết là 92. Như vậy thì e có bị tiểu đường thai kỳ không ạ?\nNgoài ra kết quả siêu âm như đính kèm thì thai có to quá không ạ? Nhờ Bs tư vấn giúp e\nTrả lời: Chào bạn, cám ơn bạn đã gửi câu hỏi\n   Đường huyết lúc đói của bạn là 4.46 mmol/l trong giới hạn bình thường. Đường huyết sau 2 giờ không rõ bạn có ăn hay uống gì không nên tăng một chút. Như vậy chưa kết luận đái tháo đường thai kỳ.\nChúc bạn nhiều sức khoẻ - Thân chào bạn",
+            "score": 0.7377118468284607,
+            "id": "vietnamese_medical_qa_5935"
+        },
+        {
+            "text": "Câu hỏi: Chỉ số xét nghiệm nước tiểu tuần 30 là 2.8 liệu có đáng lo?\nTrả lời: em đã làm nghiệm pháp dung nạp glucose và kết quả là không bị đái tháo đường thai kỳ. Khi em có đường trong nước tiểu, em nên đến gặp bác sĩ chuyên khoa Nội tiết để làm rõ thêm, có thể em đã làm xét nghiệm nước tiểu sau ăn nên có đường trong nước tiểu hoặc cần làm thêm đường máu sau ăn 1 giờ và 2 giờ để làm rõ tình trạng này.",
+            "score": 0.7376784086227417,
+            "id": "vietnamese_healthcare_8937"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

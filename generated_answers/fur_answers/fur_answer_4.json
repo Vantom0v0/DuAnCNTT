@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Tôi bị tiểu đường tuýp 2, buổi sáng chưa ăn 8.0 và viêm Gan B, men gan hơi cao vậy có tiêm vaccine Covid-19 được không?",
+    "ground_truth": "Với tình trạng bệnh lý tiểu đường tuýp 2 và viêm gan B, anh/chị thì vẫn tiêm vaccine Covid-19 được.",
+    "answer": "Theo thông tin được cung cấp:\n\n- **Tiểu đường tuýp 2** không phải là chống chỉ định tiêm vaccine Covid-19 nếu bệnh đang **được kiểm soát ổn định**.\n- **Viêm gan B**: nếu bệnh đang ổn định, không có biểu hiện bất thường khác và được bác sĩ chuyên khoa đánh giá, có thể được tiêm. Tuy nhiên, bằng chứng nêu rằng nếu đang điều trị viêm gan B chưa ổn định thì nên **hoãn tiêm đến khi điều trị ổn định**.\n- **Men gan hơi cao**: thông tin hiện có chưa đủ để xác định bạn có nên tiêm ngay hay cần hoãn, vì còn cần biết tình trạng viêm gan B đang ổn định hay tiến triển và đánh giá của bác sĩ chuyên khoa.\n- Mức đường huyết buổi sáng **8,0** cũng chưa đủ để kết luận bệnh đã kiểm soát ổn định do chưa rõ đơn vị và các chỉ số liên quan.\n\nBạn nên khai báo đầy đủ bệnh tiểu đường, viêm gan B, men gan cao và thuốc đang dùng khi khám sàng lọc. Nếu viêm gan B hoặc men gan chưa ổn định, nên hoãn tiêm và xin ý kiến bác sĩ chuyên khoa; nếu bệnh ổn định, bác sĩ sẽ đánh giá chỉ định tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị tiểu đường, viêm gan B, cao huyết áp, hiện tại đang dùng thuốc tiêm sáng và chiều, uống thuốc huyết áp mỗi ngày. Trường hợp của tôi có được tiêm vaccine Covid-19 không ạ?\nTrả lời: Các bệnh lý mãn tính như đái tháo đường, viêm gan B mạn tính, tăng huyết áp. . . nếu được kiểm soát tốt trong vòng 3 tháng trước tiêm ngừa, các chỉ số duy trì ổn định hợp lý theo tiên lượng của bác sĩ chuyên khoa thì hoàn toàn có thể tiêm vaccine Covid-19. Bác nên khai báo với bác sĩ tiền sử bệnh lý, các dị ứng, mẫn cảm nếu có để được chỉ định tiêm chủng vaccine chính xác.",
+            "score": 0.7290402054786682,
+            "id": "vietnamese_healthcare_9578",
+            "rerank_score": 0.998904824256897
+        },
+        {
+            "text": "Câu hỏi: Tôi bị tiểu đường tuýp 2, đang uống thuốc có được tiêm vaccine phòng Covid-19 không?\nTrả lời: Với tình trạng bệnh lý tiểu đường tuýp 2 của anh/chị thì vẫn tiêm phòng vaccine Covid-19 được.",
+            "score": 0.7826113700866699,
+            "id": "vietnamese_healthcare_3926",
+            "rerank_score": 0.9987609386444092
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 38 tuổi bị tiểu đường tuýp 2 hơn 2 năm tôi kiểm soát đường huyết rất tốt và luôn ở mức an toàn. Xin hỏi tôi có thể tiêm vaccine Covid-19 được không và có cần lưu ý hay xét nghiệm gì không?\nTrả lời: Bệnh tiểu đường không nằm trong chống chỉ định tiêm vaccine Covid-19 của Bộ Y tế, do đó nếu hiện tại bạn đã kiểm soát đường huyết ổn, không đang mắc bệnh lý cấp tính hay mạn tính tiến triển nào khác thì có thể tiêm vaccine Covid-19. Tuy nhiên bạn nên tiêm tại bệnh viện, nơi có đầy đủ phương tiện cấp cứu.",
+            "score": 0.7139265537261963,
+            "id": "vietnamese_healthcare_8904",
+            "rerank_score": 0.998593270778656
+        },
+        {
+            "text": "Câu hỏi: Tôi bị tiểu đường và đang điều trị viên gan B, tiểu cầu 124 có tiêm vaccine Covid-19 được không?\nTrả lời: Trường hợp của bạn hoãn tiêm chủng đến khi điều trị ổn định bệnh viêm gan B, không biểu hiện gì khác và có ý kiến của bác sĩ chuyên khoa thì sẽ tiến hành tiêm chủng vaccine Covid-19.",
+            "score": 0.7492692470550537,
+            "id": "vietnamese_healthcare_1174",
+            "rerank_score": 0.9984186887741089
+        },
+        {
+            "text": "Câu hỏi: Tôi bị tiểu đường type 2, không sử dụng thuốc, hiện đường huyết lúc đói khoảng 6.5. Tôi có tiêm vaccine ngừa Covid-19 được không? Hiện sức khỏe bình thường.\nTrả lời: Theo hướng dẫn của Bộ Y tế thì nếu tình trạng bệnh tiểu đường tuýp 2 của anh/chị ổn định thì vẫn tiêm được vaccine Covid-19 nếu không có chống chỉ định nào khác. Với mức đường huyết lúc đói của anh/chị là 6. 5 là đang trong giai đoạn rối loạn đường huyết lúc đói (đường huyết lúc đang đói dao động từ 70 – 100 mg/dL (3. 9 – 5.",
+            "score": 0.7085748910903931,
+            "id": "vietnamese_healthcare_9728",
+            "rerank_score": 0.9975728392601013
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

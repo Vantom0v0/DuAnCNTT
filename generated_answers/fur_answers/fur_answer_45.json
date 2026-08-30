@@ -1,0 +1,75 @@
+{
+    "model_name": "fur",
+    "question": "Tôi 66 tuổi có nằm ngoài độ tuổi tiêm vaccine không? Tôi có bệnh lý nền là huyết áp, tim mạch và ung thư đã điều trị. Xin hỏi việc tiêm vaccine sẽ áp dụng cho trường hợp của tôi thế nào?",
+    "ground_truth": "Hiện nay, độ tuổi tiêm vaccine đươc quy định từ 18 tuổi trở lên, không có giới hạn tuổi trên. Do đó với tuổi của anh/chị vẫn có thể được tiêm vaccine nếu đáp ứng đủ các điều kiện khác. Nếu anh/chị có các bệnh lý nền như đã nêu nhưng được điều trị ổn định tối thiểu 3 tháng tính tới thời điểm tiêm chủng, sức khỏe ổn định thì bác vẫn có thể được chỉ định tiêm vaccine phòng Covid-19. Tuy nhiên, anh/chị nên tiêm ở bệnh viện hay các có sở có đủ năng lực cấp cứu ban đầu để đảm báo an toàn trong quá trình tiêm chủng.",
+    "answer": "Theo các thông tin được cung cấp, người **66 tuổi không nằm ngoài diện được tiêm vaccine Covid-19**. Người trên 65 tuổi có bệnh nền vẫn có thể được tiêm nếu bệnh đã được **điều trị ổn định, kiểm soát tốt và hiện sức khỏe bình thường**.\n\nVới trường hợp của anh/chị:\n\n- **Tăng huyết áp và bệnh tim mạch ổn định:** có thể được xem xét tiêm.\n- **Tiền sử ung thư đã điều trị ổn định/đã khỏi:** theo hướng dẫn nêu trên, vẫn có thể tiêm.\n- Do trên 65 tuổi và có bệnh nền, anh/chị cần **khám sàng lọc kỹ trước tiêm** và nên tiêm tại **bệnh viện hoặc cơ sở tiêm chủng có đủ năng lực hồi sức cấp cứu ban đầu**.\n- Khi đi khám, cần cung cấp đầy đủ hồ sơ bệnh án, các thuốc đang sử dụng và thông tin về tình trạng tim mạch, huyết áp, ung thư trước đây để bác sĩ quyết định có tiêm hay cần trì hoãn.\n\nThông tin hiện có **không đủ để khẳng định chắc chắn anh/chị được tiêm ngay**, vì quyết định cuối cùng phụ thuộc vào tình trạng sức khỏe thực tế và đánh giá trực tiếp của bác sĩ trước tiêm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: tôi 66 tuổi, có các bệnh lý nền như vậy tôi tiêm được Vaccine Covid-19 không?\nTrả lời: Hiện tại, Bộ Y tế đang triển khai tiêm cho đối tượng đủ 18 tuổi đến 65 tuổi. Trường hợp của anh/chị trên 65 tuổi và mắc bệnh lý nền nên tạm hoãn tiêm chờ chỉ đạo của Bộ Y tế.",
+            "score": 0.6767193078994751,
+            "id": "vietnamese_healthcare_317",
+            "rerank_score": 0.9982959628105164
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 65 tuổi, có bệnh nền về tim, mỡ máu, đang dùng thuốc hàng ngày. Bác sĩ cho hỏi tôi tiêm vaccine Covid-19 có được không ạ?\nTrả lời: Theo Nghị quyết 21 của Chính phủ, người trên 65 tuổi thuộc nhóm đối tượng ưu tiên thứ 5. Trước khi tiêm vaccine bác sẽ được khám sàng lọc, bác cần khai báo tình trạng bệnh lý hiện tại, các thuốc điều trị. . . với cán bộ y tế để được chỉ định tiêm chủng chính xác",
+            "score": 0.591658890247345,
+            "id": "vietnamese_healthcare_1625",
+            "rerank_score": 0.9811517596244812
+        },
+        {
+            "text": "Câu hỏi: Tôi muốn hỏi việc tiêm chủng cho người trên 65 tuổi sẽ thực hiện như thế nào?\nTrả lời: Với đối tượng trên 65 tuổi, nếu không có bệnh nền kèm theo hoặc bệnh nền đã được điều trị ổn định, hiện tại sức khỏe bình thường, theo Quyết định 2995 của Bộ Y tế, anh/chị sẽ được tiêm vaccine phòng Covid-19 tại bệnh viện hay các cơ sở cáo đủ năng lực cấp cứu ban đầu.",
+            "score": 0.6170336008071899,
+            "id": "vietnamese_healthcare_9144",
+            "rerank_score": 0.9342316389083862
+        },
+        {
+            "text": "Câu hỏi: Người trên 60 tuổi và bệnh mạch vành thì có tiêm chủng vaccine ngừa Covid-19 được không ạ?\nTrả lời: Theo như chị mô tả, chúng tôi không rõ tình trạng cụ thể bệnh mạch vành của chị là như thế nào?Chị đã có điều trị gì chưa hay chỉ là theo dõi, nếu có điều trị rồi chị có dùng thuốc dự phòng hay không, liều lượng ra sao?Theo hướng dẫn của Bộ Y tế, những người có bệnh lý nền đã điều trị ổn định vẫn tiêm vaccine Covid-19 được. Trường hợp của chị có thể đến các khối bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu để được bác sĩ khám và tư vấn trước tiêm vaccine, đồng thời chị cần cung cấp đầy đủ các thông tin liên quan đến sức khỏe như đã mô tả ở trên.",
+            "score": 0.6381928324699402,
+            "id": "vietnamese_healthcare_2798",
+            "rerank_score": 0.8671185374259949
+        },
+        {
+            "text": "Câu hỏi: Tôi 70 tuổi, không bị mắc bệnh nền. Khi nào, tôi được tiêm vaccine Covid-19 và địa điểm tiêm ở đâu?\nTrả lời: Theo hướng dẫn của Bộ Y tế có thể chỉ định tiêm vaccine Covid-19 cho người trên 65 tuổi không có bệnh nền hoặc bệnh nền ổn định. Tuy nhiên, người trên 65 tuổi cần được khám sàng lọc kỹ và tiêm chủng tại các bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Bác sĩ khám trực tiếp sẽ đánh giá tình trạng sức khỏe hiện tại của bác để có thể chỉ định tiêm chủng.",
+            "score": 0.6017385721206665,
+            "id": "vietnamese_healthcare_6824",
+            "rerank_score": 0.8483681082725525
+        },
+        {
+            "text": "Câu hỏi: Tôi đã thay van tim 2 lá cơ học cách đây 18 năm, uống thuốc hàng ngày, chỉ số ổn định INR:2,8 - 3, huyết áp thấp.̣ Ngoài ra tôi còn bị bênh viêm phổi mãn. Tôi xin hỏi với trường hợp của tôi có chích ngừa vaccine Covid-19 được không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, người có bệnh nền nếu đã được điều trị ổn định/đã khỏi vẫn có thể tiêm ngừa vaccine Covid-19. Trường hợp bệnh tim mạch, huyết áp, viêm phổi nếu đã điều trị ổn định, bệnh đã được kiểm soát thì bác vẫn được tiêm chủng vaccine Covid-19. Bác đã 63 tuổi có kèm bệnh lý nền nên bác cần tiêm chủng ở bệnh viện hoặc cơ sở tiêm chủng có đủ năng lực cấp cứu ban đầu.",
+            "score": 0.6485417485237122,
+            "id": "vietnamese_healthcare_8085",
+            "rerank_score": 0.9848160743713379,
+            "weighted_score": 0.9809569835662841
+        },
+        {
+            "text": "Câu hỏi: Tôi trên 60 tuổi có bệnh lý nền là huyết áp cao (dùng thuốc hàng ngày mới ổn định) ngoài ra còn bệnh viêm họng mãn tính và động mạch chủ ngực \"bung rộng\". Xin hỏi tôi có được tiêm vaccine ngừa Covid-19 không?\nTrả lời: Tình trạng sức khỏe của Anh/Chị hiện tại đang điều trị tăng huyết áp, viêm họng mãn tính nếu tình trạng bệnh đang trong giai đoạn ổn định có thể tiêm được vaccine Covid-19. Đối với bệnh phình động mạch chủ ngực Anh/Chị cần có ý kiến của bác sĩ chuyên khoa để đánh giá tình trạng hiện tại của Anh/Chị có ổn định để có thể tiêm ngừa không. Đối với người lớn tuổi có bệnh nền cần được tiêm chủng trong bệnh viện hoặc cơ sở có đủ năng lực cấp cứu ban đầu. Anh/Chị cần cung cấp thông tin liên quan đến bệnh cũng như các thuốc điều trị để bác sĩ có thể đánh giá chính xác tình trạng sức khỏe của Anh/Chị và chỉ định tiêm chủng. Sau khi tiêm cần theo dõi theo đúng hướng dẫn của bác sĩ về các phản ứng sau tiêm.",
+            "score": 0.6617724299430847,
+            "id": "vietnamese_healthcare_1016",
+            "rerank_score": 0.9511924386024475,
+            "weighted_score": 0.9432028889656067
+        },
+        {
+            "text": "Câu hỏi: Mẹ tôi (70 tuổi) mổ tim cách đây 8 tháng, đặt “ring” để hạn chế hở van tim… Xin hỏi bác sĩ có nên chích ngừa vaccine Covid-19 không?\nTrả lời: Theo quyết định 2995/QĐ-BYT ngày 18/06/2021 của Bộ Y tế, những trường hợp > 65 tuổi, có tiền sử bệnh lý nền, bệnh lý mãn tính. . . đã được điều trị ổn định vẫn tiêm phòng vaccine Covid-19 bình thường. Để đảm bảo an toàn, những trường hợp này cần phải được thăm khám, tiêm phòng vaccine Covid-19 tại khối bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.6596490144729614,
+            "id": "vietnamese_healthcare_5174",
+            "rerank_score": 0.9862114191055298,
+            "weighted_score": 0.9354099035263062
+        },
+        {
+            "text": "Câu hỏi: Mẹ vợ em bị ung thư vú cách đây 20 năm, hiện tại sức khỏe bình thường. Vợ em bị bệnh hở van tim nhẹ 34 tuổi. Ba em bị tiểu đường 64 tuổi. Mẹ em bị huyết áp 60 tuổi. Các trường hợp này tiêm vaccine Covid-19 có an toàn không?\nTrả lời: Theo hướng dẫn của Bộ Y tế, người có bệnh nền nếu đã được điều trị ổn định/đã khỏi vẫn có thể tiêm ngừa vaccine phòng bệnh Covid-19. Trường hợp các bệnh lý mắc phải của các thành viên trong gia đinh bạn, nếu đã điều trị ổn định, bệnh đã được kiểm soát vẫn được tiêm chủng vaccine Covid-19.",
+            "score": 0.6680004596710205,
+            "id": "vietnamese_healthcare_6714",
+            "rerank_score": 0.9876508116722107,
+            "weighted_score": 0.9283462882041931
+        },
+        {
+            "text": "Câu hỏi: Tôi thuộc nhóm nào đối với tiêm vaccine Covid-19 vì có một số bệnh sau: 1. Hở van tim 2 lá nhẹ, thỉnh thoảng tức ngực, khó thở, mệt mỏi, đang uống thuốc mỗi ngày một viên. 2. Thỉnh thoáng dị ứng, mề đay, mẩn ngưới do cơ địa dị ứng. 3. Ung thư vú đã điều trị ổn định 14 năm. 4. Huyết áp thường thấp 100/60, mạnh đập không ổn định, 60-85. 5. Thỉnh thoảng đau đầu, tiền đình, viêm xoang. 6. Viêm đại tràng, viêm dạ dày.\nTrả lời: Trong trường hợp của chị, nếu các bệnh lý đã được điều trị ổn định, chị có thể tiêm vaccine Covid-19. Tuy nhiên, chị đã 64 tuổi và có nhiều bệnh nền nên chị cần phải được khám và tiêm chủng trong bệnh viện hoặc cơ sở tiêm chủng có đủ năng lực hồi sức cấp cứu ban đầu. Khi đi khám, chị hãy mang tất cả các hồ sơ liên quan đến bệnh của chị và thông báo cho bác sĩ khám trước tiêm để bác sĩ có thể đánh giá chính xác tình trạng sức khỏe hiện tại của bác cũng như có những quyết định tiêm chủng và tư vấn cụ thể.",
+            "score": 0.6405148506164551,
+            "id": "vietnamese_healthcare_1184",
+            "rerank_score": 0.6963071227073669,
+            "weighted_score": 0.903108537197113
+        }
+    ],
+    "llm_call": 5,
+    "iteration": 2
+}

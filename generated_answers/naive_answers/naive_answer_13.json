@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Phụ nữ mang thai bị thủy đậu phải làm sao?",
+    "ground_truth": "Sốt kèm theo phát ban dạng bọng nước là biểu hiện của bệnh thủy đậu. Tuy nhiên, mỗi người sẽ có mức độ bệnh khác nhau, do đó rất khó để có thể kết luận phụ nữ mang thai bị thủy đậu phải làm sao.",
+    "answer": "Phụ nữ mang thai bị thủy đậu cần đến ngay cơ sở y tế để được bác sĩ chăm sóc và điều trị, vì bệnh có thể gây viêm phổi cho mẹ và ảnh hưởng đến thai nhi. Trong thời gian này nên nghỉ ngơi, uống nhiều nước, ăn thức ăn lỏng dễ tiêu, có thể dùng paracetamol khi sốt, giữ vệ sinh thân thể và tránh làm vỡ các bóng nước để hạn chế bội nhiễm. Nếu bệnh diễn tiến nặng hoặc có nguy cơ viêm phổi, bác sĩ có thể chỉ định acyclovir đường tĩnh mạch. Nếu mới phơi nhiễm, chưa từng mắc hoặc tiêm phòng thủy đậu, cần báo ngay cho bác sĩ để được cân nhắc dùng globulin miễn dịch VZIG; không tự dùng thuốc và không tiêm vắc xin thủy đậu trong thai kỳ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Điều trị thai phụ bị thủy đậu như thế nào?\nTrả lời: 4. Điều trị thai phụ bị thủy đậu như thế nào?\nThai phụ khi bị thủy đậu cần được nghỉ ngơi, uống nhiều nước, ăn thức ăn lỏng, thức ăn dễ tiêu hóa. Nếu bà bầu bị sốt có thể sử dụng thuốc hạ sốt paracetamol . Cần giữ vệ sinh thân thể, tránh làm vỡ những bóng nước vì có nguy cơ bội nhiễm vi virus. Đối với thai phụ bị thủy đậu diễn tiến nặng, có nguy cơ viêm phổi sẽ được chỉ định dùng Acyclovir đường tĩnh mạch để giảm nguy cơ cho cả mẹ và thai. Acyclovir có vai trò ức chế sự phát triển của virus, từ đó ức chế sự phát triển của bệnh.",
+            "score": 0.7764571905136108,
+            "id": "vietnamese_healthcare_28362"
+        },
+        {
+            "text": "Câu hỏi: Cách chữa thuỷ đậu cho bà bầu\nTrả lời: 3. Cách chữa thuỷ đậu cho bà bầu\nĐối với phụ nữ mang thai bị mắc bệnh thủy đậu, nên dành thời gian nghỉ ngơi hoàn toàn, bổ sung nhiều nước, dùng thức ăn lỏng và dễ tiêu hóa, cũng như bổ sung vitamin C để tăng cường sức đề kháng cho cơ thể. Nếu có biểu hiện sốt có thể uống thuốc Paracetamol để hỗ trợ hạ sốt, giảm mệt mỏi. Một lưu ý quan trọng đối với bệnh nhân nhiễm thủy đậu nói chung là phải giữ vệ sinh thân thể thật tốt, hạn chế tối đa tác động làm vỡ những bóng nước, vì nếu không sẽ dẫn đến nguy cơ bội nhiễm rất nghiêm trọng. Trong trường hợp sản phụ bị phơi nhiễm với bệnh nhưng trước đây chưa từng bị thủy đậu hoặc tiêm phòng, bác sĩ có thể chỉ định dùng varicella – zoster immune globulin (VZIG) để tránh các biến chứng của căn bệnh. Cần hiểu rằng việc dùng VZIG chỉ giúp ngăn ngừa những rủi ro nguy hiểm có thể xảy ra với người mẹ chứ không phòng tránh cho thai nhi khỏi nhiễm trùng, hay loại bỏ được hội chứng thủy đậu bẩm sinh và bệnh thủy đậu sơ sinh. Để giúp ích và bảo vệ được thai nhi, một loại VZIG khác chuyên dùng cho trẻ sơ sinh mới là sự lựa chọn thích hợp. Khi bệnh thủy đậu thai kỳ diễn tiến nghiêm trọng, có nguy cơ dẫn đến viêm phổi, tiêm Acyclovir đường tĩnh mạch để ức chế sự phát triển của VZV được xem như một cách chữa thuỷ đậu cho bà bầu và giảm tác động tiêu cực đến em bé.",
+            "score": 0.7404440641403198,
+            "id": "vietnamese_healthcare_162348"
+        },
+        {
+            "text": "Câu hỏi: Thủy đậu ở phụ nữ có thai\nTrả lời: 3. Thủy đậu ở phụ nữ có thai\nMắc thủy đậu trong thai kỳ có thể gây một số biến chứng, như viêm phổi ở mẹ, hoặc trong một số trường hợp có thể gây dị tật bẩm sinh cho thai nhi. Thuỷ đậu cũng rất nguy hiểm đối với trẻ sơ sinh, do vậy phụ nữ có thai nếu chưa từng tiêm vaccin thì nên lập tức báo cho bác sĩ nếu có tiếp xúc với người bệnh thủy đậu hoặc có các triệu chứng của thủy đậu. Trẻ sơ sinh sinh ra từ người mẹ mắc thủy đậu trong vòng 5 ngày trước sinh đến 2 ngày sau sinh, có nguy cơ cao cũng bị mắc thủy đậu nặng do lây truyền trong tử cung. Trong giai đoạn đang mang thai không được tiêm vacxin thủy đậu. Mẹ bầu mắc thủy đậu có thể sinh con ra bị dị tật bẩm sinh",
+            "score": 0.7067391276359558,
+            "id": "vietnamese_healthcare_3730"
+        },
+        {
+            "text": "Câu hỏi: Em mang thai hơn 20 tuần rồi nhưng bị thuỷ đậu. Bác sĩ cho em hỏimắc thủy đậu khi mang thai hơn 20 tuần có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Thủy đậu là căn bệnh dễ gặp ở mọi lứa tuổi. Bình thường, thủy đậu là căn bệnh lành tính và dễ điều trị. Tuy nhiên, bà bầu bị thủy đậu có thể ảnh hưởng đến thai nhi, đặc biệt là thủy đậu trong thai kỳ khiến bà bầu hết sức lo lắng. Bạn bị thủy đậu khi mang thai, thai phụ cần đến ngay các cơ sở y tế để được chăm sóc và điều trị. Trong thời gian này, thai phụ cần được nghỉ ngơi, uống nhiều nước và ăn thức ăn lỏng dễ tiêu hóa. Bên cạnh đó, thai phụ nên chú ý giữ vệ sinh thân thế, tránh làm vỡ các nốt phỏng nước dẫn đến nguy cơ bị bội nhiễm.",
+            "score": 0.6963175535202026,
+            "id": "medical_vietnamese_qa_1155"
+        },
+        {
+            "text": "Câu hỏi: Biện pháp phòng ngừa thủy đậu trong giai đoạn mang thai\nTrả lời: 3. Biện pháp phòng ngừa thủy đậu trong giai đoạn mang thai\nĐể không phải lo lắng mắc thủy đậu khi mang thai, các bạn nữ nên đi tiêm phòng vắc xin phòng thủy đậu để cơ thể có kháng thể chống lại bệnh lý này. Sau khi tiêm vắc xin khoảng 3 tháng thì có thể mang thai. Đối với những thai phụ đã từng mắc thủy đậu, có thể tiêm globulin miễn dịch zoster IgG. Tuy nhiên, khi tiến hành tiêm thì cần được tư vấn bởi bác sĩ chuyên khoa và cần tiêm trong vòng 72 giờ đầu sau khi tiếp xúc với bệnh nhân mắc bệnh thủy đậu. Hi vọng rằng qua bài viết này, các thai phụ có thể hiểu rõ hơn về ảnh hưởng của bệnh thủy đậu đến sức khỏe của bản thân và thai nhi. Các thai phụ có thể trả lời được câu hỏi liệu rằng mắc thủy đậu khi mang thai có nguy hiểm hay không? Từ đó có kế hoạch chăm sóc tốt cho bản thân trong giai đoạn mang thai để có được một thai kỳ khỏe mạnh.",
+            "score": 0.6737155914306641,
+            "id": "vietnamese_healthcare_155580"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

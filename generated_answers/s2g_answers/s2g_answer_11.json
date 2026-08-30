@@ -1,0 +1,114 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tôi muốn đăng ký tiêm vaccine Covid-19 thì làm sao ạ?",
+    "ground_truth": "Để biết thêm chi tiết về vấn đề này, Anh/Chị vui lòng hiện hệ xã, phường nơi cư trú biết thêm thông tin và được hướng dẫn cụ thể hơn về các đợt tiêm chủng vaccine Covid-19. Hiện tại vẫn đang triển khai tiêm chủng theo sự chỉ đạo của Chính Phủ và Bộ Y tế.",
+    "answer": "Hiện vaccine Covid-19 chưa được tiêm rộng rãi mà đang ưu tiên cho một số đối tượng theo chỉ định của Bộ Y tế. Nếu thuộc diện được ưu tiên, anh/chị có thể đăng ký tại nơi sinh sống hoặc nơi công tác; hãy liên hệ cơ sở y tế địa phương để được hướng dẫn cụ thể về thủ tục và địa điểm tiêm.",
+    "evidence": [
+        "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không?",
+        "Trả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+        "Trả lời: Hiện nay vaccine phòng Covid-19 của Pfizer và Modena của Mỹ chưa được nhập về Việt Nam và cũng chưa có cơ chế tiêm dịch vụ đối với những vaccine này.",
+        "Trả lời: Về vấn đề cách thức đăng kí tiêm vaccine Covid-19, anh/chị cần liên hệ với các cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể hơn.",
+        "Trả lời: Hiện tại chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu thuộc diện được tiêm theo chính sách thì có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+        "Trả lời: Chị cần liên hệ với các cơ sở y tế địa phương để được tư vấn cụ thể hơn về việc đăng ký tiêm ngừa vaccine covid 19, hiện tại vẫn đang triển khai tiêm vaccine theo chỉ định của Bộ Y tế."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Tôi muốn đăng ký tiêm vacxin Pfizer của Mỹ thì đăng ký ở đâu? Và giá vaccine của Pfizer bao nhiêu tiền?\nTrả lời: Hiện nay vaccine phòng Covid-19 của Pfizer và Modena của Mỹ chưa được nhập về Việt Nam và cũng chưa có cơ chế tiêm dịch vụ đối với những vaccine này.",
+                "score": 0.7356122732162476,
+                "id": "vietnamese_healthcare_715",
+                "rerank_score": 0.8071672320365906
+            },
+            {
+                "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+                "score": 0.7423059940338135,
+                "id": "vietnamese_healthcare_7879",
+                "rerank_score": 0.5632224678993225
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.7390695214271545,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 2.1894446035730653e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Maxcefu\nTrả lời: 3. Cách dùng và liều dùng của thuốc Maxcefu\n3.2. Liều dùng thuốc Maxcefu 3.",
+                "score": 0.7318154573440552,
+                "id": "vietnamese_healthcare_28718",
+                "rerank_score": 2.069412948912941e-05
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7505505681037903,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 1.962029818969313e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi muốn đăng ký tiêm vacxin Pfizer của Mỹ thì đăng ký ở đâu? Và giá vaccine của Pfizer bao nhiêu tiền?\nTrả lời: Hiện nay vaccine phòng Covid-19 của Pfizer và Modena của Mỹ chưa được nhập về Việt Nam và cũng chưa có cơ chế tiêm dịch vụ đối với những vaccine này.",
+                "score": 0.7173846960067749,
+                "id": "vietnamese_healthcare_715",
+                "rerank_score": 0.8071672320365906
+            },
+            {
+                "text": "Câu hỏi: Khi nào tôi được tiêm vaccine Covid-19, tiêm ở đâu và có phải đăng ký ở đâu để tiêm không? Do tính chất công việc hay đi xuống các khu công nghiệp mong được tiêm sớm.\nTrả lời: Hiện tại vaccine Covid-19 chưa được tiêm rộng rãi, đang ưu tiên cho một số đối tượng.",
+                "score": 0.7196562886238098,
+                "id": "vietnamese_healthcare_7879",
+                "rerank_score": 0.5632224678993225
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Cetafenac\nTrả lời: 3. Cách dùng và liều dùng của thuốc Cetafenac\n3.2. Liều dùng của thuốc Cetafenac 3.",
+                "score": 0.7281123399734497,
+                "id": "vietnamese_healthcare_93611",
+                "rerank_score": 2.1894446035730653e-05
+            },
+            {
+                "text": "Câu hỏi: Cách dùng và liều dùng của thuốc Maxcefu\nTrả lời: 3. Cách dùng và liều dùng của thuốc Maxcefu\n3.2. Liều dùng thuốc Maxcefu 3.",
+                "score": 0.7232363820075989,
+                "id": "vietnamese_healthcare_28718",
+                "rerank_score": 2.069412948912941e-05
+            },
+            {
+                "text": "Câu hỏi: Cách sử dụng thuốc Cetecocenpira\nTrả lời: 3. Cách sử dụng thuốc Cetecocenpira\n3.1. Cách sử dụng thuốc Cetecocenpira Đối với thuốc Cetecocenpira , bệnh nhân sử dụng bằng đường uống.",
+                "score": 0.7344323396682739,
+                "id": "vietnamese_healthcare_33131",
+                "rerank_score": 1.962029818969313e-05
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Mình muốn chích ngừa vaccine Coivd-19 phải đăng ký thế nào?\nTrả lời: Về vấn đề cách thức đăng kí tiêm vaccine Covid-19, anh/chị cần liên hệ với các cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể hơn.",
+                "score": 0.6550374627113342,
+                "id": "vietnamese_healthcare_4081",
+                "rerank_score": 0.9942654967308044
+            },
+            {
+                "text": "Câu hỏi: Tôi muốn tiêm vaccine Covid-19 thì tiêm ở đâu? Chi phí cho mỗi liều vaccine là bao nhiêu?\nTrả lời: Hiện tại chính phủ và Bộ Y tế vẫn đang triển khai tiêm cho các đối tượng được ưu tiên, vì vậy nếu thuộc diện được tiêm theo chính sách thì có thể đăng ký tại nơi mình sinh sống hoặc nơi mình công tác.",
+                "score": 0.6388943195343018,
+                "id": "vietnamese_healthcare_4969",
+                "rerank_score": 0.9906783103942871
+            },
+            {
+                "text": "Câu hỏi: Tôi có thể đăng ký tiêm vaccine ngừa Covid-19 ở đâu?\nTrả lời: Về vấn đề cách thức đăng kí tiêm vaccine Covid-19, anh/chị cần liên hệ với các cơ sở y tế địa phương để được tư vấn và hướng dẫn cụ thể hơn.",
+                "score": 0.6800763010978699,
+                "id": "vietnamese_healthcare_250",
+                "rerank_score": 0.990013837814331
+            },
+            {
+                "text": "Câu hỏi: Mình muốn hỏi khi nào có thể đăng ký tiêm vaccine Covid-19?\nTrả lời: Chị cần liên hệ với các cơ sở y tế địa phương để được tư vấn cụ thể hơn về việc đăng ký tiêm ngừa vaccine covid 19, hiện tại vẫn đang triển khai tiêm vaccine theo chỉ định của Bộ Y tế.",
+                "score": 0.6667077541351318,
+                "id": "vietnamese_healthcare_7449",
+                "rerank_score": 0.983607828617096
+            },
+            {
+                "text": "Câu hỏi: Tôi muốn đăng ký tiêm vacxin Pfizer của Mỹ thì đăng ký ở đâu? Và giá vaccine của Pfizer bao nhiêu tiền?\nTrả lời: Hiện nay vaccine phòng Covid-19 của Pfizer và Modena của Mỹ chưa được nhập về Việt Nam và cũng chưa có cơ chế tiêm dịch vụ đối với những vaccine này.",
+                "score": 0.7287254929542542,
+                "id": "vietnamese_healthcare_715",
+                "rerank_score": 0.8071672320365906
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

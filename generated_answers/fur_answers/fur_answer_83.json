@@ -1,0 +1,110 @@
+{
+    "model_name": "fur",
+    "question": "Chào bác sĩ ạ. Bác sĩ cho em hỏi có làm cách nào để tự kiểm tra vòng tránh thai có đúng vị trí không ạ? Cảm ơn bác sĩ đã tư vấn giúp em.",
+    "ground_truth": "Chào bạn, bạn có thể tự kiểm tra bằng cách: Rửa sạch tay, đặt ngón tay vào trong âm đạo đến khi bạn cảm thấy cổ tử cung của mình. Nếu cảm thấy sợi dây từ cổ tử cung đó là vòng tránh thai đang được đặt ở vị trí thích hợp. Bạn chỉ được chạm, không được kéo dây ra vì có thể làm thay đổi vị trí vòng tránh thai. Bạn nên kiểm tra vòng tránh thai hàng tháng hoặc tối đa 6 tháng/lần để đảm bảo là vòng vẫn được đặt đúng chỗ.",
+    "answer": "Theo thông tin được cung cấp, chưa có đủ dữ liệu để liệt kê đầy đủ các dấu hiệu nhận biết vòng tránh thai bị lệch hoặc đặt sai vị trí.\n\nMột số nguy cơ/hậu quả được đề cập gồm:\n\n- Đau bụng dưới.\n- Mang thai ngoài ý muốn do vòng bị lệch hoặc hết hạn sử dụng.\n- Vòng có thể bị long, tuột hoặc rơi ra trong một số trường hợp.\n- Trường hợp nặng, vòng có thể làm rách hoặc xuyên thủng cơ tử cung, lọt vào ổ bụng.\n\nBạn có thể tự kiểm tra bằng cách rửa sạch tay, đưa ngón tay vào âm đạo để cảm nhận cổ tử cung và sợi dây vòng. Chỉ chạm vào dây, không kéo dây vì có thể làm thay đổi vị trí vòng. Tuy nhiên, nếu nghi ngờ vòng lệch hoặc có các biểu hiện bất thường, nên đến cơ sở y tế chuyên khoa để được kiểm tra.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Tôi quan hệ với nhiều người cùng 1 thời ngắn nhưng có dùng bao cao su, vậy có bị nhiễm về bệnh phụ khoa không ạ? Mong được bác sĩ tư vấn!\nTrả lời: Cảm ơn bạn đã tin tưởng, chia sẻ những lo lắng tới AI-Doctor. Thân ái!",
+            "score": 0.5211368203163147,
+            "id": "vietnamese_medical_qa_2934",
+            "rerank_score": 0.01619890332221985
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,tôi muốn hỏi về vấn đề phụ khoa của Phụ Nữ tôi muốn vá màng trinh. Tôi đang thắc mắc việc vá màng trinh có ảnh hưởng đến việc mang thai và có địa chỉ nào uy tín không Bác sĩ.\nTrả lời: Chào bạn\nVá màng trinh không ảnh hưởng đến khả năng mang thai.\nĐịa chỉ uy tín thì bạn có thể cung cấp thông tin hiện tại bạn đang ở khu vực nào được không?\nThân mến",
+            "score": 0.5342835783958435,
+            "id": "vietnamese_medical_qa_7364",
+            "rerank_score": 0.014902499504387379
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nCháu thấy có nhiều người tự mua vitamin E về để uống. Bác sĩ cho cháu hỏi việc tự mua vitamin E để uống như vậy có đúng không ạ? Sử dụng vitamin E có cần chỉ định của bác sĩ không ạ? Mong bác sĩ tư vấn giúp cháu. Cháu cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin trả lời bạn như sau:\nNếu bạn đã hiểu về liều lượng vitamin E, như thế nào là vitamin E tự nhiên, vitamin E tổng hợp rồi thì bạn có thể tự đi mua được. Những thuốc vitamin như vậy không cần kê đơn của bác sĩ, chỉ cần bạn hiểu đúng tính chất của vitamin E và cách sử dụng vitamin E.",
+            "score": 0.5681454539299011,
+            "id": "vietnamese_medical_qa_2187",
+            "rerank_score": 0.01133834756910801
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Cho tôi hỏi tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không? Cảm ơn bác sĩ đã tư vấn và giải đáp!\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi: “Tại sao có lúc mắt bị lác, lúc lại không bị? Có thể kiểm soát mắt không lác không?” đến AI-Doctor. Mong một ngày gần nhất có thể gặp bạn để được tư vấn chuyên sâu. Trân trọng!",
+            "score": 0.5730584859848022,
+            "id": "vietnamese_medical_qa_2033",
+            "rerank_score": 0.0026261028833687305
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+            "score": 0.5182333588600159,
+            "id": "vietnamese_medical_qa_2402",
+            "rerank_score": 0.0008416821947321296
+        },
+        {
+            "text": "Câu hỏi: Làm thế nào để kiểm tra vòng tránh thai có đúng vị trí không?\nTrả lời: bạn có thể tự kiểm tra bằng cách: Rửa sạch tay, đặt ngón tay vào trong âm đạo đến khi bạn cảm thấy cổ tử cung của mình. Nếu cảm thấy sợi dây từ cổ tử cung đó là vòng tránh thai đang được đặt ở vị trí thích hợp. Bạn chỉ được chạm, không được kéo dây ra vì có thể làm thay đổi vị trí vòng tránh thai. Bạn nên kiểm tra vòng tránh thai hàng tháng hoặc tối đa 6 tháng/lần để đảm bảo là vòng vẫn được đặt đúng chỗ.",
+            "score": 0.5393730998039246,
+            "id": "vietnamese_healthcare_4250",
+            "rerank_score": 0.6003583669662476,
+            "weighted_score": 0.9200401067733766
+        },
+        {
+            "text": "Câu hỏi: Vòng tránh thai là gì?\nTrả lời: 1. Vòng tránh thai là gì?\nVòng tránh thai là một dụng cụ nhỏ, thường có hình chữ T, được đặt vào lòng tử cung để không cho trứng thụ tinh và làm tổ trong tử cung, giúp tránh thai hiệu quả. Ưu điểm của phương pháp tránh thai bằng cách đặt vòng là thủ thuật thực hiện đơn giản, chi phí thấp và có hiệu quả tức thì từ thời điểm đặt vòng đến 5 năm sau. Bên cạnh đó, vòng tránh thai còn có thể hạn chế lượng máu mất đi trong chu kỳ kinh nguyệt, giảm đau bụng kinh, giảm nguy cơ hình thành u xơ tử cung và nguy cơ viêm vùng chậu. Đồng thời, vòng tránh thai cũng không gây khó chịu khi sinh hoạt vợ chồng. Vòng tránh thai được khuyến cáo sử dụng cho các chị em trong độ tuổi sinh sản (từ 18 – 49 tuổi).",
+            "score": 0.48478391766548157,
+            "id": "vietnamese_healthcare_93530",
+            "rerank_score": 0.05634848400950432,
+            "weighted_score": 0.26711860522627834
+        },
+        {
+            "text": "Câu hỏi: Cảnh giác biến chứng khi đặt vòng tránh thai\nTrả lời: 3. Cảnh giác biến chứng khi đặt vòng tránh thai\nMỗi loại vòng tránh thai sẽ có thời hạn sử dụng nhất định từ 5 - 10 năm tùy theo nhà sản xuất cung cấp, nhưng thực tế vẫn có nhiều phụ nữ để vòng trong tử cung rất lâu, thậm chí đến sau tuổi mãn kinh hay khi đã về hưu. Các bác sĩ phụ sản cho biết, nếu chị em đặt vòng tránh thai mà để quá lâu so với thời hạn quy định hoặc trong quá trình đặt vòng có sơ suất kỹ thuật thì sẽ phải đối mặt với những nguy cơ như: Vòng dính vào cơ tử cung do đặt quá lâu; Vòng gãy và xuyên thủng cơ tử cung; Đặt vòng sai vị trí, gây rách tử cung và khiến vòng lọt vào ổ bụng; Mang thai ngoài ý muốn do đặt vòng lệch hoặc vòng hết hạn sử dụng. Mang thai ngoài ý muốn do đặt lệch vòng là một trong những nguy có thể gặp",
+            "score": 0.4760131239891052,
+            "id": "vietnamese_healthcare_14256",
+            "rerank_score": 0.6915398240089417,
+            "weighted_score": 0.19560780525207516
+        },
+        {
+            "text": "Câu hỏi: Tổng quan về phương pháp đặt vòng tránh thai\nTrả lời: 1. Tổng quan về phương pháp đặt vòng tránh thai\nĐặt vòng tránh thai là đặt một dụng cụ nhỏ vào tử cung của phụ nữ để ngăn chặn sự gặp nhau giữa tinh trùng và trứng, không để tinh trùng làm tổ và phát triển trong tử cung. Đặt vòng tránh thai đã được sử dụng từ rất lâu. Đây là biện pháp tránh thai an toàn, phổ biến, hiệu quả cao và thời gian tránh thai dài, lên đến 5 - 10 năm tùy vào từng loại vòng. Ngoài ra, đặt vòng tránh thai cũng có ưu điểm là chi phí thấp, không ảnh hưởng đến đời sống quan hệ tình dục của vợ chồng và khả năng sinh sản của phụ nữ. Tuy nhiên, biện pháp này cần được thực hiện đúng cách bởi bác sĩ chuyên khoa phụ sản để tránh gây những biến chứng nguy hiểm như đau bụng dưới . Đặt vòng là phương pháp ngừa thai an toàn, phổ biến và đem lại hiệu quả cao",
+            "score": 0.512047529220581,
+            "id": "vietnamese_healthcare_126527",
+            "rerank_score": 0.0210059005767107,
+            "weighted_score": 0.14755434431135656
+        },
+        {
+            "text": "Câu hỏi: Miếng dán tránh thai và vòng âm đạo\nTrả lời: 2. Miếng dán tránh thai và vòng âm đạo\nNhững biện pháp tránh thai này có cơ chế hoạt động tương tự như viên uống tránh thai . Cách sử dụng của chúng là nhét một chiếc vòng vào trong âm đạo (sản phẩm NuvaRing) hoặc dán miếng tránh thai lên bụng, lên cánh tay, lên mông hoặc lên lưng (sản phẩm Ortho Evra). Giống như thuốc uống tránh thai, nếu thực hiện hoàn toàn đúng theo hướng dẫn sử dụng sẽ có hiệu quả tránh thai đạt 99%, tuy nhiên tỉ lệ thành công trên thực tế chỉ đạt 91%, bởi những lí do sau: Vòng âm đạo mới không được thay thế vào đúng thời gian cần thay mỗi tháng, hoặc nó bị tụt ra khỏi âm đạo hơn hai ngày vào tuần lễ cần sử dụng nó. Miếng dán sẽ không có tác dụng nếu nó bị rơi mất hoặc không được thay thế vào đúng thời điểm cần thay thế hàng tuần. Đang trong quá trình điều trị một số thuốc nhất định, những thuốc làm giảm hoặc mất tác dụng của thuốc viên tránh thai cũng sẽ gây ảnh hưởng tương tự với miếng dán tránh thai và vòng âm đạo. Đang bị quá thừa cân hoặc béo phì. Các nghiên cứu cho thấy miếng dán tránh thai không thực sự hiệu quả đối với phụ nữ có cân nặng trên 200 pounds (~ 90,72 kg). Nếu đang sử dụng miếng dán tránh thai hoặc vòng âm đạo mà đến thời điểm cần thay thế cái mới lại quên thay, hoặc bị rơi mất, thì hãy sử dụng cái mới ngay trong vòng 48 giờ, còn nếu khoảng thời gian đã quá hai ngày thì trong 7 ngày kế tiếp cần sử dụng thêm biện pháp tránh thai dự phòng.",
+            "score": 0.507057249546051,
+            "id": "vietnamese_healthcare_33448",
+            "rerank_score": 0.025426020845770836,
+            "weighted_score": 0.12635280899703502
+        },
+        {
+            "text": "Câu hỏi: Đặt vòng tránh thai là gì?\nTrả lời: 1. Đặt vòng tránh thai là gì?\nVòng tránh thai là một dụng cụ nhỏ bằng nhựa, được đặt vào tử cung với hình dạng chữ S, chữ T hoặc hình cánh cung có quấn đồng. Vòng tránh thai có tác dụng không cho trứng gặp tinh trùng và ngăn trứng làm tổ trong tử cung phát triển thành bào thai. Phụ nữ trong độ tuổi sinh sản (18 - 49 tuổi) được khuyên nên đặt vòng để tránh thai. Ưu điểm của vòng tránh thai là cho hiệu quả tức thì ngay từ thời điểm đặt vòng tới khoảng 5 năm sau. Bên cạnh đó, dụng cụ này còn giúp phụ nữ giữ được cảm giác thoải mái và chi phí thực hiện thủ thuật đặt vòng cũng khá thấp. Không chỉ vậy, vòng tránh thai còn hạn chế lượng máu mất đi trong chu kỳ kinh nguyệt , giảm đau bụng kinh , giảm nguy cơ viêm vùng chậu và u xơ tử cung. Đồng thời, vòng tránh thai cũng không gây cản trở khi sinh hoạt vợ chồng. Đặt vòng tránh thai có hiệu quả ngừa thai lên tới 99%",
+            "score": 0.508784294128418,
+            "id": "vietnamese_healthcare_56178",
+            "rerank_score": 0.0351979061961174,
+            "weighted_score": 0.11394102424383164
+        },
+        {
+            "text": "Câu hỏi: Những lưu ý khi đặt vòng tránh thai\nTrả lời: 2. Những lưu ý khi đặt vòng tránh thai\nVòng tránh thai không phải phù hợp với tất cả phụ nữ. Do đó, cần đến các cơ sở y tế chuyên khoa để được thăm khám trước khi đặt, đảm bảo quá trình đặt vòng được tiến hành trong môi trường vệ sinh, đúng kỹ thuật, không gây tổn thương tử cung và các loại vòng tránh thai được sử dụng đảm bảo chất lượng. Phụ nữ còn trẻ chưa sinh con, có dự định sinh con trong một vài năm nên sử dụng biện pháp tránh thai khác. Phụ nữ có nhiều bạn tình không nên sử dụng phương pháp đặt vòng tránh thai vì vòng tránh thai không có khả năng ngăn ngừa các bệnh lây truyền qua đường tình dục . Những người lỗ tử cung quá lỏng lẻo, cổ tử cung bị rách, sa tử cung ở trên độ 2 (khi đó đặt vòng tránh thai vào dễ long tuột rơi ra). Những phụ nữ cổ tử cung quá hẹp hoặc cứng quá, không thể long rộng ra, cũng không thể sử dụng vòng tránh thai. Khi bị các bệnh viêm nhiễm phần phụ nên chữa viêm nhiễm triệt để, sau đó mới đặt vòng tránh thai. Các trường hợp đang có khối u sinh dục: u xơ tử cung , u buồng trứng Chảy máu âm đạo không rõ nguyên nhân, đang có thai hoặc nghi có thai...",
+            "score": 0.4844167232513428,
+            "id": "vietnamese_healthcare_9407",
+            "rerank_score": 0.014276416972279549,
+            "weighted_score": 0.07834383286535741
+        },
+        {
+            "text": "Câu hỏi: Tổng quan về đặt vòng tránh thai và cốc nguyệt san\nTrả lời: 1. Tổng quan về đặt vòng tránh thai và cốc nguyệt san\nĐặt vòng tránh thai từ lâu đã được sử dụng như một biện pháp tránh thai hiệu quả và an toàn. Đây là biện pháp ngăn chặn quá trình hình thành bào thai bằng cách ngăn không tinh trùng và trứng gặp nhau, bằng cách sử dụng một dụng cụ nhỏ đặt vào tử cung của phụ nữ. Cốc nguyệt san là một sản phẩm được nhiều chị em phụ nữ lựa chọn sử dụng gần đây để thay thế cho tampon , băng vệ sinh trong chu kỳ kinh nguyệt. Cốc nguyệt san có dạng hình phễu và được đặt ở âm đạo, có tác dụng đựng kinh dịch trong thời gian hành kinh của phụ nữ.",
+            "score": 0.4851672351360321,
+            "id": "vietnamese_healthcare_69428",
+            "rerank_score": 0.004822343122214079,
+            "weighted_score": 0.06119835963472724
+        },
+        {
+            "text": "Câu hỏi: Hạn chế khi đặt vòng tránh thai\nTrả lời: 2. Hạn chế khi đặt vòng tránh thai\nThực tế đặt vòng tránh thai có những ưu điểm nổi bật nhưng cũng không thể không kể tới các hạn chế như đặt vòng không tránh được các bệnh lý lây qua đường tình dục . Gia tăng nguy cơ mắc bệnh phụ khoa và phụ vực vùng kín thường xuyên ẩm ướt. Trong trường hợp một vài chị em đặt lệch hay gãy vòng trong khi đặt thì cũng có nguy cơ mang thai ngoài ý muốn. Ngoài ra một vài chị em còn cảm thấy tức ngực, buồn nôn, nổi mụn trứng cá... Hiện nay thời điểm lý tưởng nhất để đặt vòng là sau khi sạch kinh và chưa quan hệ tình dục. Lúc này cổ tử cung chỉ hơi hé mở, lúc này quá trình đặt vòng sẽ dễ dàng đồng thời giảm bớt cảm giác đau và ít bị ra máu hơn. Với phụ nữ sinh thường thời gian đặt vòng là sau 6 tuần. Với phụ nữ sinh mổ thời gian đặt vòng có thể muộn hơn là 3 tháng. Vì thế khi đã biết ưu và nhược điểm của phương pháp đặt vòng chị em nên tham khảo và cân nhắc để quá trình tránh thai được hiệu quả và an toàn nhất.",
+            "score": 0.4898671805858612,
+            "id": "vietnamese_healthcare_38603",
+            "rerank_score": 0.10438244044780731,
+            "weighted_score": 0.050646656751632685
+        },
+        {
+            "text": "Câu hỏi: Đặt vòng tránh thai không phù hợp với những ai?\nTrả lời: 4. Đặt vòng tránh thai không phù hợp với những ai?\nNhững trường hợp sau có thể đặt vòng tránh thai : Phụ nữ có thai nhưng chưa biết hoặc có dấu hiệu nghi ngờ có thai. Phụ nữ bị u xơ tử cung , ung thư cổ tử cung , ung thư buồng trứng , viêm vùng chậu hoặc những bệnh đường sinh dục ác tính khác. Phụ nữ mắc bệnh viêm phụ khoa, nhiễm trùng đường sinh dục. Phụ nữ bị dị tật tử cung bẩm sinh. Phụ nữ mắc bệnh thiếu máu cấp tính, băng huyết. Phụ nữ nạo hút thai hoặc phá thai. Phụ nữ bị di tật tử cung bẩm sinh cũng có thể đặt vòng tránh thai",
+            "score": 0.5078991651535034,
+            "id": "vietnamese_healthcare_53969",
+            "rerank_score": 0.01325054932385683,
+            "weighted_score": 0.016899586655199528
+        }
+    ],
+    "llm_call": 4,
+    "iteration": 1
+}

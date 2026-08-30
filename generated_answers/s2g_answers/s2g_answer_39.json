@@ -1,0 +1,123 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tôi bị huyết áp cao nhiều năm nay. Mỗi ngày uống thuốc huyết áp thì thấy ổn định nếu quên uống thì có khi huyết áp lên tới 176/105 nhịp tim 70/phút..Tôi có nên tiêm vaccine Covid-19 không và nên tiêm loại nào là phù hợp?",
+    "ground_truth": "Thông tin chị cung cấp cho thấy bệnh huyết áp đã ổn định và hoàn toàn có thể tiêm chủng vaccine Covid-19, nếu không có chống chỉ định nào khác, chị cần uống thuốc thường xuyên để duy trì tình trạng ổn định của bệnh. Chị nên được tiêm chủng vaccine Covid-19 và có thể tiêm bất cứ loại nào hiện có ở địa phương.",
+    "answer": "Nếu bệnh tăng huyết áp của bạn đã được điều trị ổn định và tại thời điểm khám sàng lọc, huyết áp, mạch và nhịp tim trong giới hạn cho phép thì bạn vẫn có thể tiêm vaccine Covid-19; tăng huyết áp không thuộc trường hợp chống chỉ định hay phải hoãn tiêm. Do có bệnh lý nền, bạn nên tiêm tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu, theo dõi ít nhất 30 phút sau tiêm và thực hiện hướng dẫn theo dõi tại nhà. Về loại vaccine, bằng chứng cung cấp cho biết người huyết áp ổn định có thể tiêm bất cứ loại vaccine Covid-19 nào hiện có tại Việt Nam; tuy nhiên, quyết định cuối cùng phụ thuộc vào kết quả khám sàng lọc.",
+    "evidence": [
+        "Trả lời: Trường hợp của anh bị cao huyết áp nhưng đã ổn đinh vì thế anh hoàn toàn có thể tiêm chủng vaccine Covid-19.",
+        "Vì thế, khi tiêm vaccine Covid-19, anh cần theo dõi tại trung tâm 30 phút và tuân thủ hướng dẫn của nhân viên y tế về theo dõi tại nhà để kịp thời xử trí những phản ứng không mong muốn.",
+        "Trả lời: Tại thời điểm các bác sĩ khám sàng lọc nếu các chỉ số huyết áp của chị trong giới hạn cho phép thì chị vẫn có thể tiêm vaccine Covid-19.",
+        "Trả lời: Bệnh lý tăng huyết áp không thuộc trường hợp chống chỉ định hay hoãn tiêm vaccine Covid-19 của Bộ Y tế, tuy nhiên bạn cần thận trọng tiêm chủng và tiêm tại bệnh viện để kịp thời xử trí các phản ứng sau tiêm xảy ra.",
+        "Tuy nhiên, trường hợp anh đang điều trị sung huyết hang vị và trào ngược dạ dày nên tạm hoãn cho đến khi bệnh được điều trị ổn định.",
+        "Trả lời: Trường hợp bệnh tăng huyết áp của anh/chị nếu đã điều trị ổn định và đi khám các dấu hiệu về huyết áp về mạch, nhịp tim trong giới hạn cho phép, nghe tim, phổi không có dấu hiệu bất thường thì vẫn có thể tiêm vaccine Covid-19.",
+        "Trả lời: Hiện nay sức huyết áp của bác đã ổn định dưới 140/75, bác hoàn toàn có thể tiêm chủng vaccine Covid-19, bác có thể tiêm bất cứ loại vaccine Covid-19 nào hiện có ở Việt Nam.",
+        "Tuy nhiên, theo Quyết định 2995/QĐ-BYT ngày 18/06/2021 của Bộ Y tế, những trường hợp có tiền sử bệnh lý nền, bệnh lý mãn tính.",
+        "đã được điều trị ổn định nên được thăm khám, tiêm phòng vaccine Covid-19 tại tuyến bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+        "Trả lời: Theo thông tin bạn cung cấp thì bạn chỉ bị tăng huyết áp, theo hướng dẫn của Bộ Y tế nếu tình trạng huyết áp của bạn ổn trong thời gian qua (tức không phải nhập viện điều trị hoặc không thay đổi lộ trình điều trị).",
+        "Tình trạng huyết áp, mạch, nhịp tim lúc khám sàng lọc của bạn trong giới hạn cho phép thì bạn vẫn được tiêm chủng vaccine Covid-19.",
+        "Hàng ngày, tôi đều uống thuốc để duy trì ổn định ở mức dưới 140/75.",
+        "Trả lời: Theo như hướng dẫn của Bộ Y Tế, những người có bệnh lý nền tăng huyết áp sẽ vẫn được tiêm phòng vaccine Covid-19, tuy nhiên anh/chị sẽ được tiêm và theo dõi trong khối bệnh viện.",
+        "Câu hỏi: Tôi bị huyết áp cao, huyết áp bình thường hơn 140, lúc cao nhất 186, giờ hiện từ 140 đến 165.",
+        "đã điều trị ổn định, có thể tiêm vaccine Covid-19."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: tôi bị cao huyết áp nhưng do ăn uống, tập thể dục nhiều và uống thuốc điều độ nên nhiều năm nay tình trạng tôi rất ổn định 120-130/80-90. Vậy trường hợp của tôi có được tiêm vaccine Covid-19 không?\nTrả lời: Trường hợp của anh bị cao huyết áp nhưng đã ổn đinh vì thế anh hoàn toàn có thể tiêm chủng vaccine Covid-19. Vaccine Covid-19 cũng như các vaccine khác đều có những phản ứng không mong muốn và tùy thuộc vào cơ địa mỗi cá thể và thời điểm. Vì thế, khi tiêm vaccine Covid-19, anh cần theo dõi tại trung tâm 30 phút và tuân thủ hướng dẫn của nhân viên y tế về theo dõi tại nhà để kịp thời xử trí những phản ứng không mong muốn.",
+                "score": 0.6227167844772339,
+                "id": "vietnamese_healthcare_9547",
+                "rerank_score": 0.9998394250869751
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyết áp và đang uống thuốc hàng ngày, tôi có nên tiêm vaccine Covid-19 không?\nTrả lời: Tại thời điểm các bác sĩ khám sàng lọc nếu các chỉ số huyết áp của chị trong giới hạn cho phép thì chị vẫn có thể tiêm vaccine Covid-19.",
+                "score": 0.6120529770851135,
+                "id": "vietnamese_healthcare_5397",
+                "rerank_score": 0.9996132254600525
+            },
+            {
+                "text": "Câu hỏi: Tôi bị huyết áp cao, huyết áp bình thường hơn 140, lúc cao nhất 186, giờ hiện từ 140 đến 165. Tôi có thể tiêm vaccine Covid-19 được không va cần làm gì trước khi tiêm?\nTrả lời: Bệnh lý tăng huyết áp không thuộc trường hợp chống chỉ định hay hoãn tiêm vaccine Covid-19 của Bộ Y tế, tuy nhiên bạn cần thận trọng tiêm chủng và tiêm tại bệnh viện để kịp thời xử trí các phản ứng sau tiêm xảy ra.",
+                "score": 0.6669845581054688,
+                "id": "vietnamese_healthcare_8998",
+                "rerank_score": 0.9991080164909363
+            },
+            {
+                "text": "Câu hỏi: Tôi bị huyết áp cao (khoảng 132-137/90), hiện uống thuốc hàng ngày, hay hồi hộp, nhịp tim trung bình khoảng 90 nhịp một phút. Tôi còn bị viêm gan B, hiện cũng đang điều trị thêm sung huyết hang vị và trào ngược dạ dày. Xin hỏi với tình trạng sức khỏe như trên, tôi có nên tiêm vaccine Covid-19 hay không?\nTrả lời: Đối với trường hợp bị bệnh mãn tính như tăng huyết áp, viêm gan B. . . đã điều trị ổn định, có thể tiêm vaccine Covid-19. Tuy nhiên, trường hợp anh đang điều trị sung huyết hang vị và trào ngược dạ dày nên tạm hoãn cho đến khi bệnh được điều trị ổn định.",
+                "score": 0.6475194096565247,
+                "id": "vietnamese_healthcare_3089",
+                "rerank_score": 0.9989644289016724
+            },
+            {
+                "text": "Câu hỏi: Tôi 66 tuổi, có sẵn bệnh nền tăng huyết áp, hàng ngày vẫn uống thuốc duy trì huyết áp dưới 140/90. Khi hoạt động thể thao huyết áp lên 170/90. Nghỉ 5- 10 phút huyết áp xuống dưới 140/90. Vậy tôi có thể tiêm vaccine phòng Covid-19 không? tiêm ở đâu, nên tiêm loại vaccine nào?\nTrả lời: Trường hợp bệnh tăng huyết áp của anh/chị nếu đã điều trị ổn định và đi khám các dấu hiệu về huyết áp về mạch, nhịp tim trong giới hạn cho phép, nghe tim, phổi không có dấu hiệu bất thường thì vẫn có thể tiêm vaccine Covid-19.",
+                "score": 0.6192303895950317,
+                "id": "vietnamese_healthcare_8139",
+                "rerank_score": 0.9988767504692078
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi năm nay 68 tuổi, bị huyết áp cao đã 20 năm nay. Hàng ngày, tôi đều uống thuốc để duy trì ổn định ở mức dưới 140/75. Xin bác sĩ cho biết, tôi có thể tiêm vaccine ngừa Covid-19 không, nên tiêm loại nào là phù hợp nhất?\nTrả lời: Hiện nay sức huyết áp của bác đã ổn định dưới 140/75, bác hoàn toàn có thể tiêm chủng vaccine Covid-19, bác có thể tiêm bất cứ loại vaccine Covid-19 nào hiện có ở Việt Nam. Hiện nay, Việt Nam đang tiến hành tiêm vaccine Covid-19 của AstraZeneca cho các đối tượng ưu tiên lực lượng tuyến đầu chống dịch là các bác sĩ, nhân viên y tế, người dân đang sống trong vùng dịch.",
+                "score": 0.7077087759971619,
+                "id": "vietnamese_healthcare_8697",
+                "rerank_score": 0.9998520612716675
+            },
+            {
+                "text": "Câu hỏi: tôi bị cao huyết áp nhưng do ăn uống, tập thể dục nhiều và uống thuốc điều độ nên nhiều năm nay tình trạng tôi rất ổn định 120-130/80-90. Vậy trường hợp của tôi có được tiêm vaccine Covid-19 không?\nTrả lời: Trường hợp của anh bị cao huyết áp nhưng đã ổn đinh vì thế anh hoàn toàn có thể tiêm chủng vaccine Covid-19. Vaccine Covid-19 cũng như các vaccine khác đều có những phản ứng không mong muốn và tùy thuộc vào cơ địa mỗi cá thể và thời điểm. Vì thế, khi tiêm vaccine Covid-19, anh cần theo dõi tại trung tâm 30 phút và tuân thủ hướng dẫn của nhân viên y tế về theo dõi tại nhà để kịp thời xử trí những phản ứng không mong muốn.",
+                "score": 0.7113257646560669,
+                "id": "vietnamese_healthcare_9547",
+                "rerank_score": 0.9998394250869751
+            },
+            {
+                "text": "Câu hỏi: Tôi bị huyết áp cao, uống thuốc điều trị hàng ngày, huyết áp hiện nay 135/90. Vậy tôi có thể tiêm vaccine chống Covid19 được không?\nTrả lời: Trạng bệnh lý huyết áp của anh hiện tại vẫn tiêm phòng vaccine Covid-19 được bình thường. Tuy nhiên, theo Quyết định 2995/QĐ-BYT ngày 18/06/2021 của Bộ Y tế, những trường hợp có tiền sử bệnh lý nền, bệnh lý mãn tính. . . đã được điều trị ổn định nên được thăm khám, tiêm phòng vaccine Covid-19 tại tuyến bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.7091794013977051,
+                "id": "vietnamese_healthcare_9976",
+                "rerank_score": 0.9997965693473816
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyết áp có nên tiêm vaccine Covid-19 không bác sĩ?\nTrả lời: Theo thông tin bạn cung cấp thì bạn chỉ bị tăng huyết áp, theo hướng dẫn của Bộ Y tế nếu tình trạng huyết áp của bạn ổn trong thời gian qua (tức không phải nhập viện điều trị hoặc không thay đổi lộ trình điều trị). Tình trạng huyết áp, mạch, nhịp tim lúc khám sàng lọc của bạn trong giới hạn cho phép thì bạn vẫn được tiêm chủng vaccine Covid-19.",
+                "score": 0.6867448687553406,
+                "id": "vietnamese_healthcare_9712",
+                "rerank_score": 0.9996991157531738
+            },
+            {
+                "text": "Câu hỏi: Tôi bị cao huyết áp và đang uống thuốc hàng ngày, tôi có nên tiêm vaccine Covid-19 không?\nTrả lời: Tại thời điểm các bác sĩ khám sàng lọc nếu các chỉ số huyết áp của chị trong giới hạn cho phép thì chị vẫn có thể tiêm vaccine Covid-19.",
+                "score": 0.712054967880249,
+                "id": "vietnamese_healthcare_5397",
+                "rerank_score": 0.9996132254600525
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi năm nay 68 tuổi, bị huyết áp cao đã 20 năm nay. Hàng ngày, tôi đều uống thuốc để duy trì ổn định ở mức dưới 140/75. Xin bác sĩ cho biết, tôi có thể tiêm vaccine ngừa Covid-19 không, nên tiêm loại nào là phù hợp nhất?\nTrả lời: Hiện nay sức huyết áp của bác đã ổn định dưới 140/75, bác hoàn toàn có thể tiêm chủng vaccine Covid-19, bác có thể tiêm bất cứ loại vaccine Covid-19 nào hiện có ở Việt Nam. Hiện nay, Việt Nam đang tiến hành tiêm vaccine Covid-19 của AstraZeneca cho các đối tượng ưu tiên lực lượng tuyến đầu chống dịch là các bác sĩ, nhân viên y tế, người dân đang sống trong vùng dịch.",
+                "score": 0.649712860584259,
+                "id": "vietnamese_healthcare_8697",
+                "rerank_score": 0.9998520612716675
+            },
+            {
+                "text": "Câu hỏi: Tôi bị huyết áp cao, dùng thuốc đã hơn 10 năm nay, huyết áp đôi khi dao động lên trên 150, dưới 160/100; còn thường 120-140 tối đa; 75-90 tối thiểu; mỡ máu và cholesterol hơi vượt quá ngưỡng. Ngoài ra, tôi không bị các bệnh lý khác. Xin hỏi như vậy có thể tiêm vaccine Covid-19 không?\nTrả lời: Theo như hướng dẫn của Bộ Y Tế, những người có bệnh lý nền tăng huyết áp sẽ vẫn được tiêm phòng vaccine Covid-19, tuy nhiên anh/chị sẽ được tiêm và theo dõi trong khối bệnh viện.",
+                "score": 0.6510944366455078,
+                "id": "vietnamese_healthcare_1774",
+                "rerank_score": 0.9996053576469421
+            },
+            {
+                "text": "Câu hỏi: Tôi 43 tuổi, bị bệnh cao huyết áp và nhịp tim tăng nhẹ. Lúc chưa uống thuốc, huyết áp khoảng 135/95, nhịp tim khoảng 90-95. Sau khi được bác sĩ cho thuốc uống, huyết áp còn 120/85, nhịp tim khoảng 80-85. Hiện tôi uống thuốc mỗi ngày một lần.Hôm rồi, tôi được tiêm vaccine AstraZeneca mũi một lúc khoảng 11 giờ sáng, từ sáng đến tối bình thường, đến khoảng 21h, huyết áp tôi tăng lên 140/95, nhịp tim lên 127 nhịp. Tôi lo lắng nên đi cấp cứu tại bệnh viện, sau khi được cho uống thuốc khoảng 1 giờ, huyết áp và nhịp tim giảm dần, đến hôm sau thì trở lại bình thường.Bác sĩ cho hỏi, tôi có nên tiếp tục tiêm mũi vaccine thứ 2 hay không?\nTrả lời: Đối với trường hợp của anh/chị có tiền sử huyết áp cao độ một, đã điều trị huyết áp và nhịp tim ổn định. Tùy thuộc vào thời gian được tính từ lúc điều trị bệnh ổn định sẽ chỉ định tiêm vaccine Covid-19 tại khối bệnh viện hay là tiêm ở các điểm tiêm chủng. Tuy nhiên sau khi tiêm mũi một vaccine Covid-19 AstraZeneca anh/chị có biểu hiện tăng huyết áp và nhịp tim trở lại phải nhập viện xử trí cấp cứu, phục hồi sức khỏe.",
+                "score": 0.6447908878326416,
+                "id": "vietnamese_healthcare_8698",
+                "rerank_score": 0.9991288781166077
+            },
+            {
+                "text": "Câu hỏi: Tôi bị huyết áp cao, huyết áp bình thường hơn 140, lúc cao nhất 186, giờ hiện từ 140 đến 165. Tôi có thể tiêm vaccine Covid-19 được không va cần làm gì trước khi tiêm?\nTrả lời: Bệnh lý tăng huyết áp không thuộc trường hợp chống chỉ định hay hoãn tiêm vaccine Covid-19 của Bộ Y tế, tuy nhiên bạn cần thận trọng tiêm chủng và tiêm tại bệnh viện để kịp thời xử trí các phản ứng sau tiêm xảy ra.",
+                "score": 0.7111866474151611,
+                "id": "vietnamese_healthcare_8998",
+                "rerank_score": 0.9991080164909363
+            },
+            {
+                "text": "Câu hỏi: Tôi bị huyết áp cao (khoảng 132-137/90), hiện uống thuốc hàng ngày, hay hồi hộp, nhịp tim trung bình khoảng 90 nhịp một phút. Tôi còn bị viêm gan B, hiện cũng đang điều trị thêm sung huyết hang vị và trào ngược dạ dày. Xin hỏi với tình trạng sức khỏe như trên, tôi có nên tiêm vaccine Covid-19 hay không?\nTrả lời: Đối với trường hợp bị bệnh mãn tính như tăng huyết áp, viêm gan B. . . đã điều trị ổn định, có thể tiêm vaccine Covid-19. Tuy nhiên, trường hợp anh đang điều trị sung huyết hang vị và trào ngược dạ dày nên tạm hoãn cho đến khi bệnh được điều trị ổn định.",
+                "score": 0.6789095997810364,
+                "id": "vietnamese_healthcare_3089",
+                "rerank_score": 0.9989644289016724
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

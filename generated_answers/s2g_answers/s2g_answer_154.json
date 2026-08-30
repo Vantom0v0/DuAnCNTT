@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Bé nhà em 6 tuổi, đã thay 2 răng cửa dưới, bây giờ, thay thêm 1 răng bên cạnh, hàm trên chưa thay cái nào. Vậy bác sĩ cho em hỏithứ tự thay răng sữa của trẻ như thế nào?Em cảm ơn bác sĩ. Lê Thị Minh Trâm(1991) Trả lời Được giải đáp bởiBác sĩ Răng - Hàm - Mặt- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bé nhà bạn đang thay răng và bạn thấy hàm dưới bé thay răng trước hàm trên, hiện tại, bé đang thay răng đúng theo sinh lý. Trong quá trình bé thay răng nếu thấy bất thường, bạn cho bé qua khám bác sĩ Răng hàm mặt.",
+    "answer": "Bé 6 tuổi đã thay 2 răng cửa dưới và đang thay thêm răng bên cạnh là phù hợp với trình tự thường gặp. Trẻ thường bắt đầu thay răng khoảng 6 tuổi, đầu tiên là răng cửa giữa, thường ở hàm dưới trước; khoảng một năm sau là răng cửa bên, rồi đến răng cửa hàm trên. Tiếp theo là các răng hàm đầu tiên, răng nanh dưới, răng nanh trên và cuối cùng là răng hàm thứ hai ở hai hàm. Thời điểm thay răng có thể sớm hoặc muộn hơn, khoảng 5–7 tuổi vẫn có thể bình thường.",
+    "evidence": [
+        "Các răng cửa dưới được thay trước, sau đó răng cửa của hàm trên sẽ rụng và bắt đầu thay sau.",
+        "Trình tự thay răng sữa ở trẻ em\nTrẻ em thường bắt đầu độ tuổi thay răng sữa chính thức khi được 6 tuổi, bắt đầu với các răng cửa giữa và tiếp theo khoảng một năm sau đó là các răng cửa bên.",
+        "Các răng hàm đầu tiên sẽ bị rụng tiếp theo và kế tiếp là các răng nanh dưới.",
+        "Răng nanh trên, sau đó răng hàm thứ hai trên và dưới sẽ thay sau cùng.",
+        "Lứa tuổi thay răng sữa có thể sớm hơn hoặc muộn hơn 6 tuổi là điều hoàn toàn bình thường đối với trẻ em.",
+        "Khi lên 6 tuổi, quá trìnhthay răngbắt đầu diễn ra, tuy nhiên một số bé sẽ thay sớm lúc 5 tuổi, có bé thay muộn lúc 7 tuổi."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Trình tự thay răng sữa ở trẻ nhỏ\nTrả lời: 2. Trình tự thay răng sữa ở trẻ nhỏ\nRăng sữa có nhiệm vụ ăn nhai và tiêu hóa thức ăn, đồng thời góp phần hình thành khung xương mặt tạm thời, nhưng vai trò của chúng hầu như không được đánh giá quá cao. Dù vậy, răng sữa tham gia vào nhiều quá trình phát triển của trẻ nhỏ, bao gồm: Phát triển cơ nhai Phát triển khớp cắn đúng Phát âm đúng Giữ cân bằng không gian và duy trì khoảng trống cho răng vĩnh viễn trong tương lai Khi quá trình phát triển tích cực của khung xương hàm kết thúc, bắt đầu từ 6 tuổi, răng sữa sẽ dần dần được thay thế bằng răng vĩnh viễn. Thông thường quá trình thay răng ở trẻ em sẽ kết thúc ở độ tuổi 12-13 tuổi, nhưng cũng có trường hợp muộn hơn, khi răng vĩnh viễn xuất hiện vào năm 17-18 tuổi. Các răng cửa dưới được thay trước, sau đó răng cửa của hàm trên sẽ rụng và bắt đầu thay sau. Tiếp tục, quá trình thay răng sữa sẽ đến các răng nanh và răng hàm. Theo đó, việc nhổ bỏ răng sữa sớm sẽ ẩn chứa nhiều nguy cơ hơn so với tác hại của việc không nhổ răng sữa. Bởi các răng lân cận sẽ bắt đầu chiếm vị trí chân răng bị nhổ, che lấp khoảng trống sẽ dành cho răng vĩnh viễn mới chuẩn bị mọc lên. Vì vậy, khi đến thời điểm răng vĩnh viễn mọc thay thế chiếc răng sữa đã nhổ, chiếc răng vĩnh viễn này sẽ phải tìm chỗ dự phòng ở nơi khác, về phía trước hoặc phía sau hàm răng. Kết cục là hàm răng sẽ trở nên lệch lạc, kém thẩm mỹ.",
+                "score": 0.6489088535308838,
+                "id": "vietnamese_healthcare_148638",
+                "rerank_score": 0.9970589876174927
+            },
+            {
+                "text": "Câu hỏi: Trình tự thay răng sữa ở trẻ em\nTrả lời: 2. Trình tự thay răng sữa ở trẻ em\nTrẻ em thường bắt đầu độ tuổi thay răng sữa chính thức khi được 6 tuổi, bắt đầu với các răng cửa giữa và tiếp theo khoảng một năm sau đó là các răng cửa bên. Các răng hàm đầu tiên sẽ bị rụng tiếp theo và kế tiếp là các răng nanh dưới. Răng nanh trên, sau đó răng hàm thứ hai trên và dưới sẽ thay sau cùng. Như vậy, trong quá trình chăm sóc con, cha mẹ cần biết từ khoảng 6 tuổi, răng sữa sẽ bắt đầu lung lay và rụng đi để nhường chỗ cho răng trưởng thành. Lứa tuổi thay răng sữa có thể sớm hơn hoặc muộn hơn 6 tuổi là điều hoàn toàn bình thường đối với trẻ em. Trẻ em gái thường thay răng sớm hơn trẻ em trai. Trình tự thay răng sữa thường bắt đầu từ răng cửa hàm dưới. Những lúc thay răng sữa có thể làm trẻ đau và lo lắng. Sau đây là những gợi ý dành cho cha mẹ trong giai đoạn này: Hãy chia sẻ với con rằng thay răng sữa là một quá trình tự nhiên và những chiếc răng vĩnh viễn mới sẽ mọc vào đúng vị trí của chúng. Việc nướu bị mềm và chảy máu một chút là điều bình thường, mặc dù một số trẻ cảm thấy khó chịu hoặc không thoải mái khi mất răng. Cha mẹ có thể nhẹ nhàng xoa bóp nướu cho trẻ bằng ngón tay sạch hoặc khăn mềm ướt để trẻ dễ chịu hơn. Đeo vòng hoặc núm vú giả khi mọc răng cho trẻ (nếu được hãy làm lạnh trước khi cho trẻ đeo) giúp trẻ giảm cảm giác khó chịu khi mọc răng. Không tiệt trùng vòng mọc răng bằng nhựa trong nước sôi hoặc nước rửa bát, trừ khi được nhà sản xuất chỉ định. Nhớ kiểm tra thông tin sản phẩm trước khi mua vòng mọc răng. Tránh những loại sử dụng chất làm mềm nhựa được gọi là 'diisononyl phthalate'. Lựa chọn bánh quy mọc răng không đường hoặc bánh quy không đường cho trẻ trên 6 tháng như một cách bắt đầu ăn dặm. Làm khô nước dãi - vùng da quanh miệng, đặc biệt là vùng cằm để tránh trẻ bị kích ứng. Bạn có thể nhẹ nhàng lau sạch dãi này bằng khăn mềm. Dùng thuốc chống viêm hay thuốc giảm đau không kê đơn, như paracetamol hay ibuprofen , để giúp giảm đau khi răng lung lay. Tuy nhiên, cha mẹ hãy hỏi ý kiến nha sĩ hoặc dược sĩ để được tư vấn về loại thuốc giảm đau thích hợp cho trẻ.",
+                "score": 0.6428542733192444,
+                "id": "vietnamese_healthcare_33837",
+                "rerank_score": 0.9970105886459351
+            },
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏi,trẻ 7 tuổi chưa thay răng sữa có sao không? Ngô Thị Lương(1984) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Ngô Thị Oanh- Bác sĩ Nhi - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Khi trẻ lên 3 tuổi sẽ mọc hoàn thiện 20 chiếc răng sữa trên cung hàm. Khi lên 6 tuổi, quá trìnhthay răngbắt đầu diễn ra, tuy nhiên một số bé sẽ thay sớm lúc 5 tuổi, có bé thay muộn lúc 7 tuổi. Trình tự thay răng khởi đầu từ việc mọc chiếc răng cối (răng số 6) và kết thúc với răng số 7 khi được 12 tuổi. Trường hợp trẻ hơn 7 tuổi chưa có dấu hiệu thay răng, bạn nên đưa trẻ đến phòng khám nha khoa uy tín để kiểm tra, tìm nguyên nhân và được tư vấn chính xác.",
+                "score": 0.6740836501121521,
+                "id": "medical_vietnamese_qa_6876",
+                "rerank_score": 0.989116370677948
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em này được 8 tháng, lúc 7 tháng 15 ngày bé có mọc 1 răng hàm dưới, đến nay vẫn chưa mọc răng thứ 2 hàm dưới mà lại tiếp tục mọc 1 răng đối diện răng đã mọc ở hàm trên. Vậy bác sĩ cho em hỏibé 8 tháng tuổi mọc răng không theo thứ tự có sao không?Em có cần cho bé đi khám không? Em cảm ơn bác sĩ. Nguyễn Thị Lan(1993) Trả lời Được giải đáp bởiBác sĩ Răng - Hàm - Mặt- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đã mọc được 02 răng, 1 răng cửa trên và 1 răng cửa dưới. Hiện tại, bé vẫn đang trong giai đoạnmọc răng, nếu bé vẫn chơi, ăn ngủ bình thường thì bạn chỉ cần theo dõi bé thêm bởi nhiềutrẻ mọc răng không theo thứ tự. Trong trường hợp bé có bất thường như quấy khóc, không chịu chơi,ăn uống kémthì khi đó, bạn hãy cho bé qua các cơ sở y tế để được thăm khám và tư vấn.",
+                "score": 0.657951831817627,
+                "id": "medical_vietnamese_qa_6642",
+                "rerank_score": 0.9831092953681946
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ. Bé nhà em năm nay gần 8 tuổi. Hầu như răng của bé đều tốt, bé mới chỉ thay 2 răng sữa ở hàm dưới nhưng hàm trên bé có 2 cái răng từ từ hở ra. Bác sĩ cho hỏi như vậy có sao không ạ? Có cần phải nhổ răng để sau này không bị thưa răng không ạ?Mong bác sĩ tư vấn giúp em, em xin cảm ơn.\nTrả lời: Chào bạn. Răng của bé bị hở ra là răng cửa hay răng hàm?\nHiện tại bé mới chỉ thay 2 cái răng hàm dưới, bé đã 8 tuổi thường là tuổi thay răng cửa hàm trên. Nếu răng cửa hàm trên thấy hở ra có thể là răng sữa đang chuẩn bị thay, có thể nhổ được. Bạn nên đưa bé đến khám và chụp phim kiểm tra để được chẩn đoán chính xác.",
+                "score": 0.6633926033973694,
+                "id": "vietnamese_medical_qa_3848",
+                "rerank_score": 0.9736745953559875
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

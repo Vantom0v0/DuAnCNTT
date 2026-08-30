@@ -1,0 +1,47 @@
+{
+    "model_name": "fur",
+    "question": "Xin chào bác sĩ, cứ thường đến kì thi là con tôi lại có triệu chứng buồn nôn hoặc đau đầu vậy nguyên nhân là do đâu?",
+    "ground_truth": "Chào bạn\nTriệu chứng của con bạn có thể do bị áp lực học hành căng thẳng gây ra đau đầu buồn nôn.Bạn nên cho con học hành theo khoa học,ăn uống đầy đủ,ngủ đủ giấc.\nNếu con bạn đau đầu nhiều bạn có thể cho con bạn uống thuốc paracetamol theo chỉ dẫn tùy theo độ tuổi của con bạn.\nThân mến !",
+    "answer": "Các thông tin được cung cấp cho thấy **stress, căng thẳng kéo dài và lo âu thường xuyên có thể là một nguyên nhân gây đau đầu**. Tuy nhiên, **chưa có bằng chứng lâm sàng cụ thể trong phần thông tin này chứng minh rằng stress hoặc lo âu trực tiếp gây ra tình trạng đau đầu kèm buồn nôn tái diễn vào mỗi kỳ thi**.\n\nĐau đầu kèm buồn nôn có thể liên quan đến nhiều nguyên nhân khác, như đau nửa đầu, viêm xoang, bệnh về mắt, thiếu máu hoặc các bệnh lý thần kinh. Vì triệu chứng tái diễn, bạn nên cho trẻ đi khám để tìm nguyên nhân, đặc biệt nếu đau tăng lên, kéo dài, kèm nôn, sốt hoặc xuất hiện triệu chứng bất thường khác.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi tôi cảm thấy buồn nôn nhưng không được nhiều, cảm thấy đau đầu, mệt mỏi. Bác sĩ cho tôi hỏi tình trạng như vậy là dấu hiệu bệnh gì? Mong bác sĩ tư vấn giúp tôi. Tôi xin cảm ơn.\nChào bác sĩ, em bị đau đầu kèm theo đó là mỏi chân tay và buồn nôn, vậy em muốn hỏi em bị bệnh gì, cách điều trị ra sao ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn!\nXin hỏi bạn cơn đau đầu, buồn nôn có xảy ra thường xuyên không? Có kèm theo bệnh lý nào không? Nếu xảy ra thường xuyên có thể là biểu hiện của nhiều vấn đề sức khỏe khá nguy hiểm.",
+            "score": 0.5741519927978516,
+            "id": "vietnamese_medical_qa_3207",
+            "rerank_score": 0.8559576869010925
+        },
+        {
+            "text": "Câu hỏi: Em năm nay 19 tuổi, trong 1 đến 1 tháng rưỡi gần đây em thường xuyên bị đau đầu, buồn nôn nhưng không nôn được. 1 ngày đau ít nhất 1 lần mà 1 lần có thể kéo dài đến mấy tiếng. Em có uống thuốc giảm đau nhưng không hề thấy đỡ. Vậy bác sĩ cho em hỏiđau đầu kèm buồn nôn có nguy cơ mắc bệnh gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Đau đầu là triệu chứng của nhiều bệnh lý khác nhau, đôi khi đau đầu có thể có nguyên nhân từ những tổn thương thực thể tại não, bệnh lý mạch máu não, bệnh lý tai mũi họng, mắt, răng hàm mặt. Đau đầu cũng có thể gặp trong những trường hợp do stress, căng thẳng kéo dài, lo âu thường xuyên,... Đau đầu cũng có thể gặp trong sốt vi rút. Triệu chứng đau đầu như bạn mô tả thì không nên tự mua thuốc điều trị triệu chứng mà cần phải thăm khám với bác sĩ chuyên khoa Thần kinh để chẩn đoán tìm nguyên nhân điều trị.",
+            "score": 0.5377609729766846,
+            "id": "medical_vietnamese_qa_9252",
+            "rerank_score": 0.8494521975517273
+        },
+        {
+            "text": "Câu hỏi: Tổng quan\nTrả lời: 1. Tổng quan\nBuồn nôn là cảm giác khó chịu ở dạ dày và muốn nôn cũng như dấu hiệu báo trước cho việc nôn ra chất chứa trong dạ dày. Buồn nôn thường do nhiều nguyên nhân gây ra và thường có thể được ngăn ngừa. Cơn đau đầu là tình trạng đau, khó chịu xảy ra trong hoặc xung quanh đầu của bạn, bao gồm cả da đầu, xoang và cổ. Đau đầu và buồn nôn đôi khi xảy ra cùng nhau. Trong một số trường hợp, chúng có thể là dấu hiệu của một tình trạng bệnh lý nghiêm trọng cần được điều trị ngay lập tức. Vì vậy bạn cần phải nhận biết tình huống khẩn cấp để nhận sự trợ giúp y tế kịp thời.",
+            "score": 0.5283660888671875,
+            "id": "vietnamese_healthcare_17741",
+            "rerank_score": 0.7747123837471008
+        },
+        {
+            "text": "Câu hỏi: Đau đầu kèm buồn nôn là dấu hiệu của bệnh gì?\nTrả lời: Thông tin mô tả không đủ để bác sĩ tư vấn chi tiết cho bạn. Bạn nên đi khám ngay để được chẩn đoán và có phương pháp điều trị kịp thời. Ngoài ra, bạn cần làm các xét nghiệm để chẩn đoán nguyên nhân sốt (có thể là sốt xuất huyết, cũng có thể là 1 nguyên nhân khác).",
+            "score": 0.5811817646026611,
+            "id": "vietnamese_healthcare_8922",
+            "rerank_score": 0.7066567540168762
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em thường xuyên bị nhức đầu kèm theo đau mắt và nôn. Bác sĩ cho em hỏi tình trạng trên là dấu hiệu bệnh gì ạ? Mong bác sĩ giải đáp, xin cảm ơn.\nTrả lời: Chào bạn. Nhức đầu và nôn là triệu chứng của nhiều bệnh lý về thần kinh. Do đó bạn cần đến cơ sở y tế để được khám và tư vấn. Chúc bạn mau khỏe.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.5695630311965942,
+            "id": "vietnamese_medical_qa_3693",
+            "rerank_score": 0.6056010127067566
+        },
+        {
+            "text": "Câu hỏi: Em bịđau đầu dữ dội, chóng mặt, buồn nôn. Huyết áp 95 - 60, nhịp tim 105. Triệu chứng như vậy diễn ra đã 2 ngày. Vậy bác sĩ cho em hỏiđau đầu dữ dội kèm buồn nôn là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Lương Thị Xuân Hiền(1984) Trả lời Được giải đáp bởiTiến sĩ, Bác sĩ Nguyễn Hồng Sơn -Khoa Khám bệnh, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Đau đầulà biểu hiện triệu chứng của nhiều bệnh lý khác nhau. Với một người trẻ một số nhóm nguyên nhân hay gặp gây đau đầu cần phải chú ý như: Bệnh lý liên quan tai mũi họng như viêm xoang. Đau nửa đầu Migraine. Bệnh tăng nhãn áp. Thiếu máu. Bệnh lý của não màng não (u não, phình mạch não, viêm não, màng não,...). Đau đầu đôi khi cũng là biểu hiện của trình trạng stress, căng thẳng kéo dài, lo âu thường xuyên, thay đổi hormone ở phụ nữ sau sinh. Bạn mới bị đau đầu 02 ngày nay nếu trước đây vẫn thường xuyên xuất hiện những cơn đau đầu như vậy thì cần phải đi khám với với bác sĩ để được thực hiện thêm xét nghiệm và một số thăm dò khác từ đó chẩn đoán nguyên nhân và điều trị. Một nguyên nhân cần phải loại trừ ở người trẻ với những trường hợp đau đầu thường xuyên kéo dài là có túi phình mạch não hay không? Các bác sĩ có thể chỉ địnhchụp MRI mạch nãođể xác định có túi phình mạch não hay không? Nếu đau đầu này xuất hiện lần đầu tiên, ngoài đau đầu không có triệu chứng gì khác bạn có thể tạm thời sử dụng cácthuốc giảm đauthông thường an toàn như Paracetamol có tác dụng cắt cơn đau tạm thời. Nếu sau vài ngày không đỡ hoặc có dấu hiệu đau tăng lên, hoặc đau đầu kèm theo sốt, buồn nôn,...thì cần khám ngay để được điều trị.",
+            "score": 0.5388373732566833,
+            "id": "medical_vietnamese_qa_9044",
+            "rerank_score": 0.6318306922912598,
+            "weighted_score": 0.7487437248229981
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

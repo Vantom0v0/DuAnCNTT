@@ -1,0 +1,48 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Lọc huyết tương hay lọc albumin sẽ tốt hơn cho viêm tuỵ cấp?",
+    "ground_truth": "Kỹ thuật lọc huyết tương là chiết tách phần huyết tương và tế bào máu ra thành hai phần, phần huyết tương của bệnh nhân sẽ bị lấy ra và thay thế bằng dịch khác, gồm có huyết tương tươi đông lạnh của người hiến máu hoặc albumin (pha với NaCl 0. 9%). Tùy tình trạng của bệnh nhân mà bác sĩ sẽ chỉ định dùng dung dịch thay thế loại nào. Huyết tương tươi đông lạnh có ưu điểm là có các yếu tố đông máu, tuy nhiên có nguy cơ lây nhiễm những bệnh lây qua đường máu mà mình không phát hiện ra, còn albumin thì ngược lại, không nguy cơ nhiễm bệnh nhưng lại thiếu các yếu tố đông máu. Do đó, không thể kết luận phương pháp nào tốt hơn, qua quá trình thăm khám bác sĩ sẽ chỉ định phương pháp phù hợp với người bệnh.",
+    "answer": "Không thể kết luận lọc huyết tương hay lọc albumin tốt hơn cho viêm tụy cấp. Lọc huyết tương có thể dùng huyết tương tươi đông lạnh, cung cấp các yếu tố đông máu nhưng có nguy cơ lây nhiễm bệnh qua đường máu; còn albumin không có nguy cơ này nhưng thiếu các yếu tố đông máu. Vì vậy, tùy tình trạng cụ thể, bác sĩ sẽ thăm khám và chỉ định loại dung dịch thay thế phù hợp.",
+    "evidence": [
+        "Kỹ thuật lọc huyết tương là chiết tách phần huyết tương và tế bào máu ra thành hai phần, phần huyết tương của bệnh nhân sẽ bị lấy ra và thay thế bằng dịch khác, gồm có huyết tương tươi đông lạnh của người hiến máu hoặc albumin (pha với NaCl 0.9%).",
+        "Tùy tình trạng của bệnh nhân mà bác sĩ sẽ chỉ định dùng dung dịch thay thế loại nào.",
+        "Huyết tương tươi đông lạnh có ưu điểm là có các yếu tố đông máu, tuy nhiên có nguy cơ lây nhiễm những bệnh lây qua đường máu mà mình không phát hiện ra, còn albumin thì ngược lại, không nguy cơ nhiễm bệnh nhưng lại thiếu các yếu tố đông máu.",
+        "Do đó, không thể kết luận phương pháp nào tốt hơn, qua quá trình thăm khám bác sĩ sẽ chỉ định phương pháp phù hợp với người bệnh."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi lọc huyết tương hay lọc albumin sẽ tốt hơn cho viêm tụy cấp? Mong bác sĩ tư vấn và giải đáp giúp e ạ. Em cảm ơn bác sĩ.\nTrả lời: Chào bạn! Kỹ thuật lọc huyết tương là chiết tách phần huyết tương và tế bào máu ra thành hai phần, phần huyết tương của bệnh nhân sẽ bị lấy ra và thay thế bằng dịch khác, gồm có huyết tương tươi đông lạnh của người hiến máu hoặc albumin (pha với NaCl 0.9%).\nTùy tình trạng của bệnh nhân mà bác sĩ sẽ chỉ định dùng dung dịch thay thế loại nào. Huyết tương tươi đông lạnh có ưu điểm là có các yếu tố đông máu, tuy nhiên có nguy cơ lây nhiễm những bệnh lây qua đường máu mà mình không phát hiện ra, còn albumin thì ngược lại, không nguy cơ nhiễm bệnh nhưng lại thiếu các yếu tố đông máu.\nDo đó, không thể kết luận phương pháp nào tốt hơn, qua quá trình thăm khám bác sĩ sẽ chỉ định phương pháp phù hợp với người bệnh.",
+                "score": 0.6252413988113403,
+                "id": "vietnamese_medical_qa_2970",
+                "rerank_score": 0.9997782111167908
+            },
+            {
+                "text": "Câu hỏi: Tôi có tiền sử bệnh viêm gan B, đã điều trị cách đây 11 năm. Sau thời gian đó, tôi không đi tái khám lần nào nữa. Như vậy, trước khi tiêm vaccine phòng Covid-19, tôi có cần đi tái khám không? Việc khám sàng lọc trước khi tiêm có biết được tôi còn mắc viêm gan B không?\nTrả lời: Theo như câu hỏi của anh/chị, chúng tôi không biết anh/chị đã bị viêm gan B mãn tính hay cấp tính. Nếu anh/chị bị viêm gan B mãn tính có thể tiêm vaccine Covid-19 khi sức khỏe ổn định. Nếu anh/chị bị viêm gan B cấp tính, sau khi khỏi anh/chị có thể tiêm chủng. Việc khám sàng lọc trước tiêm không thể biết được anh/chị còn mắc viêm gan B hay không, anh/chị cần phải gặp bác sĩ chuyên khoa để được khám và chẩn đoán.",
+                "score": 0.4632435739040375,
+                "id": "vietnamese_healthcare_7271",
+                "rerank_score": 0.00016610971943009645
+            },
+            {
+                "text": "Câu hỏi: Có nên cắt amidan khi mắc viêm amidan và thanh quản không?\nTrả lời: Bác sĩ của bạn đã thăm khám và xác định là tình trạng viêm Amidan cấp thì cần phải điều trị hết giai đoạn cấp đã bạn nhé, sau đó bác sĩ sẽ đánh giá lại, nếu tình trạng Amidan quá phát nhiều, có hốc mủ, thường xuyên gây viêm (đối với người lớn là 3 lần/năm) hoặc gây hơi thở hôi, ngủ ngáy thì có chỉ định cắt Amidan. Với những phương pháp cắt Amidan bây giờ bạn có thể nói và ăn uống sau mổ được ngay nên không quá lo lắng khi bác sĩ chỉ định cắt Amidan cho bạn.",
+                "score": 0.4518126845359802,
+                "id": "vietnamese_healthcare_4445",
+                "rerank_score": 0.00014903063129168004
+            },
+            {
+                "text": "Câu hỏi: ! Cho em hỏibị gan nhiễm mỡ, máu nhiễm mỡ và có tiền sử viêm gan C đã điều trị cần dùng thuốc gìhay có cách điều trị gì để đạt hiệu quả tốt nhất ạ? Mong bác sĩ tư vấn và giải đáp. Em xin chân thành cảm ơn! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Bạn đã điều trịviêm gan C, nhưng bạn phải tái khám và kiểm tra định kỳ. Bạn bịgan nhiễm mỡđộ mấy,máu nhiễm mỡmức độ nào?. Theo đó, bạn cần ghi rõ tình trạng bệnh để bác sĩ tư vấn cụ thể. Bạn cần phải kiểm tra men gan, nếu men gan bình thường, mỡ máu tăng cao cần điều trị mỡ máu kết hợp điều chỉnh chế độ ăn uống và tăng cường luyện tập. Kiểm soát mỡ máu tốt, siêu âm gan và xét nghiệm men gan định kỳ 6 tháng đến 1 năm/lần Nếu bạn bị gan nhiễm mỡ, máu nhiễm mỡ, men gan tăng, bạn cần đến cơ sở y tế hoặc bệnh viện thuộcHệ thống Y tế Vinmecđể khám chuyên khoa Gan mật và điều trị theo phác đồ của bác sĩ bạn nhé. Cảm ơn bạn đã tin tưởng và gửi câu hỏibị gan nhiễm mỡ, máu nhiễm mỡ và có tiền sử viêm gan C đã điều trị cần dùng thuốc gìđến Vinmec. Chúc bạn luôn có sức khỏe tốt. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Võ Thị Thùy Trang -Bác sĩ Nội soi tiêu hóa - Khoa Khám bệnh & Nội khoa - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+                "score": 0.4360056519508362,
+                "id": "medical_vietnamese_qa_11441",
+                "rerank_score": 0.00013706392201129347
+            },
+            {
+                "text": "Câu hỏi: Em năm nay 23 tuổi, gần đây em có đi làm xét nghiệm thì HBsAg dương tính, AST 23 ALT 12 GGT 18, HBeAg 1395 COI thì sao ạ? Là viêm gan B mạn hay cấp ạ? Có thể khỏi không ạ? Mong bác sĩ tư vấn giúp em, em xin cảm ơn.\nTrả lời: Chào bạn.\nBạn phát hiện HBsAg Dương tính lần đầu, hiện tại HBeAg Dương tính. Xét nghiệm HbeAg là một trong những xét nghiệm được thực hiện nhằm đánh giá được khả năng lây lan của virus viêm gan B đối với người khỏe mạnh. Để xác định bạn đang giai đoạn viêm gan cấp hay đã là viêm gan mạn, bạn cần khám bác sĩ chuyên khoa Tiêu hóa Gan mật để được tư vấn làm thêm xét nghiệm.",
+                "score": 0.47002366185188293,
+                "id": "vietnamese_medical_qa_3411",
+                "rerank_score": 0.00012845511082559824
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

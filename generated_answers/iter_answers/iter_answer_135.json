@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Con em 4 tuổi hay bị nhiễm giun kim. Bé uống thuốc 4 tháng sau lại bị nhiễm giun kim lại. Vậy bác sĩ cho em hỏitrẻ nhiễm giun kim tái phát điều trị thế nào?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Con bạn nhiễm giun kim đã tẩy giun nhưng bé vẫn xuất hiện lại. Bạn nên tẩy 2 lần cách nhau 3 tuần, giặt chăm mền và hấp sấy cho bé mới hết được.",
+    "answer": "Trẻ 4 tuổi bị giun kim tái phát thường do còn trứng giun trong môi trường hoặc lây chéo từ người thân, vì vậy bé có thể được điều trị nhắc lại theo hướng dẫn của bác sĩ, thường dùng **2 liều cách nhau 2 tuần** (không tự ý tăng liều hay dùng kéo dài). Nên điều trị/tẩy giun đồng thời cho các thành viên trong gia đình nếu có nguy cơ, rửa tay bằng xà phòng trước khi ăn và sau khi đi vệ sinh, cắt ngắn móng tay, không để trẻ mút tay, vệ sinh hậu môn hằng ngày, giặt và phơi nắng quần áo, chăn màn, đồ chơi thường xuyên. Tẩy giun định kỳ thường 6 tháng/lần chỉ mang tính dự phòng; nếu bé vẫn tái nhiễm nhiều lần, ngứa hậu môn kéo dài hoặc có triệu chứng bất thường, nên đưa bé khám chuyên khoa Nhi để xác định và hướng dẫn điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bé em được 22 tháng 15 ngày. Hiện bé đang bịgiun kim, em đã thấy giun bò ở hậu môn của bé. Bác sĩ cho em hỏitrẻ gần 2 tuổi bị giun kim có nên đến bệnh viện tẩy giun khônghay đợi đến khi trẻ đủ 2 tuổi thưa bác sĩ? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ trên 1 tuổi có thểtẩy giun định kỳđược rồi, mỗi 6 tháng một lần. Với giun kim, ngoài việc tẩy giun 2 liều cách nhau 2 tuần, trẻ cần được giữ vệ sinh tay chân, cắt ngắn móng tay, chân. Thay đồ cá nhân thường xuyên. Áo quần, chăn màn đều nên giặt phơi thường xuyên để loại trừ trứng giun. Người thân trong nhà đều nên xổ giun cùng trẻ. Việcloại trừ trứng giunsẽ giúp trẻ tránh bị tái phát nhiều đợt trở lại. Nếu còn lo lắng, bạn nên cho bé đến khám để có đánh giá và tư vấn tốt nhất.",
+            "score": 0.761147677898407,
+            "id": "medical_vietnamese_qa_7050"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 5 tuổi bị giun kim. Em cho bé uống thuốc tẩy giun, được 1 tháng 20 ngày bé đã bị lại. Vậy bác sĩ cho em hỏitrẻ 5 tuổi bị giun kim điều trị như thế nào?Có nên tiếp tục uống thuốc tẩy giun không? Em cảm ơn bác sĩ. Lê Thị Minh(1975) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Phan Thị Cẩm Vân- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé có thể tẩy giun lại bằng thuốc tẩy giun. Quan trọng là biện pháp phòng ngừa như ăn chín uống sôi, vệ sinh cá nhân tốt (cắt móng tay, rửa tay bằng xà phòng trước ăn và sau đi vệ sinh), vệ sinh môi trường sống xung quanh sạch sẽ, có thể tẩy giun định kỳ 2 lần/năm cho bé.",
+            "score": 0.7493910789489746,
+            "id": "medical_vietnamese_qa_6104"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 3,5 tuổi. Em mới sổ giun cho bé được 2 tháng hơn nhưng cách đây mấy hôm ban đêm, bé bị ngứa hậu môn và em bắt được con giun kim. Vậy bác sĩ cho em hỏitrẻ mắc giun kim gây ngứa hậu môn phải làm sao?Bây giờ, em có cho bé uống thuốc sổ giun nữa hay không? Một năm em sổ giun 2 lần cho bé. Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Từ 2 tuổi trở lên 6 tháng 1 lần tẩy giun cho trẻ, bạn phải giữ vệ sinh sạch cho trẻ, vệ sinh trước và sau khi đi vệ sinh. Bạn nên cho trẻ đi khám bác sĩ chuyên khoa Nhi để được bác sĩ để hướng dẫn dùng thuốc tẩy giun kim.",
+            "score": 0.7232098579406738,
+            "id": "medical_vietnamese_qa_5093"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 29 tháng tuổi, bịmắc giun kim. Em đãtẩy giuncho bé cách đây 3 tháng. Đến nay, bé lại bị mắc lại. Vậy bác sĩ cho em hỏitrẻ bị tái nhiễm giun kim phải làm sao?Em có nên tẩy giun cho bé tiếp hay phải làm sao được? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Có thể bạn chưa biết, giun kim có thể sống trên bề mặt dụng cụ sinh hoạt đến 14 ngày. Trẻ em không có ý thức trong việc vệ sinh tay và hay có thói quen cho bất kỳ thứ gì vào miệng. Giun kim đẻ trứng ở rìa hậu môn gây ngứa, khó chịu, nếu bé vô tình gãi hậu môn và đưa tay với đồ ăn, đồ chơi rồi đưa lên miệng sẽ nhiễm lại giun kim và có thể lây trong môi trường lớp học, các trẻ cùng khu phố. Do đó, bạn cần vệ sinh dụng cụ, đồ chơi trong tầm với của trẻ hàng ngày. Tập cho trẻ thói quen rửa tay trước khi ăn, sau khi đi vệ sinh. Còn về việc dùng thuốc tẩy giun, thời gian tối thiểu chỉ cần 3 tuần là uống lại được khi cần. Vì thế, bạn có thể tẩy giun nhắc lại cho con luôn. Việc hướng dẫn tẩy giun 6 tháng/lần là uống định kỳ mang tính dự phòng.",
+            "score": 0.7092936038970947,
+            "id": "medical_vietnamese_qa_6272"
+        },
+        {
+            "text": "Câu hỏi: Hướng dẫn tẩy giun kim cho trẻ hiệu quả, ngăn ngừa tái phát\nTrả lời: giun kim nếu không điều trị triệt để trứng giun thì bệnh dễ tái đi tái lại. Để điều trị tốt nhất cần tẩy giun cho cả gia đình vì có 1 nguồn lây thì có thể lây trở lại, liệu trình 2 lần trong 2 tuần. Trong thời gian này, áo quần, chăn màn, đồ dùng tiếp xúc với nguồn lây cần được giặt, phơi sạch để diệt trứng giun lây lan trở lại. Đối với em bé cần vệ sinh tay, cắt móng tay, giữ gìn vệ sinh thực phẩm. Nếu bị lại nhiều lần, mẹ nên cho bé tái khám chuyên khoa để có đánh giá, tư vấn và điều trị đúng nhất.",
+            "score": 0.7092379331588745,
+            "id": "vietnamese_healthcare_8516"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

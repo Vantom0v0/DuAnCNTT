@@ -1,0 +1,75 @@
+{
+    "model_name": "fur",
+    "question": "Bé 5.5 tháng nặng 6.7 kg. Cách đây vài hôm, bé bị dị ứng sữa công thức. Bình thường bé bú mẹ hoàn toàn. 4 hôm nay xì hơi nhiều và có mùi nặng, 2 ngày mới đi vệ sinh 1 lần, Bác sĩ cho em hỏitrẻ xì hơi nhiều, 2 ngày mới đi vệ sinh có sao không?Em có nên cho bé uống thêm men vi sinh không? Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Tình trạng của bé hiện không gợi ý bất thường, không cần bổ sung men cho bé.",
+    "answer": "Ở bé 5,5 tháng bú mẹ hoàn toàn, đi ngoài 2 ngày/lần có thể vẫn bình thường nếu bé:\n\n- Bú tốt, tăng cân và chơi bình thường.\n- Bụng mềm, không chướng căng.\n- Phân vẫn mềm/lỏng khi đi ngoài.\n- Không quấy khóc hoặc đau rõ khi đại tiện.\n- Vẫn đi tiểu bình thường và không nôn.\n\nNên đưa bé đi khám nếu có một trong các dấu hiệu cảnh báo sau:\n\n- Bụng chướng nhiều, căng hoặc cứng.\n- Phân cứng, khô, vón như phân dê; đi rất khó hoặc đau.\n- Đi ngoài rất ít, kéo dài; không đi được dù đã theo dõi.\n- Phân có nhầy hoặc máu, tóe nước bất thường.\n- Bú kém, nôn, quấy khóc nhiều, đau bụng hoặc toàn trạng mệt.\n- Bé chậm tăng cân hoặc không tăng cân.\n- Có tiền sử sau sinh chậm đi phân su trong 24–48 giờ đầu.\n\nChỉ riêng việc xì hơi nhiều, có mùi và đi ngoài 2 ngày/lần chưa đủ để kết luận là táo bón. Nếu bé xuất hiện bất kỳ dấu hiệu cảnh báo nào trên, nên đưa bé đến khám chuyên khoa Nhi/Tiêu hóa nhi.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bé nhà em 4 tháng. Hiện tại bú mẹ hoàn toàn, vẫn khỏe mạnh bình thường không quấy khóc nhưng bé đi đại tiện 3 - 4 ngày mới đi 1 lần phân lỏng nhưng mùi nặng, bé đánh rắm rất nhiều. Vậy bác sĩ cho em hỏitrẻ 4 tháng tuổi ít đi ngoài, phân lỏng nặng mùi có sao không?Có phải bé đang bị táo bón không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đi ngoài ít, phân lỏng nặng mùi là dấu hiệu táo bón. Bạn nên cho bé đi khám chuyên khoa Tiêu hóa nhi để được đánh giá cụ thể.",
+            "score": 0.6630728244781494,
+            "id": "medical_vietnamese_qa_4705",
+            "rerank_score": 0.9963316321372986
+        },
+        {
+            "text": "Câu hỏi: ! Con em được 2 tháng 5 ngày, 1 tuần trở lại đây bé không đi ị, hay rặn, xì hơi có mùi hôi, bụng to. Mỗi ngày bé đi ngoài có 1 hoặc 2 lần, mỗi lần bé đi đều khóc thét lên. Khi khóc thì bé cong người, quơ tay chân, mặt bé tím tái quanh mắt, mũi, mép miệng. Khóc xong thì bé mệt và ngủ luôn. Ngoài ra, bé vẫn bú nhiều, và chơi vui, tăng cân đều. Xin hỏi bác sĩ,trẻ khó đi ngoài, xì hơi có mùi có phải dotáo bónkhông? Mong bác sĩ tư vấn giúp em. Xin cảm ơn bác sĩ. Phạm Thị Kim Chi(1993) Trả lời\nTrả lời: Chào bạn! Thông tin bạn gửi không có chế độ ăn của trẻ, trẻ bú mẹ hay sữa công thức nên bác sĩ rất khó có thể kết luậntrẻ khó đi ngoài, xì hơi có mùi có phải do táo bón không. Ở lứa tuổi này trẻ bú mẹ hoàn toàn mà 1 tuần không ị nhưng phân vẫn mềm, bé chơi vui và tăng cân tốt thì cũng không phải táo bón. Tuy nhiên, nếu trẻ có biểu hiện đầy bụng, đau bụng... bạn có thể đưa trẻ đi khám chuyên khoa Tiêu hóa tại cơ sở Y tế uy tín hoặc một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để bác sĩ khẳng định chẩn đoán và tư vấn chế độ ăn của mẹ cũng như hướng xử trí tiếp theo. Cảm ơn bạn đã đặt câu hỏi tới Vinmec. Trân trọng! Được giải đáp bởiBác sĩ Đỗ Thị Linh Phương -Bác sĩ Nhi - Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.6558547616004944,
+            "id": "medical_vietnamese_qa_7738",
+            "rerank_score": 0.9828589558601379
+        },
+        {
+            "text": "Câu hỏi: Hiện tại, con em được gần 2 tháng tuổi. Bé ti mẹ và có dặm thêm sữa ngoài nhưng ít. Mới đây, em có đổi sữa cho bé thì bé vẫn ti bình thường còn tí nhiều hơn sữa cũ, nhưng em thấy bé có hiện tượng là xì hơi nhiều lần trong ngày, có mùi, rồi hết hộp đó em cho bé quay về sữa ban đầu thì bé bớt xì hơi nhưng vẫn có mùi và bé đi phân có màu khác bình thường và có mùi thối nhưng bé vẫn ti mẹ và ngủ bình thường không quấy khóc. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nhiều kèm phân màu khác thường có sao không?Em nên làm thế nào để cải thiện tình trạng của bé? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé vẫn ti mẹ và ngủ bình thường không quấy khóc và lên cân đều thì không sao hết. Bạn vẫn cho bé ăn như hiện tại. Nếu phân bé tóe nước, nhầy máu, bú kém, nôn, chướng bụng,... thì là dấu hiệu bất thường, lúc này bạn nên đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể. Bên cạnh đó, bạn nên cho bé bú mẹ nhiều.",
+            "score": 0.6938072443008423,
+            "id": "medical_vietnamese_qa_5158",
+            "rerank_score": 0.977132260799408
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 1 tháng tuổi. Một tuần nay,bé xì hơi nhiềuvà có mùi thối (không dưới 30 lần), mỗi lần muốn xì hơi thì hay rặn, gồng mình, có khi quấy khóc luôn, xì hơi xong là hết. Em cảm giác như bé xì hơi bị đau ở đâu đó. Nhưng nếu ẵm bé lên người đi tới đi lui thì bé xì hơi bình thường không khó chịu. Bé không có biểu hiện sốt hay đi ị bất thường, bé bú mẹ hoàn toàn. Hai ngày nay, bé chưa đi ngoài. Ban ngày, bé ngủ giấc ngắn nửa tiếng, tầm 1 tiếng thôi. Cứ 2 tiếng thì bé bú 1 lần, mỗi lần bú cũng khoảng nửa tiếng mới chịu. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nhiều có sao không?Em có cần cho bé đi khám không? Em cảm ơn bác sĩ. Trần Thị Thúy(1991) Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Bùi Thị Hà -Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long.\nTrả lời: bác sĩ xin giải đáp như sau: Xì hơi (hay còn gọi là trung tiện) là sự tích tụ khí xảy ra khi nguồn thức ăn chưa tiêu hóa hết ở dạ dày, khi xuống đến đại tràng sẽ được các vi khuẩn phân hủy dẫn đến bài tiết khí. Nguyên nhân của trung tiện nhiều có thể do kém tiêu hóa thức ăn do trẻ không dung nạp được đường Lactose và gluten, mắcbệnh Celiaccũng có triệu chứng ợ hơi và trung tiện, do táo bón, doloạn khuẩn đường ruột. Vì thế, bạn nên cho trẻ đi khám để được thăm khám chẩn đoán tìm nguyên nhân điều trị cho trẻ.",
+            "score": 0.7366750240325928,
+            "id": "medical_vietnamese_qa_6105",
+            "rerank_score": 0.9716299772262573
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 2.5 tháng. Từ khoảng 1.5 tháng, bé xì hơi nặng mùi, 7 ngày mới ị, phân có màu vàng sệt. Mỗi lần trước khi ngủ bé đều quấy khóc, bé ít khi bú khi đang thức. Vậy bác sĩ cho em hỏitrẻ sơ sinh xì hơi nặng mùi kèm đi ngoài ít có sao không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Hiện tại, cháu xì hơi và phân vàng như trên là bình thường, bạn có thể bổ sung thêm biogaia ngày 5 giọt mỗi sáng để làm giảm quấy khóc, và xì hơi.",
+            "score": 0.750638484954834,
+            "id": "medical_vietnamese_qa_4535",
+            "rerank_score": 0.9511743187904358
+        },
+        {
+            "text": "Câu hỏi: Tình trạng xì hơi của trẻ là gì?\nTrả lời: 1. Tình trạng xì hơi của trẻ là gì?\nTheo các chuyên gia nghiên cứu về Nhi khoa cho biết, trẻ vài tuần đến vài tháng thường đi ngoài ít hơn trẻ mới sinh và ngày. Đây được xem như những biểu hiện bình thường của trẻ nên cha mẹ không lo lắng. Khi trẻ được 2 tháng trở lên sẽ đi ngoài khoảng 1 lần một ngày hay vài ngày một lần. Ngoài độ tuổi này, tần suất đi ngoài sẽ phụ thuộc vào chế độ ăn uống của bé. Nếu bú mẹ thì có thể không đi ngoài mỗi ngày vì cơ thể trẻ hấp thu hết các chất dinh dưỡng trong sữa mẹ. Tần suất đi ngoài của trẻ có thể sẽ thay đổi phụ thuộc vào việc trẻ bắt đầu ăn dặm, ba mẹ cần quan sát các loại thức ăn xem loại nào sẽ khiến cho trẻ xì hơi nhiều . Ngoài ra, hệ tiêu hoá của trẻ sơ sinh còn chưa phát triển hoàn thiện nên dễ dàng bị đầy bụng, khó tiêu ... khi có tác động không tốt nào từ bên ngoài ảnh hưởng đến. Bên cạnh đó, trẻ em ở giai đoạn này nếu không được cung cấp đầy đủ chất dinh dưỡng và ngủ đủ giấc cũng sẽ cản trở quá trình phát triển một cách bình thường. Thêm vào đó, việc trẻ bị đầy bụng, khó tiêu kéo dài trong một khoảng thời gian cũng sẽ không tốt cho hệ tiêu hoá cũng như sức khỏe. Do đó, ba mẹ thấy trẻ xì hơi nhiều hơn bình thường và thậm chí có thể xì hơi có mùi thì chứng tỏ hệ tiêu hoá của con đang có vấn đề. Ba mẹ cần tìm cách xử lý nhanh chóng giúp con thoát khỏi tình trạng này.",
+            "score": 0.7520997524261475,
+            "id": "vietnamese_healthcare_122454",
+            "rerank_score": 0.9714739918708801,
+            "weighted_score": 0.9821677327156066
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 25 ngày tuổi, bình thường 1 ngày bé đi ngoài 5 - 6 lần, bé ti mẹ là chính, 1 ngày em cho ti thêm sữa ngoài 50 - 60ml, nhưng 2 ngày nay bé chưa đi ngoài được mà xì hơi nhiều. Bé hay bị trớ, em ăn uống rau củ chế độ đầy đủ. Vậy bác sĩ cho em hỏitrẻ 2 ngày chưa đi ngoài có phải táo bón không?Cách khắc phục như thế nào? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Với những trẻ ăn sữa mẹ số lần đi ngoài trong bình 3 -5 lần/ ngày, phân lỏng nước hoa cà hoa cải. Nhưng trẻ bú sữa công thức số lần đi ngoài của trẻ sẽ ít hơn 1 - 2 ngày/ lần. Con bạn 2 ngày nay chưa đi ngoài, vẫn xì hơi được không gọi là táo bón. Bạn nên massage bụng cho trẻ hoặc làm động tác đạp xe để kích thích tăng nhu động giúp trẻ đi ngoài dễ hơn. Trong trường hợp trẻ vẫn không đi ngoài được hoặc đi ngoài phân dê, tuần đi ngoài 2 lần...bạn nên đưa trẻ tới cơ sở y tế chuyên khoa gần nhất để được tư vấn cụ thể.",
+            "score": 0.7579955458641052,
+            "id": "medical_vietnamese_qa_4712",
+            "rerank_score": 0.914517343044281,
+            "weighted_score": 0.9810011267662049
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được 25 ngày tuổi, bình thường 1 ngày bé ị 5 - 6 lần, bé ti mẹ là chính, 1 ngày em cho ti thêm sữa ngoài 50 - 60ml, nhưng 2 ngày nay bé chưa ị được mà xì hơi nhiều. Bé hay bị trớ. Em ăn uống rau củ chế độ đầy đủ. Vậy bác sĩ cho em hỏitrẻ sơ sinh 2 ngày chưa đi ngoài kèm xì hơi nhiều có phải táo bón?Em nên khắc phục thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ bú mẹ hoàn toàn nếu trẻ hấp thu tốt, lên cân, bụng mềm, không quấy khóc, trẻ đi tiểu nhiều lần trong ngày thì trẻ không đi vệ sinh trong 4-5 ngày là bình thường. Nếu trẻ chậm đi cầu, bụng chướng căng kèm tiền sử sau sinh chậm đi cầu phân su trong 24h đầu sau sinh thì mẹ nên cho bé đi khám. Còn lại, bạn tích cực cho bé bú, massage bụng và theo dõi thêm.",
+            "score": 0.749814510345459,
+            "id": "medical_vietnamese_qa_4646",
+            "rerank_score": 0.9622234106063843,
+            "weighted_score": 0.9757130861282348
+        },
+        {
+            "text": "Câu hỏi: Con em 4 ngày nữa là 2 tháng mà 2 - 3 ngày mới ị 1 lần, mỗi lần đi ị bé rặn nhiều, xì hơi rất nhiều và có mùi nặng, bụng bé không bị cứng, phân đặc quánh. Vậy bác sĩ cho em hỏitrẻ 2 tháng tuổi đi ngoài ít, xì hơi nhiều có sao không?Liệu bé có bị táo bón không? Có cách nào để bé đi ngoài thường xuyên không? Em cảm ơn bác sĩ. Nguyễn Thị Kim Hồng(1987) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Phan Ngọc Hải- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ nhỏ dưới 6 tháng nếu bú mẹ hoàn toàn, hấp thu tốt, lên cân, mỗi lần đi ị, trẻ tự đi, phân không nhiều, toàn trạng ổn định, trẻ có thể 3 - 5 ngày đi cầu vẫn được xem là bình thường. Tuy nhiên, nếu trẻ có tình trạng chậm đi cầu phân su sau khi sinh trong vòng 24 - 48 giờ hoặc bụng chướng nhiều, trẻ đi cầu phân cứng, khô hoặc lượng đi mỗi lần rất nhiều thì bạn nên cho bé đi khám để đánh giá, cần thiết sẽ làm siêu âm, chụp phim để loại trừ những bất thường trong hệ tiêu hóa. Để có thể cải thiện hơn, trong thời kỳ bú mẹ, lời khuyên là bạn nên bổ sung nhiều chất xơ qua việc ăn nhiều rau, củ, quả, uống nhiều nước và bổ sung thêm sữa chua để tăng lợi khuẩn trong sữa để cho trẻ bú, giúp trẻ tiêu hóa, hấp thu tốt hơn, tránh táo bón. Với trẻ thì bạn nên cho trẻ vận động phù hợp độ tuổi, massage bụng thường xuyên theo chiều kim đồng hồ.",
+            "score": 0.7083681225776672,
+            "id": "medical_vietnamese_qa_5301",
+            "rerank_score": 0.9348878264427185,
+            "weighted_score": 0.9736146330833435
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em được gần 4 tháng mà từ tháng thứ 2 thì 2 ngày bé đi nặng 1 lần, được nửa tháng khoảng 2 tháng rưỡi trở lại dây bé 4 - 5 ngày mới đi nặng 1 lần và hiện tại bé ít xì hơi hơn trước. Trung bình 1 ngày bé ăn khoảng 300 - 350ml sữa. Bé biếng bú chỉ khi bé ngủ cho bé bú bé mới bú được ít. Vậy bác sĩ cho em hỏitrẻ 4 - 5 ngày đi ngoài một lần có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn 4 - 5 ngày mới đi ngoài, ít xì hơi. Với triệu chứng bạn cung cấp bác sĩ nghĩ nhiều tới táo bón. Dấu hiệu táo bón ở trẻ em: Đi đại tiện ít hơn 3 lần/1 tuần Phân cứng và khó đẩy phân ra ngoài Phân có đường kính lớn có thể gây tắc nghẽn nhà vệ sinh Đau khi đi đại tiện Đau bụng Máu trên bề mặt phân cứng Nếu trẻ sợ rằng việc đi đại tiện sẽ bị tổn thương và đau thì bé tránh không đi đại tiện. Bạn có thể nhận thấy trẻ bắt chéo chân, siết chặt mông, vặn vẹo cơ thể hoặc mặt tỏ vẻ khó chịu khi cố gắng giữ phân. Khi trẻ bị táo bón sẽ gây biếng ăn, bạn nên cho trẻ đến khám bác sĩ nhi để làm các xét nghiệm và có hướng điều trị cho trẻ.",
+            "score": 0.7036148309707642,
+            "id": "medical_vietnamese_qa_4966",
+            "rerank_score": 0.9073039293289185,
+            "weighted_score": 0.9702224016189575
+        }
+    ],
+    "llm_call": 5,
+    "iteration": 2
+}

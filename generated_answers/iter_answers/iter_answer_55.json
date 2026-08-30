@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Điều trị vá màng nhĩ do viêm tai giữa thủng nhĩ như nào?",
+    "ground_truth": "Bạn đã vá màng nhĩ do viêm tai giữa thủng nhĩ trên 10 năm. Thông thường, nếu vá màng nhĩ thành công thì tai hoàn toàn khô và khỏi bệnh. Tuy nhiên, trong giai đoạn sau vá, bạn nên đi khám kiểm tra để xác định sự thành công của vá nhĩ, bởi vì vá nhĩ có tỷ lệ thất bại nhất định. Hiện tại, bạn đang có vấn đề về tai, bạn nên khám đúng chuyên khoa tai mũi họng để đánh giá tình trạng tai. Nếu còn băn khoăn, bạn có thể đặt hẹn khám chuyên khoa tai mũi họng tại bệnh viện Vinmec để được các bác sĩ chuyên khoa khám, chẩn đoán và tư vấn điều trị.",
+    "answer": "Vá màng nhĩ do viêm tai giữa thủng nhĩ thường chỉ được thực hiện sau khi đã điều trị ổn định tình trạng viêm, tai khô sạch và không còn chảy dịch (thường tối thiểu khoảng 1 tháng); nếu lỗ thủng nhỏ, trung tâm màng nhĩ, dưới khoảng 4 mm và tai khô, bác sĩ có thể cân nhắc vá nhĩ đơn thuần. Phẫu thuật được thực hiện dưới kính hiển vi, dùng vật liệu tự thân như cân cơ thái dương hoặc sụn để bịt lỗ thủng; trường hợp có cholesteatoma hoặc tổn thương nặng có thể cần mổ sớm để tránh phá hủy xương. Sau mổ thường băng kín tai 5–7 ngày, có thể xuất viện trong ngày nếu ổn; cần dùng thuốc nhỏ theo chỉ định, giữ tai khô, không bơi, không ngoáy tai/đeo tai nghe, không xì mũi và mở miệng khi hắt hơi. Bạn nên khám bác sĩ Tai Mũi Họng để đánh giá mức độ thủng, sức nghe và tình trạng viêm trước khi quyết định theo dõi hay phẫu thuật.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Vá nhĩ đơn thuần\nTrả lời: 3. Vá nhĩ đơn thuần\nVideo đề xuất: Rạch chích mủ màng nhĩ chữa viêm tai giữa Để thực hiện vá nhĩ trong trường hợp người bệnh có viêm tai giữa thì bắt buộc người bệnh phải được điều trị viêm tai giữa trước cho tới khi tình trạng viêm đã ổn định và người bệnh không còn tình trạng chảy dịch. Bên cạnh đó, người bệnh phải đáp ứng được một số tiêu chuẩn như lỗ thủng dưới 4 mm ở vị trí trung tâm của màng nhĩ, lỗ tai khô ráo. Ngày nay, với sự phát triển của các phương tiện vi phẫu thuật và sử dụng kháng sinh, các bác sĩ đã chủ động phẫu thuật để điều trị tình trạng thủng màng nhĩ do viêm tai giữa . Vi phẫu vá màng nhĩ là kỹ thuật chỉnh hình được thực hiện dưới kính hiển vi và bác sĩ sẽ vá lỗ thủng bằng các vật liệu tự thân của người bệnh như sụn, cân cơ thái dương hoặc màng tai đồng chủng. Sau khi phẫu thuật, bác sĩ sẽ băng lại để che tai kín tai của người bệnh trong năm đến bảy ngày sau khi phẫu thuật. Thông thường, sau phẫu thuật vi phẫu vá nhĩ thì người bệnh có thể được xuất viện trong ngày nếu như không có thêm biến chứng hay vấn đề bất thường nào. Thủng màng nhĩ do viêm tai giữa Chăm sóc tại nhà Khi về nhà, người bệnh có thể được sử dụng thêm một số loại thuốc nhỏ tai. Người bệnh nên gỡ băng nhẹ nhàng và nhỏ vào tai đúng số giọt mà bác sĩ đã khuyến cáo. Khi thấy băng bị bẩn thì người bệnh người thay băng khác và không đeo hay đặt bất cứ thứ gì khác vào tai. Cố gắng ngăn nước vào tai trong quá trình hồi phục. Tránh bơi và đội mũ khi tắm để tránh nước vào tai. Không đeo tai nghe và không xì mũi. Nếu chuẩn bị hắt hơi thì người bệnh hãy mở to miệng ra để áp lực nén vào trong tai. Tránh những nơi đông người và những người có thể bị bệnh. Nếu bị cảm lạnh sau phẫu thuật thì làm tăng nguy cơ nhiễm trùng tai. Sau khi phẫu thuật, người bệnh có thể cảm thấy nhói tai hoặc cảm thấy trong tai có chứa nhiều chất lỏng hoặc một số tiếng lạ. Tuy nhiên, những triệu chứng này thường nhẹ và sẽ biến mất sau một vài ngày. Nguồn tham khảo: Mayoclinic.org; Healthline.com",
+            "score": 0.7881107926368713,
+            "id": "vietnamese_healthcare_8804"
+        },
+        {
+            "text": "Câu hỏi: ! Em bịthủng màng nhĩdo bông ngoáy tai, đi khám ở phòng khám đa khoa thì bác sĩ kêu theo dõi 3-4 tháng không tự lành thì đi vá. Cho em hỏi làthủng màng nhĩ có nên đi vá ngay khônghay đợi hết 4 tháng? Em cảm ơn ạ! Phạm Văn Quân (1989) Trả lời\nTrả lời: Chào bạn!Thủng màng nhĩdo chấn thương nếu kích thước nhỏ, không nhiễm trùng, thì tiên lượng tự lành làm tốt. Bạn nên theo dõi theo chỉ định của bác sĩ trước khi cần phải can thiệpphẫu thuật vá nhĩ. Bạn có thể đến tại các bệnh viện thuộcHệ thống Y tế Vinmecđể bác sĩ tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng và gửi câu hỏi “thủng màng nhĩ có nên đi vá ngay không?”Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Lê Văn Quảng- Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.7442283630371094,
+            "id": "medical_vietnamese_qa_10217"
+        },
+        {
+            "text": "Câu hỏi: Viêm tai giữa mạn tính thủng màng nhĩ có cần thiết phải vá màng nhĩ không?\nTrả lời: Viêm tai giữa thủng màng nhĩ có trường hợp phải mổ ngay như viêm tai giữa có cholesteatoma vì để lâu nó sẽ phá hủy xương và làm bệnh trầm trọng lên, có trường hợp có thể theo dõi, tình trạng của bạn sau 1 năm không bị viêm thường là không nguy hiểm và có thể theo dõi được. Lợi ích của vá nhĩ đó là giúp sức nghe tốt hơn và tránh nguy cơ viêm nhiễm, sau phẫu thuật bạn có thể tắm rửa, bơi lội được bình thường giúp bạn có chất lượng cuộc sống tốt hơn.",
+            "score": 0.7387599945068359,
+            "id": "vietnamese_healthcare_4568"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nCon bị viêm tai giữa mà bị thủng 2 màng nhĩ. Ở màng nhĩ con có mủ. Vậy bác sĩ cho con hỏi thủng màng nhĩ có mủ có thể vá được không? Con cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViêm tai giữa thủng màng nhĩ tuổi như bạn có thể phẫu thuật vá màng nhĩ. Tuy nhiên, trước phẫu thuật bạn phải được bác sĩ Tai mũi họng điều trị nội khoa khô - sạch tối thiểu 1 tháng để phẫu thuật vá màng nhĩ được thành công.\nBạn nên thăm khám tại bệnh viện để được các bác sĩ Tai mũi họng tại bệnh viện thăm khám cho bạn để có hướng điều trị thích hợp.\nTrân trọng!",
+            "score": 0.7241429090499878,
+            "id": "vietnamese_medical_qa_339"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Tôi viêm tai giữa mãn tính thủng màng nhĩ, lúc trước cũng hay bị chảy mủ, vài tháng bị một đợt, nhưng lần này 1 năm nay không bị, vậy cho tôi hỏi viêm tai giữa mạn tính thủng màng nhĩ có cần thiết phải vá màng nhĩ không ạ? Xin cảm ơn bác sĩ.\nTrả lời: Chào bạn! Viêm tai giữa thủng màng nhĩ có trường hợp phải mổ ngay như viêm tai giữa có cholesteatoma vì để lâu nó sẽ phá hủy xương và làm bệnh trầm trọng lên, có trường hợp có thể theo dõi, tình trạng của bạn sau 1 năm không bị viêm thường là không nguy hiểm và có thể theo dõi được. Lợi ích của vá nhĩ đó là giúp sức nghe tốt hơn và tránh nguy cơ viêm nhiễm, sau phẫu thuật bạn có thể tắm rửa, bơi lội được bình thường giúp bạn có chất lượng cuộc sống tốt hơn.",
+            "score": 0.7131946086883545,
+            "id": "vietnamese_medical_qa_1764"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

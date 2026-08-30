@@ -1,0 +1,50 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Con em 4 tuổi hay bị nhiễm giun kim. Bé uống thuốc 4 tháng sau lại bị nhiễm giun kim lại. Vậy bác sĩ cho em hỏitrẻ nhiễm giun kim tái phát điều trị thế nào?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Con bạn nhiễm giun kim đã tẩy giun nhưng bé vẫn xuất hiện lại. Bạn nên tẩy 2 lần cách nhau 3 tuần, giặt chăm mền và hấp sấy cho bé mới hết được.",
+    "answer": "Trẻ bị tái nhiễm giun kim cần điều trị đồng loạt cho những người trong gia đình và các bạn cùng lớp nếu trẻ đi học để tránh lây nhiễm lại. Có thể dùng **mebendazole 500 mg liều duy nhất**, nhắc lại sau 1 tháng; hoặc **albendazole 400 mg liều duy nhất**, nhắc lại sau 1 tháng. Đồng thời, cần giữ vệ sinh môi trường, đặc biệt nền nhà, giường chiếu và quần áo của trẻ; cắt ngắn móng tay, rửa tay bằng xà phòng trước khi ăn và sau khi đi vệ sinh, không cho trẻ mặc quần hở đũng và rửa hậu môn cho trẻ hằng ngày bằng xà phòng vào buổi sáng.",
+    "evidence": [
+        "Để điều trị và dự phòng nhiễm giun kim cho bé, bạn có thể làm như sau: Nguyên tắc điều trị giun kim: Nếu tập thể bị nhiễm thì phải điều trị đồng loạt để tránh tái nhiễm bệnh, cần phát hiện và điều trị cho những người trong gia đình và các bạn cùng lớp nếu trẻ đi học.",
+        "Thuốc điều trị giun kim bao gồm Mebendazole 500mg liều duy nhất cho cả trẻ em và người lớn, uống nhắc lại sau 1 tháng.",
+        "Hoặc dùng albendazole 400mg liều duy nhất cho cả trẻ em và người lớn, uống nhắc lại sau một tháng.",
+        "Các biện pháp phòng ngừa giun kim theo Cục Y Tế Dự Phòng - Bộ Y Tế bao gồm: Nâng cao ý thức vệ sinh bảo vệ môi trường không bị nhiễm phân, đặc biệt là nền nhà, giường chiếu và quần áo trẻ em.",
+        "Vệ sinh cá nhân tốt như cắt ngắn móng tay, rửa tay bằng xà phòng trước khi ăn và sau khi đi vệ sinh.",
+        "Không để trẻ mặc quần hở đũng, rửa hậu môn cho trẻ hàng ngày bằng xà phòng vào các buổi sáng."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Con em được 6 tuổi rồi. Cháu bị nhiễm giun kim từ nhỏ dẫn đến hiện tượng quấy khóc đêm kéo dài đến nay. Em vẫn tẩy giun 2 lần mỗi năm cho cháu, nhưng uống chỉ sau 1 tháng là thấy cháu bị lại. Bác sĩ giúp em với,điều trị giun kim hiệu quả bằng cách nàoạ? Nguyễn Huyền Anh Trả lời Được giải đáp bởi các Bác sĩ Nhi-sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng\nTrả lời: bác sĩ xin giải đáp như sau: Nhiễm giun kim ở trẻ là khá phổ biến, đặc biệt là trẻ nhỏ. Để điều trị và dự phòng nhiễm giun kim cho bé, bạn có thể làm như sau: Nguyên tắc điều trị giun kim: Nếu tập thể bị nhiễm thì phải điều trị đồng loạt để tránh tái nhiễm bệnh, cần phát hiện và điều trị cho những người trong gia đình và các bạn cùng lớp nếu trẻ đi học. Thuốc điều trị giun kim bao gồm Mebendazole 500mg liều duy nhất cho cả trẻ em và người lớn, uống nhắc lại sau 1 tháng. Hoặc dùng albendazole 400mg liều duy nhất cho cả trẻ em và người lớn, uống nhắc lại sau một tháng. Các biện pháp phòng ngừa giun kim theo Cục Y Tế Dự Phòng - Bộ Y Tế bao gồm: Nâng cao ý thức vệ sinh bảo vệ môi trường không bị nhiễm phân, đặc biệt là nền nhà, giường chiếu và quần áo trẻ em. Thực hiện ăn chín uống sôi. Vệ sinh cá nhân tốt như cắt ngắn móng tay, rửa tay bằng xà phòng trước khi ăn và sau khi đi vệ sinh. Không để trẻ mặc quần hở đũng, rửa hậu môn cho trẻ hàng ngày bằng xà phòng vào các buổi sáng. Những đối tượng có nguy cơ cao cần tẩy giun định, nhất là cho trẻ em độ tuổi từ 2-12, tẩy giun 2 lần/ năm.",
+                "score": 0.5807896852493286,
+                "id": "medical_vietnamese_qa_6639",
+                "rerank_score": 0.9994427561759949
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em 5 tuổi bị giun kim. Em cho bé uống thuốc tẩy giun, được 1 tháng 20 ngày bé đã bị lại. Vậy bác sĩ cho em hỏitrẻ 5 tuổi bị giun kim điều trị như thế nào?Có nên tiếp tục uống thuốc tẩy giun không? Em cảm ơn bác sĩ. Lê Thị Minh(1975) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Phan Thị Cẩm Vân- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé có thể tẩy giun lại bằng thuốc tẩy giun. Quan trọng là biện pháp phòng ngừa như ăn chín uống sôi, vệ sinh cá nhân tốt (cắt móng tay, rửa tay bằng xà phòng trước ăn và sau đi vệ sinh), vệ sinh môi trường sống xung quanh sạch sẽ, có thể tẩy giun định kỳ 2 lần/năm cho bé.",
+                "score": 0.6313485503196716,
+                "id": "medical_vietnamese_qa_6104",
+                "rerank_score": 0.9989386200904846
+            },
+            {
+                "text": "Câu hỏi: Con em 16 tháng tuổi hiện tại bị nổi mẩn cùng người. Em đưa cháu đi xét nghiệm máu thì được chẩn đoán bị giun lươn. Vậy bác sĩ cho em hỏitrẻ 16 tháng tuổi bị giun lươn có chữa trị được không?Vì bác sĩ xét nghiệm bảo 2 tuổi mới chữa được nhưng em không biết để lâu vậy có ảnh hưởng đến sức khỏe của cháu không? Em mong sớm nhận được tư vấn của bác sĩ. Em xin chân thành cảm ơn.  Với câu hỏi“Trẻ 16 tháng tuổi bị giun lươn có chữa trị được không?”,\nTrả lời: bác sĩ xin giải đáp như sau: Giun lươn là một trong những ký sinh trùng đường tiêu hoá nguy hiểm do có thể tồn tại lâu trong trong cơ thể và gây ra nhiều biến chứng nguy hiểm. Điều trị bệnh giun lươn sẽ mất nhiều thời gian và chi phí. Với tình trạng của bé mẹ nên đưa bé đi khám và xét nghiệm máu lại sau 3 tháng, để được các bác sĩ tư vấn và xem xét đưa ra hướng điều trị kịp thời và cụ thể cho bé.",
+                "score": 0.5743974447250366,
+                "id": "medical_vietnamese_qa_6017",
+                "rerank_score": 0.856979250907898
+            },
+            {
+                "text": "Câu hỏi: Bé trai nhà em 4 tuổi bị vàng ở da, không bị ở mắt nhưng bé không có triệu chứng như mệt mỏi sốt gì chỉ bị vàng da. Em có cho bé uống vitamin D, E, sắt nhưng bé không có dấu hiệu bớt vàng. Vậy bác sĩ cho em hỏitrẻ 4 tuổi vàng da nguyên nhân là gì?Điều trị như thế nào? Em cảm ơn bác sĩ. Nguyễn Thái Hoàng My(1992) Trả lời Được giải đáp bởiBác sĩ nội trú Hồ Thị Hồng Tho- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Bé bị vàng da do sự tăng quá mức của Bilirubin. Bạn cần đi khám bác sĩ chuyên khoa Nhi để tìm các nguyên nhân và điều trị gây vàng da như tan máu, viêm gan, thiếu men G6PD,...",
+                "score": 0.6046150326728821,
+                "id": "medical_vietnamese_qa_5290",
+                "rerank_score": 0.08152077347040176
+            },
+            {
+                "text": "Câu hỏi: Em chào bác sĩ! Con em tháng nào cũng bị VA mũi, 1 tháng bị 1 lần, cứ uống kháng sinh khỏi được 20 ngày lại bị lại. Hiện tại con em đã được 19 tháng. Bác sĩ cho em hỏi có phương pháp nào điều trị VA dứt điểm không ạ? Em xin cảm ơn.\nTrả lời: Chào em! Như em mô tả thì có thể con em bị viêm VA. Nếu tình trạng này thường xuyên và nhất là cháu đã từng bị viêm tai giữa thì em nên cho cháu đi khám cụ thể để bác sĩ chuyên khoa xem xét vấn đề nạo VA cho cháu nhé!",
+                "score": 0.6025235652923584,
+                "id": "vietnamese_medical_qa_4038",
+                "rerank_score": 0.07388114929199219
+            }
+        ]
+    ],
+    "llm_call": 4,
+    "num_turns": 1
+}

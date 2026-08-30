@@ -1,0 +1,115 @@
+{
+    "model_name": "s2g_rag",
+    "question": "! Con cháu bị đi ngoài vì virus, sốt 38,3 độ. Sau khi cho uống thuốc hạ sốt thì thân nhiệt đã trở lại bình thường nhưng bị toát mồ hôi, trên đầu và người lạnh đi, cháu phải ủ 1 lúc sau mới ấm. Mặc dù người và mặt lạnh nhưng chân tay vẫn ấm. Buổi sáng cháu dậy ăn hết 1 bát bột rồi ngủ. Bác sĩ cho cháu hỏi là\"trẻ toát mồ hôi, người lạnh nhưng chân tay vẫn ấm sau sốt virus là biểu hiện của bệnh gì, có nguy hiểm không?\".Rất mong bác sĩ tư vấn! Đào Thị Mai Hường(1982) Trả lời",
+    "ground_truth": "Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Trẻ toát mồ hôi, người lạnh nhưng chân tay vẫn ấm sau sốt virus là biểu hiện của bệnh gì, có nguy hiểm không?” như sau: Bé nhà mình nếusốt virusthì trung bình sẽ bị khoảng 5 ngày (có bạn nhẹ hơn hoặc nặng hơn) sausốttrẻ toát mồ hôi là diễn biến bình thường, khi ra mồ hôi bị lạnh mặt hoặc toàn thân là do thân nhiệt đã giảm, sốt đã cải thiện. Lúc này bạn cần lau mặt và toàn thân cho bé bằng khăn khô, đồng thời cho bé uống sữa ấm hoặc ăn nhẹ. Trường hợp con nhà mình ăn được bột và ngủ là bệnh đã cải thiện. Tuy nhiên vẫn cần theo dõi nhiệt độ và theo dõi triệu chứng đi ngoài của bé để kịp thời điều trị nếu có biến chứng của sốt virus hoặc diễn biến bất thường. Nếu còn lo lắng, bạn có thể đưa bé đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Phạm Thị Sửu- Bác sĩ Nhi Khoa - Phòng khám Quốc tế Vinmec Royal City",
+    "answer": "Sau khi dùng thuốc hạ sốt, trẻ toát mồ hôi và thân nhiệt hạ có thể là phản ứng của cơ thể khi đang nhiễm virus hoặc nhiễm khuẩn; tuy nhiên, các tài liệu cung cấp chưa đủ thông tin để xác định việc người lạnh nhưng chân tay ấm là bệnh gì hoặc có nguy hiểm hay không. Bạn nên cho bé bú và uống đủ nước, theo dõi sát; nếu trẻ sốt cao hoặc sốt lại, mệt nhiều, ho nhiều, khó thở, nôn ói nhiều, tiêu chảy, đi ngoài có máu, li bì, bỏ ăn, hoặc sốt không rõ nguyên nhân trên 2 ngày thì cần đưa trẻ đến bệnh viện khám.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Khi sốt, đầu và thân mình bé sốt nóng, cẳng và bàn tay chân lạnh, có thể nổi vân.",
+        "Đây là phản ứng của cơ thể khi bị nhiễm khuẩn hoặc nhiễm virus.",
+        "Khi hạ sốt bằng cách dùng thuốc hoặc lau khăn ấm, cơ thể toát mồ hôi, thân nhiệt hạ.",
+        "Nếu trẻ sốt cao, mệt nhiều, ho nhiều, thở mệt, nôn ói nhiều, đi cầu có máu hoặc sốt không rõ nguyên nhân hơn 2 ngày, làm người nhà lo lắng thì bạn nên cho trẻ đến khám để có tư vấn và điều trị tốt nhất.",
+        "Như trường hợp bé nhà bạn đã sốt cả đêm, hạ sốt rồi lại sốt trở lại thì bạn nên đưa bé đến bệnh viện để được bác sĩ chuyên khoa thăm khám, chẩn đoán chính xác nguyên nhân và điều trị kịp thời cho bé nhé.",
+        "Chính vì vậy nếu trẻ sốt kèm theo ho nhiều, tiêu chảy, khó thở, li bì, bỏ ăn...thì nên đưa trẻ tới bệnh viện để khám.",
+        "Tích cực cho bé bú và uống nước."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bé nhà mình được 12 tháng tuổi, nặng 10,5 kg. 2 hôm nay bé có biểu hiện chân tay lạnh, toát mồ hôi. Bình thường bé hay toát mồ hôi đầu nhưng 2 hôm nay dù nóng cỡ nào, đầu bé không toát mồ hôi, thi thoảng người run run, mình đo nhiệt độ cao nhất là 37,2 độ. Bé có chảy nước mũi nhưng vẫn ăn uống và chơi bình thường. Bác sĩ cho mình hỏi,trẻ 1 tuổi chân tay lạnh, toát mồ hôi là dấu hiệu của bệnh gì?\nTrả lời: bác sĩ xin giải đáp như sau: Ở trẻ em, hệ thần kinh thực vật thường chưa phát triển hoàn thiện như người lớn nên bé dễ bịtoát mồ hôikhi ngủ, khi vận động, khi ốm... Nếu bé vẫn ăn uống và chơi bình thường thì bạn không cần lo lắng. Bạn chỉ cần để ý lau mồ hôi cho con thường xuyên để tránh bị nhiễm lạnh.",
+                "score": 0.6389478445053101,
+                "id": "medical_vietnamese_qa_6334",
+                "rerank_score": 0.9961243271827698
+            },
+            {
+                "text": "Câu hỏi: Con em hiện giờ 14 tháng tuổi, cháu đang bị sốt 38 độ hơn nhưng giờ tay chân thì lạnh, trán thì mát, đổ mồ hôi, nhiệt độ giảm còn 36 độ. Vậy bác sĩ cho em hỏitrẻ sốt 38 độ kèm tay chân lạnh có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Ở trên thông tin chỉ khi nhận được tình trạng sốt nhẹ (38 độ) kèmtay chân lạnh, không đầy đủ thông tin để bác sĩ khám và đánh giá tình trạng của trẻ để có tư vấn cụ thể cho bạn. Nếu trẻ sốt cao, mệt nhiều, ho nhiều, thở mệt, nôn ói nhiều, đi cầu có máu hoặc sốt không rõ nguyên nhân hơn 2 ngày, làm người nhà lo lắng thì bạn nên cho trẻ đến khám để có tư vấn và điều trị tốt nhất.",
+                "score": 0.6401740312576294,
+                "id": "medical_vietnamese_qa_5143",
+                "rerank_score": 0.9922387003898621
+            },
+            {
+                "text": "Câu hỏi: Bé 30 tháng bị sốt 38 độ, chân tay lạnh. Bác sĩ cho em hỏitrẻ sốt 38 độ kèm lạnh tay chân có sao không?Có phải bé mắc Covid không bác sĩ? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Sốt là một triệu chứng, tay chân lạnh là hệ quả của sốt. Đa số trẻ sốt tay chân lạnh nằm trong trường hợp này. Sốt được tạo ra bởi hệ miễn dịch của cơ thể dưới sự chỉ đạo của trục não bộ - vùng hạ đồi. Vùng hạ đồi nhận diện có tình trạng nhiễm khuẩn, thì sẽ đặt một “setpoint” bắt cơ thể phải tăng nhiệt độ lên (sốt). Hệ miễn dịch lúc này sẽ phóng thích các chất khiến các mạch máu ở chân và tay co lại, nên bố mẹ sẽ thấy trẻ lạnh tay chân. Sốt và tay chân lạnh là hệ quả của siêu vi. Một số trường hợp sốt tay chân lạnh lại là dấu hiệu của tình trạng nhiễm siêu vi. Siêu vi tấn công vào não bộ và các mạch máu nhỏ của tay chân của bé. Đây là một tình trạng nghiêm trọng, bé có thể bị viêm màng não hoặc một tình trạng nhiễm trùng máu. Sốt là triệu chứng trong nhiều bệnh, không đủ để chẩn đoán trẻ có bị mắc covid hay không, vì vậy, cách tốt nhất khi gặp trường hợp trẻ bị sốt tay chân lạnh, bạn phải mang trẻ đến gặp bác sĩ để chẩn đoán chính xác.",
+                "score": 0.6672168970108032,
+                "id": "medical_vietnamese_qa_4876",
+                "rerank_score": 0.9910287857055664
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em bị sốt 39 độ từ 11 giờ tối, khi sốt thì tay chân lạnh. Lúc 1 giờ, em cho bé uống 1 viên hạ sốt Uphadol extra, cơ thể toát mồ hôi hạ sốt. Tuy nhiên, đến 5 giờ bé lại sốt, lúc 6 giờ thì em cho bé uống 1 viên hạ sốt. Hiện tại là 10h sáng, bé lại sốt lại, khi sốt luôn lạnh chân tay, em vừa cho bé uống 1 viên efferalgan 500mg. Em muốn hỏi bác sĩtrẻ bị sốt kéo dài nguyên nhân do đâu và cách xử trínhư nào ạ? Phương Diệp Anh(Hà Nội) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Cao Thị Thanh -Bác sĩ Nhi - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Khi sốt, đầu và thân mình bé sốt nóng, cẳng và bàn tay chân lạnh, có thể nổi vân. Đây là phản ứng của cơ thể khi bị nhiễm khuẩn hoặc nhiễm virus. Khi hạ sốt bằng cách dùng thuốc hoặc lau khăn ấm, cơ thể toát mồ hôi, thân nhiệt hạ. Khi bé sốt từ 38.5 độ C, bạn cần cho bé uống hạ sốt Paracetamol 15mg/kg cân nặng/lần, cách 4-6 giờ giữa 2 lần. Cùng với việc dùng thuốc thì bạn nên mặc quần áo thoáng cho bé, bỏ bỉm, lau khăn ấm vùng trán, nách, bẹn. Tích cực cho bé bú và uống nước. Như trường hợp bé nhà bạn đã sốt cả đêm, hạ sốt rồi lại sốt trở lại thì bạn nên đưa bé đến bệnh viện để được bác sĩ chuyên khoa thăm khám, chẩn đoán chính xác nguyên nhân và điều trị kịp thời cho bé nhé.",
+                "score": 0.6687023639678955,
+                "id": "medical_vietnamese_qa_6162",
+                "rerank_score": 0.9821772575378418
+            },
+            {
+                "text": "Câu hỏi: . Bé nhà em được 8,5 tháng, bé bị sốt từ đêm hôm qua, đến sáng nay, nhiệt độ ban đầu là 37 độ 5, qua sáng nay bé sốt đến 39 độ. Em có cho bé dùngthuốc giảm sốt, tuy nhiên khitrẻ sơ sinh sau dùng thuốc hạ sốt vẫn sốt trở lại nên làm gì?Cảm ơn bác sĩ đã tư vấn. Tô Kim Vàng(1989) Trả lời\nTrả lời: Chào bạn.Trẻ bị sốtlà triệu chứng lâm sàng của nhiều bệnh lý. Chính vì vậy nếu trẻ sốt kèm theo ho nhiều, tiêu chảy, khó thở, li bì, bỏ ăn...thì nên đưa trẻ tới bệnh viện để khám. Đối với tình trạng của con bạn nếu sau khi đã dùng thuốc hạ sốt mà trẻ vẫn sốt thì bạn nên mặc đồ thoáng, lau ấm toàn thân, nằm nơi thoáng mát, cho trẻ uống nhiều nước... Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Trẻ sơ sinh sau dùng thuốc hạ sốt vẫn sốt trở lại nên làm gì?”tới Vinmec. Chúc con bạn luôn có sức khỏe tốt. Được giải đáp bởiThạc sĩ, Bác sĩ Đặng Huy Toàn- Bác sĩ Nhi - Sơ Sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+                "score": 0.6567720174789429,
+                "id": "medical_vietnamese_qa_7705",
+                "rerank_score": 0.9704723954200745
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bé nhà mình được 12 tháng tuổi, nặng 10,5 kg. 2 hôm nay bé có biểu hiện chân tay lạnh, toát mồ hôi. Bình thường bé hay toát mồ hôi đầu nhưng 2 hôm nay dù nóng cỡ nào, đầu bé không toát mồ hôi, thi thoảng người run run, mình đo nhiệt độ cao nhất là 37,2 độ. Bé có chảy nước mũi nhưng vẫn ăn uống và chơi bình thường. Bác sĩ cho mình hỏi,trẻ 1 tuổi chân tay lạnh, toát mồ hôi là dấu hiệu của bệnh gì?\nTrả lời: bác sĩ xin giải đáp như sau: Ở trẻ em, hệ thần kinh thực vật thường chưa phát triển hoàn thiện như người lớn nên bé dễ bịtoát mồ hôikhi ngủ, khi vận động, khi ốm... Nếu bé vẫn ăn uống và chơi bình thường thì bạn không cần lo lắng. Bạn chỉ cần để ý lau mồ hôi cho con thường xuyên để tránh bị nhiễm lạnh.",
+                "score": 0.6682544946670532,
+                "id": "medical_vietnamese_qa_6334",
+                "rerank_score": 0.9961243271827698
+            },
+            {
+                "text": "Câu hỏi: Con em hiện giờ 14 tháng tuổi, cháu đang bị sốt 38 độ hơn nhưng giờ tay chân thì lạnh, trán thì mát, đổ mồ hôi, nhiệt độ giảm còn 36 độ. Vậy bác sĩ cho em hỏitrẻ sốt 38 độ kèm tay chân lạnh có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Ở trên thông tin chỉ khi nhận được tình trạng sốt nhẹ (38 độ) kèmtay chân lạnh, không đầy đủ thông tin để bác sĩ khám và đánh giá tình trạng của trẻ để có tư vấn cụ thể cho bạn. Nếu trẻ sốt cao, mệt nhiều, ho nhiều, thở mệt, nôn ói nhiều, đi cầu có máu hoặc sốt không rõ nguyên nhân hơn 2 ngày, làm người nhà lo lắng thì bạn nên cho trẻ đến khám để có tư vấn và điều trị tốt nhất.",
+                "score": 0.6491173505783081,
+                "id": "medical_vietnamese_qa_5143",
+                "rerank_score": 0.9922387003898621
+            },
+            {
+                "text": "Câu hỏi: Bé 30 tháng bị sốt 38 độ, chân tay lạnh. Bác sĩ cho em hỏitrẻ sốt 38 độ kèm lạnh tay chân có sao không?Có phải bé mắc Covid không bác sĩ? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Sốt là một triệu chứng, tay chân lạnh là hệ quả của sốt. Đa số trẻ sốt tay chân lạnh nằm trong trường hợp này. Sốt được tạo ra bởi hệ miễn dịch của cơ thể dưới sự chỉ đạo của trục não bộ - vùng hạ đồi. Vùng hạ đồi nhận diện có tình trạng nhiễm khuẩn, thì sẽ đặt một “setpoint” bắt cơ thể phải tăng nhiệt độ lên (sốt). Hệ miễn dịch lúc này sẽ phóng thích các chất khiến các mạch máu ở chân và tay co lại, nên bố mẹ sẽ thấy trẻ lạnh tay chân. Sốt và tay chân lạnh là hệ quả của siêu vi. Một số trường hợp sốt tay chân lạnh lại là dấu hiệu của tình trạng nhiễm siêu vi. Siêu vi tấn công vào não bộ và các mạch máu nhỏ của tay chân của bé. Đây là một tình trạng nghiêm trọng, bé có thể bị viêm màng não hoặc một tình trạng nhiễm trùng máu. Sốt là triệu chứng trong nhiều bệnh, không đủ để chẩn đoán trẻ có bị mắc covid hay không, vì vậy, cách tốt nhất khi gặp trường hợp trẻ bị sốt tay chân lạnh, bạn phải mang trẻ đến gặp bác sĩ để chẩn đoán chính xác.",
+                "score": 0.679615318775177,
+                "id": "medical_vietnamese_qa_4876",
+                "rerank_score": 0.9910287857055664
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em bị sốt 39 độ từ 11 giờ tối, khi sốt thì tay chân lạnh. Lúc 1 giờ, em cho bé uống 1 viên hạ sốt Uphadol extra, cơ thể toát mồ hôi hạ sốt. Tuy nhiên, đến 5 giờ bé lại sốt, lúc 6 giờ thì em cho bé uống 1 viên hạ sốt. Hiện tại là 10h sáng, bé lại sốt lại, khi sốt luôn lạnh chân tay, em vừa cho bé uống 1 viên efferalgan 500mg. Em muốn hỏi bác sĩtrẻ bị sốt kéo dài nguyên nhân do đâu và cách xử trínhư nào ạ? Phương Diệp Anh(Hà Nội) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Cao Thị Thanh -Bác sĩ Nhi - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Khi sốt, đầu và thân mình bé sốt nóng, cẳng và bàn tay chân lạnh, có thể nổi vân. Đây là phản ứng của cơ thể khi bị nhiễm khuẩn hoặc nhiễm virus. Khi hạ sốt bằng cách dùng thuốc hoặc lau khăn ấm, cơ thể toát mồ hôi, thân nhiệt hạ. Khi bé sốt từ 38.5 độ C, bạn cần cho bé uống hạ sốt Paracetamol 15mg/kg cân nặng/lần, cách 4-6 giờ giữa 2 lần. Cùng với việc dùng thuốc thì bạn nên mặc quần áo thoáng cho bé, bỏ bỉm, lau khăn ấm vùng trán, nách, bẹn. Tích cực cho bé bú và uống nước. Như trường hợp bé nhà bạn đã sốt cả đêm, hạ sốt rồi lại sốt trở lại thì bạn nên đưa bé đến bệnh viện để được bác sĩ chuyên khoa thăm khám, chẩn đoán chính xác nguyên nhân và điều trị kịp thời cho bé nhé.",
+                "score": 0.6924681067466736,
+                "id": "medical_vietnamese_qa_6162",
+                "rerank_score": 0.9821772575378418
+            },
+            {
+                "text": "Câu hỏi: . Bé nhà em được 8,5 tháng, bé bị sốt từ đêm hôm qua, đến sáng nay, nhiệt độ ban đầu là 37 độ 5, qua sáng nay bé sốt đến 39 độ. Em có cho bé dùngthuốc giảm sốt, tuy nhiên khitrẻ sơ sinh sau dùng thuốc hạ sốt vẫn sốt trở lại nên làm gì?Cảm ơn bác sĩ đã tư vấn. Tô Kim Vàng(1989) Trả lời\nTrả lời: Chào bạn.Trẻ bị sốtlà triệu chứng lâm sàng của nhiều bệnh lý. Chính vì vậy nếu trẻ sốt kèm theo ho nhiều, tiêu chảy, khó thở, li bì, bỏ ăn...thì nên đưa trẻ tới bệnh viện để khám. Đối với tình trạng của con bạn nếu sau khi đã dùng thuốc hạ sốt mà trẻ vẫn sốt thì bạn nên mặc đồ thoáng, lau ấm toàn thân, nằm nơi thoáng mát, cho trẻ uống nhiều nước... Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Trẻ sơ sinh sau dùng thuốc hạ sốt vẫn sốt trở lại nên làm gì?”tới Vinmec. Chúc con bạn luôn có sức khỏe tốt. Được giải đáp bởiThạc sĩ, Bác sĩ Đặng Huy Toàn- Bác sĩ Nhi - Sơ Sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+                "score": 0.6558875441551208,
+                "id": "medical_vietnamese_qa_7705",
+                "rerank_score": 0.9704723954200745
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bé nhà mình được 12 tháng tuổi, nặng 10,5 kg. 2 hôm nay bé có biểu hiện chân tay lạnh, toát mồ hôi. Bình thường bé hay toát mồ hôi đầu nhưng 2 hôm nay dù nóng cỡ nào, đầu bé không toát mồ hôi, thi thoảng người run run, mình đo nhiệt độ cao nhất là 37,2 độ. Bé có chảy nước mũi nhưng vẫn ăn uống và chơi bình thường. Bác sĩ cho mình hỏi,trẻ 1 tuổi chân tay lạnh, toát mồ hôi là dấu hiệu của bệnh gì?\nTrả lời: bác sĩ xin giải đáp như sau: Ở trẻ em, hệ thần kinh thực vật thường chưa phát triển hoàn thiện như người lớn nên bé dễ bịtoát mồ hôikhi ngủ, khi vận động, khi ốm... Nếu bé vẫn ăn uống và chơi bình thường thì bạn không cần lo lắng. Bạn chỉ cần để ý lau mồ hôi cho con thường xuyên để tránh bị nhiễm lạnh.",
+                "score": 0.674200177192688,
+                "id": "medical_vietnamese_qa_6334",
+                "rerank_score": 0.9961243271827698
+            },
+            {
+                "text": "Câu hỏi: Con em hiện giờ 14 tháng tuổi, cháu đang bị sốt 38 độ hơn nhưng giờ tay chân thì lạnh, trán thì mát, đổ mồ hôi, nhiệt độ giảm còn 36 độ. Vậy bác sĩ cho em hỏitrẻ sốt 38 độ kèm tay chân lạnh có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Ở trên thông tin chỉ khi nhận được tình trạng sốt nhẹ (38 độ) kèmtay chân lạnh, không đầy đủ thông tin để bác sĩ khám và đánh giá tình trạng của trẻ để có tư vấn cụ thể cho bạn. Nếu trẻ sốt cao, mệt nhiều, ho nhiều, thở mệt, nôn ói nhiều, đi cầu có máu hoặc sốt không rõ nguyên nhân hơn 2 ngày, làm người nhà lo lắng thì bạn nên cho trẻ đến khám để có tư vấn và điều trị tốt nhất.",
+                "score": 0.684084415435791,
+                "id": "medical_vietnamese_qa_5143",
+                "rerank_score": 0.9922387003898621
+            },
+            {
+                "text": "Câu hỏi: Bé 30 tháng bị sốt 38 độ, chân tay lạnh. Bác sĩ cho em hỏitrẻ sốt 38 độ kèm lạnh tay chân có sao không?Có phải bé mắc Covid không bác sĩ? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Sốt là một triệu chứng, tay chân lạnh là hệ quả của sốt. Đa số trẻ sốt tay chân lạnh nằm trong trường hợp này. Sốt được tạo ra bởi hệ miễn dịch của cơ thể dưới sự chỉ đạo của trục não bộ - vùng hạ đồi. Vùng hạ đồi nhận diện có tình trạng nhiễm khuẩn, thì sẽ đặt một “setpoint” bắt cơ thể phải tăng nhiệt độ lên (sốt). Hệ miễn dịch lúc này sẽ phóng thích các chất khiến các mạch máu ở chân và tay co lại, nên bố mẹ sẽ thấy trẻ lạnh tay chân. Sốt và tay chân lạnh là hệ quả của siêu vi. Một số trường hợp sốt tay chân lạnh lại là dấu hiệu của tình trạng nhiễm siêu vi. Siêu vi tấn công vào não bộ và các mạch máu nhỏ của tay chân của bé. Đây là một tình trạng nghiêm trọng, bé có thể bị viêm màng não hoặc một tình trạng nhiễm trùng máu. Sốt là triệu chứng trong nhiều bệnh, không đủ để chẩn đoán trẻ có bị mắc covid hay không, vì vậy, cách tốt nhất khi gặp trường hợp trẻ bị sốt tay chân lạnh, bạn phải mang trẻ đến gặp bác sĩ để chẩn đoán chính xác.",
+                "score": 0.69773268699646,
+                "id": "medical_vietnamese_qa_4876",
+                "rerank_score": 0.9910287857055664
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em bị sốt 39 độ từ 11 giờ tối, khi sốt thì tay chân lạnh. Lúc 1 giờ, em cho bé uống 1 viên hạ sốt Uphadol extra, cơ thể toát mồ hôi hạ sốt. Tuy nhiên, đến 5 giờ bé lại sốt, lúc 6 giờ thì em cho bé uống 1 viên hạ sốt. Hiện tại là 10h sáng, bé lại sốt lại, khi sốt luôn lạnh chân tay, em vừa cho bé uống 1 viên efferalgan 500mg. Em muốn hỏi bác sĩtrẻ bị sốt kéo dài nguyên nhân do đâu và cách xử trínhư nào ạ? Phương Diệp Anh(Hà Nội) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Cao Thị Thanh -Bác sĩ Nhi - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Khi sốt, đầu và thân mình bé sốt nóng, cẳng và bàn tay chân lạnh, có thể nổi vân. Đây là phản ứng của cơ thể khi bị nhiễm khuẩn hoặc nhiễm virus. Khi hạ sốt bằng cách dùng thuốc hoặc lau khăn ấm, cơ thể toát mồ hôi, thân nhiệt hạ. Khi bé sốt từ 38.5 độ C, bạn cần cho bé uống hạ sốt Paracetamol 15mg/kg cân nặng/lần, cách 4-6 giờ giữa 2 lần. Cùng với việc dùng thuốc thì bạn nên mặc quần áo thoáng cho bé, bỏ bỉm, lau khăn ấm vùng trán, nách, bẹn. Tích cực cho bé bú và uống nước. Như trường hợp bé nhà bạn đã sốt cả đêm, hạ sốt rồi lại sốt trở lại thì bạn nên đưa bé đến bệnh viện để được bác sĩ chuyên khoa thăm khám, chẩn đoán chính xác nguyên nhân và điều trị kịp thời cho bé nhé.",
+                "score": 0.7000121474266052,
+                "id": "medical_vietnamese_qa_6162",
+                "rerank_score": 0.9821772575378418
+            },
+            {
+                "text": "Câu hỏi: . Bé nhà em được 8,5 tháng, bé bị sốt từ đêm hôm qua, đến sáng nay, nhiệt độ ban đầu là 37 độ 5, qua sáng nay bé sốt đến 39 độ. Em có cho bé dùngthuốc giảm sốt, tuy nhiên khitrẻ sơ sinh sau dùng thuốc hạ sốt vẫn sốt trở lại nên làm gì?Cảm ơn bác sĩ đã tư vấn. Tô Kim Vàng(1989) Trả lời\nTrả lời: Chào bạn.Trẻ bị sốtlà triệu chứng lâm sàng của nhiều bệnh lý. Chính vì vậy nếu trẻ sốt kèm theo ho nhiều, tiêu chảy, khó thở, li bì, bỏ ăn...thì nên đưa trẻ tới bệnh viện để khám. Đối với tình trạng của con bạn nếu sau khi đã dùng thuốc hạ sốt mà trẻ vẫn sốt thì bạn nên mặc đồ thoáng, lau ấm toàn thân, nằm nơi thoáng mát, cho trẻ uống nhiều nước... Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Trẻ sơ sinh sau dùng thuốc hạ sốt vẫn sốt trở lại nên làm gì?”tới Vinmec. Chúc con bạn luôn có sức khỏe tốt. Được giải đáp bởiThạc sĩ, Bác sĩ Đặng Huy Toàn- Bác sĩ Nhi - Sơ Sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+                "score": 0.657324492931366,
+                "id": "medical_vietnamese_qa_7705",
+                "rerank_score": 0.9704723954200745
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

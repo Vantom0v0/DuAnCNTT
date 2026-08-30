@@ -1,0 +1,83 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phải dấu hiệu mắc bệnh tim?",
+    "ground_truth": "Qua những gì bạn chia sẻ cùng câu hỏi “ trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phải dấu hiệu mắc bệnh tim?” thì đây có thể là biểu hiện của nhiều bệnh, có thể là bệnh tim, phổi, thậm chí là bệnh máu. Tốt nhất với tình trạng hiện tại, bạn nên đưa con đến bệnh viện để được thăm khám, đặc biệt phải siêu âm tim kiểm tra.",
+    "answer": "Môi thâm tím và mặt tái nhợt ở trẻ 12 tuổi có thể liên quan đến bệnh tim, nhưng cũng có thể do bệnh phổi hoặc bệnh về máu; chỉ dựa vào các biểu hiện này chưa thể xác định nguyên nhân. Một số bệnh tim bẩm sinh tím thường gây tím từ sớm, kèm da xanh xao hoặc tím môi, đầu ngón tay chân, nhất là khi trẻ khóc. Bạn nên đưa trẻ đến bệnh viện để được thăm khám, đặc biệt là siêu âm tim Doppler nhằm xác định có tổn thương tim hay không và có hướng xử trí phù hợp.",
+    "evidence": [
+        "Qua những gì bạn chia sẻ cùng câu hỏi“ trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phải dấu hiệu mắc bệnh tim?”thì đây có thể là biểu hiện của nhiều bệnh, có thể là bệnh tim, phổi, thậm chí là bệnh máu.",
+        "Với tình trạng hiện tại, bạn nên đưa con đến bệnh viện để được thăm khám, đặc biệt phảisiêu âm timkiểm tra.",
+        "Chẩn đoán bệnh tim bẩm sinh có tím\nTriệu chứng lâm sàng: thường trẻ có biểu hiện tim bẩm sinh tím: tím ngay sau sinh với một số trẻ có bệnh lý tim bẩm sinh tím sớm hoặc sau 3 - 4 tháng, vài năm.",
+        "Ngoài ra, trẻ có thể có một số biểu hiện đi kèm như thể chất chậm phát triển, da xanh xao, môi và đầu ngón chân, ngón tay chuyển màu tím khi trẻ khóc.",
+        "Chẩn đoán xác định bệnh có thể sẽ sử dụng các phương pháp thăm dò cận lâm sàng sau: Siêu âm tim màu Doppler Siêu âm tim thường sử dụng sóng âm cao để tạo ra hình ảnh của tim.",
+        "Siêu âm tim cho phép các bác sĩ xác định loại tổn thương, tiên lượng, chẩn đoán và góp phần lên kế hoạch điều trị cho trẻ bị mắc tim bẩm sinh.",
+        "Bé gái nhà em được 12 tuổi, thời gian gần đây nhận thấy môi bé bị thâm tím, mặt tái nhợt, không hồng hào, bé vẫn ăn uống, hoạt động bình thường."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: . Bé gái nhà em được 12 tuổi, thời gian gần đây nhận thấy môi bé bị thâm tím, mặt tái nhợt, không hồng hào, bé vẫn ăn uống, hoạt động bình thường. Xin hỏi bác sĩ trường hợp,trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phảidấu hiệu mắc bệnh timkhông?Cảm ơn bác sĩ đã tư vấn giúp em. Tô Thùy Trang(1983) Trả lời\nTrả lời: Chào bạn. Qua những gì bạn chia sẻ cùng câu hỏi“ trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phải dấu hiệu mắc bệnh tim?”thì đây có thể là biểu hiện của nhiều bệnh, có thể là bệnh tim, phổi, thậm chí là bệnh máu. Với tình trạng hiện tại, bạn nên đưa con đến bệnh viện để được thăm khám, đặc biệt phảisiêu âm timkiểm tra. Bạn có thể đăng ký khám tại bệnh viện thuộcHệ thống Y tế Vinmecđể được tư vấn bởi những bác sĩ giàu chuyên môn. Rất mong có thể gặp gia đình bạn để cùng trao đổi thêm về vấn đề sức khỏe của trẻ. Trân trọng. Được giải đáp bởiThạc sĩ, Bác sĩ Trương Thành Tâm- Bác sĩ Nhi khoa - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+                "score": 0.7917016744613647,
+                "id": "medical_vietnamese_qa_7685",
+                "rerank_score": 0.9999796152114868
+            },
+            {
+                "text": "Câu hỏi: Chẩn đoán bệnh tim bẩm sinh có tím\nTrả lời: 4. Chẩn đoán bệnh tim bẩm sinh có tím\nTriệu chứng lâm sàng: thường trẻ có biểu hiện tim bẩm sinh tím: tím ngay sau sinh với một số trẻ có bệnh lý tim bẩm sinh tím sớm hoặc sau 3 - 4 tháng, vài năm. Khó thở, thở nhanh, thở co lõm, bú ít và ngừng nghỉ liên tục khi bú mẹ. Trẻ được vài tháng tuổi trở lên sẽ có biểu hiện rõ rệt hơn. Thường xuyên ho, thở khò khè và hay bị viêm phổi . Ngoài ra, trẻ có thể có một số biểu hiện đi kèm như thể chất chậm phát triển, da xanh xao, môi và đầu ngón chân, ngón tay chuyển màu tím khi trẻ khóc. Dị tật tim bẩm sinh có thể đi kèm với các bệnh liên quan đến việc đột biến nhiễm sắc thể như Down, sứt môi, thiếu hoặc thừa ngón chân, bộ mặt bất thường... Chẩn đoán xác định bệnh có thể sẽ sử dụng các phương pháp thăm dò cận lâm sàng sau: Siêu âm tim màu Doppler Siêu âm tim thường sử dụng sóng âm cao để tạo ra hình ảnh của tim. Phương pháp này thường được sử dụng để chẩn đoán chứng bệnh tim bẩm sinh có tím. Siêu âm tim cho phép các bác sĩ xác định loại tổn thương, tiên lượng, chẩn đoán và góp phần lên kế hoạch điều trị cho trẻ bị mắc tim bẩm sinh. Siêu âm tim thai (trong lúc bà mẹ mang thai) có thể phát hiện các dị tật tim đặc biệt các là các dị tật tim phức tạp từ giai đoạn sớm của thai kì. Từ đó, có kế hoạch theo dõi, quản lý thai sản cũng như các biện pháp hỗ trợ từ sớm cho các bé ngay sau sinh. Điện tâm đồ Điện tâm đồ ghi lại hoạt động điện trong tim mỗi khi có co bóp. Trong phương pháp này, điện cực được đặt trên ngực, cổ tay và mắt cá chân. Các điện cực đo hoạt động điện và ghi lại trên giấy hoạt động của tim. Phương pháp này giúp bác sĩ xác định sự bất thường về kích thước các buồng tim cũng như các rối loạn về điện tim thường gặp trong bệnh tim bẩm sinh có tím. X-quang ngực X-quang ngực có thể cho thấy cấu trúc của tim và phổi. Có thể thấy sự bất thường về hình tim, các mạch máu lớn cũng như tình trạng tưới máu phổi. Thông tim Các bác sĩ có thể sử dụng phương pháp này để đánh giá áp lực, độ bão hòa oxy các buồng tim và các mạch máu lớn của tim cũng như những bất thường cấu trúc của tim và lên kế hoạch cho cuộc điều trị bằng phẫu thuật. Trong thủ thuật này, bác sĩ sẽ đạt một ống nhỏ, linh hoạt vào động mạch hoặc tĩnh mạch ở cánh tay, bẹn hoặc cổ và luồn ống thông vào tim. Sau đó, sẽ tiêm thuốc cản quang qua ống thông để làm cho cấu trúc tim có thể được quan sát trên hình ảnh X-quang. Đặt ống thông tim cũng đo được áp lực và nồng độ oxy trong buồng tim và trong mạch máu . Chẩn đoán bệnh tim bẩm sinh có tím ở trẻ sơ sinh",
+                "score": 0.46027112007141113,
+                "id": "vietnamese_healthcare_67666",
+                "rerank_score": 0.5981884002685547
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, năm nay con 20 tuổi, con không hút thuốc nhưng vẫn bị môi thâm xãm\nTrả lời: Chào cháu, \nTình trạng môi thâm có thể do những nguyên nhân như sau : \n- Do hút thuốc, sử dụng Caffeine\n- Tiếp xúc với nắng\n- Không uống đủ nước\n- Chế độ ăn uống\n- Tình trạng suy tim \nTrước tiên cháu cần có chế độ ăn uống hợp lý, ăn nhiều rau xanh , hoa quả tươi đặc biệt là quả có chứa nhiều Vitamin C.  Vitamin C có khả năng đối phó tình trạng nhiễm sắc tố môi.  Cũng có thể thoa mật ong lên môi hoặc dùng nước chanh tươi và sữa chua cũng có tác dụng giúp môi hồng hào\nThân mến",
+                "score": 0.5218642354011536,
+                "id": "vietnamese_medical_qa_8166",
+                "rerank_score": 0.38296252489089966
+            },
+            {
+                "text": "Câu hỏi: Con em hiện nay 17 tháng tuổi, bé có biểu hiện: Khóc lặng,tím tái, sau thời gian ngắn thì trở lại bình thường. Lần đầu, bé bị là trước tết, hiện nay, bé bị với tần suất dày hơn, khi đau (té, kiến cắn,....), đòi đồ của anh không được là bé bị. Vậy bác sĩ cho em hỏibé hơn 1 tuổi có biểu hiện khóc lặng, tím tái là dấu hiệu bệnh gì?Em phải cho bé làm xét nghiệm gì để biết rõ? Em cảm ơn bác sĩ. Đồng Văn Cường(1987) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Nam Phong- Bác sĩ Nhi - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Phú Quốc.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn khóc lặng, tím tái có thể là dấu hiệu củacơn khóc lặng, cơn khóc lặng có thể xuất hiện ở trẻ 6 tháng tới 6 tuổi và hay gặp nhất ở trẻ 1-3 tuổi. Khoảng 5% trẻ em có thể rơi vào tình trạng này. Cơn thường xảy ra khi bé khóc lóc, giận dữ, sợ hãi hoặc bị chấn thương nhẹ. Bé hít vào rồi nín lặng, không thở ra, miệng há rộng như muốn khóc nhưng không phát ra tiếng. Hệ thần kinh khiến nhịp tim và nhịp thở chậm lại trong một khoảng thời gian ngắn, bé trở nên xanh tím hay nhợt nhạt. Rất may cơn khóc lặng không nguy hiểm và không gây tổn thương lâu dài. Các cơn thường kết thúc trong vòng 30-60 giây, bé thở lại và bắt đầu khóc, da cũng hồng hào trở lại. Đây là phản xạ của cơ thể khi có kích thích khó chịu chứ không phải hành vi phản kháng có ý thức của trẻ. Cơn khóc lặng không có điều trị đặc hiệu. Thuốc chống động kinh không có tác dụng và hiếm khi được khuyên dùng. Việcbổ sung sắt có thể làm giảm tần suất và mức độ nặng của cơn khóc lặng, nhất là nếu bé bị thiếu máu, thiếu sắt, nhưng việc sử dụng rộng rãi thuốc này vẫn đang trong giai đoạn đánh giá.",
+                "score": 0.4435710608959198,
+                "id": "medical_vietnamese_qa_6763",
+                "rerank_score": 0.13730065524578094
+            },
+            {
+                "text": "Câu hỏi: Con em 12 tháng bắt đầu sa trực tràng, đến nay đã được 23 tháng, trung bình cứ 1 tháng bị 1 - 2 lần. Hiện nay, môi của bé có chấm đen như tàn nhang nhưng ngày càng to và nhiều. Vậy bác sĩ cho em hỏitrẻ bị sa trực tràng, môi nổi chấm đen có sao không?Có cách nào để kiểm tra xem con bị gì không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn bị sa trực tràng, môi có chấm đen như tàn nhang, theo bác sĩ thì bạn nên cho con đi khám sớm để có tư vấn chăm sóc và điều trị vớisa trực tràngvì để càng lâu bệnh sa trực tràng càng khó chữa. Mặt khác, không biết có phải là con bạn bị sa trực tràng không hay là ở trực tràng gần hậu môn có polyp khi đại tiện polyp bị sa ra ngoài, khi đại tiện xong polyp lại tụt vào. Có một bệnh liên quan tới polyp đường tiêu hóa có kèm theo cóđám hắc tố ở môimà ở đây như bạn mô tả là con bạn có chấm đen ở môi như tàn nhang và ngày càng to và nhiều. Vì vậy, bạn nên đưa con đi khám ngay bác sĩ chuyên khoa Nhi để được tư vấn cụ thể.",
+                "score": 0.4566977322101593,
+                "id": "medical_vietnamese_qa_5211",
+                "rerank_score": 0.05707641318440437
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: . Bé gái nhà em được 12 tuổi, thời gian gần đây nhận thấy môi bé bị thâm tím, mặt tái nhợt, không hồng hào, bé vẫn ăn uống, hoạt động bình thường. Xin hỏi bác sĩ trường hợp,trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phảidấu hiệu mắc bệnh timkhông?Cảm ơn bác sĩ đã tư vấn giúp em. Tô Thùy Trang(1983) Trả lời\nTrả lời: Chào bạn. Qua những gì bạn chia sẻ cùng câu hỏi“ trẻ 12 tuổi môi thâm tím, mặt tái nhợt, không hồng hào có phải dấu hiệu mắc bệnh tim?”thì đây có thể là biểu hiện của nhiều bệnh, có thể là bệnh tim, phổi, thậm chí là bệnh máu. Với tình trạng hiện tại, bạn nên đưa con đến bệnh viện để được thăm khám, đặc biệt phảisiêu âm timkiểm tra. Bạn có thể đăng ký khám tại bệnh viện thuộcHệ thống Y tế Vinmecđể được tư vấn bởi những bác sĩ giàu chuyên môn. Rất mong có thể gặp gia đình bạn để cùng trao đổi thêm về vấn đề sức khỏe của trẻ. Trân trọng. Được giải đáp bởiThạc sĩ, Bác sĩ Trương Thành Tâm- Bác sĩ Nhi khoa - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+                "score": 0.7759891152381897,
+                "id": "medical_vietnamese_qa_7685",
+                "rerank_score": 0.9999796152114868
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ,\nCháu bị thâm môi cháu phải làm sao để nó có thể trở lại bình thường ạ \nVà ăn những thức ăn gì ạ\nTrả lời: Chào bạn. \nMôi thâm có thể do những nguyên nhân sau : \n- Di truyền \n- Sử dụng nhiều son môi và son môi không có chất lượng đảm bảo \n- Do ánh sáng mặt trời\n- Dùng nhiều thuốc lá, trà, cafe\nNếu muốn làm hạn chế tình trạng thâm môi thì bạn nên từ bỏ các thói quen xấu có hại cho môi, cung cấp đủ lượng nước cơ thể cần, bổ sung thêm dưỡng chất cho môi bằng cách ăn nhiều rau củ, trái cây… Ngoài ra, thì bạn cũng nên áp dụng thử một số mặt nạ dành cho môi để tăng thêm sắc hồng cho môi như : \n- Thoa nước cốt chanh + đường + mật ong \n- Trộn nước ép dưa leo với đường + sữa chua \n- Dùng dầu dừa \nChúc bạn có một đôi môi đẹp hồng hào như ý nhé. \nThân mến.",
+                "score": 0.47344011068344116,
+                "id": "vietnamese_medical_qa_7865",
+                "rerank_score": 0.5199297666549683
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, năm nay con 20 tuổi, con không hút thuốc nhưng vẫn bị môi thâm xãm\nTrả lời: Chào cháu, \nTình trạng môi thâm có thể do những nguyên nhân như sau : \n- Do hút thuốc, sử dụng Caffeine\n- Tiếp xúc với nắng\n- Không uống đủ nước\n- Chế độ ăn uống\n- Tình trạng suy tim \nTrước tiên cháu cần có chế độ ăn uống hợp lý, ăn nhiều rau xanh , hoa quả tươi đặc biệt là quả có chứa nhiều Vitamin C.  Vitamin C có khả năng đối phó tình trạng nhiễm sắc tố môi.  Cũng có thể thoa mật ong lên môi hoặc dùng nước chanh tươi và sữa chua cũng có tác dụng giúp môi hồng hào\nThân mến",
+                "score": 0.5539804697036743,
+                "id": "vietnamese_medical_qa_8166",
+                "rerank_score": 0.38296252489089966
+            },
+            {
+                "text": "Câu hỏi: Xin chào bác sĩ, cho em hỏi nguyên nhân nào dẫn đến tình trang môi thâm và cách khắc phục nó ạ?\nTrả lời: Chào em !\nMột số nguyên nhân khác nhau khiến đôi môi em bị thâm :\n\n+ Ánh sáng mặt trời: Các tia UVA, UVB trong ánh sáng mặt trời khiến đôi môi bị khô và màu môi thâm dần.\n\n+ Thiếu nước, thiếu vitamin C: Nước và vitamin C có vai trò chống lại quá trình lắng đọng sắc tố môi cũng như sự lão hóa tự nhiên do đó khi cơ thể thiếu nước, vitamin C sẽ dẫn đến tình trạng môi thâm đen, bong tróc.\n\n+ Tác dụng phụ của các hóa chất có trong son môi, đồ uống có chứa cafein: Lạm dụng son môi, thường xuyên hút thuốc, đồ uống có chất gây nghiện, cafein cũng là nguyên nhân làm mất màu môi.\n\nCách khắc phục hiệu quả nguyên nhân khiến làn môi thâm và cách khắc phục hiệu quả\n\n +   Trước khi dùng son môi hãy thoa trước một lớp son dưỡng để bảo vệ môi\n +   Thoa kem chống nắng dành riêng cho da môi,\n +    Bổ sung đầy đủ các chất dinh dưỡng cho cơ thể và uống nước đều đặn.\n +     Trước khi dùng son môi hãy thoa trước một lớp son dưỡng để bảo vệ môi, hạn chế uống nước có ga, cà phê, hay hút thuốc.\n\nEm làm theo hướng dẫn nhé .\nThân chào !",
+                "score": 0.47688746452331543,
+                "id": "vietnamese_medical_qa_8739",
+                "rerank_score": 0.1642056703567505
+            },
+            {
+                "text": "Câu hỏi: Nguyên nhân gì ra gây thâm môi?\nTrả lời: 1. Nguyên nhân gì ra gây thâm môi?\nMôi thâm có thể là kết quả của chứng tăng sắc tố trên môi. Đây là một tình trạng vô hại do mật độ melanin quá nhiều trong các lớp tế bào da. Các nguyên nhân gây tăng sắc tố môi có thể do: Phơi nhiễm thường xuyên và với thời gian lâu dưới ánh nắng mặt trời. Thiếu nước. Hút thuốc lá . Bị kích ứng với các sản phẩm dùng tại chỗ như kem đánh răng, son môi. Dùng quá nhiều caffeine . Tật mút môi. May mắn là phần lớn những nguyên nhân này có thể được giải quyết bằng cách điều chỉnh lại thói quen và lối sống, chẳng hạn như sử dụng kem chống nắng khi ra ngoài trời, giảm tiêu thụ thức uống có chứa caffeine hoặc sử dụng một nhãn hiệu kem đánh răng khác. Ngoài ra, một số điều sau đây cũng có thể dẫn đến đôi môi sẫm màu: Hóa trị liệu. Thiếu máu . Thiếu vitamin. Sử dụng nước có chứa quá nhiều florua .",
+                "score": 0.4574735760688782,
+                "id": "vietnamese_healthcare_48683",
+                "rerank_score": 0.05245233699679375
+            }
+        ]
+    ],
+    "llm_call": 6,
+    "num_turns": 2
+}

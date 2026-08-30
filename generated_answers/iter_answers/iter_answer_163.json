@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": ". Con em mới sinh được 1 tháng, bé được chẩn đoán mắc Hội chứng Down. Em thấy mắt bé có biểu hiện lác, là biểu hiện thường thấy ở trẻ Down. Bác sĩ cho em hỏi, có thể phẫu thuật điều chỉnh trị lác với trẻ mắc Hội chứng Down được không ạ? Em mong bé có thể cải thiện được một chút vẻ ngoài, mong bác sĩ tư vấn. Em xin cảm ơn. Câu hỏi ẩn danh Trả lời Được giải đáp bởiBác sĩ chuyên khoa I Lê Thị Phương Thảo -Bác sĩ Mắt - Khoa Liên Chuyên Khoa - Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+    "ground_truth": "Chào bạn! Với câu hỏi\"Có thể phẫu thuật trị lác ở trẻ mắc hội chứng Down không?\", bác sĩ xin giải đáp như sau: Do bé có hội chứng Down, khuyên bạn nên cho bé đi khám bác sĩ chuyên khoa Mắt để được thăm khám chuyên sâu về mắt chứ không chỉ chuyện lác, lé của bé. Còn vấn đề có can thiệp phẫu thuật hay không, sau khi thăm khám bác sĩ sẽ giải thích với gia đình cụ thể.",
+    "answer": "Trẻ mắc Hội chứng Down vẫn có thể được phẫu thuật điều chỉnh lác khi có chỉ định, tuy nhiên bé mới 1 tháng tuổi nên chưa can thiệp phẫu thuật ngay. Gia đình nên đưa bé khám chuyên khoa mắt để đánh giá mức độ lác, thị lực và tật khúc xạ; nếu lác liên quan đến tật khúc xạ, bác sĩ có thể điều chỉnh bằng kính trước. Khi đã loại trừ hoặc điều chỉnh tật khúc xạ mà tình trạng lác vẫn còn, bác sĩ sẽ cân nhắc phẫu thuật vào thời điểm phù hợp với từng trẻ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Có thể phẫu thuật trị lác ở trẻ mắc hội chứng Down không?\nTrả lời: Bé nhà bạn mới được 1 tháng tuổi nên sẽ không can thiệp phẫu thuật ngay tại thời điểm này, bé cần được đưa đến khám chuyên khoa mắt để xem mức độ lác để có cách xử trí phù hợp nhé.",
+            "score": 0.8411598205566406,
+            "id": "vietnamese_healthcare_2941"
+        },
+        {
+            "text": "Câu hỏi: Con cháu sinh non 32 tuần đã đc đi khám định kỳ mắt thường xuyên. Hiện cháu đc 14 tháng tuổi cho đi khám lại, bác sĩ bảo phải mổ vì mắt bị lác bẩm sinh. Trước đó cháu cũng đã có hiện tượng bị lắc trong. Nay cháu hỏi bác sĩphương pháp điều trị lác bẩm sinh cho trẻ 14 tháng là gì?Cháu cảm ơn bác sĩ. Phạm Thị Thu Hiền(1982) Trả lời\nTrả lời: Chào bạn, Với câu hỏi:“Phương pháp điều trị lác bẩm sinh cho trẻ 14 tháng là gì?”bác sĩ xin được giải đáp như sau: Lác bẩm sinhcần cho trẻ đo thị lực và kiểm tra khúc xạ để chẩn đoán đúng nguyên nhân. Ở trẻ em khi mắt có tật khúc xạ sẽ dẫn đến mắt bị lác trong hoặc lác ngoài. Khi đã loại trừ được lác do tật khúc xạ thì mới có chỉ định phẫu thuật lác. Nếu chỉ có lác bẩm sinh thì phương điều trị là phẫu thuật chỉnh lác.  Được giải đáp bởiBác sĩ chuyên khoa I Nguyễn Thị Bích Nhĩ -Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+            "score": 0.7961488366127014,
+            "id": "medical_vietnamese_qa_7197"
+        },
+        {
+            "text": "Câu hỏi: Bé gái nhà em sinh năm 2020 được 18 tháng nhưngbé bị lác trong. Em đã đưa bé đi khám ở bệnh viện, bác sĩ kết luận lác trong. Vậy bác sĩ cho em hỏitrẻ 1,5 tuổi bị lác trong có điều trị được không?Có thể khỏi hoàn toàn được không? Phương pháp điều trị thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn chưa cung cấp loại lác trong mà bác sĩ chẩn đoán cho bé, có 1 số bạn nhỏ lác cơ năng thì sau này sẽ khỏi. Bé hiện tại 18 tháng thì khó xác định có bịtật khúc xạhay không (đa số lác là do nguyên nhân của tật khúc xạ). Phương pháp điều trị là theo dõi, phát hiện sớm tật khúc xạ và chỉnh tật khúc xạ. Nếu chỉnh khúc xạ tốt mà vẫn chưa hết lác thì có thểphẫu thuật chỉnh láccho bé ở độ tuổi chuẩn bị đi học.",
+            "score": 0.6996737122535706,
+            "id": "medical_vietnamese_qa_5879"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏitrẻ 21 tháng loạn thị 4 độ có khả năng chữa khỏi không?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Trẻ 21 tháng loạn thị 4 độ có khả năng chữa khỏi không?”, bác sĩ giải đáp như sau: Bé 21 tháng đo khúc loạn 4 độ thì loạn cao và là loạn bẩm sinh. Hiện tại, loạn thị chỉ có thể mang kính gọng để phục hồi thị lực chứ không thể chữa khỏi được. Đối với trẻ bị loạn thị nặng, cần phải áp dụng các biện pháp điều trị để tránh bệnh diễn biến nặng thêm hoặc gây ra nhược thị. Các biện pháp điều trị cho trẻ bị loạn thị mức độ nặng bao gồm: Kính thuốc: Kính thuốc là biện pháp đơn giản, được áp dụng rộng rãi, mang lại hiệu quả cao, ít để lại biến chứng. Theo đó, trẻ cần được tư vấn loại kính phù hợp với mức độ và nhu cầu. Phẫu thuật:Nếu phương pháp điều chỉnh bằng kính thuốc không đạt kết quả, bệnh nhân phải tiến hành phẫu thuật. Phương pháp này sử dụng tia laser, dao vi phẫu để định hình lại giác mạc. Cụ thể, một số loại phẫu thuật thường được áp dụng như thay đổi khúc xạ định hình nhu mô giác mạc (LASIK), thay đổi khúc xạ định hình giác mạc vạt dưới biểu mô, thay đổi khúc xạ cắt bỏ biểu mô giác mạc. Ortho-K (Orthokeratology) customize:Ortho-Klà phương pháp điều trị sử dụng kính áp tròng cứng, được thiết kế đặc biệt đeo vào ban đêm nhằm làm thay đổi tạm thời hình ảnh của giác mạc trong khi ngủ, giúp mắt người bệnh có thể nhìn rõ vào sáng hôm sau và duy trì suốt cả ngày. Ngoài ra, Các biện pháp hạn chế loạn thị tiến triển ở trẻ nhỏ như: Hướng dẫn trẻ ngồi đúng tư thế, nhất là khi ngồi học (lưng thẳng, mắt cách mặt khoảng 30cm). Phòng học của bé phải đủ ánh sáng, bàn ghế phù hợp với tuổi của trẻ. Cân bằng thời gian học với các hoạt động vui chơi ngoài trời. Không cho trẻ đọc sách, xem tivi, chơi vi tính quá 2 tiếng liên tục. Chế độ dinh dưỡng hợp lý: Giàu chất xơ, vitamin và khoáng chất tốt cho mắt.",
+            "score": 0.6873001456260681,
+            "id": "medical_vietnamese_qa_4904"
+        },
+        {
+            "text": "Câu hỏi: Con em 6 tuổi đi khám bác sĩ chẩn đoán 2 mắt lác trong. Bác sĩ khuyên nên mổ nhưng em có nghe tới phương pháp đeo kính chỉnh lác. Vậy bác sĩ cho em hỏitrẻ 6 tuổi lác mắt trong điều trị thế nào?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Phương pháp điều trị bệnh mắt lác cho trẻ là kiểm tra trẻ có bị tật khúc xạ hay không. Nếu lác này do tật khúc xạ gây ra thì nên điều chỉnh bằng kính trước. Khi trẻ đeo kính mà điều chỉnh được độ lác thì không cần phẫu thuật mà chỉ đeo kính.",
+            "score": 0.6823825240135193,
+            "id": "medical_vietnamese_qa_4597"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

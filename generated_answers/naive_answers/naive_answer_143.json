@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Em bị viêm vú phải, đi khám bác sĩ bảo cho em bé bú xong phải vắt hết sữa ra. Bác sĩ cho em hỏimắc viêm vú phải khi cho bé bú xong phải vắt hết sữa ở bên nào?Em chỉ vắt hết sữa bên em bé mới bú hay vắt luôn cả bên em bé không bú? Em cảm ơn. Cao Phương Thảo(1995) Trả lời",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Bệnhviêm tuyến vúhay còn gọi là viêm tuyến sữa là tình trạng viêm nhiễm ở một hay nhiều ống dẫn sữa của vú dẫn đến các mô vú của phụ nữ bị sưng phù, thường liên quan đến việc cho con bú hoặc tắc tuyến sữa do đọng sữa dư. Trong quá trình điều trị vẫn nên cho con bú, nếu ngưng thuốc cho con bú, các mầm bệnh có thể lan vào sữa còn lại trong vú và làm trầm trọng thêm tình trạng viêm vú. Việcvắt sạch sữa sau khi có bé búmục đích để loại bỏ sữa dư tránh tình trạng đọng sữa làm tăng quá trìnhtắc tuyến sữa. Như vậy nếu sau khi cho bé bú, vẫn còn sữa đọng trong vú nên vắt sạch sữa để làm rỗng các tuyến vú tạo điều kiện tạo sữa cho cữ bú sau. Nếu vú còn lại cũng căng sữa, bạn có thể vắt đồng thời lúc cho bé bú để trữ sữa lại tránh tình trạng tắc tuyến, nếu vú không căng sữa không nhất thiết phải vắt bỏ sữa.  Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Như Thu Trúc -Bác sĩ Sản phụ khoa - Khoa Sản phụ khoa, Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang.",
+    "answer": "Theo tài liệu, bạn nên cho bé bú đều cả hai bên; sau cữ bú, nếu bên nào còn sữa chưa bú hết thì vắt sữa bên đó bằng tay. Tài liệu không nêu rõ riêng trường hợp viêm vú phải là phải vắt hết bên phải hay cả hai bên, nên chưa đủ thông tin để khẳng định cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chích áp xe vú có cho con bú được không?\nTrả lời: 3. Chích áp xe vú có cho con bú được không?\nTheo nguyên tắc, khi đã tạo ổ áp xe thì chung quanh có vỏ bao. Các ống tuyến vú còn lại dẫn sữa từ tuyến sữa ra núm vú sẽ không bị ảnh hưởng bởi vùng áp xe. Vì vậy, hoàn toàn có thể cho bé bú cả hai bên vú, trừ trường hợp vùng áp xe gần núm vú. Để tránh hiện tượng viêm vú và áp xe vú tái phát cần cho bé bú đều đặn, bú cả hai bên vú và nếu bú không hết thì vắt sữa bằng tay. Cho bé bú mẹ bình thường sau khi chích áp xe vú",
+            "score": 0.5906276702880859,
+            "id": "vietnamese_healthcare_158885"
+        },
+        {
+            "text": "Câu hỏi: Cháu cho bé bú bị ọc sữa và bé cùng hay bị ọc sữa. Vậy bác sĩ cho cháu hỏitrẻ ọc sữa khi bú nên làm gì?Cháu cảm ơn bác sĩ. Lê Thị Nhã Linh(2002) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Công Cảnh- Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ bị ọc sữa nên cho trẻ nằm nghiêng qua một bên tránh sữa tràn vào mũi gây viêm phổi. Tùy theo mức độ ọc sữa như thế nào, bao nhiêu lần trên ngày, số lượng nhiều hay ít, sữa mẹ hay sữa bình, bạn nên đi khám bác sĩ để khám xem trẻ có bị ảnh hưởng gì không.",
+            "score": 0.5734318494796753,
+            "id": "medical_vietnamese_qa_6097"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\ntôi đang vắt sữa ra cho bé bú. dạo này bé quấy nên sữa tôi giảm hẳn. tôi cho bé bú bình k bú mẹ trực tiếp. lúc trước mỗi bên vắt được 80-100ml giờ mỗi bên chỉ vắt được 30-50ml. có cách nào kích sữa về nhiều lại như lúc đầu ko bác sĩ? cảm ơn\nTrả lời: Chào bạn\nBạn không cho bé bú là một điều rất thiệt thòi cho bạn. Vì chỉ khi bé bú trực tiếp mới kích thích vào đầu mút thần kinh ở đầu vú làm cho quá trình tiết sữa được nhiều và lâu hơn.  Vì thế , tốt nhất bạn nên tập cho bé bú vú mẹ trực tiếp . Lúc đầu có thể bé chưa quen nhưng dần bé sẽ quen vì trẻ con thì rất dễ huấn luyện. Để tiết ra nhiều sữa , bản thận bạn nên ăn uống đầy đủ chất dinh dưỡng, uống nhiều nước hàng ngày. Nên uống sữa đặc có đường thường xuyên , nên uống trước khi cho con bú. Ăn thêm các loại cháo lợi sữa như móng giò ,thông thảo , ý dĩ , đu đủ non ... Có thể uống thêm cốm lợi sữa hàng ngày. \nThân mến",
+            "score": 0.5556762218475342,
+            "id": "vietnamese_medical_qa_6458"
+        },
+        {
+            "text": "Câu hỏi: Mẹo cho con bú chỉ bằng một bên\nTrả lời: 2. Mẹo cho con bú chỉ bằng một bên\nChọn cho con bú từ một bên trong mỗi lần cho bú có những ưu điểm riêng do có thể hữu ích trong một số tình huống nhất định và một số thấy biện pháp này thuận tiện hơn. Tuy nhiên, có một số điều cần lưu ý nếu bạn đang cho con bú chỉ một bên vú. Nếu bạn có thể cho con bú từ cả hai bên vú, hãy luân phiên các bên vú mà bạn cho con bú. Ví dụ, nếu cữ bú đầu tiên trong ngày của bạn là ở vú bên phải, thì cữ bú thứ hai nên bắt đầu ở bên trái. Điều này sẽ cho phép cả hai vú xây dựng và duy trì nguồn sữa ổn định và dồi dào ở cả hai bên. Nếu bạn không chuyển sang vú đối diện và chỉ cho con bú ở một bên vú, cuối cùng bạn sẽ ngừng tạo sữa ở bên mà bạn không sử dụng. 2.1. Cho bé bú bao lâu tùy thích Khi bạn chỉ cho con bú từ một bên trong mỗi cữ bú, hãy để trẻ bú bao lâu tùy thích ở bên vú đó. Tuy nhiên, bạn cần đảm bảo trẻ nhận được càng nhiều sữa mẹ càng tốt từ bên đó. Các cữ bú dài hơn cho phép bé bú sữa sau nhiều kem hơn, béo hơn vào cuối cữ bú. Sữa sau (Sữa Hindmilk) giúp trẻ nhanh no và khiến trẻ no lâu hơn giữa các cữ bú. Để trẻ bú lâu hơn cũng giúp làm trống vú hoàn toàn hơn và báo hiệu cho cơ thể bạn cần tạo ra nhiều sữa hơn. Khi bạn chỉ cho con bú từ một bên trong mỗi cữ bú, hãy để trẻ bú bao lâu tùy thích ở bên vú đó",
+            "score": 0.5434876084327698,
+            "id": "vietnamese_healthcare_93947"
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nEm sinh cháu thứ hai đc hơn 4 tháng rồi em cho cháu bú hoàn toàn sữa mẹ . Nhưng không hiểu sao sữa của em bên nhiêu bên ít và em có nghe nói cho con bú bên ít để kích thich sữa về ma em cho cháu bú bên ít thì rất lâu sữa mơi nhiêu lên ko đủ cho bé bú. Còn bên phải thì bú cả ngày bận ko hết sữa . BS cho em hỏi là nếu cứ như thế khi con ko bú nữa thì ngực của em có bị bên to bên nhỏ ko a và có cách nào để ngực đều trở lại ko BS\nTrả lời: Chào bạn.\n\nBạn nên kiên trì cho bé bú, hành động bú của bé sẽ giúp kéo sữa về, tuyến sữa sẽ phát triễn hơn. Bạn nên cho bé bú nhiều bên trái hơn để cân đối 2 bên nhé.\n\nThân.",
+            "score": 0.5415620803833008,
+            "id": "vietnamese_medical_qa_8001"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

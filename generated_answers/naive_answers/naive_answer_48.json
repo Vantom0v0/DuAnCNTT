@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Kết quả xét nghiệm HBV-DNA: 2.93E+IU/ml có ý nghĩa gì?",
+    "ground_truth": "Xét nghiệm HBV-DNA dùng để phát hiện và định lượng DNA của virus viêm gan B trong máu. Đây là một xét nghiệm rất hữu ích để chẩn đoán một số trường hợp nhiễm virus viêm gan B cấp ở giai đoạn sớm, phân biệt nhiễm HBV thể hoạt động và không hoạt động, là một tiêu chí trong điều trị cũng như theo dõi hiệu quả điều trị. Trường hợp của bạn, kết quả HBV-DNA ở mức 2.93 x 10 mũ 7 IU/ml, là mức cao. Bạn cần làm các xét nghiệm khác để chẩn đoán giai đoạn bệnh và xem xét điều trị.",
+    "answer": "Kết quả HBV-DNA là xét nghiệm định lượng nồng độ virus viêm gan B trong 1 ml máu. Tuy nhiên, ghi “2.93E+ IU/ml” chưa đầy đủ vì chưa có phần số mũ sau dấu “E+”, nên chưa thể xác định chính xác tải lượng virus; hơn nữa, chỉ một kết quả HBV-DNA không đủ để đánh giá toàn bộ tình trạng bệnh. Bạn nên kiểm tra lại phiếu xét nghiệm và mang kết quả đến bác sĩ để được tư vấn, có thể cần làm thêm xét nghiệm men gan, siêu âm gan và các marker viêm gan B như HBeAg, HBc-IgM/IgG.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Kết quả định lượng HBV-DNA có nghĩa là gì?\nTrả lời: Đây là nồng độ virus viêm gan B có trong 01ml máu. Tuy nhiên, 102 có theo tôi hiểu là 10 mũ 2 và chỉ với một xét nghiệm này không đủ để đánh giá vấn đề viêm gan virus B bạn nhé",
+            "score": 0.6897801756858826,
+            "id": "vietnamese_healthcare_2678"
+        },
+        {
+            "text": "Câu hỏi: !Kết quảđịnh lượng HBV-DNA45 IU/ml (1.66 Log10) nghĩa là gìạ? Xin vui lòng giải đáp giúp, cảm ơn bác sĩ! Câu hỏi khách hàng ẩn danh Trả lời\nTrả lời: Chào bạn! Kết quảđịnh lượng HBV-DNA45 IU/ml (1.66 Log10) là chỉ số đánh giá lượng bản saovirus viêm gan Blưu hành trong máu. Chỉ số này tương đương 261 bản sao virus trong 1 ml huyết tương. Trong trường hợp này, bạn có thể đến cơ sở y tế hoặc các bệnh viện thuộcHệ thống Y tế Vinmecđể bác sĩ chuyên khoa thăm khám và tư vấn cụ thể hơn. Cảm ơn bạn đã tin tưởng và gửi thắc mắc: “Kết quả định lượng HBV-DNA 45 IU/ml (1.66 Log10) nghĩa là gì?” tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiTiến sĩ, Bác sĩ Trần Thị Phương Thúy- Khoa Nội tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.6080238819122314,
+            "id": "medical_vietnamese_qa_11368"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi kết quả xét nghiệm HBE 0,062 COL có ý nghĩa gì vậy ạ? Chỉ số như vậy thì em đang có nguy cơ mắc bệnh gì ạ? Mong nhận được giải đáp của bác sĩ ạ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Kết quả xét nghiệm HBE 0,062 COL có ý nghĩa gì?” như sau:\nBạn cần cung cấp rõ thông tin tên xét nghiệm vì với xét nghiệm HBE có 2 loại: HBeAg (kháng nguyên) và HBeAb (kháng thể, có vai trò quan trọng để ngăn chặn quá trình tự nhân đôi hoặc thể đột biến của các loại virus viêm gan siêu vi B hoạt động trong cơ thể người), việc phiên giải âm tính và dương tính của 2 loại này khác nhau. Hơn nữa, nếu chỉ có một chỉ số này cũng không đủ để kết luận về tình trạng bệnh của bạn.",
+            "score": 0.5964970588684082,
+            "id": "vietnamese_medical_qa_1625"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm xét nghiệm HBV - DNA và có kết quả: 4,5x10/3 copies/ml. Bác sĩ tư vấn kết quả xét nghiệm HBV - DNA. Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nXét nghiệm HBV - DNA và có kết quả: 4,5x10/3 copies/ml của bạn có nghĩa là bạn đang bị nhiễm virus Viêm gan B. Đây là xét nghiệm đo tải lượng virus, được tính bằng số copies/ ml huyết thanh. Bạn nên đi khám và làm thêm các xét nghiệm để thăm dò chức năng gan khác như siêu âm gan, xét nghiệm men gan, các marker viêm gan khác như HBeAg, HBc IgM, HBc IgG để biết chính xác tình trạng nhiễm virus hiện tại, để bác sĩ tư vấn theo dõi sức khỏe định kỳ và tư vấn điều trị.\nTrân trọng!",
+            "score": 0.5710693597793579,
+            "id": "vietnamese_medical_qa_669"
+        },
+        {
+            "text": "Câu hỏi: Ý nghĩa của kết quả xét nghiệm HCV RNA\nTrả lời: 5. Ý nghĩa của kết quả xét nghiệm HCV RNA\nSau khi sử dụng xét nghiệm HCV-AB (Hepatitis C Virus-Antibody) để xác nhận sự hiện diện của kháng thể chống vi rút viêm gan C (HCV) cần tiến hành đo tải lượng vi rút viêm gan C qua xét nghiệm HCV RNA định lượng bằng kỹ thuật PCR. Các kết quả xét nghiệm định lượng cung cấp một phép đo chính xác lượng HCV trong máu người bệnh, giúp bác sĩ xác nhận xem bạn có tải lượng virus cao hay thấp. Đo tải lượng HCV trước khi điều trị cho phép bác sĩ theo dõi tải lượng HCV trong và sau khi điều trị cho người bệnh. Đo tải lượng HCV không cho biết mức độ ảnh hưởng của HCV đến gan nghiêm trọng như thế nào nên bác sĩ thường yêu cầu tiến hành thêm một số xét nghiệm khác như: các xét nghiệm máu, các thăm dò chẩn đoán hình ảnh và hiếm khi sinh thiết gan sẽ giúp bác sĩ xác định sức khỏe gan tổng thể. Sau khi sử dụng xét nghiệm HCV RNA để xác nhận sự hiện diện của HCV, các bác sĩ sẽ tìm ra chủng vi rút nào đang hoạt động trong cơ thể (HCV genotype). Điều này giúp bác sĩ lên kế hoạch cho quá trình điều trị. Mục tiêu chính của điều trị là làm giảm tải lượng HCV trong cơ thể cho đến khi nó hoàn toàn không có HCV, đây là một phản ứng virus kéo dài (SVR). Đạt được SVR là kết quả điều trị tốt, hoặc phương pháp điều trị đó đã chữa khỏi bệnh viêm gan C. Tại Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng trong tháng 3 năm 2020 đã được tổ chức BOA cấp chứng chỉ ISO 15189 cho xét nghiệm HCV-AB (Hepatitis C Virus-Antibody) xác định sự hiện diện của kháng thể chống HCV Hình ảnh Phiếu kết quả xét nghiệm HCV-AB được cấp chứng chỉ ISO 15189 Để sớm phát hiện vi rút viêm gan C, bạn nên thường xuyên khám sức khỏe tổng quát. Hiện nay, Bệnh viện Đa khoa Quốc tế Vinmec có các gói Khám sức khỏe tổng quát phù hợp với từng độ tuổi, giới tính và nhu cầu riêng của quý khách hàng với chính sách giá hợp lý, bao gồm: Gói khám sức khỏe tổng quát kim cương Gói khám sức khỏe tổng quát Vip Gói khám sức khỏe tổng quát đặc biệt Gói khám sức khỏe tổng quát toàn diện Gói khám sức khỏe tổng quát tiêu chuẩn Kết quả khám của người bệnh sẽ được trả về tận nhà. Sau khi nhận được kết quả khám sức khỏe tổng quát, nếu phát hiện các bệnh lý cần khám và điều trị chuyên sâu, Quý khách có thể sử dụng dịch vụ từ các chuyên khoa khác ngay tại Bệnh viện với chất lượng điều trị và dịch vụ khách hàng vượt trội. Để đăng ký khám và điều trị tại Bệnh viện Đa khoa Quốc tế Vinmec, Quý Khách có thể liên hệ đến Hotline Hệ thống Y tế Vinmec trên toàn quốc, hoặc đăng ký khám trực tuyến TẠI ĐÂY .",
+            "score": 0.5661402940750122,
+            "id": "vietnamese_healthcare_130"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

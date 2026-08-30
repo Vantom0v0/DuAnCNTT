@@ -1,0 +1,82 @@
+{
+    "model_name": "fur",
+    "question": "Em có bầu 8 tuần không biết, lúc 5 tuần có dấu hiệucảm cúm, em tự mua thuốc ở ngoài uống 2,5 ngày không đỡ, em đi khám xét nghiệm bị cúm A, em chụp X-quang và CT. Vậy bác sĩ cho em hỏichụp X-quang và CT khi mang thai 8 tuần có sao không?Em có nên giữ thai không? Xin bác sĩ tư vấn giúp em, em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Trong 3 tháng đầu tiên của thai kỳ, cần hạn chế chụp X-quang hay CT. Hai tuần đầu thai kỳ:Nguy cơ sảy thaikhi liều lượng tia X lớn hơn 5 rad. Tuần từ 3-8 thai kỳ, liều tia xạ lớn hơn 20-30 rad có nguy cơ ảnh hưởng đến thai: Chậm phát triển, ung thư, dị tật,.... Ví dụ: Trong trường hợp chụp X quang vùng ngực, khả năng thai nhi hấp thụ là 0,00007 lần/ chụp, để đạt liều ảnh hưởng 5 rad thì người mẹ cần chụp X-quang 71429 lần chụp. Trường hợp của bạn mô tả vừa chụp X-quang vừa chụp CT nếu chỉ vùng ngực và duy nhất 1 lần thì nguy cơ ảnh hưởng đến thai không quá lớn. Tuy nhiên, vẫn có tỷ lệ nhỏ (4-6%)thai nhi bị bất thườngngay cả không tiếp xúc với tia X, do vậy, bạn nên đi khám và tầm soát định kỳ để phát hiện sớm nhất những bất thường nếu có.",
+    "answer": "Dựa trên các thông tin được cung cấp, **chưa thể xác định chính xác nguy cơ của lần chụp CT và X-quang** nếu chưa biết:\n\n- Chụp bộ phận nào, đặc biệt có chiếu trực tiếp vùng bụng/chậu hay không;\n- Số lần chụp, thông số và liều bức xạ;\n- Chụp vào thời điểm nào so với thời điểm thụ thai;\n- Tuổi thai được tính theo cách nào.\n\nNếu hiện tại thai khoảng 8 tuần và lần chụp diễn ra khi thai khoảng 5 tuần theo cách tính của bạn, thì đó là giai đoạn sớm của thai kỳ. Bằng chứng cho biết **phơi nhiễm liều cao** trong giai đoạn 2–8 tuần sau thụ thai có thể ảnh hưởng đến sự phát triển hoặc gây dị tật; tuy nhiên, chụp X-quang thông thường có liều thấp hơn nhiều so với bức xạ điều trị.\n\nĐối với **X-quang đầu, ngực hoặc tim-phổi**, tia X không chiếu trực tiếp vào vùng thai; liều tia thứ cấp rất nhỏ. Một nguồn thông tin nêu tổn thương thai sau chụp đầu/ngực/tim-phổi là dưới 1/1.000.000. Vì vậy, một lần chụp X-quang ngực đơn thuần thường không phải là lý do để quyết định bỏ thai.\n\nĐối với **CT**, bằng chứng cung cấp chỉ cho biết CT sử dụng tia X và có bức xạ ion hóa; nguy cơ phụ thuộc vào vùng chụp và liều tia. Chưa có đủ thông tin trong bằng chứng để kết luận cụ thể về CT khi thai 8 tuần, nhất là nếu không biết CT vùng nào và liều bao nhiêu.\n\nBạn nên:\n\n1. Xin cơ sở chụp cung cấp tên loại chụp, vùng chụp, số lần và thông số/liều bức xạ.\n2. Mang các thông tin đó đến bác sĩ sản khoa và bác sĩ chẩn đoán hình ảnh để đánh giá riêng.\n3. Tiếp tục khám thai, siêu âm và các xét nghiệm sàng lọc theo lịch.\n\nVới thông tin hiện có, **không có cơ sở để khuyên bỏ thai chỉ vì đã chụp một lần X-quang hoặc CT**. Tuy nhiên, chưa đủ bằng chứng để định lượng chính xác nguy cơ của trường hợp cụ thể nếu chưa biết chi tiết lần chụp CT.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em năm nay 28 tuổi, lập gia đình được 3 năm và rất mong có con. Do kinh nguyệt không đều, em không biết mình có thai. Đến ngày 21.3 vừa qua, khám sức khỏe định kỳ, siêu âm ổ bụng em mới biết mình có thai. Tuy nhiên, lúc chờ siêu âm em đã đi chụp X-quang ngực. Sau đó, em đi khám sản khoa và nói với bác sĩ việc chụp X-quang, bác sĩ khá bất ngờ và có hỏi em muốn giữ thai hay không vì sợ tia X ảnh hưởng đến thai. Bác sĩ cũng khẳng định không phương pháp nào có thể biết được tác động của tia X lên thai nhi, chỉ có thể biết khi bé ra đời. Bác sĩ cho em hỏi, chụp X-quang như vậy có phải rất nguy hiểm cho thai nhi không ạ? Trước đó em cũng dùng thuốc giảm cân, thành phần có lá sen, mật ong, hoa cam đắng, trà xanh và diệp lục, liệu thuốc giảm cân có ảnh hưởng gì đến thai nhi không ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Thân chào em,\nViệc em có thai nhưng không biết và đi chụp X-quang ngực là việc không mong muốn. Tuy nhiên việc chụp X-quang ngực liều nhiễm xạ rất thấp (tương đương 1 ngày tắm biển). Do đó việc nghĩ đến chuyện bỏ thai là không nên. Tần suất sinh cháu với các biểu hiện do nhiễm xạ (dị tật,...) không cao hơn nguy cơ nền nên em không cần quá lo lắng.\nNếu thai đã lớn (>3 tháng) thì nguy cơ ảnh hưởng càng thấp hơn nữa. Chỉ cần theo dõi thai định kỳ, khám, xét nghiệm, siêu âm sàng lọc theo quy định là được em nhé.\nThuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em.\nChúc em mẹ tròn con vuông nhé!",
+            "score": 0.5884391069412231,
+            "id": "vietnamese_medical_qa_3309",
+            "rerank_score": 0.9846359491348267
+        },
+        {
+            "text": "Câu hỏi: vợ e mang thai được 8 tuần đisiêu âmthì bác sĩ nói chưa có tim thai và khuyên vợ nên bỏ. Vậy em còn hy vọng đợi thêm được hay không ạ hay là phải bỏ? Mong bác sĩ tư vấn giúp! Trần Văn Lợi (Nha Trang) Chào bác sĩ. Bác sĩ cho em hỏi thai 7 tuần 4 ngày không có tim thai túi ối méo liệu có hi vọng giữ lại được không ạ? Mong bác sĩ tư vấn. Xin cảm ơn. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn, nếu siêu âm xác định thai 08 tuần chưa cótim thaithì có thể thai đã ngừng phát triển (vì với máy siêu âm tốt, bác sĩ có kinh nghiệm thì thai 06 tuần đã có thể đo được tim thai rồi), bạn nên đến bệnh viện chuyên khoa để thăm khám lại và được bác sĩ tư vấn thêm nhé. Bác sĩ CKII Trần Thị Mai Hương- Khoa sản phụ khoa - Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng",
+            "score": 0.591140627861023,
+            "id": "medical_vietnamese_qa_4330",
+            "rerank_score": 0.7075952887535095
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho cháu hỏithai 8 tuần không có tim thai là sao?Có nguy hiểm gì không thưa bác sĩ? Cháu cảm ơn bác sĩ. Nguyễn Thị Hồng Nhung(2001) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Tim thaithường sẽ xuất hiện vào tuần thứ 6 - 7 của thai kỳ. Tuy nhiên, trong nhiều trường hợp phải vào khoảng tuần thứ 8 - 10 của thai kỳ mới có thể nghe thấy tim thai, điều này phụ thuộc vào chu kỳ kinh nguyệt cũng nhưsự phát triển của phôi thai. Trường hợp của bạnmang thai 8 tuần chưa có tim thai, cần theo dõi thêm và nên đi khám thai theo lịch hẹn của bác sĩ để được bác sĩ siêu âm chẩn đoán và điều trị sớm.",
+            "score": 0.5951592922210693,
+            "id": "medical_vietnamese_qa_3390",
+            "rerank_score": 0.6029967665672302
+        },
+        {
+            "text": "Câu hỏi: Em có thai 5 tuần nhưng chưa có phôi thai vàtim thai. Em có tiền sửlưu thai1 lần ở tuần thứ 5. Hiện giờ, lần mang thai này em đang rất lo lắng. Bác sĩ cho em hỏithai 5 tuần chưa có phôi thai và tim thai có sao không?Em cần làm gì để có một thai kỳ khỏe mạnh? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Trênsiêu âm đường bụngthông thường đến tuần thai thứ 6 -7 mới quan sát được hoạt động của tim thai. Thai của bạn 5 tuần chưa có phôi thai và tim thai nên đi siêu âm lại sau 1-2 tuần, trong trường hợp cần thiết, bạn có thể làmxét nghiệm beta-hCGđể đánh giá sự phát triển của thai. Để có một thai kỳ khỏe mạnh bạn nên chọn chế độ ăn uống lành mạnh, đủ chất. Bạn cần bổ sung các vi chất cần thiết như sắt, acid folic, canxi, ... và đi khám quản lý thai định kỳ.",
+            "score": 0.5949640274047852,
+            "id": "medical_vietnamese_qa_2742",
+            "rerank_score": 0.14419348537921906
+        },
+        {
+            "text": "Câu hỏi: Em đi siêu âm thai 5 tuần 3 ngày, tử cung to hơn bình thường.Xét nghiệm beta HCG20237,00, chưa có tim thai, túi thai không tròn đều. Vậy bác sĩ cho em hỏithai 5 tuần siêu âm chưa có tim thai, túi thai không tròn đều có sao không?Em 38 tuổi đã có 2 con. Mong bác sĩ tư vấn, em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Thai của bạn 5 tuần siêu âmchưa có tim thaicũng chưa thể loại trừ được tình trạngthai ngừng phát triển. Tốt nhất, bạn nên làm lại beta HCG sau 48 giờ và siêu âm lại sau 1 tuần để đánh giá tình trạng phát triển của thai, từ đó mới có biện pháp điều trị thích hợp.",
+            "score": 0.5901268720626831,
+            "id": "medical_vietnamese_qa_2947",
+            "rerank_score": 0.13072064518928528
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho em hỏi chụp X quang ngực khi đang mang thai có sao không ạ? Mong bác sĩ tư vấn ạ. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Chụp X quang ngực là một kỹ thuật chống chỉ định tương đối (tức là rất hạn chế thực hiện) đối với phụ nữ mang thai, đặc biệt là giai đoạn ba tháng đầu thai kỳ.\nTrong trường hợp bắt buộc phải chụp bạn sẽ được che chắn rất kỹ cho thai để hạn chế tối đa tác động tia X tới thai. Còn nếu bạn phát hiện mình có đã có thai sau khi vô tình chụp thì bạn cũng nên bình tĩnh đừng lo lắng quá làm ảnh hưởng tới sức khỏe, lúc này bạn nên yêu cầu nhân viên y tế ghi lại các thông số chụp, thời gian chụp và gặp bác sĩ sản phối hợp với bác sĩ chẩn đoán hình ảnh theo dõi sát thai kỳ của bạn để phát đánh giá sự phát triển của thai, từ đó sẽ có những xử trí thích hợp tùy vào từng giai đoạn bạn nhé.",
+            "score": 0.5806937217712402,
+            "id": "vietnamese_medical_qa_4571",
+            "rerank_score": 0.1975671648979187,
+            "weighted_score": 0.6867900729179383
+        },
+        {
+            "text": "Câu hỏi: Em bị chấn thương có chụp X quang ở đầu gối và đầu lúc mang thai 4 tuần và 6 tuần, không có biện pháp che chắn do không biết có thai. Bác sĩ cho em hỏi,chụp X quang khi mang thai có ảnh hưởng đến thai nhi không?Khi sàng lọc có thể phát hiện các bất thường do tia X không?\nTrả lời: bác sĩ xin giải đáp như sau: Sự ảnh hưởng củatia Xđối với sức khỏe của con người liên quan tới liều tia, thời gian tiếp xúc, số lần nhận tia.... Theo các bác sĩ, mỗi giai đoạn thai kỳ có mức độ ảnh hưởng của tia X đến thai nhi khác nhau. Cụ thể: Hai tuần đầu thai kỳ: Nguy cơ sẩy thai khi liều lượng tia X lớn hơn 5 rad. Tuần thứ 3 - 8 thai kỳ: Nguy cơ ảnh hưởng đến thai khi liều lượng tia xạ lớn hơn 20-30 rad. Sau tuần thứ 20 thai kỳ: Nguy cơ sẩy thai không tăng nếu chụp X quang khi mang thai vì lúc này thai nhi đã phát triển khá hoàn chỉnh. Phương phápchụp X quangcó liều thấp hơn so với bức xạ được dùng để điều trị. Vì thế, mức độ nguy hại khi tiếp xúc với tia X cũng rất thấp. Khi thực hiện kỹ thuật chụp X quang vào các cơ quan như đầu, chân thì tia X không chiếu vào vùng bào thai. Một số tia thứ cấp có thể chạm tới nhưng với liều rất nhỏ nên không thể làm tăng nguy cơ dị tật bẩm sinh thai nhi. Nếu cảm thấy lo lắng, bạn có thể thăm khám bác sĩ chuyên khoa để được tư vấn chi tiết.",
+            "score": 0.5788456201553345,
+            "id": "medical_vietnamese_qa_2624",
+            "rerank_score": 0.29724404215812683,
+            "weighted_score": 0.6463272988796235
+        },
+        {
+            "text": "Câu hỏi: Chụp X-quang ngực khi mang thai liệu có nguy hiểm?\nTrả lời: Việc em có thai nhưng không biết và đi chụp X-quang ngực là việc không mong muốn. Tuy nhiên việc chụp X-quang ngực liều nhiễm xạ rất thấp (tương đương 1 ngày tắm biển). Do đó việc nghĩ đến chuyện bỏ thai là không nên. Tần suất sinh cháu với các biểu hiện do nhiễm xạ (dị tật, . . . )không cao hơn nguy cơ nền nên em không cần quá lo lắng. Nếu thai đã lớn (>3 tháng) thì nguy cơ ảnh hưởng càng thấp hơn nữa. Chỉ cần theo dõi thai định kỳ, khám, xét nghiệm, siêu âm sàng lọc theo quy định là được em nhé. Thuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em. Thuốc giảm cân với các thành phần tự nhiên như vậy nếu không gây động thai thì cũng không ảnh hưởng gì đâu em.",
+            "score": 0.5908038020133972,
+            "id": "vietnamese_healthcare_6920",
+            "rerank_score": 0.2630496919155121,
+            "weighted_score": 0.6335256278514863
+        },
+        {
+            "text": "Câu hỏi: Có rủi ro nào không?\nTrả lời: 5. Có rủi ro nào không?\nChụp CT sử dụng tia X nên tạo ra bức xạ ion hóa. Nghiên cứu cho thấy loại phóng xạ này có thể làm hỏng ADN của bệnh nhân và dẫn đến đột biến gen và ung thư. Nhưng rủi ro vẫn còn rất nhỏ, khả năng bệnh nhân bị ung thư gây tử vong vì chụp CT là khoảng 1 trên 2.000. Nhưng hiệu ứng bức xạ lại ảnh hưởng cộng dồn và diễn ra trong suốt cuộc đời của bạn. Vì vậy, nguy cơ của bệnh nhân tăng lên với mỗi lần chụp CT. Do đó, trước khi chụp, bệnh nhân có thể cần nói chuyện với bác sĩ về nguy cơ tiềm tàng, lợi ích, và hỏi tại sao bệnh nhân cần chụp CT. Bức xạ ion hóa có thể có hại cho trẻ em hơn, do trẻ vẫn đang trong quá trình phát triển. Nếu tính tổng số thời gian tiếp xúc với bức xạ, trẻ càng nhỏ mà đã tiếp xúc bức xạ sớm thì trẻ đó có nhiều năm tiếp xúc với bức xạ hơn so với những trẻ khi lớn lên mới bắt đầu tiếp xúc với bức xạ. Vì vậy, để giảm nguy cơ biến chứng cộng dồn cho nhiều lần tiếp xúc với bức xạ, bố mẹ nên hỏi bác sĩ hoặc kỹ thuật viên có thể cài đặt máy chụp CT sang chế độ dành cho trẻ em hay không. Bệnh nhân nên thông báo cho bác sĩ nếu đang mang thai hoặc nghi ngờ mang thai. Nếu bệnh nhân cần chẩn đoán hình ảnh cho vùng bụng, bác sĩ có thể chỉ định các kỹ thuật chẩn đoán hình ảnh khác mà không sử dụng bức xạ, chẳng hạn như siêu âm. Nếu đang mang thai hoặc nghi ngờ có mang cần thông báo cho bác sĩ",
+            "score": 0.6457619071006775,
+            "id": "vietnamese_healthcare_98194",
+            "rerank_score": 0.827667236328125,
+            "weighted_score": 0.4290807008743286
+        },
+        {
+            "text": "Câu hỏi: Mức độ ảnh hưởng của tia X đến thai nhi\nTrả lời: 3. Mức độ ảnh hưởng của tia X đến thai nhi\nNguy cơ gây hại khi người mẹ tiến hành chụp X quang các bộ phận thân dưới sẽ tùy vào độ tuổi thai và mức độ phơi nhiễm phóng xạ. Cụ thể: Phụ nữ tiếp xúc với bức xạ liều cực cao trong 2 tuần đầu sau khi thụ thai có nguy cơ sảy thai ; Tiếp xúc bức xạ liều cao từ 2 - 8 tuần sau thụ thai có thể hạn chế sự tăng trưởng của thai nhi hoặc gây dị tật bẩm sinh; Phơi nhiễm bức xạ liều cao từ tuần thứ 8 - 16 làm tăng nguy cơ thiểu năng trí tuệ. Vì vậy trước khi chụp X quang, cần thông báo cho bác sĩ biết nếu bạn đang mang thai. Tùy vào thời điểm, bác sĩ có thể trì hoãn sử dụng tia X hoặc giảm lượng phóng xạ xuống mức an toàn. Nếu rơi vào trường hợp đã chụp X quang trước khi biết mình mang thai, bạn cũng không cần hoảng sợ hay lo lắng quá mức. Vì nguy cơ tia X gây tác động xấu đến cơ thể mẹ và bé là tương đối thấp. Những trường hợp tiếp nhận một lượng lớn tia X trực tiếp lên vùng bụng, hoặc tiến hành điều trị bức xạ do không biết mình đang mang thai thì nên thông báo ngay cho bác sĩ để được tư vấn và theo dõi.",
+            "score": 0.5486263036727905,
+            "id": "vietnamese_healthcare_83369",
+            "rerank_score": 0.14454014599323273,
+            "weighted_score": 0.2672473579645157
+        },
+        {
+            "text": "Câu hỏi: Lúc thai được khoảng 2 tuần, vợ em do chưa biết có thai nên đã chụp Xquang tim phổi khi khám sức khỏe ở công ty. Bác sĩ cho em hỏichụp Xquang tim phổi khi mang thai 2 tuần có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Chụp X quang là phương pháp được dùng phổ biến trong chẩn đoán hình ảnh. Tuy nhiên nhiều thai phụ vẫn rất e dè khi chụp X quang trong thời gian đang mang thai do lo ngại tia X có thể ảnh hưởng không tốt đến em bé. Những nguy cơ có thể gặp sau một lần chụp X quang là rất hiếm. Phương pháp chụp X quang có liều thấp hơn so với bức xạ được dùng để điều trị. Vì thế, mức độ nguy hại khi tiếp xúc với tia X cũng khác nhau. Khi thực hiện kỹ thuật chụp X quang vào các cơ quan như tim, phổi thì tia X không chiếu vào vùng bào thai. Một số tia thứ cấp có thể chạm tới nhưng với liều rất nhỏ nên không thể làm tăng nguy cơ dị tật bẩm sinh thai nhi. Theo 1 số nghiên cứu thì khi chụp X quang đầu, ngực, tim - phổi: tỉ lệ thương tổn thai nhi là <1/1000 000 (liều 0,001 - 0,0001) cho nên bạn không nên quá lo lắng. Tuy nhiên, vẫn có một tỉ lệ nhỏ (4 - 6%) thai nhi bị bất thường ngay cả khi không tiếp xúc với tia X, chính vì vậy trong thời kỳ mang thai, bạn cần thực hiện kiểm tra, tầm soát định kỳ để phát hiện sớm những bất thường nếu có.",
+            "score": 0.5723328590393066,
+            "id": "medical_vietnamese_qa_1092",
+            "rerank_score": 0.016080278903245926,
+            "weighted_score": 0.38083124533295637
+        }
+    ],
+    "llm_call": 5,
+    "iteration": 2
+}

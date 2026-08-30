@@ -1,0 +1,114 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Tôi bị dị ứng thời tiết lạnh, ướt, khi đó tôi bị mẩn ngứa, sau khoảng 2 tiếng thì khỏi. Ngoài ra, tôi cũng bị dị ứng nổi u cục lớn khi bị kiến cắn, dị ứng nhựa cây (đặc biệt là mủ nhựa cây xương rồng). Tôi cũng hay đau tức ngực khi bị gió quạt thổi thẳng vào người hoặc ăn đồ hơi bị lạnh. Ngoài ra, tôi còn bị u xơ tử cung với số lượng u nhiều, u nang tuyến giáp.Con gái tôi năm nay 25 tuổi cũng hay nổi mề đay chưa rõ nguyên nhân, u xơ vú, u nang tuyến giáp, viêm dạ dày. Chúng tôi có tiêm được vaccine Covid-19 được không ạ?",
+    "ground_truth": "Nếu Anh/Chị và con gái của Anh/Chị phản vệ từ độ II trở lên sẽ chống chỉ định tiêm phòng vaccine Covid-19, tuy nhiên nếu chỉ dị ứng nhẹ vẫn có thể tiêm phòng nhưng nên tiêm tại bệnh viện.",
+    "answer": "Dị ứng thời tiết không phải là chống chỉ định hoặc lý do phải hoãn tiêm vaccine Covid-19. Với tình trạng mẩn ngứa, nổi mề đay nếu chỉ nhẹ, không kèm khó thở phải nhập viện, tụt huyết áp hoặc nôn ói thì vẫn có thể tiêm, nhưng thuộc nhóm cần thận trọng và nên tiêm tại bệnh viện; nếu từng dị ứng nặng gây khó thở phải cấp cứu thì chống chỉ định tiêm. Do anh/chị có triệu chứng đau tức ngực khi gặp lạnh, cần cung cấp đầy đủ thông tin này cho bác sĩ khám sàng lọc để được chỉ định phù hợp. Đối với con gái, nếu nổi mề đay nhẹ và chưa từng có phản ứng nặng thì có thể tiêm theo diện thận trọng tại bệnh viện; nếu từng khó thở phải nhập viện, tụt huyết áp hoặc nôn ói thì cần được đánh giá vì có thể thuộc nhóm chống chỉ định. Bằng chứng được cung cấp không đủ để kết luận về ảnh hưởng của u xơ tử cung, u nang tuyến giáp, u xơ vú hay viêm dạ dày. Sau tiêm cần theo dõi tại cơ sở y tế ít nhất 30 phút và tại nhà ít nhất 7 ngày; nếu có dấu hiệu phản vệ như khó thở, tức ngực, phù niêm, tụt huyết áp hoặc ngất thì cần xử trí y tế ngay.",
+    "evidence": [
+        "Việc tiêm vaccine Covid-19 không chống chỉ định hay hoãn tiêm cho đối tượng dị ứng thời tiết.",
+        "Người được tiêm cần phải theo dõi tại cơ sở y tế ít nhất 30 phút và tiếp tục theo dõi tại nhà ít nhất 7 ngày, nếu có các dấu hiệu phản vệ như nổi mề đay, phù niêm, tím tái, khó thở, tức ngực, thở rít, đau quặn bụng, tiêu chảy hoặc nôn/buồn nôn, tụt huyết áp hoặc ngất, rối loạn ý thức.",
+        "Trả lời: Anh/Chị cần nêu rõ tình trạng của Anh/Chị khi bị dị ứng: nếu trường hợp của Anh/Chị bị dị ứng nặng có khó thở phải nhập viện điều trị cấp cứu thì theo hướng dẫn của Bộ Y tế thì Anh/Chị thuộc nhóm chống chỉ định tiêm chủng vaccine Covid-19.",
+        "Còn nếu tình trạng dị ứng của Anh/Chị nhẹ hơn như chỉ gặp các triệu chứng như mẩn ngứa, mề đay và không phải nhập viện vì các triệu chứng khó thở hay tụt huyết áp hay nôn ói thì Anh/Chị vẫn có thể tiêm vaccine Covid-19.",
+        "Tuy nhiên theo hướng dẫn của Bộ Y tế Anh/Chị thuộc nhóm đối tượng thận trọng khi tiêm vaccine Covid-19, và phải tiêm chủng vaccine Covid-19 tại bệnh viện.",
+        "Ngoài ra Anh/Chị phải cung cấp đầy đủ các triệu chứng khi mắc phải cho bác sĩ khám sàng lọc để bác sĩ khám cho chỉ định và dặn dò theo dõi cho phù hợp."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Tôi thỉnh thoảng bị dị ứng mẩn ngứa khi trời lạnh, thì có tiêm vaccine Covid-19 được không?\nTrả lời: Theo bạn chia sẻ thì bạn bị dị ứng mẩn ngứa, chúng tôi không biết mức đó dị ứng có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6360032558441162,
+                "id": "vietnamese_healthcare_2342",
+                "rerank_score": 0.9979137778282166
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng da khi thời tiết lạnh thì chích vaccine Covid-19 được không ạ?\nTrả lời: Dị ứng thời tiết có nhiều mức độ khác nhau, nếu dị ứng nổi mẩn ngứa nhẹ và tự hết có thể tiêm tại các trung tâm tiêm chủng, phòng tiêm chủng. Nếu anh có dấu hiệu dị ứng nặng hơn như nổi mẩn, phù quincke có thể hoãn tiêm hoặc tiêm trong bệnh viện, nơi đủ điều kiện cấp cứu ban đầu.",
+                "score": 0.6617887020111084,
+                "id": "vietnamese_healthcare_2590",
+                "rerank_score": 0.9975900650024414
+            },
+            {
+                "text": "Câu hỏi: Khoảng 7 đến 10 năm trước, khi thời tiết chuyển từ mát sang lạnh đột ngột, nếu không mặc đủ ấm thì cơ thể tôi hay nổi giác, ngứa. Đây là tình trạng dị ứng thời tiết. Nhưng khi mặc ấm đầy đủ thì các vết giác đó tự biến mất. Gần đây, do chủ động mặc ấm khi chuyển mùa nên tôi không còn bị hiện tượng này nữa, thì liệu tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Về việc anh bị dị ứng nổi mẩn và ngứa khi thời tiết thay đổi là khá rõ ràng và đã cách đây 7-10 năm. Việc tiêm vaccine Covid-19 không chống chỉ định hay hoãn tiêm cho đối tượng dị ứng thời tiết. Lưu ý, anh nên thông báo cho bác sĩ sàng lọc trước tiêm, để bác sĩ có thể thăm khám và tư vấn kỹ về các dấu hiệu của phản vệ. Người được tiêm cần phải theo dõi tại cơ sở y tế ít nhất 30 phút và tiếp tục theo dõi tại nhà ít nhất 7 ngày, nếu có các dấu hiệu phản vệ như nổi mề đay, phù niêm, tím tái, khó thở, tức ngực, thở rít, đau quặn bụng, tiêu chảy hoặc nôn/buồn nôn, tụt huyết áp hoặc ngất, rối loạn ý thức. . . Anh cần đến ngay cơ sở y tế gần nhất được xử trí kịp thời.",
+                "score": 0.6285902857780457,
+                "id": "vietnamese_healthcare_853",
+                "rerank_score": 0.9923633337020874
+            },
+            {
+                "text": "Câu hỏi: Hiện em có bệnh mạn tính từ nhỏ là dị ứng cơ địa: thời tiết như bụi, nóng, gạch hải sản, hoặc những nơi ô nhiễm, bệnh trong người. Em hay bị nổi mẩn đỏ như rôm sảy có lúc nhẹ thi uống thuốc hết, nếu nặng thì gây sốt, khó thở. Vào thời tiết gió bụi thì dị ứng nổi hết cả người khoảng 1-2 tháng khi thời tiết ổn lại mới tự hết. Tình trạng em có tiêm vaccine Covid-19 được không?\nTrả lời: Anh/Chị cần nêu rõ tình trạng của Anh/Chị khi bị dị ứng: nếu trường hợp của Anh/Chị bị dị ứng nặng có khó thở phải nhập viện điều trị cấp cứu thì theo hướng dẫn của Bộ Y tế thì Anh/Chị thuộc nhóm chống chỉ định tiêm chủng vaccine Covid-19. Còn nếu tình trạng dị ứng của Anh/Chị nhẹ hơn như chỉ gặp các triệu chứng như mẩn ngứa, mề đay và không phải nhập viện vì các triệu chứng khó thở hay tụt huyết áp hay nôn ói thì Anh/Chị vẫn có thể tiêm vaccine Covid-19. Tuy nhiên theo hướng dẫn của Bộ Y tế Anh/Chị thuộc nhóm đối tượng thận trọng khi tiêm vaccine Covid-19, và phải tiêm chủng vaccine Covid-19 tại bệnh viện. Ngoài ra Anh/Chị phải cung cấp đầy đủ các triệu chứng khi mắc phải cho bác sĩ khám sàng lọc để bác sĩ khám cho chỉ định và dặn dò theo dõi cho phù hợp.",
+                "score": 0.6861752271652222,
+                "id": "vietnamese_healthcare_5599",
+                "rerank_score": 0.9821485280990601
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thời tiết, khi thay đổi thời tiết hay bị khó thở, hít vào khó khăn, trống ngực đập mạnh. Dị ứng kháng sinh và huyết áp thấp. Vậy tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Theo bạn chia sẻ thì bạn có bị dị ứng thời tiết, dị ứng kháng sinh, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6406537294387817,
+                "id": "vietnamese_healthcare_4287",
+                "rerank_score": 0.9812533259391785
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng da khi thời tiết lạnh thì chích vaccine Covid-19 được không ạ?\nTrả lời: Dị ứng thời tiết có nhiều mức độ khác nhau, nếu dị ứng nổi mẩn ngứa nhẹ và tự hết có thể tiêm tại các trung tâm tiêm chủng, phòng tiêm chủng. Nếu anh có dấu hiệu dị ứng nặng hơn như nổi mẩn, phù quincke có thể hoãn tiêm hoặc tiêm trong bệnh viện, nơi đủ điều kiện cấp cứu ban đầu.",
+                "score": 0.6934086084365845,
+                "id": "vietnamese_healthcare_2590",
+                "rerank_score": 0.9975900650024414
+            },
+            {
+                "text": "Câu hỏi: Khoảng 7 đến 10 năm trước, khi thời tiết chuyển từ mát sang lạnh đột ngột, nếu không mặc đủ ấm thì cơ thể tôi hay nổi giác, ngứa. Đây là tình trạng dị ứng thời tiết. Nhưng khi mặc ấm đầy đủ thì các vết giác đó tự biến mất. Gần đây, do chủ động mặc ấm khi chuyển mùa nên tôi không còn bị hiện tượng này nữa, thì liệu tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Về việc anh bị dị ứng nổi mẩn và ngứa khi thời tiết thay đổi là khá rõ ràng và đã cách đây 7-10 năm. Việc tiêm vaccine Covid-19 không chống chỉ định hay hoãn tiêm cho đối tượng dị ứng thời tiết. Lưu ý, anh nên thông báo cho bác sĩ sàng lọc trước tiêm, để bác sĩ có thể thăm khám và tư vấn kỹ về các dấu hiệu của phản vệ. Người được tiêm cần phải theo dõi tại cơ sở y tế ít nhất 30 phút và tiếp tục theo dõi tại nhà ít nhất 7 ngày, nếu có các dấu hiệu phản vệ như nổi mề đay, phù niêm, tím tái, khó thở, tức ngực, thở rít, đau quặn bụng, tiêu chảy hoặc nôn/buồn nôn, tụt huyết áp hoặc ngất, rối loạn ý thức. . . Anh cần đến ngay cơ sở y tế gần nhất được xử trí kịp thời.",
+                "score": 0.6384945511817932,
+                "id": "vietnamese_healthcare_853",
+                "rerank_score": 0.9923633337020874
+            },
+            {
+                "text": "Câu hỏi: Hiện em có bệnh mạn tính từ nhỏ là dị ứng cơ địa: thời tiết như bụi, nóng, gạch hải sản, hoặc những nơi ô nhiễm, bệnh trong người. Em hay bị nổi mẩn đỏ như rôm sảy có lúc nhẹ thi uống thuốc hết, nếu nặng thì gây sốt, khó thở. Vào thời tiết gió bụi thì dị ứng nổi hết cả người khoảng 1-2 tháng khi thời tiết ổn lại mới tự hết. Tình trạng em có tiêm vaccine Covid-19 được không?\nTrả lời: Anh/Chị cần nêu rõ tình trạng của Anh/Chị khi bị dị ứng: nếu trường hợp của Anh/Chị bị dị ứng nặng có khó thở phải nhập viện điều trị cấp cứu thì theo hướng dẫn của Bộ Y tế thì Anh/Chị thuộc nhóm chống chỉ định tiêm chủng vaccine Covid-19. Còn nếu tình trạng dị ứng của Anh/Chị nhẹ hơn như chỉ gặp các triệu chứng như mẩn ngứa, mề đay và không phải nhập viện vì các triệu chứng khó thở hay tụt huyết áp hay nôn ói thì Anh/Chị vẫn có thể tiêm vaccine Covid-19. Tuy nhiên theo hướng dẫn của Bộ Y tế Anh/Chị thuộc nhóm đối tượng thận trọng khi tiêm vaccine Covid-19, và phải tiêm chủng vaccine Covid-19 tại bệnh viện. Ngoài ra Anh/Chị phải cung cấp đầy đủ các triệu chứng khi mắc phải cho bác sĩ khám sàng lọc để bác sĩ khám cho chỉ định và dặn dò theo dõi cho phù hợp.",
+                "score": 0.7040444016456604,
+                "id": "vietnamese_healthcare_5599",
+                "rerank_score": 0.9821485280990601
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thời tiết, khi thay đổi thời tiết hay bị khó thở, hít vào khó khăn, trống ngực đập mạnh. Dị ứng kháng sinh và huyết áp thấp. Vậy tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Theo bạn chia sẻ thì bạn có bị dị ứng thời tiết, dị ứng kháng sinh, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.6459634304046631,
+                "id": "vietnamese_healthcare_4287",
+                "rerank_score": 0.9812533259391785
+            },
+            {
+                "text": "Câu hỏi: Em đã từng mắc lao phổi hơn 10 năm, hiện ổn định. Ngoài ra, em bị vẩy nến, vẫn đang dùng thuốc bôi hàng ngày. Em dị ứng hải sản, thủy sản... thường ở mức đau bụng, buồn nôn trong khoảng 6 - 8 giờ. Dị ứng một số thuốc, mỹ phẩm ở mức phát ban, nổi mề đay. Em có phải lưu ý gì khi tiêm vaccine Covid-19 không ạ?\nTrả lời: Trong trường hợp dị ứng mức độ nào đó, anh chị cần phải cung cấp đầy đủ các triệu chứng gặp phải khi sử dụng thuốc: + Nếu bị dị ứng nhẹ tức chỉ có vấn đề nổi mẩn ngứa da niêm mạc thì theo hướng dẫn của Bộ Y tế thì bạn thuộc nhóm thận trọng khi tiêm vaccine Covid-19. Tuy nhiên anh chị sẽ tiêm tại bệnh viện hoặc cơ sở Y tế có đủ năng lực cấp cứu ban đầu và cần phải cung cấp đầy đủ các triệu chứng về dị ứng gặp phải cho bác sĩ khám sàng lọc để được tư vấn cụ thể và rõ ràng hơn. + Nếu bị dị ứng nặng như ngoài nổi dị ứng da niêm, còn có kèm thêm khó thở, tức ngực, buồn nôn, nôn ói, tụt huyết áp, kích thích. . .",
+                "score": 0.6173213124275208,
+                "id": "vietnamese_healthcare_5150",
+                "rerank_score": 0.9734362363815308
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng da khi thời tiết lạnh thì chích vaccine Covid-19 được không ạ?\nTrả lời: Dị ứng thời tiết có nhiều mức độ khác nhau, nếu dị ứng nổi mẩn ngứa nhẹ và tự hết có thể tiêm tại các trung tâm tiêm chủng, phòng tiêm chủng. Nếu anh có dấu hiệu dị ứng nặng hơn như nổi mẩn, phù quincke có thể hoãn tiêm hoặc tiêm trong bệnh viện, nơi đủ điều kiện cấp cứu ban đầu.",
+                "score": 0.6354336738586426,
+                "id": "vietnamese_healthcare_2590",
+                "rerank_score": 0.9975900650024414
+            },
+            {
+                "text": "Câu hỏi: Khoảng 7 đến 10 năm trước, khi thời tiết chuyển từ mát sang lạnh đột ngột, nếu không mặc đủ ấm thì cơ thể tôi hay nổi giác, ngứa. Đây là tình trạng dị ứng thời tiết. Nhưng khi mặc ấm đầy đủ thì các vết giác đó tự biến mất. Gần đây, do chủ động mặc ấm khi chuyển mùa nên tôi không còn bị hiện tượng này nữa, thì liệu tôi có tiêm được vaccine Covid-19 không?\nTrả lời: Về việc anh bị dị ứng nổi mẩn và ngứa khi thời tiết thay đổi là khá rõ ràng và đã cách đây 7-10 năm. Việc tiêm vaccine Covid-19 không chống chỉ định hay hoãn tiêm cho đối tượng dị ứng thời tiết. Lưu ý, anh nên thông báo cho bác sĩ sàng lọc trước tiêm, để bác sĩ có thể thăm khám và tư vấn kỹ về các dấu hiệu của phản vệ. Người được tiêm cần phải theo dõi tại cơ sở y tế ít nhất 30 phút và tiếp tục theo dõi tại nhà ít nhất 7 ngày, nếu có các dấu hiệu phản vệ như nổi mề đay, phù niêm, tím tái, khó thở, tức ngực, thở rít, đau quặn bụng, tiêu chảy hoặc nôn/buồn nôn, tụt huyết áp hoặc ngất, rối loạn ý thức. . . Anh cần đến ngay cơ sở y tế gần nhất được xử trí kịp thời.",
+                "score": 0.6084495782852173,
+                "id": "vietnamese_healthcare_853",
+                "rerank_score": 0.9923633337020874
+            },
+            {
+                "text": "Câu hỏi: Hiện em có bệnh mạn tính từ nhỏ là dị ứng cơ địa: thời tiết như bụi, nóng, gạch hải sản, hoặc những nơi ô nhiễm, bệnh trong người. Em hay bị nổi mẩn đỏ như rôm sảy có lúc nhẹ thi uống thuốc hết, nếu nặng thì gây sốt, khó thở. Vào thời tiết gió bụi thì dị ứng nổi hết cả người khoảng 1-2 tháng khi thời tiết ổn lại mới tự hết. Tình trạng em có tiêm vaccine Covid-19 được không?\nTrả lời: Anh/Chị cần nêu rõ tình trạng của Anh/Chị khi bị dị ứng: nếu trường hợp của Anh/Chị bị dị ứng nặng có khó thở phải nhập viện điều trị cấp cứu thì theo hướng dẫn của Bộ Y tế thì Anh/Chị thuộc nhóm chống chỉ định tiêm chủng vaccine Covid-19. Còn nếu tình trạng dị ứng của Anh/Chị nhẹ hơn như chỉ gặp các triệu chứng như mẩn ngứa, mề đay và không phải nhập viện vì các triệu chứng khó thở hay tụt huyết áp hay nôn ói thì Anh/Chị vẫn có thể tiêm vaccine Covid-19. Tuy nhiên theo hướng dẫn của Bộ Y tế Anh/Chị thuộc nhóm đối tượng thận trọng khi tiêm vaccine Covid-19, và phải tiêm chủng vaccine Covid-19 tại bệnh viện. Ngoài ra Anh/Chị phải cung cấp đầy đủ các triệu chứng khi mắc phải cho bác sĩ khám sàng lọc để bác sĩ khám cho chỉ định và dặn dò theo dõi cho phù hợp.",
+                "score": 0.6730660200119019,
+                "id": "vietnamese_healthcare_5599",
+                "rerank_score": 0.9821485280990601
+            },
+            {
+                "text": "Câu hỏi: Tôi bị dị ứng thời tiết, khi thay đổi thời tiết hay bị khó thở, hít vào khó khăn, trống ngực đập mạnh. Dị ứng kháng sinh và huyết áp thấp. Vậy tôi có tiêm vaccine Covid-19 được không?\nTrả lời: Theo bạn chia sẻ thì bạn có bị dị ứng thời tiết, dị ứng kháng sinh, chúng tôi không biết lần dị ứng đó có phải nhập viện cấp cứu hay chỉ bị nổi mẩn trên da rồi tự hết. Có 2 trường hợp để bạn biết mình có thể tiêm được vaccine Covid-19 hay không gồm: - Nếu trường hợp bạn dị ứng kháng sinh mà có khó thở, có tím tái phải nhập viện thì trường hợp này chống chỉ định tiêm vaccine Covid-19 theo hướng dẫn của Bộ Y tế. - Nếu bạn chỉ bị nổi mẩn đỏ ít trên da, không cần điều trị, tự hết thì vẫn có thể tiêm vaccine Covid-19, tuy nhiên bạn cần tiêm tại bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+                "score": 0.606890082359314,
+                "id": "vietnamese_healthcare_4287",
+                "rerank_score": 0.9812533259391785
+            },
+            {
+                "text": "Câu hỏi: Tôi năm nay 52 tuổi, nam giới. Tôi có bệnh huyết áp cao phải uống thuốc mỗi ngày. Vào tháng 7/2020, tôi bị dị ứng nặng với thuốc giảm acid uric trong máu. Lúc đó, tôi bị sưng mặt và nổi đỏ toàn thân, có nơi trên cơ thể bị viêm da mủ. Tôi nằm điều trị ở bệnh viện 10 ngày, sau đó về nhà uống thuốc gần một tháng nữa thì hết đỏ toàn thân. Nhưng từ lúc đó đến nay tôi hay bị nổi mụn, mẩn ngứa. Cho đến giờ tôi vẫn phải đi khám da liễu và uống thuốc mỗi ngày. Bác sĩ da liễu nói tôi bị viêm da cơ địa dị ứng.Xin hỏi bác sĩ là với tiền sử dị ứng thuốc và vẫn đang bị nổi mẩn ngứa, uống thuốc da liễu hàng ngày như hiện giờ thì tôi có thể tiêm vaccine Covid-19 được không ạ?\nTrả lời: Anh bị dị ứng thuốc với nhiều biểu hiện phải nằm viện 10 ngày. Trong trường hợp nếu anh được điều trị và được chẩn đoán phản vệ từ độ 2 trở lên cần chống chỉ định tiêm phòng vaccine Covid-19. Ngoài ra, anh đang nổi mẫn ngứa còn dùng thuốc điều trị hàng ngày cần trì hoãn việc tiêm vaccine Covid-19.",
+                "score": 0.6525813937187195,
+                "id": "vietnamese_healthcare_6547",
+                "rerank_score": 0.9493055939674377
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

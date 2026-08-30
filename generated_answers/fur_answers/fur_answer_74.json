@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Chào bác sĩ! Em bị đau tinh hoàn trái, vừa bị cách đây tầm 2 tiếng. Đồng thời, em hay bị buồn nôn sau khi ăn, việc buồn nôn đã xảy ra tầm 4 5 ngày. Bác sĩ cho em xin lời khuyên và tư vấn khám bệnh được không ạ? Em cảm ơn bác sĩ ạ.",
+    "ground_truth": "Chào em! Đau tinh hoàn có rất nhiều nguyên nhân khác nhau. Tuy nhiên để có thể đưa ra được kết luận chính xác nhất và cách điều trị phù hợp thì em nên qua các bệnh viện thuộc hệ thống AI-Doctor để khám bác sĩ Nam khoa nhé.\nCòn về triệu chứng buồn nôn sau khi ăn xong thì em có thể hỏi ý kiến của bác sĩ chuyên khoa Tiêu hóa nhé, bác sĩ sẽ tư vấn cụ thể cho em.",
+    "answer": "Chào em,\n\nĐau tinh hoàn trái xuất hiện đột ngột cách đây khoảng 2 giờ, đặc biệt nếu kèm buồn nôn, là dấu hiệu cần được khám **càng sớm càng tốt**. Nguyên nhân có thể gồm viêm tinh hoàn/viêm mào tinh hoàn, giãn tĩnh mạch tinh hoàn, thoát vị bẹn, xoắn tinh hoàn… Trong đó, xoắn tinh hoàn có thể gây hoại tử mô và biến chứng nghiêm trọng nếu không điều trị kịp thời.\n\nEm nên **đến ngay khoa Cấp cứu hoặc bệnh viện có chuyên khoa Nam học**, không nên chờ theo dõi tại nhà hay tự dùng thuốc. Bác sĩ cần khám trực tiếp và có thể chỉ định siêu âm, xét nghiệm để xác định nguyên nhân. Nếu đau tăng, bìu sưng đỏ/nóng, sốt, nôn hoặc đau bụng dưới thì càng cần đi ngay.\n\nTình trạng buồn nôn sau ăn kéo dài 4–5 ngày cũng cần được thông báo khi khám, nhưng hiện tại ưu tiên là đánh giá cơn đau tinh hoàn đột ngột.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Hiện tại, em đang rất đau và tức hai bên tinh hoàn, bên trái tức nhiều hơn. Tức nóng phần bìu và kéo đau phần bụng dưới. Bác sĩ cho em hỏiđau tức tinh hoàn, tức nóng phần bìu kèm đau bụng dưới là dấu hiệu bệnh gì?Em cảm ơn bác sĩ. Vũ Huy Cảng(1995) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Đau tinh hoàncó thể do các nguyên nhân sau: Giãn tĩnh mạch tinh hoàn, viêm mào tinh hoàn, viêm tiền liệt tuyến, thoát vị bẹn, xoắn tinh hoàn, nang mào tinh hoàn, ung thư tinh hoàn,... Nếu nhận thấy những biểu hiện sau đây kèm theo cơn đau, nam giới nên thăm khám bác sĩ nam khoa càng sớm càng tốt: Phát hiện có khối u bất thường trên bìu Sốt Da bìu trở nên sưng đỏ, nóng rát hoặc mềm nhũn Thời gian gần đây có tiếp xúc với người bệnh quai bị Đau xảy ra bất ngờ và ngày càng nặng hơn Đau tinh hoàn kèm theo buồn nôn hoặc nôn mửa Vừa bị chấn thương phần bìu hoặc bộ phận sinh dục bị sưng tấy không giảm sau một giờ đồng hồ Hầu hết, các bệnh nhân đau tinh hoàn đều có thể được điều trị thành công. Ngược lại, những trường hợp bệnh nhân nhiễm trùng lâu ngày không được điều trị nhưnhiễm nấm Chlamydiacó thể dẫn đếntổn thương vĩnh viễn tinh hoànvà phần bìu, ảnh hưởng đến chất lượng tinh trùng và làm suy giảm đời sống tình dục của nam giới. Ngoài ra, xoắn tinh hoàn còn có nguy cơ gây ra hoại tử mô, dẫn đến nhiễm trùng nghiêm trọng và thậm chí đe dọa đến tính mạng người bệnh nếu không điều trị kịp thời. Nam giới khi thấy mình có dấu hiệu đau tinh hoàn được khuyến cáo nên đi khám sớm.",
+            "score": 0.5805948972702026,
+            "id": "medical_vietnamese_qa_9779",
+            "rerank_score": 0.997675359249115
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nThời gian này, em hay đau tinh hoàn và vùng trên bụng. Khi xuất tinh thì hôm sau hết đau. Tuy nhiên, nếu có kích thích khi ngủ ban đêm thì 2 - 3 ngày thì bị lại. Vậy bác sĩ cho em hỏi hay đau tinh hoàn và vùng bụng trên là dấu hiệu bệnh gì? Em có phải tràn dịch tinh hoàn không? Hiện nay đang giãn cách nên em chưa thể đi kiểm tra được. Mong bác sĩ tư vấn, em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn bị đau tinh hoàn và vùng bụng trên có thể có viêm nhiễm ở đường sinh dục, cụ thể có thể ở vùng tinh hoàn hay túi tinh. Việc này cần phải khám và kiểm tra kỹ với siêu âm và xét nghiệm. Vì thế, bạn nên đến thăm khám bác sĩ chuyên khoa để được tư vấn cụ thể.\nTrân trọng!",
+            "score": 0.5773502588272095,
+            "id": "vietnamese_medical_qa_1260",
+            "rerank_score": 0.9925628304481506
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ!\nCháu bị đau tinh hoàn trái, tinh hoàn trái sưng to, chạm vào rất đau, đôi khi đau cả hai bên, đi tiểu khó. Bác sĩ cho cháu hỏi tình trạng đau tinh hoàn trái là dấu hiệu bệnh gì vậy ạ? Mong bác sĩ tư vấn giúp cháu. Cháu xin cảm ơn.\nTrả lời: Chào bạn!\nĐể trả lời câu hỏi trên, bác sĩ xin được trả lời như sau:\nTình trạng đau tinh hoàn trái, tinh hoàn sưng to, chạm vào thì đau như bạn mô tả khiến bác sĩ nghĩ nhiều đến bệnh lý viêm tinh hoàn - viêm mào tinh hoàn. Tuy nhiên để chẩn đoán xác định, bạn cần tới bệnh viện để khám và điều trị, tránh biến chứng đáng tiếc có thể xảy ra. Chúc bạn sớm khỏe!",
+            "score": 0.5753358602523804,
+            "id": "vietnamese_medical_qa_2550",
+            "rerank_score": 0.9915534853935242
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nChủ nhật tuần trước, em bưng bê vật nặng. Sáng thứ 2, em thấy bị đau lưng phần hông bên trái, vì em thấy nhức ở vùng thịt nên chỉ nghĩ bị căng cơ bởi lâu không hoạt động mạnh. Nhưng đến tuần này là sau khoảng 9 ngày, em vẫn còn tình trạng đau âm ỉ nhất là khi chạy xe lâu. Hai ngày gần đây, nếu em ngồi lâu 1 tư thế thì còn xuất hiện tình trạng tức ở tinh hoàn, nếu nằm nghỉ ngơi thì lại đỡ. Bác sĩ cho em hỏi đau thắt lưng kèm đau tinh hoàn có nguy hiểm không và phương pháp điều trị thế nào ạ?\nTrả lời: Chào em,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTrường hợp như em mô tả có thể em có nhiều tổn thương phối hợp ở một số hệ cơ quan như xương khớp, tiết niệu, sinh dục. Các dấu hiệu này của em có chiều hướng tăng dần nên đó là dấu hiệu nhắc em cần đến cơ sở y tế khám sớm. Bác sĩ cần làm các xét nghiệm cần thiết mới có thể chẩn đoán bệnh chính xác cho em được. Hy vọng em sẽ có quyết định sớm.\nHầu hết các bệnh nhân đau tinh hoàn đều có thể được điều trị thành công. Nam giới khi thấy mình có dấu hiệu đau tinh hoàn được khuyến cáo nên đi khám sớm.\nTrân trọng!",
+            "score": 0.5702136754989624,
+            "id": "vietnamese_medical_qa_1574",
+            "rerank_score": 0.9873148202896118
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nEm nam nay 33 tuổi, gần đây thỉnh thoảng em bị đau tinh hoàn bên trái đi khám thì bs nói bị viêm tinh hoàn cho thuốc uống nhưng em thấy ko khỏi vẫn bs tư vấn cho em nên nam bay giờ a\nTrả lời: Chào bạn. \nNếu đã uống thuốc mà bạn vẫn không khỏi thì bạn cần tái khám để bác sỹ xác định tình trạng hiện tại và điều chỉnh thuốc cho phù hợp. Bạn nên khám chuyên khoa Nam học ở các bệnh viện lớn. Viêm tinh hoàn để lâu sẽ teo tinh hoàn dẫn đến vô sinh. \nThân mến",
+            "score": 0.588009774684906,
+            "id": "vietnamese_medical_qa_8274",
+            "rerank_score": 0.9729088544845581
+        }
+    ],
+    "llm_call": 2,
+    "iteration": 0
+}

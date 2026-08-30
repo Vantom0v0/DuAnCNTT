@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Làm thế nào hạn chế tình trạng nhiễm trùng do đặt ống thông tiểu quá lâu?",
+    "ground_truth": "khuyên em nên đi khám để cấy nước tiểu, xác định vi khuẩn và có kháng sinh đồ để chọn lựa kháng sinh thích hợp, em đã đặt thông tiểu quá lâu, là điều kiện để nhiễm trùng, em nên khám chuyên khoa ngoại để xin mở thông bàng quang trên xương mu, hạn chế bớt tình trạng nhiễm trùng, và việc thay thông cũng dễ dàng và đơn giản hơn. Thủ thuật này cũng đơn giản, chỉ cần gây tê tại chỗ để đặt thông.",
+    "answer": "Để hạn chế nhiễm trùng do đặt ống thông tiểu lâu, cần tránh đặt ống khi không cần thiết và rút ống càng sớm càng tốt; nếu phải sử dụng, cần tuân thủ nghiêm kỹ thuật vô trùng, duy trì hệ thống dẫn lưu kín, tránh để nước tiểu ứ đọng hoặc lượng nước tiểu quá ít, và cung cấp hướng dẫn chăm sóc cho người bệnh तथा người nhà. Đặt ống thông ngắt quãng có nguy cơ nhiễm trùng thấp hơn một số kỹ thuật khác. Với người phải đặt ống lâu dài hoặc nhiễm trùng tái diễn, nên khám chuyên khoa để được đánh giá lựa chọn phù hợp, chẳng hạn mở thông bàng quang trên xương mu; không tự ý dùng kháng sinh dự phòng hoặc đổi kháng sinh.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Nguyên nhân dẫn đến tình trạng nhiễm trùng đường niệu khi đặt ống thông tiểu\nTrả lời: 2. Nguyên nhân dẫn đến tình trạng nhiễm trùng đường niệu khi đặt ống thông tiểu\nTrong khi đặt ống thông thì vi khuẩn rất dễ xâm nhập vào bàng quang của bệnh nhân. Kể cả thao tác đặt ống thông được đảm bảo vô trùng thì nguy cơ bị nhiễm trùng đường niệu vẫn có thể tăng từ 3 đến 10% đối với mỗi ngày lưu ống thông, ống thông sau khi đặt được 7 ngày thì nguy cơ bị nhiễm trùng có thể lên tới 10 đến 30%. Hầu hết các bệnh nhân đặt ống thông tiểu có thể sẽ phát triển vi khuẩn gây nhiễm trùng niệu trong vòng 30 ngày sau khi thực hiện thủ thuật.",
+            "score": 0.6856876015663147,
+            "id": "vietnamese_healthcare_153065"
+        },
+        {
+            "text": "Câu hỏi: Phòng ngừa nhiễm trùng đường niệu\nTrả lời: 7. Phòng ngừa nhiễm trùng đường niệu\nRút ống dẫn lưu càng sớm càng tốt vì thời gian sử dụng ống thông tiểu có tỷ lệ thuận với nguy cơ mắc nhiễm trùng đường tiết niệu. Nghiêm chỉnh thực hiện kỹ thuật vô trùng và thực hiện hệ thống dẫn lưu kín. Nếu đặt ống thông ngắt quãng thì nguy cơ bị nhiễm trùng ít hơn so với các kỹ thuật khác. Đối với những bệnh nhân sử dụng ống thông lưu lâu dài thì không khuyến cáo sử dụng dự phòng bằng kháng sinh. Hạn chế đặt ống thông tiểu đối với bệnh nhân nữ và người già. Không đặt nếu không cần thiết. Đối với bệnh nhân nam nên sử dụng dạng ống thông bằng cao su. Nên dùng ống thông tiểu liên tục thẳng. Bệnh nhân sau khi đặt ống thông tiểu thì cần được bác sĩ giải thích rõ cơ chế cũng như nguy cơ tiềm ẩn sau đó. Ngoài ra, bệnh nhân và người nhà cũng cần được cung cấp thông tin để tự chăm sóc mình và chăm sóc bệnh nhân để tránh gây ra nhiễm trùng về sau.",
+            "score": 0.6508705019950867,
+            "id": "vietnamese_healthcare_153070"
+        },
+        {
+            "text": "Câu hỏi: Yếu tố nguy cơ của nhiễm trùng đường niệu khi đặt ống thông\nTrả lời: 3. Yếu tố nguy cơ của nhiễm trùng đường niệu khi đặt ống thông\nThời gian đặt ống thông càng lâu thì nguy cơ bị nhiễm trùng đường niệu càng cao. Bệnh nhân nữ có nguy cơ bị nhiễm trùng đường niệu cao hơn gấp 2 lần so với bệnh nhân nam. Người mắc bệnh đái tháo đường có nguy cơ bị nhiễm trùng đường niệu cao hơn người không có bệnh đái tháo đường. Một khi hệ thống dẫn lưu kín bị hở thì nguy cơ bệnh nhân bị nhiễm trùng sẽ cao hơn. Nếu quy trình đặt ống thông tiểu không đảm bảo thì nguy cơ nhiễm trùng tiết niệu cũng cao hơn Nếu thao tác thay ống thông tắc quá mạnh tay cũng có thể gây ra những chấn thương và nhiễm trùng cho bệnh nhân Nếu bệnh nhân đã có sẵn các tình trạng bệnh lý như viêm của niêm mạc bàng quang , sỏi bàng quang,... cũng có thể làm tăng nguy cơ bị nhiễm trùng Khi dùng ống thông tiểu nhưng lượng nước tiểu ít thì nguy cơ nhiễm trùng càng cao. Hoặc nếu nước tiểu bị ứ đọng thì vi khuẩn cũng dễ dàng phát triển. Nguy cơ bị nhiễm trùng đường tiết niệu khi đặt ống thông tiểu cao hơn đối với những bệnh nhân lớn tuổi. Đặt ống thông tiểu vô tình đã tạo điều kiện vi khuẩn bám dính và xâm nhập vào cơ thể người bệnh. Các vi sinh vật gây bệnh đường niệu xâm nhập sản xuất polysaccharides tạo nên màng sinh học để có thể trao đổi gen thúc đẩy quá trình kháng thuốc kháng sinh. Ngoài ra, những vi sinh vật sản xuất urease sẽ thúc đẩy sự phát triển của bao vỏ cứng ống thông điều đó sau cùng có thể gây trở ngại ống thông.",
+            "score": 0.648136556148529,
+            "id": "vietnamese_healthcare_153066"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ, em bị dập tủy nằm liệt 1 chỗ, 15 năm đặt ống thông tiểu suốt nên bị viêm đường tiểu, trước giờ em dùng kháng sinh cefuroxim bây giờ bị lờn thuốc, bệnh cứ tái đi tái lại hoài, bác sĩ có thể kê cho em 1 loại kháng sinh khác không ạ?\nTrả lời: Chào em, khuyên em nên đi khám để cấy nước tiểu, xác định vi khuẩn và có kháng sinh đồ để chọn lựa kháng sinh thích hợp, em đã đặt thông tiểu quá lâu, là điều kiện để nhiễm trùng, em nên khám chuyên khoa ngoại để xin mở thông bàng quang trên xương mu, hạn chế bớt tình trạng nhiễm trùng, và việc thay thông cũng dễ dàng và đơn giản hơn. Thủ thuật này cũng đơn giản, chỉ cần gây tê tại chỗ để đặt thông.",
+            "score": 0.6180814504623413,
+            "id": "vietnamese_medical_qa_4070"
+        },
+        {
+            "text": "Câu hỏi: Những rủi ro và biến chứng\nTrả lời: 4. Những rủi ro và biến chứng\nĐặt đặt que thông tiểu là thủ thuật xâm lấn nên nguy cơ bị nhiễm trùng là rất cao nhất là nhiễm trùng niệu đạo. Ngoài ra, đặt que thông tiểu cũng có thể làm bằng quang bị co thắt và làm tổn thương niệu đạo. Đặt ống thông tiểu là thủ thuật được chỉ định cho những bệnh nhân gặp khó khăn trong vấn đề tiểu hoặc làm rỗng bàng quang và trong điều trị một số bệnh lý liên quan. Đặt ống thông tiểu có thể làm cho bệnh nhân cảm thấy đau và khó chịu khi thực hiện nhưng cảm giác này sẽ dần biến mất theo thời gian.",
+            "score": 0.617141842842102,
+            "id": "vietnamese_healthcare_31399"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

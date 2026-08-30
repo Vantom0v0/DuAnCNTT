@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Thưa bác sĩ, hôm nay con ngủ rất bình thường nhưng không hiểu sao đêm hôm qua con trằn trọc tới 12 giờ mới ngủ được. Tới 3 giờ con lại bị thức giấc. Con cố ngủ lại nhưng không được và thức tới sáng luôn. Người con mệt mỏi, nhức đầu và đêm nay cũng thế. Con vẫn thức giấc nửa đêm không ngủ lại được. Theo bác sĩ nên làm sao để cải thiện nhanh tình trạng này ạ?",
+    "ground_truth": "Chào cháu,\nTrước hết cháu có thể điều chỉnh lại giờ giấc, sinh hoạt của mình như: Không thức quá khuya, không dùng chất kích thích như trà, café, loại bỏ các yếu tố stress, ăn uống đầy đủ... Nếu không cải thiện cháu nên đến khám bác sĩ chuyên khoa về tâm thần kinh.",
+    "answer": "Chào bạn, tình trạng trằn trọc và thức giấc giữa đêm kèm mệt mỏi, đau đầu có thể liên quan đến căng thẳng, sinh hoạt thất thường hoặc sử dụng điện thoại, trà/cà phê vào buổi tối. Bạn nên cố định giờ ngủ–thức, không thức khuya, hạn chế điện thoại và chất kích thích trước khi ngủ, ăn uống đầy đủ, uống đủ nước, tập thể dục nhẹ như đi bộ, yoga hoặc thiền và thư giãn, tránh tự ý dùng thuốc hay thực phẩm hỗ trợ ngủ. Nếu tình trạng không cải thiện, kéo dài hoặc đau đầu tăng nhiều, bạn nên đi khám chuyên khoa Nội thần kinh hoặc Tâm thần kinh để tìm nguyên nhân và được điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Mẹ em thường xuyên mất ngủ và hay nhức nửa đầu. Mong bác sĩ cho lời khuyênkhắc phục chứng mất ngủ kèm đau nửa đầu thường xuyên như thế nào?Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn, Với câu hỏi “Khắc phục chứng mất ngủ kèm đau nửa đầu thường xuyên như thế nào?”, bác sĩ giải đáp như sau: Để đưa ra được phác đồ điều trị cho mất ngủ và nhức nửa đầu thì cần phải xác định được đúng nguyên nhân và thể bệnh. Mất ngủ và nhức đầu có thể là 2 bệnh riêng biệt nhưng cũng có thể có liên quan nhân - quả với nhau. Hiện tại các thông tin bạn đưa ra chưa đủ để xác định được chính xác thể bệnh nhức đầu, mất ngủ, hơn nữa cần thăm khám và chỉ định xét nghiệm, do vậy bạn cần đưa mẹ bạn đi khám chuyên khoa Thần kinh để được điều trị.",
+            "score": 0.684937596321106,
+            "id": "medical_vietnamese_qa_8371"
+        },
+        {
+            "text": "Câu hỏi: Gần đây, em có biểu hiện đau đầu kéo dài nhiều ngày dẫn đến khó tập trung. Ngày làm việc 8 tiếng đến tối thì học thêm 1 đến 2 tiếng. Thi thoảng, em bị mất ngủ tới 1, 2 giờ sáng mới ngủ được. Vậy bác sĩ cho em hỏi,nữ giới đau đầu kéo dài, mất ngủ nguyên nhân là gì?Điều trị như thế nào? Em cảm ơn bác sĩ. Nguyễn Thị Ánh Ngọc(1997) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh An Thiên- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Tình trạng của bạn có thể do bạn làm việc và học tập căng thẳng, bạn cần nghỉ ngơi, có chế độ làm việc và học tập hợp lý, cần tập thể dục, uống nhiều nước,.... Tuy nhiên, bạn cần đi khám bác sĩ Nội thần kinh để khám và kiểm tra để có kế hoạch điều trị cụ thể.",
+            "score": 0.668980598449707,
+            "id": "medical_vietnamese_qa_8916"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho cháu hỏilàm thế nào để cải thiện tình trạng đau nửa đầu sau?Tình trạng của cháu đã xuất hiện khá lâu. Khoảng 2,3 tháng trở lại đây thì những cơn đau ngày một tăng dần và kéo dài vài tiếng,thậm chí cả ngày gây cảm giác khó chịu, không thể nằm ngủ theo tư thế thoải mái, hầu như toàn phải nằm sấp và nằm nghiêng. Thực sự rất mệt mỏi. Giờ cháu phải làm sao để cải thiện những tình trạng này? Cháu cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bệnh đau nửa đầu hay còn gọi là bệnh đau nửa đầu Migraine sẽ khiến bệnh nhân thấy đau nửa đầu không cố định hoặc đôi lúc đau cả hai bên, kèm theo các triệu chứng mạch đập. Tiền triệu (triệu chứng dự báo) sẽ có các biểu hiện về thị giác bị nhòe, ruồi bay, buồn nôn, mạch đập ở vùng thái dương. Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc đau dữ dội, cơn đau tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, sợ ánh sáng, sợ tiếng động, căng thẳng. Bạn nên được khám, tư vấn điều trị bởi bác sĩ chuyên khoa thay vì tự dùng thuốc giảm đau. Nếu sử dụng các loại thuốc giảm đau nhiều trong thời gian dài có thể gây ra nhiều tác dụng phụ như viêm loét dạ dày, tá tràng, ảnh hưởng chức năng gan, thận. Ngoài ra bạn nên: Tránh xa, hạn chế các chất kích thích, sử dụng các loại trà gừng, giúp giảm cảm giác đau, vận động thể dục thể thao thường xuyên bằng các bài tập nhẹ nhàng như yoga, thiền, đi bộ, nghỉ ngơi, ngủ đủ giấc.",
+            "score": 0.6655392646789551,
+            "id": "medical_vietnamese_qa_8263"
+        },
+        {
+            "text": "Câu hỏi: Cách khắc phục tình trạng thức giấc nửa đêm, khó ngủ lại\nTrả lời: Trước hết cháu có thể điều chỉnh lại giờ giấc, sinh hoạt của mình như: Không thức quá khuya, không dùng chất kích thích như trà, café, loại bỏ các yếu tố stress, ăn uống đầy đủ. . . Nếu không cải thiện cháu nên đến khám bác sĩ chuyên khoa về tâm thần kinh.",
+            "score": 0.6610839366912842,
+            "id": "vietnamese_healthcare_2451"
+        },
+        {
+            "text": "Câu hỏi: Vì em hay thức khuya, thậm chí là ngủ rất ít cộng với sử dụng điện thoại nhiều và hay suy nghĩ nhiều nên thời gian gần đây, em bịkhó ngủ, ngủ không sâu giấc, hay bị đau đầu nếu giấc ngủ gián đoạn hoặc thời gian ngủ trái với thường lệ. Hiện giờ, em đang phải dùng thực phẩm chức năng để giúp dễ ngủ hơn. Vậy bác sĩ cho em hỏikhó ngủ, ngủ không sâu giấc phải làm sao?Mong bác sĩ tư vấn, em cảm ơn bác sĩ. Nguyễn Anh Tuấn(1999) Trả lời Được giải đáp bởiBác sĩ Thần Kinh- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Central Park.\nTrả lời: bác sĩ xin giải đáp như sau: Điều trịmất ngủ, việc đầu tiên phải làm đó làvệ sinh giấc ngủ, sau đó mới đến dùng thuốc. Nghĩa là bạn phải điều chỉnh, tránh các yếu tố bên ngoài tác động vào giấc ngủ: Xem điện thoại, thức khuya, xem phim kinh dị, uống trà hay cà phê vào buổi tối,...Vì vậy, bạn nên điều chỉnh các yếu tố này trước, nếu vẫn còn khó ngủ thì bạn có thể đăng ký khám bệnh để bác sĩ khám và điều trị cụ thể cho bạn.",
+            "score": 0.65521639585495,
+            "id": "medical_vietnamese_qa_9145"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

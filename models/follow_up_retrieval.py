@@ -302,10 +302,10 @@ def fur(query, groundtruth = "NA", c = 0.8, k = 0.9, max_iteration = 3, global_w
 
     return {
         "model_name": "fur",
-        "query": query,
-        "groundtruth": groundtruth,
+        "question": query,
+        "ground_truth": groundtruth,
         "answer": answer,
-        "evidence": retrieved_documents,
+        "retrieved": retrieved_documents,
         "llm_call": num_llm_calls,
         "iteration": num_iteration
     }

@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Xin chào bác sĩ,\nBé nhà tôi được 11 tháng mà cổ bị vẹo giờ phải chữa thế nào ạ",
+    "ground_truth": "Chào bạn. \nBé nhà bạn 11 tháng mới bị vẹo cổ chứ không phải vẹo từ lúc sinh thì có nhiều khả năng do bé nằm gối đầu quá cao, thường xuyên nằm về một bên mà gia đình không để ý. Bạn cần cho bé đi khám và tập vật lý trị liệu. Những bài tập kéo căng và định vị thực hiện hàng ngày cho bé sẽ là hướng điều trị gần như là tốt nhất cho tật vẹo cổ. Bạn nên tìm hiểu, học hỏi phương pháp này để mình có thể làm cho bé tại nhà.\nNgoài ra, gia đình cũng nên tập cho bé di chuyển đầu cổ sang hướng bé ít nghiêng qua. \nNếu đến 18 tháng, cơ cổ của bé vẫn yếu và các bài tập vật lý trị liệu chưa đủ sức để giúp tật vẹo cổ ở trẻ hồi phụ hoàn toàn, các bác sỹ sẽ thường chỉ định phẫu thuật chỉnh hình cho bé\nThân mến.",
+    "answer": "Chào bạn, bé 11 tháng bị vẹo cổ nên được đưa đi khám sớm tại chuyên khoa Nhi, Phục hồi chức năng hoặc Chỉnh hình nhi để xác định nguyên nhân (do tư thế hay bẩm sinh) và được hướng dẫn bài tập phù hợp; không nên tự ý kéo mạnh cổ cho bé. Trong thời gian chờ khám, bạn có thể điều chỉnh tư thế nằm, cho bé bú từ phía đối diện bên bị nghiêng, đặt đồ chơi hoặc đứng về phía bé ít quay đầu để khuyến khích bé xoay cổ, đồng thời cho bé nằm sấp khi còn thức và có người giám sát. Điều trị sớm bằng các bài tập kéo giãn, định vị cổ theo hướng dẫn bác sĩ thường giúp cải thiện trong vài tuần và nên cố gắng khắc phục trước 1 tuổi; nếu đến 18 tháng bé vẫn hạn chế vận động cổ, bác sĩ chỉnh hình có thể cân nhắc phương pháp điều trị chuyên sâu hoặc phẫu thuật trong một số trường hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Sẽ mất bao lâu để đạt được hiệu quả điều trị?\nTrả lời: 5. Sẽ mất bao lâu để đạt được hiệu quả điều trị?\nChứng vẹo cổ bẩm sinh của trẻ có thể được cải thiện trong vài tuần miễn là được phát hiện đủ sớm, lý tưởng nhất là khi trẻ được 2 hoặc 3 tháng tuổi, đồng thời bạn cũng thực hiện các bài tập điều trị theo đúng sự chỉ dẫn của bác sĩ. Tốt nhất, tình trạng vẹo cổ bẩm sinh nên được khắc phục hoàn toàn trước khi trẻ được một tuổi. Tuy nhiên, nếu các cơ không thể trở lại chiều dài như bình thường và các phạm vi chuyển động của trẻ vẫn bị hạn chế khi được 18 tháng tuổi, lúc này bạn nên đưa bé đi gặp bác sĩ phẫu thuật chỉnh hình. Bác sĩ có thể yêu cầu bé thực hiện phẫu thuật để kéo dài các cơ. Theo thống kê, sẽ có khoảng 15% trường hợp bị vẹo cổ bẩm sinh phải thực hiện cuộc phẫu thuật này. Đối với trẻ bị vẹo cổ, việc phát hiện sớm những bất thường và đưa trẻ đến khám tại các cơ sở y tế có chuyên khoa Nhi là một trong những biện pháp phòng ngừa bệnh lý vẹo cổ ở trẻ.",
+            "score": 0.7474308013916016,
+            "id": "vietnamese_healthcare_7928"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em bị vẹo cổ do nằm nghiêng lâu ngày. Vì tình hình dịch bệnh nên bé không đến bệnh viện thăm khám được. Bác sĩ cho em hỏi,trẻ bị vẹo cổ do nằm nghiêng phải làm sao?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ sơ sinh thường ngủ nghiêng đầu trong thời gian dài, trẻ có thể nghiêng đầu về một bên liên tục từ vài giờ cho đến vài ngày. Nếu điều này diễn ra khi trẻ buồn ngủ, mất phương hướng sẽ dẫn đếnvẹo cổ nghiêng đầu. Nguyên nhân này chủ yếu gặp ở trẻ dưới 1 tuổi và biến mất khi trẻ được 5 tuổi. Vẹo cổ ở trẻ sẽ không gây đau đớn nhưng nó ảnh hưởng đến thẩm mỹ và làm thay đổi gương mặt của trẻ. Ngoài ra, trẻ cũng sẽ gặp khó khăn trong việc xoay đầu. Trước tiên, bạn nên cho trẻ bú ngược, chỉnh tư thế nằm, tập chơi với trẻ xoay ngược với bên bị nghiêng để kích thích trẻ tự xoay đầu. Ngoài ra, bạn nên đưa bé đi khám tại khoa Phục hồi chức năng để bé được các y bác sĩ hỗ trợ tối đa cho trẻ, càng sớm càng tốt.",
+            "score": 0.7084933519363403,
+            "id": "medical_vietnamese_qa_6020"
+        },
+        {
+            "text": "Câu hỏi: ! Bé nhà emsinh non31 tuần, được 2.1kg. Do mẹ mang thai bị cao huyết áp nên mổ sớm, bé sinh ra bịthiếu oxy não. Tới nay được 12 tháng mà bé chưa lật được, cổ còn yếu, 2 tay bé cứ đụng vô là lấy gân chặt. Xin hỏi bác sĩ con nhà em nên chữa như thế nào ạ? Em cảm ơn bác sĩ. Phan Phú Thiện(2019) Trả lời Được giải đáp bởiPGS, TS, BS Ninh Thị Ứng -Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Với các triệu chứng hiện tại, bạn nên đưa trẻ đến khám chuyên khoa Thần kinh và chuyên khoa Phục hồi chức năng, bác sĩ cần khám trực tiếp trẻ và tư vấn cụ thể.",
+            "score": 0.6801435947418213,
+            "id": "medical_vietnamese_qa_7906"
+        },
+        {
+            "text": "Câu hỏi: ! Con em được 1 tuổi. Khi sinh ra cháu bị dị tật bẩm sinh, thiếu xương quay và cong vẹo cột sống cổ. Bác sĩ cho em hỏitrẻ 1 tuổi thiếu xương quay vàcong vẹo cột sống cổ bẩm sinhcó phẫu thuật chỉnh hình được không ạ? Em rất mong được bác sĩ tư vấn. Em xin cảm ơn. Phùng Khánh Ly,1989 Trả lời\nTrả lời: Chào bạn. Theo như bạn mô tả thì trẻ bịcong vẹo dị tật cột sống bẩm sinh. Bạn nên đến khám ở chuyên khoa chỉnh hình nhi một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được bác sĩ tư vấn về điều trị cụ thể. Cảm ơn bạn đã tin tưởng và gửi câu hỏi về Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa I Võ Khắc Khôi Nguyên -Bác sĩ chấn thương chỉnh hình - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+            "score": 0.6722997426986694,
+            "id": "medical_vietnamese_qa_886"
+        },
+        {
+            "text": "Câu hỏi: Điều trị chứng vẹo cổ bẩm sinh\nTrả lời: 4. Điều trị chứng vẹo cổ bẩm sinh\nĐể điều trị chứng vẹo cổ bẩm sinh cho trẻ, các bậc phụ huynh nên đưa bé đến một nhà trị liệu vật lý hoặc một bác sĩ phẫu thuật chỉnh hình. Thông thường, tật vẹo cổ bẩm sinh ở trẻ sẽ được điều trị bằng các bài tập kéo căng và định vị lại cổ. Bạn sẽ cần phải thực hiện những bài tập kéo căng này cho trẻ vào nhiều lần trong ngày. Ưu điểm lớn nhất của các động tác này là không quá phức tạp để thực hiện, tuy nhiên bạn cần phải làm chúng theo đúng sự hướng dẫn của bác sĩ chuyên khoa để đem lại kết quả điều trị tốt nhất. Đối với trẻ mắc chứng vẹo cổ bẩm sinh, bạn hãy tạo cơ hội cho trẻ quay đầu nhiều sang bên mà trẻ ít quay lại càng nhiều càng tốt. Chẳng hạn, nếu trẻ gặp khó khăn khi quay đầu sang bên phải, bạn có thể đặt bé vào cũi và đứng về phía bên phải của trẻ để trẻ nghiêng đầu sang hướng đó nhìn bạn. Ngoài ra, bạn cũng nên để bé nằm sấp khi thức để giúp phát triển các cơ ở cổ. Cha mẹ có thể giúp trẻ tập các bài kéo căng và định vị lại cổ nhiều lần tại nhà",
+            "score": 0.6686233878135681,
+            "id": "vietnamese_healthcare_7927"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

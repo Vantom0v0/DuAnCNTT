@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ, cứ thường đến kì thi là con tôi lại có triệu chứng buồn nôn hoặc đau đầu vậy nguyên nhân là do đâu?",
+    "ground_truth": "Chào bạn\nTriệu chứng của con bạn có thể do bị áp lực học hành căng thẳng gây ra đau đầu buồn nôn.Bạn nên cho con học hành theo khoa học,ăn uống đầy đủ,ngủ đủ giấc.\nNếu con bạn đau đầu nhiều bạn có thể cho con bạn uống thuốc paracetamol theo chỉ dẫn tùy theo độ tuổi của con bạn.\nThân mến !",
+    "answer": "Chào bạn, tài liệu chưa đủ thông tin để xác định nguyên nhân việc con bạn thường buồn nôn hoặc đau đầu vào kỳ thi. Đau đầu kèm buồn nôn có thể liên quan đến nhiều vấn đề sức khỏe, trong đó có các bệnh lý thần kinh; nếu triệu chứng xảy ra thường xuyên, bạn nên đưa con đến cơ sở y tế hoặc chuyên khoa thần kinh để được thăm khám và tư vấn cụ thể.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Đau đầu kèm buồn nôn là dấu hiệu của bệnh gì?\nTrả lời: Thông tin mô tả không đủ để bác sĩ tư vấn chi tiết cho bạn. Bạn nên đi khám ngay để được chẩn đoán và có phương pháp điều trị kịp thời. Ngoài ra, bạn cần làm các xét nghiệm để chẩn đoán nguyên nhân sốt (có thể là sốt xuất huyết, cũng có thể là 1 nguyên nhân khác).",
+            "score": 0.5811817646026611,
+            "id": "vietnamese_healthcare_8922"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Bác sĩ cho tôi hỏi tôi cảm thấy buồn nôn nhưng không được nhiều, cảm thấy đau đầu, mệt mỏi. Bác sĩ cho tôi hỏi tình trạng như vậy là dấu hiệu bệnh gì? Mong bác sĩ tư vấn giúp tôi. Tôi xin cảm ơn.\nChào bác sĩ, em bị đau đầu kèm theo đó là mỏi chân tay và buồn nôn, vậy em muốn hỏi em bị bệnh gì, cách điều trị ra sao ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào bạn!\nXin hỏi bạn cơn đau đầu, buồn nôn có xảy ra thường xuyên không? Có kèm theo bệnh lý nào không? Nếu xảy ra thường xuyên có thể là biểu hiện của nhiều vấn đề sức khỏe khá nguy hiểm.",
+            "score": 0.5741519927978516,
+            "id": "vietnamese_medical_qa_3207"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Em thường xuyên bị nhức đầu kèm theo đau mắt và nôn. Bác sĩ cho em hỏi tình trạng trên là dấu hiệu bệnh gì ạ? Mong bác sĩ giải đáp, xin cảm ơn.\nTrả lời: Chào bạn. Nhức đầu và nôn là triệu chứng của nhiều bệnh lý về thần kinh. Do đó bạn cần đến cơ sở y tế để được khám và tư vấn. Chúc bạn mau khỏe.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng.",
+            "score": 0.5695630311965942,
+            "id": "vietnamese_medical_qa_3693"
+        },
+        {
+            "text": "Câu hỏi: Đau đầu kèm theo buồn nôn là triệu chứng của bệnh gì?\nTrả lời: tại thời điểm bạn đau đầu, huyết áp đo được là 120/90 mmHg, qua đó có thể thấy rằng các triệu chứng trên có thể do huyết áp tâm trương của bạn tăng nhẹ (90 mmHg). Trong trường hợp của bạn, tôi khuyên bạn nên tới phòng khám chuyên khoa thần kinh để được khám và tư vấn cụ thể hơn.",
+            "score": 0.555993914604187,
+            "id": "vietnamese_healthcare_608"
+        },
+        {
+            "text": "Câu hỏi: Nhức đầu, đau mắt, buồn nôn là dấu hiệu bệnh gì?\nTrả lời: Nhức đầu và nôn là triệu chứng của nhiều bệnh lý về thần kinh. Do đó bạn cần đến cơ sở y tế để được khám và tư vấn.",
+            "score": 0.5390326976776123,
+            "id": "vietnamese_healthcare_2876"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

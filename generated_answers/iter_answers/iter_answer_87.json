@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Chào bác sĩ! Con nhà em 5 tuổi mới đi viện bỏng về đc 3 tháng, do trong thời gian nằm viện bé nằm về 1 bên mấy ngày nên giờ cổ không quay hết như bình thường được và vai nhiều lúc cũng bị lệch. Bác sĩ cho em hỏi như vậy là làm sao ạ? Và phải làm thế nào để hết được? Mong bác sĩ tư vấn giúp em, em cảm ơn.",
+    "ground_truth": "Chào bạn! Trong câu hỏi bạn không nói rõ con bị bỏng ở bộ phận nào và mức độ ra sao. Vết bỏng sau khi thành sẹo và mất độ đàn hồi bình thường của da có thể gây hạn chế vận động. Mẹ có thể cho con qua các bệnh viện thuộc hệ thống AI-Doctor khám lại để được tư vấn cụ thể nhé.",
+    "answer": "Chào bạn, tình trạng cổ bé không quay hết và vai lệch sau thời gian nằm một tư thế có thể do co rút cơ vùng cổ hoặc do sẹo bỏng mất độ đàn hồi, đặc biệt nếu vết bỏng nằm ở cổ, vai hay ngực; cần khám trực tiếp mới xác định được nguyên nhân. Bạn nên đưa bé đến khám tại khoa Phục hồi chức năng hoặc chuyên khoa Bỏng/Nhi để được đánh giá vận động và hướng dẫn vật lý trị liệu, xoa mềm cơ và kéo giãn đúng cách; không tự bẻ hoặc cố xoay cổ mạnh. Tại nhà, có thể thay đổi tư thế nằm, khuyến khích bé nhìn và chơi về phía bị hạn chế, nhưng mọi bài tập nên thực hiện theo hướng dẫn của nhân viên y tế. Nếu bé đau, sẹo căng dày, sưng hoặc tình trạng lệch cổ–vai tăng lên, cần đưa bé đi khám sớm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: . Bé nhà tôi không quay đầu khi đẻ, cháu bị bắt đầu vànghẹo cổ, bây giờ đầu cháu tròn bình thường nhưng vẫn hơi nghẹo cổ. Mong bác sĩ tư vấn giúp tôi cáchkhắc phục chứng nghẹo cổ ở trẻ như thế nào?Cảm ơn bác sĩ. Nguyễn Thế Hải Đăng(2019) Trả lời Được giải đáp bởiBSCK II Cao Thị Thanh- Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Nếu cháu vẫn phát triển bình thường, chỉ có đầu hơi lệch sang 1 phía. Đây là hiện tượng khá hay gặp ở trẻ sau sinh. Do tư thế bé nằm trong tử cung mẹ: đầu bé luôn nghiêng sang 1 bên. Mẹ có thể cho bé khám Phòng khám lý liệu pháp Nhi, có Phương pháp xoa mềm cơ ức đòn chũm để khác phục phần nào.",
+            "score": 0.6405590772628784,
+            "id": "medical_vietnamese_qa_8040"
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em bị vẹo cổ do nằm nghiêng lâu ngày. Vì tình hình dịch bệnh nên bé không đến bệnh viện thăm khám được. Bác sĩ cho em hỏi,trẻ bị vẹo cổ do nằm nghiêng phải làm sao?Em xin cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Trẻ sơ sinh thường ngủ nghiêng đầu trong thời gian dài, trẻ có thể nghiêng đầu về một bên liên tục từ vài giờ cho đến vài ngày. Nếu điều này diễn ra khi trẻ buồn ngủ, mất phương hướng sẽ dẫn đếnvẹo cổ nghiêng đầu. Nguyên nhân này chủ yếu gặp ở trẻ dưới 1 tuổi và biến mất khi trẻ được 5 tuổi. Vẹo cổ ở trẻ sẽ không gây đau đớn nhưng nó ảnh hưởng đến thẩm mỹ và làm thay đổi gương mặt của trẻ. Ngoài ra, trẻ cũng sẽ gặp khó khăn trong việc xoay đầu. Trước tiên, bạn nên cho trẻ bú ngược, chỉnh tư thế nằm, tập chơi với trẻ xoay ngược với bên bị nghiêng để kích thích trẻ tự xoay đầu. Ngoài ra, bạn nên đưa bé đi khám tại khoa Phục hồi chức năng để bé được các y bác sĩ hỗ trợ tối đa cho trẻ, càng sớm càng tốt.",
+            "score": 0.6003007888793945,
+            "id": "medical_vietnamese_qa_6020"
+        },
+        {
+            "text": "Câu hỏi: Cổ không quay hết, vai bị lệch phải làm sao?\nTrả lời: Trong câu hỏi bạn không nói rõ con bị bỏng ở bộ phận nào và mức độ ra sao. Vết bỏng sau khi thành sẹo và mất độ đàn hồi bình thường của da có thể gây hạn chế vận động.",
+            "score": 0.5933583378791809,
+            "id": "vietnamese_healthcare_2197"
+        },
+        {
+            "text": "Câu hỏi: Con cháu hiện được 5 tháng 20 ngày. Bình thường, bé đã cứng cổ, nhìn thẳng được nhưng 1 tuần nay, cổ bé bị nghiêng về bên trái, giống vẹo cổ. Cháu sờ thì cổ mềm không u. Khi siêu âm thì có cấu trúc dạng hạch hình bầu dục. Lúc trước, bé hay nằm nghiêng phải bú và ngủ. Vậy bác sĩ cho cháu hỏinguyên nhân trẻ hơn 5 tháng tuổi bị nghiêng đầu?Có phải do nằm nghiêng một bên quá lâu hình thành thói quen hay do bịvẹo cổ do hạch? Cháu cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bình thường, vùng cổ vẫn có hạch nhỏ, nếubé vẹo cổdo có khối hoặc hạch thì thường khối u sẽ phải to hoặc hạch sưng to, bạn sẽ nhận thấy được. Với những bé tầm 5 đến 6 tháng, các cơ và cột sống cổ chưa vững hẳn nên nếu bé bú hoặc nằm lâu một tư thế có thể gây ra tình trạng vẹo cổ hoặcméo đầu. Bạn nên thay đổi tư thế bú cho bé (chuyển qua nằm bú bên trái) và thường xuyên xoay trở tư thế cho bé. Nếu tình trạng của bé không cải thiện hoặc có vấn đề bất thường, bạn nên cho bé đi khám.",
+            "score": 0.588511049747467,
+            "id": "medical_vietnamese_qa_6577"
+        },
+        {
+            "text": "Câu hỏi: Khắc phục chứng nghẹo cổ ở trẻ như thế nào?\nTrả lời: Nếu cháu vẫn phát triển bình thường, chỉ có đầu hơi lệch sang 1 phía. Đây là hiện tượng khá hay gặp ở trẻ sau sinh. Do tư thế bé nằm trong tử cung mẹ: đầu bé luôn nghiêng sang 1 bên. Mẹ có thể cho bé khám Phòng khám lý liệu pháp Nhi, có Phương pháp xoa mềm cơ ức đòn chũm để khác phục phần nào.",
+            "score": 0.5854354500770569,
+            "id": "vietnamese_healthcare_7878"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

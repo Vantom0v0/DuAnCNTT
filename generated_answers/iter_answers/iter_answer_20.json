@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Tôi có người thân là nam, 44 tuổi bị bệnh bạch cầu mãn (CML) từ năm 2017, đang uống thuốc theo phác đồ của bác sĩ ở bệnh viện, sức khỏe vẫn bình thường. Người thân của tôi có thể tiêm vaccine Covid-19 được không? Nếu được tiêm thì có nguy cơ gặp các biến chứng gì hay không?",
+    "ground_truth": "Nếu trong 3 tháng gần đây, tình trạng bệnh lý CML của không tiến triển, không thay đổi phác đồ điều trị hàng ngày. Anh/Chị có thể tiêm chủng vaccine Covid-19 tại các cơ sở bệnh viện. Với vắc xin Covid-19, các phản ứng sau tiêm có thể gặp là sưng đỏ vị trí tiêm, sốt và mệt mỏi trong 2, 3 ngày sau tiêm. Ngoài ra cũng có thể gặp các phản ứng nặng hơn như phản ứng phản vệ, hội chứng đông máu, tuy nhiên tỷ lệ rất thấp. Việc xảy ra các triệu chứng sau tiêm tùy thuộc và cơ địa đáp ứng miễn dịch của từng người.",
+    "answer": "Người thân của bạn **có thể được tiêm vaccine COVID-19 nếu bệnh CML đang ổn định**, không đang hóa trị/xạ trị và không phải nhập viện điều trị; tuy nhiên bệnh bạch cầu thuộc nhóm bệnh về máu cần thận trọng khi tiêm. Nên đưa người bệnh đến **bệnh viện hoặc cơ sở có đủ năng lực hồi sức cấp cứu**, mang theo hồ sơ bệnh án và thông báo đầy đủ thuốc đang dùng để bác sĩ khám sàng lọc, đánh giá chỉ định cụ thể; không tự ý ngừng thuốc CML. Nguy cơ phản ứng sau tiêm cần được bác sĩ cân nhắc và theo dõi, đặc biệt là phản ứng dị ứng/phản vệ hoặc các phản ứng bất thường khác, nhưng tài liệu không ghi nhận chống chỉ định riêng chỉ vì đang mắc CML ổn định.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Tôi bị bệnh bạch cầu mạn dòng tuỷ được 2 năm và đang dùng thuốc hàng ngày để điều trị. Xin hỏi bác sĩ tôi có thể tiêm được vaccine Covid-19 không ạ.\nTrả lời: Theo hướng dẫn của Bộ Y tế, nếu tình trạng bạch cầu mạn dòng tủy của bạn trong thời gian qua không phải điều trị hóa trị hay xạ trị hoặc không phải nhập viện điều trị bệnh vẫn được tiêm vaccine Covid-19. Tuy nhiên những người có tiền sử bệnh về máu hoặc tạo máu cần cẩn trọng khi tiêm ngừa. Vì vậy, bạn cần được khám sàng lọc tại bệnh viện hoặc cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu. Khi đó, bạn cần cung cấp đầy đủ thông tin và hồ sơ bệnh sử để được bác sĩ đánh giá về tình trạng bệnh và sức khỏe hiện tại, cân nhắc cho chỉ định chính xác.",
+            "score": 0.7474618554115295,
+            "id": "vietnamese_healthcare_3889"
+        },
+        {
+            "text": "Câu hỏi: Tôi năm nay 39 tuổi, tiền sử bệnh tiểu đường type 2 (hơn 3 năm). Tôi còn bị men gan cao, rối loạn thần kinh, rối loạn lipid máu, rối loạn nhịp tim (đang điều trị với thuốc), bị dị ứng một loại thuốc điều trị tim mạch. Bác sĩ cho tôi hỏi là tôi có thể tiêm vaccine Covid-19 được không?\nTrả lời: Có nhiều bệnh bệnh lý mãn tính ; đái tháo đưỡng, men gan cao, RL Lipit máu. . . anh/chị có thể tiêm vaccine phòng Covid-19 tại khối tiêm chủng bệnh viện. Tuy nhiên anh/chị có tiền sử dị ứng thuốc điều trị tim mạch, huyết áp, không rõ tình trạng mức độ dị ứng thế nào?Nếu có triệu chứng như túc ngực khó thở, thở rít, nổi mày đay. . . phải cấp cứu bệnh viện (nghi ngời PUPV độ 2 trở lên) thì sẽ không được tiêm chủng vaccine phòng Covid 19. Còn nếu các biểu hiện dị ứng nhẹ nhàng như có thể nổi mày đay, chỉ sử dụng thuốc uống hoặc không cần điều trị gì thì có thể tiêm chủng tại khối bệnh viện.",
+            "score": 0.7045337557792664,
+            "id": "vietnamese_healthcare_3271"
+        },
+        {
+            "text": "Câu hỏi: Em 45 tuổi, có bệnh nền suyễn nhưng ổn định tầm hơn một năm nay, không lên cơn, không dùng thuốc. Thỉnh thoảng dị ứng thuốc, khi dị ứng chỉ bị sưng mí mắt, rồi tự hết hoặc sẽ hết khi uống nước chanh, không đi viện hay truyền nước. Ngoài ra, cách đây gần một năm, em tức ngực, khó thở có đi khám thì bác sĩ cho siêu âm đo điện tâm đồ bảo là có thấy dấu hiệu nhồi máu cơ tim cũ, khi tái hẹn khám thì bác sĩ bảo ổn định, cho uống thuốc, đến nay em không bị nữa. Hiện nay, do dịch em chưa đi tái khám vậy em có thể tiêm vaccine Covid-19 được không bác sĩ?\nTrả lời: Anh/Chị cần tái khám kiểm tra sức khỏe, sau khi xác định các bệnh lý ổn định, không có tiến triển nguy hiểm, Anh/Chị có thể tiêm chủng vaccine Covid-19 tại các cơ sở bệnh viện hoặc các cơ sở y tế có đủ năng lực hồi sức cấp cứu ban đầu.",
+            "score": 0.6990559101104736,
+            "id": "vietnamese_healthcare_5219"
+        },
+        {
+            "text": "Câu hỏi: Mẹ tôi khi uống thuốc cảm bị phù nề ở mắt. Xin hỏi bác sĩ có thể tiêm vaccine Covid-19 được không?\nTrả lời: Qua lời chia sẻ, bác có tiền sử dị ứng (phản ứng phản vệ độ 1) với thuốc cảm không rõ loại. Đối với trường hợp này, bác vẫn có thể tiêm vaccine Covid-19. Tuy nhiên, khi tiêm chủng cần phải thận trọng và tiêm ở bệnh viện hoặc cơ sở y tế có đủ năng lực cấp cứu ban đầu. Khi đi tiêm, bác hãy thông báo cho bác sĩ khám sàng lọc biết tiền sử và mức độ dị ứng của mình để bác sĩ đánh giá tình trạng sức khỏe cũng như tư vấn, chỉ định tiêm chủng chính xác. Sau khi tiêm, bác cần tuân thủ theo đúng hướng dẫn của bác sĩ về việc theo dõi phản ứng sau tiêm nhé.",
+            "score": 0.6977124214172363,
+            "id": "vietnamese_healthcare_3839"
+        },
+        {
+            "text": "Câu hỏi: Trước đây cháu bị bạch cầu cấp đã điều trị, đến nay hơn 10 năm. Vậy cháu có thể tiêm ngừa vaccine Covid được không?\nTrả lời: Hiện tại bạn đang bị bệnh bạch cầu cấp đã điều trị, nếu tình trạng bệnh của bạn đang trong giai đoạn ổn định thì vẫn có thể được tiêm vaccine Covid-19. Tuy nhiên bạn thuộc nhóm thận trọng khi tiêm vaccine Covid-19 vì vậy bạn cần được khám sàng lọc tại bệnh viện, bác sĩ sẽ khám đánh giá tình trạng sức khỏe của bạn, nếu sức khỏe của bạn đủ điều kiện tiêm chủng theo hướng dẫn của Bộ Y tế, bác sĩ sẽ chỉ định và tư vấn cụ thể.",
+            "score": 0.6962087154388428,
+            "id": "vietnamese_healthcare_4935"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

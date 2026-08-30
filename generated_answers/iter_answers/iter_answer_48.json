@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Kết quả xét nghiệm HBV-DNA: 2.93E+IU/ml có ý nghĩa gì?",
+    "ground_truth": "Xét nghiệm HBV-DNA dùng để phát hiện và định lượng DNA của virus viêm gan B trong máu. Đây là một xét nghiệm rất hữu ích để chẩn đoán một số trường hợp nhiễm virus viêm gan B cấp ở giai đoạn sớm, phân biệt nhiễm HBV thể hoạt động và không hoạt động, là một tiêu chí trong điều trị cũng như theo dõi hiệu quả điều trị. Trường hợp của bạn, kết quả HBV-DNA ở mức 2.93 x 10 mũ 7 IU/ml, là mức cao. Bạn cần làm các xét nghiệm khác để chẩn đoán giai đoạn bệnh và xem xét điều trị.",
+    "answer": "HBV-DNA là xét nghiệm định lượng tải lượng virus viêm gan B trong 1 mL máu. Cách ghi **2.93E+ IU/mL** chưa đầy đủ vì còn thiếu số mũ sau dấu “E+” (ví dụ **2,93E+03 = 2.930 IU/mL**), nên cần xem lại phiếu xét nghiệm; không thể kết luận chính xác chỉ từ thông tin này. Nếu đây là kết quả dương tính thì virus đang hiện diện, nhưng mức độ hoạt động và việc có cần điều trị hay không phải đánh giá thêm **ALT/AST, HBeAg, anti-HBc, siêu âm hoặc độ xơ hóa gan và tình trạng xơ gan**. Bạn nên mang toàn bộ kết quả đến bác sĩ chuyên khoa gan mật để được tư vấn; không tự dùng thuốc và không tiêm vắc-xin viêm gan B nếu đã nhiễm.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Kết quả định lượng HBV-DNA có nghĩa là gì?\nTrả lời: Đây là nồng độ virus viêm gan B có trong 01ml máu. Tuy nhiên, 102 có theo tôi hiểu là 10 mũ 2 và chỉ với một xét nghiệm này không đủ để đánh giá vấn đề viêm gan virus B bạn nhé",
+            "score": 0.7788279056549072,
+            "id": "vietnamese_healthcare_2678"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm xét nghiệm HBV - DNA và có kết quả: 4,5x10/3 copies/ml. Bác sĩ tư vấn kết quả xét nghiệm HBV - DNA. Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nXét nghiệm HBV - DNA và có kết quả: 4,5x10/3 copies/ml của bạn có nghĩa là bạn đang bị nhiễm virus Viêm gan B. Đây là xét nghiệm đo tải lượng virus, được tính bằng số copies/ ml huyết thanh. Bạn nên đi khám và làm thêm các xét nghiệm để thăm dò chức năng gan khác như siêu âm gan, xét nghiệm men gan, các marker viêm gan khác như HBeAg, HBc IgM, HBc IgG để biết chính xác tình trạng nhiễm virus hiện tại, để bác sĩ tư vấn theo dõi sức khỏe định kỳ và tư vấn điều trị.\nTrân trọng!",
+            "score": 0.7700386047363281,
+            "id": "vietnamese_medical_qa_669"
+        },
+        {
+            "text": "Câu hỏi: Xét nghiệm HBV - DNA kết quả 210 copies/ml có nguy hiểm không?\nTrả lời: HBV - DNA là một xét nghiệm quan trọng để đánh giá lượng virus cũng như theo dõi đáp ứng điều trị viêm gan B. Thông thường, giá trị trung bình của HBV-DNA: Từ 10^3 - 10^5 copies/ml máu thì virus đang ở giai đoạn sao chép chưa mạnhTừ 10^5 - 10^7 copies/ml máu thì virus đang ở giai đoạn sao chép tương đối mạnhTừ vượt ngưỡng 10^7 copies/ml máu thì virus đang ở giai đoạn sao chép rất mạnh. Hàm lượng virus trong máu người bệnh càng cao thì nguy cơ gan tổn thương cũng như biến chứng xơ gan và ung thư gan càng lớn. Bên cạnh đó, càng dễ lây nhiễm cho người khác.",
+            "score": 0.7675150036811829,
+            "id": "vietnamese_healthcare_7947"
+        },
+        {
+            "text": "Câu hỏi: Kết quảxét nghiệm HBVcủa cháu là 1,85 x 10^ 3 IU/mL (3,27 log10). Bác sĩ cho cháu hỏikết quả xét nghiệm HBV 1,85 x 10^ 3 IU/mL đang ở mức nào?Cháu cần phải tiêm vắc-xin gì và hướng điều trị như thế nào thưa bác sĩ? Cháu cảm ơn. Trương Văn Hào(1997) Trả lời\nTrả lời: bác sĩ xin giải đáp như sau: Xét nghiệm của bạn HBV - DNA là 1,85 x 10^ 3 IU/mL ( 3,27 log10) có nghĩa là bạn đang bịnhiễm virus viêm gan B. Vì vậy, bạn không có chỉ định tiêm vắc-xin viêm gan B. Việc bạn có phảiđiều trị viêm gan Bkhông thì bác sĩ không thể trả lời bạn được vì thông tin bạn đưa ra quá ít (không biết chức năng gan của bạn thế nào, siêu âm gan mật của bạn ra sao, bạn có xơ gan hay chưa có xơ gan,.....)  Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Thị Nhật -Bác sĩ Chuyên khoa truyền nhiễm - Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.",
+            "score": 0.7630798816680908,
+            "id": "medical_vietnamese_qa_9905"
+        },
+        {
+            "text": "Câu hỏi: . Cháu xét nghiệm HBV - DNA cho kết quả 210 copies/ml. Vậy có nguy hiểm không bác sĩ? Mong nhận được những chia sẻ hữu ích của bác sĩ. Vũ Văn Phương(1998) Trả lời\nTrả lời: Chào bạn. HBV - DNA là một xét nghiệm quan trọng để đánh giá lượng virus cũng như theo dõi đáp ứng điều trịviêm gan B. Thông thường, giá trị trung bình của HBV - DNA: Từ 10^3 - 10^5 copies/ml máu thì virus đang ở giai đoạn sao chép chưa mạnh Từ 10^5 - 10^7 copies/ml máu thì virus đang ở giai đoạn sao chép tương đối mạnh Từ vượt ngưỡng 10^7 copies/ml máu thì virus đang ở giai đoạn sao chép rất mạnh. Hàm lượng virus trong máu người bệnh càng cao thì nguy cơ gan tổn thương cũng như biến chứng xơ gan vàung thư gancàng lớn. Bên cạnh đó, càng dễ lây nhiễm cho người khác. Để được tư vấn kỹ và chuyên sâu hơn về xét nghiệm HBV - DNA, bạn có thể đến trực tiếp bệnh viện thuộcHệ thống Y tế Vinmec, các bác sĩ sẽ tiến hành kiểm tra và đưa ra lời khuyên phù hợp với tình trạng sức khỏe hiện tại của bạn. Cảm ơn bạn đã tin tưởng và chia sẻ những thắc mắc tới Vinmec. Chúc bạn luôn có sức khỏe tốt. Được giải đáp bởi cácBác sĩ Hồi sức cấp cứu - Khoa Hồi sức cấp cứu - Bệnh viện đa khoa Quốc tế Vinmec Hải Phòng Các nội dung tư vấn khác Mắc viêm gan B uống Glucosamine có ảnh hưởng gì không? HbsAg dương tính là dấu hiệu của viêm gan B? Có thể phòng tránh viêm gan B mà không tiêm phòng không? Các bài viết cùng chủ đề Bệnh viêm gan siêu vi B và các đường lan truyền của bệnh Triệu chứng cảnh báo viêm gan tự miễn Đặc điểm lâm sàng của viêm gan tự miễn",
+            "score": 0.7597946524620056,
+            "id": "medical_vietnamese_qa_11535"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

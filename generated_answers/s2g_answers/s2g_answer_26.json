@@ -1,0 +1,88 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Quy đầu bị xước, nổi mụn và tiết dịch phải làm sao?",
+    "ground_truth": "Bác sĩ nghĩ bạn đang bị viêm bao quy đầu, nguyên nhân viêm thường do nhiễm khuẩn nước tiểu hoặc quan hệ tình dục mà người nữ có viêm nhiễm phụ khoa. Yếu tố thuận lợi gây viêm có thể do bao quy đầu dài, hẹp. Các nốt mụn mà bạn mô tả phải thăm khám trực tiếp mới có thể đánh giá được, vì vậy bạn cần đến cơ sở y tế chuyên khoa để khám.",
+    "answer": "Quy đầu bị xước, nổi mụn và tiết dịch cần được thăm khám sớm, tốt nhất tại cơ sở y tế hoặc bác sĩ da liễu, vì có thể cần khám lâm sàng và xét nghiệm máu, nước tiểu hoặc dịch tiết để xác định nguyên nhân. Bạn không nên nặn mụn, tự ý dùng thuốc hay thay đổi liều; nếu mụn sưng đỏ, có mủ hoặc ứ nước, bác sĩ sẽ xử trí an toàn. Trong thời gian này, hãy vệ sinh sạch sẽ, tránh quan hệ tình dục khi còn bất thường, tuân thủ điều trị và tái khám theo hẹn; nếu có bạn tình, nên cùng đi khám.",
+    "evidence": [
+        "Khi có triệu chứng dương vật chảy mủ trắng, bệnh nhân nên đi thăm khám sớm để bác sĩ tìm ra nguyên nhân gây bệnh.",
+        "Bác sĩ sẽ dựa trên tiền sử bệnh, kết quả khám lâm sàng và kết quả xét nghiệm (xét nghiệm máu, xét nghiệm nước tiểu, xét nghiệm dịch tiết từ dương vật) để có chẩn đoán chính xác.",
+        "Tùy từng nguyên nhân bác sĩ sẽ đề nghị phương pháp điều trị phù hợp nhất.",
+        "Tùy từng trường hợp mà bác sĩ sẽ chỉ định loại thuốc khác nhau, người bệnh tuyệt đối không được tự ý dùng thuốc hoặc tự ý thay đổi liều dùng; Nếu nguyên nhân gây bệnh do bệnh lậu, bạn cũng cần dùng thuốc theo phác đồ kết hợp của bác sĩ.",
+        "Bệnh nhân cần chú ý chăm sóc bản thân đúng cách: Vệ sinh cá nhân sạch sẽ, không quan hệ tình dục nếu có những biểu hiện bất thường ở dương vật, tuân thủ đúng phác đồ điều trị của bác sĩ, tái khám theo lịch hẹn,...",
+        "Đồng thời, nam giới nên tránh quan hệ tình dục với nhiều bạn tình và khi mắc bệnh nên đưa bạn tình cùng đi khám để điều trị sớm.",
+        "Em thường xuyên vệ sinh sạch, không quan hệ tình dục, chạm vào đau rát ạ!",
+        "Nếu gặp phải tình trạng này, hầu như ai cũng tự ti và giảm ham muốn tình dục Nếu không được điều trị đúng cách trong một số trường hợp còn có thể gây vô sinh, do đó khi mắc phải biểu hiện này cần đi khám ngay để kịp thời điều trị Ảnh hưởng đến sức khỏe sinh sản: nổi mụn trắng bao quy đầu còn có thể là biểu hiện của các căn bệnh xã hội nguy hiểm như lậu, herpes sinh dục, sùi mào gà hoặc viêm bao quy đầu .",
+        "Do đó nếu nghi ngờ về các nốt mụn bất thường trên dương vật, bệnh nhân cần đến bệnh viện thăm khám để được chẩn đoán nguyên nhân.",
+        "Các bác sĩ khuyên không nên nặn mụn trên bộ phận sinh dục bởi tác động trực tiếp thường sẽ khiến cho những nốt mụn diễn tiến nặng hơn, xuất hiện dày đặc, gây nhiễm trùng và khiến vi khuẩn lây lan.",
+        "Khi dương vật nổi mẩn đỏ sưng to, mụn có mủ hoặc ứ nước, bệnh nhân cần đến bác sĩ da liễu để chọc mủ hoặc loại bỏ mụn một cách an toàn.",
+        "Hiếm gặp hơn là một số nam giới mắc bệnh mụn rộp sinh dục có thể xuất hiện thêm triệu chứng chảy dịch mủ từ lỗ sáo, đối với nữ giới là hiện tượng dịch tiết âm đạo ra nhiều hơn, có mùi hôi."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏi, quy đầu bị xước, nổi mụn và tiết dịch phải làm sao ạ? Em thường xuyên vệ sinh sạch, không quan hệ tình dục, chạm vào đau rát ạ!\nTrả lời: Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+                "score": 0.6588348746299744,
+                "id": "vietnamese_medical_qa_3113",
+                "rerank_score": 0.9728910326957703
+            },
+            {
+                "text": "Câu hỏi: Chẩn đoán\nTrả lời: 2. Chẩn đoán\nBệnh vẩy nến mủ không phải là phát ban da điển hình. Người bệnh nên đến gặp bác sĩ để nhận được phương pháp điều trị tốt nhất nếu bị phát ban, phồng rộp, vết thương hở không cải thiện hoặc xấu đi. Dựa trên các triệu chứng bệnh nhân gặp phải cũng như tiền sử bệnh, tiền sử gia đình về bệnh vẩy nến, bác sĩ da liễu có thể chẩn đoán bệnh. Ngoài ra, người bệnh có thể cần làm thêm một số xét nghiệm để chẩn đoán chính xác tình trạng bệnh như: Sinh thiết : Bác sĩ da liễu sẽ lấy một mẫu nhỏ da bị viêm để dưới kính hiển vi Xét nghiệm máu : để tìm dấu hiệu của số lượng tế bào bạch cầu, tình trạng thận và gan, mức độ chất điện giải, canxi, ... Đôi khi, các bác sĩ sẽ kiểm tra một mẫu mụn mủ để chẩn đoán tình trạng .",
+                "score": 0.513340950012207,
+                "id": "vietnamese_healthcare_946",
+                "rerank_score": 0.007741699926555157
+            },
+            {
+                "text": "Câu hỏi: Vết thương đạp phải đinh bị đau nhức kèm chảy dịch có sao không?\nTrả lời: Bạn nhẫm phải đinh và vết thương của bạn bị sưng đỏ, chảy dịch. Trường hợp của bạn đã có vết thương hở và nguy cơ nhiễm trùng từ vết thương rất lớn. Bạn nên tiêm phòng uốn ván (kháng huyết thanh và vắc-xin) đầy đủ và điều trị vết thương nhiễm trùng cho ổn định. Vì vậy, bạn nên đến bệnh viện để thăm khám ngay để được tư vấn cụ thể.",
+                "score": 0.4960136413574219,
+                "id": "vietnamese_healthcare_9428",
+                "rerank_score": 0.0057897442020475864
+            },
+            {
+                "text": "Câu hỏi: Làm gì khi dương vật có mủ trắng đục?\nTrả lời: 4. Làm gì khi dương vật có mủ trắng đục?\nKhi có triệu chứng dương vật chảy mủ trắng, bệnh nhân nên đi thăm khám sớm để bác sĩ tìm ra nguyên nhân gây bệnh. Bác sĩ sẽ dựa trên tiền sử bệnh, kết quả khám lâm sàng và kết quả xét nghiệm (xét nghiệm máu, xét nghiệm nước tiểu, xét nghiệm dịch tiết từ dương vật) để có chẩn đoán chính xác. Tùy từng nguyên nhân bác sĩ sẽ đề nghị phương pháp điều trị phù hợp nhất. Cụ thể: Nếu nguyên nhân do nhiễm trùng thì bác sĩ có thể chỉ định người bệnh dùng thuốc. Vậy dương vật chảy mủ trắng đục uống thuốc gì ? Tùy từng trường hợp mà bác sĩ sẽ chỉ định loại thuốc khác nhau, người bệnh tuyệt đối không được tự ý dùng thuốc hoặc tự ý thay đổi liều dùng; Nếu nguyên nhân gây bệnh do bệnh lậu, bạn cũng cần dùng thuốc theo phác đồ kết hợp của bác sĩ. Trường hợp bệnh nặng cần kết hợp giữa việc dùng thuốc với phương pháp vật lý trị liệu để tăng cường khả năng hấp thu dược tính của thuốc; Trường hợp dương vật chảy mủ do viêm niệu đạo gây ra bởi vi khuẩn thì sử dụng thuốc kháng sinh với thời gian điều trị khác nhau tùy nguyên nhân gây bệnh; Nếu viêm bao quy đầu, dài hoặc hẹp bao quy đầu gây chảy mủ dương vật thì sẽ cần thực hiện cắt bao quy đầu. Dương vật chảy mủ trắng đục báo hiệu nhiều vấn đề ở đường sinh dục của nam giới. Bệnh nhân cần chú ý chăm sóc bản thân đúng cách: Vệ sinh cá nhân sạch sẽ, không quan hệ tình dục nếu có những biểu hiện bất thường ở dương vật, tuân thủ đúng phác đồ điều trị của bác sĩ, tái khám theo lịch hẹn,... Đồng thời, nam giới nên tránh quan hệ tình dục với nhiều bạn tình và khi mắc bệnh nên đưa bạn tình cùng đi khám để điều trị sớm.",
+                "score": 0.4786689281463623,
+                "id": "vietnamese_healthcare_26785",
+                "rerank_score": 0.005305154714733362
+            },
+            {
+                "text": "Câu hỏi: Em trai cháu vừa bị chấn thương sọ não, đang điều trị phục hồi, tuy nhiên vết thương sưng to, chảy mủ, dịch. Vậy bác sĩ cho cháu hỏivết thương chấn thương sọ não sưng to kèm chảy dịch mủ có sao không?Có phải bị nhiễm khuẩn không? Hướng xử lý và điều trị như thế nào? Độ nguy hiểm lớn hay nhỏ? Em xin cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Em bạn bịchấn thương sọ não, vết thương sưng to và chảy dịch mủ thì khả năng cao là bệnh nhân có tình trạngnhiễm trùng vết thươngvì có chảy mủ kèm biểu hiện viêm. Tuy nhiên, mức độ nghiêm trọng sẽ phụ thuộc vào tình trạng nhiễm trùng (nhiễm trùng nông hay sâu, có kèm nhiễm trùng vào mô não bên trong không, tình trạng chấn thương sọ não, có bệnh lý nền hay không). Vì thế, bạn cần sớm đưa em bạn đến để bác sĩ thăm khám để có đánh giá chính xác.",
+                "score": 0.5009446144104004,
+                "id": "medical_vietnamese_qa_8392",
+                "rerank_score": 0.00398618308827281
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bác sĩ cho em hỏi, quy đầu bị xước, nổi mụn và tiết dịch phải làm sao ạ? Em thường xuyên vệ sinh sạch, không quan hệ tình dục, chạm vào đau rát ạ!\nTrả lời: Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+                "score": 0.6757641434669495,
+                "id": "vietnamese_medical_qa_3113",
+                "rerank_score": 0.9728911519050598
+            },
+            {
+                "text": "Câu hỏi: Nổi mụn trắng ở bao quy đầu có nguy hiểm không?\nTrả lời: 2. Nổi mụn trắng ở bao quy đầu có nguy hiểm không?\nViệc nổi mụn trắng ở cơ quan sinh dục gây nhiều bất lợi cho cuộc sống và sinh hoạt của người bệnh. Cụ thể như sau: Khiến nam giới tự ti, lo lắng, không biết có mắc phải bệnh lý nào hay không Khi mụn lan rộng có thể gây đau đớn, khó chịu, sưng đỏ dương vật. Nếu gặp phải tình trạng này, hầu như ai cũng tự ti và giảm ham muốn tình dục Nếu không được điều trị đúng cách trong một số trường hợp còn có thể gây vô sinh, do đó khi mắc phải biểu hiện này cần đi khám ngay để kịp thời điều trị Ảnh hưởng đến sức khỏe sinh sản: nổi mụn trắng bao quy đầu còn có thể là biểu hiện của các căn bệnh xã hội nguy hiểm như lậu, herpes sinh dục, sùi mào gà hoặc viêm bao quy đầu . Phần lớn bệnh lây lan nhanh và dễ diễn biến thành viêm nhiễm nặng, ảnh hưởng đến những cơ quan và tổ chức xung quanh.",
+                "score": 0.5593022108078003,
+                "id": "vietnamese_healthcare_93132",
+                "rerank_score": 0.05091869458556175
+            },
+            {
+                "text": "Câu hỏi: Điều trị dương vật nổi mụn\nTrả lời: 2. Điều trị dương vật nổi mụn\nCác bệnh lây truyền qua đường tình dục sẽ để lại một số biến chứng nguy hiểm nếu không được điều trị kịp thời và tích cực. Do đó nếu nghi ngờ về các nốt mụn bất thường trên dương vật, bệnh nhân cần đến bệnh viện thăm khám để được chẩn đoán nguyên nhân. Bên cạnh đó, cần nên lưu ý: 2.1. Hạn chế tác động Thực tế, tình trạng dương vật có mụn thường sẽ tự khỏi nếu vùng kín được giữ sạch sẽ và khô ráo. Do đó, cách tốt để cải thiện là hạn chế động chạm và tiếp xúc. Các bác sĩ khuyên không nên nặn mụn trên bộ phận sinh dục bởi tác động trực tiếp thường sẽ khiến cho những nốt mụn diễn tiến nặng hơn, xuất hiện dày đặc, gây nhiễm trùng và khiến vi khuẩn lây lan. Khi dương vật nổi mẩn đỏ sưng to, mụn có mủ hoặc ứ nước, bệnh nhân cần đến bác sĩ da liễu để chọc mủ hoặc loại bỏ mụn một cách an toàn.",
+                "score": 0.5454096794128418,
+                "id": "vietnamese_healthcare_148129",
+                "rerank_score": 0.04889139533042908
+            },
+            {
+                "text": "Câu hỏi: Điều trị dương vật nổi mụn\nTrả lời: 2. Điều trị dương vật nổi mụn\nCác bệnh lây truyền qua đường tình dục sẽ để lại một số biến chứng nguy hiểm nếu không được điều trị kịp thời và tích cực. Do đó nếu nghi ngờ về các nốt mụn bất thường trên dương vật, bệnh nhân cần đến bệnh viện thăm khám để được chẩn đoán nguyên nhân. Bên cạnh đó, cần nên lưu ý: 2.2. Lựa chọn thuốc bôi thích hợp Khi điều trị cần lựa chọn thuốc bôi thích hợp Không nên dùng chung kem bôi điều trị mụn ở những bộ phận khác trên cơ thể cho bộ phận sinh dục vì da của khu vực này mỏng và nhạy cảm hơn. Các sản phẩm trị mụn phổ biến, chẳng hạn như benzoyl peroxide và axit salicylic, có thể quá mạnh đối với dương vật và sẽ gây ngứa cũng như phát ban đáng kể.",
+                "score": 0.5285093784332275,
+                "id": "vietnamese_healthcare_148130",
+                "rerank_score": 0.031498610973358154
+            },
+            {
+                "text": "Câu hỏi: Triệu chứng của mụn rộp sinh dục\nTrả lời: 1. Triệu chứng của mụn rộp sinh dục\nBiểu hiện của mụn rộp sinh dục là những mụn nước nhỏ hay những nốt nhú trên niêm mạc vùng hậu môn hay vùng cơ quan sinh dục (ở âm hộ, dương vật và bìu). Các mụn nước mọc thành chùm có thể tiến triển thành những ổ loét; thường kèm đau nhói, cảm giác bỏng rát và ngứa tại chỗ. Bệnh rất dễ lây nhiễm trong đợt bùng phát cho đến khi các tổn thương lành sẹo hoàn toàn. Mụn rộp mọc ở xung quanh bộ phận sinh dục có thể lây nhiễm khi tiếp xúc da - da, vì vậy dù sử dụng bao cao su cũng vẫn bị lây nhiễm mụn rộp sinh dục từ quan hệ tình dục. Khi bệnh tái phát, người bệnh bị sốt, nhức đầu, cơ thể mệt mỏi, chân tay đau nhức, nổi hạch bạch huyết, đau cơ, kém ăn uống. Hiếm gặp hơn là một số nam giới mắc bệnh mụn rộp sinh dục có thể xuất hiện thêm triệu chứng chảy dịch mủ từ lỗ sáo, đối với nữ giới là hiện tượng dịch tiết âm đạo ra nhiều hơn, có mùi hôi. Người bệnh mụn rộp sinh dục khi quan hệ tình dục sẽ đau rát, giảm khoái cảm, đi tiểu buốt, tiểu dắt nhiều lần trong ngày, nặng hơn có thể đi tiểu ra máu hoặc dịch mủ.",
+                "score": 0.5498340129852295,
+                "id": "vietnamese_healthcare_6655",
+                "rerank_score": 0.01158369891345501
+            }
+        ]
+    ],
+    "llm_call": 6,
+    "num_turns": 2
+}

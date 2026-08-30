@@ -1,0 +1,118 @@
+{
+    "model_name": "s2g_rag",
+    "question": "! Em đã tiêm mũi 5in1 của Ấn Độ cho bé lúc 2,5 tháng tuổi. Bây giờ con em được 3,5 tháng tuổi nặng 7,5kg, em muốn tiêm dịch vụ mũi 5in1 lần 2 hoặc 6in1 để bé đỡ sốt hơn. Vậy bác sĩ cho em hỏibé đã tiêm 5in1 của Ấn Độ có tiêm dịch vụ mũi 5in1 hoặc 6in1 được không? Rất mong bác sĩ tư vấn, em cảm ơn! Câu hỏi ẩn danh Trả lời",
+    "ground_truth": "Chào bạn! Với câu hỏi “Bé đã tiêm 5in1 của Ấn Độ có tiêm dịch vụ mũi 5in1 hoặc 6in1 được không?”, bác sĩ xin giải đáp như sau: Bé nhà bạn đã tiêm mũi 5in1 của Ấn Độ lúc 2,5 tháng thì lúc 3,5 tháng bé có thể chuyển sang tiêm vắc-xin 5in1 hoặc 6in1 của Bỉ hoặc của Pháp được. Khi đó bé không cần phải uống vắc-xin ngừa bại liệt nữa. Nếu tiêm vắc-xin 5in1 (của Pháp hoặc Bỉ) thì bé cần tiêm thêm 1 mũi viêm gan B (do vắc-xin 5in1 của Pháp và Bỉ không chứa thành phần viêm gan B), còn nếu tiêm vắc-xin 6in1 thì không cần tiêm thêm vắc xin viêm gan B nữa.  Được giải đáp bởiThạc sĩ, Bác sĩ Đoàn Ngọc Quỳnh -Bác sĩ Nhi - Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+    "answer": "Bé đã tiêm mũi 5in1 của Ấn Độ vẫn có thể tiếp tục tiêm mũi 5in1 dịch vụ hoặc chuyển sang vắc-xin 6in1; không cần tiêm lại từ đầu. Vắc-xin 6in1 có đầy đủ các thành phần kháng nguyên của 5in1 và phòng thêm viêm gan B, nên có thể thay thế 5in1. Lịch cơ bản là các mũi lúc khoảng 2, 3 và 4 tháng tuổi; sau tiêm, vẫn cần theo dõi các phản ứng thường gặp như sốt, sưng, đau hoặc đỏ tại chỗ tiêm trong 1–2 ngày. Tuy nhiên, bằng chứng được cung cấp không đủ để khẳng định vắc-xin dịch vụ sẽ giúp bé ít sốt hơn.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Lịch tiêm vắc xin tổng hợp 5in1 là tiêm 3 mũi cơ bản lúc trẻ được 2, 3, 4 tháng tuổi và mũi nhắc lại lúc 18 tháng tuổi.",
+        "Tuy nhiên, nếu trong trường hợp không có vắc xin 5in1 thì hoàn toàn thay thế được bằng vắc xin 6in1 được vì trong thành phần của vắc xin 6in1 đã bao gồm tất cả các thành phần kháng nguyên có trong vắc xin 5in1 rồi và bé không cần phải tiêm nhắc lại mũi 6in1 lần nào nữa.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Bé của bạn đã tiêm 1 mũi vắc xin 6in1 cách đây mấy tháng rồi thì bé vẫn tiếp tục tiêm các mũi 6in1 tiếp theo, không phải tiêm lại từ đầu.",
+        "Còn vắc xin 5in1 phòng 5 bệnh giống mũi 6in1 nhưng không phòng bệnh viêm gan B.",
+        "Vì vậy bạn nên cho bé tiếp tục tiêm vắc xin 6in1 sẽ phòng bệnh đầy đủ hơn cho bé bạn nhé.",
+        "Bạn vẫn phải theo dõi các phản ứng phụ thông thường như sốt, sưng đau đỏ vị trí tiêm thường xảy ra 1 - 2 ngày sau tiêm như các mũi vacxin trước.",
+        "Vắc xin 6in1 phòng 6 bệnh: bạch hầu, ho gà, uốn ván, bại liệt, Hib và viêm gan B.",
+        "Trả lời: Bé cần được tiêm nhắc lại vắc-xin 5in1 hoặc 6in1 mũi 4 ở thời điểm 15-20 tháng và không trễ quá sau 24 tháng.",
+        "Bé cần được tiêm 4 mũi vắc-xin 5in1 hoặc 6in1 trước 2 tuổi.",
+        "Vắc-xin Quinvaxem của Hàn quốc và vắc-xin ComBE Five của Ấn độ có thành phần tương đương nhau."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Con cháu năm nay được 18 tháng. Hôm nay, bé tiêm mũi 6in1 nhưng 3 mũi đầu là tiêm 5in1. Vậy bác sĩ cho cháu hỏitrẻ đang tiêm vacxin 5in1 có thể tiêm 6in1 không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Lịch tiêm vắc xin tổng hợp 5in1 là tiêm 3 mũi cơ bản lúc trẻ được 2, 3, 4 tháng tuổi và mũi nhắc lại lúc 18 tháng tuổi. Tuy nhiên, nếu trong trường hợp không có vắc xin 5in1 thì hoàn toàn thay thế được bằng vắc xin 6in1 được vì trong thành phần của vắc xin 6in1 đã bao gồm tất cả các thành phần kháng nguyên có trong vắc xin 5in1 rồi và bé không cần phải tiêm nhắc lại mũi 6in1 lần nào nữa.",
+                "score": 0.7122083902359009,
+                "id": "medical_vietnamese_qa_12744",
+                "rerank_score": 0.9976209998130798
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em sinh năm 2019. Bé đã tiêm 4 mũi 6in1 vào lúc 2 tháng tuổi, 3 tháng tuổi, 4 tháng tuổi và 16 tháng tuổi. Mũi tiêm thứ 4 vào ngày 23/12/2020. Ngày 21/7/2021, y tế xã lại tiêm 1 mũi nhắc lại 5in1 cho bé. Vậy bác sĩ cho em hỏitrẻ tiêm đủ vacxin 6in1, tiêm thêm vacxin 5in1 có ảnh hưởng gì không?Em cảm ơn bác sĩ. Nguyễn Thị Ngọc Yến(1986) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Nguyễn Hải Hà- Trung tâm Nhi, Bệnh viện Đa khoa Quốc tế Vinmec Times City.\nTrả lời: bác sĩ xin giải đáp như sau: Vacxin 6in1 phòng 6 bệnh là bạch hầu, ho gà, uốn ván, bại liệt, Hib và viêm gan B, có phác đồ tiêm 4 mũi trước 2 tuổi (thường là 2, 3, 4, 18 tháng). Bé nhà bạn đã tiêm đủ 4 mũi 6in1, không may tiêm thêm 1 mũi 5in1 (nếu ở trạm y tế xã thường là phòng bạch hầu, ho gà, uốn ván, Hib, viêm gan B), việc tiêm này là không cần thiết. Tuy nhiên, nếu có tiêm thừa cũng không ảnh hưởng gì đến sức khỏe và sự phát triển lâu dài của bé. Bạn vẫn phải theo dõi các phản ứng phụ thông thường như sốt, sưng đau đỏ vị trí tiêm thường xảy ra 1 - 2 ngày sau tiêm như các mũi vacxin trước.",
+                "score": 0.7122163772583008,
+                "id": "medical_vietnamese_qa_6390",
+                "rerank_score": 0.9966727495193481
+            },
+            {
+                "text": "Câu hỏi: Con em được 25 tháng rưỡi nhưngbé chưa tiêm nhắc lại mũi 5in1. Vậy bác sĩ cho em hỏitrẻ hơn 2 tuổi chưa tiêm nhắc lại 5in1 có tiêm lại được không?Tiêm như vậy có tác dụng gì không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin 5 trong 1(và 6 trong 1) được chỉ định cho trẻ dưới 2 tuổi. Hiện nay, con bạn 25,5 tháng, nếu chưa tiêm mũi 4 của 1 trong 2 loại trên thì bạn cho bé nhanh chóng đi tiêm mũi 4 trong 1 để phòng bệnhbạch hầu- ho gà- uốn ván- bại liệt. Bạn có thể đưa bé đến thăm khám bác sĩ để được tư vấn tiêm chủng một cách tốt nhất.",
+                "score": 0.7066962718963623,
+                "id": "medical_vietnamese_qa_13284",
+                "rerank_score": 0.996290922164917
+            },
+            {
+                "text": "Câu hỏi: Con cháu được hơn 6 tháng rồi nhưng mới tiêm chủng được 2 mũi. Mũi 6in1 mới tiêm được 1 lần cách đây mấy tháng rồi. Bác sĩ cho cháu hỏibé 6 tháng tuổi đã tiêm 6in1, mũi tiếp theo đổi sang 5in1 được không?Cháu xin cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé của bạn đã tiêm 1 mũi vắc xin 6in1 cách đây mấy tháng rồi thì bé vẫn tiếp tục tiêm các mũi 6in1 tiếp theo, không phải tiêm lại từ đầu. Vắc xin 6in1 phòng 6 bệnh: bạch hầu, ho gà, uốn ván, bại liệt, Hib và viêm gan B. Còn vắc xin 5in1 phòng 5 bệnh giống mũi 6in1 nhưng không phòng bệnh viêm gan B. Vì vậy bạn nên cho bé tiếp tục tiêm vắc xin 6in1 sẽ phòng bệnh đầy đủ hơn cho bé bạn nhé.",
+                "score": 0.7323967814445496,
+                "id": "medical_vietnamese_qa_13237",
+                "rerank_score": 0.9949889779090881
+            },
+            {
+                "text": "Câu hỏi: . Con em năm nay 5 tuổi. Trước đây con em tiêm mũi 5in1 theo chương trình tiêm chủng mở rộng, nhưng đến mũi thứ 2 thì sốt cao, tím tái phải vào viện nên không tiêm mũi thứ 3. Gần đây ông cháu mới phát hiện bị bệnh viêm gan B, mà mũi 5in1 cũng có tích hợp vắc-xin này. Vậy bác sĩ cho em hỏitrẻ 5 tuổi còn tiêm đượcvắc-xin 5in1hoặc 6in1 nữa không? Bé có cần phải tiêm viêm gan B nữa không? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn. Nguyễn Thị Nhung(1988) Trả lời Chào em! Với câu hỏi: “Trẻ 5 tuổi còn tiêm được vắc-xin 5in1 hoặc 6in1 nữa không?”của em,\nTrả lời: bác sĩ xin tư vấn như sau: Vắc-xin 5in1 và 6in1 chỉ tiêm cho trẻ dưới 2 tuổi. Hiện tại, con em đã 5 tuổi, em cần tiêm nhắc lạivắc-xin bạch hầu ho gà uốn ván bại liệt. Riêng về viêm gan B, em nên đưa bé đến cơ sở Y tế để xét nghiệm đánh giá tình trạng kháng thể virus hiện tại của bé. Tùy thuộc vào kết quả xét nghiệm, bác sĩ sẽ tư vấn phác đồtiêm viêm gan Bphù hợp cho bé. Nếu còn thắc mắc, em có thể liên hệ hoặc đến trực tiếp một trong các bệnh viện thuộcHệ thống Y tế Vinmectrên toàn quốc để được tư vấn cụ thể hơn. Cảm ơn em đã tin tưởng và đặt câu hỏi tới Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiBác sĩ chuyên khoa II Huỳnh Thị Diễm Thúy -Bác sĩ tư vấn vắc-xin - Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Central Park",
+                "score": 0.7204171419143677,
+                "id": "medical_vietnamese_qa_13378",
+                "rerank_score": 0.994975209236145
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Con cháu năm nay được 18 tháng. Hôm nay, bé tiêm mũi 6in1 nhưng 3 mũi đầu là tiêm 5in1. Vậy bác sĩ cho cháu hỏitrẻ đang tiêm vacxin 5in1 có thể tiêm 6in1 không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Lịch tiêm vắc xin tổng hợp 5in1 là tiêm 3 mũi cơ bản lúc trẻ được 2, 3, 4 tháng tuổi và mũi nhắc lại lúc 18 tháng tuổi. Tuy nhiên, nếu trong trường hợp không có vắc xin 5in1 thì hoàn toàn thay thế được bằng vắc xin 6in1 được vì trong thành phần của vắc xin 6in1 đã bao gồm tất cả các thành phần kháng nguyên có trong vắc xin 5in1 rồi và bé không cần phải tiêm nhắc lại mũi 6in1 lần nào nữa.",
+                "score": 0.7014558911323547,
+                "id": "medical_vietnamese_qa_12744",
+                "rerank_score": 0.9976209998130798
+            },
+            {
+                "text": "Câu hỏi: Con cháu được hơn 6 tháng rồi nhưng mới tiêm chủng được 2 mũi. Mũi 6in1 mới tiêm được 1 lần cách đây mấy tháng rồi. Bác sĩ cho cháu hỏibé 6 tháng tuổi đã tiêm 6in1, mũi tiếp theo đổi sang 5in1 được không?Cháu xin cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé của bạn đã tiêm 1 mũi vắc xin 6in1 cách đây mấy tháng rồi thì bé vẫn tiếp tục tiêm các mũi 6in1 tiếp theo, không phải tiêm lại từ đầu. Vắc xin 6in1 phòng 6 bệnh: bạch hầu, ho gà, uốn ván, bại liệt, Hib và viêm gan B. Còn vắc xin 5in1 phòng 5 bệnh giống mũi 6in1 nhưng không phòng bệnh viêm gan B. Vì vậy bạn nên cho bé tiếp tục tiêm vắc xin 6in1 sẽ phòng bệnh đầy đủ hơn cho bé bạn nhé.",
+                "score": 0.7170437574386597,
+                "id": "medical_vietnamese_qa_13237",
+                "rerank_score": 0.9949889779090881
+            },
+            {
+                "text": "Câu hỏi: ! Con tôi tiêm đủ 3mũi 6in1, đến hẹn tiêm nhắc lần 4 thì hết thuốc, ở các phòng khám gần đó cũng không còn nên tôi đưa con tôi về trạm y tế để tiêm DPT trong chương trình tiêm chủng thì được tư vấn và tiêm nhắc bằng mũi 5in1 SII do DPT đã hết. Nay đọc bài viết ở đây tôi mới biết là chỉ tiêm được cho trẻ dưới 24 tháng. Xin hỏi bác sĩ,trẻ tiêm 3 mũi 6in1 chuyển sang tiêm nhắc lại bằng mũi 5in1 có sao không?Mong nhận được phản hồi sớm của bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Thông tin kê toa củavắc-xin 6in1vàvắc-xin 5in1chỉ cho phép tiêm cho trẻ dưới 24 tháng tuổi do nhà sản xuất chưa tiến hành nghiên cứu thử nghiệm trên đối tượng >24 tháng tuổi. Tuy nhiên, quan sát các bé >24 tháng tuổi đã “lỡ” tiêm thì chưa thấy tác dụng phụ gì nghiêm trọng. Do đó, bạn không nên quá lo lắng. Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Trẻ tiêm 3 mũi 6in1 chuyển sang tiêm nhắc lại bằng mũi 5in1 có sao không?”tớiHệ thống Y tế Vinmec.Chúc con bạn luôn có sức khỏe tốt. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Bảo Toàn- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+                "score": 0.7137054204940796,
+                "id": "medical_vietnamese_qa_13493",
+                "rerank_score": 0.9872390627861023
+            },
+            {
+                "text": "Câu hỏi: Trẻ tiêm vắc-xin 5in1 Hàn Quốc chuyển sang 5in1 Ấn Độ có được không?\nTrả lời: Bé cần được tiêm nhắc lại vắc-xin 5in1 hoặc 6in1 mũi 4 ở thời điểm 15-20 tháng và không trễ quá sau 24 tháng. Vắc-xin Quinvaxem của Hàn quốc và vắc-xin ComBE Five của Ấn độ có thành phần tương đương nhau.",
+                "score": 0.6888728737831116,
+                "id": "vietnamese_healthcare_2926",
+                "rerank_score": 0.9870089888572693
+            },
+            {
+                "text": "Câu hỏi: Thưa bác sĩ cho em hỏi: Con em được tiêm dịch vụ các mũi vắc-xin 6in1. Nay con được 18 tháng trạm y tế lại gọi đi tiêm vắc-xin dự phòng, trong khi tháng sau mới đến lịch tiêm nhắc lại vắc-xin dịch vụ của cháu. Vậy em hỏi mũi tiêm này em có phải cho con tiêm theo lịch trạm y tế gọi không ạ?\nTrả lời: Chào mẹ! Bé cần được tiêm 4 mũi vắc-xin 5in1 hoặc 6in1 trước 2 tuổi. Nếu bé đã được tiêm 3 mũi trong năm đầu tiên thì mũi thứ 4 sẽ được tiêm nhắc vào thời điểm 15-20 tháng. Vậy mẹ có thể mang sổ tiêm của bé đến các cơ sở tiêm chủng để được kiểm tra lịch tiêm và tư vấn cụ thể.",
+                "score": 0.7084546089172363,
+                "id": "vietnamese_medical_qa_3449",
+                "rerank_score": 0.9862288236618042
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Con cháu năm nay được 18 tháng. Hôm nay, bé tiêm mũi 6in1 nhưng 3 mũi đầu là tiêm 5in1. Vậy bác sĩ cho cháu hỏitrẻ đang tiêm vacxin 5in1 có thể tiêm 6in1 không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Lịch tiêm vắc xin tổng hợp 5in1 là tiêm 3 mũi cơ bản lúc trẻ được 2, 3, 4 tháng tuổi và mũi nhắc lại lúc 18 tháng tuổi. Tuy nhiên, nếu trong trường hợp không có vắc xin 5in1 thì hoàn toàn thay thế được bằng vắc xin 6in1 được vì trong thành phần của vắc xin 6in1 đã bao gồm tất cả các thành phần kháng nguyên có trong vắc xin 5in1 rồi và bé không cần phải tiêm nhắc lại mũi 6in1 lần nào nữa.",
+                "score": 0.7134436964988708,
+                "id": "medical_vietnamese_qa_12744",
+                "rerank_score": 0.9976209998130798
+            },
+            {
+                "text": "Câu hỏi: Con em được 25 tháng rưỡi nhưngbé chưa tiêm nhắc lại mũi 5in1. Vậy bác sĩ cho em hỏitrẻ hơn 2 tuổi chưa tiêm nhắc lại 5in1 có tiêm lại được không?Tiêm như vậy có tác dụng gì không? Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Vắc-xin 5 trong 1(và 6 trong 1) được chỉ định cho trẻ dưới 2 tuổi. Hiện nay, con bạn 25,5 tháng, nếu chưa tiêm mũi 4 của 1 trong 2 loại trên thì bạn cho bé nhanh chóng đi tiêm mũi 4 trong 1 để phòng bệnhbạch hầu- ho gà- uốn ván- bại liệt. Bạn có thể đưa bé đến thăm khám bác sĩ để được tư vấn tiêm chủng một cách tốt nhất.",
+                "score": 0.6914964318275452,
+                "id": "medical_vietnamese_qa_13284",
+                "rerank_score": 0.996290922164917
+            },
+            {
+                "text": "Câu hỏi: Con cháu được hơn 6 tháng rồi nhưng mới tiêm chủng được 2 mũi. Mũi 6in1 mới tiêm được 1 lần cách đây mấy tháng rồi. Bác sĩ cho cháu hỏibé 6 tháng tuổi đã tiêm 6in1, mũi tiếp theo đổi sang 5in1 được không?Cháu xin cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé của bạn đã tiêm 1 mũi vắc xin 6in1 cách đây mấy tháng rồi thì bé vẫn tiếp tục tiêm các mũi 6in1 tiếp theo, không phải tiêm lại từ đầu. Vắc xin 6in1 phòng 6 bệnh: bạch hầu, ho gà, uốn ván, bại liệt, Hib và viêm gan B. Còn vắc xin 5in1 phòng 5 bệnh giống mũi 6in1 nhưng không phòng bệnh viêm gan B. Vì vậy bạn nên cho bé tiếp tục tiêm vắc xin 6in1 sẽ phòng bệnh đầy đủ hơn cho bé bạn nhé.",
+                "score": 0.7023577094078064,
+                "id": "medical_vietnamese_qa_13237",
+                "rerank_score": 0.9949889779090881
+            },
+            {
+                "text": "Câu hỏi: ! Con tôi tiêm đủ 3mũi 6in1, đến hẹn tiêm nhắc lần 4 thì hết thuốc, ở các phòng khám gần đó cũng không còn nên tôi đưa con tôi về trạm y tế để tiêm DPT trong chương trình tiêm chủng thì được tư vấn và tiêm nhắc bằng mũi 5in1 SII do DPT đã hết. Nay đọc bài viết ở đây tôi mới biết là chỉ tiêm được cho trẻ dưới 24 tháng. Xin hỏi bác sĩ,trẻ tiêm 3 mũi 6in1 chuyển sang tiêm nhắc lại bằng mũi 5in1 có sao không?Mong nhận được phản hồi sớm của bác sĩ. Câu hỏi ẩn danh Trả lời\nTrả lời: Chào bạn! Thông tin kê toa củavắc-xin 6in1vàvắc-xin 5in1chỉ cho phép tiêm cho trẻ dưới 24 tháng tuổi do nhà sản xuất chưa tiến hành nghiên cứu thử nghiệm trên đối tượng >24 tháng tuổi. Tuy nhiên, quan sát các bé >24 tháng tuổi đã “lỡ” tiêm thì chưa thấy tác dụng phụ gì nghiêm trọng. Do đó, bạn không nên quá lo lắng. Cảm ơn bạn đã tin tưởng và chia sẻ câu hỏi “Trẻ tiêm 3 mũi 6in1 chuyển sang tiêm nhắc lại bằng mũi 5in1 có sao không?”tớiHệ thống Y tế Vinmec.Chúc con bạn luôn có sức khỏe tốt. Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Huỳnh Bảo Toàn- Bác sĩ Nhi - Sơ sinh - Khoa Nhi - Sơ sinh - Bệnh viện Đa khoa Quốc tế Vinmec Nha Trang",
+                "score": 0.725519597530365,
+                "id": "medical_vietnamese_qa_13493",
+                "rerank_score": 0.9872390627861023
+            },
+            {
+                "text": "Câu hỏi: Trẻ tiêm vắc-xin 5in1 Hàn Quốc chuyển sang 5in1 Ấn Độ có được không?\nTrả lời: Bé cần được tiêm nhắc lại vắc-xin 5in1 hoặc 6in1 mũi 4 ở thời điểm 15-20 tháng và không trễ quá sau 24 tháng. Vắc-xin Quinvaxem của Hàn quốc và vắc-xin ComBE Five của Ấn độ có thành phần tương đương nhau.",
+                "score": 0.7061938047409058,
+                "id": "vietnamese_healthcare_2926",
+                "rerank_score": 0.9870089888572693
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

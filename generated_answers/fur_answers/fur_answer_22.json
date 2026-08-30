@@ -1,0 +1,47 @@
+{
+    "model_name": "fur",
+    "question": "Trẻ thường xuyên hắt hơi, chảy nước mũi và ho nhiều là dấu hiệu của bệnh gì?",
+    "ground_truth": "Theo những triệu chứng bạn mô tả thì có thể bé đang mắc bệnh viêm đường hô hấp trên. Theo đó, căn bệnh này thường thuyên giảm triệu chứng sau 5-6 ngày và có thể tự khỏi trong vòng 2 tuần. Mặc dù là các bệnh viêm đường hô hấp trên có triệu chứng không nặng nhưng đây là một trong các nguyên nhân khiến người bệnh phải nghỉ học, nghỉ lao động. Nếu đồng nhiễm với viêm đường hô hấp dưới, tình trạng sẽ nghiêm trọng hơn.",
+    "answer": "Cụm triệu chứng **hắt hơi thường xuyên, chảy nước mũi và ho nhiều ở trẻ không đủ để xác định một bệnh duy nhất**.\n\n- Nếu nước mũi **trong**, hắt hơi kéo dài và nghẹt mũi, trẻ **có thể bị viêm mũi dị ứng**.\n- Khi kèm ho nhiều, đây cũng có thể liên quan đến các bệnh đường hô hấp như **viêm mũi họng, viêm VA, viêm thanh quản, viêm phế quản hoặc viêm phế quản phổi**.\n\nBạn nên đưa trẻ khám bác sĩ Nhi hoặc Tai Mũi Họng để được chẩn đoán chính xác, đặc biệt nếu trẻ có sốt, mệt, ho nặng hơn hoặc khó thở.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Con em cháu thường hay sốt về đêm, ho nhiều và haychảy nước mũivới cảm giác như có đờm trong cổ. Bác sĩ cho em hỏi cháu bị như vậy là dấu hiệu của bệnh gì ạ? Em cảm ơn bác sĩ. Thân Đức Tài(2019) Trả lời\nTrả lời: Chào bạn, Bé nhà mình có cáctriệu chứng sốt, ho, chảy mũi là các triệu chứng của bệnh lý đường hô hấp, có thể là bệnh lý đường hô hấp trên hoặc hô hấp dưới. Trẻ em thường gặp các bệnh lý như:viêm mũi họng, viêm VA, viêm thanh quản, viêm phế quản, viêm phế quản phổi. Vì vậy, bạn cần đưa cháu đến cơ sở y tế để được khám và tư vấn nhé! Nếu có những vấn đề gia đình lo lắng thì nên khám bác sĩ chuyên khoa Nhi để được khám và tư vấn kỹ hơn. Cảm ơn bạn đã đặt câu hỏi tớiHệ thống Y tế Vinmec. Trân trọng. Câu trả lời được tư vấn bởi các bác sĩ Trung tâm Nhi - Bệnh viện Đa khoa Quốc tế Vinmec Time City",
+            "score": 0.6858941912651062,
+            "id": "medical_vietnamese_qa_8009",
+            "rerank_score": 0.9952484965324402
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em năm nay 11 tuổi.Bé hay bị hắt hơi, sổ mũi thường xuyên, thỉnh thoảng lại chảy máu mũi nữa. Vậy bác sĩ cho em hỏitrẻ 11 tuổi hay hắt hơi kèm chảy máu mũi là bệnh gì?Xin bác sĩ tư vấn và cách điều trị? Em cảm ơn bác sĩ. Nguyễn Thị Lý(1990) Trả lời Được giải đáp bởi các bác sĩ Khoa Nhi - Sơ sinh, Bệnh viện Đa khoa Quốc tế Vinmec Hải Phòng.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bị hắt hơi, sổ mũi như bạn mô tả thì bé có thể bịviêm mũi dị ứng. Dị ứng phấn hoa (tên tiếng Anh là Hay fever) hay còn được gọi là viêm mũi dị ứng (tên tiếng Anh là allergic rhinitis) gây ra các dấu hiệu và triệu chứng giống như cảm lạnh, như sổ mũi, ngứa mắt, nghẹt mũi, hắt hơi và tăng áp lực xoang. Nhưng không giống như cảm lạnh, viêm mũi dị ứng không phải do virus gây ra mà do phản ứng dị ứng với các chất gây dị ứng ngoài trời hoặc trong nhà, chẳng hạn như phấn hoa, mạt bụi hoặc nước bọt của mèo, chó và các động vật khác có lông. Còn hiện tượngchảy máu mũicó thể là hiện tượng chảy máu điểm mạch, cũng cần loại trừ các bệnh lý khác để loại trừ bệnh lý chảy máu mũi. Vì vậy, bạn nên đưa bé đến khám với bác sĩ chuyên khoa Tai mũi họng hoặc bác sĩ chuyên khoa Nhi để được tư vấn cụ thể. Nếu bạn còn thắc mắc, bạn có thể đến bệnh viện thuộcHệ thống Y tế Vinmecđể kiểm tra và tư vấn thêm. Cảm ơn bạn đã tin tưởng và gửi câu hỏi đến Vinmec. Chúc bạn có thật nhiều sức khỏe. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng.",
+            "score": 0.7257031202316284,
+            "id": "medical_vietnamese_qa_5674",
+            "rerank_score": 0.9919539093971252
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em năm nay 9 tuổi, thường xuyên bị hắt hơi, chảy nước mũi trong, nghẹt mũi. Em soi đèn thấy niêm mạc mũi bé sưng phù lên. Vậy bác sĩ cho em hỏi trẻnghẹt mũi, niêm mạc mũi sưng nguyên nhân là gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn 9 tuổi, hắt hơi, chảy nước mũi trong, nghẹt mũi là biểu hiện của viêm mũi dị ứng. Bạn nên đưa bé đến khám bác sĩ Tai mũi họng để khám lâm sàng và được tư vấn điều trị.",
+            "score": 0.7050451040267944,
+            "id": "medical_vietnamese_qa_6395",
+            "rerank_score": 0.9845340251922607
+        },
+        {
+            "text": "Câu hỏi: Bé nhà mình 5 tuổi hắt hơi sổ mũi thường xuyên. Bác sĩ cho hỏihắt hơi sổ mũi thường xuyên là biểu hiện của bệnh lý gì?Lâu ngày có thành bệnh mãn tính không? Và nên đi bác sĩ khám hay mua thuốc gì để tốt cho sức khỏe? Mong bác sĩ tư vấn giúp. Xin cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Cháu nhà bạn bị hắt hơi, sổ mũi thường xuyên. Nếu là hắt hơi và chảy mũi trong thì khả năng cháu bị viêm mũi dị ứng. Viêm mũi dị ứng là bệnh cơ địa, tuy không nguy hiểm nhưng dai dẳng khó điều trị và làm giảm chất lượng cuộc sống. Cháu 5 tuổi, việc dùng thuốc cho trẻ nhỏ phải cẩn thận, bạn không nên tùy tiện mua thuốc cho cháu mà cần được bác bác sĩ Tai mũi họng hoặc bác sĩ Nhi khoa kê toa.",
+            "score": 0.7182120084762573,
+            "id": "medical_vietnamese_qa_5832",
+            "rerank_score": 0.9839010834693909
+        },
+        {
+            "text": "Câu hỏi: Nguyên nhân trẻ hắt hơi sổ mũi\nTrả lời: 1. Nguyên nhân trẻ hắt hơi sổ mũi\nTrong các nguyên nhân gây hắt hơi sổ mũi ở trẻ , nhiễm lạnh là nguyên nhân phổ biến nhất. Theo Đông y, do tạng phế của trẻ chưa hoàn thiện nên khi thời tiết thay đổi (nóng, lạnh thất thường) hoặc đổ mồ hôi nhiều khiến trẻ dễ bị cảm lạnh . Ở giai đoạn chớm bị, trẻ có triệu chứng hắt hơi, sổ mũi trong, nghẹt mũi,... Sau đó, trẻ có thể bị ho nặng, gây suy yếu tạng phế. Theo Y Học Hiện Đại, mũi là cửa ngõ của hệ hô hấp. Bình thường, hốc mũi được lót bởi một lớp niêm mạc, bao phủ bằng lớp thảm nhầy có chức năng giữ lại bụi bẩn, vi khuẩn, bảo vệ mũi xoang. Khi lớp biểu mô trong hốc mũi bị kích thích do thời tiết (thay đổi nhiệt độ đột ngột), hóa chất, dị vật, tình trạng viêm nhiễm, các khối u,... sẽ khiến các tuyến chế tiết nằm trong lớp biểu mô gia tăng sản xuất dịch, gây hiện tượng chảy nước mũi. Chảy nước mũi khiến trẻ khó chịu vì giảm lượng không khí lưu thông trong mũi. Hiện tượng này có thể tự hết nhưng cũng có thể gây ra nhiều biến chứng khó lường như viêm xoang, viêm họng , viêm tắc vòi tai, viêm thanh - khí - phế quản,... Hiện tượng chảy nước mũi ở trẻ Bên cạnh đó, niêm mạc mũi là nơi cư trú của nhiều vi khuẩn, virus, khi gặp lạnh hoặc điều kiện thuận lợi sẽ tăng sinh mạnh mẽ, gây viêm mũi - họng. Khi trẻ bị cảm lạnh sẽ bắt đầu bằng triệu chứng nhẹ gồm sổ mũi hắt hơi . Sau vài ngày, nếu không được điều trị đúng cách, trẻ sẽ chuyển sang giai đoạn ho nhiều, mệt mỏi, khó chịu, có thể dẫn tới viêm họng, viêm phổi, viêm phế quản ,... gây khó khăn cho việc điều trị sau này.",
+            "score": 0.7301580905914307,
+            "id": "vietnamese_healthcare_32831",
+            "rerank_score": 0.9766963720321655
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nghẹt mũi và hắt hơi liên tục. Nước mũi chảy rất nhiều sau mỗi lần hắt hơi. Vậy nghẹt mũi, hắt hơi kèm chảy nước mũi dấu hiệu bệnh gì và hướng điều trị như nào ạ? Em cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nNghẹt mũi, hắt hơi và chảy nước mũi là 3 triệu chứng thông dụng trong Tai mũi họng. Ví dụ như viêm mũi dị ứng, viêm mũi xuất tiết, viêm mũi xoang cấp,... Nhìn chung để xác định được một cách chính xác hơn chẩn đoán bạn nên đi khám Tai mũi họng để được kiểm tra và tư vấn rõ hơn.\nTrân trọng!",
+            "score": 0.6355533599853516,
+            "id": "vietnamese_medical_qa_1101",
+            "rerank_score": 0.9809531569480896,
+            "weighted_score": 0.9870898127555847
+        }
+    ],
+    "llm_call": 4,
+    "iteration": 1
+}

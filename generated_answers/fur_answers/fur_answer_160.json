@@ -1,0 +1,40 @@
+{
+    "model_name": "fur",
+    "question": "Em bị bong gân trước (chỗ tiếp giáp bàn chân và cẳng chân) sau đó thì vết đay bắt đầu lan xuống phía dưới lòng bàn chân và mép ngoài chân trên cùng 1 mặt cắt ngang vị trí bong gân đó. Sau đó ít lâu thì chân bên cạnh (chân không bị bong gân, bình thường) lại bị các triệu chứng tương tự chân kia. Khiến em đi lại rất khó khăn đặc biệt vào buổi sáng hay hoạt động mạnh. Bác sĩ cho em hỏibong gân gây khó khăn khi đi lại có sao không?Em cảm ơn.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Trường hợp của bạn nên đi khám bác sĩ Chấn thương chỉnh hình để được khám, xét nghiệm để xác định chẩn đoán, nguyên nhân để có điều trị phù hợp.",
+    "answer": "Bong gân có thể gây đau, sưng và khó khăn khi đi lại, nhất là khi vận động hoặc tỳ đè. Ban đầu nên nghỉ ngơi, hạn chế đi lại, chườm lạnh, băng ép và kê cao chân; có thể cần cố định nếu tổn thương nặng.\n\nTuy nhiên, theo thông tin cung cấp, triệu chứng lan xuống lòng bàn chân/mép ngoài chân, kéo dài và xuất hiện cả ở chân bên kia không thể được giải thích đầy đủ chỉ bằng dữ liệu trên. Nếu triệu chứng không giảm, kéo dài hoặc nặng lên, bạn nên khám chuyên khoa Chấn thương chỉnh hình để được đánh giá trực tiếp. Bác sĩ có thể cân nhắc chụp MRI nhằm đánh giá tổn thương gân/dây chằng, đặc biệt khi đau kéo dài nhiều tuần hoặc sau khoảng 3 tháng vẫn chưa khỏi.\n\nHiện chưa có đủ thông tin để kết luận tình trạng của bạn có nghiêm trọng hay không.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,\nBị bong gân thì nên chữa như thế nào và nên kiêng những gì ạ.\nCảm ơn bác sĩ.\nTrả lời: Chào em,\nBong gân là sự tổn thương của bao khớp, phổ biến là các dây chằng, thường xảy ra sau một động tác quá mạnh nhưng không gây ra trật khớp hoặc gãy xương. Có thể dùng băng thun băng ép khớp bị bong gân giúp khớp có chỗ tựa và giữ cố định cho khớp. Trong trường hợp nặng, cần đặt nẹp bột bất động khớp trong tư thế cơ năng.Nên chườm lạnh bên ngoài bằngnước đá (hoặc nước lạnh) trong 4 giờ đầu. Việc chườm đá làm dịu đau và co mạch,ngưng chảy máu, bớt phù nề. Và sau ngày thứ 2, nên ngâm chỗ bị bong gân trongnước ấm từ 3-4 lần trong ngày.Kê đầu chi bị bong gân lên cao khi nghỉ ngơi và nằm ngủ. \nNgoài ra, có thể dùng thuốc giảm đau, tiện nhất là alaxan uống 1-2 viên/lần, 3 lần trong ngày. Không dùng aspirin vì thuốc này chống ngưng kết tiểu cầu, gây chảy máu.\nEm nên hạn chế đi lại.\nChúc em mau lành bênh!",
+            "score": 0.5285130143165588,
+            "id": "vietnamese_medical_qa_9036",
+            "rerank_score": 0.9958822727203369
+        },
+        {
+            "text": "Câu hỏi: Em bịbong gân mắt cá chânsau khi chơi đá bóng, tối về sưng to vàtím xung quanh chân. Vậy bác sĩ cho em hỏisưng kèm tím chân sau bong gân mắt cá chân phải làm gì?Em cảm ơn bác sĩ. Thanh(1990) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Lê Quang Minh -Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Đối với cácchấn thương bong gânthông thường thì phương pháp xử trí ban đầu là nghỉ ngơi hạn chế vận động, chườm đá, băng ép và kê cao chân. Thông thường, các triệu chứng sẽ giảm dần sau vài ngày, thời gian hồi phục tùy thuộc vào mức tổn thương. Nếu bạn thấy các triệu chứng không giảm hoặc kéo dài, hay nặng hơn thì cần đến khám tại cơ sở Chấn thương chỉnh hình uy tín để bác sĩ có thể khám và đánh giá trực tiếp từ đó đưa ra phương án điều trị cụ thể cho tình trạng hiện tại của bạn.",
+            "score": 0.5501356720924377,
+            "id": "medical_vietnamese_qa_366",
+            "rerank_score": 0.9569634795188904
+        },
+        {
+            "text": "Câu hỏi: em bịbong gâncổ chân trái, đi chụp X-quang có mẻ xương chày chỗ điểm bám gân, em đã bó bột 6 tuần và đã tháo bột. Từ lúc bị đến nay đã được 2 tháng, nhưng đi lại vẫn đau và chân hay bị tím, phù nề, kê cao chân thì hết ạ. Xin bác sĩ cho em hỏichân sưng đau, tím tái sau 2 tháng tháo bột bong gân cổ chân có sao không?Cám ơn bác sĩ.Em cảm ơn rất nhiều. Bùi Thị Phương(1994) Trả lời\nTrả lời: Chào bạn, Bong gân cổ chânlà tình trạngdây chằng quanh khớp cổ chân bị giãnhoặc rách một phần hay toàn bộ. Đây là một tổn thương dễ gặp trong sinh hoạt, vận động. Ngay lúc chấn thương phải được xử lý ngay và đúng mức theo nguyên tắc P.R.I.C.E: P (protect): Cố định khớp cổ chân bằng nẹp bột. R (rest) : hạn chế tỳ đè lên chân đau, sử dụng nạng hỗ trợ trong sinh hoạt vận động đi lại. I (ice): đắp đá vùng sưng đau nhiều lần ngay sau chấn thương, mỗi lần 10-20 phút trong 24-72 giờ đầu. C (compression): băng thun ép trong 24-36 giờ đầu. E (elevation): ngồi, nằm kê cao chân 2-3 giờ mỗi ngày ít nhất đề giảm sưng nề, bầm tím. Sau 5-7 ngày bạn cần bắt đầu tập phục hồi chức năng, chương trình tập bao gồm 3 phần chính: Lấy lại tầm vận động và sự mềm dẻo của cổ chân bằng các bài tập gập duỗi nhẹ nhàng cổ chân. Lấy lại sức mạnh khớp cổ chân: sau khi tầm vận động đạt 60-70%. Tập thăng bằng sau khi tầm vận động và sức mạnh cổ chân đã đạt hoàn toàn. Tùy thuộc vào mức độ nặng nhẹ của bong gân mà thời gian để khỏi hoàn toàn khác nhau. Nếu xử lý ban đầu không đúng mức và quá trình tập luyện sau đó không hợp lý thì thời gian điều trị có thể kéo dài 2 tháng hoặc hơn. Bạn cần đến các Khoa Phục hồi chức năng để được hướng dẫn tập luyện cụ thể. Nếu sau 10 tuần vẫn còn sưng đau nhiều thì tái khám để bác sĩ đánh giá lại và tư vấn thêm. Cảm ơn bạn đã tin tưởng và chia sẻ những lo lắng về vấn đềchân sưng đau, tím tái sau 2 tháng tháo bột bong gân cổ chân có sao không?tớiHệ thống Y tế Vinmec. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ chuyên khoa I Nguyễn Thị Thanh Bình- Bác sĩ Phục hồi chức năng - Khoa Ngoại tổng hợp - Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng",
+            "score": 0.5901840925216675,
+            "id": "medical_vietnamese_qa_866",
+            "rerank_score": 0.9218441247940063
+        },
+        {
+            "text": "Câu hỏi: Em bị lật sơ mi chân vùng mắt cá vì chơi thể thao. Em đã đi khám, bác sĩ nói bị bong gân mãn tính, có các triệu chứng đau nhức, hơi sưng ở vùng mắt cá và không thể vận động mạnh. Em bị bong gân cũng đã được gần 3 tháng. Vậy bác sĩ cho em hỏibong gân mãn tính điều trị như thế nào?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bong gân cổ chân phải được cố định nghỉ ngơi, hạn chế vận động. Sau 3 tháng mà vẫn còn đau bạn nên đến khám chuyên khoa Chấn thương chỉnh hình, chụp MRI đánh giá gân cổ chân, mức độ tổn thương để bác sĩ cho phương án điều trị phù hợp.",
+            "score": 0.5414039492607117,
+            "id": "medical_vietnamese_qa_342",
+            "rerank_score": 0.9015982151031494
+        },
+        {
+            "text": "Câu hỏi: 2 tháng trước, tôi bị bong gân chân, đã đi chụp X - quang, xương khớp không sao. Tôi đi bó thuốc lá 1 tuần, tháo thuốc tầm 1 tuần thấy vẫn bị sưng, đau, tôi có đi tiêm và nghỉ ngơi không hoạt động nhiều nhưng đến giờ chân vẫn sưng, đau. Vậy bác sĩ cho tôi hỏichân bong gân, sưng đau điều trị như thế nào?Tôi cảm ơn bác sĩ. Nghiêm Thị Xuân(1972) Trả lời Được giải đáp bởiBác sĩ chuyên khoa II Mai Anh Kha- Khoa Ngoại tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn không nói rõ bong gân cổ chân hay gối. Hiện tại, sau 2 tháng đã bó cố định, nghỉ ngơi mà vẫn còn đau là không bình thường. Bạn nên đi khám và chụp phim MRI để đánh giá mức độ tổn thương gân để có chỉ định đúng.",
+            "score": 0.636421799659729,
+            "id": "medical_vietnamese_qa_526",
+            "rerank_score": 0.8842980861663818
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 1
+}

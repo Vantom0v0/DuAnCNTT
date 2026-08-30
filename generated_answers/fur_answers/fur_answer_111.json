@@ -1,0 +1,187 @@
+{
+    "model_name": "fur",
+    "question": "Chào bác sĩ,\nEm bị viêm tai thanh dịch. Vậy bác sĩ cho em hỏi viêm tai thanh dịch có thể điều trị được không? Bệnh này có tự hết không hay bắt buộc phải uống thuốc mỗi lần bị viêm? Em cảm ơn bác sĩ.",
+    "ground_truth": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViêm tai thanh dịch là bệnh lý liên quan đến chức năng thông thoáng của vòi tai (là ống nối thông từ mũi tới tai). Đây là bệnh lý lành tính tuy nhiên việc điều trị cần phải theo dõi sát trong thời gian 1 - 3 tháng vì dịch ở trong tai tiêu chậm, đặc biệt ở người hút thuốc lá hoặc có tiền sử bệnh mũi.\nVì vậy, bạn nên đến thăm khám để nhân được kế hoạch điều trị và theo dõi cho dứt điểm tình trạng ứ dịch trong tai.\nTrân trọng!",
+    "answer": "Thông tin được cung cấp **chưa đủ để xác định cụ thể mức độ nào của viêm tai thanh dịch cần điều trị và mức độ nào chỉ cần theo dõi**, cũng chưa nêu rõ tiêu chí theo dõi riêng cho bệnh này.\n\nTuy nhiên, bằng chứng cho **viêm tai giữa cấp ở trẻ em** cho biết:\n\n- Trẻ từ **6 tháng tuổi trở lên**, nếu triệu chứng **không nặng** và có thể tái khám, có thể được theo dõi **48–72 giờ**, chỉ dùng kháng sinh nếu triệu chứng nặng lên hoặc không cải thiện.\n- Trẻ dưới **6 tháng tuổi**, hoặc có triệu chứng nặng, thường được chỉ định kháng sinh ngay theo bác sĩ.\n- Việc điều trị viêm tai thanh dịch có thể gồm thuốc hoặc can thiệp ngoại khoa, tùy tình trạng cụ thể; cần khám chuyên khoa Tai–Mũi–Họng để quyết định.\n\nVì vậy, bạn **không nên tự uống thuốc hoặc tự dùng kháng sinh mỗi khi tái phát**. Nếu có đau tai, sốt, chảy dịch tai, ù tai hoặc giảm thính lực, nên đi khám để xác định đó là viêm tai thanh dịch hay viêm tai giữa cấp và được hướng dẫn theo dõi/điều trị phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Bệnh viêm màng não điều trị bao lâu thì khỏi?\nTrả lời: em nên vào Bệnh viện tái khám bác sĩ chuyên khoa Nội tổng hợp thần kinh. Bệnh của em có thể điều trị khỏi nếu có phác đồ điều trị đúng em nhé.",
+            "score": 0.6574481725692749,
+            "id": "vietnamese_healthcare_8269",
+            "rerank_score": 0.12250064313411713
+        },
+        {
+            "text": "Câu hỏi: Bệnh lupus ban đỏ có chữa được không?\nTrả lời: 2. Bệnh lupus ban đỏ có chữa được không?\nBệnh lupus ban đỏ có chữa được không? Không có cách điều trị hoàn toàn bệnh lupus ban đỏ nhưng vẫn có các phương pháp điều trị để giúp người bệnh cảm thấy tốt hơn, cải thiện triệu chứng và các biến chứng bệnh.Việc điều trị này có thể phụ thuộc vào một số yếu tố, bao gồm: Các triệu chứng và biến chứng của mỗi bệnh nhân. Mức độ nghiêm trọng của bệnh. Tuổi tác. Loại thuốc đang sử dụng. Sức khỏe toàn thể của người bệnh. Tiền sử bệnh. Lupus ban đỏ là một tình trạng lâu dài cần được kiểm soát thường xuyên. Mục tiêu của việc điều trị là làm cho các triệu chứng thuyên giảm và hạn chế mức độ tổn thương mà bệnh gây ra cho các cơ qua. Tuy nhiên, tác động của bệnh có thể thay đổi và khác nhau theo thời gian. Vì vậy, người bệnh có thể sẽ cần thường xuyên đến gặp bác sĩ và điều chỉnh kế hoạch chăm sóc để phù hợp với các triệu chứng của mình.Một số người mắc bệnh lupus nhẹ có thể cần điều trị hạn chế, theo dõi và giám sát triệu chứng để đảm bảo rằng chúng không tồi tệ hơn. Còn những người có xu hướng bị các biến chứng nghiêm trọng hơn (như biến chứng tim, phổi hoặc thận) có thể cần một kế hoạch điều trị tích cực.",
+            "score": 0.6008756756782532,
+            "id": "vietnamese_healthcare_67655",
+            "rerank_score": 0.07570938020944595
+        },
+        {
+            "text": "Câu hỏi: Em chào bác sĩ. Bác sĩ cho em hỏi bị viêm cục lệ ở mắt nên dùng thuốc nào ạ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Cảm ơn bạn đã tin tưởng và gửi câu hỏi về AI-Doctor, rất mong có thể gặp bạn để tư vấn cụ thể hơn.",
+            "score": 0.6340452432632446,
+            "id": "vietnamese_medical_qa_2402",
+            "rerank_score": 0.05015923082828522
+        },
+        {
+            "text": "Câu hỏi: Làm thế nào để chữa được chứng ù tai?\nTrả lời: Ù tai hiện có nhiều nguyên nhân gây nên.",
+            "score": 0.6431405544281006,
+            "id": "vietnamese_healthcare_7567",
+            "rerank_score": 0.021440422162413597
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Bác sĩ cho em hỏi, uống thuốc gì để chữa viêm chân lông sưng to ạ? Cảm ơn bác sĩ!\nTrả lời: Chào bạn, bác sĩ xin được giải đáp câu hỏi: “Uống thuốc gì để chữa viêm chân lông sưng to?” như sau:",
+            "score": 0.6488561630249023,
+            "id": "vietnamese_medical_qa_1629",
+            "rerank_score": 0.011686778627336025
+        },
+        {
+            "text": "Câu hỏi: Điều trị bệnh viêm tai giữa thanh lịch như thế nào?\nTrả lời: 5. Điều trị bệnh viêm tai giữa thanh lịch như thế nào?\nMục đích chính của điều trị là tái lập hoạt động bình thường của hòm tai, giảm tình trạng viêm, hạn chế biến chứng và điều trị nguyên nhân bệnh tránh tái phát về sau. Điều trị bao gồm cả dùng thuốc hoặc ngoại khoa. Về điều trị nội, bác sĩ có thể cho kháng sinh để dự phòng các nhiễm khuẩn vùng tai mũi họng thứ phát do viêm tai giữa thanh dịch gây ra, đồng thời kháng viêm bằng thuốc corticoid. Bên cạnh đó, có thể giảm triệu chứng tiết dịch nhầy bằng các thuốc kháng histamin H1 . Về điều trị ngoại khoa, bác sĩ có thể chích rạch màng nhĩ nếu bên trong hòm tai ứ nhiều dịch, khi màng nhĩ căng phồng hoặc khi màng nhĩ bị lõm, dính thì sẽ đặt 1 ống thông khí vào hòm nhĩ. Tìm và điều trị các nguyên nhân như nạo vét VA, cắt Amidan viêm, chỉnh hình vách ngăn và cuốn mũi hoặc phẫu thuật lấy bỏ các khối u vòm mũi họng. Hiện nay, có một phương pháp hiện đại hơn đang được áp dụng là Kỹ thuật sửa chữa màng nhĩ CS của Đức, đây là kỹ thuật vi phẫu giúp xác định độ sâu của tai và tìm các tổn thương bị che giấu. Ưu điểm nổi bật của kỹ thuật sửa chữa màng nhĩ CS là vết mổ nhỏ, thời gian làm ngắn, chảy máu ít, không ảnh hưởng đến ngoại quan, tốc độ hồi phục nhanh. Đồng thời, tỷ lệ tái phát bệnh ít hơn so với phương pháp chữa trị truyền thống, hiệu quả cao, an toàn đáng tin cậy. Dùng thuốc kháng histamin H1 để giảm triệu chứng tiết dịch nhầy Điều quan trọng nhất trong điều trị vẫn là phát hiện bệnh kịp thời và đến khám ở chuyên khoa tai mũi họng để được tư vấn phương pháp điều trị cụ thể, thích hợp. Thường xuyên vệ sinh mũi họng bằng cách rửa mũi, súc họng. Khi có biểu hiện bệnh lý như ngạt mũi, chảy mũi, hắt hơi, ù tai... bạn cần đến cơ sở khám chữa bệnh để điều trị kịp thời. Xem thêm: Hướng dẫn chẩn đoán và điều trị viêm tai giữa",
+            "score": 0.4897342920303345,
+            "id": "vietnamese_healthcare_80689",
+            "rerank_score": 0.7053789496421814,
+            "weighted_score": 0.9355247855186463
+        },
+        {
+            "text": "Câu hỏi: Chẩn đoán và điều trị viêm sụn tai\nTrả lời: 3. Chẩn đoán và điều trị viêm sụn tai\nĐiều trị viêm sụn tai chủ yếu là sử dụng các loại thuốc kháng sinh khác nhau để ngăn chặn tình trạng viêm nhiễm. Sau khi kiểm tra và thăm khám tình trạng thực tế của bệnh nhân, bác sĩ chuyên khoa sẽ đưa ra phương pháp điều trị phù hợp nhất đối với người bệnh: Phương pháp thường được sử dụng trong điều trị viêm màng sụn vành tai là sử dụng kháng sinh , cụ thể là thuốc levofloxacin. Tuy nhiên, để tình trạng viêm nhanh khỏi hơn, bác sĩ sẽ kê thêm một số loại kháng sinh khác để người bệnh sử dụng. Tùy vào tình trạng sức khỏe, bác sĩ sẽ chỉ định người bệnh sử dụng kháng sinh thông qua đường tiêm tĩnh mạch hoặc đường uống. Trường hợp tai bệnh nhân có mủ bên trong, bác sĩ sẽ chỉ định thực hiện tiểu phẫu để dẫn lưu dịch bên trong ra ngoài. Tại vị trí viêm sụn tai, bác sĩ sẽ rạch ra và ống dẫn lưu sẽ được để lại tại chỗ từ 2-3 ngày. Bác sĩ sẽ kê thêm cho bệnh nhân thuốc kháng sinh để chống viêm sau khi thực hiện tiểu phẫu. Trường hợp bệnh nhân mắc viêm màng sụn vành tai tự miễn, các thuốc thuộc nhóm steroid sẽ được chỉ định sử dụng như prednisone giúp ức chế phản ứng miễn dịch và ngăn chặn tấn công đến sụn tai cũng như những bộ phận khác của cơ thể. Nếu tình trạng bệnh gây ra tai súp lơ ảnh hưởng đến thẩm mỹ, bác sĩ sẽ đưa ra lời khuyên về việc phẫu thuật thẩm mỹ nếu bệnh nhân có yêu cầu. Thời gian phục hồi sau điều trị phụ thuộc nhiều vào việc người bệnh có sớm phát hiện và điều trị bệnh hay không. Tốt nhất là người bệnh nên điều trị càng sớm càng tốt, tránh để lâu gây ra nhiều biến chứng cũng như những khó khăn cho việc điều trị. Thuốc kháng sinh được áp dụng có tác dụng điều trị viêm sụn tai",
+            "score": 0.4685584008693695,
+            "id": "vietnamese_healthcare_24652",
+            "rerank_score": 0.11395672708749771,
+            "weighted_score": 0.779823262989521
+        },
+        {
+            "text": "Câu hỏi: Điều trị viêm tai xương chũm cấp tính\nTrả lời: 3. Điều trị viêm tai xương chũm cấp tính\n3.2. Phác đồ điều trị cho bệnh nhân viêm xương chũm cấp tính Đầu tiên bệnh nhân được thực hiện thăm khám và cho thực hiện các cận lâm sàng cần thiết như soi tai, chụp X-quang và CT scan để chẩn đoán chính xác được bệnh và mức độ của tình trạng viêm xương chũm cấp tính . Sau khi chẩn đoán xác định được bệnh, cho bệnh nhân dùng kháng sinh phổ rộng liều cao để giảm tình trạng viêm, và đau Thực hiện phẫu thuật khi trên bệnh nhân đã xuất hiện túi mủ, hoặc các tình trạng về xương đã diễn tiến nặng nề, hay ngay cả khi các triệu chứng như sốt, mệt,... ở bệnh nhân vẫn diễn ra liên tục mà không đáp ứng với điều trị nội khoa.",
+            "score": 0.4417220652103424,
+            "id": "vietnamese_healthcare_124910",
+            "rerank_score": 0.02002803236246109,
+            "weighted_score": 0.5581956222653389
+        },
+        {
+            "text": "Câu hỏi: Phác đồ điều trị viêm đường hô hấp trên\nTrả lời: 2. Phác đồ điều trị viêm đường hô hấp trên\n3.2. Điều trị viêm tai giữa cấp Nguyên tắc điều trị là sử dụng kháng sinh, các thuốc kháng viêm để giảm triệu chứng và giảm nguy cơ xuất hiện biến chứng. Kháng sinh : Amoxicillin 60-90 mg/kg chia thành 3 lần/ngày, nếu đáp ứng tốt thì dùng trong 7-14 ngày. Nếu không đáp ứng, chuyển sang Amoxicillin-Clavulanic hoặc Cefuroxim trong 14 ngày. Nếu dị ứng với nhóm beta lactam, có thể dùng các thuốc nhóm Macrolid Erythromycin, Azithromycin hoặc Clarithromycin trong 14 ngày. Giảm đau, hạ sốt: Paracetamol 10-15mg/kg mỗi 4-6 giờ. Để giữ vòi nhĩ thông thoáng, có thể dùng thêm thuốc co mạch (ở trẻ lớn hơn 2 tuổi, có thể dùng phenylephrine 0.25% nhỏ vào mũi) và thuốc kháng histamin. Khi mủ đã vỡ, làm sạch ống tai bằng oxy già 3 lần/ngày, có thể nhỏ tai bằng Neomycin nhưng không quá 7 ngày. Tình trạng bệnh kéo dài, cha mẹ nên đưa trẻ đến khám lại 2.",
+            "score": 0.4690859317779541,
+            "id": "vietnamese_healthcare_83411",
+            "rerank_score": 0.007755580823868513,
+            "weighted_score": 0.3865174419246614
+        },
+        {
+            "text": "Câu hỏi: Tiêm lượng và biến chứng của viêm tai xương chũm cấp tính\nTrả lời: 4. Tiêm lượng và biến chứng của viêm tai xương chũm cấp tính\nCác biến chứng thường gặp ở bệnh nhân viêm tai xương chũm cấp tính như: Hội chứng nhiễm trùng với thâm nhiễm xương thái dương. Liệt dây thần kinh VI hay VII Viêm màng nhĩ Các biến chứng trong sọ não: viêm màng não mủ hoặc không mủ, áp xe não hoặc viêm tĩnh mạch bên sọ Biến chứng của viêm tai xương chũm cấp tính có thể gây viêm màng nhĩ Tiên lượng về viêm tai xương chũm cấp tính Viêm xương chũm cấp tính nếu được khám phát hiện kịp thời và điều trị tích cực sẽ cho tiên lượng khá tốt. Bệnh nhân có thể có thính lực tốt như ban đầu hoặc thính lực giảm nhẹ không đáng kể. Nhưng nếu ngược lại, khi bệnh nhân không được điều trị kịp thời, tình trạng chảy mủ ở tai diễn ra dài sẽ làm cho thính lực bệnh nhân giảm nghiêm trọng. Trong nhiều trường hợp không được điều trị kịp thời, gây ra những biến chứng nguy hiểm, bệnh nhân viêm tai xương chũm cấp tính cũng có thể tử vong.",
+            "score": 0.5020255446434021,
+            "id": "vietnamese_healthcare_124912",
+            "rerank_score": 0.3279503583908081,
+            "weighted_score": 0.2548163890838623
+        },
+        {
+            "text": "Câu hỏi: Phác đồ điều trị viêm đường hô hấp trên\nTrả lời: 2. Phác đồ điều trị viêm đường hô hấp trên\n3.1. Nguyên nhân gây bệnh và triệu chứng Viêm tai giữa cấp thường do phế cầu, H.influenzae, B.catarrhalis,... Các virus như Rhinovirus, Enterovirus,... cũng có thể là tác nhân gây bệnh. Bệnh thường gặp ở trẻ từ 6 đến 24 tháng tuổi, tỷ lệ trẻ trai mắc bệnh cao hơn trẻ gái, trẻ bú mẹ thường ít mắc bệnh hơn. Dấu hiệu bệnh thường gặp là đau tai, chảy dịch tai, sốt, biếng ăn, nôn ói, tiêu chảy (thường gặp ở trẻ nhũ nhi),... Khi khám thấy màng nhĩ đỏ, xung huyết, kém di động, mất tam giác ánh sáng, các mốc giải phẫu không thấy rõ, có thể thấy mức khí dịch hoặc màng nhĩ bị hút lõm. Trẻ đau tai khó chịu có thể biếng ăn 2.",
+            "score": 0.4911843538284302,
+            "id": "vietnamese_healthcare_83410",
+            "rerank_score": 0.013083536177873611,
+            "weighted_score": 0.22109071388840676
+        },
+        {
+            "text": "Câu hỏi: Phác đồ điều trị viêm đường hô hấp trên\nTrả lời: 2. Phác đồ điều trị viêm đường hô hấp trên\n3.3. Biến chứng viêm tai giữa Viêm màng não và viêm xương chũm cấp là hai biến chứng nguy hiểm của viêm tai giữa. Khi bị viêm màng não , trẻ sốt cao, đau đầu, lừ đừ, sợ ánh sáng, dịch não tủy có nhiều tế bào đa nhân. Đây là một bệnh rất nặng, cần được điều trị tích cực bằng kháng sinh. Khi bị viêm xương chũm cấp: Trẻ sốt cao, vùng sau tai đỏ nóng, sưng nề, đau khi sờ vào, hình ảnh phim X quang xương chũm mờ. Viêm xương chũm cấp đến không điều trị sẽ dẫn đến viêm xương chũm mạn tính và các biến chứng hiểm nghèo như: viêm xương, liệt mặt ngoại biên, áp xe não, viêm tĩnh mạch bên,... Bệnh nhân cần được mổ cấp cứu và dùng kháng sinh liều cao toàn thân. Video đề xuất: Dấu hiệu, cách chăm sóc trẻ em viêm đường hô hấp trên tại nhà",
+            "score": 0.4565538465976715,
+            "id": "vietnamese_healthcare_83412",
+            "rerank_score": 0.01029216218739748,
+            "weighted_score": 0.21076035294681789
+        },
+        {
+            "text": "Câu hỏi: Chẩn đoán và điều trị\nTrả lời: 5. Chẩn đoán và điều trị\nKhông có cách cụ thể nào để chẩn đoán nhạy cảm với âm thanh. Chủ yếu chẩn đoán dựa vào hỏi bệnh, các biểu hiện bệnh, hoàn cảnh xuất hiện,... Không thể trị khỏi hoàn toàn chứng nhạy cảm với âm thanh. Tuy nhiên có thể kiểm soát theo những cách sau: Cách tốt nhất để quản lý bệnh này là hạn chế âm thanh được truyền đến bằng cách sử dụng tai nghe hoặc các thiết bị chuyên dụng. Hạn chế âm thanh được truyền đến tai bằng tai nghe hoặc các thiết bị chuyên dụng Mặc dù hiện nay không có thuốc chữa khỏi hội chứng này, có một số phương pháp điều trị và các giải pháp có thể hữu ích. Một số người đã báo cáo các lợi ích ngắn hạn từ phương pháp điều trị như liệu pháp hành vi nhận thức, thôi miên và điều trị ù tai. Liệu pháp kiểm soát ù tai dành cho những người không thể chịu đựng những tiếng ồn. Phân tâm thính giác có thể hữu ích cho những người mắc nhạy cảm với âm thanh, có thể sử dụng tai nghe liên tục phát nhạc êm dịu. Ngoài ra, nghe âm thanh của mưa, thiên nhiên hoặc các âm thanh khác đều có hiệu quả. Liệu pháp hành vi nhận thức: Nghiên cứu cho thấy đây là liệu pháp hiệu quả trong việc kiểm soát chứng nhạy cảm với âm thanh. Chủ yếu tập trung vào những suy nghĩ, hành vi và cảm xúc của người bệnh. Để xác định các kiểu mẫu không lành mạnh và thay thế chúng. Tập thể dục thường xuyên, ngồi thiền và nghỉ ngơi có thể mang lại nhiều lợi ích, giảm căng thẳng mệt mỏi . Những cách khác bao gồm liệu pháp nói chuyện và thay đổi cách sống, ngủ đúng cách và tránh căng thẳng.",
+            "score": 0.45416730642318726,
+            "id": "vietnamese_healthcare_100775",
+            "rerank_score": 0.004522853065282106,
+            "weighted_score": 0.037515015993267294
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ, khi có biểu hiện đau tai thì em có đi khám, và được kết luận bị viêm tai giữa cấp ạ. Tuy nhiên, sau khi đi tái khám thì bác sĩ cho kê thêm liều uống để trị hẳn. Nhưng, khi đang uống thuốc theo liều thì cảm giác đau tai không còn, vậy nên em chủ quan và không tiếp tục uống thuốc nữa. Và 2 tuần sau đó, tai em lại có cảm giác đau trở lại. Vậy thưa bác sĩ, bây giờ em tiếp tục uống thuốc nốt liều thì tình hình có giảm không ạ?\nCảm ơn bác sĩ nhiều ạ!\nTrả lời: Chào em, vì em đã ngưng sử dụng thuốc được 2 tuần rồi. Vậy nên, em nên đi tái khám lại trước khi uống thuốc nhé. Bởi vì khi điều trị viêm tai giữa, việc em uống thuốc đúng liều là điều quan trọng nhất nhằm tránh tái phát hoặc chuyển thành viêm tai giữa mạn tính.",
+            "score": 0.6122958660125732,
+            "id": "vietnamese_medical_qa_4616",
+            "rerank_score": 0.4782632887363434,
+            "weighted_score": 0.8679239094257355
+        },
+        {
+            "text": "Câu hỏi: Con em bị viêm tai giữa tái lại 3 lần trong 2 tháng. Bác sĩ tư vấn giúp emcách điều trị dứt điểm viêm tai giữa tái phát ở trẻ?Em cảm ơn bác sĩ tư vấn. Lê Ngọc Tường Vy(2019) Trả lời Được giải đáp bởiBSCKII Nguyễn Văn Thái- Khoa Khám bệnh & Nội khoa, Bệnh viện Đa khoa Quốc tế Vinmec Đà Nẵng.\nTrả lời: Chào bạn, Với câu hỏi “Cách điều trị dứt điểm viêm tai giữa tái phát ở trẻ?”, xin được giải đáp như sau: Viêm tai giữa là bệnh lý hay gặp ở trẻ nhỏ, nguyên nhân có thể từ viêm mũi họng, từ tắc vòi nhĩ, nhiễm khuẩn, nấm,... Viêm tai giữa nếu được khám đúng chuyên khoa và điều trị đúng phác đồ thì tiên lượng khỏi bệnh rất lớn. Vì vậy, với trường hợp con của bạn bị viêm tai giữa tần suất 3 lần/ 2 tháng, bạn nên cho con bạn khám đúng chuyên khoa Tai mũi họng để được các Bác sĩ Tai mũi họng khám lâm sàng, xét nghiệm và tư vấn điều trị sớm nhất. Ngoài ra, Tai - Mũi - Họng có liên quan mật thiết với nhau. Vì thế, khi trẻ bị viêm tai giữa, bạn cần giữ gìn vệ sinh cả ba bộ phận này. Vệ sinh tai: Nếu tai trẻ bị chảy mủ, bận cần làm sạch tai cho trẻ. Dùng bông tăm lau nhẹ nhàng, không lau quá sâu, có thể khiến tai bị tổn thương. Tuyệt đối không dùng bông nút kín tai để chặn nước mủ mà phải để dịch mủ thoát ra ngoài. Vệ sinh mũi: Dùng nước muối sinh lý rửa mũi cho trẻ hàng ngày. Nếu trời lạnh cần ngâm ấm nước muối trước khi nhỏ để trẻ không bị cảm lạnh. Vệ sinh họng: Rơ lưỡi, vệ sinh miệng hàng ngày cho trẻ. Với trẻ lớn có thể cho trẻ súc miệng bằng nước muối.",
+            "score": 0.4941042363643646,
+            "id": "medical_vietnamese_qa_6629",
+            "rerank_score": 0.07800057530403137,
+            "weighted_score": 0.7641977369785309
+        },
+        {
+            "text": "Câu hỏi: Tại sao viêm tai giữa dễ tái phát?\nTrả lời: 1. Tại sao viêm tai giữa dễ tái phát?\nThông thường, triệu chứng viêm tai giữa thể hiện thông qua việc bệnh nhân thường xuyên bị đau nhức tai, khó chịu trong tai, sốt, mệt mỏi, ù tai , giảm thính lực,... Trong trường hợp tai giữa xuất hiện mủ và mủ này không được xử lý thì có thể gây ra thủng màng nhĩ. Còn nếu viêm tai giữa thanh dịch thì có nguy cơ cao sẽ bị xơ dính chuỗi xương con. Việc điều trị tùy thuộc vào giai đoạn của viêm tai giữa. Viêm tai giữa cấp thường được chia làm 3 giai đoạn: giai đoạn sung huyết, giai đoạn ứ mủ và giai đoạn vỡ mủ. Tùy từng giai đoạn bệnh mà bác sĩ sẽ có những chỉ định điều trị phù hợp. Tuy nhiên, rất nhiều bệnh nhân gặp phải tình trạng viêm tai giữa tái phát nhiều lần, nguyên nhân có thể do: Phát hiện bệnh muộn khiến bệnh trở nặng gây khó khăn trong chữa trị Điều trị không đúng cách cũng là nguyên nhân gây nên tình trạng viêm tai giữa tái phát. Điều trị không triệt để là vấn đề nhiều người mắc phải, không tuân thủ theo chỉ định bác sĩ khi thấy hết triệu chứng là dừng thuốc khiến bệnh chưa khỏi hoàn toàn khiến tái phát nhanh chóng Không chăm sóc đúng cách, người bệnh sau điều trị không thăm khám, theo dõi định kỳ theo đúng lịch và không tuân thủ về lưu ý sinh hoạt phòng ngừa bệnh hiệu quả khiến bệnh tiếp tục tái phát.",
+            "score": 0.49340686202049255,
+            "id": "vietnamese_healthcare_67623",
+            "rerank_score": 0.5477367639541626,
+            "weighted_score": 0.7149824857711792
+        },
+        {
+            "text": "Câu hỏi: Xin chào bác sĩ,e 32tuổi e bị viêm xoang từ nhỏ nên hay bị viêm họng mãn tính nhiều năm nay rồi.một tháng nay e bị ho uống thuốc vài lần mà vẫn ko đỡ.mọi năm e cũg bị mấy lần ho mãn tính rồi,nhưg ho ko kéo dài như lần này.xin bác sĩ cho e lời khuyên e fải làm gì hay uống loại thuốc jì để khỏi viêm xoang và viêm họng ạ?\nTrả lời: Chào bạn \nViêm xoang và viêm họng mãn tính thì hay tái phát và điều trị cũng nan giải.Bạn nên điều trị tấn công ngay từ đầu ở đợt cấp theo chỉ định của bác sỹ không nên uống kháng sinh kéo dài và không đủ liều và dẫn đến tình trạng nhờn thuốc .Đợt này thì không hiểu bạn đã uống thuốc gì,liều lượng và thời gian là bao nhiêu ,bạn tự mua hay chỉ định của bác sỹ ?\nBạn nên cung cấp rõ hơn để bac sỹ có cơ sở để tư vẫn cho bạn.\nThân mến !",
+            "score": 0.49355190992355347,
+            "id": "vietnamese_medical_qa_6958",
+            "rerank_score": 0.1968916654586792,
+            "weighted_score": 0.7051987886428834
+        },
+        {
+            "text": "Câu hỏi: Bệnh viêm họng, viêm amidan có bị tái phát không?\nTrả lời: Bệnh lý viêm họng, viêm amidan hay tái phát do đặc thù cấu tạo khoang miệng là cửa ngõ của đường ăn uống. Trong không khí, thức ăn lại luôn có các tác nhân gây bệnh là các loại vi khuẩn, virus. Việc viêm họng kéo dài có thể gây ra các biến chứng tới các cơ quan, bộ phận khác của cơ thể. Em cần thăm khám định kỳ với bác sĩ Tai Mũi Họng để được tư vấn phòng và chữa bệnh.",
+            "score": 0.4862874150276184,
+            "id": "vietnamese_healthcare_6645",
+            "rerank_score": 0.036402106285095215,
+            "weighted_score": 0.17689490318298343
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Em bị viêm màng não nước trong do virus. Em đã điều trị bằng kháng sinh, sau đó xét nghiệm lại âm tính.Vậy bác sĩ cho em hỏi viêm màng não nước trong do virus đã điều trị âm tính có tái phát lại không thưa bác sĩ? Mong bác sĩ tư vấn giúp em. Em xin cảm ơn.\nTrả lời: Chào bạn. Với câu hỏi: “Viêm màng não nước trong do virus đã điều trị âm tính có tái phát lại không?” của bạn, bác sĩ xin được tư vấn như sau:\nKhông biết bạn bao nhiêu tuổi, bệnh nền của bạn có bệnh gì mạn tính như tiểu đường, huyết áp cao, viêm gan virus, suy dinh dưỡng, uống nhiều rượu...vv, vì những bệnh này làm cho cơ thể bị suy yếu dễ dẫn đến mắc các bệnh nhiễm khuẩn, nhiễm virus, đặc biệt có thể bị nhiễm virus ở hệ thần kinh trung ương như Viêm màng não nước trong giống như trường hợp của bạn.\nThông thường thì điều trị bệnh viêm màng não nước trong khỏi sẽ không bị tái lại, nhưng nếu sức đề kháng của bạn không đủ sức bảo vệ bạn thì có thể bạn sẽ bị nhiễm lại các virus khác có thể gây viêm màng não tái phát cho bạn...\nVì vậy bạn cần nâng cao sức khỏe, ăn uống, làm việc phù hợp, để tăng cường sức đề kháng giúp bạn tránh được nhiều nhất có thể các nguy cơ nhiễm virus, đặc biệt là viêm màng não. Khám định kỳ lại theo hẹn của bác sĩ đã hẹn bạn đúng hẹn, để các bác sĩ sẽ kiểm tra lại cẩn thận cho trường hợp cụ thể của bạn nhé, chúc bạn vui khỏe.",
+            "score": 0.5350194573402405,
+            "id": "vietnamese_medical_qa_2001",
+            "rerank_score": 0.009802927263081074,
+            "weighted_score": 0.1540631154552102
+        },
+        {
+            "text": "Câu hỏi: ! Dạ em bị đau dây thần kinh chẩm, em đã uống các loại thuốc và cũng tiêm rồi mà bây giờ vẫn bị đau và ngày càng đau hơn. Vậy bác sĩ cho em hỏi, emđau dây thần kinh chẩm đã uống thuốc và tiêm mà vẫn đau phải làm thế nàoạ ? Xin bác sĩ trả lời giúp em ạ, em cảm ơn. Nguyễn Thị Thuý(1986) Trả lời Chào em,\nTrả lời: bác sĩ xin được giải đáp câu hỏi: “Đau dây thần kinh chẩm đã uống thuốc và tiêm mà vẫn đau phải làm thế nào?” như sau: Đau dây thần kinh chẩm đã uống thuốc và tiêm phong bế mà vẫn đau thì sẽ phải xem lại hai vấn đề. Một là, chẩn đoán đau dây thần kinh chẩm đã đúng chưa, hay là một loại đau đầu khác. Hai là, thuốc uống là thuốc gì, liều lượng bao nhiêu, tiêm phong bế mấy lần, tiêm ở đâu, ai tiêm? Phải làm rõ được hai vấn đề này thì mới tìm ra được hướng giải quyết tiếp. Do vậy em cần đi khám chuyên khoa Thần kinh, bác sĩ sẽ đánh giá và làm rõ hai vấn đề đó cho em. Em có thể đến cơ sở y tế gần nhất hoặc Bệnh viện thuộcHệ thống Y tế Vinmecđể được các bác sĩ thăm khám và tư vấn kỹ hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Duy Dũng -Bác sĩ Chuyên khoa Thần Kinh - Khoa Nội tổng hợp, Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+            "score": 0.48828086256980896,
+            "id": "medical_vietnamese_qa_10052",
+            "rerank_score": 0.0005152025842107832,
+            "weighted_score": 0.06310246187495068
+        },
+        {
+            "text": "Câu hỏi: Có thể chữa viêm tai giữa không dùng kháng sinh?\nTrả lời: 2. Có thể chữa viêm tai giữa không dùng kháng sinh?\nTrước đây, phương thức điều trị viêm tai giữa hầu hết sử dụng thuốc kháng sinh. Tuy nhiên, nghiên cứu đã chỉ ra rằng bệnh viêm tai giữa có thể do virus gây ra và có thể tự khỏi sau 2 - 3 ngày mà không cần sử dụng đến kháng sinh. Do đó, hiện nay các khuyến cáo điều trị viêm tai giữa cho trẻ là trì hoãn kháng sinh, nghĩa là khi trẻ bị viêm tai giữa, thầy thuốc có thể lựa chọn giữa 2 phương thức điều trị sau đây: Điều trị kháng sinh cho trẻ bị viêm tai giữa ngay lập tức; Trì hoãn sử dụng kháng sinh , chỉ dùng kháng sinh nếu các triệu chứng viêm tai giữa xấu đi hoặc không cải thiện sau 48 - 72 giờ (áp dụng cho trẻ từ 6 tháng tuổi trở lên). Việc lựa chọn chữa viêm tai giữa không dùng kháng sinh hoặc dùng phụ thuộc vào độ tuổi của trẻ, mức độ nặng của bệnh... Nếu trẻ ở xa, không có điều kiện theo dõi lại thì tùy vào tình huống để lựa chọn việc điều trị thuốc phù hợp. Nếu trẻ có điều kiện để khám lại, trẻ không có triệu chứng nặng có thể trì hoãn việc sử dụng kháng sinh, cho trẻ dùng các thuốc giảm triệu chứng (thuốc hạ sốt Acetaminophen hoặc Ibuprofen). Hầu hết trẻ bị viêm tai giữa có thể tự khỏi sau 2 - 3 ngày, nếu sau đó mà không thấy khỏi, cha mẹ nên đưa trẻ đến bác sĩ để khám lại.",
+            "score": 0.45851200819015503,
+            "id": "vietnamese_healthcare_157506",
+            "rerank_score": 0.7572941184043884,
+            "weighted_score": 0.8553473830223084
+        },
+        {
+            "text": "Câu hỏi: Theo dõi khi dùng thuốc điều trị viêm tai xương chũm\nTrả lời: 3. Theo dõi khi dùng thuốc điều trị viêm tai xương chũm\nCác trường hợp viêm tai xương chũm cấp được điều trị tại các bệnh viện, không tự ý sử dụng thuốc tại nhà khi chưa được thăm khám và chỉ định dùng thuốc của bác sĩ. Khi điều trị bằng thuốc sau 2 ngày nếu các triệu chứng lâm sàng và cận lâm sàng tiến triển tốt, chúng tỏ đáp ứng tốt với điều trị nội khoa. Tiếp tục sử dụng thuốc đến khi hết bệnh theo chỉ định. Nếu không đáp ứng với điều trị nội khoa cần phải chuyển sang phương pháp phẫu thuật. Phẫu thuật được chỉ định để nhằm hạn chế nguy cơ biến chứng. Sau khi điều trị ổn định cần dùng thuốc và tái khám theo hướng dẫn của bác sĩ. Bệnh nhân sẽ được chỉ định phẫu thuật để hạn chế nguy cơ biến chứng Thuốc điều trị bệnh viêm tai xương chũm được bác sĩ chỉ định khi điều trị bệnh còn tùy thuộc vào tình trạng cụ thể của bệnh. Nên không tự ý dùng thuốc khi chưa có chỉ định hay chưa xác định chính xác tình trạng bệnh. Video đề xuất: Rạch chích mủ màng nhĩ chữa viêm tai giữa",
+            "score": 0.5392016172409058,
+            "id": "vietnamese_healthcare_41901",
+            "rerank_score": 0.7550294995307922,
+            "weighted_score": 0.829269278049469
+        },
+        {
+            "text": "Câu hỏi: Phương pháp điều trị viêm thanh quản mãn tính?\nTrả lời: Viêm thanh quản mạn tính là tình trạng viêm niêm mạc thanh quản kéo dài trên 3 tuần, quá trình viêm này có thể dẫn tới quá sản, loạn sản hoặc teo niêm mạc thanh quản.Đối với viêm thanh quản mạn tính và giọng nói ngày càng khàn hơn thì bên cạnh các biện pháp điều trị bằng thuốc uống hỗ trợ thì quan trọng nhất là bản thân người bệnh phải điều chỉnh tần suất nói của mình, giảm nói nhiều và nói to. Ngoài ra, bạn cũng nên đến thăm khám lại kỹ hơn ở bệnh viện để xem tổn thương viêm mạn tính đã tiến triển thành hạt xơ, nang hay polyp hay chưa.",
+            "score": 0.4536803662776947,
+            "id": "vietnamese_healthcare_2346",
+            "rerank_score": 0.07550299167633057,
+            "weighted_score": 0.7692419290542603
+        },
+        {
+            "text": "Câu hỏi: Chữa viêm tai giữa không dùng kháng sinh cần sự đồng thuận của cha mẹ và thầy thuốc\nTrả lời: 4. Chữa viêm tai giữa không dùng kháng sinh cần sự đồng thuận của cha mẹ và thầy thuốc\nCó thể thấy theo khuyến cáo này nếu trẻ bị viêm tai giữa từ 6 tháng tuổi trở lên, bác sĩ có thể thảo luận với cha mẹ để trì hoãn kháng sinh. Đối với trẻ < 6 tháng tuổi, do chưa thể kiểm soát được tình trạng diễn tiến sức khỏe nên đa số thầy thuốc đều cho trẻ uống kháng sinh. Về sau này, nghiên cứu của một số nước châu Âu đưa ra khuyến cáo là tất cả trẻ bị viêm tai giữa đều nên “trì hoãn”, không nên sử dụng thuốc kháng sinh cho bất cứ bệnh nhi dù ở độ tuổi nào nào. Tuy nhiên cho đến hiện nay, y khoa Mỹ vẫn sử dụng phương thức “trì hoãn” ở trẻ < 6 tháng tuổi, còn đối với các nước châu Âu – theo khuyến cáo của Hà Lan thì hầu hết trẻ viêm tai giữa đều điều trị trì hoãn kháng sinh. Dù đã phổ biến ở nền y học nước ngoài nhưng phương pháp này đến hiện nay vẫn còn “mới” đối với các bậc cha mẹ ở Việt Nam, hầu hết những bậc cha mẹ không muốn “trì hoãn”. Bên cạnh đó, một bộ phần bác sĩ cho rằng nếu viêm tai giữa không chữa ngay thì sẽ gây ra hiện tượng áp xe tai, tiêu xương, gián đoạn chuỗi xương con... ảnh hưởng đến thính giác và gây nguy hiểm cho trẻ. Điều này không đúng, dựa trên nghiên cứu thống kê trên 200.000 bé bị viêm tai giữa không điều trị kháng sinh, có khả năng có 1 bé bị biến chứng viêm xương chũm phía sau, trong khi biến chứng viêm màng não là cực kỳ hiếm với tỷ lệ 1/1.000.000. Tuy nhiên, sau khi cân nhắc giữa lợi và hại thì các bác sĩ cần đưa ra phương thức điều trị mang lại lợi ích lớn nhất cho cộng đồng, không nên chỉ vì xác suất rất hiếm gặp mà điều trị kháng sinh tất cả 200.000 trẻ chỉ để đảm bảo 1 trẻ không bị biến chứng. Vấn đề này cũng tương tự như tiêm vaccine, với tỉ lệ sốc phản vệ 1/1.000.000 mà không cho trẻ tiêm phòng thì vô cùng có hại. Cũng có trường hợp bác sĩ không muốn cho trẻ sử dụng kháng sinh, tuy nhiên lại phải kê toa theo ý muốn của cha mẹ để hạn chế những phát sinh không đáng có. Vì vậy nếu có thể, cha mẹ hãy cố gắng chờ khoảng 2 - 3 hôm, nếu trẻ không khỏi lúc đó sử dụng kháng sinh vẫn không muộn.",
+            "score": 0.549317479133606,
+            "id": "vietnamese_healthcare_157508",
+            "rerank_score": 0.3002825379371643,
+            "weighted_score": 0.3659622073173523
+        },
+        {
+            "text": "Câu hỏi: Lưu ý khi dùng thuốc điều trị viêm tai giữa cấp ở trẻ em\nTrả lời: 3. Lưu ý khi dùng thuốc điều trị viêm tai giữa cấp ở trẻ em\nThuốc điều trị viêm tai giữa cấp cần phụ thuộc vào tuổi của trẻ và mức độ nặng của bệnh. Đối với trẻ em dưới 6 tháng tuổi, bác sĩ cần chỉ định điều trị kháng sinh ngay. Đối với trẻ từ 6 tháng đến 2 tuổi bị viêm tai giữa cấp tính cả hai bên cũng cần điều trị kháng sinh theo chỉ định. Nếu trẻ chỉ bị viêm một bên và triệu chứng bệnh nhẹ thì có thể cho phép theo dõi trong khoảng từ 48-72 giờ. Đối với trẻ trên 2 tuổi chỉ dùng kháng sinh khi có dấu hiệu nhiễm độc, triệu chứng đau tai dai dẳng kéo dài trên 48 giờ, trẻ có sốt trên 39 độ C trong vòng 48 giờ trước, trẻ bị viêm cả hai tai hoặc tai có chảy mủ, không đảm bảo trong việc tiếp tục theo dõi. Lựa chọn kháng sinh điều trị viêm tai giữa cấp tính ở trẻ em như sau: Dùng amoxicillin nếu trong vòng 1 tháng vừa qua trẻ không dùng bất kỳ kháng sinh nào thuộc nhóm beta - lactam, trẻ không có tiền sử viêm tai giữa cấp tái phát và không mắc bệnh viêm kết mạc mủ kèm theo. Amoxicillin kết hợp với acid clavulanic được chỉ định cho những trẻ trong vòng 1 tháng vừa qua có dùng kháng sinh thuộc nhóm beta - lactam, trẻ có bệnh viêm kết mạc mủ kèm theo, trẻ có tiền sử mắc viêm tai giữa tái phát. Đối với những trẻ bị dị ứng với penicillin thì có thể đổi sang dùng dùng cefdinir hoặc cefpodoxim... Các kháng sinh thuộc nhóm quinolon (ofloxacin, ciprofloxacin) nhỏ tại chỗ có thể cho hiệu quả tương đương so với đường uống trong trường hợp viêm tai giữa có chảy mủ , trường hợp đặt ống thông nhĩ hầu và trường hợp viêm tai giữa mạn tính . Tuy nhiên không có nghiên cứu về việc nhỏ tại chỗ kháng sinh nhóm quinolon trong trường hợp trẻ bị viêm tai giữa cấp tính hoặc bị thủng màng nhĩ mới. Sử dụng kháng sinh nhỏ nếu trẻ bị viêm tai giữa có chảy mủ Trong trường hợp thất bại (các triệu chứng xấu hơn hoặc không cải thiện sau 48-72 giờ dùng kháng sinh) do điều trị chưa đầy đủ hoặc chưa hợp lý thì nên đổi kháng sinh. Ví dụ đang dùng amoxicillin liều cao nhưng không hiệu quả thì đổi sang Amoxicillin kết hợp với acid clavulanic liều cao. Nếu vẫn thất bại thì có thể thay thế bằng các Cephalosporin hoặc Quinolon...",
+            "score": 0.5474456548690796,
+            "id": "vietnamese_healthcare_31811",
+            "rerank_score": 0.45304447412490845,
+            "weighted_score": 0.20251363515853882
+        },
+        {
+            "text": "Câu hỏi: Bé nhà em 8 tuổi bị viêm màng não. Bác sĩ cho em hỏitrẻ 8 tuổi bị viêm màng não có chữa được không?Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Viêm màng não nếu được điều trị sớm, đủ liều thuốc, đủ thời gian sẽ không để lại di chứng. Nếu điều trị trễ hoặc không đúng thuốc, không đủ liều có thể dẫn đến các biến chứng như: tụ mủ, áp xe não, não úng thủy,...",
+            "score": 0.44713130593299866,
+            "id": "medical_vietnamese_qa_4670",
+            "rerank_score": 0.0016200599493458867,
+            "weighted_score": 0.02963173801545054
+        }
+    ],
+    "llm_call": 7,
+    "iteration": 3
+}

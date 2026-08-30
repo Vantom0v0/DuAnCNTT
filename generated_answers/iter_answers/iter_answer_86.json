@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Xin chào bác sĩ,\nTôi gửi hình ảnh này bác sĩ xem giúp tôi bị làm sao.\nBan đầu lòng bàn chân tôi hơi đau kiểu như có gai. Tôi cạy lên nhưng ko có.xong nó to dần lên và đau.\nGiờ nó sưng đỏ cả xung quanh cái mụn đau. \nCó phải tôi bị mụn cóc không ạ?\nTôi phải điều trị tn ạ. Tôi lại đang cho con bú , con tôi được 2 tháng rưỡi.\nCảm ơn bác sĩ",
+    "ground_truth": "Chào bạn ,\nBạn vui lòng cung cấp hình ảnh trong câu hỏi mới để bác sỹ hỗ trợ tư vấn được chính xác, đầy đủ.\nCòn theo như bạn mô tả thì có khả năng mụn đó đã bị nhiễm trùng, nếu nhẹ bạn chỉ cần ngâm chân bằng nước muối  hàng ngày. Nếu nặng bạn nên uống thêm kháng sinh. \nThân mến!",
+    "answer": "Chào bạn, tổn thương lòng bàn chân ban đầu đau như có gai rồi to dần, sưng đỏ và đau nhiều gợi ý nhiều hơn đến nhiễm trùng da/nhọt hoặc viêm nang lông, chưa thể khẳng định là mụn cóc chỉ dựa vào mô tả (mụn cóc thường sần cứng, có thể thấy chấm đen và không gây đỏ lan nhiều). Bạn không nên tiếp tục cạy, nặn hay tự chọc vì dễ làm nhiễm trùng nặng hơn; hãy giữ sạch, che bằng gạc sạch và đi khám chuyên khoa Da liễu sớm để bác sĩ kiểm tra, có thể cần thuốc hoặc xử trí phù hợp. Vì bạn đang cho con bú, không tự mua thuốc uống hay bôi mà cần báo rõ cho bác sĩ để lựa chọn thuốc an toàn. Nếu vùng đỏ sưng lan nhanh, có mủ, đau tăng, sốt hoặc nổi vệt đỏ lên chân, bạn cần đi khám ngay.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nChân em tự dưng sưng lên một cục to, có ngòi. Ban đầu, em nghĩ là nhọt nhưng dần dần sưng to và tấy lên. Vậy bác sĩ cho em hỏi chân bị sưng tấy có phải nhiễm trùng do tụ cầu không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như bạn mô tả thì có thể bạn đang bị nhiễm trùng da. Mong bạn có thể cung cấp thêm hình ảnh tổn thương da, những điều trị đã dùng để việc chẩn đoán và điều trị dễ dàng hơn. Trường hợp da đang rất khó chịu thì bạn hãy đến khám chuyên khoa Da liễu để điều trị sớm. Bác sĩ sẽ đánh giá lại tình trạng da của bạn, chỉ định thêm một số xét nghiệm nếu cần thiết và đưa ra phác đồ điều trị theo tình trạng hiện tại của bạn.\nTrân trọng!",
+            "score": 0.7241694331169128,
+            "id": "vietnamese_medical_qa_4819"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi u nhọt ở chân trái đã mổ ở bệnh viện 1 lần năm 2012. Tới nay chỗ đó lại nổi lên y như vậy càng ngày nó càng bự, không đau nhức. Cách đây cỡ 2 tuần em thấy nó làm miệng và vỡ em nặn một ít và dùng băng cá nhân dán lại. Bác sĩ cho em hỏi tái phát nổi u nhọt ở chân sau mổ có sao không? Do tình hình dịch bệnh covid 19 khó khăn không đến bệnh viện khám được mong bác sĩ trả lời giúp em. Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhọt là một dạng nhiễm trùng da với xuất phát điểm từ lỗ chân lông hay tuyến dầu nhờn. Nhọt không có nhiều biến chứng, nhưng có trường hợp nhọt diễn tiến thành mụn nhọt tái phát. Bạn không nên tự nặn vì có thể dẫn đến nhiễm trùng thứ phát.\nNhọt thường không phải tình trạng cấp cứu cần can thiệp ngay, nếu theo dõi tại nhà có dấu hiệu sưng đỏ, nung mủ hoặc dấu hiệu sốt, sưng đau chân trái cần khám bác sĩ để được điều trị nhọt tái phát đúng cách.\nTrân trọng!",
+            "score": 0.7074910998344421,
+            "id": "vietnamese_medical_qa_1392"
+        },
+        {
+            "text": "Câu hỏi: Bác sĩ cho em hỏi, trên da đầu em nổi 1 cục như kiểu dạng hạch dưới da. Khi em sờ vào thì không bị đau, nhưng em ấn mạnh lại có cảm giác đau. Triệu chứng của em vậy có sao không ạ? Em xin bác sĩ tư vấn giúp em.\nChào bác sĩ. Đầu cháu tự dưng có cục nhưng không giống hạch sờ vào cứng cũng không đau lắm, vị trí từ đỉnh đầu ra sau khoảng 5cm, cho hỏi cháu bị sao ạ.\nNguyễn Thị Lan (2004)\nChào bác sĩ. Em bị mất kinh 4 tháng rồi. Bây giờ phải làm sao ạ? Mong bác sĩ tư vấn. Xin cảm ơn.\nTrả lời: Chào em,\nEm không nên sờ nhiều và ấn mạnh, tạo cảm giác lo lắng cho mình nhé. Những triệu chứng như em mô tả hay gặp và lành tính. Nếu em thấy “cục” của em to nhanh, sưng nóng đỏ đau nhiều thì em nên gặp bác sĩ chuyên khoa ung bướu khám nhé.",
+            "score": 0.6380602717399597,
+            "id": "vietnamese_medical_qa_4303"
+        },
+        {
+            "text": "Câu hỏi: Xin chào Bác Sĩ. Tôi là nữ. Năm nay 29 tuổi. Da tôi bị sần như nổi da gà và chân tôi bị như vậy cũng được vài năm rồi. Tôi chưa dùng bất kì thuốc gì cả. Tôi đang cho con bú vậy tôi dùng gi để điều trị thưa Bác Sĩ.?\nVà tôi có dị ứng với thuốc paracetamol vậy khi tôi sốt hoặc cần giảm đau thì phải dùng thuốc gì ạ. \nTôi cám ơn Bác Sĩ đã đọc câu hỏi của tôi. bà xin được lời khuyên ạ\nTrả lời: xin chào bạn ! với hình ảnh bạn gởi thì tôi nghĩ bạn bị bệnh dày sừng nang lông. Đây là một bệnh lý da liễu mãn tính, thuộc dạng cơ địa. bây giờ bạn đang mang thai, không cần thiết uống thuốc điều trị gì. khi nào sinh con xong, bạn đến bv da liễu gần nhất để được khám và điều trị tốt nhất.",
+            "score": 0.6307773590087891,
+            "id": "vietnamese_medical_qa_5311"
+        },
+        {
+            "text": "Câu hỏi: Viêm lỗ chân lông điều trị bằng loại thuốc nào?\nTrả lời: Viêm nang lông gây sưng đau, căn nguyên thường do tụ cầu, bạn không nên bóp nặn mụn viêm có thể sẽ làm tăng nặng bệnh viêm nang lông.",
+            "score": 0.6223911046981812,
+            "id": "vietnamese_healthcare_9065"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

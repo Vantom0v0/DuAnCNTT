@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Có thể phẫu thuật thoát vị bẹn cho trẻ 18 tháng tuổi không?",
+    "ground_truth": "Nếu như cháu có các biểu hiện như bạn mô tả (sưng đau khi chạy nhảy, quấy khóc vì đau) thì bạn nên đưa bé đi khám và lên kế hoạch phẫu thuật, tránh nguy cơ thoát vị bẹn nghẹt bạn nhé.",
+    "answer": "Có. Trẻ 18 tháng tuổi có thể phẫu thuật thoát vị bẹn; tài liệu cho biết thoát vị bẹn ở trẻ có thể mổ ở bất kỳ độ tuổi nào và thường nên phẫu thuật sớm sau khi được chẩn đoán để tránh nguy cơ thoát vị nghẹt. Với tình trạng sưng đau khi chạy nhảy, quấy khóc như mô tả, bạn nên đưa bé đi khám chuyên khoa Nhi để được đánh giá và lên kế hoạch phẫu thuật phù hợp.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Trẻ 40 ngày tuổi có thể phẫu thuật thoát vị bẹn không?\nTrả lời: Về nguyên tắc, bệnh thoát vị bẹn thì nên mổ càng sớm càng tốt để tránh biến chứng thoát vị bẹn nghẹt, vì khi trẻ bị thoát vị bẹn nghẹt (khối thoát vị không lên xuống được) qua 6 tiếng mà không can thiệp thì sẽ có nguy cơ tổn thương ruột. Tuy nhiên, tùy vào trình độ chuyên môn, trang thiết bị máy móc, mà bệnh viện đó có phẫu thuật cho cháu được không em nhé. Khi tham gia phẫu thuật thì cháu CÓ THỂ bị tai biến, biến chứng do phẫu thuật, do gây mê mà bác sĩ phẫu thuật, bác sĩ gây mê sẽ tư vấn cụ thể cho em trước khi ca mổ tiến hành em nhé!",
+            "score": 0.8549637794494629,
+            "id": "vietnamese_healthcare_4940"
+        },
+        {
+            "text": "Câu hỏi: Con em bị thoát vị bẹn, nhưng do sinh non 33 tuần, tính từ lúc sinh đến nay được 2 tháng tuổi. Em cho bé đi khám ở bệnh viện 2 tháng sau mới có thể mổ do bé còn quá nhỏ. Vậy bác sĩ cho em hỏitrẻ 2 tháng tuổi bị thoát vị bẹn có thể mổ không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Thoát vị bẹn là một khối sưng phồng ở nơi giao giữa phần đùi và phần thân. Ở trẻ trai khối phồng lan xuống bìu, cái túi mà chứa tinh hoàn. Ở trẻ gái khối phồng kéo xuống môi lớn, vùng quanh âm hộ. Theo khuyến cáo mới nhất, thoát vị bẹn ở trẻ em được chỉ định mổ ngày khi có chẩn đoán, không cần trì hoãn. Trường hợp bé 2 tháng đã có thể phẫu thuật. Bé sẽ được làm các xét nghiệm trước mổ để đảm bảo an toàn cho gây mê. Bạn có thể đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể.",
+            "score": 0.813946008682251,
+            "id": "medical_vietnamese_qa_4948"
+        },
+        {
+            "text": "Câu hỏi: ! Con trai em hiện tại hơn 18 tháng tuổi, bé bịthoát vị bẹn. Em đưa bé đi khám và có chỉ định phẫu thuật thời điểm 3 tuổi. Tuy nhiên, bây giờ mỗi lần bé chạy nhảy, chơi đùa là lại sưng lên, có hôm còn quấy khóc. Bác sĩ cho em hỏicó thể phẫu thuật thoát vị bẹn cho trẻ 18 tháng tuổi không? Mong bác sĩ tư vấn giúp em. Hồ Văn Hữu(1994) Trả lời\nTrả lời: Chào bạn! Với câu hỏi “Có thể phẫu thuật thoát vị bẹn cho trẻ 18 tháng tuổi không?” bác sĩ xin trả lời bạn như sau: Nếu như cháu có các biểu hiện như bạn mô tả (sưng đau khi chạy nhảy, quấy khóc vì đau) thì bạn nên đưa bé đi khám và lên kế hoạch phẫu thuật, tránh nguy cơ thoát vị bẹn nghẹt bạn nhé. Chúc bé sớm khỏe! Cảm ơn bạn đã tin tưởngHệ thống Y tế Vinmec, rất mong có thể gặp trực tiếp bạn để có thể được tư vấn kỹ càng hơn. Trân trọng! Để đặt lịch khám tại viện, Quý khách vui lòng bấm sốHOTLINEhoặc đặt lịch trực tiếpTẠI ĐÂY. Tải và đặt lịch khám tự động trênứng dụng MyVinmecđể quản lý, theo dõi lịch và đặt hẹn mọi lúc mọi nơi ngay trên ứng dụng. Được tư vấn bởi Bác sĩ Ngô Duy Minh- Bác sĩ Nội trú Nhi - Trung tâm Nhi Vinmec Time City.",
+            "score": 0.8137848973274231,
+            "id": "medical_vietnamese_qa_7629"
+        },
+        {
+            "text": "Câu hỏi: Bé gái 13 tháng tuổi mắc thoát vị bẹn trái có cần phẫu thuật không?\nTrả lời: Với thoát vị bẹn, thông thường khối thoát vị sẽ lúc phồng lên lúc mất đi và gần như không thể tự khỏi. Bác sĩ khuyên bạn nên đưa con gái đi khám, nếu đúng là thoát vị bẹn thì nên mổ sớm. Hiện tại, thoát vị bẹn sẽ được phẫu thuật nội soi, cũng rất nhẹ nhàng, trẻ có thể về trong ngày hoặc hôm sau sẽ ra viện.",
+            "score": 0.7944741249084473,
+            "id": "vietnamese_healthcare_4492"
+        },
+        {
+            "text": "Câu hỏi: Thời điểm điều trị thoát vị bẹn ở trẻ\nTrả lời: Với thoát vị bẹn, có thể mổ từ bất kỳ tuổi nào. Bác sĩ khuyên bạn nên đưa cháu đi khám, nếu đúng là thoát vị bẹn thì nên mổ sớm. Hiện tại, thoát vị bẹn sẽ được phẫu thuật nội soi, cũng rất nhẹ nhàng, trẻ có thể về trong ngày hoặc hôm sau sẽ ra viện.",
+            "score": 0.7703300714492798,
+            "id": "vietnamese_healthcare_4209"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

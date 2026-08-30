@@ -1,0 +1,116 @@
+{
+    "model_name": "s2g_rag",
+    "question": "Con em được 4 tháng 15 ngày. Bé ăn sữa mẹ hoàn toàn. Từ lúc sơ sinh tới giờ, bé đi ngoài ngày 3 - 4 lần. Từ tầm 3 tháng trở đi thì còn 2 lần một ngày. Nhưng phân của con em thấy lúc mới đi ra có bọt mà lúc thì có hạt như hoa cà hoa cải, lúc thì không có. Bé lúc trong tháng thì hay trớ nhưng ra 3 tháng là hết ọc trớ rồi. Bé chỉ hơi lười ăn một chút. Bé nặng 6kg. Em có ra tiệm thuốc cho họ xem phân thì họ bảo bé bị đi ngoài và cho dùng men vi sinh mà em thấy phân bé vẫn thế. Vậy bác sĩ cho em hỏitrẻ đi phân có bọt, hạt hoa cà hoa cải có sao không?Em cảm ơn bác sĩ.",
+    "ground_truth": "bác sĩ xin giải đáp như sau: Theo mô tả của bạn thì em bé tiêu hóa khá tốt, phân bé bú sữa mẹ sẽ có hơi lỏng nước và có hạt vàng hoặc hạt trắng (hoa cà hoa cải). Khi bé đi phân nhầy mũi kèm xanh rêu hoặc nhầy mũi kèm máu hoặc số lần đi cầu tăng nhiều hơn thì mới cần đi khám. Trường hợp bé nhà bạn thì có thểbổ sung men vi sinhhoặc chưa cần thiết.",
+    "answer": "Bé bú mẹ hoàn toàn đi phân có hạt như “hoa cà hoa cải”, sệt lỏng hoặc hơi bọt có thể là bình thường, đặc biệt khi bé không đau bụng, không quấy và vẫn tăng cân tốt. Việc đi ngoài 2–4 lần mỗi ngày cũng có thể gặp ở trẻ bú mẹ. Nếu bé chỉ hơi lười ăn nhưng vẫn bú và phát triển tốt thì chưa có đủ thông tin cho thấy bé bị tiêu chảy hay cần dùng men vi sinh. Tuy nhiên, nếu bé bú giảm rõ, mệt, chậm tăng cân, phân có nhiều nhầy hoặc có máu, hay màu bất thường như đỏ, đen, bạc màu, bạn nên đưa bé đi khám; nếu sau khoảng 2 tuần bé vẫn không tăng cân, nên khám bác sĩ dinh dưỡng.",
+    "evidence": [
+        "Trả lời: bác sĩ xin giải đáp như sau: Con bạn bú mẹ đi phân hoa cà hoa cải, thỉnh thoảng hơi bọt nhưng trẻ không đau bụng, không quấy, bé tăng cân tốt ngủ yên là bình thường.",
+        "Đã 2 tuần bé đại tiện phân nhầy, bọt, nếu bé bú giảm, mệt, chậm lên cân thì bạn nên tái khám bác sĩ, bác sĩ sẽ khám, có sự điều chỉnh lại đơn thuốc cho bé.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bú mẹ hoàn toàn thì đi phân hoa cà hoa cải 4 - 5 lần/ ngày là tình trạng bình thường nên bạn không cần lo lắng.",
+        "Bé lên cân tốt, bú khá, không quấy khóc thì bạn không cần bổ sung thêm men vi sinh.",
+        "Còn vấn đề đi tiêu lỏng của con bạn, theo tôi thì không có gì lo ngại lắm trừ khi phân có nhầy và máu.",
+        "Sau khi điều chỉnh chế độ ăn của mẹ về bình thường mà con sau 2 tuần nữa mà con chưa tăng cân thì bạn nên cho con đi khám bác sĩ dinh dưỡng.",
+        "Trả lời: bác sĩ xin giải đáp như sau: Phân của trẻbú sữa mẹ thường có màu vàng hoặc hơi xanh, sệt lỏng, có thể hơi ướt, lợn cợn những hạt trắng trộn lẫn trong phân.",
+        "Nếu phân của bé có nhiều nhầy hoặc có màu sắc bất thường (đỏ, đen, bạc màu), bạn nên đưa bé đến khám để đánh giá tình trạng tiêu hóa và tư vấn cụ thể."
+    ],
+    "retrieved": [
+        [
+            {
+                "text": "Câu hỏi: Bé nhà em mới sinh được 14 ngày. Bé đi phân su có 1 ngày sau sinh là hết. Từ lúc ra phân vàng, ngày nào bé cũng đi 7 - 8 lần/ ngày, có những ngày bé đi 10 lần. Thi thoảng, bé đi ngoài còn có bọt. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần, phân bọt có phải viêm ruột không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn bú mẹ đi phân hoa cà hoa cải, thỉnh thoảng hơi bọt nhưng trẻ không đau bụng, không quấy, bé tăng cân tốt ngủ yên là bình thường. Nếu bạn còn lo lắng, bạn có thể đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể.",
+                "score": 0.8277908563613892,
+                "id": "medical_vietnamese_qa_4489",
+                "rerank_score": 0.9989211559295654
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được 4 tháng tuổi. Bé đi ngoài 4 lần/ ngày, phân lỏng có hạt trắng to có nhầy và có bọt (kéo dài hơn 2 tuần nay). Em đã đưa đi khám và cho bé uống men tiêu hoá theo đơn nhưng tình trạng không cải thiện. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần, phân lỏng kèm hạt trắng có sao không?Nếu tình trạng này của bé kéo dài nữa có sao không? Em thật sự rất lo, mong bác sĩ tư vấn. Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đi ngoài 4 lần/ 1 ngày, phân lỏng kèm hạt trắng thì bạn nên cho bé ăn sữa mẹ hoàn toàn trong 6 tháng đầu. Đã 2 tuần bé đại tiện phân nhầy, bọt, nếu bé bú giảm, mệt, chậm lên cân thì bạn nên tái khám bác sĩ, bác sĩ sẽ khám, có sự điều chỉnh lại đơn thuốc cho bé.",
+                "score": 0.8207073211669922,
+                "id": "medical_vietnamese_qa_5135",
+                "rerank_score": 0.9983183145523071
+            },
+            {
+                "text": "Câu hỏi: Con em được 4 tháng 10 ngày nặng 7kg. Cháu bú mẹ hoàn toàn. Cháu ngày đi ngoài 4 - 5 lần, phân màu vàng hoa cà hoa cải có nước và sủi bọt. Thỉnh thoảng, bé có són 1 ít phân ra. Bé vẫn bú bình thường, không quấy khóc. Hiện giờ, em đang cho bé uống men vi sinh mà không thấy cải thiện. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần kèm són phân có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bú mẹ hoàn toàn thì đi phân hoa cà hoa cải 4 - 5 lần/ ngày là tình trạng bình thường nên bạn không cần lo lắng. Bé lên cân tốt, bú khá, không quấy khóc thì bạn không cần bổ sung thêm men vi sinh.",
+                "score": 0.8498824834823608,
+                "id": "medical_vietnamese_qa_4923",
+                "rerank_score": 0.9980144500732422
+            },
+            {
+                "text": "Câu hỏi: Cháu nhà em sinh đến nay mới được 24 ngày. Mấy ngày gần đây, em thấy cháu đi ngoài nhiều, phân lỏng và có bọt. Vậy bác sĩ cho em hỏitrẻ sơ sinh đi ngoài nhiều, phân lỏng bọt có phải tiêu chảy không?Cách khắc phục như thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Theo sinh lý bình thường ở trẻ sơ sinh, nếu bé được bú sữa mẹ hoàn toàn có thể đi ngoài từ 5 - 7 lần trong ngày. Tính chất phân bình thường của trẻ bú mẹ có kết cấu hơi mềm, màu vàng tự nhiên và điều này khiến nhiều cha mẹ hiểu lầm bé đang bị tiêu chảy. Trẻ sơ sinh mắc chứng tiêu chảy sẽ có tần suất đi ngoài tăng lên từ 10 lần trở lên trong ngày, kèm theo bé đi ngoài phân lỏng có bọt. Bên cạnh đó bé có những triệu chứng toàn thân như quấy khóc vô cớ, mệt mỏi, bỏ bú... Hầu hết, hiện hiện tượng bé đi ngoài phân có bọt xảy ra ở những bé 0 đến khoảng 36 tháng. Nguyên nhân chủ yếu là do hệ tiêu hoá chưa phát triển hoàn thiện và sức đề kháng - hệ miễn dịch của bé còn kém. Khi tình trạng bé đi ngoài phân sủi bọt xảy ra, cha mẹ cần theo dõi kỹ, nếu kéo dài và kèm theo các dấu hiệu khác thì cần nhanh chóng đưa con đến bệnh viện để được chẩn đoán, điều trị kịp thời và hạn chế xảy ra những biến chứng nguy hiểm.",
+                "score": 0.8222893476486206,
+                "id": "medical_vietnamese_qa_4424",
+                "rerank_score": 0.996791660785675
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bé nhà em hiện được 4 tháng. Bé bú sữa mẹ gần như hoàn toàn vì lúc mới sinh bé em chưa có sữa nên có cho bé dùng sữa công thức nửa tháng. Sau khi đủ sữa thì em không cho bé dùng nữa. Từ khi sinh ra bé đi ngoài phân xì xoẹt ngày 3_4 lần, hôm nào nhiều thì 5 lần, phân có nhầy thỉnh thoảng còn đi bọt bọt nữa. 2 tháng đầu bé lên cân đều và hơn 1 tháng nay bé không lên kg nữa. Vậy cho em hỏi bé nhà em như vậy có phải bị đi ngoài không và khi nào cần cho bé đi khám dinh dưỡng ạ. Từ lúc sinh em có bổ sung thêm men vi sinh biogaia, khi tròn 3 tháng em không cho bé dùng nữa. Nhưng bé vẫn đi ngoài như vậy. Hiện tại ngày bé đi 3 lần sáng trưa và chiều. Mong bác sĩ cho em lời khuyên. Em cảm ơn ạ!\nTrả lời: Chào bạn, với câu hỏi của bạn thì tôi xin trả lời như sau:\nNếu bé bú sữa mẹ, cháu có thể đi phân lỏng hoa cà hoa cải, 3-4 lần/ ngày, bé không sốt như vậy là bình thường. Còn vấn đề đi tiêu lỏng của con bạn, theo tôi thì không có gì lo ngại lắm trừ khi phân có nhầy và máu. Hiện tại con của bạn đi ngoài 3 lần/ ngày là bình thường. Hai tháng đầu bé lên cân như thế là tốt và bạn cũng nên nhớ rằng khi trẻ càng lớn sự lên cân của trẻ sẽ giảm dần, nhưng hơn 1 tháng nay chưa lên cân thì xem lại chế độ ăn của mẹ nhé, mẹ có kiêng khem quá khi thấy con đi phân xì xoẹt không? Sau khi điều chỉnh chế độ ăn của mẹ về bình thường mà con sau 2 tuần nữa mà con chưa tăng cân thì bạn nên cho con đi khám bác sĩ dinh dưỡng. Chúc bé hay ăn chóng lớn và luôn khỏe mạnh!",
+                "score": 0.8139756917953491,
+                "id": "vietnamese_medical_qa_4846",
+                "rerank_score": 0.9965952038764954
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bé nhà em mới sinh được 14 ngày. Bé đi phân su có 1 ngày sau sinh là hết. Từ lúc ra phân vàng, ngày nào bé cũng đi 7 - 8 lần/ ngày, có những ngày bé đi 10 lần. Thi thoảng, bé đi ngoài còn có bọt. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần, phân bọt có phải viêm ruột không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn bú mẹ đi phân hoa cà hoa cải, thỉnh thoảng hơi bọt nhưng trẻ không đau bụng, không quấy, bé tăng cân tốt ngủ yên là bình thường. Nếu bạn còn lo lắng, bạn có thể đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể.",
+                "score": 0.8450340032577515,
+                "id": "medical_vietnamese_qa_4489",
+                "rerank_score": 0.9989211559295654
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được 4 tháng tuổi. Bé đi ngoài 4 lần/ ngày, phân lỏng có hạt trắng to có nhầy và có bọt (kéo dài hơn 2 tuần nay). Em đã đưa đi khám và cho bé uống men tiêu hoá theo đơn nhưng tình trạng không cải thiện. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần, phân lỏng kèm hạt trắng có sao không?Nếu tình trạng này của bé kéo dài nữa có sao không? Em thật sự rất lo, mong bác sĩ tư vấn. Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đi ngoài 4 lần/ 1 ngày, phân lỏng kèm hạt trắng thì bạn nên cho bé ăn sữa mẹ hoàn toàn trong 6 tháng đầu. Đã 2 tuần bé đại tiện phân nhầy, bọt, nếu bé bú giảm, mệt, chậm lên cân thì bạn nên tái khám bác sĩ, bác sĩ sẽ khám, có sự điều chỉnh lại đơn thuốc cho bé.",
+                "score": 0.8386306166648865,
+                "id": "medical_vietnamese_qa_5135",
+                "rerank_score": 0.9983183145523071
+            },
+            {
+                "text": "Câu hỏi: Con em được 4 tháng 10 ngày nặng 7kg. Cháu bú mẹ hoàn toàn. Cháu ngày đi ngoài 4 - 5 lần, phân màu vàng hoa cà hoa cải có nước và sủi bọt. Thỉnh thoảng, bé có són 1 ít phân ra. Bé vẫn bú bình thường, không quấy khóc. Hiện giờ, em đang cho bé uống men vi sinh mà không thấy cải thiện. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần kèm són phân có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bú mẹ hoàn toàn thì đi phân hoa cà hoa cải 4 - 5 lần/ ngày là tình trạng bình thường nên bạn không cần lo lắng. Bé lên cân tốt, bú khá, không quấy khóc thì bạn không cần bổ sung thêm men vi sinh.",
+                "score": 0.8540670871734619,
+                "id": "medical_vietnamese_qa_4923",
+                "rerank_score": 0.9980144500732422
+            },
+            {
+                "text": "Câu hỏi: Cháu nhà em sinh đến nay mới được 24 ngày. Mấy ngày gần đây, em thấy cháu đi ngoài nhiều, phân lỏng và có bọt. Vậy bác sĩ cho em hỏitrẻ sơ sinh đi ngoài nhiều, phân lỏng bọt có phải tiêu chảy không?Cách khắc phục như thế nào? Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Theo sinh lý bình thường ở trẻ sơ sinh, nếu bé được bú sữa mẹ hoàn toàn có thể đi ngoài từ 5 - 7 lần trong ngày. Tính chất phân bình thường của trẻ bú mẹ có kết cấu hơi mềm, màu vàng tự nhiên và điều này khiến nhiều cha mẹ hiểu lầm bé đang bị tiêu chảy. Trẻ sơ sinh mắc chứng tiêu chảy sẽ có tần suất đi ngoài tăng lên từ 10 lần trở lên trong ngày, kèm theo bé đi ngoài phân lỏng có bọt. Bên cạnh đó bé có những triệu chứng toàn thân như quấy khóc vô cớ, mệt mỏi, bỏ bú... Hầu hết, hiện hiện tượng bé đi ngoài phân có bọt xảy ra ở những bé 0 đến khoảng 36 tháng. Nguyên nhân chủ yếu là do hệ tiêu hoá chưa phát triển hoàn thiện và sức đề kháng - hệ miễn dịch của bé còn kém. Khi tình trạng bé đi ngoài phân sủi bọt xảy ra, cha mẹ cần theo dõi kỹ, nếu kéo dài và kèm theo các dấu hiệu khác thì cần nhanh chóng đưa con đến bệnh viện để được chẩn đoán, điều trị kịp thời và hạn chế xảy ra những biến chứng nguy hiểm.",
+                "score": 0.8167420625686646,
+                "id": "medical_vietnamese_qa_4424",
+                "rerank_score": 0.996791660785675
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bé nhà em hiện được 4 tháng. Bé bú sữa mẹ gần như hoàn toàn vì lúc mới sinh bé em chưa có sữa nên có cho bé dùng sữa công thức nửa tháng. Sau khi đủ sữa thì em không cho bé dùng nữa. Từ khi sinh ra bé đi ngoài phân xì xoẹt ngày 3_4 lần, hôm nào nhiều thì 5 lần, phân có nhầy thỉnh thoảng còn đi bọt bọt nữa. 2 tháng đầu bé lên cân đều và hơn 1 tháng nay bé không lên kg nữa. Vậy cho em hỏi bé nhà em như vậy có phải bị đi ngoài không và khi nào cần cho bé đi khám dinh dưỡng ạ. Từ lúc sinh em có bổ sung thêm men vi sinh biogaia, khi tròn 3 tháng em không cho bé dùng nữa. Nhưng bé vẫn đi ngoài như vậy. Hiện tại ngày bé đi 3 lần sáng trưa và chiều. Mong bác sĩ cho em lời khuyên. Em cảm ơn ạ!\nTrả lời: Chào bạn, với câu hỏi của bạn thì tôi xin trả lời như sau:\nNếu bé bú sữa mẹ, cháu có thể đi phân lỏng hoa cà hoa cải, 3-4 lần/ ngày, bé không sốt như vậy là bình thường. Còn vấn đề đi tiêu lỏng của con bạn, theo tôi thì không có gì lo ngại lắm trừ khi phân có nhầy và máu. Hiện tại con của bạn đi ngoài 3 lần/ ngày là bình thường. Hai tháng đầu bé lên cân như thế là tốt và bạn cũng nên nhớ rằng khi trẻ càng lớn sự lên cân của trẻ sẽ giảm dần, nhưng hơn 1 tháng nay chưa lên cân thì xem lại chế độ ăn của mẹ nhé, mẹ có kiêng khem quá khi thấy con đi phân xì xoẹt không? Sau khi điều chỉnh chế độ ăn của mẹ về bình thường mà con sau 2 tuần nữa mà con chưa tăng cân thì bạn nên cho con đi khám bác sĩ dinh dưỡng. Chúc bé hay ăn chóng lớn và luôn khỏe mạnh!",
+                "score": 0.8473855257034302,
+                "id": "vietnamese_medical_qa_4846",
+                "rerank_score": 0.9965952038764954
+            }
+        ],
+        [
+            {
+                "text": "Câu hỏi: Bé nhà em mới sinh được 14 ngày. Bé đi phân su có 1 ngày sau sinh là hết. Từ lúc ra phân vàng, ngày nào bé cũng đi 7 - 8 lần/ ngày, có những ngày bé đi 10 lần. Thi thoảng, bé đi ngoài còn có bọt. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần, phân bọt có phải viêm ruột không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Con bạn bú mẹ đi phân hoa cà hoa cải, thỉnh thoảng hơi bọt nhưng trẻ không đau bụng, không quấy, bé tăng cân tốt ngủ yên là bình thường. Nếu bạn còn lo lắng, bạn có thể đưa bé đến thăm khám bác sĩ chuyên khoa Nhi để được tư vấn cụ thể.",
+                "score": 0.8399662375450134,
+                "id": "medical_vietnamese_qa_4489",
+                "rerank_score": 0.9989211559295654
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em được 4 tháng tuổi. Bé đi ngoài 4 lần/ ngày, phân lỏng có hạt trắng to có nhầy và có bọt (kéo dài hơn 2 tuần nay). Em đã đưa đi khám và cho bé uống men tiêu hoá theo đơn nhưng tình trạng không cải thiện. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần, phân lỏng kèm hạt trắng có sao không?Nếu tình trạng này của bé kéo dài nữa có sao không? Em thật sự rất lo, mong bác sĩ tư vấn. Em cảm ơn.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn đi ngoài 4 lần/ 1 ngày, phân lỏng kèm hạt trắng thì bạn nên cho bé ăn sữa mẹ hoàn toàn trong 6 tháng đầu. Đã 2 tuần bé đại tiện phân nhầy, bọt, nếu bé bú giảm, mệt, chậm lên cân thì bạn nên tái khám bác sĩ, bác sĩ sẽ khám, có sự điều chỉnh lại đơn thuốc cho bé.",
+                "score": 0.8364025354385376,
+                "id": "medical_vietnamese_qa_5135",
+                "rerank_score": 0.9983183145523071
+            },
+            {
+                "text": "Câu hỏi: Con em được 4 tháng 10 ngày nặng 7kg. Cháu bú mẹ hoàn toàn. Cháu ngày đi ngoài 4 - 5 lần, phân màu vàng hoa cà hoa cải có nước và sủi bọt. Thỉnh thoảng, bé có són 1 ít phân ra. Bé vẫn bú bình thường, không quấy khóc. Hiện giờ, em đang cho bé uống men vi sinh mà không thấy cải thiện. Vậy bác sĩ cho em hỏitrẻ đi ngoài nhiều lần kèm són phân có sao không?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bé nhà bạn bú mẹ hoàn toàn thì đi phân hoa cà hoa cải 4 - 5 lần/ ngày là tình trạng bình thường nên bạn không cần lo lắng. Bé lên cân tốt, bú khá, không quấy khóc thì bạn không cần bổ sung thêm men vi sinh.",
+                "score": 0.8404123187065125,
+                "id": "medical_vietnamese_qa_4923",
+                "rerank_score": 0.9980144500732422
+            },
+            {
+                "text": "Câu hỏi: Chào bác sĩ. Bé nhà em hiện được 4 tháng. Bé bú sữa mẹ gần như hoàn toàn vì lúc mới sinh bé em chưa có sữa nên có cho bé dùng sữa công thức nửa tháng. Sau khi đủ sữa thì em không cho bé dùng nữa. Từ khi sinh ra bé đi ngoài phân xì xoẹt ngày 3_4 lần, hôm nào nhiều thì 5 lần, phân có nhầy thỉnh thoảng còn đi bọt bọt nữa. 2 tháng đầu bé lên cân đều và hơn 1 tháng nay bé không lên kg nữa. Vậy cho em hỏi bé nhà em như vậy có phải bị đi ngoài không và khi nào cần cho bé đi khám dinh dưỡng ạ. Từ lúc sinh em có bổ sung thêm men vi sinh biogaia, khi tròn 3 tháng em không cho bé dùng nữa. Nhưng bé vẫn đi ngoài như vậy. Hiện tại ngày bé đi 3 lần sáng trưa và chiều. Mong bác sĩ cho em lời khuyên. Em cảm ơn ạ!\nTrả lời: Chào bạn, với câu hỏi của bạn thì tôi xin trả lời như sau:\nNếu bé bú sữa mẹ, cháu có thể đi phân lỏng hoa cà hoa cải, 3-4 lần/ ngày, bé không sốt như vậy là bình thường. Còn vấn đề đi tiêu lỏng của con bạn, theo tôi thì không có gì lo ngại lắm trừ khi phân có nhầy và máu. Hiện tại con của bạn đi ngoài 3 lần/ ngày là bình thường. Hai tháng đầu bé lên cân như thế là tốt và bạn cũng nên nhớ rằng khi trẻ càng lớn sự lên cân của trẻ sẽ giảm dần, nhưng hơn 1 tháng nay chưa lên cân thì xem lại chế độ ăn của mẹ nhé, mẹ có kiêng khem quá khi thấy con đi phân xì xoẹt không? Sau khi điều chỉnh chế độ ăn của mẹ về bình thường mà con sau 2 tuần nữa mà con chưa tăng cân thì bạn nên cho con đi khám bác sĩ dinh dưỡng. Chúc bé hay ăn chóng lớn và luôn khỏe mạnh!",
+                "score": 0.8410472869873047,
+                "id": "vietnamese_medical_qa_4846",
+                "rerank_score": 0.9965952038764954
+            },
+            {
+                "text": "Câu hỏi: Bé nhà em hiện 3 tháng tuổi. Từ lúc sinh đến giờ, bé đi ngoài 3-4 ngày 1 lần. Khi được 2,5 tháng, bé vẫn tăng cân đều nhưng nửa tháng nay bé chỉ lên được 1 lạng. Bé đi tiêu phân hoa cà hoa cải nhiều. Hiện bé bú mẹ và dặm thêm 1 bình sữa công thức trước khi đi ngủ. Bác sĩ cho em hỏi,trẻ 3 tháng tuổi đi ngoài hoa cà hoa cải phải làm sao?Em cảm ơn bác sĩ!\nTrả lời: bác sĩ xin giải đáp như sau: Phân của trẻbú sữa mẹ thường có màu vàng hoặc hơi xanh, sệt lỏng, có thể hơi ướt, lợn cợn những hạt trắng trộn lẫn trong phân. Nếu phân của bé có nhiều nhầy hoặc có màu sắc bất thường (đỏ, đen, bạc màu), bạn nên đưa bé đến khám để đánh giá tình trạng tiêu hóa và tư vấn cụ thể. Ngoài ra, ở giai đoạn 3 tháng, khoảng cách của các lần bú tầm 3 tiếng. Lên giai đoạn 4 tháng thì khoảng cách khoảng 4 tiếng. Khi bé đi vệ sinh, bạn cũng để ý vệ sinh cho bé để tránh hăm tã.",
+                "score": 0.8283782601356506,
+                "id": "medical_vietnamese_qa_5689",
+                "rerank_score": 0.9925656318664551
+            }
+        ]
+    ],
+    "llm_call": 7,
+    "num_turns": 3
+}

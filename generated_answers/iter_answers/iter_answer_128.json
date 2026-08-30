@@ -1,0 +1,35 @@
+{
+    "model_name": "iter_retgen",
+    "question": "Người thân em bị u nang bàng quang. Cứ tiểu ra máu, 6 năm trước đi bệnh viện, bác sĩ chỉ định phẫu thuật, nhưng chị ấy không chịu, giờ cứ bị hoài vậy luôn. Bác sĩ cho em hỏinữ giới bị u nang bàng quang tiểu ra máu điều trị được không? Thạch Sa Na(1981) Trả lời Được giải đáp bởiThạc sĩ, Bác sĩ Vũ Ngọc Thắng- Trung tâm Tiêu hóa - Gan mật - Tiết niệu, Bệnh viện Đa khoa Quốc tế Vinmec Times City.",
+    "ground_truth": "Chào bạn, Với câu hỏi “Nữ giới bị u nang bàng quang tiểu ra máu điều trị được không?”, xin được giải đáp như sau: Nếu chị của bạn bị tiểu ra máu, bạn cần phải đưa đến bệnh viện càng sớm càng tốt để các bác sĩ thăm khám và loại trừ các bệnh lý ác tính của hệ tiết niệu từ đó mới có thể tư vấn điều trị một cách cụ thể.",
+    "answer": "Nữ giới bị u nang/u bàng quang kèm tiểu máu vẫn có thể điều trị, nhưng tiểu máu kéo dài hoặc tái diễn suốt 6 năm cần được khám chuyên khoa Tiết niệu càng sớm càng tốt, không nên tiếp tục trì hoãn vì phải loại trừ u ác tính và các nguyên nhân khác như viêm, sỏi hoặc nhiễm trùng đường tiểu. Bác sĩ có thể chỉ định xét nghiệm máu, nước tiểu, cấy nước tiểu, siêu âm và khi cần nội soi bàng quang để xác định chính xác tổn thương, từ đó tư vấn thuốc, theo dõi hay phẫu thuật phù hợp; gia đình nên mang theo hồ sơ khám cũ và đưa chị đi khám sớm, đặc biệt nếu tiểu máu nhiều, kéo dài hoặc có cục máu gây khó tiểu.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Nữ giới bị u nang bàng quang tiểu ra máu điều trị được không?\nTrả lời: Nếu chị của bạn bị tiểu ra máu, bạn cần phải đưa đến bệnh viện càng sớm càng tốt để các bác sĩ thăm khám và loại trừ các bệnh lý ác tính của hệ tiết niệu từ đó mới có thể tư vấn điều trị một cách cụ thể.",
+            "score": 0.7870901823043823,
+            "id": "vietnamese_healthcare_875"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm mổ cắt đốt u bàng quang hiện đã được 3 tuần, nhưng vẫn còn hiện tượng tiểu máu. Bác sĩ cho em hỏi tiểu máu sau cắt đốt u bàng quang được 3 tuần có nguy hiểm không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nCác triệu chứng có thể gặp sau mổ cắt đốt u bàng quang: Tiểu máu, nhiễm khuẩn niệu, hội chứng kích thích bàng quang,... sau mổ có hiện tượng tiểu máu cũng hay gặp. Nhưng nếu tiểu máu lượng nhiều và kéo dài hơn thì khả năng vị trí mổ chưa được cầm máu.\nTiểu máu sau mổ cắt u bàng quang cũng là một biến chứng hay gặp, nếu chảy máu nhiều cũng khá nguy hiểm. Vì vậy, bạn nên đến tái khám với bác sĩ phẫu thuật trực tiếp cho bạn để có phương án xử lý cầm máu.\nTrân trọng!",
+            "score": 0.7392397522926331,
+            "id": "vietnamese_medical_qa_1594"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Trước tết em bị tiểu buốt ra máu sau đó tự hết. Thời gian sau tái lại rồi cũng tự hết. Em có đi xét nghiệm nước tiểu, siêu âm bàng quang không bị gì. Bác sĩ chẩn đoán em bị viêm bàng quang cấp và cho em toa thuốc uống hết đến nay. Vậy bác sĩ cho em hỏi, em có nên nội soi xem có khối u không ạ? Mong bác sĩ tư vấn. Cảm ơn bác sĩ ạ!\nTrả lời: Chào bạn. Viêm bàng quang sẽ gây tiểu buốt và tiểu máu. Nếu đã siêu âm kiểm tra và uống thuốc hết thì càng khẳng định tiểu máu là do viêm bàng quang. Như vậy, bác sĩ đã chẩn đoán đúng và điều trị đúng cho em. Em không cần quá lo lắng. Bướu bàng quang có thể được chẩn đoán sớm bằng siêu âm. Nội soi bàng quang là thủ thuật xâm lấn, có biến chứng như làm hẹp niệu đạo, nhiễm trùng... và chỉ được sử dụng nếu tiểu máu tái phát không điều trị hết hay có nghi ngờ u trên siêu âm bạn nhé.",
+            "score": 0.7384160757064819,
+            "id": "vietnamese_medical_qa_3927"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nHôm trước, em có bị đi tiểu ra máu và hơi đau, sau khi xét nghiệm được chẩn đoán là viêm bàng quang. Bác sĩ khám bệnh bảo là chỉ cần uống nhiều nước là khỏi. Qua 3 hôm rồi thì em không còn đi vệ sinh ra máu nhưng mà có bị căng vùng bụng dưới và mắc tiểu nhiều lần, có lúc mắc nhưng đi không có nhiều. Vậy bác sĩ cho em hỏi mắc viêm bàng quang kèm tiểu máu có sao không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTiểu máu là triệu chứng của bệnh lý đường tiết niệu: Thường gặp nhiễm trùng đường tiểu, viêm bàng quang niệu đạo, sỏi bàng bang, sỏi thận,...Trường hợp của bạn khả năng bị viêm bàng quang.\nTốt nhất, bạn nên đến bệnh viện khám chuyên khoa Nội hoặc Ngoại Tiết niệu, để bác sĩ chuyên khoa khám xác định bệnh điều trị, không nên để kéo dài gây ảnh hưởng đến sức khỏe , hoặc gây những biến chứng nguy hiểm.\nKhi đến khám, bác sĩ sẽ khám và cần thiết có thể chỉ định bạn làm các xét nghiệm máu, nước tiểu, siêu âm, X - quang,...để đánh giá tình trạng nhiễm trùng và xác định nguyên nhân bệnh để điều trị. Bạn cũng nên nên uống nhiều nước trong ngày.\nTrân trọng!",
+            "score": 0.7305134534835815,
+            "id": "vietnamese_medical_qa_1192"
+        },
+        {
+            "text": "Câu hỏi: Viêm bàng quang tái đi tái lại nhiều lần kèm tiểu ra máu phải làm sao?\nTrả lời: Bác sĩ khuyên bạn nên đến bệnh viện khám bác sĩ chuyên khoa nội tiết niệu để xác định chẩn đoán, cần thiết phải siêu âm xem hệ tiết niệu có sỏi không?Đồng thời nội soi bàng quang, xét nghiệm máu và nước tiểu, cấy nước tiểu để xác định vi khuẩn, làm kháng sinh đồ chọn kháng sinh để điều trị đủ liệu trình. Bên cạnh đó, bạn cũng nên khám chuyên khoa sản để loại trừ các bệnh phụ khoa, đây là nguyên nhân gây viêm đường tiết niệu tái đi lại nhiều lần.",
+            "score": 0.7130444645881653,
+            "id": "vietnamese_healthcare_219"
+        }
+    ],
+    "llm_call": 3,
+    "iteration": 3
+}

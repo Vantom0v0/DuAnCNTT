@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Xin chào bác sĩ,\nTôi gửi hình ảnh này bác sĩ xem giúp tôi bị làm sao.\nBan đầu lòng bàn chân tôi hơi đau kiểu như có gai. Tôi cạy lên nhưng ko có.xong nó to dần lên và đau.\nGiờ nó sưng đỏ cả xung quanh cái mụn đau. \nCó phải tôi bị mụn cóc không ạ?\nTôi phải điều trị tn ạ. Tôi lại đang cho con bú , con tôi được 2 tháng rưỡi.\nCảm ơn bác sĩ",
+    "ground_truth": "Chào bạn ,\nBạn vui lòng cung cấp hình ảnh trong câu hỏi mới để bác sỹ hỗ trợ tư vấn được chính xác, đầy đủ.\nCòn theo như bạn mô tả thì có khả năng mụn đó đã bị nhiễm trùng, nếu nhẹ bạn chỉ cần ngâm chân bằng nước muối  hàng ngày. Nếu nặng bạn nên uống thêm kháng sinh. \nThân mến!",
+    "answer": "Chào bạn, dựa trên mô tả, tổn thương lòng bàn chân có thể là nhiễm trùng da hoặc áp xe, nhưng tài liệu không đủ thông tin để xác định có phải mụn cóc hay không. Bạn không nên tiếp tục cạy hoặc tự nặn vì có thể gây nhiễm trùng thứ phát. Do vùng tổn thương đang sưng đỏ và đau tăng dần, bạn nên sớm đến khám chuyên khoa Da liễu hoặc cơ sở y tế để bác sĩ đánh giá và lựa chọn điều trị phù hợp; nếu áp xe lớn hoặc nhiễm trùng, có thể cần xử trí và chăm sóc vết thương theo chỉ định. Tài liệu không cung cấp đủ thông tin về thuốc điều trị an toàn khi đang cho con bú, vì vậy bạn không nên tự dùng thuốc mà hãy thông báo rõ việc đang cho con bú với bác sĩ.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nChân em tự dưng sưng lên một cục to, có ngòi. Ban đầu, em nghĩ là nhọt nhưng dần dần sưng to và tấy lên. Vậy bác sĩ cho em hỏi chân bị sưng tấy có phải nhiễm trùng do tụ cầu không? Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nTheo như bạn mô tả thì có thể bạn đang bị nhiễm trùng da. Mong bạn có thể cung cấp thêm hình ảnh tổn thương da, những điều trị đã dùng để việc chẩn đoán và điều trị dễ dàng hơn. Trường hợp da đang rất khó chịu thì bạn hãy đến khám chuyên khoa Da liễu để điều trị sớm. Bác sĩ sẽ đánh giá lại tình trạng da của bạn, chỉ định thêm một số xét nghiệm nếu cần thiết và đưa ra phác đồ điều trị theo tình trạng hiện tại của bạn.\nTrân trọng!",
+            "score": 0.6522133350372314,
+            "id": "vietnamese_medical_qa_4819"
+        },
+        {
+            "text": "Câu hỏi: Em bị nổi 1 cục u ở lưng. Cách đây 2 tuần, cục u to bằng 2 đốt tay, cứng, sưng đau, nhưng không bị sốt. Vì đang giãn cách nên em cũng không đi khám trực tiếp được. Sau 1, 2 ngày thì khối u ko sưng thêm và hết đau. Hôm nay, nó lại tiếp tục sưng đỏ, to ra bằng 3 đốt ngón tay, người em hơi mệt. Vậy bác sĩ cho em hỏinữ giới nổi cục u ở lưng, sưng đỏ nguyên nhân là gì?Em cảm ơn bác sĩ.\nTrả lời: bác sĩ xin giải đáp như sau: Bạn mới sưng đau ở lưng thì nguyên nhân thông thường viêm nhiễm, áp xe vùng lưng, bạn nên đi khám chuyên khoa Ngoại tổng hợp để được kiểm tra và có phương thức điều trị thích hợp.",
+            "score": 0.63692307472229,
+            "id": "medical_vietnamese_qa_8978"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nEm bị nổi u nhọt ở chân trái đã mổ ở bệnh viện 1 lần năm 2012. Tới nay chỗ đó lại nổi lên y như vậy càng ngày nó càng bự, không đau nhức. Cách đây cỡ 2 tuần em thấy nó làm miệng và vỡ em nặn một ít và dùng băng cá nhân dán lại. Bác sĩ cho em hỏi tái phát nổi u nhọt ở chân sau mổ có sao không? Do tình hình dịch bệnh covid 19 khó khăn không đến bệnh viện khám được mong bác sĩ trả lời giúp em. Em cảm ơn bác sĩ.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNhọt là một dạng nhiễm trùng da với xuất phát điểm từ lỗ chân lông hay tuyến dầu nhờn. Nhọt không có nhiều biến chứng, nhưng có trường hợp nhọt diễn tiến thành mụn nhọt tái phát. Bạn không nên tự nặn vì có thể dẫn đến nhiễm trùng thứ phát.\nNhọt thường không phải tình trạng cấp cứu cần can thiệp ngay, nếu theo dõi tại nhà có dấu hiệu sưng đỏ, nung mủ hoặc dấu hiệu sốt, sưng đau chân trái cần khám bác sĩ để được điều trị nhọt tái phát đúng cách.\nTrân trọng!",
+            "score": 0.6334570646286011,
+            "id": "vietnamese_medical_qa_1392"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ! Em hay bị sưng chân răng cứ mỗi lần ăn đồ ăn cứng là đau, sau 5 phút lại sưng lên. Hiện cả 2 bên luôn ạ, em nghĩ mình bị quai bị nhưng không có các triệu chứng sốt đau đầu, buồn nôn, không biết nguyên nhân tại sao. Bác sĩ có thể tư vấn giúp em về trường hợp thường sưng chân răng và đau nguyên nhân do đâu? Em cảm ơn bác sĩ.\nTrả lời: Qua thăm khám bác sĩ sẽ tư vấn cụ thể về trường hợp, thường sưng chân răng và đau nguyên nhân do đâu? Rất mong có thể sớm gặp bạn tại AI-Doctor để trao đổi thêm. Trân trọng.",
+            "score": 0.6307615637779236,
+            "id": "vietnamese_medical_qa_2247"
+        },
+        {
+            "text": "Câu hỏi: Chào Bác sĩ,\nBác sĩ cho em hỏi, em bị sưng 1 cục tròn to ở vùng bẹn. Nó nằm ở giữa chân trái và bộ phận sinh dục. Rất đau và chảy mủ máu. Bác sĩ cho em hỏi đấy là triệu chứng của bệnh gì ạ? Có nguy hiểm và cách chữa, thuốc thang như thế nào ạ? Em xin chân thành cảm ơn bác sĩ.\nKhách hàng tại Hà Nội (1988)\nChào bác sĩ. Tôi bị mụn ở mông bên phải cách hậu môn 2cm gì đó cùng thời điểm này tôi bị lên hạch ở bẹn phải tôi lấy tay kiểm tra thì thấy một đường sưng cứng kéo dài từ chỗ bị mụn lên đến bẹn phải, gây đau, đi lại khó khăn. Tôi dùng kháng sinh thì thấy đỡ. Tôi bị như thế có nghiêm trọng không bác sĩ tôi thực sự lo lắng mong được bác sĩ tư vấn. Xin cảm ơn.\nChào bác sĩ. Em bị nổi hạch ở bẹn khoảng 1 tuần nay và hôm nay bắt đầu thấy hơi nhức khi đụng vào. Nhưng hạch không bị to và nhô ra. Chỉ lấy tay đụng vào mới thấy thôi ạ. Cho em hỏi hạch vậy là dấu hiệu của các bệnh gì ạ. Em cảm ơn\nTrả lời: Chào bạn,\nTôi xin được tư vấn về trường hợp của bạn như sau: Theo bạn mô tả, đây có thể là 1 trường hợp nhiễm trùng, tạo thành áp xe. Bạn cần tới khám tại cơ sở y tế để bác sĩ khám, đánh giá và tìm nguyên nhân. Trường hợp nhẹ có thể dùng thuốc đơn thuần, trường hợp áp xe to hoặc nhiễm trùng trên nền 1 bệnh có sẵn (ví dụ: bướu bã...), bác sĩ có thể cấy mủ để tìm vi trùng gây bệnh và rạch thoát mủ, thay băng thường xuyên cho vết thương lành.\nCảm ơn bạn đã đặt câu hỏi tới website AI-Doctor.com. Trân trọng!",
+            "score": 0.6118448376655579,
+            "id": "vietnamese_medical_qa_4842"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}

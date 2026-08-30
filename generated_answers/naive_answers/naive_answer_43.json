@@ -1,0 +1,35 @@
+{
+    "model_name": "naive_rag",
+    "question": "Cần làm gì khi họng sờ thấy cục vướng và đau?",
+    "ground_truth": "Đau họng, vướng họng là tình trạng bệnh thường gặp, tuy nhiên nếu bạn thấy có cục cứng trong họng bạn nên đi nội soi Tai - Mũi - Họng để biết được nguyên nhân chính xác nhé.",
+    "answer": "Cảm giác họng sờ thấy cục vướng kèm đau có thể liên quan đến viêm họng, viêm amidan, loạn cảm họng hoặc các nguyên nhân khác như bệnh tuyến giáp, trào ngược dạ dày–thực quản; chỉ dựa vào triệu chứng này chưa thể xác định bệnh, kể cả ung thư. Bạn nên đến khám chuyên khoa Tai–Mũi–Họng để được kiểm tra, nội soi và làm thêm xét nghiệm khi cần, đặc biệt nếu tình trạng kéo dài hoặc nuốt vướng tăng lên.",
+    "retrieved": [
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nTôi bị đau họng lâu rồi không khỏi, bây giờ nó có cảm giác vướng mắc cổ họng như có gai đâm á và còn cảm thấy nuốt nước bọt nghẹn cổ, ăn uống thấy bình thường không đau, xin hỏi bác sĩ nuốt vướng kèm đau họng dấu hiệu bệnh gì? Cảm ơn bác sĩ tư vấn.\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nCảm giác vướng vùng cổ, nghẹn vùng cổ khi nuốt nước bọt, ăn uống bình thường gợi ý tình trạng loạn cảm họng (dị cảm vùng họng). Tuy vậy, nếu bạn gặp tình trạng trên kéo dài thì bạn nên đến phòng khám Tai mũi họng để nội soi và làm thêm một số xét nghiệm để tầm soát các bệnh lý khác gây cảm giác vướng vùng cổ, đồng thời xác định nguyên nhân gây loạn cảm họng để điều trị hiệu quả tình trạng trên.\nTrân trọng!",
+            "score": 0.6919236183166504,
+            "id": "vietnamese_medical_qa_374"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Mấy hôm nay cổ họng em có biểu hiện vướng cục ở cổ khi nuốt, ngồi, nằm điều có cảm giác khó chịu như cục gì bên trong. Em không đau nhưng làm cho em mệt mỏi và nóng trong người. Bác sĩ cho em hỏi với tình trạng cổ họng vướng khi nuốt, người mệt mỏi kèm nóng trong là dấu hiệu bệnh gì?\nTrả lời: Chào bạn. Cảm ơn bạn đã tin tưởng và chia sẻ những lo lắng tới AI-Doctor. Với trường hợp của bạn nếu vẫn ăn, nuốt được bình thường thì không đáng ngại. Nhưng bạn nên đến bác sĩ chuyên khoa để được kiểm tra và có những tư vấn chuyên sâu về tình trạng cổ họng vướng khi nuốt, người mệt mỏi kèm nóng trong là dấu hiệu bệnh gì?",
+            "score": 0.668287992477417,
+            "id": "vietnamese_medical_qa_3426"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ. Tôi bị nuốt vướng kèm theo đau họng, ho và viêm họng. Tôi uống thuốc kháng sinh thì thấy khỏi ho nhưng khi sờ yết hầu thì thấy gồ lên, lúc nói thấy bị lặp lại từ ngữ, hầu như nói lắp. Bác sĩ cho tôi hỏi đó có phải dấu hiệu của ung thư vòm họng không ạ? Mong bác sĩ tư vấn giúp tôi. Tôi xin cảm ơn.\nTrả lời: Chào bạn!\nTheo như triệu chứng bạn mô tả thì bạn có triệu chứng nuốt vướng. Nuốt vướng chỉ là một triệu chứng của Ung thư hạ họng - thanh quản. Nuốt vướng cũng là triệu chứng có thể gặp trong bệnh viêm họng,...\nĐể xác định xem có bị ung thư hay không thì bạn nên đi khám chuyên khoa Tai - Mũi - Họng, thực hiện nội soi và đánh giá bệnh lý.",
+            "score": 0.6390411257743835,
+            "id": "vietnamese_medical_qa_4484"
+        },
+        {
+            "text": "Câu hỏi: Cảm giác vướng vùng cổ họng, khạc không ra là dấu hiệu bệnh gì?\nTrả lời: Triệu chứng vướng vùng cổ họng thường do một số nguyên nhân tại chỗ vùng khoang miệng như: Viêm họng cấp, viêm họng mạn, viêm amydal quá phát, ung thư vòm họng... và ngoài khoang miệng như: U tuyến giáp, khối u thực quản, trào ngược dạ dày thực quản, rối loạn thần kinh...",
+            "score": 0.6350342035293579,
+            "id": "vietnamese_healthcare_3234"
+        },
+        {
+            "text": "Câu hỏi: Chào bác sĩ,\nCách đây 3 tháng, em có đi khám tổng quát, được chẩn đoán nang 2 thuỳ tuyến giáp. Dạo gần đây, em cảm thấy hơi đau, nuốt vướng, 2 ngày trở lại đây cảm giác nuốt vướng tăng hơn và gây buồn nôn, thậm chí là nôn nhiều. Bác sĩ cho em hỏi, nuốt vướng kèm buồn nôn phải làm sao?\nTrả lời: Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nĐa phần các trường hợp bị nhân tuyến giáp đều không có triệu chứng gì đặc biệt, chỉ phát hiện qua thăm khám định kỳ hoặc trong quá trình xét nghiệm khi điều trị bệnh lý khác. Một số trường hợp bệnh nhân để ý quan sát kỹ sẽ phát hiện các dấu hiệu sau:\nNuốt vướng, hồi hộp, người nóng, trống ngực, có cảm giác vùng tuyến giáp bị đè, rối loạn tiêu hóa, sút cân,...\nMắt lồi, tăng nhanh nhịp đập tim, tay run, sờ thấy tuyến giáp có nhân chắc và di động nhưng không đau.\nCó hiện tượng tắc nghẽn khoang lồng ngực do kích thước nhân gia tăng với các dấu hiệu: khó thở, nghẹt thở, ho, buồn ngủ, thở hụt hơi, phù mặt, phù cổ,...\nHiếm gặp: tê liệt dây thần kinh hoặc các triệu chứng Horner do chèn ép kéo dài dây thần kinh thanh quản.\nBạn đã khám tổng quát phát hiện nang 2 thuỳ tuyến giáp. Bạn nên thăm khám bác sĩ chuyên khoa để kiểm tra, làm thêm xét nghiệm đánh giá chức năng tuyến giáp kiểm tra và từ đó. Từ đó, bác sĩ sẽ tư vấn điều trị cụ thể, thích hợp nhất cho bạn.\nTrân trọng!",
+            "score": 0.6187053322792053,
+            "id": "vietnamese_medical_qa_1021"
+        }
+    ],
+    "llm_call": 1,
+    "iteration": 1
+}
